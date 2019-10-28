@@ -1,0 +1,192 @@
+<!--<?oxygen RNGSchema="../../schemas/tei_all.rng" type="compact"?>-->
+<!--<?oxygen RNGSchema="enrich-syriaca.rnc" type="compact"?>-->
+<?oxygen RNGSchema="../../schemas/syriaca-tei-main.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="../../parameters/wright-mss.css"?>
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <!-- JK: below are my edits; my goal was to make sure that validation errors were centered exclusively on
+      those fields that needed to be filled out. I also had to make sure the document was well-formed (it wasn't) -->
+      <!-- JK: I filled the next three siblings with stuffing -->
+      <titleStmt>
+        <title>Content pending</title>
+      </titleStmt>
+      <editionStmt>
+        <p>Content pending</p>
+      </editionStmt>
+      <publicationStmt>
+        <p>Content pending</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <idno type="URI">$FIXME$</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">$FIXME$ [example, Add MS $$$, ff]</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary/>
+            <!-- JK: I had to add @mainLang -->
+            <textLang mainLang=""/>
+            <msItem defective="$FIXME$">
+              <locus from="$FIXME$" to="$FIXME$[usually empty]"/>
+              <author ref="$FIXME$">$FIXME$</author>
+              <!-- button to add author elements.-->
+              <!-- JK: when the cursor is in the box, simply hit enter and options will show up -->
+              <!-- ability to enter XML in the box -->
+              <!-- JK: see above: only XML elements that are allowed will be provided -->
+              <title ref="$FIXME$" xml:lang="syr" attribute="syr">$FIXME$</title>
+              <!-- button to add title elements -->
+              <!-- JK: to be discussed -->
+              <!-- ability to enter XML in the box -->
+              <!-- JK: see above -->
+              <!-- Menu labels and contents: 
+          <language ident="syr">Unvocalized Syriac of any variety or period</language>
+          <language ident="syr-Syre">Syriac in Estrangela</language>
+          <language ident="syr-Syrj">Vocalized West Syriac</language>
+          <language ident="syr-Syrn">Vocalized East Syriac</language>
+          <language ident="syr-x-syrm">Melkite Syriac</language>
+          <language ident="syr-x-syrp">Palestinian Syriac</language>
+          <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
+          <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
+          <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>        
+          <language ident="en">English</language>
+          <language ident="ar">Arabic</language>
+          <language ident="fr">French</language>
+          <language ident="de">German</language>
+          <language ident="la">Latin</language>
+          <language ident="grc">Ancient Greek</language>
+          <language ident="cop">Coptic</language>
+                -->
+              <!-- JK: done -->
+              <rubric xml:lang="syr"> $FIXME$ </rubric>
+              <!-- button to add rubric elements -->
+              <!-- JK: to be discussed -->
+              <incipit xml:lang="syr">$FIXME$</incipit>
+              <quote xml:lang="syr">
+                <locus from="$FIXME$" to="$FIXME$[usually empty]"/> $FIXME$ </quote>
+              <!-- button to add quote elements -->
+              <!-- JK: to be discussed -->
+              <explicit xml:lang="syr">
+                <locus from="$FIXME$" to="$FIXME$[usually empty]"/> $FIXME$ </explicit>
+              <!-- button to add explicit elements -->
+              <!-- JK: to be discussed -->
+              <finalRubric xml:lang="syr">
+                <locus from="$FIXME$" to="$FIXME$[usually empty]"/> $FIXME$ </finalRubric>
+              <!-- button to add finalRubric elements -->
+              <!-- JK: to be discussed -->
+              <note>$FIXME$</note>
+              <!-- button to add note elements -->
+              <!-- JK: to be discussed -->
+              <!-- ability to enter XML in the box -->
+              <!-- JK: built in -->
+              
+            </msItem>
+            <!-- 2 buttons to add and/or nest msItems elements -->
+          </msContents>
+          <physDesc>
+            <objectDesc form="$MENU$">
+              <supportDesc material="$MENU$">
+                <extent>
+                  <!-- JK: I had to add this element -->
+                  <measure unit="content_pending" quantity="-1"/>
+                </extent>
+                <foliation/>
+                <collation/>
+                <condition>
+                  <list>
+                    <item>
+                      <p>$FIXME$</p>
+                      <!-- ability to enter XML in the box -->
+                      <!-- JK: built in -->
+                    </item>
+                  </list>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <p>Content pending</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote xml:id="handNote1" scope="$MENU$" script="$MENU$"
+                medium="$FIXME$[usually &apos;unknown&apos;">
+                <!-- @scope Menu: {'sole', 'major', 'minor'} -->
+                <!-- @script Menu: {'syr-Syre', 'syr-Syrj', 'syr-Syrn', 'syr-x-syrm', 'syr-x-syrp', 'ar-Syrc' 'mixed', 'unknown'} 
+                  Labels:
+                  syr-Syre = Estrangela
+                  syr-Syrj = Jacobite Syriac or Syriac with Greek vowels
+                  syr-Syrn = Nestorian Syriac or Syriac with pointed vowels
+                  syr-x-syrm = Malkite or Melkite 
+                  syr-x-syrp = Palestinian Syriac
+                  ar-Syrc = Arabic translation in Syriac Characters   
+                  -->
+                <!-- JK: done -->
+                <desc>$FIXME$</desc>
+                <!-- ability to enter XML in the box -->
+                <!-- JK: built in -->
+                <!-- button to add handNote elements -->
+                <!-- JK: to be discussed -->
+              </handNote>
+            </handDesc>
+            <additions>
+              <p>$Box$[Usually empty]</p>
+              <!-- label the above p as Notes on Additions -->
+              <!-- JK: done -->
+              <list>
+                <item>
+                  <locus from="$FIXME$" to="$FIXME$[usually empty]"/>
+                  <p>$FIXME$</p>
+                  <!-- ability to enter XML in the box -->
+                  <p><quote xml:lang="syr">$FIXME$</quote></p>
+                </item>
+                <!-- button to add item elements -->
+              </list>
+            </additions>
+            <bindingDesc>
+              <p>Content pending</p>
+            </bindingDesc>
+            <sealDesc>
+              <p>Content pending</p>
+            </sealDesc>
+            <accMat/>
+          </physDesc>
+          <history>
+            <origin>
+              <!-- JK: I haven't yet supported the next element, pending discussion -->
+              <origDate notBefore="$FIXME$" notAfter="$FIXME$" from="$FIXME$" to="$FIXME$" when="$FIXME$"
+                >$FIXME$</origDate>
+              <!-- These attributes are mutually exclusive, how should we handle this? @when is mutually exclusive with @notBefore and @notAfter -->
+              <!-- JK: this needs to be handled at the schema level; doesn't have to be RELAX-NG, it could be Schematron -->
+              <!-- Button to add origDate and to add a custom origDate based on below -->
+              <!-- JK: to be discussed; I recommend a Schematron quick fix -->
+              <origDate notBefore-custom="$FIXME$" notAfter-custom="$FIXME$" from-custom="$FIXME$"
+                to-custom="$FIXME$" when-custom="$FIXME$" datingMethod="$MENU$">$FIXME$</origDate>
+              <origPlace ref="$FIXME$" xml:lang="$MENU$">$FIXME$</origPlace>
+            </origin>
+            <provenance/>
+            <acquisition/>
+          </history>
+          <additional/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Content pending</p>
+    </encodingDesc>
+    <profileDesc/>
+    <revisionDesc status="draft">
+      <change when="$ISODATEFIXME$" who="$MENU$">Initial TEI encoding.</change>
+      <!-- @when takes entries in the form "YYYY-MM-DD" Please display the text "Initial TEI encoding." -->
+      <!-- JK: done -->
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <formula>Content pending</formula>
+  </facsimile>
+  <text>
+    <body>
+      <bibl>Content pending</bibl>
+    </body>
+  </text>
+</TEI>
