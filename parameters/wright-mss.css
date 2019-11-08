@@ -432,7 +432,7 @@ edit, "@when",
 format, "yyyy-MM-dd")
 }
 change:last-of-type:after(0){
-  content: "\A ADD PLANNED CHANGES: \A" oxy_button(actionID, "append.sibling.change.checkSyriac")
+  content: "\A \A ADD PLANNED CHANGES: \A" oxy_button(actionID, "append.sibling.change.checkSyriac")
   oxy_button(actionID, "append.sibling.change.question")
   oxy_button(actionID, "append.sibling.change.missing")
   oxy_button(actionID, "append.sibling.change.arabic")
