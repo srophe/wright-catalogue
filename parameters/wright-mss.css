@@ -237,6 +237,17 @@ placeName:before(0) {
   font-style: italic;
   font-size: 14px;
 }
+bibl {
+  display:inline;
+  background-color: ghostwhite;
+
+}
+bibl:before(0) {
+  content: "["oxy_local-name()"]";
+  color: black;
+  font-style: italic;
+  font-size: 14px;
+}
 /* FONTS */
 *:lang(syr),
 *:lang(syr-Syre),
