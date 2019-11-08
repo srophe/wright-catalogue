@@ -214,7 +214,18 @@ foreign {
   display: inline;
   background-color: white;
 }
+/* Display rules for sub-element wrapping by user */
+persName {
+  display:inline;
+  background-color: lightgray;
 
+}
+persName:before(0) {
+  content: "["oxy_local-name()"]";
+  color: black;
+  font-style: italic;
+  font-size: 14px;
+}
 /* FONTS */
 *:lang(syr),
 *:lang(syr-Syre),
