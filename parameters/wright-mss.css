@@ -226,6 +226,17 @@ persName:before(0) {
   font-style: italic;
   font-size: 14px;
 }
+placeName {
+  display:inline;
+  background-color: lightblue;
+
+}
+placeName:before(0) {
+  content: "["oxy_local-name()"]";
+  color: black;
+  font-style: italic;
+  font-size: 14px;
+}
 /* FONTS */
 *:lang(syr),
 *:lang(syr-Syre),
