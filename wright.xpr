@@ -108,7 +108,7 @@
                                                                 <actionMode-array>
                                                                     <actionMode>
                                                                         <field name="xpathCondition">
-                                                                            <String>oxy:allows-child-element("title")</String>
+                                                                            <String></String>
                                                                         </field>
                                                                         <field name="argValues">
                                                                             <serializableOrderedMap>
@@ -178,7 +178,7 @@
                                                                 <actionMode-array>
                                                                     <actionMode>
                                                                         <field name="xpathCondition">
-                                                                            <String>oxy:allows-child-element("msItem")</String>
+                                                                            <String></String>
                                                                         </field>
                                                                         <field name="argValues">
                                                                             <serializableOrderedMap>
@@ -264,7 +264,7 @@
                                                                 <actionMode-array>
                                                                     <actionMode>
                                                                         <field name="xpathCondition">
-                                                                            <String>oxy:allows-child-element("msItem")</String>
+                                                                            <String></String>
                                                                         </field>
                                                                         <field name="argValues">
                                                                             <serializableOrderedMap>
@@ -350,7 +350,7 @@
                                                                 <actionMode-array>
                                                                     <actionMode>
                                                                         <field name="xpathCondition">
-                                                                            <String>oxy:allows-child-element("locus")</String>
+                                                                            <String></String>
                                                                         </field>
                                                                         <field name="argValues">
                                                                             <serializableOrderedMap>
@@ -420,7 +420,7 @@
                                                                 <actionMode-array>
                                                                     <actionMode>
                                                                         <field name="xpathCondition">
-                                                                            <String>oxy:allows-child-element("author")</String>
+                                                                            <String></String>
                                                                         </field>
                                                                         <field name="argValues">
                                                                             <serializableOrderedMap>
@@ -490,7 +490,7 @@
                                                                 <actionMode-array>
                                                                     <actionMode>
                                                                         <field name="xpathCondition">
-                                                                            <String>oxy:allows-child-element("title")</String>
+                                                                            <String></String>
                                                                         </field>
                                                                         <field name="argValues">
                                                                             <serializableOrderedMap>
@@ -560,7 +560,7 @@
                                                                 <actionMode-array>
                                                                     <actionMode>
                                                                         <field name="xpathCondition">
-                                                                            <String>oxy:allows-child-element("rubric")</String>
+                                                                            <String></String>
                                                                         </field>
                                                                         <field name="argValues">
                                                                             <serializableOrderedMap>
@@ -630,7 +630,7 @@
                                                                 <actionMode-array>
                                                                     <actionMode>
                                                                         <field name="xpathCondition">
-                                                                            <String>oxy:allows-child-element("incipit")</String>
+                                                                            <String></String>
                                                                         </field>
                                                                         <field name="argValues">
                                                                             <serializableOrderedMap>
@@ -700,7 +700,7 @@
                                                                 <actionMode-array>
                                                                     <actionMode>
                                                                         <field name="xpathCondition">
-                                                                            <String>oxy:allows-child-element("quote")</String>
+                                                                            <String></String>
                                                                         </field>
                                                                         <field name="argValues">
                                                                             <serializableOrderedMap>
@@ -770,7 +770,7 @@
                                                                 <actionMode-array>
                                                                     <actionMode>
                                                                         <field name="xpathCondition">
-                                                                            <String>oxy:allows-child-element("explicit")</String>
+                                                                            <String></String>
                                                                         </field>
                                                                         <field name="argValues">
                                                                             <serializableOrderedMap>
@@ -840,7 +840,7 @@
                                                                 <actionMode-array>
                                                                     <actionMode>
                                                                         <field name="xpathCondition">
-                                                                            <String>oxy:allows-child-element("finalRubric")</String>
+                                                                            <String></String>
                                                                         </field>
                                                                         <field name="argValues">
                                                                             <serializableOrderedMap>
@@ -910,7 +910,7 @@
                                                                 <actionMode-array>
                                                                     <actionMode>
                                                                         <field name="xpathCondition">
-                                                                            <String>oxy:allows-child-element("note")</String>
+                                                                            <String></String>
                                                                         </field>
                                                                         <field name="argValues">
                                                                             <serializableOrderedMap>
@@ -1470,7 +1470,7 @@
                                                                 <actionMode-array>
                                                                     <actionMode>
                                                                         <field name="xpathCondition">
-                                                                            <String>oxy:allows-child-element("note")</String>
+                                                                            <String></String>
                                                                         </field>
                                                                         <field name="argValues">
                                                                             <serializableOrderedMap>
@@ -1613,7 +1613,7 @@
                                                                 <actionMode-array>
                                                                     <actionMode>
                                                                         <field name="xpathCondition">
-                                                                            <String>oxy:allows-child-element("p")</String>
+                                                                            <String></String>
                                                                         </field>
                                                                         <field name="argValues">
                                                                             <serializableOrderedMap>
@@ -2833,6 +2833,76 @@
                                                                         </field>
                                                                         <field name="operationID">
                                                                             <String>ro.sync.ecss.extensions.commons.operations.ChangeAttributeOperation</String>
+                                                                        </field>
+                                                                    </actionMode>
+                                                                </actionMode-array>
+                                                            </field>
+                                                            <field name="enabledInReadOnlyContext">
+                                                                <Boolean>false</Boolean>
+                                                            </field>
+                                                        </action>
+                                                    </field>
+                                                    <field name="patchHandling">
+                                                        <String>addIndex</String>
+                                                    </field>
+                                                    <field name="anchor">
+                                                        <null/>
+                                                    </field>
+                                                </poPatch>
+                                                <poPatch>
+                                                    <field name="fieldPath">
+                                                        <String>authorExtensionDescriptor/actionDescriptors</String>
+                                                    </field>
+                                                    <field name="index">
+                                                        <Integer>70</Integer>
+                                                    </field>
+                                                    <field name="value">
+                                                        <action>
+                                                            <field name="id">
+                                                                <String>append.sibling.change.checkSyriac</String>
+                                                            </field>
+                                                            <field name="name">
+                                                                <String>Check Syriac</String>
+                                                            </field>
+                                                            <field name="description">
+                                                                <String>The Syriac copied from the Word Document needs to be checked for accuracy</String>
+                                                            </field>
+                                                            <field name="largeIconPath">
+                                                                <String></String>
+                                                            </field>
+                                                            <field name="smallIconPath">
+                                                                <String></String>
+                                                            </field>
+                                                            <field name="accessKey">
+                                                                <String></String>
+                                                            </field>
+                                                            <field name="accelerator">
+                                                                <null/>
+                                                            </field>
+                                                            <field name="actionModes">
+                                                                <actionMode-array>
+                                                                    <actionMode>
+                                                                        <field name="xpathCondition">
+                                                                            <String></String>
+                                                                        </field>
+                                                                        <field name="argValues">
+                                                                            <serializableOrderedMap>
+                                                                                <entry>
+                                                                                    <String>fragment</String>
+                                                                                    <String>&lt;change xmlns="http://www.tei-c.org/ns/1.0" type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs to be checked for accuracy&lt;/change></String>
+                                                                                </entry>
+                                                                                <entry>
+                                                                                    <String>insertLocation</String>
+                                                                                    <String>.</String>
+                                                                                </entry>
+                                                                                <entry>
+                                                                                    <String>insertPosition</String>
+                                                                                    <String>After</String>
+                                                                                </entry>
+                                                                            </serializableOrderedMap>
+                                                                        </field>
+                                                                        <field name="operationID">
+                                                                            <String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
                                                                         </field>
                                                                     </actionMode>
                                                                 </actionMode-array>
