@@ -1,6 +1,5 @@
-<!-- This blank template last updated 18 September 2019. Delete this comment before editing any code below. -->
-<?oxygen RNGSchema="enrich-syriaca.rnc" type="compact"?>
-<?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/wlpotter/syriaca-wright-catalog/master/schemas/enrich-syriaca.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/wlpotter/syriaca-wright-catalog/master/parameters/wright-mss.css"?>
 <TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
@@ -87,6 +86,8 @@
                 <author ref=""/>
                 <title type="supplied" ref="http://syriaca.org/work/19">The Psalms, according to the Peshitta version</title>
                 <note>Divided into καθίσματα, each κἁθισμα (ܩܬܝܣܡܐ) being subdivided into ܫܘܒ̈ܚܐ. (marked ܏ܫܘ). Ps. cxviii. is in three parts, to each of which other hymns and prayers are appended; see foll. 189 b, 198 a, and 205 b.The missing portions are: Ph. i. 1—5, xxxviii. 15—xxxix. 7, lxvi. 7—Ixviii. 22, xc. 11—xcii. 15, ciii. 8.—cv. 4, cxlv. 6— cxlix. 1, and cxlix. 7 to the end. On fol. 146 a the scribe has passed at once from Ps. Ixxxii. 6 to Ps. Ixxxiii. 4, doubtless owing to a defect in the manuscript which he was copying.</note>
+              </msItem>
+            </msContents>
             <physDesc>
               <objectDesc form="codex">
                 <supportDesc material="chrart">
@@ -120,7 +121,6 @@
                 <layoutDesc>
                   <layout columns="" writtenLines=""/>
                     <p><!-- Include Wright's prose here --></p>
-                  </layout>
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
@@ -130,7 +130,7 @@
               </handDesc>
               <decoDesc>
                 <decoNote xml:id="decoNote1" type="" medium="">
-                  <p><</p>
+                  <p></p>
                 </decoNote>
               </decoDesc>
               <additions/>
