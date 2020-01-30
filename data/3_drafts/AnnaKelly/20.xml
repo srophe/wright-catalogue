@@ -1,6 +1,5 @@
-<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<?oxygen RNGSchema="enrich-syriaca.rnc" type="compact"?>
-<?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/wlpotter/syriaca-wright-catalog/master/schemas/enrich-syriaca.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/wlpotter/syriaca-wright-catalog/master/parameters/wright-mss.css"?>
 <TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
@@ -888,7 +887,6 @@
     <revisionDesc status="draft">
       <change when="2019-10-04" who="http://syriaca.org/documentation/editors.xml#akelly">Created: file</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
-      </change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
