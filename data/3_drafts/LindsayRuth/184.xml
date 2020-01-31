@@ -5,7 +5,6 @@
     <fileDesc>
       <titleStmt>
         <title xml:lang="en">BL Add MS 14494</title>
-        <!--Note: the .xml file will be based on the number from the URI in the msIdentifier which represents the manuscript as a whole (not msParts). -->
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
@@ -50,7 +49,7 @@
       <publicationStmt>
         <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal </authority>
-        <idno type="URI">http://syriaca.org/manuscript/184</tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/184/tei</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -134,7 +133,7 @@
                     <title type="supplied">The Order of the Washing of Feet</title>
                     <rubric xml:lang="syr">ܛܟܣܐ ܕܫܝܓܬܐ ܒܚܡܫܒܫܒܐ ܕܪܐܙܐ</rubric>
                   </msItem>
-                  <msItem n="11" xml:id="c6" defective="true"
+                  <msItem n="11" xml:id="c6" defective="true">
                     <locus from="33b" to="55">Foll. 33b-55</locus>
                     <title type="supplied">The Order of the Adoration of the Cross</title>
                     <rubric xml:lang="syr">ܛܟܣܐ ܕܣܓܕܬܐ ܕܨܠܝܒܐ ܒܥܪܘܒܬܐ ܕܚܫܐ ܒܬܪ ܬܫܡܫܬܐ ܕܬܫܥ ܫ̈ܥܝܢ </rubric>
@@ -171,11 +170,13 @@
                      <author ref="http://syriaca.org/person/70">Cyriacus of Tella </author>
                      <note><bibl>See Add. 14,525, fol. 68 a.)</bibl></note>                  
                  </msItem>
-                </msItem>                            
+                </msItem>
+              </msItem>
             </msContents>
             <physDesc>
               <objectDesc form="codex"><!-- @form can be "codex", "leaf", "scroll" or "other" -->
                 <supportDesc material="perg">
+                  <support>
                     <material>Vellum</material>
                   </support>
                   <extent>
@@ -194,7 +195,7 @@
                       <width></width>
                     </dimensions>, etc. -->
                   </extent>
-                  <foliation 
+                  <foliation/>
                   <collation>
                     <p> The quires, signed with letters, were originally at least <locus from="15" to="15">15 </locus>) in number (fol. 108 b, ܝܕ); </p>
                   </collation>
@@ -233,9 +234,8 @@
                 <p/><!-- If Wright has any general comments about the msPart's additions, they may be entered in the <p> here. -->
                 <list>
                   <item n="1" xml:id="addition1">
-                    <locus from="1a" to=""/><!-- locus may be deleted if addition applies throughout entire document. Does NOT need to be human-readable -->
+                    <locus from="1a" to=""/>
                     <p>On fol. 1 a there are two notes. Of the first, which has been designedly erased, nothing is distinctly legible but the words ܕܕܝܪܐ ܕܣܘܪ̈ܝܝܐ ܕܐܣ̈ܩܝܛܐ in the last line.</p>
-                      <!-- Enter English prose here --></p>
                     <p><quote xml:lang="syr"><!-- Enter the Syriac quote here if applicable --></quote></p>
                   </item><!-- See manual for how to link the person and/or the handnote to the addition, when possible do both or at least handnote if no person is mentioned-->
                   <item n="2" xml:id="addition2">
@@ -281,10 +281,7 @@
                   <source>Manuscript description based on <bibl><ref target="#Wright">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
-                <custodialHist><!-- If there is a history of conservation efforts on the <msPart> -->
-                  <custEvent type="">
-                    <p/>
-                  </custEvent><!-- <custEvent> block may be repeated for each new event -->
+                <custodialHist/>
                 <note/>
               </adminInfo>
               <listBibl>
