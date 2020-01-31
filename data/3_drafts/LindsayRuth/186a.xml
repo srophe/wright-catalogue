@@ -4,7 +4,7 @@
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
       <titleStmt>
-        <title xml:lang="en">BL Add MS 14496<!-- Would it be the same as the orginal entry?></title>
+        <title xml:lang="en">BL Add MS 14496<!-- Would it be the same as the orginal entry?--></title>
         <!--Note: the .xml file will be based on the number from the URI in the msIdentifier which represents the manuscript as a whole (not msParts). -->
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -103,23 +103,24 @@
                   <locus from="8b" to="">Foll.8b<!-- Enter human-readable locus also --></locus>
                   <title type="supplied">Judges ii. 22-iii. 9<!-- This is the English, Latin, or Modern title supplied by Wright. Include URI but only for Biblical Books or Anonymous Works --></title> 
                 </msItem>
-                <msItem n="4" xml:id="b3"
+                <msItem n="4" xml:id="b3">
                   <locus from="75">Foll.75</locus>
                   <title type="supplied">Judges x. 1-15</title>
                 </msItem>
-                <msItem n="5" xml:id="b4"
+                <msItem n="5" xml:id="b4">
                   <locus from="76">Foll.76</locus>
                   <title type="supplied">Judges xiii. 14-xiv. 8</title>
                 </msItem>
-                <msItem n="6" xml:id="b5"
+                <msItem n="6" xml:id="b5">
                   <locus from="83">Foll.83</locus>
                   <title type="supplied">Joshua xiv. 7-xv. 8</title>
                 </msItem>
-                <msItem n="7" xml:id="b6"
+                <msItem n="7" xml:id="b6">
                   <locus from="17b">Foll.17b</locus>
                   <title type="supplied">The title of a lesson</title>
                   <rubric xml:lang="syr">ܩܪܝܢܐ ܕܝܘܚܢܢ ܡܥܡܕܢܐ</rubric>
-              </msItem><!-- <msItem n="2" xml:id="a2"> closes here after its subordinated item(s). -->
+              </msItem>
+                </msItem><!-- <msItem n="2" xml:id="a2"> closes here after its subordinated item(s). -->
             </msContents>
             <physDesc>
               <objectDesc form="codex"><!-- @form can be "codex", "leaf", "scroll" or "other" -->
