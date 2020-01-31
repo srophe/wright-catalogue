@@ -17,7 +17,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth> Lindsay Ruth<!-- Creator's first initial and surname follow "#" (e.g., "...#dmichelson") --><!-- Creator's full name here as it should appear in publication --></name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth"> Lindsay Ruth<!-- Creator's first initial and surname follow "#" (e.g., "...#dmichelson") --><!-- Creator's full name here as it should appear in publication --></name>
         </respStmt>
         <respStmt>
         <resp>Based on the work of</resp>
@@ -111,6 +111,7 @@
                   <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܐܒܗ̈ܬܐ ܩ̈ܕܝܫܐ: ܐܒܐ ܡܩܪܝܣ ܘܡܲܐܟܣܝܡܘܣ ܘܕܘܡܛܝܘܣ
                     ܘܐܒܐ ܒܝܫܘܝ. ܘܐܒܐ ܝܘܚܢܢ ܙܥܘܪܐ.
                   </rubric>
+                </msItem>
                   <msItem n="5" xml:id="b4">
                     <locus from="27b" to="48b">Foll.27b-48b</locus>
                     <title type="supplied">Common anthems, arranged according to the eight tones</title>
@@ -121,12 +122,12 @@
                       ܬܒܥܬܐ ܕܐܒ̈ܗܬܐ ܕܝܠܝ ܪ̈ܘܚܢܝܐ
                     </finalRubric>
                   </msItem>
-                  <msItemn n="4" xml:id="b5">
+                  <msItem n="4" xml:id="b5">
                     <locus from="48" to="53">Foll.48-53</locus>
                     <title type="supplied">Hymns and prayers of the holy Cross</title>
                     <rubric xml:lang="syr">ܬܘܒ ܒܝܕ ܐܠܗܐ ܟ̇ܬܒܝܢܢ ܩ̈ܠܐ ܘܒ̈ܥܘܬܐ ܕܨܠܝܒܐ ܦܪܘܩܝܐ</rubric>
-                  </msItemn>
-              </msItemn>
+                  </msItem>
+              </msItem>
             </msContents>
             <physDesc>
               <objectDesc form="codex"><!-- @form can be "codex", "leaf", "scroll" or "other" -->
@@ -146,11 +147,6 @@
                         <measure type="width" quantity="7" unit="in">7<!-- Change @quantity and the human-readable text as necessary --></measure>
                       </width>
                     </dimensions>
-                    <!-- Repeat the <dimensions> block as needed to record all types of measurements that Wright supplies
-                      e.g., <dimensions type="written" unit="in">
-                      <height></height>
-                      <width></width>
-                    </dimensions>, etc. -->
                   </extent>
                   <foliation type="ancient"><!-- Probably not used, unless page numbers are mentioned. --><!-- Policy is to put Wright' description into collation and condition --></foliation>
                   <collation>
@@ -171,16 +167,13 @@
                   </layout><!-- If there is a change partway through the manuscript part in the number of columns or written lines per page, repeat the <layout> block for each new layout -->
                 </layoutDesc>
               </objectDesc>
-              <handDesc hands="2"><!-- The value of @hands should match the number of <handNote> elements included in the <handDesc> for this msPart. -->
-                <handNote xml:id="handNote1" scope="major" script="" medium="unknown"><!-- @xml:id should be sequentially assigned as "handNote1", "handNote2", and so on. -->
-                  <!-- @scope may be "major" (for the majority hand), "minor" (for additional hands), or "sole" (if there is only one hand)-->
-                  <!-- @script please use the ISO code combinations cited here: ___ -->
-                  <!-- @medium may contain any phrasing Wright may mention (using hyphens between words, not white space), or "unknown" if he does not. -->
-                  <desc>This volume is neatly written by two hands (<locus>foll. 2—50</locus> and <locus>51— 53</locus>) of the <origDate notBefore="1400" notAfter="1500">xvth cent.</origDate>,<!-- Include Wright's prose here. May also contain <locus> and other tags as necessary. --></desc>
+              <handDesc hands="2">
+                <handNote xml:id="handNote1" scope="major" script="" medium="unknown">
+                  <desc>This volume is neatly written by two hands (<locus>foll. 2—50</locus> and <locus>51— 53</locus>) of the <origDate notBefore="1400" notAfter="1500">xvth cent.</origDate>,</desc>
+                </handNote>
                 <handNote xml:id="handNote2" scope="minor" script="" medium="unknown">
                   <desc> The latter portion being dated <origDate>A. Gr. 1800</origDate>, <origDate>A.D. 1489</origDate>.</desc>
-             
-                </handNote><!-- If there is more than one hand for this msPart, create a new handNote with a unique @xml:id for each -->
+                </handNote>
               </handDesc>
               <decoDesc>
                 <decoNote xml:id="decoNote1" type="" medium=""><!-- @xml:id should be assigned sequentially as "decoNote1", "decoNote2", etc. -->
