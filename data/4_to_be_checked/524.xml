@@ -24,7 +24,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -36,7 +36,7 @@
         </respStmt>
         <respStmt>
           <resp>Project management by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#ewalston">Elizabeth Walston</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
@@ -56,10 +56,10 @@
             <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
           </licence>
         </availability>
-        <date calendar="Gregorian"><!-- Our date of publication of this XML document--></date>
+        <date calendar="Gregorian"></date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-524" xml:lang="en"><!-- @xml:id consists of "manuscript-" followed by the URI number (without commas) for the whole ms (e.g., xml:id="manuscript-1") -->
+        <msDesc xml:id="manuscript-524" xml:lang="en">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/524</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14672<!-- Add MS + the manuscript name identified at the end of the Wright entry, e.g. Add MS 14444 (note: do not use commas, periods, or folia numbers)--></idno>
+              <idno type="BL-Shelfmark">Add MS 14672</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -83,14 +83,16 @@
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="a1" defective="true">
                 <locus from="1a" to="258">Foll. 1a-258</locus>
-                <author ref=""/>
                 <title type="supplied" ref="http://syriaca.org/work/19">The Psalms, according to the Peshitta version</title>
-                <note>Divided into καθίσματα, each κἁθισμα (ܩܬܝܣܡܐ) being subdivided into ܫܘܒ̈ܚܐ. (marked ܏ܫܘ). Ps. cxviii. is in three parts, to each of which other hymns and prayers are appended; see foll. 189 b, 198 a, and 205 b.The missing portions are: Ph. i. 1—5, xxxviii. 15—xxxix. 7, lxvi. 7—Ixviii. 22, xc. 11—xcii. 15, ciii. 8.—cv. 4, cxlv. 6— cxlix. 1, and cxlix. 7 to the end. On fol. 146 a the scribe has passed at once from Ps. Ixxxii. 6 to Ps. Ixxxiii. 4, doubtless owing to a defect in the manuscript which he was copying.</note>
+                <note>Divided into <foreign xml:lang="grc">καθίσματα</foreign>, each <foreign xml:lang="grc">κἁθισμα</foreign> (<foreign xml:lang="syr">ܩܬܝܣܡܐ</foreign>) being subdivided into <foreign xml:lang="syr">ܫܘܒ̈ܚܐ</foreign>. (marked <foreign xml:lang="syr">܏ܫܘ</foreign>). </note>
+                <note>Ps. cxviii. is in three parts, to each of which other hymns and prayers are appended; see foll. 189 b, 198 a, and 205 b.</note>
+                <note>The missing portions are: Ps. i. 1—5, xxxviii. 15—xxxix. 7, lxvi. 7—Ixviii. 22, xc. 11—xcii. 15, ciii. 8.—cv. 4, cxlv. 6— cxlix. 1, and cxlix. 7 to the end.</note>
+                <note>On fol. 146 a the scribe has passed at once from Ps. Ixxxii. 6 to Ps. Ixxxiii. 4, doubtless owing to a defect in the manuscript which he was copying.</note>
               </msItem>
             </msContents>
             <physDesc>
               <objectDesc form="codex">
-                <supportDesc material="chrart">
+                <supportDesc material="chart">
                   <support>
                     <material>Paper</material>
                   </support>
@@ -118,21 +120,12 @@
                     </list>
                   </condition>
                 </supportDesc>
-                <layoutDesc>
-                  <layout columns="" writtenLines=""/>
-                    <p><!-- Include Wright's prose here --></p>
-                </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
                 <handNote xml:id="handNote1" scope="major" script="syr-x-syrm" medium="unknown">
                   <desc>This volume is written in an inelegant hand of the <origDate notBefore="1200" notAfter="1400">xiiith or xivth cent.,</origDate> inclining to the Malkite type</desc>
                 </handNote>
               </handDesc>
-              <decoDesc>
-                <decoNote xml:id="decoNote1" type="" medium="">
-                  <p></p>
-                </decoNote>
-              </decoDesc>
               <additions/>
               <bindingDesc/>            
               <sealDesc/>
@@ -152,10 +145,7 @@
                   <source>Manuscript description based on <bibl><ref target="#Wright">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
-                <custodialHist>
-                  <custEvent type="">
-                    <p/>
-                  </custEvent></custodialHist>
+                <custodialHist/>
                 <note/>
               </adminInfo>
               <listBibl>
@@ -166,7 +156,7 @@
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
                   <citedRange unit="entry">CXCIII</citedRange>
-                  <citedRange unit="pp">I:136 (e.g., I:6) --></citedRange>
+                  <citedRange unit="pp">I:136</citedRange>
                 </bibl>
               </listBibl>
             </additional>
@@ -261,14 +251,14 @@
         <keywords scheme="#Wright-BL-Taxonomy">
         <list>
           <item>
-            <ref target=""/>       
+            <ref target="#psalter"/>       
           </item>
         </list>
         </keywords>
       </textClass>
       </profileDesc>
     <revisionDesc status="draft">
-      <change when="2019-09-29" who="http://syriaca.org/documentation/editors.xml#?">Created: file</change>
+      <change when="2019-09-29" who="http://syriaca.org/documentation/editors.xml#akelly">Created: file</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
