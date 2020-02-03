@@ -42,16 +42,20 @@ gi:before {display:inline;content:"<"}  gi:after {display:inline;content:">"}
 gloss {display:inline;}
 hi {display:inline; font-weight:bold;}
 ident[type] {display:inline; font-weight:bold;} ident:not([type]) {display:inline; } /* Just as the stylesheet allows for different types; a specific type could be styled by ident[type="XXX"] */
+item {display:block;}
 l {display:block;}
 label {display:inline;}
 lb {display:block;}
 lb {display:block;}
 mentioned {display:inline;}
+msItem:before {content:attr(n);}
+msItem {display:block;}
 name {display:inline;}
 persName {display:inline;}
 placeName {display:inline;}
 resp:after {content:" ";}
 respStmt {display:inline;}
+respStmt:after {content:";";}
 role {display:inline; font-style: italic;}
 roleDesc { margin-left: 40px; margin-right: 40px; } roleDesc > *:not(p) {display:block; margin-bottom:1em; /* Latter is to act like a paragraph*/}
 roleName {display:inline;}
