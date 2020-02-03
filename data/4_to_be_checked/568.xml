@@ -1,11 +1,10 @@
-<?oxygen RNGSchema="enrich-syriaca.rnc" type="compact"?>
-<?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/wlpotter/syriaca-wright-catalog/master/schemas/enrich-syriaca.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/wlpotter/wright-catalogue/master/parameters/wright-mss.css"?>
 <TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
       <titleStmt>
-        <title xml:lang="en"><!-- Typically "BL" followed by the name of the manuscript, e.g. "BL Add MS 14444", without commas or periods --></title>
-        <!--Note: the .xml file will be based on the number from the URI in the msIdentifier which represents the manuscript as a whole (not msParts). -->
+        <title xml:lang="en">BL Add MS 14702</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
@@ -13,11 +12,11 @@
         <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
-        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#lruth"> Lindsay Ruth<!-- Creator's first initial and surname follow "#" (e.g., "...#dmichelson") --><!-- Creator's full name here as it should appear in publication --></editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#lruth"> Lindsay Ruth</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth"> Lindsay Ruth<!-- Creator's first initial and surname follow "#" (e.g., "...#dmichelson") --><!-- Creator's full name here as it should appear in publication --></name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth"> Lindsay Ruth</name>
         </respStmt>
         <respStmt>
         <resp>Based on the work of</resp>
@@ -25,7 +24,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -37,7 +36,7 @@
         </respStmt>
         <respStmt>
           <resp>Project management by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#ewalston">Elizabeth Walston</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
@@ -50,60 +49,50 @@
       <publicationStmt>
         <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal </authority>
-        <idno type="URI">http://syriaca.org/manuscript/568<!-- TBD Insert the Syriaca.org URI number for the entire manuscript in this spot. -->/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/568/tei</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
             <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
           </licence>
         </availability>
-        <date calendar="Gregorian"><!-- Our date of publication of this XML document--></date>
+        <date calendar="Gregorian"></date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-568" xml:lang="en"><!-- @xml:id consists of "manuscript-" followed by the URI number (without commas) for the whole ms (e.g., xml:id="manuscript-1") -->
+        <msDesc xml:id="manuscript-568" xml:lang="en">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/568<!-- Insert the Syriaca.org URI number here --></idno>
+            <idno type="URI">http://syriaca.org/manuscript/568</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14702<!-- Add MS + the manuscript name identified at the end of the Wright entry ex. Add MS 14444 (note: do not use commas, periods, or folia numbers)--></idno>
+              <idno type="BL-Shelfmark">Add MS 14702</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Arabic">385<!-- Enter the Arabic numeral Wright number here. --></idno>
+              <idno type="Wright-BL-Arabic">385</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Roman">CCCLXXXV<!-- Enter the Roman numeral Wright number here. --></idno>
+              <idno type="Wright-BL-Roman">CCCLXXXV</idno>
             </altIdentifier>
           </msIdentifier>
             <msContents>
-              <summary/><!--Note: Do not manually enter summary. We will automatically generate this from the @class later-->
-              <textLang mainLang="syr">Syriac</textLang><!-- For now just keep language as Syriac, this may change later. Note use ISO 639-1 codes if available then 639-2 otherwise, for example, Ancient Greek is grc in ISO-639-2-->
-              <msItem n="1" xml:id="a1" defective="">               
-                <locus from="1a" to="53">Foll.2b-53<!-- Enter human-readable locus also --></locus>
-                <author/><!-- This will be a URI look up from our Author spreadsheet, there may be URIs for some anonymous works (the book of steps for example). The author should be denoted with the @ref attribute, e.g., <author ref="http://syriaca.org/person/13"/>-->
-                <title type="supplied">A Choir-book, Containing Services for the Commemoration of Saints, etc., similar to those in the preceding numbers<!-- This is the English, Latin, or Modern title supplied by Wright. Include URI (but only for Biblical Books or Anonymous Works) with the @ref attribute as in the <author> tag. --></title>
-                <rubric xml:lang="syr"><!-- If the msItem has an original language title given in the manuscript, put it here. Wright may call this "entitled" (otherwise this element may be deleted) -->
-                  <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
-                </rubric>
-              <msItem n="2" xml:id="b1" defective=""><!-- Note how the @n and @xml:id change to reflect the msItem. @n shows <msItem> #2. @xml:id shows that this is the second a-level <msItem>. -->
-                <locus from="2b" to="9a">Foll.2b-9a<!-- Enter human-readable locus also --></locus>
-                <author/><!-- This will be a URI look up from our Author spreadsheet, there may be URIs for some anonymous works (the book of steps for example)-->
-                <title type="supplied">Of any one Teacher or Ascetic<!-- This is the English, Latin, or Modern title supplied by Wright. Include URI but only for Biblical Books or Anonymous Works --></title>
-                <rubric xml:lang="syr">ܒܝܕ ܐܠܗܐ ܡܪܐ ܟܠ ܟ݁ܬܒܝܢܢ ܛܟܣܐ ܕܥܠ ܚܕ ܩܢܘܡܐ ܕܡ̈ܠܦܢܐ ܘܕܥ̈ܢܘܝܐ<!-- If the msItem has an original language title given in the manuscript, put it here. Wright may call this "entitled" (otherwise this element may be deleted) -->
-                  <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
-                </rubric>
+              <summary/>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="a1">               
+                <locus from="1a" to="53">Foll.2b-53</locus>
+                <title xml:lang="en" type="supplied">A Choir-book, Containing Services for the Commemoration of Saints, etc., similar to those in the preceding numbers</title>
+              <msItem n="2" xml:id="b1">
+                <locus from="2b" to="9a">Foll.2b-9a</locus>
+                <title xml:lang="en" type="supplied">Of any one Teacher or Ascetic</title>
+                <rubric xml:lang="syr">ܒܝܕ ܐܠܗܐ ܡܪܐ ܟܠ ܟ݁ܬܒܝܢܢ ܛܟܣܐ ܕܥܠ ܚܕ ܩܢܘܡܐ ܕܡ̈ܠܦܢܐ ܘܕܥ̈ܢܘܝܐ</rubric>
               </msItem>
-                <msItem n="3" xml:id="b2" defective=""><!-- Note how the @xml:id changes here to indicate a nested msItem within item number 2. @n shows <msItem> #3. @xml:id shows the first b-level <msItem>. Note also that <msItem n="2"...> has not closed yet.-->
-                  <locus from="9a" to="15"> Foll. 9a-15<!-- Enter human-readable locus also --></locus>
-                  <author/><!-- This will be a URI look up from our Author spreadsheet, there may be URIs for some anonymous works (the book of steps for example)-->
-                  <title type="supplied">Of any one Martyr<!-- This is the English, Latin, or Modern title supplied by Wright. Include URI but only for Biblical Books or Anonymous Works --></title>
-                  <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܚܕ ܩܢܘܡܐ ܣܳܗܕܳܝܳܐ<!-- If the msItem has an original language title given in the manuscript, put it here. Wright may call this "entitled" (otherwise this element may be deleted) -->
-                    <locus from="" to=""/><!-- This locus does NOT need to be human-readable. May remain an empty element. -->
-                  </rubric>
+                <msItem n="3" xml:id="b2">
+                  <locus from="9a" to="15"> Foll. 9a-15</locus>
+                  <title xml:lang="en" type="supplied">Of any one Martyr</title>
+                  <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܚܕ ܩܢܘܡܐ ܣܳܗܕܳܝܳܐ</rubric>
                 </msItem>
                 <msItem n="4" xml:id="b3">
                   <locus from="15b" to="27">Foll.15b-27</locus>
@@ -130,108 +119,76 @@
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="codex"><!-- @form can be "codex", "leaf", "scroll" or "other" -->
-                <supportDesc material="chart"><!-- @material can be "chart" (paper), "mixed", "perg" (parchment/vellum), or "unknown" -->
+              <objectDesc form="codex">
+                <supportDesc material="chart">
                   <support>
-                    <material>Paper<!-- Use Wright's vocabulary for material here --></material>
+                    <material>Paper</material>
                   </support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity="53">53ff.<!-- Enter the number of folia here (followed by "f." if a single folio and by "ff." if more than one folia) and in @quantity (e.g., ...quantity="25"> 25 ff. </measure>) --></measure>
+                    <measure type="composition" unit="leaf" quantity="53">53ff.</measure>
                     <dimensions type="leaf" unit="in">
-                      <!-- @type can be "binding", "boxed", "leaf", "line-height", "slip", "unknown" or "written". Will usually be "leaf". -->
-                      <!-- @unit can be "chars", "cm", "in", "lines" or "mm". Will usually be "in". -->
                       <height>
-                        <measure type="height" quantity="10.25" unit="in">10 1/4<!-- Change @quantity and the human-readable text as necessary --></measure>
+                        <measure type="height" quantity="10.25" unit="in">10 1/4</measure>
                       </height>
                       <width>
-                        <measure type="width" quantity="7" unit="in">7<!-- Change @quantity and the human-readable text as necessary --></measure>
+                        <measure type="width" quantity="7" unit="in">7</measure>
                       </width>
                     </dimensions>
                   </extent>
-                  <foliation type="ancient"><!-- Probably not used, unless page numbers are mentioned. --><!-- Policy is to put Wright' description into collation and condition --></foliation>
+                  <foliation type="ancient"/>
                   <collation>
-                    <p>The quires, signed with letters, are six in number<!-- Collation will usually be just a prose description. Any mention of quire numbering or lettering also goes here.--></p>
+                    <p>The quires, signed with letters, are six in number.</p>
                   </collation>
-                  <condition>
-                    <list>
-                      <item>
-                        <p><!-- Reproduce Wright's prose regarding the condition, tagging any  persons, places, foreign words, etc. as necessary. Tagging loci is necessary, but adding @from and @to is optional. --></p>
-                      </item><!-- Repeat the <item> block for each entry about the condition of this msPart -->
-                    </list>
-                  </condition>
+                  <condition/>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="1" writtenLines="12 21"><!-- @writtenLines should not contain anything but numbers and whitespaces (e.g., 22 to 25 lines per page would be written as: writtenLines="22 25") -->
-                    <locus from="" to=""/><!-- Only use locus if there is more than one layout in the MS, eg if the number of columns changes half of the way through -->
-                    <p>There are from 12 to 21 lines in each page.<!-- Include Wright's prose here --></p>
-                  </layout><!-- If there is a change partway through the manuscript part in the number of columns or written lines per page, repeat the <layout> block for each new layout -->
+                  <layout columns="1" writtenLines="12 21">
+                    <p>There are from 12 to 21 lines in each page.</p>
+                  </layout>
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="2">
-                <handNote xml:id="handNote1" scope="major" script="" medium="unknown">
-                  <desc>This volume is neatly written by two hands (<locus>foll. 2—50</locus> and <locus>51— 53</locus>) of the <origDate notBefore="1400" notAfter="1500">xvth cent.</origDate>,</desc>
+                <handNote xml:id="handNote1" scope="major" script="syr" medium="unknown">
+                  <desc>This volume is neatly written by two hands (the former comprising <locus from="2" to="50">foll. 2—50</locus>) of the <origDate notBefore="1400" notAfter="1500">xvth cent.</origDate>,</desc>
                 </handNote>
-                <handNote xml:id="handNote2" scope="minor" script="" medium="unknown">
-                  <desc> The latter portion being dated <origDate>A. Gr. 1800</origDate>, <origDate>A.D. 1489</origDate>.</desc>
+                <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
+                  <desc> The latter portion, <locus from="51" to="53">foll. 51— 53</locus>, being dated <origDate>A. Gr. 1800</origDate>, <origDate>A.D. 1489</origDate>.</desc>
                 </handNote>
               </handDesc>
-              <decoDesc>
-                <decoNote xml:id="decoNote1" type="" medium=""><!-- @xml:id should be assigned sequentially as "decoNote1", "decoNote2", etc. -->
-                  <!-- There are many valid entries for @type. See manual for a complete list. -->
-                  <p><!-- Include Wright's prose here. May also contain <locus> and other tags as necessary. --></p>
-                </decoNote><!-- Repeat <decoNote> block as necessary for multiple decorative elements. -->
-              </decoDesc><!-- IF <decoDesc> IS NOT USED, delete nested elements and make it an empty element.-->
+              <decoDesc/>
               <additions>
-                <p/><!-- If Wright has any general comments about the msPart's additions, they may be entered in the <p> here. -->
+                <p/>
                 <list>
                   <item n="1" xml:id="addition1">
-                    <locus from="1a" to=""/><!-- locus may be deleted if addition applies throughout entire document. Does NOT need to be human-readable -->
-                    <p>On fol. 1 a there are two neatly written passages from the Gospels, in Arabic, viz. S. Mark, ch. <locus>xii.</locus> <locus>43</locus>, <locus>44</locus>, and S. Matthew, ch. viii.<locus> 11—15</locus> (%). These seem to be of the same date as the rest of the volume.
-                      <!-- Enter English prose here --></p>
-                    <p><quote xml:lang="syr"><!-- Enter the Syriac quote here if applicable --></quote></p>
-                  </item><!-- See manual for how to link the person and/or the handnote to the addition, when possible do both or at least handnote if no person is mentioned-->
+                    <locus from="1a"/>
+                    <p>On fol. 1a there are two neatly written passages from the Gospels, in Arabic, viz. <title>S. Mark, ch. xii. 43, 44</title>, and <title>S. Matthew, ch. viii. 11—15</title>. These seem to be of the same date as the rest of the volume.<!-- Need to mark as a separate hand though? --></p>
+                    <p><quote xml:lang="ar">(%)<!--Insert the Arabic quote here. --></quote></p>
+                  </item>
                   <item n="2" xml:id="addition2">
-                    <locus from="53a" to=""/>
-                    <p>The colophon,<locus>fol. 53 a</locus>, gives the name of the second scribe, <persName>Moses of Mount Lebanon</persName>, who wrote in the year 1800 (A.D. 1489), in the convent of <placeName ref="http://syriaca.org/place/360">S. Mary Deipara</placeName>.</p>
+                    <locus from="53a"/>
+                    <p>The colophon,<locus>fol. 53 a</locus>, gives the name of the second scribe, <persName>Moses of <placeName>Mount Lebanon</placeName></persName>, who wrote in the year <date>1800</date> (<date>A.D. 1489</date>), in the convent of <placeName ref="http://syriaca.org/place/360">S. Mary Deipara</placeName>.</p>
                     <p><quote xml:lang="syr">ܒܚܘܼܒܐ ܝܫܘܥܝܐ ܨ̇ܠܘ ܐܚ̈ܝ
                       ܥܠ ܡܘܫܐ ܛܘܪܝܐ ܠܒܢܢܝܐ ܢܕ݂ܝܕ݂ܐ ܘܣܥܝ̣ܛܐ ܘܕ̣ܘܿܝܐ ܘܓ̣ܥܝ̣ܨܐ ܕܣܲܪܣܛ ܘܟ݂ܪܟ݂ܛ ܘܛܪܛܫ ܘܛܪܡܫ. ܠܗܠܝܢ  ܣܘܪ̈ܛܐ
-                    
                     ܬܠܝ̈ܠܬܐ ܘܒ̣ܠܝ̈ܠܬܐ: ܘܕ̣ܒܩ ܠܗܕ݂ܐ ܟ̣ܘܪܣܐ ܘܚܒ̣ܪܬ݂ܗ̇. ܗ̣ܘ̈ܝ ܗܠܝܢ ܫܢ̣ܬ݂ ܐ̇܏ܦ̣ ܏ܕܝܘܢ ܒ̇ܡܕ݂ܒ̣ܪܐ ܕ̣ܣܩܝ̣ܛܝ. ܒܕܝܪܐ ܕܒܝܬ݂ ܝ̇ܠܕܬ݂                    
-                    
-                    ܐܠܗܐ ܕܝܠܢ ܣܘܪ̈ܝܝܐ: ܟܠܡ̇ܢ ܕܡܨ̇ܠܐ ܥܠܝ ܐܦ ܗ̣ܘ ܢܬܚܣܐ                    </quote></p>
+                    ܐܠܗܐ ܕܝܠܢ ܣܘܪ̈ܝܝܐ: ܟܠܡ̇ܢ ܕܡܨ̇ܠܐ ܥܠܝ ܐܦ ܗ̣ܘ ܢܬܚܣܐ</quote></p>
                   </item>
                 </list>
-              </additions><!-- IF <additions> IS NOT USED, delete nested elements and make it an empty element.-->
+              </additions>
               <bindingDesc/>
-                <!--bindingDesc is closed due to rarity of use. If it is needed, utilize the code below after opening the item.-->
-                <!--
-                  <binding xml:id="binding1" contemporary=""/> (The <binding> block may be repeated as necessary. @contemporary designates whether or not the binding is contemporary with the contents.)
-                <decoNote xml:id="bindingdeco1"/> Only discuss decorations here that pertain specifically to the binding. Other decorations should occur above in the <decoDesc>. This <decoNote> may be repeated as necessary.
-                <condition/>Only include here the condition of the binding specifically. Other conditions should be noted in the <condition> section of <supportDesc> above. 
-              </bindingDesc>-->
               <sealDesc/>
-               <!-- sealDesc is closed due to rarity of use. If it is needed, utilize the code below after opening the item.-->
-                 <!-- <seal xml:id="seal1" contemporary="">
-                  <p/>Tag names, dates, bibl references, etc. as necessary.
-                </seal><seal> block may be repeated as necessary for each seal.
-              </sealDesc>
-              IF <sealDesc is needed, open the element and remove the comment tags around the <p>  element.-->
               <accMat/>
-                <!-- accMat is closed due to rarity of use. If it is needed, utilize the code below after opening the item. Use this for any mention of closely-related accompanying material (documents, artifacts, letters) which are associated with the <msPart> -->
-                <!--<p/> Tag names, dates, bibl references, etc. as necessary.
-              </accMat>-->
             </physDesc>
             <history>
               <origin>
-                <origDate notBefore="1400" notAfter="1500">xvth cent.<!-- Include Wright's estimated dating of the manuscript here in prose --></origDate><!-- Enter year numbers in @notBefore and @notAfter as four-digit numbers (e.g., 6th century is written as: notBefore="0500" notAfter="0600"). If a precise date is known use @when instead.-->
-                <origDate when-custom="1800" calendar="Seleucid">A. Gr. 1800</origDate>
+                <origDate notBefore="1400" notAfter="1500">xvth cent.</origDate>
+                <origDate when-custom="1800" datingMethod="Seleucid">A. Gr. 1800</origDate>
                 <origDate when="1489" calendar="Gregorian">A.D. 1489.</origDate>
-                <origPlace><!-- Include place if place of composition is mentioned --></origPlace><!-- Repeat <origPlace> and specify @xml:lang if the place name is given in multiple languages. -->
+                <origPlace xml:lang="en"><placeName ref="http://syriaca.org/place/360">S. Mary Deipara</placeName></origPlace>
               </origin>
               <provenance>
-                <p><!-- Enter the provenance of the manuscript part here, tagging dates, people, places,  etc. as necessary, use multiple entries as needed --></p>
-              </provenance><!-- IF <provenance> IS NOT USED, delete nested elements and make it an empty element.-->
-              <acquisition/><!-- This will likely not be used as this refers only to the acquisition by the final/current owner, i.e., the British Library. -->
+                <p></p>
+              </provenance>
+              <acquisition/>
             </history>
             <additional>
               <adminInfo>
@@ -239,11 +196,7 @@
                   <source>Manuscript description based on <bibl><ref target="#Wright">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
-                <custodialHist><!-- If there is a history of conservation efforts on the <msPart> -->
-                  <custEvent type="">
-                    <p/>
-                  </custEvent><!-- <custEvent> block may be repeated for each new event -->
-                </custodialHist><!-- IF <custodialHist> IS NOT USED, delete nested elements and make it an empty element.-->
+                <custodialHist/>
                 <note/>
               </adminInfo>
               <listBibl>
@@ -253,8 +206,8 @@
                   <pubPlace>London</pubPlace>
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
-                  <citedRange unit="entry">CCCLXXXV<!-- Include Wright's entry number for this manuscript part here (e.g., VI) --></citedRange>
-                  <citedRange unit="pp">I:309-310<!-- Include Wright's page number for this manuscript part here in the format vol#:pp# (e.g., I:6) --></citedRange>
+                  <citedRange unit="entry">CCCLXXXV</citedRange>
+                  <citedRange unit="pp">I:309-310</citedRange>
                 </bibl>
               </listBibl>
             </additional>
@@ -356,20 +309,15 @@
       </textClass>
       </profileDesc>
     <revisionDesc status="draft">
-      <change when="2019-10-06" who="http://syriaca.org/documentation/editors.xml#lruth">Created: file</change><!-- @when takes entries in the form "YYYY-MM-DD" -->
+      <change when="2019-10-06" who="http://syriaca.org/documentation/editors.xml#lruth">Created: file</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
-      <!-- Please use controlled vocabulary for subtypes and stardized notes in the msDesc to indicate missing material. "Note: Wright's catalogue contains additional information not included here." -->
     </revisionDesc>
   </teiHeader>
   <facsimile>
-    <!-- facsimile information about the manuscript -->
     <graphic/>
-    <!-- Alternatively you could provide 'surface' elements with more than one image per surface, and optionally with 'zone' 
-      elements to give coordinates for any special areas of interest -->
   </facsimile>
   <text>
     <body>
-      <!-- If you had a transcription of the manuscript you would put it here -->
       <p/>
     </body>
   </text>
