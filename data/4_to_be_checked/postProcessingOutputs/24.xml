@@ -27,7 +27,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -86,174 +86,65 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
               <locus to="84" from="1">Foll. 1-84</locus>
-              <author ref=""/>
-              <title ref="" xml:lang="en">The second part of a Choral Service-book for the
+              <title xml:lang="en">The second part of a Choral Service-book for the
                         circle of the whole year.</title>
-              <rubric xml:lang="syr"/>
-              <incipit xml:lang="syr"/>
-              <quote xml:lang="syr">
-                <locus from="" to=""/>
-              </quote>
-              <explicit xml:lang="syr">
-                <locus to="" from=""/>
-              </explicit>
-              <finalRubric xml:lang="syr">
-                <locus to="" from=""/>
-              </finalRubric>
-              <note/>
+              <note>Comprising the same services as Add.12,147<!-- WLP: How are we marking cross-refs to BL mss? -->, but differing considerably in the hymns, prayers, etc., which compose each service.</note>
               <msItem xml:id="b1" n="2" defective="true">
-                <locus to="35b" from="2b">Foll. 2 b—35 b</locus>
-                <author ref=""/>
-                <title ref="" xml:lang="en">Lent.</title>
-                <rubric xml:lang="syr"/>
-                <incipit xml:lang="syr"/>
-                <quote xml:lang="syr">
-                  <locus from="" to=""/>
-                </quote>
-                <explicit xml:lang="syr">
-                  <locus to="" from=""/>
-                </explicit>
-                <finalRubric xml:lang="syr">
-                  <locus to="" from=""/>
-                </finalRubric>
-                <note>After this there is a huge lacuna, extending from 1 e, a to 5 h in
-                           Add. 12,147.</note>
+                <locus to="35b" from="2b">Foll. 2 b-35 b</locus>
+                <title xml:lang="en">Lent.</title>
+                <note>After this there is a huge lacuna, extending from 1 e, α<!--WLP: this should be an alpha, reffering to manuscript-22 msItem 32, xml:id="d25" so the ref should be "http://syriaca.org/manuscript/22#d25"--> to 5 h <!-- The ref here would be "http://syriaca.org/manuscript/22#c15" which is item number 57 -->in Add. 12,147.</note>
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
                 <locus to="43b" from="36a">Foll. 36a-43b</locus>
-                <author ref=""/>
-                <title ref="" xml:lang="en">Order of the Saturday of Annunciation.</title>
+                <title xml:lang="en">Order of the Saturday of Annunciation.</title>
                 <rubric xml:lang="syr">ܫܒܬܐ ܕܣܒܪܬܐ</rubric>
-                <incipit xml:lang="syr"/>
-                <quote xml:lang="syr">
-                  <locus from="" to=""/>
-                </quote>
-                <explicit xml:lang="syr">
-                  <locus to="" from=""/>
-                </explicit>
-                <finalRubric xml:lang="syr">
-                  <locus to="" from=""/>
-                </finalRubric>
                 <note>At the end of this order, fol. 43 b, is the same metrical note as in
                            Add. 12,147, fol. 299 b.</note>
               </msItem>
               <msItem xml:id="b3" n="4" defective="true">
                 <locus to="67b" from="43b">Foll. 43b-67b</locus>
-                <author ref=""/>
-                <title ref="" xml:lang="en">Order of the great Sunday of the Resurrection of
-                           our Lord, in eight parts.</title>
+                <title xml:lang="en">Order of the great Sunday of the Resurrection of
+                  <persName ref="http://syriaca.org/person/2245">our Lord</persName>, in eight parts.</title>
                 <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܚܕܒܫܒܐ ܪܒܐ ܕܩܝܡܬܗ ܕܡܪܢ</rubric>
-                <incipit xml:lang="syr"/>
-                <quote xml:lang="syr">
-                  <locus from="" to=""/>
-                </quote>
-                <explicit xml:lang="syr">
-                  <locus to="" from=""/>
-                </explicit>
-                <finalRubric xml:lang="syr">ܡܫܝܚܐ ܐܠܗܐ ܚ̇ܣ̣ܐ ܠܝܫܘܥ ܚܲܛܝܐ ܥܒ̣ܕܟ ܘܠܐܒܗ̈ܘܗܝ
-                           ܘܠܐܚ̈܏ܘ ܘܠܩܪܘܝܐ ܕܐܡ̇ܪ ܐܡܝܢ ܘܢܚܲܣܐ ܠܐܒܘܥܠܝ ܙܝܟܝܪܝ.<locus to="" from=""/>
+                <finalRubric xml:lang="syr">
+                  <locus from="67b"/>
+                  ܡܫܝܚܐ ܐܠܗܐ ܚ̇ܣ̣ܐ ܠܝܫܘܥ ܚܲܛܝܐ ܥܒ̣ܕܟ ܘܠܐܒܗ̈ܘܗܝ
+                           ܘܠܐܚ̈܏ܘ ܘܠܩܪܘܝܐ ܕܐܡ̇ܪ ܐܡܝܢ ܘܢܚܲܣܐ ܠܐܒܘܥܠܝ ܙܝܟܝܪܝ.
                 </finalRubric>
-                <note/>
               </msItem>
               <msItem xml:id="b4" n="5" defective="true">
                 <locus to="69" from="67b">Foll. 67b-69</locus>
-                <author ref=""/>
-                <title ref="" xml:lang="en">Order celebrated on the Friday after Easter
+                <title xml:lang="en">Order celebrated on the Friday after Easter
                            Sunday, called <foreign xml:lang="syr">ܥܪܘܒܬܐ ܕܡ̇ܘ̈ܕܝܢܐ</foreign>, the Friday of
                            the Confessors.</title>
                 <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܡ̇ܫܬ݁ܡܠ̣ܐ ܒܥܪܘܒܬܐ ܕܒܬܪ ܦ̣ܨܚܐ</rubric>
-                <incipit xml:lang="syr"/>
-                <quote xml:lang="syr">
-                  <locus from="" to=""/>
-                </quote>
-                <explicit xml:lang="syr">
-                  <locus to="" from=""/>
-                </explicit>
-                <finalRubric xml:lang="syr">
-                  <locus to="" from=""/>
-                </finalRubric>
-                <note/>
               </msItem>
               <msItem xml:id="b5" n="6" defective="true">
                 <locus to="74" from="70a">Foll. 70a-74</locus>
-                <author ref=""/>
-                <title ref="" xml:lang="en">New Sunday.</title>
-                <rubric xml:lang="syr"/>
-                <incipit xml:lang="syr"/>
-                <quote xml:lang="syr">
-                  <locus from="" to=""/>
-                </quote>
-                <explicit xml:lang="syr">
-                  <locus to="" from=""/>
-                </explicit>
-                <finalRubric xml:lang="syr">
-                  <locus to="" from=""/>
-                </finalRubric>
-                <note/>
+                <title xml:lang="en">New Sunday.</title>
               </msItem>
               <msItem xml:id="b6" n="7" defective="true">
                 <locus to="78" from="74b">Foll. 74b-78</locus>
-                <author ref=""/>
-                <title ref="" xml:lang="en">The Ascension of our Lord.</title>
-                <rubric xml:lang="syr"/>
-                <incipit xml:lang="syr"/>
-                <quote xml:lang="syr">
-                  <locus from="" to=""/>
-                </quote>
-                <explicit xml:lang="syr">
-                  <locus to="" from=""/>
-                </explicit>
-                <finalRubric xml:lang="syr">
-                  <locus to="" from=""/>
-                </finalRubric>
-                <note/>
+                <title xml:lang="en">The Ascension of <persName ref="http://syriaca.org/person/2245">our Lord</persName>.</title>
               </msItem>
               <msItem xml:id="b7" n="8">
-                <locus to="" from=""/>
-                <author ref=""/>
-                <title ref="" xml:lang="en">Fragments of the order of Pentecost, of<persName ref="http://syriaca.org/person/1983">S. Paul the
+                <locus to="83" from="79">Foll. 79-83</locus>
+                <title xml:lang="en">Fragments of the order of Pentecost, of<persName ref="http://syriaca.org/person/1983">S. Paul the
                               Apostle</persName>, and others.</title>
-                <rubric xml:lang="syr"/>
-                <incipit xml:lang="syr"/>
-                <quote xml:lang="syr">
-                  <locus from="" to=""/>
-                </quote>
-                <explicit xml:lang="syr">
-                  <locus to="" from=""/>
-                </explicit>
-                <finalRubric xml:lang="syr">
-                  <locus to="" from=""/>
-                </finalRubric>
-                <note/>
               </msItem>
             </msItem>
             <msItem xml:id="a2" n="9">
-              <locus to="" from=""/>
-              <author ref=""/>
-              <title ref="" xml:lang="en">A supplementary service, in a more modern hand, for
-                        the Transfiguration of our Lord.</title>
-              <rubric xml:lang="syr"/>
-              <incipit xml:lang="syr"/>
-              <quote xml:lang="syr">
-                <locus from="" to=""/>
-              </quote>
-              <explicit xml:lang="syr">
-                <locus to="" from=""/>
-              </explicit>
-              <finalRubric xml:lang="syr">
-                <locus to="" from=""/>
-              </finalRubric>
-              <note>[With this supplementary service and those in Add. 12,146 (1, d, e, and
+              <locus to="84" from="84b"/>
+              <title xml:lang="en">A supplementary service, in a more modern hand, for
+                the Transfiguration of <persName ref="http://syriaca.org/person/2245">our Lord</persName>.</title>
+              <note>With this supplementary service and those in Add. 12,146 (1, d, e, and
                         20) are to be connected the services contained in Add. 18,820, foll. 17— 54,
-                        which were, no doubt, once bound with these volume.]</note>
+                        which were, no doubt, once bound with these volume.</note>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
-                <extent>
-                  <measure unit="content_pending" quantity="-1"/>
-                </extent>
+              <supportDesc material="mixed">
                 <foliation/>
                 <collation/>
                 <condition>
@@ -263,12 +154,14 @@
                                     many of which are much stained and torn. In all external
                                     respects this volume is precisely similar to Add. 12,147, and is
                                     dated A. Gr. 1317, A.D. 1006. It must, therefore, have
-                                    originally Contained about 40 quires (fol. 61 is signed<ref xml:lang="syr">ܠܕ</ref>); but
+                                    originally Contained about 40 quires (fol. 61 is signed<foreign xml:lang="syr">ܠܕ</foreign>); but
                                     the greater part of it has been gradually lost and destroyed.
-                                    For specimens of ornaments see foll. 27 b and 30 a. Foll. 33 and
-                                    34 are supplementary paper leaves, exactly similar to those
-                                    described in Add. 12,147. Fol. 63 has also been repaired with
-                                    paper.</p>
+                                    For specimens of ornaments see foll. 27 b and 30 a. </p>
+                    </item>
+                    <item>
+                      <p>Foll. 33 and 34 are supplementary paper leaves, exactly similar to those
+                        described in Add. 12,147. Fol. 63 has also been repaired with
+                        paper.</p>
                     </item>
                   </list>
                 </condition>
@@ -278,30 +171,30 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="4">
-              <handNote xml:id="handNote1" scope="major" script="syr" medium="">
-                <desc>"It was written by the hands of the scribe Yeshūa', son of the late
+              <handNote xml:id="handNote1" scope="major" script="syr" medium="unknown">
+                <desc>See additions. "It was written by the hands of the scribe Yeshūa', son of the late
                            Andrew; of Hisn Zaid, in the house of Abū 'Alī Z. "</desc>
               </handNote>
-              <handNote xml:id="handNote2" scope="minor" script="syr" medium="">
+              <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
                 <desc>On fol. 84 b there is a supplementary service, in a more modern
                            hand.</desc>
               </handNote>
-              <handNote xml:id="handNote3" scope="minor" script="syr" medium="">
+              <handNote xml:id="handNote3" scope="minor" script="syr" medium="unknown">
                 <desc>These two words are evidently an alteration by a later hand, which has
-                           retouched several other portions of this note.</desc>
+                  retouched several other portions of this note.</desc>
               </handNote>
-              <handNote xml:id="handNote4" scope="minor" script="syr" medium="">
+              <handNote xml:id="handNote4" scope="minor" script="syr" medium="unknown">
                 <desc>On fol. 1 a, there are two notes, the one written by the priest Joseph
-                           Sīmandāyā, A. Gr. 1320, A.D. 1009.</desc>
+                  Sīmandāyā, A. Gr. 1320, A.D. 1009.</desc>
               </handNote>
             </handDesc>
             <additions>
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="" to=""/>
+                  <locus from="84a"/>
                   <p>Fol. 84 a contains the following note, similar to that in Add. 12,148,
-                              fol. 233 b, but much soiled and torn.<ref xml:lang="syr">ܚܘܣܝܐ</ref>to<ref xml:lang="syr">ܬܓܪܝܬܢܝܐ</ref>.</p>
+                              fol. 233 b, but much soiled and torn. <foreign xml:lang="syr">ܚܘܣܝܐ</foreign> to <foreign xml:lang="syr">ܬܓܪܝܬܢܝܐ</foreign>.</p>
                   <p>
                     <quote xml:lang="syr">[ܠܬܫܒܘܬ]ܐ ܘܠܐܝܩܪܐ ܕܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ ܘܫ̇ܘܼܝܬ݁
                                  ܒܐ[ܘܣܝܐ ܕܐܒܐ ܘܕܒܪܐ ܘܕ]ܪܘܚܐ ܩܕܝܫܐ ܘܫ̇ܘܼܝܬ݁ ܒܐܘܣܝܐ [These two words
