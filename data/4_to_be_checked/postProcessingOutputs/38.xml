@@ -27,7 +27,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -52,7 +52,7 @@
       <publicationStmt>
         <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/38/tei/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/38/tei</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -62,23 +62,23 @@
         <date calendar="Gregorian"/>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-38/tei">
+        <msDesc xml:id="manuscript-38">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/38/tei</idno>
+            <idno type="URI">http://syriaca.org/manuscript/38</idno>
             <altIdentifier>
               <idno type="BL-Shelfmark">Add MS 12161</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Arabic"/>
+              <idno type="Wright-BL-Arabic">587</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Roman"/>
+              <idno type="Wright-BL-Roman">DLXXXVII</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
@@ -87,67 +87,39 @@
             <msItem xml:id="a1" n="1" defective="true">
               <locus to="184" from="1">Foll. 1-184</locus>
               <author ref="http://syriaca.org/person/573">John Chrysostom</author>
-              <title ref="" xml:lang="en">Third part of the Commentary of<persName ref="http://syriaca.org/person/573">John Chrysostom</persName>on the
-                        Gospel according to<persName>S. John</persName>, homm. lx.—lxxxviii</title>
-              <rubric xml:lang="syr"/>
-              <incipit xml:lang="syr"/>
-              <quote xml:lang="syr">
-                <locus from="" to=""/>
-              </quote>
-              <explicit xml:lang="syr">
-                <locus to="" from=""/>
-              </explicit>
-              <finalRubric xml:lang="syr">ܫܠ̣ܡ ܠܡܟܬܒܐ ܒܦܢܩܝܬܐ ܗܕܐ̣. ܡܐܡܪ̈ܐ ܕܡܪܝ ܝܘܗܢܝܣ ܐܦܣܩܦܐ
-                        ܕܩܘܣܛܢܛܝܢܦܘܠܝܣ̣. ܕܗ̇ܘܝܢ ܒܡܢܝܢܐ̇ ܥܣܪ̈ܝ̣ܢ ܘܬܫܥܐ. ܘ ܘ ..<locus to="183" from="183b"/>
+              <title xml:lang="en">Third part of the Commentary of<persName ref="http://syriaca.org/person/573">John Chrysostom</persName>on <title>the Gospel according to<persName>S. John</persName></title>, homm. lx.—lxxxviii</title>
+              <finalRubric xml:lang="syr"><locus from="183b"/>ܫܠ̣ܡ ܠܡܟܬܒܐ ܒܦܢܩܝܬܐ ܗܕܐ̣. ܡܐܡܪ̈ܐ ܕܡܪܝ ܝܘܗܢܝܣ ܐܦܣܩܦܐ
+                        ܕܩܘܣܛܢܛܝܢܦܘܠܝܣ̣. ܕܗ̇ܘܝܢ ܒܡܢܝܢܐ̇ ܥܣܪ̈ܝ̣ܢ ܘܬܫܥܐ. ܘ ܘ ..
               </finalRubric>
-              <note>See Opera, t. viii., pp. 403—603; Migne, Patrol. Gr., t. lix., col. 327.</note>
+              <note>See <bibl>Opera, t. viii., pp. 403—603</bibl>; <bibl>Migne, Patrol. Gr., t. lix., col. 327</bibl>.</note>
             </msItem>
             <msItem xml:id="a2" n="2" defective="true">
               <locus to="1" from="1b">Foll. 1b-1</locus>
-              <author ref=""/>
-              <title ref="" xml:lang="en">A prayer</title>
-              <rubric xml:lang="syr"/>
+              <title xml:lang="en">A prayer</title>
               <incipit xml:lang="syr">ܥܝܪܐ ܕܠܐ ܕܡܟ ܢܛܘܪܐ ܕܠܐ ܢܐܡ ܢܛ̇ܪ ܡܪܥܝܬܟ ܡܢ ܕܒ̈ܐ (sic)
                         ܡܚ̈ܒܠܢܐ ܘܪܕܘܦ ܠܐܪܝܐ ܣܪܘܚܐ ܡܢ ܓܙܪܟ ܏ܘܫ.</incipit>
-              <quote xml:lang="syr">
-                <locus from="" to=""/>
-              </quote>
-              <explicit xml:lang="syr">
-                <locus to="" from=""/>
-              </explicit>
-              <finalRubric xml:lang="syr">
-                <locus to="" from=""/>
-              </finalRubric>
-              <note/>
             </msItem>
             <msItem xml:id="a3" n="3" defective="true">
               <locus to="1" from="1b">Foll. 1b-1</locus>
-              <author ref="">Addai</author>
-              <title ref="" xml:lang="en">An extract from the Doctrine of<persName>Addai</persName>
+              <title ref="http://syriaca.org/work/921" xml:lang="en">An extract from the Doctrine of<persName ref="http://syriaca.org/person/1118">Addai</persName>
               </title>
               <rubric xml:lang="syr">ܥܠ ܝܕܥܬܐ ܕܢܦܫܐ̣. ܕܐܕܝ ܫܠܝܚܐ. ܝܕܥܝܢ ܐܢܬܘܢ ܕܐܡܪܬ ܠܟܘܢ̣.
                         ܏ܘܫ.</rubric>
-              <incipit xml:lang="syr"/>
-              <quote xml:lang="syr">
-                <locus from="" to=""/>
-              </quote>
-              <explicit xml:lang="syr">
-                <locus to="" from=""/>
-              </explicit>
-              <finalRubric xml:lang="syr">
-                <locus to="" from=""/>
-              </finalRubric>
-              <note>See Cureton's Ancient Syriac Documents, p. , and pp. 108, 192.</note>
-              <note>The same hand has made a few marginal corrections, e.g. foll. 60 a and 62
-                        a.</note>
+              <note>See <bibl>Cureton's Ancient Syriac Documents, p. <!-- WLP: Missing Syriac, not noted in the Word document -->, and pp. 108, 192</bibl>.</note>
+            </msItem>
+            <msItem>
+              <locus from="2a" to="2"/>
+              <author ref="http://syriaca.org/person/573">John Chrysostom</author>
+              <title xml:lang="en">An Extract from Chrysostom's Commentary on the <title>2nd Epistle to the Thessalonians</title>, hom. iv.</title>
+              <rubric>
+                ܬܚܘܝܬܐ ܕܩܕܝܫܐ ܝܘܚܢܢ ܟܪܘܣܛܣܡܘܣ (sic) ܡܢ ܐܓܪܬܐ ܕܠܘܬ ܬܣ̈ܠܢܝܩܝܐ ܡܛܠ ܐܢܛܟܪܝܣܛܘܣ ܀ ܀ ܀.
+              </rubric>
+              <note>See <bibl>Opera, t. xi., p. 613</bibl>.</note>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="perg">
-                <extent>
-                  <measure unit="content_pending" quantity="-1"/>
-                </extent>
                 <foliation/>
                 <collation/>
                 <condition>
@@ -167,56 +139,40 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="8">
-              <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="">
-                <desc>This volume is written in a good, regular Estrangělā of the<date notBefore="0500" notAfter="0700">vith or viith cent</date>. Of the
-                           note written by the scribe on<locus from="184" to="184">fol. 184</locus>a the greater part has been erased, but from what remains it appears that
-                           this book was copied for<persName>a priest named
-                              Lazarus</persName>.</desc>
+              <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
+                <desc>This volume is written in a good, regular Estrangělā of the <date notBefore="0500" notAfter="0700">vith or viith cent.</date></desc>
               </handNote>
-              <handNote xml:id="handNote2" scope="minor" script="syr" medium="">
-                <desc>On<locus from="1b" to="1">fol. 1 b</locus>there are written two
-                           extracts in an elegant current hand of the<date notBefore="0600" notAfter="0700">viith cent.</date>The same hand has made a few
-                           marginal corrections, e.g.<locus from="60a" to="60">foll. 60 a and 62
-                              a</locus>.</desc>
+              <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
+                <desc>On <locus from="1b" to="1">fol. 1 b</locus> there are written two extracts in an elegant current hand of the <date notBefore="0600" notAfter="0700">viith cent.</date> The same hand has made a few marginal corrections, e.g. <locus from="60a">foll. 60 a</locus> and <locus from="62a">62 a</locus>.</desc>
               </handNote>
-              <handNote xml:id="handNote3" scope="minor" script="syr-Syre" medium="">
+              <handNote xml:id="handNote3" scope="minor" script="syr-Syre" medium="unknown">
                 <desc>On<locus from="2a" to="2">fol. 2 a</locus>we find an extract,
-                           written in a good Estrangělā of about the<date notBefore="0700" notAfter="0800">viiith cent.</date>, from<title>Chrysostom's
-                                 Commentary on the 2nd Epistle to the Thessalonians, hom.
-                                 iv</title>.</desc>
+                  written in a good Estrangělā of about the<date notBefore="0700" notAfter="0800">viiith cent.</date>, from <persName ref="http://syriaca.org/person/573">Chrysostom</persName>'s <title>Commentary on the 2nd Epistle to the Thessalonians, hom. iv</title>.</desc>
               </handNote>
-              <handNote xml:id="handNote4" scope="minor" script="syr" medium="">
-                <desc>On<locus from="184a" to="184">fol. 184 a</locus>is a note, probably
-                           of the<date notBefore="0800" notAfter="0900">ixth cent.</date>, portions
-                           of which have been erased.</desc>
+              <handNote xml:id="handNote4" scope="minor" script="syr" medium="unknown">
+                <desc>See additions.</desc>
               </handNote>
-              <handNote xml:id="handNote5" scope="minor" script="syr" medium="">
-                <desc>Below this we read a hand of the<date notBefore="0900" notAfter="1000">xth cent.</date>
-                </desc>
+              <handNote xml:id="handNote5" scope="minor" script="syr" medium="unknown">
+                <desc>See additions.</desc>
               </handNote>
-              <handNote xml:id="handNote6" scope="minor" script="syr" medium="">
-                <desc>On<locus>fol. 2 a</locus>there is a long note, stating that this was
-                           one of the 250 volumes brought to<placeName ref="http://syriaca.org/place/289">Scete</placeName>by the<persName ref="http://syriaca.org/person/647">abbat Moses of<placeName ref="http://syriaca.org/place/723">Nisibis</placeName>
-                  </persName>,
-                           on his return from<placeName ref="http://syriaca.org/place/41">Bagdad</placeName>.</desc>
+              <handNote xml:id="handNote6" scope="minor" script="syr" medium="unknown">
+                <desc>See additions.</desc>
               </handNote>
-              <handNote xml:id="handNote7" scope="minor" script="syr" medium="">
-                <desc>A note on<locus from="1" to="1">fol. 1</locus>in a more recent hand
-                           has been almost totally erased.</desc>
+              <handNote xml:id="handNote7" scope="minor" script="syr" medium="unknown">
+                <desc>See additions.</desc>
               </handNote>
-              <handNote xml:id="handNote8" scope="minor" script="syr" medium="">
-                <desc>On<locus from="2b" to="2">fol. 2 b</locus>there is a carelessly
-                           written note, of still later date and slightly mutilated.</desc>
+              <handNote xml:id="handNote8" scope="minor" script="syr" medium="unknown">
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
             <additions>
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="184a" to="184"/>
-                  <p>Of the note written by the scribe on<locus from="184a" to="184">fol.
-                              184 a</locus>the greater part has been erased, but from what
-                              remains it appears that this book was copied for<persName>a priest
+                  <locus from="184a"/>
+                  <p>Of the note written by the scribe on <locus from="184a">fol.
+                              184 a</locus> the greater part has been erased, but from what
+                              remains it appears that this book was copied for <persName>a priest
                                  named Lazarus</persName>.</p>
                   <p>
                     <quote xml:lang="syr">ܟܠ ܕܝܢ ܕܩܪܐ ܢܨܠܐ ܥܠ ܡܝܬܪܐ ܘܪܚܡ ܐܠܗܐ ܠܥܙܪ ܩܫܝܫܐ .
@@ -224,33 +180,10 @@
                   </p>
                 </item>
                 <item xml:id="addition2" n="2">
-                  <locus from="1b" to="1"/>
-                  <p>See msItem 2.</p>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                </item>
-                <item xml:id="addition3" n="3">
-                  <locus from="" to=""/>
-                  <p>See msItem 3.</p>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                </item>
-                <item xml:id="addition4" n="4">
-                  <locus from="" to=""/>
-                  <p>On fol. 2 a we find an extract, written in a good Estrangělā of about
-                              the<date notBefore="0700" notAfter="0800">viiith cent.</date>, from<title>Chrysostom's Commentary on the 2nd Epistle to the
-                                 Thessalonians, hom. iv</title>. (Opera, t. xi., p. 613).</p>
-                  <p>
-                    <quote xml:lang="syr">ܬܚܘܝܬܐ ܕܩܕܝܫܐ ܝܘܚܢܢ ܟܪܘܣܛܣܡܘܣ (sic) ܡܢ ܐܓܪܬܐ
-                                 ܕܠܘܬ ܬܣ̈ܠܢܝܩܝܐ ܡܛܠ ܐܢܛܟܪܝܣܛܘܣ ܀ ܀ ܀.</quote>
-                  </p>
-                </item>
-                <item xml:id="addition5" n="5">
-                  <locus from="" to=""/>
-                  <p>On fol. 184 a is a note, probably of the ixth cent., portions of which
-                              have been erased.</p>
+                  <locus from="184a"/>
+                  <p>On fol. 184 a is a note, probably
+                    of the <date notBefore="0800" notAfter="0900">ixth cent.</date>, portions
+                    of which have been erased.</p>
                   <p>
                     <quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ . . . ܕܩܢ̈ܝܢܝܗܝ ܡܢ ܙܝܢܬܐ ܕܐܠܗܐ
                                  ܘܡܢ ܦܘܠܚܢܗܝܢ (erased ܝܢ) ܠܝܘܬܪܢܐ ܕܝ̈ܠܗܝܢ( erased ܝܢ) ܘܕܐܝܠܝܢ ܕܩ̈ܪܝܢ
@@ -258,9 +191,9 @@
                                  ܐܠܗܐ: ܘܬܗܘܐ ܠܗ ܡܚܢܘܩܝܬܐ ܕܝܗܘܕܐ:</quote>
                   </p>
                 </item>
-                <item xml:id="addition6" n="6">
-                  <locus from="" to=""/>
-                  <p>Below this we read a hand of the xth cent.</p>
+                <item xml:id="addition3" n="3">
+                  <locus from="184"/>
+                  <p>Below this we read, in a hand of the <date notBefore="0900" notAfter="1000">xth cent.</date>:</p>
                   <p>
                     <quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ [ܕܬܐܘܕܣܝܣ؟]: ܕܝܪܝܐ ܐܚܐ ܕܡܪܝ . .
                                  . ܐܦܝܣܩܘܦܐ ܕܚܪܢ ܟܠ ܕܩܪܐ ܢܨܠܐ ܥܠ ܢܦܫܗ ܕܚܣܝܐ ܕܐܡܝܪ ܘܥܠܝ ܕܝܠܝ ܡܚܝܠܐ
@@ -269,29 +202,20 @@
                                  ܡܠܬܐ ܕܐܠܗܐ ܠܐ ܥܒܪ : ܏ܘܫ. .</quote>
                   </p>
                 </item>
-                <item xml:id="addition7" n="7">
-                  <locus from="2a" to="2"/>
-                  <p>On fol. 2 a there is a long note, stating that this was one of the 250
-                              volumes brought to<placeName ref="http://syriaca.org/place/289">Scete</placeName>by the<persName ref="http://syriaca.org/person/647">abbat Moses of<placeName ref="http://syriaca.org/place/723">Nisibis</placeName>
-                    </persName>, on his return from<placeName ref="http://syriaca.org/place/41">Bagdad</placeName>,<date when-custom="1243" datingMethod="Seleucid">A. Gr. 1243</date>,<date when="0932" calendar="Gregorian">A.D. 932</date>.</p>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
+                <item xml:id="addition4" n="4">
+                  <locus from="2a"/>
+                  <p>On fol. 2 a there is a long note, stating that this was one of the 250 volumes brought to <placeName ref="http://syriaca.org/place/289">Scete</placeName> by the <persName ref="http://syriaca.org/person/647">abbat Moses of <placeName ref="http://syriaca.org/place/723">Nisibis</placeName></persName>, on his return from <placeName ref="http://syriaca.org/place/41">Bagdad</placeName>, <date when-custom="1243" datingMethod="Seleucid">A. Gr. 1243</date>, <date when="0932" calendar="Gregorian">A.D. 932</date>.</p>
                 </item>
-                <item xml:id="addition8" n="8">
-                  <locus from="1" to="1"/>
+                <item xml:id="addition5" n="5">
+                  <locus from="1"/>
                   <p>A note on fol. 1 in a more recent hand, has been almost totally
                               erased.</p>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
                 </item>
-                <item xml:id="addition9" n="9">
+                <item xml:id="addition6" n="6">
                   <locus from="2b" to="2"/>
                   <p>On fol. 2 b there is a carelessly written note, of still later date
-                              and slightly mutilated. Perhaps<persName>Macarius, the sixty-ninth
-                                 patriarch of Alexandria</persName>, is meant, who sat from<date>A.D. 1103 to A.D. 1129</date>. See Renaudot, Hist. Patr.
-                              Alexand. Jacob., p. 483.</p>
+                              and slightly mutilated. Perhaps <persName>Macarius, the sixty-ninth
+                                 patriarch of Alexandria</persName>, is meant, who sat from <date>A.D. 1103</date> to <date>A.D. 1129</date>. See <bibl>Renaudot, Hist. Patr. Alexand. Jacob., p. 483</bibl>.</p>
                   <p>
                     <quote xml:lang="syr">ܐܝܬܘ [ܐܝܬܘܗܝ] ܟܬܒܐ ܗܢܐ (ܕ)ܕܪܝܐ [ܕܕܝܪܐ] ܕܣܘܪ̈ܝܝܐ
                                  ܝܡܩܐ [ܝܘܡܐ؟] ܕܫܒܬܐ ܕܢܓܐ ܚܒܫ . . . [ܕܢܓܗ ܚܕܒܫܒܐ] (ܥ)ܝܕܐ ܕܩܕܝܫܐ
@@ -302,19 +226,15 @@
                 </item>
               </list>
             </additions>
-            <bindingDesc>
-              <p>Content pending</p>
-            </bindingDesc>
-            <sealDesc>
-              <p>Content pending</p>
-            </sealDesc>
+            <bindingDesc/>
+            <sealDesc/>
             <accMat/>
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0500" notAfter="0700" from="" to="" when="">vith or viith
+              <origDate notBefore="0500" notAfter="0700">vith or viith
                         cent.</origDate>
-              <origPlace ref="" xml:lang=""/>
+              <origPlace/>
             </origin>
             <provenance/>
             <acquisition/>
@@ -339,8 +259,8 @@
                 <pubPlace>London</pubPlace>
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
-                <citedRange unit="entry"/>
-                <citedRange unit="pp"/>
+                <citedRange unit="entry">DLXXXVII</citedRange>
+                <citedRange unit="pp">2:469-470</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -438,7 +358,7 @@
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
             <item>
-              <ref target="#"/>
+              <ref target="#theo-single"/>
             </item>
           </list>
         </keywords>
