@@ -3,11 +3,15 @@
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
 /* WS edits */
+/* WLP further edits */
 /* General styles */
 title {display:block; margin:.5em 0;}
 title::before {content: "Title: "; font-weight:bold;}
 p {display:block; margin:.25em;}
 note {display:block; margin:.25em; font-style:italic;}
+bibl {display:inline; text-decoration: underline;}
+author[ref]:after, persName[ref]:after, placeName[ref]:after, title[ref]:after {content: " (ref: "attr(ref) ")"; font-style: italic;}
+
 
 origDate, date {font-weight:bold;}
 origDate::after, date::after {content: " ("oxy_attributes()") "; font-weight:normal;}
@@ -26,41 +30,42 @@ oxy|comment {
 
 /* titleStmt */
 fileDesc {display:block; margin:.5em;}
-titleStmt > title {display:block; margin:1em 0; font-size:24pt; font-weight:bold;}
-titleStmt > sponsor {display:block; margin:.25em 1em; font-size:medium;}
-titleStmt > funder {display:block; margin:.25em 1em; font-size:medium;}
-titleStmt > principal {display:block; margin:.25em 1em; font-size:medium;}
+titleStmt > title {display:block; margin:1em 0; font-size:20pt; font-weight:bold;}
+titleStmt > sponsor {display:none;}
+titleStmt > funder {display:none;}
+titleStmt > principal {display:none;}
 titleStmt > editor {display:block; margin:.25em 1em; font-size:medium;}
 titleStmt > editor::first-of-type::before {content: "Editors"; display:block; font-weight: bold; margin:1em 0;}
 titleStmt > respStmt::first-of-type::before {content: "respStmt"; display:block; font-weight: bold; margin:1em 0;}
 titleStmt > respStmt {display:block; margin:1em;}
 
-editionStmt {display:block; margin:.5em;}
-publicationStmt {display:block; margin:.5em;}
-publicationStmt::before {content: "publicationStmt"; display:block; font-weight: bold; margin:1em 0;}
-publicationStmt > pubPlace {display:block}
-publicationStmt > authority {display:block}
-publicationStmt > idno:before {content: "Identifier: "}
-publicationStmt > idno {display:block}
-publicationStmt > availability {display:block}
-publicationStmt > date {display:block}
+editionStmt {display:none;}
+publicationStmt {display:none;}
 
-/* msDesc */
+/* msDesc > msIdentifier */
 sourceDesc {display:block; margin:.5em;}
 msDesc {display:block; margin:.5em; border: 2px solid #eee;}
 msIdentifier::before {content: "Identifiers"; display:block; font-weight: bold; margin:1em 0;}
+msIdentifier country, repository, settlement, collection {display:none;}
 msIdentifier idno {display:block; margin:.5em;}
 msIdentifier idno::before {content:attr(type) ": ";}
+
+/* msContents */
 msContents {display:block; margin:.5em;  border: 2px solid #eee;}
-msContents > summary::before {content: "Summary: ";}
-msContents > summary {display:block; margin:.5em;  border: 2px solid #eee;}
+msContents::before {content: "Contents"; display:block; font-weight: bold; margin: 1em 0;}
+msContents > summary {display:none;}
 msContents > textLang::before {content: "Text Language: ";}
 msContents > textLang {display:block; margin:.5em;  border: 2px solid #eee;} 
 msItem {display:block; margin:.5em;  padding: .5em; border: 2px solid #eee;}
 msItem::before {content:attr(n) ". ";}
 msItem {display:block;}
-msItem > * {display:block;}
+msItem msItem {display:block; margin:.5em;  padding: .5em; border: 2px solid #eee;}
+msItem msItem::before {content:attr(n) ". ";}
+msItem > :not(locus) {display:block;}
 msItem > *::before {content: oxy_local-name() ': '; font-weight:bold; }
+/* generating locus from attribute values rather than text node, requiring text node to be deleted */
+msItem > locus::before {display:block; content: oxy_local-name() ': ' 'from ' attr(from) ' to ' attr(to); font-size: 16px;}
+msItem > locus {font-size: 0;}
 
 /* Physical Description */
 physDesc::first-of-type::before {content: "Physical Description"; display:block; font-weight: bold; margin:.5em 0;}
@@ -78,13 +83,17 @@ physDesc > handDesc::before {content: "Hand Notes: \A Hands: " attr(hands); font
 physDesc > handDesc {display:block;}
 handNote::before {content:oxy_attributes(); display:block; font-weight:bold; color:gray;}
 physDesc > handDesc > handNote {display:list-item; margin-left:2em;}
+physDesc > decoDesc {display:none;}
 
 /* Additions */
 physDesc > additions::before {content: "Additions "; font-weight: bold; display:block; margin-top:1em;}
 physDesc > additions > list > item {display:block; margin-left:2em;}
-locus {content: "Locus: from: " attr(from) }
+physDesc > additions > list > item:before {content:attr(n) ". ";}
+locus::after {content: " (from: " attr(from)")"; font-style: italic; color:gray;}
 physDesc > additions > list > item > p {display:list-item; margin-left:2em; margin-top:0; margin-bottom:0;}
 physDesc > additions > list > item > p > quote::before {content: 'Quote: "';}
+physDesc > additions > list > item > p:has(quote) {display:block; margin-left:2em; margin-top:0; margin-bottom:0;}
+physDesc > additions > list > item > p > quote {display:list-item; margin-left:2em; margin-top:0; margin-bottom:0;}
 
 /* Origin */
 sourceDesc > msDesc > history > origin::before {content: 'Origin: '; font-weight:bold; display:block;}
@@ -106,9 +115,10 @@ sourceDesc > msDesc > additional > listBibl > bibl > pubPlace::after {content:":
 sourceDesc > msDesc > additional > listBibl > bibl > date::after {content:", "}
 sourceDesc > msDesc > additional > listBibl > bibl > citedRange::before {content: attr(unit) " ";}
 sourceDesc > msDesc > additional > listBibl > bibl > citedRange {font-weight:bold;}
+sourceDesc > msDesc > additional > listBibl > bibl > ptr {display: none;}
 
 
-encodingDesc > editorialDecl > interpretation::before {content: "encodingDesc "; font-weight: bold; display:block; margin-top:1em;}
+encodingDesc {display:none;}
 
 /* Taxonomy */
 profileDesc > textClass > keywords::before {content:"Wright Taxonomy: "; font-weight: bold; display:block; margin-top:1em;}
@@ -119,7 +129,6 @@ revisionDesc::before {content:"revisionDesc: "; font-weight: bold; display:block
 revisionDesc > change {display:list-item; margin-left:2em;}
 revisionDesc > change::after {content: " " attr(who) ", " attr(when) ". " ;}
 
-facsimile::before {content:"revisionDesc: "; font-weight: bold; display:block; margin-top:1em;}
 
 
 
