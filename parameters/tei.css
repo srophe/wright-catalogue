@@ -101,9 +101,11 @@ sourceDesc > msDesc > history > origin > origDate::before {content: 'origDate: '
 sourceDesc > msDesc > history > origin > origDate {display:list-item; margin-left:2em;}
 sourceDesc > msDesc > history > origin > origPlace::before {content: 'origPlace: ';font-weight:normal; font-style:italic;}
 sourceDesc > msDesc > history > origin > origPlace {display:list-item; margin-left:2em;}
+sourceDesc > msDesc > history > :not(origin) {display:none;}
 
 
 /* Bibliographic Info */
+sourceDesc > msDesc > additional > :not(listBibl) {display:none;}
 sourceDesc > msDesc > additional > listBibl::before {content: "Bibliographic Info "; font-weight: bold; display:block; margin-top:1em;}
 sourceDesc > msDesc > additional > listBibl > bibl {display:block;}
 sourceDesc > msDesc > additional > listBibl > bibl > author {display:inline;}
@@ -140,7 +142,7 @@ choice > expan + abbr:after {content:")"} /* Assumes inside choice and expan bef
 history acquisition:before {content: "Acquisition: ";font-weight: bold;} history acquisition {display: block;}
 actor {display:inline; font-style: italic;}
 add[place="sup"] {vertical-align:super;} add[place="sub"] {vertical-align:sub;}
-additional {padding-top: 3pt; padding-bottom: 2pt; display: block;} additional>listBibl>bibl:after {content: ".";} additional:before {content: "Additional:";display: block;font-weight: 600;   font-variant: small-caps;font-size: 120%;} additional>listBibl {display: block;list-style-type: none;margin-top: 10pt;} additional>listBibl:before {content: "Bibliography:";display: block;font-weight: 600;font-variant: small-caps;font-size: 120%;} additional>listBibl>bibl {text-align: left;display: list-item;margin-left: 30pt;}
+additional {padding-top: 3pt; padding-bottom: 2pt; display: block;} additional>listBibl>bibl:after {content: ".";} additional:before {display: block;font-weight: 600;   font-variant: small-caps;font-size: 120%;} additional>listBibl {display: block;list-style-type: none;margin-top: 10pt;} additional>listBibl:before {content: "Bibliography:";display: block;font-weight: 600;font-variant: small-caps;font-size: 120%;} additional>listBibl>bibl {text-align: left;display: list-item;margin-left: 30pt;}
 additions {display: block;} additions:before {content: "Additions: ";font-weight: bold;}
 addrLine {display:block;}
 address {display:block; /* font-style:italic; If wish to appear as HTML addresses are rendered by default, at least in Firefox */}
