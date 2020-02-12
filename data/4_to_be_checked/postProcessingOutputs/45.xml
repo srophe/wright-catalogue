@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
+<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?> <?xml-stylesheet type="text/css" href="../../../parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -49,7 +49,6 @@
         <edition n="1.0"/>
       </editionStmt>
       <publicationStmt>
-        <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
         <idno type="URI">http://syriaca.org/manuscript/45/tei</idno>
         <availability>
@@ -84,85 +83,45 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="355" from="1">Foll. 1-355</locus>
-              <author ref=""/>
-              <title ref="" xml:lang="en">Festal and other Discourses for the whole year,
-                        originally 113 in number, of which the first four are now lost.</title>
-              <rubric xml:lang="syr"/>
-              <incipit xml:lang="syr"/>
-              <quote xml:lang="syr">
-                <locus from="" to=""/>
-              </quote>
-              <explicit xml:lang="syr">
-                <locus to="" from=""/>
-              </explicit>
-              <finalRubric xml:lang="syr">
-                <locus to="" from=""/>
-              </finalRubric>
-              <note/>
-              <note>This is followed by the doxology, and by the following lines, expressing
-                        the gratification of the transcriber at reaching the end of his task:<foreign xml:lang="syr">ܐܝܟ
-                        ܐܠܦ̣ܐ ܕܪܕ̇ܝܐ ܒܝܡ̣̇ܐ ܘܡܬܢ̇ܘܓܐ ܡܢ ܓ̈ܠܠܐ ܘܡܢ ܡܚܫ̈ܘܠܐ ܗ̇ܢܘܢ ܕܚܕܝ̣ܪܝܢ ܠܗ̇܆ ܘܛ̇ܪܝܢ
-                        ܒܗ̇ ܐܝܟ ܕܢܛ̇ܒܥܘܢܗ̇. ܡܐ ܕܝܢ ܕܢܦ̣ܩܬ̇ ܠܠܡܐܢܐ: ܚܕܘܬܐ ܡܬܡ̣ܠܝܢ ܗ̇ܢܘܢ ܕܐܝܬ ܒܓܘܗ̇
-                        ܕܐܠܦ̣ܐ̣. ܗܟܢܐ ܣܘܪܓܕܐ ܐܚܪܢܐ̣ ܒܐܝܕܗ ܕܟܬܘܒܐ ܚܒܢܢܐ</foreign>.</note>
+              <title xml:lang="en">Festal and other Discourses for the whole year, originally 113 in
+                number, of which the first four are now lost.</title>
+              <note><!--WLP: move this to an addition. Should be the colophon-->This is followed by
+                the doxology, and by the following lines, expressing the gratification of the
+                transcriber at reaching the end of his task:<foreign xml:lang="syr">ܐܝܟ ܐܠܦ̣ܐ ܕܪܕ̇ܝܐ
+                  ܒܝܡ̣̇ܐ ܘܡܬܢ̇ܘܓܐ ܡܢ ܓ̈ܠܠܐ ܘܡܢ ܡܚܫ̈ܘܠܐ ܗ̇ܢܘܢ ܕܚܕܝ̣ܪܝܢ ܠܗ̇܆ ܘܛ̇ܪܝܢ ܒܗ̇ ܐܝܟ
+                  ܕܢܛ̇ܒܥܘܢܗ̇. ܡܐ ܕܝܢ ܕܢܦ̣ܩܬ̇ ܠܠܡܐܢܐ: ܚܕܘܬܐ ܡܬܡ̣ܠܝܢ ܗ̇ܢܘܢ ܕܐܝܬ ܒܓܘܗ̇ ܕܐܠܦ̣ܐ̣. ܗܟܢܐ
+                  ܣܘܪܓܕܐ ܐܚܪܢܐ̣ ܒܐܝܕܗ ܕܟܬܘܒܐ ܚܒܢܢܐ</foreign>.</note>
               <msItem xml:id="b1" n="2" defective="true">
                 <locus to="2" from="1a">Foll. 1a-2</locus>
                 <author ref="http://syriaca.org/person/573">John Chrysostom</author>
-                <title ref="" xml:lang="en">On the Nativity of<persName ref="http://syriaca.org/person/2245">our Lord</persName>, by<persName ref="http://syriaca.org/person/573">John
-                           Chrysostom</persName>.</title>
+                <title ref="" xml:lang="en">On the Nativity of<persName
+                    ref="http://syriaca.org/person/2245"> our Lord</persName>, by <persName
+                    ref="http://syriaca.org/person/573">John Chrysostom</persName>.</title>
                 <rubric xml:lang="syr">ܕܡܪܝ ܐܝܘܐܢܢܝܘܣ ܕܝܠܕܐ</rubric>
-                <incipit xml:lang="syr"/>
-                <quote xml:lang="syr">
-                  <locus from="" to=""/>
-                </quote>
-                <explicit xml:lang="syr">
-                  <locus to="" from=""/>
-                </explicit>
-                <finalRubric xml:lang="syr">
-                  <locus to="" from=""/>
-                </finalRubric>
-                <note>See Opera, t. x., p. 986, commencing with the words<foreign xml:lang="grc">εἰς τὴν 'Ιουδαίαν
-                           εἰς πόλιν Δαυὶδ, ἤτις καλεῖται βηθλεὲμ</foreign>.</note>
+                <note>See <bibl>Opera, t. x., p. 986</bibl>, commencing with the words<foreign
+                    xml:lang="grc">εἰς τὴν 'Ιουδαίαν εἰς πόλιν Δαυὶδ, ἤτις καλεῖται
+                    βηθλεὲμ</foreign>.</note>
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus to="4" from="2b">Foll. 2b-4</locus>
                 <author ref="http://syriaca.org/person/430">Cyril of<placeName ref="http://syriaca.org/place/572">Alexandria</placeName>
                 </author>
-                <title ref="" xml:lang="en">On the Nativity of<persName ref="http://syriaca.org/person/2245">our Lord</persName>, by<persName ref="http://syriaca.org/person/430">Cyril of<placeName ref="http://syriaca.org/place/572">Alexandria</placeName>
-                  </persName>, being the second homily on the
-                           Gospel of<persName ref="http://syriaca.org/person/1855">S.
-                              Luke</persName>.</title>
-                <rubric xml:lang="syr">ܬܘܪܓܳܡܳܐ ܕܩܕܝܫܐ ܩ݊ܘ݊ܪܝ݊ܠܠܘܣ ܪܝܫ ܐܦܝ̈ܣܩܘܦܐ ܕܐܠܟܣܢܕܪܝܐ.
-                           ܡܢ ܦܘܫܳܩܳܐ ܕܐܘܢܓܠܝܘܢ ܕܠܘܩܐ̣. ܕܥܠ ܒܝܬ ܝܠܕܗ ܕܦܪܘܩܢ ܕܒܒܣܪ</rubric>
-                <incipit xml:lang="syr"/>
-                <quote xml:lang="syr">
-                  <locus from="" to=""/>
-                </quote>
-                <explicit xml:lang="syr">
-                  <locus to="" from=""/>
-                </explicit>
-                <finalRubric xml:lang="syr">
-                  <locus to="" from=""/>
-                </finalRubric>
-                <note>See Dr. Payne Smith's edit., p. *5, and his translation, part i., p.
-                           12.</note>
+                <title ref="" xml:lang="en">On the Nativity of <persName
+                    ref="http://syriaca.org/person/2245">our Lord</persName>, by<persName
+                    ref="http://syriaca.org/person/430"> Cyril of<placeName
+                      ref="http://syriaca.org/place/572">Alexandria</placeName>
+                  </persName>, being the second homily on the Gospel of<persName
+                    ref="http://syriaca.org/person/1855"> S. Luke</persName>.</title>
+                <rubric xml:lang="syr">ܬܘܪܓܳܡܳܐ ܕܩܕܝܫܐ ܩ݊ܘ݊ܪܝ݊ܠܠܘܣ ܪܝܫ ܐܦܝ̈ܣܩܘܦܐ ܕܐܠܟܣܢܕܪܝܐ. ܡܢ
+                  ܦܘܫܳܩܳܐ ܕܐܘܢܓܠܝܘܢ ܕܠܘܩܐ̣. ܕܥܠ ܒܝܬ ܝܠܕܗ ܕܦܪܘܩܢ ܕܒܒܣܪ</rubric>
+                <note>See <bibl>Dr. Payne Smith's edit., p. *5</bibl>, and <bibl>his translation,
+                    part i., p. 12</bibl>.</note>
               </msItem>
               <msItem xml:id="b3" n="4" defective="true">
                 <locus to="8" from="5a">Foll. 5a-8</locus>
                 <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
                 <title ref="" xml:lang="en">On the Nativity of<persName ref="http://syriaca.org/person/2245">our Lord</persName>, by<persName ref="http://syriaca.org/person/42">Jacob of Batnae</persName>.</title>
-                <rubric xml:lang="syr">ܕܩܕܝܫܐ ܡܪܝ ܝܥܩܘܒ. ܡܐܡܪܐ̣ ܕܡ̇ܘܠܳܕܗ ܕܦܪܘܩܢ
-                           ܕܒܒܣܪ</rubric>
-                <incipit xml:lang="syr"/>
-                <quote xml:lang="syr">
-                  <locus from="" to=""/>
-                </quote>
-                <explicit xml:lang="syr">
-                  <locus to="" from=""/>
-                </explicit>
-                <finalRubric xml:lang="syr">
-                  <locus to="" from=""/>
-                </finalRubric>
+                <rubric xml:lang="syr">ܕܩܕܝܫܐ ܡܪܝ ܝܥܩܘܒ. ܡܐܡܪܐ̣ ܕܡ̇ܘܠܳܕܗ ܕܦܪܘܩܢ ܕܒܒܣܪ</rubric>
                 <note>See Assemani, Bibl. Or., t. i., p. 309, no 11.</note>
               </msItem>
               <msItem xml:id="b4" n="5" defective="true">
@@ -170,17 +129,6 @@
                 <author ref=""/>
                 <title ref="" xml:lang="en">Part of a discourse on the blessed<persName ref="http://syriaca.org/person/624">Virgin Mary</persName>and the
                            Incarnation.</title>
-                <rubric xml:lang="syr"/>
-                <incipit xml:lang="syr"/>
-                <quote xml:lang="syr">
-                  <locus from="" to=""/>
-                </quote>
-                <explicit xml:lang="syr">
-                  <locus to="" from=""/>
-                </explicit>
-                <finalRubric xml:lang="syr">
-                  <locus to="" from=""/>
-                </finalRubric>
                 <note>Imperfect at the beginning and end.</note>
               </msItem>
               <msItem xml:id="b5" n="6" defective="true">
@@ -2146,16 +2094,14 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Vellum, about 16¼ in. by 11¾, consisting of 355 leaves, some of
-                                    which are much stained and torn (e.g. foll. 11, 15, 346, 347 and
-                                    355), whilst others have been more or less mutilated by the
-                                    cutting away of the once broad margins (e.g. foll. 18, 19, 22—
-                                    38, 298, 323—327, and 350—352). The quires, signed with letters,
-                                    were originally 11 in number; but of these the first three and
-                                    the ninth are lost, and the fourth, fifth, sixth, and seventh,
-                                    arc very imperfect, leaves being wanting after foll. 8, 10, 11,
-                                    12, 18, 22, and 28. Each page is divided into two columns, of
-                                    from 30 to 34 lines.</p>
+                      <p>Vellum, about 16¼ in. by 11¾, consisting of 355 leaves, some of which are
+                        much stained and torn (e.g. foll. 11, 15, 346, 347 and 355), whilst others
+                        have been more or less mutilated by the cutting away of the once broad
+                        margins (e.g. foll. 18, 19, 22— 38, 298, 323—327, and 350—352). The quires,
+                        signed with letters, were originally 11 in number; but of these the first
+                        three and the ninth are lost, and the fourth, fifth, sixth, and seventh, are
+                        very imperfect, leaves being wanting after foll. 8, 10, 11, 12, 18, 22, and
+                        28. Each page is divided into two columns, of from 30 to 34 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -2163,89 +2109,88 @@
               
             </objectDesc>
             <handDesc hands="3">
-              <handNote xml:id="handNote1" scope="major" script="syr" medium="">
+              <handNote xml:id="handNote1" scope="major" script="syr" medium="unknown">
                 <desc>This manuscript is written in a clear and regular, though rather stiff
-                           hand.</desc>
+                  hand.</desc>
               </handNote>
-              <handNote xml:id="handNote2" scope="minor" script="Unknown" medium="">
+              <handNote xml:id="handNote2" scope="minor" script="Unknown" medium="unknown">
                 <desc>Greek vowels have been subsequently added here and there.</desc>
               </handNote>
-              <handNote xml:id="handNote3" scope="minor" script="other">
-                <desc>It is in the handwriting of one<persName>John, the disciple of<persName>Rabban Isaiah</persName>
-                  </persName>, from<placeName>the
-                              district of Beth Severina</placeName>.</desc>
+              <handNote xml:id="handNote3" scope="minor" script="other" medium="unknown">
+                <desc>See additions. One of the notes is in the handwriting of one<persName> John,
+                    the disciple of<persName> Rabban Isaiah</persName>
+                  </persName>, from<placeName> the district of Beth Severina</placeName>.</desc>
               </handNote>
             </handDesc>
             <additions>
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="" to=""/>
-                  <p>On fol. 355 a there is a note, some parts of which arc either wholly
-                              effaced or barely legible. From it we learn that this volume was
-                              written by one<persName>Saliba</persName>, at the expense of<persName>Athanasius, bishop of<placeName>Hisn
-                                 Petros</placeName>
-                    </persName>(i. e. Hisn Kipha?), A. Gr. 1320,
-                              A.D. 1015.</p>
-                  <!-- is this one of uri id numbers 20s4-2026)-->
-                  <p>ܠܬܫܒܘܼܚܬܐ ܘܠܐܝ̣ܩܪܐ ܘܩܘܠ̣ܣܐ ܘܪܘܡܪܡܐ ܕܬܠܝܬܝܘܬܐ ܏ܘܫ ܐܬܚ̇ܦ̣ܛ ܘܐܝ̣ܨܦ ܘܣܡ̣
-                              ܣܝ̣ܡܬܐ ܗܕܐ ܪܘܚܢܝܬܐ: ܘܡܘܬܪܬ݀ ܢܦܫ̣ܐ ܗܘܼ ܩܕܝܫܐ ܕܡܪܝܐ: ܡܪܝ ܐܬܐܢܐܣܝܘܣ
-                              ܐ܏ܦܝ̣ܣ ܕܚܣܢ̣ܦܛܪܘܣ ܒܪ ܐܚܐ ܕܝܢ ܕܗ̇ܘ ܕܐܠܗܐ ܝ̇ܕܥ ܫܡܗ: ܕܙܡܢ̣ܗ̇ ܡܢ ܙܝܢܬܐ
-                              ܕܐܠܗܐ ܕܒܒܝ̣ܬ ܐܝ̣ܕ̈ܘܗܝ ܐܝܟ ܕܠܚܘܣܝܐ ܕܢܦܫ̣ܗ ܘܕܥܢܝ̣̈ܕܘܗܝ. ܐܬܟܬܒ̣ ܕܝܢ ܟܬܒܐ
-                              ܗܢܐ. ܘܐܫ̇ܬܠ̣ܡ. ܫܢ̣ܬ݀ ܐ̇ܠܦ ܘܬܠܬܡ̈ܐܐ ܘܥܣ̣ܪ̈ܝܢ ܘܫܝ̣̈ܬ ܕܝܘܢ̈ܝ̣ܐ: ܒܚܙܝܪܢ
-                              ܝܪܚ̣ܐ ܒܥܣ̣ܪ̈ܝܢ ܘܬܡܢܝ̣ܐ ܒܗ̣. ܟܬܒ̣ܗ ܕܝܢ ܠܟܬܒ̣ܐ ܗܢ̣ܐ ܨܠܝ̣ܒܐ ܡܚܝ̣ܠܐ ܘܠܐ
-                              ܕܝܪܝܐ. ܘܪܝܫ̣ܐ ܕܟܠܗܘܢ ܚܛ̈ܝܐ. ܒܕܝܪܐ ܕܡܬܝܕܥܐ ܕܫܡ̣ـ . . . ܚ ܢܦܫ̣ܐ: ܕܩ̇ܪܐ
-                              ܢܨ̇ܠܐ ܏ܘܫ.<quote xml:lang="syr"/>
+                  <locus from="355a" to=""/>
+                  <p>On fol. 355 a there is a note, some parts of which are either wholly effaced or
+                    barely legible. From it we learn that this volume was written by one
+                      <persName>Saliba</persName>, at the expense of <persName>Athanasius, bishop of
+                        <placeName>Hisn Petros(i. e. Hisn Kipha?)</placeName>
+                    </persName>, <date>A. Gr. 1320</date>, <date>A.D. 1015</date>.</p>
+                  <!--is this one of uri id numbers 2024-2026)-->
+                  <p>
+                    <quote xml:lang="syr">ܠܬܫܒܘܼܚܬܐ ܘܠܐܝ̣ܩܪܐ ܘܩܘܠ̣ܣܐ ܘܪܘܡܪܡܐ ܕܬܠܝܬܝܘܬܐ ܏ܘܫ ܐܬܚ̇ܦ̣ܛ
+                      ܘܐܝ̣ܨܦ ܘܣܡ̣ ܣܝ̣ܡܬܐ ܗܕܐ ܪܘܚܢܝܬܐ: ܘܡܘܬܪܬ݀ ܢܦܫ̣ܐ ܗܘܼ ܩܕܝܫܐ ܕܡܪܝܐ: ܡܪܝ ܐܬܐܢܐܣܝܘܣ
+                      ܐ܏ܦܝ̣ܣ ܕܚܣܢ̣ܦܛܪܘܣ ܒܪ ܐܚܐ ܕܝܢ ܕܗ̇ܘ ܕܐܠܗܐ ܝ̇ܕܥ ܫܡܗ: ܕܙܡܢ̣ܗ̇ ܡܢ ܙܝܢܬܐ ܕܐܠܗܐ
+                      ܕܒܒܝ̣ܬ ܐܝ̣ܕ̈ܘܗܝ ܐܝܟ ܕܠܚܘܣܝܐ ܕܢܦܫ̣ܗ ܘܕܥܢܝ̣̈ܕܘܗܝ. ܐܬܟܬܒ̣ ܕܝܢ ܟܬܒܐ ܗܢܐ. ܘܐܫ̇ܬܠ̣ܡ.
+                      ܫܢ̣ܬ݀ ܐ̇ܠܦ ܘܬܠܬܡ̈ܐܐ ܘܥܣ̣ܪ̈ܝܢ ܘܫܝ̣̈ܬ ܕܝܘܢ̈ܝ̣ܐ: ܒܚܙܝܪܢ ܝܪܚ̣ܐ ܒܥܣ̣ܪ̈ܝܢ ܘܬܡܢܝ̣ܐ
+                      ܒܗ̣. ܟܬܒ̣ܗ ܕܝܢ ܠܟܬܒ̣ܐ ܗܢ̣ܐ ܨܠܝ̣ܒܐ ܡܚܝ̣ܠܐ ܘܠܐ ܕܝܪܝܐ. ܘܪܝܫ̣ܐ ܕܟܠܗܘܢ ܚܛ̈ܝܐ. ܒܕܝܪܐ
+                      ܕܡܬܝܕܥܐ ܕܫܡ̣ـ . . . ܚ ܢܦܫ̣ܐ: ܕܩ̇ܪܐ ܢܨ̇ܠܐ ܏ܘܫ.</quote>
                   </p>
                 </item>
                 <item xml:id="addition2" n="2">
                   <locus from="" to=""/>
-                  <p>On the margin of the manuscript are these words, "from the great<placeName>convent of<persName ref="">Mar Gabriel</persName>,<persName>Mar Samuel</persName>and<persName>Mar Simeon of<placeName>Kartamin</placeName>
-                      </persName>
-                    </placeName>,"
-                              which seem to refer to the<persName>bishop Athanasius</persName>.</p>
-                  <p>ܡܢ ܥܘܡܪܐ ܪܒܐ ܕܡܪܝ ܓܒܪܐܝܠ ܘܡܪܝ ܫܡܘܐܝܠ ܘܡܪܝ ܫܡܥܘܢ ܕܩܪܛܡܝܢ<quote xml:lang="syr"/>
-                  </p>
+                  <p>On the margin of the manuscript are these words, "from the great<placeName>
+                      convent of<persName ref=""> Mar Gabriel</persName>,<persName> Mar
+                        Samuel</persName> and<persName> Mar Simeon of<placeName>
+                          Kartamin</placeName></persName></placeName>," which seem to refer to the
+                      <persName>bishop Athanasius</persName>.</p>
+                  <p><quote xml:lang="syr">ܡܢ ܥܘܡܪܐ ܪܒܐ ܕܡܪܝ ܓܒܪܐܝܠ ܘܡܪܝ ܫܡܘܐܝܠ ܘܡܪܝ ܫܡܥܘܢ ܕܩܪܛܡܝܢ</quote></p>
                 </item>
                 <item xml:id="addition3" n="3">
                   <locus from="" to=""/>
-                  <p>A later note, at the foot of the page, informs us that the book
-                              belonged to the<placeName ref="http://syriaca.org/place/360">convent of S. Mary Deipara</placeName>. It
-                              is in the handwriting of one<persName>John, the disciple of<persName>Rabban Isaiah</persName>
-                    </persName>, from<placeName>the district of Beth Severina</placeName>.</p>
-                  <p>ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܡܐܡܪ̈ܐ ܠܕܝܪܐ ܩܕܝܫܬܐ ܕܝ̇ܠܕܬ ܐܠܗܐ ܡܪܝܡ. ܕܒܡܕܒܪܐ
-                              ܕܐܣܩܝܛܝ. ܨܠܲܘ ܥܠܝ ܒܚܘܼܒܐ ܡܛܠ ܡܪܢ. ܘܥܠ ܐܒܗ̈ܝ ܦܓܪ̈ܢܝܐ. ܘܨܠܲܘ ܥܠ ܡܠܦܢܐ
-                              ܕܝܠܝ ܪܒܢ ܐܫܥܝܐ ܕܐܝܬܝܢ . . . ܪܐ ܕܡܕܢܚܐ ܡܢ ܩܪ . . . ܒܝܬ ܣܒܝܪܢܐ ܩܣܛܪܐ
-                              ܡܒܪܟܬܐ. ܐܢ̇ܐ ܕܘܝ̇ܐ ܝܘܚܢܢ ܒܫܡ ܩܫܝܫܐ ܘܗ̇ܘ ܕܡܨܠܐ ܥܠܝܢ ܐܦ ܗ̣ܘ ܢܬܚܲܣܐ ܡܢ
-                              ܡܪܝܐ. ܐܡܝܢ.<quote xml:lang="syr"/>
-                  </p>
+                  <p>A later note, at the foot of the page, informs us that the book belonged to
+                      the<placeName ref="http://syriaca.org/place/360"> convent of S. Mary
+                      Deipara</placeName>. It is in the handwriting of one<persName> John, the
+                      disciple of<persName> Rabban Isaiah</persName></persName>, from <placeName>the
+                      district of Beth Severina</placeName>.</p>
+                  <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܡܐܡܪ̈ܐ ܠܕܝܪܐ ܩܕܝܫܬܐ ܕܝ̇ܠܕܬ ܐܠܗܐ ܡܪܝܡ. ܕܒܡܕܒܪܐ ܕܐܣܩܝܛܝ. ܨܠܲܘ
+                    ܥܠܝ ܒܚܘܼܒܐ ܡܛܠ ܡܪܢ. ܘܥܠ ܐܒܗ̈ܝ ܦܓܪ̈ܢܝܐ. ܘܨܠܲܘ ܥܠ ܡܠܦܢܐ ܕܝܠܝ ܪܒܢ ܐܫܥܝܐ ܕܐܝܬܝܢ . .
+                    . ܪܐ ܕܡܕܢܚܐ ܡܢ ܩܪ . . . ܒܝܬ ܣܒܝܪܢܐ ܩܣܛܪܐ ܡܒܪܟܬܐ. ܐܢ̇ܐ ܕܘܝ̇ܐ ܝܘܚܢܢ ܒܫܡ ܩܫܝܫܐ ܘܗ̇ܘ
+                    ܕܡܨܠܐ ܥܠܝܢ ܐܦ ܗ̣ܘ ܢܬܚܲܣܐ ܡܢ ܡܪܝܐ. ܐܡܝܢ.
+                  </quote></p>
                 </item>
                 <item xml:id="addition4" n="4">
-                  <locus from="" to=""/>
-                  <p>On fol. 354 b, just below the subscription, there is a note, dated
-                              A.Gr. 1807, A.D. 1196, stating that one<persName>Moses</persName>,
-                              from<placeName>Mount Lebanon</placeName>in<placeName ref="http://syriaca.org/place/2726">the district
-                                 of Tripolis</placeName>, read this book, and translated some of the
-                              sermons contained in it into Arabic.</p>
-                  <p>ܐܘ ܐܚܘܢ ܨܠܐ ܥܠ ܡܘܫܐ ܬܠܡܝܕܟ ܕܩ̣ܪܐ ܒܟܬܒܐ ܗܢܐ ܘܢ̣ܨܚ ܡܢܗ ܡܐܡܪ̈ܐ ܠܠܫܢܐ
-                              ܐܪܒܝܐ ܒܫܢܬ ܏ܐܦܙ ܕܝ܏ܘܢ. ܘܟܬܘܒܐ ܕܣܪܛ ܗܠܝܢ ܠܒܢܢܝܐ ܐܝܬ܏ܘ ܡܢ ܐܘܚܕܢܗ̇
-                                 ܕܛܪܘܦܠܝܣ.<quote xml:lang="syr"/>
-                  </p>
+                  <locus from="354b" to=""/>
+                  <p>On fol. 354 b, just below the subscription, there is a note, dated <date>A.Gr.
+                      1807</date>, <date>A.D. 1196</date>, stating that one
+                      <persName>Moses</persName>, from<placeName> Mount Lebanon
+                      </placeName>in<placeName ref="http://syriaca.org/place/2726">the district of
+                      Tripolis</placeName>, read this book, and translated some of the sermons
+                    contained in it into Arabic.</p>
+                  <p><quote xml:lang="syr">ܐܘ ܐܚܘܢ ܨܠܐ ܥܠ ܡܘܫܐ ܬܠܡܝܕܟ ܕܩ̣ܪܐ ܒܟܬܒܐ ܗܢܐ ܘܢ̣ܨܚ ܡܢܗ ܡܐܡܪ̈ܐ ܠܠܫܢܐ ܐܪܒܝܐ ܒܫܢܬ
+                    ܏ܐܦܙ ܕܝ܏ܘܢ. ܘܟܬܘܒܐ ܕܣܪܛ ܗܠܝܢ ܠܒܢܢܝܐ ܐܝܬ܏ܘ ܡܢ ܐܘܚܕܢܗ̇ ܕܛܪܘܦܠܝܣ.
+                  </quote></p>
                 </item>
                 <item xml:id="addition5" n="5">
-                  <locus from="" to=""/>
-                  <p>On fol. 177 b, at the foot of the page,<persName>a monk named Thomas,
-                                 the son of<persName>George</persName>
-                    </persName>, has scribbled
-                              the following lines:</p>
-                  <p>$܀ ܐܬܕܟܪ ܡܪܝܐ ܠܥܒܕܟ ܬܐܘܡܐ ܚܛܝܐ ܒܫܡ ܏ܩܫ ܘܕܝܪܝܐ ܘܠܐ ܚܫܚܐ ܐܠܐ ܕܘܝܐ ܘܣܥܝܛܐ
-                              ܕܟܠ ܐܢܫ ܘܢܦܬܐ ܕܙܘܝ̈ܬܐ ܘܙܒܠܐ ܕܩܝܩ̈ܠܬܐ ܘܚܛܝ ܡܢ ܟܠ ܐܢܫ ܒܪܝܐ ܚܣܝܪ ܡܕܥܐ
-                              ܣܡܐ̣ ܒܘܝܢܐ ܡܠܝܫ (?) ܠܒܐ ܡܠܐ̤ ܟܠ ܚܘ̈ܫܒܐ ܣ̈ܢܝܐ ܘܕܘܐ̤ ܍ܒ̇ܥܢܐ ܘܡܬܟܫܦܢܐ ܩܕܡ
-                              ܡܪܝܐ ܘܠܚܘܒܟܘܢ ܐܚ̈ܝ ܘܐܒ̈ܗܝ ܕܦܓܥܝܢ ܒܨܘܪ̈ܛܐ(sic) $ ܗܠܝܢ ܐܣܪܚܘ ܨܠܘܬܐ
-                              ܚܘܒܢܝܬܐ ܥܠ ܬܠܡܝܕܟܘܢ ܬܘܡܘܢܐ ܒܪ ܡܩ̇ܕܫܐ ܓܝܘܪܓܝܣ ܒܪ ܡܢܚܐ ܒܪܗܝܡ (ܐܒܪܗܝܡ)
-                              ܕܡܬܕܠ (sic) ܟܝܬ ܘ . . . ـܪܒܢ (sic)ܣܒܝܣܝܐ.<quote xml:lang="syr"/>
+                  <locus from="177b" to=""/>
+                  <p>On fol. 177 b, at the foot of the page,<persName> a monk named Thomas, the son
+                        of<persName>George</persName></persName>, has scribbled the following
+                    lines:</p>
+                  <p>
+                    <quote xml:lang="syr">܀ ܐܬܕܟܪ ܡܪܝܐ ܠܥܒܕܟ ܬܐܘܡܐ ܚܛܝܐ ܒܫܡ ܏ܩܫ ܘܕܝܪܝܐ ܘܠܐ ܚܫܚܐ ܐܠܐ
+                      ܕܘܝܐ ܘܣܥܝܛܐ ܕܟܠ ܐܢܫ ܘܢܦܬܐ ܕܙܘܝ̈ܬܐ ܘܙܒܠܐ ܕܩܝܩ̈ܠܬܐ ܘܚܛܝ ܡܢ ܟܠ ܐܢܫ ܒܪܝܐ ܚܣܝܪ ܡܕܥܐ
+                      ܣܡܐ̣ ܒܘܝܢܐ ܡܠܝܫ (?) ܠܒܐ ܡܠܐ̤ ܟܠ ܚܘ̈ܫܒܐ ܣ̈ܢܝܐ ܘܕܘܐ̤ ܍ܒ̇ܥܢܐ ܘܡܬܟܫܦܢܐ ܩܕܡ ܡܪܝܐ
+                      ܘܠܚܘܒܟܘܢ ܐܚ̈ܝ ܘܐܒ̈ܗܝ ܕܦܓܥܝܢ ܒܨܘܪ̈ܛܐ(sic) ܗܠܝܢ ܐܣܪܚܘ ܨܠܘܬܐ ܚܘܒܢܝܬܐ ܥܠ ܬܠܡܝܕܟܘܢ
+                      ܬܘܡܘܢܐ ܒܪ ܡܩ̇ܕܫܐ ܓܝܘܪܓܝܣ ܒܪ ܡܢܚܐ ܒܪܗܝܡ (ܐܒܪܗܝܡ) ܕܡܬܕܠ (sic) ܟܝܬ ܘ . . . ـܪܒܢ
+                      (sic)ܣܒܝܣܝܐ. </quote>
                   </p>
-                  <!--to what do the question marks in the word .docx on this passage refer?-->
+                  <!--WLP: Check the ? marks in the PDF. Check the order of the Syriac here. -->
                 </item>
               </list>
             </additions>
@@ -2254,7 +2199,9 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="" notAfter="" from="" to="" when-custom="1320" datingMethod="Seleucid">It is dated A. Gr. 1320,<origDate when="1015" calendar="Gregorian">A.D. 1015</origDate>.</origDate>
+              <origDate when-custom="1320"
+                datingMethod="Seleucid">A. Gr. 1320</origDate>
+              <origDate when="1015" calendar="Gregorian">A.D. 1015</origDate>
               <origPlace ref="" xml:lang=""/>
             </origin>
             <provenance/>
