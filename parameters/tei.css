@@ -10,7 +10,7 @@ title::before {content: "Title: "; font-weight:bold;}
 p {display:block; margin:.25em;}
 note {display:block; margin:.25em; font-style:italic;}
 bibl {display:inline; text-decoration: underline;}
-author[ref]:after, persName[ref]:after, placeName[ref]:after, title[ref]:after {content: " (ref: "attr(ref) ")"; font-style: italic;}
+author[ref]:after, persName[ref]:after, placeName[ref]:after, title[ref]:after {content: "[ref: "attr(ref) "]"; font-style: italic;}
 
 
 origDate, date {font-weight:bold;}
@@ -23,10 +23,12 @@ bindingDesc, sealDesc, accMat,classDecl, langUsage  {display:none;}
 
 /* Comments */
 oxy|comment {
-    display:block !important;
+    display:inline !important;
     color:green !important;
     background-color:transparent !important;
 }
+oxy|comment:before {content:"[";}
+oxy|comment:after {content:"]";}
 
 /* titleStmt */
 fileDesc {display:block; margin:.5em;}
@@ -58,9 +60,11 @@ msContents > textLang::before {content: "Text Language: ";}
 msContents > textLang {display:block; margin:.5em;  border: 2px solid #eee;} 
 msItem {display:block; margin:.5em;  padding: .5em; border: 2px solid #eee;}
 msItem::before {content:attr(n) ". ";}
+msItem[defective=true]::before{content:attr(n) ". - defective"}
 msItem {display:block;}
 msItem msItem {display:block; margin:.5em;  padding: .5em; border: 2px solid #eee;}
 msItem msItem::before {content:attr(n) ". ";}
+msItem msItem[defective=true]::before{content:attr(n) ". - defective"}
 msItem > :not(locus) {display:block;}
 msItem > *::before {content: oxy_local-name() ': '; font-weight:bold; }
 /* generating locus from attribute values rather than text node, requiring text node to be deleted */
@@ -70,13 +74,13 @@ msItem > locus {font-size: 0;}
 /* Physical Description */
 physDesc::first-of-type::before {content: "Physical Description"; display:block; font-weight: bold; margin:.5em 0;}
 physDesc > objectDesc {display:block; }
-physDesc > objectDesc::before {content: "Condition: "; font-weight: bold; }
-physDesc > objectDesc > supportDesc > * {display:block;}
-physDesc > objectDesc > supportDesc > *::before {content: oxy_local-name() ': '; font-weight:bold; color:gray;}
-extent > *::before {content: oxy_local-name() ': '; font-weight:bold; color:gray; }
+physDesc > objectDesc::before {content: "form: " attr(form); font-weight: bold; }
+physDesc > objectDesc > supportDesc::before {content: "material: " attr(material);}
+physDesc > objectDesc > supportDesc > *:not(condition) {display:none;}
+physDesc > objectDesc > supportDesc > *:not(condition)::before {content: oxy_local-name() ': '; font-weight:bold; color:gray;}
+physDesc condition::before {content: "\A Condition: ";}
 physDesc condition {display:block; margin:0;}
 physDesc condition p { margin:0 .5em; padding:0;}
-layoutDesc::before {content: "Layout: "; font-weight:bold; color:gray;}
 
 /* Hand Notes */
 physDesc > handDesc::before {content: "Hand Notes: \A Hands: " attr(hands); font-weight: bold; display:block;}
@@ -131,9 +135,9 @@ revisionDesc::before {content:"revisionDesc: "; font-weight: bold; display:block
 revisionDesc > change {display:list-item; margin-left:2em;}
 revisionDesc > change::after {content: " " attr(who) ", " attr(when) ". " ;}
 
-
-
-
+/* fascimile and text/body */
+facsimile {display:none;}
+text {display:none;}
 
 /* Default styles */
 ab {display:block;}
