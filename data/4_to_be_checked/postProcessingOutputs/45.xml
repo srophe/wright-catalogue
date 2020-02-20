@@ -83,14 +83,12 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
+              <locus from="1a" to="354b">Foll. 1a-354b</locus>
               <title xml:lang="en">Festal and other Discourses for the whole year, originally 113 in
                 number, of which the first four are now lost.</title>
-              <note><!--WLP: move this to an addition. Should be the colophon-->This is followed by
-                the doxology, and by the following lines, expressing the gratification of the
-                transcriber at reaching the end of his task:<foreign xml:lang="syr">ܐܝܟ ܐܠܦ̣ܐ ܕܪܕ̇ܝܐ
-                  ܒܝܡ̣̇ܐ ܘܡܬܢ̇ܘܓܐ ܡܢ ܓ̈ܠܠܐ ܘܡܢ ܡܚܫ̈ܘܠܐ ܗ̇ܢܘܢ ܕܚܕܝ̣ܪܝܢ ܠܗ̇܆ ܘܛ̇ܪܝܢ ܒܗ̇ ܐܝܟ
-                  ܕܢܛ̇ܒܥܘܢܗ̇. ܡܐ ܕܝܢ ܕܢܦ̣ܩܬ̇ ܠܠܡܐܢܐ: ܚܕܘܬܐ ܡܬܡ̣ܠܝܢ ܗ̇ܢܘܢ ܕܐܝܬ ܒܓܘܗ̇ ܕܐܠܦ̣ܐ̣. ܗܟܢܐ
-                  ܣܘܪܓܕܐ ܐܚܪܢܐ̣ ܒܐܝܕܗ ܕܟܬܘܒܐ ܚܒܢܢܐ</foreign>.</note>
+              <finalRubric xml:lang="syr">
+                <locus from="354b"/>See additions.
+              </finalRubric>
               <msItem xml:id="b1" n="2" defective="true">
                 <locus to="2" from="1a">Foll. 1a-2</locus>
                 <author ref="http://syriaca.org/person/573">John Chrysostom</author>
@@ -1144,7 +1142,7 @@
                   ܫܠ̣ܡ ܠܡܟ̣ܬܒ ܟܬܒܐ ܕܬܘܪ̈ܓܡܐ ܘܕܡܐܡܪ̈ܐ ܡ̈ܥܕܥܕܢܐ ܕܟܠܗ
                            ܚܘܕܪܐ ܫ̇ܬܢܝܐ̣. ܕܡ̈ܠܦܢܐ ܬܪ̈ܝܨܝ ܫܘܒ̣ܚܐ. ܕܒܨ̈ܠܘܬܗܘܢ ܘܕܩܕܝܫܬܐ ܛܘܒܢܝܬܐ ܝ̇ܠܕܬ̇
                            ܐܠܗܐ ܡܪܝܡ̣. ܪ̈ܚܡ̣ܐ ܢܗܘܘܢ ܥܠ ܟܠ ܕܐܫܬܘܬܦ ܒܟܬܒܐ ܗܢܐ̣ ܠܥܠܡܝܢ܀
-                </finalRubric><!-- Move to additions?-->
+                </finalRubric>
                 <note>See <bibl>Assemani, Bibl. Or., t. i., p. 313, no. 11, serm. ii</bibl>.</note>
               </msItem>
             </msItem>
@@ -1180,22 +1178,29 @@
                 <desc>Greek vowels have been subsequently added here and there.</desc>
               </handNote>
               <handNote xml:id="handNote3" scope="minor" script="other" medium="unknown">
-                <desc>See additions. One of the notes is in the handwriting of one<persName> John,
-                    the disciple of<persName> Rabban Isaiah</persName>
-                  </persName>, from<placeName> the district of Beth Severina</placeName>.</desc>
+                <desc>See additions. One of the notes is in the handwriting of one <persName>John,
+                    the disciple of <persName>Rabban Isaiah</persName>
+                  </persName>, from <placeName>the district of Beth Severina</placeName>.</desc>
+              </handNote>
+              <handNote xml:id="handNote4" scope="minor" script="other" medium="unknown">
+                <desc>See additions. A note by a <persName>Moses</persName>, from <placeName>Mount Lebanon</placeName> in <placeName ref="http://syriaca.org/place/2726">the district of
+                  Tripolis</placeName>.</desc>
+              </handNote>
+              <handNote xml:id="handNote5" scope="minor" script="other" medium="unknown">
+                <desc>See additions. A note by <persName>a monk named Thomas, the son
+                of <persName>George</persName></persName>.</desc>
               </handNote>
             </handDesc>
             <additions>
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="355a" to=""/>
+                  <locus from="355a"/>
                   <p>On fol. 355 a there is a note, some parts of which are either wholly effaced or
                     barely legible. From it we learn that this volume was written by one
-                      <persName>Saliba</persName>, at the expense of <persName>Athanasius, bishop of
-                        <placeName>Hisn Petros(i. e. Hisn Kipha?)</placeName>
+                      <persName>Saliba<!--WLP: missing diacritics --></persName>, at the expense of <persName>Athanasius, bishop of
+                        <placeName ref="http://syriaca.org/place/2314">Hisn Petros (i. e. Hisn Kipha?)</placeName>
                     </persName>, <date>A. Gr. 1320</date>, <date>A.D. 1015</date>.</p>
-                  <!--is this one of uri id numbers 2024-2026)-->
                   <p>
                     <quote xml:lang="syr">ܠܬܫܒܘܼܚܬܐ ܘܠܐܝ̣ܩܪܐ ܘܩܘܠ̣ܣܐ ܘܪܘܡܪܡܐ ܕܬܠܝܬܝܘܬܐ ܏ܘܫ ܐܬܚ̇ܦ̣ܛ
                       ܘܐܝ̣ܨܦ ܘܣܡ̣ ܣܝ̣ܡܬܐ ܗܕܐ ܪܘܚܢܝܬܐ: ܘܡܘܬܪܬ݀ ܢܦܫ̣ܐ ܗܘܼ ܩܕܝܫܐ ܕܡܪܝܐ: ܡܪܝ ܐܬܐܢܐܣܝܘܣ
@@ -1207,20 +1212,18 @@
                   </p>
                 </item>
                 <item xml:id="addition2" n="2">
-                  <locus from="" to=""/>
-                  <p>On the margin of the manuscript are these words, "from the great<placeName>
-                      convent of<persName ref=""> Mar Gabriel</persName>,<persName> Mar
-                        Samuel</persName> and<persName> Mar Simeon of<placeName>
-                          Kartamin</placeName></persName></placeName>," which seem to refer to the
-                      <persName>bishop Athanasius</persName>.</p>
+                  <locus from="355a"/>
+                  <p>On the margin are these words, "from the great <placeName>
+                      convent of <persName>Mar Gabriel</persName>, <persName>Mar
+                        Samuel</persName> and <persName>Mar Simeon of <placeName>Kartamin</placeName></persName></placeName>," which seem to refer to the <persName>bishop Athanasius</persName>.</p>
                   <p><quote xml:lang="syr">ܡܢ ܥܘܡܪܐ ܪܒܐ ܕܡܪܝ ܓܒܪܐܝܠ ܘܡܪܝ ܫܡܘܐܝܠ ܘܡܪܝ ܫܡܥܘܢ ܕܩܪܛܡܝܢ</quote></p>
                 </item>
                 <item xml:id="addition3" n="3">
-                  <locus from="" to=""/>
+                  <locus from="355a"/>
                   <p>A later note, at the foot of the page, informs us that the book belonged to
-                      the<placeName ref="http://syriaca.org/place/360"> convent of S. Mary
-                      Deipara</placeName>. It is in the handwriting of one<persName> John, the
-                      disciple of<persName> Rabban Isaiah</persName></persName>, from <placeName>the
+                      the <placeName ref="http://syriaca.org/place/360">convent of S. Mary
+                      Deipara</placeName>. It is in the handwriting of one <persName>John, the
+                      disciple of <persName>Rabban Isaiah</persName></persName>, from <placeName>the
                       district of Beth Severina</placeName>.</p>
                   <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܡܐܡܪ̈ܐ ܠܕܝܪܐ ܩܕܝܫܬܐ ܕܝ̇ܠܕܬ ܐܠܗܐ ܡܪܝܡ. ܕܒܡܕܒܪܐ ܕܐܣܩܝܛܝ. ܨܠܲܘ
                     ܥܠܝ ܒܚܘܼܒܐ ܡܛܠ ܡܪܢ. ܘܥܠ ܐܒܗ̈ܝ ܦܓܪ̈ܢܝܐ. ܘܨܠܲܘ ܥܠ ܡܠܦܢܐ ܕܝܠܝ ܪܒܢ ܐܫܥܝܐ ܕܐܝܬܝܢ . .
@@ -1229,11 +1232,10 @@
                   </quote></p>
                 </item>
                 <item xml:id="addition4" n="4">
-                  <locus from="354b" to=""/>
+                  <locus from="354b"/>
                   <p>On fol. 354 b, just below the subscription, there is a note, dated <date>A.Gr.
                       1807</date>, <date>A.D. 1196</date>, stating that one
-                      <persName>Moses</persName>, from<placeName> Mount Lebanon
-                      </placeName>in<placeName ref="http://syriaca.org/place/2726">the district of
+                      <persName>Moses</persName>, from <placeName>Mount Lebanon</placeName> in <placeName ref="http://syriaca.org/place/2726">the district of
                       Tripolis</placeName>, read this book, and translated some of the sermons
                     contained in it into Arabic.</p>
                   <p><quote xml:lang="syr">ܐܘ ܐܚܘܢ ܨܠܐ ܥܠ ܡܘܫܐ ܬܠܡܝܕܟ ܕܩ̣ܪܐ ܒܟܬܒܐ ܗܢܐ ܘܢ̣ܨܚ ܡܢܗ ܡܐܡܪ̈ܐ ܠܠܫܢܐ ܐܪܒܝܐ ܒܫܢܬ
@@ -1241,9 +1243,9 @@
                   </quote></p>
                 </item>
                 <item xml:id="addition5" n="5">
-                  <locus from="177b" to=""/>
-                  <p>On fol. 177 b, at the foot of the page,<persName> a monk named Thomas, the son
-                        of<persName>George</persName></persName>, has scribbled the following
+                  <locus from="177b"/>
+                  <p>On fol. 177 b, at the foot of the page, <persName>a monk named Thomas, the son
+                        of <persName>George</persName></persName>, has scribbled the following
                     lines:</p>
                   <p>
                     <quote xml:lang="syr">܀ ܐܬܕܟܪ ܡܪܝܐ ܠܥܒܕܟ ܬܐܘܡܐ ܚܛܝܐ ܒܫܡ ܏ܩܫ ܘܕܝܪܝܐ ܘܠܐ ܚܫܚܐ ܐܠܐ
@@ -1255,9 +1257,15 @@
                   </p>
                   <!--WLP: Check the ? marks in the PDF. Check the order of the Syriac here. -->
                 </item>
+                <item xml:id="addition6" n="6">
+                  <p>The colophon follows the last subscription, consisting of the doxology, and the following lines, expressing the gratification of the transcriber at reaching the end of his task:</p>
+                  <p><quote xml:lang="syr">ܐܝܟ ܐܠܦ̣ܐ ܕܪܕ̇ܝܐ
+                    ܒܝܡ̣̇ܐ ܘܡܬܢ̇ܘܓܐ ܡܢ ܓ̈ܠܠܐ ܘܡܢ ܡܚܫ̈ܘܠܐ ܗ̇ܢܘܢ ܕܚܕܝ̣ܪܝܢ ܠܗ̇܆ ܘܛ̇ܪܝܢ ܒܗ̇ ܐܝܟ
+                    ܕܢܛ̇ܒܥܘܢܗ̇. ܡܐ ܕܝܢ ܕܢܦ̣ܩܬ̇ ܠܠܡܐܢܐ: ܚܕܘܬܐ ܡܬܡ̣ܠܝܢ ܗ̇ܢܘܢ ܕܐܝܬ ܒܓܘܗ̇ ܕܐܠܦ̣ܐ̣. ܗܟܢܐ
+                    ܣܘܪܓܕܐ ܐܚܪܢܐ̣ ܒܐܝܕܗ ܕܟܬܘܒܐ ܚܒܢܢܐ</quote></p>
+                </item>
               </list>
             </additions>
-            
             <accMat/>
           </physDesc>
           <history>
@@ -1265,7 +1273,6 @@
               <origDate when-custom="1320"
                 datingMethod="Seleucid">A. Gr. 1320</origDate>
               <origDate when="1015" calendar="Gregorian">A.D. 1015</origDate>
-              <origPlace ref="" xml:lang=""/>
             </origin>
             <provenance/>
             <acquisition/>
@@ -1401,6 +1408,7 @@
             encoding.</change>
       <change type="planned" subtype="greek">Check greek symbols at beginning of MS.</change>
       <change type="planned" subtype="arabic">Check arabic vowels. Add missing Arabic, see above comments.</change>
+      <change type="planned" subtype="missing">Missing diacritics on person and place names in additions.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
