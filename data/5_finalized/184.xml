@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
+<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
@@ -141,9 +141,9 @@
                   <msItem n="12" xml:id="c7">
                     <locus from="55a" to="73">Foll.55a-73</locus>
                     <title type="supplied">Two sedras of <persName ref="http://syriaca.org/person/92">Mar John</persName></title>
-                    <author ref="http://syriaca.org/person/92">John I., or John of the Sedras (<foreign xml:lang="syr">ܡܪܝ ܝܘܚܢܢ ܕܣܕܪ̈ܘܗܝ</foreign>) patriarch of Antioch.</author>
+                    <author ref="http://syriaca.org/person/92">John I., patriarch of Antioch.</author>
                     <rubric xml:lang="syr">ܕܡܪܝܘܚܢܢ </rubric>
-                    <note>On the author of these sedras, see <bibl>Assemani, Bibl. Or., t. ii., p. 334</bibl>.</note>                    
+                    <note>That is, John of the Sedras (<foreign xml:lang="syr">ܡܪܝ ܝܘܚܢܢ ܕܣܕܪ̈ܘܗܝ</foreign>). On this author, see <bibl>Assemani, Bibl. Or., t. ii., p. 334</bibl>.</note>                    
                   <msItem n="13" xml:id="d1">
                     <locus from="55a" to="65">Foll. 55a-65</locus>
                     <author ref="http://syriaca.org/person/92">John I., patriarch of Antioch.</author>
@@ -230,7 +230,6 @@
                 </handNote>
                 <handNote xml:id="handNote3" scope="minor" script="syr" medium="unknown">See additions.</handNote>
               </handDesc>
-              <decoDesc/>
               <additions>
                 <p/>
                 <list>
@@ -384,17 +383,8 @@
       <change when="2019-09-24" who="http://syriaca.org/documentation/editors.xml#lruth">Created: file</change>     
     </revisionDesc>
   </teiHeader>
-  <facsimile>
-    <!-- facsimile information about the manuscript -->
-    <graphic/>
-    <!-- Alternatively you could provide 'surface' elements with more than one image per surface, and optionally with 'zone' 
-      elements to give coordinates for any special areas of interest -->
-  </facsimile>
   <text>
-    <body>
-      <!-- If you had a transcription of the manuscript you would put it here -->
-      <p/>
-    </body>
+    <body><bibl/></body>
   </text>
 </TEI>
 
