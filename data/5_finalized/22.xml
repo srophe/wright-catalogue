@@ -1,5 +1,4 @@
-<?oxygen RNGSchema="https://raw.githubusercontent.com/wlpotter/syriaca-wright-catalog/master/schemas/enrich-syriaca.rnc" type="compact"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/wlpotter/wright-catalogue/master/parameters/wright-mss.css"?>
+<?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
     <fileDesc>
@@ -132,8 +131,7 @@
                   </msItem>
                   <msItem xml:id="d6" n="9">
                     <locus to="29" from="24b">Foll. 24b-29</locus>
-                    <author ref=""/>
-                    <title ref="" xml:lang="en">Order of<persName ref="http://syriaca.org/person/13">Mār Ephraim, the Syrian
+                    <title xml:lang="en">Order of<persName ref="http://syriaca.org/person/13">Mār Ephraim, the Syrian
                                     Doctor</persName>, celebrated on Saturday in the first week of
                                  Lent; and commemoration of<persName ref="http://syriaca.org/person/2107">Mār Theodore the
                                     illustrious martyr</persName>.</title>
