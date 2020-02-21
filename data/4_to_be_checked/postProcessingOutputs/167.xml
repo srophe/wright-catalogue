@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
+<?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
     <fileDesc>
@@ -49,7 +50,6 @@
         <edition n="1.0"/>
       </editionStmt>
       <publicationStmt>
-        
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
         <idno type="URI">http://syriaca.org/manuscript/167/tei</idno>
         <availability>
@@ -81,137 +81,101 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
-            <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="" from="1a"/>
-              <title ref="" xml:lang="en">A work similar in character to Add. 12,138 and 12,178, but
+              <title xml:lang="en">A work similar in character to Add. 12,138 and 12,178, but
                 of much smaller dimensions, and confined to the Old Testament</title>
               <msItem xml:id="b1" n="2">
-                <locus to="" from="1a"/>
-                <author ref=""/>
-                <title ref="" xml:lang="en">The Pentateuch</title>
+                <title xml:lang="en">The Pentateuch</title>
                 <msItem xml:id="c1" n="3" defective="true">
-                  <locus to="" from="1a"/>
-                  <title ref="" xml:lang="en">Genesis</title>
+                  <title xml:lang="en">Genesis</title>
                 </msItem>
                 <msItem xml:id="c2" n="4">
-                  <locus to="" from="4a"/>
-                  <title ref="" xml:lang="en">Exodus</title>
+                  <title xml:lang="en">Exodus</title>
                 </msItem>
                 <msItem xml:id="c3" n="5">
-                  <locus to="" from="6b"/>
-                  <title ref="" xml:lang="en">Leviticus, as far as ch. ix. 9</title>
+                  <title xml:lang="en">Leviticus, as far as ch. ix. 9</title>
                 </msItem>
                 <msItem xml:id="c4" n="6" defective="true">
-                  <locus to="" from="7a"/>
-                  <title ref="" xml:lang="en">Numbers</title>
+                  <title xml:lang="en">Numbers</title>
                 </msItem>
                 <msItem xml:id="c5" n="7">
-                  <locus to="" from="9a"/>
-                  <title ref="" xml:lang="en">Deuteronomy</title>
+                  <title xml:lang="en">Deuteronomy</title>
                 </msItem>
               </msItem>
-              <msItem xml:id="b2" n="8">
-                <locus to="" from="13a"/>
-                <title ref="Joshua" xml:lang="en"/>
-              </msItem>
               <msItem xml:id="b3" n="9" defective="true">
-                <locus to="" from="15b"/>
-                <title ref="" xml:lang="en">Judges</title>
+                <title xml:lang="en">Judges</title>
                 <note>Of the leaf which contained ch. i. 7—viii. 18, only a small portion
                   remains</note>
               </msItem>
               <msItem xml:id="b4" n="10" defective="true">
-                <locus to="" from="18b"/>
-                <title ref="" xml:lang="en">Job</title>
+                <title xml:lang="en">Job</title>
                 <note>The leaf which con¬tained ch. v. 22—xv. 34, is lost.</note>
               </msItem>
               <msItem xml:id="b5" n="11" defective="true">
-                <locus to="" from="21a"/>
-                <title ref="" xml:lang="en">First and second Samuel (undivided)</title>
+                <title xml:lang="en">First and second Samuel (undivided)</title>
                 <note>The leaf which contained 1 Sam. xx.27— xxvi. 25, is lost; and of that which
                   contained 2 Sam. viii. 1—xvii. 12, only a very small piece is left.</note>
               </msItem>
               <msItem xml:id="b6" n="12">
-                <locus to="" from="26a"/>
-                <title ref="" xml:lang="en">First and second Kings (undivided)</title>
+                <title xml:lang="en">First and second Kings (undivided)</title>
               </msItem>
               <msItem xml:id="b7" n="13">
-                <locus to="" from="31a"/>
-                <title ref="" xml:lang="en">Isaiah</title>
+                <title xml:lang="en">Isaiah</title>
               </msItem>
               <msItem xml:id="b8" n="14">
-                <locus to="" from="37a"/>
-                <title ref="" xml:lang="en">The twelve minor Prophets</title>
+                <title xml:lang="en">The twelve minor Prophets</title>
               </msItem>
               <msItem xml:id="b9" n="15">
-                <locus to="" from="41b"/>
-                <title ref="" xml:lang="en">Jeremiah</title>
+                <title xml:lang="en">Jeremiah</title>
                 <msItem xml:id="c6" n="16">
-                  <locus to="" from="47a"/>
-                  <title ref="" xml:lang="en">The Lamentations</title>
+                  <title xml:lang="en">The Lamentations</title>
                 </msItem>
                 <msItem xml:id="c7" n="17">
-                  <locus to="" from="47b"/>
-                  <title ref="" xml:lang="en">The two Epistles of Baruch</title>
+                  <title xml:lang="en">The two Epistles of Baruch</title>
                 </msItem>
                 <msItem xml:id="c8" n="18">
-                  <locus to="" from="48a"/>
-                  <title ref="" xml:lang="en">The Epistle of Jeremiah</title>
+                  <title xml:lang="en">The Epistle of Jeremiah</title>
                 </msItem>
               </msItem>
               <msItem xml:id="b10" n="19">
-                <locus to="" from="48b"/>
-                <title ref="" xml:lang="en">Ezekiel</title>
+                <title xml:lang="en">Ezekiel</title>
               </msItem>
               <msItem xml:id="b11" n="20">
-                <locus to="" from="52b"/>
-                <title ref="" xml:lang="en">Daniel, including the song of the three holy
+                <title xml:lang="en">Daniel, including the song of the three holy
                   Children.</title>
                 <msItem xml:id="c9" n="21">
-                  <locus to="" from="54a"/>
-                  <title ref="" xml:lang="en">Bel and the Dragon</title>
+                  <title xml:lang="en">Bel and the Dragon</title>
                 </msItem>
                 <msItem xml:id="c10" n="22">
-                  <locus to="" from="54a"/>
-                  <title ref="" xml:lang="en">Susanna</title>
+                  <title xml:lang="en">Susanna</title>
                 </msItem>
               </msItem>
               <msItem xml:id="b12" n="23">
-                <locus to="" from="54b"/>
-                <title ref="" xml:lang="en">The Song of Songs</title>
+                <title xml:lang="en">The Song of Songs</title>
               </msItem>
               <msItem xml:id="b13" n="24">
-                <locus to="" from="55a"/>
-                <title ref="" xml:lang="en">Ecclcsiastes</title>
+                <title xml:lang="en">Ecclcsiastes</title>
               </msItem>
               <msItem xml:id="b14" n="25">
-                <locus to="" from="56a"/>
-                <title ref="" xml:lang="en">The book of Wisdom</title>
+                <title xml:lang="en">The book of Wisdom</title>
               </msItem>
               <msItem xml:id="b15" n="26">
-                <locus to="" from="58a"/>
-                <title ref="" xml:lang="en">The Proverbs of Solomon</title>
+                <title xml:lang="en">The Proverbs of Solomon</title>
               </msItem>
               <msItem xml:id="b16" n="27">
-                <locus to="" from="61a"/>
-                <title ref="" xml:lang="en">Ecclesiastieus, or the Wisdom of Jesus the son of
+                <title xml:lang="en">Ecclesiastieus, or the Wisdom of Jesus the son of
                   Sirach</title>
               </msItem>
               <msItem xml:id="b17" n="28" defective="true">
-                <locus to="" from="65a"/>
-                <title ref="" xml:lang="en">The Psalms</title>
+                <title xml:lang="en">The Psalms</title>
                 <note>The loaves are wanting that contained Ps. xiii. 7—lxxxvii., and Ps. cix. 29 to
                   the end.</note>
-                <note/>
               </msItem>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="perg">
-                
                 <foliation/>
                 <collation/>
                 <condition>
@@ -227,7 +191,6 @@
                   </list>
                 </condition>
               </supportDesc>
-              
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
@@ -239,7 +202,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="" to=""/>
+                  <locus/>
                   <p/>
                   <p>
                     <quote xml:lang="syr"/>
@@ -247,13 +210,12 @@
                 </item>
               </list>
             </additions>
-            
             <accMat/>
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1000" notAfter="1200" from="" to="" when=""/>
-              <origPlace ref="" xml:lang=""/>
+              <origDate notBefore="1000" notAfter="1200"/>
+              <origPlace/>
             </origin>
             <provenance/>
             <acquisition/>
@@ -266,7 +228,6 @@
                       Catalogue</ref>
                   </bibl>. abbreviated by the Syriaca.org editors.</source>
               </recordHist>
-              
               <note/>
             </adminInfo>
             <listBibl>
@@ -305,50 +266,110 @@
             <ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy.html"/>
           </bibl>
           <category xml:id="biblical-manuscripts">
-            <category xml:id="bible-ot"><catDesc>Old Testament</catDesc></category>
-            <category xml:id="bible-nt"><catDesc>New Testament</catDesc></category>
-            <category xml:id="bible-apocrypha"><catDesc>Apocrypha</catDesc></category>
-            <category xml:id="bible-punctuation"><catDesc>Punctuation</catDesc></category>
+            <category xml:id="bible-ot">
+              <catDesc>Old Testament</catDesc>
+            </category>
+            <category xml:id="bible-nt">
+              <catDesc>New Testament</catDesc>
+            </category>
+            <category xml:id="bible-apocrypha">
+              <catDesc>Apocrypha</catDesc>
+            </category>
+            <category xml:id="bible-punctuation">
+              <catDesc>Punctuation</catDesc>
+            </category>
           </category>
           <category xml:id="service-books">
-            <category xml:id="psalter"><catDesc>Psalters</catDesc></category>
-            <category xml:id="lectionaries"><catDesc>Lectionaries</catDesc></category>
-            <category xml:id="missals"><catDesc>Missals</catDesc></category>
-            <category xml:id="sacerdotals"><catDesc>Sacerdotals</catDesc></category>
-            <category xml:id="choral"><catDesc>Choral Books</catDesc></category>
-            <category xml:id="hymns"><catDesc>Hymns</catDesc></category>
-            <category xml:id="prayers"><catDesc>Prayers</catDesc></category>
-            <category xml:id="funerals"><catDesc>Funeral Services</catDesc></category>
+            <category xml:id="psalter">
+              <catDesc>Psalters</catDesc>
+            </category>
+            <category xml:id="lectionaries">
+              <catDesc>Lectionaries</catDesc>
+            </category>
+            <category xml:id="missals">
+              <catDesc>Missals</catDesc>
+            </category>
+            <category xml:id="sacerdotals">
+              <catDesc>Sacerdotals</catDesc>
+            </category>
+            <category xml:id="choral">
+              <catDesc>Choral Books</catDesc>
+            </category>
+            <category xml:id="hymns">
+              <catDesc>Hymns</catDesc>
+            </category>
+            <category xml:id="prayers">
+              <catDesc>Prayers</catDesc>
+            </category>
+            <category xml:id="funerals">
+              <catDesc>Funeral Services</catDesc>
+            </category>
           </category>
           <category xml:id="theology">
-            <category xml:id="theo-single"><catDesc>Individual Authors</catDesc></category>
-            <category xml:id="theo-collected"><catDesc>Collected Authors</catDesc></category>
-            <category xml:id="theo-catenae"><catDesc>Catenae Patrum and Demonstrations against Heresies</catDesc></category>
-            <category xml:id="theo-anonymous"><catDesc>Anonymous Works</catDesc></category>
-            <category xml:id="theo-council"><catDesc>Councils of the Church and Ecclesioastical Canons</catDesc></category>
+            <category xml:id="theo-single">
+              <catDesc>Individual Authors</catDesc>
+            </category>
+            <category xml:id="theo-collected">
+              <catDesc>Collected Authors</catDesc>
+            </category>
+            <category xml:id="theo-catenae">
+              <catDesc>Catenae Patrum and Demonstrations against Heresies</catDesc>
+            </category>
+            <category xml:id="theo-anonymous">
+              <catDesc>Anonymous Works</catDesc>
+            </category>
+            <category xml:id="theo-council">
+              <catDesc>Councils of the Church and Ecclesioastical Canons</catDesc>
+            </category>
           </category>
           <category xml:id="wright-history">
-            <category xml:id="history"><catDesc>History</catDesc></category>
+            <category xml:id="history">
+              <catDesc>History</catDesc>
+            </category>
           </category>
           <category xml:id="lives">
-            <category xml:id="lives-collect"><catDesc>Collected Lives</catDesc></category>
-            <category xml:id="lives-single"><catDesc>Single Lives</catDesc></category>
+            <category xml:id="lives-collect">
+              <catDesc>Collected Lives</catDesc>
+            </category>
+            <category xml:id="lives-single">
+              <catDesc>Single Lives</catDesc>
+            </category>
           </category>
           <category xml:id="scientific-lit">
-            <category xml:id="sci-logic"><catDesc>Logic and Rhetoric</catDesc></category>
-            <category xml:id="sci-grammar"><catDesc>Grammar and Lexicography</catDesc></category>
-            <category xml:id="sci-ethics"><catDesc>Ethics</catDesc></category>
-            <category xml:id="sci-medicine"><catDesc>Medicine</catDesc></category>
-            <category xml:id="sci-agriculture"><catDesc>Agriculture</catDesc></category>
-            <category xml:id="sci-chemistry"><catDesc>Chemistry</catDesc></category>
-            <category xml:id="sci-natural-history"><catDesc>Natural History</catDesc></category>
+            <category xml:id="sci-logic">
+              <catDesc>Logic and Rhetoric</catDesc>
+            </category>
+            <category xml:id="sci-grammar">
+              <catDesc>Grammar and Lexicography</catDesc>
+            </category>
+            <category xml:id="sci-ethics">
+              <catDesc>Ethics</catDesc>
+            </category>
+            <category xml:id="sci-medicine">
+              <catDesc>Medicine</catDesc>
+            </category>
+            <category xml:id="sci-agriculture">
+              <catDesc>Agriculture</catDesc>
+            </category>
+            <category xml:id="sci-chemistry">
+              <catDesc>Chemistry</catDesc>
+            </category>
+            <category xml:id="sci-natural-history">
+              <catDesc>Natural History</catDesc>
+            </category>
           </category>
           <category xml:id="wright-fly-leaves">
-            <category xml:id="fly-leaves"><catDesc>Fly Leaves</catDesc></category>
+            <category xml:id="fly-leaves">
+              <catDesc>Fly Leaves</catDesc>
+            </category>
           </category>
           <category xml:id="appendices">
-            <category xml:id="appendix-a"><catDesc>Appendix A</catDesc></category>
-            <category xml:id="appendix-b"><catDesc>Appendix B</catDesc></category>
+            <category xml:id="appendix-a">
+              <catDesc>Appendix A</catDesc>
+            </category>
+            <category xml:id="appendix-b">
+              <catDesc>Appendix B</catDesc>
+            </category>
           </category>
         </taxonomy>
       </classDecl>
@@ -383,6 +404,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-02-21-06:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-02-03-06:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2019-11-28" who="http://syriaca.org/documentation/editors.xml#akelly">Initial
         TEI encoding.</change>

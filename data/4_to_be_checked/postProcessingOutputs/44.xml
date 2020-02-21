@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
+<?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
     <fileDesc>
@@ -49,7 +50,6 @@
         <edition n="1.0"/>
       </editionStmt>
       <publicationStmt>
-        
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
         <idno type="URI">http://syriaca.org/manuscript/44/tei</idno>
         <availability>
@@ -81,17 +81,13 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
-            <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
               <locus to="141" from="1">Foll. 1-141</locus>
               <author ref="http://syriaca.org/person/44">Philoxenus of Mabūg</author>
-              <title xml:lang="en">A treatise of <persName ref="http://syriaca.org/person/44">Philoxenus of Mabūg</persName>,
+              <title xml:lang="en">A treatise of<persName ref="http://syriaca.org/person/44">Philoxenus of Mabūg</persName>,
                         showing that one Person of the Holy Trinity became incarnate and suffered
                         for us.</title>
-              <rubric xml:lang="syr">
-                <locus from="1b"/>
-                ܫܪܝܐ ܘܦܘܢܝ ܦܬܓܡܐ ܕܩܕܝܫܐ
+              <rubric xml:lang="syr">ܫܪܝܐ ܘܦܘܢܝ ܦܬܓܡܐ ܕܩܕܝܫܐ
                         ܦܝܠܘܟܣܢܘܣ ܐܦܣܩܘܦܐ ܕܡܒܘܓ. ܕܥܒ̣ܕ ܠܘܩܒܠ ܐܢܫ ܕܟܕ ܐܝܬܘܗܝ ܒܗܪܣܝܣ ܕܡܢܝ̈ܢܝܐ̣. ܫܩ̣ܠ
                         ܦܪܨܘܦܐ ܨܢܝܥܐܝܬ ܡܛܘܠ ܕܚܠܬܗ ܕܐܬܦܪܣܝܬ ܘܐܡ̣ܪ ܚܠܦ ܝܘܠܦܢܗ ܕܢܣܛܘܪܝܣ ܘܣܡ ܠܘܩܒܠ ܐܓܪܬܐ
                         ܕܗܝܡܝܘܬܐ ܕܐܬܟܬܒܬ ܡܢܗ ܠܕܝܪ̈ܬܐ. ܘܦ̣ܢܐ ܗ̣ܘ ܟܬ̣ܒ ܗܠܝܢ ܘܥܒܕ ܫܪܝܐ ܠܡܡܠܠܐ ܗ̇ܘ ܕܗܘ̣ܐ
@@ -103,13 +99,11 @@
                         ܡܢ ܟܬ̈ܒܝ ܩܘܕܫܐ ܟܠܗܘܢ. ܘܡܢ ܐܒ̈ܗܬܐ ܕܥܕܬܐ. ܘܫ̣ܪܐ ܟܘܠ ܚܕܐ ܚܕܐ ܡܢܗܝܢ ܒܐܝܕܐ ܒܐܝܕܐ
                         ܒܝܕ ܡܐܡܪ̈ܐ ܥܣܪ̈ܐ ܠܝܘܬܪܢܐ ܕܟܠܗ̇ ܥܕܬܐ ܕܐܠܗܐ̇ ܕܦܓܥܝܢ ܒܫܪ̈ܝܐ ܗܠܝܢ. ܕܢܗܘܘܢ ܠܚ̈ܝܐ
                         ܒܝܘܡܗ ܕܡܪܢ̣. ܘܠܣܝܘܡܐ ܘܠܟܬܘܒܐ ܘܠܫܡ̈ܘܥܐ. ܒܗܠܝܢ ܪ̈ܚܡܐ ܕܥܠܝܗܘܢ ܟܠܢܫ ܠܚܪܬܐ ܡܣܬܢܩ.
-                        ܫܘܒܚܐ ܠܐܒܐ ܏ܘܫ.<locus to="141" from="141b"/>
-              </finalRubric>
-              <note>See <bibl>Assemani, Bibl. Or., t. ii., pp. 27—30</bibl>.</note>
+                        ܫܘܒܚܐ ܠܐܒܐ ܏ܘܫ.</finalRubric>
+              <note>See<bibl>Assemani, Bibl. Or., t. ii., pp. 27—30</bibl>.</note>
               <msItem xml:id="b1" n="2" defective="true">
-                <locus from="1b" to="120"/>
                 <author ref="http://syriaca.org/person/44">Philoxenus of Mabūg</author>
-                <title xml:lang="en">The ten discourses, <foreign xml:lang="syr">ܡܐܡܪ̈ܐ</foreign>, of the treatise of <persName ref="http://syriaca.org/person/44">Philoxenus of Mabūg</persName>,
+                <title xml:lang="en">The ten discourses,<foreign xml:lang="syr">ܡܐܡܪ̈ܐ</foreign>, of the treatise of<persName ref="http://syriaca.org/person/44">Philoxenus of Mabūg</persName>,
                   showing that one Person of the Holy Trinity became incarnate and suffered
                   for us.</title>
                 <note>The fourth of these is imperfect at the end, and the fifth at the beginning (foll. 42, 43).</note>
@@ -117,322 +111,156 @@
               <msItem xml:id="b2" n="3">
                 <locus to="125" from="120b">Foll. 120b-125</locus>
                 <title xml:lang="en">Extracts from a treatise of an anonymous writer
-                           against <persName ref="http://syriaca.org/person/44">Philoxenus</persName>, which gave occasion to the latter to write the
-                           above discourses, with some remarks by <persName ref="http://syriaca.org/person/44">Philoxenus</persName>.</title>
+                           against<persName ref="http://syriaca.org/person/44">Philoxenus</persName>, which gave occasion to the latter to write the
+                           above discourses, with some remarks by<persName ref="http://syriaca.org/person/44">Philoxenus</persName>.</title>
                 <rubric xml:lang="syr">ܐܝܬܘܗܝ ܕܝܢ ܗ̇ܘ ܡܕܡ ܕܗܫܐ ܡܬܟܬܒ̣. ܪ̈ܫܐ ܗ̇ܢܘܢ ܕܐܬܣܝܡܘ ܡܢ
                            ܗ̇ܘ ܕܠܩܘܒܠܐ. ܘܐܬܐܡܪ ܠܘܩܒܠܗܘܢ ܡܡܠܠܐ ܗ̇ܘ ܕܥܕܡܐ ܠܗܪܟܐ</rubric>
-                <incipit xml:lang="syr"/>
-                <quote xml:lang="syr">ܕܣܝܘܡܐ<locus from="125a" to=""/>
-                </quote>
+                <quote xml:lang="syr">ܕܣܝܘܡܐ</quote>
               </msItem>
               <msItem xml:id="b3" n="4">
                 <locus to="129" from="126a">Foll. 126a- 129</locus>
                 <author ref="http://syriaca.org/person/44">Philoxenus</author>
-                <title xml:lang="en">The letter of <persName ref="http://syriaca.org/person/44">Philoxenus</persName> to the monks,
+                <title xml:lang="en">The letter of<persName ref="http://syriaca.org/person/44">Philoxenus</persName>to the monks,
                            against which the anonymous writer composed his treatise.</title>
                 <rubric xml:lang="syr">ܐܓܪܬܐ ܕܗܝܡܢܘܬܐ ܕܐܬܟܬܒܬ ܡܢܗ ܠܘܬ ܕܝܪ̈ܝܐ</rubric>
               </msItem>
               <msItem xml:id="b4" n="5" defective="true">
                 <locus to="141" from="130a">Foll. 130a-141</locus>
-                <title ref="" xml:lang="en">Testimonies from the Fathers, adduced by <persName ref="http://syriaca.org/person/44">Philoxenus</persName> in
+                <title xml:lang="en">Testimonies from the Fathers, adduced by<persName ref="http://syriaca.org/person/44">Philoxenus</persName>in
                            support of his views.</title>
                 <rubric xml:lang="syr">ܣܗ̈ܕܘܬܐ ܡܢ ܟܬܒ̈ܐ ܕܐܒ̈ܗܬܐ</rubric>
                 <msItem xml:id="c1" n="6">
-                  <locus to="" from="135b"/>
-                  <author ref="http://syriaca.org/person/2485">Alexander of Alexandria
-                  </author>
-                  <title  xml:lang="en">Testimony of <persName ref="http://syriaca.org/person/2485">Alexander of<placeName ref="http://syriaca.org/place/572">Alexandria</placeName>
+                  <author ref="http://syriaca.org/person/2485">Alexander of Alexandria</author>
+                  <title xml:lang="en">Testimony of<persName ref="http://syriaca.org/person/2485">Alexander of<placeName ref="http://syriaca.org/place/572">Alexandria</placeName>
                     </persName>
                   </title>
-                  <rubric xml:lang="syr"/>
-                  <incipit xml:lang="syr"/>
-                  <quote xml:lang="syr">
-                    <locus from="" to=""/>
-                  </quote>
-                  <explicit xml:lang="syr">
-                    <locus to="" from=""/>
-                  </explicit>
-                  <finalRubric xml:lang="syr">
-                    <locus to="" from=""/>
-                  </finalRubric>
-                  <note/>
                 </msItem>
                 <msItem xml:id="c2" n="7">
-                  <locus to="" from="133b"/>
-                  <author ref="">Athanasius</author>
-                  <title ref="" xml:lang="en">Athanasius</title>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="135b"/>ܡܢ ܐܓܪܬܐ ܕܠܘܬ
+                  <author>Athanasius</author>
+                  <title xml:lang="en">Athanasius</title>
+                  <rubric xml:lang="syr">ܡܢ ܐܓܪܬܐ ܕܠܘܬ
                               ܐܦܝܩܛܝܛܘܣ</rubric>
-                  <incipit xml:lang="syr"/>
-                  <quote xml:lang="syr">
-                    <locus from="" to=""/>
-                  </quote>
-                  <explicit xml:lang="syr">
-                    <locus to="" from=""/>
-                  </explicit>
-                  <finalRubric xml:lang="syr">
-                    <locus to="" from=""/>
-                  </finalRubric>
-                  <note/>
                 </msItem>
                 <msItem xml:id="c3" n="8">
-                  <locus to="" from="135b"/>
-                  <author ref="http://syriaca.org/person/2786">Atticus ofConstantinople
-                  </author>
-                  <title ref="" xml:lang="en">
+                  <author ref="http://syriaca.org/person/2786">Atticus ofConstantinople</author>
+                  <title xml:lang="en">
                     <persName ref="http://syriaca.org/person/2786">Atticus of<placeName ref="http://syriaca.org/place/586">Constantinople</placeName>
                     </persName>
                   </title>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="134a"/>ܡܢ ܐܓܪܬܐ ܕܠܘܬ ܐܘܟܣܢܝܣ
+                  <rubric xml:lang="syr">ܡܢ ܐܓܪܬܐ ܕܠܘܬ ܐܘܟܣܢܝܣ
                               ܩܫܝܫܐ</rubric>
-                  <incipit xml:lang="syr"/>
-                  <quote xml:lang="syr">
-                    <locus from="" to=""/>
-                  </quote>
-                  <explicit xml:lang="syr">
-                    <locus to="" from=""/>
-                  </explicit>
-                  <finalRubric xml:lang="syr">
-                    <locus to="" from=""/>
-                  </finalRubric>
-                  <note/>
                 </msItem>
                 <msItem xml:id="c4" n="9">
-                  <locus to="" from="134a"/>
                   <author ref="http://syriaca.org/person/376">Basil</author>
-                  <title ref="" xml:lang="en">
+                  <title xml:lang="en">
                     <persName ref="http://syriaca.org/person/376">Basil</persName>
                   </title>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="134a"/>ܡܢ ܡܐܡܪܐ ܕܥܠ
+                  <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܥܠ
                               ܡܪܚܡܢܘܬܐ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="140a"/>ܡܢ ܐܓܪܬܐ ܕܠܘܬ ܒܬܘܠܬܐ
+                  <rubric xml:lang="syr">ܡܢ ܐܓܪܬܐ ܕܠܘܬ ܒܬܘܠܬܐ
                               ܕܢܦܠܬ ܡܢ ܩܝܡܗ̇</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="136b"/>ܡܢ ܡܐܡܪܐ ܕܬܪ̈ܝܢ ܕܥܠ ܬܠܬܐ
+                  <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܬܪ̈ܝܢ ܕܥܠ ܬܠܬܐ
                               ܦܬܓܡ̈ܐ ܡܢ ܫܠܝܚܐ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="140b"/>ܡܢ ܐܓܪܬܐ ܕܒܘܝܐܐ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="136b"/>ܡܢ ܡܙܡܘܪܐ ܕܫܬܝܢ</rubric>
-                  <incipit xml:lang="syr"/>
-                  <quote xml:lang="syr">
-                    <locus from="" to=""/>
-                  </quote>
-                  <explicit xml:lang="syr">
-                    <locus to="" from=""/>
-                  </explicit>
-                  <finalRubric xml:lang="syr">
-                    <locus to="" from=""/>
-                  </finalRubric>
-                  <note/>
+                  <rubric xml:lang="syr">ܡܢ ܐܓܪܬܐ ܕܒܘܝܐܐ</rubric>
+                  <rubric xml:lang="syr">ܡܢ ܡܙܡܘܪܐ ܕܫܬܝܢ</rubric>
                 </msItem>
                 <msItem xml:id="c5" n="10">
-                  <locus to="" from=""/>
                   <author ref="http://syriaca.org/person/573">Chrysostom</author>
-                  <title ref="" xml:lang="en">
+                  <title xml:lang="en">
                     <persName ref="http://syriaca.org/person/573">Chrysostom</persName>
                   </title>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="131a"/>ܡܢ ܡܐܡܪܐ
+                  <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ
                               ܕܟܗܢܘܬܐ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="131a"/>ܡܢ ܦܘܫܩܐ ܕܡܬܝ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="139b"/>ܡܢ ܦܘܫܩܐ ܕܝܘܚܢܢ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="133a"/>ܡܢ ܡܙܡܘܪܐ ܕܪܚܡ ܥܠܝ
+                  <rubric xml:lang="syr">ܡܢ ܦܘܫܩܐ ܕܡܬܝ</rubric>
+                  <rubric xml:lang="syr">ܡܢ ܦܘܫܩܐ ܕܝܘܚܢܢ</rubric>
+                  <rubric xml:lang="syr">ܡܢ ܡܙܡܘܪܐ ܕܪܚܡ ܥܠܝ
                               ܐܠܗܐ</rubric>
-                  <incipit xml:lang="syr"/>
-                  <quote xml:lang="syr">
-                    <locus from="" to=""/>
-                  </quote>
-                  <explicit xml:lang="syr">
-                    <locus to="" from=""/>
-                  </explicit>
-                  <finalRubric xml:lang="syr">
-                    <locus to="" from=""/>
-                  </finalRubric>
-                  <note/>
                 </msItem>
                 <msItem xml:id="c6" n="11">
-                  <locus to="" from=""/>
-                  <author ref="http://syriaca.org/person/430">Cyril ofAlexandria
-                  </author>
-                  <title ref="" xml:lang="en">
+                  <author ref="http://syriaca.org/person/430">Cyril ofAlexandria</author>
+                  <title xml:lang="en">
                     <persName ref="http://syriaca.org/person/430">Cyril of<placeName ref="http://syriaca.org/place/572">Alexandria</placeName>
                     </persName>
                   </title>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="132a"/>ܡܢ ܐܓܪܬܐ ܕܠܘܬ
+                  <rubric xml:lang="syr">ܡܢ ܐܓܪܬܐ ܕܠܘܬ
                               ܢܣܛܘܪܝܣ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="132a"/>ܡܢ ܗܝܡܢܘܬܐ
+                  <rubric xml:lang="syr">ܡܢ ܗܝܡܢܘܬܐ
                               ܕܩܘܪܝܠܠܘܣ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="134a"/>ܡܢ ܐܓܪܬܐ ܕܠܘܬ ܡܪܝ ܐܩܩ
+                  <rubric xml:lang="syr">ܡܢ ܐܓܪܬܐ ܕܠܘܬ ܡܪܝ ܐܩܩ
                               ܕܡܝܠܝܛܝܢܐ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="134a"/>ܡܢ ܐܓܪܬܐ ܕܟܬܒ̣
+                  <rubric xml:lang="syr">ܡܢ ܐܓܪܬܐ ܕܟܬܒ̣
                               ܠܘܠܪܝܢܐ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="134a"/>ܡܢ ܐܓܪܬܐ ܕܠܘܬ
+                  <rubric xml:lang="syr">ܡܢ ܐܓܪܬܐ ܕܠܘܬ
                               ܣܘܩܘܢܘܣܘܣ</rubric>
-                  <incipit xml:lang="syr"/>
-                  <quote xml:lang="syr">
-                    <locus from="" to=""/>
-                  </quote>
-                  <explicit xml:lang="syr">
-                    <locus to="" from=""/>
-                  </explicit>
-                  <finalRubric xml:lang="syr">
-                    <locus to="" from=""/>
-                  </finalRubric>
-                  <note/>
                 </msItem>
                 <msItem xml:id="c7" n="12">
-                  <locus to="" from=""/>
                   <author ref="http://syriaca.org/person/13">Ephraim</author>
-                  <title ref="" xml:lang="en">
+                  <title xml:lang="en">
                     <persName ref="http://syriaca.org/person/13">Ephraim</persName>
                   </title>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="130a"/>ܡܢ ܡܐܡܪܐ ܕܛܝܒܘܬܐ ܩܪܒܬ
+                  <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܛܝܒܘܬܐ ܩܪܒܬ
                               ܠܦܘܡ̈ܐ ܡܓ̈ܕܦܢܐ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="130a"/>ܡܢ ܡܐܡܪܐ ܕܥܠ
+                  <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܥܠ
                               ܓܝܣ̈ܐ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="130a"/>ܡܢ ܡܐܡܪܐ
+                  <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ
                               ܕܒܥ̈ܘܬܐ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="130a"/>ܡܢ ܡܐܡܪܐ ܕܥܠ ܒܪܫܝܬ
+                  <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܥܠ ܒܪܫܝܬ
                               ܐܝܬܘܗܝ ܗܘܐ ܡܠܬܐ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="131a"/>ܡܢ ܦܢܩܝܬܐ ܕܠܘܩܒܠ ܝܗܘ̈ܕܝܐ
+                  <rubric xml:lang="syr">ܡܢ ܦܢܩܝܬܐ ܕܠܘܩܒܠ ܝܗܘ̈ܕܝܐ
                               ܘܝܘ̈ܠܦܢܐ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="133b"/>ܡܢ ܡܕܪ̈ܫܐ ܕܥܕܬܐ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="133b"/>ܡܢ ܡܕܪ̈ܫܐ ܕܒܝܬ
+                  <rubric xml:lang="syr">ܡܢ ܡܕܪ̈ܫܐ ܕܥܕܬܐ</rubric>
+                  <rubric xml:lang="syr">ܡܢ ܡܕܪ̈ܫܐ ܕܒܝܬ
                               ܝܠܕܐ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="138a"/>ܡܢ ܡܐܡܪ̈ܐ ܕܥܠ
+                  <rubric xml:lang="syr">ܡܢ ܡܐܡܪ̈ܐ ܕܥܠ
                               ܢܝܩܘܡܕܝܐ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="138a"/>ܡܢ ܡܐܡܪܐ
+                  <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ
                               ܕܗܝܡܢܘܬܐ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="138b"/>ܡܢ ܡܕܪ̈ܫܐ
+                  <rubric xml:lang="syr">ܡܢ ܡܕܪ̈ܫܐ
                               ܕܗܝܡܢܘܬܐ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="138b"/>ܡܢ ܡܐܡܪܐ
+                  <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ
                               ܕܡܟܣܢܘܬܐ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="139a"/>ܡܢ ܦܢܩܝܬܐ ܕܣܗ̈ܕܐ
+                  <rubric xml:lang="syr">ܡܢ ܦܢܩܝܬܐ ܕܣܗ̈ܕܐ
                               ܢܨܝ̈ܒܝܐ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="139a"/>ܡܢ ܡܕܪ̈ܫܐ ܕܥܠ ܣܒܐ
+                  <rubric xml:lang="syr">ܡܢ ܡܕܪ̈ܫܐ ܕܥܠ ܣܒܐ
                               ܝܘܠܝܢܐ</rubric>
-                  <incipit xml:lang="syr"/>
-                  <quote xml:lang="syr">
-                    <locus from="" to=""/>
-                  </quote>
-                  <explicit xml:lang="syr">
-                    <locus to="" from=""/>
-                  </explicit>
-                  <finalRubric xml:lang="syr">
-                    <locus to="" from=""/>
-                  </finalRubric>
-                  <note/>
                 </msItem>
                 <msItem xml:id="c8" n="13">
-                  <locus to="" from=""/>
-                  <author ref="http://syriaca.org/person/481">Eusebius ofEmesa
-                  </author>
-                  <title ref="" xml:lang="en">
+                  <author ref="http://syriaca.org/person/481">Eusebius ofEmesa</author>
+                  <title xml:lang="en">
                     <persName ref="http://syriaca.org/person/481">Eusebius of<placeName ref="http://syriaca.org/place/215">Emesa</placeName>
                     </persName>
                   </title>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="135a"/>ܐܘܣܒܝܣ ܚܡܨܝܐ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="131b"/>ܡܢ ܡܐܡܪܐ
+                  <rubric xml:lang="syr">ܐܘܣܒܝܣ ܚܡܨܝܐ</rubric>
+                  <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ
                               ܕܗܝܡܢܘܬܐ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="131b"/>ܡܢ ܡܐܡܪܐ ܕܥܠ ܫܘ̈ܚܠܦܐ
+                  <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܥܠ ܫܘ̈ܚܠܦܐ
                               ܚ̈ܕܬܐ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="131b"/>ܡܢ ܡܐܡܪܐ ܕܡܠܠ
+                  <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܡܠܠ
                               ܒܒܘܪܘܛܘܣ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="139b"/>ܡܢ ܒܘܪܟܬܐ ܕܒܪܟ
+                  <rubric xml:lang="syr">ܡܢ ܒܘܪܟܬܐ ܕܒܪܟ
                               ܠܥܡܐ</rubric>
-                  <rubric xml:lang="syr">
-                    <locus to="" from="139b"/>ܡܢ ܡܐܡܪܐ ܕܥܠ ܐܠܗܘܬܗ
+                  <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܥܠ ܐܠܗܘܬܗ
                               ܕܒܪܐ</rubric>
-                  <incipit xml:lang="syr"/>
-                  <quote xml:lang="syr">
-                    <locus from="" to=""/>
-                  </quote>
-                  <explicit xml:lang="syr">
-                    <locus to="" from=""/>
-                  </explicit>
-                  <finalRubric xml:lang="syr">
-                    <locus to="" from=""/>
-                  </finalRubric>
-                  <note/>
                 </msItem>
                 <msItem xml:id="c9" n="14">
-                  <locus to="" from="135a"/>
                   <author ref="http://syriaca.org/person/511">Gregory (Nazianzen)</author>
-                  <title ref="" xml:lang="en">
+                  <title xml:lang="en">
                     <persName ref="http://syriaca.org/person/511">Gregory (Nazianzen)</persName>
                   </title>
-                  <rubric xml:lang="syr"/>
-                  <incipit xml:lang="syr"/>
-                  <quote xml:lang="syr">
-                    <locus from="" to=""/>
-                  </quote>
-                  <explicit xml:lang="syr">
-                    <locus to="" from=""/>
-                  </explicit>
-                  <finalRubric xml:lang="syr">
-                    <locus to="" from=""/>
-                  </finalRubric>
-                  <note/>
                 </msItem>
                 <msItem xml:id="c10" n="15">
-                  <locus to="" from="135b"/>
-                  <author ref="http://syriaca.org/person/2507">Theophilus ofAlexandria
-                  </author>
-                  <title ref="" xml:lang="en">
+                  <author ref="http://syriaca.org/person/2507">Theophilus ofAlexandria</author>
+                  <title xml:lang="en">
                     <persName ref="http://syriaca.org/person/2507">Theophilus of<placeName ref="http://syriaca.org/place/572">Alexandria</placeName>
                     </persName>
                   </title>
-                  <rubric xml:lang="syr"/>
-                  <incipit xml:lang="syr"/>
-                  <quote xml:lang="syr">
-                    <locus from="" to=""/>
-                  </quote>
-                  <explicit xml:lang="syr">
-                    <locus to="" from=""/>
-                  </explicit>
-                  <finalRubric xml:lang="syr">
-                    <locus to="" from=""/>
-                  </finalRubric>
-                  <note/>
                 </msItem>
               </msItem>
               <msItem xml:id="b5" n="16">
-                <locus from="140b" to="141"/>
-                <author/><!-- Potentially Philoxenos? -->
+                <!-- Potentially Philoxenos? -->
                 <title xml:lang="en">Five concluding propositions and some general remarks</title>
                 <note>The greater part of these have been quoted (with some slight
-                  differences in reading) by <bibl>Assemani in the Bibl. Orient., t. ii., pp. 28,
+                  differences in reading) by<bibl>Assemani in the Bibl. Orient., t. ii., pp. 28,
                     29</bibl>.</note>
               </msItem>
             </msItem>
@@ -455,11 +283,11 @@
                   </list>
                 </condition>
               </supportDesc>
-              
             </objectDesc>
             <handDesc hands="3">
               <handNote xml:id="handNote1" scope="major" script="syr" medium="unknown">
-                <desc>This manuscript is written in a beautiful Edessene hand of the <date>vith cent.</date></desc>
+                <desc>This manuscript is written in a beautiful Edessene hand of the<date>vith cent.</date>
+                </desc>
               </handNote>
               <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
                 <desc>See additions.</desc>
@@ -473,11 +301,12 @@
               <list>
                 <item xml:id="addition1" n="1">
                   <locus from="1a"/>
-                  <p>On fol. 1 a there is a note in the handwriting of <persName ref="http://syriaca.org/person/647">Moses of <placeName ref="http://syriaca.org/place/142">Nisibis</placeName></persName>, to the usual effect, dated <date>A. Gr. 1243</date>, <date>A.D. 932</date>.</p>
+                  <p>On fol. 1 a there is a note in the handwriting of<persName ref="http://syriaca.org/person/647">Moses of<placeName ref="http://syriaca.org/place/142">Nisibis</placeName>
+                    </persName>, to the usual effect, dated<date>A. Gr. 1243</date>,<date>A.D. 932</date>.</p>
                 </item>
                 <item xml:id="addition2" n="2">
                   <p>In this manuscript citations from other writers are indicated, not only by the mark ..<!--need symbol here-->before each line, but also
-                    by the letter <foreign xml:lang="syr">ܒ</foreign> at the beginning and the letter <foreign xml:lang="syr">ܡ</foreign> at the end.</p>
+                    by the letter<foreign xml:lang="syr">ܒ</foreign>at the beginning and the letter<foreign xml:lang="syr">ܡ</foreign>at the end.</p>
                 </item>
               </list>
             </additions>
@@ -501,7 +330,6 @@
                       Catalogue</ref>
                   </bibl>. abbreviated by the Syriaca.org editors.</source>
               </recordHist>
-              
               <note/>
             </adminInfo>
             <listBibl>
@@ -540,50 +368,110 @@
             <ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy.html"/>
           </bibl>
           <category xml:id="biblical-manuscripts">
-            <category xml:id="bible-ot"><catDesc>Old Testament</catDesc></category>
-            <category xml:id="bible-nt"><catDesc>New Testament</catDesc></category>
-            <category xml:id="bible-apocrypha"><catDesc>Apocrypha</catDesc></category>
-            <category xml:id="bible-punctuation"><catDesc>Punctuation</catDesc></category>
+            <category xml:id="bible-ot">
+              <catDesc>Old Testament</catDesc>
+            </category>
+            <category xml:id="bible-nt">
+              <catDesc>New Testament</catDesc>
+            </category>
+            <category xml:id="bible-apocrypha">
+              <catDesc>Apocrypha</catDesc>
+            </category>
+            <category xml:id="bible-punctuation">
+              <catDesc>Punctuation</catDesc>
+            </category>
           </category>
           <category xml:id="service-books">
-            <category xml:id="psalter"><catDesc>Psalters</catDesc></category>
-            <category xml:id="lectionaries"><catDesc>Lectionaries</catDesc></category>
-            <category xml:id="missals"><catDesc>Missals</catDesc></category>
-            <category xml:id="sacerdotals"><catDesc>Sacerdotals</catDesc></category>
-            <category xml:id="choral"><catDesc>Choral Books</catDesc></category>
-            <category xml:id="hymns"><catDesc>Hymns</catDesc></category>
-            <category xml:id="prayers"><catDesc>Prayers</catDesc></category>
-            <category xml:id="funerals"><catDesc>Funeral Services</catDesc></category>
+            <category xml:id="psalter">
+              <catDesc>Psalters</catDesc>
+            </category>
+            <category xml:id="lectionaries">
+              <catDesc>Lectionaries</catDesc>
+            </category>
+            <category xml:id="missals">
+              <catDesc>Missals</catDesc>
+            </category>
+            <category xml:id="sacerdotals">
+              <catDesc>Sacerdotals</catDesc>
+            </category>
+            <category xml:id="choral">
+              <catDesc>Choral Books</catDesc>
+            </category>
+            <category xml:id="hymns">
+              <catDesc>Hymns</catDesc>
+            </category>
+            <category xml:id="prayers">
+              <catDesc>Prayers</catDesc>
+            </category>
+            <category xml:id="funerals">
+              <catDesc>Funeral Services</catDesc>
+            </category>
           </category>
           <category xml:id="theology">
-            <category xml:id="theo-single"><catDesc>Individual Authors</catDesc></category>
-            <category xml:id="theo-collected"><catDesc>Collected Authors</catDesc></category>
-            <category xml:id="theo-catenae"><catDesc>Catenae Patrum and Demonstrations against Heresies</catDesc></category>
-            <category xml:id="theo-anonymous"><catDesc>Anonymous Works</catDesc></category>
-            <category xml:id="theo-council"><catDesc>Councils of the Church and Ecclesioastical Canons</catDesc></category>
+            <category xml:id="theo-single">
+              <catDesc>Individual Authors</catDesc>
+            </category>
+            <category xml:id="theo-collected">
+              <catDesc>Collected Authors</catDesc>
+            </category>
+            <category xml:id="theo-catenae">
+              <catDesc>Catenae Patrum and Demonstrations against Heresies</catDesc>
+            </category>
+            <category xml:id="theo-anonymous">
+              <catDesc>Anonymous Works</catDesc>
+            </category>
+            <category xml:id="theo-council">
+              <catDesc>Councils of the Church and Ecclesioastical Canons</catDesc>
+            </category>
           </category>
           <category xml:id="wright-history">
-            <category xml:id="history"><catDesc>History</catDesc></category>
+            <category xml:id="history">
+              <catDesc>History</catDesc>
+            </category>
           </category>
           <category xml:id="lives">
-            <category xml:id="lives-collect"><catDesc>Collected Lives</catDesc></category>
-            <category xml:id="lives-single"><catDesc>Single Lives</catDesc></category>
+            <category xml:id="lives-collect">
+              <catDesc>Collected Lives</catDesc>
+            </category>
+            <category xml:id="lives-single">
+              <catDesc>Single Lives</catDesc>
+            </category>
           </category>
           <category xml:id="scientific-lit">
-            <category xml:id="sci-logic"><catDesc>Logic and Rhetoric</catDesc></category>
-            <category xml:id="sci-grammar"><catDesc>Grammar and Lexicography</catDesc></category>
-            <category xml:id="sci-ethics"><catDesc>Ethics</catDesc></category>
-            <category xml:id="sci-medicine"><catDesc>Medicine</catDesc></category>
-            <category xml:id="sci-agriculture"><catDesc>Agriculture</catDesc></category>
-            <category xml:id="sci-chemistry"><catDesc>Chemistry</catDesc></category>
-            <category xml:id="sci-natural-history"><catDesc>Natural History</catDesc></category>
+            <category xml:id="sci-logic">
+              <catDesc>Logic and Rhetoric</catDesc>
+            </category>
+            <category xml:id="sci-grammar">
+              <catDesc>Grammar and Lexicography</catDesc>
+            </category>
+            <category xml:id="sci-ethics">
+              <catDesc>Ethics</catDesc>
+            </category>
+            <category xml:id="sci-medicine">
+              <catDesc>Medicine</catDesc>
+            </category>
+            <category xml:id="sci-agriculture">
+              <catDesc>Agriculture</catDesc>
+            </category>
+            <category xml:id="sci-chemistry">
+              <catDesc>Chemistry</catDesc>
+            </category>
+            <category xml:id="sci-natural-history">
+              <catDesc>Natural History</catDesc>
+            </category>
           </category>
           <category xml:id="wright-fly-leaves">
-            <category xml:id="fly-leaves"><catDesc>Fly Leaves</catDesc></category>
+            <category xml:id="fly-leaves">
+              <catDesc>Fly Leaves</catDesc>
+            </category>
           </category>
           <category xml:id="appendices">
-            <category xml:id="appendix-a"><catDesc>Appendix A</catDesc></category>
-            <category xml:id="appendix-b"><catDesc>Appendix B</catDesc></category>
+            <category xml:id="appendix-a">
+              <catDesc>Appendix A</catDesc>
+            </category>
+            <category xml:id="appendix-b">
+              <catDesc>Appendix B</catDesc>
+            </category>
           </category>
         </taxonomy>
       </classDecl>
@@ -618,6 +506,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-02-21-06:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-02-03-06:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2019-12-23" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial TEI
             encoding.</change>

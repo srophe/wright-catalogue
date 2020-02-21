@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
+<?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
     <fileDesc>
@@ -49,7 +50,6 @@
         <edition n="1.0"/>
       </editionStmt>
       <publicationStmt>
-        
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
         <idno type="URI">http://syriaca.org/manuscript/24/tei</idno>
         <availability>
@@ -81,8 +81,6 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
-            <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
               <locus to="84" from="1">Foll. 1-84</locus>
               <title xml:lang="en">The second part of a Choral Service-book for the
@@ -91,7 +89,7 @@
               <msItem xml:id="b1" n="2" defective="true">
                 <locus to="35b" from="2b">Foll. 2 b-35 b</locus>
                 <title xml:lang="en">Lent.</title>
-                <note>After this there is a huge lacuna, extending from 1 e, α<!--WLP: this should be an alpha, reffering to manuscript-22 msItem 32, xml:id="d25" so the ref should be "http://syriaca.org/manuscript/22#d25"--> to 5 h <!-- The ref here would be "http://syriaca.org/manuscript/22#c15" which is item number 57 -->in Add. 12,147.</note>
+                <note>After this there is a huge lacuna, extending from 1 e, α<!--WLP: this should be an alpha, reffering to manuscript-22 msItem 32, xml:id="d25" so the ref should be "http://syriaca.org/manuscript/22#d25"-->to 5 h<!-- The ref here would be "http://syriaca.org/manuscript/22#c15" which is item number 57 -->in Add. 12,147.</note>
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
                 <locus to="43b" from="36a">Foll. 36a-43b</locus>
@@ -102,19 +100,15 @@
               </msItem>
               <msItem xml:id="b3" n="4" defective="true">
                 <locus to="67b" from="43b">Foll. 43b-67b</locus>
-                <title xml:lang="en">Order of the great Sunday of the Resurrection of
-                  <persName ref="http://syriaca.org/person/2245">our Lord</persName>, in eight parts.</title>
+                <title xml:lang="en">Order of the great Sunday of the Resurrection of<persName ref="http://syriaca.org/person/2245">our Lord</persName>, in eight parts.</title>
                 <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܚܕܒܫܒܐ ܪܒܐ ܕܩܝܡܬܗ ܕܡܪܢ</rubric>
-                <finalRubric xml:lang="syr">
-                  <locus from="67b"/>
-                  ܡܫܝܚܐ ܐܠܗܐ ܚ̇ܣ̣ܐ ܠܝܫܘܥ ܚܲܛܝܐ ܥܒ̣ܕܟ ܘܠܐܒܗ̈ܘܗܝ
-                           ܘܠܐܚ̈܏ܘ ܘܠܩܪܘܝܐ ܕܐܡ̇ܪ ܐܡܝܢ ܘܢܚܲܣܐ ܠܐܒܘܥܠܝ ܙܝܟܝܪܝ.
-                </finalRubric>
+                <finalRubric xml:lang="syr">ܡܫܝܚܐ ܐܠܗܐ ܚ̇ܣ̣ܐ ܠܝܫܘܥ ܚܲܛܝܐ ܥܒ̣ܕܟ ܘܠܐܒܗ̈ܘܗܝ
+                           ܘܠܐܚ̈܏ܘ ܘܠܩܪܘܝܐ ܕܐܡ̇ܪ ܐܡܝܢ ܘܢܚܲܣܐ ܠܐܒܘܥܠܝ ܙܝܟܝܪܝ.</finalRubric>
               </msItem>
               <msItem xml:id="b4" n="5" defective="true">
                 <locus to="69" from="67b">Foll. 67b-69</locus>
                 <title xml:lang="en">Order celebrated on the Friday after Easter
-                           Sunday, called <foreign xml:lang="syr">ܥܪܘܒܬܐ ܕܡ̇ܘ̈ܕܝܢܐ</foreign>, the Friday of
+                           Sunday, called<foreign xml:lang="syr">ܥܪܘܒܬܐ ܕܡ̇ܘ̈ܕܝܢܐ</foreign>, the Friday of
                            the Confessors.</title>
                 <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܡ̇ܫܬ݁ܡܠ̣ܐ ܒܥܪܘܒܬܐ ܕܒܬܪ ܦ̣ܨܚܐ</rubric>
               </msItem>
@@ -124,7 +118,7 @@
               </msItem>
               <msItem xml:id="b6" n="7" defective="true">
                 <locus to="78" from="74b">Foll. 74b-78</locus>
-                <title xml:lang="en">The Ascension of <persName ref="http://syriaca.org/person/2245">our Lord</persName>.</title>
+                <title xml:lang="en">The Ascension of<persName ref="http://syriaca.org/person/2245">our Lord</persName>.</title>
               </msItem>
               <msItem xml:id="b7" n="8">
                 <locus to="83" from="79">Foll. 79-83</locus>
@@ -133,9 +127,8 @@
               </msItem>
             </msItem>
             <msItem xml:id="a2" n="9">
-              <locus to="84" from="84b"/>
               <title xml:lang="en">A supplementary service, in a more modern hand, for
-                the Transfiguration of <persName ref="http://syriaca.org/person/2245">our Lord</persName>.</title>
+                the Transfiguration of<persName ref="http://syriaca.org/person/2245">our Lord</persName>.</title>
               <note>With this supplementary service and those in Add. 12,146 (1, d, e, and
                         20) are to be connected the services contained in Add. 18,820, foll. 17— 54,
                         which were, no doubt, once bound with these volume.</note>
@@ -155,7 +148,7 @@
                                     dated A. Gr. 1317, A.D. 1006. It must, therefore, have
                                     originally Contained about 40 quires (fol. 61 is signed<foreign xml:lang="syr">ܠܕ</foreign>); but
                                     the greater part of it has been gradually lost and destroyed.
-                                    For specimens of ornaments see foll. 27 b and 30 a. </p>
+                                    For specimens of ornaments see foll. 27 b and 30 a.</p>
                     </item>
                     <item>
                       <p>Foll. 33 and 34 are supplementary paper leaves, exactly similar to those
@@ -165,7 +158,6 @@
                   </list>
                 </condition>
               </supportDesc>
-              
             </objectDesc>
             <handDesc hands="4">
               <handNote xml:id="handNote1" scope="major" script="syr" medium="unknown">
@@ -191,7 +183,7 @@
                 <item xml:id="addition1" n="1">
                   <locus from="84a"/>
                   <p>Fol. 84 a contains the following note, similar to that in Add. 12,148,
-                              fol. 233 b, but much soiled and torn. <foreign xml:lang="syr">ܚܘܣܝܐ</foreign> to <foreign xml:lang="syr">ܬܓܪܝܬܢܝܐ</foreign>.</p>
+                              fol. 233 b, but much soiled and torn.<foreign xml:lang="syr">ܚܘܣܝܐ</foreign>to<foreign xml:lang="syr">ܬܓܪܝܬܢܝܐ</foreign>.</p>
                   <p>
                     <quote xml:lang="syr">[ܠܬܫܒܘܬ]ܐ ܘܠܐܝܩܪܐ ܕܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ ܘܫ̇ܘܼܝܬ݁
                                  ܒܐ[ܘܣܝܐ ܕܐܒܐ ܘܕܒܪܐ ܘܕ]ܪܘܚܐ ܩܕܝܫܐ ܘܫ̇ܘܼܝܬ݁ ܒܐܘܣܝܐ [These two words
@@ -206,7 +198,7 @@
                   </p>
                 </item>
                 <item xml:id="addition2" n="2">
-                  <locus from="" to=""/>
+                  <locus/>
                   <p>Some words were added by the scribe on the margin, of which there are
                               still legible: . . . ܒܛ ܝܪܚܐ. . . ܠܬܐ ܒܗ., "on the 23d of the month of
                               Shĕbāt."</p>
@@ -215,7 +207,7 @@
                   </p>
                 </item>
                 <item xml:id="addition3" n="3">
-                  <locus from="" to=""/>
+                  <locus/>
                   <p>"To the glory and honour of the Holy and Consubstantial Trinity,
                               Father, Son and Holy Ghost,<persName>the exalted chief Abū 'Alī
                                  Zakarīyā, known as the Tagritan</persName>, used diligence and took
@@ -299,7 +291,7 @@
                   </p>
                 </item>
                 <item xml:id="addition4" n="4">
-                  <locus from="" to=""/>
+                  <locus/>
                   <p>The same person who frequently retouched the above, has added the
                               words: "And also to the sinner<persName>'Abda</persName>, who took
                               pains and repaired this book, may the Lord grant forgiveness.
@@ -310,7 +302,7 @@
                   </p>
                 </item>
                 <item xml:id="addition5" n="5">
-                  <locus from="" to=""/>
+                  <locus/>
                   <p>Below, there are indistinctly written, in the form of a cross, words.
                               Under the name<ref xml:lang="syr">ܨܪܕܠ</ref>another person has
                               written<ref xml:lang="syr">܏ܗ ܝܫܘܥ</ref>, "that is,<persName>Yeshūa'</persName>;" which is correct, according to the alphabet of<persName>Bar-daisān</persName>.</p>
@@ -320,7 +312,7 @@
                   </p>
                 </item>
                 <item xml:id="addition6" n="6">
-                  <locus from="1a" to=""/>
+                  <locus from="1a"/>
                   <p>On fol. 1 a, there are two notes, the one written by the<persName>priest Joseph Sīmandāyā</persName>,<date when-custom="1320" datingMethod="Seleucid">A. Gr. 1320</date>,<date when="1009" calendar="Gregorian">A.D. 1009</date>; the other
                               recording the names of the priests<persName>Bar-saumā</persName>and
                               his brother<persName>Yeshūa'</persName>; all three monks of the<placeName ref="http://syriaca.org/place/360">convent of S. Mary
@@ -345,14 +337,13 @@
                 </item>
               </list>
             </additions>
-            
             <accMat/>
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="" notAfter="" from="" to="" when-custom="1317" datingMethod="Seleucid"/>
-              <origDate notBefore="" notAfter="" from="" to="" when="1006" calendar="Gregorian"/>
-              <origPlace ref="" xml:lang="">In the house of Abū 'Alī Z.</origPlace>
+              <origDate when-custom="1317" datingMethod="Seleucid"/>
+              <origDate when="1006" calendar="Gregorian"/>
+              <origPlace>In the house of Abū 'Alī Z.</origPlace>
             </origin>
             <provenance/>
             <acquisition/>
@@ -365,7 +356,6 @@
                       Catalogue</ref>
                   </bibl>. abbreviated by the Syriaca.org editors.</source>
               </recordHist>
-              
               <note/>
             </adminInfo>
             <listBibl>
@@ -404,50 +394,110 @@
             <ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy.html"/>
           </bibl>
           <category xml:id="biblical-manuscripts">
-            <category xml:id="bible-ot"><catDesc>Old Testament</catDesc></category>
-            <category xml:id="bible-nt"><catDesc>New Testament</catDesc></category>
-            <category xml:id="bible-apocrypha"><catDesc>Apocrypha</catDesc></category>
-            <category xml:id="bible-punctuation"><catDesc>Punctuation</catDesc></category>
+            <category xml:id="bible-ot">
+              <catDesc>Old Testament</catDesc>
+            </category>
+            <category xml:id="bible-nt">
+              <catDesc>New Testament</catDesc>
+            </category>
+            <category xml:id="bible-apocrypha">
+              <catDesc>Apocrypha</catDesc>
+            </category>
+            <category xml:id="bible-punctuation">
+              <catDesc>Punctuation</catDesc>
+            </category>
           </category>
           <category xml:id="service-books">
-            <category xml:id="psalter"><catDesc>Psalters</catDesc></category>
-            <category xml:id="lectionaries"><catDesc>Lectionaries</catDesc></category>
-            <category xml:id="missals"><catDesc>Missals</catDesc></category>
-            <category xml:id="sacerdotals"><catDesc>Sacerdotals</catDesc></category>
-            <category xml:id="choral"><catDesc>Choral Books</catDesc></category>
-            <category xml:id="hymns"><catDesc>Hymns</catDesc></category>
-            <category xml:id="prayers"><catDesc>Prayers</catDesc></category>
-            <category xml:id="funerals"><catDesc>Funeral Services</catDesc></category>
+            <category xml:id="psalter">
+              <catDesc>Psalters</catDesc>
+            </category>
+            <category xml:id="lectionaries">
+              <catDesc>Lectionaries</catDesc>
+            </category>
+            <category xml:id="missals">
+              <catDesc>Missals</catDesc>
+            </category>
+            <category xml:id="sacerdotals">
+              <catDesc>Sacerdotals</catDesc>
+            </category>
+            <category xml:id="choral">
+              <catDesc>Choral Books</catDesc>
+            </category>
+            <category xml:id="hymns">
+              <catDesc>Hymns</catDesc>
+            </category>
+            <category xml:id="prayers">
+              <catDesc>Prayers</catDesc>
+            </category>
+            <category xml:id="funerals">
+              <catDesc>Funeral Services</catDesc>
+            </category>
           </category>
           <category xml:id="theology">
-            <category xml:id="theo-single"><catDesc>Individual Authors</catDesc></category>
-            <category xml:id="theo-collected"><catDesc>Collected Authors</catDesc></category>
-            <category xml:id="theo-catenae"><catDesc>Catenae Patrum and Demonstrations against Heresies</catDesc></category>
-            <category xml:id="theo-anonymous"><catDesc>Anonymous Works</catDesc></category>
-            <category xml:id="theo-council"><catDesc>Councils of the Church and Ecclesioastical Canons</catDesc></category>
+            <category xml:id="theo-single">
+              <catDesc>Individual Authors</catDesc>
+            </category>
+            <category xml:id="theo-collected">
+              <catDesc>Collected Authors</catDesc>
+            </category>
+            <category xml:id="theo-catenae">
+              <catDesc>Catenae Patrum and Demonstrations against Heresies</catDesc>
+            </category>
+            <category xml:id="theo-anonymous">
+              <catDesc>Anonymous Works</catDesc>
+            </category>
+            <category xml:id="theo-council">
+              <catDesc>Councils of the Church and Ecclesioastical Canons</catDesc>
+            </category>
           </category>
           <category xml:id="wright-history">
-            <category xml:id="history"><catDesc>History</catDesc></category>
+            <category xml:id="history">
+              <catDesc>History</catDesc>
+            </category>
           </category>
           <category xml:id="lives">
-            <category xml:id="lives-collect"><catDesc>Collected Lives</catDesc></category>
-            <category xml:id="lives-single"><catDesc>Single Lives</catDesc></category>
+            <category xml:id="lives-collect">
+              <catDesc>Collected Lives</catDesc>
+            </category>
+            <category xml:id="lives-single">
+              <catDesc>Single Lives</catDesc>
+            </category>
           </category>
           <category xml:id="scientific-lit">
-            <category xml:id="sci-logic"><catDesc>Logic and Rhetoric</catDesc></category>
-            <category xml:id="sci-grammar"><catDesc>Grammar and Lexicography</catDesc></category>
-            <category xml:id="sci-ethics"><catDesc>Ethics</catDesc></category>
-            <category xml:id="sci-medicine"><catDesc>Medicine</catDesc></category>
-            <category xml:id="sci-agriculture"><catDesc>Agriculture</catDesc></category>
-            <category xml:id="sci-chemistry"><catDesc>Chemistry</catDesc></category>
-            <category xml:id="sci-natural-history"><catDesc>Natural History</catDesc></category>
+            <category xml:id="sci-logic">
+              <catDesc>Logic and Rhetoric</catDesc>
+            </category>
+            <category xml:id="sci-grammar">
+              <catDesc>Grammar and Lexicography</catDesc>
+            </category>
+            <category xml:id="sci-ethics">
+              <catDesc>Ethics</catDesc>
+            </category>
+            <category xml:id="sci-medicine">
+              <catDesc>Medicine</catDesc>
+            </category>
+            <category xml:id="sci-agriculture">
+              <catDesc>Agriculture</catDesc>
+            </category>
+            <category xml:id="sci-chemistry">
+              <catDesc>Chemistry</catDesc>
+            </category>
+            <category xml:id="sci-natural-history">
+              <catDesc>Natural History</catDesc>
+            </category>
           </category>
           <category xml:id="wright-fly-leaves">
-            <category xml:id="fly-leaves"><catDesc>Fly Leaves</catDesc></category>
+            <category xml:id="fly-leaves">
+              <catDesc>Fly Leaves</catDesc>
+            </category>
           </category>
           <category xml:id="appendices">
-            <category xml:id="appendix-a"><catDesc>Appendix A</catDesc></category>
-            <category xml:id="appendix-b"><catDesc>Appendix B</catDesc></category>
+            <category xml:id="appendix-a">
+              <catDesc>Appendix A</catDesc>
+            </category>
+            <category xml:id="appendix-b">
+              <catDesc>Appendix B</catDesc>
+            </category>
           </category>
         </taxonomy>
       </classDecl>
@@ -482,6 +532,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-02-21-06:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-02-03-06:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2019-12-02" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
