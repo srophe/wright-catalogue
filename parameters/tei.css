@@ -12,6 +12,17 @@ note {display:block; margin:.25em; font-style:italic;}
 bibl {display:inline; text-decoration: underline;}
 author[ref]:after, persName[ref]:after, placeName[ref]:after, title[ref]:after {content: "[ref: "attr(ref) "]"; font-style: italic;}
 
+/* Add language handling, font family is optional */
+*[xml|lang="syr"] {
+  font-family: "EstrangeloEdessa", "Estrangelo Edessa", Verdana, Arial, Helvetica, sans-serif;
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+*[xml|lang="en"] {
+ direction: ltr; 
+ unicode-bidi: embed;
+}
 
 origDate, date {font-weight:bold;}
 origDate::after, date::after {content: " ("oxy_attributes()") "; font-weight:normal;}
@@ -137,7 +148,7 @@ revisionDesc > change::after {content: " " attr(who) ", " attr(when) ". " ;}
 
 /* fascimile and text/body */
 facsimile {display:none;}
-text {display:none;}
+/*text {display:none;}*/
 
 /* Default styles */
 ab {display:block;}
