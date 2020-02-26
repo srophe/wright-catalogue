@@ -13,7 +13,8 @@ bibl {display:inline; text-decoration: underline;}
 author[ref]:after, persName[ref]:after, placeName[ref]:after, title[ref]:after {content: "[ref: "attr(ref) "]"; font-style: italic;}
 
 /* Add language handling, font family is optional */
-*[xml|lang="syr"] {
+*[xml|lang="syr"], *[xml|lang="ar"], *[xml|lang="syr-Syre"], *[xml|lang="syr-Syrj"], *[xml|lang="syr-Syrn"], 
+*[xml|lang="syr-x-syrm"], *[xml|lang="syr-x-syrp"], *[xml|lang="ar-Syrc"] {
   font-family: "EstrangeloEdessa", "Estrangelo Edessa", Verdana, Arial, Helvetica, sans-serif;
   direction: rtl;
   unicode-bidi: embed;
