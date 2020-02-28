@@ -8,9 +8,10 @@
 title {display:block; margin:.5em 0;}
 title::before {content: "Title: "; font-weight:bold;}
 p {display:block; margin:.25em;}
-note {display:block; margin:.25em; font-style:italic;}
+note {display:block; margin:.25em;}
 bibl {display:inline; text-decoration: underline;}
-author, persName, placeName {font-style: italic;}
+author, persName {font-style: italic;}
+placeName {text-decoration: overline underline;}
 author[ref]:after, persName[ref]:after, placeName[ref]:after, title[ref]:after {content: "[ref: "attr(ref) "]"; font-style: italic;}
 
 /* Add language handling, font family is optional */
@@ -81,6 +82,7 @@ msItem > *::before {content: '('oxy_local-name() ') '; font-weight:bold; }
 /* generating locus from attribute values rather than text node, requiring text node to be deleted */
 msItem > locus::before {display:block; content: oxy_local-name() ': ' 'from ' attr(from) ' to ' attr(to); font-size: 16px;}
 msItem > locus {font-size: 0;}
+msItem > * > bibl > ptr{content:"["attr(target)"]";}
 
 /* Physical Description */
 physDesc::first-of-type::before {content: "Physical Description"; display:block; font-weight: bold; margin:.5em 0;}
