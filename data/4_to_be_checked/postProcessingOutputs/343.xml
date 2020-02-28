@@ -1,9 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
         <title level="a" xml:lang="en">BL Add MS 14607</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
@@ -46,10 +47,10 @@
           <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
-      <editionStmt>
+         <editionStmt>
         <edition n="1.0"/>
       </editionStmt>
-      <publicationStmt>
+         <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
         <idno type="URI">http://syriaca.org/manuscript/343/tei</idno>
         <availability>
@@ -60,9 +61,9 @@
         </availability>
         <date calendar="Gregorian"/>
       </publicationStmt>
-      <sourceDesc>
-        <msDesc xml:id="manuscript-343">
-          <msIdentifier>
+         <sourceDesc>
+            <msDesc xml:id="manuscript-343">
+               <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
@@ -80,93 +81,233 @@
               <idno type="Wright-BL-Roman">DCCXLVII</idno>
             </altIdentifier>
           </msIdentifier>
-          <msContents>            <textLang mainLang="syr"/>
+               <msContents>
+            <summary/>
+            <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
               <locus to="14a" from="1">Foll. 1-14a</locus>
               <author ref="http://syriaca.org/person/573">John Chrysostom</author>
-              <title xml:lang="en">Discourse of<persName ref="http://syriaca.org/person/573">John Chrysostom</persName>on Psalm
+              <title ref="" xml:lang="en">Discourse of <persName ref="http://syriaca.org/person/573">John Chrysostom</persName> on Psalm
                         li</title>
               <rubric xml:lang="syr">ܦܘܫܩܐ ܕܪܚܲܡ ܥܠܝ ܠܦܘܡܐ ܕܕܗܒܐ.</rubric>
+              <incipit xml:lang="syr"/>
+              <quote xml:lang="syr">
+                        <locus from="1a" to="1"/>
+                     </quote>
+              <explicit xml:lang="syr">
+                        <locus to="" from=""/>
+                     </explicit>
               <finalRubric xml:lang="syr">ܫ̣ܠܡ ܦܘܫܩܐ ܕܥܠ ܪܚܡ ܥܠܝ ܐܠܗܐ ܐܝܟ ܛܝܒܘܬܟ. ܕܐܡܝܪ
-                        ܠܩܕܝܫܐ ܝܘܚܢܢ ܕܩܘܣܛܢܛܝܢܦܘܠܝܣ.</finalRubric>
+                        ܠܩܕܝܫܐ ܝܘܚܢܢ ܕܩܘܣܛܢܛܝܢܦܘܠܝܣ.<locus to="14" from="14a"/>
+              </finalRubric>
+              <note/>
             </msItem>
             <msItem xml:id="a2" n="2" defective="true">
               <locus to="30" from="14a">Foll. 14a-30</locus>
               <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
-              <title xml:lang="en">Metrical discourses of<persName ref="http://syriaca.org/person/42">Jacob of Batnae</persName>
+              <title ref="" xml:lang="en">Metrical discourses of <persName ref="http://syriaca.org/person/42">Jacob of Batnae</persName>
               </title>
+              <rubric xml:lang="syr"/>
+              <incipit xml:lang="syr"/>
+              <quote xml:lang="syr">
+                        <locus from="" to=""/>
+                     </quote>
+              <explicit xml:lang="syr">
+                        <locus to="" from=""/>
+                     </explicit>
+              <finalRubric xml:lang="syr">
+                        <locus to="" from=""/>
+                     </finalRubric>
+              <note/>
               <msItem xml:id="b1" n="3">
                 <locus to="20" from="14a">Foll. 14a-20</locus>
-                <title xml:lang="en">On<persName>Zacchaeus the
+                <author ref=""/>
+                <title ref="" xml:lang="en">On <persName>Zacchaeus the
                            publican</persName>
                 </title>
                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܙܟܝ ܡܟܣܐ</rubric>
-                <note>See<bibl>Assemani, Bibl. Or., t. i., p. 317, no 95</bibl>.</note>
+                <incipit xml:lang="syr"/>
+                <quote xml:lang="syr">
+                           <locus from="" to=""/>
+                        </quote>
+                <explicit xml:lang="syr">
+                           <locus to="" from=""/>
+                        </explicit>
+                <finalRubric xml:lang="syr">
+                           <locus to="" from=""/>
+                        </finalRubric>
+                <note>See <bibl>Assemani, Bibl. Or., t. i., p. 317, no 95</bibl>.</note>
               </msItem>
               <msItem xml:id="b2" n="4" defective="true">
-                <title xml:lang="en">On the Fall of the Idols</title>
+                <locus to="" from=""/>
+                <author ref=""/>
+                <title ref="" xml:lang="en">On the Fall of the Idols</title>
                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܡܦܘܠܬܐ ܕܦܬ̈ܟܪܐ</rubric>
-                <note>See<bibl>Assemani, p. 327, no. 181 (where read "Decepit Haran per
+                <incipit xml:lang="syr"/>
+                <quote xml:lang="syr">
+                           <locus from="" to=""/>
+                        </quote>
+                <explicit xml:lang="syr">
+                           <locus to="" from=""/>
+                        </explicit>
+                <finalRubric xml:lang="syr">
+                           <locus to="" from=""/>
+                        </finalRubric>
+                <note>See <bibl>Assemani, p. 327, no. 181 (where read "Decepit Haran per
                               Sin," instead of "per Besin")</bibl>.</note>
               </msItem>
             </msItem>
             <msItem xml:id="a3" n="5">
               <locus from="31a" to="78">Foll. 31a-78</locus>
-              <author ref="http://syriaca.org/person/33">Isaac ofAntioch</author>
-              <title xml:lang="en">Metrical discourses of<persName ref="http://syriaca.org/person/33">Isaac of<placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+              <author ref="http://syriaca.org/person/33">Isaac of <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+              </author>
+              <title ref="" xml:lang="en"> Metrical discourses of <persName ref="http://syriaca.org/person/33">Isaac of <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
                 </persName>
               </title>
+              <rubric xml:lang="syr"/>
+              <incipit xml:lang="syr"/>
+              <quote xml:lang="syr">
+                        <locus from="" to=""/>
+                     </quote>
+              <explicit xml:lang="syr">
+                        <locus to="" from=""/>
+                     </explicit>
+              <finalRubric xml:lang="syr">
+                        <locus to="" from=""/>
+                     </finalRubric>
+              <note/>
               <msItem xml:id="b3" n="6" defective="true">
                 <locus to="38" from="31a">Foll. 31a-38</locus>
-                <title xml:lang="en">Six deprecatory or intercessory
+                <author ref=""/>
+                <title ref="" xml:lang="en">Six deprecatory or intercessory
                            discourses</title>
                 <rubric xml:lang="syr">ܡܐܡܪ̈ܐ ܕܒ̈ܥܘܬܐ</rubric>
+                <incipit xml:lang="syr"/>
+                <quote xml:lang="syr">
+                           <locus from="" to=""/>
+                        </quote>
+                <explicit xml:lang="syr">
+                           <locus to="" from=""/>
+                        </explicit>
+                <finalRubric xml:lang="syr">
+                           <locus to="" from=""/>
+                        </finalRubric>
                 <note>The first three are entirely lost, and the greater part of the fourth
                            (fol. 31 a) is also missing</note>
                 <msItem xml:id="c1" n="7">
                   <locus to="35" from="31b">Foll. 31b-35</locus>
-                  <title xml:lang="en">The fifth</title>
+                  <author ref=""/>
+                  <title ref="" xml:lang="en">The fifth</title>
                   <rubric xml:lang="syr">ܡܐܡܪܐ ܕܚܡܫܐ ܕܒ̈ܥܘܬܐ</rubric>
                   <incipit xml:lang="syr">ܝܫܘܥ ܫܘܦܪܐ ܕܒܥܘܬܢ ܗܒ ܥܘܕܪܢܐ ܠܨܠܘܬܢ. ܕܒܟ ܬܬܥܠܐ ܨܝܕ
                               ܐܒܘܟ. ܕܬܦܢܐ ܠܢ ܫܐ̈ܠܬܢ. ܏ܘܫ.</incipit>
+                  <quote xml:lang="syr">
+                              <locus from="" to=""/>
+                           </quote>
+                  <explicit xml:lang="syr">
+                              <locus to="" from=""/>
+                           </explicit>
+                  <finalRubric xml:lang="syr">
+                              <locus to="" from=""/>
+                           </finalRubric>
+                  <note/>
                 </msItem>
                 <msItem xml:id="c2" n="8">
                   <locus to="38" from="36a">Foll. 36a-38</locus>
-                  <title xml:lang="en">The sixth</title>
+                  <author ref=""/>
+                  <title ref="" xml:lang="en">The sixth</title>
                   <rubric xml:lang="syr">ܡܐܡܪܐ ܕܫܬܐ ܕܒܥ̈ܘܬܐ ܘܡܛܠ ܕܠܒ̣ܫ ܡܕܒܚܐ
                               ܐܘ̈ܟܡܐ</rubric>
                   <incipit xml:lang="syr">ܟܡܝܪ ܐܐܪ ܡܛܠ ܥܘ̣ܠܢ ܘܡܛܠܬܢ ܡܬܢܓܕ. ܘܗܐ ܒܠܥ̇ܝܢ ܚܢܢ
-                              ܕܗܘܝܢܢ ܥܠܬܐ ܠܟܠܗ̇ ܡܪܕܘܬܐ. ܏ܘܫ.</incipit>
+                              ܕܗܘܝܢܢ ܥܠܬܐ ܠܟܠܗ̇ ܡܪܕܘܬܐ. ܏ܘܫ. </incipit>
+                  <quote xml:lang="syr">
+                              <locus from="" to=""/>
+                           </quote>
+                  <explicit xml:lang="syr">
+                              <locus to="" from=""/>
+                           </explicit>
+                  <finalRubric xml:lang="syr">
+                              <locus to="" from=""/>
+                           </finalRubric>
+                  <note/>
                 </msItem>
               </msItem>
               <msItem xml:id="b4" n="9" defective="true">
                 <locus to="64" from="39a">Foll. 39a-64</locus>
-                <title xml:lang="en">Five discourses on our Lord and the Woman of
+                <author ref=""/>
+                <title ref="" xml:lang="en">Five discourses on our Lord and the Woman of
                            Samaria</title>
                 <rubric xml:lang="syr">ܕܥܠ ܡܪܢ ܘܫܡܪܝܬܐ</rubric>
+                <incipit xml:lang="syr"/>
+                <quote xml:lang="syr">
+                           <locus from="" to=""/>
+                        </quote>
+                <explicit xml:lang="syr">
+                           <locus to="" from=""/>
+                        </explicit>
+                <finalRubric xml:lang="syr">
+                           <locus to="" from=""/>
+                        </finalRubric>
                 <note>The last is wrongly numbered ܡܐܡܪܐ ܕܫܬܐ.</note>
               </msItem>
               <msItem xml:id="b5" n="10">
-                <title xml:lang="en">Discourse on Psalm xvi. 8</title>
+                <locus to="" from=""/>
+                <author ref=""/>
+                <title ref="" xml:lang="en">Discourse on Psalm xvi. 8</title>
+                <rubric xml:lang="syr"/>
                 <incipit xml:lang="syr">ܒܟܠ ܙܒܡܐܡܪܐ ܥܠ ܗ̇ܝ ܕܐܡ̣ܪ ܕܘܝܕ. ܕܣܡܬ ܠܡܪܝܐ ܠܘܩܒܠ
                            (sic)</incipit>
+                <quote xml:lang="syr">
+                           <locus from="" to=""/>
+                        </quote>
+                <explicit xml:lang="syr">
+                           <locus to="" from=""/>
+                        </explicit>
+                <finalRubric xml:lang="syr">
+                           <locus to="" from=""/>
+                        </finalRubric>
+                <note/>
               </msItem>
               <msItem xml:id="b6" n="11">
                 <locus to="78" from="70b">Foll. 70b-78</locus>
-                <title xml:lang="en">Paraenetic discourse</title>
+                <author ref=""/>
+                <title ref="" xml:lang="en">Paraenetic discourse</title>
                 <rubric xml:lang="syr">ܕܡܟܣܢܘܬܐ</rubric>
                 <incipit xml:lang="syr">ܠܡܕܡ ܗ̣ܘ ܩܪ̈̇ܢ ܐܠܗܐ ܘܡܕܡ ܗܘ ܚܪܝܢ ܦܘܠܚܢܢ: ܕܢܡܘܬ ܡܟܐ
                            ܡ̇ܠܦ ܠܢ ܘܗܪܟܐ ܢܨܝܒܐ ܬܪܥܝܬܢ. ܏ܘܫ.</incipit>
+                <quote xml:lang="syr">
+                           <locus from="" to=""/>
+                        </quote>
+                <explicit xml:lang="syr">
+                           <locus to="" from=""/>
+                        </explicit>
+                <finalRubric xml:lang="syr">
+                           <locus to="" from=""/>
+                        </finalRubric>
+                <note/>
               </msItem>
             </msItem>
             <msItem xml:id="a4" n="12">
               <locus to="98" from="78b">Foll. 78b-98</locus>
-              <author>Basil</author>
-              <title xml:lang="en">Two letters of<persName>Basil</persName>to a
+              <author ref="">Basil</author>
+              <title ref="" xml:lang="en">Two letters of <persName>Basil</persName> to a
                         fallen virgin</title>
+              <rubric xml:lang="syr"/>
+              <incipit xml:lang="syr"/>
+              <quote xml:lang="syr">
+                        <locus from="" to=""/>
+                     </quote>
+              <explicit xml:lang="syr">
+                        <locus to="" from=""/>
+                     </explicit>
+              <finalRubric xml:lang="syr">
+                        <locus to="" from=""/>
+                     </finalRubric>
+              <note/>
               <msItem xml:id="b7" n="13">
                 <locus to="84" from="78b">Foll. 78b-94</locus>
-                <title xml:lang="en">First Letter to a fallen virgin</title>
+                <author ref=""/>
+                <title ref="" xml:lang="en">First Letter to a fallen virgin</title>
                 <rubric xml:lang="syr">ܐܓܪܬܐ ܩܕܡܝܬܐ ܕܡܪܬܝܢܘܬܐ ܕܐܫܬܕܪܬ ܡܢ ܩܕܝܫܐ ܒܣ݅ܝ݅ܠܝ݅ܣ܆
                            ܠܒܬܘܠܬܐ ܕܢܦ̣ܠܬ̇ ܡܢ ܩܝܵܡܗ̇ ܘܗܘ̣ܬ ܒܙܘܘܵܓܐ. ܘܥܡܗ̇ ܕܫܘܠܡܐ ܕܩ̣ܪܝܢܗ̇ ܕܐܓܪܬܐ̣.
                            ܕܠܘܬܗ̇ ܠܬܘܬ ܢܦܫܐ ܐܬ݂ܢܓܕܬ: ܘܡܢ ܓܒܪܗ̇ ܫ̣ܢܝܬ̇. ܘܐܣܝܪܬܐ ܒܥܘܡܪܗ̇ ܗܘ̣ܬ̇.
@@ -174,65 +315,147 @@
                            ܥܠ ܦܟ̈ܝܗ ܫܚ̈ܠܢ ܗܘ̈ܝ: ܘܠܗܝܢ ܒܟ̣ܰܣܳܐ (sic) ܟܠ ܝܘܡ ܡܩܒܠܐ ܗܘ̣ܬ. ܘܠܥܕܢܐ
                            ܕܛܥܘܡܗ̇ ܠܗ̈ܝܢ ܒܚܘܠܛܢܐ ܕܡ̈ܝܐ ܫ̇ܬܝܐ ܗܘܬ. ܥܕܡܐ ܠܙܒܢܐ ܕܥܘܢܕܢܗ̇. ܘܒܗܢܐ ܚܫܐ
                            ܕܬܝܒܘܬܐ ܡܢ ܥܠܡ ܢܦ̣ܩܬ</rubric>
-                <note>See Opera, t. iii., p. 191, ep. xlvi.</note>
+                <incipit xml:lang="syr"/>
+                <quote xml:lang="syr">
+                           <locus from="" to=""/>
+                        </quote>
+                <explicit xml:lang="syr">
+                           <locus to="" from=""/>
+                        </explicit>
+                <finalRubric xml:lang="syr">
+                           <locus to="" from=""/>
+                        </finalRubric>
+                <note>See Opera, t. iii., p. 191, ep. xlvi. </note>
               </msItem>
               <msItem xml:id="b8" n="14">
                 <locus to="98" from="85a">Foll. 85a-98</locus>
-                <title xml:lang="en">Second Letter to a fallen virgin</title>
+                <author ref=""/>
+                <title ref="" xml:lang="en">Second Letter to a fallen virgin</title>
                 <rubric xml:lang="syr">ܬܘܒ ܐܓܪܬܐ ܕܬܪ̈ܬܝܢ ܕܝܠܗ ܕܩܕܝܫܐ ܡܪܝ ܒܣܝܠܝܣ ܕܐܫܬܕܪܬ
                            ܠܘܬܗ̇ ܕܝܠܗ̇ ܕܒܬܘܠܬܐ ܟܕ ܫܡ̣ܥ ܥܠܝܗ̇ ܕܬܒ̣ܬ</rubric>
                 <incipit xml:lang="syr">ܐܒ̈ܗܐ ܦܓܪ̈ܢܐ ܥܠ ܒܢܝ̈ܗܘܢ ܕܛ̇ܠܝ̈ܢ ܐܡܬܝ ܕܡܢܗܘܢ ܢܐܒܕܘܢ̣.
                            ܠܒܥܬܗܘܢ ܗܟܢܐ ܒܒܛܝܠܘܬܐ ܠܐ ܢܦܩ̇ܝܢ. ܘܒܚܫܐ ܡܪܝܪܐ ܥܠܝܗܘܢ ܠܐ ܝܬ̇ܒܝܢ. ܘܐܦ ܠܐ
                            ܦܪܚܬܐ ܗܟܢܐ ܡܒܓܢܐ ܒܩܠܐ ܕܟܝܢܗ̇. ܕܠܐ ܡܦܫܩ ܘܝܐ ܥܠ ܦܪ̈ܘܓܝܗ̇ ܡܐ ܕܡܫܬܩܠܝܢ ܡܢ
                            ܬܚܝܬ ܟܢ̈ܦܝܗ̇ ܐܝܟ ܡܐ ܕܡܚܒܠ ܗܘܐ ܪܥܝܢܝ ܥܠܝܟܝ܇ ܬܢܚ̈ܬܐ ܕܣܢܝܩܢ ܗܘܝ ܥܠ ܦܘܝ̇ܓܐ
-                           ܕܕܡ̈ܥܐ. ܏ܘܫ.</incipit>
+                           ܕܕܡ̈ܥܐ. ܏ܘܫ. </incipit>
+                <quote xml:lang="syr">
+                           <locus from="" to=""/>
+                        </quote>
+                <explicit xml:lang="syr">
+                           <locus to="" from=""/>
+                        </explicit>
+                <finalRubric xml:lang="syr">
+                           <locus to="" from=""/>
+                        </finalRubric>
+                <note/>
               </msItem>
             </msItem>
             <msItem xml:id="a5" n="15">
+              <locus to="101" from="98b"/>
               <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
-              <title xml:lang="en">Letter of<persName ref="http://syriaca.org/person/42">Jacob of Batnae</persName>to two
+              <title ref="" xml:lang="en">Letter of <persName ref="http://syriaca.org/person/42">Jacob of Batnae</persName> to two
                         harlots, who repented and became recluses</title>
               <rubric xml:lang="syr">ܐܓܪܬܐ ܕܩܕܝܫܐ ܡܪܝ ܝܥܩܘܒ ܠܘܬ ܢܫ̈ܐ ܙܢܝ̈ܬܐ ܕܗ̈ܘܝ ܬܝܒ̈ܬܐ ܘܒܬܪ
                         ܟܢ ܚܒ̈ܝܫܬܐ.</rubric>
+              <incipit xml:lang="syr"/>
+              <quote xml:lang="syr">
+                        <locus from="" to=""/>
+                     </quote>
+              <explicit xml:lang="syr">
+                        <locus to="" from=""/>
+                     </explicit>
+              <finalRubric xml:lang="syr">
+                        <locus to="" from=""/>
+                     </finalRubric>
               <note>See Add. 14,587, no. 34.</note>
             </msItem>
             <msItem xml:id="a6" n="16">
+              <locus to="101" from="101b"/>
               <author ref="http://syriaca.org/person/573">John Chrysostom</author>
-              <title xml:lang="en">Two short extracts from<persName ref="http://syriaca.org/person/573">John Chrysostom</persName>
+              <title ref="" xml:lang="en">Two short extracts from <persName ref="http://syriaca.org/person/573">John Chrysostom</persName>
               </title>
               <rubric xml:lang="syr">ܦܣܘܩܐ ܕܝܘܚܢܢ</rubric>
+              <incipit xml:lang="syr"/>
+              <quote xml:lang="syr">
+                        <locus from="" to=""/>
+                     </quote>
+              <explicit xml:lang="syr">
+                        <locus to="" from=""/>
+                     </explicit>
+              <finalRubric xml:lang="syr">
+                        <locus to="" from=""/>
+                     </finalRubric>
+              <note/>
             </msItem>
             <msItem xml:id="a7" n="17">
+              <locus to="" from="102a"/>
               <author ref="http://syriaca.org/person/354">Athanasius</author>
-              <title xml:lang="en">Writings of<persName ref="http://syriaca.org/person/354">Athanasius</persName>
+              <title ref="" xml:lang="en">Writings of <persName ref="http://syriaca.org/person/354">Athanasius</persName>
               </title>
+              <rubric xml:lang="syr"/>
+              <incipit xml:lang="syr"/>
+              <quote xml:lang="syr">
+                        <locus from="" to=""/>
+                     </quote>
+              <explicit xml:lang="syr">
+                        <locus to="" from=""/>
+                     </explicit>
+              <finalRubric xml:lang="syr">
+                        <locus to="" from=""/>
+                     </finalRubric>
+              <note/>
               <msItem xml:id="b9" n="18">
-                <title xml:lang="en">Letter to the virgins who went to<placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>to pray and
+                <locus to="114" from="102a"/>
+                <author ref=""/>
+                <title ref="" xml:lang="en">Letter to the virgins who went to <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName> to pray and
                            returned</title>
                 <rubric xml:lang="syr">ܐܓܪܬܐ ܠܘܬ ܒ̈ܬܘܠܬܐ ܕܐ̣ܙܠ ܗܘ̈ܝ ܨܠܝ ܒܐܘܪܫܠܡ
                            ܘܦܢ̣ܝ</rubric>
                 <incipit xml:lang="syr">ܟܐܒ̇ ܠܢ ܥܡܟܝܢ ܐܡ̈ܗܬܗ ܕܡܫܝܚܐ̇. ܕܟܕ ܦܪܫܢ ܗܘܝܬܝܢ ܡܢ
                            ܕܘܟ̈ܝܬܐ ܩܕܝ̈ܫܬܐ̇. ܬܦ̈ܐ ܕܕܡ̈ܥܐ ܡܪܝܪ̈ܬܐ ܐܫܕܬܝܢ. ܟܕ ܡܗܠܟܘ ܡܗ̈ܠܟܢ ܗܘܝܬܝܢ
                            ܘܒ̈ܟܝܢ̇. ܒܗ̇ܝ ܕܠܪܘܚܩܐ ܫܒܩܢ ܗܘܝܬܝܢ ܠܡܥܪܬܗ ܕܡܪܝܐ̇. ܗ̇ܝ ܕܐܝܬܝܗ ܕܡܘܬܗ
-                           ܕܦܪܕܝܣܐ. ܏ܘܫ.</incipit>
+                           ܕܦܪܕܝܣܐ. ܏ܘܫ. </incipit>
+                <quote xml:lang="syr">
+                           <locus from="" to=""/>
+                        </quote>
+                <explicit xml:lang="syr">
+                           <locus to="" from=""/>
+                        </explicit>
+                <finalRubric xml:lang="syr">
+                           <locus to="" from=""/>
+                        </finalRubric>
+                <note/>
               </msItem>
               <msItem xml:id="b10" n="19" defective="true">
-                <title xml:lang="en">Discourse on virginity</title>
+                <locus to="121" from="115a"/>
+                <author ref=""/>
+                <title ref="" xml:lang="en">Discourse on virginity</title>
                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܒܬܘܠܘܬܐ</rubric>
                 <incipit xml:lang="syr">ܒܬܘܠܬܐ ܨܒܝܐ ܐܢܬܝ ܠܡܗܘܐ̣. ܠܐ ܐܝܟ ܕܐܢܬܝ ܨܒܝܐ ܐܢܬܝ. ܐܠܐ
-                           ܐܝܟ ܕܡܪܝܐ ܗܘ ܕܐܢܬܝ ܡܬܚܬܢܬܝ ܠܗ. ܏ܘܫ.</incipit>
+                           ܐܝܟ ܕܡܪܝܐ ܗܘ ܕܐܢܬܝ ܡܬܚܬܢܬܝ ܠܗ. ܏ܘܫ. </incipit>
+                <quote xml:lang="syr">
+                           <locus from="" to=""/>
+                        </quote>
+                <explicit xml:lang="syr">
+                           <locus to="" from=""/>
+                        </explicit>
+                <finalRubric xml:lang="syr">
+                           <locus to="" from=""/>
+                        </finalRubric>
+                <note/>
               </msItem>
             </msItem>
           </msContents>
-          <physDesc>
-            <objectDesc form="codex">
-              <supportDesc material="perg">
-                <foliation/>
-                <collation/>
-                <condition>
-                  <list>
-                    <item>
-                      <p>Vellum, about 10 in. by 7 1/8, consisting of 121 leaves, some of
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        
+                        <foliation/>
+                        <collation/>
+                        <condition>
+                           <list>
+                              <item>
+                                 <p>Vellum, about 10 in. by 7 1/8, consisting of 121 leaves, some of
                                     which are much stained and torn, especially foll. 1, 11, 25, and
                                     120. The quires, signed with letters, were originally 16 in
                                     number, but of these ܗ and ܘ are lost, and ܐ ,ܕ and ܝܘ are very
@@ -240,54 +463,57 @@
                                     Leaves are wanting both at the beginning and end, as well as
                                     after foll. 5 and 30. Each page is divided into two columns, of
                                     from 20 to 29 lines. Greek and Syriac vowels have been
-                                    occasionally added at a later period.</p>
-                    </item>
-                  </list>
-                </condition>
-              </supportDesc>
-            </objectDesc>
-            <handDesc hands="2">
-              <handNote xml:id="handNote1" scope="major" script="syr" medium="unknown">
-                <desc>This volume is written in a clear, though rather inelegant hand of the
+                                    occasionally added at a later period. </p>
+                              </item>
+                           </list>
+                        </condition>
+                     </supportDesc>
+                     
+                  </objectDesc>
+                  <handDesc hands="2">
+              <handNote medium="unknown" scope="major" script="syr">
+                        <desc>This volume is written in a clear, though rather inelegant hand of the
                            vith or viith cent.</desc>
-              </handNote>
-              <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
-                <desc>Greek and Syriac vowels have been occasionally added at a later
+                     </handNote>
+              <handNote medium="unknown" scope="minor" script="syr">
+                        <desc>Greek and Syriac vowels have been occasionally added at a later
                            period.</desc>
-              </handNote>
+                     </handNote>
             </handDesc>
-            <additions>
+                  <additions>
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="39a" to="39"/>
-                  <p>At the foot of fol. 39 a, there is a note of comparatively recent
+                           <locus from="39a" to="39"/>
+                           <p>At the foot of fol. 39 a, there is a note of comparatively recent
                               date, mentioning the name of a reader, "Zākhē the oriental."</p>
-                  <p>
-                    <quote xml:lang="syr">ܙܟܐ ܡܕܢܚܝܐ.</quote>
+                           <p>
+                    <quote xml:lang="syr">ܙܟܐ ܡܕܢܚܝܐ. </quote>
                   </p>
-                </item>
+                        </item>
                 <item xml:id="addition2" n="2">
-                  <locus/>
-                  <p>Margin, in a later hand.</p>
-                  <p>
-                    <quote xml:lang="syr">ܦܘܡܐ ܕܕܗܒܐ</quote>
-                  </p>
-                </item>
+                           <locus from="" to=""/>
+                           <p>Margin, in a later hand.</p>
+                           <p>
+                              <quote xml:lang="syr">ܦܘܡܐ ܕܕܗܒܐ</quote>
+                           </p>
+                        </item>
               </list>
             </additions>
-            <accMat/>
-          </physDesc>
-          <history>
-            <origin>
-              <origDate notBefore="0500" notAfter="0700">vith or viith
+                  
+                  
+                  <accMat/>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0500" notAfter="0700" from="" to="" when="">vith or viith
                         cent.</origDate>
-              <origPlace/>
-            </origin>
-            <provenance/>
-            <acquisition/>
-          </history>
-          <additional>
+                     <origPlace ref="" xml:lang=""/>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
             <adminInfo>
               <recordHist>
                 <source>Manuscript description based on<bibl>
@@ -310,10 +536,10 @@
               </bibl>
             </listBibl>
           </additional>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
       <editorialDecl>
         <interpretation>
           <p>Description is based on Wright's Catalogue without consultation of physical
@@ -441,7 +667,7 @@
         </taxonomy>
       </classDecl>
     </encodingDesc>
-    <profileDesc>
+      <profileDesc>
       <langUsage>
         <language ident="syr">Unvocalized Syriac of any variety or period</language>
         <language ident="syr-Syre">Syriac in Estrangela</language>
@@ -470,21 +696,20 @@
         </keywords>
       </textClass>
     </profileDesc>
-    <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-02-21-06:00">CHANGED: deleted empty elements and attributes</change>
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-02-03-06:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+      <revisionDesc status="draft">
+         <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-02-28-06:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2019-11-10" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
-      <change type="planned" subtype="question">Question in Word Doc to be Addressed: Syriac
-            appears to be misformatted on part c of ms item 3, or discourse on the Psalm.</change>
-    </revisionDesc>
-  </teiHeader>
-  <facsimile>
-    <formula>Content pending</formula>
-  </facsimile>
-  <text>
-    <body>
-      <bibl>Content pending</bibl>
-    </body>
-  </text>
+         <change type="planned" subtype="question">Question in Word Doc to be Addressed: Syriac
+            appears to be misformatted on part c of ms item 3, or discourse on the Psalm. </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <formula>Content pending</formula>
+   </facsimile>
+   <text>
+      <body>
+         <bibl>Content pending</bibl>
+      </body>
+   </text>
 </TEI>

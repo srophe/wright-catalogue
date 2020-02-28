@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
@@ -80,104 +81,135 @@
               <idno type="Wright-BL-Roman">CCXXI</idno>
             </altIdentifier>
           </msIdentifier>
-          <msContents>            <textLang mainLang="syr"/>
+          <msContents>
+            <summary/>
+            <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <title xml:lang="en">The first part of a Jacobite Lectionary, comprising
+              <locus to="" from="2b"/>
+              <title ref="" xml:lang="en">The first part of a Jacobite Lectionary, comprising
                 lessons from the Old and New Testaments for all the principal festivals of the
                 year.</title>
               <rubric xml:lang="syr">ܥܠ ܚܝܠܗ ܕܡܪܢ ܝܫܘܥ. ܡܫܪ̈ܝܢܢ. ܕܢܟܬܘܒ ܟܬܒܐ ܩܕܡܝܐ ܕܦܘܪܫ
                 ܩܪ̈ܝܢܐ</rubric>
               <note>Many of them are taken from the Apocrypha, and from the Syriac version of the
                 LXX</note>
-              <colophon xml:lang="syr">ܫܠ̣ܡ ܠܡܟ̣ܬܒ ܒܟܬ̈ܒܐ ܗ̇ܠܝܢ ܩܪ̈ܝܢܐ ܕܥܐ̈ܕܐ ܡܪ̈ܐܢܝܐ. ܥܡ ܟܠܗ ܛܟ̣ܣܐ. ܘܚܘܕܪܐ ܕܟܠܗ̇ ܫܢܬܐ. ܘܕܩ̈ܕܝܫܐ ܘܕܐܒ̈ܗܬܐ ܘܕܥ̈ܢܝܕܐ܀</colophon>
+              <colophon xml:lang="syr">ܫܠ̣ܡ ܠܡܟ̣ܬܒ ܒܟܬ̈ܒܐ ܗ̇ܠܝܢ ܩܪ̈ܝܢܐ ܕܥܐ̈ܕܐ ܡܪ̈ܐܢܝܐ. ܥܡ ܟܠܗ ܛܟ̣ܣܐ. ܘܚܘܕܪܐ ܕܟܠܗ̇ ܫܢܬܐ. ܘܕܩ̈ܕܝܫܐ ܘܕܐܒ̈ܗܬܐ ܘܕܥ̈ܢܝܕܐ܀ </colophon>
+              <quote xml:lang="syr">
+                <locus from="" to=""/>
+              </quote>
               <msItem xml:id="b1" n="2">
-                <title xml:lang="en">The Annunciation of Zacharias</title>
+                <locus to="" from="2b"/>
+                <title ref="" xml:lang="en">The Annunciation of Zacharias</title>
                 <rubric xml:lang="syr">ܩܕܡܝܬ ܕܥܠ ܣܘܒܪܗ ܕܙܟܪܝܐ</rubric>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <title xml:lang="en">The Annunciation of the blessed Virgin</title>
-                <rubric xml:lang="syr">ܕܣܘܒܪܗ̇ ܕܝ̇ܠܕܬ݀ ܐܠܗܐ</rubric>
+                <locus to="" from="3b"/>
+                <title ref="" xml:lang="en">The Annunciation of the blessed Virgin</title>
+                <rubric xml:lang="syr">ܕܣܘܒܪܗ̇ ܕܝ̇ܠܕܬ݀ ܐܠܗܐ </rubric>
               </msItem>
               <msItem xml:id="b3" n="4">
-                <title xml:lang="en">The Nativity of<persName ref="http://syriaca.org/person/1808">S. John the Baptist</persName>
+                <locus to="" from="4a"/>
+                <title ref="" xml:lang="en">The Nativity of <persName ref="http://syriaca.org/person/1808">S. John the Baptist</persName>
                 </title>
-                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܡܘܠܕܗ ܕܝܘܚܢܢ</rubric>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܡܘܠܕܗ ܕܝܘܚܢܢ </rubric>
               </msItem>
               <msItem xml:id="b4" n="5">
-                <title xml:lang="en">The Nativity of our Lord</title>
-                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܝܠ̣ܕܐ</rubric>
+                <locus to="" from="5a"/>
+                <author ref=""/>
+                <title ref="" xml:lang="en">The Nativity of our Lord</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܝܠ̣ܕܐ </rubric>
               </msItem>
               <msItem xml:id="b5" n="6">
-                <title xml:lang="en">The Circumcision of our Lord</title>
+                <locus to="" from="6b"/>
+                <title ref="" xml:lang="en">The Circumcision of our Lord</title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܓܙܘܪܬܐ</rubric>
               </msItem>
               <msItem xml:id="b6" n="7">
-                <title xml:lang="en">The Commemoration of the blessed Virgin</title>
-                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܒܕܘܟܪܢܐ ܕܝܠܕܬ ܐܠܗܐ</rubric>
+                <locus to="" from="7b"/>
+                <title ref="" xml:lang="en">The Commemoration of the blessed Virgin</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܒܕܘܟܪܢܐ ܕܝܠܕܬ ܐܠܗܐ </rubric>
               </msItem>
               <msItem xml:id="b7" n="8">
-                <title xml:lang="en">The Massacre of the Innocents</title>
-                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܥܠ ܩܛܠ̣ܐ ܕܝ̈ܠܘܕܐ</rubric>
+                <locus to="" from="9a"/>
+                <title ref="" xml:lang="en">The Massacre of the Innocents</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܥܠ ܩܛܠ̣ܐ ܕܝ̈ܠܘܕܐ </rubric>
               </msItem>
               <msItem xml:id="b8" n="9">
-                <title xml:lang="en">The Epiphany</title>
-                <rubric xml:lang="syr">ܕܕܢܚܐ. ܩܪ̈ܝܢܐ ܕܠܠܝܐ ܕܕܢܚܐ</rubric>
+                <locus to="" from="10a"/>
+                <title ref="" xml:lang="en">The Epiphany</title>
+                <rubric xml:lang="syr"> ܕܕܢܚܐ. ܩܪ̈ܝܢܐ ܕܠܠܝܐ ܕܕܢܚܐ</rubric>
                 <msItem xml:id="c1" n="10">
-                  <title xml:lang="en">The Consecration of the Water</title>
+                  <locus to="" from="14a"/>
+                  <title ref="" xml:lang="en">The Consecration of the Water</title>
                   <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܒܘܪܟ ܡ̈ܝܐ</rubric>
-                  <quote xml:lang="syr">ܩܪ̈ܝܢܐ ܕܐܝܡܡܐ ܕܕܢܚܐ</quote>
+                  <quote xml:lang="syr">ܩܪ̈ܝܢܐ ܕܐܝܡܡܐ ܕܕܢܚܐ <locus from="16b" to=""/>
+                  </quote>
                 </msItem>
               </msItem>
               <msItem xml:id="b9" n="11">
-                <title xml:lang="en">The Commemoration of<persName ref="http://syriaca.org/person/1808">S. John the Baptist</persName>
+                <locus to="" from="18b"/>
+                <title ref="" xml:lang="en">The Commemoration of <persName ref="http://syriaca.org/person/1808">S. John the Baptist</persName>
                 </title>
-                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܒܕܘܟܪܢܐ ܕܝܘܚܢܢ ܡ̇ܥܡܕܢܐ</rubric>
+                <rubric xml:lang="syr"> ܩܪ̈ܝܢܐ ܒܕܘܟܪܢܐ ܕܝܘܚܢܢ ܡ̇ܥܡܕܢܐ</rubric>
               </msItem>
               <msItem xml:id="b10" n="12">
-                <title xml:lang="en">Rogationary lessons</title>
-                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܒ̈ܥܘܬܐ</rubric>
+                <locus to="" from="19b"/>
+                <title ref="" xml:lang="en">Rogationary lessons</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܒ̈ܥܘܬܐ </rubric>
               </msItem>
               <msItem xml:id="b11" n="13">
-                <title xml:lang="en">The Sunday of the Entrance into Lent</title>
+                <locus to="" from="23b"/>
+                <title ref="" xml:lang="en">The Sunday of the Entrance into Lent</title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܡ̈ܥܠܝ ܨܘܡܐ</rubric>
               </msItem>
               <msItem xml:id="b12" n="14">
-                <title xml:lang="en">Palm Sunday</title>
+                <locus to="" from="25a"/>
+                <title ref="" xml:lang="en">Palm Sunday</title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܐܘܫ̈ܥܢܐ</rubric>
               </msItem>
               <msItem xml:id="b13" n="15">
-                <title xml:lang="en">Tuesday in the Great Week</title>
+                <locus to="" from="29b"/>
+                <title ref="" xml:lang="en">Tuesday in the Great Week</title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܡ̈ܓܗܝ ܬܠܬܐ ܒܫܒܐ. ܕܫܒܬܐ ܪܒܬܐ</rubric>
               </msItem>
               <msItem xml:id="b14" n="16">
-                <title xml:lang="en">Wednesday</title>
+                <locus to="" from="30a"/>
+                <title ref="" xml:lang="en">Wednesday</title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܡ̈ܓܗܝ ܐܪ̈ܒܥܐ ܒܫܒܐ</rubric>
               </msItem>
               <msItem xml:id="b15" n="17">
-                <title xml:lang="en">Thursday</title>
+                <locus to="" from="30a"/>
+                <title ref="" xml:lang="en">Thursday</title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܡ̈ܓܗܝ ܚܡܫܐ ܒܫܒܐ</rubric>
+                <incipit xml:lang="syr"/>
                 <msItem xml:id="c2" n="18">
-                  <title xml:lang="en">The Consecration of the holy Chrism</title>
+                  <locus to="" from="32a"/>
+                  <title ref="" xml:lang="en">The Consecration of the holy Chrism</title>
                   <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܩܘܕܫ ܡܘܪܘܢ</rubric>
                 </msItem>
                 <msItem xml:id="c3" n="19">
-                  <title xml:lang="en">The Washing (of Feet)</title>
+                  <locus to="" from="34a"/>
+                  <title ref="" xml:lang="en">The Washing (of Feet)</title>
                   <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܫܝܓܬܐ</rubric>
-                  <quote xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܡܫܐ ܒܫܒܐ ܕܦܨܚܐ</quote>
+                  <quote xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܡܫܐ ܒܫܒܐ ܕܦܨܚܐ<locus from="34b" to=""/>
+                  </quote>
                 </msItem>
               </msItem>
               <msItem xml:id="b16" n="20">
-                <title xml:lang="en">The Friday of the Passion (Good Friday)</title>
-                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܥܪܘܒܬܐ ܕܚܫܐ</rubric>
+                <locus to="" from="37a"/>
+                <title ref="" xml:lang="en">The Friday of the Passion (Good Friday)</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܥܪܘܒܬܐ ܕܚܫܐ </rubric>
                 <msItem xml:id="c4" n="21">
-                  <title xml:lang="en">The Adoration (of the Cross)</title>
-                  <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܣܓܕܬܐ</rubric>
+                  <locus to="" from="39a"/>
+                  <title ref="" xml:lang="en">The Adoration (of the Cross)</title>
+                  <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܣܓܕܬܐ </rubric>
                 </msItem>
               </msItem>
               <msItem xml:id="b17" n="22">
-                <title xml:lang="en">The Saturday of Annunciation</title>
+                <locus to="" from="41b"/>
+                <title ref="" xml:lang="en">The Saturday of Annunciation</title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܡ̈ܓ݁ܗ̈ܝ ܫܒܬܐ ܕܣܒܪܬܐ</rubric>
-                <note>See the discourse of<bibl>Moses Bar-Kiphā in Add. 17,188, fol. 54 a</bibl>: ܣܒܪܬܐ ܓܝܪ
+                <note>See the discourse of <bibl>Moses Bar-Kiphā in Add. 17,188, fol. 54 a</bibl>: ܣܒܪܬܐ ܓܝܪ
                   ܕܚ̈ܝܐ܇ ܐܝܬܘܗܝ ܠܢ ܚܓܐ ܕܩܐܡ. ܝܘܡܢܐ ܓܝܪ ܐܣܬܒܪ ܢܫ̈ܐ ܡܢ ܡ̈ܠܐܟܐ܇ ܕܩܡ ܠܗ ܡܫܝܚܐ ܘܠܐ ܗܘ̣ܐ
                   ܬܢܢ. ܝܘܡܢܐ ܓܝܪ ܘܢܫ̈ܐ ܣܒܪ̈ܝ ܠܫ̈ܠܝܚܐ܇ ܕܩܡ ܠܗ ܡܫܝܚܐ ܡܢ ܩܒܪܐ܇ ܘܕܚ̈ܙܝ ܬܡܢ ܠܡ̈ܠܐܟܐ.
                   ܝܘܡܢܐ ܐܣܬܒ̣ܪܬ ܥܕܬܐ ܩܕܝܫܬܐ܇ ܕܩܡ ܠܗ ܡܟܝܪܗ̇ ܡܢ ܒܝܬ ܡ̈ܝܬܐ. ܝܘܡܢܐ ܓܝܪ ܡ̈ܠܐܟܐ ܥܠ ܬܪܥܐ
@@ -188,65 +220,82 @@
                   lessons.</note>
               </msItem>
               <msItem xml:id="b18" n="23">
-                <title xml:lang="en">The Great Sunday (Easter Sunday)</title>
+                <locus to="" from="42b"/>
+                <title ref="" xml:lang="en">The Great Sunday (Easter Sunday)</title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܡܓ݁ܗ̈ܝ ܚܕܒܫܒܐ ܪܒܐ</rubric>
-                <quote xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܩܝܡܬܐ. ܕܨܦܪܐ</quote>
-                <quote xml:lang="syr">ܩܪ̈ܝܢܐ ܕܡܥܡܘܕܝܬܐ</quote>
-                <quote xml:lang="syr">ܩܪ̈ܝܢܐ ܕܩܘܪܒܐ. ܕܝܠܗ ܕܥܐܕܐ ܕܩܝܡܬܐ</quote>
+                <quote xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܩܝܡܬܐ. ܕܨܦܪܐ<locus from="46b" to=""/>
+                </quote>
+                <quote xml:lang="syr">ܩܪ̈ܝܢܐ ܕܡܥܡܘܕܝܬܐ<locus from="47a" to=""/>
+                </quote>
+                <quote xml:lang="syr">ܩܪ̈ܝܢܐ ܕܩܘܪܒܐ. ܕܝܠܗ ܕܥܐܕܐ ܕܩܝܡܬܐ <locus from="49a" to=""/>
+                </quote>
               </msItem>
               <msItem xml:id="b19" n="24">
-                <title xml:lang="en">Monday in White (in Albis)</title>
+                <locus to="" from="52b"/>
+                <title ref="" xml:lang="en">Monday in White (in Albis)</title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܢܓܗ ܬܪ̈ܝܢ ܒܫܒܐ ܕܚܘܪ̈ܐ</rubric>
               </msItem>
               <msItem xml:id="b20" n="25">
-                <title xml:lang="en">The Consecration of an Altar</title>
+                <locus to="" from="53b"/>
+                <title ref="" xml:lang="en">The Consecration of an Altar</title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܩܘܕܫ ܡܕܒܚܐ</rubric>
               </msItem>
               <msItem xml:id="b21" n="26">
-                <title xml:lang="en">The Consecration of a Church</title>
-                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܩܘܕܫ ܥܕܬܐ</rubric>
+                <locus to="" from="54b"/>
+                <title ref="" xml:lang="en">The Consecration of a Church</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܩܘܕܫ ܥܕܬܐ </rubric>
               </msItem>
               <msItem xml:id="b22" n="27">
-                <title xml:lang="en">The Consecration of a Bishop</title>
+                <locus to="" from="57a"/>
+                <title ref="" xml:lang="en">The Consecration of a Bishop</title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܥܠ ܟܪܛܘܢܝܐ ܕܐܦܝܣܩܘܦܐ</rubric>
               </msItem>
               <msItem xml:id="b23" n="28">
-                <title xml:lang="en">The Friday of the Confessors</title>
+                <locus to="" from="58b"/>
+                <title ref="" xml:lang="en">The Friday of the Confessors</title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܥܪܘܒܬܐ ܕܡܘ̈ܕܝܢܐ</rubric>
               </msItem>
               <msItem xml:id="b24" n="29">
-                <title xml:lang="en">New (Low) Sunday</title>
-                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܚܕܬܐ</rubric>
+                <locus to="" from="60a"/>
+                <title ref="" xml:lang="en">New (Low) Sunday</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܚܕܬܐ </rubric>
               </msItem>
               <msItem xml:id="b25" n="30">
-                <title xml:lang="en">The Ascension of our Lord</title>
+                <locus to="" from="63a"/>
+                <title ref="" xml:lang="en">The Ascension of our Lord</title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܥܐܕܐ ܩܕܝܫܐ ܕܣܘܠܩܗ ܕܡܪܢ</rubric>
               </msItem>
               <msItem xml:id="b26" n="31">
-                <title xml:lang="en">Pentecost (Whitsun Day)</title>
+                <locus to="" from="65a"/>
+                <title ref="" xml:lang="en">Pentecost (Whitsun Day)</title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܥܐܕܐ ܕܦܢܛܩܘܣܛܐ</rubric>
               </msItem>
               <msItem xml:id="b27" n="32">
-                <title xml:lang="en">The Invention of the holy Cross</title>
+                <locus to="" from="67b"/>
+                <title ref="" xml:lang="en">The Invention of the holy Cross</title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܫܟܚܬܗ ܕܨܠܝܒܐ</rubric>
               </msItem>
               <msItem xml:id="b28" n="33">
-                <title xml:lang="en">The holy Martyrs</title>
-                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܣܗ̈ܕܐ ܩ̈ܕܝܫܐ</rubric>
+                <locus to="" from="71a"/>
+                <title ref="" xml:lang="en">The holy Martyrs</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܣܗ̈ܕܐ ܩ̈ܕܝܫܐ </rubric>
               </msItem>
               <msItem xml:id="b29" n="34">
-                <title xml:lang="en">The Commemoration of the Fathers</title>
+                <locus to="" from="71b"/>
+                <title ref="" xml:lang="en">The Commemoration of the Fathers</title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܒܕܘܟܪܢܐ ܕܐ̈ܒܗܬܐ</rubric>
               </msItem>
               <msItem xml:id="b30" n="35">
-                <title xml:lang="en">For the Dead</title>
-                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܥܠ ܥܢܝ̈ܕܐ</rubric>
+                <locus to="" from="72b"/>
+                <title ref="" xml:lang="en">For the Dead</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܥܠ ܥܢܝ̈ܕܐ </rubric>
               </msItem>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="perg">
+                
                 <foliation/>
                 <collation/>
                 <condition>
@@ -264,11 +313,12 @@
                   </list>
                 </condition>
               </supportDesc>
+              
             </objectDesc>
             <handDesc hands="2">
               <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
                 <desc>This volume is written in a good, regular Estrangela, and dated A. Gr. 1135,
-                  A.D. 824.</desc>
+                  A.D. 824. </desc>
               </handNote>
               <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
                 <desc>Foll. 3 and 8 are, however, of later date (about A.D. 1089, see Add. 14,490)
@@ -279,14 +329,14 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="80b"/>
+                  <locus from="80b" to=""/>
                   <p>Under the colophon there is written in very small characters</p>
                   <p>
-                    <quote xml:lang="syr">ܐܠܗܐ ܚܘܢܝܢܝ ܠܝ ܚܛܝܐ ܥܒ . . .</quote>
+                    <quote xml:lang="syr">ܐܠܗܐ ܚܘܢܝܢܝ ܠܝ ܚܛܝܐ ܥܒ . . . </quote>
                   </p>
                 </item>
                 <item xml:id="addition2" n="2">
-                  <locus/>
+                  <locus from="" to=""/>
                   <p>After the doxology there is a note, stating that the book was bound by the monk
                     Isaac in the, year 1135, A.D. 821 (see Add. 14,485, fol. 68 b).</p>
                   <p>
@@ -295,7 +345,7 @@
                   </p>
                 </item>
                 <item xml:id="addition3" n="3">
-                  <locus/>
+                  <locus from="" to=""/>
                   <p>The same hand has written below in Greek uncials: ΟΘΕ ΦΟΥΛΑⲜΗⲤ ΤΟⲚ ⲌΕⲚΟC ΤΟⲚ
                     ΗⲤΑΚ ΕΡΓΟⲚ ΑΜΗⲚ, probably meaning: "O God, preserve the stranger Isaac, (who
                     did) this work. Amen."</p>
@@ -304,7 +354,7 @@
                   </p>
                 </item>
                 <item xml:id="addition4" n="4">
-                  <locus from="81a"/>
+                  <locus from="81a" to=""/>
                   <p>A note in the same handwriting, on fol. 81 a, states that this lectionary was
                     written for the church of Achudemes, in the monastery called ܒܝܬ ܩ̈ܘܒܐ at
                     Harrān, at the expense of the congregation of Tagritans, under the direction of
@@ -319,12 +369,13 @@
                   </p>
                 </item>
                 <item xml:id="addition5" n="5">
-                  <locus/>
-                  <p>Another note informs us that it was presented to the convent of<persName>S. Mary Deipara</persName>by<persName>George the son of Barnī, of<placeName>Tagrīt</placeName>
-                    </persName>, and his son<persName>Jacob</persName>; a third, that it was
-                    procured for the said convent by the monks<persName>Matthew</persName>and<persName>Abraham of<placeName>Tagrīt</placeName>
-                    </persName>(see
-                    Add. 14,485, fol. 121 b).</p>
+                  <locus from="" to=""/>
+                  <p>Another note informs us that it was presented to the convent of <persName>S. Mary Deipara</persName>
+                    by <persName>George the son of Barnī, of <placeName>Tagrīt</placeName>
+                    </persName>, and his son <persName>Jacob</persName>; a third, that it was
+                    procured for the said convent by the monks <persName>Matthew</persName> and <persName>Abraham of <placeName>Tagrīt</placeName>
+                    </persName> (see
+                    Add. 14,485, fol. 121 b). </p>
                   <p>
                     <quote xml:lang="syr">ܝܗܒ ܟܬܒܐ ܗܢܐ ܠܕܝܪܐ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ ܕܣܘܪ̈ܝܝܐ ܕܐ̇ܒܐ ܒܝܫܘܝ.
                       ܓܝܘܪܓܝܣ ܒܪ ܒܪܢܝ ܬܓܪ (sic) ܘܝܥܩܘܒ ܕܝܪܝܐ ܒܪܗ. ܡܛܠ ܦܘܪܩܢܐ ܕܢܦ̈ܫܬܗܘܢ ܘܚܘܣܝܐ
@@ -334,7 +385,7 @@
                   </p>
                 </item>
                 <item xml:id="addition6" n="6">
-                  <locus/>
+                  <locus from="" to=""/>
                   <p>At the top of the page there stands an anathema of a rather unusual form:</p>
                   <p>
                     <quote xml:lang="syr">ܟܠ ܕܠܚܐ ܠܥܘܗܕܢܐ ܗܢܐ. ܢܗܘܐ ܚܪܡ ܡܢ ܦܛܪܘܣ ܘܦܘܠܘܣ. ܘܬܗܘܐ ܡܢܬܗ
@@ -343,12 +394,14 @@
                 </item>
               </list>
             </additions>
+            
+            
             <accMat/>
           </physDesc>
           <history>
             <origin>
-              <origDate from="0824"/>
-              <origPlace/>
+              <origDate notBefore="" notAfter="" from="0824" to="" when=""/>
+              <origPlace ref="" xml:lang=""/>
             </origin>
             <provenance/>
             <acquisition/>
@@ -537,8 +590,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-02-21-06:00">CHANGED: deleted empty elements and attributes</change>
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-02-03-06:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-02-28-06:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2019-11-29" who="http://syriaca.org/documentation/editors.xml#akelly">Initial
         TEI encoding.</change>
       <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
