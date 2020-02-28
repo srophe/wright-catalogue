@@ -10,7 +10,7 @@ title::before {content: "Title: "; font-weight:bold;}
 p {display:block; margin:.25em;}
 note {display:block; margin:.25em; font-style:italic;}
 bibl {display:inline; text-decoration: underline;}
-author, persName, placeName, title {font-style: italic;}
+author, persName, placeName {font-style: italic;}
 author[ref]:after, persName[ref]:after, placeName[ref]:after, title[ref]:after {content: "[ref: "attr(ref) "]"; font-style: italic;}
 
 /* Add language handling, font family is optional */
