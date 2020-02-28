@@ -80,7 +80,8 @@
               <idno type="Wright-BL-Roman">DCLXXVI</idno>
             </altIdentifier>
           </msIdentifier>
-          <msContents>            <textLang mainLang="syr"/>
+          <msContents>
+            <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
               <locus to="141" from="1">Foll. 1-141</locus>
               <author ref="http://syriaca.org/person/44">Philoxenus of Mabūg</author>
@@ -504,6 +505,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-02-28-06:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-02-21-06:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-02-03-06:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2019-12-23" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial TEI
