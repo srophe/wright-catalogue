@@ -77,7 +77,7 @@ msItem msItem {display:block; margin:.5em;  padding: .5em; border: 2px solid #ee
 msItem msItem::before {content:attr(n) ". ";}
 msItem msItem[defective=true]::before{content:attr(n) ". - defective"}
 msItem > :not(locus) {display:block;}
-msItem > *::before {content: '('oxy_local-name() '): '; font-weight:bold; }
+msItem > *::before {content: '('oxy_local-name() ') '; font-weight:bold; }
 /* generating locus from attribute values rather than text node, requiring text node to be deleted */
 msItem > locus::before {display:block; content: oxy_local-name() ': ' 'from ' attr(from) ' to ' attr(to); font-size: 16px;}
 msItem > locus {font-size: 0;}
@@ -106,7 +106,7 @@ physDesc > additions > list > item {display:block; margin-left:2em;}
 physDesc > additions > list > item:before {content:attr(n) ". ";}
 locus::after {content: " (from: " attr(from)")"; font-style: italic; color:gray;}
 physDesc > additions > list > item > p {display:list-item; margin-left:2em; margin-top:0; margin-bottom:0;}
-physDesc > additions > list > item > p > quote::before {content: '(Quote): ';}
+physDesc > additions > list > item > p > quote::before {content: '(Quote) ';}
 physDesc > additions > list > item > p:has(quote) {display:block; margin-left:2em; margin-top:0; margin-bottom:0;}
 physDesc > additions > list > item > p > quote {display:list-item; margin-left:2em; margin-top:0; margin-bottom:0;}
 
