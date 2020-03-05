@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
@@ -79,37 +80,84 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
+            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <title xml:lang="en">The Lives of<persName>Mar Samuel</persName>,<persName>Mar Simeon</persName>, and<persName>Mar Gabriel</persName>, of
+              <locus to="" from=""/>
+              <author ref=""/>
+              <title ref="" xml:lang="en">The Lives of<persName>Mar Samuel</persName>,<persName>Mar Simeon</persName>, and<persName>Mar Gabriel</persName>, of
                         the<placeName>convent of Kartamin</placeName>.</title>
+              <rubric xml:lang="syr"/>
+              <incipit xml:lang="syr"/>
+              <quote xml:lang="syr">
+                <locus from="" to=""/>
+              </quote>
+              <explicit xml:lang="syr">
+                <locus to="" from=""/>
+              </explicit>
+              <finalRubric xml:lang="syr">
+                <locus to="" from=""/>
+              </finalRubric>
               <note>
                 <foreign xml:lang="syr">ܩܪܬܡܝܢ</foreign>, see<bibl>Assemani, Bibl. Orient., t. ii.,
                            Dissert, de Monophys., art. Cartamina</bibl>.</note>
               <msItem xml:id="b1" n="2" defective="true">
                 <locus to="39" from="2b">Foll. 2b-39</locus>
-                <title xml:lang="en">
+                <author ref=""/>
+                <title ref="" xml:lang="en">
                   <persName>Mar Samuel</persName>.</title>
+                <rubric xml:lang="syr"/>
                 <incipit xml:lang="syr">ܬܫܥܝܬܐ ܕܡܪܝ ܫܡܘܐܝܠ ܘܡܪܝ ܫܡܥܘܢ ܘܡܪܝ ܓܒܪܐܝܠ ܕܒܥܘܡܪܐ
                            ܟܗܢܝܐ ܕܩܪܬܡܝܢ ܨܠܘܬܗܘܢ ܥܡܢ ܏ܩܕܡ ܥܠ ܕܘܒܪ̈ܘܗܝ ܕܡܪܝ ܫܡܘܐܝܠ ܢܨ̇ܝܚ ܫܘܦܪ̈ܐ
                            ܘܦ̇ܠܚܐ ܓ̇ܒܝܐ.</incipit>
+                <quote xml:lang="syr">
+                  <locus from="" to=""/>
+                </quote>
+                <explicit xml:lang="syr">
+                  <locus to="" from=""/>
+                </explicit>
+                <finalRubric xml:lang="syr">
+                  <locus to="" from=""/>
+                </finalRubric>
+                <note/>
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
                 <locus to="74" from="39b">Foll. 39b-74</locus>
-                <title xml:lang="en">
+                <author ref=""/>
+                <title ref="" xml:lang="en">
                   <persName>Mar Simeon</persName>
                 </title>
                 <rubric xml:lang="syr">ܬܘܒ ܬܫܥܝܬܐ ܕܥܠ ܕܘܒܪ ܚܝ̈ܘܗܝ ܕܡܪܝ ܫܡܥܘܢ.</rubric>
+                <incipit xml:lang="syr"/>
+                <quote xml:lang="syr">
+                  <locus from="" to=""/>
+                </quote>
+                <explicit xml:lang="syr">
+                  <locus to="" from=""/>
+                </explicit>
                 <finalRubric xml:lang="syr">ܫܠ̣ܡܬ݀ ܬܫܥܝ̣ܬܐ ܕܡܪܝ ܫܡܥܘܢ ܕܩܪܬܡܝܢ. ܨܠܘܬܗ ܥܡܢ
-                              ܐܡܝܢ܀<locus from="74a"/>
+                              ܐܡܝܢ܀<locus to="" from="74a"/>
                 </finalRubric>
+                <note/>
               </msItem>
               <msItem xml:id="b3" n="4" defective="true">
                 <locus to="105" from="74a">Foll. 74a-105</locus>
-                <title xml:lang="en">
+                <author ref=""/>
+                <title ref="" xml:lang="en">
                   <persName>Mar Gabriel</persName>.</title>
+                <rubric xml:lang="syr"/>
                 <incipit xml:lang="syr">ܬܘܒ ܬܫܥܝ̣ܬܐ ܕܡܪܝ ܓܒܪܐܝܠ ܐܦܝܣܩܘܦܐ ܕܥܘܡܪܐ ܟܗܢܝܐ ܕܒܝܬ
                            ܡܪܝ ܫܡܥܘܢ ܕܩܪܬܡܝܢ. ܕܡܬܐܡܪ ܩܘܣܛܢܝܐ ܥܠ ܫܡ ܩܪܝ̣ܬܗ܀</incipit>
+                <quote xml:lang="syr">
+                  <locus from="" to=""/>
+                </quote>
+                <explicit xml:lang="syr">
+                  <locus to="" from=""/>
+                </explicit>
+                <finalRubric xml:lang="syr">
+                  <locus to="" from=""/>
+                </finalRubric>
+                <note/>
               </msItem>
             </msItem>
           </msContents>
@@ -132,11 +180,11 @@
               </supportDesc>
             </objectDesc>
             <handDesc hands="2">
-              <handNote medium="unknown" scope="major" script="syr">
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
                 <desc>This manuscript is neatly written by two hands. Foll. 2—71 probably
                            belongs to the<date calendar="Gregorian" notBefore="0700" notAfter="0800">xiiith cent</date>.</desc>
                 <!--it is 2 major hands; should it be two descs or is one fine?-->--&gt;</handNote>
-              <handNote medium="unknown" scope="minor" script="syr">
+              <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
                 <desc>A second has written foll. 72-105 and prprobably belongs to the<date>xiiith cent.</date>
                 </desc>
               </handNote>
@@ -145,7 +193,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus/>
+                  <locus from="" to=""/>
                   <p>In the latter half of the volume (foll. 72 —105) some proper names and
                               other words are expressed on the margins in Arabic, more rarely in
                               Greek.</p>
@@ -159,9 +207,9 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1200" notAfter="1300">xiiith
+              <origDate notBefore="1200" notAfter="1300" from="" to="" when="">xiiith
                         cent</origDate>
-              <origPlace/>
+              <origPlace ref="" xml:lang=""/>
             </origin>
             <provenance/>
             <acquisition/>
@@ -350,7 +398,6 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-03-05-06:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-03-05-06:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-02-22" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
