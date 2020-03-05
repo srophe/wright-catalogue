@@ -1,9 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
         <title level="a" xml:lang="en">BL Add MS 17265</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
@@ -44,10 +45,10 @@
           <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>
       </titleStmt>
-      <editionStmt>
+         <editionStmt>
         <edition n="1.0"/>
       </editionStmt>
-      <publicationStmt>
+         <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
         <idno type="URI">http://syriaca.org/manuscript/1081/tei</idno>
         <availability>
@@ -58,9 +59,9 @@
         </availability>
         <date calendar="Gregorian"/>
       </publicationStmt>
-      <sourceDesc>
-        <msDesc xml:id="manuscript-1081">
-          <msIdentifier>
+         <sourceDesc>
+            <msDesc xml:id="manuscript-1081">
+               <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
@@ -78,95 +79,150 @@
               <idno type="Wright-BL-Roman">DCCCCLXII</idno>
             </altIdentifier>
           </msIdentifier>
-          <msContents>
+               <msContents>
+            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <title xml:lang="en">The Lives of<persName>Mar Samuel</persName>,<persName>Mar Simeon</persName>, and<persName>Mar Gabriel</persName>, of
-                        the<placeName>convent of Kartamin</placeName>.</title>
+              <locus to="" from=""/>
+              <author ref=""/>
+              <title ref="" xml:lang="en">The Lives of <persName>Mar Samuel</persName>,
+                           <persName>Mar Simeon</persName>, and <persName>Mar Gabriel</persName>, of
+                        the <placeName>convent of Kartamin</placeName>.</title>
+              <rubric xml:lang="syr"/>
+              <incipit xml:lang="syr"/>
+              <quote xml:lang="syr">
+                        <locus from="" to=""/>
+                     </quote>
+              <explicit xml:lang="syr">
+                        <locus to="" from=""/>
+                     </explicit>
+              <finalRubric xml:lang="syr">
+                <locus to="" from=""/>
+              </finalRubric>
               <note>
-                <foreign xml:lang="syr">ܩܪܬܡܝܢ</foreign>, see<bibl>Assemani, Bibl. Orient., t. ii.,
+                <foreign xml:lang="syr">ܩܪܬܡܝܢ</foreign>, see <bibl>Assemani, Bibl. Orient., t. ii.,
                            Dissert, de Monophys., art. Cartamina</bibl>.</note>
               <msItem xml:id="b1" n="2" defective="true">
                 <locus to="39" from="2b">Foll. 2b-39</locus>
-                <title xml:lang="en">
+                <author ref=""/>
+                <title ref="" xml:lang="en">
                   <persName>Mar Samuel</persName>.</title>
+                <rubric xml:lang="syr"/>
                 <incipit xml:lang="syr">ܬܫܥܝܬܐ ܕܡܪܝ ܫܡܘܐܝܠ ܘܡܪܝ ܫܡܥܘܢ ܘܡܪܝ ܓܒܪܐܝܠ ܕܒܥܘܡܪܐ
                            ܟܗܢܝܐ ܕܩܪܬܡܝܢ ܨܠܘܬܗܘܢ ܥܡܢ ܏ܩܕܡ ܥܠ ܕܘܒܪ̈ܘܗܝ ܕܡܪܝ ܫܡܘܐܝܠ ܢܨ̇ܝܚ ܫܘܦܪ̈ܐ
                            ܘܦ̇ܠܚܐ ܓ̇ܒܝܐ.</incipit>
+                <quote xml:lang="syr">
+                           <locus from="" to=""/>
+                        </quote>
+                <explicit xml:lang="syr">
+                           <locus to="" from=""/>
+                        </explicit>
+                <finalRubric xml:lang="syr">
+                           <locus to="" from=""/>
+                        </finalRubric>
+                <note/>
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
                 <locus to="74" from="39b">Foll. 39b-74</locus>
-                <title xml:lang="en">
+                <author ref=""/>
+                <title ref="" xml:lang="en">
                   <persName>Mar Simeon</persName>
                 </title>
                 <rubric xml:lang="syr">ܬܘܒ ܬܫܥܝܬܐ ܕܥܠ ܕܘܒܪ ܚܝ̈ܘܗܝ ܕܡܪܝ ܫܡܥܘܢ.</rubric>
+                <incipit xml:lang="syr"/>
+                <quote xml:lang="syr">
+                           <locus from="" to=""/>
+                        </quote>
+                <explicit xml:lang="syr">
+                           <locus to="" from=""/>
+                        </explicit>
                 <finalRubric xml:lang="syr">ܫܠ̣ܡܬ݀ ܬܫܥܝ̣ܬܐ ܕܡܪܝ ܫܡܥܘܢ ܕܩܪܬܡܝܢ. ܨܠܘܬܗ ܥܡܢ
-                              ܐܡܝܢ܀<locus from="74a"/>
+                              ܐܡܝܢ܀<locus to="" from="74a"/>
                 </finalRubric>
+                <note/>
               </msItem>
               <msItem xml:id="b3" n="4" defective="true">
                 <locus to="105" from="74a">Foll. 74a-105</locus>
-                <title xml:lang="en">
+                <author ref=""/>
+                <title ref="" xml:lang="en">
                   <persName>Mar Gabriel</persName>.</title>
+                <rubric xml:lang="syr"/>
                 <incipit xml:lang="syr">ܬܘܒ ܬܫܥܝ̣ܬܐ ܕܡܪܝ ܓܒܪܐܝܠ ܐܦܝܣܩܘܦܐ ܕܥܘܡܪܐ ܟܗܢܝܐ ܕܒܝܬ
                            ܡܪܝ ܫܡܥܘܢ ܕܩܪܬܡܝܢ. ܕܡܬܐܡܪ ܩܘܣܛܢܝܐ ܥܠ ܫܡ ܩܪܝ̣ܬܗ܀</incipit>
+                <quote xml:lang="syr">
+                           <locus from="" to=""/>
+                        </quote>
+                <explicit xml:lang="syr">
+                           <locus to="" from=""/>
+                        </explicit>
+                <finalRubric xml:lang="syr">
+                           <locus to="" from=""/>
+                        </finalRubric>
+                <note/>
               </msItem>
             </msItem>
           </msContents>
-          <physDesc>
-            <objectDesc form="codex">
-              <supportDesc material="chart">
-                <foliation/>
-                <collation/>
-                <condition>
-                  <list>
-                    <item>
-                      <p>Paper, about 6 7/8 in. by 4 7/8, consisting of 105 leaves, some
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        
+                        <foliation/>
+                        <collation/>
+                        <condition>
+                           <list>
+                              <item>
+                                 <p>Paper, about 6 7/8 in. by 4 7/8, consisting of 105 leaves, some
                                     of which are slightly torn, especially foll. 2, 32—51, 69, 70,
-                                    and 95— 105. The quires, signed with letters, are numbered from<foreign xml:lang="syr">ܐ</foreign>to<foreign xml:lang="syr">ܚ</foreign>, and from<foreign xml:lang="syr">ܚ</foreign>to<foreign xml:lang="syr">ܝܐ</foreign>. The last quire
+                                    and 95— 105. The quires, signed with letters, are numbered from
+                                       <foreign xml:lang="syr">ܐ</foreign> to <foreign xml:lang="syr">ܚ</foreign>, and from
+                                       <foreign xml:lang="syr">ܚ</foreign> to <foreign xml:lang="syr">ܝܐ</foreign>. The last quire
                                     is imperfect, and leaves are wanting after foll. 32, 51, 67, 70,
                                     71, 88, and 90. There are from 13 to 19 lines in each page.</p>
-                    </item>
-                  </list>
-                </condition>
-              </supportDesc>
-            </objectDesc>
-            <handDesc hands="2">
+                              </item>
+                           </list>
+                        </condition>
+                     </supportDesc>
+                     
+                  </objectDesc>
+                  <handDesc hands="2">
               <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
-                <desc>This manuscript is neatly written by two hands. Foll. 2—71 probably
-                           belongs to the<date calendar="Gregorian" notBefore="0700" notAfter="0800">xiiith cent</date>.</desc>
-                <!--it is 2 major hands; should it be two descs or is one fine?-->--&gt;</handNote>
+                        <desc>This manuscript is neatly written by two hands. Foll. 2—71 probably
+                           belongs to the <date calendar="Gregorian" notBefore="0700" notAfter="0800">xiiith cent</date>.</desc>
+                        <!--it is 2 major hands; should it be two descs or is one fine?-->--&gt; </handNote>
               <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
-                <desc>A second has written foll. 72-105 and prprobably belongs to the<date>xiiith cent.</date>
+                        <desc>A second has written foll. 72-105 and prprobably belongs to the
+                              <date>xiiith cent.</date>
                 </desc>
-              </handNote>
+                     </handNote>
             </handDesc>
-            <additions>
+                  <additions>
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus/>
-                  <p>In the latter half of the volume (foll. 72 —105) some proper names and
+                           <locus from="" to=""/>
+                           <p>In the latter half of the volume (foll. 72 —105) some proper names and
                               other words are expressed on the margins in Arabic, more rarely in
                               Greek.</p>
-                  <p>
-                    <quote xml:lang="syr">(ܐܪ̈ܝܘܬܐ)<!--insert Arabic here, according to word docx-->(ܐܕܝܐ) (ܐܳܠܻܝܢ) (ܣܻܝܓܘܾܢ)</quote>
+                           <p>
+                    <quote xml:lang="syr">(ܐܪ̈ܝܘܬܐ) <!--insert Arabic here, according to word docx--> (ܐܕܝܐ) (ܐܳܠܻܝܢ) (ܣܻܝܓܘܾܢ)</quote>
                   </p>
-                </item>
+                        </item>
               </list>
             </additions>
-            <accMat/>
-          </physDesc>
-          <history>
-            <origin>
-              <origDate notBefore="1200" notAfter="1300">xiiith
+                  
+                  
+                  <accMat/>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1200" notAfter="1300" from="" to="" when="">xiiith
                         cent</origDate>
-              <origPlace/>
-            </origin>
-            <provenance/>
-            <acquisition/>
-          </history>
-          <additional>
+                     <origPlace ref="" xml:lang=""/>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
             <adminInfo>
               <recordHist>
                 <source>Manuscript description based on<bibl>
@@ -189,10 +245,10 @@
               </bibl>
             </listBibl>
           </additional>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
       <editorialDecl>
         <interpretation>
           <p>Description is based on Wright's Catalogue without consultation of physical
@@ -320,7 +376,7 @@
         </taxonomy>
       </classDecl>
     </encodingDesc>
-    <profileDesc>
+      <profileDesc>
       <langUsage>
         <language ident="syr">Unvocalized Syriac of any variety or period</language>
         <language ident="syr-Syre">Syriac in Estrangela</language>
@@ -349,25 +405,24 @@
         </keywords>
       </textClass>
     </profileDesc>
-    <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-03-05-06:00">CHANGED: deleted empty elements and attributes</change>
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-03-05-06:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+      <revisionDesc status="draft">
+         <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-03-05-06:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-02-22" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
-      <change type="planned" subtype="arabic">Add missing Arabic text.</change>
-      <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
+         <change type="planned" subtype="arabic">Add missing Arabic text.</change>
+         <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
             to be checked for accuracy</change>
-      <change type="planned" subtype="question">Question in Word Doc to be Addressed: Fol. 1 is
+         <change type="planned" subtype="question">Question in Word Doc to be Addressed: Fol. 1 is
             part of a leaf from a neatly written Arabic manuscript of the xiiith cent, containing a portion of a commentary on the
             parable of the Prodigal Son.</change>
-    </revisionDesc>
-  </teiHeader>
-  <facsimile>
-    <formula>Content pending</formula>
-  </facsimile>
-  <text>
-    <body>
-      <bibl>Content pending</bibl>
-    </body>
-  </text>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <formula>Content pending</formula>
+   </facsimile>
+   <text>
+      <body>
+         <bibl>Content pending</bibl>
+      </body>
+   </text>
 </TEI>
