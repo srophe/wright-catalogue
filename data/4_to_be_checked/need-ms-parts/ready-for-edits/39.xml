@@ -78,58 +78,73 @@
               <idno type="Wright-BL-Roman">DCCLIX</idno>
             </altIdentifier>
           </msIdentifier>
-               <msContents>
+          <msPart xml:id="Part1">
+            <msIdentifier>
+              <idno type="URI">http://syriaca.org/manuscript/1426</idno>
+              <altIdentifier>
+                <idno type="BL-Shelfmark">Add MS 12162 foll. 1-213, 216a</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Arabic">759</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Roman">DCCLIX</idno>
+              </altIdentifier>
+            </msIdentifier>
+            <msContents>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1" defective="true">
+            <msItem xml:id="p1a1" n="1" defective="true">
               <locus to="216" from="1">Foll. 1—216</locus>
-              <author ref="http://syriaca.org/person/">Jacob of Batnae</author>
+              <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
               <title xml:lang="en">The older portion of the manuscript, metrical
                         homilies of Jacob of Batnae</title>
               <rubric xml:lang="syr">ܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ </rubric>
-              <msItem xml:id="b1" n="2">
+              <msItem xml:id="p1b1" n="2">
                 <title xml:lang="en">On the Creation of the Universe.</title>
                 <title>On the Six Days.</title>
                 <rubric xml:lang="syr">ܕܥܠ ܬܘܩܢܐ ܕܒܪ̈ܝܬܐ</rubric>
                 <rubric xml:lang="syr">ܕܫܬܬ ܝܘ̈ܡܐ</rubric>
                 <note>See Assemani, Bibl. Or., t. i., p. 339, no. 224. It is divided into
                            seven parts; viz.</note>
-                <msItem xml:id="c1" n="3">
+                <msItem xml:id="p1c1" n="3">
                   <locus to="8" from="2b">Fol. 2 b-8</locus>
                   <title xml:lang="en">On the first day.</title>
                   <rubric xml:lang="syr">ܡܐܡܪܐ ܕܝܘܡܐ ܩܕܡܝܐ</rubric>
                 </msItem>
-                <msItem xml:id="c2" n="4">
+                <msItem xml:id="p1c2" n="4">
                   <locus to="13" from="9a">Foll. 9a-13</locus>
                   <title xml:lang="en">On the second day.</title>
                   <rubric xml:lang="syr">ܡܐܡܪܐ ܕܝܘܡܐ ܕܬܪ̈ܝܢ</rubric>
                 </msItem>
-                <msItem xml:id="c3" n="5">
+                <msItem xml:id="p1c3" n="5">
                   <locus to="17" from="13b">Foll. 13b-17</locus>
                   <title xml:lang="en">On the third day.</title>
                   <rubric xml:lang="syr">ܕܝܘܡܐ ܕܬ̈ܠܬܐ</rubric>
                 </msItem>
-                <msItem xml:id="c4" n="6">
+                <msItem xml:id="p1c4" n="6">
                   <locus to="22" from="18a">Foll. 18a -22</locus>
                   <title xml:lang="en">On the fourth day.</title>
                   <rubric xml:lang="syr">ܡܐܡܪܐ ܕܝܘܡܐ ܕܐܪ̈ܒܥܐ</rubric>
                 </msItem>
-                <msItem xml:id="c5" n="7" defective="true">
+                <msItem xml:id="p1c5" n="7" defective="true">
                   <locus to="26" from="22b">Foll. 22b-26</locus>
                   <title xml:lang="en">On the fifth day.</title>
                   <rubric xml:lang="syr">ܡܐܡܪܐ ܕܝܘܡܐ ܕܚܡ̈ܫܐ</rubric>
                 </msItem>
-                <msItem xml:id="c6" n="8" defective="true">
+                <msItem xml:id="p1c6" n="8" defective="true">
                   <locus to="32" from="27a">Foll. 27a-32</locus>
                   <title xml:lang="en">On the sixth day.</title>
                   <rubric xml:lang="syr">ܡܐܡܪܐ ܕܝܘܡܐ ܕܫ̈ܬܐ</rubric>
                 </msItem>
-                <msItem xml:id="c7" n="9">
+                <msItem xml:id="p1c7" n="9">
                   <locus to="40" from="32b">Foll. 32b-40</locus>
                   <title xml:lang="en">On the seventh day.</title>
                   <rubric xml:lang="syr">ܡܐܡܪܐ ܕܝܘܡܐ ܕܫܒ̈ܥܐ</rubric>
                 </msItem>
               </msItem>
-              <msItem xml:id="b2" n="10" defective="true">
+              <msItem xml:id="p1b2" n="10" defective="true">
                 <locus to="70" from="40b">Foll. 40b- 70</locus>
                 <title xml:lang="en">On <persName>Jonah</persName> (see Assem., p.
                            312, no. 36), divided into probably not less than seven or eight
@@ -139,34 +154,34 @@
                            farther the division was carried. </note>
                 <note>On fol. 60 b a more modern hand has marked a division by four large
                            dots <!--insert picture mentioned in .docx-->% and the word <foreign xml:lang="syr">ܫܠܡ</foreign> on the margin.</note>
-                <msItem xml:id="c8" n="11">
+                <msItem xml:id="p1c8" n="11">
                   <locus to="43" from="40b">Foll. 40b-43</locus>
                   <title xml:lang="en">The first part.</title>
                   <rubric xml:lang="syr">ܡܐܡܪܐ ܩܕܡܝܐ</rubric>
                 </msItem>
-                <msItem xml:id="c9" n="12">
+                <msItem xml:id="p1c9" n="12">
                   <locus to="47" from="43b">Foll. 43b-47</locus>
                   <title xml:lang="en">The second part.</title>
                   <rubric xml:lang="syr">ܡܐܡܪܐ ܕܬܪ̈ܝܢ</rubric>
                 </msItem>
-                <msItem xml:id="c10" n="13">
+                <msItem xml:id="p1c10" n="13">
                   <locus to="50" from="48a">Foll. 48a-50</locus>
                   <title xml:lang="en">The third part.</title>
                   <rubric xml:lang="syr">ܡܐܡܪܐ ܕܬܠܬܐ</rubric>
                 </msItem>
-                <msItem xml:id="c11" n="14">
+                <msItem xml:id="p1c11" n="14">
                   <locus to="54" from="51a">Foll. 51a-54</locus>
                   <title xml:lang="en">The fourth part.</title>
                   <rubric xml:lang="syr">ܡܐܡܪܐ ܕܐܪ̈ܒܥܐ</rubric>
                 </msItem>
               </msItem>
-              <msItem xml:id="b3" n="15" defective="true">
+              <msItem xml:id="p1b3" n="15" defective="true">
                 <locus to="73" from="71a">Foll. 71a-73</locus>
                 <title xml:lang="en"> On the Antichrist (see Assem., p. 314, no. 56,
                            serm. iv.). </title>
                 <rubric xml:lang="syr">ܕܥܠ ܐܢܛܝܟܪܝܣܛܣ</rubric>
               </msItem>
-              <msItem xml:id="b4" n="16" defective="true">
+              <msItem xml:id="p1b4" n="16" defective="true">
                 <locus to="112" from="74a">Foll. 74a-112</locus>
                 
                 <title xml:lang="en">On the Crucifixion of our Lord (see Assem., p.
@@ -175,11 +190,11 @@
                 <note>It is divided into six parts, of which the first ($ܩܘܡܐ ܕܠܠܝܐ ܕܬܪ̈ܝܢ
                            ܒܫܒܐ) is wanting, and the second is imperfect at the beginning. </note>
                 <note>There is another division by a more recent hand.</note>
-                <msItem xml:id="c12" n="17" defective="true">
+                <msItem xml:id="p1c12" n="17" defective="true">
                   <locus to="78" from="74a">Foll. 74a-78</locus>
                   <rubric xml:lang="syr">ܩܘܡܐ ܕܠܠܝܐ ܕܬ̈ܠܬܐ ܒܫܒܐ</rubric>
                 </msItem>
-                <msItem xml:id="c13" n="18">
+                <msItem xml:id="p1c13" n="18">
                   <locus to="85" from="79a">Foll. 79a-85</locus>
                   <rubric xml:lang="syr">
                     <locus to="79" from="79a"/>ܒܫܒܐ (sic) </rubric>
@@ -187,26 +202,26 @@
                     <locus to="80" from="80b"/>ܩܘܡܐ ܕܠܠܝܐ
                               ܕܪܒܥܐ</rubric>
                 </msItem>
-                <msItem xml:id="c14" n="19">
+                <msItem xml:id="p1c14" n="19">
                   <locus to="93" from="86a">Foll. 86a-93</locus>
                   <rubric xml:lang="syr">ܩܘܡܐ ܕܚܡܫܐ</rubric>
                 </msItem>
-                <msItem xml:id="c15" n="20">
+                <msItem xml:id="p1c15" n="20">
                   <locus to="104" from="93b">Foll. 93b-104</locus>
                   <rubric xml:lang="syr">ܩܘܡܐ ܕܠܠܝܐ ܕܥܪܘܒܬܐ</rubric>
                 </msItem>
-                <msItem xml:id="c16" n="21">
+                <msItem xml:id="p1c16" n="21">
                   <locus to="112" from="105a">Foll. 105a-112</locus>
                   <rubric xml:lang="syr">ܩܘܡܐ ܕܫܒܬܐ</rubric>
                 </msItem>
-                <msItem xml:id="c17" n="22">
+                <msItem xml:id="p1c17" n="22">
                   <title xml:lang="en">On the Chariot which
                                  <persName>Ezekiel</persName> saw (see Assem., p. 305, no.
                               1).</title>
                   <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܡܪܟܒܬܐ ܕܚ̣ܙܐ ܚܙܩܝܐܝܠ</rubric>
                 </msItem>
               </msItem>
-              <msItem xml:id="b5" n="23">
+              <msItem xml:id="p1b5" n="23">
                 <locus to="141" from="132b">Foll. 132b- 141</locus>
                 <title xml:lang="en">On <persName>our Lord</persName>, and
                               <persName>Moses</persName> and <persName>Elias</persName> conversing
@@ -214,19 +229,18 @@
                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܡܪܢ ܘܡܘܫܐ ܘܐܠܝܐ ܟܕ ܡܡܠܠܝܢ ܥܡܗ̣
                            ܒܥܢܢܐ</rubric>
               </msItem>
-              <msItem xml:id="b6" n="24">
+              <msItem xml:id="p1b6" n="24">
                 <locus to="159" from="141b">Foll. 141b-159</locus>
                 <title xml:lang="en">On the rich man and Lazarus (see Assem., p. 316,
                            no. 89).</title>
                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܥܬܝܪܐ ܘܠܥܙܪ</rubric>
               </msItem>
-              <msItem xml:id="b7" n="25">
+              <msItem xml:id="p1b7" n="25">
                 <locus to="194" from="160a">Foll. 160a-194</locus>
-                
                 <title xml:lang="en">On Job the just (see Assem., p. 339, no. 225),
                            divided into two parts.</title>
                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܐܝܘܒ ܙܕܝܩܐ</rubric>
-                <msItem xml:id="c18" n="26">
+                <msItem xml:id="p1c18" n="26">
                   <locus to="167" from="160a">Foll. 160a-167</locus>
                   <title xml:lang="en">In heptasyllabic metre.</title>
                   <rubric xml:lang="syr">ܩܪܒܐ ܥܒ̇ܕ ܙܟܘܬܐ. ܘܕܪܐ ܗܘ ܥܠܬܗ ܕܟܠܝܠܐ. ܘܡܢ ܐܓܘܢܐ
@@ -234,20 +248,20 @@
                   <finalRubric xml:lang="syr"> ܫܠܡ ܩܠܐ ܦܫܝܛܐ.
                   </finalRubric>
                 </msItem>
-                <msItem xml:id="c19" n="27" defective="true">
+                <msItem xml:id="p1c19" n="27" defective="true">
                   <locus to="194" from="168a">Foll. 168a-194</locus>
                   <title xml:lang="en">In dodecasyllabic metre.</title>
                   <rubric xml:lang="syr">ܡܠܟܐ ܕܥܘܼܠܐ ܫܕܪ ܟܢܫ̣ ܚܝ̈ܠܘܬܗ. ܕܥܡ ܙܕܝܩܐ ܩܪܒܐ ܢ̇ܥܒܕ
                               ܚܣܝܢܐܝܬ.</rubric>
                 </msItem>
               </msItem>
-              <msItem xml:id="b8" n="28">
+              <msItem xml:id="p1b8" n="28">
                 <locus to="212" from="194b">Foll. 194b-212</locus>
                 <title xml:lang="en">On the Deluge (see Assem., p. 339, no.
                            231).</title>
                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܛܘܦܢܐ</rubric>
               </msItem>
-              <msItem xml:id="b9" n="29">
+              <msItem xml:id="p1b9" n="29">
                 <locus to="216a" from="212b">Foll. 212b-216a</locus>
                 <title xml:lang="en">On Palm-Sunday (see Assem., p. 322, no.
                            135).</title>
@@ -258,57 +272,187 @@
                 </finalRubric>
               </msItem>
             </msItem>
-            <msItem xml:id="a2" n="30"> <!-- msPart separates here -->
+          </msContents>
+            <physDesc><!-- We can't have a general physDesc, but much of what Wright gives us here is for the entire ms as it is now rather than for a specific part. How do we encode? -->
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <foliation/>
+                  <collation/>
+                  <condition>
+                    <list>
+                      <item>
+                        <p>Vellum, about 10 in. by 6 1/2, consisting of 230 leaves, some of
+                          which are much stained (e.g. foll. 186 and 187) and not a few
+                          more or less torn (e.g. foll. 10, 19, 36, 56, 57, 65—68, 126,
+                          141, 171, 185—188). The quires, signed with
+                          letters, are 26 in number, but nearly the whole of and ܛ has
+                          been lost, and several of the others are imperfect. Leaves are
+                          wanting after foll. 26, 27, 57, 61, 64, 70, 72, 73, 184, and
+                          185. Each page is divided into two columns, containing, in the
+                          older part of the manuscript, from 31 to 36 lines.</p>
+                      </item>
+                    </list>
+                  </condition>
+                </supportDesc>
+              </objectDesc>
+              <handDesc hands="2">
+                <handNote xml:id="p1handNote1" medium="unknown" scope="major" script="syr-Syre">
+                  <desc>The greater part of the volume, from fol. 2 b to fol. 216 a (with the
+                    exception of foll. 214 and 215), is written in a small, regular
+                    Estrangělā of the <date>viith cent.</date></desc>
+                </handNote>
+                <handNote xml:id="p1handNote2" medium="unknown" scope="minor" script="syr">
+                  <desc>See additions.On fol. 60 b a more modern hand has marked a division by four large
+                    dots % <!-- WLP: insert missing characters -->and the word <foreign xml:lang="syr">ܫܠܡ</foreign> on the margin.</desc>
+                </handNote>
+              </handDesc>
+              <additions>
+                <p/>
+                <list>
+                  <item xml:id="p1addition1" n="1">
+                    <locus from="2a"/>
+                    <p>A note on fol. 2 a, now much effaced, in a current hand of <date>about the
+                      ixth cent.</date>, states that the volume was presented by certain persons
+                      unnamed to the <placeName>convent of S. Mary Deipara</placeName>.</p>
+                    <p>
+                      <quote xml:lang="syr">ܗ̇ܢܘܢ ܕܗ̣ܘ ܡܫܝܚܐ ܐܠܗܐ ܕܝܠܢ. ܝܕܥ ܠܫܡ̈ܗܐ ܕܝܠܗܘܢ</quote>
+                    </p>
+                    <p>
+                      <quote xml:lang="syr">ܕܝܪܐ ܩܕܝܫܬܐ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ. ܕܣܘܪ̈ܝܝܐ. ܕܒܡܕܒܪܐ
+                        ܕܐܣܩ̈ܝܛܐ ܕܒܡܨܪܝܢ</quote>
+                    </p>
+                  </item>
+                  <item xml:id="p1addition2" n="2">
+                    <locus from="1a"/>
+                    <p>Another note of not much later date, on fol. 1 a, records the fact of
+                      its belonging to the convent.</p>
+                  </item>
+                  <item xml:id="p1addition3" n="3">
+                    <locus from="1a"/>
+                    <p>The manuscript must, however, have been purloined
+                      soon after, since we learn from a second note on fol. 1 a that it was
+                      restored by one <persName>Melchizedek</persName>, who had got it as a present from <persName>the monk
+                        Jacob of Samosata</persName>.</p>
+                    <p>
+                      <quote xml:lang="syr">ܐܬܚܦܛ ܘܩܢܐ ܣܝܡܬܐ ܗܕܐ ܪܘܚܢܝܬܐ ܡܠܟܝܙܕܩ ܐܟܣܢܝܐ.
+                        ܐܫܬܟܢ ܠܗ ܒܘܪܟܬܐ ܡܢ ܝܥܩܘܒ ܕܝܪܝܐ ܕܡܢ ܫܡܝܫܛ ܡܕܝܢܬܐ ܘܫܟܢܗ ܠܕܝܪܐ ܗܕܐ
+                        ܕܣܘܪ̈ܝܝܐ ܕܒܡܕܒܪܐ. ܐܠܐ ܟܠܗ (sic) ܕܦܓܥ ܒܗ ܢܨܠܐ ܥܠܝܗܘܢ ܕܢܚܘܢ ܐܢܘܢ
+                        ܐܠܗܐ ܘܢܚܣܐ ܚܘܒ̈ܝܗܘܢ ܐܡܝܢ ܐܝܢ ܐܡܝܢ.</quote>
+                    </p>
+                  </item>
+                  <item xml:id="p1addition4" n="4">
+                    <locus from="216a"/>
+                    <p>Lastly, there is a note on fol. 216 a, seemingly of the same date as
+                      <ref target="#p1addition3">that immediately preceding</ref>, which states that the book belonged to the
+                      <placeName>convent of S. Mary Deipara</placeName>.</p>
+                    <p>
+                      <quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܕܝܪܝܐ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ ܕܣܘܪ̈ܝܝܐ
+                        ܕܡܕܒܪܐ ܕܐܣܩ̈ܝܛܐ. ܟܠ ܕܐܟܐܡ (sic) ܥܠ ܟܬܒܐ ܗܢܐ ܐܘ ܡܫܢܐ ܠܗ ܡܢ ܕܝܪܐ
+                        ܗܕܐ. ܐܘ ܠܚܐ ܥܘܗܕܢܐ ܗܢܐ ܡܚܪܡܐ ܢܗܘܐ. ܘܢܘܟܪܝܐ ܡܢ ܥܕܬܐ ܩܕܝܫܬܐ ܕܐܠܗܐ
+                        ܐܡܝܢ.</quote>
+                    </p>
+                  </item>
+                </list>
+              </additions>
+              <accMat/>
+            </physDesc>
+            <history>
+              <origin>
+                <origDate notBefore="0600" notAfter="0700">viith
+                  cent.</origDate>
+                <origPlace/>
+              </origin>
+              <provenance/>
+              <acquisition/>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on<bibl>
+                    <ref target="#Wright">Wright's
+                      Catalogue</ref>
+                  </bibl>. abbreviated by the Syriaca.org editors.</source>
+                </recordHist>
+                <note/>
+              </adminInfo>
+              <listBibl>
+                <bibl xml:id="Wright">
+                  <author>William Wright</author>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired
+                    since the Year 1838</title>
+                  <pubPlace>London</pubPlace>
+                  <date>1870</date>
+                  <ptr target="http://syriaca.org/bibl/8"/>
+                  <citedRange unit="entry">DCCLIX</citedRange>
+                  <citedRange unit="pp">2:721-723</citedRange>
+                </bibl>
+              </listBibl>
+            </additional>
+          </msPart>
+            <msPart xml:id="Part2">
+              <msIdentifier>
+                <idno type="URI">http://syriaca.org/manuscript/1427</idno>
+                <altIdentifier>
+                  <idno type="BL-Shelfmark">Add MS 12162 foll. 214, 215, 216a-230a</idno>
+                </altIdentifier>
+                <altIdentifier>
+                  <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                  <idno type="Wright-BL-Arabic">759</idno>
+                </altIdentifier>
+                <altIdentifier>
+                  <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                  <idno type="Wright-BL-Roman">DCCLIX</idno>
+                </altIdentifier>
+              </msIdentifier>
+              <msContents>
+              <msItem xml:id="p2a1" n="1"> <!-- restart numbering?? -->
               <locus to="230b" from="216a">Foll. 216a-230b</locus>
               <title xml:lang="en">The more modern portion of the manuscript,
                         discourses by several authors.</title>
-              <msItem xml:id="b10" n="31">
+              <msItem xml:id="p2b1" n="2">
                 <locus to="227" from="216a">Foll. 216a-227</locus>
                 <author> Jacob of Batnae</author>
                 <title xml:lang="en">Metrical homilies of <persName>Jacob of
                               Batnae</persName>
                 </title>
-                <msItem xml:id="c20" n="32">
+                <msItem xml:id="p2c1" n="3">
                   <locus to="219" from="216a">Foll. 216a-219</locus>
                   <title xml:lang="en">On the Love of God (see Assem., p. 316, no.
                               84).</title>
                   <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܚܘܒܐ</rubric>
                 </msItem>
-                <msItem xml:id="c21" n="33">
+                <msItem xml:id="p2c2" n="4">
                   <locus to="222" from="220a">Foll. 220a-222</locus>
                   <title xml:lang="en">On the Resurrection of the Dead, and the
                               Woman who had seven husbands (see Assem., p. 315, no. 66).</title>
                   <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܚܝܬ ܡ̈ܝܬܐ. ܘܥܠ ܗ̇ܝ ܐܢܬܬܐ ܕܫܒܥܐ
                               ܓܒܪ̈ܝܗ</rubric>                  
                 </msItem>
-                <msItem xml:id="c22" n="34">
+                <msItem xml:id="p2c3" n="5">
                   <locus to="226" from="223a">Foll. 223a-226</locus>
                   
                   <title xml:lang="en">On the Creation of <persName>Adam</persName>
                               (see Assem., p. 339, no. 228).</title>
                   <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܪܘܟ̇ܒܗ ܕܐܕܡ</rubric>
                 </msItem>
-                <msItem xml:id="c23" n="35">
+                <msItem xml:id="p2c4" n="6">
                   <locus to="227" from="227a">Foll. 227a-227</locus>
-                  
                   <title xml:lang="en">On the Dead (see Assem., p. 313, no. 44,
                               serm. ii.).</title>
                   <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܥܢܝ̈ܕܐ</rubric>
                 </msItem>
               </msItem>
-              <msItem xml:id="b11" n="36">
+              <msItem xml:id="p2b2" n="7">
                 <title xml:lang="en">Panegyric on the <persName>Virgin
                               Alary</persName> by <persName>Epiphanius</persName> (see Opera, ed.
                            Pctavius, t. ii., p. 291).</title>
                 <incipit xml:lang="syr">ܡܐܡܪܐ ܕܩܕܝܫܐ ܐܦܝܦܢܝܣ ܐܦܝܣܩܘܦܐ ܕܩܦܪܣ ܕܥܠ ܩܘܠܣܗ̇
                            ܕܒܬܘܠܬܐ ܝܠܕܬ ܐܠܗܐ ܡ݊ܪܝ݊ܡ݊</incipit>
               </msItem>
-              <msItem xml:id="b12" n="37" defective="true">
+              <msItem xml:id="p2b3" n="8" defective="true">
                 <locus to="230" from="230a">Foll. 230a-230</locus>
                 <title xml:lang="en">An account of the miracles of <persName>Basil,
-                              bishop of <placeName>Caesarea</placeName>
-                  </persName>, by his successor
-                              <persName>Helladius</persName>.</title>
+                              bishop of <placeName>Caesarea</placeName></persName>, by his successor <persName>Helladius</persName>.</title>
                 <incipit xml:lang="syr">ܬܫܥܝܬܐ ܕܥܒ̣ܝܕܐ ܠܚܣܝܐ ܗܠܕܝܘܣ ܐܦܝܣܩܘܦܐ ܕܩܣܪܝܐ ܩܦܕܘܩܝܐ.
                            ܥܠ ܬܕܡܪ̈ܬܐ ܕܩܕܝܫܐ ܒܣܝܠܝܘܣ ܗ̇ܘ ܕܗ̣ܘܐ ܪܝܫ ܐܦܝ̈ܣܩܘܦܐ ܕܝܠܗ̇ ܕܡܕܝܢܬܐ</incipit>
                 <note>Imperfect, and very much soiled and torn.</note>
@@ -318,106 +462,36 @@
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
-                        
                         <foliation/>
                         <collation/>
                         <condition>
                            <list>
                               <item>
                                  <p>Vellum, about 10 in. by 6 1/2, consisting of 230 leaves, some of
-                                    which are much stained | (e.g. foll. 186 and 187) and not a few
-                                    more or less torn (e.g. foll. 10, 19, 36, 56, 57, 65—68, 126,
-                                    141, 171, 185—188, and 227 —230). The quires, signed with
+                                    which are much stained and not a few
+                                    more or less torn (e.g. 227 —230). The quires, signed with
                                     letters, are 26 in number, but nearly the whole of and ܛ has
-                                    been lost, and several of the others are imperfect. Leaves are
-                                    wanting after foll. 26, 27, 57, 61, 64, 70, 72, 73, 184, and
-                                    185. Each page is divided into two columns, containing, in the
-                                    older part of the manuscript, from 31 to 36 lines, in the later,
-                                    from 31 to 44.</p>
+                                    been lost, and several of the others are imperfect. Each page is divided into two columns, containing from 31 to 44 lines.</p>
                               </item>
                            </list>
                         </condition>
                      </supportDesc>
-                     
                   </objectDesc>
-                  <handDesc hands="4">
-              <handNote medium="unknown" scope="major" script="syr-Syre">
-                        <desc>The greater part of the volume, from fol. 2 b to fol. 216 a (with the
-                           exception of foll. 214 and 215), is written in a small, regular
-                           Estrangělā of the viith cent.</desc>
-                     </handNote>
-              <handNote medium="unknown" scope="minor" script="syr">
-                        <desc>the remainder, viz. foll. 214, 215, and 216 a —230 b, is in a current
-                           hand of the ixth cent.</desc>
-                     </handNote>
-              <handNote medium="unknown" scope="minor" script="syr">
-                        <desc>On fol. 60 b a more modern hand has marked a division by four large
-                           dots % and the word ܫܠܡ on the margin.</desc>
-                     </handNote>
-              <handNote medium="unknown" scope="minor" script="syr">
-                        <desc>A note on fol. 2 a, now much effaced, in a current hand of about the
-                           ixth cent., states that the volume was presented by certain persons
-                           unnamed.</desc>
+                  <handDesc hands="1">
+              <handNote xml:id="p2handDesc1" medium="unknown" scope="sole" script="syr">
+                        <desc>The latter part of the manuscript, viz. foll. 214, 215, and 216 a—230 b, is in a current
+                           hand of the <date>ixth cent.</date></desc>
                      </handNote>
             </handDesc>
                   <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p>A note on fol. 2 a, now much effaced, in a current hand of about the
-                              ixth cent., states that the volume was presented by certain persons
-                              unnamed.</p>
-                           <p>
-                    <quote xml:lang="syr">ܗ̇ܢܘܢ ܕܗ̣ܘ ܡܫܝܚܐ ܐܠܗܐ ܕܝܠܢ. ܝܕܥ ܠܫܡ̈ܗܐ ܕܝܠܗܘܢ</quote>
-                  </p>
-                        </item>
-                <item xml:id="addition2" n="2">
-                           <locus/>
-                           <p>A note on fol. 2 a, now much effaced, in a current hand of about the
-                              ixth cent., states that the volume was presented to the <placeName>convent of S.
-                              Mary Deipara</placeName>.</p>
-                           <p>
-                              <quote xml:lang="syr">ܕܝܪܐ ܩܕܝܫܬܐ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ. ܕܣܘܪ̈ܝܝܐ. ܕܒܡܕܒܪܐ
-                                 ܕܐܣܩ̈ܝܛܐ ܕܒܡܨܪܝܢ</quote>
-                           </p>
-                        </item>
-                <item xml:id="addition3" n="3">
-                           <locus/>
-                           <p>another note of not much later date, on fol. 1 a, records the fact of
-                              its belonging to the convent. It must, however, have been purloined
-                              soon after, since we learn from a second note on fol. 1 a that it was
-                              restored by one <persName>Melchizedek</persName>, who had got it as a present from <persName>the monk
-                              Jacob of Samosata</persName>.</p>
-                           <p>
-                              <quote xml:lang="syr">ܐܬܚܦܛ ܘܩܢܐ ܣܝܡܬܐ ܗܕܐ ܪܘܚܢܝܬܐ ܡܠܟܝܙܕܩ ܐܟܣܢܝܐ.
-                                 ܐܫܬܟܢ ܠܗ ܒܘܪܟܬܐ ܡܢ ܝܥܩܘܒ ܕܝܪܝܐ ܕܡܢ ܫܡܝܫܛ ܡܕܝܢܬܐ ܘܫܟܢܗ ܠܕܝܪܐ ܗܕܐ
-                                 ܕܣܘܪ̈ܝܝܐ ܕܒܡܕܒܪܐ. ܐܠܐ ܟܠܗ (sic) $ܕܦܓܥ ܒܗ ܢܨܠܐ ܥܠܝܗܘܢ ܕܢܚܘܢ ܐܢܘܢ
-                                 ܐܠܗܐ ܘܢܚܣܐ ܚܘܒ̈ܝܗܘܢ ܐܡܝܢ ܐܝܢ ܐܡܝܢ.</quote>
-                           </p>
-                        </item>
-                <item xml:id="addition4" n="4">
-                           <locus/>
-                           <p>Lastly, there is a note on fol. 216 a, seemingly of the same date as
-                              that immediately preceding, which states that the book belonged to the
-                              <placeName>convent of S. Mary Deipara</placeName>.</p>
-                           <p>
-                              <quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܕܝܪܝܐ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ ܕܣܘܪ̈ܝܝܐ
-                                 ܕܡܕܒܪܐ ܕܐܣܩ̈ܝܛܐ. ܟܠ ܕܐܟܐܡ (sic) ܥܠ ܟܬܒܐ ܗܢܐ ܐܘ ܡܫܢܐ ܠܗ ܡܢ ܕܝܪܐ
-                                 ܗܕܐ. ܐܘ ܠܚܐ ܥܘܗܕܢܐ ܗܢܐ ܡܚܪܡܐ ܢܗܘܐ. ܘܢܘܟܪܝܐ ܡܢ ܥܕܬܐ ܩܕܝܫܬܐ ܕܐܠܗܐ
-                                 ܐܡܝܢ.</quote>
-                           </p>
-                        </item>
-              </list>
-            </additions>
+              <p/>            </additions>
                   
                   
                   <accMat/>
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="0600" notAfter="0800">viith
-                        cent.-ixth cent.</origDate>
+                     <origDate notBefore="0800" notAfter="0900">ixth cent.</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
@@ -434,7 +508,7 @@
               <note/>
             </adminInfo>
             <listBibl>
-              <bibl xml:id="Wright">
+              <bibl source="#Wright"><!-- need way of marking these bibl xml:ids...-->
                 <author>William Wright</author>
                 <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired
                   since the Year 1838</title>
@@ -445,7 +519,7 @@
                 <citedRange unit="pp">2:721-723</citedRange>
               </bibl>
             </listBibl>
-          </additional>
+          </additional></msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
