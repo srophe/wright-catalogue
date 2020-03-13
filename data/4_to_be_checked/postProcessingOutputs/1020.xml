@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
@@ -80,34 +79,33 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus to="" from="1b"/>
-              <title ref="" xml:lang="en">The first volume of a collection of Anthems, Chants, and
+              <locus from="1b"/>
+              <title xml:lang="en">The first volume of a collection of Anthems, Chants, and
                 Prayers, for the festivals of the whole year, according to the use of the Maronites
                 of <placeName>Mount Lebanon</placeName>. </title>
               <rubric xml:lang="syr">[ܥـ]ܠ ܚܝܠܐ . . . ܕܬܠܝܬܝܘ[ܬܐ] ܩܕܝܫܬܐ ܕܐܒܐ ܘܕܒܪܐ ܘܕܪܘܚܐ ܕܩ܏ܘܕ
                 ܡ̈ܫܪܝܢܢ ܕܢܟܬܘܒ ܥܢܝ̈ܢܐ ܕܥ̈ܐܕܐ ܡ̈ܪܢܝܐ ܕܐܝܬ ܒܫ̣ܢܬܐ. ܐܝܟ ܛܟܣܐ ܕܡ̈ܐܪܘܢܝܐ ܕܛܘܪܐ ܡܒܪܟܐ
                 ܕܠܒܢܢ. </rubric>
               <msItem xml:id="b1" n="2">
-                <locus to="" from="1b"/>
-                <title ref="" xml:lang="en">The Nativity of our Lord</title>
+                <locus from="1b"/>
+                <title xml:lang="en">The Nativity of our Lord</title>
                 <rubric xml:lang="syr">ܛܟܣܐ ܕܒܝܬ ܝܠܕܗ ܕܡܪܢ ܒܒܣܪ</rubric>
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
-                <locus to="" from="47a"/>
-                <title ref="" xml:lang="en">The Praises of the blessed Virgin</title>
+                <locus from="47a"/>
+                <title xml:lang="en">The Praises of the blessed Virgin</title>
                 <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܩܘ̈ܠܣܝܗ̇ ܕܝܠ̣ܕܬ݀ ܐܠܗܐ ܡܪܝܡ</rubric>
               </msItem>
               <msItem xml:id="b3" n="4">
-                <locus to="" from="69b"/>
-                <title ref="" xml:lang="en">The Massacre of the Innocents</title>
+                <locus from="69b"/>
+                <title xml:lang="en">The Massacre of the Innocents</title>
                 <rubric xml:lang="syr">ܛ̇ܟܣܐ̣ ܕܥܠ ܝ̈ܠܘܕܐ ܕܩܛܠ ܐܝܪܘܕܝܣ ܒܒܝܬܠܚܡ</rubric>
               </msItem>
               <msItem xml:id="b4" n="5" defective="true">
-                <locus to="" from="88b"/>
-                <title ref="" xml:lang="en">The Commemoration of <persName>Basil</persName> and <persName ref="http://syriaca.org/person/511">Gregory Nazianzen</persName>
+                <locus from="88b"/>
+                <title xml:lang="en">The Commemoration of <persName>Basil</persName> and <persName ref="http://syriaca.org/person/511">Gregory Nazianzen</persName>
                 </title>
                 <rubric xml:lang="syr">ܛ̇ܟܣܐ ܕܥܠ ܩ̈ܕܝܫܐ ܒܣܝܠܠܝܘܣ ܘܓܪܝܓܪܝܘܣ ܬܐܘܠܓܘܣ </rubric>
               </msItem>
@@ -149,7 +147,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="" to=""/>
+                  <locus/>
                   <p>A later hand has marked the quires with Coptic arithmetical figures (beginning
                     at fol. 24), and has also numbered the leaves from fol. 24 to 54</p>
                   <p>
@@ -157,7 +155,7 @@
                   </p>
                 </item>
                 <item xml:id="addition2" n="2">
-                  <locus from="46a" to=""/>
+                  <locus from="46a"/>
                   <p>On fol. 46 a there remains part of an Arabic note, which seems to date from the
                     year 154—, A.D. 123—, and to have been written by a priest named <persName>‘Abd
                       al-Masīh ibn Sim’ān % <!-- arabic needed here -->
@@ -168,7 +166,7 @@
                   </p>
                 </item>
                 <item xml:id="addition3" n="3">
-                  <locus from="46b" to=""/>
+                  <locus from="46b"/>
                   <p>On the other side of the same leaf, there is a drawing of a galley.</p>
                   <p>
                     <quote xml:lang="syr"/>
@@ -182,8 +180,8 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1200" notAfter="1300" from="" to="" when=""/>
-              <origPlace ref="" xml:lang=""/>
+              <origDate notBefore="1200" notAfter="1300"/>
+              <origPlace/>
             </origin>
             <provenance/>
             <acquisition/>
@@ -372,6 +370,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-03-13-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-03-13-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-02-28" who="http://syriaca.org/documentation/editors.xml#akelly">Initial
         TEI encoding.</change>
