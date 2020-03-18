@@ -79,76 +79,88 @@
               <idno type="Wright-BL-Roman">CCCLXIII</idno>
             </altIdentifier>
           </msIdentifier>
-          <msContents>
+          <msPart n="1" xml:id="Part1"> 
+           <msIdentifier>
+             <idno type="URI">http://syriaca.org/manuscript/1428</idno>
+             <altIdentifier>
+               <idno type="BL-Shelfmark">Add MS 14718</idno><!-- WLP: Mark as palimpsest upper? -->
+             </altIdentifier>
+             <altIdentifier>
+               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+               <idno type="Wright-BL-Arabic">363</idno>
+             </altIdentifier>
+             <altIdentifier>
+               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+               <idno type="Wright-BL-Roman">CCCLXIII</idno>
+             </altIdentifier>
+           </msIdentifier>
+           <msContents>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1" defective="true">
+            <msItem xml:id="p1a1" n="1" defective="true">
               <locus to="155" from="1a"/>
               <title xml:lang="en">Services for different occasions, consisting usually of an
                 introductory prayer, ܨܠܘܬܐ ܕܫܘܪܝܐ a prooemium, a sedrā, a ܨܠܘܬܐ ܕܦܝܪܡܐ or ܥܛܪܐ, and
                 a concluding prayer, ܚܘܬܡܐ .</title>
-              
-              
-              <msItem xml:id="b1" n="2" defective="true">
+              <msItem xml:id="p1b1" n="2" defective="true">
                 <locus from="1a"/>
                 <title xml:lang="en">A small fragment of the commemoration of a
                   Saint.</title>
               </msItem>
-              <msItem xml:id="b2" n="3" defective="true">
+              <msItem xml:id="p1b2" n="3" defective="true">
                 <locus from="2a"/>
                 
                 <title xml:lang="en">The Commemoration of <persName ref="http://syriaca.org/person/1280">Isaiah of Aleppo</persName>
                 </title>
                 <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܡܪܝ ܐܫܥܝܐ ܚܠܒܝܐ</rubric>
               </msItem>
-              <msItem xml:id="b3" n="4" defective="true">
+              <msItem xml:id="p1b3" n="4" defective="true">
                 <locus from="9a"/>
-                <title xml:lang="en">The Commemoration of <persName ref=" http://syriaca.org/person/1122">Mar Aha</persName>ā</title>
+                <title xml:lang="en">The Commemoration of <persName ref=" http://syriaca.org/person/1122">Mar Aḥā</persName></title>
                 <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܥܠ ܩܕܝܫܐ ܡܪܝ ܐܚܐ </rubric>
               </msItem>
-              <msItem xml:id="b4" n="5">
+              <msItem xml:id="p1b4" n="5">
                 
                 <title xml:lang="en">Passion Week; viz.</title>
-                <msItem xml:id="c1" n="6">
+                <msItem xml:id="p1c1" n="6">
                   <locus from="14a"/>
                   <title xml:lang="en">Monday</title>
                   <rubric xml:lang="syr">ܕܬܪܝܢ ܒܫܒܐ ܕܚܫܐ</rubric>
                 </msItem>
-                <msItem xml:id="c2" n="7">
+                <msItem xml:id="p1c2" n="7">
                   <locus from="44b"/>
                   <title xml:lang="en">Tuesday</title>
                   <rubric xml:lang="syr">ܕܬܠܬܐ ܒܫܒܐ ܕ܏ܫܒ ܪܒܬܐ ܕܚܫܐ</rubric>
                 </msItem>
-                <msItem xml:id="c3" n="8">
+                <msItem xml:id="p1c3" n="8">
                   <locus from="59a"/>
                   <title xml:lang="en">Wednesday</title>
                   <rubric xml:lang="syr">ܕܐܪܒܥܐ ܒܫܒܐ ܕܙܘܥܐ</rubric>
                 </msItem>
-                <msItem xml:id="c4" n="9">
+                <msItem xml:id="p1c4" n="9">
                   <locus from="74a"/>
                   <title xml:lang="en">Thursday</title>
                   <rubric xml:lang="syr">ܕܚܡܫܐ ܒܫܒܐ ܕܦܨܚܐ</rubric>
-                  <msItem xml:id="d1" n="10">
+                  <msItem xml:id="p1d1" n="10">
                     <locus from="100b"/>
                     <title xml:lang="en">The order of the Washing of Feet</title>
                     <rubric xml:lang="syr">ܛܟܣܐ ܕܫܝ̇ܓܬܐ</rubric>
                   </msItem>
                 </msItem>
-                <msItem xml:id="c5" n="11">
+                <msItem xml:id="p1c5" n="11">
                   <locus from="104a"/>
                   <title xml:lang="en">Friday</title>
                   <rubric xml:lang="syr">ܕܥܪܘܒܬܐ ܪܒܬܐ ܕܙܩܝܦܘܬܐ</rubric>
-                  <msItem xml:id="d2" n="12">
+                  <msItem xml:id="p1d2" n="12">
                     <locus from="139b"/>
-                    
                     <rubric xml:lang="syr">ܣܕܪܐ ܕܥܢ̈ܝܕܐ</rubric>
                   </msItem>
-                  <msItem xml:id="d3" n="13">
+                  <msItem xml:id="p1d3" n="13">
                     <locus from="141b"/>
                     <title xml:lang="en">the Adoration of the Cross</title>
                     <rubric xml:lang="syr">ܕܣܓܕܬܐ ܕܨܠܝܒܐ</rubric>
                   </msItem>
                 </msItem>
-                <msItem xml:id="c6" n="14" defective="true">
+                <msItem xml:id="p1c6" n="14" defective="true">
                   <locus from="146a"/>
                   <title xml:lang="en">Saturday</title>
                   <rubric xml:lang="syr">ܕܫܒܬܐ ܪܒܬܐ ܕܣܒܪܬܐ</rubric>
@@ -159,7 +171,6 @@
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="mixed">
-                
                 <foliation/>
                 <collation/>
                 <condition>
@@ -173,30 +184,19 @@
                         at least 16 in number, but the first two are lost, and the third and last
                         are imperfect. There are from 14 to 18 lines in each page.</p>
                     </item>
-                    <item>
-                      <p>One leaf in this volume, viz. <locus from="140">fol. 140</locus>, is vellum
-                        and palimpsest</p>
-                    </item>
                   </list>
                 </condition>
               </supportDesc>
-              
             </objectDesc>
-            <handDesc hands="2">
-              <handNote medium="unknown" scope="major" script="syr">
+            <handDesc hands="1">
+              <handNote xml:id="p1handNote1" medium="unknown" scope="sole" script="syr">
                 <desc>This volume is written in an inelegant hand of the <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate>
                 </desc>
-              </handNote>
-              <handNote medium="unknown" scope="minor" script="syr-x-syrp">
-                <desc>The more ancient text, now almost wholly illegible, is written in the
-                  Palestinian character.</desc>
               </handNote>
             </handDesc>
             <additions>
               <p/>
             </additions>
-            
-            
             <accMat/>
           </physDesc>
           <history>
@@ -212,14 +212,14 @@
             <adminInfo>
               <recordHist>
                 <source>Manuscript description based on<bibl>
-                    <ref target="#Wright">Wright's
+                  <ref target="#Wrightpart1">Wright's
                       Catalogue</ref>
                   </bibl>. abbreviated by the Syriaca.org editors.</source>
               </recordHist>
               <note/>
             </adminInfo>
             <listBibl>
-              <bibl xml:id="Wright">
+              <bibl xml:id="Wrightpart1">
                 <author>William Wright</author>
                 <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired
                   since the Year 1838</title>
@@ -231,6 +231,88 @@
               </bibl>
             </listBibl>
           </additional>
+          </msPart>
+          <msPart n="2" xml:id="Part2">
+            <msIdentifier>
+              <idno type="URI">http://syriaca.org/manuscript/1429</idno>
+              <altIdentifier>
+                <idno type="BL-Shelfmark">Add MS 14718</idno><!-- WLP: Mark as palimpsest lower? -->
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Arabic">363</idno>
+              </altIdentifier>
+              <altIdentifier>
+                <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                <idno type="Wright-BL-Roman">CCCLXIII</idno>
+              </altIdentifier>
+            </msIdentifier>
+            <msContents>
+              <textLang mainLang="syr"/>
+              <msItem n="15" xml:id="p2a1">
+                <locus from="140"/>
+                <title xml:lang="en">The more ancient text</title>
+                <note>Now almost wholly illegible.</note>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <foliation/>
+                  <collation/>
+                  <condition>
+                    <list>
+                      <item>
+                        <p>One leaf in this volume, viz. <locus from="140">fol. 140</locus>, is vellum
+                          and palimpsest</p>
+                      </item>
+                    </list>
+                  </condition>
+                </supportDesc>
+              </objectDesc>
+              <handDesc hands="1">
+                <handNote xml:id="p2handNote1" medium="unknown" scope="sole" script="syr-x-syrp">
+                  <desc>The more ancient text, now almost wholly illegible, is written in the
+                    Palestinian character.</desc>
+                </handNote>
+              </handDesc>
+              <additions>
+                <p/>
+              </additions>
+              <accMat/>
+            </physDesc>
+            <history>
+              <origin>
+                <origDate /><!-- Wright doesn't specify, but since it is "more ancient", we could put pre-13th century? -->
+                <origPlace/>
+              </origin>
+              <provenance/>
+              <acquisition/>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on<bibl>
+                    <ref target="#Wrightpart2">Wright's
+                      Catalogue</ref>
+                  </bibl>. abbreviated by the Syriaca.org editors.</source>
+                </recordHist>
+                <note/>
+              </adminInfo>
+              <listBibl>
+                <bibl xml:id="Wrightpart2">
+                  <author>William Wright</author>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired
+                    since the Year 1838</title>
+                  <pubPlace>London</pubPlace>
+                  <date>1870</date>
+                  <ptr target="http://syriaca.org/bibl/8"/>
+                  <citedRange unit="entry">CCCLXIII</citedRange>
+                  <citedRange unit="pp">1:298-299</citedRange>
+                </bibl>
+              </listBibl>
+            </additional>
+          </msPart>
         </msDesc>
       </sourceDesc>
     </fileDesc>
@@ -398,12 +480,9 @@
         encoding.</change>
     </revisionDesc>
   </teiHeader>
-  <facsimile>
-    <formula>Content pending</formula>
-  </facsimile>
   <text>
     <body>
-      <bibl>Content pending</bibl>
+      <bibl/>
     </body>
   </text>
 </TEI>
