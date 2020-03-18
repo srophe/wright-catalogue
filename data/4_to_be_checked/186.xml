@@ -1,5 +1,4 @@
-<?oxygen RNGSchema="enrich-syriaca.rnc" type="compact"?>
-<?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
+<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?> <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
@@ -47,7 +46,6 @@
         <edition n="1.0"/>
       </editionStmt>
       <publicationStmt>
-        <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal </authority>
         <idno type="URI">http://syriaca.org/manuscript/186/tei</idno>
         <availability>
@@ -114,7 +112,7 @@
                       ܕܢܐܙܠܘܢ ܒܫܠܡܐ܀
                     </quote>
                     <finalRubric xml:lang="syr">ܫܠܡ ܦܘܫܩܐ ܕܩܘܪܒܐ ܕܩܕܝܫܐ ܝܥܩܘܒ ܐܦܝܣܩܘܦܐ ܕܐܘܪܗܝ ܡܕܝܢܬܐ ܡܒܪܟܬܐ
-                      <locus from="3b" to=""/>
+                      <locus from="3b"/>
                     </finalRubric>
                     <note><bibl>See Assemani, Bibl. Orient., t. i., p. 479 foll.</bibl></note>
                     <note>The text, however, differs considerably from that edited by Assemani, as the passage quoted above (<locus>fol. 1 a</locus>, lines 4—13), compared with <bibl>Assemani, p. 483, lines 19—22</bibl>, suffices to show.</note>
@@ -213,7 +211,7 @@
                     <locus from="89b">Foll.89b</locus>
                     <author><persName>John the patriarch</persName></author>
                     <title type="supplied">Sedras of John the patriarch</title>
-                    <rubic xml:lang="syr">ܕܚܘܣܝܐ<locus>Foll.87b</locus></rubic><!-- make d-level items for each of these rubrics "Sedra 1", "Sedra 2", etc. -->
+                    <rubric xml:lang="syr">ܕܚܘܣܝܐ<locus>Foll.87b</locus></rubric><!-- make d-level items for each of these rubrics "Sedra 1", "Sedra 2", etc. -->
                     <rubric xml:lang="syr">ܥܠ ܗ̇ܢܘܢ ܕܐܬܕܡܝܘ ܒܒܪܐ ܐܣܘܛܐ<locus>Foll.89b</locus></rubric>
                   </msItem>
                 </msItem>
@@ -260,21 +258,18 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote xml:id="p1handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>This volume, which is palimpsest throughout, is written in a good, regular hand of about the <origDate notBefore="900" notAfter="1000">xth cent</origDate>.</desc>
+                <handNote xml:id="p1handNote1" scope="major" script="syr" medium="unknown">
+                  <desc>This volume, which is palimpsest throughout, is written in a good, regular hand of about the <origDate notBefore="0900" notAfter="1000">xth cent</origDate>.</desc>
                 </handNote>
               </handDesc>
-              <decoDesc/>
               <additions>
                 <p/>
               </additions>
-              <bindingDesc/>
-              <sealDesc/>
               <accMat/>
             </physDesc>
             <history>
               <origin>
-                <origDate notBefore="900" notAfter="1000">xth cent.</origDate>
+                <origDate notBefore="0900" notAfter="1000">xth cent.</origDate>
                 <origPlace/>
               </origin>
               <provenance/>
@@ -286,7 +281,6 @@
                   <source>Manuscript description based on <bibl><ref target="#Wrightpart1">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <availability status="restricted"/>
-                <custodialHist/>
                 <note/>
               </adminInfo>
               <listBibl>
@@ -304,11 +298,7 @@
           </msPart>
           <msPart n="2" xml:id="Part2">
             <msIdentifier>
-              <country>United Kingdom</country>
-              <settlement>London</settlement>
-              <repository>British Library</repository>
-              <collection>Oriental Manuscripts</collection>
-              <idno type="URI">http://syriaca.org/manuscript/<!-- Generate --></idno>
+              <idno type="URI">http://syriaca.org/manuscript/1431</idno>
               <altIdentifier>
                 <idno type="BL-Shelfmark">Add MS 14496</idno>
               </altIdentifier>
@@ -321,6 +311,104 @@
                 <idno type="Wright-BL-Roman">CCLXXXVII</idno>
               </altIdentifier>
             </msIdentifier>
+            <msContents>
+              <summary/>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="a1" defective="true"> <!-- WLP: renumber new msParts?-->
+                <!-- WLP: how do we assign loci to this since the text appears on non-contiguous folia? -->
+                <title type="supplied">The Books of Joshua and Judges, according to the Peshitta version</title>
+                <msItem n="2" xml:id="b1">
+                  <locus from="7" to="7">Foll.7</locus>
+                  <title type="supplied">Joshua vii. 7-16</title>
+                </msItem>
+                <msItem n="3" xml:id="b2">
+                  <locus from="8b" to="8">Foll.8b</locus>
+                  <title type="supplied">Judges ii. 22-iii. 9</title> 
+                </msItem>
+                <msItem n="4" xml:id="b3">
+                  <locus from="75">Foll.75</locus>
+                  <title type="supplied">Judges x. 1-15</title>
+                </msItem>
+                <msItem n="5" xml:id="b4">
+                  <locus from="76">Foll.76</locus>
+                  <title type="supplied">Judges xiii. 14-xiv. 8</title>
+                </msItem>
+                <msItem n="6" xml:id="b5">
+                  <locus from="83">Foll.83</locus>
+                  <title type="supplied">Joshua xiv. 7-xv. 8</title>
+                </msItem>
+              </msItem>
+              <msItem n="7" xml:id="a2">
+                <locus from="17b">Foll.17b</locus>
+                <title type="supplied">A lesson</title><!-- WLP: it is unclear from Wright if we can make out anything more of this text than the rubric...-->
+                <rubric xml:lang="syr">ܩܪܝܢܐ ܕܝܘܚܢܢ ܡܥܡܕܢܐ</rubric>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <support>
+                    <material>Vellum</material>
+                  </support>
+                  <extent>
+                    <measure type="composition" unit="leaf" quantity=""></measure><!--We can only estimate how many of the leaves are from this ms-->
+                    <dimensions type="" unit="in">
+                      <height>
+                        <measure type="height" quantity="9" unit="in">9</measure>
+                      </height>
+                      <width>
+                        <measure type="width" quantity="6.125" unit="in">6 1/8</measure>
+                      </width>
+                    </dimensions>
+                  </extent>
+                  <condition>
+                    <list>
+                      <item>
+                        <p>Nearly the whole of this volume is palimpsest, the scribe having made use of parts of at least three older manuscripts. See, for example, foll. 5, 7—10, 12, 16, 17, 27, 28, 75, 76, 83, etc.</p>
+                      </item>
+                    </list>
+                  </condition>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="2">
+                    <p>Written in two columns, </p>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc hands="1">
+                <handNote xml:id="p2handNote1" scope="sole" script="syr-Syre" medium="unknown">
+                  <desc>Written in a good Estrangela of the <origDate notBefore="0500" notAfter="0700">vith or viith cent</origDate></desc>
+                </handNote>
+              </handDesc>
+            </physDesc>
+            <history>
+              <origin>
+                <origDate notBefore="0500" notAfter="0700">vith or viith cent</origDate>
+                <origPlace/>
+              </origin>
+              <provenance/>
+              <acquisition/>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart2">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                </recordHist>
+                <availability status="restricted"/>
+                <note/>
+              </adminInfo>
+              <listBibl>
+                <bibl xml:id="Wrightpart2">
+                  <author>William Wright</author>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
+                  <pubPlace>London</pubPlace>
+                  <date>1870</date>
+                  <ptr target="http://syriaca.org/bibl/8"/>
+                  <citedRange unit="entry">CCLXXXVII</citedRange>
+                  <citedRange unit="pp">I:223-225</citedRange>
+                </bibl>
+              </listBibl>
+            </additional>
           </msPart>
           <msPart n="3" xml:id="Part3">
             <msIdentifier>
@@ -467,16 +555,9 @@
       <!-- Please use controlled vocabulary for subtypes and stardized notes in the msDesc to indicate missing material. "Note: Wright's catalogue contains additional information not included here." -->
     </revisionDesc>
   </teiHeader>
-  <facsimile>
-    <!-- facsimile information about the manuscript -->
-    <graphic/>
-    <!-- Alternatively you could provide 'surface' elements with more than one image per surface, and optionally with 'zone' 
-      elements to give coordinates for any special areas of interest -->
-  </facsimile>
   <text>
     <body>
-      <!-- If you had a transcription of the manuscript you would put it here -->
-      <p/>
+      <bibl/>
     </body>
   </text>
 </TEI>
