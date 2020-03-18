@@ -428,7 +428,7 @@
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="a1" defective="true">
+              <msItem n="1" xml:id="p3a1" defective="true">
                 <title type="supplied">Uncertain Contents</title>
                 <note>The contents cannot be stated with certainty, though rubrics are still partially legible on <locus from="69b">foll. 69 b</locus> and <locus from="70a">70 a.</locus></note>
               </msItem>
@@ -491,11 +491,7 @@
           </msPart>
           <msPart n="4" xml:id="Part4">
             <msIdentifier>
-              <country>United Kingdom</country>
-              <settlement>London</settlement>
-              <repository>British Library</repository>
-              <collection>Oriental Manuscripts</collection>
-              <idno type="URI">http://syriaca.org/manuscript/<!-- Generate --></idno>
+              <idno type="URI">http://syriaca.org/manuscript/1433</idno>
               <altIdentifier>
                 <idno type="BL-Shelfmark">Add MS 14496</idno>
               </altIdentifier>
@@ -508,9 +504,73 @@
                 <idno type="Wright-BL-Roman">CCLXXXVII</idno>
               </altIdentifier>
             </msIdentifier>
+            <msContents>
+              <summary/>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="p4a1" defective="true">
+                <locus from="84b" to="84">foll.84b</locus>
+                <author ref="http://syriaca.org/person/51"><persName>Severus</persName></author>
+                <title type="supplied">The second part of the treatise of <persName ref="http://syriaca.org/person/51">Severus</persName> against <persName ref="http://syriaca.org/person/2688">Joannes Grammaticus of <placeName>Caesarea</placeName></persName></title>
+                <rubric xml:lang="syr">ܕܡܪܝ ܣܐܘܪܐ̣. ܕܠܘܩܒܠ ܓܪܡܛܝܩܘܣ ܕܬܪ̈ܬܝܢ
+                  <locus from="84b"/>
+                </rubric>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <support>
+                    <material>Vellum</material>
+                  </support>
+                  <condition>
+                    <list>
+                      <item>
+                        <p>Nearly the whole of this volume is palimpsest, the scribe having made use of parts of at least three older manuscripts, of which this is the third. The greater portion of the book appears to have belonged to this manuscript.</p>
+                      </item>
+                    </list>
+                  </condition>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="2">
+                    <p>Written in two columns.</p>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc hands="1">
+                <handNote xml:id="p4handNote1" scope="sole" script="syr-Syre" medium="unknown">
+                  <desc>A manuscript of the <origDate notBefore="0600" notAfter="0700">viith cent.</origDate>, written in a small, neat Estrangela.</desc>
+                </handNote>
+              </handDesc>
+            </physDesc>
+            <history>
+              <origin>
+                <origDate notBefore="0600" notAfter="0700">viith cent.</origDate>
+                <origPlace/>
+              </origin>
+              <provenance/>
+              <acquisition/>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart4">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                </recordHist>
+                <availability status="restricted"/>
+                <note/>
+              </adminInfo>
+              <listBibl>
+                <bibl xml:id="Wrightpart4">
+                  <author>William Wright</author>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
+                  <pubPlace>London</pubPlace>
+                  <date>1870</date>
+                  <ptr target="http://syriaca.org/bibl/8"/>
+                  <citedRange unit="entry">CCLXXXVII</citedRange>
+                  <citedRange unit="pp">I:223-225</citedRange>
+                </bibl>
+              </listBibl>
+            </additional>
           </msPart>
-          <!-- The below info is for Part1 -->
-            
         </msDesc>
       </sourceDesc>
     </fileDesc>
