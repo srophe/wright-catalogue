@@ -84,7 +84,7 @@
               <altIdentifier>
                 <idno type="BL-Shelfmark">Add MS 17243 foll. 1-5, 7-174</idno>
               </altIdentifier>
-              <altIdentifier> <!-- WLP: These are the same as the whole mss (Wright doesn't have a separate record for the fly-leaf). Do we need to repeat these in the msParts? -->
+              <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
                 <idno type="Wright-BL-Arabic">345</idno>
               </altIdentifier>
@@ -283,14 +283,14 @@
               <adminInfo>
                 <recordHist>
                   <source>Manuscript description based on<bibl>
-                    <ref target="#Wright">Wright's
+                    <ref target="#Wrightpart1">Wright's
                       Catalogue</ref>
                   </bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <note/>
               </adminInfo>
               <listBibl>
-                <bibl xml:id="Wright">
+                <bibl xml:id="Wrightpart1">
                   <author>William Wright</author>
                   <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired
                     since the Year 1838</title>
@@ -309,7 +309,7 @@
               <altIdentifier>
                 <idno type="BL-Shelfmark">Add MS 17243 foll. 6 (fly-leaf)</idno>
               </altIdentifier>
-              <altIdentifier> <!-- WLP: These are the same as the whole mss (Wright doesn't have a separate record for the fly-leaf). Do we need to repeat these in the msParts? -->
+              <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
                 <idno type="Wright-BL-Arabic">345</idno>
               </altIdentifier>
@@ -362,14 +362,14 @@
               <adminInfo>
                 <recordHist>
                   <source>Manuscript description based on<bibl>
-                    <ref target="#Wright">Wright's
+                    <ref target="#Wrightpart2">Wright's
                       Catalogue</ref>
                   </bibl>. abbreviated by the Syriaca.org editors.</source>
                 </recordHist>
                 <note/>
               </adminInfo>
               <listBibl>
-                <bibl source="#Wright"><!--Need way of referencing Wright since it's already above and can't have same xml:id -->
+                <bibl xml:id="Wrightpart2">
                   <author>William Wright</author>
                   <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired
                     since the Year 1838</title>
