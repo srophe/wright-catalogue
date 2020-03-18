@@ -314,31 +314,31 @@
             <msContents>
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
-              <msItem n="1" xml:id="a1" defective="true"> <!-- WLP: renumber new msParts?-->
+              <msItem n="1" xml:id="p2a1" defective="true"> <!-- WLP: renumber new msParts?-->
                 <!-- WLP: how do we assign loci to this since the text appears on non-contiguous folia? -->
                 <title type="supplied">The Books of Joshua and Judges, according to the Peshitta version</title>
-                <msItem n="2" xml:id="b1">
+                <msItem n="2" xml:id="p2b1">
                   <locus from="7" to="7">Foll.7</locus>
                   <title type="supplied">Joshua vii. 7-16</title>
                 </msItem>
-                <msItem n="3" xml:id="b2">
+                <msItem n="3" xml:id="p2b2">
                   <locus from="8b" to="8">Foll.8b</locus>
                   <title type="supplied">Judges ii. 22-iii. 9</title> 
                 </msItem>
-                <msItem n="4" xml:id="b3">
+                <msItem n="4" xml:id="p2b3">
                   <locus from="75">Foll.75</locus>
                   <title type="supplied">Judges x. 1-15</title>
                 </msItem>
-                <msItem n="5" xml:id="b4">
+                <msItem n="5" xml:id="p2b4">
                   <locus from="76">Foll.76</locus>
                   <title type="supplied">Judges xiii. 14-xiv. 8</title>
                 </msItem>
-                <msItem n="6" xml:id="b5">
+                <msItem n="6" xml:id="p2b5">
                   <locus from="83">Foll.83</locus>
                   <title type="supplied">Joshua xiv. 7-xv. 8</title>
                 </msItem>
               </msItem>
-              <msItem n="7" xml:id="a2">
+              <msItem n="7" xml:id="p2a2">
                 <locus from="17b">Foll.17b</locus>
                 <title type="supplied">A lesson</title><!-- WLP: it is unclear from Wright if we can make out anything more of this text than the rubric...-->
                 <rubric xml:lang="syr">ܩܪܝܢܐ ܕܝܘܚܢܢ ܡܥܡܕܢܐ</rubric>
@@ -364,7 +364,7 @@
                   <condition>
                     <list>
                       <item>
-                        <p>Nearly the whole of this volume is palimpsest, the scribe having made use of parts of at least three older manuscripts. See, for example, foll. 5, 7—10, 12, 16, 17, 27, 28, 75, 76, 83, etc.</p>
+                        <p>Nearly the whole of this volume is palimpsest, the scribe having made use of parts of at least three older manuscripts, of which this is the first. See, for example, foll. 5, 7—10, 12, 16, 17, 27, 28, 75, 76, 83, etc.</p>
                       </item>
                     </list>
                   </condition>
@@ -412,11 +412,7 @@
           </msPart>
           <msPart n="3" xml:id="Part3">
             <msIdentifier>
-              <country>United Kingdom</country>
-              <settlement>London</settlement>
-              <repository>British Library</repository>
-              <collection>Oriental Manuscripts</collection>
-              <idno type="URI">http://syriaca.org/manuscript/<!-- Generate --></idno>
+              <idno type="URI">http://syriaca.org/manuscript/1432</idno>
               <altIdentifier>
                 <idno type="BL-Shelfmark">Add MS 14496</idno>
               </altIdentifier>
@@ -429,6 +425,69 @@
                 <idno type="Wright-BL-Roman">CCLXXXVII</idno>
               </altIdentifier>
             </msIdentifier>
+            <msContents>
+              <summary/>
+              <textLang mainLang="syr">Syriac</textLang>
+              <msItem n="1" xml:id="a1" defective="true">
+                <title type="supplied">Uncertain Contents</title>
+                <note>The contents cannot be stated with certainty, though rubrics are still partially legible on <locus from="69b">foll. 69 b</locus> and <locus from="70a">70 a.</locus></note>
+              </msItem>
+            </msContents>
+            <physDesc>
+              <objectDesc form="codex">
+                <supportDesc material="perg">
+                  <support>
+                    <material>Vellum</material>
+                  </support>
+                  <condition>
+                    <list>
+                      <item>
+                        <p>Nearly the whole of this volume is palimpsest, the scribe having made use of parts of at least three older manuscripts, of which this is the second. See, for example, <locus>foll. 42</locus>, <locus>43</locus>, <locus>69</locus> and <locus>70</locus>.</p>
+                      </item>
+                    </list>
+                  </condition>
+                </supportDesc>
+                <layoutDesc>
+                  <layout columns="1">
+                    <p>Not divided into columns.</p>
+                  </layout>
+                </layoutDesc>
+              </objectDesc>
+              <handDesc hands="1">
+                <handNote xml:id="p3handNote1" scope="sole" script="syr-Syre" medium="unknown">
+                  <desc>Written in a fine Estrangela of the <origDate notBefore="0500" notAfter="0600">vith cent.</origDate></desc>
+                </handNote>
+              </handDesc>
+              <additions/>
+            </physDesc>
+            <history>
+              <origin>
+                <origDate notBefore="0500" notAfter="0600">vith cent.</origDate>
+                <origPlace/>
+              </origin>
+              <provenance/>
+              <acquisition/>
+            </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <source>Manuscript description based on <bibl><ref target="#Wrightpart3">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                </recordHist>
+                <availability status="restricted"/>
+                <note/>
+              </adminInfo>
+              <listBibl>
+                <bibl xml:id="Wrightpart3">
+                  <author>William Wright</author>
+                  <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
+                  <pubPlace>London</pubPlace>
+                  <date>1870</date>
+                  <ptr target="http://syriaca.org/bibl/8"/>
+                  <citedRange unit="entry">CCLXXXVII</citedRange>
+                  <citedRange unit="pp">I:223-225</citedRange>
+                </bibl>
+              </listBibl>
+            </additional>
           </msPart>
           <msPart n="4" xml:id="Part4">
             <msIdentifier>
