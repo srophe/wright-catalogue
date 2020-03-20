@@ -59,6 +59,8 @@ publicationStmt {display:none;}
 /* msDesc > msIdentifier */
 sourceDesc {display:block; margin:.5em;}
 msDesc {display:block; margin:.5em; border: 2px solid #eee;}
+msPart {display:block; margin:.5em; border: 2px solid #eee;}
+msPart::before {content: "Manuscript Part " attr(n); font-weight: bold; font-size: 15pt;}
 msIdentifier::before {content: "Identifiers"; display:block; font-weight: bold; margin:1em 0;}
 msIdentifier country, repository, settlement, collection {display:none;}
 msIdentifier idno {display:block; margin:.5em;}
