@@ -6,7 +6,6 @@
 
 /* Highlight those elements whose text nodes are targets for editing */
 idno,
-msItem > locus,
 rubric,
 incipit,
 explicit,
@@ -175,7 +174,7 @@ handNote, handNote > desc{
 item > p:not(p:has(quote)) {
   background-color: #c6a5ff;
 }
-origDate{
+origin > origDate{
   background-color: #95ebe5;
 }
 origPlace{
@@ -214,7 +213,58 @@ foreign {
   display: inline;
   background-color: white;
 }
+/* Display rules for sub-element wrapping by user */
+persName {
+  display:inline;
+  background-color: lightgray;
 
+}
+persName:before(0) {
+  content: "["oxy_local-name()"]";
+  color: black;
+  font-style: italic;
+  font-size: 14px;
+}
+placeName {
+  display:inline;
+  background-color: lightblue;
+
+}
+placeName:before(0) {
+  content: "["oxy_local-name()"]";
+  color: black;
+  font-style: italic;
+  font-size: 14px;
+}
+bibl {
+  display:inline;
+  background-color: ghostwhite;
+
+}
+bibl:before(0) {
+  content: "["oxy_local-name()"]";
+  color: black;
+  font-style: italic;
+  font-size: 14px;
+}
+date, origDate {
+  display:inline;
+  background-color: ghostwhite;
+
+}
+date:before(0), origDate:before(0) {
+  content: "["oxy_local-name()"]";
+  color: black;
+  font-style: italic;
+  font-size: 14px;
+}
+/* Distinguishing the display of origDates and those found specifically in origin */
+origin > origDate {
+  display: block;
+}
+origin > origDate:before(0) {
+  content: ""
+}
 /* FONTS */
 *:lang(syr),
 *:lang(syr-Syre),
@@ -225,7 +275,7 @@ foreign {
 *:lang(ar-Syrc),
 *:lang(ar-Syrj),
 *:lang(ar-Syrn) {
-    font-family: 'Estrangelo Edessa';
+    font-family: 'Estrangelo Talada';
     font-size: 20px;
 }
 *:lang(cop) {
@@ -237,7 +287,7 @@ foreign {
 
 /* MARGINS */
 * {
-    margin-left: 8px;
+    margin-left: 16px;
 }
 
 /* SPECIAL OXYGEN */
@@ -406,17 +456,17 @@ additions list item:last-of-type:after(1)
     oxy_button(
 actionID, "append.sibling.addition");
 }
-origDate:last-of-type:after(1) {
+origin > origDate:last-of-type:after(1) {
   content: oxy_button(
     actionID, "append.sibling.dateGregorian"
     )
 }
-origDate:last-of-type:after(2) {
+origin > origDate:last-of-type:after(2) {
   content: oxy_button(
     actionID, "append.sibling.dateCustom"
     )
 }
-origDate:after(3) {
+origin > origDate:after(3) {
   content: oxy_button(
     actionID, "delete.self"
     )
@@ -432,14 +482,15 @@ edit, "@when",
 format, "yyyy-MM-dd")
 }
 change:last-of-type:after(0){
-  content: "ADD PLANNED CHANGES: \A" oxy_button(actionID, "append.sibling.change.arabic")
-  oxy_button(actionID, "append.sibling.change.vocalization")
-  oxy_button(actionID, "append.sibling.change.arithmetical")
+  content: "\A \A ADD PLANNED CHANGES: \A" oxy_button(actionID, "append.sibling.change.checkSyriac")
   oxy_button(actionID, "append.sibling.change.question")
   oxy_button(actionID, "append.sibling.change.missing")
+  oxy_button(actionID, "append.sibling.change.arabic")
   oxy_button(actionID, "append.sibling.change.syriac")
   oxy_button(actionID, "append.sibling.change.greek")
   oxy_button(actionID, "append.sibling.change.coptic")
+  oxy_button(actionID, "append.sibling.change.vocalization")
+  oxy_button(actionID, "append.sibling.change.arithmetical")
   oxy_button(actionID, "append.sibling.change.table")
   oxy_button(actionID, "append.sibling.change.reconstruction")
   oxy_button(actionID, "append.sibling.change.consultation")
@@ -562,42 +613,42 @@ columns, 15
 )
 
 }
-origDate:before(8) {
+origin > origDate:before(8) {
   background-color: #95C6EB;
   color: black;
   content: 'from: ' oxy_textfield(
     edit, '@from', columns, 15
     )
 }
-origDate:before(7) {
+origin > origDate:before(7) {
   background-color: #95C6EB;
   color: black;
   content: ' to: ' oxy_textfield(
     edit, '@to', columns, 15
     )
 }
-origDate:before(6) {
+origin > origDate:before(6) {
   background-color: #95C6EB;
   color: black;
   content: ' when: ' oxy_textfield(
     edit, '@when', columns, 15
     )
 }
-origDate:before(5) {
+origin > origDate:before(5) {
   background-color: #95C6EB;
   color: black;
   content: '\ANot Before: ' oxy_textfield(
     edit, '@notBefore', columns, 15
     )
 }
-origDate:before(4) {
+origin > origDate:before(4) {
   background-color: #95C6EB;
   color: black;
   content: ' Not After: ' oxy_textfield(
     edit, '@notAfter', columns, 15
     )
 }
-origDate[datingMethod]:before(8){
+origin > origDate[datingMethod]:before(8){
   background-color: #95EBBA;
   color: black;
   content: 'Dating Method: ' oxy_combobox(
@@ -607,35 +658,35 @@ origDate[datingMethod]:before(8){
     labels, 'Gregorian (AD), Julian, AM (Anno Mundi), Hijri-shamsi, Hijri-qamari (AH), Coptic-EoM, Alexandrian, Iranian-Yazdigird, Iranian-Jalali, Spanish, Ilahi, Hindu, Seleucid, unknown'
     )
 }
-origDate[datingMethod]:before(7){
+origin > origDate[datingMethod]:before(7){
   background-color: #95EBBA;
   color: black;
   content: ' from: ' oxy_textfield(
     edit, '@from-custom', columns, 15
     );
 }
-origDate[datingMethod]:before(6){
+origin > origDate[datingMethod]:before(6){
   background-color: #95EBBA;
   color: black;
   content: ' to: ' oxy_textfield(
     edit, '@to-custom', columns, 15
     );
 }
-origDate[datingMethod]:before(5){
+origin > origDate[datingMethod]:before(5){
   background-color: #95EBBA;
   color: black;
   content: ' when: ' oxy_textfield(
     edit, '@when-custom', columns, 15
     );
 }
-origDate[datingMethod]:before(4){
+origin > origDate[datingMethod]:before(4){
   background-color: #95EBBA;
   color: black;
   content: '\A Not Before: ' oxy_textfield(
     edit, '@notBefore-custom', columns, 15
     );
 }
-origDate[datingMethod]:before(3){
+origin > origDate[datingMethod]:before(3){
   background-color: #95EBBA;
   color: black;
   content: ' Not After: ' oxy_textfield(
