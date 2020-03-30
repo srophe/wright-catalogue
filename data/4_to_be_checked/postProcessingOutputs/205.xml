@@ -13,7 +13,6 @@
         <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
-        
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</editor>
         <respStmt>
@@ -26,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#akelly">Anna Kelly</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -89,7 +88,7 @@
               <author>
                 <persName>Jacob of Batnae</persName>
               </author>
-              
+              <title xml:lang="en">A collection of Choral Services, consisting of <foreign xml:lang="syr">ܡ̈ܥܢܝܬܐ, ܡܕܪ̈ܫܐ, ܣܘ̈ܓܝܬܐ, ܒܥ̈ܘܬܐ</foreign>,  etc., for the festivals of the whole year</title>
               <rubric xml:lang="syr">
                 <locus from="1b"/>ܦܢܩܝܬܐ ܕܟܠܗ ܚܘܕܪܐ ܕܫܢܬܐ</rubric>
               <msItem xml:id="b1" n="2">
@@ -101,21 +100,22 @@
               <msItem xml:id="b2" n="3" defective="true">
                 <locus from="3a"/>
                 <title xml:lang="en">The Annunciation of the Virgin</title>
-                <explicit xml:lang="syr">At the conclusion of this order there is written in a more
-                  recent hand ܛܟܣܐ ܕܡܐܙܠܬܐ ܚܙܝ ܒܬܪܟ ܒܩܠܦܐ ܩܕܡܝܐ ܕܟܬܒܐ ܘܚܙܝ ܡܘܠܕܗ ܕܝܘܚܢܢ ܘܓܠܝܢܐ ܕܝܘܣܦ
-                  ܒܩܠܦܐ ܐܚܪܝܐ <locus from="4b"/>
+                <explicit xml:lang="syr">ܛܟܣܐ ܕܡܐܙܠܬܐ ܚܙܝ ܒܬܪܟ ܒܩܠܦܐ ܩܕܡܝܐ ܕܟܬܒܐ ܘܚܙܝ ܡܘܠܕܗ ܕܝܘܚܢܢ ܘܓܠܝܢܐ ܕܝܘܣܦ
+                  ܒܩܠܦܐ ܐܚܪܝܐ<locus from="4b"/>
                 </explicit>
-                <explicit xml:lang="en">"look for the Order of the Visit (of Mary to Elisabeth)
-                  behind thee on the first leaf of the book, and for the Birth of John (the Baptist)
-                  and the Revelation of Joseph on the last leaf."</explicit>
-                <note>The first named order is actually written by the same hand on fol. 1 a; the
-                  others have been lost along with the latter portion of the manuscript.</note>
+                <explicit xml:lang="en">"Look for the Order of the Visit (of Mary to Elisabeth)
+                  behind thee on the first leaf of the book, and for the Birth of <persName
+                    ref="http://syriaca.org/person/1808">John (the Baptist)</persName> and the
+                  Revelation of <persName>Joseph</persName> on the last leaf."</explicit>
+                <note>The explicit is written in a more recent hand. The first named order is
+                  actually written by the same hand on fol. 1 a; the others have been lost along
+                  with the latter portion of the manuscript. </note>
               </msItem>
               <msItem xml:id="b3" n="4">
                 <locus from="4b"/>
                 <author>Ephraim</author>
                 <title xml:lang="en">The Nativity of our Lord</title>
-                <rubric xml:lang="syr">ܡܕܪ̈ܫܐ of Ephraim<locus from="9b"/>
+                <rubric xml:lang="syr">ܡܕܪ̈ܫܐ of Ephraim<locus from="9b"/> <!-- is this a rubric? --> 
                 </rubric>
                 <rubric xml:lang="syr">ܣܘܓܝܬܐ<locus from="14a"/>
                 </rubric>
@@ -127,7 +127,7 @@
                 <rubric xml:lang="syr">
                   <locus from="20b"/>ܡܕܪ̈ܫܐ</rubric>
                 <rubric xml:lang="syr">
-                  <locus from="23a"/>ܣܘܓܝܬܐ </rubric>
+                  <locus from="23a"/>ܣܘܓܝܬܐ </rubric> <!-- is this a rubric? --> 
               </msItem>
               <msItem xml:id="b5" n="6">
                 <locus from="26a"/>
@@ -140,21 +140,23 @@
                   <locus from="37b"/>ܡܕܪ̈ܫܐ</rubric>
                 <msItem xml:id="c1" n="8">
                   <locus from="40b"/>
-                  <title xml:lang="en">canticle on our Lord and <persName>S.
-                    John</persName>
+                  <title xml:lang="en">Canticle on our Lord and <persName>S. John</persName>
                   </title>
                 </msItem>
                 <msItem xml:id="c2" n="9">
                   <locus from="47b"/>
                   
-                  <title xml:lang="en">hymns on the baptismal font</title>
+                  <title xml:lang="en">Hymns on the baptismal font</title>
                   <rubric xml:lang="syr">ܡ̈ܥܢܝܬܐ ܕܥܠ ܡܥܡܘܕܝܬܐ</rubric>
                 </msItem>
                 <msItem xml:id="c3" n="10">
                   <locus from="48b"/>
-                  <title xml:lang="syr">ܡܕܪ̈ܫܐ ܕܥܠ ܥܡ̈ܝܕܐ</title>
+                  <title>Part 3</title>
+                  <rubric xml:lang="syr">ܡܕܪ̈ܫܐ ܕܥܠ ܥܡ̈ܝܕܐ</rubric>
                 </msItem>
                 <msItem xml:id="c4" n="11">
+                  <title>Part 4</title>
+                  <rubric xml:lang="syr">ܣܘܓܝܬܐ ܕܥܠ ܥܡ̈ܝܕܐ</rubric>
                   <locus from="50a"/>
                   
                 </msItem>
@@ -263,6 +265,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
+                  <p>Additional hymns and prayers have been written here and there on the margins by two or three later hands.</p>
                   <locus/>
                   <p/>
                   <p>
