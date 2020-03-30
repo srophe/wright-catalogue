@@ -16,63 +16,35 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <idno type="URI"/>
+            <idno type="URI">93</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark"/>
+              <idno type="BL-Shelfmark">14,435</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <summary/>
             <textLang mainLang="syr"/>
             <msItem defective="true">
-              <locus to="" from=""/>
-              <author ref=""/>
-              <title ref="" xml:lang="en">Feast of Tabernacles</title>
-              <title ref="" xml:lang="">Celebration of the feast of the holy martyrs the </title>
-              <rubric xml:lang="syr"/>
-              <incipit xml:lang="syr"/>
-              <quote xml:lang="syr">
-                <locus from="" to=""/>
-              </quote>
-              <explicit xml:lang="syr">
-                <locus to="" from=""/>
-              </explicit>
-              <finalRubric xml:lang="syr"/>
-              <note/>
-              <msItem>
-                <locus to="" from=""/>
-                <author ref=""/>
-                <title ref="" xml:lang="en"/>
-                <rubric xml:lang="syr"/>
-                <incipit xml:lang="syr"/>
-                <quote xml:lang="syr">
-                  <locus from="" to=""/>
-                </quote>
-                <explicit xml:lang="syr">
-                  <locus to="" from=""/>
-                </explicit>
-                <finalRubric xml:lang="syr">
-                  <locus to="" from=""/>
-                </finalRubric>
-                <note/>
-              </msItem>
+              <locus to="" from="1a"/>
+              <title ref="" xml:lang="en">The Psalms, according to the Peshitta version</title>
+              <note>The following portions are missing: Ps. i. 1—xvi. 9; xxiv. 8— xxv. 19; xxxvi.
+                7—li. 17; liii. 6—lvi. 13; lviii. 6—lxi. 2; lxxi. 17 lxxii. 12; lxxvi. 10 —lxxviii.
+                51; lxxx. 4—lxxxiv. 2; xc. 2—civ. 30; cv. 11 cv. 44; cvi. 22— cxviii. 162; cxxvi. 3;
+                cxxix. 7—cxxxi. 17; cxxxv. 18— cxxxvii. 5; and cxxxviii. 18—cxliv. 11. There, is a
+                marginal division into ܡܪ̈ܡܝܬܐ and ܫܘܒ̈ܚܐ the former being denoted by ܪܝܫ ܡܪܡܝܬܐ to
+                which ܫܘܒܚܐ. is also usually added.</note>
             </msItem>
             <msItem>
-              <locus to="" from=""/>
-              <author ref=""/>
-              <title ref="" xml:lang="en"/>
-              <rubric xml:lang="syr"/>
-              <incipit xml:lang="syr"/>
-              <quote xml:lang="syr">
-                <locus from="" to=""/>
-              </quote>
-              <explicit xml:lang="syr">
-                <locus to="" from=""/>
-              </explicit>
-              <finalRubric xml:lang="syr">
-                <locus to="" from=""/>
-              </finalRubric>
-              <note/>
+              <locus to="" from="66a"/>
+              <title ref="" xml:lang="en">The Canticles</title>
+              <msItem>
+                <locus to="" from="66a"/>
+                <title ref="" xml:lang="en">The first song of Moses</title>
+              </msItem>
+              <msItem defective="true">
+                <locus to="" from="67b"/>
+                <title ref="" xml:lang="en">The second song of Moses</title>
+              </msItem>
             </msItem>
           </msContents>
           <physDesc>
@@ -86,7 +58,11 @@
                 <condition>
                   <list>
                     <item>
-                      <p></p>
+                      <p>Vellum, about 7 7/8 in. by 5, consisting of 70 leaves, most of which are
+                        much stained, and several more or less torn, especially foll. 2, 48, and 70.
+                        The quires are signed with letters. Loaves are wanting at the begin¬ning and
+                        end, as well as after foll. 8, 17, 18, 19, 28, 32, 34, 40, 42, 58, 59, 61,
+                        and 62. Each page has from 19 to 23 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -96,17 +72,18 @@
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote scope="" script=""
-                medium="">
-                <desc></desc>
+              <handNote scope="sole" script="syr-Syre" medium="unknown">
+                <desc>This manuscript is written in a good, regular Estrangela of the ixth
+                  cent.</desc>
               </handNote>
             </handDesc>
             <additions>
               <p></p>
               <list>
                 <item>
-                  <locus from="" to=""/>
-                  <p></p>
+                  <locus from="67a" to=""/>
+                  <p>On the margin of fol. 67 a there is a note in a good Arabic hand, but much
+                    stained and torn:</p>
                   <p><quote xml:lang="syr"></quote></p>
                 </item>
               </list>
@@ -121,8 +98,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="" notAfter="" from="" to=""
-                when=""></origDate>
+              <origDate notBefore="0800" notAfter="0900" from="" to="" when=""/>
               <origPlace ref="" xml:lang=""></origPlace>
             </origin>
             <provenance/>
@@ -137,7 +113,10 @@
     </encodingDesc>
     <profileDesc/>
     <revisionDesc status="draft">
-      <change when="" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial TEI encoding.</change>
+      <change when="2019-11-29" who="http://syriaca.org/documentation/editors.xml#akelly">Initial
+        TEI encoding.</change>
+      <change type="planned" subtype="coptic">Add in missing Coptic characters+ the note that goes
+        with it in addition note.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

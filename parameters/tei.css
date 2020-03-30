@@ -1,0 +1,239 @@
+@namespace tei "http://www.tei-c.org/ns/1.0";
+@namespace oxy url('http://www.oxygenxml.com/extensions/author');
+@namespace xml "http://www.w3.org/XML/1998/namespace";
+
+/* WS edits */
+/* WLP further edits */
+/* General styles */
+title {display:block; margin:.5em 0;}
+title::before {content: "Title: "; font-weight:bold;}
+p {display:block; margin:.25em;}
+note {display:block; margin:.25em;}
+bibl {display:inline; text-decoration: underline;}
+author, persName {font-style: italic;}
+placeName {text-decoration: overline underline;}
+author[ref]:after, persName[ref]:after, placeName[ref]:after, title[ref]:after {content: "[ref: "attr(ref) "]"; font-style: italic;}
+
+/* Add language handling, font family is optional */
+*[xml|lang="syr"], *[xml|lang="syr-Syre"], *[xml|lang="syr-Syrj"], *[xml|lang="syr-Syrn"],
+*[xml|lang="syr-x-syrm"], *[xml|lang="syr-x-syrp"], *[xml|lang="ar-Syrc"] {
+  font-family: "EstrangeloEdessa", "Estrangelo Edessa", Verdana, Arial, Helvetica, sans-serif;
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+*[xml|lang="en"] {
+ direction: ltr;
+ unicode-bidi: embed;
+}
+*[xml|lang="grc"] {
+  font-family: Arial;
+  direction: ltr;
+  unicode-bidi: embed;
+}
+*[xml|lang="ar"] {
+  font-family: Arial;
+  direction: rtl;
+  unicode-bidi: embed;
+}
+origDate, date {font-weight:bold;}
+origDate::after, date::after {content: " ("oxy_attributes()") "; font-weight:normal;}
+
+/* Hidden elements? */
+bindingDesc, sealDesc, accMat,classDecl, langUsage  {display:none;}
+
+/* Comments */
+oxy|comment {
+    display:inline !important;
+    color:green !important;
+    background-color:transparent !important;
+}
+oxy|comment:before {content:"[";}
+oxy|comment:after {content:"]";}
+
+/* titleStmt */
+fileDesc {display:block; margin:.5em;}
+titleStmt > title {display:block; margin:1em 0; font-size:20pt; font-weight:bold;}
+titleStmt > sponsor {display:none;}
+titleStmt > funder {display:none;}
+titleStmt > principal {display:none;}
+titleStmt > editor {display:block; margin:.25em 1em; font-size:medium;}
+titleStmt > editor::first-of-type::before {content: "Editors"; display:block; font-weight: bold; margin:1em 0;}
+titleStmt > respStmt::first-of-type::before {content: "respStmt"; display:block; font-weight: bold; margin:1em 0;}
+titleStmt > respStmt {display:block; margin:1em;}
+
+editionStmt {display:none;}
+publicationStmt {display:none;}
+
+/* msDesc > msIdentifier */
+sourceDesc {display:block; margin:.5em;}
+msDesc {display:block; margin:.5em; border: 2px solid #eee;}
+msPart {display:block; margin:.5em; border: 2px solid #eee;}
+msPart::before {content: "Manuscript Part " attr(n); font-weight: bold; font-size: 15pt;}
+msIdentifier::before {content: "Identifiers"; display:block; font-weight: bold; margin:1em 0;}
+msIdentifier country, repository, settlement, collection {display:none;}
+msIdentifier idno {display:block; margin:.5em;}
+msIdentifier idno::before {content:attr(type) ": ";}
+
+/* msContents */
+msContents {display:block; margin:.5em;  border: 2px solid #eee;}
+msContents::before {content: "Contents"; display:block; font-weight: bold; margin: 1em 0;}
+msContents > summary {display:none;}
+msContents > textLang::before {content: "Text Language: ";}
+msContents > textLang {display:block; margin:.5em;  border: 2px solid #eee;}
+msItem {display:block; margin:.5em;  padding: .5em; border: 2px solid #eee;}
+msItem::before {content:attr(n) ". ";}
+msItem[defective=true]::before{content:attr(n) ". - defective"}
+msItem {display:block;}
+msItem msItem {display:block; margin:.5em;  padding: .5em; border: 2px solid #eee;}
+msItem msItem::before {content:attr(n) ". ";}
+msItem msItem[defective=true]::before{content:attr(n) ". - defective"}
+msItem > :not(locus) {display:block;}
+msItem > *::before {content: '('oxy_local-name() ') '; font-weight:bold; }
+/* generating locus from attribute values rather than text node, requiring text node to be deleted */
+msItem > locus::before {display:block; content: oxy_local-name() ': ' 'from ' attr(from) ' to ' attr(to); font-size: 16px;}
+msItem > locus:not([to])::before {display:block; content: oxy_local-name() ': ' 'from ' attr(from); font-size: 16px;}
+msItem > locus {font-size: 0;}
+msItem > * > bibl > ptr{content:"["attr(target)"]";}
+
+/* Physical Description */
+physDesc::first-of-type::before {content: "Physical Description"; display:block; font-weight: bold; margin:.5em 0;}
+physDesc > objectDesc {display:block; }
+physDesc > objectDesc::before {content: "form: " attr(form); font-weight: bold; }
+physDesc > objectDesc > supportDesc::before {content: "material: " attr(material);}
+physDesc > objectDesc > supportDesc > *:not(condition) {display:none;}
+physDesc > objectDesc > supportDesc > *:not(condition)::before {content: oxy_local-name() ': '; font-weight:bold; color:gray;}
+physDesc condition::before {content: "\A Condition: ";}
+physDesc condition {display:block; margin:0;}
+physDesc condition p { margin:0 .5em; padding:0;}
+
+/* Hand Notes */
+physDesc > handDesc::before {content: "Hand Notes: \A Hands: " attr(hands); font-weight: bold; display:block;}
+physDesc > handDesc {display:block;}
+handNote::before {content:oxy_attributes(); display:block; font-weight:bold; color:gray;}
+physDesc > handDesc > handNote {display:list-item; margin-left:2em;}
+physDesc > decoDesc {display:none;}
+
+/* Additions */
+physDesc > additions::before {content: "Additions "; font-weight: bold; display:block; margin-top:1em;}
+physDesc > additions > list > item {display:block; margin-left:2em;}
+physDesc > additions > list > item:before {content:attr(n) ". ";}
+locus::after {content: " (from: " attr(from)")"; font-style: italic; color:gray;}
+physDesc > additions > list > item > p {display:list-item; margin-left:2em; margin-top:0; margin-bottom:0;}
+physDesc > additions > list > item > p > quote::before {content: '(Quote) ';}
+physDesc > additions > list > item > p:has(quote) {display:block; margin-left:2em; margin-top:0; margin-bottom:0;}
+physDesc > additions > list > item > p > quote {display:list-item; margin-left:2em; margin-top:0; margin-bottom:0;}
+
+/* Origin */
+sourceDesc > msDesc > history > origin::before {content: 'Origin: '; font-weight:bold; display:block;}
+sourceDesc > msDesc > history > origin > origDate::before {content: 'origDate: ';font-weight:normal; font-style:italic;}
+sourceDesc > msDesc > history > origin > origDate {display:list-item; margin-left:2em;}
+sourceDesc > msDesc > history > origin > origPlace::before {content: 'origPlace: ';font-weight:normal; font-style:italic;}
+sourceDesc > msDesc > history > origin > origPlace {display:list-item; margin-left:2em;}
+sourceDesc > msDesc > history > :not(origin) {display:none;}
+
+
+/* Bibliographic Info */
+sourceDesc > msDesc > additional > :not(listBibl) {display:none;}
+sourceDesc > msDesc > additional > listBibl::before {content: "Bibliographic Info "; font-weight: bold; display:block; margin-top:1em;}
+sourceDesc > msDesc > additional > listBibl > bibl {display:block;}
+sourceDesc > msDesc > additional > listBibl > bibl > author {display:inline;}
+sourceDesc > msDesc > additional > listBibl > bibl > author::after {content:", "}
+sourceDesc > msDesc > additional > listBibl > bibl > title::before {content:'';}
+sourceDesc > msDesc > additional > listBibl > bibl > title {display:inline; font-style:italic;}
+sourceDesc > msDesc > additional > listBibl > bibl > title::after {content:", "}
+sourceDesc > msDesc > additional > listBibl > bibl > pubPlace::after {content:": "}
+sourceDesc > msDesc > additional > listBibl > bibl > date::after {content:", "}
+sourceDesc > msDesc > additional > listBibl > bibl > citedRange::before {content: attr(unit) " ";}
+sourceDesc > msDesc > additional > listBibl > bibl > citedRange {font-weight:bold;}
+sourceDesc > msDesc > additional > listBibl > bibl > ptr {display: none;}
+
+
+encodingDesc {display:none;}
+
+/* Taxonomy */
+profileDesc > textClass > keywords::before {content:"Wright Taxonomy: "; font-weight: bold; display:block; margin-top:1em;}
+profileDesc > textClass > keywords > list> item {display:list-item; margin-left:2em;}
+profileDesc > textClass > keywords > list > item > ref {content: attr(target);}
+
+revisionDesc::before {content:"revisionDesc: "; font-weight: bold; display:block; margin-top:1em;}
+revisionDesc > change {display:list-item; margin-left:2em;}
+revisionDesc > change::after {content: " " attr(who) ", " attr(when) ". " ;}
+
+/* fascimile and text/body */
+facsimile {display:none;}
+/*text {display:none;}*/
+
+/* Default styles */
+ab {display:block;}
+choice > expan + abbr:before {content:"("} /* Assumes inside choice and expan before abbr */
+choice > expan + abbr:after {content:")"} /* Assumes inside choice and expan before abbr */
+history acquisition:before {content: "Acquisition: ";font-weight: bold;} history acquisition {display: block;}
+actor {display:inline; font-style: italic;}
+add[place="sup"] {vertical-align:super;} add[place="sub"] {vertical-align:sub;}
+additional {padding-top: 3pt; padding-bottom: 2pt; display: block;} additional>listBibl>bibl:after {content: ".";} additional:before {display: block;font-weight: 600;   font-variant: small-caps;font-size: 120%;} additional>listBibl {display: block;list-style-type: none;margin-top: 10pt;} additional>listBibl:before {content: "Bibliography:";display: block;font-weight: 600;font-variant: small-caps;font-size: 120%;} additional>listBibl>bibl {text-align: left;display: list-item;margin-left: 30pt;}
+additions {display: block;} additions:before {content: "Additions: ";font-weight: bold;}
+addrLine {display:block;}
+address {display:block; /* font-style:italic; If wish to appear as HTML addresses are rendered by default, at least in Firefox */}
+
+att {display:inline; font-weight:bold;} att:before {content:"@"}
+byline {display:block;}
+caesura:before {display:inline; content:"\a0\a0\a0\a0"; /* could be :after too */}
+camera {display:inline; font-style: italic;}
+caption {display:inline; font-style: italic;}
+castList {} /* Note: has additional rules: */
+castList {display:block;} /* applies whether children are head or not */
+/* Note: for this to mirror the XSL exactly, head would always need to be preceding other elements as a direct child castList */
+castList > head {display:inline; font-style:italic;}
+castList > *:not(head) {margin-left: 40px;} /* If children of castList needed their own indents, then it should be relative to this (if possible) */
+catRef {} /* Note: has additional rules: */
+/* catRef + catRef:before {'\A'} */ /* Add line break if preceded by another catRef */
+catRef:after {content:attr(scheme); display:inline; font-style:italic;} /* Add scheme in italics */
+/*
+Commenting out as XPath not currently supported in CSS as needed by third 'after'
+catRef:after(2) {content:':'}*//* Requires CSS3 to add such additional 'after' content? (Firefox allows content: '123'attr(class)'456' at least); See http://www.w3.org/TR/css3-content/#nesting or http://www.w3.org/TR/css3-content/#inserting0 */
+/*
+catRef:after(3) {content: <not possible to reference target's catDesc unless XPath gets added to CSS>} */
+code {display:inline; font-family:monospace;}
+del {display:inline; text-decoration: line-through;}
+emph {display:inline; font-style:italic;}
+epigraph {display:block;}
+choice > expan + abbr:before {content:"("} /* Assumes inside choice and expan before abbr */
+choice > expan + abbr:after {content:")"} /* Assumes inside choice and expan before abbr */
+foreign {display:inline;}
+genName {display:inline;}
+
+geogName {display:inline;}
+gi:before {display:inline;content:"<"}  gi:after {display:inline;content:">"}
+gloss {display:inline;}
+hi {display:inline; font-weight:bold;}
+ident[type] {display:inline; font-weight:bold;} ident:not([type]) {display:inline; } /* Just as the stylesheet allows for different types; a specific type could be styled by ident[type="XXX"] */
+item {display:block;}
+l {display:block;}
+label {display:inline;}
+lb {display:block;}
+lb {display:block;}
+mentioned {display:inline;}
+
+name {display:inline;}
+persName {display:inline;}
+placeName {display:inline;}
+resp:after {content:" ";}
+respStmt {display:inline;}
+respStmt:after {content:";";}
+role {display:inline; font-style: italic;}
+roleDesc { margin-left: 40px; margin-right: 40px; } roleDesc > *:not(p) {display:block; margin-bottom:1em; /* Latter is to act like a paragraph*/}
+roleName {display:inline;}
+salute {text-align:left; display:block; margin-bottom:1em; /* Latter is to act like a paragraph*/}
+seg {display:inline;}
+set {display:inline; font-style: italic;}
+sic {display:inline;} sic:after {content: " (sic)"}
+signed {text-align:left; display:block; margin-bottom:1em; /* Latter is to act like a paragraph*/}
+soCalled:before {content:'‘'} soCalled {display:inline;} soCalled:after {content:'’'} /* Quote style is parameterized in XSL; note: content can also accept 'open-quote' and 'close-quote', but the default is as already included in the rule */
+
+sound {display:inline; font-style: italic;}
+stage {font-style: italic; display:block; margin-bottom:1em; /* Latter is to act like a paragraph*/}
+tech {display:inline; font-style: italic;}
+term {display:inline;}
+unclear {display:inline;}
+view {display:inline; font-style: italic;}
