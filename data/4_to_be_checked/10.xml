@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
@@ -80,11 +79,10 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
               <locus to="303b" from="1b">foll. 1b-303b</locus>
-              <title ref="" xml:lang="en">The Book of the Collections of the Vowel-points and
+              <title xml:lang="en">The Book of the Collections of the Vowel-points and
                 Readings, which are in the Holy Scriptures</title>
               <rubric xml:lang="syr-Syrn">ܒܐܲܠܵܗܵܐ ܡܫܲܪܸܝܢܲܢ : ܟ݂ܕ ܠܗ ܠܐܲܠܵܗܐ ܥ̣ܠܬ݂ܵܐ ܣܵܝܡܝ̣ܢܲܢ܆
                 ܐܲܝܟܲܢܵܐ ܕܥ̣ܠ ܬܘܼܟ݂ܠܵܢܗ ܡܫܲܪܝܢܢ܆ ܐܲܝܟܲܢܵܐ ܕܥ̣ܠ ܬܘܼܟ݂ܠܵܢܹܗ ܢܫ̣ܠܸܡ.. ܘܟ݂ܕ ܥ̣ܠ
@@ -121,7 +119,7 @@
                 <locus to="24" from="1b">foll. 1b-24</locus>
                 <title ref="http://syriaca.org/work/9628" xml:lang="en">Genesis</title>
                 <finalRubric xml:lang="syr-Syrn">ܫܠܸܡܘ ܫܡܵܗܐ: ܥܲܣܩ̈ܐ: ܘܲܩܪܵܝܵܬ݂ܵܐ: ܕܡ̣ܢ ܒܪܝ̣ܬ݂ܵܐ:
-                  ܣ̣ܦܪܵܐ: ܩܲܕܡܵܝܵܐ.<locus to="" from="24"/>
+                  ܣ̣ܦܪܵܐ: ܩܲܕܡܵܝܵܐ.<locus from="24"/>
                 </finalRubric>
               </msItem>
               <msItem xml:id="b2" n="3">
@@ -147,7 +145,7 @@
                 <locus to="74" from="61a">Foll. 61a-74</locus>
                 <title ref="http://syriaca.org/work/9522" xml:lang="en">Deuteronomy</title>
                 <finalRubric xml:lang="syr-Syrn">ܫܠܸܡܘ: ܫ̈ܡܵܗܸܐ: ܥܲܣܩܹܐ: ܘܲܩܪܵܝܵܬ݂ܵܐ: ܕܡ̣ܢ ܚܲܡܫܵܐ:
-                  ܣܹܦܪ̈ܝ̣ܢ: ܕܐܘܿܪܵܝܬ݁ܵܐ܀<locus to="" from="74"/>
+                  ܣܹܦܪ̈ܝ̣ܢ: ܕܐܘܿܪܵܝܬ݁ܵܐ܀<locus from="74"/>
                 </finalRubric>
               </msItem>
               <msItem xml:id="b6" n="7">
@@ -197,7 +195,7 @@
               </msItem>
               <msItem xml:id="b12" n="13">
                 <locus to="160" from="150a">Foll. 150a-160</locus>
-                <author ref="">Jesus the son of Sirach</author>
+                <author>Jesus the son of Sirach</author>
                 <title ref="http://syriaca.org/work/9575" xml:lang="en">Ecclesiasticus, or the
                   Wisdom of Jesus the son of Sirach</title>
                 <rubric xml:lang="syr-Syrn">ܬܘܼܒ݂ ܫܡܵܗܸ̈ܐ ܘܲܩܪ̈ܵܝܵܬ݂ܵܐ ܕܡ̣ܢ ܚܟ݂ܡܬ݂ܵܐ
@@ -232,8 +230,8 @@
               </msItem>
               <msItem xml:id="b19" n="20">
                 <locus to="216" from="199a">Foll. 199a-216</locus>
-                <author ref=""/>
-                <title ref="" xml:lang="en">Jeremiah and Lamentations</title>
+                
+                <title xml:lang="en">Jeremiah and Lamentations</title>
               </msItem>
               <msItem xml:id="b20" n="21">
                 <locus to="227" from="216a">Foll. 216a-227</locus>
@@ -245,10 +243,10 @@
               </msItem>
               <msItem xml:id="b22" n="23">
                 <locus to="232" from="231b">Foll. 231b-232</locus>
-                <title ref="" xml:lang="en">Bel (<foreign xml:lang="syr-Syrn">ܒܹܝܠ
+                <title xml:lang="en">Bel (<foreign xml:lang="syr-Syrn">ܒܹܝܠ
                     ܦܬܸ݁ܟ݂ܪܵܐ</foreign>) and the Dragon (<foreign xml:lang="syr-Syrn">ܬܲܢܝ̣ܢܵܐ</foreign>)</title>
                 <finalRubric xml:lang="syr-Syrn">ܫܠܸܡ ܫܡܵܗܐ ܘܲܩܪ̈ܵܝܵܬ݂ܵܐ ܕܕܝܵܬ݂̇ܝ̣ܩܝ̣
-                  ܥܲܬܝ̣ܩܬܵܐ<locus to="" from=""/>
+                  ܥܲܬܝ̣ܩܬܵܐ
                 </finalRubric>
               </msItem>
               <msItem xml:id="b23" n="24">
@@ -279,7 +277,7 @@
                 <locus to="276" from="266a">Foll. 266a-276</locus>
                 <title ref="http://syriaca.org/work/9593" xml:lang="en">The Acts of the
                   Apostles</title>
-                <finalRubric xml:lang="syr-Syrn">ܫܠܸܡ ܦܪܵܟܣܝܣ ܕܲܫܠܝ̣ܚܹܐ<locus to="" from=""/>
+                <finalRubric xml:lang="syr-Syrn">ܫܠܸܡ ܦܪܵܟܣܝܣ ܕܲܫܠܝ̣ܚܹܐ
                 </finalRubric>
               </msItem>
               <msItem xml:id="b28" n="29">
@@ -293,15 +291,15 @@
               </msItem>
               <msItem xml:id="b29" n="30">
                 <locus to="303" from="276a">Foll. 276a-303</locus>
-                <author ref=""/>
+                
                 <title ref="http://syriaca.org/work/9643" xml:lang="en">The fourteen Epistles of S.
                   Paul, in the usual order</title>
-                <note/>
+                
               </msItem>
             </msItem>
             <msItem xml:id="a2" n="31">
               <locus to="308" from="303b"/>
-              <title ref="" xml:lang="en">A selection of passages from the Scriptures, to illustrate
+              <title xml:lang="en">A selection of passages from the Scriptures, to illustrate
                 the use of the various signs of punctuation and accentuation, separately and in
                 combination.</title>
               <rubric xml:lang="syr-Syrn">ܬܘܒ ܥ̣ܠ ܦܘܼܚܵܡܵܐ ܕܥܹ̈ܠܵܝܐ ܘܬܸ݁ܚ̈ܬ݁ܵܝܹܐ ܘܙܵܘ̈ܓܹ݁ܐ
@@ -309,38 +307,38 @@
             </msItem>
             <msItem xml:id="a3" n="32">
               <locus to="309" from="308a"/>
-              <title ref="" xml:lang="en">On various letters of the alphabet and their
+              <title xml:lang="en">On various letters of the alphabet and their
                 combinations</title>
               <finalRubric xml:lang="syr">ܫܠܸܡ ܒܣܘܼܝܵܥ ܡܵܪܢ ܪܲܚ̣ܡܘܗܝ ܣܓ̈ܝ̣ܕ݂ܐ ܕܐܲܠܗܢ ܛܵܒܐ ܛܘܼܟ݁ܵܣܵܐ
                 ܡܕܡ ܕܫܲܦܝܪ ܐܹܬ݂ܛ̇ܟ̣̈ܣ ܡ̣ܢ ܡܲ̈ܠܵܦܢܐ ܪܲܒ̇ܵܢܲܝܢ ܠܝ̣ܕܸ݁ܥܬ݂ܵܐ ܕܝ̈ܵܠܘܿܦܹܐ ܚܢܢ ܒ̈ܢܲܝܗܘܢ̇
                 ܫܘܼܒ̣ܚܐ ܠܐܲܒ̣ܐ ܕܚܲܝܹܠ ܘܠܲܒ̣ܪܐ ܕܥܲܕ̣̈ܪ ܘܲܠܪܘܼܚܐ ܩܲܕ݁ܝ̣ܫܵܐ ܕܣܲܝܲܥ. ܘܡ̣ܢ ܦܘ݂ܡ ܟܠܗܘܿܢ
-                ܡ̈ܠܝ̣ܠܐ ܬ̣ܹܫܒ݁ܘܿܚܬ݁ܐ ܬܹܣܲܩ ܠܡܵܪܘܼܬ݂ܹܗ ܠܥܠܡ ܥܵܠܡ̣ܝܢ ܐܡܝܢ..<locus to="" from="309b"/>
+                ܡ̈ܠܝ̣ܠܐ ܬ̣ܹܫܒ݁ܘܿܚܬ݁ܐ ܬܹܣܲܩ ܠܡܵܪܘܼܬ݂ܹܗ ܠܥܠܡ ܥܵܠܡ̣ܝܢ ܐܡܝܢ..<locus from="309b"/>
               </finalRubric>
               <msItem xml:id="b30" n="33">
-                <locus to="" from=""/>
-                <title ref="" xml:lang="en">On the combinations in writing of the letters <foreign xml:lang="syr">ܒ ܕ ܘ ܠ</foreign> at the beginning of words</title>
+                
+                <title xml:lang="en">On the combinations in writing of the letters <foreign xml:lang="syr">ܒ ܕ ܘ ܠ</foreign> at the beginning of words</title>
                 <rubric xml:lang="syr-Syrn">ܬܘܼܒ ܥܠ̣ ܪܘܟ݁ܵܒ̣ܐ ܕܐܵܬ݂ܘ̈ܵܬ݂ܐ. ܐܲܪ̈ܒ̣̈ܥ ܐܢ̈ܝܢ ܐܵܬ݂ܘܵܢ
                   ܕܡܸܬܸ̇ܡܪ̈ܵܢ ܥ̣ܠ ܫܡ̈ܵܗܐ ܘܡܹ̈ܠܐ ܐܝ̣ܬܸ̇ܝܗܹܝܢ ܕܝܢ ܗܠܝܢ. ܒܹ . ܕܵ. ܘܵ . ܠܵ ..</rubric>
               </msItem>
               <msItem xml:id="b31" n="34">
-                <locus to="" from=""/>
-                <title ref="" xml:lang="en">On the combinations of the same four letters with
+                
+                <title xml:lang="en">On the combinations of the same four letters with
                     <foreign xml:lang="syr">ܒ ܓ ܕ ܟـ ܦ ܬ</foreign> at the beginning of words</title>
                 <rubric xml:lang="syr-Syrn">ܬܘܼܒ ܥ̣ܠ ܗ̈ܵܢܝܢ ܫܹ̇ܬ݂ ܐܵܬ݂ܘܵܢ ܟܕ ܡܹܣܬܲ݁ܩܒ݁ܠܢ ܒܪܹܝܫ ܫܡ̈ܗܐ
                   ܘܡܸܬܸ̇ܐܡܪ̈ܢ ܥ̣ܠ ܐܲܪ̈ܒ̣̈ܥ ܐܵܬ݂ܘܵܢ ܕܡ̣ܢ ܠܥܹܠ ܥܠܲܝܗܹܝܢ ܡܸܬ݂ܟ̣̈ܒ̣ܫܵܢ. ܗܵܘܝܵܢ ܕܝܢ ܫܹܬ.
                   ܒܹ ܓܵ . ܕܵ . ܟܵـ . ܦܹ . ܬܵ .. </rubric>
               </msItem>
               <msItem xml:id="b32" n="35">
-                <locus to="" from=""/>
-                <title ref="" xml:lang="en">On the letters <foreign xml:lang="syr">ܐ ܡ ܢܢ
+                
+                <title xml:lang="en">On the letters <foreign xml:lang="syr">ܐ ܡ ܢܢ
                     ܬ</foreign> as marking tenses and persons</title>
                 <rubric xml:lang="syr-Syrn">ܐܲܪ̈ܒ̣̈ܥ ܐܢܝ̈ܢ ܐܵܬ݂ܘܵܢ ܡܫܵܘܕܸ݁ܥܬ݂ ܙܲܒܢ̈ܐ ܘܦܲܪ̈ܨܘܿܦܐ.
                   ܐܲܝܠܝܢ ܐ̈ܢܝܢ ܗܵܠܝܢ. ܐܵ . ܡܹ . ܢ̣ܢ . ܬܵ .</rubric>
               </msItem>
               <msItem xml:id="b33" n="36">
-                <locus to="" from=""/>
-                <author ref=""/>
-                <title ref="" xml:lang="en">On the letters <foreign xml:lang="syr">ܐ ܗ ܘ ܝ ܟـ ܢܢ
+                
+                
+                <title xml:lang="en">On the letters <foreign xml:lang="syr">ܐ ܗ ܘ ܝ ܟـ ܢܢ
                     ܬ,</foreign> when suffixed</title>
                 <rubric xml:lang="syr-Syrn">ܫܒ̣ܥ ܐܹ̈ܢܝܢ ܐܵܬ݂ܘܢ ܕܟ݂ܵܝ̈ܢܵܢ ܒܫܘܼܠܵܡ ܫܡܵܗܐ ܣܘܼܥܪ̈ܵܢܵܝܹܐ.
                   ܐܲܝܠܝܢ ܐܹ̈ܢܝܢ ܗܵܠܝܢ. ܐܵ . ܗܹ . ܘܵ . ܝ̣ـ . ܟܵـ . ܢ̣ܢ ܬܵ </rubric>
@@ -348,7 +346,7 @@
             </msItem>
             <msItem xml:id="a4" n="37">
               <locus to="310" from="309b"/>
-              <title ref="" xml:lang="en">A brief explanation of certain critical marks attached to
+              <title xml:lang="en">A brief explanation of certain critical marks attached to
                 words in the biblical text</title>
               <rubric xml:lang="syr-Syrn"> ܏ܬܘܒ ܏ܒܝܕ ܏ܐܠܗܐ ܏ܟܬܒܝܢܢ ܏ܢܝܫܐ ܏ܕܦܘܚܡܐ ܏ܕܟ̈ܬܒܐ ܏ܕܡ̈ܩܪܝܢܐ </rubric>
               <quote xml:lang="syr">ܘ܏ܕܪܒܢ ܏ܪܡܝܫܘܥ ♱ ܕܥ ܕܝܢ ܐܘ ܩܪܘܝܐ: ܕܐܡܬܝ ܕܦܓ݁ܥ ܐܢܬ ܒܣܝ̈ܡܐ
@@ -369,7 +367,7 @@
                 ܥܕܢ. ܘܗܢܐ ܐܝܬܘܗܝ ܢܝܫܐ ܕܟܠܗܘܢ ܟܬ̈ܒܐ ܐ̈ܣܟܘܠܝܐ ܩܪܝ ܩܪܝ ܘܠܐ ܬܗܡܐ ܢܘܗܪܐ ܗܘ ܓܝܪ ܠܟ ܐܬܟܬܒ
                 ܢܘܗܪܐ ܕܒܚܫܘܟܐ ܡܢܗܪ. ܘܢܨܝܚܘܬܐ ܕܒܐܘܟܡܘܬܐ ܡܨܠܚܐ. ܘܚ̈ܝܐ ܕܒܐ̈ܣܛܘܟܣܐ ܚܠܕܝܢ. ܘܗܘܢܐ ܕܒܡܨܝܕܬ
                 ܣܪ̈ܛܐ ܡܬܥܪܙܠ ܘܡܬܨܝܕ. ܫܘܒܚܐ ܠܗ ܠܡܫܟܚܢܐ ܫܝܬܢܝܐ ܕܗܠܝܢ ܛܘܒܘܗܝ ܕܝܢ ܘܠܝܪܘܬܐ ܐܢ ܢܟܫܪ
-                ܘܒܩܪܝܢܐ ܀ ܥܒ̇ܕܐ ܢܚܠܘܛ܀ <locus from="" to=""/>
+                ܘܒܩܪܝܢܐ ܀ ܥܒ̇ܕܐ ܢܚܠܘܛ܀ 
               </quote>
               <note>The word <foreign xml:lang="syr-Syrn">ܡܲܩܪܝܵܢܵܐ</foreign> literally means
                 “teacher of reading.”</note>
@@ -381,24 +379,24 @@
                   72; in particular, p. 71, note 1</bibl>.</note>
             </msItem>
             <msItem xml:id="a5" n="38" defective="true">
-              <locus to="" from="312a"/>
-              <author ref=""/>
-              <title ref="" xml:lang="en">Traditions of the Masters of the Schools</title>
+              <locus from="312a"/>
+              
+              <title xml:lang="en">Traditions of the Masters of the Schools</title>
               <rubric xml:lang="syr">ܡ̈ܫܠܡܢܘܬܐ ܕܪ̈ܒܢܐ ܕܐ̈ܣܟܘܠܐ</rubric>
               <note>To fill up the last page, the scribe has added these few jottings.</note>
               <msItem xml:id="b34" n="39">
-                <locus to="" from="312"/>
-                <title ref="" xml:lang="en">To show that <persName>Moses</persName>,
+                <locus from="312"/>
+                <title xml:lang="en">To show that <persName>Moses</persName>,
                     <persName>Aaron</persName> and <persName>Miriam</persName> died in one
                   year.</title>
               </msItem>
               <msItem xml:id="b35" n="40">
-                <locus to="" from="312"/>
-                <title ref="" xml:lang="en">On the manna in the wilderness.</title>
+                <locus from="312"/>
+                <title xml:lang="en">On the manna in the wilderness.</title>
               </msItem>
               <msItem xml:id="b36" n="41">
-                <locus to="" from="312"/>
-                <title ref="" xml:lang="en">On the Syriac points and their inventor.</title>
+                <locus from="312"/>
+                <title xml:lang="en">On the Syriac points and their inventor.</title>
                 <rubric xml:lang="syr">ܘܬܘܒ ܕܥ ܕܣܡ̈ܟܐ ܘܥܨ̈ܝܢܐ ܘܙܘ̈ܓܐ ܘܦܩ̈ܘܕܐ. ܘܡܢܝ̈ܚܢܐ ܘܡܫܐ̈ܠܢܐ ܗ̇ܘ
                   ܕܡܪܟܒ ܡܢ ܬܪ̈ܝܢ ܙܘ̈ܓܝܢ ܘܥ̈ܠܝܐ ܘܬܚ̈ܬܝܐ ܕܐܝܬ ܒܨܘܪܬ ܟܬܒ. ܗܠܝܢ ܟܠܗܘܢ ܠܝܘܣܦ ܗܘܙܝܐ ܣܝܡܝܢ
                   ܬܫܥܐ ܓܝܪ ܗܘܝܢ. ܘܗܟܢܐ ܥܒ̣ܕ ܐܢܘܢ ܠܣܝ̈ܡܐ̣. ܥܠ ܪܥܝܢܐ ܕܦܘܫܩܐ ܦܬܓܡܐ ܒܦܬܓܡܗ. ܡܛܠ ܕܩܕܝܫܐ
@@ -410,14 +408,14 @@
                     85</bibl>.</note>
               </msItem>
               <msItem xml:id="b37" n="42">
-                <locus to="" from="312"/>
-                <title ref="" xml:lang="en">On <persName>Dinah</persName>, the daughter of
+                <locus from="312"/>
+                <title xml:lang="en">On <persName>Dinah</persName>, the daughter of
                     <persName>Jacob</persName> and the, wife of <persName>Job</persName>.</title>
               </msItem>
               <msItem xml:id="b38" n="43">
-                <locus to="" from="312"/>
-                <author ref=""/>
-                <title ref="" xml:lang="en">The prayer that <persName>S. John (the
+                <locus from="312"/>
+                
+                <title xml:lang="en">The prayer that <persName>S. John (the
                     Baptist)</persName> taught <persName>his disciples</persName>.</title>
                 <rubric xml:lang="syr">ܬܘܒ ܨܠܘܬܐ ܕܐܠܦ ܝܘܚܢܢ ܠܬܠܡ̈ܝܕܘܗܝ ܐܒܐ ܚܘܢܝ ܒܪܟ. ܒܪܐ ܚܘܢܝ ܪܘܚܟ.
                   ܪܘܚܐ ܕܩܘܕܫܐ ܚܟܡܝܢܝ ܒܫܪܪܟ. ܘܐܝܬ ܕܐܡܪ̈ܝܢ ܕܗܕܐ ܗܝ. ܐܒܐ ܩܕܝܫܐ ܩܕܝܫܝ (ܩܕܫܝܢܝ read)
@@ -750,6 +748,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-01-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-01-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="" who="">Initial TEI encoding.</change>
     </revisionDesc>

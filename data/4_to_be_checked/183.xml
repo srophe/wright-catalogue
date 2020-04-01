@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
@@ -80,7 +79,6 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
               <locus from="1b" to="2"/>
@@ -90,30 +88,26 @@
             </msItem>
             <msItem xml:id="a2" n="2">
               <locus to="189" from="2b"/>
-              <title ref="" xml:lang="en">A Sacerdotal</title>
+              <title xml:lang="en">A Sacerdotal</title>
               <rubric xml:lang="syr">
-                <locus to="" from="2b"/>. . . [ܕܡـ]ـܪܢ ܝܫܘܥ ܡܫܝܚܐ. [ܡـ]ܫܪܝܢܢ
+                <locus from="2b"/>. . . [ܕܡـ]ـܪܢ ܝܫܘܥ ܡܫܝܚܐ. [ܡـ]ܫܪܝܢܢ
                 ܠܡܟܬܒ ܦܢܩܝܬܐ . . . ܕܩܫܝܫܐ.</rubric>
-              <explicit xml:lang="syr">
-                <locus to="" from=""/>
-              </explicit>
-              <finalRubric xml:lang="syr">
-                <locus to="" from=""/>
-              </finalRubric>
-              <note/>
+              
+              
+              
               <msItem xml:id="b1" n="3">
                 <locus from="2b" to="22"/>
                 <title xml:lang="en">A collection of Anaphoras.</title>
                 <msItem xml:id="c1" n="4">
                   <locus to="4" from="2b"/>
-                  <title ref="" xml:lang="en">Introductory Prayers, <foreign xml:lang="syr">ܨ̈ܠܘܬܐ</foreign>,Prooemia or Prefaces, <foreign xml:lang="syr">ܦܪ̈ܘܡܝܘܢ</foreign>, and Sedras, <foreign xml:lang="syr">ܣܕܪ̈ܐ</foreign>
+                  <title xml:lang="en">Introductory Prayers, <foreign xml:lang="syr">ܨ̈ܠܘܬܐ</foreign>,Prooemia or Prefaces, <foreign xml:lang="syr">ܦܪ̈ܘܡܝܘܢ</foreign>, and Sedras, <foreign xml:lang="syr">ܣܕܪ̈ܐ</foreign>
                   </title>
                 </msItem>
                 <msItem xml:id="c2" n="5">
                   <locus to="9" from="4b"/>
-                  <author ref="">S. James</author>
+                  <author>S. James</author>
                   <author ref="http://syriaca.org/person/113">Jacob of Edessa</author>
-                  <title ref="" xml:lang="en">The Anaphora of <persName>S. James</persName>, as
+                  <title xml:lang="en">The Anaphora of <persName>S. James</persName>, as
                     revised by <persName ref="http://syriaca.org/person/113">Jacob of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
                     </persName>
                   </title>
@@ -123,14 +117,14 @@
                 <msItem xml:id="c3" n="6">
                   <locus to="13" from="9a"/>
                   <author ref="http://syriaca.org/person/430">Cyril</author>
-                  <title ref="" xml:lang="en">Of <persName ref="http://syriaca.org/person/430">Cyril</persName>
+                  <title xml:lang="en">Of <persName ref="http://syriaca.org/person/430">Cyril</persName>
                   </title>
                   <rubric xml:lang="syr">ܐܢܦܘܪܐ ܕܩܕܝܫܐ ܩܘܪܝܠܘܣ</rubric>
                 </msItem>
                 <msItem xml:id="c4" n="7">
                   <locus to="15" from="13b"/>
                   <author ref="http://syriaca.org/person/1605">the holy Apostles</author>
-                  <title ref="" xml:lang="en">Of <persName ref="http://syriaca.org/person/1605">the
+                  <title xml:lang="en">Of <persName ref="http://syriaca.org/person/1605">the
                       holy Apostles</persName>
                   </title>
                   <rubric xml:lang="syr">ܐܢܦܘܪܐ ܕܫܠܝ̈ܚܐ ܩܕܝܫ̈ܐ</rubric>
@@ -138,7 +132,7 @@
                 <msItem xml:id="c5" n="8">
                   <locus to="19" from="15b"/>
                   <author ref="http://syriaca.org/person/3514">Celestine, bishop of Rome</author>
-                  <title ref="" xml:lang="en">Of <persName ref="http://syriaca.org/person/3514">Celestine, bishop of <placeName ref="http://syriaca.org/place/2360">Rome</placeName>
+                  <title xml:lang="en">Of <persName ref="http://syriaca.org/person/3514">Celestine, bishop of <placeName ref="http://syriaca.org/place/2360">Rome</placeName>
                     </persName>
                   </title>
                   <rubric xml:lang="syr">ܩܘܪܒܐ ܕ܏ܩܕ ܩܠܣܛܝܢܘܣ. ܐܦܝܣܩܘܦܐ ܕܪܗܡܐ(sic) </rubric>
@@ -146,7 +140,7 @@
                 <msItem xml:id="c6" n="9">
                   <locus to="21" from="19a"/>
                   <author ref="http://syriaca.org/person/2163">Julius, bishop of Rome</author>
-                  <title ref="" xml:lang="en">Of <persName ref="http://syriaca.org/person/2163">Julius, bishop of <placeName ref="http://syriaca.org/place/2360">Rome</placeName>
+                  <title xml:lang="en">Of <persName ref="http://syriaca.org/person/2163">Julius, bishop of <placeName ref="http://syriaca.org/place/2360">Rome</placeName>
                     </persName>
                   </title>
                   <rubric xml:lang="syr">ܐܢܦܘܪܐ ܕܩܕܝܫܐ ܝܘܠܝܘܣ</rubric>
@@ -154,7 +148,7 @@
                 <msItem xml:id="c7" n="10">
                   <locus to="22" from="21a"/>
                   <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
-                  <title ref="" xml:lang="en">The Signing of the Cup, or Benediction of the Chalice,
+                  <title xml:lang="en">The Signing of the Cup, or Benediction of the Chalice,
                     of <persName ref="http://syriaca.org/person/51">Severus of <placeName ref="http://syriaca.org/place/2546">Antioch</placeName>
                     </persName>,
                     according to a new revision</title>
@@ -163,13 +157,13 @@
                 </msItem>
                 <msItem xml:id="c8" n="11">
                   <locus to="22" from="22a"/>
-                  <title ref="" xml:lang="en">The Prayer of the Blessing of the Bread</title>
+                  <title xml:lang="en">The Prayer of the Blessing of the Bread</title>
                   <rubric xml:lang="syr">ܨܠܘܬܐ ܕܒܘܪܟܬܐ ܕܠܚܡܐ</rubric>
                 </msItem>
               </msItem>
               <msItem xml:id="b2" n="12">
                 <locus to="25" from="22b"/>
-                <title ref="" xml:lang="en">A collection of Prooemia or Prefaces</title>
+                <title xml:lang="en">A collection of Prooemia or Prefaces</title>
                 <rubric xml:lang="syr">ܦܪ̈ܘܡܝܘܢ ܕܩܕܡ ܟܠ ܣܕܪܐ ܐܝܢܐ ܕܗ̣ܘ</rubric>
               </msItem>
               <msItem xml:id="b3" n="13">
@@ -849,7 +843,7 @@
                   </p>
                 </item>
                 <item xml:id="addition2" n="2">
-                  <locus from="189a" to=""/>
+                  <locus from="189a"/>
                   <p>Lower down, there is an anathema in a more recent hand, similar to that of the
                     prooemium on fol. 70 b.</p>
                   <p>
@@ -864,9 +858,9 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0850" notAfter="1050" from="" to="" when="">about the xth
+              <origDate notBefore="0850" notAfter="1050">about the xth
                 cent</origDate>
-              <origPlace ref="" xml:lang=""/>
+              <origPlace/>
             </origin>
             <provenance/>
             <acquisition/>
@@ -1055,6 +1049,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-01-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-01-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-01-31" who="http://syriaca.org/documentation/editors.xml#wpotter">Initial
         TEI encoding.</change>
