@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
@@ -80,25 +79,18 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="" from="33"/>
+              <locus from="33"/>
               <author ref="http://syriaca.org/person/44">Philoxenus of Mabug</author>
-              <title ref="" xml:lang="en">A small portion of one of the Anaphoras of Philoxenus of
+              <title xml:lang="en">A small portion of one of the Anaphoras of Philoxenus of
                 Mabug</title>
               <rubric xml:lang="syr">ܕܡܪܝ ܐܟܣܢܝܐ ܝ ܐܦܝܣ[ܩܘܦܐ ܕܡܒܘܓ]</rubric>
-              <incipit xml:lang="syr"/>
-              <quote xml:lang="syr">
-                <locus from="" to=""/>
-              </quote>
-              <explicit xml:lang="syr">
-                <locus to="" from=""/>
-              </explicit>
-              <finalRubric xml:lang="syr">
-                <locus to="" from=""/>
-              </finalRubric>
-              <note/>
+              
+              
+              
+              
+              
             </msItem>
           </msContents>
           <physDesc>
@@ -127,7 +119,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="" to=""/>
+                  <locus/>
                   <p/>
                   <p>
                     <quote xml:lang="syr"/>
@@ -141,7 +133,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1200" notAfter="1300" from="" to="" when="">xiiith
+              <origDate notBefore="1200" notAfter="1300">xiiith
                 cent.</origDate>
             </origin>
             <provenance/>
@@ -331,6 +323,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-01-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-01-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-03-30" who="http://syriaca.org/documentation/editors.xml#wpotter">Initial
         TEI encoding.</change>

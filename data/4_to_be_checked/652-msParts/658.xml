@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
@@ -80,30 +79,23 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="" from=""/>
-              <author ref=""/>
-              <title ref="" xml:lang="en">Fragments of a Jacobite Lectionary from the Old and New
+              
+              
+              <title xml:lang="en">Fragments of a Jacobite Lectionary from the Old and New
                 Testaments</title>
               <note>Fol. 21 was probably a flyleaf of this volume.</note>
               <msItem xml:id="b1" n="2">
-                <locus to="" from="18b"/>
-                <title ref="" xml:lang="en">The lessons for the Revelation of <persName ref="http://syriaca.org/person/1838">S. Joseph</persName>
+                <locus from="18b"/>
+                <title xml:lang="en">The lessons for the Revelation of <persName ref="http://syriaca.org/person/1838">S. Joseph</persName>
                 </title>
                 <rubric xml:lang="syr">ܕܓܠܝܢܗ ܕܝܘܣܦ </rubric>
-                <incipit xml:lang="syr"/>
-                <quote xml:lang="syr">
-                  <locus from="" to=""/>
-                </quote>
-                <explicit xml:lang="syr">
-                  <locus to="" from=""/>
-                </explicit>
-                <finalRubric xml:lang="syr">
-                  <locus to="" from=""/>
-                </finalRubric>
-                <note/>
+                
+                
+                
+                
+                
               </msItem>
             </msItem>
             <msItem xml:id="a2" n="3" defective="true">
@@ -111,18 +103,12 @@
               <author ref="http://syriaca.org/person/1855">S. Luke</author>
               <title ref="http://syriaca.org/work/9648" xml:lang="en">S. Luke, ch. i. v.
                 46—56</title>
-              <rubric xml:lang="syr"/>
-              <incipit xml:lang="syr"/>
-              <quote xml:lang="syr">
-                <locus from="" to=""/>
-              </quote>
-              <explicit xml:lang="syr">
-                <locus to="" from=""/>
-              </explicit>
-              <finalRubric xml:lang="syr">
-                <locus to="" from=""/>
-              </finalRubric>
-              <note/>
+              
+              
+              
+              
+              
+              
             </msItem>
           </msContents>
           <physDesc>
@@ -153,7 +139,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="" to=""/>
+                  <locus/>
                   <p/>
                   <p>
                     <quote xml:lang="syr"/>
@@ -167,7 +153,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1200" notAfter="1300" from="" to="" when="">xiiith
+              <origDate notBefore="1200" notAfter="1300">xiiith
                 cent.</origDate>
             </origin>
             <provenance/>
@@ -357,6 +343,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-01-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-01-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-03-30" who="http://syriaca.org/documentation/editors.xml#wpotter">Initial
         TEI encoding.</change>
