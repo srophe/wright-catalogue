@@ -16,9 +16,9 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <idno type="URI"></idno>
+            <idno type="URI">666</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark"></idno>
+              <idno type="BL-Shelfmark">Add14736 foll. 56, 57</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
@@ -27,8 +27,25 @@
             <msItem>
               <locus to="" from=""/>
               <author ref=""/>
-              <title ref="" xml:lang="en"/>
-              <rubric xml:lang="syr"/>
+              <title ref="" xml:lang="en">Short hymns for various occasions, numbered from ܠܗ to ܡܚ </title>
+              <rubric xml:lang="syr">ܣ̈ܒܠܬܐ</rubric>
+              <incipit xml:lang="syr"/>
+              <quote xml:lang="syr">
+                <locus from="" to=""/>
+              </quote>
+              <explicit xml:lang="syr">
+                <locus to="" from=""/>
+              </explicit>
+              <finalRubric xml:lang="syr">
+                <locus to="" from=""/>
+              </finalRubric>
+              <note/>
+            </msItem>
+            <msItem>
+              <locus to="" from=""/>
+              <author ref=""/>
+              <title ref="" xml:lang="en">Other hymns</title>
+              <rubric xml:lang="syr">ܩܠܝܠ ܩ̈ܠܐ ܡܢܗܘܢ ܕܡܕܪ̈ܫܐ</rubric>
               <incipit xml:lang="syr"/>
               <quote xml:lang="syr">
                 <locus from="" to=""/>
@@ -44,7 +61,7 @@
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -53,7 +70,8 @@
                 <condition>
                   <list>
                     <item>
-                      <p></p>
+                      <p>Two paper leaves, about 10 5/8 in. by 6 7/8, with 22 lines in each
+                        page.</p>
                     </item>
                   </list>
                 </condition>
@@ -63,9 +81,8 @@
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote scope="" script=""
-                medium="">
-                <desc></desc>
+              <handNote scope="sole" script="syr" medium="unknown">
+                <desc>The writing is good and regular, of the <date>xvth cent.</date></desc>
               </handNote>
             </handDesc>
             <additions>
@@ -88,8 +105,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="" notAfter="" from="" to=""
-                when=""></origDate>
+              <origDate notBefore="1400" notAfter="1500" from="" to="" when="">xvth cent.</origDate>
               <origPlace ref="" xml:lang=""></origPlace>
             </origin>
             <provenance/>
@@ -104,7 +120,8 @@
     </encodingDesc>
     <profileDesc/>
     <revisionDesc status="draft">
-      <change when="" who="http://syriaca.org/documentation/editors.xml#wpotter">Initial TEI encoding.</change>
+      <change when="2020-04-01" who="http://syriaca.org/documentation/editors.xml#wpotter">Initial
+        TEI encoding.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

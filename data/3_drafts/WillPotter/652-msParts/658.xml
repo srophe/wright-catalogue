@@ -16,18 +16,43 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <idno type="URI"></idno>
+            <idno type="URI">658</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark"></idno>
+              <idno type="BL-Shelfmark">Add 14736 foll. 13-21</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <summary/>
             <textLang mainLang="syr"/>
-            <msItem>
+            <msItem defective="true">
               <locus to="" from=""/>
               <author ref=""/>
-              <title ref="" xml:lang="en"/>
+              <title ref="" xml:lang="en">Fragments of a Jacobite Lectionary from the Old and New
+                Testaments</title>
+              <note>Fol. 21 was probably a flyleaf of this volume.</note>
+              <msItem>
+                <locus to="" from="18b"/>
+                <title ref="" xml:lang="en">The lessons for the Revelation of <persName
+                    ref="http://syriaca.org/person/1838">S. Joseph</persName></title>
+                <rubric xml:lang="syr">ܕܓܠܝܢܗ ܕܝܘܣܦ </rubric>
+                <incipit xml:lang="syr"/>
+                <quote xml:lang="syr">
+                  <locus from="" to=""/>
+                </quote>
+                <explicit xml:lang="syr">
+                  <locus to="" from=""/>
+                </explicit>
+                <finalRubric xml:lang="syr">
+                  <locus to="" from=""/>
+                </finalRubric>
+                <note/>
+              </msItem>
+            </msItem>
+            <msItem defective="true">
+              <locus to="21" from="21a"/>
+              <author ref="http://syriaca.org/person/1855">S. Luke</author>
+              <title ref="http://syriaca.org/work/9648" xml:lang="en">S. Luke, ch. i. v.
+                46—56</title>
               <rubric xml:lang="syr"/>
               <incipit xml:lang="syr"/>
               <quote xml:lang="syr">
@@ -44,7 +69,7 @@
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -53,7 +78,9 @@
                 <condition>
                   <list>
                     <item>
-                      <p></p>
+                      <p>Nine paper leaves, about 9 3/4 in. by 6 3/4, several of which are much torn
+                        (Add. 14,736, foll. 13—21). The quires are signed with Syriac and Armenian
+                        letters (foll. 18 b, 19 a). There are from 15 to 17 lines in each page. </p>
                     </item>
                   </list>
                 </condition>
@@ -63,9 +90,8 @@
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote scope="" script=""
-                medium="">
-                <desc></desc>
+              <handNote scope="sole" script="syr" medium="unknown">
+                <desc>The writing is large and coarse, of the <date>xiiith cent.</date></desc>
               </handNote>
             </handDesc>
             <additions>
@@ -88,9 +114,8 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="" notAfter="" from="" to=""
-                when=""></origDate>
-              <origPlace ref="" xml:lang=""></origPlace>
+              <origDate notBefore="1200" notAfter="1300" from="" to="" when="">xiiith
+                cent.</origDate>
             </origin>
             <provenance/>
             <acquisition/>
@@ -104,7 +129,8 @@
     </encodingDesc>
     <profileDesc/>
     <revisionDesc status="draft">
-      <change when="" who="http://syriaca.org/documentation/editors.xml#wpotter">Initial TEI encoding.</change>
+      <change when="2020-03-30" who="http://syriaca.org/documentation/editors.xml#wpotter">Initial
+        TEI encoding.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

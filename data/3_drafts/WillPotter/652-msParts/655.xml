@@ -16,35 +16,35 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <idno type="URI"></idno>
+            <idno type="URI">655</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark"></idno>
+              <idno type="BL-Shelfmark">Add 14736 foll. 4-9</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <summary/>
             <textLang mainLang="syr"/>
             <msItem>
-              <locus to="" from=""/>
-              <author ref=""/>
-              <title ref="" xml:lang="en"/>
-              <rubric xml:lang="syr"/>
-              <incipit xml:lang="syr"/>
-              <quote xml:lang="syr">
-                <locus from="" to=""/>
-              </quote>
-              <explicit xml:lang="syr">
+              <locus to="9b" from="4a"/>
+              <author ref="http://syriaca.org/person/13">Ephraim</author>
+              <title ref="" xml:lang="en">Part of two funeral discourses of Ephraim</title>
+              <msItem>
                 <locus to="" from=""/>
-              </explicit>
-              <finalRubric xml:lang="syr">
+                <author ref="http://syriaca.org/person/13">Ephraim</author>
+                <title ref="" xml:lang="en">Discourse 1</title>
+              </msItem>
+              <msItem>
                 <locus to="" from=""/>
-              </finalRubric>
-              <note/>
+                <author ref="http://syriaca.org/person/13">Ephraim</author>
+                <title ref="" xml:lang="en">On women</title>
+                <rubric xml:lang="syr">ܕܥܠ ܢܫ̈ܐ</rubric>
+                <incipit xml:lang="syr">ܡ̇ܘܬܗ̇ ܕܚ̇ܘܐ ܐܬܕܟܪܬ. ܘܐܬܓ݁ܢܚܬ ܘܐܚ̇ܕܢܝ ܬܗܪܐ</incipit>
+              </msItem>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -53,7 +53,8 @@
                 <condition>
                   <list>
                     <item>
-                      <p></p>
+                      <p>Six paper leaves, about 10 1/8 in. by 6 ¾, with from 18 to 20 lines in each
+                        page.</p>
                     </item>
                   </list>
                 </condition>
@@ -63,9 +64,8 @@
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote scope="" script=""
-                medium="">
-                <desc></desc>
+              <handNote scope="sole" script="syr" medium="unknown">
+                <desc>The writing is good and regular, of the <date>xiiith cent.</date></desc>
               </handNote>
             </handDesc>
             <additions>
@@ -88,8 +88,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="" notAfter="" from="" to=""
-                when=""></origDate>
+              <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate>
               <origPlace ref="" xml:lang=""></origPlace>
             </origin>
             <provenance/>
@@ -104,7 +103,8 @@
     </encodingDesc>
     <profileDesc/>
     <revisionDesc status="draft">
-      <change when="" who="http://syriaca.org/documentation/editors.xml#wpotter">Initial TEI encoding.</change>
+      <change when="2020-03-30" who="http://syriaca.org/documentation/editors.xml#wpotter">Initial
+        TEI encoding.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

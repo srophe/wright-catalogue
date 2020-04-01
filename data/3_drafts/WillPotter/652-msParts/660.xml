@@ -16,19 +16,20 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <idno type="URI"></idno>
+            <idno type="URI">660</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark"></idno>
+              <idno type="BL-Shelfmark">Add 14736 fol. 33</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <summary/>
             <textLang mainLang="syr"/>
-            <msItem>
-              <locus to="" from=""/>
-              <author ref=""/>
-              <title ref="" xml:lang="en"/>
-              <rubric xml:lang="syr"/>
+            <msItem defective="true">
+              <locus to="" from="33"/>
+              <author ref="http://syriaca.org/person/44">Philoxenus of Mabug</author>
+              <title ref="" xml:lang="en">A small portion of one of the Anaphoras of Philoxenus of
+                Mabug</title>
+              <rubric xml:lang="syr">ܕܡܪܝ ܐܟܣܢܝܐ ܝ ܐܦܝܣ[ܩܘܦܐ ܕܡܒܘܓ]</rubric>
               <incipit xml:lang="syr"/>
               <quote xml:lang="syr">
                 <locus from="" to=""/>
@@ -43,8 +44,8 @@
             </msItem>
           </msContents>
           <physDesc>
-            <objectDesc form="codex">
-              <supportDesc material="perg">
+            <objectDesc form="leaf">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -53,7 +54,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p></p>
+                      <p>A paper leaf, much torn</p>
                     </item>
                   </list>
                 </condition>
@@ -63,9 +64,8 @@
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote scope="" script=""
-                medium="">
-                <desc></desc>
+              <handNote scope="sole" script="syr" medium="unknown">
+                <desc>Written in an inelegant hand of the <date>xiiith cent.</date></desc>
               </handNote>
             </handDesc>
             <additions>
@@ -88,9 +88,8 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="" notAfter="" from="" to=""
-                when=""></origDate>
-              <origPlace ref="" xml:lang=""></origPlace>
+              <origDate notBefore="1200" notAfter="1300" from="" to="" when="">xiiith
+                cent.</origDate>
             </origin>
             <provenance/>
             <acquisition/>
@@ -104,7 +103,8 @@
     </encodingDesc>
     <profileDesc/>
     <revisionDesc status="draft">
-      <change when="" who="http://syriaca.org/documentation/editors.xml#wpotter">Initial TEI encoding.</change>
+      <change when="2020-03-30" who="http://syriaca.org/documentation/editors.xml#wpotter">Initial
+        TEI encoding.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

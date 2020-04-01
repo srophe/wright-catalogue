@@ -16,18 +16,21 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <idno type="URI"></idno>
+            <idno type="URI">669</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark"></idno>
+              <idno type="BL-Shelfmark">Add 14736 fol. 60</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <summary/>
             <textLang mainLang="syr"/>
-            <msItem>
-              <locus to="" from=""/>
+            <msItem defective="true">
+              <locus to="60" from="60"/>
               <author ref=""/>
-              <title ref="" xml:lang="en"/>
+              <title ref="" xml:lang="en">Part of a litany of <persName>the Apostles</persName>,
+                  <persName>the seventy Disciples</persName>, and <persName>various Saints and
+                  Fathers</persName></title>
+              <!--need subparts? for this item?-->
               <rubric xml:lang="syr"/>
               <incipit xml:lang="syr"/>
               <quote xml:lang="syr">
@@ -43,8 +46,8 @@
             </msItem>
           </msContents>
           <physDesc>
-            <objectDesc form="codex">
-              <supportDesc material="perg">
+            <objectDesc form="leaf">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -53,7 +56,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p></p>
+                      <p>A paper leaf, about 10 in. by 6 1/2, much mutilated.</p>
                     </item>
                   </list>
                 </condition>
@@ -63,9 +66,8 @@
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote scope="" script=""
-                medium="">
-                <desc></desc>
+              <handNote scope="sole" script="syr" medium="unknown">
+                <desc>Written in a good hand of the <date>xvth cent.</date></desc>
               </handNote>
             </handDesc>
             <additions>
@@ -88,8 +90,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="" notAfter="" from="" to=""
-                when=""></origDate>
+              <origDate notBefore="1400" notAfter="1500" from="" to="" when="">xvth cent.</origDate>
               <origPlace ref="" xml:lang=""></origPlace>
             </origin>
             <provenance/>
@@ -104,7 +105,8 @@
     </encodingDesc>
     <profileDesc/>
     <revisionDesc status="draft">
-      <change when="" who="http://syriaca.org/documentation/editors.xml#wpotter">Initial TEI encoding.</change>
+      <change when="2020-04-01" who="http://syriaca.org/documentation/editors.xml#wpotter">Initial
+        TEI encoding.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

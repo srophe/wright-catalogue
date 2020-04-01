@@ -16,18 +16,18 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <idno type="URI"></idno>
+            <idno type="URI">663</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark"></idno>
+              <idno type="BL-Shelfmark">Add 14736 fol. 48</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <summary/>
             <textLang mainLang="syr"/>
             <msItem>
-              <locus to="" from=""/>
+              <locus to="48" from="48"/>
               <author ref=""/>
-              <title ref="" xml:lang="en"/>
+              <title ref="" xml:lang="en">Part of a Funeral Service</title>
               <rubric xml:lang="syr"/>
               <incipit xml:lang="syr"/>
               <quote xml:lang="syr">
@@ -43,8 +43,8 @@
             </msItem>
           </msContents>
           <physDesc>
-            <objectDesc form="codex">
-              <supportDesc material="perg">
+            <objectDesc form="leaf">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -53,7 +53,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p></p>
+                      <p>A paper leaf, much mutilated.</p>
                     </item>
                   </list>
                 </condition>
@@ -63,9 +63,8 @@
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote scope="" script=""
-                medium="">
-                <desc></desc>
+              <handNote scope="sole" script="syr" medium="unknown">
+                <desc>Written in a good, regular hand of the <date>xiiith cent.</date></desc>
               </handNote>
             </handDesc>
             <additions>
@@ -88,8 +87,8 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="" notAfter="" from="" to=""
-                when=""></origDate>
+              <origDate notBefore="1200" notAfter="1300" from="" to="" when="">xiiith
+                cent.</origDate>
               <origPlace ref="" xml:lang=""></origPlace>
             </origin>
             <provenance/>
@@ -104,7 +103,8 @@
     </encodingDesc>
     <profileDesc/>
     <revisionDesc status="draft">
-      <change when="" who="http://syriaca.org/documentation/editors.xml#wpotter">Initial TEI encoding.</change>
+      <change when="2020-04-01" who="http://syriaca.org/documentation/editors.xml#wpotter">Initial
+        TEI encoding.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

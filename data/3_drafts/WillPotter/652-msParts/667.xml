@@ -16,19 +16,20 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <idno type="URI"></idno>
+            <idno type="URI">667</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark"></idno>
+              <idno type="BL-Shelfmark">Add 14736 fol. 58</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <summary/>
             <textLang mainLang="syr"/>
             <msItem>
-              <locus to="" from=""/>
+              <locus to="58" from="58"/>
               <author ref=""/>
-              <title ref="" xml:lang="en"/>
-              <rubric xml:lang="syr"/>
+              <title ref="" xml:lang="en">Psalms and hymns</title>
+              <rubric xml:lang="syr">܏ܡܙܡ ܕ܏ܩܝܘ, ܩܠܐ
+                ܩܕܡܝܐ<!--check the Syriac order here. Unclear even from PDF...--></rubric>
               <incipit xml:lang="syr"/>
               <quote xml:lang="syr">
                 <locus from="" to=""/>
@@ -43,8 +44,8 @@
             </msItem>
           </msContents>
           <physDesc>
-            <objectDesc form="codex">
-              <supportDesc material="perg">
+            <objectDesc form="leaf">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -53,7 +54,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p></p>
+                      <p>A paper leaf, about 10 1/2, by 6 7/8, slightly stained and torn</p>
                     </item>
                   </list>
                 </condition>
@@ -63,9 +64,8 @@
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote scope="" script=""
-                medium="">
-                <desc></desc>
+              <handNote scope="sole" script="syr" medium="unknown">
+                <desc>written in a good hand of the <date>xvth cent</date>.</desc>
               </handNote>
             </handDesc>
             <additions>
@@ -88,8 +88,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="" notAfter="" from="" to=""
-                when=""></origDate>
+              <origDate notBefore="1400" notAfter="1500" from="" to="" when="">xvth cent</origDate>
               <origPlace ref="" xml:lang=""></origPlace>
             </origin>
             <provenance/>
@@ -104,7 +103,10 @@
     </encodingDesc>
     <profileDesc/>
     <revisionDesc status="draft">
-      <change when="" who="http://syriaca.org/documentation/editors.xml#wpotter">Initial TEI encoding.</change>
+      <change when="2020-04-01" who="http://syriaca.org/documentation/editors.xml#wpotter">Initial
+        TEI encoding.</change>
+      <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs to
+        be checked for accuracy</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

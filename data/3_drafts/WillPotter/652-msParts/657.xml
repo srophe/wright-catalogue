@@ -16,19 +16,18 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <idno type="URI"></idno>
+            <idno type="URI">657</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark"></idno>
+              <idno type="BL-Shelfmark">Add 14736 fol. 12</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <summary/>
             <textLang mainLang="syr"/>
             <msItem>
-              <locus to="" from=""/>
-              <author ref=""/>
-              <title ref="" xml:lang="en"/>
-              <rubric xml:lang="syr"/>
+              <locus to="12" from="12a"/>
+              <title ref="" xml:lang="en">The conclusion of the history of <persName>the eight
+                  Youths of <placeName>Ephesus</placeName></persName></title>
               <incipit xml:lang="syr"/>
               <quote xml:lang="syr">
                 <locus from="" to=""/>
@@ -43,8 +42,8 @@
             </msItem>
           </msContents>
           <physDesc>
-            <objectDesc form="codex">
-              <supportDesc material="perg">
+            <objectDesc form="leaf">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -53,7 +52,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p></p>
+                      <p>A paper leaf, 9 7/8 in. by 6 7/8</p>
                     </item>
                   </list>
                 </condition>
@@ -63,9 +62,8 @@
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote scope="" script=""
-                medium="">
-                <desc></desc>
+              <handNote scope="sole" script="syr" medium="unknown">
+                <desc>Written in an inelegant hand of <date>about the xivth cent.</date></desc>
               </handNote>
             </handDesc>
             <additions>
@@ -88,8 +86,8 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="" notAfter="" from="" to=""
-                when=""></origDate>
+              <origDate notBefore="1250" notAfter="1450" from="" to="" when="">about the xivth
+                cent.</origDate>
               <origPlace ref="" xml:lang=""></origPlace>
             </origin>
             <provenance/>
@@ -104,7 +102,8 @@
     </encodingDesc>
     <profileDesc/>
     <revisionDesc status="draft">
-      <change when="" who="http://syriaca.org/documentation/editors.xml#wpotter">Initial TEI encoding.</change>
+      <change when="2020-03-30" who="http://syriaca.org/documentation/editors.xml#wpotter">Initial
+        TEI encoding.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
