@@ -13,7 +13,6 @@
         <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
-        
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</editor>
         <respStmt>
@@ -26,8 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
-        </respStmt>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>        </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
@@ -84,13 +82,10 @@
             <msItem xml:id="a1" n="1" defective="true">
               <locus to="14a" from="1">Foll. 1-14a</locus>
               <author ref="http://syriaca.org/person/573">John Chrysostom</author>
-              <title xml:lang="en">Discourse of <persName ref="http://syriaca.org/person/573">John Chrysostom</persName> on Psalm
-                        li</title>
               <rubric xml:lang="syr">ܦܘܫܩܐ ܕܪܚܲܡ ܥܠܝ ܠܦܘܡܐ ܕܕܗܒܐ.</rubric>
+              <title xml:lang="en">Discourse of <persName ref="http://syriaca.org/person/573">John
+                  Chrysostom</persName> on Psalm li.</title>
               
-              <quote xml:lang="syr">
-                        <locus from="1a" to="1"/>
-                     </quote>
               
               <finalRubric xml:lang="syr">ܫ̣ܠܡ ܦܘܫܩܐ ܕܥܠ ܪܚܡ ܥܠܝ ܐܠܗܐ ܐܝܟ ܛܝܒܘܬܟ. ܕܐܡܝܪ
                         ܠܩܕܝܫܐ ܝܘܚܢܢ ܕܩܘܣܛܢܛܝܢܦܘܠܝܣ.<locus to="14" from="14a"/>
@@ -165,7 +160,7 @@
                   <title xml:lang="en">The fifth</title>
                   <rubric xml:lang="syr">ܡܐܡܪܐ ܕܚܡܫܐ ܕܒ̈ܥܘܬܐ</rubric>
                   <incipit xml:lang="syr">ܝܫܘܥ ܫܘܦܪܐ ܕܒܥܘܬܢ ܗܒ ܥܘܕܪܢܐ ܠܨܠܘܬܢ. ܕܒܟ ܬܬܥܠܐ ܨܝܕ
-                              ܐܒܘܟ. ܕܬܦܢܐ ܠܢ ܫܐ̈ܠܬܢ. ܏ܘܫ.</incipit>
+                              ܐܒܘܟ. ܕܬܦܢܐ ܠܢ ܫܐ̈ܠܬܢ. ܏ܘܫ.<locus from="31b"/></incipit>
                   
                   
                   
@@ -178,7 +173,7 @@
                   <rubric xml:lang="syr">ܡܐܡܪܐ ܕܫܬܐ ܕܒܥ̈ܘܬܐ ܘܡܛܠ ܕܠܒ̣ܫ ܡܕܒܚܐ
                               ܐܘ̈ܟܡܐ</rubric>
                   <incipit xml:lang="syr">ܟܡܝܪ ܐܐܪ ܡܛܠ ܥܘ̣ܠܢ ܘܡܛܠܬܢ ܡܬܢܓܕ. ܘܗܐ ܒܠܥ̇ܝܢ ܚܢܢ
-                              ܕܗܘܝܢܢ ܥܠܬܐ ܠܟܠܗ̇ ܡܪܕܘܬܐ. ܏ܘܫ. </incipit>
+                              ܕܗܘܝܢܢ ܥܠܬܐ ܠܟܠܗ̇ ܡܪܕܘܬܐ. ܏ܘܫ. <locus from="36a"/></incipit>
                   
                   
                   
@@ -196,14 +191,16 @@
                 
                 
                 <note>The last is wrongly numbered ܡܐܡܪܐ ܕܫܬܐ.</note>
+                <note>See <bibl>Assemani, Bibl. Or., t. i., p. 232, no. 79.</bibl></note>
               </msItem>
               <msItem xml:id="b5" n="10">
                 
                 
                 <title xml:lang="en">Discourse on Psalm xvi. 8</title>
                 
-                <incipit xml:lang="syr">ܒܟܠ ܙܒܡܐܡܪܐ ܥܠ ܗ̇ܝ ܕܐܡ̣ܪ ܕܘܝܕ. ܕܣܡܬ ܠܡܪܝܐ ܠܘܩܒܠ
-                           (sic)</incipit>
+                <rubric xml:lang="syr">ܒܟܠ ܙܒܡܐܡܪܐ ܥܠ ܗ̇ܝ ܕܐܡ̣ܪ ܕܘܝܕ. ܕܣܡܬ ܠܡܪܝܐ ܠܘܩܒܠ
+                  ܒܟܠ ܙܒܢ(sic)</rubric>
+                <incipit xml:lang="syr">ܨܒܝܢܟ ܡܪܝ ܢܗܘܐ ܠܝ ܡܠܦܢܐ ܕܡܚ̇ܟܡ ܠܝ. ܕܨܒܝܢܝ ܕܝܠܝ ܒܝܫ ܘܡܡܪܕ ܐܫ̣ܪܐ ܒܨܒܝܢܝ ܨܒܝܢܟ. ܏ܘܫ.<locus from="65a"/></incipit>
                 
                 
                 
@@ -215,7 +212,7 @@
                 <title xml:lang="en">Paraenetic discourse</title>
                 <rubric xml:lang="syr">ܕܡܟܣܢܘܬܐ</rubric>
                 <incipit xml:lang="syr">ܠܡܕܡ ܗ̣ܘ ܩܪ̈̇ܢ ܐܠܗܐ ܘܡܕܡ ܗܘ ܚܪܝܢ ܦܘܠܚܢܢ: ܕܢܡܘܬ ܡܟܐ
-                           ܡ̇ܠܦ ܠܢ ܘܗܪܟܐ ܢܨܝܒܐ ܬܪܥܝܬܢ. ܏ܘܫ.</incipit>
+                           ܡ̇ܠܦ ܠܢ ܘܗܪܟܐ ܢܨܝܒܐ ܬܪܥܝܬܢ. ܏ܘܫ.<locus from="70b"/></incipit>
                 
                 
                 
@@ -226,7 +223,7 @@
               <locus to="98" from="78b">Foll. 78b-98</locus>
               <author>Basil</author>
               <title xml:lang="en">Two letters of <persName>Basil</persName> to a
-                        fallen virgin</title>
+                fallen virgin; viz.</title>
               
               
               
@@ -237,18 +234,18 @@
                 <locus to="84" from="78b">Foll. 78b-94</locus>
                 
                 <title xml:lang="en">First Letter to a fallen virgin</title>
-                <rubric xml:lang="syr">ܐܓܪܬܐ ܩܕܡܝܬܐ ܕܡܪܬܝܢܘܬܐ ܕܐܫܬܕܪܬ ܡܢ ܩܕܝܫܐ ܒܣ݅ܝ݅ܠܝ݅ܣ܆
+                <quote xml:lang="syr">ܐܓܪܬܐ ܩܕܡܝܬܐ ܕܡܪܬܝܢܘܬܐ ܕܐܫܬܕܪܬ ܡܢ ܩܕܝܫܐ ܒܣ݅ܝ݅ܠܝ݅ܣ܆
                            ܠܒܬܘܠܬܐ ܕܢܦ̣ܠܬ̇ ܡܢ ܩܝܵܡܗ̇ ܘܗܘ̣ܬ ܒܙܘܘܵܓܐ. ܘܥܡܗ̇ ܕܫܘܠܡܐ ܕܩ̣ܪܝܢܗ̇ ܕܐܓܪܬܐ̣.
                            ܕܠܘܬܗ̇ ܠܬܘܬ ܢܦܫܐ ܐܬ݂ܢܓܕܬ: ܘܡܢ ܓܒܪܗ̇ ܫ̣ܢܝܬ̇. ܘܐܣܝܪܬܐ ܒܥܘܡܪܗ̇ ܗܘ̣ܬ̇.
                            ܒܚܘܫܚܗ̇ ܕܡܟܘܠܬܐ ܝܚܝܕܝܬܐ. ܕܠܚܡܐ ܘܕܡ̈ܝܐ. ܘܡܢ ܚܫܐ ܕܨܠܘ̈ܬܗ̇ ܣܓܝܐ̈ܬܐ̣. ܕܡ̈ܥܝܗ̇
                            ܥܠ ܦܟ̈ܝܗ ܫܚ̈ܠܢ ܗܘ̈ܝ: ܘܠܗܝܢ ܒܟ̣ܰܣܳܐ (sic) ܟܠ ܝܘܡ ܡܩܒܠܐ ܗܘ̣ܬ. ܘܠܥܕܢܐ
                            ܕܛܥܘܡܗ̇ ܠܗ̈ܝܢ ܒܚܘܠܛܢܐ ܕܡ̈ܝܐ ܫ̇ܬܝܐ ܗܘܬ. ܥܕܡܐ ܠܙܒܢܐ ܕܥܘܢܕܢܗ̇. ܘܒܗܢܐ ܚܫܐ
-                           ܕܬܝܒܘܬܐ ܡܢ ܥܠܡ ܢܦ̣ܩܬ</rubric>
+                           ܕܬܝܒܘܬܐ ܡܢ ܥܠܡ ܢܦ̣ܩܬ</quote>
                 
                 
                 
                 
-                <note>See Opera, t. iii., p. 191, ep. xlvi. </note>
+                <note>See <bibl>Opera, t. iii., p. 191, ep. xlvi.</bibl> </note>
               </msItem>
               <msItem xml:id="b8" n="14">
                 <locus to="98" from="85a">Foll. 85a-98</locus>
@@ -278,7 +275,7 @@
               
               
               
-              <note>See Add. 14,587, no. 34.</note>
+              <note>See <bibl>Add. 14,587<ptr target="http://syriaca.org/manuscript/323"/><citedRange unot="locus">no. 34</citedRange>.</bibl></note>
             </msItem>
             <msItem xml:id="a6" n="16">
               <locus to="101" from="101b"/>
@@ -295,7 +292,7 @@
             <msItem xml:id="a7" n="17">
               <locus from="102a"/>
               <author ref="http://syriaca.org/person/354">Athanasius</author>
-              <title xml:lang="en">Writings of <persName ref="http://syriaca.org/person/354">Athanasius</persName>
+              <title xml:lang="en">Writings of <persName ref="http://syriaca.org/person/354">Athanasius</persName>; viz.
               </title>
               
               
@@ -313,7 +310,7 @@
                 <incipit xml:lang="syr">ܟܐܒ̇ ܠܢ ܥܡܟܝܢ ܐܡ̈ܗܬܗ ܕܡܫܝܚܐ̇. ܕܟܕ ܦܪܫܢ ܗܘܝܬܝܢ ܡܢ
                            ܕܘܟ̈ܝܬܐ ܩܕܝ̈ܫܬܐ̇. ܬܦ̈ܐ ܕܕܡ̈ܥܐ ܡܪܝܪ̈ܬܐ ܐܫܕܬܝܢ. ܟܕ ܡܗܠܟܘ ܡܗ̈ܠܟܢ ܗܘܝܬܝܢ
                            ܘܒ̈ܟܝܢ̇. ܒܗ̇ܝ ܕܠܪܘܚܩܐ ܫܒܩܢ ܗܘܝܬܝܢ ܠܡܥܪܬܗ ܕܡܪܝܐ̇. ܗ̇ܝ ܕܐܝܬܝܗ ܕܡܘܬܗ
-                           ܕܦܪܕܝܣܐ. ܏ܘܫ. </incipit>
+                           ܕܦܪܕܝܣܐ. ܏ܘܫ.<locus from="102a"/></incipit>
                 
                 
                 
@@ -325,7 +322,7 @@
                 <title xml:lang="en">Discourse on virginity</title>
                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܒܬܘܠܘܬܐ</rubric>
                 <incipit xml:lang="syr">ܒܬܘܠܬܐ ܨܒܝܐ ܐܢܬܝ ܠܡܗܘܐ̣. ܠܐ ܐܝܟ ܕܐܢܬܝ ܨܒܝܐ ܐܢܬܝ. ܐܠܐ
-                           ܐܝܟ ܕܡܪܝܐ ܗܘ ܕܐܢܬܝ ܡܬܚܬܢܬܝ ܠܗ. ܏ܘܫ. </incipit>
+                           ܐܝܟ ܕܡܪܝܐ ܗܘ ܕܐܢܬܝ ܡܬܚܬܢܬܝ ܠܗ. ܏ܘܫ.<locus from="115a"/></incipit>
                 
                 
                 
@@ -349,8 +346,7 @@
                                     imperfect. They have been subsequently numbered from ܐ to ܝܓ.
                                     Leaves are wanting both at the beginning and end, as well as
                                     after foll. 5 and 30. Each page is divided into two columns, of
-                                    from 20 to 29 lines. Greek and Syriac vowels have been
-                                    occasionally added at a later period. </p>
+                                    from 20 to 29 lines.</p>
                               </item>
                            </list>
                         </condition>
@@ -373,17 +369,17 @@
                 <item xml:id="addition1" n="1">
                            <locus from="39a" to="39"/>
                            <p>At the foot of fol. 39 a, there is a note of comparatively recent
-                              date, mentioning the name of a reader, "Zākhē the oriental."</p>
+                              date, mentioning the name of a reader, <persName>"Zākhē the oriental."</persName></p>
                            <p>
                     <quote xml:lang="syr">ܙܟܐ ܡܕܢܚܝܐ. </quote>
                   </p>
                         </item>
                 <item xml:id="addition2" n="2">
-                           <locus/>
+                           <locus from="101b"/>
                            <p>Margin, in a later hand.</p>
-                           <p>
-                              <quote xml:lang="syr">ܦܘܡܐ ܕܕܗܒܐ</quote>
-                           </p>
+                  <p>
+                              <quote xml:lang="syr">ܦܘܡܐ ܕܕܗܒܐ</quote> </p>
+                           
                         </item>
               </list>
             </additions>

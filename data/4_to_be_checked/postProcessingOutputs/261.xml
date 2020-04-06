@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -83,7 +83,7 @@
             <msItem xml:id="a1" n="1">
               
               <author ref="http://syriaca.org/person/44">Philoxenus of Mabūg</author>
-              <title xml:lang="en">The Commentary of Philoxenus of Mabūg on select passages
+              <title xml:lang="en">The Commentary of <persName ref="http://syriaca.org/person/44">Philoxenus of Mabūg</persName> on select passages
                 of the Gospels, more especially on chap. i. 1—18 of the Gospel of <persName>S. John</persName>.</title>
               <quote xml:lang="syr">ܒܪܡ ܕܝܢ ܡܛܠ ܕܗܪ̈ܛܝܩܐ ܐܝܠܝܢ ܕܗܫܐ ܡܥܩܡܝܢ ܐܘܪܚܐ ܕܗܝܡܢܘܬܐ: ܕܐܝܬܝܗܘܢ
                 ܢܣܛܘܪ̈ܝܢܐ ܘܦܠܓܘܬ ܢܣܛܘܪ̈ܝܢܘ: ܕܡܢܗܘܢ ܒܪܢܫܐ ܕܠܒܪ ܡܢ ܬܠܝܬܝܘܬܐ ܡܣܬܟܠܝܢ ܠܡܫܝܚܐ܆ ܘܡܢܗܘܢ ܟܕ
@@ -129,9 +129,9 @@
                     <item>
                       <p>Vellum, about l0 7/8 in. by 6 7/8, consisting of 199 leaves, the first 9 of
                         which are stained with oil, and foll. 9 and 199 much torn. The quires,
-                        signed with letters, were ori¬ginally 24 in number (fol. 196 a, $ܟܕ), but
-                        the first three are lost, and the fourth is im¬perfect. There are from 25 to
-                        32 lines in each page.</p>
+                        signed with letters, were originally 24 in number (fol. 196 a,ܟܕ), but the
+                        first three are lost, and the fourth is imperfect. There are from 25 to 32
+                        lines in each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -140,8 +140,8 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr-Syre">
-                <desc>This volume is written in a fine, regular Estrangělā, and belongs, like Add.
-                  17,126, to the first quarter of the vith cent.</desc>
+                <desc>This volume is written in a fine, regular Estrangělā, and belongs, like <bibl>Add.
+                  17,126<ptr target="http://syriaca.org/manuscript/34"/></bibl>, to the first quarter of the vith cent.</desc>
               </handNote>
             </handDesc>
             <additions>
@@ -150,7 +150,7 @@
                 <item xml:id="addition1" n="1">
                   <locus from="199b"/>
                   <p>On the verso of this leaf there is a later note, stating that the book belonged
-                    to the convent of <persName>S. Alary Deipara</persName>.</p>
+                    to <placeName>the convent of <persName>S. Mary Deipara</persName></placeName>.</p>
                   <p>
                     <quote xml:lang="syr"/>
                   </p>
