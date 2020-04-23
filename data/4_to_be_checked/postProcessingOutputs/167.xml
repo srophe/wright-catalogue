@@ -26,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -83,7 +83,7 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
               <locus from="1a"/>
-              <title xml:lang="en">A work similar in character to Add. 12,138 and 12,178, but
+              <title xml:lang="en">A work similar in character to <bibl>Add. 12,138<ptr target="http://syriaca.org/manuscript/10"/></bibl> and <bibl>12,178<ptr target="http://syriaca.org/manuscript/77"/></bibl>, but
                 of much smaller dimensions, and confined to the Old Testament</title>
               <msItem xml:id="b1" n="2">
                 <locus from="1a"/>
@@ -112,7 +112,7 @@
               </msItem>
               <msItem xml:id="b2" n="8">
                 <locus from="13a"/>
-                <title ref="Joshua" xml:lang="en"/>
+                <title  xml:lang="en">Joshua</title>
               </msItem>
               <msItem xml:id="b3" n="9" defective="true">
                 <locus from="15b"/>
@@ -123,7 +123,7 @@
               <msItem xml:id="b4" n="10" defective="true">
                 <locus from="18b"/>
                 <title xml:lang="en">Job</title>
-                <note>The leaf which con¬tained ch. v. 22—xv. 34, is lost.</note>
+                <note>The leaf which contained ch. v. 22—xv. 34, is lost.</note>
               </msItem>
               <msItem xml:id="b5" n="11" defective="true">
                 <locus from="21a"/>
@@ -200,9 +200,8 @@
               <msItem xml:id="b17" n="28" defective="true">
                 <locus from="65a"/>
                 <title xml:lang="en">The Psalms</title>
-                <note>The loaves are wanting that contained Ps. xiii. 7—lxxxvii., and Ps. cix. 29 to
+                <note>The leaves are wanting that contained Ps. xiii. 7—lxxxvii., and Ps. cix. 29 to
                   the end.</note>
-                
               </msItem>
             </msItem>
           </msContents>
@@ -219,7 +218,7 @@
                         are much stained and torn, especially foll. 1—8, 11, 12, 16, 24—26, 55—59,
                         and 62—66. The quires are signed with letters (e.g. fol. 35 a, ܗ), but
                         several of them are either lost or imperfect. Leaves are wanting at the
-                        be-ginning and end, as well as after foll. 6, 18, 22, and 65. The number of
+                        beginning and end, as well as after foll. 6, 18, 22, and 65. The number of
                         lines in each page varies from 26 to 38. </p>
                     </item>
                   </list>
@@ -230,7 +229,9 @@
             <handDesc hands="1">
               <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
                 <desc>This manuscript is written in a rather careless, irregular hand of the xith or
-                  xiith cent.</desc>
+                  xiith cent. Greek vowels are added throughout (ܰ, ܶ, ܺ, ܳ, , , or %)
+                  <!--Greek vowels need added/corrected here-->; as also the points rukkākh and
+                  kushshāi, in the form of red dots. </desc>
               </handNote>
             </handDesc>
             <additions>
