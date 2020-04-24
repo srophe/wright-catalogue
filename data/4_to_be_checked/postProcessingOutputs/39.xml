@@ -273,7 +273,8 @@
               </msItem>
             </msItem>
           </msContents>
-            <physDesc><!-- We can't have a general physDesc, but much of what Wright gives us here is for the entire ms as it is now rather than for a specific part. How do we encode? -->
+            <physDesc>
+              <!-- We can't have a general physDesc, but much of what Wright gives us here is for the entire ms as it is now rather than for a specific part. How do we encode? -->
               <objectDesc form="codex">
                 <supportDesc material="perg">
                   <foliation/>
@@ -299,7 +300,8 @@
                 <handNote xml:id="p1handNote1" medium="unknown" scope="major" script="syr-Syre">
                   <desc>The greater part of the volume, from fol. 2 b to fol. 216 a (with the
                     exception of foll. 214 and 215), is written in a small, regular
-                    Estrangělā of the <date>viith cent.</date></desc>
+                    Estrangělā of the <date>viith cent.</date>
+                  </desc>
                 </handNote>
                 <handNote xml:id="p1handNote2" medium="unknown" scope="minor" script="syr">
                   <desc>See additions.On fol. 60 b a more modern hand has marked a division by four large
@@ -452,7 +454,8 @@
               <msItem xml:id="p2b3" n="8" defective="true">
                 <locus to="230" from="230a">Foll. 230a-230</locus>
                 <title xml:lang="en">An account of the miracles of <persName>Basil,
-                              bishop of <placeName>Caesarea</placeName></persName>, by his successor <persName>Helladius</persName>.</title>
+                              bishop of <placeName>Caesarea</placeName>
+                    </persName>, by his successor <persName>Helladius</persName>.</title>
                 <incipit xml:lang="syr">ܬܫܥܝܬܐ ܕܥܒ̣ܝܕܐ ܠܚܣܝܐ ܗܠܕܝܘܣ ܐܦܝܣܩܘܦܐ ܕܩܣܪܝܐ ܩܦܕܘܩܝܐ.
                            ܥܠ ܬܕܡܪ̈ܬܐ ܕܩܕܝܫܐ ܒܣܝܠܝܘܣ ܗ̇ܘ ܕܗ̣ܘܐ ܪܝܫ ܐܦܝ̈ܣܩܘܦܐ ܕܝܠܗ̇ ܕܡܕܝܢܬܐ</incipit>
                 <note>Imperfect, and very much soiled and torn.</note>
@@ -480,7 +483,8 @@
                   <handDesc hands="1">
               <handNote xml:id="p2handDesc1" medium="unknown" scope="sole" script="syr">
                         <desc>The latter part of the manuscript, viz. foll. 214, 215, and 216 a—230 b, is in a current
-                           hand of the <date>ixth cent.</date></desc>
+                           hand of the <date>ixth cent.</date>
+                  </desc>
                      </handNote>
             </handDesc>
                   <additions>
@@ -519,7 +523,8 @@
                 <citedRange unit="pp">2:721-723</citedRange>
               </bibl>
             </listBibl>
-          </additional></msPart>
+          </additional>
+          </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
