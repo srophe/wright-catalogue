@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
@@ -80,46 +79,33 @@
             </altIdentifier>
           </msIdentifier>
                <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="false">
               <locus to="86" from="1b">Foll. 1b-86</locus>
               <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
-              <title ref="" xml:lang="en">The metrical Grammar of <persName ref="http://syriaca.org/person/239">Gregory bar Hebraeus</persName>, with
+              <title xml:lang="en">The metrical Grammar of <persName ref="http://syriaca.org/person/239">Gregory bar Hebraeus</persName>, with
                         the Scholia.</title>
               <rubric xml:lang="syr">ܥܲܠ ܚܲܝܠܗ ܕܡܪܢ ܝ̣ܫܘܿܥ ܡܫܝ̣ܚܵܐ. ܡܫܲܪܹܝܢܢ ܠܡܸܟ݂ܬܵܒ݂
                         ܟܬ݂ܵܒ݂ܐ ܕܲܓ݂ܪܲܡܡܵܛܝ̣ܩܝ̣ ܒܲܡܫܘܼܚܬܵܐ ܕܡܪܝ ܐܦܪܝܡ ܕܣܝ̣ܡ ܘܲܡܛܲܟ݁ܣ ܣܲܓ݁ܝ̣
                         ܬܡܝ̣ܗܵܐܝ̣ܬ݂ ܒܣܘܿܓ݂ܵܐܐ ܕܦܵܣ̈ܝ̣ܩܵܬܐ ܠܩܲܕܝ̣ܫ ܕܘܼܟ݂ܪܵܢܐ ܘܲܚܣܹܐ ܥܘܼܗܕܵܢܐ ܐܒ݂ܘܢ
                         ܡܪܝ ܓܪܝ̣ܓ݂ܘܿܪܝ̣ܘܿܣ ܡܲܠܦܵܢܐ ܕܡܲܕܢ݈ܚܐ ܕܡܸܬ݁ܟ̣ܲܠܠ ܒܒܲܪ ܥܸܒܪܵܝܐ. </rubric>
-              <incipit xml:lang="syr"/>
-              <quote xml:lang="syr">
-                        <locus from="" to=""/>
-                     </quote>
-              <explicit xml:lang="syr">
-                        <locus to="" from=""/>
-                     </explicit>
-              <finalRubric xml:lang="syr">
-                        <locus to="" from=""/>
-                     </finalRubric>
+              
+              
+              
+              
               <note>See Add. 21,580.</note>
             </msItem>
             <msItem xml:id="a2" n="2">
-              <locus to="" from=""/>
-              <author ref=""/>
-              <title ref="" xml:lang="en">Paradigm of the verb <foreign xml:lang="syr">ܒܲܙ</foreign>.</title>
+              
+              
+              <title xml:lang="en">Paradigm of the verb <foreign xml:lang="syr">ܒܲܙ</foreign>.</title>
               <rubric xml:lang="syr">ܣܘܼܪܥܵܦܐ ܕܡܸܠܬ݂ܵܐ ܬܪܲܝܵܢܲܬ݂ ܐܵܬ݂ܘ̈ܵܢ ܦܬ݂ܝ̣ܚܲܬ݂ ܪܹܫܵܐ
                         ܘܐܝ̣ܬ݂ܹܝܗ̇ ܒܲܙ</rubric>
-              <incipit xml:lang="syr"/>
-              <quote xml:lang="syr">
-                        <locus from="" to=""/>
-                     </quote>
-              <explicit xml:lang="syr">
-                        <locus to="" from=""/>
-                     </explicit>
-              <finalRubric xml:lang="syr">
-                        <locus to="" from=""/>
-                     </finalRubric>
-              <note/>
+              
+              
+              
+              
+              
             </msItem>
           </msContents>
                <physDesc>
@@ -150,7 +136,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                           <locus from="" to=""/>
+                           <locus/>
                            <p>The colophon, fol. 86 b. states that the manuscript was written in the
                               year above mentioned by one <persName>Hurmiz of
                                     <placeName>Beth-Seluk</placeName>
@@ -164,7 +150,7 @@
                   </p>
                         </item>
                 <item xml:id="addition2" n="2">
-                           <locus from="" to=""/>
+                           <locus/>
                            <p>On fol. 96 a there is a note, written by the priest <persName>Nuradin
                               (Nur al-din) bar of <persName>Karkuk</persName>
                     </persName>, A. Gr. 2087, A. D. 1776.</p>
@@ -185,10 +171,10 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="" notAfter="" from="" to="" when="1733">It is dated A. Gr,
+                     <origDate when="1733">It is dated A. Gr,
                         2011, A.D. 1733.</origDate>
-                     <origDate datingMethod="Seleucid" notBefore-custom="" notAfter-custom="" from-custom="" to-custom="" when-custom="2011"/>
-                     <origPlace ref="" xml:lang=""/>
+                     <origDate datingMethod="Seleucid" when-custom="2011"/>
+                     <origPlace/>
                   </origin>
                   <provenance/>
                   <acquisition/>
@@ -377,7 +363,8 @@
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
-         <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-29-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+         <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-29-05:00">CHANGED: deleted empty elements and attributes</change>
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-29-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-01-24" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial TEI
             encoding.</change>
          <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
