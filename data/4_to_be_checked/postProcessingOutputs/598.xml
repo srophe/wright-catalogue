@@ -26,7 +26,8 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#akelly">Anna
+            Kelly</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -99,8 +100,8 @@
             <msItem xml:id="p1a1" n="1" defective="true">
               <locus to="155" from="1a"/>
               <title xml:lang="en">Services for different occasions, consisting usually of an
-                introductory prayer, ܨܠܘܬܐ ܕܫܘܪܝܐ a prooemium, a sedrā, a ܨܠܘܬܐ ܕܦܝܪܡܐ or ܥܛܪܐ, and
-                a concluding prayer, ܚܘܬܡܐ .</title>
+                introductory prayer, <foreign xml:lang="syr">ܨܠܘܬܐ ܕܫܘܪܝܐ</foreign> a prooemium, a sedrā, a <foreign xml:lang="syr">ܨܠܘܬܐ ܕܦܝܪܡܐ</foreign> or <foreign xml:lang="syr">ܥܛܪܐ</foreign>, and
+                a concluding prayer, <foreign xml:lang="syr">ܚܘܬܡܐ</foreign> .</title>
               <msItem xml:id="p1b1" n="2" defective="true">
                 <locus from="1a"/>
                 <title xml:lang="en">A small fragment of the commemoration of a
@@ -115,8 +116,7 @@
               </msItem>
               <msItem xml:id="p1b3" n="4" defective="true">
                 <locus from="9a"/>
-                <title xml:lang="en">The Commemoration of <persName ref=" http://syriaca.org/person/1122">Mar Aḥā</persName>
-                  </title>
+                <title xml:lang="en">The Commemoration of <persName ref=" http://syriaca.org/person/1122">Mar Aḥā</persName></title>
                 <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܥܠ ܩܕܝܫܐ ܡܪܝ ܐܚܐ </rubric>
               </msItem>
               <msItem xml:id="p1b4" n="5">
@@ -284,8 +284,7 @@
             </physDesc>
             <history>
               <origin>
-                <origDate/>
-                <!-- Wright doesn't specify, but since it is "more ancient", we could put pre-13th century? -->
+                <origDate /><!-- Wright doesn't specify, but since it is "more ancient", we could put pre-13th century? -->
                 <origPlace/>
               </origin>
               <provenance/>
