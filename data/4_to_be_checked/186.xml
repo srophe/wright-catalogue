@@ -23,7 +23,8 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#akelly">Anna
+            Kelly</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -104,7 +105,7 @@
                     <locus from="1a" to="4"/>
                     <author ref="http://syriaca.org/person/113">Jacob of Edessa</author>
                     <title type="supplied">An Exposition of the Syriac Liturgy by Jacob of Edessa</title>
-                    <quote>
+                    <quote xml:lang="syr">
                       <locus from="1a"/>
                       ܠܟܠܗ̣ ܥܡܐ̣. ܐܝܟ ܕܠܣܗܕܘܬܐ. ܘܟܕ ܗܟܢܐ ܥ̇ܒܕ ܡܚܘܐ ܠܗܘܢ̇ ܢܩܥܐ ܥܡܐ
                       ܬܘܕܝܬܐ ܕܗܝܡܢܘܬܐ. ܘܢܩܕܫܘܢ ܦܘܡ̈ܝܗܘܢ ܘܢܐܡܪܘܢ̇ ܏ܚܕ ܏ܐܒܐ ܏ܩܕܝܫܐ ܏ܚܕ ܏ܒܪܐ ܏ܩܕܝܫܐ ܏ܚܕ ܏ܪܘܚܐ ܏ܩܕܝܫܐ ܘܗܟܢܐ
@@ -147,7 +148,8 @@
                   <msItem n="9" xml:id="p1c7">
                     <locus from="18b" to="20">Foll.18b-20</locus>
                     <author><persName>Severus</persName></author>
-                    <title type="supplied">The Signing of the Cup, or Benediction of the Chalice, of Severus</title>
+                    <title type="supplied">The Signing of the Cup, or Benediction of the Chalice, of
+                        <persName>Severus</persName></title>
                     <rubric xml:lang="syr">ܪܫܡ ܟܣܐ ܕܩܕܝܫܐ ܡܪܝ ܣܐܘܝܪܐ
                       ܦܛܪܝܪܟܐ: ܐܝܟ ܬܘܪܨܐ ܚܕܬܐ</rubric>
                   </msItem>
@@ -162,7 +164,8 @@
                   <msItem n="10" xml:id="p1c9">
                     <locus from="21a" to="23">Foll.22b-23</locus>
                     <author><persName>Basil</persName></author>
-                    <title type="supplied">The Benediction of the Chalice, of Basil</title>
+                    <title type="supplied">The Benediction of the Chalice, of
+                        <persName>Basil</persName></title>
                     <rubric xml:lang="syr">ܪܫܡ ܟܣܐ ܕܩܕܝܫܐ ܒܣܝܠܝܘܣ ܐܦܝܣ܏ܩܘ ܕܩܣܪܝܐ</rubric>
                     <note>Followed by a prayer, <locus>fol. 22 b</locus>.</note>
                   </msItem>
@@ -170,13 +173,14 @@
                     <locus from="23a" to="23">Foll.23a-23</locus>
                     <author ref="http://syriaca.org/person/113"><persName>Jacob of Edessa</persName></author>
                     <title type="supplied">Exposition of the Order of Baptism</title>
-                    <note>Followed by a short exposition, entitled: ܬܘܒ ܡܢ ܦܘܫܩܐ ܕܡ̈ܠܦܢܐ ܩ̈ܕܝܫܐ ܥܠܝܗܘܢ ܕܪ̈ܐܙܐ ܗܠܝܢ ܩ̈ܕܝܫܐ
-                      ,of which, the subscription is: ܫܠܡܘ ܪܐܙܐ ܘܦܘܫܩܐ ܕܥܡܕܐ <locus>Fol.23a</locus></note>
+                    <note>Followed by a short exposition, entitled: <foreign xml:lang="syr">ܬܘܒ ܡܢ ܦܘܫܩܐ ܕܡ̈ܠܦܢܐ ܩ̈ܕܝܫܐ ܥܠܝܗܘܢ ܕܪ̈ܐܙܐ ܗܠܝܢ ܩ̈ܕܝܫܐ</foreign>
+                      ,of which, the subscription is: <foreign xml:lang="syr">ܫܠܡܘ ܪܐܙܐ ܘܦܘܫܩܐ ܕܥܡܕܐ</foreign> <locus from="23a"/></note>
                   </msItem>
                   <msItem n="12" xml:id="p1c11" defective="true">
                     <locus from="23b" to="25">Foll.23b-25</locus>
                     <author><persName>Severus</persName></author>
-                    <title type="supplied">The Order of Baptism, of Severus</title>
+                    <title type="supplied">The Order of Baptism, of
+                      <persName>Severus</persName></title>
                   </msItem>
                   <msItem n="13" xml:id="p1c12" defective="true">
                     <locus from="25a" to="28">Foll.25a-28</locus>
@@ -680,4 +684,3 @@
     </body>
   </text>
 </TEI>
-
