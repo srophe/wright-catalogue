@@ -25,7 +25,8 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessie
+            Pagan</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -70,11 +71,13 @@
               <idno type="BL-Shelfmark">Add MS 14673</idno>
             </altIdentifier>
             <altIdentifier>
-              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum
+                Acquired since the Year 1838</collection>
               <idno type="Wright-BL-Arabic">188</idno>
             </altIdentifier>
             <altIdentifier>
-              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum
+                Acquired since the Year 1838</collection>
               <idno type="Wright-BL-Roman">CLXXXVIII</idno>
             </altIdentifier>
           </msIdentifier>
@@ -86,8 +89,7 @@
                 Peshitta version</title>
               <note>The missing Portions are: Ps. i. 1—xiii. 7; lxxiii. 7— lxxiv. 2; civ. 24—cvi. 42
                 (fol. 88 being almost completely torn out); and cxviii. 1 to the end (foll. 97—101
-                being much mutilated). In the older portions of the manuscript there arc some
-                attempts at ornamentation; see fol. 79 b, etc.</note>
+                being much mutilated).</note>
               <note>Divided into <foreign xml:lang="syr">ܡܪ̈ܡܝܬܐ</foreign>
               </note>
             </msItem>
@@ -101,12 +103,15 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Paper, about 5 ½ in. by 3 ½, consisting, ac¬cording to the present
+                      <p>Paper, about 5 ½ in. by 3 ½, consisting, according to the present
                         numeration, of 101, but in reality of only 75 leaves, most of which are much
                         stained by water and torn, more especially foll. 1—11, and 80—101. The
                         volume is very defective, both at the beginning and end, and a leaf is
                         wanting after fol. 59. Each page is divided into two columns, of from 16 to
-                        20 lines. <note>The difference is owing to the insertion of slips of paper, on which such portions of the text as had become illegible were copied out by a later hand. These slips were originally pasted down upon the leaves, but have now become loosened, and are numbered as separate folios.</note>
+                        20 lines. <note>The difference is owing to the insertion of slips of paper,
+                          on which such portions of the text as had become illegible were copied out
+                          by a later hand. These slips were originally pasted down upon the leaves,
+                          but have now become loosened, and are numbered as separate folios.</note>
                       </p>
                     </item>
                   </list>
@@ -114,34 +119,42 @@
               </supportDesc>
               
             </objectDesc>
-            <handDesc hands="3">
-              <handNote medium="unknown" xml:id="handNote1" scope="major" script="">
-                <desc>The writing is small and neat, of about the xiiith cent.</desc>
+            <handDesc hands="4">
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
+                <desc>The writing is small and neat, of about the <date notBefore="1200" notAfter="1300">xiiith cent</date>.</desc>
               </handNote>
               <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
-                <desc>foll. 14—47 and 60—69 are of some¬what later date, and the inserted slips
-                  later still</desc>
+                <desc>Foll. 14—47 and 60—69 are of somewhat later date.</desc>
               </handNote>
               <handNote medium="unknown" xml:id="handNote3" scope="minor" script="syr">
+                <desc>The inserted slips are of a still later date.</desc>
+              </handNote>
+              <handNote medium="unknown" xml:id="handNote4" scope="minor" script="syr">
                 <desc>See additions.</desc>
               </handNote>
             </handDesc>
+            <decoDesc>
+              <decoNote type="ornamentation" xml:id="decoNote1">
+                In the older portions of the manuscript there are some
+                attempts at ornamentation; see fol. 79 b, etc
+              </decoNote>
+            </decoDesc>
             <additions>
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
                   <locus/>
-                  <p>On fol. 47 b there arc recorded the names of two readers, <persName>John</persName> and <persName>Jacob</persName>, the
-                    former in Syriac, the latter in Arabic.</p>
+                  <p>On fol. 47 b there are recorded the names of two readers,
+                      <persName>John</persName> and <persName>Jacob</persName>, the former in
+                    Syriac, the latter in Arabic.</p>
                   <p>
-                    <quote xml:lang="syr">ܦܓܥ ܒܟܬܒܐ ܗ̇ܢܐ ܝܘܚܢܢ ܚܛܝܐ ܒܪ ܩܫܝܫܐ ܫܡܣܐ ܡܕܢܚܝܐ ܨܠܘ ܥܠܘܗܝ ܡܛܠ ܡܪܢ ܘܗ̇ܘ ܕܡܚܣܐ
-                      ܗ̣ܘ ܢܬܚܣܐ ܡܢ ܡܪܝܐ ܐܡܝܢ ܘܐܡܝܢ. ܗܕܐ ܐܠܟܬܒ ܐܠܡܒܪܟ ܠܝܥܩܘܒ ܒܣܡ ܩܣܝܣ.</quote>
+                    <quote xml:lang="syr">ܦܓܥ ܒܟܬܒܐ ܗ̇ܢܐ ܝܘܚܢܢ ܚܛܝܐ ܒܪ ܩܫܝܫܐ ܫܡܣܐ ܡܕܢܚܝܐ ܨܠܘ ܥܠܘܗܝ
+                      ܡܛܠ ܡܪܢ ܘܗ̇ܘ ܕܡܚܣܐ ܗ̣ܘ ܢܬܚܣܐ ܡܢ ܡܪܝܐ ܐܡܝܢ ܘܐܡܝܢ. ܗܕܐ ܐܠܟܬܒ ܐܠܡܒܪܟ ܠܝܥܩܘܒ ܒܣܡ
+                      ܩܣܝܣ.</quote>
                   </p>
                 </item>
               </list>
             </additions>
-            
-            
             <accMat/>
           </physDesc>
           <history>
@@ -156,8 +169,7 @@
             <adminInfo>
               <recordHist>
                 <source>Manuscript description based on<bibl>
-                    <ref target="#Wright">Wright's
-                      Catalogue</ref>
+                    <ref target="#Wright">Wright's Catalogue</ref>
                   </bibl>. abbreviated by the Syriaca.org editors.</source>
               </recordHist>
               <note/>
