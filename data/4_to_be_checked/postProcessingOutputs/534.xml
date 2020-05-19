@@ -25,7 +25,8 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessie
+            Pagan</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -70,11 +71,13 @@
               <idno type="BL-Shelfmark">Add MS 14678</idno>
             </altIdentifier>
             <altIdentifier>
-              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum
+                Acquired since the Year 1838</collection>
               <idno type="Wright-BL-Arabic">189</idno>
             </altIdentifier>
             <altIdentifier>
-              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum
+                Acquired since the Year 1838</collection>
               <idno type="Wright-BL-Roman">CLXXXIX</idno>
             </altIdentifier>
           </msIdentifier>
@@ -110,7 +113,6 @@
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="chart">
-                
                 <foliation/>
                 <collation/>
                 <condition>
@@ -118,20 +120,20 @@
                     <item>
                       <p>Paper, about 10 1/8 in. by 6 1/2, consisting of 84 leaves, most of which
                         are more or less stained and torn. The quires are signed with letters.
-                        Leaves are wanting at the be¬ginning, as well as after foll. 1, 9, 12, 14,
+                        Leaves are wanting at the beginning, as well as after foll. 1, 9, 12, 14,
                         15, 19, 20, 21, 24, 34, 43, 51, 60, 67, 70, 73, and 80. The number of lines
                         in each page varies from 15 to 18. Foll. 81 and 82 have been almost
-                        com¬pletely torn out.</p>
+                        completely torn out.</p>
                     </item>
                   </list>
                 </condition>
               </supportDesc>
-              
             </objectDesc>
             <handDesc hands="2">
-              <handNote medium="unknown" xml:id="handNote1" scope="major" script="">
-                <desc>This manuscript is written in a large, regular band, dated A. Gr. 1548, A.D.
-                  1237</desc>
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
+                <desc>This manuscript is written in a large, regular hand, dated <date
+                    datingMethod="Seleucid" when-custom="1548">A. Gr. 1548</date>, <date
+                    calendar="Gregorian" when="1237">A.D. 1237</date>.</desc>
               </handNote>
               <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
                 <desc>See additions.</desc>
@@ -143,22 +145,29 @@
                 <item xml:id="addition1" n="1">
                   <locus from="83"/>
                   <p>On fol. 83 there is a mutilated note, which states that this Psalter was
-                    written A. Gr. 1548, A.D. 1237, in the convent of S. Mary Deipara. </p>
+                    written <date datingMethod="Seleucid" when-custom="1548">A. Gr. 1548</date>,
+                      <date calendar="Gregorian" when="1237">A.D. 1237</date>, in the <placeName
+                      ref="http://syriaca.org/place/360">convent of S. Mary Deipara</placeName>.</p>
                   <p>
-                    <quote xml:lang="syr">
-                    [ܐܬܟܬ]ܒ ܘܐܫܬ݁ܡܠܝ ܕܘܝܕܐ ܗܢܐ ܕܬܫ̈ܒܚܬܐ ܕܛܘܒܢܐ [ܕܘܝܕ] ܡ̇ܠ̣ܟܐ ܘܢܒܝܐ. ܐܝܟ ܪܓܬܗ ܕܪܒܢ ܝܘܚܢܢ ܕܗܘܼ . . . ܨ: ܒܫܢܬ ܐܠܦ ܘܚܡܫܡ̈ܐ ܘܐܪ̈ܒܥܝܢ ܘܬܡ̈ܢܐ ܒܕܝܘܢ̈ܝܐ ܒܕܝܪܐ ܩܕܝܫܬܐ ܕܝܠܕܬ ܐܠܗܐ ܡܪܝܡ ܕܐܝܬܝܗ̇ ܒܡܕܒܪܐ ܕܐܣܩܝܛܝ ܕܥܠ ܓܒ ܕܝܪܐ ܕܩܕܝܫܐ ܐܒܐ ܒܝܫܘܝ: ܒܝܘ̈ܡܝ ܪܝܫܕܝܪܐ ܪܒܢ. . . ܕܐܝܬܘܗܝ ܡܢ ܩܪܝܬܐ ܕܫܡܗ̇ ܙܪܓܠ                       <!--note from word doc: "Double check different shape cross"-->
+                    <quote xml:lang="syr"> [ܐܬܟܬ]ܒ ܘܐܫܬ݁ܡܠܝ ܕܘܝܕܐ ܗܢܐ ܕܬܫ̈ܒܚܬܐ ܕܛܘܒܢܐ [ܕܘܝܕ] ܡ̇ܠ̣ܟܐ
+                      ܘܢܒܝܐ. ܐܝܟ ܪܓܬܗ ܕܪܒܢ ܝܘܚܢܢ ܕܗܘܼ . . . ܨ: ܒܫܢܬ ܐܠܦ ܘܚܡܫܡ̈ܐ ܘܐܪ̈ܒܥܝܢ ܘܬܡ̈ܢܐ
+                      ܒܕܝܘܢ̈ܝܐ ܒܕܝܪܐ ܩܕܝܫܬܐ ܕܝܠܕܬ ܐܠܗܐ ܡܪܝܡ ܕܐܝܬܝܗ̇ ܒܡܕܒܪܐ ܕܐܣܩܝܛܝ ܕܥܠ ܓܒ ܕܝܪܐ
+                      ܕܩܕܝܫܐ ܐܒܐ ܒܝܫܘܝ: ܒܝܘ̈ܡܝ ܪܝܫܕܝܪܐ ܪܒܢ. . . ܕܐܝܬܘܗܝ ܡܢ ܩܪܝܬܐ ܕܫܡܗ̇ ܙܪܓܠ
+                      <!--note from word doc: "Double check different shape cross"-->
                     </quote>
-                    <note>Near Hisn Kīfā. See <bibl>add. 17,227, fol. 151 a</bibl>, ܙܪܓܠ ܩܣܛܪܐ ܕܒܐܬܪܐ ܕܚܣܢܐ ܕܟܐܦܐ</note>
+                    <note>Near <placeName ref="http://syriaca.org/place/92">Hisn Kīfā</placeName>. See <bibl>add. 17,227, fol. 151 a</bibl>, ܙܪܓܠ ܩܣܛܪܐ
+                      ܕܒܐܬܪܐ ܕܚܣܢܐ ܕܟܐܦܐ</note>
                   </p>
-                  <note>Ignatius II. See <bibl>Aseemani, Bibl. Or., t. ii. P. 371</bibl>
+                  <note><persName>Ignatius II</persName>. See <bibl>Aseemani, Bibl. Or., t. ii. P. 371</bibl>
                   </note>
-                  <note>Cyril III. See <bibl>Renandot, Hist. Patr. Alexander. Jacobit, p. 576</bibl>; <bibl>Le Quien, Oriens Christ., t. ii., col. 491</bibl>.</note>
+                  <note><persName>Cyril III</persName>. See <bibl>Renandot, Hist. Patr. Alexander. Jacobit, p.
+                    576</bibl>; <bibl>Le Quien, Oriens Christ., t. ii., col. 491</bibl>.</note>
                 </item>
                 <item xml:id="addition2" n="2">
                   <locus from="84a"/>
                   <p>There is a note, written in very large letters, recording the name of one
                       <persName>Bar-saumā</persName>, who not improbably bore part of the expense of
-                    writing and binding the book for the use of the convent</p>
+                    writing and binding the book for the use of the convent.</p>
                   <p>
                     <quote xml:lang="syr">[ܝܫܘܥ] ܡܫܝܚܐ ܐܠܗܐ ܚ̇ܣ̣ܐ ܒܛܝܒܘܬܟ ܠܥܒܕܟ ܒܪܨܘܡܐ. ܘܚܣܐ
                       ܠܐܒܗ̈ܘܗܝ [ܡ̈ܢـ]ܚܐ ܘܠܟܠܗܘܢ ܝ̈ܠܕܝܗ̇ ܕܥܕܬܐ ܩܕܝܫܬܐ ܟܢܝܫܐܝܬ ܒܝܕ ܨ̈ܠ. . . .</quote>
@@ -166,8 +175,6 @@
                 </item>
               </list>
             </additions>
-            
-            
             <accMat/>
           </physDesc>
           <history>
@@ -184,8 +191,7 @@
             <adminInfo>
               <recordHist>
                 <source>Manuscript description based on<bibl>
-                    <ref target="#Wright">Wright's
-                      Catalogue</ref>
+                    <ref target="#Wright">Wright's Catalogue</ref>
                   </bibl>. abbreviated by the Syriaca.org editors.</source>
               </recordHist>
               <note/>
@@ -369,7 +375,7 @@
       <change when="2020-03-27" who="http://syriaca.org/documentation/editors.xml#akelly">Initial
         TEI encoding.</change>
       <change type="planned" subtype="question">Question in Word Doc to be Addressed: "Double check
-        different shape of cross" See comment in additions. </change>
+        different shape of cross" See comment in additions.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
