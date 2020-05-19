@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessie Pagan</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -70,11 +70,13 @@
               <idno type="BL-Shelfmark">Add MS 14688</idno>
             </altIdentifier>
             <altIdentifier>
-              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum
+                Acquired since the Year 1838</collection>
               <idno type="Wright-BL-Arabic">247</idno>
             </altIdentifier>
             <altIdentifier>
-              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum
+                Acquired since the Year 1838</collection>
               <idno type="Wright-BL-Roman">CCXLVII</idno>
             </altIdentifier>
           </msIdentifier>
@@ -83,7 +85,7 @@
             <msItem xml:id="a1" n="1">
               <locus from="1a"/>
               <title xml:lang="en">A Nestorian Lectionary from the Pauline epistles</title>
-              <note>Each lesson is followed by a chant, <foreign xml:lang="syr">ܙܘܡܪܐ ,</foreign> of
+              <note>Each lesson is followed by a chant, <foreign xml:lang="syr-Syrn">ܙܘܡܪܐ ,</foreign> of
                 which, however, only the first two or three words are given.</note>
               <msItem xml:id="b1" n="2" defective="true">
                 <locus from="1a"/>
@@ -92,7 +94,7 @@
               <msItem xml:id="b2" n="3">
                 <locus from="1b"/>
                 <title xml:lang="en">The second Sunday</title>
-                <rubric xml:lang="syr">ܚܕܒܫܒܐ : ܒ : ܕܣܘܒܪܐ </rubric>
+                <rubric xml:lang="syr-Syrn">ܚܕܒܫܒܐ : ܒ : ܕܣܘܒܪܐ </rubric>
               </msItem>
               <msItem xml:id="b3" n="4">
                 <locus from="2a"/>
@@ -104,18 +106,20 @@
               </msItem>
               <msItem xml:id="b5" n="6">
                 <locus from="3b"/>
-                <title xml:lang="en">The Nativity of our Lord</title>
-                <rubric xml:lang="syr">ܕܥܐܕܐ ܕܒܸܝܬ ܝܠܕܗ ܕܡܪܢ</rubric>
+                <title xml:lang="en">The Nativity of <persName ref="http://syriaca.org/person/2245"
+                    >our Lord</persName></title>
+                <rubric xml:lang="syr-Syrn">ܕܥܐܕܐ ܕܒܸܝܬ ܝܠܕܗ ܕܡܪܢ</rubric>
               </msItem>
               <msItem xml:id="b6" n="7">
                 <locus from="4b"/>
                 <title xml:lang="en">The first Sunday after the Nativity</title>
-                <rubric xml:lang="syr">ܕܚܕܒܫܒܐ ܕܒܬܪ ܝܲܠܕܵܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܚܕܒܫܒܐ ܕܒܬܪ ܝܲܠܕܵܐ</rubric>
               </msItem>
               <msItem xml:id="b7" n="8">
                 <locus from="5a"/>
-                <title xml:lang="en">The Commemoration of the blessed Virgin</title>
-                <rubric xml:lang="syr">ܕܕܘܟܪܢܐ ܕܡܪܬܝ ܡܪܝܡ</rubric>
+                <title xml:lang="en">The Commemoration of the <persName
+                    ref="http://syriaca.org/person/624">blessed Virgin</persName></title>
+                <rubric xml:lang="syr-Syrn">ܕܕܘܟܪܢܐ ܕܡܪܬܝ ܡܪܝܡ</rubric>
               </msItem>
               <msItem xml:id="b8" n="9">
                 <locus from="6a"/>
@@ -124,25 +128,27 @@
               <msItem xml:id="b9" n="10">
                 <locus from="7a"/>
                 <title xml:lang="en">The Epiphany</title>
-                <rubric xml:lang="syr">ܩܪܝܢܐ ܕܥܐܕܐ ܕܕܢܚܗ ܕܡܪܢ</rubric>
+                <rubric xml:lang="syr-Syrn">ܩܪܝܢܐ ܕܥܐܕܐ ܕܕܢܚܗ ܕܡܪܢ</rubric>
               </msItem>
               <msItem xml:id="b10" n="11">
                 <locus from="7b"/>
-                <title xml:lang="en">The Commemoration of <persName ref="http://syriaca.org/person/1808">S. John the Baptist</persName>
+                <title xml:lang="en">The Commemoration of <persName
+                    ref="http://syriaca.org/person/1808">S. John the Baptist</persName>
                 </title>
-                <rubric xml:lang="syr">ܕܕܘܟܪܢܐ ܕܡܪܝ ܝܘܚܢܢ ܡܥܡܕܢܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܕܘܟܪܢܐ ܕܡܪܝ ܝܘܚܢܢ ܡܥܡܕܢܐ</rubric>
               </msItem>
               <msItem xml:id="b11" n="12">
                 <locus from="8b"/>
                 <title xml:lang="en">The first Sunday after the Epiphany</title>
-                <rubric xml:lang="syr">ܕܚܕܒܫܒܐ ܩܕܡܝܐ ܕܒܬܪ ܕܢܚܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܚܕܒܫܒܐ ܩܕܡܝܐ ܕܒܬܪ ܕܢܚܐ</rubric>
               </msItem>
               <msItem xml:id="b12" n="13">
                 <locus from="9a"/>
-                <title xml:lang="en">The Friday of the Commemoration of <persName>S.
-                    Peter</persName> and <persName>S. Paul</persName>
+                <title xml:lang="en">The Friday of the Commemoration of <persName
+                    ref="http://syriaca.org/person/2008">S. Peter</persName> and <persName
+                    ref="http://syriaca.org/person/1983">S. Paul</persName>
                 </title>
-                <rubric xml:lang="syr">ܕܥܪܘܒܬܐ ܕܕ܏ܘܟܪ ܕܦܛܪܘܣ ܘܦܘܠܘܣ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܥܪܘܒܬܐ ܕܕ܏ܘܟܪ ܕܦܛܪܘܣ ܘܦܘܠܘܣ</rubric>
               </msItem>
               <msItem xml:id="b13" n="14">
                 <locus from="10b"/>
@@ -150,8 +156,8 @@
               </msItem>
               <msItem xml:id="b14" n="15">
                 <locus from="11a"/>
-                <title xml:lang="en">The Commemoration of the Evan¬gelists</title>
-                <rubric xml:lang="syr">ܕܕܘܟܪܢܐ ܕܐܘ̈ܢܓܠܣܛܐ</rubric>
+                <title xml:lang="en">The Commemoration of the Evangelists</title>
+                <rubric xml:lang="syr-Syrn">ܕܕܘܟܪܢܐ ܕܐܘ̈ܢܓܠܣܛܐ</rubric>
               </msItem>
               <msItem xml:id="b15" n="16">
                 <locus from="12a"/>
@@ -159,10 +165,9 @@
               </msItem>
               <msItem xml:id="b16" n="17">
                 <locus from="12b"/>
-                <title xml:lang="en">The Commemoration of <persName>S.
-                  Stephen</persName>
+                <title xml:lang="en">The Commemoration of <persName>S. Stephen</persName>
                 </title>
-                <rubric xml:lang="syr">ܕܕܘܟܪܢܐ ܕܡܪܝ ܐܣܛܦܢܘܣ ܣܗܕܐ ܩܲܕܡܝܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܕܘܟܪܢܐ ܕܡܪܝ ܐܣܛܦܢܘܣ ܣܗܕܐ ܩܲܕܡܝܐ</rubric>
               </msItem>
               <msItem xml:id="b17" n="18">
                 <locus from="14a"/>
@@ -171,7 +176,7 @@
               <msItem xml:id="b18" n="19">
                 <locus from="14b"/>
                 <title xml:lang="en">The Commemoration of the Greek Doctors</title>
-                <rubric xml:lang="syr">ܕܕܘܟܪܢܐ ܕܡ̈ܠܦܢܐ ܝܘ̈ܢܝܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܕܘܟܪܢܐ ܕܡ̈ܠܦܢܐ ܝܘ̈ܢܝܐ</rubric>
               </msItem>
               <msItem xml:id="b19" n="20">
                 <locus from="16a"/>
@@ -180,7 +185,7 @@
               <msItem xml:id="b20" n="21">
                 <locus from="17a"/>
                 <title xml:lang="en">The Monday of the prayer (of the Ninevites)</title>
-                <rubric xml:lang="syr">ܕܬܪܝܢܒܫܒܐ ܕܒܥܘܬܐ [ܕܢܝܢ̈ܘܝܐ] </rubric>
+                <rubric xml:lang="syr-Syrn">ܕܬܪܝܢܒܫܒܐ ܕܒܥܘܬܐ [ܕܢܝܢ̈ܘܝܐ] </rubric>
               </msItem>
               <msItem xml:id="b21" n="22">
                 <locus from="18a"/>
@@ -197,7 +202,7 @@
               <msItem xml:id="b24" n="25">
                 <locus from="21a"/>
                 <title xml:lang="en">The Commemoration of the Syrian Doctors</title>
-                <rubric xml:lang="syr">ܕܕܘܟܪܢܐ ܕܡ̈ܠܦܢܐ ܣܘܪ̈ܝܵܝܹܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܕܘܟܪܢܐ ܕܡ̈ܠܦܢܐ ܣܘܪ̈ܝܵܝܹܐ</rubric>
               </msItem>
               <msItem xml:id="b25" n="26">
                 <locus from="21b"/>
@@ -206,7 +211,7 @@
               <msItem xml:id="b26" n="27">
                 <locus from="23a"/>
                 <title xml:lang="en">The Commemoration of any one Saint</title>
-                <rubric xml:lang="syr">ܕܕܘܟܪܢܐ ܕܚܕ ܦܪܨܘܦܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܕܘܟܪܢܐ ܕܚܕ ܦܪܨܘܦܐ</rubric>
               </msItem>
               <msItem xml:id="b27" n="28">
                 <locus from="24a"/>
@@ -215,7 +220,7 @@
               <msItem xml:id="b28" n="29">
                 <locus from="25a"/>
                 <title xml:lang="en">The Friday of the Dead</title>
-                <rubric xml:lang="syr">ܕܥܪܘܒܬܐ ܕܥܢܝ̈ܕܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܥܪܘܒܬܐ ܕܥܢܝ̈ܕܐ</rubric>
               </msItem>
               <msItem xml:id="b29" n="30">
                 <locus from="26a"/>
@@ -224,7 +229,7 @@
               <msItem xml:id="b30" n="31">
                 <locus from="27a"/>
                 <title xml:lang="en">The first Sunday in Lent</title>
-                <rubric xml:lang="syr">ܕܚܕܒܫܒܐ ܕܡܲܥܵܠܵܝ ܨܵܘܡܵܐ ܪܒܐ ܕܡܪܢ ܘܦܪܘܩ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܚܕܒܫܒܐ ܕܡܲܥܵܠܵܝ ܨܵܘܡܵܐ ܪܒܐ ܕܡܪܢ ܘܦܪܘܩ</rubric>
               </msItem>
               <msItem xml:id="b31" n="32">
                 <locus from="28b"/>
@@ -269,7 +274,7 @@
               <msItem xml:id="b41" n="42">
                 <locus from="38b"/>
                 <title xml:lang="en">Monday in the mid-week of Lent</title>
-                <rubric xml:lang="syr">ܕܬܪܝܢܒܫܒܐ ܕܦܠܓܬܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܬܪܝܢܒܫܒܐ ܕܦܠܓܬܐ</rubric>
               </msItem>
               <msItem xml:id="b42" n="43">
                 <locus from="39a"/>
@@ -301,18 +306,18 @@
               </msItem>
               <msItem xml:id="b49" n="50">
                 <locus from="45b"/>
-                <title xml:lang="en">The Friday of Lazarus</title>
-                <rubric xml:lang="syr">ܕܥܪܘܒܬܐ ܕܠܥܙܪ</rubric>
+                <title xml:lang="en">The Friday of <persName>Lazarus</persName></title>
+                <rubric xml:lang="syr-Syrn">ܕܥܪܘܒܬܐ ܕܠܥܙܪ</rubric>
               </msItem>
               <msItem xml:id="b50" n="51">
                 <locus from="45b"/>
                 <title xml:lang="en">Palm Sunday</title>
-                <rubric xml:lang="syr">ܕܐܘܫ̈ܥܢܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܐܘܫ̈ܥܢܐ</rubric>
               </msItem>
               <msItem xml:id="b51" n="52">
                 <locus from="46a"/>
                 <title xml:lang="en">Monday in the last week of Lent</title>
-                <rubric xml:lang="syr">ܕܬܪܝܢ܏ܒܫ ܕܫܒܬܐ ܐܚܪܝܬܐ ܕܨܘܡܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܬܪܝܢ܏ܒܫ ܕܫܒܬܐ ܐܚܪܝܬܐ ܕܨܘܡܐ</rubric>
               </msItem>
               <msItem xml:id="b52" n="53">
                 <locus from="47a"/>
@@ -325,33 +330,33 @@
               <msItem xml:id="b54" n="55">
                 <locus from="49a"/>
                 <title xml:lang="en">The Thursday of our Saviour's Passover</title>
-                <rubric xml:lang="syr">ܕܚܡܫܒܫܒܐ ܕܦܨܚܐ ܦܪܘܩܝܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܚܡܫܒܫܒܐ ܕܦܨܚܐ ܦܪܘܩܝܐ</rubric>
               </msItem>
               <msItem xml:id="b55" n="56">
                 <locus from="50a"/>
                 <title xml:lang="en">The Friday of the Passion</title>
-                <rubric xml:lang="syr">ܕܥܪܘܒܬܐ ܕܚܫܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܥܪܘܒܬܐ ܕܚܫܐ</rubric>
               </msItem>
               <msItem xml:id="b56" n="57">
                 <locus from="51a"/>
                 <title xml:lang="en">The Great Saturday</title>
-                <rubric xml:lang="syr">ܕܫܒܬܐ ܪܒܬܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܫܒܬܐ ܪܒܬܐ</rubric>
               </msItem>
               <msItem xml:id="b57" n="58">
                 <locus from="52a"/>
                 <title xml:lang="en">At the celebration of the holy Eucharist on (the Great)
                   Saturday</title>
-                <rubric xml:lang="syr">ܕܐܪ̈ܙܐ ܕܫܒܬܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܐܪ̈ܙܐ ܕܫܒܬܐ</rubric>
               </msItem>
               <msItem xml:id="b58" n="59">
                 <locus from="52b"/>
                 <title xml:lang="en">The Sunday of the Resurrection</title>
-                <rubric xml:lang="syr">ܕܚܕܒܫܒܐ ܕܩܝܡܬܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܚܕܒܫܒܐ ܕܩܝܡܬܐ</rubric>
               </msItem>
               <msItem xml:id="b59" n="60">
                 <locus from="53b"/>
                 <title xml:lang="en">Monday in the Week of Weeks</title>
-                <rubric xml:lang="syr">ܕܬܪܝܢܒ܏ܫ ܕܫܸܒܬܸ ܫܒ̈ܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܬܪܝܢܒ܏ܫ ܕܫܸܒܬܸ ܫܒ̈ܐ</rubric>
               </msItem>
               <msItem xml:id="b60" n="61">
                 <locus from="54b"/>
@@ -368,28 +373,26 @@
               <msItem xml:id="b63" n="64">
                 <locus from="57b"/>
                 <title xml:lang="en">The Friday of the Confessors</title>
-                <rubric xml:lang="syr">ܕܲܥܪܘܿܒܬܐ ܕܡ̇ܘ̈ܕܝܵܢ̣ܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܲܥܪܘܿܒܬܐ ܕܡ̇ܘ̈ܕܝܵܢ̣ܐ</rubric>
               </msItem>
               <msItem xml:id="b64" n="65">
                 <locus from="58a"/>
                 <title xml:lang="en">New Sunday</title>
-                <rubric xml:lang="syr">ܕܚܕܒ܏ܫ ܕܡܸܬܩܪܐ ܚܕܬܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܚܕܒ܏ܫ ܕܡܸܬܩܪܐ ܚܕܬܐ</rubric>
               </msItem>
               <msItem xml:id="b65" n="66">
                 <locus from="59a"/>
-                
                 <title xml:lang="en">The third Sunday of the Resurrection</title>
               </msItem>
               <msItem xml:id="b66" n="67">
                 <locus from="60a"/>
-                <title xml:lang="en">The Commemoration of <persName>Mār
-                  George</persName>
+                <title xml:lang="en">The Commemoration of <persName>Mār George</persName>
                 </title>
-                <rubric xml:lang="syr">ܕܕܘܟܪܢܐ ܕܡܪܝ ܓܝܘܪܓܝܣ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܕܘܟܪܢܐ ܕܡܪܝ ܓܝܘܪܓܝܣ</rubric>
               </msItem>
               <msItem xml:id="b67" n="68">
                 <locus from="60a"/>
-                <title xml:lang="en">The fourth Sunday of the Resurrec¬tion</title>
+                <title xml:lang="en">The fourth Sunday of the Resurrection</title>
               </msItem>
               <msItem xml:id="b68" n="69">
                 <locus from="61a"/>
@@ -402,7 +405,7 @@
               <msItem xml:id="b70" n="71">
                 <locus from="62b"/>
                 <title xml:lang="en">The Ascension</title>
-                <rubric xml:lang="syr">ܕܥܐܕܐ ܩܕܝܫܐ ܕܣܘܠܩܗ ܕܡܪܢ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܥܐܕܐ ܩܕܝܫܐ ܕܣܘܠܩܗ ܕܡܪܢ</rubric>
               </msItem>
               <msItem xml:id="b71" n="72">
                 <locus from="63b"/>
@@ -411,33 +414,33 @@
               <msItem xml:id="b72" n="73">
                 <locus from="63b"/>
                 <title xml:lang="en">Pentecost</title>
-                <rubric xml:lang="syr">ܕܚܕܒܫܒܐ ܕܦܢܛܩܘ̈ܣܛܹܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܚܕܒܫܒܐ ܕܦܢܛܩܘ̈ܣܛܹܐ</rubric>
               </msItem>
               <msItem xml:id="b73" n="74">
                 <locus from="64a"/>
                 <title xml:lang="en">The Friday of Gold</title>
-                <rubric xml:lang="syr">ܕܥܪܘܒܬܐ ܕܕܗܒ̣ܵܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܥܪܘܒܬܐ ܕܕܗܒ̣ܵܐ</rubric>
               </msItem>
               <msItem xml:id="b74" n="75">
                 <locus from="65a"/>
                 <title xml:lang="en">The second Sunday of the Apostles</title>
-                <rubric xml:lang="syr">ܕܫܠܝ̈ܚܐ : Ⲅ: Ⲱܕܚܕܒܫܒ : ܒ : <!--unknown coptic-->
+                <rubric xml:lang="syr-Syrn">ܕܫܠܝ̈ܚܐ : Ⲅ: Ⲱܕܚܕܒܫܒ : ܒ : <!--unknown coptic-->
                 </rubric>
               </msItem>
               <msItem xml:id="b75" n="76">
                 <locus from="65b"/>
                 <title xml:lang="en">The third Sunday </title>
-                
+
               </msItem>
               <msItem xml:id="b76" n="77">
                 <locus from="66b"/>
                 <title xml:lang="en">The fourth</title>
-                
+
               </msItem>
               <msItem xml:id="b77" n="78">
                 <locus from="67b"/>
                 <title xml:lang="en">The fifth</title>
-                
+
               </msItem>
               <msItem xml:id="b78" n="79">
                 <locus from="68a"/>
@@ -450,13 +453,13 @@
               <msItem xml:id="b80" n="81">
                 <locus from="70b"/>
                 <title xml:lang="en">The last Friday of the Week of the Apostles</title>
-                <rubric xml:lang="syr">ܕܥܪܘܒܬܐ ܕܫܘܼܠܡ ܫܵܒܘܿܥܵܐ ܕܫܠܝ̈ܚܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܥܪܘܒܬܐ ܕܫܘܼܠܡ ܫܵܒܘܿܥܵܐ ܕܫܠܝ̈ܚܐ</rubric>
               </msItem>
               <msItem xml:id="b81" n="82">
                 <locus from="71b"/>
-                <title xml:lang="en">The Sunday that ends the Week of the Apostles called
-                  <foreign xml:lang="syr">ܢܘܣܪܕܐܝܠ</foreign>, Nūsārdī</title>
-                <rubric xml:lang="syr">ܢܘܣܪܕܐܝܠ ܕܚܕܒܫܒܐ ܕܫܘܠܡ ܫܒܘܥܐ ܕܫܠܝ̈ܚܐ ܘܡܬܩܪܐ</rubric>
+                <title xml:lang="en">The Sunday that ends the Week of the Apostles called <foreign
+                    xml:lang="syr">ܢܘܣܪܕܐܝܠ</foreign>, Nūsārdī</title>
+                <rubric xml:lang="syr-Syrn">ܢܘܣܪܕܐܝܠ ܕܚܕܒܫܒܐ ܕܫܘܠܡ ܫܒܘܥܐ ܕܫܠܝ̈ܚܐ ܘܡܬܩܪܐ</rubric>
               </msItem>
               <msItem xml:id="b82" n="83">
                 <locus from="72a"/>
@@ -485,8 +488,8 @@
               </msItem>
               <msItem xml:id="b88" n="89">
                 <locus from="76b"/>
-                <title xml:lang="en">The first Sunday of Elias</title>
-                <rubric xml:lang="syr">ܕܚܕ܏ܒܫܒ :ܐ: ܕܐܠܝܐ</rubric>
+                <title xml:lang="en">The first Sunday of <persName>Elias</persName></title>
+                <rubric xml:lang="syr-Syrn">ܕܚܕ܏ܒܫܒ :ܐ: ܕܐܠܝܐ</rubric>
               </msItem>
               <msItem xml:id="b89" n="90">
                 <locus from="77a"/>
@@ -499,13 +502,12 @@
               <msItem xml:id="b91" n="92">
                 <locus from="78b"/>
                 <title xml:lang="en">The festival of the holy Cross</title>
-                <rubric xml:lang="syr">ܕܥ݅ܐܕܐ ܕܡ݅ܪܝ ܨܠܝܒ݊ܐ ܣܓܝܕܐ</rubric>
+                <rubric xml:lang="syr-Syrn">ܕܥ݅ܐܕܐ ܕܡ݅ܪܝ ܨܠܝܒ݊ܐ ܣܓܝܕܐ</rubric>
               </msItem>
               <msItem xml:id="b92" n="93">
                 <locus from="78b"/>
-                <title xml:lang="en">The first Sunday after the Invention of the
-                  Cross</title>
-                <rubric xml:lang="syr">ܕܚܕܒܫܒܐ ܕܒܬܪ ܏ܫܟܚ</rubric>
+                <title xml:lang="en">The first Sunday after the Invention of the Cross</title>
+                <rubric xml:lang="syr-Syrn">ܕܚܕܒܫܒܐ ܕܒܬܪ ܏ܫܟܚ</rubric>
               </msItem>
               <msItem xml:id="b93" n="94">
                 <locus from="79b"/>
@@ -524,7 +526,6 @@
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="chart">
-                
                 <foliation/>
                 <collation/>
                 <condition>
@@ -539,7 +540,6 @@
                   </list>
                 </condition>
               </supportDesc>
-              
             </objectDesc>
             <handDesc hands="2">
               <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr-Syrn">
@@ -562,13 +562,11 @@
                 </item>
               </list>
             </additions>
-            
-            
             <accMat/>
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1100" notAfter="1300"/>
+              <origDate notBefore="1100" notAfter="1300">xiith or xiiith cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -578,8 +576,7 @@
             <adminInfo>
               <recordHist>
                 <source>Manuscript description based on<bibl>
-                    <ref target="#Wright">Wright's
-                      Catalogue</ref>
+                    <ref target="#Wright">Wright's Catalogue</ref>
                   </bibl>. abbreviated by the Syriaca.org editors.</source>
               </recordHist>
               <note/>
