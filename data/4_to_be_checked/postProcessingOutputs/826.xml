@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -96,8 +96,8 @@
               
               
               <note>It is a redaction different from that contained in <bibl>Add.
-                           12,173</bibl> (see <bibl>Add. 17,264, fol. 65 b</bibl>, and <bibl>Add.
-                           17,263</bibl>).</note>
+                           12,173<ptr target="http://syriaca.org/manuscript/69"/></bibl> (see <bibl>Add. 17,264<ptr target="http://syriaca.org/manuscript/1080"/>,<citedRange unit="locus">65b</citedRange></bibl>, and <bibl>Add.
+                           17,263<ptr target="http://syriaca.org/manuscript/1079"/></bibl>).</note>
               <note>From the description given by <bibl>
                   <persName>Thomas
                               Maragensis</persName> in Assemani's Bibl. Or., t. iii., pars 1, pp.
@@ -146,7 +146,7 @@
                   <title xml:lang="en">Chap. 3. On the reading of the Scriptures,
                               and watching by night, and singing of psalms at the services, and
                               constant prayers.</title>
-                  
+                  <rubric xml:lang="syr">ܩܦܠܐܘܢ ܕܬܠܬܐ: ܥܠ ܩܪܝܢܐ ܕܟܬܒ̈ܐ:  ܘܫܗܪܐ ܕܒ̈ܠܝܠܘܬܐ: ܘܬܫܡܫܬܐ ܕܡܙܡܘܪ̈ܐ: ܘܨ̈ܠܘܬܐ ܐܡ̈ܝܢܬܐ</rubric>
                   
                   
                   
@@ -307,12 +307,12 @@
                   <title xml:lang="en">Chap. 4. Conversations and actions of the
                               saints, and profitable and concise counsels concerning every sort of
                               virtuous deed.</title>
+                  <rubric xml:lang="syr">ܫ̈ܘܐܠܐ ܘܦܘܢܝ ܦܬܓ̈ܡܐ ܘܕܘܒܪ̈ܐ ܕܩܕܝ̈ܫܐ. ܘܕܡ̣̈ܠܟܐ ܡܘܬܪܢܐܝܬ ܘܚܒܘܫܐܝܬ ܥܠ ܟܠ ܙܢ̈ܝܢ ܕܡܝܬܪܘܼܬܐ</rubric>
                   
                   
                   
                   
-                  
-                  <note>See <bibl>Add. 12,173, no. 1</bibl>.</note>
+                  <note>See <bibl>Add. 12,173<ptr target="http://syriaca.org/manuscript/69"/>, no. 1</bibl>.</note>
                 </msItem>
                 <msItem xml:id="c16" n="19">
                   <locus to="169" from="166a">Foll. 166a-169</locus>
@@ -328,8 +328,8 @@
                   
                   
                   <note>See <bibl>Opera, t. vii., p. 140, line 26,</bibl>
-                           </note>
-                  <note>This chapter has been omitted in <bibl>Add. 14,583</bibl>; but see
+                    <!--Needs Greek inserted here--></note>
+                  <note>This chapter has been omitted in <bibl>Add. 14,583<ptr target="http://syriaca.org/manuscript/319"/></bibl>; but see
                                  <bibl>Assemani, Bibl. Or., t. iii., pars 1, pp. 145,
                               146</bibl>.</note>
                 </msItem>
@@ -352,6 +352,7 @@
                   <title xml:lang="en">Chap. 7. Another chapter of exhortation of
                               the Fathers.</title>
                   <rubric xml:lang="syr">ܫܪܒܐ ܐܚܪܢܐ ܕܡܪܬܝܢܘܬܐ ܕܐܒ̈ܗܬܐ</rubric>
+                  <incipit xml:lang="syr">ܬܒܝ ܒܡܕܒܪܐ ܢܦܫܐ ܕܘܿܝܬܐ .. ܦܠܘܚܝ ܠܐܠܗܐ ܒܨܘܡܐ̣ ܘܒܨܠܘܬܐ</incipit>
                   
                   <quote xml:lang="syr">ܬܚ̈ܘܝܬܐ ܕܠܚ̈ܡܢ ܠܪ̈ܦܝܐ ܘܠܚܒ̈ܢܢܐ ܘܠܐܝܠܝܢ ܕܠܐ ܝܨ̇ܦܝܢ
                                  ܕܢܦܫܗܘܢ
@@ -373,7 +374,7 @@
                   
                   
                   
-                  <note>See <bibl>Add. 14,582, fol. 42 b</bibl>.</note>
+                  <note>See <bibl>Add. 14,582<ptr target="http://syriaca.org/manuscript/318"/>,<citedRange unit="locus">42b</citedRange></bibl>.</note>
                 </msItem>
                 <msItem xml:id="c20" n="23">
                   <locus to="182" from="180a">Foll. 180a-182</locus>
@@ -433,7 +434,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                           <locus/>
+                           <locus from="184a"/>
                            <p/>
                            <p>
                     <quote xml:lang="syr">ܫܠܡܘ ܡ̈ܠ̣ܟܐ ܡ̇ܘܬܪ̈ܢܐ ܘܫ̈ܘܐܠܐ ܘܦܘܢܝ ܦܬܓ̈ܡܐ ܕܐܒ̈ܗܬܐ ܩ̈ܕܝܫܐ ܘܝ̈ܚܝܕܝܐ܀ ܫܘܒܚܐ ܠܐܒܐ:
@@ -443,19 +444,23 @@
                   </p>
                         </item>
                 <item xml:id="addition2" n="2">
-                           <locus/>
-                           <p>On fol. 184 b there stood a note, the greater portion of which has
-                              been almost completely effaced. Fortunately, the last six lines are
-                              still legible, giving the date <date datingMethod="Seleucid" when-custom="1240">1240</date> (<date calendar="Gregorian" when="0929">A.D. 929</date>), when <persName>Cosmas III</persName>.* was
-                              patriarch of <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>, and <persName>Basil. I.+ of <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                  <locus from="184b"/>
+                  <p>On fol. 184 b there stood a note, the greater portion of which has been almost
+                    completely effaced. Fortunately, the last six lines are still legible, giving
+                    the date <date datingMethod="Seleucid" when-custom="1240">1240</date> (<date
+                      calendar="Gregorian" when="0929">A.D. 929</date>), when <persName>Cosmas
+                        III</persName><note>See <bibl>Le Quien, Or. Christ., t. ii., col. 476</bibl>; <bibl>Renaudot, Hist. Patr. Alexandr. Jacob., p. 336</bibl>.</note> was patriarch of <placeName
+                      ref="http://syriaca.org/place/572">Alexandria</placeName>, and
+                    <persName>Basil. I. <note>See <bibl>Assemani, Bibl. Or., t. ii., p. 349, no. 26</bibl>; <bibl>Le Quien, Or. Christ., t. ii., col. 1376</bibl>.</note> of <placeName ref="http://syriaca.org/place/10"
+                        >Antioch</placeName>
                     </persName>
                   </p>
-                           <p>
-                              <quote xml:lang="syr">ܫܢܬ ܐܠܦ ܘܡܐܬܝܢ ܘܐܪ̈ܒܥܝܢ ܒܐܝܪܚ ܬܡܘܙ ܏ܟܗ [ܒܗ ܒܝܘܡ]
-                                 ܫܒܬܐ ܒܦܠܓܗ ܕܝܘܡܐ ܒܝܘ̈ܡܝ ܛܘܒ̈ܬܢܐ ܘܚ̈ܣܝܐ ܘܪ̈ܝܫܝ ܟܗ̈ܢܐ ܦܐܛܪܝܪ̈ܟܐ ܡܪܝ
-                                 ܩܘܣ݊ܡܣ ܕܐܠܟܣܢܕܪܝܐ ܕܡܨܪܝܢ ܘܡܪܝ ܒ݊ܣܝܠܝܘ݊ܣ . . . </quote>
-                           </p>
-                        </item>
+                  <p>
+                    <quote xml:lang="syr">ܫܢܬ ܐܠܦ ܘܡܐܬܝܢ ܘܐܪ̈ܒܥܝܢ ܒܐܝܪܚ ܬܡܘܙ ܏ܟܗ [ܒܗ ܒܝܘܡ] ܫܒܬܐ
+                      ܒܦܠܓܗ ܕܝܘܡܐ ܒܝܘ̈ܡܝ ܛܘܒ̈ܬܢܐ ܘܚ̈ܣܝܐ ܘܪ̈ܝܫܝ ܟܗ̈ܢܐ ܦܐܛܪܝܪ̈ܟܐ ܡܪܝ ܩܘܣ݊ܡܣ ܕܐܠܟܣܢܕܪܝܐ
+                      ܕܡܨܪܝܢ ܘܡܪܝ ܒ݊ܣܝܠܝܘ݊ܣ . . . </quote>
+                  </p>
+                </item>
                 <item xml:id="addition3" n="3">
                            <locus/>
                            <p>Some words in a previous line show that the scribe was a native of
@@ -465,7 +470,7 @@
                            </p>
                         </item>
                 <item xml:id="addition4" n="4">
-                           <locus/>
+                           <locus from="184a"/>
                            <p>A more recent note on fol. 184 a has likewise been almost wholly
                               erased. It contained the name of a priest.</p>
                            <p>
@@ -473,7 +478,7 @@
                            </p>
                         </item>
                 <item xml:id="addition5" n="5">
-                           <locus/>
+                           <locus from="1a"/>
                            <p> The note on fol. 1 a, which is also much mutilated, seems to have
                               contained one of the usual forms of anathema. The words <foreign xml:lang="syr">ܕܝܪܐ ܗܕܐ</foreign>.
                               (the <placeName ref="http://syriaca.org/place/360">convent of S. Mary Deipara</placeName>) are legible in the fourth line from
@@ -483,7 +488,7 @@
                            </p>
                         </item>
                 <item xml:id="addition6" n="6">
-                           <locus/>
+                           <locus from="166b"/>
                            <p>The monk <persName>David of Mar'ash</persName> has recorded his name on the margin of fol.
                               166 b.</p>
                            <p>
