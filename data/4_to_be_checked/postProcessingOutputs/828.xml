@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -103,11 +103,11 @@
                 <finalRubric xml:lang="syr">ܫܠ̣ܡ ܠܡܟܬܒ ܦܢܩܝܬܐ ܩܕܡܝܬܐ ܕܬܫ̈ܥܝܬܐ ܕܡܨܪ̈ܝܐ܀ ܫܘܒܚܐ
                            ܠܬܠܝܬܝܘܬܐ ܐܡܝܢ.<locus from="57b"/>
                 </finalRubric>
-                <note>Compare <bibl>Add. 12,173, no. 1, b</bibl>.</note>
+                <note>Compare <bibl>Add. 12,173<ptr target="http://syriaca.org/manuscript/69"/>, no. 1, b</bibl>.</note>
               </msItem>
               <msItem xml:id="b2" n="3">
                 
-                
+                <locus from="58a">Fol. 58a</locus>
                 <title xml:lang="en">Part second.</title>
                 <rubric xml:lang="syr">ܦܢܩܝܬܐ ܕܬܪܬܝܢ ܕܝܠܗܘܢ ܟܕ ܕܝܠܗܘܢ ܕܐ̈ܚܐ ܐܝܚ̈ܝܕܝܐ
                            ܕܒܡܨܪܝܢ</rubric>
@@ -116,8 +116,9 @@
                 
                 
                 <finalRubric xml:lang="syr">ܫܠܡ ܬܫ̈ܥܝܬܐ ܕܛܘܒ̈ܢܐ ܐܝܚ̈ܝܕܝܐ ܕܒܡܨܪܝܢ
+                  <locus from="97b"/>
                 </finalRubric>
-                <note>Compare <bibl>Add. 12,173, no 1, a</bibl>.</note>
+                <note>Compare <bibl>Add. 12,173<ptr target="http://syriaca.org/manuscript/69"/>, no 1, a</bibl>.</note>
               </msItem>
             </msItem>
           </msContents>
@@ -154,7 +155,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                           <locus/>
+                           <locus from="97b"/>
                            <p>After the doxology, on fol. 97 b, we find a note, informing us that
                               the manuscript was written by one <persName>Elias</persName>, in the
                               <date>year 427 of the era of <placeName ref="http://syriaca.org/place/40">Bostra</placeName>
@@ -186,7 +187,7 @@
                            </p>
                         </item>
                 <item xml:id="addition4" n="4">
-                           <locus/>
+                           <locus from="1a"/>
                            <p>A more recent note, on fol. 1 <hi rend="italic">a</hi>, states that
                               the book was presented to the <placeName ref="http://syriaca.org/place/360">convent of S. Mary
                                  Deipara</placeName> by one <persName>Yeshua' bar Moses</persName>,
@@ -198,7 +199,7 @@
                            </p>
                         </item>
                 <item xml:id="addition5" n="5">
-                           <locus/>
+                           <locus from="2a"/>
                            <p>On fol. 2 a there is a short index of lessons from the Gospels for the
                               Sundays in Lent, written in a hand of about the <date calendar="Gregorian" notBefore="0900" notAfter-custom="1000">xth cent.</date>; and on
                               foll. 97 b and 98 a we find the passage <bibl>1 Samuel, ch. xvi.
@@ -208,7 +209,7 @@
                            </p>
                         </item>
                 <item xml:id="addition6" n="6">
-                           <locus/>
+                           <locus from="98b"/>
                            <p>The writing on fol. 98 b is too much effaced to admit of
                               decipherment.</p>
                            <p>
