@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -101,7 +101,7 @@
                 
                 <note>See <bibl>De Lagarde, "De Geoponicon versione Syriaca commentatio"
                               (Leipzig, 1855) p. 20</bibl>; <bibl>"Gesammelte Abhandlungen," 1866,
-                              p. 142; and Analecta Syriaca, p. 177</bibl>.</note>
+                              p. 142</bibl>; and <bibl>Analecta Syriaca, p. 177</bibl>.</note>
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus to="15" from="8a">Foll. 8a-15</locus>
@@ -120,9 +120,9 @@
             <msItem xml:id="a2" n="4">
               <locus to="23" from="15b">Foll. 15b-23</locus>
               
-              <title xml:lang="en">The treatise of <persName>Lucian</persName>, here
-                        called Lucius, % <!--insert figure here-->"<foreign>de non temere credendo
-                        calumnise</foreign>."</title>
+              <title xml:lang="en">The treatise of <persName>Lucian</persName>, here called
+                  <persName>Lucius</persName>, % <!--insert greek here-->"<foreign>de non temere
+                    credendo calumniæ</foreign>."</title>
               <rubric xml:lang="syr">ܡܐܡܪܐ ܕܠܘܩܝܘܣ ܦܝܠܣܘܦܐ. ܥܠ ܗ̇ܝ ܕܠܐ ܙܕܩ̇ ܠܢ ܕܢܩܒܠ ܡܐܟܠܩܪܨܐ
                         ܥܠ ܪ̈ܚܡ̇ܝܢ</rubric>
               <incipit xml:lang="syr">ܣ̇ܓܝ ܡܚܣܪܐ ܓܠܝܙܘܬ ܝܕܥܬܐ̣. ܘܐܝܬܝܗ̣̇ ܥܠܸܬ ܒܝ̈ܫܬܐ ܣܓܝܐܬ̈ܐ
@@ -179,8 +179,8 @@
             </msItem>
             <msItem xml:id="a4" n="8">
               <locus to="51" from="47b">Foll. 47b-51</locus>
-              <author>Gregory Nazianzen</author>
-              <title xml:lang="en">Select Epistles of <persName>Gregory
+              <author><persName ref="http://syriaca.org/person/511">Gregory Nazianzen</persName></author>
+              <title xml:lang="en">Select Epistles of <persName ref="http://syriaca.org/person/511">Gregory
                            Nazianzen</persName>, thirty-one in number, from the sixty-sixth to the
                         ninety-sixth.</title>
               <rubric xml:lang="syr">ܐܓܪ̈ܬܐ ܕܩܕܝܫܐ ܓܪܝܓܪܝܘܣ ܬܐܘܠܘܓܘܣ̣. ܕܡܦܫ̈ܩܢ ܡܢ ܝܘܢܝܐ
@@ -461,7 +461,7 @@
                 
                 <title xml:lang="en">To <persName>Celeusius</persName>.</title>
                 <rubric xml:lang="syr">ܠܩܗܠܗܘܣܝܐܘܣ</rubric>
-                <incipit xml:lang="syr">See ep. cxii.</incipit>
+                <note xml:lang="en">See ep. cxii.</note>
                 
                 
                 
@@ -495,7 +495,7 @@
                 <title xml:lang="en">To <persName>Theodore</persName>.</title>
                 <rubric xml:lang="syr">ܠܬܗܕܪܘܣ</rubric>
                 
-                
+                <note xml:lang="en">See ep. cxxxix.</note>
                 
                 
                 
@@ -531,7 +531,7 @@
                 
                 
                 
-                <note>See ep. cxxxviii., as far as %</note>
+                <note>See ep. cxxxviii., as far as % <!--Insert Greek--></note>
               </msItem>
             </msItem>
           </msContents>
@@ -547,11 +547,11 @@
                            <list>
                               <item>
                                  <p>Vellum, about 10 3/8 in. by 7 1/4, consisting of 51 leaves. The
-                                    quires were originally 17 in number, but the first 12 have been
-                                    lost. The remaining five are signed with arithmetical figures,
-                                    the ten being placed to the left, instead of, as usual, to the
-                                    right $=13, $=14, $=15, $=16, $=17). There are from 25 to 37
-                                    lines in each page. </p>
+                        quires were originally 17 in number, but the first 12 have been lost. The
+                        remaining five are signed with arithmetical figures, the ten being placed to
+                        the left, instead of, as usual, to the right
+                        <!--Insert numeric?? Characters--> $=13, $=14, $=15, $=16, $=17). There are
+                        from 25 to 37 lines in each page. </p>
                               </item>
                            </list>
                         </condition>
@@ -560,9 +560,9 @@
                   </objectDesc>
                   <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr-Syre">
-                        <desc>This volume is written in a good, regular hand, changing on fol. 46 ft
-                           from a more cursive to a stiffer Estrangela.</desc>
-                     </handNote>
+                <desc>This volume is written in a good, regular hand, changing on fol. 46  from a
+                  more cursive to a stiffer Estrangela.</desc>
+              </handNote>
             </handDesc>
                   <additions>
               <p/>
