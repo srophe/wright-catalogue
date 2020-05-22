@@ -25,7 +25,8 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessie
+            Pagan</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -70,11 +71,13 @@
               <idno type="BL-Shelfmark">Add MS 14700</idno>
             </altIdentifier>
             <altIdentifier>
-              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum
+                Acquired since the Year 1838</collection>
               <idno type="Wright-BL-Arabic">375</idno>
             </altIdentifier>
             <altIdentifier>
-              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum
+                Acquired since the Year 1838</collection>
               <idno type="Wright-BL-Roman">CCCLXXV</idno>
             </altIdentifier>
           </msIdentifier>
@@ -87,7 +90,7 @@
                 a different set of anthems, canons, etc.; viz.</title>
               <msItem xml:id="b1" n="2">
                 <locus from="1b"/>
-                <title xml:lang="en">The Order of the Resurrection, in eight parts. </title>
+                <title xml:lang="en">The Order of the Resurrection, in eight parts</title>
                 <rubric xml:lang="syr">ܥܠ ܣܒܪܐ ܘܬܘܟܠܢܐ ܕܬܠܝܬܝܘܬܐ ܏ܩܕܝܫ ܡܫܪ̈ܝܢܢ ܕܢܟܬܘܒ ܛܟ̈ܣܐ ܕܩܝܡܬܐ
                   ܒܬܡ̈ܢܐ ܐܟܐܕ̈ܝܐ</rubric>
                 <finalRubric xml:lang="syr">ܫܠܸܡܘ ܛܟ̈ܣܐ ܗܠܝܢ ܕܩܝܡܬܐ ܒܬܡ̈ܢܐ ܩ̈ܝܢܬܐ. ܏ܘܫ<locus from="110b"/>
@@ -101,8 +104,8 @@
               </msItem>
               <msItem xml:id="b3" n="4" defective="true">
                 <locus from="118a"/>
-                <title xml:lang="en">An Order for the Commemoration of <persName>Abbā
-                    Bīshōi</persName>
+                <title xml:lang="en">An Order for the Commemoration of <persName
+                    ref="http://syriaca.org/person/1175">Abbā Bīshōi</persName>
                 </title>
                 <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܐܒܐ ܒܝܫܘܝ</rubric>
               </msItem>
@@ -111,7 +114,6 @@
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="chart">
-                
                 <foliation/>
                 <collation/>
                 <condition>
@@ -121,20 +123,18 @@
                         are much stained and torn, especially <locus from="119">fol. 119</locus>.
                         The quires, signed with letters, are 13 in number. A leaf is missing after
                           <locus from="118">fol. 118</locus>. There are from 16 to 18 lines in each
-                        page. </p>
+                        page.</p>
                     </item>
                   </list>
                 </condition>
               </supportDesc>
-              
             </objectDesc>
             <handDesc hands="2">
               <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
                 <desc>This volume is written in a large, regular hand, by the same scribe as
-                  <bibl>Add. 14,699<ptr target="http://syriaca.org/manuscript/565"/>
-                  </bibl>, in the year <origDate when="1603" calendar="Seleucid">1603</origDate>, <origDate when="1292" calendar="Gregorian">A.D.
-                    1292</origDate>
-                </desc>
+                    <bibl>Add. 14,699<ptr target="http://syriaca.org/manuscript/565"/>
+                  </bibl>, in the year <origDate when-custom="1603" datingMethod="Seleucid">1603</origDate>,
+                    <origDate when="1292" calendar="Gregorian">A.D. 1292</origDate>.</desc>
               </handNote>
               <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
                 <desc>On <locus from="1a">foll. 1 a</locus> and <locus from="119b">119 b</locus>
@@ -149,18 +149,16 @@
                   <p>On <locus from="119b">fol. 119 b</locus> there is a note to the same effect as
                     that in <bibl>Add. 14,699<ptr target="http://syriaca.org/manuscript/565"/>
                       <citedRange unit="locus">fol.136a</citedRange>
-                    </bibl>. The scribe
-                      <persName>John</persName> adds here that he was from the village of
-                      <placeName>Hah</placeName> in <placeName>Tūr-’Abdīn</placeName>
-                  </p>
+                    </bibl>. The scribe <persName>John</persName> adds here that he was from the
+                    village of <placeName ref="http://syriaca.org/place/217">Hah</placeName> in
+                      <placeName ref="http://syriaca.org/place/221">Tūr-’Abdīn</placeName>.</p>
                   <p>
-                    <quote xml:lang="syr">ܐܬܟܬܒ̣̈ܘ ܒܐܝܕ̈ܝܐ ܚ̈ܠܫܬܐ ܕܝܘܚܢܢ ܐܠܣܢܝܐ ܕܠܗ ܐܬܪܐ ܛܘܪ ܥܒܕܝܢ. ܩܪܝܬܐ ܚܲܐܚ.</quote>
+                    <quote xml:lang="syr">ܐܬܟܬܒ̣̈ܘ ܒܐܝܕ̈ܝܐ ܚ̈ܠܫܬܐ ܕܝܘܚܢܢ ܐܠܣܢܝܐ ܕܠܗ ܐܬܪܐ ܛܘܪ ܥܒܕܝܢ.
+                      ܩܪܝܬܐ ܚܲܐܚ.</quote>
                   </p>
                 </item>
               </list>
             </additions>
-            
-            
             <accMat/>
           </physDesc>
           <history>
@@ -175,8 +173,7 @@
             <adminInfo>
               <recordHist>
                 <source>Manuscript description based on<bibl>
-                    <ref target="#Wright">Wright's
-                      Catalogue</ref>
+                    <ref target="#Wright">Wright's Catalogue</ref>
                   </bibl>. abbreviated by the Syriaca.org editors.</source>
               </recordHist>
               <note/>
