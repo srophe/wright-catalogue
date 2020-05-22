@@ -25,7 +25,8 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessie
+            Pagan</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -70,11 +71,13 @@
               <idno type="BL-Shelfmark">Add MS 14703</idno>
             </altIdentifier>
             <altIdentifier>
-              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum
+                Acquired since the Year 1838</collection>
               <idno type="Wright-BL-Arabic">467</idno>
             </altIdentifier>
             <altIdentifier>
-              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum
+                Acquired since the Year 1838</collection>
               <idno type="Wright-BL-Roman">CCCCLXVII</idno>
             </altIdentifier>
           </msIdentifier>
@@ -82,8 +85,9 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
               <locus to="268" from="1"/>
-              <title xml:lang="en">A Maronite collection of hymns (ܩ̈ܠܐ and ܣܘ̈ܓܝܬܐ) prayers
-                for the Vigils, etc. </title>
+              <title xml:lang="en">A Maronite collection of hymns (<foreign xml:lang="syr"
+                  >ܩ̈ܠܐ</foreign> and <foreign xml:lang="syr">ܣܘ̈ܓܝܬܐ</foreign>) prayers for the
+                Vigils, etc. </title>
               <rubric xml:lang="syr">ܥܠ ܚ̇ܝ̣ܠܐ ܠܐ [ܡـ]ܒܗ̣ܬܢܐ ܕܐܒܐ ܘܕܒܪܐ ܘܕܪܘܚܐ ܕܩܘܕ ܡܫ̇ܪܝܢܢ ܕܢܟܬ݂ܘܒ
                 ܩ̈[ܠܐ] ܫܗܪ̈ܢܝܐ ܘܡܐ . . . ܒܝܬ ܓܙܐ.</rubric>
               <msItem xml:id="b1" n="2">
@@ -145,14 +149,13 @@
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="chart">
-                
                 <foliation/>
                 <collation/>
                 <condition>
                   <list>
                     <item>
                       <p>Paper, about 9 7/8 in. by 6 5/8, consisting of 268 leaves, some of which
-                        are much stained and torn, especially foll. 1, 2, 42,43, and 257, —268. The
+                        are much stained and torn, especially foll. 1, 2, 42,43, and 257—268. The
                         quires, signed with letters, are 35 in number. Leaves are wanting after
                         foll. 106, 120, 247 and 267. There are from 22 to 34 lines in each page.</p>
                       <p>Fol. 1 is so much torn, that the notes written upon it are no longer intelligible.</p>
@@ -160,12 +163,13 @@
                   </list>
                 </condition>
               </supportDesc>
-              
             </objectDesc>
             <handDesc hands="6">
               <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
-                <desc>This volume is written in a rather peculiar hand of the xiith or xiiith cent.,
-                  with the exception of foll. 44 and 268, which are somewhat more modern. </desc>
+                <desc>This volume is written in a rather peculiar hand of the <date
+                    calendar="Gregorian" notBefore="0600" notAfter="0800">xiith or xiiith
+                    cent.</date>, with the exception of foll. 44 and 268, which are somewhat more
+                  modern.</desc>
               </handNote>
               <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
                 <desc>A later hand has inserted two lessons from the Pauline Epistles; viz. a) from
@@ -173,20 +177,20 @@
                   28—39, fol. 44 b.</desc>
               </handNote>
               <handNote medium="unknown" xml:id="handNote3" scope="minor" script="syr">
-                <desc>Fol. 268 contains a ܣܘܓܝܬܐ for the Resurrection, written by a different
-                  hand.</desc>
+                <desc>Fol. 268 contains a <foreign xml:lang="syr">ܣܘܓܝܬܐ</foreign> for the
+                  Resurrection, written by a different hand.</desc>
               </handNote>
               <handNote medium="unknown" xml:id="handNote4" scope="minor" script="syr">
                 <desc>The prayer on fol. 2 a is apparently in the same handwriting as the note by
-                  the priest Ibrahim or Abraham.</desc>
+                  the <persName>priest Ibrahim or Abraham</persName>.</desc>
               </handNote>
               <handNote medium="unknown" xml:id="handNote5" scope="minor" script="Mixed">
-                <desc>On fol. 268b there is a note in Syriac and Arabic by a priest named Ibrahim or
-                  Abraham.</desc>
+                <desc>On fol. 268b there is a note in Syriac and Arabic by a priest named
+                    <persName>Ibrahim or Abraham</persName>.</desc>
               </handNote>
               <handNote medium="unknown" xml:id="handNote6" scope="minor" script="Mixed">
-                <desc>There is another note on 268b from a priest named Daniel in Syriac, Latin, and
-                  Arabic.</desc>
+                <desc>There is another note on 268b from <persName>a priest named Daniel</persName>
+                  in Syriac, Latin, and Arabic.</desc>
               </handNote>
             </handDesc>
             <additions>
@@ -195,8 +199,9 @@
                 <item xml:id="addition1" n="1">
                   <locus from="268b"/>
                   <p>On fol. 268 b there is a note in Syriac and Arabic, by a priest named<persName>
-                      Ibrāhīm or Abraham</persName>, dated <origDate>A. Gr. 1558</origDate>,
-                      <origDate>A.D. 1247.</origDate> The Arabic text is the better preserved.</p>
+                      Ibrāhīm or Abraham</persName>, dated <origDate datingMethod="Seleucid"
+                      when-custom="1558">A. Gr. 1558</origDate>, <origDate calendar="Gregorian"
+                      when="1247">A.D. 1247.</origDate> The Arabic text is the better preserved.</p>
                   <p>
                     <quote xml:lang="ar">القس ابرهيم من ال .... سنه الف وخمسمايه وثمنيه وخمسين من سنين لاسكندر ابن
                       اليوناني في عشين يوم من حٍٍ[زيران] يوم الثلثه ء....</quote>
@@ -206,9 +211,9 @@
                   <locus from="268b"/>
                   <p>There is another note on fol. 268 b, in which the priest
                       <persName>Daniel</persName>, from the village of
-                      <placeName>Hagūlī,</placeName> mentions that he read this volume twice, once
+                      <placeName>Hagūlī</placeName> mentions that he read this volume twice, once
                       at<placeName> Haguli</placeName>, and again at the village of
-                      <placeName>Benīsa</placeName>. </p>
+                      <placeName>Benīsa</placeName>.</p>
                   <p>
                     <quote xml:lang="syr">ܦܓ̣ܥ ܒܟܬܒܐ ܗܢܐ ܘܩܪܝ ܒܗ ܒܩܪܝܬܐ ܚܓܘܠܝ. ܘܬܘܒ ܙܒܢ̣ܬܐ ܐܚܪܝܬܐ
                       ܒܩܪܝܬܐ ܒܢܝܣܗ ܩܫܝܫܐ ܕܢܝܐܝܠ ܕܡܢ ܚܓܘܠܝ. ܨ̈ܠܘ ܥܠܝ ܒܒܥܘ ܡܛܠ ܡܫܝܚܐ.</quote>
@@ -222,14 +227,11 @@
                 </item>
               </list>
             </additions>
-            
-            
             <accMat/>
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1100" notAfter="1300">the xiith or xiiith
-                cent.</origDate>
+              <origDate notBefore="1100" notAfter="1300">the xiith or xiiith cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -239,8 +241,7 @@
             <adminInfo>
               <recordHist>
                 <source>Manuscript description based on<bibl>
-                    <ref target="#Wright">Wright's
-                      Catalogue</ref>
+                    <ref target="#Wright">Wright's Catalogue</ref>
                   </bibl>. abbreviated by the Syriaca.org editors.</source>
               </recordHist>
               <note/>
