@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <repository>British Library</repository>
+                  <collection>Oriental Manuscripts</collection>
+                  <altIdentifier>
+                     <idno type="BL-Shelfmark">Add. 17,156, foll. 1—12</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno type="Wright-BL-Roman">DCCCCLXXXIX</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title xml:lang="en">Works of Severus Sabocht, bishop of Kinnesrin (see
+                        Assemani, Bibl. Or., t. ii., p. 335)</title>
+                     <msItem>
+                        <locus>Foll. 1 and 2</locus>
+                        <idno>1.</idno>
+                        <title xml:lang="en">Fragments of a commentary on the % of
+                           Aristotle.</title>
+                        <note>This may, however, be the work of some other author.</note>
+                     </msItem>
+                     <msItem>
+                        <locus>Fol 3 a</locus>
+                        <idno>2.</idno>
+                        <title xml:lang="en">A treatise on the Syllogisms in the Analytica (Priora)
+                           of Aristotle.</title>
+                        <note>Imperfect at the beginning; see Add. 14,660, no. 2.</note>
+                        <finalRubric xml:lang="syr"><locus>fol. 5 b:</locus>ܫܠ̣ܡ ܡܐܡܪܐ ܕܒܙܥܘܪܝܬܐ
+                           ܕܡܛܠ ܣܘܠܘܓܝܣܡܘܣ ܕܒܐܢܐܘܠܘܛܝܩܐ ܕܐܪܝܣܛܛܠܝܣ ܕܥܒܝܕ ܠܚܣܝܐ ܐܒܘܣ ܡܪܝ ܣܐܘܪܐ
+                           ܐܦܝܣܩܘܦܐ ܕܩܢ̣ܫܪܝܢ </finalRubric>
+                     </msItem>
+                     <msItem>
+                        <locus>Fol. 5 b</locus>
+                        <idno>3.</idno>
+                        <title xml:lang="en">A letter to Jonas, the periodeutes, ex­planatory of
+                           some points in the Ars Rhetorica of Aristotle.</title>
+                        <rubric xml:lang="syr"> ܬܘܒ ܐܝܓܪܬܐ ܕܚܣܝܐ ܣܐܘܪܐ ܣܒܘܟܬ ܐܦܝܣܩܦܐ ܕܩܢ̇ܫܪܝܢ: ܠܘܬ
+                           ܣܥܘܪܐ ܝܘܢܢ ܪܚ̇ܡܗ ܡܛܠ ܦܘܫܩܐ ܡܕܡ ܡܕܡ ܡܢ ܐܘܡܢܘܬܐ ܡܠܝܠܬܐ ܕܐܪܝܣܛܛܠܝܣ
+                           ܦܝܠܣܦܐ</rubric>
+                        <incipit xml:lang="syr">ܠܪܚ̇ܡ ܐܠܗܐ ܘܕܚܠ ܠܐܠܗܐ̇. ܐܚܘܢ ܪܘܚܢܐ ܘܚܒܝܒܐ ܩܫܝܫܐ
+                           ܘܣܥܘܪܐ ܝܘܢܢ܆ ܣܐܘܪܐ ܒܨܝܪܐ ܒܡܪܝܐ ܚ̣ܕܝ.܀ ܩܒܠܬ ܐܦ ܗܫܐ ܠܐܝܓܪܬܐ ܕܐܚܘܬܟ ܪܘܚܢܝܬܐ.
+                           ܐܦܢ ܘܠܡܚܣܢ ܘܡܫܘܚܪܐܝܬ: ܒܬܪ ܫܢܬܐ ܓܝܪ ܚܕܐ ܠܥܢܝܢܐ ܗ̇ܘ ܕܥ̇ܒܕܬ̇ ܠܘܬ ܚܘܒܟ ܐܬ̣ܐ
+                           ܠܘܬܝ. ܘܪܒܬܝ ܚܕܝܬ. ܕܐܣܬܒܪܬ ܐܝܟ ܥܝܕܐ̇. ܥܠ ܫܦܝܪܘܬ ܚܘܠܡܢܐ ܕܕܚܠܬ ܐܠܗܐ ܕܝܠܟ.
+                           ܐܟܚܕܐ ܕܝܢ ܘܕܫܦܪܬ ܠܣܟܘܠܬܢܘܬܐ ܕܐܚ̇ܘܬܟ. ܡܥܗܕܢܘܬܐ ܗ̇ܝ ܕܗܘ̣ܬ ܡܢܝ܇ ܡܛܠ ܦܘܫ̈ܟܐ
+                           ܗ̇ܢܘܢ ܕܗܘ̣ܘ ܠܗ ܒܙܒܢ܇ ܡܛܠ ܩܢܘ̈ܢܐ ܡܕܡ ܡܕܡ̇. ܕܐܒܗ̈ܬܐ ܩ̈ܕܝܫܐ܀ ܏ܘܫ</incipit>
+                     </msItem>
+                     <msItem>
+                        <locus>Fol. 11 a</locus>
+                        <idno>4.</idno>
+                        <title xml:lang="en">A letter to the priest #Aitilaha on certain terms in
+                           the treatise %</title>
+                        <rubric xml:lang="syr">ܐܓܪܬܐ ܕܚܣܝܐ ܣܐܘܪܐ ܣܒܘܟܬ. ܡܛܠ ܒ̈ܢܬ ܩ̈ܠܐ ܡ̣ܕܡ ܕܒܟܬܒܐ
+                           ܕܦܪܝܪܡܢܝܐܣ. ܠܘܬ ܩܫܝܫܐ ܐܝܬܝܠܗܐ</rubric>
+                        <note>Imperfect at the end. See Add. 14,660, no. 3.</note>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <note>Twelve vellum leaves, about 10 7/8 in. by 7 1/4, the first three of which
+                     are much soiled and torn. They formed parts of three quires, numbered $ܝܛ , ܟ,
+                     and $ܟܐ , but there are considerable lacunae after foll. 1 and 2. Each page is
+                     divided into two columns, of from 27 to 30 lines. The writing is neat and
+                     regular, and seems to be of the ixth ccnt. They con­tain—</note>
+                  <note>These leaves arc decorated with interlaced ornaments and figures of birds;
+                     e.g. foll. 4 b, 5 b, and 9 a.</note>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+   </text>
+</TEI>
