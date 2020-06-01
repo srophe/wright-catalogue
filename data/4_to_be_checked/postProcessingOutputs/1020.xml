@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -90,12 +90,12 @@
                 ܕܠܒܢܢ. </rubric>
               <msItem xml:id="b1" n="2">
                 <locus from="1b"/>
-                <title xml:lang="en">The Nativity of our Lord</title>
+                <title xml:lang="en">The Nativity of our <persName ref="http://syriaca.org/person/2245">Lord</persName></title>
                 <rubric xml:lang="syr">ܛܟܣܐ ܕܒܝܬ ܝܠܕܗ ܕܡܪܢ ܒܒܣܪ</rubric>
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
                 <locus from="47a"/>
-                <title xml:lang="en">The Praises of the blessed Virgin</title>
+                <title xml:lang="en">The Praises of <persName ref="http://syriaca.org/person/624">the blessed Virgin</persName></title>
                 <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܩܘ̈ܠܣܝܗ̇ ܕܝܠ̣ܕܬ݀ ܐܠܗܐ ܡܪܝܡ</rubric>
               </msItem>
               <msItem xml:id="b3" n="4">
@@ -132,15 +132,14 @@
               
             </objectDesc>
             <handDesc hands="2">
-              <handNote medium="unknown" xml:id="handNote1" scope="major" script="">
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="Unknown">
                 <desc>This volume is written in a regular, though rather inelegant hand, of the
                   earlier part of the xiiith cent. (see below, and compare <bibl>Add 14,707<ptr target="http://syriaca.org/manuscript/573"/>
                   </bibl>).</desc>
               </handNote>
               <handNote medium="unknown" xml:id="handNote2" scope="minor" script="Unknown">
                 <desc>See additions.
-                  <!--how do I make this plain arabic, not arabic translation of syriac?-->
-                </desc>
+                 </desc>
               </handNote>
             </handDesc>
             <additions>
@@ -158,11 +157,12 @@
                   <locus from="46a"/>
                   <p>On fol. 46 a there remains part of an Arabic note, which seems to date from the
                     year 154—, A.D. 123—, and to have been written by a priest named <persName>‘Abd
-                      al-Masīh ibn Sim’ān % <!-- arabic needed here -->
-                    </persName>
+                      al-Masīh ibn Sim’ān</persName>
                   </p>
                   <p>
-                    <quote xml:lang="syr"/>
+                    <quote xml:lang="ar">بس[م الله.....] لما كان [سنة الف] وخمس ميه ..... واربعين
+                      [سنه من] سنين لس[كندر ابن] فليبوس ال[يوناني] ارتسمت انا.....عبد لمسيح (sic)
+                      ابن.....سمعان من سب....قسيس ارب (?) يسم.....علي خطيت وانا مسد.....خطي.</quote>
                   </p>
                 </item>
                 <item xml:id="addition3" n="3">
@@ -374,7 +374,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-03-13-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-02-28" who="http://syriaca.org/documentation/editors.xml#akelly">Initial
         TEI encoding.</change>
-      <change type="planned" subtype="arabic">Add missing Arabic text. in additions</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
