@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -92,13 +92,15 @@
                         ܘܕܐܢܫ̈ܝܢ ܐܚܪ̈ܢܐ ܐܝܟ ܬܘܪܨܐ ܚ̣ܕܬܐ ܕܡܛܟ̈ܣܢ ܡܢ ܩܘܕܫ̇ ܥܕܬܐ ܘܟܠ ܥ̈ܐܕܐ ܒܥܐܕܗ ܘܟܠ
                         ܛܟ̣ܣܐ ܒܛܟܣ̣ܗ ܘܡܚ̣ܕܐ ܕܝ̇ܠܕܬ݀ ܐܠܗܐ ܘܕܣܗ̈ܕܐ ܘܕܬܝܒܘܬܐ ܘܕܥ̈ܢܝܕܐ ܡܢ ܩܕܡܝܐ ܠܬܡܝܢܝܐ
                         ܨܲܠܐ ܐܚܘܢ ܥܠ ܡ̇ܢ ܕܣ̣ܪܛ. 
-              </finalRubric>
+              <locus from="158b"/></finalRubric>
               <note>Each hymn is marked by a letter denoting its tone.</note>
               <msItem xml:id="b1" n="2" defective="true">
                 <locus to="1" from="1a">Foll. 1a-1</locus>
                 
                 <title xml:lang="en">The Beheading of <persName ref=" http://syriaca.org/person/1808">S. John the Baptist</persName>.</title>
-                <rubric xml:lang="syr">ܠܛ,ܡ</rubric>
+                <rubric xml:lang="syr">ܡ,
+                  ܠܛ                               
+                </rubric>
                 
                 
                 
@@ -110,7 +112,8 @@
                 
                 <title xml:lang="en">
                   <persName ref="http://syriaca.org/person/1711">S. Stephen</persName>.</title>
-                <rubric xml:lang="syr">ܡܐ,ܡܒ </rubric>
+                <rubric xml:lang="syr">ܡܒ, 
+                  ܡܐ</rubric>
                 
                 
                 
@@ -122,7 +125,9 @@
                 
                 <title xml:lang="en">
                   <persName>S. Simeon</persName> and the Presentation.</title>
-                <rubric xml:lang="syr">ܡܕ,ܡܓ</rubric>
+                <rubric xml:lang="syr">ܡܓ,
+                  ܡܕ
+                  </rubric>
                 
                 
                 
@@ -269,7 +274,7 @@
                 <locus to="155" from="152b">Foll. 152-155</locus>
                 
                 <title xml:lang="en">Hymns for compline.</title>
-                <rubric xml:lang="syr">̈ܥܢܝܐ ܕܗ̇ܘ̈ܝܢ ܠܣ̣ܘܬܪܐ</rubric>
+                <rubric xml:lang="syr">ܡ̈ܥܢܝܐ ܕܗ̇ܘ̈ܝܢ ܠܣ̣ܘܬܪܐ</rubric>
                 <incipit xml:lang="syr">ܫܣܓ</incipit>
                 
                 
@@ -377,7 +382,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="0700" notAfter="0800">This volume is
+                     <origDate notBefore="1200" notAfter="1300">This volume is
                         written in a small, neat hand of the xiiith cent.</origDate>
                      <origPlace/>
                   </origin>
