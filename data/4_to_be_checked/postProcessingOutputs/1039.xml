@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -150,7 +150,7 @@
               <msItem xml:id="b5" n="6">
                 <locus to="5" from="4a">Foll. 4a-5</locus>
                 
-                <title xml:lang="en">The <persName ref="http://syriaca.org/person/1661">holy Cross</persName>.</title>
+                <title xml:lang="en">The holy Cross.</title>
                 <rubric xml:lang="syr">ܕܥܠ ܨܠܝܒܐ ܩܕܝܫܐ</rubric>
                 
                 
@@ -262,17 +262,13 @@
               </msItem>
               <msItem xml:id="b15" n="16">
                 
-                
+                <locus to="53" from="29b"/>
                 <title xml:lang="en">The various Apostles, Prophets, Martyrs,
                            etc.</title>
                 <rubric xml:lang="syr">ܩܢܛ</rubric>
                 
-                
-                
-                
-                
-              </msItem>
-              <msItem xml:id="b16" n="17">
+
+              <msItem xml:id="c1" n="17">
                 <locus to="51" from="50a">Foll. 50a-51</locus>
                 <author>John bar Aphtūnāyā, the first abbat of Kinnesrīn
                 </author>
@@ -286,7 +282,7 @@
                 
                 
               </msItem>
-              <msItem xml:id="b17" n="18">
+              <msItem xml:id="c2" n="18">
                 <locus to="51" from="51b">Foll. 51b-51</locus>
                 
                 <title xml:lang="en">Hymn by an Alexandrian poet.</title>
@@ -297,7 +293,7 @@
                 
                 
               </msItem>
-              <msItem xml:id="b18" n="19">
+              <msItem xml:id="c3" n="19">
                 <locus to="53" from="52a">Foll. 52a-53</locus>
                 <author ref="http://syriaca.org/person/1318">John Psaltes, abbat of the convent of Beth Aphtūnāyā
                 </author>
@@ -312,6 +308,7 @@
                 
                 
               </msItem>
+              </msItem>   
               <msItem xml:id="b19" n="20">
                 <locus to="53" from="53b">Foll. 53b-53</locus>
                 
@@ -328,7 +325,7 @@
                 
                 <title xml:lang="en">The believing and victorious Emperors, viz.
                            <persName ref="http://syriaca.org/person/1655">Constantine</persName>, <persName ref="http://syriaca.org/person/1779">Honorius</persName>,
-                              <persName>Gratianus</persName>, and <persName>Tlicodosius the
+                  <persName>Gratianus</persName>, and <persName ref="http://syriaca.org/person/2271">Theodosius the
                               Great</persName>.</title>
                 <rubric xml:lang="syr">ܕܥܠ ܡ̈ܠܟܐ ܡ̈ܗܝܡܢܐ ܘܙܟ̈ܝܐ</rubric>
                 <incipit xml:lang="syr">ܪܠܒ</incipit>
@@ -433,28 +430,29 @@
                 <locus to="81" from="81a">Foll. 81a-81</locus>
                 
                 <title xml:lang="en">Before the lesson from the Epistles.</title>
-                <title>One hymn. </title>
                 <rubric xml:lang="syr">ܡܥܢܝܬܐ ܕܩܕܡ ܩܪܝܢܐ ܕܫܠܝܚܐ</rubric>
-                <rubric xml:lang="syr">ܫܡܒ</rubric>
                 
-                
-                
-                
+                <msItem xml:id="c4" n="31">
+                  
+                   <title xml:lang="en">One hymn</title>
+                  <rubric xml:lang="syr">ܫܡܒ</rubric>
+                </msItem>
                 
               </msItem>
-              <msItem xml:id="b30" n="31">
+              <msItem xml:id="b30" n="32">
                 <locus to="81" from="81b">Foll. 81b-81</locus>
                 
                 <title xml:lang="en">On <persName>Lucian</persName> (<foreign xml:lang="syr">ܠܘܩܝܐܢܘܣ</foreign>) the
-                           martyr, and on <persName ref="http://syriaca.org/person/834">Julian Sābā</persName>; two hymns.</title>
-                <rubric xml:lang="syr">ܫܡܕ,ܫܡܓ</rubric>
+                           martyr, and on <persName ref="http://syriaca.org/person/834">Julian Sābā</persName></title>
                 
-                
-                
-                
-                
+               <msItem xml:id="c5" n="33">
+                 <title xml:lang="en">Two hymns</title>
+                 <rubric xml:lang="syr">ܫܡܓ</rubric>
+                 <rubric xml:lang="syr">ܫܡܕ</rubric>
+               </msItem> 
+                             
               </msItem>
-              <msItem xml:id="b31" n="32">
+              <msItem xml:id="b31" n="34">
                 <locus to="82" from="82a">Foll. 82a-82</locus>
                 
                 <title xml:lang="en">On the tonsure of novices.</title>
@@ -465,33 +463,34 @@
                 
                 
               </msItem>
-              <msItem xml:id="b32" n="33">
+              <msItem xml:id="b32" n="35">
                 <locus to="83" from="83a">Foll. 83a-83</locus>
                 
                 <title xml:lang="en">On a woman who was converted from the Arian
-                           heresy, and became a nun.</title>
-                <title>One hymn.</title>
+                           heresy, and became a nun.</title>                
                 <rubric xml:lang="syr">ܥܠ ܐܢܬܬܐ ܕܦܢܬ݁ ܡܢ ܐܪܐܣܝܣ ܕܐܪܝܘܣ ܠܗܝܡܢܘܬܐ ܬܪܝܨܬ݀
                            ܫܘܼܒܚܐ̣. ܘܗ̣ܘܬ݀ ܕܝܪܝܬܐ</rubric>
+                
+                
+              <msItem xml:id="c6" n="36">
+                <title>One hymn</title>
                 <rubric xml:lang="syr">ܫܡܙ</rubric>
-                
-                
+              </msItem>  
                 
                 
                 
               </msItem>
-              <msItem xml:id="b33" n="34">
+              <msItem xml:id="b33" n="37">
                 <locus to="83" from="83a">Foll. 83a-83</locus>
-                <author>ܕܥܠ ܒ̈ܥܘܬܐ</author>
                 <title xml:lang="en">Rogationary hymns.</title>
-                
+                <rubric xml:lang="syr">ܕܥܠ ܒ̈ܥܘܬܐ</rubric>
                 <incipit xml:lang="syr">ܫܡܚ</incipit>
                 
                 
                 
                 
               </msItem>
-              <msItem xml:id="b34" n="35">
+              <msItem xml:id="b34" n="38">
                 <locus to="85" from="84a">Foll. 84a-85</locus>
                 
                 <title xml:lang="en">Of Repentance.</title>
@@ -502,7 +501,7 @@
                 
                 
               </msItem>
-              <msItem xml:id="b35" n="36">
+              <msItem xml:id="b35" n="39">
                 <locus to="96" from="85b">Foll. 85b-96</locus>
                 
                 <title xml:lang="en">Of the Dead, priests, monks, nuns, widows,
@@ -754,9 +753,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-29-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-02-07" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
-         <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
-            to be checked for accuracy. Syriac in brackets and parentheses switched
-            positiion.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
