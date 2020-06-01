@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -85,7 +85,7 @@
               
               <title xml:lang="en"> The greater portion of the fourth part of the
                         "Illustrations of the book of the Paradise," viz. from the middle of section
-                           <foreign xml:lang="syr">ܗ</foreign> (<bibl>Add. 17,264, fol. 71 b</bibl>)
+                <foreign xml:lang="syr">ܗ</foreign> (<bibl>Add. 17,264<ptr target="http://syriaca.org/manuscript/1080"/>,<citedRange unit="locus">fol. 71 b</citedRange></bibl>)
                         to <foreign xml:lang="syr">ܪܦܙ</foreign>.</title>
               
               
@@ -93,7 +93,7 @@
               
               
               <note>The contents are, therefore, in great part identical with those of
-                           <bibl>Add. 17,174</bibl> and <bibl>14,583</bibl>.</note>
+                           <bibl>Add. 17,174<ptr target="http://syriaca.org/manuscript/826"/></bibl> and <bibl>14,583<ptr target="http://syriaca.org/manuscript/319"/></bibl>.</note>
               <msItem xml:id="b1" n="2">
                 <locus from="20b"/>
                 
@@ -264,7 +264,7 @@
                   </objectDesc>
                   <handDesc hands="2">
               <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
-                        <desc>This manuscript is written in a neat, regular hand of the <date calendar="Gregorian" notBefore="0700" notAfter="0800">xiiith
+                        <desc>This manuscript is written in a neat, regular hand of the <date calendar="Gregorian" notBefore="1200" notAfter="1300">xiiith
                               cent.</date>, with occasional Greek and Syriac vowels.</desc>
                      </handNote>
               <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
@@ -306,17 +306,16 @@
                            </p>
                         </item>
                 <item xml:id="addition3" n="3">
-                           <locus/>
-                           <p>On fol. 148 a another hand has recorded that it was presented to <placeName>a
-                              certain convent</placeName> (the name seems to begin with the letters
-                              <!--insert symbols here-->) by the brothers <persName>John</persName>
-                              and <persName>Zakhe</persName>.</p>
-                           <p>
-                              <quote xml:lang="syr">ܨ̇ܠܘ ܥܠ ܐܚ̈ܐ ܕܫܟܢܘܗܝ [ܠܕܝܪ]ܐ ܗܕܐ ܥܠ ܝܘܚܢܢ ܘܙܟ݁ܐ܀
-                                 ܘܟܠܢ ܕܡܦܩ [ܠܗ ܡܢ] ܕܝܪܐ ܗܕ ܕܖܢـ . . . ܢܗܘ̣ܐ ܡܚܪܡ ܡܢ ܐܠܗܐ
-                                 ܏ܘܫ.</quote>
-                           </p>
-                        </item>
+                  <locus/>
+                  <p>On fol. 148 a another hand has recorded that it was presented to <placeName>a
+                      certain convent</placeName> (the name seems to begin with the letters <hi
+                      rend="italic">dn</hi>) by the brothers <persName>John</persName> and
+                      <persName>Zakhe</persName>.</p>
+                  <p>
+                    <quote xml:lang="syr">ܨ̇ܠܘ ܥܠ ܐܚ̈ܐ ܕܫܟܢܘܗܝ [ܠܕܝܪ]ܐ ܗܕܐ ܥܠ ܝܘܚܢܢ ܘܙܟ݁ܐ܀ ܘܟܠܢ ܕܡܦܩ
+                      [ܠܗ ܡܢ] ܕܝܪܐ ܗܕ ܕܖܢـ . . . ܢܗܘ̣ܐ ܡܚܪܡ ܡܢ ܐܠܗܐ ܏ܘܫ.</quote>
+                  </p>
+                </item>
                 <item xml:id="addition4" n="4">
                            <locus/>
                            <p>On the margin of fol. 132 b there stands the following note,
@@ -331,8 +330,8 @@
                            <p>The marginal note on fol. 132b may perhaps mean the following.</p>
                            <p>
                               <quote xml:lang="syr">ܨܠܘ ܥܠ ܪܒܢ ܥܒܕܐ ܚܛܝܐ [ܒܪ] ܪܒܢ ܣܘܪܝܣ ܕܐܬܐ ܡܢ ܕܝܪܐ
-                                 <!--insert symbols where parentheses and percentage sign are-->
-                                 ܕܡܪܝ ܒܗ[ܢܡ ܘ]ܣܪܐ ܚܬܗ ܠܒܪܝܬ %) ܕܐܣܩܝܛܝ.</quote>
+                      ܕܡܪܝ ܒܗ[ܢܡ ܘ]ܣܪܐ ܚܬܗ ܠܒܪܝܬ [<foreign xml:lang="ar">بَرِّيَّة</foreign>]
+                      ܕܐܣܩܝܛܝ.</quote>
                            </p>
                         </item>
               </list>
@@ -538,9 +537,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-29-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-02-22" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
-         <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
-            to be checked for accuracy</change>
-         <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
