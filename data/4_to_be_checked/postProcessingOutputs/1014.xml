@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -157,7 +157,7 @@
                   
                   <note>It is Imperfect at the end.</note>
                 </msItem>
-                <msItem xml:id="c6" n="8">
+                <msItem xml:id="c6" n="8" defective="true">
                   <locus to="40" from="32a">Foll. 32a-40</locus>
                   
                   <title xml:lang="en">Seventh order.</title>
@@ -207,7 +207,7 @@
                 <locus to="76" from="68b">Foll. 68b-76</locus>
                 
                 <title xml:lang="en">Whitsun Day.</title>
-                
+                <rubric xml:lang="syr">ܦܢܛܝܩܘܣܛܝ</rubric>
                 
                 
                 
@@ -290,11 +290,11 @@
                 
                 
               </msItem>
-              <msItem xml:id="b11" n="19">
+              <msItem xml:id="b11" n="19" defective="true">
                 <locus to="117" from="107b">Foll. 107b-117</locus>
                 
-                <title xml:lang="en">The Invention of the <persName>holy
-                              Cross</persName>.</title>
+                <title xml:lang="en">The Invention of the holy
+                              Cross.</title>
                 
                 
                 
@@ -362,12 +362,12 @@
                 
                 
               </msItem>
-              <msItem xml:id="b17" n="25">
+              <msItem xml:id="b17" n="25" defective="true">
                 <locus to="148" from="146a">Foll. 146a-148</locus>
                 
                 <title xml:lang="en">Of <persName ref="http://syriaca.org/person/42">Jacob of Batnae</persName>.</title>
                 <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܡܪܝ ܝܥܩ̣ܘܒ ܏ܡܠ</rubric>
-                
+                <note>It is imperfect at the beginning.</note>
                 
                 
                 
@@ -542,7 +542,9 @@
                 <title xml:lang="en">Of <persName ref="http://syriaca.org/person/1826">S. John the
                                  Evangelist</persName>.</title>
                 <rubric xml:lang="syr">ܕܥܠ ܡܪܝ ܝܘܚ݊ܢܢ ܫܠܝ̣ܚܐ ܘܐܘܢܓܠܝ̣ܣܛܐ</rubric>
-                
+                <note xml:lang="en">The sedra in this service is by <persName>Abraham of
+                      <placeName>Chabūr</placeName></persName>, as appears from the acrostic, fol.
+                  202 a, <foreign xml:lang="syr">ܐܒܪܗܡ ܒܨܝ̣ܪܐ ܕܚܲܒܘܪܐ ܛܲܟܣܗ.</foreign></note>
                 
                 
                 
@@ -559,7 +561,7 @@
                 
                 
                 
-                <note>The sedrā is by <persName ref="http://syriaca.org/person/212">Jacob (or Dionysius) bar Salībī, bishop of
+                <note xml:lang="en">The sedrā is by <persName ref="http://syriaca.org/person/212">Jacob (or Dionysius) bar Salībī, bishop of
                            <placeName ref="http://syriaca.org/place/8">Amid</placeName>
                   </persName>: <foreign xml:lang="syr">ܣܝ̣ܡ ܠܒܪܨܠܝܒܝ ܕܗ̣ܘ
                               ܝܥܩܘܒ ܐܦܝܣܩܦܐ ܕܐܰܡܝܺܕ</foreign>.</note>
@@ -616,8 +618,8 @@
               <msItem xml:id="b37" n="45">
                 
                 
-                <title xml:lang="en">The Festival of the <persName>holy
-                              Cross</persName>.</title>
+                <title xml:lang="en">The Festival of the holy
+                              Cross.</title>
                 <rubric xml:lang="syr">ܕܥܠ ܨ݊ܠ݊ܝ̣ܒ݊ܐ ܩܕܝܫܐ ܘܦܪܘܩܝܐ</rubric>
                 
                 
@@ -679,15 +681,8 @@
                                  ܠ܏ܚ.</quote>
                   </p>
                         </item>
+                
                 <item xml:id="addition2" n="2">
-                           <locus/>
-                           <p>The sedra in this service is by <persName>Abraham of
-                              Chabūr</persName>, as appears from the acrostic, fol. 202 a.</p>
-                           <p>
-                              <quote xml:lang="syr">ܐܒܪܗܡ ܒܨܝ̣ܪܐ ܕܚܲܒܘܪܐ ܛܲܟܣܗ</quote>
-                           </p>
-                        </item>
-                <item xml:id="addition3" n="3">
                            <locus/>
                            <p>The colophon states that this book was written <date datingMethod="Seleucid" when-custom="1795">A. Gr.
                               1795</date>, <date calendar="Gregorian" when="1484">A.D. 1484</date>, in the <placeName ref="http://syriaca.org/place/360">convent of
@@ -700,7 +695,7 @@
                                  ܐܚܪ̈ܝܐ ܐܝܟ ܕܠܫܘܬܦܘܬܐ. ܘܥܘܼܗܕܢܐ ܢܛܝܪܐ ܠܥܠܡ. ܒܒܥܘ ܏ܘܫ. </quote>
                            </p>
                         </item>
-                <item xml:id="addition4" n="4">
+                <item xml:id="addition3" n="3">
                            <locus/>
                            <p>The former portion was written by one <persName>Jacob</persName>, as
                               appears from the subscription on fol. 24 b.</p>
@@ -709,14 +704,12 @@
                                  ܐܝܟ ܚܲܝܠܗ ܠܟ̣ܬܒܟ. ܐܠܗܐ ܚܲܣܐ ܠܗ ܚܘ̈ܒܘܗܝ.</quote>
                            </p>
                         </item>
-                <item xml:id="addition5" n="5">
+                <item xml:id="addition4" n="4">
                            <locus/>
                            <p>There are ornamental devices at the commencement of some of the
                               services; e.g. foll. 2 b, 10 b, 16 b, 25 a, 40 b, 51 a, and 77 a. Blue
                               paint has been used in writing one of the rubrics, fol. 7 b.</p>
-                           <p>
-                              <quote xml:lang="syr"/>
-                           </p>
+                           
                         </item>
               </list>
             </additions>
