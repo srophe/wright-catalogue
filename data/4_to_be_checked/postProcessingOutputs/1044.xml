@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -186,7 +186,7 @@
                 <locus to="21" from="21b">Foll. 21b-21</locus>
                 
                 <title xml:lang="en">The Fast of
-                           <placeName>Nineveh</placeName>.</title>
+                  <placeName ref="http://syriaca.org/place/144">Nineveh</placeName>.</title>
                 <rubric xml:lang="syr">ܫܘܿܒܚܐ ܕܒܥܘܬܐ ܕܢܝܢܘܐ </rubric>
                 
                 
@@ -291,7 +291,7 @@
                 <locus to="47" from="46a">Foll. 46a-47</locus>
                 
                 <title xml:lang="en">The first order of the Resurrection.</title>
-                <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܚܕܒܫܒܐ ܩܕܡܝܐ ܕܩܝܛܐ </rubric>
+                <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܚܕܒܫܒܐ ܩܕܡܝܐ ܕܩܝܛܐ (sic) </rubric>
                 
                 
                 
@@ -644,8 +644,7 @@
          <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-29-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-29-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-02-22" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
-            TEI encoding.</change>
-         <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
+            TEI encoding.</change>        
       </revisionDesc>
    </teiHeader>
    <facsimile>
