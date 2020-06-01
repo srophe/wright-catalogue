@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -83,10 +83,10 @@
             <msItem xml:id="a1" n="1" defective="true">
               <locus to="242" from="1">Foll. 1-242</locus>
               
-              <title xml:lang="en">The second part of an
-                           <foreign xml:lang="grc">'Εκλογάδιον</foreign>, <foreign xml:lang="syr">ܟܠܘܓܘܕܝܘܢ</foreign>, or
-                        selection from the <bibl>Manaea</bibl>, comprising the months of Shĕbāt — Ab
-                        (February—August).</title>
+              <title xml:lang="en">The second part of an <foreign xml:lang="grc"
+                  >'Εκλογάδιον</foreign>, <foreign xml:lang="syr">ܟܠܘܓܘܕܝܘܢ</foreign>, or selection
+                from the <title>Menaea</title>, comprising the months of Shĕbāt — Ab
+                (February—August).</title>
               
               
               
@@ -421,7 +421,7 @@
                   <locus to="142" from="138a">Foll. 138a-142</locus>
                   
                   <title xml:lang="en">On the 17th, the Commemoration of the
-                                 <persName>martyr Marina</persName>.</title>
+                    martyr <persName>Marina</persName>.</title>
                   <rubric xml:lang="syr">ܝܙ: ܒܬܡܘܙ: ܕܘܟܪܢܐ ܕܣܗܕܬܐ ܩܕܝܫܬܐ ܡ̇ܪܝܢܐ</rubric>
                   
                   
@@ -460,7 +460,7 @@
                   <locus to="170" from="159a">Foll. 159a-170</locus>
                   
                   <title xml:lang="en">On the 27th, the Commemoration of the
-                                 <persName>martyr Panteleemon</persName>.</title>
+                                 martyr <persName>Panteleemon</persName>.</title>
                   <rubric xml:lang="syr">ܟܙ: ܒܬܡܘܙ: ܕܘܟܪܢܐ ܕܗ̇ܘ ܪܒ ܒܣܗ̈ܕܐ:
                               ܦܢܛܐܠܹܐܝܡܘܢ</rubric>
                   
@@ -485,7 +485,7 @@
                   
                   <title xml:lang="en">On the 1st, the Commemoration of the
                               Maccabees, <persName>Shamūnī</persName>, her seven sons, and their
-                                 <persName>tutor Eleazar</persName>.</title>
+                                 tutor <persName>Eleazar</persName>.</title>
                   <rubric xml:lang="syr">ܝܪܚܐ: ܐܒ܀ ܝܘܡ̈ܬܐ ܒܗ: ܏ܠܐ: ܐܝܡܡܐ ܫ̈ܥܐ: ܏ܝܓ: ܘܠܠܝܐ
                               ܫ̈ܥܐ : ܏ܝܐ : ܏ܝܐ : ܒܗ : ܟܘܠܠ ܣܗ̈ܕܐ ܡܩܒ̈ܝܐ. ܫܡܘܢܝ܀ ܏ܘܙ : ܒ̈ܢܝܗ̇ ܀ ܘܠܥܙܪ
                               ܡܠܦܢܗܘܢ.</rubric>
@@ -524,7 +524,7 @@
                   <locus to="201" from="197a">Foll. 197a-201</locus>
                   
                   <title xml:lang="en">On the 7th, the Commemoration of the
-                                 <persName>martyr Domitius</persName>.</title>
+                                 martyr <persName>Domitius</persName>.</title>
                   <rubric xml:lang="syr">: ܏ܙ : ܒܐܒ: ܕܘܟܪܢܐ ܕܚܣܝܐ ܕܘܡܝܛܝܘܣ ܣܗܕܐ
                               ܕܦܪ̈ܣܝܐ</rubric>
                   
@@ -632,46 +632,56 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p>The colophon on fol. 242 a, and the first of the Arabic notes on fol.
-                              242 b, state that this book was written, <date datingMethod="Seleucid" when-custom="1595">A.Gr. 1595</date>, <date calendar="Gregorian" when="1284">A.D.
-                                 1284</date>, in the <placeName ref="http://syriaca.org/place/360">convent of S. Mary
-                                 Deipara</placeName> on the river <foreign xml:lang="syr">ܟܦܬܘܢ</foreign> (%), near
-                              <placeName ref="http://syriaca.org/place/203">Tripolis</placeName>, under the rule of the
-                                 <persName>first abbat of the convent, Sim 'ān ibn Jākir</persName>
-                              (?), by one <persName>Gerasimus (<foreign xml:lang="grc">Γεράσιμος</foreign>, %) ibn Sim 'ān</persName>,
-                              from the <placeName>village of Ar-Rummāna</placeName> (%) in the
-                                 <placeName>district of Az-Zabadānī</placeName> (%), near
-                              <placeName ref="http://syriaca.org/place/66">Damascus</placeName>.</p> <!--word docx notes the need for arabic to be inserted-->
-                           <p>
-                    <quote xml:lang="syr">ܐܬܟܬܒ ܘܐܫܬܡܠܝ ܟܬܒܐ ܗܢܐ: ܕܐܝܬ܏ܘ: ܟܠܘܓܘܕܝܘܢ ܦܠܓܐ ܐܚܪܝܐ ܡܢ ܡܓܒܝܘܬܐ ܕܥ̈ܐܕܐ ܕܫܢܬܐ
-                                 ܒܥܘܕܪܢ ܡܪܝܐ܀ ܫܩܠ ܕܝܢ ܣܟܐ ܘܫܘܡܠܝܐ܀ ܝܘܡ ܏ܗ܀ ܏ܒܫ܀ ܒܥܣܪ̈ܝܢ ܡܢ ܢܝܣܢ
-                                 ܝܪܚܐ܀ ܫܢܬ ܐܠܦ: ܘܬ܏ܩ܀ ܘܨ܏ܗ܀ ܝܘ̈ܢܝܐ ܒܕܝܪܐ ܕܩܕܝܫܬܐ ܡܪܬܢ ܝܠܕܬ ܐܠܗܐ܀ ܥܠ
-                                 ܢܗܪܐ ܕܟܦܬܘܢ܀ ܥܠ ܐܝ̈ܕܝ ܚ̇ܛܝܐ ܘܡܣܟܢܐ: ܘܒܨܝܪ ܒܟܗ̈ܢܐ ܘܕܝܪ̈ܝܐ ܓܪܐܣܡܗ.
-                                 ܡܢܝܚ ܢܦܫܗ ܐܠܗܐ܀ ܐܠܗܐ ܐܒܐ ܕܟܠ ܪ̈ܚܡܐ ܘܚܘܣܝܐ: ܡܚ̈ܣܐ ܠܟܬܘܒܐ ܏ܘܫ. </quote>
+                  <locus from="242a"/>
+                  <p>The colophon on fol. 242 a and the following note
+                    state that this book was written, <date datingMethod="Seleucid"
+                      when-custom="1595">A.Gr. 1595</date>, <date calendar="Gregorian" when="1284"
+                      >A.D. 1284</date>, in the <placeName ref="http://syriaca.org/place/360"
+                      >convent of S. Mary Deipara</placeName> on <placeName>the river <foreign
+                        xml:lang="ar">(كفتون)</foreign>
+                      <foreign xml:lang="syr">ܟܦܬܘܢ</foreign></placeName>, near <placeName
+                      ref="http://syriaca.org/place/203">Tripolis</placeName>, under the rule of the
+                    first abbat of the convent, <persName>Sim 'ān ibn Jākir (?)</persName>, by one
+                      <persName>Gerasimus (<foreign xml:lang="grc">Γεράσιμος</foreign>, <foreign
+                        xml:lang="ar">جراسمه</foreign>) ibn Sim 'ān</persName>, from the
+                      <placeName>village of Ar-Rummāna</placeName> (<foreign xml:lang="ar"
+                      >الرُّمَّانَة</foreign>) in the <placeName>district of Az-Zabadānī (<foreign
+                        xml:lang="ar">الزبداني</foreign>)</placeName>, near <placeName
+                      ref="http://syriaca.org/place/66">Damascus</placeName>.</p>
+                  <p>
+                    <quote xml:lang="syr">ܐܬܟܬܒ ܘܐܫܬܡܠܝ ܟܬܒܐ ܗܢܐ: ܕܐܝܬ܏ܘ: ܟܠܘܓܘܕܝܘܢ ܦܠܓܐ ܐܚܪܝܐ ܡܢ
+                      ܡܓܒܝܘܬܐ ܕܥ̈ܐܕܐ ܕܫܢܬܐ ܒܥܘܕܪܢ ܡܪܝܐ܀ ܫܩܠ ܕܝܢ ܣܟܐ ܘܫܘܡܠܝܐ܀ ܝܘܡ ܏ܗ܀ ܏ܒܫ܀ ܒܥܣܪ̈ܝܢ ܡܢ
+                      ܢܝܣܢ ܝܪܚܐ܀ ܫܢܬ ܐܠܦ: ܘܬ܏ܩ܀ ܘܨ܏ܗ܀ ܝܘ̈ܢܝܐ ܒܕܝܪܐ ܕܩܕܝܫܬܐ ܡܪܬܢ ܝܠܕܬ ܐܠܗܐ܀ ܥܠ ܢܗܪܐ
+                      ܕܟܦܬܘܢ܀ ܥܠ ܐܝ̈ܕܝ ܚ̇ܛܝܐ ܘܡܣܟܢܐ: ܘܒܨܝܪ ܒܟܗ̈ܢܐ ܘܕܝܪ̈ܝܐ ܓܪܐܣܡܗ. ܡܢܝܚ ܢܦܫܗ ܐܠܗܐ܀
+                      ܐܠܗܐ ܐܒܐ ܕܟܠ ܪ̈ܚܡܐ ܘܚܘܣܝܐ: ܡܚ̈ܣܐ ܠܟܬܘܒܐ ܏ܘܫ. </quote>
                   </p>
-                        </item>
+                </item>
                 <item xml:id="addition2" n="2">
-                           <locus/>
-                           <p>On fol. 242 b there are two other notes in Arabic, of later date, and
-                              both much effaced. The writer of one of them was named <persName>Daniel</persName>. <!--arabic needed here-->
+                  <locus from="242b"/>
+                  <p>This, the first of the Arabic notes on fol. 242 b, offers similar details as the colophon above.</p>
+                  <p>
+                    <quote xml:lang="ar">كان الفراغ من نصحة (sic) هذه (sic) المعيد يوم الثلتا (sic)
+                      .... سنه الف وخمسه مايه وخمسه وتسعين سنه يونانيه بدير السيده كفتون من اعمال
+                      اطرابلس في ايام الاب الفاضل ريس الدير ابا سمعان ابن جاقر اول ريس قام على الدير
+                      المقدس, كتبه العبد الخاطي المسكين الفقير من عمل البر الحقير في الكهنه والرهبان
+                      جراسمه ابن سمعان من قِريِة الرمانه من عمل الرىداني (sic) من اقليم دمشق وهو
+                      يسال لكل من يقرا في هده (sic) الكتاب او ينصخ (sic) منه يترحم عليه وعلَي والديه
+                      الله يغفر للكاتب وللقاري وللمعتنى فس هده (sic) الكتاب ولكل من يقول امين امين
+                      امين </quote>
                   </p>
-                           <p>
-                              <quote xml:lang="syr"/>
-                           </p>
-                        </item>
+                  </item>
+                <item xml:id="addition3" n="3">
+                  <locus/>
+                  <p>On fol. 242 b there are two other notes in Arabic, of later date, and both much
+                    effaced. The writer of one of them was named <persName>Daniel</persName>, <foreign xml:lang="ar">ذنايال</foreign></p>                </item>
               </list>
             </additions>
-                  
-                  
                   <accMat/>
                </physDesc>
                <history>
                   <origin>
-                     <origDate datingMethod="Seleucid" when-custom="1595">It is dated A. Gr.
-                        1595.</origDate>
-                     <origDate calendar="Gregorian" when="1284"> A.D.
-                        1284</origDate>
+                     <origDate datingMethod="Seleucid" when-custom="1595"> A. Gr. 1595.</origDate>
+                     <origDate calendar="Gregorian" when="1284"> A.D. 1284</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
@@ -865,6 +875,7 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-29-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-02-22" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
+        <change type="planned" subtype="arabic">Check Arabic for accuracy on last paragraph pg.320 </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
