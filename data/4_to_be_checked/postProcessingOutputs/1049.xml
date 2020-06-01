@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -307,7 +307,7 @@
                   </objectDesc>
                   <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                        <desc>This volume is written in a large, inelegant hand of the <date notBefore="0700" notAfter="0800">xiiith
+                        <desc>This volume is written in a large, inelegant hand of the <date notBefore="1200" notAfter="1300">xiiith
                            cent</date>.</desc>
                      </handNote>
             </handDesc>
@@ -329,7 +329,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="0700" notAfter="0800">This volume is
+                     <origDate notBefore="1200" notAfter="1300">This volume is
                         written in a large, inelegant hand of the xiiith cent.</origDate>
                      <origPlace/>
                   </origin>
@@ -524,8 +524,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-29-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-01-26" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
-         <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
-            to be checked for accuracy</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
