@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -83,14 +83,24 @@
             <msItem xml:id="a1" n="1">
               <locus from="1a"/>
               <title xml:lang="en">The second part of the Triôdion</title>
-              <author>John of Damascus, <foreign xml:lang="syr">ܐܒܐ ܝܘܐܢܝ ܕܕܪܘܡܣܘܩ</foreign>
+              <author>
+                <persName xml:lang="en">John of Damascus</persName>
+                <persName xml:lang="syr">ܐܒܐ ܝܘܐܢܝ ܕܕܪܘܡܣܘܩ</persName>
               </author>
-              <author>Cosmas, <foreign xml:lang="syr">ܐܒܢ ܩܘܙܡܐ (ܩܘܣܡܐ)</foreign>
+              <author>
+                <persName xml:lang="en">Cosmas</persName>
+                <persName xml:lang="syr">ܐܒܢ ܩܘܙܡܐ (ܩܘܣܡܐ)</persName>
               </author>
-              <author>Andrew (of Crete), <foreign xml:lang="syr">ܚܣܝܐ ܐܢܕܪܘܣ (ܐܢܕܐܪܘܣ)</foreign>, </author>
-              <author>Joseph, <foreign xml:lang="syr">ܐܒܐ ܝܘܣܦ</foreign>
+              <author>
+                <persName xml:lang="en">Andrew (of Crete)</persName>
+                <persName xml:lang="syr">ܚܣܝܐ ܐܢܕܪܘܣ (ܐܢܕܐܪܘܣ)</persName>, </author>
+              <author>
+                <persName xml:lang="en">Joseph</persName>
+                <persName xml:lang="syr">ܐܒܐ ܝܘܣܦ</persName>
               </author>
-              <author>Mark, <foreign xml:lang="syr">ܐܒܐ ܡܪܩܘܣ</foreign>
+              <author>
+                <persName xml:lang="syr">Mark</persName>
+                <persName xml:lang="syr">ܐܒܐ ܡܪܩܘܣ</persName>
               </author>
               <author>Theophanes, ܚܣܝܐ ܬܘܦܢܘܣ</author>
               <msItem xml:id="b1" n="2" defective="true">
@@ -151,43 +161,35 @@
                 <rubric xml:lang="syr">ܕܚܕ܏ܒܫܒ ܏ܗ ܥܠ ܗ̇ܘ ܣܡܝܐ ܕܐܣܝ̣ ܡܪܢ</rubric>
               </msItem>
               <msItem xml:id="b12" n="13">
-                <locus from="118a"/>
-                <title xml:lang="en">Part 12</title>
-                <msItem xml:id="c1" n="14">
-                  <locus from="118a"/>
+                <locus from="118a"/>               
                   <title xml:lang="en">The sixth week of Pentecost</title>
                   <rubric xml:lang="syr">ܫܒ: ܏ܘ: ܕܦ܏ܢܛܝ</rubric>
-                </msItem>
-                <msItem xml:id="c2" n="15">
+                <msItem xml:id="c1" n="14">
                   <locus from="112a"/>
                   <title xml:lang="en">The Ascension</title>
                   <rubric xml:lang="syr">ܝܘܡ ܏ܗ: ܏ܒܫ: ܏ܕܫܒ: ܏ܘ: ܏ܕܦܢܛܝ ܥܐܕܐ ܩܕܝܫܐ ܕܣܘܠܩܐ ܕܡܪܢ ܝܫܘܥ
                     ܠܘܬ ܐܒܘܗܝ ܠܫܡܝܐ. </rubric>
                 </msItem>
               </msItem>
-              <msItem xml:id="b13" n="16">
+              <msItem xml:id="b13" n="15">
                 <locus from="134a"/>
                 <title xml:lang="en">The seventh (sixth) Sunday of Pentecost; the
                   Commemoration of the Nicene Fathers</title>
                 <rubric xml:lang="syr"> ܚܕ܏ܒܫ ܏ܙ ܕܦ܏ܢܛܝ ܕܝ ܕܐܝܗܘܝ ܒܬܪ ܥܐܕܐ ܕܣܘܠܩܐ. ܐܝܬܘܗܝ ܕܘܟܪܢܐ
                   ܕܐܒ̈ܗܬܐ. ܕܣܝܢܘܕܘܣ ܗܝ ܕܢܩܝܐ</rubric>
               </msItem>
-              <msItem xml:id="b14" n="17">
-                <locus from="147a"/>
-                <title xml:lang="en">Part 14</title>
-                <msItem xml:id="c3" n="18">
-                  <locus from="139b"/>
+              <msItem xml:id="b14" n="16">
+                <locus from="139b"/>
                   <title xml:lang="en">The seventh week of Pentecost</title>
                   <rubric xml:lang="syr">ܫ ܏ܙ ܕܦ܏ܝܢܛ</rubric>
-                </msItem>
-                <msItem xml:id="c4" n="19">
-                  
+                <msItem xml:id="c2" n="17">
+                  <locus from="147a"/>
                   <title xml:lang="en">Saturday, the Commemoration of the Dead</title>
                   <rubric xml:lang="syr">ܝܘܡ ܫܒܬܐ ܕܫܘܡܠܝ ܦܢ܏ܛܝ ܕܘܟܪܢܐ ܕܟܠܗܘܢ ܥܢܝ̈ܕܐ ܕܥ̈ܢܕܘ ܒܥܠܡܐ.
                     ܗܢܐ ܐܘܩܘܠܘܬܝܐ ܩܪܝ ܗ̇ܝ ܕܒܫܒܬܐ ܕܒܣܪܐ </rubric>
                 </msItem>
               </msItem>
-              <msItem xml:id="b15" n="20" defective="true">
+              <msItem xml:id="b15" n="18" defective="true">
                 <locus from="147a"/>
                 <title xml:lang="en">The last Sunday of Pentecost (Whitsun Day)</title>
                 <rubric xml:lang="syr">ܚܕܒ܏ܫܒ ܕܫܘܡܠܝ ܦܢ܏ܛ</rubric>
@@ -207,8 +209,7 @@
                         are much torn, especially foll. 1, 6, and 13. The quires, signed with
                         letters, were originally 21 in number; but ܐ and ܟܐ are lost, and ܒ and ܟ
                         are very imperfect, leaves being wanting after foll. 1, 5, and 149. There
-                        are from 19 to 21 lines in each page. There are some rude attempts at
-                        ornamentation on the margins.</p>
+                        are from 19 to 21 lines in each page. </p>
                     </item>
                   </list>
                 </condition>
@@ -221,20 +222,12 @@
                   cent.</desc>
               </handNote>
             </handDesc>
-            <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                  <locus/>
-                  <p/>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                </item>
-              </list>
-            </additions>
-            
-            
+            <decoDesc>
+              <decoNote xml:id="decoNote1" type="marginal">
+                <desc>There are some rude attempts at ornamentation on the margins.</desc>
+              </decoNote>
+            </decoDesc>
+            <additions/>
             <accMat/>
           </physDesc>
           <history>
