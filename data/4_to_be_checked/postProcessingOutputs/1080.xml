@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -135,11 +135,11 @@
                 
                 
                 
-                <finalRubric xml:lang="syr">ܫܠܡ ܢܘܗܳܪ̈ܐ ܕܢܨ̈ܚܢܐ ܕܐܒܗ̈ܬܐ ܕܟܬܝ̣ܒܝܢ ܒܟ̣ܬܒܐ
-                           ܕܦܪܕܝܣܐ: ܒܬܠ̈ܬ ܦܠ̈ܓܘܢ ܬܪ̈ܬܝܢ ܕܦܠܕܝܣ: ܘܚܕܐ ܕܐܝܪܢܘܡܝܣ ܕܥܒ̣ܝܕ ܒܫ̈ܘܐܠܐ ܘܦܘܼܢܝ
-                           ܦܬܓ̈ܡܐ ܠܛܘܒ̣ܢܐ ܡܪܝ ܩܛܪܝܐ ܕܡܢ ܥܘܼܡܪܐ ܕܒܨ̈ܠܘܬܗ ܘܒܨ̈ܠܘܬܐ ܕܟܠܗܘܢ ܩܕ̈ܝܫ܏ܘ ܕܡܪܢ
-                           ܢܬ݂ܢܛܪ ܟܢܘܫ̣ܝܐ ܟܠܗ ܕܥܕܬܐ ܏ܩܕ ܡܢ ܟܠ ܢܟܝ̈ܢܝܢ. ܘܩܪܒܗ ܕܣܛܢܐ. ܘܐܡ̣ܝܢ
-                </finalRubric>
+                <finalRubric xml:lang="syr">ܫܠܡ ܢܘܗܳܪ̈ܐ ܕܢܨ̈ܚܢܐ ܕܐܒܗ̈ܬܐ ܕܟܬܝ̣ܒܝܢ ܒܟ̣ܬܒܐ ܕܦܪܕܝܣܐ:
+                  ܒܬܠ̈ܬ ܦܠ̈ܓܘܢ ܬܪ̈ܬܝܢ ܕܦܠܕܝܣ: ܘܚܕܐ ܕܐܝܪܢܘܡܝܣ ܕܥܒ̣ܝܕ ܒܫ̈ܘܐܠܐ ܘܦܘܼܢܝ ܦܬܓ̈ܡܐ ܠܛܘܒ̣ܢܐ
+                  ܡܪܝ ܩܛܪܝܐ ܕܡܢ ܥܘܼܡܪܐ ܕܒܨ̈ܠܘܬܗ ܘܒܨ̈ܠܘܬܐ ܕܟܠܗܘܢ ܩܕ̈ܝܫ܏ܘ ܕܡܪܢ ܢܬ݂ܢܛܪ ܟܢܘܫ̣ܝܐ ܟܠܗ
+                  ܕܥܕܬܐ ܏ܩܕ ܡܢ ܟܠ ܢܟܝ̈ܢܝܢ. ܘܩܪܒܗ ܕܣܛܢܐ. ܘܐܡ̣ܝܢ
+                  <!--How do we format the blanks here without making it look odd--></finalRubric>
                 
                 <note>The translation of the subscriptions provided by <persName ref="http://syriaca.org/person/807">Wright</persName>: "Here end the
                            Illustrations of the noble deeds of the Fathers, which were written in
@@ -163,7 +163,7 @@
                 
                 
                 
-                <note>See <bibl>Add. 17,263</bibl>.</note>
+                <note>See <bibl>Add. 17,263<ptr target="http://syriaca.org/manuscript/1079"/></bibl>.</note>
               </msItem>
             </msItem>
           </msContents>
@@ -199,17 +199,18 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p>With reference to the blanks we read on the margin (on part three):
-                              “These names were rubbed out. By thy life, O reader, if a copy falls
-                              into thy hands, supply them, that thou mayest be forgiven." We should
-                              probably supply the names of <persName>'Anan- Yeshua'</persName>,
-                              <foreign xml:lang="syr">ܥܢܢܝܫܘܥ</foreign>, and of the <placeName ref="http://syriaca.org/place/223">convent of
-                                 Beth-'Abe</placeName>, <foreign xml:lang="syr">ܒܶܝܬ ܥܳܒܷ̈ܐ</foreign>.</p>
-                           <p>
+                  <locus from="65a"/>
+                  <p>With reference to the blanks we read on the margin (on part three, on fol.
+                    65a): “These names were rubbed out. By thy life, O reader, if a copy falls into
+                    thy hands, supply them, that thou mayest be forgiven." We should probably supply
+                    the names of <persName>'Anan- Yeshua'</persName>, <foreign xml:lang="syr"
+                      >ܥܢܢܝܫܘܥ</foreign>, and of the <placeName ref="http://syriaca.org/place/223"
+                      >convent of Beth-'Abe</placeName>, <foreign xml:lang="syr">ܒܶܝܬ
+                      ܥܳܒܷ̈ܐ</foreign>.</p>
+                  <p>
                     <quote xml:lang="syr"/>
                   </p>
-                        </item>
+                </item>
               </list>
             </additions>
                   
@@ -415,7 +416,6 @@
             TEI encoding.</change>
          <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
             to be checked for accuracy</change>
-         <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
