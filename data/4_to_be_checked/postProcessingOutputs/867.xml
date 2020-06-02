@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -86,7 +86,7 @@
               <title xml:lang="en">The martyrdom of <persName ref="http://syriaca.org/person/1466">Sergius</persName> and
                         <persName ref="http://syriaca.org/person/1153">Bacchus</persName>.</title>
               <rubric xml:lang="syr-Syre">ܣܗܕܘܬܐ ܕܣܪܓܝܣ ܘܒܟܘܣ</rubric>
-              
+              <note>See<bibl>Add. 12,174<ptr target="http://syriaca.org/manuscript/70"/>, no. 49</bibl>.</note>
               
               
               
@@ -103,7 +103,7 @@
               <finalRubric xml:lang="syr">ܫܠܡܬ ܣܗܕܘܬܐ ܕܢܨܝܚܐ ܓܐܘܪܓܝܣ ܘܕܥܡܗ. ܕܐܣܗܕܘ ܘܐܬܟܠܠܘ
                         ܒܝ̈ܘܡܝ ܕܕܝܢܐ (sic) ܡܠܟܐ
               </finalRubric>
-              <note>See <bibl>Add. 14,734, fol. 177 a</bibl>.</note>
+              <note>See <bibl>Add. 14,734<ptr target="http://syriaca.org/manuscript/646"/>,<citedRange unit="locus">177 a</citedRange></bibl>.</note>
             </msItem>
           </msContents>
                <physDesc>
@@ -135,9 +135,9 @@
                            regular Estrangela of the <date calendar="Gregorian" notBefore="0500" notAfter="0600">vith cent</date>.</desc>
                      </handNote>
               <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
-                        <desc>Tthe remainder (foll. 23—30) is in a less elegant and somewhat later
-                           hand.</desc>
-                     </handNote>
+                <desc>The remainder (foll. 23—30) is in a less elegant and somewhat later
+                  hand.</desc>
+              </handNote>
               <handNote medium="unknown" xml:id="handNote3" scope="minor" script="syr">
                         <desc>See additions.</desc>
                      </handNote>
@@ -160,7 +160,7 @@
                                  <persName>Lazarus</persName>; and beneath it, in Coptic, the name
                               of one "<persName>Mercurius the sinner</persName>."</p>
                            <p>
-                              <quote xml:lang="syr"/>
+                              <quote xml:lang="cop"><!--Coptic needs inserted here--></quote>
                            </p>
                         </item>
               </list>
