@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -96,7 +96,7 @@
                         state of the manuscript.</note>
               <note>The missing portions are: <bibl>Ps. i. 1—xxix. 3; xxxi. 22—xxxvii. 25;
                            xxxix. 3—lxxxviii. 8; and xciii. 3—xcv. 11</bibl>. </note>
-              <msItem xml:id="b1" n="2">
+              <msItem xml:id="b1" n="2" defective="true">
                 <locus to="16" from="10a">Foll. 10a-16</locus>
                 
                 <title xml:lang="en">Vespers, Ps. xcii— ciii. </title>
@@ -133,7 +133,7 @@
                 <locus to="42" from="31a">Foll. 31a-42</locus>
                 
                 <title xml:lang="en">Second nocturn, <bibl>Ps. cxviii—cxxx</bibl>.</title>
-                
+                <rubric xml:lang="syr">ܬܫܡ̣ܫܬܐ ܕܠܠܝܐ ܕܬܪ̈ܝܢ </rubric>
                 
                 
                 
@@ -252,11 +252,13 @@
                               of which the following, on Ps. cix., fol. 24 b, may serve as a
                               specimen.</p>
                            <p>
-                    <quote xml:lang="en">"Take mustard-seed, and put it into a new earthenware pot, and fill it with
-                                 water; repeat over it this psalm for three days; then pour it out
-                                 before the door of thy enemy, and, by the permission of God, he
-                                 will die."</quote>
-                  </p>
+                             <quote xml:lang="ar">خذ خردلًا واجعلهُ في قدر فخار جديد (sic) واملاها
+                      ما وقُل عليها هذا المزمور ثلثه ايام ثم اهريقه قدام باب عدوك فانه يهلك باذن
+                      الله<note xml:lang="en">"Take mustard-seed, and put it into a new earthenware pot, and fill it with
+                        water; repeat over it this psalm for three days; then pour it out
+                        before the door of thy enemy, and, by the permission of God, he
+                        will die."</note></quote>
+                           </p>
                         </item>
               </list>
             </additions>
@@ -464,6 +466,7 @@
          <change type="planned" subtype="arabic">Add missing Arabic text.</change>
          <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
             to be checked for accuracy</change>
+        <change type="planned" subtype="checkArabic">Add any missing Arabic vowels and check for accuracy.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
