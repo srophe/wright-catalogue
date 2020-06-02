@@ -33,7 +33,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -1017,7 +1017,7 @@
                 <title xml:lang="en">The seventeenth Sunday.</title>
                 <rubric xml:lang="syr">ܚܕ܏ܒܫ: ܏ܝܙ</rubric>
 
-
+                <note xml:lang="en">Here follows the rubric: <foreign xml:lang="syr">ܚܕ܏ܒܫ: ܏ܒ : ܕܒܬܪ ܥܐܕܐ ܕܨܠܝܒܐ ܫܪܐ ܒܣܒܪܬܗ ܕܠܘܩܐ</foreign></note>
 
 
 
@@ -1059,7 +1059,7 @@
 
               </msItem>
               <msItem xml:id="b44" n="87">
-
+                <locus from="45a"/>
 
                 <title xml:lang="en">The second Sunday.</title>
 
@@ -1556,7 +1556,7 @@
                 <title xml:lang="en">The first Sunday in Lent, the Commemoration of
                     <persName>Moses</persName> and <persName ref="http://syriaca.org/person/1534"
                     >Aaron</persName>.</title>
-
+                <rubric xml:lang="syr">ܚ܏ܕܒܫ. ܏ܐ . ܕܨܘܡܐ. ܕܘܟܪܢ ܡܘܫܐ ܘܐܗܪܘܢ</rubric>
 
 
 
@@ -1721,26 +1721,38 @@
 
                   <title xml:lang="en">Thursday.</title>
                   <rubric xml:lang="syr">ܕܝܘܡ. ܏ܗ : ܕܪܐܙܐ ܕܚܫ̣ܐ</rubric>
-                  <rubric xml:lang="syr">ܒܥܕܢܐ ܕܫܝܓܬܐ</rubric>
+                  
+                  <msItem xml:id="d1" n="147">
+                     <locus from="86b"/>
+                     <rubric xml:lang="syr">ܒܥܕܢܐ ܕܫܝܓܬܐ</rubric>
+                  </msItem>  
 
 
 
 
 
                 </msItem>
-                <msItem xml:id="c53" n="147">
-                  <locus from="87a"/>
+                <msItem xml:id="c53" n="148">
 
                   <title xml:lang="en">The Friday of the Crucifixion.</title>
-                  <rubric xml:lang="syr">ܕܥܪܘܒܬܐ ܕܚܫ̣ܐ ܦܪܘܩܝܐ. ܣܒܪ̈ܬܐ ܕܠܠܝܐ</rubric>
-                  <rubric xml:lang="syr">ܣ̈ܒܪܬܐ ܕܐܝܡܡܐ</rubric>
-
-
-
+                  <rubric xml:lang="syr">ܕܥܪܘܒܬܐ ܕܚܫ̣ܐ ܦܪܘܩܝܐ. </rubric>
+                  
+                  <msItem xml:id="d2" n="149">
+       
+                    <locus from="87a"/>
+                    <rubric xml:lang="syr">ܣܒܪ̈ܬܐ ܕܠܠܝܐ</rubric>
+                    
+                  </msItem>
+                  
+                  <msItem xml:id="d3" n="150">
+                    <locus from="102b"/>
+                    <rubric xml:lang="syr">ܣ̈ܒܪܬܐ ܕܐܝܡܡܐ</rubric>
+                    
+                  </msItem> 
 
 
                 </msItem>
-                <msItem xml:id="c54" n="148">
+                <msItem xml:id="c54" n="151">
                   <locus from="111b"/>
 
                   <title xml:lang="en">The Great Saturday.</title>
@@ -1752,7 +1764,7 @@
 
                 </msItem>
               </msItem>
-              <msItem xml:id="b94" n="149">
+              <msItem xml:id="b94" n="152">
                 <locus from="116a"/>
 
                 <title xml:lang="en">Lessons for the Sundays of the Resurrection, after the Syrian
@@ -1765,7 +1777,7 @@
 
 
               </msItem>
-              <msItem xml:id="b95" n="150">
+              <msItem xml:id="b95" n="153">
                 <locus from="117a"/>
 
                 <title xml:lang="en">A lesson for Saturday or Sunday, when the Feast of the Nativity
@@ -1779,7 +1791,7 @@
 
               </msItem>
             </msItem>
-            <msItem xml:id="a2" n="151">
+            <msItem xml:id="a2" n="154">
               <locus from="118a"/>
 
               <title xml:lang="en">A Calendar of all the Saints' Days throughout the year, from Ilūl
@@ -1802,7 +1814,7 @@
 
 
             </msItem>
-            <msItem xml:id="a3" n="152">
+            <msItem xml:id="a3" n="155">
 
 
               <title xml:lang="en">Select lessons for particular occasions.</title>
@@ -1812,7 +1824,7 @@
 
 
 
-              <msItem xml:id="b96" n="153">
+              <msItem xml:id="b96" n="156">
                 <locus from="161a"/>
 
                 <title xml:lang="en">The Dedication of the Church.</title>
@@ -1823,7 +1835,7 @@
 
 
               </msItem>
-              <msItem xml:id="b97" n="154">
+              <msItem xml:id="b97" n="157">
                 <locus from="161a"/>
 
                 <title xml:lang="en">On the occasion of any Calamity.</title>
@@ -1835,7 +1847,7 @@
 
 
               </msItem>
-              <msItem xml:id="b98" n="155">
+              <msItem xml:id="b98" n="158">
                 <locus from="161a"/>
 
                 <title xml:lang="en">On assuming the habit of a monk or nun.</title>
@@ -1846,7 +1858,7 @@
 
 
               </msItem>
-              <msItem xml:id="b99" n="156">
+              <msItem xml:id="b99" n="159">
                 <locus from="161b"/>
 
                 <title xml:lang="en">For the sick.</title>
@@ -1857,7 +1869,7 @@
 
 
               </msItem>
-              <msItem xml:id="b100" n="157">
+              <msItem xml:id="b100" n="160">
                 <locus from="161b"/>
 
                 <title xml:lang="en">For the dead.</title>
@@ -1868,7 +1880,7 @@
 
 
               </msItem>
-              <msItem xml:id="b101" n="158">
+              <msItem xml:id="b101" n="161">
                 <locus from="161b"/>
 
                 <title xml:lang="en">For the twelve Apostles, the seventy Disciples, Martyrs,
@@ -1919,30 +1931,29 @@
                       "<persName ref="http://syriaca.org/person/2245">Lord</persName>, remember the
                     humble <persName>scribe John</persName> at the resurrection."</p>
                   <p>
-                    <quote xml:lang="syr"/>ܐܬܕܟܪ ܡܪܝܐ ܠܝܘܚܢܢ ܟܬܘܒܘܢܐ ܏ܒܩ</p>
+                    <quote xml:lang="syr">ܐܬܕܟܪ ܡܪܝܐ ܠܝܘܚܢܢ ܟܬܘܒܘܢܐ ܏ܒܩ</quote></p>
                 </item>
                 <item xml:id="addition2" n="2">
                   <locus/>
                   <p>The inscription about the <persName>scribe John</persName> is followed by six
                     verses in heptasyllabic metre.</p>
                   <p>
-                    <quote xml:lang="syr"/>ܪܝܫܐ ܕܪܟܲܢ ܒܟ̈ܬ݀ܒܝܟ. ܢܬܪܡܪܡ ܒܝܘܡ ܡ̇ܬܝܬܟ. ܘܥ̈ܝܢܐ ܕܬܪ̈ܨܝ
-                    ܦܬܓܡ̈ܝ̣ܟ. ܢܬܦܫ̣̈ܛܢ ܠܘܬ ܫܘܒܩܢܐ. ܘܐܝ̈ܕܝܐ ܕܪܫܡܝ̣ ܡܐܡܪ̈ܝܟ. ܢܚ̈ܙܝܢ ܫܘܒ̣ܚܐ ܕܡܠܟܘܬܟ</p>
+                    <quote xml:lang="syr">ܪܝܫܐ ܕܪܟܲܢ ܒܟ̈ܬ݀ܒܝܟ. ܢܬܪܡܪܡ ܒܝܘܡ ܡ̇ܬܝܬܟ. ܘܥ̈ܝܢܐ ܕܬܪ̈ܨܝ
+                      ܦܬܓܡ̈ܝ̣ܟ. ܢܬܦܫ̣̈ܛܢ ܠܘܬ ܫܘܒܩܢܐ. ܘܐܝ̈ܕܝܐ ܕܪܫܡܝ̣ ܡܐܡܪ̈ܝܟ. ܢܚ̈ܙܝܢ ܫܘܒ̣ܚܐ ܕܡܠܟܘܬܟ</quote></p>
                 </item>
                 <item xml:id="addition3" n="3">
                   <locus/>
-                  <p>Below the six verses in heptasyllabic metre we read the following words"
-                      "<persName ref="http://syriaca.org/person/2245">Lord</persName>, remember the
-                      <persName>priest John</persName>, the owner of the book."</p>
+                  <p>Below the six verses in heptasyllabic metre we read the following words "Lord, remember the <persName>priest John</persName>, the owner of
+                    the book."</p>
                   <p>
-                    <quote xml:lang="syr"/>ܐܬܕܟܪ ܡܪܝܐ ܠܝܘܚܢܢ ܏ܩܫ ܩܢܝܐ ܏ܕܟܬ</p>
+                    <quote xml:lang="syr">ܐܬܕܟܪ ܡܪܝܐ ܠܝܘܚܢܢ ܏ܩܫ ܩܢܝܐ ܏ܕܟܬ</quote></p>
                 </item>
                 <item xml:id="addition4" n="4">
                   <locus/>
                   <p>On fol. 162 a, at the foot of the second column, we read these words.</p>
                   <p>
-                    <quote xml:lang="syr"/>ܡܛܝܢܢ ܠܪܝܫ ܡܣܩܬܐ ܒܟܬܝܒܬܐ ܒܥܘܕܪܢ ܐܠܗܐ. ܫܘܒ̣ܚܐ ܠܡܪܝܐ ܕܥܲܕܪ
-                    ܡܚܝܠܘܬܝ</p>
+                    <quote xml:lang="syr">ܡܛܝܢܢ ܠܪܝܫ ܡܣܩܬܐ ܒܟܬܝܒܬܐ ܒܥܘܕܪܢ ܐܠܗܐ. ܫܘܒ̣ܚܐ ܠܡܪܝܐ ܕܥܲܕܪ
+                      ܡܚܝܠܘܬܝ</quote></p>
                 </item>
                 <item xml:id="addition5" n="5">
                   <locus/>
@@ -1962,7 +1973,7 @@
                     in the year <date datingMethod="Seleucid" when-custom="1334">1334</date>, <date
                       calendar="Gregorian" when="1023">A.D. 1023</date>.</p>
                   <p>
-                    <quote xml:lang="syr"/>ܐܬܟܬܒ ܘܐܫܬܠܡ ܣܘܢܐܟܐܣܪܝܢ ܗܢܐ ܕܩܪ̈ܝܢܐ ܡܢ ܐܪ̈ܒܥܐ ܐܘܢܓ̈ܠܝܣܛܐ.
+                    <quote xml:lang="syr">ܐܬܟܬܒ ܘܐܫܬܠܡ ܣܘܢܐܟܐܣܪܝܢ ܗܢܐ ܕܩܪ̈ܝܢܐ ܡܢ ܐܪ̈ܒܥܐ ܐܘܢܓ̈ܠܝܣܛܐ.
                     ܡܬܝ ܡܪܩܘܣ. ܠܘܩܐ. ܝܘܚܢܢ. ܐܝܟ ܕܠܗܕܪܐ ܘܐܝܩܪܐ ܘܬܫ܏ܒܘ ܕܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ ܘܫܘܝܬ ܒܐܘܣܝܐ.
                     ܕܐܒܐ ܘܕܒܪܐ ܘܕ܏ܪܘ ܕܩܘܕܫܐ. ܒܕܝܪܐ ܩܕܝܫܬܐ ܕܡܪܝ ܦܢܛܐ̣ܠܐܝ̣ܡ̣ܘܢ ܣܗܕܐ. ܒܪܡ ܕܝܢ ܡܬܝܕܥܐ
                     ܒܕܝܪܐ ܕܡܪܝ ܐܠܝܐ ܢܒܝܐ. ܒܟܘܪܐ ܕܣܘܠܘܩܝܐ ܡܕܝܢܬܐ. ܗܝ ܕܒ̇ܢܝܐ̣ ܒܛܘܪܐ ܐܘܟ݁ܡܐ ܕܡܬܟܢܐ ܪܝܫܗ
@@ -1973,31 +1984,23 @@
                     ܘܥܘܗܕܢܐ ܠܐ ܡܬܠܲܚܝܢܐ܀ ܟܠ ܕܝܢ ܕܩ̇ܪܐ ܘܦܓܥ ܒܟܬܒܐ ܗܢܐ ܢܨܠܐ ܥܠܘܗܝ ܘܢܐܡܪ. ܐܬܕܟܪ ܡܪܢ
                     ܝܫܘܥ ܡܫܝܚܐ ܡܐ ܕܐܬܐ ܏ܒܡܠ ܠܝܘܚܢܢ ܒܝܕ ܨ̈ܠܘܬܗ̇ ܕܝܠܕܬ ܐܠܗܐ ܘܕܟܠܗܘܢ ܩܕܝܫ̈ܐ ܐܡܝܢ ܘܐܡܝܢ܀
                     ܐܬܦܚܡ ܕܝܢ ܡܢ ܨܚܚܐ̇ ܝܘܢܝܐ ܕܚܬܝܬ ܠܣܘܪܝܐܝܐ܀ ܫܢܬ ܐܠܦ ܘܡ̈ܐܐ ܘܬܠܬܝ̈ܢ ܘܪܐܪܒܥܐ.(sic) ܡܢ
-                    ܫ̈ܢܝܐ ܕܐܠܟ܏ܣܢܕ.</p>
+                    ܫ̈ܢܝܐ ܕܐܠܟ܏ܣܢܕ.
+                      <note>So the MS notes the date <date datingMethod="Seleucid" when-custom="1134">A.
+                        Gr. 1134</date> (<date calendar="Gregorian" when="0823">A.D. 823</date>); but
+                        as it evidently belongs to the same period as <bibl>Add. 14, 489</bibl>, we
+                        should doubtless read $ <!-- insert missing syriac here -->, <date
+                          datingMethod="Seleucid" when-custom="1334">A. Gr. 1334</date>, <date
+                            calendar="Gregorian" when="1023">A.D. 1023</date>).</note>ܒܝܪܚܐ ܫܒܛ ܒܝܘܡ ܩܕܡܝܐ ܕܒܗ. ܘܐܝܬܘܗܝ ܗܘܐ ܝܘܡ ܫܒܬܐ. ܒܬܠܬ
+                    ܫ̈ܥܝܢ ܕܝܘܡܐ. ܟܠ ܕܩ̇ܪܐ ܢܨ̇ܠܐ ܘܢܐܡܪ. ܡܪܝܐ ܢܚܲܣܐ ܠܗܘܿ ܕܝ̣ܨ̇ܦ ܏ܘܫ. ܘܗܢܐ ܩ̇ܢܝ̣ܐ ܕܟܬܒܐ
+                    ܗܢܐ. ܐܝܬܘܗܝ ܏ܩܫ ܘܫܡܗ. . .
+                      <note>The name of <persName>Maurice</persName>, $ <!--insert missing syriac-->, has
+                        been substituted for that of <persName>John</persName>.</note>
+                      ܐܝܟ ܫܡܐ ܕܝܠܝ ܟܬܘܒܘܢܐ ܝܘܚܢܢ. ܘܐܝܬܘܗܝ ܏ܩܫ ܒܥܕܬܐ. ܕܡܪܝ ܐܠܝܐ
+                      ܢܒܝܐ. ܒܡܕܝܢܬ̤ ܐܠܗܐ ܐܢܛܝܘܟܝܐ܀ ܐܬܕܟܪ ܐܘܿ ܐܚܐ ܕܝܠܝ ܝܘܚܢܢ ܠܟܬܘܒܘܢܐ ܒܨ̈ܠܘܬܟ܀ ܘ ܀ ܘ
+                      ܀
+                    </quote></p>
                 </item>
                 <item xml:id="addition6" n="6">
-                  <locus/>
-                  <p>So the MS notes the date <date datingMethod="Seleucid" when-custom="1134">A.
-                      Gr. 1134</date> (<date calendar="Gregorian" when="0823">A.D. 823</date>); but
-                    as it evidently belongs to the same period as <bibl>Add. 14, 489</bibl>, we
-                    should doubtless read $ <!-- insert missing syriac here -->, <date
-                      datingMethod="Seleucid" when-custom="1334">A. Gr. 1334</date>, <date
-                      calendar="Gregorian" when="1023">A.D. 1023</date>).</p>
-                  <p>
-                    <quote xml:lang="syr"/>ܒܝܪܚܐ ܫܒܛ ܒܝܘܡ ܩܕܡܝܐ ܕܒܗ. ܘܐܝܬܘܗܝ ܗܘܐ ܝܘܡ ܫܒܬܐ. ܒܬܠܬ
-                    ܫ̈ܥܝܢ ܕܝܘܡܐ. ܟܠ ܕܩ̇ܪܐ ܢܨ̇ܠܐ ܘܢܐܡܪ. ܡܪܝܐ ܢܚܲܣܐ ܠܗܘܿ ܕܝ̣ܨ̇ܦ ܏ܘܫ. ܘܗܢܐ ܩ̇ܢܝ̣ܐ ܕܟܬܒܐ
-                    ܗܢܐ. ܐܝܬܘܗܝ ܏ܩܫ ܘܫܡܗ. . .</p>
-                </item>
-                <item xml:id="addition7" n="7">
-                  <locus/>
-                  <p>The name of <persName>Maurice</persName>, $ <!--insert missing syriac-->, has
-                    been substituted for that of <persName>John</persName>.</p>
-                  <p>
-                    <quote xml:lang="syr"/>ܐܝܟ ܫܡܐ ܕܝܠܝ ܟܬܘܒܘܢܐ ܝܘܚܢܢ. ܘܐܝܬܘܗܝ ܏ܩܫ ܒܥܕܬܐ. ܕܡܪܝ ܐܠܝܐ
-                    ܢܒܝܐ. ܒܡܕܝܢܬ̤ ܐܠܗܐ ܐܢܛܝܘܟܝܐ܀ ܐܬܕܟܪ ܐܘܿ ܐܚܐ ܕܝܠܝ ܝܘܚܢܢ ܠܟܬܘܒܘܢܐ ܒܨ̈ܠܘܬܟ܀ ܘ ܀ ܘ
-                    ܀</p>
-                </item>
-                <item xml:id="addition8" n="8">
                   <locus/>
                   <p>On fol. 163 a, in the second column, we find the autograph of
                       <persName>Athanasius, bishop of <placeName ref="http://syriaca.org/place/161"
@@ -2017,7 +2020,7 @@
                     Κὰρά. ἐυχεσθέ μῦ δηἀ τὸν Κν. ἡτης τω ἀνἀγηνόσκῆ. ἐγράφη μηνός Μ ἡ Ν. Ι. Ε. ΝΧ.
                     ΜΔ. ΙΝ. ΙΔ.</p>
                 </item>
-                <item xml:id="addition9" n="9">
+                <item xml:id="addition7" n="7">
                   <locus/>
                   <p>Next follow, fol. 163 a, lessons from the Gospels for Palm Sunday and for the
                     Sundays from Easter to Whitsun Day, written apparently by <persName>Michael,
@@ -2031,26 +2034,31 @@
                       <persName>Athanasius</persName>.</p>
                   <p>
                     <quote xml:lang="syr"/>ܬܘܒ ܟܬܒܝܢܢ ܫܡܐܗ̈ܬܐ (sic) ܩܕܝܫ̈ܐ ܐܦ܏ܝܣܩܘ ܕܡܕܝܢܬܐ ܗܕܐ ܢܛܝܪܬ
-                    ܒܐܠܗܐ ܩܐܪܐ ܐܝܠܝܢ ܕܐܫܟܚܢܢ ܫܡ̈ܐ܏ܗܝܗ (sic) ܕܐܝܬܝܗܘܢ ܟܪܝܣܛܘܦܘܪܘܣ ܣܛܦܢܘܣ ܝܥܩܘܒ ܠܘܩܐ
-                    ܣܝܡܘܢ ܠܝܘܢܬܝܘܣ ܣܝܡܐܝܘܢ ܣܪܓܝܘܣ ܝܘܣܦ ܐܬܐܢܐ܏ܣܝ܀ ܐܬܕܟܪ ܡܪܝܐ ܠܥܒܕܟ ܚ̇ܛܝܐ̣ ܐܦܝܣ܏ܩܘ
-                    ܡܝ̣ܟܐܝܠ ܒܡܠܟ܏ܘܟ ܐܝܟ ܓܝܣܐ ܝܡܝܢܝܐ ܐܡܝܢ. ܕܗ̣ܘ ܐܝܬܘܗܝ ܐܦܝ܏ܣܩܘ ܕܩܪܝܬܐ ܢܛܝܪܬ ܡܢ ܐܠܗܐ
-                    ܘܡܢ ܏ܡܠܟܘ̈ ܩܕܝܫ̈ܐ ܩܐܪܐ܀</p>
+                    ܒܐܠܗܐ ܩܐܪܐ ܐܝܠܝܢ ܕܐܫܟܚܢܢ ܫܡ̈ܐ܏ܗܝܗ ܕܐܝܬܝܗܘܢ ܟܪܝܣܛܘܦܘܪܘܣ ܣܛܦܢܘܣ ܝܥܩܘܒ ܠܘܩܐ ܣܝܡܘܢ
+                    ܠܝܘܢܬܝܘܣ ܣܝܡܐܝܘܢ ܣܪܓܝܘܣ ܝܘܣܦ ܐܬܐܢܐ܏ܣܝ܀ ܐܬܕܟܪ ܡܪܝܐ ܠܥܒܕܟ ܚ̇ܛܝܐ̣ ܐܦܝܣ܏ܩܘ ܡܝ̣ܟܐܝܠ
+                    ܒܡܠܟ܏ܘܟ ܐܝܟ ܓܝܣܐ ܝܡܝܢܝܐ ܐܡܝܢ. ܕܗ̣ܘ ܐܝܬܘܗܝ ܐܦܝ܏ܣܩܘ ܕܩܪܝܬܐ ܢܛܝܪܬ ܡܢ ܐܠܗܐ ܘܡܢ
+                    ܏ܡܠܟܘ̈ ܩܕܝܫ̈ܐ ܩܐܪܐ܀
+                  </p>
                 </item>
-                <item xml:id="addition10" n="10">
+                <item xml:id="addition8" n="8">
                   <locus/>
                   <p>On fol. 162 a, second col., there is an Arabic note, recording the death of
-                    ------ [The name is very indistinctly written, and can scarcely be adequately
-                    rendered by our types.], <persName>bishop of <placeName
+                    ------,<note>The name is very indistinctly written, and can scarcely be adequately
+                    rendered by our types.</note> <persName>bishop of <placeName
                         ref="http://syriaca.org/place/161">Kara</placeName>
                     </persName>, written by his <persName>disciple Yuhanna bin Abi
                     l-Fath</persName>, <date datingMethod="AM" when-custom="6768">A.M. 6768</date>,
                       <date calendar="Gregorian" when="1259">A.D. 1259</date>.</p>
                   <p>
-                    <quote xml:lang="syr"/>% (sic) % (sic) % (<foreign xml:lang="grc"
-                      >ὐποδιάκονος</foreign>)</p>
-                  <!--needs arabic where percentage signs-->
+                    <quote xml:lang="ar">تنيَّح السيد الاسقف ابا
+                      <!-- The Arabic cannot be transcribed here --> قدَّس الله روحه ونوَّر ظريحه
+                      (ضريحه) اسقف محروسه قارا نهار الاثنين سابع عشر تشرين الثانى فى الساعه السادسه
+                      سنه سته الالف (sic) سبعمايه ثمانيه ستين لكون العالم رحمذا الرب بصلاواته (sic)
+                      وكتب العبد الخاطى يحنا بن ابي الفتح تلميذه وبوذياقن <foreign xml:lang="grc"
+                        >(ὐποδιάκονος)</foreign> كنيسه قارا.</quote>
+                  </p>
                 </item>
-                <item xml:id="addition11" n="11">
+                <item xml:id="addition9" n="9">
                   <locus/>
                   <p>Fol. 165 is a torn leaf, which formed part of the original binding of the
                     manuscript. It contains a notice in Arabic of the decease of the
@@ -2059,7 +2067,7 @@
                       >1528</date>, <date calendar="Gregorian" when="1217">A.D. 1217</date>. The
                     writing is much faded, so that some words are barely legible.</p>
                   <p>
-                    <quote xml:lang="syr"/>
+                    <quote xml:lang="ar"><!-- The Arabic cannot be transcribed here --></quote>
                   </p>
                 </item>
               </list>
