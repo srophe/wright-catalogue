@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -127,9 +127,8 @@
                 
                 
                 
-                <finalRubric xml:lang="syr">ܫܠ̣ܡ ܬܫܒ̈ܚܬܐ ܕܕܘܝܕ ܢܒܝܐ ܘܡܲܠܟܐ ܐܠܗܝܐ ( ܟܠ ܕܩ̇ܪܐ
-                           ܢܨ̇ܠܐ ܥܠ ܚܛܝܐ ܕܣܪܛ
-                </finalRubric>
+                <finalRubric xml:lang="syr">ܫܠ̣ܡ ܬܫܒ̈ܚܬܐ ܕܕܘܝܕ ܢܒܝܐ ܘܡܲܠܟܐ ܐܠܗܝܐ ܟܠ ܕܩ̇ܪܐ ܢܨ̇ܠܐ ܥܠ
+                  ܚܛܝܐ ܕܣܪܛ </finalRubric>
                 
               </msItem>
               <msItem xml:id="b3" n="5">
@@ -337,7 +336,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="0600" notAfter="0700">xiith
+                     <origDate notBefore="1100" notAfter="1200">xiith
                         cent</origDate>
                      <origPlace/>
                   </origin>
@@ -532,8 +531,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-29-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-02-21" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
-         <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
-            to be checked for accuracy</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
