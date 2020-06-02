@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -199,32 +199,37 @@
                            </p>
                         </item>
                 <item xml:id="addition3" n="3">
-                           <locus/>
-                           <p>On a narrow slip of paper, between foll. 74 and 75, there is writing
-                              in Karshūnī.</p>
-                           <p>
-                              <quote xml:lang="ar-Syrc">ܐܕܟܪ ܝܐ ܪܒ ܥܒܕܟ ܐܠܟܐܛܝ ܒܣܡ ܪܐܗܒ ܡܢ ܐܠܥܪܩ ܨܠܘ
-                                 ܥܠܝ i.e. %</quote> <!-- where the percentage sign is missing arabic -->
-                           </p>
-                        </item>
+                  <locus/>
+                  <p>On a narrow slip of paper, between foll. 74 and 75, there is writing in
+                    Karshūnī.</p>
+                  <p>
+                    <quote xml:lang="ar-Syrc">ܐܕܟܪ ܝܐ ܪܒ ܥܒܕܟ ܐܠܟܐܛܝ ܒܣܡ ܪܐܗܒ ܡܢ ܐܠܥܪܩ ܨܠܘ ܥܠܝ <note
+                        xml:lang="ar">i.e. اذْكُرْ يا ربّ عبدَك الخاطى باسم راهِب من العرق (العِراق؟
+                          <foreign xml:lang="en">or</foreign> العِرْق؟)</note></quote>
+                  </p>
+                </item>
                 <item xml:id="addition4" n="4">
                            <locus/>
                            <p>Throughout this manuscript, a reader has indicated the pronunciation
                               of many of the Syriac words by writing them on the margins, or between
                               the lines, in Arabic letters.</p> <!--how to insert the two columns?-->
                            <p>
-                              <quote xml:lang="syr">ܘܩ̇ܒ̣ܠ̇ܢܝ      ܘܐܬܓ݁ܠ̣ܝܘ
-                                 ܐܲܥ̇ܒܪܬ      ܘܲܐܦܩܲܢܝ        
-                                 ܘܡܪܕܘܬܟ      ܐܪܗܛ         
-                                 ܘܝܕܥ̣ܬ      ܡܲܪ̈ܩܕܬܝ         
-                                 ܐܘܒ̣ܕܬ݀      ܐܬܝܬ         
-                                 ܡܦ̈ܩܝ      ܕܡ̇ܛܬ݀          
-                                 ܐܟܘܬܟ      ܐܬܟܪ̣ܗܬ݀    
-                                 ܐܕܓܠ      ܐܦܩܘܕ       
-                                 ܕܬܪ̈ܝܨܐ      ܗܓܡ̣ܬ      
-                                 ܥܫ̈ܝܢܢ      ܘܕܥܟ݂ܘ        
-                                 ܒܚܝ̈ܝ       ܚ̇ܕܬܐ       
-                              </quote>
+                              <quote xml:lang="syr"><foreign xml:lang="ar">وقابلن</foreign>
+                      ܘܩ̇ܒ̣ܠ̇ܢܝ <foreign xml:lang="ar">ويثكالي</foreign> ܘܐܬܓ݁ܠ̣ܝܘ <foreign
+                        xml:lang="ar">اعبريث</foreign> ܐܲܥ̇ܒܪܬ <foreign xml:lang="ar"
+                        >وافقان</foreign> ܘܲܐܦܩܲܢܝ <foreign xml:lang="ar">ومرذوثاخ</foreign> ܘܡܪܕܘܬܟ
+                        <foreign xml:lang="ar">ايرهاط</foreign> ܐܪܗܛ <foreign xml:lang="ar"
+                        >ويذعت</foreign> ܘܝܕܥ̣ܬ <foreign xml:lang="ar">مارقداث</foreign> ܡܲܪ̈ܩܕܬܝ
+                        <foreign xml:lang="ar">اوبذاث</foreign> ܐܘܒ̣ܕܬ݀ <foreign xml:lang="ar"
+                        >ايثيث</foreign> ܐܬܝܬ <foreign xml:lang="ar">مافوقي</foreign> ܡܦ̈ܩܝ <foreign
+                        xml:lang="ar">دموطاث</foreign> ܕܡ̇ܛܬ݀ <foreign xml:lang="ar"
+                        >اخواثوخ</foreign> ܐܟܘܬܟ <foreign xml:lang="ar">ايثكرهاث</foreign> ܐܬܟܪ̣ܗܬ݀
+                        <foreign xml:lang="ar">ايداكيل</foreign> ܐܕܓܠ <foreign xml:lang="ar"
+                        >ايفقود</foreign> ܐܦܩܘܕ <foreign xml:lang="ar">داثرصي</foreign> ܕܬܪ̈ܝܨܐ
+                        <foreign xml:lang="ar">هغمت</foreign> ܗܓܡ̣ܬ <foreign xml:lang="ar"
+                        >عاشينون</foreign> ܥܫ̈ܝܢܢ <foreign xml:lang="ar">ودعيخ</foreign> ܘܕܥܟ݂ܘ
+                        <foreign xml:lang="ar">بِحاياي</foreign> ܒܚܝ̈ܝ <foreign xml:lang="ar"
+                        >حِذاتا</foreign> ܚ̇ܕܬܐ </quote>
                            </p>
                         </item>
               </list>
@@ -235,7 +240,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate/>
+                    <origDate notBefore="1200" notAfter="1300">xiiith cent</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
@@ -436,6 +441,7 @@
                ܨܒܝܢܗ. ܕܦܐܪ̈ܘܗܝ ܝ̇ܗܒ ܒܙܒܢܗ ܘܛܪ̈ܦܘܗܝ ܠܐ ܢܬܪܝܢ ܏ܗ ܟܠ ܕܥ̇ܒܕ ܡܫܲܠܡ:
             ܏ܘܫ.</foreign>
       </change>
+        <change type="planned" subtype="arabic">Add Missing Arabic syllables and check Arabic</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
