@@ -254,10 +254,12 @@
             <idno>1.</idno>
             <title xml:lang="en">An extract from the Lives of the Egyp­tian Fathers</title>
             <rubric xml:lang="syr">ܬܘܒ ܡܢ ܡܡܠܐ ܕܐܒ̈ܗܬܐ</rubric>
-            beginning, <locus>fol. 138 a</locus>
+            <note>beginning, fol. 138 a</note><!-- Do we want to still try and tag loci based on the regex even if they appear in notes? -->
         </msItem>
-        <!-- Issue: should be in preceding msItem; "(sic)" may cause the script to separate the incipit into two quotes. --><p>$<span dir="rtl">ܛܘܒܘܗܝ ܠܡ̇ܢ ܕܐܩܦ ܥܨܝܢܐ ܠܢܦܗ</span>(sic) $<span dir="rtl">ܒܟܠܗܘܢ ܚܝ̈ܘܗܝ. ܕܡܢ ܩܝܡܬܐ ܕܡܣܟܢܘܬܐ ܒܓܢܣܐ ܪܒܐ ܕܡܠܘܬܐ ܡܬܝ̇ܩܪ.</span>
-        </p>
+        <msItem>
+            <rubric xml:lang="syr">ܛܘܒܘܗܝ ܠܡ̇ܢ ܕܐܩܦ ܥܨܝܢܐ ܠܢܦܗ</rubric>
+            <note>(sic)<quote xml:lang="syr">ܒܟܠܗܘܢ ܚܝ̈ܘܗܝ. ܕܡܢ ܩܝܡܬܐ ܕܡܣܟܢܘܬܐ ܒܓܢܣܐ ܪܒܐ ܕܡܠܘܬܐ ܡܬܝ̇ܩܪ.</quote></note>
+        </msItem>
         <msItem>
             <idno>2.</idno>
             <title xml:lang="en">Extracts from the Scriptures</title>
@@ -266,7 +268,10 @@
                 <idno>a.</idno>
                 <title xml:lang="en">Psalm i.</title>
             </msItem>
-            <!-- Issue: This should be the rubric of the preceding. --><p>$<span dir="rtl">ܩܕܡܐܝܬ܀ ܦܬܓܡ̈ܘܗܝ</span>(sic) $<span dir="rtl">ܕܕܒܐ ܕܘܝܕ ܡ̇ܠܟܐ</span>, Fol. 139 a.</p>
+            <msItem>
+                <rubric xml:lang="syr">ܩܕܡܐܝܬ܀ ܦܬܓܡ̈ܘܗܝ</rubric>
+                <note>(sic)<quote xml:lang="syr">ܕܕܒܐ ܕܘܝܕ ܡ̇ܠܟܐ</quote>, Fol. 139 a.</note>
+            </msItem>
             <msItem>
                 <idno>b.</idno>
                 <title xml:lang="en">1 Corinthians, ch. iii. 16—21</title>
@@ -283,12 +288,15 @@
                 <locus>Fol. 140 b</locus>
             </msItem>
         </msItem>
-        <!-- Issue: This should be the rubric of the preceding. --><p>$<span dir="rtl">ܥܠ ܣܒܪܐ ܕܐܠܗܐ ܡܪܐ ܟܠ ܡܫܪܝܢܢ ܕܢܟܬܘܒ ܟܬܒܐ ܗܢܐ ܡ̈ܠܐ ܕܒܗ̈ܬܐ</span>(sic) $<span dir="rtl">܏ܩ̈ܕ.</span>
-        </p>
+        <msItem>
+            <rubric xml:lang="syr">ܥܠ ܣܒܪܐ ܕܐܠܗܐ ܡܪܐ ܟܠ ܡܫܪܝܢܢ ܕܢܟܬܘܒ ܟܬܒܐ ܗܢܐ ܡ̈ܠܐ ܕܒܗ̈ܬܐ</rubric>
+            <note>(sic)<quote xml:lang="syr">܏ܩ̈ܕ.</quote></note>
+        </msItem>
         <msItem>
             <idno>3.</idno>
             <title xml:lang="en">Extracts from Isaiah of Scete</title>
             <rubric xml:lang="syr">ܕܐܒܐ ܐܫܥܝܐ</rubric>
+            <note>viz.—</note>
             <msItem>
                 <idno>a.</idno>
                 <title xml:lang="en">On humility</title>
@@ -298,50 +306,43 @@
             </msItem>
             <msItem>
                 <idno>b.</idno>
-                <!-- element known from "Beginning" --><incipit dir="rtl">ܗܠܝܢ ܛܪ ܥܕܡܐ ܠܡܘܬܐ ܘܠܐ ܬܒ̇ܣܪ ܥܠܝܗܘܢ. ܗ̇ܝ ܕܠܐ ܬܠܥܣ ܥܡ ܐܢܬܬܐ. ܘܕܠܐ ܬܗ̇ܘܐ ܠܟ ܪܚܡܘܬܐ ܥܡ ܛܠܝ̈ܐ</incipit>
+                <title xml:lang="en">Beginning</title>
+                <rubric xml:lang="syr">ܗܠܝܢ ܛܪ ܥܕܡܐ ܠܡܘܬܐ ܘܠܐ ܬܒ̇ܣܪ ܥܠܝܗܘܢ. ܗ̇ܝ ܕܠܐ ܬܠܥܣ ܥܡ ܐܢܬܬܐ. ܘܕܠܐ ܬܗ̇ܘܐ ܠܟ ܪܚܡܘܬܐ ܥܡ ܛܠܝ̈ܐ</rubric>
                 <locus>Fol. 141 a</locus>
             </msItem>
             <msItem>
                 <idno>c.</idno>
-                <!-- element known from "Beginning" --><incipit xml:lang="syr">ܗ̇ܝ ܕܢܚ̣ܒ ܠܡܥܩܒܘ ܠܟܬܒ̇ܐ̣. ܝ̇ܠܕܐ ܒܥܠܕܒܒܘܬܐ ܘܦܠܓܘܬܐ</incipit>
+                <title xml:lang="en">Beginning</title>
+                <rubric xml:lang="syr">ܗ̇ܝ ܕܢܚ̣ܒ ܠܡܥܩܒܘ ܠܟܬܒ̇ܐ̣. ܝ̇ܠܕܐ ܒܥܠܕܒܒܘܬܐ ܘܦܠܓܘܬܐ</rubric>
                 <locus>Fol. 143 a.</locus>
                 <note>Imperfect. See Add. 14,575, no. 13</note></msItem>
         </msItem>
-        <msItem>
+        <msItem> <!-- check this one -->
             <idno>4.</idno>
             <title xml:lang="en">Extracts from the Lives of the Egyp­tian Fathers</title>
             <locus>fol. 146 a</locus>
             <note>containing sayings of Isaiah of Scete</note>
-            <quote xml:lang="syr">ܡܡܠܠܐ ܕܐܒܐ ܐܫܥܝܐ ܝܚܝܕܝܐ ܣܘܪܝܝܐ</quote>
+            <rubric xml:lang="syr">ܡܡܠܠܐ ܕܐܒܐ ܐܫܥܝܐ ܝܚܝܕܝܐ ܣܘܪܝܝܐ</rubric>
             <locus>fol. 163 b</locus>
-            <note>and of Epiphanius</note>
-            <quote xml:lang="syr">ܐܦܝܦܢܝܘܣ ܐܦܣܩܘܦܐ</quote>
-            <locus>fol. 164 b</locus>
-            <note>a dialogue between a teacher and his pupil</note>
-            <quote xml:lang="syr">ܫ̈ܘܐܠܐ ܘܦܘܢܝ ܦ̈ܬܓܡܐ: ܕܡܠܦܢܐ ܘܬܠܡܝܕܐ</quote>
-            <locus>fol. 166 a</locus>
-            <note>and select sayings of one of the Fathers</note>
-            <quote xml:lang="syr">ܡܪ̈ܓܢܝܬܐ ܡ̈ܓܒܝܬܐ ܕܣܝ̈ܡܢ ܠܚܕ ܡܢ ܐܒܗ̈ܬܐ ܩܕܝ̈ܫܐ ܕܒܡܕܒܪܐ</quote>
-            <locus>fol. 173 b</locus>
-        </msItem> <!-- NOTE: this item is actually made up of sub-items, but this is how, I believe, the script will/should render it for now. -->
+            <note>and of Epiphanius, <quote xml:lang="syr">ܐܦܝܦܢܝܘܣ ܐܦܣܩܘܦܐ</quote>, fol. 164 b; a dialogue between a teacher and his pupil, <quote xml:lang="syr">ܫ̈ܘܐܠܐ ܘܦܘܢܝ ܦ̈ܬܓܡܐ: ܕܡܠܦܢܐ ܘܬܠܡܝܕܐ</quote>, fol. 166 a; and select sayings of one of the Fathers, <quote xml:lang="syr">ܡܪ̈ܓܢܝܬܐ ܡ̈ܓܒܝܬܐ ܕܣܝ̈ܡܢ ܠܚܕ ܡܢ ܐܒܗ̈ܬܐ ܩܕܝ̈ܫܐ ܕܒܡܕܒܪܐ</quote>, fol. 173 b.</note>
+        </msItem>
         <msItem>
             <idno>5.</idno>
             <title xml:lang="en">Discourse of Theophilus of Alexandria q[5 U 2]q on the separation of the soul from the body</title>
             <rubric xml:lang="syr">ܡܐܡܪܐ ܕܩܕܝܫܐ ܡܪܝ ܬܐܘܦܝܠܐ ܕܥܠ ܦܘܪܫܢܐ ܕܢܦܫܐ ܡܢ ܦܓܪܐ</rubric>
-            <locus>fol. 177 a</locus>
-            <!-- element known from "Beginning" --><incipit xml:lang="syr">ܠܐ ܛܥܝܐ ܠܟܘܢ ܐܚ̈ܝ̣. ܏ܘܫ.</incipit>
+            <note>Beginning, fol. 177 a: <quote xml:lang="syr">ܠܐ ܛܥܝܐ ܠܟܘܢ ܐܚ̈ܝ̣. ܏ܘܫ.</quote></note>
         </msItem>
         <msItem>
             <idno>6.</idno>
             <title xml:lang="en">Metrical discourse of Isaac of Antioch</title>
             <rubric xml:lang="syr">ܡܐܡܪܐ ܕܩܕܝܫܐ ܡܪܝ ܐܝܣܚܩ</rubric>
-            <locus>fol. 179 b</locus>
-            <!-- element known from "Beginning" --><incipit xml:lang="syr">ܐܚܒ ܫܠܝܐ ܐܘ ܬܠܡܝܕܐ. ܕܒܗ ܬܫܟܚ ܬܚܐ ܢܦܫܟ.</incipit>
+            <note>beginning, fol. 179 b: <quote xml:lang="syr">ܐܚܒ ܫܠܝܐ ܐܘ ܬܠܡܝܕܐ. ܕܒܗ ܬܫܟܚ ܬܚܐ ܢܦܫܟ.</quote></note>
         </msItem>
         <msItem>
             <idno>7.</idno>
             <title xml:lang="en">Extracts from the writings of Philoxenus of #Mabug</title>
             <rubric xml:lang="syr">ܕܡܪܝ ܐܟܣܢܝܐ</rubric>
+            <note>viz.—</note>
             <msItem>
                 <idno>a.</idno>
                 <title xml:lang="en">On humility</title>
@@ -376,14 +377,13 @@
             <idno>8.</idno>
             <title xml:lang="en">The Creed of Severus</title>
             <rubric xml:lang="syr">ܗܝܡܢܘܬܐ ܕܡܪܝ ܣܐܘܪܝܐ</rubric>
-            <locus>fol. 188 b</locus>
-            <!-- element known from "Beginning" --><incipit xml:lang="syr">ܡܗܝܡܢܝܢܢ ܒܬܘܕܝܬܐ ܕܚܕ ܐܠܗܐ ܫܪܝܪܝܐ. ܕܐܝܬܘܗܝ ܐܝܬܝܐ ܡܬܘܡܝܐ. ܕܗ̣ܘ ܡܢܗ ܐܝܬܘܗܝ. ܘܗ̣ܘ ܠܗ ܝܕܥ. ܘܗ̣ܘ ܠܗ ܣܦܩ. ܏ܘܫ.</incipit>
+            <quote>beginning, fol. 188 b: <incipit xml:lang="syr">ܡܗܝܡܢܝܢܢ ܒܬܘܕܝܬܐ ܕܚܕ ܐܠܗܐ ܫܪܝܪܝܐ. ܕܐܝܬܘܗܝ ܐܝܬܝܐ ܡܬܘܡܝܐ. ܕܗ̣ܘ ܡܢܗ ܐܝܬܘܗܝ. ܘܗ̣ܘ ܠܗ ܝܕܥ. ܘܗ̣ܘ ܠܗ ܣܦܩ. ܏ܘܫ.</incipit></quote>
         </msItem>
         <msItem>
             <idno>9.</idno>
-            <title xml:lang="en">An extract from John Chrysostom on silence</title>
+            <title xml:lang="en">An extract from John Chrysostom on silence, beginning</title>
             <locus>fol. 191 a</locus>
-            <!-- element known from "Beginning" --><incipit xml:lang="syr">ܕܡܪܝ ܝܘܐܢܢܝܣ܀ ܫܬܩܐ ܢ̇ܛܪ ܗܝܡܢܘܬܐ: ܫܬܩܐ ܣ̈ܓܝܐܬܐ ܡܣܝܒܪ. ܏ܘܫ.</incipit>
+            <rubric xml:lang="syr">ܕܡܪܝ ܝܘܐܢܢܝܣ܀ ܫܬܩܐ ܢ̇ܛܪ ܗܝܡܢܘܬܐ: ܫܬܩܐ ܣ̈ܓܝܐܬܐ ܡܣܝܒܪ. ܏ܘܫ.</rubric>
         </msItem>
         <msItem>
             <idno>10.</idno>
@@ -396,20 +396,23 @@
             <idno>11.</idno>
             <title xml:lang="en">Three hymns, entitled</title>
             <rubric xml:lang="syr">ܣ̈ܘܓܝܬܐ ܕܬܝܒܘܬܐ ܘܬܘܬ ܢܦܫܐ</rubric>
-            <note>hymns of repent­ance and penitence.</note>
+            <note>" hymns of repent­ance and penitence."</note>
             <msItem>
                 <idno>a.</idno>
-                <!-- element known from "Beginning" --><incipit xml:lang="syr">ܐܠܗܐ ܕܩܪܢܝ ܒܛܝܒܘܬܗ. ܕܢܬܩ̇ܪܒ ܠܘܬܗ ܕܠܐ ܢܐܒܕ. ܏ܘܫ.</incipit>
+                <title xml:lang="en">Beginning</title>
+                <rubric xml:lang="syr">ܐܠܗܐ ܕܩܪܢܝ ܒܛܝܒܘܬܗ. ܕܢܬܩ̇ܪܒ ܠܘܬܗ ܕܠܐ ܢܐܒܕ. ܏ܘܫ.</rubric>
                 <locus>Fol. 205 b</locus>
             </msItem>
             <msItem>
                 <idno>b.</idno>
-                <!-- element known from "Beginning" --><incipit xml:lang="syr">ܐܝܠܝܢ ܩ̈ܠܐ ܡ̈ܠܝܝ ܚܫܐ. ܐܒ̇ܟܐ ܥܠ ܣܘܓܐ ܕܣܘܪ̈ܚܢܝ. ܏ܘܫ.</incipit>
+                <title xml:lang="en">Beginning</title>
+                <rubric xml:lang="syr">ܐܝܠܝܢ ܩ̈ܠܐ ܡ̈ܠܝܝ ܚܫܐ. ܐܒ̇ܟܐ ܥܠ ܣܘܓܐ ܕܣܘܪ̈ܚܢܝ. ܏ܘܫ.</rubric>
                 <locus>Fol. 206 b</locus>
             </msItem>
             <msItem>
                 <idno>c.</idno>
-                <!-- element known from "Beginning" --><incipit xml:lang="syr">ܐܚܠܡ̣ ܠܝ ܫܘ̈ܚܢܝ ܡܪܝ ܕܣ̇ܓܝܐܝܢ. ܕܥܬܝܪ ܒܝܬ ܓܙܟ ܒܝܕ ܚܘ̈ܠܡܢܐ. ܏ܘܫ.</incipit>
+                <title xml:lang="en">Beginning</title>
+                <rubric xml:lang="syr">ܐܚܠܡ̣ ܠܝ ܫܘ̈ܚܢܝ ܡܪܝ ܕܣ̇ܓܝܐܝܢ. ܕܥܬܝܪ ܒܝܬ ܓܙܟ ܒܝܕ ܚܘ̈ܠܡܢܐ. ܏ܘܫ.</rubric>
                 <locus>Fol. 207 b</locus>
             </msItem>
         </msItem>
