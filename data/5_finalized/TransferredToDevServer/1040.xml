@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17220</title>
+        <title level="a" xml:lang="en">BL Add MS 17248</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -49,7 +49,7 @@
       </editionStmt>
          <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/981/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1040/tei</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -59,105 +59,266 @@
         <date calendar="Gregorian"/>
       </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="manuscript-981">
+            <msDesc xml:id="manuscript-1040">
                <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/981</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1040</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17220</idno>
+              <idno type="BL-Shelfmark">Add MS 17248</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Arabic">190</idno>
+              <idno type="Wright-BL-Arabic">464</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Roman">CXC</idno>
+              <idno type="Wright-BL-Roman">CCCCLXIV</idno>
             </altIdentifier>
           </msIdentifier>
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="177" from="2a">Foll. 2a-177</locus>
+              <locus to="140" from="1a">Foll. 1a-140</locus>
               
-              <title xml:lang="en">The Psalms, according to the Peshitta
-                        version.</title>
-              
+              <title xml:lang="en">A collection of Hymns.</title>
               
               
               
               
-              <note>Each versicle is divided into two parts by the letter $ ($), and the $
-                        and $ are marked on the margins.</note>
-              <note>The missing portions: <bibl>Ps. i. 1-xvi. 3</bibl>, and <bibl>xviii.
-                           42-xxvii. 7</bibl>.</note>
+              
+              
+              <msItem xml:id="b1" n="2" defective="true">
+                <locus to="27" from="1a">Foll. 1a-27</locus>
+                
+                <title xml:lang="en">Hymns of the Vigils.</title>
+                <rubric xml:lang="syr">ܩ̈ܠܐ ܫܗܪ̈ܢܝܐ ܘܓܘ̈ܢܝܐ</rubric>
+                
+                
+                
+                
+                
+              </msItem>
+              <msItem xml:id="b2" n="3">
+                <locus to="34" from="27b">Foll. 27b-34</locus>
+                
+                <title xml:lang="en">Cantus ad Magnificat.</title>
+                <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܡܘܪ̈ܒܐ</rubric>
+                
+                
+                
+                
+                
+              </msItem>
+              <msItem xml:id="b3" n="4">
+                
+                
+                <title xml:lang="en">The Hymns of <persName ref="http://syriaca.org/person/51">Severus</persName>.</title>
+                <rubric xml:lang="syr">ܣܚܚܐ ܕܡ̈ܥܝܢܝܬܐ (sic) ܕܡܪܝ ܣܐܘܪܐ</rubric>
+                
+                
+                
+                
+                <note>Each hymn is marked by a letter denoting its tone.</note>
+                <msItem xml:id="c1" n="5">
+                  <locus to="37" from="35a">Foll. 35a-37</locus>
+                  
+                  <title xml:lang="en">Epiphany.</title>
+                  <rubric xml:lang="syr">ܥܠ ܥܐܕܐ ܩܕܝܫܐ ܕܕܢ̣ܚܐ ܐܘܟܝܬ ܕܢܘܗܪ̈ܐ</rubric>
+                  
+                  
+                  
+                  
+                  
+                </msItem>
+                <msItem xml:id="c2" n="6">
+                  <locus to="38" from="38a">Foll. 38a-38</locus>
+                  
+                  <title xml:lang="en">
+                    <persName>S. Simeon the aged</persName>.</title>
+                  <rubric xml:lang="syr">ܕܥܠ ܫܡܥܘܢ ܣܒܐ</rubric>
+                  
+                  
+                  
+                  
+                  
+                </msItem>
+                <msItem xml:id="c3" n="7">
+                  <locus to="41" from="39a">Foll. 39a-41</locus>
+                  
+                  <title xml:lang="en">Lent.</title>
+                  <rubric xml:lang="syr">ܕܥܠ ܨܘܡܐ ܩܕܝܫܐ ܕܐܪ̈ܒܥܝܢ</rubric>
+                  
+                  
+                  
+                  
+                  
+                </msItem>
+                <msItem xml:id="c4" n="8">
+                  <locus to="44" from="41b">Foll. 41b-44</locus>
+                  
+                  <title xml:lang="en">The Miracles of <persName ref="http://syriaca.org/person/2245">our Lord</persName>.</title>
+                  <rubric xml:lang="syr">ܕܬܕܡܪ̈ܬܐ ܕܣܥ̣ܪ ܡܪܢ</rubric>
+                  
+                  
+                  
+                  
+                  
+                </msItem>
+                <msItem xml:id="c5" n="9">
+                  <locus to="46" from="45a">Foll. 45a-46</locus>
+                  
+                  <title xml:lang="en">Palm Sunday.</title>
+                  <rubric xml:lang="syr">ܕܐܘ̈ܫܥܢܐ</rubric>
+                  
+                  
+                  
+                  
+                  
+                </msItem>
+                <msItem xml:id="c6" n="10">
+                  <locus to="49" from="47a">Foll. 47a-49</locus>
+                  
+                  <title xml:lang="en">Passion Week.</title>
+                  <rubric xml:lang="syr">ܕܥܠ ܫܒܬܐ ܩ܏ܕܝܫ ܕܚܫܐ</rubric>
+                  
+                  
+                  
+                  
+                  
+                </msItem>
+                <msItem xml:id="c7" n="11">
+                  <locus to="50" from="50a">Foll. 50a-50</locus>
+                  
+                  <title xml:lang="en">The holy Cross.</title>
+                  <rubric xml:lang="syr">ܕܨܠܝܒܐ</rubric>
+                  
+                  
+                  
+                  
+                  
+                </msItem>
+                <msItem xml:id="c8" n="12" defective="true">
+                  <locus to="59" from="51a">Foll. 51a-59</locus>
+                  
+                  <title xml:lang="en">The Resurrection.</title>
+                  <rubric xml:lang="syr">ܕܩܝܡ̣ܬܐ</rubric>
+                  
+                  
+                  
+                  
+                  
+                </msItem>
+                <msItem xml:id="c9" n="13">
+                  <locus to="61" from="59b">Foll. 59b-61</locus>
+                  
+                  <title xml:lang="en">The Ascension.</title>
+                  <rubric xml:lang="syr">ܕܣܘܠܩܗ ܕܡܪܢ</rubric>
+                  
+                  
+                  
+                  
+                  
+                </msItem>
+                <msItem xml:id="c10" n="14">
+                  <locus to="63" from="61b">Foll. 61b-63</locus>
+                  
+                  <title xml:lang="en">Pentecost.</title>
+                  <rubric xml:lang="syr">ܕܦܢܛܝܩܘܣܛܝ</rubric>
+                  
+                  
+                  
+                  
+                  
+                </msItem>
+                <msItem xml:id="c11" n="15">
+                  <locus to="110" from="63b">Foll. 63b-110</locus>
+                  
+                  <title xml:lang="en">Arranged according to the eight
+                              tones.</title>
+                  <rubric xml:lang="syr">ܡ̈ܥܢܝܬܐ ܓܘ̈ܢܝܬܐ</rubric>
+                  
+                  
+                  
+                  
+                  
+                </msItem>
+              </msItem>
+              <msItem xml:id="b4" n="16">
+                <locus to="131" from="110b">Foll. 110b-131</locus>
+                
+                <title xml:lang="en">Supplicatory hymns, arranged according to the
+                           eight tones.</title>
+                <rubric xml:lang="syr">ܬܟܫ̈ܦܬܐ ܕܟܠܗܘܢ ܛܟ̣̈ܣܐ</rubric>
+                
+                
+                
+                
+                
+              </msItem>
+              <msItem xml:id="b5" n="17">
+                <locus to="135" from="131b">Foll. 131b-135</locus>
+                
+                <title xml:lang="en">Additional.</title>
+                <rubric xml:lang="syr">ܬܟ̈ܫܦܬܐ</rubric>
+                
+                
+                
+                
+                
+              </msItem>
+              <msItem xml:id="b6" n="18" defective="true">
+                <locus to="136" from="135b">Foll. 135b-136</locus>
+                
+                <title xml:lang="en">Additional hymns on the Miracles.</title>
+                <rubric xml:lang="syr">ܡ̈ܥܢܝܬܐ ܕܬܡܪ̈ܬܐ (sic)</rubric>
+                
+                
+                
+                
+                
+              </msItem>
             </msItem>
-            <msItem xml:id="a2" n="2">
-              <locus to="185" from="177b">Foll. 177b-185</locus>
+            <msItem xml:id="a2" n="19">
+              <locus to="139" from="137">Foll. 137-139</locus>
               
-              <title xml:lang="en">The Canticles.</title>
-              
-              
-              
+              <title xml:lang="en">Comprising prayers of <persName ref="http://syriaca.org/person/42">Jacob</persName> and <persName ref="http://syriaca.org/person/13">Ephraim</persName>.</title>
+              <rubric xml:lang="syr">ܩܘܩܠܝܘܢ ܕܝܠܕܬ ܐܠܗܐ</rubric>
               
               
               
-              <msItem xml:id="b1" n="3">
-                <locus to="179" from="177b">Foll. 177b-179</locus>
-                
-                <title xml:lang="en">The first song of
-                           <persName>Moses</persName>.</title>
-                
-                
-                
-                
-                
-                
-              </msItem>
-              <msItem xml:id="b2" n="4">
-                <locus to="180" from="180a">Foll. 180a-180</locus>
-                
-                <title xml:lang="en">The song of <persName>Isaiah</persName>.</title>
-                
-                
-                
-                
-                
-                
-              </msItem>
-              <msItem xml:id="b3" n="5">
-                <locus to="185" from="181a">Foll. 181a-185</locus>
-                
-                <title xml:lang="en">The second song of <persName>Moses</persName>.</title>
-                
-                
-                
-                
-                
-                
-              </msItem>
+              
+              
+            </msItem>
+            <msItem xml:id="a3" n="20">
+              <locus to="140" from="139">Foll. 139-140</locus>
+              
+              <title xml:lang="en">A prayer of <persName ref="http://syriaca.org/person/13">Ephraim</persName>.</title>
+              <rubric xml:lang="syr">ܒܥܘܬܐ ܕܡܪܝ ܐܦܪܝܡ</rubric>
+              
+              
+              
+              
+              
             </msItem>
           </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <extent>
-                           <measure unit="content_pending" quantity="-1"/>
-                        </extent>
+                        
                         <foliation/>
                         <collation/>
                         <condition>
                            <list>
                               <item>
-                                 <p> Paper, about 6 7/8 in. by 5, consisting of 186 leaves, many of
-                                    which are torn, especially foll. 1, 2, 12—41, and 179—186. The
-                                    quires are signed with letters, from <foreign xml:lang="syr">ܐ</foreign> to <foreign xml:lang="syr">ܝܐ</foreign>,
-                                    beginning at fol. 75; in the earlier part of the volume there do
-                                    not seem to be any signatures. Leaves are wanting after foll. 1
-                                    and 11. There are from 9 to 18 lines in each page.</p>
+                                 <p>Paper, about 6 7/8 in. by 5 1/8, consisting of 140 leaves, some
+                                    of which are much stained, and torn, especially foll. 1—4, 53,
+                                    54, 121, and 136—140. The quires, signed with letters, were 15
+                                    or 16 in number. Leaves are wanting at the beginning, as well as
+                                    after foll. 4, 12 (one), 52 (one), and 136. There are from 18 to
+                                    25 lines in each page. </p>
                               </item>
                            </list>
                         </condition>
@@ -166,70 +327,42 @@
                   </objectDesc>
                   <handDesc hands="3">
               <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
-                        <desc>The greater part of this manuscript, from fol. 75 to the end, is
-                           written in a good, regular hand of the <date calendar="Gregorian" notBefore="1200" notAfter="1300">xiiith cent</date>.</desc>
+                        <desc>This volume is written in a neat, regular hand of the xiith
+                           cent.</desc>
                      </handNote>
               <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
-                        <desc>Foll. 2—40 seem to be in a different hand of about the same
-                           period.</desc>
-                     </handNote>
+                <desc>The handwriting on the flyleaves is cursive, but of not much later date than
+                  the rest of the manuscript. The writer seems to have been the same
+                    <persName>Rabban Samuel bar Mẹ̆khīr</persName>, whose name appears on the margin
+                  of fol. 136 b.</desc>
+              </handNote>
               <handNote medium="unknown" xml:id="handNote3" scope="minor" script="syr">
-                        <desc>Foll. 41—74 are somewhat more recent.</desc>
+                        <desc>This [prayer of Ephraim] is in a different hand, apparently that of
+                           <persName>Rabban Iyūb of Māridīn</persName>, who has recorded his name, and the date <date datingMethod="Seleucid" when-custom="1552">A. Gr.
+                           1552</date> (<date calendar="Gregorian" when="1241">A.D. 1241</date>), on fol. 140 a.</desc>
                      </handNote>
             </handDesc>
                   <additions>
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p>The colophon, fol. 186 a, states that the volume belonged to one
-                                 <persName>Rabban Abraham</persName>.</p>
-                           <p>
-                    <quote xml:lang="syr">ܫܠ̣ܡ ܐܝܟ ܬܒܥܬܗ ܕܩܲܢܝܐ. ܟܠ ܕܩ̇ܪܐ ܢܨ̇ܠܐ ܡܛܠ ܡܪܢ ܥܠ ܚܛܝܐ ܘܕܘܝܐ ܕܣܪܛ ܐܝܟ ܚ̇ܝ̣ܠܗ.
-                                 ܘ܏ܫ. ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܕܘܝܕ܇ ܕܪܒ[ܢ] ܐܒܪܗܡ ܐܚܐ ܡܒܪܟܐ. ܡܪܝܐ ܢـ . . .
-                                 .ܠܗ ܕܢܩ̣ܪܐ ܒܗ ܘܢܐ̣ܬܪ ܢܦ . . . </quote>
-                  </p>
-                        </item>
-                <item xml:id="addition2" n="2">
-                           <locus/>
-                           <p>On fol. 186 b is added the song of the <persName ref="http://syriaca.org/person/624">blessed
-                                 Virgin</persName>. </p>
-                           <p>
-                              <quote xml:lang="syr">[ܬܫܒܘܚܬܐ] ܕܝܠܕܬ݀ ܐܠܗܐ ܡܪܝܡ</quote>
-                           </p>
-                        </item>
-                <item xml:id="addition3" n="3">
                   <locus/>
-                  <p>On a narrow slip of paper, between foll. 74 and 75, there is writing in
-                    Karshūnī.</p>
+                  <p>The writer of the prayers on the flyleaves seems to have been the same
+                      <persName>Rabban Samuel bar Mẹ̆khīr</persName>, whose name appears on the
+                    margin of fol. 136 b.</p>
                   <p>
-                    <quote xml:lang="ar-Syrc">ܐܕܟܪ ܝܐ ܪܒ ܥܒܕܟ ܐܠܟܐܛܝ ܒܣܡ ܪܐܗܒ ܡܢ ܐܠܥܪܩ ܨܠܘ ܥܠܝ <note
-                        xml:lang="ar">i.e. اذْكُرْ يا ربّ عبدَك الخاطى باسم راهِب من العرق (العِراق؟
-                          <foreign xml:lang="en">or</foreign> العِرْق؟)</note></quote>
+                    <quote xml:lang="syr">ܐܝܬܘܗܝ ܨܚܚܐ ܗܢܐ ܠܪܒܢ ܫܡܘܐܝܠ ܒܪ ܡܟܝܪ</quote>
                   </p>
                 </item>
-                <item xml:id="addition4" n="4">
+                <item xml:id="addition2" n="2">
                            <locus/>
-                           <p>Throughout this manuscript, a reader has indicated the pronunciation
-                              of many of the Syriac words by writing them on the margins, or between
-                              the lines, in Arabic letters.</p> <!--how to insert the two columns?-->
                            <p>
-                              <quote xml:lang="syr"><foreign xml:lang="ar">وقابلن</foreign>
-                      ܘܩ̇ܒ̣ܠ̇ܢܝ <foreign xml:lang="ar">ويثكالي</foreign> ܘܐܬܓ݁ܠ̣ܝܘ <foreign
-                        xml:lang="ar">اعبريث</foreign> ܐܲܥ̇ܒܪܬ <foreign xml:lang="ar"
-                        >وافقان</foreign> ܘܲܐܦܩܲܢܝ <foreign xml:lang="ar">ومرذوثاخ</foreign> ܘܡܪܕܘܬܟ
-                        <foreign xml:lang="ar">ايرهاط</foreign> ܐܪܗܛ <foreign xml:lang="ar"
-                        >ويذعت</foreign> ܘܝܕܥ̣ܬ <foreign xml:lang="ar">مارقداث</foreign> ܡܲܪ̈ܩܕܬܝ
-                        <foreign xml:lang="ar">اوبذاث</foreign> ܐܘܒ̣ܕܬ݀ <foreign xml:lang="ar"
-                        >ايثيث</foreign> ܐܬܝܬ <foreign xml:lang="ar">مافوقي</foreign> ܡܦ̈ܩܝ <foreign
-                        xml:lang="ar">دموطاث</foreign> ܕܡ̇ܛܬ݀ <foreign xml:lang="ar"
-                        >اخواثوخ</foreign> ܐܟܘܬܟ <foreign xml:lang="ar">ايثكرهاث</foreign> ܐܬܟܪ̣ܗܬ݀
-                        <foreign xml:lang="ar">ايداكيل</foreign> ܐܕܓܠ <foreign xml:lang="ar"
-                        >ايفقود</foreign> ܐܦܩܘܕ <foreign xml:lang="ar">داثرصي</foreign> ܕܬܪ̈ܝܨܐ
-                        <foreign xml:lang="ar">هغمت</foreign> ܗܓܡ̣ܬ <foreign xml:lang="ar"
-                        >عاشينون</foreign> ܥܫ̈ܝܢܢ <foreign xml:lang="ar">ودعيخ</foreign> ܘܕܥܟ݂ܘ
-                        <foreign xml:lang="ar">بِحاياي</foreign> ܒܚܝ̈ܝ <foreign xml:lang="ar"
-                        >حِذاتا</foreign> ܚ̇ܕܬܐ </quote>
+                    <persName>Rabban Iyūb of Māridīn</persName>, who has recorded his name, and the date <date datingMethod="Seleucid" when-custom="1552">A.
+                              Gr. 1552</date> (<date calendar="Gregorian" when="1241">A.D. 1241</date>), on fol. 140 a.</p>
+                           <p>
+                              <quote xml:lang="syr">ܐܝܬܘܗܝ ܨ[ܚܚܐ ܗܢܐ] ܠܪܒܢ ܐܝܘܒ ܕ . . . ܕܡܢ ܐܬܪܐ
+                                 ܡܒܪܟܐ ܕܡܪܕܐ ܨܠܘ ܥܠܘܗ[ܝ] ܡܛܠ ܡܪܢ ܐܠܗܐ ܚܣܐ ܠܟܠ ܕܫܬܘܬܦ (sic) ܒܫܢܬ ܐܠܦ
+                                 ܘܚ̈ܡܫܡـ̣[ܐܐ] ܘܢܒ ܕܝܘ̈ܢܝܐ ܢܟܝ̈ܠܐ.</quote>
                            </p>
                         </item>
               </list>
@@ -240,7 +373,8 @@
                </physDesc>
                <history>
                   <origin>
-                    <origDate notBefore="1200" notAfter="1300">xiiith cent</origDate>
+                     <origDate notBefore="1100" notAfter="1200">This volume is
+                        written in a neat, regular hand of the xiith cent.</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
@@ -264,8 +398,8 @@
                 <pubPlace>London</pubPlace>
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
-                <citedRange unit="entry">CXC</citedRange>
-                <citedRange unit="pp">1:133-134</citedRange>
+                <citedRange unit="entry">CCCCLXIV</citedRange>
+                <citedRange unit="pp">1:369</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -423,25 +557,19 @@
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
             <item>
-              <ref target="#psalter"/>
+              <ref target="#hymns"/>
             </item>
           </list>
         </keywords>
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
-         <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-23-05:00">CHANGED: deleted empty elements and attributes</change>
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-23-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change when="2020-03-04" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
+         <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-29-05:00">CHANGED: deleted empty elements and attributes</change>
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-29-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+      <change when="2020-01-30" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
-         <change type="planned" subtype="question">Question in Word Doc to be Addressed: Fol. 1 does
-            not belong to this volume. It is the first leaf of a choir-book of the <date calendar="Gregorian" notBefore="1200" notAfter="1400">xiiith or xivth
-            cent.</date>, containing part of Ps. i. <foreign xml:lang="syr">ܒ. . . ܡܫܲܪܝܢܢ ܕܢܟܬܘܒ ܨ. . . ܦܪܝܫܬܐ (؟) ܕܕܘܝܕ
-               ܡܲܠܟܐ</foreign> <foreign xml:lang="syr">ܘܢܒܝܐ</foreign> <foreign xml:lang="syr">ܐܠܗܝܐ: ܘܥܠ ܡܲܘܬܒܐ ܕܡܡ̈ܝܩܢܐ ܠܐ ܝܬ݂ܒ ܏ܗ ܐܠܐ ܒܢܡܘܣܗ ܕܡܪܝܐ
-               ܨܒܝܢܗ. ܕܦܐܪ̈ܘܗܝ ܝ̇ܗܒ ܒܙܒܢܗ ܘܛܪ̈ܦܘܗܝ ܠܐ ܢܬܪܝܢ ܏ܗ ܟܠ ܕܥ̇ܒܕ ܡܫܲܠܡ:
-            ܏ܘܫ.</foreign>
-      </change>
-        <change type="planned" subtype="arabic">Add Missing Arabic syllables and check Arabic</change>
+         <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
+            to be checked for accuracy</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
