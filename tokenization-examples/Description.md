@@ -93,8 +93,7 @@ Level Four: ``\s*[α-ω]+\.\s*``
 
 Due to inaccuracy in the OCR sometimes the whitespaces, punctuation and even identifier may vary.
 
-Sometimes, there is no level identifier present at the front of the msItem
-in these cases we would like the transformation to assign the msItem to the same branch level as its immediate preceding sibling msItem. In order to mark these for later editorial correction, these msItems should be assigned an identifier marked with ``~`` (U+007E) + the appropriate kind level identifier. Examples: ``"~I.", "~1.", "~a.", "~α."`` (These identifiers do not need to be serial, they can repeat ``"~I.", "~I.",`` etc.)
+Sometimes, there is no level identifier present at the front of the msItem. In these cases we would like the transformation to assign the msItem to the same branch level as its immediate preceding sibling msItem. In order to mark these for later editorial correction, these msItems should be assigned an identifier marked with ``~`` (U+007E) + the appropriate kind level identifier. Examples: ``"~I.", "~1.", "~a.", "~α."`` (These identifiers do not need to be serial, they can repeat ``"~I.", "~I.",`` etc.)
 
 Sometimes first msItem to be transformed is marked with an Indo-Arabic Numerals, eg. ``1.``. In these cases the tree structure of the nested msItem elements will skip the use of Roman Numerals and will have up to three levels of branches Arabic Numeral/Latin letter/Greek letter. (See note above, by "first msItem to transformed" we mean the first msItem that is a following sibling of the physDesc element.) See line 12908 for an example.
 
