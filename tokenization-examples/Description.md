@@ -1,8 +1,8 @@
 # Files
 
-- The entire raw data is in [records-to-process.xml](.)
-- A sample single raw record is [demorecordwithoutmarkup.xml](.)
-- A hand curated example of our desired result is [demorecordwithmarkup.xml](.)
+- The entire raw data is in [records-to-process.xml](https://github.com/srophe/wright-catalogue/blob/master/tokenization-examples/records-to-process.xml)
+- A sample single raw record is [demorecordwithoutmarkup.xml](https://github.com/srophe/wright-catalogue/blob/master/tokenization-examples/demorecordwithoutmarkup.xml)
+- A hand curated example of our desired result is [demorecordwithmarkup.xml](https://github.com/srophe/wright-catalogue/blob/master/tokenization-examples/demorecordwithmarkup.xml)
 - This file you are reading is [Description.md](.)
 
 # Structure of the data file:
