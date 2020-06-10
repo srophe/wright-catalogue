@@ -1,6 +1,13 @@
+# Files
+
+The entire raw data is in records-to-process.xml
+A sample single raw record is demorecordwithoutmarkup.xml
+A hand curated example of our desired result is demorecordwithmarkup.xml
+This file your are reading is Description.md
+
 # Structure of the data file:
 
-We have compiled all the data into one html file and then customized it as an xml document. The document is a hybrid with some elements borrowed from html and some from TEI. It does not have a schema since it is just a customization.
+We have compiled all the data into one html file and then customized it as an xml document (records-to-process.xml). The document is a hybrid with some elements borrowed from html and some from TEI. It does not have a schema since it is just a customization.
 
 Currently the data has three types of elements:
 
@@ -16,7 +23,7 @@ In addition the following elements will be added in the parsing:
 - Element title
 - Element locus
 - Element rubric
-- Element note 
+- Element note
 
 The following element will need transformation in some cases:
 - Element span occurs 12712 times with a couple of different uses marked by attributes.
