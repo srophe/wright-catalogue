@@ -1,8 +1,11 @@
 # Files
 
 The entire raw data is in records-to-process.xml
+
 A sample single raw record is demorecordwithoutmarkup.xml
+
 A hand curated example of our desired result is demorecordwithmarkup.xml
+
 This file your are reading is Description.md
 
 # Structure of the data file:
