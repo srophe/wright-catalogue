@@ -11,6 +11,13 @@ The following elements should be preserved in the final version of the file:
 - Element msItem occurs 9154 times. (These need to be transformed to nest inside each other. Every msItem must be the child of either a msDesc or another msItem)
 - Element physDesc occurs 510 times. (Child of msDesc. These elements and their contents will remain as is in the final version.)
 
+In addition the following elements will be added in the parsing:
+- Element idno
+- Element title
+- Element locus
+- Element rubric
+- Element note 
+
 The following element will need transformation in some cases:
 - Element span occurs 12712 times with a couple of different uses marked by attributes.
 
@@ -24,6 +31,8 @@ The following elements (from html text styling) should be removed/ignored, but t
 - Element strong occurs 634 times.
 - Element sub occurs 14 times.
 - Element sup occurs 827 times.
+
+
 
 # Deliverables:
 
