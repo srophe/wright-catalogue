@@ -237,7 +237,7 @@ Parsed:
 <msItem>
     <idno>1.</idno>
     <title xml:lang="en">The Consecration of the Church</title>
-    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܩ̈ܠܐــ .ܡ̇ܢ ܩܕܡܝܐ ܕܥܠ ܩܘܕܫ ܥܕܬܐ<locus>fol 1.</locus></rubric>
+    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܩ̈ܠܐــ .ܡ̇ܢ ܩܕܡܝܐ ܕܥܠ ܩܘܕܫ ܥܕܬܐ<locus>fol 1 b.</locus></rubric>
     <note>;<span dir="rtl">ܡܕܪ̈ܫܐ</span>, fol. 2<em>b</em>.</note>
 </msItem>
 ``
