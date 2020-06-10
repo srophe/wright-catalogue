@@ -192,13 +192,13 @@ Raw:
 ``
 
 Parsed:
-``
+```
 <msItem>
   <idno>2.</idno>
   <title xml:lang="en">The Commemoration of S. John the Baptist; imperfect.</title>
   <locus>Fol. 31a.</locus>
 </msItem>
-``
+```
 
 ### `<rubric xml:lang="syr">`: Syriac Title
 The Syriac title will always be the first string of Syriac characters (Unicode block: U+0700..U+074F, but including also U+0308) to occur in the msItem. In the raw data Syriac text blocks are currently marked by `<span dir="rtl">` html tags. If the Syriac string is tagged as `<rubric xml:lang="syr">`. this `<span dir="rtl">` should be removed. If not, the `<span dir="rtl">` should be retained.
@@ -215,12 +215,12 @@ Raw:
 ``
 
 Parsed:
-```
+``
 <msItem>
     <idno>1.</idno>
     <title xml:lang="en">The Consecration of the Church</title>
     <rubric xml:lang="syr">ܛܟܣ̣ܐ ܩ̈ܠܐــ .ܡ̇ܢ ܩܕܡܝܐ ܕܥܠ ܩܘܕܫ ܥܕܬܐ<locus>fol 1.</locus></rubric>
-```
+``
 
 ### `<note>`: Note
 Any character data which cannot be tokenized or parsed should become the contents of a single `<note>`. This `<note>` should be analyzed for any child `<locus>`tokens but not for any other tokens. If there is a `<note>` token (and in many cases there may not be), it will always be the last token inside the msItem.
