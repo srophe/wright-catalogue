@@ -1,12 +1,9 @@
 # Files
 
-The entire raw data is in records-to-process.xml
-
-A sample single raw record is demorecordwithoutmarkup.xml
-
-A hand curated example of our desired result is demorecordwithmarkup.xml
-
-This file you are reading is Description.md
+- The entire raw data is in [records-to-process.xml](https://github.com/srophe/wright-catalogue/blob/master/tokenization-examples/records-to-process.xml)
+- A sample single raw record is [demorecordwithoutmarkup.xml](https://github.com/srophe/wright-catalogue/blob/master/tokenization-examples/demorecordwithoutmarkup.xml)
+- A hand curated example of our desired result is [demorecordwithmarkup.xml](https://github.com/srophe/wright-catalogue/blob/master/tokenization-examples/demorecordwithmarkup.xml)
+- This file you are reading is [Description.md](.)
 
 # Structure of the data file:
 
@@ -96,10 +93,9 @@ Level Four: ``\s*[α-ω]+\.\s*``
 
 Due to inaccuracy in the OCR sometimes the whitespaces, punctuation and even identifier may vary.
 
-Sometimes, there is no level identifier present at the front of the msItem
-in these cases we would like the transformation to assign the msItem to the same branch level as its immediate preceding sibling msItem. In order to mark these for later editorial correction, these msItems should be assigned an identifier marked with ``~`` (U+007E) + the appropriate kind level identifier. Examples: ``"~I.", "~1.", "~a.", "~α."`` (These identifiers do not need to be serial, they can repeat ``"~I.", "~I.",`` etc.)
+Sometimes, there is no level identifier present at the front of the msItem. In these cases we would like the transformation to assign the msItem to the same branch level as its immediate preceding sibling msItem. In order to mark these for later editorial correction, these msItems should be assigned an identifier marked with ``~`` (U+007E) + the appropriate kind level identifier. Examples: ``"~I.", "~1.", "~a.", "~α."`` (These identifiers do not need to be serial, they can repeat ``"~I.", "~I.",`` etc.)
 
-Sometimes first msItem to be transformed is marked with an Indo-Arabic Numerals, eg. ``1.``. In these cases the tree structure of the nested msItem elements will skip the use of Roman Numerals and will have up to three levels of branches Arabic Numeral/Latin letter/Greek letter. (See note above, by "first msItem to transformed" we mean the first msItem that is a following sibling of the physDesc element.) See line 12908 for an example.
+Sometimes the first msItem to be transformed is marked with an Indo-Arabic Numerals, eg. ``1.``. In these cases the tree structure of the nested msItem elements will skip the use of Roman Numerals and will have up to three levels of branches Arabic Numeral/Latin letter/Greek letter. (See note above, by "first msItem to transformed" we mean the first msItem that is a following sibling of the physDesc element.) See line 12908 for an example.
 
 Sometimes the first msItem that is a following sibling of the physDesc element (or several of the first msItems) will not have any level identifier. In these cases, the transformation should always mark the the level identifier using a ``~`` (U+007E) + the Roman Numeral I level identifier: ``"~I."`` See line 13432 for an example of such a case.
 
@@ -196,16 +192,16 @@ Raw:
 ``
 
 Parsed:
-``
+```
 <msItem>
   <idno>2.</idno>
   <title xml:lang="en">The Commemoration of S. John the Baptist; imperfect.</title>
   <locus>Fol. 31a.</locus>
 </msItem>
-``
+```
 
 ### `<rubric xml:lang="syr">`: Syriac Title
-The Syriac title will always be the first string of Syriac characters (Unicode block: U+0700..U+074F, but including also U+0308) to occur in the msItem. In the raw data Syriac text blocks are currently marked by `<span dir="rtl">` html tags. If the Syriac string is tagged as `<rubric xml:lang="syr">`. this `<span dir="rtl">` should be removed. If not, the `<span dir="rtl">` should be retained.
+The Syriac title will always be the first string of Syriac characters (Unicode block: U+0700..U+074F, but including also U+0308) to occur in the msItem. In the raw data Syriac text blocks are currently marked by `<span dir="rtl">` html tags. If the Syriac string is tagged as `<rubric xml:lang="syr">`, this `<span dir="rtl">` should be removed. If not, the `<span dir="rtl">` should be retained.
 
 In most cases the Syriac Title token will occur as the fourth token, a following sibling after the `<idno>`, `<title>`, and `<locus>`tokens. If any of these are missing then the Syriac Title token can occur earlier.
 
@@ -223,11 +219,11 @@ Parsed:
 <msItem>
     <idno>1.</idno>
     <title xml:lang="en">The Consecration of the Church</title>
-    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܩ̈ܠܐــ .ܡ̇ܢ ܩܕܡܝܐ ܕܥܠ ܩܘܕܫ ܥܕܬܐ<locus>fol 1.</locus></rubric>
+    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܩ̈ܠܐــ .ܡ̇ܢ ܩܕܡܝܐ ܕܥܠ ܩܘܕܫ ܥܕܬܐ<locus>fol 1 b.</locus></rubric>
 ``
 
 ### `<note>`: Note
-Any character data which cannot be tokenized or parsed should become the contents of a single `<note>`. This `<note>` should be analyzed for any child `<locus>`tokens but not for any other tokens. If there is a `<note>` token (and in many cases there may not be), it will always be the last token inside the msItem.
+Any character data which cannot be tokenized or parsed should become the contents of a single `<note>`. This `<note>` should be analyzed for any child `<locus>` tokens but not for any other tokens. If there is a `<note>` token (and in many cases there may not be), it will always be the last token inside the msItem.
 
 Example:
 
@@ -241,7 +237,7 @@ Parsed:
 <msItem>
     <idno>1.</idno>
     <title xml:lang="en">The Consecration of the Church</title>
-    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܩ̈ܠܐــ .ܡ̇ܢ ܩܕܡܝܐ ܕܥܠ ܩܘܕܫ ܥܕܬܐ<locus>fol 1.</locus></rubric>
+    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܩ̈ܠܐــ .ܡ̇ܢ ܩܕܡܝܐ ܕܥܠ ܩܘܕܫ ܥܕܬܐ<locus>fol 1 b.</locus></rubric>
     <note>;<span dir="rtl">ܡܕܪ̈ܫܐ</span>, fol. 2<em>b</em>.</note>
 </msItem>
 ``
