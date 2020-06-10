@@ -95,7 +95,7 @@ Due to inaccuracy in the OCR sometimes the whitespaces, punctuation and even ide
 
 Sometimes, there is no level identifier present at the front of the msItem. In these cases we would like the transformation to assign the msItem to the same branch level as its immediate preceding sibling msItem. In order to mark these for later editorial correction, these msItems should be assigned an identifier marked with ``~`` (U+007E) + the appropriate kind level identifier. Examples: ``"~I.", "~1.", "~a.", "~α."`` (These identifiers do not need to be serial, they can repeat ``"~I.", "~I.",`` etc.)
 
-Sometimes first msItem to be transformed is marked with an Indo-Arabic Numerals, eg. ``1.``. In these cases the tree structure of the nested msItem elements will skip the use of Roman Numerals and will have up to three levels of branches Arabic Numeral/Latin letter/Greek letter. (See note above, by "first msItem to transformed" we mean the first msItem that is a following sibling of the physDesc element.) See line 12908 for an example.
+Sometimes the first msItem to be transformed is marked with an Indo-Arabic Numerals, eg. ``1.``. In these cases the tree structure of the nested msItem elements will skip the use of Roman Numerals and will have up to three levels of branches Arabic Numeral/Latin letter/Greek letter. (See note above, by "first msItem to transformed" we mean the first msItem that is a following sibling of the physDesc element.) See line 12908 for an example.
 
 Sometimes the first msItem that is a following sibling of the physDesc element (or several of the first msItems) will not have any level identifier. In these cases, the transformation should always mark the the level identifier using a ``~`` (U+007E) + the Roman Numeral I level identifier: ``"~I."`` See line 13432 for an example of such a case.
 
@@ -215,12 +215,12 @@ Raw:
 ``
 
 Parsed:
-``
+```
 <msItem>
     <idno>1.</idno>
     <title xml:lang="en">The Consecration of the Church</title>
     <rubric xml:lang="syr">ܛܟܣ̣ܐ ܩ̈ܠܐــ .ܡ̇ܢ ܩܕܡܝܐ ܕܥܠ ܩܘܕܫ ܥܕܬܐ<locus>fol 1.</locus></rubric>
-``
+```
 
 ### `<note>`: Note
 Any character data which cannot be tokenized or parsed should become the contents of a single `<note>`. This `<note>` should be analyzed for any child `<locus>`tokens but not for any other tokens. If there is a `<note>` token (and in many cases there may not be), it will always be the last token inside the msItem.
