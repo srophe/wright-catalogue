@@ -82,7 +82,7 @@
                      <locus to="23" from="15b">Foll. 15b-23</locus>
                      <author ref=""/>
                      <title ref="" xml:lang="en">The treatise of <persName>Lucian</persName>, here
-                        called Lucius, % <!--insert figure here-->"<foreign>de non temere credendo
+                        called Lucius, % <!--insert figure at the percentage sign-->"<foreign xml:lang="lat">de non temere credendo
                         calumnise</foreign>."</title>
                      <rubric xml:lang="syr">ܡܐܡܪܐ ܕܠܘܩܝܘܣ ܦܝܠܣܘܦܐ. ܥܠ ܗ̇ܝ ܕܠܐ ܙܕܩ̇ ܠܢ ܕܢܩܒܠ ܡܐܟܠܩܪܨܐ
                         ܥܠ ܪ̈ܚܡ̇ܝܢ</rubric>
@@ -163,8 +163,8 @@
                   </msItem>
                   <msItem>
                      <locus to="51" from="47b">Foll. 47b-51</locus>
-                     <author ref="">Gregory Nazianzen</author>
-                     <title ref="" xml:lang="en">Select Epistles of <persName>Gregory
+                     <author ref="http://syriaca.org/person/511">Gregory Nazianzen</author>
+                     <title ref="" xml:lang="en">Select Epistles of <persName ref="http://syriaca.org/person/511">Gregory
                            Nazianzen</persName>, thirty-one in number, from the sixty-sixth to the
                         ninety-sixth.</title>
                      <rubric xml:lang="syr">ܐܓܪ̈ܬܐ ܕܩܕܝܫܐ ܓܪܝܓܪܝܘܣ ܬܐܘܠܘܓܘܣ̣. ܕܡܦܫ̈ܩܢ ܡܢ ܝܘܢܝܐ
@@ -386,7 +386,7 @@
                      <msItem>
                         <locus to="49" from="49b">Foll. 49b-49</locus>
                         <author ref=""/>
-                        <title ref="" xml:lang="en">To <persName>Gregory Nyssen</persName>.</title>
+                        <title ref="" xml:lang="en">To <persName ref="http://syriaca.org/person/512">Gregory Nyssen</persName>.</title>
                         <rubric xml:lang="syr">ܠܓܪܝܓܪܝܘܣ</rubric>
                         <incipit xml:lang="syr"/>
                         <quote xml:lang="syr">
@@ -775,7 +775,8 @@
       </encodingDesc>
       <profileDesc/>
       <revisionDesc status="draft">
-         <change when="" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial TEI encoding.</change>
+         <change when="2020-03-14" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
+            TEI encoding.</change>
          <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
             to be checked for accuracy</change>
       </revisionDesc>

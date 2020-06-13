@@ -16,20 +16,26 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno type="URI">983</idno>
+                  <idno type="URI">1124</idno>
                   <altIdentifier>
-                     <idno type="BL-Shelfmark">Add. 17,222</idno>
+                     <idno type="BL-Shelfmark">Add. 18,816.</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
                   <summary/>
                   <textLang mainLang="syr"/>
                   <msItem defective="true">
-                     <locus to="30" from="1">Foll. 1-30</locus>
+                     <locus to="" from=""/>
                      <author ref=""/>
-                     <title ref="" xml:lang="en">Portions of the first half of a Choir-book,
-                        comprising the Psalms, according to the Peshitta version.</title>
-                     <rubric xml:lang="syr"/>
+                     <title ref="" xml:lang="en">The Hymns of <persName>Severus, patriarch of
+                              <placeName>Antioch</placeName></persName>, <persName>John bar
+                           Aphtūnāyā, abbat of <placeName>Kinnesrīn</placeName></persName>,
+                           <persName>John Psaltes</persName>, etc., as translated by <persName>Paul
+                           of <placeName>Edessa</placeName></persName>, and revised by
+                           <persName>Jacob of <placeName>Edessa</placeName></persName>.</title>
+                     <title ref="" xml:lang=""/>
+                     <rubric xml:lang="grc"/>
+                     <rubric xml:lang="syr-Syre"/>
                      <incipit xml:lang="syr"/>
                      <quote xml:lang="syr">
                         <locus from="" to=""/>
@@ -37,21 +43,14 @@
                      <explicit xml:lang="syr">
                         <locus to="" from=""/>
                      </explicit>
-                     <finalRubric xml:lang="syr"><locus
-                        to="" from=""/></finalRubric>
-                     <note>They are not numbered or distinguished by headings, but the
-                           <foreign xml:lang="syr">ܡܪ̈ܡܝܬܐ</foreign> and <foreign xml:lang="syr">ܫܘ̈ܒܚܐ</foreign> are marked both
-                        in the text and on the margin. </note>
-                     <note>The versicles are also divided by the letter (<foreign xml:lang="syr">ܗܠܠܘܝܗ</foreign>)
-                           <foreign>ܗ</foreign> in red ink.</note>
-                     <note>The missing portions are: Ps. i. 1—xxii. 24; xxv. 5—1. 14; xc. 10—xciii.
-                        3; cx. 2— cxvii. 24; cxviii. 50—exxxviii. 4; and cxlvii. 16 to the
-                        end.</note>
+                     <finalRubric xml:lang="syr"><locus to="" from=""/></finalRubric>
+                     <note>See <bibl>Add. 17,134</bibl>, from which manuscript, or one very similar to it, the
+                        present seems to have been copied.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
-                     <supportDesc material="chart">
+                     <supportDesc material="perg">
                         <extent>
                            <measure unit="content_pending" quantity="-1"/>
                         </extent>
@@ -60,11 +59,10 @@
                         <condition>
                            <list>
                               <item>
-                                 <p>Paper, about 6 3/4 in. by 5 1/8, consisting of 30 leaves, some
-                                    of which are stained and torn, especially foll. 1, 8, and 27—30.
-                                    The quires, signed with letters, were 7 in number, but leaves
-                                    arc now wanting at the beginning and end, as well as after foll.
-                                    1, 18, 26, and 27. There are from 17 to 21 lines in each
+                                 <p>Vellum, about 7 7/8 in. by 5 1/8, consisting of 115 leaves, the
+                                    first of which, being blank, is not numbered. A few of them are
+                                    slightly stained and soiled. The quires, signed with letters,
+                                    are 12 in number. There are from 23 to 33 lines in each
                                     page.</p>
                               </item>
                            </list>
@@ -75,17 +73,18 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="major" script="syr" medium="">
-                        <desc>This volume is written in a good, regular hand.</desc>
+                     <handNote scope="sole" script="syr" medium="">
+                        <desc>This volume is written in a good, regular hand of the ixth
+                           cent.</desc>
                      </handNote>
                   </handDesc>
                   <additions>
-                     <p></p>
+                     <p/>
                      <list>
                         <item>
                            <locus from="" to=""/>
-                           <p></p>
-                           <p><quote xml:lang="syr"></quote></p>
+                           <p/>
+                           <p><quote xml:lang="syr"/></p>
                         </item>
                      </list>
                   </additions>
@@ -99,9 +98,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="1200" notAfter="1300" from="" to="" when="">xiiith
-                        cent.</origDate>
-                     <origPlace ref="" xml:lang=""></origPlace>
+                     <origDate notBefore="0500" notAfter="0600" from="" to="" when="">This volume is
+                        written in a good, regular hand of the ixth cent.</origDate>
+                     <origPlace ref="" xml:lang=""/>
                   </origin>
                   <provenance/>
                   <acquisition/>
@@ -115,10 +114,8 @@
       </encodingDesc>
       <profileDesc/>
       <revisionDesc status="draft">
-         <change when="2020-03-02" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
-            TEI encoding.</change>
-         <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
-            to be checked for accuracy</change>
+         <change when="" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial TEI
+            encoding.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
