@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -176,7 +176,7 @@
                   
                   <title xml:lang="en">An addition to no. e.</title>
                   
-                  <incipit xml:lang="syr">ܘܡܲܐܩܦܝܢ ܬܪܥܐ ܕܪ̈ܚܡܝܟ ܠܐ ܬܚ̣ܘܕ ܒܐܦ̈ܝܢ ܡܪܝ. ܚ̈ܛܝܐ
+                  <incipit xml:lang="syr">܏ܘܡܲܐܩܦܝܢ ܬܪܥܐ ܕܪ̈ܚܡܝܟ ܠܐ ܬܚ̣ܘܕ ܒܐܦ̈ܝܢ ܡܪܝ. ܚ̈ܛܝܐ
                               ܚܢܢ ܡܲܘܕܝܢܢ. ܐܬܪܚ̣ܡ ܥܠܝܢ. ܚܘܒܟ ܢܰܓ݁ܕܳܟ ܡܢ ܐܬܪܟ ܨܝ̈ܕܝܢ ܡܪܝ. ܕܒܝܕ ܡܲܘܬܟ
                               ܬܬܒܲܛܠܝ ܡܝܬܘܬܢ. ܐܬܪܚܲܡ ܥܠܝܢ.</incipit>
                   
@@ -249,43 +249,37 @@
                         <desc>Foll. 2—10 are a later addition of the <date calendar="Gregorian" notBefore="1500" notAfter="1700">xvith or xviith cent</date>.</desc>
                      </handNote>
               <handNote medium="unknown" xml:id="handNote3" scope="minor" script="syr">
-                        <desc>Fol. 1 is a torn leaf from a neatly written vellum manuscript of about
-                           the <date calendar="Gregorian" notBefore="1100" notAfter="1200">xiith cent</date>.</desc>
-                     </handNote>
+                        <desc>See Additions</desc>
+              </handNote>
             </handDesc>
                   <additions>
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p>On fol. 2 a there is a note in Arabic, stating that the book belonged
-                              to one <persName>Anton, the son of <persName>Shakūr, the son of
-                                       <persName>Hannā</persName>
-                      </persName>
-                    </persName>, % <!--Arabic here-->; and
-                              another in Italian, <foreign xml:lang="it">ad uso di Georgio d’ Antonio</foreign>,
-                              probably a son of the preceding.</p>
-                           <p>
-                    <quote xml:lang="syr"/>
+                  <locus/>
+                  <p>On fol. 2 a there is a note in Arabic, stating that the book belonged to one
+                      <persName>Anton</persName>, the son of <persName>Shakūr</persName>, the son of
+                      <persName>Hannā</persName>; and another in Italian, <foreign xml:lang="it">ad
+                      uso di Georgio d’ Antonio</foreign>, probably a son of the preceding.</p>
+                  <p>
+                    <quote xml:lang="ar">هاده كتاب مزامير انطون ولد شكور ولد حنا</quote>
                   </p>
-                        </item>
+                </item>
                 <item xml:id="addition2" n="2">
-                           <locus/>
-                           <p>Fol. 1 is a torn leaf from a neatly written vellum manuscript of about
-                              the <date calendar="Gregorian" notBefore="1100" notAfter="1200">xiith cent</date>. It contains on the verse the commencement of a
-                              dissertation on the Genealogies of <persName ref="http://syriaca.org/person/2245">our Lord</persName>.</p>
-                           <p>
-                              <quote xml:lang="syr"> ܢܘܿܗܪܐ ܕܡܛܠ ܡـ . . . ܘܬ ܫܪ̈ܒܬܐ . . . ܡܫܝܚܐ ܕܢܚ̣
-                                 ܥܠ . . . ܟܢ . . . ܐܘܢ̈ܓܠܝܣܛܐ ܠܬܢܝ̇ܐ ܕܫܪ̈ܒܬܐ.</quote>
-                           </p>
-                        </item>
+                  <locus/>
+                  <p>Fol. 1 is a torn leaf from a neatly written vellum manuscript of about the
+                      <date calendar="Gregorian" notBefore="1100" notAfter="1200">xiith cent</date>.
+                    It contains on the verso the commencement of a dissertation on the Genealogies
+                    of <persName ref="http://syriaca.org/person/2245">our Lord</persName>.</p>
+                  <p>
+                    <quote xml:lang="syr"> ܢܘܿܗܪܐ ܕܡܛܠ ܡـ . . . ܘܬ ܫܪ̈ܒܬܐ . . . ܡܫܝܚܐ ܕܢܚ̣ ܥܠ . . .
+                      ܟܢ . . . ܐܘܢ̈ܓܠܝܣܛܐ ܠܬܢܝ̇ܐ ܕܫܪ̈ܒܬܐ.</quote>
+                  </p>
+                </item>
                 <item xml:id="addition3" n="3">
-                           <locus/>
-                           <p>On the recto there is a coloured effigy of a saint. </p>
-                           <p>
-                              <quote xml:lang="syr"/>
-                           </p>
-                        </item>
+                  <locus/>
+                  <p>On the recto there is a coloured effigy of a saint. </p>
+                </item>
               </list>
             </additions>
                   
@@ -489,9 +483,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-24-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-02-08" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
-         <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
-            to be checked for accuracy</change>
-         <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
