@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/1154</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 709</idno>
+              <idno type="BL-Shelfmark">Egerton 709</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -173,7 +173,10 @@
               </msItem>
             </msItem>
             <msItem xml:id="a2" n="8">
-              
+              <locus from="5b">Fol. 5b</locus>
+              <locus from="8b">8b</locus>
+              <locus from="11a">11a</locus>
+              <locus from="35b">35b</locus>
               
               <title xml:lang="en">
                 <persName>Democritus</persName>.</title>
@@ -207,11 +210,11 @@
                 <persName ref="http://syriaca.org/person/">Hippocrates</persName>.</title>
               
               
-              <quote xml:lang="syr">ܡܐܡ̣ܪܐ ܏ܕܕ ܕܐܝܦܘܩܪܛܝܣ<locus from="11b"/>
+              <quote xml:lang="syr">ܡܐܡ̣ܪܐ ܏ܕܕ ܕܐܝܦܘܩܪܛܝܣ<locus from="14b"/>
+<locus from="38a"/></quote>
+              <quote xml:lang="syr">ܣܒܐ ܐܩܘܠܘܣ<locus from="10a"/>
               </quote>
-              <quote xml:lang="syr">ܣܒܐ ܐܩܘܠܘܣ<locus from="10"/>
-              </quote>
-              <quote xml:lang="syr">ܦܝܒܝܟܘܣ <locus from="11a"/>
+              <quote xml:lang="syr">ܦܝܒܝܟܘܣ <locus from="44a"/>
               </quote>
               
               
@@ -251,11 +254,10 @@
                            <p>The Arabic portion of the work begins on fol. 56 b.</p>
                            <p>
                               <quote xml:lang="syr">ܩܐܠ ܏ܐܠܚܟܝܡ ܝܢܒܓܝܐܢ ܝܒܝܜ ܐܠܔܣܕ ܐܠܐܣܘܕ. ܒܥܕ ܐܢ
-                                 ܝܣܬܘܦܝ ܠܟܠ ܏ܛ ܐܓܙܐ ܡܢ ܐܠܡܐ. ܓܙܘ ܡܢ ܐܠܐܓܣܐܕ ܒܢܐܪ ܦܐܬܪܗ. ܠܐ ܝܒܠܓ
-                                 ܚܪܗܐ. ܐܢ ܠܐ ܬܨܒܪܗܐ ܐܠܝܕ. ܠܐ ܩܠܝܠ ܘܠܐ ܐܟܬܪ. ܦܬܘܩܕ ܬܚܬܗܐ ܣܬܗ̈ ܣܐܥܐܬ
-                                 ܡܢ ܐܠܢܗܐܪ. ܘܡܐ ܝܕܘܒ ܐܕܐ ܟܐܢ ܣܐܟܢ ܩܘܝ. ܘܠܬܓܪܒܗ ܬܕܠܟ. ܬܡ ܕܥܗ ܚܬܝ
-                                 ܝܨܒܚ. ܬܡ ܥܘܕ ܕܐܠܟ ܏ܙ ܐܝܐܡ. ܚܬܝ ܝܦܪ ܐܠܣܘܐܕ. ܘܗܕܐ ܗܘ ܩܡܪ ܐܠܩܕܡܐ
-                                 ܐܠܚܩܝܩܝ.</quote>
+                      ܝܣܬܘܦܝ ܠܟܠ ܏ܛ ܐܓܙܐ ܡܢ ܐܠܡܐ. ܓܙܘ ܡܢ ܐܠܐܓܣܐܕ ܒܢܐܪٍ ܦܐܬܪܗ. ܠܐ ܝܒܠܓ ܚܪܗܐ. ܐܢ ܠܐ
+                      ܬܨܒܪܗܐ ܐܠܝܕ. ܠܐ ܩܠܝܠ ܘܠܐ ܐܟܬܪ. ܦܬܘܩܕ ܬܚܬܗܐ ܣܬܗ̈ ܣܐܥܐܬ ܡܢ ܐܠܢܗܐܪ. ܘܡܐ ܝܕܘܒ ܐܕܐ
+                      ܟܐܢ ܣܐܟܢ ܩܘܝ. ܘܠܬܓܪܒܗ ܬܕܠܟ. ܬܡ ܕܥܗ ܚܬܝ ܝܨܒܚ. ܬܡ ܥܘܕ ܕܐܠܟ ܏ܙ ܐܝܐܡ. ܚܬܝ ܝܦܪ
+                      ܐܠܣܘܐܕ. ܘܗܕܐ ܗܘ ܩܡܪ ܐܠܩܕܡܐ ܐܠܚܩܝܩܝ.</quote>
                            </p>
                         </item>
                 <item xml:id="addition2" n="2">
@@ -496,7 +498,6 @@
             TEI encoding.</change>
          <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
             to be checked for accuracy</change>
-         <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
