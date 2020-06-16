@@ -25,7 +25,8 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica
+            Pagan</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -114,33 +115,34 @@
               </msItem>
               <msItem xml:id="b8" n="9">
                 <locus from="177b"/>
-                <note>The canons are ascribed to <persName>John of Damascus</persName>,
-                    ܩܫܝܫܐ<foreign xml:lang="syr">(or ܝܘܚܢܢ) ܐܒܐ ܝܘܢܝ ܕܪܡܣܘܩܝܐ ܒܪ ܡܢܨܘܪ,
-                    and</foreign>
-                  <persName>Cosmas of Jerusalem</persName>,<foreign xml:lang="syr">ܐܘܫܠܡܝܐ(or ܩܘܣܡܐ) ܩܘܙܡܐ</foreign>.</note>
+                <note>The canons are ascribed to <persName ref="http://syriaca.org/person/575">John
+                    of <placeName ref="http://syriaca.org/place/66">Damascus</placeName></persName>,
+                  <foreign xml:lang="syr-x-syrm">ܩܫܝܫܐ</foreign> (or <foreign xml:lang="syr"
+                    >ܝܘܚܢܢ</foreign>) <foreign xml:lang="syr-x-syrm">ܐܒܐ ܝܘܢܝ ܕܪܡܣܘܩܝܐ ܒܪ ܡܢܨܘܪ</foreign>
+                  and <persName>Cosmas of <placeName ref="http://syriaca.org/place/104"
+                    >Jerusalem</placeName></persName>,<foreign xml:lang="syr-x-syrm">ܐܘܫܠܡܝܐ(or ܩܘܣܡܐ)
+                    ܩܘܙܡܐ</foreign>.</note>
               </msItem>
               <msItem xml:id="b9" n="10">
                 <locus from="217b"/>
                 <title xml:lang="en">Exaposteilaria, eleven in number</title>
-                <rubric xml:lang="syr">ܐܟܣܦܘܣܛܝܠܐܪܝܐܣ ܕܥܠ ܩܝܡܬܐ</rubric>
+                <rubric xml:lang="syr-x-syrm">ܐܟܣܦܘܣܛܝܠܐܪܝܐܣ ܕܥܠ ܩܝܡܬܐ</rubric>
               </msItem>
               <msItem xml:id="b10" n="11">
                 <locus from="220b"/>
                 <title xml:lang="en">Theotokia, also eleven in number</title>
-                <rubric xml:lang="syr">ܬܐܘܛܘܟܝܐܣ ܕܥܠ ܐ܏ܟܣܦܣ ܕܩܝܡܬܐ ܩܕܝܫܬܐ</rubric>
+                <rubric xml:lang="syr-x-syrm">ܬܐܘܛܘܟܝܐܣ ܕܥܠ ܐ܏ܟܣܦܣ ܕܩܝܡܬܐ ܩܕܝܫܬܐ</rubric>
               </msItem>
               <msItem xml:id="b11" n="12">
                 <locus from="223a"/>
-                <title xml:lang="en">Stichêra of the eleven gospels of the
-                  Resurrection</title>
-                <rubric xml:lang="syr">ܣܛܫܝܪܘܢ ܥܠ ܏ܝܐ ܐܘܢܓܠܝܘܢ ܕܩܝܡܬܐ ܕܥܠ ܐܢܝܛܐ</rubric>
+                <title xml:lang="en">Stichêra of the eleven gospels of the Resurrection</title>
+                <rubric xml:lang="syr-x-syrm">ܣܛܫܝܪܘܢ ܥܠ ܏ܝܐ ܐܘܢܓܠܝܘܢ ܕܩܝܡܬܐ ܕܥܠ ܐܢܝܛܐ</rubric>
               </msItem>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="chart">
-                
                 <foliation/>
                 <collation/>
                 <condition>
@@ -154,11 +156,10 @@
                   </list>
                 </condition>
               </supportDesc>
-              
             </objectDesc>
             <handDesc hands="2">
-              <handNote medium="unknown" xml:id="handNote1" scope="major" script="">
-                <desc>This volume is written in a good, regular, Malkite hand</desc>
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr-x-syrm">
+                <desc>This volume is written in a good, regular, Malkite hand.</desc>
               </handNote>
               <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
                 <desc>See additions.</desc>
@@ -170,23 +171,24 @@
                 <item xml:id="addition1" n="1">
                   <locus from="227a"/>
                   <p>The last of these is followed by a note, fol. 227 a, giving the date and the
-                    name of the scribe, Ma'mar, a priest of Kārā (see also foll. 74 a and 177 b). </p>
+                    name of the scribe, <persName>Ma'mar, a priest of <placeName
+                        ref="http://syriaca.org/place/161">Kārā</placeName></persName> (see also
+                    foll. 74 a and 177 b).</p>
                   <p>
-                    <quote xml:lang="syr">ܨ̇ܠܐ ܥܠ ܚ̇ܛܝܐ ܕܣܪܛ ܏ܟܗ ܡܥܡܪ ܡܢ ܩܐܪܐ: ܫܢܬ ܐܠܦ ܘܚܡܫ ܡܐܐ ܘܫܒ̈ܥܝܢ ܡܢ ܡـ[ـܢܝܢܐ]
-                      ܕܐܠܟܣܢܕܪܘܣ ܒܪܦܝܠܦܘܣ ܡܩܕܘܢܐ </quote>
+                    <quote xml:lang="syr">ܨ̇ܠܐ ܥܠ ܚ̇ܛܝܐ ܕܣܪܛ ܏ܟܗ ܡܥܡܪ ܡܢ ܩܐܪܐ: ܫܢܬ ܐܠܦ ܘܚܡܫ ܡܐܐ
+                      ܘܫܒ̈ܥܝܢ ܡܢ ܡـ[ـܢܝܢܐ] ܕܐܠܟܣܢܕܪܘܣ ܒܪܦܝܠܦܘܣ ܡܩܕܘܢܐ </quote>
                   </p>
                 </item>
                 <item xml:id="addition2" n="2">
                   <locus from="227a"/>
-                  <p>After the previous note, there is a kathisma for the blessed Virgin</p>
+                  <p>After the previous note, there is a kathisma for the <persName
+                      ref="http://syriaca.org/person/624">blessed Virgin</persName>.</p>
                   <p>
                     <quote xml:lang="syr">ܩܬܝܣ ܠܝܠܕܬ ܐܠܗܐ ܏ܒܩ ܚ ܠ܏ܘܩ . ܠܚܟܡܬܐ. (i.e. ܠܘܩܒܠ) </quote>
                   </p>
                 </item>
               </list>
             </additions>
-            
-            
             <accMat/>
           </physDesc>
           <history>
@@ -202,8 +204,7 @@
             <adminInfo>
               <recordHist>
                 <source>Manuscript description based on<bibl>
-                    <ref target="#Wright">Wright's
-                      Catalogue</ref>
+                    <ref target="#Wright">Wright's Catalogue</ref>
                   </bibl>. abbreviated by the Syriaca.org editors.</source>
               </recordHist>
               <note/>
