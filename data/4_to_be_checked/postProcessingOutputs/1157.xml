@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/1157</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 3597</idno>
+              <idno type="BL-Shelfmark">Sloane 3597</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -249,9 +249,9 @@
                   <locus to="166" from="166b">Foll. 166b-166</locus>
                   
                   <title xml:lang="en">Of the napkins, in Karshūnī.</title>
-                  <rubric xml:lang="ar-Syrc">ܪܣܐܡܗ̈ ܐܠܢܘܐܦܝܪ ܐܝܗܐ ܐܠܪܒ ܐܠܐܠܗ ܐܠܛ̣ܐܒܛ ܐܠܟ̇ܠ
-                              ܢܣܐܠܟ݁ ܐܢ ܬܒܐܪܟ݁ ܗܘܠܐܝ ܐܠܢܘܐܦܝܪ ܐܠܟ̇ܬܐܢ ܠܨܛܥܘܢ ܘܝܥܛܦ ܒܗܡܓܣܕ ܪܒܢܐ ܝܣܘܥ
-                              ܐܠܡ܏ܣ ܘܕܡܗ ܐܠܙܟ݁ܝ ܐܠܕܝ ܡܥܟ݁ ܝܚܝܐ ܘܝܡܠܟ݁ ܐܠܝ ܐܒܕ݁ ܐܠܐܒܕܝܢ ܐܡܝܢ </rubric>
+                  <rubric xml:lang="ar-Syrc">܏ ܪܣܐܡܗ̈ ܏ ܐܠܢܘܐܦܝܪ ܐܝܗܐ ܐܠܪܒ ܐܠܐܠܗ ܐܠܛ̣ܐܒܛ ܐܠܟ̇ܠ܏
+                    ܢܣܐܠܟ݁ ܐܢ ܬܒܐܪܟ݁ ܗܘܠܐܝ ܐܠܢܘܐܦܝܪ ܐܠܟ̇ܬܐܢ ܠܨܛܥܘܢ ܘܝܥܛܦ ܒܗَܡܓܣܕ ܪܒܢܐ ܝܣܘܥ ܐܠܡ܏ܣ
+                    ܘܕܡّܗ ܐܠܙܟ݁ܝ ܐܠܕܝ ܡܥܟ݁ ܝܚܝܐ ܘܝܡܠܟ݁ ܐܠܝ ܐܒܕ݁ ܐܠܐܒܕܝܢ ܐܡܝܢ </rubric>
                   
                   
                   
@@ -262,8 +262,8 @@
                   <locus to="169" from="167a">Foll. 167a-169</locus>
                   
                   <title xml:lang="en">Of a cemetery, in Karshūnī.</title>
-                  <rubric xml:lang="ar-Syrc">ܘܐܝܛܐ ܒܥܘܢ ܐܠܠܗ ܘܚܣܢܬܘܦܝܩܗ ܢܟܬܒ ܬܟܪܝܣ
-                              ܐܠܡܩܐܒܪ</rubric>
+                  <rubric xml:lang="ar-Syrc">ܘܐܝܛܐ ܒܥܘܢ ܐܠܠܗ ܘܚَܣܢܬܘܦܝܩܗ ܢܟܬܒ ܬܟܪܝܣ ܐܠܡܩܐܒܪ
+                      ,<foreign xml:lang="ar">[تكريس]</foreign></rubric>
                   
                   
                   
@@ -275,8 +275,9 @@
                   
                   <title xml:lang="en">The Confirmation of a child after Baptism, by
                               anointing with the holy Chrism, in Karshūnī.</title>
-                  <rubric xml:lang="ar-Syrc">ܘܐܝܛ̣ܐ ܢܟ݁ܬܒ ܬܩܕܡܗ̈ ܐܠܬܬܒܝܬ [%] ܦܝ ܐܠܡܝܪܘܢ ܡܢ
-                              ܝܕ ܪܐܣ ܟ݁ܗܢܗ ܒܥܕ ܐܠܐܥܬܡܐܕ</rubric>
+                  <rubric xml:lang="ar-Syrc">ܘܐܝܛ̣ܐ ܢܟ݁ܬܒ ܬܩܕܡܗ̈ ܐܠܬܬܒܝܬ
+                      <foreign xml:lang="ar">[التثبيت]</foreign> ܦܝ ܐܠܡܝܪܘܢ ܡܢ ܝَܕّ ܪܐܣ ܟ݁ܗܢܗ ܒܥܕ
+                    ܐܠܐܥܬܡܐܕ</rubric>
                   
                   
                   
@@ -316,29 +317,28 @@
                 <item xml:id="addition1" n="1">
                            <locus/>
                            <p>At the end of the first part of the volume, on fol. 105 a, there is a
-                              note, which states that it was written by <persName>Maryam (Mary), the
-                                 daughter of the <persName>priest Yūhannān or
-                                 Hannā</persName>
-                    </persName>, from the village of
+                              note, which states that it was written by <persName>Maryam (Mary)</persName>, the
+                                 daughter of the priest <persName>Yūhannān</persName> or
+                                 <persName>Hannā</persName>
+                              , from the village of
                               <placeName>Dar'ūn</placeName>, in the <placeName ref="http://syriaca.org/place/487">northern district
-                                 of the Lebanon</placeName>, for the <persName>cousin of the
-                                    <persName>metropolitan Hannā ibn al-Muhāsib of Jūstā (Gūstā,
-                                    Augusta)</persName>
-                    </persName>, <date calendar="Gregorian" when="1701">A.D. 1701</date>. See,
+                                 of the Lebanon</placeName>, for the cousin of the
+                                    metropolitan <persName>Hannā ibn al-Muhāsib of Jūstā</persName> (Gūstā,
+                                    Augusta)
+                    , <date calendar="Gregorian" when="1701">A.D. 1701</date>. See,
                                  <bibl>Stephanus II. See Le Quien, Oriens Christ., t. iii, col.
                                  72</bibl>.</p>
                            <p>
-                    <quote xml:lang="syr">ܟܡܠܬ ܗܕܐ ܐܠܫܪܛܘܢܝܗ ܐܠܬܝ ܬܚܘܝ̣ ܪܣܐܡܗ̈ ܕܪܓܐܬ ܐܠܟܢܝܣܗ ܐܠܬܝ ܦܣ̈ܠܛܐ ܘܩܪܘܝܐ
-                                 ܕܐܘܦܕܝܩܢܐ ܘܡܫܡܫܢܐ ܕܐܪܟܕܝܩܢ ܘܩܫܝܫܐ ܘܦܪܝܕܝܘܛܐ ܥܠܝ ܝܕ ܐܡܪܐܗ ܟܐܛܝܗ
-                                 ܐܠܟܣܠܐܢܗ ܦܝ ܐܦܐܥܐܠ(sic) ܐܠܟܝܪ ܡܪܝܡ ܐܠܪܐܗܒܗ ܡܢ ܕܝܪ ܡܐܪ ܝܚܢܐ ܚܪܐܫ.
-                                 ܒܢܬ ܐܠܟܘܪܝ ܚܢܐ ܡܢ ܩܪܝܗ̈ ܕܪܥܘܢ ܡܢ ܒܝܬ ܐܠܫܡܐܠܝ. ܦܝ ܐܝܐܡ ܣܝܕܢܐ
-                                 ܐܠܒܛܪܝܪܟ ܐܒܢ ܐܠܕܘܝܗܝ ܐܠܒܐܪ ܡܐܪ ܐܣܛܦܐܢܘܣ  ܪܐܣ ܐܠܡܥܠܡܝܢ ܐܠܚܐܘܝ ܓܡܝܥ
-                                 ܐܠܥܠܘܡ ܐܠܐܠܗܝܗ ܘܐܠܛܒܝܥܝܗ ܘܐܠܪܝܐܛܗ ܦܪܝܕ ܥܨܪܗ ܦܝ ܡܥܪܦܗ̈ ܐܠܬܣܐܠܝܡ
-                                 ܐܠܪܣܘܠܝܗ. ܘܗܝ ܒܪܣܡ ܐܒܢ ܟܐܠ ܝ[%ܟܐܠ read]ܐܠܡܛܪܐܢ ܚܢܐ ܐܠܡܟܪܡ ܐܒܢ
-                                 ܐܠܡܚܐܣܒ ܡܢ ܩܪܝܗ̈ ܓܘܣܛܐ ܐܠܠܗ ܝܗܢܝܗ ܦܝܗܐ ܙܡܐܢ ܛܘܝܠ ܐܡܝܢ. ܘܟܐܢ ܕܠܟ ܦܝ
-                                 ܣܢܗ̈ ܐ܏ܥܐ ܠܠܬܓܣܕ ܐܠܐܠܗܝ ܐܠܬܝ ܬܩܐܒܠ ܠܣܢܗ̈ ܐܐܝ܏ܒ ܠܣܟ̣ܕܪ(sic) ܐܒܢ
-                                 ܦܝܠܒܘܣ ܐܠܝܘܢܐܢܝ. ܘܠܣܢܗ̈ ܐ܏ܩܝܒ ܠܗܐܓܪܗ ܐܠܡܣܠܡܝܢ. ܘܠܐܒܘܢܐ ܐܕܡ ܙܒܦ܏ܕܝܚ.
-                                 ܦܝ ܐܘܠ ܝܘܡ ܡܢ ܫܗܪ ܟܐܢܘܢ ܐܠܬܐܢܝ ܝܘܡ ܟ݂ܬܐܢܗ̈ ܪܒܢܐ ܝܣܘܥ ܐܠܡܣ. </quote>
+                    <quote xml:lang="syr">ܟܡܠܬ ܗܕܐ ܐܠܫܪܛܘܢܝܗ ܐܠܬܝ ܬܚܘَܝ̣ ܪܣܐܡܗ̈ ܕܪܓܐܬ ܐܠܟܢܝܣܗ ܐܠܬܝ
+                      ܦܣ̈ܠܛܐ ܘܩܪܘܝܐ ܕܐܘܦܕܝܩܢܐ ܘܡܫܡܫܢܐ ܕܐܪܟܕܝܩܢ ܘܩܫܝܫܐ ܘܦܪܝܕܝܘܛܐ ܥܠܝ ܝَܕّ ܐܡܪܐܗ ܟܐܛܝܗ
+                      ܐܠܟܣܠܐܢܗ ܦܝ ܐܦܐܥܐܠ(sic) ܐܠܟܝܪ ܡܪܝܡ ܐܠܪܐܗܒܗ ܡܢ ܕܝܪ ܡܐܪ ܝܚܢܐ ܚܪܐܫ. ܒܢܬ ܐܠܟܘܪܝ
+                      ܚܢܐ ܡܢ ܩܪܝܗ̈ ܕܪܥܘܢ ܡܢ ܒܝܬ ܐܠܫܡܐܠܝ. ܦܝ ܐܝܐܡ ܣܝَّܕܢܐ ܐܠܒܛܪܝܪܟ ܐܒܢ ܐܠܕܘܝܗܝ ܐܠܒܐܪ
+                      ܡܐܪ ܐܣܛܦܐܢܘܣ ܪܐܣ ܐܠܡܥܠܡܝܢ ܐܠܚܐܘܝ ܓܡܝܥ ܐܠܥܠܘܡ ܐܠܐܠܗܝܗ ܘܐܠܛܒܝܥܝܗ ܘܐܠܪܝܐܛܗ ܦܪܝܕ
+                      ܥܨܪܗ ܦܝ ܡܥܪܦܗ̈ ܐܠܬܣܐܠܝܡ ܐܠܪܣܘܠܝܗ. ܘܗܝ ܒܪܣܡ ܐܒܢ ܟܐܠ ܝ[<foreign xml:lang="ar">جالِ</foreign>
+                      ,ܟܐܠ read]ܐܠܡܛܪܐܢ ܚܢܐ ܐܠܡܟܪܡ ܐܒܢ ܐܠܡܚܐܣܒ ܡܢ ܩܪܝܗ̈ ܓܘܣܛܐ ܐܠܠܗ ܝܗܢܝܗ ܦܝܗܐ ܙܡܐܢ
+                      ܛܘܝܠ ܐܡܝܢ. ܘܟܐܢ ܕܠܟ ܦܝ ܣܢܗ̈ ܐ܏ܥܐ ܠܠܬܓܣܕ ܐܠܐܠܗܝ ܐܠܬܝ ܬܩܐܒܠ ܠܣܢܗ̈ ܐܐܝ܏ܒ
+                      ܠܣܟ̣ܕܪ(sic) ܐܒܢ ܦܝܠܒܘܣ ܐܠܝܘܢܐܢܝ. ܘܠܣܢܗ̈ ܐ܏ܩܝܒ ܠܗܐܓܪܗ ܐܠܡܣܠܡܝܢ. ܘܠܐܒܘܢܐ ܐܕܡ
+                      ܙܒܦ܏ܕܝܚ. ܦܝ ܐܘܠ ܝܘܡ ܡܢ ܫܗܪ ܟܐܢܘܢ ܐܠܬܐܢܝ ܝܘܡ ܟ݂ܬܐܢܗ̈ ܪܒܢܐ ܝܣܘܥ ܐܠܡܣ. </quote>
                   </p>
                         </item>
                 <item xml:id="addition2" n="2">
@@ -353,22 +353,17 @@
                 <item xml:id="addition3" n="3">
                            <locus/>
                            <p>At the end of the second part, fol. 171 a, is the following note,
-                              giving the date <date>A.D. 1702</date>. </p>
+                              giving the date <date calendar="Gregorian" when="1702">A.D. 1702</date>. </p>
                            <p>
-                              <quote xml:lang="syr">ܐܟ݁ܬܡܠܘ ܗܘܠܐܝ ܐܠܟܬܟ݁ܐܪܝܣ ܐܠܕܝܢ ܗܡ ܐܠܒܝܥܗ.
-                                 ܘܐܠܡܕܒܚ ܘܐܠܡܥܡܘܕܝܗ ܘܐܠܛܒܠܝܬ ܘܐܠܬܬܒܝܬ. ܥܠܝ ܝܕ ܐܚܩܪ ܐܠܢܐܣ ܡܪܝܐܡ
-                                 ܐܠܪܐܗܒܗ ܒܢܬ ܐܠܟ݂ܘܪܝ ܚܢܐ ܡܢ ܩܪܝܗ̈ ܕܪܥܘܢ ܘܟ݁ܐܢ ܦܝ ܬܐܪܝܟ ܣܢܗ̈ ܐ܏ܥܒ
-                                 ܪܒܐܢ.</quote>
+                              <quote xml:lang="syr">ܐܟ݁ܬܡܠܘ ܗܘَܠܐܝ ܐܠܟܬܟ݁ܐܪܝܣ ܐܠܕܝܢ ܗَܡ ܐܠܒܝܥܗ.
+                      ܘܐܠܡܕܒܚ ܘܐܠܡܥܡܘܕܝܗ ܘܐܠܛܒܠܝܬ ܘܐܠܬܬܒܝܬ. ܥܠܝ ܝܕ ܐܚܩܪ ܐܠܢܐܣ ܡܪܝܐܡ ܐܠܪܐܗܒܗ ܒܢܬ
+                      ܐܠܟ݂ܘܪܝ ܚܢܐ ܡܢ ܩܪܝܗ̈ ܕܪܥܘܢ ܘܟ݁ܐܢ ܦܝ ܬܐܪܝܟ ܣܢܗ̈ ܐ܏ܥܒ ܪܒܐܢ.</quote>
                            </p>
                         </item>
                 <item xml:id="addition4" n="4">
-                           <locus/>
-                           <p>Fol. 1 a contains some account of the contents of this volume in
-                              French.</p>
-                           <p>
-                              <quote xml:lang="fr"/>
-                           </p>
-                        </item>
+                  <locus/>
+                  <p>Fol. 1 a contains some account of the contents of this volume in French.</p>
+                </item>
               </list>
             </additions>
                   
@@ -572,10 +567,8 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-24-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-02-08" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
-         <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
-            to be checked for accuracy (parentheses)</change>
-         <change type="planned" subtype="arabic">Add missing Arabic text. (places where the
-            percentage signs and question marks are)</change>
+         <change type="planned" subtype="arabic">Add missing Arabic text. LR: Double check Arabic
+        vowels. Arabic text has been added</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
