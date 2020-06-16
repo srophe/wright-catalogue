@@ -26,8 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"
-            ><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/editors.xml#jpagan">Jessica Pagan</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -89,46 +88,48 @@
             <!--Note: Do not manually enter summary. We will automatically generate this from the @class later-->
             <textLang mainLang="syr">Syriac</textLang>
             <msItem n="1" xml:id="a1" defective="true">
-              <locus from="59a" to="98a">59a-98a</locus>
+              <locus from="59a" to="98a">Foll. 59a-98a</locus>
               <author ref=""/>
-              <title ref="" type="supplied">Services for the Commemoration of Bar-saumā</title>
+              <title ref="" type="supplied">Services for the Commemoration of
+                  <persName>Bar-saumā</persName></title>
               <colophon>
                 <ref target="#addition1">See below.</ref>
               </colophon>
               <msItem n="2" xml:id="b1" defective="true">
-                <locus from="59a" to="65">59a-65</locus>
+                <locus from="59a" to="65">Foll. 59a-65</locus>
                 <author/>
                 <title ref="" type="supplied"/>
                 <rubric xml:lang="syr">ܕܪܡܫܐ<locus from="59a" to="59a"/>
                 </rubric>
               </msItem>
               <msItem n="3" xml:id="b2">
-                <locus from="65b" to="80">65b-80</locus>
+                <locus from="65b" to="80">Foll. 65b-80</locus>
                 <author/>
                 <title ref="" type="supplied"/>
                 <rubric xml:lang="syr">ܕܠܠܝܐ<locus from="65b" to="65b"/>
                 </rubric>
               </msItem>
               <msItem n="4" xml:id="b3" defective="true">
-                <locus from="80a" to="97">80a-97</locus>
+                <locus from="80a" to="97">Foll. 80a-97</locus>
                 <author/>
                 <title ref="" type="supplied"/>
                 <rubric xml:lang="syr">ܕܨܦܪܐ<locus from="80a" to="80a"/>
                 </rubric>
               </msItem>
               <msItem n="5" xml:id="b4" defective="true">
-                <locus from="97a" to="98">97a-98</locus>
+                <locus from="97a" to="98">Foll. 97a-98</locus>
                 <author/>
                 <title ref="" type="supplied"/>
                 <rubric xml:lang="syr">ܕܬܠܬ ܫ̈ܥܝܢ<locus from="97a" to="97a"/>
                 </rubric>
               </msItem>
               <msItem n="5" xml:id="a2" defective="true">
-                <locus from="98b" to="102">98b-102</locus>
+                <locus from="98b" to="102">Foll. 98b-102</locus>
                 <author/>
-                <title ref="" type="supplied">Services for the Commemoration of the archangel Michael</title>
-                <rubric xml:lang="syr">[ܛܟܣܐ ܕ]ܥܠ ܡܠܐܟܐ ܢ̣ܨܝܚܐ ܡܪܝ ܡܝܟܐܝܠ
-                  <locus from="98b" to="98b"/>
+                <title ref="" type="supplied">Services for the Commemoration of the
+                    <persName>archangel Michael</persName></title>
+                <rubric xml:lang="syr">[ܛܟܣܐ ܕ]ܥܠ ܡܠܐܟܐ ܢ̣ܨܝܚܐ ܡܪܝ ܡܝܟܐܝܠ <locus from="98b" to="98b"
+                  />
                 </rubric>
               </msItem>
             </msItem>
@@ -140,16 +141,13 @@
                   <material>Paper</material>
                 </support>
                 <extent>
-                  <measure type="composition" unit="leaf" quantity="44"
-                    >44 ff.</measure>
+                  <measure type="composition" unit="leaf" quantity="44">44 ff.</measure>
                   <dimensions type="leaf" unit="in">
                     <height>
-                      <measure type="height" quantity="9" unit="in"
-                        >9</measure>
+                      <measure type="height" quantity="9" unit="in">9</measure>
                     </height>
                     <width>
-                      <measure type="width" quantity="6" unit="in"
-                        >6</measure>
+                      <measure type="width" quantity="6" unit="in">6</measure>
                     </width>
                   </dimensions>
                 </extent>
@@ -160,7 +158,8 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Some of the leaves are much stained and torn, especially foll. <locus from="59" to="59">59</locus> and <locus from="96" to="102">96—102</locus>.</p>
+                      <p>Some of the leaves are much stained and torn, especially <locus from="59"
+                          to="59">foll. 59</locus> and <locus from="96" to="102">96—102</locus>.</p>
                     </item>
                     <item>
                       <p>The first of the quires are imperfect at the beginning.</p>
@@ -176,7 +175,8 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
-                <desc>This manuscript is written in a good, regular hand of the <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate></desc>
+                <desc>This manuscript is written in a good, regular hand of the <origDate
+                    notBefore="1200" notAfter="1300">xiiith cent.</origDate></desc>
               </handNote>
             </handDesc>
             <decoDesc/>
@@ -185,8 +185,18 @@
               <list>
                 <item n="1" xml:id="addition1">
                   <locus from="98a" to="98a"/>
-                  <p>A note on fol. 98 a states that the manuscript was written by one <persName>'Abdā</persName>, for the <persName>abbat Basil</persName>, <persName>rabban Yuhannān</persName>, <persName>rabban Gabriel</persName>, and the rest of the brotherhood; but the name of the convent is not mentioned, though it was probably that of <placeName ref="http://syriaca.org/place/360">S. Mary Deipara</placeName>.</p>
-                  <p><quote xml:lang="syr">ܐܬܟܬܒ ܟܘܪ̈ܣܐ ܗܠܝܢ ܐܘܟܝܬ ܛܟܣܐ ܕܥܠ ܢܨ̇ܝܚܐ ܩܕܝܫܐ ܡܪܝ ܒܪܨܘܡܐ ܒܐܝ̈ܕܝ ܚܛܝܐ ܘܡܠܸܐ [ܡܘ]ܡ̈ܐ ܘܚܒܪ̈ܬܐ ܥܒܕܐ ܕܘܝܐ ܘܚܛܝܐ܀ ܒܝ̇ܨܝܦܘܬܐ ܕܪܒܢ ܒܐܣܝܠ ܪܫܕ[ܝܪܐ] ܪܚ̇ܡ ܐܠܗܐ. ܘܪܒܢ ܝܘܚܢܢ ܘ . . . ܘܪܒܢ ܓܒܪܐܝܠ ܣܒܐ ܥ . . . ܐܚܘܬܐ ܩܕܝܫܬܐ ܘܨܡܝܕܬ . . . ܩܕܝܫܐ. ܒܒܥܘ ܨ̇ܠܘ ܏ܘܫ</quote></p>
+                  <p>A note on fol. 98 a states that the manuscript was written by one
+                      <persName>'Abdā</persName>, for the <persName>abbat Basil</persName>,
+                      <persName>rabban Yuhannān</persName>, <persName>rabban Gabriel</persName>, and
+                    the rest of the brotherhood; but the name of the convent is not mentioned,
+                    though it was probably that of <placeName ref="http://syriaca.org/place/360">S.
+                      Mary Deipara</placeName>.</p>
+                  <p>
+                    <quote xml:lang="syr">ܐܬܟܬܒ ܟܘܪ̈ܣܐ ܗܠܝܢ ܐܘܟܝܬ ܛܟܣܐ ܕܥܠ ܢܨ̇ܝܚܐ ܩܕܝܫܐ ܡܪܝ ܒܪܨܘܡܐ
+                      ܒܐܝ̈ܕܝ ܚܛܝܐ ܘܡܠܸܐ [ܡܘ]ܡ̈ܐ ܘܚܒܪ̈ܬܐ ܥܒܕܐ ܕܘܝܐ ܘܚܛܝܐ܀ ܒܝ̇ܨܝܦܘܬܐ ܕܪܒܢ ܒܐܣܝܠ
+                      ܪܫܕ[ܝܪܐ] ܪܚ̇ܡ ܐܠܗܐ. ܘܪܒܢ ܝܘܚܢܢ ܘ . . . ܘܪܒܢ ܓܒܪܐܝܠ ܣܒܐ ܥ . . . ܐܚܘܬܐ ܩܕܝܫܬܐ
+                      ܘܨܡܝܕܬ . . . ܩܕܝܫܐ. ܒܒܥܘ ܨ̇ܠܘ ܏ܘܫ</quote>
+                  </p>
                 </item>
                 <!-- See manual for how to link the person and/or the handnote to the addition, when possible do both or at least handnote if no person is mentioned-->
               </list>
@@ -197,9 +207,8 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1200" notAfter="1300"
-                >13th century</origDate>
-              <origPlace></origPlace>
+              <origDate notBefore="1200" notAfter="1300">13th century</origDate>
+              <origPlace/>
             </origin>
             <provenance/>
             <acquisition/>
@@ -222,10 +231,8 @@
                 <pubPlace>London</pubPlace>
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
-                <citedRange unit="entry"
-                  >CCCLXXXVII</citedRange>
-                <citedRange unit="pp"
-                  >I:311</citedRange>
+                <citedRange unit="entry">CCCLXXXVII</citedRange>
+                <citedRange unit="pp">I:311</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -247,8 +254,10 @@
       </editorialDecl>
       <classDecl>
         <taxonomy xml:id="Wright-BL-Taxonomy">
-          <bibl><ref target="#Wright"/><ptr
-              target="http://syriaca.org/documentation/Wright-BL-Taxonomy.html"/></bibl>
+          <bibl>
+            <ref target="#Wright"/>
+            <ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy.html"/>
+          </bibl>
           <category xml:id="biblical-manuscripts">
             <category xml:id="bible-ot"/>
             <category xml:id="bible-nt"/>

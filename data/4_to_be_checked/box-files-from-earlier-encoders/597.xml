@@ -26,8 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"
-            ><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref="http://syriaca.org/editors.xml#jpagan">Jessica Pagan</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -89,35 +88,37 @@
             <!--Note: Do not manually enter summary. We will automatically generate this from the @class later-->
             <textLang mainLang="syr">Syriac</textLang>
             <msItem n="1" xml:id="a1" defective="true">
-              <locus from="103" to="130">103-130</locus>
+              <locus from="103" to="130">Foll. 103-130</locus>
               <author/>
               <title ref="" type="supplied"><!-- Needs Translation from Syriac --> Part 1</title>
               <rubric xml:lang="syr">ܦܠܓܘܬܐ ܩܕܡܝܬܐ <locus from="103a" to="103a"/>
               </rubric>
               <colophon/>
-              <note>Choir-book containing hymns (ܩ̈ܠܐ,ܡܕܪ̈ܫܐ) and prayers (ܒܥ̈ܘܬܐ) for the following
+              <note>Choir-book containing hymns (<foreign xml:lang="syr">ܩ̈ܠܐ,ܡܕܪ̈ܫܐ</foreign>) and
+                prayers (<foreign xml:lang="syr">ܒܥ̈ܘܬܐ</foreign>) for the following
                 occasions.</note>
               <msItem n="2" xml:id="b1" defective="true">
-                <locus from="103a" to="111b">103a-111b</locus>
+                <locus from="103a" to="111b">Foll. 103a-111b</locus>
                 <author/>
-                <title ref="" type="supplied">The Decease of the blessed Virgin</title>
+                <title ref="" type="supplied">The Decease of the <persName
+                    ref="http://syriaca.org/person/624">blessed Virgin</persName></title>
                 <rubric xml:lang="syr">ܕܫܘܢܝܗ̇ ܕܝܠܕܬ ܐܠܗܐ <locus from="103a" to="103a"/>
                 </rubric>
                 <finalRubric xml:lang="syr"/>
                 <colophon/>
               </msItem>
               <msItem n="3" xml:id="b2" defective="true">
-                <locus from="112a" to="114">112a-114</locus>
+                <locus from="112a" to="114">Foll. 112a-114</locus>
                 <author/>
                 <title ref="" type="supplied">The Feast of Tabernacles, or the Transfiguration of
-                  our Lord</title>
+                    <persName ref="http://syriaca.org/person/2245">our Lord</persName></title>
                 <rubric xml:lang="syr">ܕܥܐܕܐ ܕܡ̈ܛܠܠܐ<locus from="112a" to="112a"/>
                 </rubric>
                 <finalRubric xml:lang="syr"/>
                 <colophon/>
               </msItem>
               <msItem n="4" xml:id="b3" defective="true">
-                <locus from="114a" to="117b">114a-117b</locus>
+                <locus from="114a" to="117b">Foll. 114a-117b</locus>
                 <author/>
                 <title ref="" type="supplied">The Feast of the holy Cross</title>
                 <rubric xml:lang="syr">ܕܥܐܕܐ ܕܨܠܝܒܐ<locus from="114a" to="114a"/>
@@ -126,7 +127,7 @@
                 <colophon/>
               </msItem>
               <msItem n="5" xml:id="b4" defective="true">
-                <locus from="118a" to="119b">118a-119b</locus>
+                <locus from="118a" to="119b">Foll. 118a-119b</locus>
                 <author/>
                 <title ref="" type="supplied">The Consecration of the Church</title>
                 <rubric xml:lang="syr">ܕܩܘܕܫ ܥܕܬܐ<locus from="118a" to="118a"/>
@@ -135,7 +136,7 @@
                 <colophon/>
               </msItem>
               <msItem n="6" xml:id="b5" defective="true">
-                <locus from="120a" to="130">120a-130</locus>
+                <locus from="120a" to="130">Foll. 120a-130</locus>
                 <author/>
                 <title ref="" type="supplied">The six Sundays in Lent</title>
                 <rubric xml:lang="syr">ܕܚܕܒ̈ܫܒܐ ܕܨܘܡܐ<locus from="120a" to="120a"/>
