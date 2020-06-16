@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -277,6 +277,12 @@
                         <desc>By a later hand Coptic arithmetical figures were added.</desc>
                      </handNote>
             </handDesc>
+            <decoDesc>
+              <decoNote xml:id="decoNote1" type="ornamentation">
+                <desc>In this manuscript there are rudely executed ornaments at the
+                  beginning of each day's canon.</desc>
+              </decoNote>
+            </decoDesc>
                   <additions>
               <p/>
               <list>
@@ -297,7 +303,7 @@
                            <locus/>
                            <p>Fol. 73 a. A rudely written note, containing the name of </p>
                            <p>
-                              <quote xml:lang="syr"/>
+                              <quote xml:lang="ar">ابن سمعان مرزوق</quote>
                            </p>
                         </item>
                 <item xml:id="addition3" n="3">
@@ -307,47 +313,60 @@
                     </placeName>
                   </p>
                            <p>
-                              <quote xml:lang="syr"/>
+                              <quote xml:lang="ar">وهو وقفًا على دير القديسين الشهد (sic) سرجيوس
+                      وفاكوخوس في قرية معلولا‘</quote>
                            </p>
                         </item>
                 <item xml:id="addition4" n="4">
                            <locus/>
                            <p>Fol. 110 b. A note to the same effect, written by the <persName>priest
                                  Elias of <placeName ref="http://syriaca.org/place/279">Ma'lūlā</placeName>
-                    </persName>, to which the <persName>priest
-                                 Rizk-allāh</persName> has added a few words in Syriac.</p>
-                           <p>
-                              <quote xml:lang="syr"> ܐܬܕܟܪ ܡܪܝܐ ܥܒܕܟ ܚܛܝܐ ܘܡܣܟܢܐ ܩܫܝܫܐ
-                                 ܪܙܩܠܗ.</quote>
-                           </p>
+                    </persName>,</p>
+                          <p>
+                            <quote xml:lang="ar">هذا الدفتر برسم مر سرجس ومر فخس المعروف بقريه
+                      معلولا واي من اخذه وجحده عن هذا المكان يكون محروم ملعون مفروز من النصارا وجميع
+                      الخلايق وكتب الحقير في الكهنه والرهبان القس الياس من قريه معلولا غفر الله له
+                      امين‘ </quote>
+                          </p>
                         </item>
                 <item xml:id="addition5" n="5">
+                  <p>The <persName>priest Rizk-allāh</persName> has added a few words in Syriac to the preceding note.</p>
+                  <p>
+                    <quote xml:lang="syr"> ܐܬܕܟܪ ܡܪܝܐ ܥܒܕܟ ܚܛܝܐ ܘܡܣܟܢܐ ܩܫܝܫܐ
+                      ܪܙܩܠܗ.</quote>
+                  </p>
+                </item>
+                <item xml:id="addition6" n="6">
                            <locus/>
                            <p>The same <persName>Rizk-allāh</persName> has written on fol. 232 b</p>
                            <p>
-                              <quote xml:lang="syr"/>
+                              <quote xml:lang="ar">يا رب اذكُر الخاطي المسكين القس رزق الله امين
+                      امين‘</quote>
                            </p>
                         </item>
-                <item xml:id="addition6" n="6">
+                <item xml:id="addition7" n="7">
                            <locus/>
                            <p>The <persName>deacon Yahyā bin Salmān</persName> (or
                                  <persName>Sulaimān</persName>) has recorded his name on fol. 298
                               a.</p>
                            <p>
-                              <quote xml:lang="syr"/>
+                              <quote xml:lang="ar">نصر (نظر) في هده الكتاب المبارك الشماس يحيا ابن
+                      سلمان (سليمان)......... رحمه الله‘</quote>
                            </p>
                         </item>
-                <item xml:id="addition7" n="7">
+                <item xml:id="addition8" n="8">
                            <locus/>
                            <p>On fol. 306 a we find a similar entry, by the <persName>priest
                                  Nasr-allāh ibn Mūsā of <placeName ref="http://syriaca.org/place/279">Ma
                                  'lūlā</placeName>
                     </persName>.</p>
                            <p>
-                              <quote xml:lang="syr"/>
+                              <quote xml:lang="ar">نصر (نظر) في هد الكتاب (sic) المبارك العبد الخاطي
+                      الخوري نصر لله (sic) ابن موسي من قريه معلولا رحم الله له ولوالديه ولمن قرا
+                      وترحم عليه امين‘</quote>
                            </p>
                         </item>
-                <item xml:id="addition8" n="8">
+                <item xml:id="addition9" n="9">
                            <locus/>
                            <p>On fol. 314 b, one <persName>Michael, patriarch of
                               <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
@@ -356,27 +375,23 @@
                               expressed in Coptic arithmetical figures, %, apparently A. M. 7042,
                               A.D. 1534.</p>
                            <p>
-                              <quote xml:lang="grc">% (sic) % (sic) % Μιχαὴλ ἐλέῳ Θεοῦ πατριάρχης
-                                 τῆς μεγάλης θεουπόλεως 'Αντιοχείας καὶ πάσης ἀνατολῆς </quote>
+                             <quote xml:lang="ar">عرَمَ (sic) هَذا الكتابَ المَبارك أَلحقير في
+                      رُوَسا الكهنه ميخآئيل البطريرك الانطا (sic) في تاريخ عاشر تشرين
+                      الثاني<!-- Insert Coptic here--> وهو يسال كل من يقرافيه يدعي لهُ بالمغفره
+                      ويترحم عليه يكون لهُ نظير ذلك من السيد المسيح المجَازي علي الاعمال
+                      والافكار،‘،</quote>
                            </p>
-                        </item>
-                <item xml:id="addition9" n="9">
-                           <locus/>
-                           <p>Foll. 318—324, which wore used by the last oriental binder as
-                              fly-leaves, are fragments of a Malkite lectionary of the xiiith cent.
-                              The lessons are taken from the Old Testament, according to the
-                              Peshitta version.</p>
                            <p>
-                              <quote xml:lang="syr"/>
-                           </p>
+                              <quote xml:lang="grc">Μιχαὴλ ἐλέῳ Θεοῦ πατριάρχης
+                       τῆς μεγάλης θεουπόλεως 'Αντιοχείας καὶ πάσης ἀνατολῆς </quote>
+                          </p>
                         </item>
                 <item xml:id="addition10" n="10">
                            <locus/>
-                           <p>In this manuscript there are rudely executed ornaments at the
-                              beginning of each day's canon.</p>
-                           <p>
-                              <quote xml:lang="syr"/>
-                           </p>
+                           <p>Foll. 318—324, which were used by the last oriental binder as
+                              fly-leaves, are fragments of a Malkite lectionary of the xiiith cent.
+                              The lessons are taken from the Old Testament, according to the
+                              Peshitta version.</p>
                         </item>
               </list>
             </additions>
@@ -582,7 +597,7 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-29-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-01-25" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
-         <change type="planned" subtype="arabic">Add missing Arabic text.</change>
+         <change type="planned" subtype="arabic">Check Arabic for accuracy</change>
          <change type="planned" subtype="coptic">Add in missing Coptic characters.</change>
          <change type="planned" subtype="greek">Add in missing Greek characters.</change>
          <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
