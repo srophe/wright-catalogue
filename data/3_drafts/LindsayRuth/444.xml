@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/wlpotter/syriaca-wright-catalog/master/schemas/enrich-syriaca.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/wlpotter/wright-catalogue/master/parameters/wright-mss.css"?>
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title>Content pending</title>
+      </titleStmt>
+      <editionStmt>
+        <p>Content pending</p>
+      </editionStmt>
+      <publicationStmt>
+        <p>Content pending</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="manuscript-444">
+          <msIdentifier>
+            <idno type="URI">444</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">14,665 fol.28</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary/>
+            <textLang mainLang="syr"/>
+            <msItem xml:id="a1" n="1">
+                <quote xml:lang="syr"
+                ><!--Need Whole page of Syriac added - missing from word document--></quote>
+            </msItem>  
+          </msContents>
+          <physDesc>
+            <objectDesc form="leaf">
+              <supportDesc material="perg">
+                <foliation/>
+                <collation/>
+                <condition>
+                  <list>
+                    <item>
+                      <p>The upper half of a vellum leaf, which formed part of the same manuscript
+                        as <bibl>Add. 17,217<ptr target="http://syriaca.org/manuscript/933"
+                            />,<citedRange unit="locus">foll. 37 and 38</citedRange></bibl>.
+                        Unfortunately the greater part of one column on each side has been covered
+                        with rude Arabic writing, and can therefore only be deciphered with
+                        difficulty. </p>
+                    </item>
+                  </list>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <p>Content pending</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scope="sole" script="Mixed" medium="unknown">
+                <desc>the greater part of one column on each side has been covered with rude Arabic
+                  writing</desc>
+              </handNote>
+            </handDesc>
+            <bindingDesc>
+              <p>Content pending</p>
+            </bindingDesc>
+            <sealDesc>
+              <p>Content pending</p>
+            </sealDesc>
+            <accMat/>
+          </physDesc>
+          <history>
+            <provenance/>
+            <acquisition/>
+          </history>
+          <additional/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Content pending</p>
+    </encodingDesc>
+    <profileDesc/>
+    <revisionDesc status="draft">
+      <change when="2020-07-07" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
+        encoding.</change>
+      <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <formula>Content pending</formula>
+  </facsimile>
+  <text>
+    <body>
+      <bibl>Content pending</bibl>
+    </body>
+  </text>
+</TEI>
