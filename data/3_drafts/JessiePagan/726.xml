@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/wlpotter/syriaca-wright-catalog/master/schemas/enrich-syriaca.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/wlpotter/wright-catalogue/master/parameters/wright-mss.css"?>
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+      <fileDesc>
+         <titleStmt>
+            <title>Content pending</title>
+         </titleStmt>
+         <editionStmt>
+            <p>Content pending</p>
+         </editionStmt>
+         <publicationStmt>
+            <p>Content pending</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="URI">726</idno>
+                  <altIdentifier>
+                     <idno type="BL-Shelfmark">Add. 14,739, fol. 23</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <textLang mainLang="syr"/>
+                  <msItem defective="true">
+                     <locus to="" from=""/>
+                     <author ref=""/>
+                     <title ref="" xml:lang="en">Index to a Service-book, comprising a collection of
+                        sedras</title>
+                     <rubric xml:lang="syr">ܬܘܒ ܩܘܕܝܟܣ ܡܚܲܘܝܢܐ ܕܛܟ̈ܣܐ ܕܐܝܬ ܒܗܢܐ ܟܬܒܐ ܩܲܕܝܫܐ
+                        ܕܣܕܪ̈ܐ.</rubric>
+                     <incipit xml:lang="syr"/>
+                     <quote xml:lang="syr">
+                        <locus from="" to=""/>
+                     </quote>
+                     <explicit xml:lang="syr">
+                        <locus to="" from=""/>
+                     </explicit>
+                     <finalRubric xml:lang="syr"><locus to="" from=""/></finalRubric>
+                     <note/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent>
+                           <measure unit="content_pending" quantity="-1"/>
+                        </extent>
+                        <foliation/>
+                        <collation/>
+                        <condition>
+                           <list>
+                              <item>
+                                 <p>It is a paper leaf, 10 1/4 in. by 7 1/8, much torn.</p>
+                              </item>
+                           </list>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>Content pending</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" script="syr" medium="">
+                        <desc>See additions.</desc>
+                     </handNote>
+                  </handDesc>
+                  <additions>
+                     <p/>
+                     <list>
+                        <item>
+                           <locus from="" to=""/>
+                           <p>On the verso there are two notes. The first one is in Arabic, and
+                              dated in the year <date datingMethod="Coptic-EoM" when-custom="1199"
+                                 >1199 of the Coptic era</date>,
+                              <!-->Ryan on April 23, 2011 noted that it needs
+                              Arabic-->,
+                                 <date calendar="Gregorian" when="1483">A.D. 1483</date>.</p>
+                           <p><quote xml:lang="ar"/></p>
+                        </item>
+                        <item>
+                           <locus from="" to=""/>
+                           <p>The other note is in Karshūnī, and states that this volume was
+                              given, as a wakf or legacy, to the <placeName
+                                 ref="http://syriaca.org/place/360">convent of S. Mary
+                                 Deipara</placeName> by <persName>a monk named
+                              Ephraim</persName>.</p>
+                           <p>
+                              <quote xml:lang="ar-Syrc">ܝܩܘܠ ܡܣܛܪܗܐ ܐܦܪܐܡ ܐܠܪܐܗܒ ܐܠܣܪܝܐܢܝ ܐܢܝ ܐܘܩܦܬ
+                                 ܗܕܐ ܐܠܟܬܐܒ ܐܠܡܒܐܪܟ ܐܠـ . . . ܐܠܚܣܐܝܐܬ ܥܠܝ [ܕܝܪ] ܣܬܢܐ ܐܠܣܝܕܗ
+                                 ܐܠܡ̇ܥـ[ܛܡܗ] ܡܣܟܢ ܐܠܣܪ̈ܝܐܢ ܦܝ ܒܪ[ܝܗ] ܐܠܐܣܩܝܛ ܘܩܦܐ ܡܐ[ܒܕܐ] ܘܚܒܣܐ
+                                 ܡܟܠܕܐ ܐܠ܏ܟ.</quote>
+                           </p>
+                        </item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <p>Content pending</p>
+                  </bindingDesc>
+                  <sealDesc>
+                     <p>Content pending</p>
+                  </sealDesc>
+                  <accMat/>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="" notAfter="" from="" to="" when=""/>
+                     <origPlace ref="" xml:lang=""/>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Content pending</p>
+      </encodingDesc>
+      <profileDesc/>
+      <revisionDesc status="draft">
+         <change when="2020-08-04" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
+            TEI encoding.</change>
+         <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
+            to be checked for accuracy</change>
+         <change type="planned" subtype="arabic">Add missing Arabic text. (first note)</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <formula>Content pending</formula>
+   </facsimile>
+   <text>
+      <body>
+         <bibl>Content pending</bibl>
+      </body>
+   </text>
+</TEI>
