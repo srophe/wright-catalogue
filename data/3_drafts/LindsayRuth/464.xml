@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/wlpotter/syriaca-wright-catalog/master/schemas/enrich-syriaca.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/wlpotter/wright-catalogue/master/parameters/wright-mss.css"?>
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title>Content pending</title>
+      </titleStmt>
+      <editionStmt>
+        <p>Content pending</p>
+      </editionStmt>
+      <publicationStmt>
+        <p>Content pending</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="manuscript-464">
+          <msIdentifier>
+            <idno type="URI">464</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">14,667 foll.13-16</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary/>
+            <textLang mainLang="syr"/>              
+              <msItem xml:id="a1" n="1" defective="true">
+                <locus from="13a">Fol. 13a</locus>
+                <title>The Order of Baptism of <persName>Severus</persName></title>
+                <note>imperfect at the beginning</note>
+              </msItem>
+              <msItem xml:id="a2" n="2">
+                <locus from="15a">Fol. 15a</locus>
+                <title>The Benediction of the Chalice, of <persName>Severus</persName></title>
+                <rubric xml:lang="syr">ܛܟܣܐ ܕܪܫܡ [ܟܣܐ]
+                ܕܩܕܝܫܐ ܡܪܝ ܣܐܘܪܐ ܦܛܪܝܪܟܐ ܕܐܢܛܝܘܟܝܐ</rubric>
+              </msItem>
+              <msItem xml:id="a3" n="3" defective="true">
+              <locus from="16b">Fol. 16b</locus>
+              <title>The Consecration of Water on the night of the Epiphany</title>
+              <rubric xml:lang="syr">ܛܟܣܐ ܕܡܫܬ݁ܡܠܐ̣. ܡܐ ܕܡܬܒܪ̈ܟܝܢ ܡ̈ܝܐ ܒܠܠܝܐ ܕܒܝܬ ܕܢܚ̣ܐ.</rubric>
+              <note>Very imperfect.</note>
+            </msItem>              
+          </msContents>
+          <physDesc>
+            <objectDesc form="leaf">
+              <supportDesc material="perg">
+                <foliation/>
+                <collation/>
+                <condition>
+                  <list>
+                    <item>
+                      <p>Four vellum leaves, about 7 1/2 in. by 5 1/8 (Add. 14,667, foll. 13—16),
+                        with from 22 to 24 lines in each page.</p>
+                    </item>
+                  </list>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <p>Content pending</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scope="sole" script="syr"
+                medium="unknown">
+                <desc>The writing is neat and regular, of the <date calendar="Gregorian" notBefore="0800" notAfter="0900">ixth</date> or <date calendar="Gregorian" notBefore="0900" notAfter="1000">xth cent.</date></desc>
+              </handNote>
+            </handDesc>
+            <bindingDesc>
+              <p>Content pending</p>
+            </bindingDesc>
+            <sealDesc>
+              <p>Content pending</p>
+            </sealDesc>
+            <accMat/>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate notBefore="0800" notAfter="1000">ixth or xth cent.</origDate>
+            </origin>
+            <provenance/>
+            <acquisition/>
+          </history>
+          <additional/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Content pending</p>
+    </encodingDesc>
+    <profileDesc/>
+    <revisionDesc status="draft">
+      <change when="2020-07-08" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
+        encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <formula>Content pending</formula>
+  </facsimile>
+  <text>
+    <body>
+      <bibl>Content pending</bibl>
+    </body>
+  </text>
+</TEI>

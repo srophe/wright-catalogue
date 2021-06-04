@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/wlpotter/syriaca-wright-catalog/master/schemas/enrich-syriaca.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/wlpotter/wright-catalogue/master/parameters/wright-mss.css"?>
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title>Content pending</title>
+      </titleStmt>
+      <editionStmt>
+        <p>Content pending</p>
+      </editionStmt>
+      <publicationStmt>
+        <p>Content pending</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="manuscript-439">
+          <msIdentifier>
+            <idno type="URI">439</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">14,665 foll. 8, 9</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary/>
+            <textLang mainLang="syr"/>
+              <msItem xml:id="a1" n="1" defective="true">
+                <title>part of the martyrdom of <persName ref="http://syriaca.org/person/9">Simeon bar Sabba'e</persName> and his companions.</title>
+                <note>See <bibl>Assemani, Acta Martt., pars i., p. 25</bibl>.</note></msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="leaf">
+              <supportDesc material="unknown">
+                <foliation/>
+                <collation/>
+                <condition>
+                  <list>
+                    <item>
+                      <p>Two palimpsest leaves, much mutilated, from a Greek manuscript, written in
+                        slanting uncials of about the <date calendar="Gregorian" notBefore="0700"
+                          notAfter="0800">viiith cent</date>. They are part of a Vocabulary or
+                        Glossary, letter O, but the order of the words is not strictly alphabetical.
+                        That portion, for example, of the first leaf, which is not rewritten,
+                        contains the words <!--%, %, %, %, %, %, %, add Greek here--> etc. </p>
+                    </item>
+                  </list>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <p>Content pending</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scope="sole" script="syr"
+                medium="unknown">
+                <desc>The Syriac text is written in a small, neat hand of about the <date calendar="Gregorian" notBefore="0900" notAfter="1000">xth cent</date>.</desc>
+              </handNote>
+            </handDesc>
+            <bindingDesc>
+              <p>Content pending</p>
+            </bindingDesc>
+            <sealDesc>
+              <p>Content pending</p>
+            </sealDesc>
+            <accMat/>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate notBefore="0900" notAfter="1000">xth cent.</origDate>
+            </origin>
+            <provenance/>
+            <acquisition/>
+          </history>
+          <additional/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Content pending</p>
+    </encodingDesc>
+    <profileDesc/>
+    <revisionDesc status="draft">
+      <change when="2020-07-07" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
+        encoding.</change>
+      <change type="planned" subtype="greek">Add in missing Greek characters.</change>
+      <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
+        encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <formula>Content pending</formula>
+  </facsimile>
+  <text>
+    <body>
+      <bibl>Content pending</bibl>
+    </body>
+  </text>
+</TEI>

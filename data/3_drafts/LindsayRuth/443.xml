@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/wlpotter/syriaca-wright-catalog/master/schemas/enrich-syriaca.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/wlpotter/wright-catalogue/master/parameters/wright-mss.css"?>
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title>Content pending</title>
+      </titleStmt>
+      <editionStmt>
+        <p>Content pending</p>
+      </editionStmt>
+      <publicationStmt>
+        <p>Content pending</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="manuscript-443">
+          <msIdentifier>
+            <idno type="URI">443</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">14,665 foll. 26,27</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary/>
+            <textLang mainLang="syr"/>
+               <msItem xml:id="a1" n="1">
+                 <title>The more ancient Syriac text is apparently part of a sermon.</title>
+               </msItem>
+              <msItem xml:id="a2" n="2">
+                <title>The more modern text consists of parts of two discourses, the first of which is an
+                  encomium on the blessed Virgin <persName ref="http://syriaca.org/person/624">Mary</persName>.</title>
+              </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="perg">
+                <foliation/>
+                <collation/>
+                <condition>
+                  <list>
+                    <item>
+                      <p>Two vellum leaves, about 6 3/8 in. by 5 1/8, slightly stained and soiled. They are
+                        palimpsest.</p>
+                    </item>
+                  </list>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <p>Content pending</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scope="major" script="syr-Syre" medium="unknown">
+                <desc>The more ancient Syriac text is written in a small, neat Estranglā of about
+                  the <date calendar="Gregorian" notBefore="0700" notAfter="0800">viiith
+                    cent.</date></desc>
+              </handNote>
+              <handNote scope="minor" script="syr" medium="unknown">
+                <desc>The more modern text is of the <date calendar="Gregorian" notBefore="1100"
+                    notAfter="1200">xiith</date> or <date calendar="Gregorian" notBefore="1200"
+                    notAfter="1300">xiiith cent.</date></desc>
+              </handNote>
+            </handDesc>
+            <bindingDesc>
+              <p>Content pending</p>
+            </bindingDesc>
+            <sealDesc>
+              <p>Content pending</p>
+            </sealDesc>
+            <accMat/>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate notBefore="0700" notAfter="0800">viiith cent.</origDate>
+              <origDate notBefore="1100" notAfter="1300">xiith or xiiith cent.</origDate>
+            </origin>
+            <provenance/>
+            <acquisition/>
+          </history>
+          <additional/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Content pending</p>
+    </encodingDesc>
+    <profileDesc/>
+    <revisionDesc status="draft">
+      <change when="2020-07-07" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
+        encoding.</change>
+      <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
+        encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <formula>Content pending</formula>
+  </facsimile>
+  <text>
+    <body>
+      <bibl>Content pending</bibl>
+    </body>
+  </text>
+</TEI>
