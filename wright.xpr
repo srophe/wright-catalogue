@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="21.1">
+<project>
     <meta>
         <filters directoryPatterns="" filePatterns="\Qwright.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="21.1" xml:space="preserve">
+            <serialized xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>document.types</String>
                         <documentTypeDescriptor-array>
                             <documentTypeDescriptor>
+                                <field name="webResources">
+                                    <null/>
+                                </field>
                                 <field name="extensionPatch">
                                     <documentTypeDescriptorPatch>
                                         <field name="patchList">
@@ -5724,6 +5727,18 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                             <field name="alias">
                                                                 <String>${i18n(figure.wizard)}</String>
                                                             </field>
+                                                            <field name="replacementFor">
+                                                                <null/>
+                                                            </field>
+                                                            <field name="replacedElementNs">
+                                                                <null/>
+                                                            </field>
+                                                            <field name="displayOnlyWhenElementAllowed">
+                                                                <Boolean>false</Boolean>
+                                                            </field>
+                                                            <field name="useReplaceElementName">
+                                                                <Boolean>false</Boolean>
+                                                            </field>
                                                         </contextItem>
                                                         <contextItem>
                                                             <field name="targets">
@@ -5737,6 +5752,18 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                             <field name="alias">
                                                                 <String>${i18n(table.wizard)}</String>
                                                             </field>
+                                                            <field name="replacementFor">
+                                                                <null/>
+                                                            </field>
+                                                            <field name="replacedElementNs">
+                                                                <null/>
+                                                            </field>
+                                                            <field name="displayOnlyWhenElementAllowed">
+                                                                <Boolean>false</Boolean>
+                                                            </field>
+                                                            <field name="useReplaceElementName">
+                                                                <Boolean>false</Boolean>
+                                                            </field>
                                                         </contextItem>
                                                         <contextItem>
                                                             <field name="targets">
@@ -5749,6 +5776,18 @@ ancestor-or-self::node()[self::*:row | self::*:list][1][self::*:row]</String>
                                                             </field>
                                                             <field name="alias">
                                                                 <String>${i18n(row.wizard)}</String>
+                                                            </field>
+                                                            <field name="replacementFor">
+                                                                <null/>
+                                                            </field>
+                                                            <field name="replacedElementNs">
+                                                                <null/>
+                                                            </field>
+                                                            <field name="displayOnlyWhenElementAllowed">
+                                                                <Boolean>false</Boolean>
+                                                            </field>
+                                                            <field name="useReplaceElementName">
+                                                                <Boolean>false</Boolean>
                                                             </field>
                                                         </contextItem>
                                                     </contextItem-array>
