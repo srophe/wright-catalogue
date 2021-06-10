@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/wlpotter/syriaca-wright-catalog/master/schemas/enrich-syriaca.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/wlpotter/wright-catalogue/master/parameters/wright-mss.css"?>
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title>Content pending</title>
+            </titleStmt>
+            <editionStmt>
+                <p>Content pending</p>
+            </editionStmt>
+            <publicationStmt>
+                <p>Content pending</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="URI">246</idno>
+                        <altIdentifier>
+                            <idno type="BL-Shelfmark">14525, foll. 28—45</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary/>
+                        <textLang mainLang="syr"/>
+                        <msItem xml:id="a1">
+                            <locus from="28" to="45"/>
+                            <title xml:lang="en">A volume, containing anthems and hymns (ܥܢܝ̈ܢܐ
+                                ܘܩ̈ܠܐ) for the festivals of the whole year.</title>
+                            <rubric xml:lang="syr">ܥܢܝ̈ܢܐ ܘܩ̈ܠܐ</rubric>
+                            <msItem defective="true">
+                                <locus to="" from="28 a"/>
+                                <title ref="" xml:lang="en">The Epiphany</title>
+                                <msItem defective="true">
+                                    <locus to="" from="28 a"/>
+                                    <title ref="" xml:lang="en">First order</title>
+                                    <note>Very imperfect</note>
+                                </msItem>
+                                <msItem defective="true">
+                                    <locus to="" from="28 a"/>
+                                    <title ref="" xml:lang="en">Second order</title>
+                                    <rubric xml:lang="syr">ܛܟܣܐ ܕܬܪܝܢ ܕܕܢ̣ܚܐ</rubric>
+                                </msItem>
+                            </msItem>
+                            <msItem defective="true">
+                                <locus to="" from="31 a"/>
+                                <title ref="" xml:lang="en">The Commemoration of <persName>S. John
+                                        the Baptist</persName></title>
+                            </msItem>
+                            <msItem defective="true">
+                                <locus to="" from="32 a"/>
+                                <title ref="" xml:lang="en">The Presentation of our Lord in the
+                                    Temple and the Commemoration of <persName>S. Simeon</persName>
+                                    the Aged</title>
+                            </msItem>
+                            <msItem defective="true">
+                                <locus to="" from="33 a"/>
+                                <title ref="" xml:lang="en">The forty Martyrs</title>
+                            </msItem>
+                            <msItem defective="true">
+                                <locus to="" from="37 b"/>
+                                <title ref="" xml:lang="en">Lent</title>
+                            </msItem>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="perg">
+                                <extent>
+                                    <measure unit="content_pending" quantity="-1"/>
+                                </extent>
+                                <foliation/>
+                                <collation/>
+                                <condition>
+                                    <list>
+                                        <item>
+                                            <p>Eighteen vellum leaves, about 7 1/4 in. by 5 3/8
+                                                (Add. 14,525, foll. 28—45). The writing is good and
+                                                regular, of the xth or xith cent., with from 16 to
+                                                23 lines in each page. </p>
+                                        </item>
+                                    </list>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <p>Content pending</p>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scope="" script="" medium="">
+                                <desc/>
+                            </handNote>
+                        </handDesc>
+                        <additions>
+                            <p>These leaves have the appearance of being palimpsest.</p>
+                            <list>
+                                <item>
+                                    <locus from="" to=""/>
+                                    <p/>
+                                    <p><quote xml:lang="syr"/></p>
+                                </item>
+                            </list>
+                        </additions>
+                        <bindingDesc>
+                            <p>Content pending</p>
+                        </bindingDesc>
+                        <sealDesc>
+                            <p>Content pending</p>
+                        </sealDesc>
+                        <accMat/>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0900" notAfter="1100" when="">xth or xith
+                                cent</origDate>
+                            <origPlace ref="" xml:lang=""/>
+                        </origin>
+                        <provenance/>
+                        <acquisition/>
+                    </history>
+                    <additional/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Content pending</p>
+        </encodingDesc>
+        <profileDesc/>
+        <revisionDesc status="draft">
+            <change when="2021-04-05" who="http://syriaca.org/documentation/editors.xml#ecgeitner"
+                >Initial TEI encoding.</change>
+            <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
+                encoding.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <formula>Content pending</formula>
+    </facsimile>
+    <text>
+        <body>
+            <bibl>Content pending</bibl>
+        </body>
+    </text>
+</TEI>
