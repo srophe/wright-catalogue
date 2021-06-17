@@ -15,9 +15,14 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
+        </respStmt>
+        <respStmt>
+          <resp>Created by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Based on the work of</resp>
@@ -25,8 +30,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay
-            Ruth</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"></name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -369,8 +373,8 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
             <msItem xml:id="p2a1" n="1">
+              <locus from="1" to="23"/>
               <title xml:lang="en">a Greek Evangelistarium</title>
-              <note>These leaves are all that remain of this text.</note>
               <note>The text is most distinctly legible on the upper half of foll. 19 and 20, which served as fly-leaves to the manuscript in its later form.</note>
             </msItem>
             </msContents>
@@ -383,7 +387,7 @@
                   <condition>
                     <list>
                       <item>
-                        <p>It is written in uncial characters, of the Egyptian type, with large initial letters. Of the rubrics some traces are still visible, e.g. foll. 1 b, 7 b, 11 a, 12 a, and 19 a and b. A few of the initials have also been coloured red,e.g. foll. 15 b and 17 b. About the end of the xth cent., these leaves were destroyed by a Syrian monk.</p>
+                        <p>These leaves are all that remain of this text. It is written in uncial characters, of the Egyptian type, with large initial letters. Of the rubrics some traces are still visible, e.g. foll. 1 b, 7 b, 11 a, 12 a, and 19 a and b. A few of the initials have also been coloured red,e.g. foll. 15 b and 17 b. About the end of the xth cent., these leaves were destroyed by a Syrian monk.</p>
                       </item>
                     </list>
                   </condition>
@@ -582,14 +586,14 @@
             </item>
             <item>
               <ref target="#Part2"/>
-              <ref target="#theology"/>  
+              <ref target=""/>
           </item>
           </list>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change when="2021-06-16" who="http://syriaca.org/documentation/editors.xml#lruth">CHANGED: Proofreading and copy editing</change>
+      <change when="2021-06-16" who="http://syriaca.org/documentation/editors.xml#lruth">CHANGED: Added MsParts for Palimpsest</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-04-19" who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
