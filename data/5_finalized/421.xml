@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -84,7 +84,7 @@
               
               
               <title xml:lang="en">The life of
-                                <persName>Eugenius</persName>
+                <persName ref="http://syriaca.org/person/1231">Eugenius</persName>
               </title>
               <finalRubric xml:lang="syr">ܫܠܡܸܬ ܬܫܥܝܬܐ ܕܪܒܘܬ ܢܨܚ̈ܢܘܗܝ ܕܩܕܝܫܐ ܡܪܝ ܐܘܓܝܢ
                                 ܪܝܫܐ ܕܝܚ̈ܝܕܝܐ ܕܟܠܗ̇ ܡܕܢܚܐ: ܕܘܟܪܢܗ ܠܒܘܪܟܬܐ ܕܗܢܐ ܥܡܘܕܐ ܕܢܘܗܪܐ ܘܐܣܦܝܪܐ
@@ -99,11 +99,11 @@
             <msItem xml:id="a2" n="2" defective="true">
               <locus from="48b"/>
               <title xml:lang="en">A discourse on
-                                <persName>Eugenius</persName>, written in the metre of
-                                    <persName>Jacob of Batnae</persName>
+                <persName ref="http://syriaca.org/person/1231">Eugenius</persName>, written in the metre of
+                <persName ref="http://syriaca.org/person/42">Jacob of Batnae</persName>
               </title>
               <rubric xml:lang="syr"> ܡܐܡܪܐ ܕܥܠ ܢܨܚ̈ܢܐ ܕܩܕܝܫܐ ܡܪܝ ܐܘܓܝܢ. ܕܥܒܝܕ ܒܢܝܫܐ
-                                ܕܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ܀ [These last four words are a later alteration.] </rubric>
+                                ܕܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ܀ <note>These last four words are a later alteration.</note> </rubric>
               <incipit xml:lang="syr">
                 <locus from="48b"/>ܓܙܐ ܕܚܘܒܗ ܦܬܚ ܒܪܘܝܐ
                                 ܠܒ̈ܢܝ ܒܝܬܗ: ܘܥܬܪܘ ܟܐ̈ܢܐ ܘܐܥܬܪܘ ܟܠܐ ܡܢ ܡܘܗܒܬܗ </incipit>
@@ -111,13 +111,12 @@
             <msItem xml:id="a3" n="3">
               <locus from="55a"/>
               <title xml:lang="en">A discourse on the parable of the Prodigal
-                                Son, written in the metre of <persName>Jacob of
+                Son, written in the metre of <persName ref="http://syriaca.org/person/42">Jacob of
                                 Batnae</persName>
               </title>
-              <rubric xml:lang="syr">ܕܝܠܗ ܕܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ ܕܥܠ ܗ̇ܘ ܒܪܐ ܐܣܘܛܐ ܕܦܲܪܚ
-                                ܢܟ̈ܣܘܗܝ</rubric>
+              <rubric xml:lang="syr">ܕܥܠ ܗ̇ܘ ܒܪܐ ܐܣܘܛܐ ܕܦܲܪܚ ܢܟ̈ܣܘܗܝ</rubric>
               <note>A note on the margin wrongly ascribes it to that writer
-                                himself</note>
+                himself:<foreign xml:lang="syr">ܕܝܠܗ ܕܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ</foreign></note>
               <incipit xml:lang="syr">ܠܪܒܢܘܬܐ ܕܣ̣ܦܪ̈ܝ ܪܘܚܐ ܒܥ̇ܝܬ ܕܐܬܬܠܡܕ݂. ܘܫܪܝܬ ܕܐܗܓܐ
                                 ܒܚܘܩܐ ܕܟܬܝܒ ܓܒܪܐ ܘܒܢ̈ܘܗܝ<locus from="55a"/>
                             </incipit>
@@ -136,7 +135,7 @@
               <author ref="http://syriaca.org/person/857">Jerome</author>
               <title xml:lang="en">The history of <persName>Paul of the
                                     Thebaid</persName>, written by
-                                <persName>Jerome</persName>
+                <persName ref="http://syriaca.org/person/857">Jerome</persName>
               </title>
               <rubric xml:lang="syr">
                 <locus from="65b"/>ܬܫܥܝܬܐ ܕܕܘܒܪܘܗܝ ܕܩܕܝܫܐ
@@ -149,11 +148,11 @@
               <locus from="75a"/>
               <author ref="http://syriaca.org/person/483">Evagrius</author>
               <title xml:lang="en">A short extract from
-                                    <persName>Evagrius</persName>
+                <persName ref="http://syriaca.org/person/483">Evagrius</persName>
               </title>
               <rubric xml:lang="syr">ܡܢ ܕܡܪܝ ܐܘܓܪܝܣ</rubric>
-              <note>See <bibl>Add. 14,578, no. 23.</bibl> Left unfinished by the
-                                    scribe. </note>
+              <note>See <bibl>Add. 14,578, no. 23.</bibl></note>
+              <note>Left unfinished by the scribe.</note>
             </msItem>
             <msItem xml:id="a7" n="7" defective="true">
               
@@ -178,7 +177,7 @@
               <msItem xml:id="b4" n="11">
                 <locus from="78b"/>
                 <title xml:lang="en">Reply to a bishop and doctor</title>
-                <rubric xml:lang="syr">ܦܬܓܡܐ ܕܠܘܬ ܐܦܣܩܘܦܐ ܘܡܠܦܢܐ</rubric>
+                <rubric xml:lang="syr">ܦܘܢܝ ܦܬܓܡܐ ܕܠܘܬ ܐܦܣܩܘܦܐ ܘܡܠܦܢܐ</rubric>
               </msItem>
               <msItem xml:id="b5" n="12">
                 <locus from="79b"/>
@@ -204,8 +203,9 @@
             </msItem>
             <msItem xml:id="a8" n="15">
               <locus from="82a"/>
+              <author><persName>Bar-ṣaumā the Hūzite</persName></author>
               <title xml:lang="en">A discourse on the Resurrection by the
-                                doctor <persName>Bar-saumā the Hūzite</persName>
+                doctor <persName>Bar-ṣaumā the Hūzite</persName>
               </title>
               <rubric xml:lang="syr">ܬܘܒ ܫܪܒܐ ܕܥܠ ܩܝܡܬܐ ܘܚܘܕܬܐ ܕܓܘܐ ܕܐܡܝܪ ܠܒܪܘܨܘܡܐ
                                 ܗܘܙܝܐ ܡܠܦܢܐ</rubric>
@@ -234,8 +234,8 @@
             </msItem>
             <msItem xml:id="a10" n="17">
               <locus from="92b"/>
-              <title xml:lang="en">The prayer of the martyr <persName>Thauma-
-                                    sius</persName>, used for healing the sick</title>
+              <title xml:lang="en">The prayer of the martyr <persName>Thaumasius</persName> (?), used
+                for healing the sick</title>
               <rubric xml:lang="syr">ܨܠܘܬܐ ܕܡܪܝ ܬܡܣܝܣ ܣܗܕܐ</rubric>
               <incipit xml:lang="syr">
                 <locus from="92b"/>ܒܫܡܗ ܕܡܪܢ ܝܫܘܥ ܡܫܝܚܐ
@@ -244,7 +244,6 @@
                                 ܗܕܐ̣ ܘܐܡ̣ܪ. ܒܥ̇ܢܐ ܡܢܟ ܡܪܝ ܕܟܠ ܒܪܢܫܐ ܕܟܪܣܛܝܢܐ ܐܝܬܗܘܝ: ܘܟܐܒ ܠܗ ܟܐܒܐ
                                 ܐܝܢܐ ܕܗ̣ܘ: ܘܒܫܡܗ ܕܡܪܝ ܬܡܣܝܣ ܣܗܕܐ ܙܗܝܐ ܘܩܕܝܫܐ ܟܬ̇ܒ ܘܬܠܐ ܥܠܘܗܝ̣.
                                 ܐܣܝܪܝܢ ܟܐܒ̈ܐ ܗܠܝܢ ܡܢܗ ܡܢ ܦܣܬ ܪܓܠܗ ܘܥܕܡܐ ܠ ܘܚܗ ܏ܘܫ.</incipit>
-              <note>ܠ ܘܚܗ needs to be double-checked</note>
             </msItem>
           </msContents>
                     <physDesc>
@@ -266,7 +265,7 @@
                                                 lost, and four leaves are missing after fol. 54.
                                                 There are from 17 to 29 lines in each page. This
                                                 volume is written in a regular, Nestorian hand, of
-                                                the ixth or xth cent. </p>
+                                                the <date calendar="Gregorian" notBefore="0800" notAfter="0900">ixth</date> or <date calendar="Gregorian" notBefore="0900" notAfter="1000">xth cent</date>. </p>
                                         </item>
                                     </list>
                                 </condition>
@@ -308,7 +307,7 @@
                 <item xml:id="addition3" n="3">
                                     <locus from="76b"/>
                                     <p>another note, on the same page, mentions that the book
-                                        belonged to the <placeName>convent of S. Mary
+                                      belonged to the <placeName ref="http://syriaca.org/place/360">convent of S. Mary
                                             Deipara</placeName>
                   </p>
                                     <p>
@@ -342,7 +341,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate notBefore="0800" notAfter="1000"/>
+                          <origDate notBefore="0800" notAfter="1000">the ixth or xth cent.</origDate>
                             <origPlace/>
                         </origin>
                         <provenance/>
