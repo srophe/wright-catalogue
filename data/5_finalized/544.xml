@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -102,31 +102,31 @@
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus from="4a"/>
-                <title xml:lang="en">The Annunciation of Zacharias</title>
+                <title xml:lang="en">The Annunciation of <persName ref="http://syriaca.org/person/2155">Zacharias</persName></title>
                 <rubric xml:lang="syr">ܕܣܘܒܪܗ ܕܙܟܪܝܐ</rubric>
                 
               </msItem>
               <msItem xml:id="b3" n="4">
                 <locus from="7a"/>
-                <title xml:lang="en">The Annunciation of the blessed Virgin</title>
+                <title xml:lang="en">The Annunciation of <persName ref="http://syriaca.org/person/624">the blessed Virgin</persName></title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܣܘܒܪܗ̇ ܕܝ̇ܠܕܬ݁ ܐܠܗܐ</rubric>
                 
               </msItem>
               <msItem xml:id="b4" n="5">
                 
-                <title ref="11a" xml:lang="en">The Visit of Mary to Elisabeth</title>
+                <title ref="11a" xml:lang="en">The Visit of <persName ref="http://syriaca.org/person/624">Mary</persName> to <persName>Elisabeth</persName></title>
                 <rubric xml:lang="syr">ܕܡ̣ܐܙܠܬܐ </rubric>
                 
               </msItem>
               <msItem xml:id="b5" n="6">
                 <locus from="13a"/>
-                <title xml:lang="en">The Nativity of S. John the Baptist</title>
+                <title xml:lang="en">The Nativity of <persName ref="http://syriaca.org/person/1808">S. John the Baptist</persName></title>
                 <rubric xml:lang="syr">ܕܡ̇ܘܠܕܗ ܕܝܘܚܢܢ ܡ̇ܥܡܕܢܐ</rubric>
                 
               </msItem>
               <msItem xml:id="b6" n="7">
                 <locus from="16a"/>
-                <title xml:lang="en">The Revelation of S. Joseph</title>
+                <title xml:lang="en">The Revelation of <persName ref="http://syriaca.org/person/1838">S. Joseph</persName></title>
                 <rubric xml:lang="syr">ܕܓܠܝܢܗ ܕܝܘܣܦ</rubric>
                 
               </msItem>
@@ -138,7 +138,7 @@
               </msItem>
               <msItem xml:id="b8" n="9">
                 <locus from="22b"/>
-                <title xml:lang="en">The Commemoration of the blessed Virgin</title>
+                <title xml:lang="en">The Commemoration of <persName ref="http://syriaca.org/person/624">the blessed Virgin</persName></title>
                 <rubric xml:lang="syr">ܒܕܘܟܪܢܐ ܕܝ̇ܠܕܬ݁ ܐܠܗܐ</rubric>
                 
               </msItem>
@@ -158,17 +158,17 @@
                 <locus from="33a"/>
                 <title xml:lang="en">The Epiphany</title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܕܢܚܐ</rubric>
-                <note>See Additions</note>
+                <note><ref target="#addition3">See Additions</ref></note>
               </msItem>
               <msItem xml:id="b12" n="13">
                 <locus from="40b"/>
-                <title xml:lang="en">The Decollation of S. John the Baptist</title>
+                <title xml:lang="en">The Decollation of <persName ref="http://syriaca.org/person/1808">S. John the Baptist</persName></title>
                 <rubric xml:lang="syr">ܕܦܣ̇ܩ ܪܝܫܗ ܕܝܘܚܢܢ ܡ̇ܥܡܕܢܐ</rubric>
                 
               </msItem>
               <msItem xml:id="b13" n="14">
                 <locus from="43b"/>
-                <title xml:lang="en">S. Stephen the protomartyr</title>
+                <title xml:lang="en"><persName ref="http://syriaca.org/person/1711">S. Stephen</persName> the protomartyr</title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܥܠ ܡܪܝ ܐܣܛܦܢܘܣ ܪܝܫܐ ܕܣܗ̈ܕܐ</rubric>
                 
               </msItem>
@@ -176,6 +176,7 @@
                 <locus from="46a"/>
                 <title xml:lang="en">The first Sunday after the Epiphany</title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܒܬܪ ܕܢܚ̣ܐ </rubric>
+                <note>Imperfect at the end</note>
                 
               </msItem>
               <msItem xml:id="b15" n="16" defective="true">
@@ -279,8 +280,7 @@
               </msItem>
               <msItem xml:id="b27" n="36">
                 <locus from="114b"/>
-                <title xml:lang="en">The sixth Sunday of Lent</title>
-                <title>The Sunday of the Miracles in Lent</title>
+                <title xml:lang="en">The sixth Sunday, or that of the Miracles</title>
                 <rubric xml:lang="syr">ܕܚܕܒܫܒܐ ܕܐܫܬܐ ܕܬܕܡܪ̈ܬܐ</rubric>
                 
                 <msItem xml:id="c9" n="37">
@@ -292,7 +292,7 @@
                 </msItem>
                 <msItem xml:id="c10" n="38">
                   <locus from="121b"/>
-                  <title xml:lang="en">The Saturday of the Resurrection of Lazarus</title>
+                  <title xml:lang="en">The Saturday of the Resurrection of <persName>Lazarus</persName></title>
                   <rubric xml:lang="syr">ܕܫܒܬܐ ܕܢܘܚܡܗ ܕܠܥܙܪ</rubric>
                   
                 </msItem>
@@ -309,7 +309,7 @@
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܫܐ ܦܪܘܩܝܐ</rubric>
                 
                 <msItem xml:id="c11" n="41">
-                  
+                  <locus from="130a"/>
                   <title xml:lang="en">Monday of Holy Week</title>
                   
                   
@@ -329,7 +329,7 @@
                 <msItem xml:id="c14" n="44">
                   <locus from="139a"/>
                   <title xml:lang="en">Thursday of Holy Week</title>
-                  <rubric xml:lang="syr">ܕܝܘܡ ܚܡܫܐ ܕܪܐܙܐ</rubric>
+                  <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܝܘܡ ܚܡܫܐ ܕܪܐܙܐ</rubric>
                   
                 </msItem>
                 <msItem xml:id="c15" n="45">
@@ -340,7 +340,7 @@
                 </msItem>
                 <msItem xml:id="c16" n="46">
                   <locus from="147b"/>
-                  <title xml:lang="en">The adoration of the Cross</title>
+                  <title xml:lang="en">The adoration of <persName ref="http://syriaca.org/person/1661">the Cross</persName></title>
                   <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܣܓܕܬܐ ܕܨܠܝܒܐ</rubric>
                   
                 </msItem>
@@ -436,13 +436,13 @@
               </msItem>
               <msItem xml:id="b43" n="61">
                 <locus from="197a"/>
-                <title xml:lang="en">The Decease of the blessed Virgin Mary</title>
+                <title xml:lang="en">The Decease of <persName ref="http://syriaca.org/person/624">the blessed Virgin Mary</persName></title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܫܘܢܝܗ̇ ܕܝ̇ܠܕܬ݁ ܐܠܗܐ ܡܪܝܡ</rubric>
                 
               </msItem>
               <msItem xml:id="b44" n="62">
                 <locus from="201a"/>
-                <title xml:lang="en">The Festival of the holy Cross</title>
+                <title xml:lang="en">The Festival of <persName ref="http://syriaca.org/person/1661">the holy Cross</persName></title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܥܐܕܐ ܕܨܠܝܒܐ ܦܪܘܩܝܐ</rubric>
                 
               </msItem>
@@ -450,7 +450,7 @@
                 <locus from="206a"/>
                 <title xml:lang="en">The Consecration of the Water</title>
                 <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܒܘܪܟ ܡ̈ܝܐ </rubric>
-                <note>See #11</note>
+                <note>See no.11</note>
               </msItem>
             </msItem>
           </msContents>
@@ -470,7 +470,7 @@
                         number. A later hand has numbered the leaves. One leaf is wanting after fol.
                         48, and another after fol. 160. Each page is divided into two columns, of 18
                         lines. This volume is written in a good, regular Estrangela, with numerous
-                        Greek and Syriac vowels and other points; dated A. Gr. 1566, A.D. 1255;</p>
+                        Greek and Syriac vowels and other points; dated <date datingMethod="Seleucid" when-custom="1566">A. Gr. 1566</date>, <date calendar="Gregorian" when="1255">A.D. 1255</date>;</p>
                     </item>
                   </list>
                 </condition>
@@ -490,11 +490,10 @@
                 <item xml:id="addition1" n="1">
                   <locus from="205b"/>
                   <p>On fol. 205 b there is a note, stating that this volume and its companion were
-                    written in the year 1566, A.D. 1255, in the convent of S. Mary Deipara, by a
-                    monk named Bacchus. At this time Rabban Yeshūa’ was abbat of the convent, and
-                    Athanasius was patriarch of Egypt. @[ See Renaudot, Hist. Patr. Alexandrin.
-                    Jacobit, p. 599; Le Quien, Oriens Christ., t. ii., col. 493]@ The see of Antioch
-                    was then vacant.</p>
+                    written in the year <date datingMethod="Seleucid" when="1566">1566</date>, <date calendar="Gregorian" when="1255">A.D. 1255</date>, in <placeName ref="http://syriaca.org/place/360">the convent of S. Mary Deipara</placeName>, by a
+                    monk named <persName>Bacchus</persName>. At this time <persName>Rabban Yeshūa’</persName> was abbat of the convent, and
+                    <persName>Athanasius</persName> was patriarch of Egypt.<note>See <bibl>Renaudot, Hist. Patr. Alexandrin.
+                      Jacobit, p. 599</bibl>; <bibl>Le Quien, Oriens Christ., t. ii., col. 493</bibl></note> The see of <placeName ref="http://syriaca.org/place/10">Antioch</placeName> was then vacant.</p>
                   <p>
                     <quote xml:lang="syr">ܫܩ̣ܠܬ݀ ܣܟܐ ܘܫܘܡܠܝܐ̣. ܦܠܓܘܬܐ ܗܕܐ ܩܕܡܝܬܐ ܕܦܘܪܫ ܩܪ̈ܝܢܐ ܕܟܠܗ̇ ܫ̇ܢ̣ܬܐ̣. ܕܚܕܒܫ̈ܒܐ
                       ܘܕܥ̈ܐܕܐ ܡܪ̈ܐܢܝܐ. ܥܡ ܚܒܪܬܗ̇. ܒܫܢܬ ܐܠܦ ܘܚܡܫ̈ܡܐܐ ܘܐܫ̈ܬܝܢ ܘܫܝܬ ܕܝ̈ܘܢܝܐ ܢܟ̈ܝ̣ܠܐ.
@@ -505,7 +504,7 @@
                       ܐܡ̣ܝܪܐ. ܐܟܡ̇ܢ ܕܢܩ̣ܪܘܢ ܘܢܫ̇ܡܫܘܢ ܒܗ̈ܝܢ. ܘܢܨ̇ܠܘܢ ܥܠܘܗܝ ܘܥܠ ܐܒܗ̈ܘܗܝ. ܘܕܢܗ̣ܘܐ ܠܗ
                       ܥܘܗܕܢܐ ܘܫܘܬܦܘܬܐ. ܒܨ̈ܠܘܬܐ ܘܒܬܫ̈ܡܫܬܐ ܘܒܩܘܪ̈ܒܐ ܕܡܫ̇ܬܡܠܝܢ ܒܕܝܪܐ ܗܕܐ ܩܕܝܫܬܐ̣. ܥܕܡܐ
                       ܠܥܠܡ܀ ܘܒ̇ܥܐ ܐܢ̣ܐ ܘܡܬܟ݁ܫܦ ܐܢ̣ܐ ܟܕ ܡܬܓܪܓܚ ܐܢ̣ܐ ܩܕܡ ܟܠ ܐܚܐ ܦܪܘܫܐ̣. ܕܩ̇ܪܐ ܒܗܘܢ ܐ̇ܘ
-                      ܡ̇ܐܨܚ ܡܢܗܘܢ. ܕܐܢ ܢܫܟ̣ܚ ܦܘܕܐ ܐܘ̇ ܓܠܛܐ (%) ܢܬܪܨ ܒܚܘܼܒܐ̣ ܘܠܐ ܢܥ̣ܕܘܠ ܠܥܕܝ̣ܠܐ
+                      ܡ̇ܐܨܚ ܡܢܗܘܢ. ܕܐܢ ܢܫܟ̣ܚ ܦܘܕܐ ܐܘ̇ ܓܠܛܐ <foreign xml:lang="ar">(غَلَط)</foreign> ܢܬܪܨ ܒܚܘܼܒܐ̣ ܘܠܐ ܢܥ̣ܕܘܠ ܠܥܕܝ̣ܠܐ
                       ܘܡܚ̇ܝܒܐ. ܡܛܠ ܕܟܠ ܒܪܝܐ̣ ܚܲܣܝܪ. ܘܠܝܬ ܐܢܫ ܡܫܲܡܠܝܐ̣. ܐܠܐ ܐܢ ܐܠܗܐ ܒܠܚܘܕ܀ ܘܐܢܬܘܢ
                       ܐܒ̈ܗܝ ܘܐܚ̈ܝ܆ ܦܠܓܐ ܚܝܠ̣ܬܢܝܬܐ ܘܟܢܘܫܝܐ ܕܕܝܪ̈ܝܐ ܢܟܦ̈ܐ ܘܩ̈ܕܝܫܐ. ܘܝܚ̈ܝ̣ܕܝܐ ܒܚܝܪ̈ܐ
                       ܘܐܟ̈ܣܢܝܐ ܫܪܝܪ̈ܐ. ܥܡ ܪܝܫܕܝܪܐ ܡܝܩܪܐ. ܡܬܚ̣ܢܢܢ ܐܢ̣ܐ ܟܕ ܡܬܓ݁ܪܓܚ ܐܢ̣ܐ ܩܕܡܝܟܘܢ. ܕܠܐ
@@ -552,7 +551,8 @@
           </physDesc>
           <history>
             <origin>
-              <origDate when="1255"/>
+              <origDate calendar="Gregorian" when="1255">A.D. 1255</origDate>
+              <origDate datingMethod="Seleucid" when-custom="1566">A. Gr. 1566</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -745,6 +745,7 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
+      <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
