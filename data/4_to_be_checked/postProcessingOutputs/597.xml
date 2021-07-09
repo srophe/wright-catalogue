@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
@@ -80,66 +79,48 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
               <locus from="103" to="130">Foll. 103-130</locus>
-              <author/>
-              <title ref="" type="supplied">
+              <title type="supplied">
                 <!-- Needs Translation from Syriac --> Part 1</title>
               <rubric xml:lang="syr">ܦܠܓܘܬܐ ܩܕܡܝܬܐ <locus from="103a" to="103a"/>
               </rubric>
-              <colophon/>
               <note>Choir-book containing hymns (<foreign xml:lang="syr">ܩ̈ܠܐ,ܡܕܪ̈ܫܐ</foreign>) and
                 prayers (<foreign xml:lang="syr">ܒܥ̈ܘܬܐ</foreign>) for the following
                 occasions.</note>
               <msItem xml:id="b1" n="2" defective="true">
                 <locus from="103a" to="111b">Foll. 103a-111b</locus>
-                <author/>
-                <title ref="" type="supplied">The Decease of the <persName ref="http://syriaca.org/person/624">blessed Virgin</persName>
+                <title type="supplied">The Decease of the <persName ref="http://syriaca.org/person/624">blessed Virgin</persName>
                 </title>
                 <rubric xml:lang="syr">ܕܫܘܢܝܗ̇ ܕܝܠܕܬ ܐܠܗܐ <locus from="103a" to="103a"/>
                 </rubric>
-                <finalRubric xml:lang="syr"/>
-                <colophon/>
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
                 <locus from="112a" to="114">Foll. 112a-114</locus>
-                <author/>
-                <title ref="" type="supplied">The Feast of Tabernacles, or the Transfiguration of
+                <title type="supplied">The Feast of Tabernacles, or the Transfiguration of
                     <persName ref="http://syriaca.org/person/2245">our Lord</persName>
                 </title>
                 <rubric xml:lang="syr">ܕܥܐܕܐ ܕܡ̈ܛܠܠܐ<locus from="112a" to="112a"/>
                 </rubric>
-                <finalRubric xml:lang="syr"/>
-                <colophon/>
               </msItem>
               <msItem xml:id="b3" n="4" defective="true">
                 <locus from="114a" to="117b">Foll. 114a-117b</locus>
-                <author/>
-                <title ref="" type="supplied">The Feast of the holy Cross</title>
+                <title type="supplied">The Feast of the holy Cross</title>
                 <rubric xml:lang="syr">ܕܥܐܕܐ ܕܨܠܝܒܐ<locus from="114a" to="114a"/>
                 </rubric>
-                <finalRubric xml:lang="syr"/>
-                <colophon/>
               </msItem>
               <msItem xml:id="b4" n="5" defective="true">
                 <locus from="118a" to="119b">Foll. 118a-119b</locus>
-                <author/>
-                <title ref="" type="supplied">The Consecration of the Church</title>
+                <title type="supplied">The Consecration of the Church</title>
                 <rubric xml:lang="syr">ܕܩܘܕܫ ܥܕܬܐ<locus from="118a" to="118a"/>
                 </rubric>
-                <finalRubric xml:lang="syr"/>
-                <colophon/>
               </msItem>
               <msItem xml:id="b5" n="6" defective="true">
                 <locus from="120a" to="130">Foll. 120a-130</locus>
-                <author/>
-                <title ref="" type="supplied">The six Sundays in Lent</title>
+                <title type="supplied">The six Sundays in Lent</title>
                 <rubric xml:lang="syr">ܕܚܕܒ̈ܫܒܐ ܕܨܘܡܐ<locus from="120a" to="120a"/>
                 </rubric>
-                <finalRubric xml:lang="syr"/>
-                <colophon/>
               </msItem>
             </msItem>
           </msContents>
@@ -387,6 +368,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2015-12-06" who="http://syriaca.org/editors.xml#jdeboer">Created: file</change>
     </revisionDesc>

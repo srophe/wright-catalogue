@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
@@ -80,24 +79,9 @@
             </altIdentifier>
           </msIdentifier>
                <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="" from=""/>
-              <author ref=""/>
-              <title ref="" xml:lang="en">Fragments of a Choral Service-book</title>
-              <rubric xml:lang="syr"/>
-              <incipit xml:lang="syr"/>
-              <quote xml:lang="syr">
-                        <locus from="" to=""/>
-                     </quote>
-              <explicit xml:lang="syr">
-                        <locus to="" from=""/>
-                     </explicit>
-              <finalRubric xml:lang="syr">
-                <locus to="" from=""/>
-              </finalRubric>
-              <note/>
+              <title xml:lang="en">Fragments of a Choral Service-book</title>
             </msItem>
           </msContents>
                <physDesc>
@@ -130,7 +114,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                           <locus from="" to=""/>
+                           <locus/>
                            <p>The colophon is much effaced, but it appears that the name of the
                               writer was <persName>Bar-saumā bar 'Isā,</persName> from
                                  <placeName>the village of Bā-Cūdīdā, near
@@ -175,10 +159,10 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="" notAfter="" from="" to="" when="1175">A.D.
+                     <origDate when="1175">A.D.
                         1175</origDate>
-                     <origDate datingMethod="Seleucid" notBefore-custom="" notAfter-custom="" from-custom="" to-custom="" when-custom="1486">A Gr. 1686</origDate>
-                     <origPlace ref="" xml:lang=""/>
+                     <origDate datingMethod="Seleucid" when-custom="1486">A Gr. 1686</origDate>
+                     <origPlace/>
                   </origin>
                   <provenance/>
                   <acquisition/>
@@ -367,7 +351,8 @@
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
-         <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+         <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-07-25" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
          <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs

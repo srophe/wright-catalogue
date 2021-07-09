@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
@@ -80,27 +79,14 @@
             </altIdentifier>
           </msIdentifier>
                <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="" from=""/>
               <author ref="http://syriaca.org/person/44">Philoxenus of <placeName ref="http://syriaca.org/place/122">Mabūg</placeName>
               </author>
-              <title ref="" xml:lang="en">Portions of a controversial treatise against the
+              <title xml:lang="en">Portions of a controversial treatise against the
                         Nestorians, in the form of a dialogue between the Church (<quote xml:lang="syr-Syre">ܥܕܬܐ</quote>) and a Nestorian (<quote xml:lang="syr-Syre">ܢܣܛܘܪ</quote>), by <persName ref="http://syriaca.org/person/44">Philoxenus of <placeName ref="http://syriaca.org/place/122">Mabūg</placeName>
                 </persName>
               </title>
-              <rubric xml:lang="syr"/>
-              <incipit xml:lang="syr"/>
-              <quote xml:lang="syr">
-                        <locus from="" to=""/>
-                     </quote>
-              <explicit xml:lang="syr">
-                        <locus to="" from=""/>
-                     </explicit>
-              <finalRubric xml:lang="syr">
-                <locus to="" from=""/>
-              </finalRubric>
               <note>Compare <bibl>Assemani, Bibl. Or., t. ii., p. 45, no. 15</bibl>.</note>
               <note>We have here part of the introduction and the commencement of the
                         disputation.</note>
@@ -140,7 +126,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                           <locus from="" to=""/>
+                           <locus/>
                            <p/>
                            <p>
                     <quote xml:lang="syr"/>
@@ -158,8 +144,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="" notAfter="" from="" to="" when=""/>
-                     <origPlace ref="" xml:lang=""/>
+                     <origDate/>
+                     <origPlace/>
                   </origin>
                   <provenance/>
                   <acquisition/>
@@ -348,7 +334,8 @@
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
-         <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+         <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-06-27" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
       </revisionDesc>

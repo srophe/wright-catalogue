@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
@@ -80,26 +79,12 @@
             </altIdentifier>
           </msIdentifier>
                <msContents>
-            <summary/>
             <textLang mainLang="syr-Syre"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="" from=""/>
-              <author ref=""/>
-              <title ref="" xml:lang="en">The book of Genesis, translated from the Septuagint
+              <title xml:lang="en">The book of Genesis, translated from the Septuagint
                         by <persName ref="http://syriaca.org/person/82">Paul, bishop of <placeName ref="http://syriaca.org/place/200">Tellā or
                            Constantina</placeName>
                 </persName>.</title>
-              <rubric xml:lang="syr"/>
-              <incipit xml:lang="syr"/>
-              <quote xml:lang="syr">
-                        <locus from="" to=""/>
-                     </quote>
-              <explicit xml:lang="syr">
-                        <locus to="" from=""/>
-                     </explicit>
-              <finalRubric xml:lang="syr">
-                <locus to="" from=""/>
-              </finalRubric>
               <note>See <bibl>Monumenta Sacra et Profana opera Collegii Doctorum Bibl.
                            Ambros., tom. i. fasc. i. Prolegomena in editionem versionis Syriacae ex
                            textu LXX., p. iii. “Paulus Episcopus Monophysita Telae Mauslath, aliorum
@@ -151,7 +136,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                           <locus from="" to=""/>
+                           <locus/>
                            <p>A summary of the contents, <foreign xml:lang="syr">ܩ̈ܦܠܐܐ
                                  ܕܒܪܝܬܐ</foreign>, is prefixed, fol. 2a [ <bibl>See Chrysostom,
                                  Synopsis Scripturae Sacrae ; Opera, ed. 1834-8, t. vi. p. 373;
@@ -162,7 +147,7 @@
                   </p>
                         </item>
                 <item xml:id="addition2" n="2">
-                           <locus from="" to=""/>
+                           <locus/>
                            <p>Several portions of the capitula are missing, as also the following
                               passages of the text: ch. i. 1—iv. 8, ix. 24— xvi. 2, xvi. 12 — xx. 1,
                               xx. 13 — xxxi. 53, xxxii. 12 — xxxvi. 2, xl. I8 — xliii. 1, and xlvii.
@@ -172,7 +157,7 @@
                            </p>
                         </item>
                 <item xml:id="addition3" n="3">
-                           <locus from="46b" to=""/>
+                           <locus from="46b"/>
                            <p>Subscription.</p>
                            <p>
                               <quote xml:lang="syr-Syre">ܫܠܡ ܟܬܒܐ ܕܒܪܝܬܐ̣. ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܫܒܥܝܢ
@@ -180,7 +165,7 @@
                            </p>
                         </item>
                 <item xml:id="addition4" n="4">
-                           <locus from="" to=""/>
+                           <locus/>
                            <p>The lessons are rubricated in the text, the end of each being
                               indicated by <foreign from="syr">ܫ</foreign>. In the <foreign from="syr">ܩ̈ܦܠܐܐ</foreign> they are noted on the margins.</p>
                            <p>
@@ -188,7 +173,7 @@
                            </p>
                         </item>
                 <item xml:id="addition5" n="5">
-                           <locus from="" to=""/>
+                           <locus/>
                            <p>The text exhibits the critical marks of the <bibl>Hexapla</bibl> of
                                  <persName>Origen</persName>; and the margins contain the various
                               readings of <persName>Aquila</persName> (<foreign xml:lang="syr">ܐ</foreign>), <persName>Symmachus</persName> (<foreign from="syr">ܣ</foreign>), and <persName>Theodotion</persName> (<foreign from="syr">ܬ</foreign>)</p>
@@ -197,7 +182,7 @@
                            </p>
                         </item>
                 <item xml:id="addition6" n="6">
-                           <locus from="" to=""/>
+                           <locus/>
                            <p>There are glosses upon some words (e. g. <locus from="24a">foll. 24
                                  a</locus>, <locus from="25a">25 a</locus>, <locus from="27b">27
                                  b</locus>, <locus from="29a">29 a</locus>, <locus from="30a">30
@@ -207,7 +192,7 @@
                            </p>
                         </item>
                 <item xml:id="addition7" n="7">
-                           <locus from="" to=""/>
+                           <locus/>
                            <p>There a good many Greek vocables, written in not inelegant
                               characters.</p>
                            <p>
@@ -215,14 +200,14 @@
                            </p>
                         </item>
                 <item xml:id="addition8" n="8">
-                           <locus from="" to=""/>
+                           <locus/>
                            <p>The tetragrammaton is expressed by <foreign xml:lang="syr">ܦܝܦܝ</foreign>.</p>
                            <p>
                               <quote xml:lang="syr"/>
                            </p>
                         </item>
                 <item xml:id="addition9" n="9">
-                           <locus from="" to=""/>
+                           <locus/>
                            <p>The fly-leaf, fol. 1, has on the one side the word <foreign xml:lang="syr">ܬܠܝܬܝܘܬܐ</foreign> in large open letters; and on the
                               other side, a rudely drawn portrait of a saint, with some almost
                               effaced lines of modern writing beneath.</p>
@@ -242,9 +227,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="0600" notAfter="0700" from="" to="" when="">viith
+                     <origDate notBefore="0600" notAfter="0700">viith
                         cent.</origDate>
-                     <origPlace ref="" xml:lang=""/>
+                     <origPlace/>
                   </origin>
                   <provenance/>
                   <acquisition/>
@@ -433,7 +418,8 @@
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
-         <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+         <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-06-24" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
          <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs

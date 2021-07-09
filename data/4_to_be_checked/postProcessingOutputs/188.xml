@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
@@ -80,26 +79,21 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
               <locus from="1a" to="161">Foll. 1a-161</locus>
-              <author/>
               <title type="supplied">A Sacerdotal</title>
               <rubric xml:lang="syr">ܦܢܩܝܬܐ ܕܩ̈ܫܝܫܐ <locus from="1a" to="1"/>
               </rubric>
               <msItem xml:id="b1" n="2" defective="true">
                 <locus from="1a" to="43">Foll. 1a-43</locus>
-                <author/>
                 <title type="supplied">A collection of Anaphoras</title>
                 <msItem xml:id="c1" n="3" defective="true">
                   <locus from="1a" to="8">Foll. 1a-8</locus>
-                  <author/>
                   <title type="supplied">Introductory prayers, prooemia and sedras</title>
                 </msItem>
                 <msItem xml:id="c2" n="4">
                   <locus from="8a" to="21">Foll. 8a-21</locus>
-                  <author/>
                   <title type="supplied">The Anaphora of <persName>S. James</persName>
                   </title>
                   <rubric xml:lang="syr">ܐܢܐܦܘܪܐ ܕܚܣܝܐ ܘܩܕܝܫܐ ܡܪܝ ܝܥܩܘܒ ܐܚܘܗܝ ܕܡܪܢ <locus from="8a" to="8"/>
@@ -107,7 +101,6 @@
                 </msItem>
                 <msItem xml:id="c3" n="5">
                   <locus from="21b" to="34">Foll. 21b-34</locus>
-                  <author/>
                   <title type="supplied">The Anaphora of <persName>Clement</persName>
                   </title>
                   <rubric xml:lang="syr">ܐܘܟܝܬ ܩܘܪܒܐ ܕܩܕܝܫܐ ܩܠܡܝܣ <locus from="21b" to="21"/>
@@ -115,7 +108,6 @@
                 </msItem>
                 <msItem xml:id="c4" n="6">
                   <locus from="34a" to="40">Foll. 34a-40</locus>
-                  <author/>
                   <title type="supplied">The Anaphora of <persName ref="http://syriaca.org/person/2018">Eustathius</persName>
                   </title>
                   <rubric xml:lang="syr">ܐܢܐܦܘܪܐ ܕ܏ܩܕ ܐܣܛܐܬܝܘܣ ܐܦܝܣܩܘܦܐ ܕܪܘܡܝ <locus from="34a" to="34"/>
@@ -123,7 +115,6 @@
                 </msItem>
                 <msItem xml:id="c5" n="7">
                   <locus from="40a" to="43b">Foll. 40a-43b</locus>
-                  <author/>
                   <title type="supplied">The Benediction of the Chalice, of
                       <persName>Severus</persName>
                   </title>
@@ -135,13 +126,11 @@
               </msItem>
               <msItem xml:id="b2" n="8">
                 <locus from="43b" to="86">Foll. 43b-86</locus>
-                <author/>
                 <title type="supplied">A collection of Sedras and Prayers for the feasts of the
                   whole year</title>
               </msItem>
               <msItem xml:id="b3" n="9">
                 <locus from="86b" to="158">Foll. 86b-158</locus>
-                <author/>
                 <title type="supplied">A collection of Sedras and Prayers for other
                   occasions</title>
                 <msItem xml:id="c6" n="10">
@@ -173,7 +162,6 @@
               </msItem>
               <msItem xml:id="b4" n="11">
                 <locus from="158" to="160">foll. 158-160</locus>
-                <author/>
                 <title type="supplied">Some prayers, written by different hands.</title>
                 <msItem xml:id="c7" n="12">
                   <locus from="161a" to="161">foll. 161a-161</locus>
@@ -459,6 +447,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2015-06-23" who="http://syriaca.org/editors.xml#adoenges">Created: file</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>

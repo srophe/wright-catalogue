@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
@@ -80,43 +79,16 @@
             </altIdentifier>
           </msIdentifier>
                <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="" from=""/>
-              <author ref=""/>
-              <title ref="" xml:lang="en">Lessons for the Commemoration of the
+              <title xml:lang="en">Lessons for the Commemoration of the
                         Apostles</title>
               <rubric xml:lang="syr">ܒܕܘܟܪܢܐ ܕܫ̈ܠܝܚܐ</rubric>
-              <incipit xml:lang="syr"/>
-              <quote xml:lang="syr">
-                        <locus from="" to=""/>
-                     </quote>
-              <explicit xml:lang="syr">
-                        <locus to="" from=""/>
-                     </explicit>
-              <finalRubric xml:lang="syr">
-                <locus to="" from=""/>
-              </finalRubric>
-              <note/>
             </msItem>
             <msItem xml:id="a2" n="2">
-              <locus to="" from=""/>
-              <author ref=""/>
-              <title ref="" xml:lang="en">Lessons for the Commemoration of <persName ref="http://syriaca.org/person/744">Simeon Stylites</persName>
+              <title xml:lang="en">Lessons for the Commemoration of <persName ref="http://syriaca.org/person/744">Simeon Stylites</persName>
               </title>
               <rubric xml:lang="syr">ܕܫܡܥܘܢ ܕܐܣܛܘܢܗ</rubric>
-              <incipit xml:lang="syr"/>
-              <quote xml:lang="syr">
-                        <locus from="" to=""/>
-                     </quote>
-              <explicit xml:lang="syr">
-                        <locus to="" from=""/>
-                     </explicit>
-              <finalRubric xml:lang="syr">
-                        <locus to="" from=""/>
-                     </finalRubric>
-              <note/>
             </msItem>
           </msContents>
                <physDesc>
@@ -149,7 +121,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                           <locus from="" to=""/>
+                           <locus/>
                            <p/>
                            <p>
                     <quote xml:lang="syr"/>
@@ -167,8 +139,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="1200" notAfter="1300" from="" to="" when=""/>
-                     <origPlace ref="" xml:lang=""/>
+                     <origDate notBefore="1200" notAfter="1300"/>
+                     <origPlace/>
                   </origin>
                   <provenance/>
                   <acquisition/>
@@ -357,7 +329,8 @@
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
-         <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+         <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-08-01" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
          <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
