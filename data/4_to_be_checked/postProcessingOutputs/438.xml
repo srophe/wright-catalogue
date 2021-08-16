@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
@@ -80,25 +79,23 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus to="" from="1a"/>
-              <title ref="" xml:lang="en">A tract concerning Apostates from Christianity to
+              <locus from="1a"/>
+              <title xml:lang="en">A tract concerning Apostates from Christianity to
                 Islamism</title>
               <rubric xml:lang="syr">ܫܪܒܐ ܕܥܠ ܟܦܘܪ̈ܐ</rubric>
               <note>which is introductory to the following item</note>
               <msItem xml:id="b1" n="2">
-                <locus to="" from="3b"/>
-                <author ref=""/>
-                <title ref="" xml:lang="en">An account of the martyr <persName ref="http://syriaca.org/person/1187">Cyrus</persName> (?) or
+                <locus from="3b"/>
+                <title xml:lang="en">An account of the martyr <persName ref="http://syriaca.org/person/1187">Cyrus</persName> (?) or
                     <persName>Curius</persName> (?) of <placeName ref="http://syriaca.org/place/216">Harrān</placeName>, who suffered in the year <date datingMethod="Seleucid" when-custom="1081">1081</date>, <date calendar="Gregorian" when="0770">A.D.
                     770</date>
                 </title>
                 <rubric xml:lang="syr">
-                  <locus to="" from="4a"/>ܬܘܒ ܕܥܠ ܣܗܕܐ ܩܘܪܝܣ ܗ̇ܘ ܕܗ̣ܘ ܥܠܬܐ
+                  <locus from="4a"/>ܬܘܒ ܕܥܠ ܣܗܕܐ ܩܘܪܝܣ ܗ̇ܘ ܕܗ̣ܘ ܥܠܬܐ
                   ܠܫܪܒܐ ܗܢܐ</rubric>
-                <quote xml:lang="syr">ܫܢܬ ܐܠܦܐ ܘܬܡܢܝܢ ܘܚܕܐ ܐܣܗܕ ܩܕܝܫܐ ܘܣܗܕܐ ܩܘܪܝܣ ܚܪܢܝܐ<locus from="3b" to=""/>
+                <quote xml:lang="syr">ܫܢܬ ܐܠܦܐ ܘܬܡܢܝܢ ܘܚܕܐ ܐܣܗܕ ܩܕܝܫܐ ܘܣܗܕܐ ܩܘܪܝܣ ܚܪܢܝܐ<locus from="3b"/>
                 </quote>
                 <note>These leaves are palimpsest.</note>
               </msItem>
@@ -135,7 +132,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="" to=""/>
+                  <locus/>
                   <p>1. Foll.1, 2, and 5—7 are fragments of a Greek manuscript of the book of Ezekiel,
                     written in double columns, with 21 lines on each page. The character is a
                     slanting uncial of the viiith cent. a. Fol. 1 is a very small fragment, on which
@@ -150,7 +147,7 @@
                   </p>
                 </item>
                 <item xml:id="addition2" n="2">
-                  <locus from="" to=""/>
+                  <locus/>
                   <p>2. a. Fol. 3 is a leaf from a Greek manuscript of the 3d (1st) book of Kings,
                     written in double columns, with 28 lines in each page. The character is an
                     upright, Coptic uncial of the vth or vith cent. It contains ch. viii. 58, %—ch.
@@ -163,7 +160,7 @@
                   </p>
                 </item>
                 <item xml:id="addition3" n="3">
-                  <locus from="" to=""/>
+                  <locus/>
                   <p>3. Fol. 4 is a leaf from a Greek manuscript of the 3d (1st) book of Kings,
                     written in double columns, with 19 lines on each page. The character is a large,
                     regular uncial of the vith cent. It contains ck. xxi. 26, %—31, %.</p>
@@ -183,7 +180,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0900" notAfter="1100" from="" to="" when="">xth or xith
+              <origDate notBefore="0900" notAfter="1100">xth or xith
                 cent</origDate>
             </origin>
             <provenance/>
@@ -373,6 +370,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-16-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-16-04:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-06-17" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
         encoding.</change>
