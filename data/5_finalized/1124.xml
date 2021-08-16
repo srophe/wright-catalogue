@@ -15,10 +15,15 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</editor>   
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</name>
         </respStmt>
+        <respStmt>
+          <resp>Created by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
+        </respStmt>   
         <respStmt>
           <resp>Based on the work of</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
@@ -81,19 +86,61 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <title xml:lang="en">The Hymns of <persName>Severus, patriarch of
-                              <placeName>Antioch</placeName>
-                </persName>, <persName>John bar
-                           Aphtūnāyā, abbat of <placeName>Kinnesrīn</placeName>
+              <author><persName ref="http://syriaca.org/person/51">Severus, patriarch of Antioch</persName></author>
+              <author><persName ref="http://syriaca.org/person/52">John bar Aphtūnāyā</persName></author>
+              <author ref="http://syriaca.org/person/1318">John Psaltes</author>
+              <title xml:lang="en">The Hymns of <persName ref="http://syriaca.org/person/51">Severus, patriarch of
+                <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+              </persName>, <persName ref="http://syriaca.org/person/52">John bar
+                Aphtūnāyā, abbat of <placeName ref="http://syriaca.org/place/230">Kinnesrīn</placeName>
                 </persName>,
-                           <persName>John Psaltes</persName>, etc., as translated by <persName>Paul
-                           of <placeName>Edessa</placeName>
+                <persName ref="http://syriaca.org/person/1318">John Psaltes</persName>, etc., as translated by <persName ref="http://syriaca.org/person/1405">Paul
+                  of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
                 </persName>, and revised by
-                           <persName>Jacob of <placeName>Edessa</placeName>
+                <persName ref="http://syriaca.org/person/113">Jacob of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
                 </persName>.</title>
               <note>See <bibl>Add. 17,134</bibl>, from which manuscript, or one very similar to it, the
                         present seems to have been copied.</note>
-            </msItem>
+              <msItem xml:id="b1" n="2">
+                <locus from="1b">Fol. 1b</locus>
+                <title xml:lang="en">an index</title>
+                <rubric xml:lang="syr">ܪ̈ܝܫܐ ܕܡ̈ܥܢܝܬܐ̣. ܕܩܕܝܫܐ ܣܘܝܪܐ ܦܛܪܝܐܪܟܐ ܕܐܢܛܝܘܟܝܐ</rubric>
+                <note>The hymns are preceded by this index</note>
+                <note>marg. <foreign xml:lang="grc">ⲤⲈⲨⲎⲢⲞⲤⲠⲀⲦⲢⲒⲀⲢⲬⲎⲤⲀⲚⲦⲒⲰⲬⲒⲀⲤ</foreign>.</note>
+              </msItem>
+              <msItem xml:id="b2" n="3">
+                <locus from="11b">fol. 11b</locus>
+                <title xml:lang="en">the same explanatory note as in <bibl>Add. 17,134, fol. 11 a</bibl></title>
+                <quote xml:lang="syr">ܣܟܘܠܝܘܢ̣ ܕܡܛܠ ܩܦܐ̈ܠܐܐ ܕܡ̈ܥܢܝܬܐ ܗܠܝܢ ܕܪܫܝܡܝܢ ܡܢ ܠܥܠ.</quote>
+              </msItem>
+              <msItem xml:id="b3" n="4">
+                <locus from="12b">fol. 12b</locus>
+                <author><persName ref="http://syriaca.org/person/51">Severus, patriarch of Antioch</persName></author>
+                <author><persName ref="http://syriaca.org/person/52">John bar Aphtūnāyā</persName></author>
+                <author ref="http://syriaca.org/person/1318">John Psaltes</author>      
+                <title xml:lang="en">the hymns</title>
+                <rubric xml:lang="syr">ܡ̈ܥܢܝܬܐ ܕܩܕܝܫܐ ܘܛܘܒܬܢܐ ܣܐܘܝܪܐ ܦܐܛܪܝܐܪܟܐ ܕܐܢܛܝܘܟܝܐ̣. ܘܕܐܢ̈ܫܝܢ ܐܚܪ̈ܢܐ ܩܕܝ̈ܫܐ.<locus from="12b"/></rubric>
+                <finalRubric xml:lang="syr">ܫܠܡ ܡ̈ܥܢܝܬܐ̣ ܕܩܕܝܫܐ̣ ܣܐܘܪܐ ܦܐܛܪܝܐܪܟܐ̣ ܕܐ̇ܢܛܝܘܟܝ̣ܐ
+                  ܘܕܝܘܚܢܢ ܒܪ ܐܦܬܘܼܢܝܐ̣ ܘܕܝܘܚܢܢ ܩܐ̣ܠܝܘܓܪܦܘܣ ܪܝܫ̈ܝ ܕܝܪ̈ܬܐ ܕܩܢܢܫܪܐ ܘܕܐܚ̈ܪܢܐ ܣ̈ܓܝܐܐ܀
+                  ܐܝ̈ܬܝܗܝܢ ܡ̇ܢ ܟܠܗܝܢ ܡ̈ܥܢܝܬܐ ܕܩܕܝܫܐ ܣܐܘܪܐ. ܕܐܝܬ ܒܟܬܒܐ ܗܢܐ̣ ܡܐܬܝ̣ܢ ܘܬܫܥܝ̣ܢ ܘܚܡܫ ..
+                  ܗܠܝܢ ܕܝܢ ܕܫܪܟܐ ܐܝܬܝܗܝ̣ܢ ܕܝܘܚܢܢ ܘ̈ <sic>ܗܠܝܢ</sic> ܕܩ̇ܕܝܡܝܢ ܐܡܝܪ̈ܝ̣ܢ. ܘܕܐܚ̈ܪܢܐ ܕܠܐ
+                  ܝܕ̈ܥܝܢ ܫ̈ܡܗܝܗܘܢ ܐܝܟܢܐ ܕܐܦ ܪܫܝܡܢ ܒܓܘܗ̣ ܕܟܬܒܐ܀ ܀<locus from="103a"/></finalRubric>
+                <note>365 (<foreign xml:id="syr">ܫܣܗ</foreign>) in number</note>
+                <note>almost, if not entirely identical with those contained in <bibl>Add. 17,134, nos. 1—35</bibl></note>
+                <note>According to the index, there should follow (as in <bibl>Add. 17,134</bibl>) the hymn “Gloria in excelsis," <foreign xml:lang="syr">ܬܘܒ ܬܫܒܘܚܬܐ ܕܡܬܐܡܪܐ ܒܠܠܝܐ. ܫܘܒܚܐ ܠܐܠܗܐ ܒܡܪ̈ܘܡܐ</foreign>; but this has been omitted.</note>                
+              </msItem>
+              <msItem xml:id="b4" n="5">
+                <locus from="103a">fol. 103a</locus>
+                <title xml:lang="en">a collection of supplementary hymns</title>
+                <note>in great part identical with <bibl>Add. 17,134, nos. 37—39</bibl>.</note>
+                <msItem xml:id="c1" n="6" defective="true">
+                  <locus from="113" to="114">foll. 113 and 114></locus>
+                  <rubric xml:lang="syr">ܡܕܪܫܐ ܕܬܝܒܘܬܐ</rubric>
+                  <note>the first few lines of which have been erased</note>
+                </msItem>
+              </msItem>
+              </msItem>
+
           </msContents>
                <physDesc>
                   <objectDesc form="codex">
@@ -121,20 +168,31 @@
                   </objectDesc>
                   <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                        <desc>This volume is written in a good, regular hand of the ixth
-                           cent.</desc>
+                        <desc>This volume is written in a good, regular hand of the <date calendar="Gregorian" notBefore="0800" notAfter="0900">ixth
+                           cent.</date></desc>
                      </handNote>
             </handDesc>
-                  <additions>
-              <p/>
+            <decoDesc>
+                   <decoNote xml:id="decoNote1" type="ornamentation">
+                     <desc>There are some attempts at ornamentation, e.g. foll. 11 a, 17 a, etc.; and green paint has occasionally been used for the rubrics, e.g. foll. 3 b, 4 a, 5 a, 6 a, 7 b, and 23 a.</desc>
+                   </decoNote>
+            </decoDesc>
+             <additions>
               <list>
                 <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p/>
-                           <p>
-                    <quote xml:lang="syr"/>
-                  </p>
+                  <p>The margins of this volume exhibit many proper names and other words, written in Greek uncials, as well as numerous Bible- references. The Biblical texts are only occa¬sionally given in full, e.g. <locus from="52b">fol. 52 b</locus>.</p>
+                           <p><quote xml:lang="syr"/></p>
                         </item>
+                <item xml:id="addition2" n="2">
+                  <locus from="112b">fol. 112b</locus>
+                  <p>On fol. 112 b, at the foot of the page, there is a note of more recent date, stating that this manuscript belonged by purchase to one <persName>Bar-saumā</persName></p>
+                  <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܨܚܚܐ ܗܢܐ ܕܡܪܝ ܣܐܘܝܪܐ̣ ܕܒܪܨܘܡܐ ܕܙܒܢܗ ܠܝܘܬܪܢܐ ܕܢܦܫܗ ܘܕܟܠ ܕܩܪܐ</quote></p>
+                </item>
+                <item xml:id="addition3" n="3">
+                  <locus from="1a">fol. 1a</locus>
+                  <p>The remainder has been effaced. An unfinished note on fol. 1 a speaks of it as "an ancient copy,"</p>
+                  <p><quote xml:lang="syr">ܐܝܬܘܗܝ ܨܚܚܐ ܗܢܐ ܥܬܝܩܐ ܕܡܪܝ ܣܘܝܪܐ . . . </quote></p>
+                </item>
               </list>
             </additions>
                   <bindingDesc>
@@ -147,7 +205,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="0500" notAfter="0600">This volume is
+                     <origDate notBefore="0800" notAfter="0900">This volume is
                         written in a good, regular hand of the ixth cent.</origDate>
                      <origPlace/>
                   </origin>
@@ -338,6 +396,8 @@
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
+        <change when="2021-07-17" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
+          encoding.</change>
          <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change  who="http://syriaca.org/documentation/editors.xml#jpagan">Initial TEI
