@@ -15,10 +15,15 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</name>
         </respStmt>
+           <respStmt>
+             <resp>Created by</resp>
+             <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
+           </respStmt>
         <respStmt>
           <resp>Based on the work of</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
@@ -76,11 +81,26 @@
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
               <idno type="Wright-BL-Roman">CXCVIII</idno>
-            </altIdentifier>
+            </altIdentifier>       
           </msIdentifier>
+              <msPart n="1" xml:id="Part1">
+                <msIdentifier>
+                  <idno type="URI">http://syriaca.org/manuscript/1459</idno>
+                  <altIdentifier>
+                    <idno type="BL-Shelfmark">Add MS 26,552 foll. 2-146</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                    <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                    <idno type="Wright-BL-Arabic">198</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                    <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                    <idno type="Wright-BL-Roman">CXCVIII</idno>
+                  </altIdentifier>
+                </msIdentifier>
                <msContents>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1" defective="true">
+            <msItem xml:id="p1a1" n="1" defective="true">
               <locus to="142" from="1"/>
               
               <title xml:lang="en">The <bibl>Psalms, according to the Peshitta
@@ -104,7 +124,7 @@
                         Karkaphensian (<foreign xml:lang="syr">ܩܪܩܦܝܐ</foreign> foll. 100 b 118 b), and Armenian
                            (<foreign xml:lang="syr">ܐܪܡܢܝܐ</foreign> foll. 34 a, 62 a) versions.</note>
               <note>This copy contains Psalm cli. </note>
-              <msItem xml:id="b1" n="2">
+              <msItem xml:id="p1b1" n="2">
                 
                 
                 <title xml:lang="en">The Canticles.</title>
@@ -114,7 +134,7 @@
                 
                 
                 
-                <msItem xml:id="c1" n="3">
+                <msItem xml:id="p1c1" n="3">
                   <locus to="135" from="134a">Foll. 134a-135</locus>
                   
                   <title xml:lang="en">The first song of <persName>Moses</persName>.</title>
@@ -125,7 +145,7 @@
                   
                   
                 </msItem>
-                <msItem xml:id="c2" n="4">
+                <msItem xml:id="p1c2" n="4">
                   <locus to="135" from="135b">Foll. 135b-135</locus>
                   
                   <title xml:lang="en">The song of <persName>Isaiah</persName>.</title>
@@ -136,7 +156,7 @@
                   
                   
                 </msItem>
-                <msItem xml:id="c3" n="5">
+                <msItem xml:id="p1c3" n="5">
                   <locus to="138" from="136a">Foll. 136a-138</locus>
                   
                   <title xml:lang="en">The second song of
@@ -148,7 +168,7 @@
                   
                   
                 </msItem>
-                <msItem xml:id="c4" n="6">
+                <msItem xml:id="p1c4" n="6">
                   <locus to="139" from="139a">Foll. 139a-139</locus>
                   
                   <title xml:lang="en">The Nicene Creed.</title>
@@ -159,7 +179,7 @@
                   
                   
                 </msItem>
-                <msItem xml:id="c5" n="7">
+                <msItem xml:id="p1c5" n="7">
                   <locus to="140" from="140a">Foll. 140a-140</locus>
                   
                   <title xml:lang="en">The "Gloria in Excelsis." </title>
@@ -171,7 +191,7 @@
                   
                   
                 </msItem>
-                <msItem xml:id="c6" n="8">
+                <msItem xml:id="p1c6" n="8">
                   <locus to="141" from="141a">Foll. 141a-141</locus>
                   
                   <title xml:lang="en">An addition to no. e.</title>
@@ -184,7 +204,7 @@
                   
                   
                 </msItem>
-                <msItem xml:id="c7" n="9">
+                <msItem xml:id="p1c7" n="9">
                   <locus to="141" from="141b">Foll. 141b-141</locus>
                   
                   <title xml:lang="en">The Lord's Prayer.</title>
@@ -195,7 +215,7 @@
                   
                   
                 </msItem>
-                <msItem xml:id="c8" n="10">
+                <msItem xml:id="p1c8" n="10">
                   <locus to="142" from="142a">Foll. 142a-142</locus>
                   
                   <title xml:lang="en">The song of the <persName ref="http://syriaca.org/person/624">blessed
@@ -207,7 +227,7 @@
                   
                   
                 </msItem>
-                <msItem xml:id="c9" n="11" defective="true">
+                <msItem xml:id="p1c9" n="11" defective="true">
                   <locus to="142" from="142b">Foll. 142b-142</locus>
                   
                   <title xml:lang="en">The Beatitudes.</title>
@@ -241,21 +261,21 @@
                      
                   </objectDesc>
                   <handDesc hands="3">
-              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
+              <handNote medium="unknown" xml:id="p1handNote1" scope="major" script="syr">
                         <desc>This volume is written in a good hand of the <date calendar="Gregorian" notBefore="1300" notAfter="1400">xivth cent</date>., with
                            numerous Greek and Syriac vowels, etc.</desc>
                      </handNote>
-              <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
+              <handNote medium="unknown" xml:id="p1handNote2" scope="minor" script="syr">
                         <desc>Foll. 2—10 are a later addition of the <date calendar="Gregorian" notBefore="1500" notAfter="1700">xvith or xviith cent</date>.</desc>
                      </handNote>
-              <handNote medium="unknown" xml:id="handNote3" scope="minor" script="syr">
+              <handNote medium="unknown" xml:id="p1handNote3" scope="minor" script="syr">
                         <desc>See Additions</desc>
               </handNote>
             </handDesc>
                   <additions>
               <p/>
               <list>
-                <item xml:id="addition1" n="1">
+                <item xml:id="p1addition1" n="1">
                   <locus/>
                   <p>On fol. 2 a there is a note in Arabic, stating that the book belonged to one
                       <persName>Anton</persName>, the son of <persName>Shakūr</persName>, the son of
@@ -265,18 +285,7 @@
                     <quote xml:lang="ar">هاده كتاب مزامير انطون ولد شكور ولد حنا</quote>
                   </p>
                 </item>
-                <item xml:id="addition2" n="2">
-                  <locus/>
-                  <p>Fol. 1 is a torn leaf from a neatly written vellum manuscript of about the
-                      <date calendar="Gregorian" notBefore="1100" notAfter="1200">xiith cent</date>.
-                    It contains on the verso the commencement of a dissertation on the Genealogies
-                    of <persName ref="http://syriaca.org/person/2245">our Lord</persName>.</p>
-                  <p>
-                    <quote xml:lang="syr"> ܢܘܿܗܪܐ ܕܡܛܠ ܡـ . . . ܘܬ ܫܪ̈ܒܬܐ . . . ܡܫܝܚܐ ܕܢܚ̣ ܥܠ . . .
-                      ܟܢ . . . ܐܘܢ̈ܓܠܝܣܛܐ ܠܬܢܝ̇ܐ ܕܫܪ̈ܒܬܐ.</quote>
-                  </p>
-                </item>
-                <item xml:id="addition3" n="3">
+                <item xml:id="p1addition2" n="2">
                   <locus/>
                   <p>On the recto there is a coloured effigy of a saint. </p>
                 </item>
@@ -299,14 +308,14 @@
             <adminInfo>
               <recordHist>
                 <source>Manuscript description based on<bibl>
-                    <ref target="#Wright">Wright's
+                    <ref target="#Wrightpart1">Wright's
                       Catalogue</ref>
                   </bibl>. abbreviated by the Syriaca.org editors.</source>
               </recordHist>
               <note/>
             </adminInfo>
             <listBibl>
-              <bibl xml:id="Wright">
+              <bibl xml:id="Wrightpart1">
                 <author>William Wright</author>
                 <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired
                   since the Year 1838</title>
@@ -318,6 +327,81 @@
               </bibl>
             </listBibl>
           </additional>
+              </msPart>
+              <msPart xml:id="Part2" n="1">
+                <msIdentifier>
+                  <idno type="URI">http://syriaca.org/manuscript/1460</idno>
+                  <altIdentifier>
+                    <idno type="BL-Shelfmark">Add MS 26,552 fol. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                    <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                    <idno type="Wright-BL-Arabic">198</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                    <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                    <idno type="Wright-BL-Roman">CXCVIII</idno>
+                  </altIdentifier>
+                </msIdentifier>
+                <msContents>
+                  <summary/>
+                  <textLang mainLang="syr">Syriac</textLang>
+                  <msItem xml:id="p2a1" n="1" defective="true">
+                    <locus from="1a">Fol.1</locus>
+                    <title xml:lang="en">the commencement of a dissertation on the Genealogies of our Lord</title>
+                    <incipit xml:lang="syr">ܢܘܿܗܪܐ ܕܡܛܠ ܡـ . . . ܘܬ ܫܪ̈ܒܬܐ . . . ܡܫܝܚܐ ܕܢܚ̣ ܥܠ . . . ܟܢ . . . ܐܘܢ̈ܓܠܝܣܛܐ ܠܬܢܝ̇ܐ ܕܫܪ̈ܒܬܐ.<locus from="1"/></incipit>
+                    <note xml:lang="en">The item is located on the verso</note>
+                  </msItem>
+                </msContents>
+                <physDesc>
+                  <objectDesc form="codex">
+                    <supportDesc material="perg">
+                      <support>
+                        <material>Vellum</material>
+                      </support>
+                      <condition>
+                        <list>
+                          <item>
+                            <p>Fol. 1 is a torn leaf from a neatly written vellum manuscript of about the <date calendar="Gregorian" notBefore="1100" notAfter="1200">xiith cent</date>. Fol. 1 is much torn.</p>
+                          </item>
+                        </list>
+                      </condition>
+                    </supportDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                    <handNote xml:id="p2handNote1" scope="sole" script="syr" medium="unknown">
+                    </handNote>
+                  </handDesc>
+                  <additions/>
+                  <accMat/>
+                </physDesc>
+                <history>
+                  <origin>
+                    <origDate notBefore="1100" notAfter="1200">xiith cent.</origDate>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+                </history>
+                <additional>
+                  <adminInfo>
+                    <recordHist>
+                      <source>Manuscript description based on <bibl><ref target="#Wrightpart2">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                    </recordHist>
+                    <note/>
+                  </adminInfo>
+                  <listBibl>
+                    <bibl xml:id="Wrightpart2">
+                      <author>William Wright</author>
+                      <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
+                      <pubPlace>London</pubPlace>
+                      <date>1870</date>
+                      <ptr target="http://syriaca.org/bibl/8"/>
+                      <citedRange unit="entry">CXCVIII</citedRange>
+                      <citedRange unit="pp">I:137-138</citedRange>
+                    </bibl>
+                  </listBibl>
+                </additional>
+              </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
@@ -472,13 +556,19 @@
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
             <item>
+              <ref target="#Part1"/>
               <ref target="#psalter"/>
+            </item>
+            <item>
+              <ref target="#Part2"/>
+              <ref target=""/>
             </item>
           </list>
         </keywords>
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
+        <change when="2021-07-06" who="http://syriaca.org/documentation/editors.xml#lruth">CHANGED: Added MsParts for Palimpsest</change>
          <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-24-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-24-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-02-08" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
