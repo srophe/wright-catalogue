@@ -1,22 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?oxygen RNGSchema="https://raw.githubusercontent.com/wlpotter/syriaca-wright-catalog/master/schemas/enrich-syriaca.rnc" type="compact"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/wlpotter/wright-catalogue/master/parameters/wright-mss.css"?>
+<?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
       <titleStmt>
-        <title>Content pending</title>
+        <title level="a" xml:lang="en">BL Add MS 14593</title>
+        <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
+        <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+        <funder>The National Endowment for the Humanities</funder>
+        <funder>The Andrew W. Mellon Foundation</funder>
+        <principal>David A. Michelson</principal>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <respStmt>
+          <resp>Created by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
+        </respStmt>
+        <respStmt>
+          <resp>Created by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
+        </respStmt>
+        <respStmt>
+          <resp>Based on the work of</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+        </respStmt>
+        <respStmt>
+          <resp>Syriac text entered by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
+        </respStmt>
+        <respStmt>
+          <resp>Greek and coptic text entry and proofreading by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project management by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
+        </respStmt>
+        <respStmt>
+          <resp>English text entry and proofreading by</resp>
+          <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+        </respStmt>
       </titleStmt>
       <editionStmt>
-        <p>Content pending</p>
+        <edition n="1.0"/>
       </editionStmt>
       <publicationStmt>
-        <p>Content pending</p>
+        <authority>Syriaca.org: The Syriac Reference Portal</authority>
+        <idno type="URI">http://syriaca.org/manuscript/1472/tei</idno>
+        <availability>
+          <p/>
+          <licence target="http://creativecommons.org/licenses/by/3.0/">
+            <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
+          </licence>
+        </availability>
+        <date calendar="Gregorian"/>
       </publicationStmt>
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <idno type="URI">1472</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1472</idno>
             <altIdentifier>
               <idno type="BL-Shelfmark">Add. 14,593</idno>
             </altIdentifier>
@@ -48,35 +98,31 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem n="1" xml:id="p1a1">
-              <locus to="" from=""/>
+              <locus from="2b"/>
               <author ref="https://syriaca.org/person/574">John Climacus</author>
-              <title ref="" xml:lang="en">The Works of John Climacus</title>
-              <note/>
+              <title xml:lang="en">The Works of John Climacus</title>
               <msItem n="2" xml:id="p1b1">
-                <locus to="" from="2b"/>
+                <locus from="2b"/>
                 <author ref="https://syriaca.org/person/574">John Climacus</author>
-                <title ref="" xml:lang="en">His reply to a letter of <persName>John, abbat of
+                <title xml:lang="en">His reply to a letter of <persName>John, abbat of
                     Raithū</persName></title>
-                <title ref="" xml:lang="en">Spiritual Tablets</title>
+                <title xml:lang="en">Spiritual Tablets</title>
                 <rubric xml:lang="syr">ܠܘ̈ܚܐ ܪ̈ܘܚܢܝܬܐ</rubric>
-                <incipit xml:lang="syr"/>
-                <quote xml:lang="syr">ܗܢܘ ܕܝ̣ܢ. ܦ̈ܠܬܐ ܘܐܘ̈ܚܕܬܐ ܡܡܠܠ <locus from="" to=""/></quote>
-                <finalRubric xml:lang="syr">ܫܠܡܬ ܩܕܝܡܘܬ ܡܠܬܐ ܕܡܐܡܪܐ ܗ̇ܘ ܕܡܬܟܢܐ ܠܘܚ̈ܐ ܪ̈ܘܚܢܝܬܐ.<locus
-                    to="" from="3b"/></finalRubric>
+                <quote xml:lang="syr">ܗܢܘ ܕܝ̣ܢ. ܦ̈ܠܬܐ ܘܐܘ̈ܚܕܬܐ ܡܡܠܠ </quote>
+                <finalRubric xml:lang="syr">ܫܠܡܬ ܩܕܝܡܘܬ ܡܠܬܐ ܕܡܐܡܪܐ ܗ̇ܘ ܕܡܬܟܢܐ ܠܘܚ̈ܐ ܪ̈ܘܚܢܝܬܐ.<locus from="3b"/></finalRubric>
                 <note>The title "Spiritual Tablets," is explained by a later hand, <foreign xml:lang="syr">ܗܢܘ ܕܝ̣ܢ. ܦ̈ܠܬܐ ܘܐܘ̈ܚܕܬܐ ܡܡܠܠ</foreign> (the word <foreign xml:lang="syr">ܡܡܠܠ</foreign> is a still more recent addition)</note>
               </msItem>
               <msItem n="3" xml:id="p1b2">
-                <locus to="" from="3b"/>
+                <locus from="3b"/>
                 <author ref="https://syriaca.org/person/574">John Climacus</author>
-                <title ref="" xml:lang="en">The Κλῖμαξ</title>
-                <title ref="" xml:lang="">Scala Paradisi</title>
-                <rubric xml:lang="syr"/>
+                <title xml:lang="en">The <foreign xml:lang="grc">Κλῖμαξ</foreign></title>
+                <title xml:lang="la">Scala Paradisi</title>
                 <note>A portion of the last section, fol. 172 a, is written with green paint.</note>
               </msItem>
               <msItem  n="4" xml:id="p1b3">
-                <locus to="" from="172a"/>
+                <locus from="172a"/>
                 <author ref="https://syriaca.org/person/574">John Climacus</author>
-                <title ref="" xml:lang="en">Liber ad Pastorem</title>
+                <title xml:lang="la">Liber ad Pastorem</title>
                 <rubric xml:lang="syr">ܠܘܬ ܪܥܝܐ</rubric>
                 <note/>
               </msItem>
@@ -120,16 +166,16 @@
               <p></p>
               <list>
                 <item n="1" xml:id="p1addition1">
-                  <locus from="185a" to=""/>
+                  <locus from="185a"/>
                   <p>Colophpon</p>
                   <p><quote xml:lang="syr">ܫܠܡ ܠܡܟܬ̣ܒ ܟܬܒܐ ܗܢܐ ܕܩܕܝܫܐ ܩܠܝܡܟܣ. ܪܝܫܕܝܪܐ ܕܛܘܪܐ ܩܕܝܫܐ ܕܣܝܢܝ. ܫܘܒܚܐ ܠܐܒܐ ܕܥܕܪ.
                       ܘܠܒܪܐ ܕܣܝܥ. ܘܠܪܘܚܐ ܩܕܝܫܐ ܕܫܡܠܝ. ܗܫܐ ܘܒܟܠ ܙܒܢ ܘܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ. </quote></p>
                 </item>
                 <item n="2" xml:id="p1addition2">
-                  <locus from="185a" to=""/>
-                  <p>Then follows, on the same page, a note, stating that this book was written at
+                  <locus from="185a"/>
+                  <p>Then follows, on the same page as the colophon, a note, stating that this book was written at
                     <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, <date datingMethod="Seleucid" when-custom="1128">A. Gr. 1128</date> (<date calendar="Gregorian" when="0817">A.D. 817</date>), by a professional scribe named
-                      <persName>Bar-saumā, the son of Anastasius</persName>, the son of Cyriacus,
+                      <persName>Bar-saumā, the son of <persName>Anastasius, the son of <persName>Cyriacus</persName></persName></persName>,
                     for a <persName>deacon named Stephen</persName>. </p>
                   <p>
                     <quote xml:lang="syr">ܐܫܬܠܡ ܕܝܢ ܟܬܒܐ ܗܢܐ ܒܐܘܪܗܝ ܡܕܝܢܬܐ ܕܒܝܬ ܢܗܪ̈ܝܢ. ܒܐܝܪܚ ܬܡܘܙ.
@@ -141,17 +187,13 @@
                   </p>
                 </item>
                 <item n="3" xml:id="p1addition3">
-                  <locus from="" to=""/>
                   <p>A subsequent note, of more recent date, has been almost wholly effaced.</p>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
                 </item>
                 <item n="4" xml:id="p1addition4">
-                  <locus from="2a" to=""/>
+                  <locus from="2a"/>
                   <p>On fol. 2 a there is a third note, which informs us that the manuscript was
-                    purchased from a person named ܦܝܠܛܘܣ (<persName>Philotas</persName>?), of the
-                    village of ܟܪܥܐ, by <persName>Thomas</persName> and <persName>Solomon the
+                    purchased from a person named <persName><foreign xml:lang="syr">ܦܝܠܛܘܣ</foreign> (Philotas?)</persName>, of <placeName>the
+                    village of ܟܪܥܐ</placeName>, by <persName>Thomas</persName> and <persName>Solomon the
                       priest</persName>, the head of the church in the said village. The writer
                     calls himself <persName>Aaron</persName>.</p>
                   <p>
@@ -163,7 +205,7 @@
                   </p>
                 </item>
                 <item n="5" xml:id="p1addition5">
-                  <locus from="2a" to=""/>
+                  <locus from="2a"/>
                   <p>Another hand has added the words</p>
                   <p>
                     <quote xml:lang="syr">ܘܟܠ ܕܠܚܐ ܥܘܗܕܢܐ ܗܢܐ ܐܘ ܡܦܩ ܠܟܬܒܐ ܗܢܐ ܡܢ ܗܕܐ ܕܝܪܐ ܡܚܪܡܐ
@@ -171,7 +213,7 @@
                   </p>
                 </item>
                 <item n="6" xml:id="p1addition6">
-                  <locus from="1b" to=""/>
+                  <locus from="1b"/>
                   <p>On fol. 1 b there is an index of the chapters of the <foreign xml:lang="grc">Κλῖμαξ</foreign>, written by a
                     comparatively modern hand</p>
                   <p>
@@ -236,15 +278,14 @@
                 <summary/>
                 <textLang mainLang="syr"/>
                 <msItem n="1" xml:id="p2a1">
-                  <locus to="" from="186a"/>
-                  <title ref="" xml:lang="en">An extract from the "Lives of the Egyptian
-                    Fathers,</title>
-                  <rubric xml:lang="syr">ܬܘܒ ܡܢ ܡܡܠܠܐ ܕܐܒ̈ܗܬܐ </rubric>
-                  <note/>
+                  <locus from="186a"/>
+                  <title xml:lang="en">An extract from the "Lives of the Egyptian
+                    Fathers</title>
+                  <rubric xml:lang="syr">ܬܘܒ ܡܢ ܡܡܠܠܐ ܕܐܒ̈ܗܬܐ</rubric>
                 </msItem>
               </msContents>
               <physDesc>
-                <objectDesc form="codex">
+                <objectDesc form="leaf">
                   <supportDesc material="perg">
                     <support>
                       <material>Vellum</material>
@@ -308,21 +349,21 @@
               <summary/>
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p3a1" defective="true">
-                <locus to="" from="187a"/>
-                <author ref="">John the Monk</author>
-                <title ref="" xml:lang="en">An extract from the writings of <persName>John the Monk</persName></title>
+                <locus from="187a"/>
+                <author>John the Monk</author>
+                <title xml:lang="en">An extract from the writings of <persName>John the Monk</persName></title>
                 <rubric xml:lang="syr">ܕܝܘܚܢܢ ܐܝܚܝܕܝܐ ܕ . . . ܘܕܟܪܝܘܬܐ</rubric>
                 <note>mutilated at the commencement</note>
               </msItem>
               <msItem n="2" xml:id="p3a2" defective="true">
-                <locus to="" from="187b"/>
-                <title ref="" xml:lang="en">An extract</title>
+                <locus from="187b"/>
+                <title xml:lang="en">An extract</title>
                 <note>Of which the title is wholly effaced, and the remainder much stained
                   and mutilated</note>
               </msItem>
             </msContents>
             <physDesc>
-            <objectDesc form="codex">
+            <objectDesc form="leaf">
               <supportDesc material="perg">
                 <support>
                   <material>Vellum</material>
@@ -368,13 +409,159 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <p>Content pending</p>
+      <editorialDecl>
+        <interpretation>
+          <p>Description is based on Wright's Catalogue without consultation of physical
+            manuscripts. Foliation is approximate. Wright often does not indicate ending folia so
+            those have been assumed based on beginning folia.</p>
+          <p>Scribal notes which could not be more clearly classified based on Wright's descriptions
+            have been identified as &lt;addition&gt;s whether they occur in the margins or the body
+            of the manuscript.</p>
+          <p>In general, we have classified as an &lt;msItem&gt; as much of the manuscript contents
+            as possible, including tables of contents and indices.</p>
+        </interpretation>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="Wright-BL-Taxonomy">
+          <bibl>
+            <ref target="#Wright"/>
+            <ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy.html"/>
+          </bibl>
+          <category xml:id="biblical-manuscripts">
+            <category xml:id="bible-ot">
+              <catDesc>Old Testament</catDesc>
+            </category>
+            <category xml:id="bible-nt">
+              <catDesc>New Testament</catDesc>
+            </category>
+            <category xml:id="bible-apocrypha">
+              <catDesc>Apocrypha</catDesc>
+            </category>
+            <category xml:id="bible-punctuation">
+              <catDesc>Punctuation</catDesc>
+            </category>
+          </category>
+          <category xml:id="service-books">
+            <category xml:id="psalter">
+              <catDesc>Psalters</catDesc>
+            </category>
+            <category xml:id="lectionaries">
+              <catDesc>Lectionaries</catDesc>
+            </category>
+            <category xml:id="missals">
+              <catDesc>Missals</catDesc>
+            </category>
+            <category xml:id="sacerdotals">
+              <catDesc>Sacerdotals</catDesc>
+            </category>
+            <category xml:id="choral">
+              <catDesc>Choral Books</catDesc>
+            </category>
+            <category xml:id="hymns">
+              <catDesc>Hymns</catDesc>
+            </category>
+            <category xml:id="prayers">
+              <catDesc>Prayers</catDesc>
+            </category>
+            <category xml:id="funerals">
+              <catDesc>Funeral Services</catDesc>
+            </category>
+          </category>
+          <category xml:id="theology">
+            <category xml:id="theo-single">
+              <catDesc>Individual Authors</catDesc>
+            </category>
+            <category xml:id="theo-collected">
+              <catDesc>Collected Authors</catDesc>
+            </category>
+            <category xml:id="theo-catenae">
+              <catDesc>Catenae Patrum and Demonstrations against Heresies</catDesc>
+            </category>
+            <category xml:id="theo-anonymous">
+              <catDesc>Anonymous Works</catDesc>
+            </category>
+            <category xml:id="theo-council">
+              <catDesc>Councils of the Church and Ecclesioastical Canons</catDesc>
+            </category>
+          </category>
+          <category xml:id="wright-history">
+            <category xml:id="history">
+              <catDesc>History</catDesc>
+            </category>
+          </category>
+          <category xml:id="lives">
+            <category xml:id="lives-collect">
+              <catDesc>Collected Lives</catDesc>
+            </category>
+            <category xml:id="lives-single">
+              <catDesc>Single Lives</catDesc>
+            </category>
+          </category>
+          <category xml:id="scientific-lit">
+            <category xml:id="sci-logic">
+              <catDesc>Logic and Rhetoric</catDesc>
+            </category>
+            <category xml:id="sci-grammar">
+              <catDesc>Grammar and Lexicography</catDesc>
+            </category>
+            <category xml:id="sci-ethics">
+              <catDesc>Ethics</catDesc>
+            </category>
+            <category xml:id="sci-medicine">
+              <catDesc>Medicine</catDesc>
+            </category>
+            <category xml:id="sci-agriculture">
+              <catDesc>Agriculture</catDesc>
+            </category>
+            <category xml:id="sci-chemistry">
+              <catDesc>Chemistry</catDesc>
+            </category>
+            <category xml:id="sci-natural-history">
+              <catDesc>Natural History</catDesc>
+            </category>
+          </category>
+          <category xml:id="wright-fly-leaves">
+            <category xml:id="fly-leaves">
+              <catDesc>Fly Leaves</catDesc>
+            </category>
+          </category>
+          <category xml:id="appendices">
+            <category xml:id="appendix-a">
+              <catDesc>Appendix A</catDesc>
+            </category>
+            <category xml:id="appendix-b">
+              <catDesc>Appendix B</catDesc>
+            </category>
+          </category>
+        </taxonomy>
+      </classDecl>
     </encodingDesc>
-    <profileDesc/>
+    <profileDesc>
+      <langUsage>
+        <language ident="syr">Unvocalized Syriac of any variety or period</language>
+        <language ident="syr-Syre">Syriac in Estrangela</language>
+        <language ident="syr-Syrj">Vocalized West Syriac</language>
+        <language ident="syr-Syrn">Vocalized East Syriac</language>
+        <language ident="syr-x-syrm">Melkite Syriac</language>
+        <language ident="syr-x-syrp">Palestinian Syriac</language>
+        <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
+        <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
+        <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>
+        <language ident="en">English</language>
+        <language ident="ar">Arabic</language>
+        <language ident="fr">French</language>
+        <language ident="de">German</language>
+        <language ident="la">Latin</language>
+        <language ident="grc">Ancient Greek</language>
+        <language ident="cop">Coptic</language>
+      </langUsage>
+      <textClass/>
+    </profileDesc>
     <revisionDesc status="draft">
+      <change when="2021-08-17" who="http://syriaca.org/documentation/editors.xml#wpotter">Edited record and added project metadata</change>
       <change when="2021-08-02" who="http://syriaca.org/documentation/editors.xml#lruth">Added msParts.</change>
-      <change when="" who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
-      <change type="planned" subtype="missing">Needs project metadata but requires post-processing script to be adapted to handle msParts</change>    </revisionDesc>
+      <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
+    </revisionDesc>
   </teiHeader>
   <facsimile>
     <formula>Content pending</formula>
