@@ -15,10 +15,15 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</editor>
+           <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</name>
         </respStmt>
+           <respStmt>
+             <resp>Created by</resp>
+             <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
+           </respStmt>
         <respStmt>
           <resp>Based on the work of</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
@@ -78,9 +83,24 @@
               <idno type="Wright-BL-Roman">CCCCXVIII</idno>
             </altIdentifier>
           </msIdentifier>
+              <msPart n="1" xml:id="Part1">
+                <msIdentifier>
+                  <idno type="URI">http://syriaca.org/manuscript/1457</idno>
+                  <altIdentifier>
+                    <idno type="BL-Shelfmark">Add MS 21,031 foll. 1-317</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                    <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                    <idno type="Wright-BL-Arabic">418</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                    <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                    <idno type="Wright-BL-Roman">CCCCXVIII</idno>
+                  </altIdentifier>
+                </msIdentifier>
                <msContents>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1" defective="false">
+            <msItem xml:id="p1a1" n="1" defective="false">
               <locus to="1" from="1a">Foll. 1a-1</locus>
               
               <title xml:lang="en">The Octôechus of the ferial days, according to the
@@ -92,7 +112,7 @@
               
               
               
-              <msItem xml:id="b1" n="2">
+              <msItem xml:id="p1b1" n="2">
                 <locus to="28" from="1a">Foll. 1a-28</locus>
                 
                 <title xml:lang="en">First tone.</title>
@@ -102,7 +122,7 @@
                 
                 
                 
-                <msItem xml:id="c1" n="3">
+                <msItem xml:id="p1c1" n="3">
                   <locus to="8" from="1a">Foll. 1a-8</locus>
                   
                   <title xml:lang="en">Monday.</title>
@@ -114,7 +134,7 @@
                   
                   
                 </msItem>
-                <msItem xml:id="c2" n="4">
+                <msItem xml:id="p1c2" n="4">
                   <locus to="11" from="9a">Foll. 9a-11</locus>
                   
                   <title xml:lang="en">Tuesday.</title>
@@ -125,7 +145,7 @@
                   
                   
                 </msItem>
-                <msItem xml:id="c3" n="5">
+                <msItem xml:id="p1c3" n="5">
                   <locus to="14" from="12a">Foll. 12a-14</locus>
                   
                   <title xml:lang="en">Wednesday.</title>
@@ -136,7 +156,7 @@
                   
                   
                 </msItem>
-                <msItem xml:id="c4" n="6">
+                <msItem xml:id="p1c4" n="6">
                   <locus to="18" from="15a">Foll. 15a-18</locus>
                   
                   <title xml:lang="en">Thursday.</title>
@@ -147,7 +167,7 @@
                   
                   
                 </msItem>
-                <msItem xml:id="c5" n="7">
+                <msItem xml:id="p1c5" n="7">
                   <locus to="24" from="19a"/>
                   
                   <title xml:lang="en">Friday.</title>
@@ -158,7 +178,7 @@
                   
                   
                 </msItem>
-                <msItem xml:id="c6" n="8">
+                <msItem xml:id="p1c6" n="8">
                   <locus to="28" from="25a">Foll. 25a-28</locus>
                   
                   <title xml:lang="en">Saturday.</title>
@@ -170,7 +190,7 @@
                   
                 </msItem>
               </msItem>
-              <msItem xml:id="b2" n="9">
+              <msItem xml:id="p1b2" n="9">
                 <locus to="63" from="28b">Foll. 28b-63</locus>
                 
                 <title xml:lang="en">Second tone.</title>
@@ -181,7 +201,7 @@
                 
                 
               </msItem>
-              <msItem xml:id="b3" n="10">
+              <msItem xml:id="p1b3" n="10">
                 <locus to="110" from="63b">Foll. 63b-110</locus>
                 
                 <title xml:lang="en">Third tone.</title>
@@ -192,7 +212,7 @@
                 
                 
               </msItem>
-              <msItem xml:id="b4" n="11">
+              <msItem xml:id="p1b4" n="11">
                 <locus to="157" from="111a">Foll. 111a-157</locus>
                 
                 <title xml:lang="en">Fourth tone.</title>
@@ -203,7 +223,7 @@
                 
                 
               </msItem>
-              <msItem xml:id="b5" n="12">
+              <msItem xml:id="p1b5" n="12">
                 <locus to="191" from="158a">Foll. 158a-191</locus>
                 
                 <title xml:lang="en">Fifth tone.</title>
@@ -214,7 +234,7 @@
                 
                 
               </msItem>
-              <msItem xml:id="b6" n="13">
+              <msItem xml:id="p1b6" n="13">
                 <locus to="229" from="192a">Foll. 192a-229</locus>
                 
                 <title xml:lang="en">Sixth tone.</title>
@@ -225,7 +245,7 @@
                 
                 
               </msItem>
-              <msItem xml:id="b7" n="14">
+              <msItem xml:id="p1b7" n="14">
                 <locus to="275" from="229b">Foll. 229b-275</locus>
                 
                 <title xml:lang="en">Seventh tone.</title>
@@ -236,7 +256,7 @@
                 
                 
               </msItem>
-              <msItem xml:id="b8" n="15">
+              <msItem xml:id="p1b8" n="15">
                 <locus to="324" from="275b">Foll. 275b-324</locus>
                 
                 <title xml:lang="en">Eighth tone.</title>
@@ -270,15 +290,15 @@
                      
                   </objectDesc>
                   <handDesc hands="2">
-              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr-x-syrm">
+              <handNote medium="unknown" xml:id="p1handNote1" scope="major" script="syr-x-syrm">
                         <desc>This volume is written in a good, regular, Malkite hand.</desc>
                      </handNote>
-              <handNote medium="unknown" xml:id="handNote2" scope="minor" script="Unknown">
+              <handNote medium="unknown" xml:id="p1handNote2" scope="minor" script="Unknown">
                         <desc>By a later hand Coptic arithmetical figures were added.</desc>
                      </handNote>
             </handDesc>
             <decoDesc>
-              <decoNote xml:id="decoNote1" type="ornamentation">
+              <decoNote xml:id="p1decoNote1" type="ornamentation">
                 <desc>In this manuscript there are rudely executed ornaments at the
                   beginning of each day's canon.</desc>
               </decoNote>
@@ -286,7 +306,7 @@
                   <additions>
               <p/>
               <list>
-                <item xml:id="addition1" n="1">
+                <item xml:id="p1addition1" n="1">
                            <locus/>
                            <p>A note on fol. 110 b gives the date and the name of the scribe,
                                  <persName>Joseph bar 'Antar</persName>; but the name of his village
@@ -299,14 +319,14 @@
                                  ܡܢܗ: ܢܬܪܚܡ: ܥܠ: ܟܬܘܒܗ ܐܡܝܢ: ܘܐܡܝܢ</quote>
                   </p>
                         </item>
-                <item xml:id="addition2" n="2">
+                <item xml:id="p1addition2" n="2">
                            <locus/>
                            <p>Fol. 73 a. A rudely written note, containing the name of </p>
                            <p>
                               <quote xml:lang="ar">ابن سمعان مرزوق</quote>
                            </p>
                         </item>
-                <item xml:id="addition3" n="3">
+                <item xml:id="p1addition3" n="3">
                            <locus/>
                            <p>Fol. 104 b. A note, stating that this manuscript was given as a wakf
                               to the <placeName ref="http://syriaca.org/place/359">convent of <persName ref="http://syriaca.org/person/1466">Sergius</persName> and <persName ref="http://syriaca.org/person/1153">Bacchus</persName> at <placeName ref="http://syriaca.org/place/279">Ma'lūlā</placeName>
@@ -317,7 +337,7 @@
                       وفاكوخوس في قرية معلولا‘</quote>
                            </p>
                         </item>
-                <item xml:id="addition4" n="4">
+                <item xml:id="p1addition4" n="4">
                            <locus/>
                            <p>Fol. 110 b. A note to the same effect, written by the <persName>priest
                                  Elias of <placeName ref="http://syriaca.org/place/279">Ma'lūlā</placeName>
@@ -329,14 +349,14 @@
                       امين‘ </quote>
                           </p>
                         </item>
-                <item xml:id="addition5" n="5">
+                <item xml:id="p1addition5" n="5">
                   <p>The <persName>priest Rizk-allāh</persName> has added a few words in Syriac to the preceding note.</p>
                   <p>
                     <quote xml:lang="syr"> ܐܬܕܟܪ ܡܪܝܐ ܥܒܕܟ ܚܛܝܐ ܘܡܣܟܢܐ ܩܫܝܫܐ
                       ܪܙܩܠܗ.</quote>
                   </p>
                 </item>
-                <item xml:id="addition6" n="6">
+                <item xml:id="p1addition6" n="6">
                            <locus/>
                            <p>The same <persName>Rizk-allāh</persName> has written on fol. 232 b</p>
                            <p>
@@ -344,7 +364,7 @@
                       امين‘</quote>
                            </p>
                         </item>
-                <item xml:id="addition7" n="7">
+                <item xml:id="p1addition7" n="7">
                            <locus/>
                            <p>The <persName>deacon Yahyā bin Salmān</persName> (or
                                  <persName>Sulaimān</persName>) has recorded his name on fol. 298
@@ -354,7 +374,7 @@
                       سلمان (سليمان)......... رحمه الله‘</quote>
                            </p>
                         </item>
-                <item xml:id="addition8" n="8">
+                <item xml:id="p1addition8" n="8">
                            <locus/>
                            <p>On fol. 306 a we find a similar entry, by the <persName>priest
                                  Nasr-allāh ibn Mūsā of <placeName ref="http://syriaca.org/place/279">Ma
@@ -366,7 +386,7 @@
                       وترحم عليه امين‘</quote>
                            </p>
                         </item>
-                <item xml:id="addition9" n="9">
+                <item xml:id="p1addition9" n="9">
                            <locus/>
                            <p>On fol. 314 b, one <persName>Michael, patriarch of
                               <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
@@ -385,13 +405,6 @@
                               <quote xml:lang="grc">Μιχαὴλ ἐλέῳ Θεοῦ πατριάρχης
                        τῆς μεγάλης θεουπόλεως 'Αντιοχείας καὶ πάσης ἀνατολῆς </quote>
                           </p>
-                        </item>
-                <item xml:id="addition10" n="10">
-                           <locus/>
-                           <p>Foll. 318—324, which were used by the last oriental binder as
-                              fly-leaves, are fragments of a Malkite lectionary of the xiiith cent.
-                              The lessons are taken from the Old Testament, according to the
-                              Peshitta version.</p>
                         </item>
               </list>
             </additions>
@@ -413,14 +426,14 @@
             <adminInfo>
               <recordHist>
                 <source>Manuscript description based on<bibl>
-                    <ref target="#Wright">Wright's
+                    <ref target="#Wrightpart1">Wright's
                       Catalogue</ref>
                   </bibl>. abbreviated by the Syriaca.org editors.</source>
               </recordHist>
               <note/>
             </adminInfo>
             <listBibl>
-              <bibl xml:id="Wright">
+              <bibl xml:id="Wrightpart1">
                 <author>William Wright</author>
                 <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired
                   since the Year 1838</title>
@@ -432,6 +445,81 @@
               </bibl>
             </listBibl>
           </additional>
+              </msPart>
+              <msPart xml:id="Part2" n="2">
+                <msIdentifier>
+                  <idno type="URI">http://syriaca.org/manuscript/1458</idno>
+                  <altIdentifier>
+                    <idno type="BL-Shelfmark">Add MS 21,031 foll. 318-324</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                    <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                    <idno type="Wright-BL-Arabic">418</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                    <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                    <idno type="Wright-BL-Roman">CCCCXVIII</idno>
+                  </altIdentifier>
+                </msIdentifier>
+                <msContents>
+                  <summary/>
+                  <textLang mainLang="syr">Syriac</textLang>
+                  <msItem xml:id="p2a1" n="1">
+                   <locus from="318" to="324">foll. 318-324</locus>
+                    <title xml:lang="en">fragments of a Malkite lectionary</title>
+                    <note xml:lang="en">used by the last oriental binder as fly-leaves</note>
+                    <note xml:lang="en">The lessons are taken from the Old Testament, according to the Peshitta version.</note>
+                  </msItem>
+                </msContents>
+                <physDesc>
+                  <objectDesc form="codex">
+                    <supportDesc material="chart">
+                      <support>
+                        <material>Paper</material>
+                      </support>
+                      <condition>
+                        <list>
+                          <item>
+                            <p>Paper, used by the last oriental binder as fly-leaves, of the <date calendar="Gregorian" notBefore="1200" notAfter="1300">xiiith cent</date>.</p>
+                          </item>
+                        </list>
+                      </condition>
+                    </supportDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                    <handNote xml:id="p2handNote1" scope="sole" script="syr-x-syrm" medium="unknown">
+                    </handNote>
+                  </handDesc>
+                  <additions/>
+                  <accMat/>
+                </physDesc>
+                <history>
+                  <origin>
+                    <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+                </history>
+                <additional>
+                  <adminInfo>
+                    <recordHist>
+                      <source>Manuscript description based on <bibl><ref target="#Wrightpart2">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                    </recordHist>
+                    <note/>
+                  </adminInfo>
+                  <listBibl>
+                    <bibl xml:id="Wrightpart2">
+                      <author>William Wright</author>
+                      <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
+                      <pubPlace>London</pubPlace>
+                      <date>1870</date>
+                      <ptr target="http://syriaca.org/bibl/8"/>
+                      <citedRange unit="entry">CCCCXVIII</citedRange>
+                      <citedRange unit="pp">I:327-328</citedRange>
+                    </bibl>
+                  </listBibl>
+                </additional>
+              </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
@@ -586,22 +674,24 @@
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
             <item>
+              <ref target="#Part1"/>
               <ref target="#choral"/>
+            </item>
+            <item>
+              <ref target="#Part2"/>
+              <ref target="#fly-leaves"/>
             </item>
           </list>
         </keywords>
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
+        <change when="2021-07-06" who="http://syriaca.org/documentation/editors.xml#lruth">CHANGED: Added MsParts for Palimpsest</change>
          <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-29-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-04-29-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-01-25" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
-         <change type="planned" subtype="arabic">Check Arabic for accuracy</change>
          <change type="planned" subtype="coptic">Add in missing Coptic characters.</change>
-         <change type="planned" subtype="greek">Add in missing Greek characters.</change>
-         <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
-            to be checked for accuracy</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
