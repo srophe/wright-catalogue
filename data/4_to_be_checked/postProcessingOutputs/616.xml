@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
@@ -80,38 +79,32 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus to="" from=""/>
-              <title ref="" xml:lang="en">Consolatory discourses for the Dead</title>
-              <note/>
+              <title xml:lang="en">Consolatory discourses for the Dead</title>
               <msItem xml:id="b1" n="2" defective="true">
-                <locus to="" from="96a"/>
-                <title ref="" xml:lang="en">[Without Title ]</title>
+                <locus from="96a"/>
+                <title xml:lang="en">[Without Title ]</title>
                 <note>Imperfect at the beginning</note>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus to="" from="96b"/>
-                <title ref="" xml:lang="en">On these who die in foreign lands</title>
+                <locus from="96b"/>
+                <title xml:lang="en">On these who die in foreign lands</title>
                 <rubric xml:lang="syr">ܡܛܠ ܗ̇ܢܘܢ ܕܒܐܟܣܢܝܐ ܥ̇ܢܕܝܢ. ܐܟܡ̇ܢ ܕܠܐ ܢܬܬܥܝܩ ܥܠܝܗܘܢ</rubric>
-                <note/>
               </msItem>
               <msItem xml:id="b3" n="4">
-                <locus to="" from="97a"/>
-                <title ref="" xml:lang="en">On virgins</title>
+                <locus from="97a"/>
+                <title xml:lang="en">On virgins</title>
                 <rubric xml:lang="syr">ܕܥܠ ܒ̈ܬܘܠܐ ܘܒ̈ܬܘܠܬܐ</rubric>
-                <note/>
               </msItem>
               <msItem xml:id="b4" n="5">
-                <locus to="" from="97b"/>
-                <title ref="" xml:lang="en">On children</title>
+                <locus from="97b"/>
+                <title xml:lang="en">On children</title>
                 <rubric xml:lang="syr">ܕܥܠ ܛܠܝ̇ܐ</rubric>
-                <note/>
               </msItem>
               <msItem xml:id="b5" n="6">
-                <locus to="" from="98b"/>
-                <title ref="" xml:lang="en">On aged men of worth</title>
+                <locus from="98b"/>
+                <title xml:lang="en">On aged men of worth</title>
                 <rubric xml:lang="syr">ܒܘܝܐܐ ܕܥܠ ܣܒ̈ܐ ܡܝܬܪ̈ܐ</rubric>
                 <note>Imperfect at the end</note>
               </msItem>
@@ -147,7 +140,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="" to=""/>
+                  <locus/>
                   <p/>
                   <p>
                     <quote xml:lang="syr"/>
@@ -165,9 +158,9 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="" notAfter="" from="0900" to="1100" when="">Xth or Xith
+              <origDate from="0900" to="1100">Xth or Xith
                 Century</origDate>
-              <origPlace ref="" xml:lang=""/>
+              <origPlace/>
             </origin>
             <provenance/>
             <acquisition/>
@@ -356,6 +349,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="" who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
     </revisionDesc>

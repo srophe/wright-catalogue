@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
@@ -80,57 +79,56 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="" from="1a"/>
-              <title ref="" xml:lang="en">The Octôechus of the services of Sunday and of the ferial
+              <locus from="1a"/>
+              <title xml:lang="en">The Octôechus of the services of Sunday and of the ferial
                 days, according to tlie Malkite use</title>
               <note>The canons are ascribed to John of Damascus, ܐܒܐ (ܐܒܒܐ) ܝܘܐܢܝ, ܐܒܐ ܝܘܢܝ, ܐܒܐ
                 ܝܐܢܝ, or ܐܒܐ ܝܢܝ; and Cosmas, ܐܒܐ (ܐܒܒܐ) ܩܘܙܡܐ</note>
               <msItem xml:id="b1" n="2" defective="true">
-                <locus to="" from="1a"/>
-                <title ref="" xml:lang="en">First tone</title>
+                <locus from="1a"/>
+                <title xml:lang="en">First tone</title>
                 <rubric xml:lang="syr">ܪܟܢܐ ܩܕܡܝܐ</rubric>
                 <note>Very Imperfect</note>
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
-                <locus to="" from="5b"/>
-                <title ref="" xml:lang="en">Second tone</title>
+                <locus from="5b"/>
+                <title xml:lang="en">Second tone</title>
                 <rubric xml:lang="syr">ܪܟܢܐ ܬܪܝܢܐ</rubric>
                 <note>Imperfect</note>
               </msItem>
               <msItem xml:id="b3" n="4" defective="false">
-                <locus to="" from="30a"/>
-                <title ref="" xml:lang="en">Third tone</title>
+                <locus from="30a"/>
+                <title xml:lang="en">Third tone</title>
                 <rubric xml:lang="syr">ܪܟܢܐ ܬܠܝܬܝܐ</rubric>
               </msItem>
               <msItem xml:id="b4" n="5" defective="false">
-                <locus to="" from="58b"/>
-                <title ref="" xml:lang="en">Fourth tone</title>
+                <locus from="58b"/>
+                <title xml:lang="en">Fourth tone</title>
                 <rubric xml:lang="syr">ܪܟܢܐ ܪܒܝܥܝܐ</rubric>
                 <note>Very Imperfect</note>
               </msItem>
               <msItem xml:id="b5" n="6" defective="false">
-                <locus to="" from="87a"/>
-                <title ref="" xml:lang="en">Fifth tone</title>
+                <locus from="87a"/>
+                <title xml:lang="en">Fifth tone</title>
                 <rubric xml:lang="syr">ܪܟܢܐ ܚܡܝܫܝܐ</rubric>
                 <note>Very Imperfect</note>
               </msItem>
               <msItem xml:id="b6" n="7" defective="true">
-                <locus to="" from="115a"/>
-                <title ref="" xml:lang="en">Sixth tone</title>
+                <locus from="115a"/>
+                <title xml:lang="en">Sixth tone</title>
                 <rubric xml:lang="syr">ܪܟܢܐ ܫܬܝܬܝܐ</rubric>
               </msItem>
               <msItem xml:id="b7" n="8" defective="true">
-                <locus to="" from="134b"/>
-                <title ref="" xml:lang="en">Seventh tone</title>
+                <locus from="134b"/>
+                <title xml:lang="en">Seventh tone</title>
                 <rubric xml:lang="syr">ܪܟܢܐ ܫܒܝܥܝܐ</rubric>
                 <note>Very Imperfect</note>
               </msItem>
               <msItem xml:id="b8" n="9" defective="true">
-                <locus to="" from="148b"/>
-                <title ref="" xml:lang="en">Eighth tone</title>
+                <locus from="148b"/>
+                <title xml:lang="en">Eighth tone</title>
                 <rubric xml:lang="syr">ܪܟܢܐ ܬܡܝܢܝܐ</rubric>
                 <note>Very Imperfect</note>
               </msItem>
@@ -172,7 +170,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="" to=""/>
+                  <locus/>
                   <p>Green paint has been often used in the rubrics and other ornaments of this
                     volume.</p>
                   <p>
@@ -191,9 +189,9 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="" notAfter="" from="1000" to="1200" when="">XIth or XIIth
+              <origDate from="1000" to="1200">XIth or XIIth
                 Century</origDate>
-              <origPlace ref="" xml:lang=""/>
+              <origPlace/>
             </origin>
             <provenance/>
             <acquisition/>
@@ -382,6 +380,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="" who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
     </revisionDesc>

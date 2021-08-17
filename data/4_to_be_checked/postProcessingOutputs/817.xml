@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
@@ -80,22 +79,19 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus to="" from=""/>
               <author ref="https://syriaca.org/person/483">Evagrius</author>
-              <title ref="" xml:lang="en">Selections from the writings of Evagrius</title>
-              <note/>
+              <title xml:lang="en">Selections from the writings of Evagrius</title>
               <msItem xml:id="b1" n="2">
-                <locus to="" from="114b"/>
+                <locus from="114b"/>
                 <rubric xml:lang="syr">ܡܡܠܠܐ ܕܩܕܝܫܐ ܐܘܓܪܝܣ ܝܚܝܕܝܐ܆ ܕܥܠ ܕܘܒܪ̈ܐ ܕܝܚ̈ܝܕܝܐ
                   ܕܡܝܬܪܘܬܐ</rubric>
                 <note>See Add. 14,578, no. 13.</note>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus to="" from="115b"/>
-                <title ref="" xml:lang="en">On the eight evil passions</title>
+                <locus from="115b"/>
+                <title xml:lang="en">On the eight evil passions</title>
                 <incipit xml:lang="syr">ܥܠ ܪܚܡܬ ܟܪܣܐ. ܪܝܫܐ ܕܥܡ̈ܡܐ ܥܡܠܝܩ. ܘܪܝܫܐ ܕܚ̈ܫܐ ܪܒܘܬ
                   ܟܪܣܐ</incipit>
                 <note>Compare <bibl>Add. 11,578, no. 5</bibl>. c.ܕܥܠ ܡ̇ܠܦܢܐ ܘܬܠܡ̈ܝܕܐ . Fol. 125 b.
@@ -104,8 +100,8 @@
               </msItem>
             </msItem>
             <msItem xml:id="a2" n="4">
-              <locus to="" from="126b"/>
-              <author ref="">Xystus, bishop of Rome</author>
+              <locus from="126b"/>
+              <author>Xystus, bishop of Rome</author>
               <title ref="https://syriaca.org/person/22" xml:lang="en">The discourses of<bibl>
                   Xystus, bishop of Rome</bibl>
               </title>
@@ -115,9 +111,9 @@
                 line 7).</note>
             </msItem>
             <msItem xml:id="a3" n="5">
-              <locus to="" from="149b"/>
+              <locus from="149b"/>
               <author ref="https://syriaca.org/person/42">Jacob of Batnae</author>
-              <title ref="" xml:lang="en">Extract from a metrical discourse of Jacob of Batnae on S.
+              <title xml:lang="en">Extract from a metrical discourse of Jacob of Batnae on S.
                 John's Gospel ch. i. 1</title>
               <rubric xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܥܠ ܡܠܬܐ ܒܪܝܫܝܬ</rubric>
               <incipit xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܡܪܝ ܝܥܩܘܒ ܠܐ ܡܬܡܠܠ ܡܠܬܐ ܡܪܢ ܡܢ ܡ̈ܠܠܐ. ܕܟܣܐ ܗܘ ܫܪܒܗ
@@ -161,7 +157,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="114b" to=""/>
+                  <locus from="114b"/>
                   <p>On fol. 114 b a reader named John has written </p>
                   <p>
                     <quote xml:lang="syr">ܟܠ ܕܩ̇ܪܐ ܢܨܠܐ ܥܠ ܝܘܚܢܢ ܐܟܣܢܝܐ.</quote>
@@ -179,9 +175,9 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="" notAfter="" from="0800" to="0900" when="">IXth
+              <origDate from="0800" to="0900">IXth
                 Century</origDate>
-              <origPlace ref="" xml:lang=""/>
+              <origPlace/>
             </origin>
             <provenance/>
             <acquisition/>
@@ -370,6 +366,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="" who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
     </revisionDesc>
