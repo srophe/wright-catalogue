@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
@@ -80,58 +79,53 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="false">
-              <locus to=""/>
-              <title ref="" xml:lang="">Services for Passion Week</title>
+              <title>Services for Passion Week</title>
               <rubric xml:lang="syr">ܦܢܩܝܬܐ ܕܚܫܐ ܦܪܘܩܝܐ</rubric>
               <msItem xml:id="b1" n="2">
-                <locus to="" from=""/>
-                <title ref="" xml:lang="en">prooemia </title>
+                <title xml:lang="en">prooemia </title>
                 <rubric xml:lang="syr">ܦܪ̈ܘܡܝܘܢ</rubric>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus to="" from=""/>
-                <title ref="" xml:lang="en">sedras</title>
+                <title xml:lang="en">sedras</title>
                 <rubric xml:lang="syr">ܣܕܪ̈ܐ</rubric>
               </msItem>
               <msItem xml:id="b3" n="4">
-                <locus to="" from=""/>
-                <title ref="" xml:lang="en">prayers</title>
+                <title xml:lang="en">prayers</title>
                 <rubric xml:lang="syr">ܘܬܐ ܕܫܘܪܝܐ, ܏ܨ̈ ܕܦܝܪܡܐ</rubric>
                 <rubric xml:lang="syr">ܨ̈ ܕܚܘܬܡܐ</rubric>
               </msItem>
             </msItem>
             <msItem xml:id="a2" n="5" defective="true">
-              <locus to="" from="1a"/>
-              <title ref="" xml:lang="en">Monday</title>
+              <locus from="1a"/>
+              <title xml:lang="en">Monday</title>
               <rubric xml:lang="syr">ܝܘܡܐ ܕܬܪ̈ܝܢ ܒܫܒܐ</rubric>
             </msItem>
             <msItem xml:id="a3" n="6">
-              <locus to="" from="20b"/>
-              <title ref="" xml:lang="en">Tuesday</title>
+              <locus from="20b"/>
+              <title xml:lang="en">Tuesday</title>
               <rubric xml:lang="syr">ܬܠ̈ܬܐ ܒܫܒܐ</rubric>
             </msItem>
             <msItem xml:id="a4" n="7">
-              <locus to="" from="32b"/>
-              <title ref="" xml:lang="en">Wednesday </title>
+              <locus from="32b"/>
+              <title xml:lang="en">Wednesday </title>
               <rubric xml:lang="syr">ܐܪ̈ܒܥܐ ܒܫܒܐ</rubric>
             </msItem>
             <msItem xml:id="a5" n="8">
-              <locus to="" from="44a"/>
-              <title ref="" xml:lang="en">Thursday</title>
+              <locus from="44a"/>
+              <title xml:lang="en">Thursday</title>
               <rubric xml:lang="syr">ܚ̈ܡܫܐ ܒܫܒܐ ܕܦܨܚܐ ܘܩܕܝܫܐ</rubric>
               <note>including the office of the Washing of Feet, ܛܟ̣ܣܐ ܕܫܝ̇ܓܬܐ</note>
             </msItem>
             <msItem xml:id="a6" n="9" defective="true">
-              <locus to="" from="64b"/>
-              <title ref="" xml:lang="en">Friday</title>
+              <locus from="64b"/>
+              <title xml:lang="en">Friday</title>
               <rubric xml:lang="syr">ܥܪܘܒܬܐ ܕܚܫܐ ܕܨܠܝܒ̣ܘܬܐ</rubric>
             </msItem>
             <msItem xml:id="a7" n="10" defective="true">
-              <locus to="" from="69a"/>
-              <title ref="" xml:lang="en">Saturday</title>
+              <locus from="69a"/>
+              <title xml:lang="en">Saturday</title>
               <rubric xml:lang="syr">ܫܒܬܐ ܕܣܒܪܬܐ</rubric>
               <note>very imperfect</note>
             </msItem>
@@ -171,7 +165,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="" to=""/>
+                  <locus/>
                   <p>After the doxology, on fol. 71 b, we find the following note, containing the
                     date.</p>
                   <p>
@@ -193,7 +187,7 @@
           <history>
             <origin>
               <origDate from="1300" to="1400">1336 A.D.</origDate>
-              <origPlace ref="" xml:lang=""/>
+              <origPlace/>
             </origin>
             <provenance/>
             <acquisition/>
@@ -382,6 +376,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="" who="http://syriaca.org/documentation/editors.xml#eyonan">Initial TEI encoding.</change>
       <change type="planned" subtype="checkSyriac"/>

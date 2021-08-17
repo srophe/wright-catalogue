@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
@@ -80,19 +79,17 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="" from="112a"/>
-              <title ref="" xml:lang="en">supplicatory hymns, arranged according to the eight
+              <locus from="112a"/>
+              <title xml:lang="en">supplicatory hymns, arranged according to the eight
                 tones</title>
               <rubric xml:lang="syr">ܬܟܫ̈ܦܬܐ </rubric>
               <note>the first of which is imperfect</note>
             </msItem>
             <msItem xml:id="a2" n="2">
-              <locus to="" from="121a"/>
-              <author ref=""/>
-              <title ref="" xml:lang="">A discourse of <persName>Mār Hananyā</persName> or
+              <locus from="121a"/>
+              <title>A discourse of <persName>Mār Hananyā</persName> or
                   <persName>Ananias</persName>
               </title>
               <rubric xml:lang="syr">ܕܡܪܝ ܚܢܢܝܐ</rubric>
@@ -108,17 +105,16 @@
               </note>
             </msItem>
             <msItem xml:id="a3" n="3" defective="true">
-              <locus to="" from="123b"/>
-              <author ref=""/>
-              <title ref="" xml:lang="en">A discourse of <persName>Ephraim</persName> on
+              <locus from="123b"/>
+              <title xml:lang="en">A discourse of <persName>Ephraim</persName> on
                 repentance</title>
               <rubric xml:lang="syr">ܡܐܡܪܐ ܕܡܪܝ ܐܦܪܝܡ ܕܥܠ ܬܘܬ ܢܦܫܐ</rubric>
               <incipit xml:lang="syr"> ܬܪ̈ܝܢ ܥܘ̈ܗܕܢܝܢ ܡܪ̈ܝܪܐ ܕܡܠ̣ܝܢ ܙܘ̈ܥܐ ܘܣܘܪܕܐ. ܏ܘܫ. </incipit>
               <note>imperfect at the end</note>
             </msItem>
             <msItem xml:id="a4" n="4" defective="true">
-              <locus to="" from="133a"/>
-              <title ref="" xml:lang="en">Hymns</title>
+              <locus from="133a"/>
+              <title xml:lang="en">Hymns</title>
               <rubric xml:lang="syr">ܡܕܪ̈ܫܐ </rubric>
             </msItem>
           </msContents>
@@ -156,7 +152,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="" to=""/>
+                  <locus/>
                   <p/>
                   <p>
                     <quote xml:lang="syr"/>
@@ -175,7 +171,7 @@
           <history>
             <origin>
               <origDate from="1300" to="1400">xivth cent</origDate>
-              <origPlace ref="" xml:lang=""/>
+              <origPlace/>
             </origin>
             <provenance/>
             <acquisition/>
@@ -364,6 +360,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="" who="http://syriaca.org/documentation/editors.xml#eyonan">Initial TEI encoding.</change>
       <change type="planned" subtype="checkSyriac"/>

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
@@ -80,40 +79,38 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="false">
-              <locus to=""/>
-              <title ref="" xml:lang="">The companion volume to the preceding number, and contains
+              <title>The companion volume to the preceding number, and contains
                 services for the commemoration of Saints</title>
               <msItem xml:id="b1" n="2">
-                <locus to="" from="1b"/>
-                <title ref="" xml:lang="en">Of any one Teacher or Ascetic</title>
+                <locus from="1b"/>
+                <title xml:lang="en">Of any one Teacher or Ascetic</title>
                 <rubric xml:lang="syr">ܥܠ ܚܲܝܠܗ ܕܡܪܢ ܝܫܘܥ ܡܫܝܚܐ ܡܫ̇ܪܝܢܢ ܠܡ̣ܟܬܒ ܛܟܣ̣ܐ ܕܥܠ ܚܕ ܩܢܘܡܐ
                   ܕܡ̈ܠܦܢܐ ܘܕܥܢܘ̈ܝܐ</rubric>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus to="" from="10b"/>
-                <title ref="" xml:lang="en">Of any one Martyr</title>
+                <locus from="10b"/>
+                <title xml:lang="en">Of any one Martyr</title>
                 <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܥܠ ܚܕ ܩܢܘܡܐ ܣܳܗܕܳܝܳܐ</rubric>
               </msItem>
               <msItem xml:id="b3" n="4">
-                <locus to="" from="19a"/>
-                <title ref="" xml:lang="en">Of <persName>Macarius</persName>,
+                <locus from="19a"/>
+                <title xml:lang="en">Of <persName>Macarius</persName>,
                     <persName>Maximus</persName>
                 </title>
                 <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܐܒܗ̈ܬܐ ܩ̈ܕܝܫܐ: ܐ̣ܒܐ ܡܩܪܝܣ ܘܡܟܣܝܡܘܣ ܘܕܘܡܛܝܘܣ. ܘܐܒܐ
                   ܒܝܫܘܝ. ܘܐܒܐ ܝܘܚܢܢ ܙܥܘܪܐ</rubric>
               </msItem>
               <msItem xml:id="b4" n="5">
-                <locus to="" from="30b"/>
-                <title ref="" xml:lang="en">Common anthems, arranged according to the eight
+                <locus from="30b"/>
+                <title xml:lang="en">Common anthems, arranged according to the eight
                   tones</title>
                 <rubric xml:lang="syr">ܥܠ ܣܒܪܐ ܕܐܠܗܐ ܟ̇ܬܒܝܢܢ ܥܢ̈ܝܢܐ ܓܘ̈ܢܝܐ ܒܬܡܢܸܐ ܩܝ̈ܢܬܐ</rubric>
               </msItem>
               <msItem xml:id="b5" n="6">
-                <locus to="" from="47a"/>
-                <title ref="" xml:lang="en">Hymns and prayers of the holy Cross</title>
+                <locus from="47a"/>
+                <title xml:lang="en">Hymns and prayers of the holy Cross</title>
                 <rubric xml:lang="syr">ܬܘܒ ܒܝܕ ܐܠܗܐ ܟ̇ܬܒܝܢܢ ܩ̈ܠܐ ܘܒ̈ܥܘܬܐ ܕܨܠܝܒܐ</rubric>
               </msItem>
             </msItem>
@@ -162,14 +159,14 @@
                   </p>
                 </item>
                 <item xml:id="addition2" n="2">
-                  <locus from="51b" to=""/>
+                  <locus from="51b"/>
                   <p>The colophon, fol. 51 b, consists merely of the words </p>
                   <p>
                     <quote xml:lang="syr">ܒܚܘܒܐ ܨ̇ܠܘ ܕܵܘܝܐ ܕܟܬ݂ܒ</quote>
                   </p>
                 </item>
                 <item xml:id="addition3" n="3">
-                  <locus from="30a" to=""/>
+                  <locus from="30a"/>
                   <p>On fol. 30 a a reader named <persName>Paul</persName> has written these
                     words</p>
                   <p>
@@ -177,7 +174,7 @@
                   </p>
                 </item>
                 <item xml:id="addition4" n="4">
-                  <locus from="51b" to=""/>
+                  <locus from="51b"/>
                   <p>On fol. 51 b, another reader, named <persName>John</persName>, has written,
                     partly in Syriac and partly in Arabic, but using the latter character
                     throughout:</p>
@@ -187,7 +184,7 @@
                   </p>
                 </item>
                 <item xml:id="addition5" n="5">
-                  <locus from="1a" to=""/>
+                  <locus from="1a"/>
                   <p>On fol. 1 a there are one or two sentences in Arabic and Karshūnī, with the
                     name of the writer, Jacob</p>
                   <p>
@@ -207,7 +204,7 @@
           <history>
             <origin>
               <origDate from="1400" to="1500">xvth cent</origDate>
-              <origPlace ref="" xml:lang=""/>
+              <origPlace/>
             </origin>
             <provenance/>
             <acquisition/>
@@ -396,6 +393,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="" who="http://syriaca.org/documentation/editors.xml#eyonan">Initial TEI encoding.</change>
       <change type="planned" subtype="checkSyriac"/>
