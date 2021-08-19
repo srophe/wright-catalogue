@@ -112,7 +112,11 @@ physDesc > handDesc::before {content: "Hand Notes: \A Hands: " attr(hands); font
 physDesc > handDesc {display:block;}
 handNote::before {content:oxy_attributes(); display:block; font-weight:bold; color:gray;}
 physDesc > handDesc > handNote {display:list-item; margin-left:2em;}
-physDesc > decoDesc {display:none;}
+
+/* Decoration Descriptions */
+physDesc > decoDesc::before {content: "\A Decoration Descriptions:"; font-weight: bold; display: block;}
+physDesc > decoDesc {display:block;}
+decoDesc > decoNote {display:list-item; margin-left:2em;}
 
 /* Additions */
 physDesc > additions::before {content: "Additions "; font-weight: bold; display:block; margin-top:1em;}
