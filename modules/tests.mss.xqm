@@ -15,6 +15,8 @@ module namespace mss-test="http://srophe.org/srophe/mss/mss-test";
 import module namespace mss="http://srophe.org/srophe/mss" at "mss.xqm";
 import module namespace config="http://srophe.org/srophe/config" at "config.xqm";
 
+declare namespace tei = "http://www.tei-c.org/ns/1.0";
+
 declare variable $mss-test:file-to-test := 
   let $path-to-file := $config:path-to-repo||"/resources/testing/317_testable.xml"
   return fn:doc($path-to-file);
@@ -45,6 +47,19 @@ declare %unit:test %unit:ignore function mss-test:create-teiHeader() {
 (: test whether the teiHeader of the processed file is the same as the hand-done file; should fail for a while 
 SKIPPING UNTIL READY TO TEST
 :)
+
+declare %unit:test function mss-test:create-record-title() {
+   unit:assert-equals($mss-test:file-to-compare//titleStmt/title[level="a"], mss:create-record-title())
+};
+
+declare %unit:test function mss-test:clean-shelf-mark-preamble-no-follia-range() {
+  unit:assert-equals("BL Add MS 14581", mss:clean-shelf-mark(
+    $mss-test:file-to-test//tei:msDesc/tei:msIdentifier/tei:altIdentifier/tei:idno[@type="BL-Shelfmark"]/text()))
+};
+
+declare %unit:test function mss-test:clean-shelf-mark-preamble-follia-range() {
+  unit:assert-equals("BL Add MS 14581, foll. 1-31", mss:clean-shelf-mark("Add. 14,581, foll. 1-31"))
+};
 
 (:
 : List of tests
