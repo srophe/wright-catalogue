@@ -28,7 +28,6 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 declare function mss:create-document($rec as node()+) as document-node() {
   let $processing-instructions := mss:create-processing-instructions()
   return document {$processing-instructions, $rec}
- 
 };
 
 declare function mss:create-processing-instructions() as processing-instruction()* {
@@ -41,6 +40,66 @@ declare function mss:create-processing-instructions() as processing-instruction(
     return processing-instruction {$piName} {$piParameters}
 };
 
+(: Build document from component parts :)
+
+(: Build teiHeader :)
+declare function mss:update-teiHeader($rec as node()+) as node() {
+  let $fileDesc := mss:update-fileDesc($rec//fileDesc)
+  let $encodingDesc := mss:update-encodingDesc($rec//encodingDesc)
+  let $profileDesc := mss:update-profileDesc($rec//profileDesc)
+  let $revisionDesc := mss:update-revisionDesc($rec//revisionDesc)
+  return element {QName("http://www.tei-c.org/ns/1.0", "teiHeader")} {$fileDesc, $encodingDesc, $profileDesc, $revisionDesc}
+};
+
+(: Build fileDesc :)
+declare function mss:update-fileDesc($fileDesc as node()+) as node() {
+  let $titleStmt := mss:update-titleStmt($fileDesc//titleStmt)
+  let $editionStmt := mss:update-editionStmt($fileDesc/editionStmt)
+  let $publicationStmt := mss:update-publicationStmt($fileDesc/publicationStmt)
+  return element {QName("http://www.tei-c.org/ns/1.0", "fileDesc")} {
+    $titleStmt, $editionStmt, $publicationStmt
+  }
+};
+
+(: Build titleStmt :)
+
+declare function mss:update-titleStmt($titleStmt as node()+) as node() {
+  
+};
+
+
+(: Build editionStmt :)
+
+declare function mss:update-editionStmt($editionStmt as node()+) as node() {
+  
+};
+
+(: Build publicationStmt :)
+
+declare function mss:update-publicationStmt($publicationStmt as node()+) as node() {
+  
+};
+
+(: Build encodingDesc :)
+
+declare function mss:update-encodingDesc($encodingDesc as node()+) as node() {
+  
+};
+
+(: Build profileDesc :)
+
+declare function mss:update-profileDesc($profileDesc as node()+) as node() {
+  
+};
+
+(: Build revisionDesc :)
+
+declare function mss:update-revisionDesc($revisionDesc as node()+) as node() {
+  
+};
+
+(: Build tei:fascimile and tei:text :)
+
 (: LIST OF NEEDED FUNCTIONS
 
 ## general utility
@@ -51,7 +110,7 @@ declare function mss:create-processing-instructions() as processing-instruction(
 
 ## updating tei sections and subsections
 
-- update-teiHeader (will call the following scripts, which call each subsequent level, etc.)
+
 - update-fileDesc
 - update-titleStmt
   - update-record-title
