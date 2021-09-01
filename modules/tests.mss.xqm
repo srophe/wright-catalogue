@@ -49,7 +49,7 @@ SKIPPING UNTIL READY TO TEST
 :)
 
 declare %unit:test function mss-test:create-record-title() {
-   unit:assert-equals(mss:create-record-title(), $mss-test:file-to-compare//titleStmt/title[level="a"])
+   unit:assert-equals(mss:create-record-title($mss-test:file-to-test), $mss-test:file-to-compare//tei:titleStmt/tei:title[@level="a"])
 };
 
 declare %unit:test function mss-test:clean-shelf-mark-preamble-no-follia-range() {
