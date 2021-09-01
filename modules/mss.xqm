@@ -25,6 +25,11 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 (: General helper functions :)
 
+declare function mss:get-shelf-mark($rec as node()+) as xs:string* {
+  let $shelfMark :=  $rec//tei:msDesc/tei:msIdentifier/tei:altIdentifier/tei:idno[@type="BL-Shelfmark"]/text()
+  return $shelfMark
+};
+
 declare function mss:clean-shelf-mark($shelf-mark as xs:string) as xs:string* {
   let $shelfMarkPreamble := $config:project-config/config/projectMetadata/shelfMarkPrefix/text()
   
@@ -66,7 +71,7 @@ declare function mss:update-teiHeader($rec as node()+) as node() {
 
 (: Build fileDesc :)
 declare function mss:update-fileDesc($fileDesc as node()+) as node() {
-  let $titleStmt := mss:update-titleStmt()
+  let $titleStmt := mss:update-titleStmt($fileDesc)
   let $editionStmt := mss:update-editionStmt($fileDesc/editionStmt)
   let $publicationStmt := mss:update-publicationStmt($fileDesc/publicationStmt)
   return element {QName("http://www.tei-c.org/ns/1.0", "fileDesc")} {
@@ -76,13 +81,15 @@ declare function mss:update-fileDesc($fileDesc as node()+) as node() {
 
 (: Build titleStmt :)
 
-declare function mss:update-titleStmt() as node()* {
-  let $recordTitle := mss:create-record-title()
+declare function mss:update-titleStmt($fileDesc) as node()* {
+  let $recordTitle := mss:create-record-title($fileDesc)
   return $recordTitle
 };
 
-declare function mss:create-record-title() as node()* {
-  
+declare function mss:create-record-title($rec as node()+) as node()* {
+  let $title := mss:clean-shelf-mark(mss:get-shelf-mark($rec))
+  return element {QName("http://www.tei-c.org/ns/1.0", "title")} 
+                  {attribute {"xml:lang"} {"en"}, attribute {"level"} {"a"}, $title}
 };
 
 (: Build editionStmt :)
