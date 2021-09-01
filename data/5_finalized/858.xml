@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,6 +81,9 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
+              <locus from="2"/>
+              <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
+              <author ref="http://syriaca.org/person/579">Julian of Halicarnassus</author>
               <title xml:lang="en">The correspondence of <persName ref="http://syriaca.org/person/51">Severus of <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
                 </persName> and
                            <persName ref="http://syriaca.org/person/579">Julian of <placeName ref="http://syriaca.org/place/1468">Halicarnassus</placeName>
@@ -91,13 +94,16 @@
               </title>
               <note>See <bibl>Assemani, Bibl. Or., t. ii., p. 46</bibl>.</note>
               <msItem xml:id="b1" n="2">
-                <title xml:lang="en">Short introduction</title>
+                <locus from="2b"/>
+                <title xml:lang="en">A short introduction</title>
                 <rubric xml:lang="syr">
                   <locus from="2b"/>ܣܘܟܠܐ ܕܡܫܘܕܥ ܠܡ̇ܢ ܕܩ̇ܪܐ ܒܗܢܐ
                            ܟܬܒܐ̣. ܕܐܝܟܢܐ ܙܕܩ ܕܢܦܓܥ ܒܗ.</rubric>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <title xml:lang="en">1. Letter of <persName ref="http://syriaca.org/person/579">Julian</persName> to <persName ref="http://syriaca.org/person/51">Severus</persName>
+                <locus from="4a"/>
+                <author ref="http://syriaca.org/person/579">Julian</author>
+                <title xml:lang="en">Letter of <persName ref="http://syriaca.org/person/579">Julian</persName> to <persName ref="http://syriaca.org/person/51">Severus</persName>
                 </title>
                 <rubric xml:lang="syr">ܐܓܪܬܐ ܕܝܘܠܝܢܐ ܐܦܣܩܦܐ ܕܐܠܝܩܪܢܣܘܼ ܨܝܕ ܩܕܝܫܐ ܣܐܘܪܐ
                            ܦܛܪܝܪܟܐ ܕܐܢܛܝܟܝܐ.</rubric>
@@ -107,7 +113,9 @@
                            ܚܕܐ ܡ̇ܢ ܣܝܡܐ̣. ܒܐܓܪܬܐ ܕܠܘܬ ܣܘܩܢܣܣ. ܏ܘܫ.</incipit>
               </msItem>
               <msItem xml:id="b3" n="4">
-                <title xml:lang="en">2. Reply of <persName ref="http://syriaca.org/person/51">Severus</persName>
+                <locus from="4b"/>
+                <author ref="http://syriaca.org/person/51">Severus</author>
+                <title xml:lang="en">Reply of <persName ref="http://syriaca.org/person/51">Severus</persName>
                 </title>
                 <rubric xml:lang="syr">ܕܦܛܪܝܪܟܐ ܨܐܕܘܗܝ ܕܝܘܠܝܢܐ</rubric>
                 <incipit xml:lang="syr">
@@ -119,7 +127,9 @@
                            ܡܫܬܡܥ ܐܢܐ ܠܟܘܼܢ ܚܦܝܛܐܝܬ ܣܥ̇ܪܬ. ܏ܘܫ.</incipit>
               </msItem>
               <msItem xml:id="b4" n="5">
-                <title xml:lang="en">3. Letter of <persName ref="http://syriaca.org/person/579">Julian</persName> to <persName ref="http://syriaca.org/person/51">Severus</persName>
+                <locus from="5a"/>
+                <author ref="http://syriaca.org/person/579">Julian</author>
+                <title xml:lang="en">Letter of <persName ref="http://syriaca.org/person/579">Julian</persName> to <persName ref="http://syriaca.org/person/51">Severus</persName>
                 </title>
                 <rubric xml:lang="syr">ܕܝܘܠܝܢܐ ܨܝܕ ܦܛܪܝܪܟܐ</rubric>
                 <incipit xml:lang="syr">
@@ -128,7 +138,9 @@
                            ܡܪܢܝܬܐ. ܏ܘܫ.</incipit>
               </msItem>
               <msItem xml:id="b5" n="6">
-                <title xml:lang="en">4. Reply of <persName ref="http://syriaca.org/person/51">Severus</persName>
+                <locus from="5b"/>
+                <author ref="http://syriaca.org/person/51">Severus</author>
+                <title xml:lang="en">Reply of <persName ref="http://syriaca.org/person/51">Severus</persName>
                 </title>
                 <rubric xml:lang="syr">ܕܦܛܪܝܪܟܐ ܨܝܕ ܝܘܠܝܢܐ</rubric>
                 <incipit xml:lang="syr">
@@ -137,7 +149,9 @@
                            ܙܥܘܪܬܐ. ܏ܘܫ.</incipit>
               </msItem>
               <msItem xml:id="b6" n="7">
-                <title xml:lang="en">5. Letter of <persName ref="http://syriaca.org/person/579">Julian</persName> to <persName ref="http://syriaca.org/person/51">Severus</persName>
+                <locus from="8b"/>
+                <author ref="http://syriaca.org/person/579">Julian</author>
+                <title xml:lang="en">Letter of <persName ref="http://syriaca.org/person/579">Julian</persName> to <persName ref="http://syriaca.org/person/51">Severus</persName>
                 </title>
                 <rubric xml:lang="syr">ܕܝܘܠܝܢܐ ܕܨܝܕ ܦܛܪܝܪܟܐ</rubric>
                 <incipit xml:lang="syr">
@@ -150,7 +164,9 @@
                            ܏ܘܫ.</incipit>
               </msItem>
               <msItem xml:id="b7" n="8">
-                <title xml:lang="en">6. Reply of <persName ref="http://syriaca.org/person/51">Severus</persName>
+                <locus from="10a"/>
+                <author ref="http://syriaca.org/person/51">Severus</author>
+                <title xml:lang="en">Reply of <persName ref="http://syriaca.org/person/51">Severus</persName>
                 </title>
                 <rubric xml:lang="syr">ܐܓܪܬܐ ܕܩܕܝܫܐ ܘܙܗܝܐ ܣܐܘܪܐ ܪܝܫܐ ܕܐܦ̈ܣܩܦܐ ܕܐܢܛܝܟܝܐ̣.
                            ܕܠܘܬ ܝܘܠܝܢܐ ܐܦܣܩܦܐ ܕܐܠܝܩܪܢܣܘ. ܕܒܗ̇ ܡܚ̇ܘܐ̣. ܕܐܝܠܝܢ ܡܠܦܝܢ ܠܢ ܟܬܒ̈ܐ ܐ̈ܠܗܝܐ
@@ -169,7 +185,7 @@
                               <locus from="37a">37 a</locus>; <persName ref="http://syriaca.org/person/512">Gregory Nyssen</persName>,
                               <locus>foll. 26 a</locus>, seqq.; <persName ref="http://syriaca.org/person/513">Gregory Thaumaturgus</persName>,
                               <locus>fol. 30 a</locus>, seqq.; <persName>Ignatius</persName>,
-                              <title>epistle to the Ephesians</title>, <locus from="32a">fol. 32
+                              <bibl>epistle to the Ephesians</bibl>, <locus from="32a">fol. 32
                               a</locus>; <persName>Irenaeus</persName>, <locus from="27b">foll. 27
                               b</locus>, <locus from="37a">37 a</locus>; <persName ref="http://syriaca.org/person/573">John Chrysostom</persName>;
                               <persName>John of <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
@@ -177,11 +193,12 @@
                               b</locus>; <persName>Proclus</persName>, <locus from="27a">fol. 27
                               a</locus>; and <persName ref="http://syriaca.org/person/786">Theodotus
                               of <placeName ref="http://syriaca.org/place/494">Ancyra</placeName>
-                  </persName>, <locus from="23b">fol. 23
-                           b</locus>.</note>
+                  </persName>, <locus from="23b">fol. 23 b</locus>.</note>
               </msItem>
-              <msItem xml:id="b8" n="9">
-                <title xml:lang="en">7. Discourse of <persName ref="http://syriaca.org/person/51">Severus</persName> against
+              <msItem xml:id="b8" n="9" defective="true">
+                <locus from="38a"/>
+                <author ref="http://syriaca.org/person/51">Severus</author>
+                <title xml:lang="en">Discourse of <persName ref="http://syriaca.org/person/51">Severus</persName> against
                               <persName ref="http://syriaca.org/person/579">Julian</persName>
                 </title>
                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܩܕܝܫܐ ܣܐܘܪܐ ܪܫܐ ܕܐܦ̈ܣܩܦܐ ܕܐܢܛܝܘܟܝܐ. ܕܠܘܬ
@@ -242,7 +259,7 @@
                 <item xml:id="addition2" n="2">
                            <locus from="2"/>
                            <p>According to the marginal note on fol. 2, it contained also the
-                              commentary of <persName>Ephraim</persName> on the Gospels</p>
+                             commentary of <persName ref="https://syriaca.org/person/13">Ephraim</persName> on <bibl>the Gospels</bibl></p>
                            <p>
                               <quote xml:lang="syr">ܦܘܼܫܩܐ ܕܐܘܢܓܠܝܘܢ ܕܡܪܝ
                                  ܐܦܪܝܡ</quote>
@@ -260,7 +277,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="0600" notAfter="0700"/>
+                    <origDate notBefore="0600" notAfter="0700">viith cent</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
