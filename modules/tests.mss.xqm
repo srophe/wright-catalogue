@@ -39,6 +39,13 @@ declare %unit:test function mss-test:create-document-with-processing-instruction
   unit:assert-equals($mss-test:file-to-compare, mss:create-document($mss-test:file-to-compare/*))
 };
 
+declare %unit:test %unit:ignore function mss-test:create-teiHeader() {
+  unit:assert-equals($mss-test:file-to-compare/teiHeader, mss:update-teiHeader($mss-test:file-to-compare/*))
+};
+(: test whether the teiHeader of the processed file is the same as the hand-done file; should fail for a while 
+SKIPPING UNTIL READY TO TEST
+:)
+
 (:
 : List of tests
 : - reading inputs
