@@ -23,6 +23,24 @@ import module namespace decoder="http://srophe.org/srophe/decoder" at "decoder.x
 
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
+(: Functions to turn XML Stub records into full TEI files :)
+
+declare function mss:create-document($rec as node()+) {
+  let $processing-instructions := mss:create-processing-instructions()
+  return document {$processing-instructions, $rec}
+ 
+};
+
+declare function mss:create-processing-instructions() {
+  let $processingInstructionsConfig := $config:project-config/config/processingInstructions
+  for $pi in $processingInstructionsConfig/processingInstruction
+    let $piName := $pi/name
+    let $piParameters := for $param in $pi/parameter
+      (: returns a sequence of strings of form "nameString="valueString"":)
+      return $param/name/text()||"=&quot;"||$param/value/text()||"&quot;"
+    return processing-instruction {$piName} {$piParameters}
+};
+
 (: LIST OF NEEDED FUNCTIONS
 
 ## general utility
@@ -33,7 +51,6 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 ## updating tei sections and subsections
 
-- update-processing-instructions
 - update-teiHeader (will call the following scripts, which call each subsequent level, etc.)
 - update-fileDesc
 - update-titleStmt

@@ -18,6 +18,10 @@ import module namespace config="http://srophe.org/srophe/config" at "config.xqm"
 declare variable $mss-test:file-to-test := 
   let $path-to-file := $config:path-to-repo||"/resources/testing/317_testable.xml"
   return fn:doc($path-to-file);
+  
+declare variable $mss-test:file-to-compare :=
+  let $path-to-file := $config:path-to-repo||"/resources/testing/317_full.xml"
+  return fn:doc($path-to-file);
 
 declare %unit:before function mss-test:setup() {
   
@@ -27,13 +31,18 @@ declare %unit:after function mss-test:teardown() {
   
 };
 
+declare %unit:test function mss-test:create-processing-instructions-from-config() {
+  unit:assert-equals($mss-test:file-to-compare/processing-instruction(), mss:create-processing-instructions())
+};
 
+declare %unit:test function mss-test:create-document-with-processing-instructions() {
+  unit:assert-equals($mss-test:file-to-compare, mss:create-document($mss-test:file-to-compare/*))
+};
 
 (:
 : List of tests
 : - reading inputs
 : - writing outputs
-: - processing instructions
 : - wright-decoder creation
 : - taxonomy creation
 : - titleStmt
