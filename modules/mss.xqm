@@ -23,6 +23,18 @@ import module namespace decoder="http://srophe.org/srophe/decoder" at "decoder.x
 
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
+(: General helper functions :)
+
+declare function mss:clean-shelf-mark($shelf-mark as xs:string) as xs:string* {
+  let $shelfMarkPreamble := $config:project-config/config/projectMetadata/shelfMarkPrefix/text()
+  let $shelfMarkNumber := fn:substring-before($shelf-mark, " fo") (:get rid of any suffix foll. designation :)
+  let $shelfMarkNumber := fn:string-join(functx:get-matches($shelfMarkNumber, "\d+"), "")
+  
+  let $shelfMarkSuffix := if (fn:contains($shelf-mark, "fo")) then "fo"||fn:substring-after($shelf-mark, "fo") else ""
+  let $shelfMarkSuffix := if ($shelfMarkSuffix != "") then ", "||$shelfMarkSuffix
+  return $shelfMarkPreamble||" "||$shelfMarkNumber||$shelfMarkSuffix
+};
+
 (: Functions to turn XML Stub records into full TEI files :)
 
 declare function mss:create-document($rec as node()+) as document-node() {
@@ -53,7 +65,7 @@ declare function mss:update-teiHeader($rec as node()+) as node() {
 
 (: Build fileDesc :)
 declare function mss:update-fileDesc($fileDesc as node()+) as node() {
-  let $titleStmt := mss:update-titleStmt($fileDesc//titleStmt)
+  let $titleStmt := mss:update-titleStmt()
   let $editionStmt := mss:update-editionStmt($fileDesc/editionStmt)
   let $publicationStmt := mss:update-publicationStmt($fileDesc/publicationStmt)
   return element {QName("http://www.tei-c.org/ns/1.0", "fileDesc")} {
@@ -63,10 +75,14 @@ declare function mss:update-fileDesc($fileDesc as node()+) as node() {
 
 (: Build titleStmt :)
 
-declare function mss:update-titleStmt($titleStmt as node()+) as node() {
-  
+declare function mss:update-titleStmt() as node()* {
+  let $recordTitle := mss:create-record-title()
+  return $recordTitle
 };
 
+declare function mss:create-record-title() as node()* {
+  
+};
 
 (: Build editionStmt :)
 
