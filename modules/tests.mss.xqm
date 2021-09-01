@@ -34,31 +34,31 @@ declare %unit:after function mss-test:teardown() {
 };
 
 declare %unit:test function mss-test:create-processing-instructions-from-config() {
-  unit:assert-equals($mss-test:file-to-compare/processing-instruction(), mss:create-processing-instructions())
+  unit:assert-equals(mss:create-processing-instructions(), $mss-test:file-to-compare/processing-instruction())
 };
 
 declare %unit:test function mss-test:create-document-with-processing-instructions() {
-  unit:assert-equals($mss-test:file-to-compare, mss:create-document($mss-test:file-to-compare/*))
+  unit:assert-equals(mss:create-document($mss-test:file-to-compare/*), $mss-test:file-to-compare)
 };
 
 declare %unit:test %unit:ignore function mss-test:create-teiHeader() {
-  unit:assert-equals($mss-test:file-to-compare/teiHeader, mss:update-teiHeader($mss-test:file-to-compare/*))
+  unit:assert-equals(mss:update-teiHeader($mss-test:file-to-compare/*), $mss-test:file-to-compare/teiHeader)
 };
 (: test whether the teiHeader of the processed file is the same as the hand-done file; should fail for a while 
 SKIPPING UNTIL READY TO TEST
 :)
 
 declare %unit:test function mss-test:create-record-title() {
-   unit:assert-equals($mss-test:file-to-compare//titleStmt/title[level="a"], mss:create-record-title())
+   unit:assert-equals(mss:create-record-title(), $mss-test:file-to-compare//titleStmt/title[level="a"])
 };
 
 declare %unit:test function mss-test:clean-shelf-mark-preamble-no-follia-range() {
-  unit:assert-equals("BL Add MS 14581", mss:clean-shelf-mark(
-    $mss-test:file-to-test//tei:msDesc/tei:msIdentifier/tei:altIdentifier/tei:idno[@type="BL-Shelfmark"]/text()))
+  unit:assert-equals(mss:clean-shelf-mark(
+    $mss-test:file-to-test//tei:msDesc/tei:msIdentifier/tei:altIdentifier/tei:idno[@type="BL-Shelfmark"]/text()), "BL Add MS 14581")
 };
 
 declare %unit:test function mss-test:clean-shelf-mark-preamble-follia-range() {
-  unit:assert-equals("BL Add MS 14581, foll. 1-31", mss:clean-shelf-mark("Add. 14,581, foll. 1-31"))
+  unit:assert-equals(mss:clean-shelf-mark("Add. 14,581, foll. 1-31"), "BL Add MS 14581, foll. 1-31")
 };
 
 (:
