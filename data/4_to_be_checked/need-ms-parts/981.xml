@@ -85,6 +85,80 @@
           </msIdentifier>
               <msPart n="1" xml:id="Part1">
                 <msIdentifier>
+                  <idno type="URI">http://syriaca.org/manuscript/1456</idno>
+                  <altIdentifier>
+                    <idno type="BL-Shelfmark">Add MS 17220 fol. 1</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                    <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                    <idno type="Wright-BL-Arabic">190</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                    <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+                    <idno type="Wright-BL-Roman">CXC</idno>
+                  </altIdentifier>
+                </msIdentifier>
+                <msContents>
+                  <summary/>
+                  <textLang mainLang="syr">Syriac</textLang>
+                  <msItem xml:id="p1a1" n="1">
+                    <locus from="1">fol. 1</locus>
+                    <title xml:lang="en">the first leaf of a choir-book containing part of <ref>Ps. i</ref></title>
+                    <quote xml:lang="syr">ܒ. . . ܡܫܲܪܝܢܢ ܕܢܟܬܘܒ ܨ. . .  ܦܪܝܫܬܐ (؟) ܕܕܘܝܕ ܡܲܠܟܐ ܘܢܒܝܐ ܐܠܗܝܐ: ܘܥܠ ܡܲܘܬܒܐ ܕܡܡ̈ܝܩܢܐ ܠܐ ܝܬ݂ܒ ܏ܗ ܐܠܐ ܒܢܡܘܣܗ ܕܡܪܝܐ ܨܒܝܢܗ. ܕܦܐܪ̈ܘܗܝ ܝ̇ܗܒ ܒܙܒܢܗ ܘܛܪ̈ܦܘܗܝ ܠܐ ܢܬܪܝܢ ܏ܗ ܟܠ ܕܥ̇ܒܕ ܡܫܲܠܡ: ܏ܘܫ.</quote>
+                    <note xml:lang="en">Fol. 1 does not belong to the same volume as fol. 2a through fol. 186</note>
+                  </msItem>
+                </msContents>
+                <physDesc>
+                  <objectDesc form="codex">
+                    <supportDesc material="chart">
+                      <support>
+                        <material>Paper</material>
+                      </support>
+                      <condition>
+                        <list>
+                          <item>
+                            <p>Paper, about 6 7/8 in. by 5. Fol. 1, which is torn, does not belong to this volume. It is of the <date calendar="Gregorian" notBefore="1200" notAfter="1300">xiiith</date> or <date calendar="Gregorian" notBefore="1300" notAfter="1400">xivth cen</date></p>
+                          </item>
+                        </list>
+                      </condition>
+                    </supportDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                    <handNote xml:id="p1handNote1" scope="sole" script="syr" medium="unknown">
+                    </handNote>
+                  </handDesc>
+                  <additions/>
+                  <accMat/>
+                </physDesc>
+                <history>
+                  <origin>
+                    <origDate notBefore="1200" notAfter="1400">xiiith or xivth cent.</origDate>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+                </history>
+                <additional>
+                  <adminInfo>
+                    <recordHist>
+                      <source>Manuscript description based on <bibl><ref target="#Wrightpart1">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
+                    </recordHist>
+                    <note/>
+                  </adminInfo>
+                  <listBibl>
+                    <bibl xml:id="Wrightpart1">
+                      <author>William Wright</author>
+                      <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
+                      <pubPlace>London</pubPlace>
+                      <date>1870</date>
+                      <ptr target="http://syriaca.org/bibl/8"/>
+                      <citedRange unit="entry">CXC</citedRange>
+                      <citedRange unit="pp">I:133-134</citedRange>
+                    </bibl>
+                  </listBibl>
+                </additional>
+              </msPart>
+              <msPart n="2" xml:id="Part2">
+                <msIdentifier>
                   <idno type="URI">http://syriaca.org/manuscript/1455</idno>
                   <altIdentifier>
                     <idno type="BL-Shelfmark">Add MS 17220, fol. 2a-186</idno>
@@ -100,63 +174,29 @@
                 </msIdentifier>
                <msContents>
             <textLang mainLang="syr"/>
-            <msItem xml:id="p1a1" n="1" defective="true">
+            <msItem xml:id="p2a1" n="1" defective="true">
               <locus to="177" from="2a">Foll. 2a-177</locus>
-              
               <title xml:lang="en">The Psalms, according to the Peshitta
                         version.</title>
-              
-              
-              
-              
-              
               <note>Each versicle is divided into two parts by the letter <foreign xml:lang="syr">ܗ</foreign> <foreign xml:lang="syr">(ܗܠܠܘܝܗ)</foreign>, and the <foreign xml:lang="syr">ܡܪ̈ܡܝܬܐ</foreign> and <foreign xml:lang="syr">ܫܘ̈ܒܚܐ</foreign> are marked on the margins.</note>
               <note>The missing portions: <bibl>Ps. i. 1-xvi. 3</bibl>, and <bibl>xviii.
                            42-xxvii. 7</bibl>.</note>
             </msItem>
-            <msItem xml:id="p1a2" n="2">
+            <msItem xml:id="p2a2" n="2">
               <locus to="185" from="177b">Foll. 177b-185</locus>
-              
               <title xml:lang="en">The Canticles.</title>
-              
-              
-              
-              
-              
-              
-              <msItem xml:id="p1b1" n="3">
+              <msItem xml:id="p2b1" n="3">
                 <locus to="179" from="177b">Foll. 177b-179</locus>
-                
                 <title xml:lang="en">The first song of
                            <persName>Moses</persName>.</title>
-                
-                
-                
-                
-                
-                
               </msItem>
-              <msItem xml:id="p1b2" n="4">
+              <msItem xml:id="p2b2" n="4">
                 <locus to="180" from="180a">Foll. 180a-180</locus>
-                
                 <title xml:lang="en">The song of <persName>Isaiah</persName>.</title>
-                
-                
-                
-                
-                
-                
               </msItem>
-              <msItem xml:id="p1b3" n="5">
+              <msItem xml:id="p2b3" n="5">
                 <locus to="185" from="181a">Foll. 181a-185</locus>
-                
                 <title xml:lang="en">The second song of <persName>Moses</persName>.</title>
-                
-                
-                
-                
-                
-                
               </msItem>
             </msItem>
           </msContents>
@@ -181,25 +221,24 @@
                            </list>
                         </condition>
                      </supportDesc>
-                     
                   </objectDesc>
                   <handDesc hands="3">
-              <handNote medium="unknown" xml:id="p1handNote1" scope="major" script="syr">
+              <handNote medium="unknown" xml:id="p2handNote1" scope="major" script="syr">
                         <desc>The greater part of this manuscript, from fol. 75 to the end, is
                            written in a good, regular hand of the <date calendar="Gregorian" notBefore="1200" notAfter="1300">xiiith cent</date>.</desc>
                      </handNote>
-              <handNote medium="unknown" xml:id="p1handNote2" scope="minor" script="syr">
+              <handNote medium="unknown" xml:id="p2handNote2" scope="minor" script="syr">
                         <desc>Foll. 2—40 seem to be in a different hand of about the same
                            period.</desc>
                      </handNote>
-              <handNote medium="unknown" xml:id="p1handNote3" scope="minor" script="syr">
+              <handNote medium="unknown" xml:id="p2handNote3" scope="minor" script="syr">
                         <desc>Foll. 41—74 are somewhat more recent.</desc>
                      </handNote>
             </handDesc>
                   <additions>
               <p/>
               <list>
-                <item xml:id="p1addition1" n="1">
+                <item xml:id="p2addition1" n="1">
                            <locus/>
                            <p>The colophon, fol. 186 a, states that the volume belonged to one
                                  <persName>Rabban Abraham</persName>.</p>
@@ -209,7 +248,7 @@
                                  .ܠܗ ܕܢܩ̣ܪܐ ܒܗ ܘܢܐ̣ܬܪ ܢܦ . . . </quote>
                   </p>
                         </item>
-                <item xml:id="p1addition2" n="2">
+                <item xml:id="p2addition2" n="2">
                            <locus/>
                            <p>On fol. 186 b is added the song of the <persName ref="http://syriaca.org/person/624">blessed
                                  Virgin</persName>. </p>
@@ -217,7 +256,7 @@
                               <quote xml:lang="syr">[ܬܫܒܘܚܬܐ] ܕܝܠܕܬ݀ ܐܠܗܐ ܡܪܝܡ</quote>
                            </p>
                         </item>
-                <item xml:id="p1addition3" n="3">
+                <item xml:id="p2addition3" n="3">
                   <locus/>
                   <p>On a narrow slip of paper, between foll. 74 and 75, there is writing in
                     Karshūnī.</p>
@@ -227,7 +266,7 @@
                           <foreign xml:lang="en">or</foreign> العِرْق؟)</note></quote>
                   </p>
                 </item>
-                <item xml:id="p1addition4" n="4">
+                <item xml:id="p2addition4" n="4">
                            <locus/>
                            <p>Throughout this manuscript, a reader has indicated the pronunciation
                               of many of the Syriac words by writing them on the margins, or between
@@ -253,8 +292,6 @@
                         </item>
               </list>
             </additions>
-                  
-                  
                   <accMat/>
                </physDesc>
                <history>
@@ -269,14 +306,14 @@
             <adminInfo>
               <recordHist>
                 <source>Manuscript description based on<bibl>
-                    <ref target="#Wrightpart1">Wright's
+                    <ref target="#Wrightpart2">Wright's
                       Catalogue</ref>
                   </bibl>. abbreviated by the Syriaca.org editors.</source>
               </recordHist>
               <note/>
             </adminInfo>
             <listBibl>
-              <bibl xml:id="Wrightpart1">
+              <bibl xml:id="Wrightpart2">
                 <author>William Wright</author>
                 <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired
                   since the Year 1838</title>
@@ -288,80 +325,6 @@
               </bibl>
             </listBibl>
           </additional>
-              </msPart>
-              <msPart n="2" xml:id="Part2">
-                <msIdentifier>
-                  <idno type="URI">http://syriaca.org/manuscript/1456</idno>
-                  <altIdentifier>
-                    <idno type="BL-Shelfmark">Add MS 17220 fol. 1</idno>
-                  </altIdentifier>
-                  <altIdentifier>
-                    <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                    <idno type="Wright-BL-Arabic">190</idno>
-                  </altIdentifier>
-                  <altIdentifier>
-                    <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-                    <idno type="Wright-BL-Roman">CXC</idno>
-                  </altIdentifier>
-                </msIdentifier>
-                <msContents>
-                  <summary/>
-                  <textLang mainLang="syr">Syriac</textLang>
-                  <msItem xml:id="p2a1" n="1">
-                    <locus from="1">fol. 1</locus>
-                    <title xml:lang="en">the first leaf of a choir-book containing part of Ps. i</title>
-                    <quote xml:lang="syr">ܒ. . . ܡܫܲܪܝܢܢ ܕܢܟܬܘܒ ܨ. . .  ܦܪܝܫܬܐ (؟) ܕܕܘܝܕ ܡܲܠܟܐ ܘܢܒܝܐ ܐܠܗܝܐ: ܘܥܠ ܡܲܘܬܒܐ ܕܡܡ̈ܝܩܢܐ ܠܐ ܝܬ݂ܒ ܏ܗ ܐܠܐ ܒܢܡܘܣܗ ܕܡܪܝܐ ܨܒܝܢܗ. ܕܦܐܪ̈ܘܗܝ ܝ̇ܗܒ ܒܙܒܢܗ ܘܛܪ̈ܦܘܗܝ ܠܐ ܢܬܪܝܢ ܏ܗ ܟܠ ܕܥ̇ܒܕ ܡܫܲܠܡ: ܏ܘܫ.</quote>
-                    <note xml:lang="en">Fol. 1 does not belong to this volume of fol. 2a through fol. 186</note>
-                  </msItem>
-                </msContents>
-                <physDesc>
-                  <objectDesc form="codex">
-                    <supportDesc material="chart">
-                      <support>
-                        <material>Paper</material>
-                      </support>
-                      <condition>
-                        <list>
-                          <item>
-                            <p>Paper, about 6 7/8 in. by 5, consisting of 186 leaves, many of which are torn, especially foll. 1, 2, 12—41, and 179—186. Leaves are wanting after fol. 1. Fol. 1 does not belong to this volume. It is of the <date calendar="Gregorian" notBefore="1200" notAfter="1300">xiiith</date> or <date calendar="Gregorian" notBefore="1300" notAfter="1400">xivth cen</date></p>
-                          </item>
-                        </list>
-                      </condition>
-                    </supportDesc>
-                  </objectDesc>
-                  <handDesc hands="1">
-                    <handNote xml:id="p2handNote1" scope="sole" script="syr" medium="unknown">
-                    </handNote>
-                  </handDesc>
-                  <additions/>
-                  <accMat/>
-                </physDesc>
-                <history>
-                  <origin>
-                    <origDate notBefore="1200" notAfter="1400">xiiith or xivth cent.</origDate>
-                  </origin>
-                  <provenance/>
-                  <acquisition/>
-                </history>
-                <additional>
-                  <adminInfo>
-                    <recordHist>
-                      <source>Manuscript description based on <bibl><ref target="#Wrightpart2">Wright's Catalogue</ref></bibl>. abbreviated by the Syriaca.org editors.</source>
-                    </recordHist>
-                    <note/>
-                  </adminInfo>
-                  <listBibl>
-                    <bibl xml:id="Wrightpart2">
-                      <author>William Wright</author>
-                      <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired since the Year 1838</title>
-                      <pubPlace>London</pubPlace>
-                      <date>1870</date>
-                      <ptr target="http://syriaca.org/bibl/8"/>
-                      <citedRange unit="entry">CXC</citedRange>
-                      <citedRange unit="pp">I:133-134</citedRange>
-                    </bibl>
-                  </listBibl>
-                </additional>
               </msPart>
             </msDesc>
          </sourceDesc>
@@ -518,12 +481,13 @@
           <list>
             <item>
               <ref target="#Part1"/>
-              <ref target="#psalter"/>
+              <ref target="#choral"/>
             </item>
             <item>
               <ref target="#Part2"/>
-              <ref target="#choral"/>
+              <ref target="#psalter"/>
             </item>
+            
           </list>
         </keywords>
       </textClass>
