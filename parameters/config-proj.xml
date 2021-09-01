@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <uriBase>http://syriaca.org/manuscript/</uriBase>
-    <editorsList>https://syriaca.org/documentation/editors.xml</editorsList><!-- currently not working; 502 error. Maybe uses GitHub raw? -->
-    <!--This file will contain project metadata for the XQuery module at ../modules/mss.xqm 
-    Included data:
-    
-    - generic project metadata for the teiHeader
-    - names and URIs of project members
-    - 
-    -->
+    <editorsList>https://syriaca.org/documentation/editors.xml</editorsList>
+    <processingInstructions>
+        <processingInstruction>
+            <name>oxygen</name>
+            <parameter>
+                <name>RNGSchema</name>
+                <value>http://syriaca.org/documentation/syriaca-tei-main.rnc</value>
+            </parameter>
+            <parameter>
+                <name>type</name>
+                <value>compact</value>
+            </parameter>
+        </processingInstruction>
+        <processingInstruction>
+            <name>xml-stylesheet</name>
+            <parameter>
+                <name>type</name>
+                <value>text/css</value>
+            </parameter>
+            <parameter>
+                <name>href</name>
+                <value>https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css</value>
+            </parameter>
+        </processingInstruction>
+    </processingInstructions>
 </config>
