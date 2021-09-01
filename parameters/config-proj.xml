@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
-    <uriBase>http://syriaca.org/manuscript/</uriBase>
-    <editorsList>https://syriaca.org/documentation/editors.xml</editorsList>
+    <projectMetadata>
+        <uriBase>http://syriaca.org/manuscript/</uriBase>
+        <shelfMarkPrefix>BL Add MS</shelfMarkPrefix>
+        <country>United Kingdom</country>
+        <settlement>London</settlement>
+        <repository>British Library</repository>
+        <collection>Oriental Manuscripts</collection>
+        <editorsList>https://syriaca.org/documentation/editors.xml</editorsList>
+    </projectMetadata>
     <processingInstructions>
         <processingInstruction>
             <name>oxygen</name>
