@@ -53,8 +53,7 @@ declare %unit:test function mss-test:create-record-title() {
 };
 
 declare %unit:test function mss-test:clean-shelf-mark-preamble-no-follia-range() {
-  unit:assert-equals(mss:clean-shelf-mark(
-    $mss-test:file-to-test//tei:msDesc/tei:msIdentifier/tei:altIdentifier/tei:idno[@type="BL-Shelfmark"]/text()), "BL Add MS 14581")
+  unit:assert-equals(mss:clean-shelf-mark("Add. 14,581"), "BL Add MS 14581")
 };
 
 declare %unit:test function mss-test:clean-shelf-mark-preamble-follia-range() {
