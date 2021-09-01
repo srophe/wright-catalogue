@@ -25,13 +25,13 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 (: Functions to turn XML Stub records into full TEI files :)
 
-declare function mss:create-document($rec as node()+) {
+declare function mss:create-document($rec as node()+) as document-node() {
   let $processing-instructions := mss:create-processing-instructions()
   return document {$processing-instructions, $rec}
  
 };
 
-declare function mss:create-processing-instructions() {
+declare function mss:create-processing-instructions() as processing-instruction()* {
   let $processingInstructionsConfig := $config:project-config/config/processingInstructions
   for $pi in $processingInstructionsConfig/processingInstruction
     let $piName := $pi/name
