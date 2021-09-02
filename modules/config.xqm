@@ -34,7 +34,7 @@ declare variable $config:project-config :=
 declare variable $config:uri-base := $config:project-config/config/uriBase/text();
 
 declare variable $config:editors-document-uri := 
-    $config:project-config/config/editorsListUri/text();
+    $config:project-config/config/projectMetadata/editorsFileUri/text();
     
 declare variable $config:editors-document := 
     let $pathToEditorsDoc := $config:path-to-repo||"/resources/editors.xml"
