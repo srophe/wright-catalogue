@@ -62,7 +62,7 @@ declare function mss:create-processing-instructions() as processing-instruction(
 
 (: Build teiHeader :)
 declare function mss:update-teiHeader($rec as node()+) as node() {
-  let $fileDesc := mss:update-fileDesc($rec//fileDesc)
+  let $fileDesc := mss:update-fileDesc($rec)
   let $encodingDesc := mss:update-encodingDesc($rec//encodingDesc)
   let $profileDesc := mss:update-profileDesc($rec//profileDesc)
   let $revisionDesc := mss:update-revisionDesc($rec//revisionDesc)
@@ -70,10 +70,10 @@ declare function mss:update-teiHeader($rec as node()+) as node() {
 };
 
 (: Build fileDesc :)
-declare function mss:update-fileDesc($fileDesc as node()+) as node() {
-  let $titleStmt := mss:update-titleStmt($fileDesc)
-  let $editionStmt := mss:update-editionStmt($fileDesc/editionStmt)
-  let $publicationStmt := mss:update-publicationStmt($fileDesc/publicationStmt)
+declare function mss:update-fileDesc($rec as node()+) as node() {
+  let $titleStmt := mss:update-titleStmt($rec)
+  let $editionStmt := mss:update-editionStmt($rec)
+  let $publicationStmt := mss:update-publicationStmt($rec)
   return element {QName("http://www.tei-c.org/ns/1.0", "fileDesc")} {
     $titleStmt, $editionStmt, $publicationStmt
   }
