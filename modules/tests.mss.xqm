@@ -72,6 +72,17 @@ declare %unit:test function mss-test:get-editor-name-from-uri-title-first-last-n
   unit:assert-equals(mss:get-editor-name-from-uri("rakhrass"), "Dayroyo Roger-Youssef Akhrass")
 };
 
+declare %unit:test function mss-test:create-editor-element-general-editor() {
+  unit:assert-equals(mss:create-editor-element("dmichelson", "general-editor"), $mss-test:file-to-compare//tei:titleStmt/tei:editor[1])
+};
+
+declare %unit:test function mss-test:create-resp-stmt-created-by() {
+  unit:assert-equals(mss:create-resp-stmt("jpagan", "Created by"), $mss-test:file-to-compare//tei:titleStmt/tei:respStmt[1])
+};
+
+declare %unit:test function mss-test:update-titleStmt-from-stub() {
+  unit:assert-equals(mss:update-titleStmt($mss-test:file-to-test), $mss-test:file-to-compare//tei:titleStmt)
+};
 (:
 : List of tests
 : - reading inputs

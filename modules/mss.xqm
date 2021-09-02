@@ -41,12 +41,29 @@ declare function mss:clean-shelf-mark($shelf-mark as xs:string) as xs:string* {
   return $shelfMarkPreamble||" "||$shelfMarkNumber||$shelfMarkSuffix
 };
 
-declare function mss:get-editor-name-from-uri($editorUri as xs:string*) as xs:string* {
+declare function mss:create-editor-element($editorUri as xs:string*, $role as xs:string*) as node() {
+  let $editorNameString := mss:get-editor-name-from-uri($editorUri)
+  let $editorUriBase := $config:editors-document-uri
+  let $editorUri := if(not(fn:starts-with($editorUri, $editorUriBase))) then $editorUriBase||"#"||$editorUri else $editorUri
+  return element {QName("http://www.tei-c.org/ns/1.0", "editor")}
+                                      {attribute {"role"} {$role}, attribute {"ref"} {$editorUri}, $editorNameString}
+};
+
+declare function mss:get-editor-name-from-uri($editorUri as xs:string*) as xs:string {
   let $editorNames := for $editor in $config:editors-document//tei:listPerson/tei:person
     where fn:string($editor/@xml:id) = $editorUri
     return $editor/tei:persName/*
   let $editorNameString := fn:string-join($editorNames, " ")
   return $editorNameString
+};
+(: NOTE lots of redundancy with creating the editor element. maybe have a more generic lookup that gets the URI and text node that these funcs call:)
+declare function mss:create-resp-stmt($respNameUri as xs:string*, $respMessage as xs:string*) as node() {
+  let $respNameString := mss:get-editor-name-from-uri($respNameUri)
+  let $respNameUriBase := $config:editors-document-uri
+  let $respNameUri := if(not(fn:starts-with($respNameUri, $respNameUriBase))) then $respNameUriBase||"#"||$respNameUri else $respNameUri
+  let $respElement := element {QName("http://www.tei-c.org/ns/1.0", "resp")} {$respMessage}
+  let $respNameElement := element {QName("http://www.tei-c.org/ns/1.0", "name")} {attribute {"type"} {"person"}, attribute {"ref"} {$respNameUri}, $respNameString}
+  return element {QName("http://www.tei-c.org/ns/1.0", "respStmt")} {$respElement, $respNameElement}
 };
 
 (: Functions to turn XML Stub records into full TEI files :)
@@ -91,10 +108,15 @@ declare function mss:update-fileDesc($rec as node()+) as node() {
 
 declare function mss:update-titleStmt($rec) as node()* {
   let $recordTitle := mss:create-record-title($rec)
-  let $creatorUri := xs:string($rec//revisionDesc/change[not(@subtype) and contains(text(), "Initial")]/@who) (: gets editor ID of the person who created this TEI record stub :)
-  let $creatorNameString := mss:get-editor-name-from-uri($creatorUri)
-  let $creatorUri := $config:project-config/config/projectMetadata/editorsFileUri/text()||"#"||$creatorUri
-  return $recordTitle
+  let $projectMetadata := $config:project-config/config/tei:titleStmt/*[not(self::tei:respStmt)]
+  
+  let $creatorUri := xs:string($rec//tei:revisionDesc/tei:change[not(@subtype) and contains(text(), "Initial")]/@who) (: gets editor ID of the person who created this TEI record stub :)
+  let $creatorUri := functx:substring-after-if-contains($creatorUri, "#") (:only takes ID portion if the full editor URI was used:)
+  let $creatorTeiEditorElement := mss:create-editor-element($creatorUri, "creator")
+  
+  let $creatorRespStmt := mss:create-resp-stmt($creatorUri, "Created by")
+  let $projectRespStmts := $config:project-config/config/tei:titleStmt/tei:respStmt
+  return element {QName("http://www.tei-c.org/ns/1.0", "titleStmt")} {$recordTitle, $projectMetadata, $creatorTeiEditorElement, $creatorRespStmt, $projectRespStmts}
 };
 
 declare function mss:create-record-title($rec as node()+) as node()* {
