@@ -41,6 +41,14 @@ declare function mss:clean-shelf-mark($shelf-mark as xs:string) as xs:string* {
   return $shelfMarkPreamble||" "||$shelfMarkNumber||$shelfMarkSuffix
 };
 
+declare function mss:get-editor-name-from-uri($editorUri as xs:string*) as xs:string* {
+  let $editorNames := for $editor in $config:editors-document//tei:listPerson/tei:person
+    where fn:string($editor/@xml:id) = $editorUri
+    return $editor/tei:persName/*
+  let $editorNameString := fn:string-join($editorNames, " ")
+  return $editorNameString
+};
+
 (: Functions to turn XML Stub records into full TEI files :)
 
 declare function mss:create-document($rec as node()+) as document-node() {
@@ -81,8 +89,11 @@ declare function mss:update-fileDesc($rec as node()+) as node() {
 
 (: Build titleStmt :)
 
-declare function mss:update-titleStmt($fileDesc) as node()* {
-  let $recordTitle := mss:create-record-title($fileDesc)
+declare function mss:update-titleStmt($rec) as node()* {
+  let $recordTitle := mss:create-record-title($rec)
+  let $creatorUri := xs:string($rec//revisionDesc/change[not(@subtype) and contains(text(), "Initial")]/@who) (: gets editor ID of the person who created this TEI record stub :)
+  let $creatorNameString := mss:get-editor-name-from-uri($creatorUri)
+  let $creatorUri := $config:project-config/config/projectMetadata/editorsFileUri/text()||"#"||$creatorUri
   return $recordTitle
 };
 
@@ -91,6 +102,13 @@ declare function mss:create-record-title($rec as node()+) as node()* {
   return element {QName("http://www.tei-c.org/ns/1.0", "title")} 
                   {attribute {"xml:lang"} {"en"}, attribute {"level"} {"a"}, $title}
 };
+
+(:
+- get static metadata from config-proj.xml
+- create creator editor list
+- create respStmts for creators
+- put it all together in the right order
+:)
 
 (: Build editionStmt :)
 

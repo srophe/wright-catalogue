@@ -60,6 +60,18 @@ declare %unit:test function mss-test:clean-shelf-mark-preamble-follia-range() {
   unit:assert-equals(mss:clean-shelf-mark("Add. 14,581, foll. 1-31"), "BL Add MS 14581, foll. 1-31")
 };
 
+declare %unit:test function mss-test:get-editor-name-from-uri-first-last-name() {
+  unit:assert-equals(mss:get-editor-name-from-uri("lruth"), "Lindsay Ruth")
+};
+
+declare %unit:test function mss-test:get-editor-name-from-uri-first-middle-last-name() {
+  unit:assert-equals(mss:get-editor-name-from-uri("wpotter"), "William L. Potter")
+};
+
+declare %unit:test function mss-test:get-editor-name-from-uri-title-first-last-name() {
+  unit:assert-equals(mss:get-editor-name-from-uri("rakhrass"), "Dayroyo Roger-Youssef Akhrass")
+};
+
 (:
 : List of tests
 : - reading inputs
@@ -67,7 +79,6 @@ declare %unit:test function mss-test:clean-shelf-mark-preamble-follia-range() {
 : - wright-decoder creation
 : - taxonomy creation
 : - titleStmt
-: 	- title (level a)
 : 	- editors and respStmts
 : - pubStmt (URI)
 : - msDesc (xml:id)
