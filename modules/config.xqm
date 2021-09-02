@@ -33,11 +33,12 @@ declare variable $config:project-config :=
      
 declare variable $config:uri-base := $config:project-config/config/uriBase/text();
 
-declare variable $config:editors-list-uri := 
+declare variable $config:editors-document-uri := 
     $config:project-config/config/editorsListUri/text();
     
-declare variable $config:editors-list := doc($config:editors-list-uri);
-(: NOTE: need to specify if this is a TEI file, how to get to the list, etc. Because not great if it's in CSV and you're assuming a SYriaca-like editors.xml :)
+declare variable $config:editors-document := 
+    let $pathToEditorsDoc := $config:path-to-repo||"/resources/editors.xml"
+    return fn:doc($pathToEditorsDoc); (: currently assuming this will be a TEI file like Syriaca's, need to enforce this or handle other options? :)
 
 (:
 global variables:
