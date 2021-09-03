@@ -29,6 +29,13 @@ declare variable $mss-test:current-date-publicationStmt-to-compare :=
   let $publicationStmtToCompare := $mss-test:file-to-compare//tei:publicationStmt
   let $dateElement := element {QName("http://www.tei-c.org/ns/1.0", "date")} {attribute {"calendar"} {"Gregorian"}, fn:current-date()}
   return element {QName("http://www.tei-c.org/ns/1.0", "publicationStmt")} {$publicationStmtToCompare/*[not(self::tei:date)], $dateElement};
+
+declare variable $mss-test:current-date-revisionDesc-to-compare :=
+  let $revisionDescToCompare := $mss-test:file-to-compare//tei:revisionDesc
+  let $currentDate := fn:current-date()
+  let $currentDate := fn:substring(xs:string($currentDate), 1, 10)
+  let $changeElement := element {QName("http://www.tei-c.org/ns/1.0", "change")} {attribute {"who"} {$config:editors-document-uri||"#"||$config:change-log-script-id}, attribute {"when"} {$currentDate}, $config:change-log-message}
+  return element {QName("http://www.tei-c.org/ns/1.0", "revisionDesc")} {$revisionDescToCompare/@*, $changeElement, $revisionDescToCompare/*[position() > 1]};
   
 declare %unit:before function mss-test:setup() {
   (: make current date correct ?? this is stupidly complex...:)
@@ -125,6 +132,11 @@ declare %unit:test function mss-test:create-keywords-node-wright-bl-taxonomy-wit
   unit:assert-equals(mss:create-keywords-node("317", "#Wright-BL-Taxonomy"), $mss-test:file-to-compare//tei:textClass/tei:keywords)
 };
 
+(: revisionDesc tests :)
+
+declare %unit:test function mss-test:update-revisionDesc-from-stub() {
+  unit:assert-equals(mss:update-revisionDesc($mss-test:file-to-test//tei:revisionDesc), $mss-test:current-date-revisionDesc-to-compare)
+};
 (:
 : List of tests
 : - reading inputs
@@ -144,6 +156,5 @@ declare %unit:test function mss-test:create-keywords-node-wright-bl-taxonomy-wit
 : - handling empty versions of certain things like decoDesc, etc.
 : - origDate and origPlace
 : - citedRange in //additional/listBibl/bibl
-: - textClass
 : - msPart will have additional testing most likely, but for now just refactor based on the above tests
 :)

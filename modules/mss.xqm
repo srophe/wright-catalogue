@@ -96,7 +96,7 @@ declare function mss:update-teiHeader($rec as node()+) as node() {
   let $fileDesc := mss:update-fileDesc($rec)
   let $encodingDesc := $config:project-config/config/tei:encodingDesc
   let $profileDesc := mss:update-profileDesc($rec)
-  let $revisionDesc := mss:update-revisionDesc($rec//revisionDesc)
+  let $revisionDesc := mss:update-revisionDesc($rec//tei:revisionDesc)
   return element {QName("http://www.tei-c.org/ns/1.0", "teiHeader")} {$fileDesc, $encodingDesc, $profileDesc, $revisionDesc}
 };
 
@@ -187,7 +187,10 @@ declare function mss:create-wright-taxonomy-node($recId as xs:string) as node() 
 (: Build revisionDesc :)
 
 declare function mss:update-revisionDesc($revisionDesc as node()+) as node() {
-  
+  let $currentDate := fn:current-date()
+  let $currentDate := fn:substring(xs:string($currentDate), 1, 10)
+  let $newChangeLogElement := element {QName("http://www.tei-c.org/ns/1.0", "change")} {attribute {"who"} {$config:editors-document-uri||"#"||$config:change-log-script-id}, attribute {"when"} {$currentDate}, $config:change-log-message}
+   return element {QName("http://www.tei-c.org/ns/1.0", "revisionDesc")} {$revisionDesc/@*, $newChangeLogElement, $revisionDesc/*}
 };
 
 (: Build tei:fascimile and tei:text :)
