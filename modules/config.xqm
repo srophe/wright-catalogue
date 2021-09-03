@@ -31,7 +31,7 @@ declare variable $config:project-config :=
    return
      doc($pathToProjConfig);
      
-declare variable $config:uri-base := $config:project-config/config/uriBase/text();
+declare variable $config:uri-base := $config:project-config/config/projectMetadata/uriBase/text();
 
 declare variable $config:editors-document-uri := 
     $config:project-config/config/projectMetadata/editorsFileUri/text();
