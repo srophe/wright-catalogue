@@ -94,8 +94,8 @@ declare function mss:create-processing-instructions() as processing-instruction(
 (: Build teiHeader :)
 declare function mss:update-teiHeader($rec as node()+) as node() {
   let $fileDesc := mss:update-fileDesc($rec)
-  let $encodingDesc := mss:update-encodingDesc($rec//encodingDesc)
-  let $profileDesc := mss:update-profileDesc($rec//profileDesc)
+  let $encodingDesc := $config:project-config/config/tei:encodingDesc
+  let $profileDesc := mss:update-profileDesc($rec)
   let $revisionDesc := mss:update-revisionDesc($rec//revisionDesc)
   return element {QName("http://www.tei-c.org/ns/1.0", "teiHeader")} {$fileDesc, $encodingDesc, $profileDesc, $revisionDesc}
 };
@@ -148,18 +148,42 @@ declare function mss:update-publicationStmt($rec as node()+) as node() {
 (: Build Source Desc :)
 
 (: PENDING :)
-(: Build encodingDesc :)
 
-declare function mss:update-encodingDesc($encodingDesc as node()+) as node() {
-  
-};
+(: Note: encodingDesc will only have project metadata, so mss:update-teiHeader() simply points to the config:project-config XML file 
+: Caveat: would we want to have these functions to access them later in simple update scripts? (E.g., you could make a batch change by a simple 'for $x in $mssColl update encodingDesc with mss:update-encodingDesc()') --> to think on; same for editionStmt
+:)
 
 (: Build profileDesc :)
 
-declare function mss:update-profileDesc($profileDesc as node()+) as node() {
-  
+declare function mss:update-profileDesc($rec as node()+) as node() {
+  let $langUsage := $config:project-config/config/tei:profileDesc/tei:langUsage
+  let $textClass := mss:create-textClass(mss:get-record-uri($rec))
+  return element {QName("http://www.tei-c.org/ns/1.0", "profileDesc")} {$langUsage, $textClass}
 };
 
+declare function mss:create-textClass($uri as xs:string) as node() {
+  let $recId := functx:substring-after-if-contains($uri, "manuscript/")
+  let $keywordsSeq := for $keyword in $config:project-config/config/tei:profileDesc/tei:textClass/tei:keywords
+      return mss:create-keywords-node($recId, fn:string($keyword/@scheme))
+  return element {QName("http://www.tei-c.org/ns/1.0", "textClass")} {$keywordsSeq}
+};
+
+declare function mss:create-keywords-node($recId as xs:string, $keywordScheme as xs:string) as node() {
+  let $keywordScheme := functx:substring-after-if-contains($keywordScheme, "#")
+  let $keywordContent := switch ($keywordScheme)
+    case "Wright-BL-Taxonomy" return mss:create-wright-taxonomy-node($recId)
+    (: add more cases as needed :)
+    default return ()
+  return element {QName("http://www.tei-c.org/ns/1.0", "keywords")} {attribute {"scheme"} {"#"||$keywordScheme}, $keywordContent}
+};
+
+declare function mss:create-wright-taxonomy-node($recId as xs:string) as node() {
+  let $wrightTaxonomyValue := decoder:get-wright-taxonomy-id-from-uri($recId)
+  let $wrightTaxonomyRefNode := element {QName("http://www.tei-c.org/ns/1.0", "ref")} {attribute {"target"} {"#"||$wrightTaxonomyValue}}
+  let $wrightTaxonomyItemNode := element {QName("http://www.tei-c.org/ns/1.0", "item")} {$wrightTaxonomyRefNode}
+  let $wrightTaxonomyListNode := element {QName("http://www.tei-c.org/ns/1.0", "list")} {$wrightTaxonomyItemNode}
+  return $wrightTaxonomyListNode
+};
 (: Build revisionDesc :)
 
 declare function mss:update-revisionDesc($revisionDesc as node()+) as node() {

@@ -104,13 +104,33 @@ declare %unit:test function mss-test:get-record-uri-from-full-uri() {
   unit:assert-equals(mss:get-record-uri($mss-test:file-to-compare), "http://syriaca.org/manuscript/317")
 };
 
+(: SOURCE DESC TESTS GO HERE :)
+
+
+(: profileDesc tests :)
+
+declare %unit:test function mss-test:update-profileDesc-from-stub() {
+  unit:assert-equals(mss:update-profileDesc($mss-test:file-to-test), $mss-test:file-to-compare//tei:profileDesc)
+};
+
+declare %unit:test function mss-test:create-textClass-from-stub() {
+  unit:assert-equals(mss:create-textClass("http://syriaca.org/manuscript/317"), $mss-test:file-to-compare//tei:textClass)
+};
+
+declare %unit:test function mss-test:create-wright-taxonomy-node() {
+  unit:assert-equals(mss:create-wright-taxonomy-node("317"), $mss-test:file-to-compare//tei:textClass/tei:keywords/tei:list)
+};
+
+declare %unit:test function mss-test:create-keywords-node-wright-bl-taxonomy-with-hashtag() {
+  unit:assert-equals(mss:create-keywords-node("317", "#Wright-BL-Taxonomy"), $mss-test:file-to-compare//tei:textClass/tei:keywords)
+};
+
 (:
 : List of tests
 : - reading inputs
 : - writing outputs
 : - wright-decoder creation
 : - taxonomy creation
-: - pubStmt (URI)
 : - msDesc (xml:id)
 : 	- msIdentifier
 : 	- msParts (later)
