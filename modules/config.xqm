@@ -40,11 +40,12 @@ declare variable $config:editors-document :=
     let $pathToEditorsDoc := $config:path-to-repo||"/resources/editors.xml"
     return fn:doc($pathToEditorsDoc); (: currently assuming this will be a TEI file like Syriaca's, need to enforce this or handle other options? :)
 
+declare variable $config:change-log-script-id := $config:config/config/changeLogScriptId/text();
+
+declare variable $config:change-log-message := $config:config/config/changeLogMessage/text();
 (:
 global variables:
 
-
-- set editor for running scripts? (this should go in the main module??)
 - file input directory from config (maybe a main module thing?)
 - file output info from config (e.g. is it writeback or not; if not give a location for where to put file outputs -- this is maybe a main module thing?)
 - you'll want a function for tokenizing the decoder, etc. so should have variables for that here
