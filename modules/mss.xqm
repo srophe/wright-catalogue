@@ -25,6 +25,12 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 (: General helper functions :)
 
+declare function mss:get-record-uri($rec as node()+) as xs:string? {
+  let $recUri := $rec//tei:msDesc/tei:msIdentifier/tei:idno[@type="URI"]/text()
+  let $recUri := if (fn:starts-with($recUri, $config:uri-base)) then $recUri else $config:uri-base||$recUri
+  return $recUri
+};
+
 declare function mss:get-shelf-mark($rec as node()+) as xs:string* {
   let $shelfMark :=  $rec//tei:msDesc/tei:msIdentifier/tei:altIdentifier/tei:idno[@type="BL-Shelfmark"]/text()
   return $shelfMark
@@ -97,7 +103,7 @@ declare function mss:update-teiHeader($rec as node()+) as node() {
 (: Build fileDesc :)
 declare function mss:update-fileDesc($rec as node()+) as node() {
   let $titleStmt := mss:update-titleStmt($rec)
-  let $editionStmt := mss:update-editionStmt($rec)
+  let $editionStmt := $config:project-config/config/tei:editionStmt
   let $publicationStmt := mss:update-publicationStmt($rec)
   return element {QName("http://www.tei-c.org/ns/1.0", "fileDesc")} {
     $titleStmt, $editionStmt, $publicationStmt
@@ -125,25 +131,23 @@ declare function mss:create-record-title($rec as node()+) as node()* {
                   {attribute {"xml:lang"} {"en"}, attribute {"level"} {"a"}, $title}
 };
 
-(:
-- get static metadata from config-proj.xml
-- create creator editor list
-- create respStmts for creators
-- put it all together in the right order
-:)
-
-(: Build editionStmt :)
-
-declare function mss:update-editionStmt($editionStmt as node()+) as node() {
-  
-};
+(: Note: editionStmt will only have project metadata, so mss:update-fileDesc() simply points to the config:project-config XML file :)
 
 (: Build publicationStmt :)
 
-declare function mss:update-publicationStmt($publicationStmt as node()+) as node() {
-  
+declare function mss:update-publicationStmt($rec as node()+) as node() {
+  let $publicationMetadata := $config:project-config/config/tei:publicationStmt
+  let $publicationAuthority := $publicationMetadata/tei:authority
+  let $recUri := mss:get-record-uri($rec)
+  let $publicationIdno := element {QName("http://www.tei-c.org/ns/1.0", "idno")} {attribute {"type"} {"URI"}, $recUri||"/tei"}
+  let $publicationAvailability := $publicationMetadata/tei:availability
+  let $publicationDate := element {QName("http://www.tei-c.org/ns/1.0", "date")} {attribute {"calendar"} {"Gregorian"}, fn:current-date()}
+  return element {QName("http://www.tei-c.org/ns/1.0", "publicationStmt")} {$publicationAuthority, $publicationIdno, $publicationAvailability, $publicationDate}
 };
 
+(: Build Source Desc :)
+
+(: PENDING :)
 (: Build encodingDesc :)
 
 declare function mss:update-encodingDesc($encodingDesc as node()+) as node() {

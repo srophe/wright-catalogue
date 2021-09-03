@@ -25,12 +25,18 @@ declare variable $mss-test:file-to-compare :=
   let $path-to-file := $config:path-to-repo||"/resources/testing/317_full.xml"
   return fn:doc($path-to-file);
 
-declare %unit:before function mss-test:setup() {
+declare variable $mss-test:current-date-publicationStmt-to-compare :=
+  let $publicationStmtToCompare := $mss-test:file-to-compare//tei:publicationStmt
+  let $dateElement := element {QName("http://www.tei-c.org/ns/1.0", "date")} {attribute {"calendar"} {"Gregorian"}, fn:current-date()}
+  return element {QName("http://www.tei-c.org/ns/1.0", "publicationStmt")} {$publicationStmtToCompare/*[not(self::tei:date)], $dateElement};
   
+declare %unit:before function mss-test:setup() {
+  (: make current date correct ?? this is stupidly complex...:)
+
 };
 
 declare %unit:after function mss-test:teardown() {
-  
+  $config:path-to-repo||"/resources/testing/317_full.xml"
 };
 
 declare %unit:test function mss-test:create-processing-instructions-from-config() {
@@ -83,14 +89,27 @@ declare %unit:test function mss-test:create-resp-stmt-created-by() {
 declare %unit:test function mss-test:update-titleStmt-from-stub() {
   unit:assert-equals(mss:update-titleStmt($mss-test:file-to-test), $mss-test:file-to-compare//tei:titleStmt)
 };
+
+
+declare %unit:test function mss-test:update-publicationStmt-from-stub-with-current-date() {
+  
+  unit:assert-equals(mss:update-publicationStmt($mss-test:file-to-test), $mss-test:current-date-publicationStmt-to-compare)
+};
+
+declare %unit:test function mss-test:get-record-uri-from-number-only() {
+  unit:assert-equals(mss:get-record-uri($mss-test:file-to-test), "http://syriaca.org/manuscript/317")
+};
+
+declare %unit:test function mss-test:get-record-uri-from-full-uri() {
+  unit:assert-equals(mss:get-record-uri($mss-test:file-to-compare), "http://syriaca.org/manuscript/317")
+};
+
 (:
 : List of tests
 : - reading inputs
 : - writing outputs
 : - wright-decoder creation
 : - taxonomy creation
-: - titleStmt
-: 	- editors and respStmts
 : - pubStmt (URI)
 : - msDesc (xml:id)
 : 	- msIdentifier
