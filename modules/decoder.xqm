@@ -54,3 +54,13 @@ declare function decoder:get-wright-arabic-numeral-from-uri($recId as xs:string)
   let $wrightDecoderRecord := decoder:get-wright-decoder-record-from-uri($recId)
   return $wrightDecoderRecord/wrightArabicNumeral/text()
 };
+
+declare function decoder:get-wright-roman-numeral-from-uri($recId as xs:string) as xs:string? {
+  let $wrightDecoderRecord := decoder:get-wright-decoder-record-from-uri($recId)
+  return $wrightDecoderRecord/wrightRomanNumeral/text()
+};
+
+declare function decoder:get-bl-shelfmark-from-uri($recId as xs:string) as xs:string? {
+  let $wrightDecoderRecord := decoder:get-wright-decoder-record-from-uri($recId)
+  return $wrightDecoderRecord/shelfmark/text()
+};
