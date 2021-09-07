@@ -50,8 +50,8 @@ declare %unit:test function mss-test:create-processing-instructions-from-config(
   unit:assert-equals(mss:create-processing-instructions(), $mss-test:file-to-compare/processing-instruction())
 };
 
-declare %unit:test function mss-test:create-document-with-processing-instructions() {
-  unit:assert-equals(mss:create-document($mss-test:file-to-compare/*), $mss-test:file-to-compare)
+declare %unit:test %unit:ignore function mss-test:create-document-with-processing-instructions() {
+  unit:assert-equals(mss:create-document($mss-test:file-to-compare), $mss-test:file-to-compare)
 };
 
 declare %unit:test %unit:ignore function mss-test:create-teiHeader() {
@@ -63,6 +63,10 @@ SKIPPING UNTIL READY TO TEST
 
 declare %unit:test function mss-test:create-record-title() {
    unit:assert-equals(mss:create-record-title($mss-test:file-to-test), $mss-test:file-to-compare//tei:titleStmt/tei:title[@level="a"])
+};
+
+declare %unit:test function mss-test:get-shelf-mark-from-stub() {
+  unit:assert-equals(mss:get-shelf-mark($mss-test:file-to-test), "Add. 14,581")
 };
 
 declare %unit:test function mss-test:clean-shelf-mark-preamble-no-follia-range() {
@@ -97,7 +101,6 @@ declare %unit:test function mss-test:update-titleStmt-from-stub() {
   unit:assert-equals(mss:update-titleStmt($mss-test:file-to-test), $mss-test:file-to-compare//tei:titleStmt)
 };
 
-
 declare %unit:test function mss-test:update-publicationStmt-from-stub-with-current-date() {
   
   unit:assert-equals(mss:update-publicationStmt($mss-test:file-to-test), $mss-test:current-date-publicationStmt-to-compare)
@@ -111,9 +114,39 @@ declare %unit:test function mss-test:get-record-uri-from-full-uri() {
   unit:assert-equals(mss:get-record-uri($mss-test:file-to-compare), "http://syriaca.org/manuscript/317")
 };
 
-(: SOURCE DESC TESTS GO HERE :)
+(: sourceDesc tests :)
 
+declare %unit:test %unit:ignore function mss-test:update-sourceDesc-from-stub() {
+  unit:assert-equals(mss:update-sourceDesc($mss-test:file-to-test), $mss-test:file-to-compare//tei:sourceDesc)
+};
 
+declare %unit:test %unit:ignore function mss-test:update-msDesc-from-stub() {
+  unit:assert-equals(mss:update-msDesc($mss-test:file-to-test), $mss-test:file-to-compare//tei:msDesc)
+};
+
+declare %unit:test function mss-test:update-msIdentifier-from-stub() {
+  unit:assert-equals(mss:update-msIdentifier($mss-test:file-to-test), $mss-test:file-to-compare//tei:msIdentifier)
+};
+
+declare %unit:test function mss-test:create-altIdentifier-elements-from-stub() {
+  unit:assert-equals(<el>{mss:create-altIdentifier-elements($config:project-config/config//tei:msIdentifier/tei:altIdentifier, "317")}</el>, <el>{$mss-test:file-to-compare//tei:msIdentifier/tei:altIdentifier}</el>)
+};
+
+declare %unit:test function mss-test:create-bl-shelfmark-element-from-stub() {
+  unit:assert-equals(<el>{mss:create-bl-shelfmark-element("317")}</el>, <el>{$mss-test:file-to-compare//tei:msIdentifier/tei:altIdentifier[tei:idno[@type="BL-Shelfmark"]]/*}</el>)
+};
+
+declare %unit:test function mss-test:create-wright-bl-arabic-element-from-stub() {
+  unit:assert-equals(<el>{mss:create-wright-bl-arabic-element("317")}</el>, <el>{$mss-test:file-to-compare//tei:msIdentifier/tei:altIdentifier[tei:idno[@type="Wright-BL-Arabic"]]/*}</el>)
+};
+
+declare %unit:test function mss-test:create-wright-bl-roman-element-from-stub() {
+  unit:assert-equals(<el>{mss:create-wright-bl-roman-element("317")}</el>, <el>{$mss-test:file-to-compare//tei:msIdentifier/tei:altIdentifier[tei:idno[@type="Wright-BL-Roman"]]/*}</el>)
+};
+
+declare %unit:test %unit:ignore function mss-test:update-msContents-from-stub() {
+  unit:assert-equals(mss:update-msContents($mss-test:file-to-test), $mss-test:file-to-compare//tei:msContents)
+};
 (: profileDesc tests :)
 
 declare %unit:test function mss-test:update-profileDesc-from-stub() {
@@ -136,6 +169,10 @@ declare %unit:test function mss-test:create-keywords-node-wright-bl-taxonomy-wit
 
 declare %unit:test function mss-test:update-revisionDesc-from-stub() {
   unit:assert-equals(mss:update-revisionDesc($mss-test:file-to-test//tei:revisionDesc), $mss-test:current-date-revisionDesc-to-compare)
+};
+
+declare %unit:test function mss-test:update-tei-text-elements-from-stub() {
+  unit:assert-equals(mss:update-tei-text-elements($mss-test:file-to-test), $mss-test:file-to-compare/tei:TEI/*[not(self::tei:teiHeader)])
 };
 (:
 : List of tests
