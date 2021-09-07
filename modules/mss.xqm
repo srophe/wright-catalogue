@@ -76,6 +76,7 @@ declare function mss:create-resp-stmt($respNameUri as xs:string*, $respMessage a
 
 declare function mss:create-document($rec as node()+) as document-node() {
   let $processing-instructions := mss:create-processing-instructions()
+  let $rec := mss:update-full-record($rec)
   return document {$processing-instructions, $rec}
 };
 
@@ -91,6 +92,11 @@ declare function mss:create-processing-instructions() as processing-instruction(
 
 (: Build document from component parts :)
 
+declare function mss:update-full-record($rec as node()+) as node() {
+  let $teiHeader := mss:update-teiHeader($rec)
+  let $teiText := mss:update-tei-text-elements($rec)
+  return element {QName("http://www.tei-c.org/ns/1.0", "TEI")} {$teiHeader, $teiText}
+};
 (: Build teiHeader :)
 declare function mss:update-teiHeader($rec as node()+) as node() {
   let $fileDesc := mss:update-fileDesc($rec)
@@ -195,6 +201,11 @@ declare function mss:update-revisionDesc($revisionDesc as node()+) as node() {
 
 (: Build tei:fascimile and tei:text :)
 
+(: Note: as currently we are not using non-header elements (saving fascimile and text for later phases, perhaps with transcriptions when available), we are just returning these from the xml stub file in which the catalogue info was encoded. :)
+declare function mss:update-tei-text-elements($doc as node()+) as node()+ {
+  let $nonHeaderElements := $doc/tei:TEI/*[not(self::tei:teiHeader)]
+  return $nonHeaderElements
+};
 (: LIST OF NEEDED FUNCTIONS
 
 ## general utility
