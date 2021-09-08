@@ -100,6 +100,28 @@
                     <idno type="Wright-BL-Roman"/>
                 </altIdentifier>
             </msIdentifier>
+            <additional>
+                <adminInfo>
+                    <recordHist>
+                        <source>Manuscript description based on <bibl>
+                            <ref target="#Wright">Wright's
+                                Catalogue</ref>
+                        </bibl>, abbreviated by the Syriaca.org editors.</source>
+                    </recordHist>
+                    <note/>
+                </adminInfo>
+                <listBibl>
+                    <bibl xml:id="Wright">
+                        <author>William Wright</author>
+                        <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired
+                            since the Year 1838</title>
+                        <pubPlace>London</pubPlace>
+                        <date>1870</date>
+                        <ptr target="http://syriaca.org/bibl/8"/>
+                        <!-- entry and pp citedRange created by script -->
+                    </bibl>
+                </listBibl>
+            </additional>
         </msDesc>
     </sourceDesc>
     <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
