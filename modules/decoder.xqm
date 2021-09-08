@@ -50,6 +50,12 @@ declare function decoder:get-wright-decoder-record-from-uri($recId as xs:string)
   return $wrightDecoderRecord
 };
 
+declare function decoder:get-decoder-data-from-uri($recId as xs:string, $dataLabel as xs:string) as xs:string? {
+  let $wrightDecoderRecord := decoder:get-wright-decoder-record-from-uri($recId)
+  for $data in $wrightDecoderRecord/*
+    where fn:name($data) = $dataLabel
+    return $data/text()
+};
 declare function decoder:get-wright-arabic-numeral-from-uri($recId as xs:string) as xs:string? {
   let $wrightDecoderRecord := decoder:get-wright-decoder-record-from-uri($recId)
   return $wrightDecoderRecord/wrightArabicNumeral/text()

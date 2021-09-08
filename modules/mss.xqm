@@ -194,22 +194,17 @@ declare function mss:create-altIdentifier-elements($altIdentifierSequence as nod
 (: a bit of redundancy with the below two functions too...:)
 declare function mss:create-bl-shelfmark-element($recId as xs:string) as node() {
   let $recId := functx:substring-after-if-contains($recId, $config:uri-base)
-  let $shelfmark := decoder:get-bl-shelfmark-from-uri($recId)
+  let $shelfmark := decoder:get-decoder-data-from-uri($recId, "shelfmark")
   let $shelfmark := mss:clean-shelf-mark($shelfmark)
   let $shelfmark := fn:substring-after($shelfmark, "BL ")
   let $idnoElement := element {QName("http://www.tei-c.org/ns/1.0", "idno")} {attribute {"type"} {"BL-Shelfmark"}, $shelfmark}
   return $idnoElement
-  (: potential refactoring to simplify:
-  let $shelfmark := decoder:get-decoder-data-from-uri($recId, "shelfmark") -> this would take a numerical lookup ID and a column name and will return the data column from the matching row
-  let $shelfmark := mss:clean-shelf-mark($shelfmark)
-  let $shelfmark := fn:substring-after($shelfmark, "BL ")
-  :)
 };
 
 (: lots of redundancy in arabic and roman numeral element creation. figure out refactoring :)
 declare function mss:create-wright-bl-arabic-element($recId as xs:string) as node()+ {
   let $recId := functx:substring-after-if-contains($recId, $config:uri-base)
-  let $wrightArabicNumeral := decoder:get-wright-arabic-numeral-from-uri($recId)
+  let $wrightArabicNumeral := decoder:get-decoder-data-from-uri($recId, "wrightArabicNumeral")
   let $collectionElement := element {QName("http://www.tei-c.org/ns/1.0", "collection")} {"William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838"(:this should come from somewhere:)}
   let $idnoElement := element {QName("http://www.tei-c.org/ns/1.0", "idno")} {attribute {"type"} {"Wright-BL-Arabic"}, $wrightArabicNumeral}
   return ($collectionElement, $idnoElement)
@@ -217,7 +212,7 @@ declare function mss:create-wright-bl-arabic-element($recId as xs:string) as nod
 
 declare function mss:create-wright-bl-roman-element($recId as xs:string) as node()+ {
   let $recId := functx:substring-after-if-contains($recId, $config:uri-base)
-  let $wrightRomanNumeral := decoder:get-wright-roman-numeral-from-uri($recId)
+  let $wrightRomanNumeral := decoder:get-decoder-data-from-uri($recId, "wrightRomanNumeral")
   let $collectionElement := element {QName("http://www.tei-c.org/ns/1.0", "collection")} {"William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838"(:this should come from somewhere:)}
   let $idnoElement := element {QName("http://www.tei-c.org/ns/1.0", "idno")} {attribute {"type"} {"Wright-BL-Roman"}, $wrightRomanNumeral}
   return ($collectionElement, $idnoElement)

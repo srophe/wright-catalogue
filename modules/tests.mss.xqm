@@ -178,8 +178,6 @@ declare %unit:test function mss-test:update-tei-text-elements-from-stub() {
 : List of tests
 : - reading inputs
 : - writing outputs
-: - wright-decoder creation
-: - taxonomy creation
 : - msDesc (xml:id)
 : 	- msIdentifier
 : 	- msParts (later)
