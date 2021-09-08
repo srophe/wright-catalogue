@@ -147,6 +147,23 @@ declare %unit:test function mss-test:create-wright-bl-roman-element-from-stub() 
 declare %unit:test %unit:ignore function mss-test:update-msContents-from-stub() {
   unit:assert-equals(mss:update-msContents($mss-test:file-to-test), $mss-test:file-to-compare//tei:msContents)
 };
+
+declare %unit:test %unit:ignore function mss-test:update-physDesc-from-stub() {
+  unit:assert-equals(mss:update-physDesc($mss-test:file-to-test//tei:physDesc), $mss-test:file-to-compare//tei:physDesc)
+};
+
+declare %unit:test %unit:ignore function mss-test:update-ms-history-from-stub() {
+  unit:assert-equals(mss:update-ms-history($mss-test:file-to-test//tei:history), $mss-test:file-to-compare//tei:history)
+}; (: might just copy from config file  unless I want to process any dates? :)
+
+declare %unit:test %unit:ignore function mss-test:update-ms-additional-uri-exists() { (:I don't understand...these are the same file but not showing up as such...:)
+  unit:assert-equals(mss:update-ms-additional("317"), $mss-test:file-to-compare//tei:additional)
+};
+
+declare %unit:test function mss-test:create-page-citedRange-element-uri-exists() {
+  unit:assert-equals(mss:create-page-citedRange-element( "317"), $mss-test:file-to-compare//tei:additional/tei:listBibl/tei:bibl/tei:citedRange[@unit="pp"])
+};
+
 (: profileDesc tests :)
 
 declare %unit:test function mss-test:update-profileDesc-from-stub() {
@@ -179,7 +196,6 @@ declare %unit:test function mss-test:update-tei-text-elements-from-stub() {
 : - reading inputs
 : - writing outputs
 : - msDesc (xml:id)
-: 	- msIdentifier
 : 	- msParts (later)
 : 	- msContents
 : 		- msItem and sub-items?? (or is this contained in msContents, as long as the right numbering is applied? I suppose if we include remove items testing this might be useful)

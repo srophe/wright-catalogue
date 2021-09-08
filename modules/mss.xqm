@@ -218,20 +218,41 @@ declare function mss:create-wright-bl-roman-element($recId as xs:string) as node
   return ($collectionElement, $idnoElement)
 };
 
-declare function mss:update-msContents($rec as node()+) as node() {
+declare function mss:update-msContents($rec as node()+) as node() { (: PENDING. This one will be difficult as it requires enumerating the msItems... :)
   let $blank := ""
   return $rec
 };
+
+declare function mss:update-physDesc($physDesc as node()+) as node()+ {
+  
+};
+
+declare function mss:update-ms-history($msHistory as node()+) as node() {
+  (: perhaps just return the history node since we aren't doing processing right now? :)
+};
+
+declare function mss:update-ms-additional($recId as xs:string) as node() {
+  let $recId := functx:substring-after-if-contains($recId, $config:uri-base)
+  let $entryCitedRange := element {QName("http://www.tei-c.org/ns/1.0", "citedRange")} {attribute {"unit"} {"entry"}, decoder:get-decoder-data-from-uri($recId, "wrightRomanNumeral")}
+  let $pageCitedRange := mss:create-page-citedRange-element($recId)
+  let $oldBibl := $config:project-config/config//tei:msDesc/tei:additional/tei:listBibl/tei:bibl
+  let $updatedBibl := element {QName("http://www.tei-c.org/ns/1.0", "bibl")} {$oldBibl/@*, $oldBibl/*, $entryCitedRange, $pageCitedRange}
+  let $updatedListBibl := element {QName("http://www.tei-c.org/ns/1.0", "listBibl")} {$updatedBibl}
+  return element {QName("http://www.tei-c.org/ns/1.0", "additional")} {$config:project-config/config//tei:msDesc/tei:additional/*[not(self::tei:listBibl)], $updatedListBibl}
+};
+
+declare function mss:create-page-citedRange-element($recId as xs:string) as node() {
+  let $msLocationInCatalogue := decoder:get-decoder-data-from-uri($recId, "wrightCatalogLocation")
+  let $pageCitedRange := fn:replace($msLocationInCatalogue, "#", ":")
+  return element {QName("http://www.tei-c.org/ns/1.0", "citedRange")} {attribute {"unit"} {"pp"}, $pageCitedRange}
+};
 (:
 - update-msDesc
-  - update-msIdentifier
   - update-msContents
   - update-physDesc
   - update-history
   - update-additional
 :)
-
-(: PENDING :)
 
 (: Note: encodingDesc will only have project metadata, so mss:update-teiHeader() simply points to the config:project-config XML file 
 : Caveat: would we want to have these functions to access them later in simple update scripts? (E.g., you could make a batch change by a simple 'for $x in $mssColl update encodingDesc with mss:update-encodingDesc()') --> to think on; same for editionStmt
