@@ -56,6 +56,8 @@ declare function decoder:get-decoder-data-from-uri($recId as xs:string, $dataLab
     where fn:name($data) = $dataLabel
     return $data/text()
 };
+
+(: the below three might be redundant given the above generalized function? :)
 declare function decoder:get-wright-arabic-numeral-from-uri($recId as xs:string) as xs:string? {
   let $wrightDecoderRecord := decoder:get-wright-decoder-record-from-uri($recId)
   return $wrightDecoderRecord/wrightArabicNumeral/text()
