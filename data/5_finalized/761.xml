@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -82,12 +82,13 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
               <locus from="1a"/>
-              <title xml:lang="en">Hymns in commemoration of the <persName ref="http://syriaca.org/person/624">blessed Virgin</persName>, the Saints
-                        (such as <persName>Abbā Bīshōi</persName>, <persName>Bar-saumā</persName>,
-                        etc.), and the Dead, arranged according to the tones</title>
+              <title xml:lang="en">Hymns in commemoration of the <persName ref="http://syriaca.org/person/624">blessed Virgin</persName>, the <persName ref="https://syriaca.org/person/2056">Saints</persName>
+                (such as <persName ref="https://syriaca.org/person/1175">Abbā Bīshōi</persName>, <persName>Bar-saumā</persName>,
+                        etc.), and <persName>the Dead</persName>, arranged according to the tones</title>
             </msItem>
             <msItem xml:id="a2" n="2">
               <locus from="14a"/>
+              <author ref="http://syriaca.org/person/2507">Theophilus of Alexandria</author>
               <title xml:lang="en">Discourse of <persName ref="http://syriaca.org/person/2507">Theophilus of <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>
                 </persName>
               </title>
@@ -96,17 +97,15 @@
             </msItem>
             <msItem xml:id="a3" n="3">
               <locus from="15b"/>
-              <title xml:lang="en">Discourse of <persName ref="http://syriaca.org/person/33">Isaac of <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
-                </persName>
-              </title>
-              <rubric xml:lang="syr">ܕܡܪܝ ܝܣܚܩ (sic) ܡܠܦܢܐ</rubric>
-              <incipit xml:lang="syr">ܐܝܢܐ ܕܐܝ܏ܬܘ ܬܝܒܐ. ܢܗ̣ܘܐ ܚ̇ܐܪ ܒܟܠܙܒܢ ܒܕܡ̈ܥܘܗܝ ܕܗ̇ܘ ܡܟܣܐ
-                        ܏ܘܫ.</incipit>
+              <author ref="http://syriaca.org/person/33">Isaac of Antioch</author>
+              <title xml:lang="en">Discourse of <persName ref="http://syriaca.org/person/33">Isaac of <placeName ref="http://syriaca.org/place/10">Antioch</placeName></persName></title>
+              <rubric xml:lang="syr">ܕܡܪܝ ܝܣܚܩ <foreign xml:lang="en">(sic)</foreign> ܡܠܦܢܐ</rubric>
+              <incipit xml:lang="syr">ܐܝܢܐ ܕܐܝ܏ܬܘ ܬܝܒܐ. ܢܗ̣ܘܐ ܚ̇ܐܪ ܒܟܠܙܒܢ ܒܕܡ̈ܥܘܗܝ ܕܗ̇ܘ ܡܟܣܐ ܏ܘܫ</incipit>
             </msItem>
             <msItem xml:id="a4" n="4" defective="true">
               <locus from="17b"/>
-              <title xml:lang="en">A prayer of <persName>Mār George</persName>
-                        (?)</title>
+              <author>Mār George</author>
+              <title xml:lang="en">A prayer of <persName>Mār George</persName> (?)</title>
               <rubric xml:lang="syr">ܕܡܪܝ ܓܝܪܓܝܘܣ</rubric>
               <incipit xml:lang="syr">ܡܚܙܝܬܐ ܕܕܘܒܪ̈ܝ ܕܠܘܬܟ. ܕܠܐ ܬܬܟܐܪ ܡܝܬܪܘܬܗ̇ ܕܬܪܥܝܬܝ. ܒܥܕܢ
                         ܨܠܘܬܐ. ܡܢ ܡܐܟܘܬܐ ܕܕܘܒܪ̈ܝ ܐܢܬ ܐܫܘܢܝ ܕܬܬܓ݁ܫ̣ܡ ܒܝ ܡܠܬ ܨܠܘܬܐ ܠܥܒ̇ܕܐ ܒܩܢܘܡܝ. ܘܡܢ
@@ -114,14 +113,14 @@
                         ܡܪܝ ܐܣܢܝܗܝ ܒ̈ܐܦܝ ܠܥܠܡܐ ܘܥܢ̈ܝܢܘܗܝ. ܏ܘܫ.</incipit>
             </msItem>
             <msItem xml:id="a5" n="5">
+              <locus from="21a"/>
               <title xml:lang="en">Hymns and prayers for the principal canonical hours
-                        of the ferial days, viz. <foreign xml:lang="syr">ܢܓܗܐ ܠܠܝܐ</foreign>, and
-                           <foreign xml:lang="syr">ܨܦܪܐ</foreign>.</title>
+                of the ferial days, viz. <foreign xml:lang="syr">ܢܓܗܐ</foreign>, <foreign xml:lang="syr">ܠܠܝܐ</foreign>, and <foreign xml:lang="syr">ܨܦܪܐ</foreign></title>
               <msItem xml:id="b1" n="6" defective="true">
                 <locus from="21a"/>
                 <title xml:lang="en">Monday</title>
                 <rubric xml:lang="syr">ܬܪ̈ܝܢ ܒܫܒܐ</rubric>
-                <note>It is imperfect at the beginning.</note>
+                <note>Imperfect at the beginning.</note>
               </msItem>
               <msItem xml:id="b2" n="7">
                 <locus from="31b"/>
@@ -152,7 +151,7 @@
           </msContents>
                <physDesc>
                   <objectDesc form="codex">
-                     <supportDesc material="perg">
+                     <supportDesc material="mixed">
                         <extent>
                            <measure unit="content_pending" quantity="-1"/>
                         </extent>
@@ -180,21 +179,10 @@
                   </objectDesc>
                   <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                        <desc>This volume, which is written in an inelegant hand.</desc>
+                <desc>This volume, which is written in an inelegant hand of the <date>xiith or xiiith cent.</date></desc>
                      </handNote>
             </handDesc>
-                  <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p/>
-                           <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                        </item>
-              </list>
-            </additions>
+                  <additions/>
                   <bindingDesc>
                      <p>Content pending</p>
                   </bindingDesc>

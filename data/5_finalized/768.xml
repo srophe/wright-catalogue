@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,13 +81,14 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <title xml:lang="en">The Hymns of <persName>Severus</persName>,
-                           <persName>John bar Aphtunāyā</persName>, etc. </title>
+              <author ref="https://syriaca.org/person/51">Severus</author>
+              <author ref="https://syriaca.org/person/52">John bar Aphtunāyā</author>
+              <title xml:lang="en">The Hymns of <persName ref="https://syriaca.org/person/51">Severus</persName>, <persName ref="https://syriaca.org/person/52">John bar Aphtunāyā</persName>, etc. </title>
               <note>The last now remaining is numbered 339, <foreign xml:lang="syr">ܫܠܛ</foreign>.</note>
               <msItem xml:id="b1" n="2" defective="true">
                 <locus from="1a"/>
                 <title xml:lang="en">Lent</title>
-                <note>It is very imperfect.</note>
+                <note>Very imperfect.</note>
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus from="2b"/>
@@ -99,9 +100,7 @@
               </msItem>
               <msItem xml:id="b4" n="5">
                 <locus from="18b"/>
-                <title xml:lang="en">
-                  <persName>Judas</persName>
-                </title>
+                <title xml:lang="en"><persName>Judas</persName></title>
               </msItem>
               <msItem xml:id="b5" n="6">
                 <locus from="20b"/>
@@ -113,12 +112,12 @@
               </msItem>
               <msItem xml:id="b7" n="8">
                 <locus from="22b"/>
-                <title xml:lang="en">The Wife of <persName>Pilate</persName>
+                <title xml:lang="en">The <persName>Wife of <persName>Pilate</persName></persName>
                 </title>
               </msItem>
               <msItem xml:id="b8" n="9">
                 <locus from="23a"/>
-                <title xml:lang="en">The Thief</title>
+                <title xml:lang="en"><persName ref="https://syriaca.org/person/1851">The Thief</persName></title>
               </msItem>
               <msItem xml:id="b9" n="10">
                 <locus from="23b"/>
@@ -127,7 +126,7 @@
               </msItem>
               <msItem xml:id="b10" n="11">
                 <locus from="27a"/>
-                <title xml:lang="en">The holy Cross</title>
+                <title xml:lang="en"><persName ref="https://syriaca.org/person/1661">The holy Cross</persName></title>
               </msItem>
               <msItem xml:id="b11" n="12">
                 <locus from="30a"/>
@@ -155,11 +154,11 @@
               </msItem>
               <msItem xml:id="b17" n="18" defective="true">
                 <locus from="55a"/>
-                <title xml:lang="en">The Commemorations of Saints, etc.</title>
+                <title xml:lang="en">The Commemorations of <persName ref="https://syriaca.org/person/2056">Saints</persName>, etc.</title>
               </msItem>
               <msItem xml:id="b18" n="19" defective="true">
                 <locus from="85a"/>
-                <title xml:lang="en">The Emperors</title>
+                <title xml:lang="en">The <persName>Emperors</persName></title>
               </msItem>
               <msItem xml:id="b19" n="20" defective="true">
                 <locus from="86a"/>
@@ -173,7 +172,7 @@
               </msItem>
               <msItem xml:id="b21" n="22" defective="true">
                 <locus from="93b"/>
-                <title xml:lang="en">For the Dead</title>
+                <title xml:lang="en">For <persName>the Dead</persName></title>
               </msItem>
               <msItem xml:id="b22" n="23" defective="true">
                 <locus from="104a"/>
@@ -213,26 +212,13 @@
                   </objectDesc>
                   <handDesc hands="2">
               <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
-                        <desc>This volume is neatly written by two hands; the first part consists of
-                           <locus>foll. 1—76</locus>.</desc>
+                        <desc>This volume is neatly written by two hands; the first responsible for <locus>foll. 1—76</locus>.</desc>
                      </handNote>
               <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
-                        <desc>This volume is neatly written by two hands; the second part consists
-                           of <locus>foll. 77—108</locus>.</desc>
+                <desc>This volume is neatly written by two hands; the second responsible for <locus>foll. 77—108</locus>.</desc>
                      </handNote>
             </handDesc>
-                  <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p/>
-                           <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                        </item>
-              </list>
-            </additions>
+                  <additions/>
                   <bindingDesc>
                      <p>Content pending</p>
                   </bindingDesc>
@@ -243,7 +229,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="0900" notAfter="1100">It seems to be
+                     <origDate notBefore="0900" notAfter="1100">This manuscript seems to be
                         of the xth or xith cent.</origDate>
                      <origPlace/>
                   </origin>

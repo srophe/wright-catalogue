@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,8 +81,12 @@
                <msContents>
             <textLang mainLang="syr-x-syrm"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <title xml:lang="en">The Octôechus (<foreign xml:lang="grc">'Οκτώηχος</foreign>, <foreign xml:lang="syr-x-syrm">ܐܩܛܘܐܝܟܘܣ</foreign>)
-                        of the services of Sunday, according to the Malkite use</title>
+              <locus from="1a"/>
+              <author>John of Damascus</author>
+              <author>Cosmas</author>
+              <title xml:lang="en">The Octôechus, of the services of Sunday, according to <persName>the Malkite</persName> use</title>
+              <title xml:lang="grc">᾽Οκτώηχος</title>
+              <rubric xml:lang="syr">ܐܩܛܘܐܝܟܘܣ</rubric>
               <note>The first tone is wanting.</note>
               <note>The canons are ascribed to <persName ref="http://syriaca.org/person/575">John of <placeName ref="http://syriaca.org/place/66">Damascus</placeName>
                 </persName>, <foreign xml:lang="syr-x-syrm">ܐܒܐ
@@ -152,21 +156,10 @@
                   </objectDesc>
                   <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr-x-syrm">
-                        <desc>This manuscript is written in a good, regular, Malkite hand.</desc>
+                <desc>This manuscript is written in a good, regular, Malkite hand of about <date>the xith cent.</date></desc>
                      </handNote>
             </handDesc>
-                  <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p/>
-                           <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                        </item>
-              </list>
-            </additions>
+                  <additions/>
                   <bindingDesc>
                      <p>Content pending</p>
                   </bindingDesc>
@@ -177,7 +170,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" notBefore="1000" notAfter="1100">It was written about the xith cent.</origDate>
+                     <origDate calendar="Gregorian" notBefore="1000" notAfter="1100">About the xith cent.</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
