@@ -36,6 +36,9 @@ declare variable $mss-test:current-date-revisionDesc-to-compare :=
   let $currentDate := fn:substring(xs:string($currentDate), 1, 10)
   let $changeElement := element {QName("http://www.tei-c.org/ns/1.0", "change")} {attribute {"who"} {$config:editors-document-uri||"#"||$config:change-log-script-id}, attribute {"when"} {$currentDate}, $config:change-log-message}
   return element {QName("http://www.tei-c.org/ns/1.0", "revisionDesc")} {$revisionDescToCompare/@*, $changeElement, $revisionDescToCompare/*[position() > 1]};
+
+declare variable $mss-test:linear-element-sequence :=
+  (<el type="a"/>, <el type="el"/>, <el type="b"><content/>text</el>, <el type="el"/>);
   
 declare %unit:before function mss-test:setup() {
   (: make current date correct ?? this is stupidly complex...:)
@@ -148,8 +151,25 @@ declare %unit:test %unit:ignore function mss-test:update-msContents-from-stub() 
   unit:assert-equals(mss:update-msContents($mss-test:file-to-test), $mss-test:file-to-compare//tei:msContents)
 };
 
-declare %unit:test %unit:ignore function mss-test:update-physDesc-from-stub() {
+declare %unit:test function mss-test:update-physDesc-from-stub() {
   unit:assert-equals(mss:update-physDesc($mss-test:file-to-test//tei:physDesc), $mss-test:file-to-compare//tei:physDesc)
+};
+
+declare %unit:test function mss-test:update-handDesc-from-stub() {
+  unit:assert-equals(mss:update-handDesc($mss-test:file-to-test//tei:handDesc), $mss-test:file-to-compare//tei:handDesc)
+};
+
+declare %unit:test function mss-test:update-handNote-sequence-from-stub() {
+  unit:assert-equals(mss:update-handNote-sequence($mss-test:file-to-test//tei:handDesc/tei:handNote), $mss-test:file-to-compare//tei:handDesc/tei:handNote)
+};
+
+declare %unit:test function mss-test:update-additions-from-stub() {
+  unit:assert-equals(mss:update-additions($mss-test:file-to-test//tei:additions), $mss-test:file-to-compare//tei:additions)
+};
+
+declare %unit:test %unit:ignore function mss-test:enumerate-element-sequence-simple-linear() {
+  (: still figuring out how to test this...:)
+  unit:assert-equals(<result>{string(mss:enumerate-element-sequence($mss-test:linear-element-sequence, "", boolean(1))/@n)}</result>, <result>{(1, 2, 3, 4)}</result>)
 };
 
 declare %unit:test %unit:ignore function mss-test:update-ms-history-from-stub() {

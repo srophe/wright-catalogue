@@ -76,6 +76,14 @@ declare function mss:create-resp-stmt($respNameUri as xs:string*, $respMessage a
   return element {QName("http://www.tei-c.org/ns/1.0", "respStmt")} {$respElement, $respNameElement}
 };
 
+declare function mss:enumerate-element-sequence($elementSequence as node()+, $elementIdPrefix as xs:string, $includeAttributeN as xs:boolean) {
+  (: adds a numeral attribute value according to sequence position in $elementSequence. If $elementIdPrefix is non-empty, adds an xml:id with the prefix appended to the sequence value. If $includeAttributeN is true, adds an @n attribute with the numerical sequence position. If neither of the above conditions are true, simply returns the element.:)
+  for $el at $n in $elementSequence
+    let $elementId := if($elementIdPrefix != "") then attribute {"xml:id"} {$elementIdPrefix||$n}
+    let $attrN := if($includeAttributeN) then attribute {"n"} {$n}
+    return element {node-name($el)} {$elementId, $attrN, $el/@*, $el/*}
+};
+
 (: Functions to turn XML Stub records into full TEI files :)
 
 declare function mss:create-document($rec as node()+) as document-node() {
@@ -224,7 +232,45 @@ declare function mss:update-msContents($rec as node()+) as node() { (: PENDING. 
 };
 
 declare function mss:update-physDesc($physDesc as node()+) as node()+ {
+  let $objectDesc := $physDesc/tei:objectDesc
+  let $handDesc := mss:update-handDesc($physDesc/tei:handDesc)
+  let $decoDesc := if($physDesc/tei:decoDesc) then mss:update-decoDesc($physDesc/tei:decoDesc)
+  let $additions := if($physDesc/tei:additions) then mss:update-additions($physDesc/tei:additions)
+  let $bindingDesc := $physDesc/tei:bindingDesc (: as-is :)
+  let $sealDesc := $physDesc/tei:sealDesc (: as-is :)
+  let $accMat := $physDesc/tei:accMat (: as-is :)
   
+  return element {QName("http://www.tei-c.org/ns/1.0", "physDesc")} {$objectDesc, $handDesc, $decoDesc, $additions, $bindingDesc, $sealDesc, $accMat}
+};
+
+declare function mss:update-handDesc($handDesc as node()+) as node() {
+  let $numberOfHands := fn:count($handDesc/tei:handNote)
+  let $handNoteSeq := mss:update-handNote-sequence($handDesc/tei:handNote)
+  return element {QName("http://www.tei-c.org/ns/1.0", "handDesc")} {attribute {"hands"} {$numberOfHands}, $handNoteSeq}
+};
+
+declare function mss:update-handNote-sequence($handNoteSequence as node()+) as node()+ {
+  let $handNoteSequence := mss:enumerate-element-sequence($handNoteSequence, "handNote", fn:boolean(0))
+  let $numberOfHands := fn:count($handNoteSequence)
+  let $handNoteSequence := for $handNote in $handNoteSequence
+    let $medium := if (fn:string($handNote/@medium) != "") then $handNote/@medium else attribute {"medium"} {"unknown"}
+    let $scope := if (fn:string($handNote/@scope) != "") then $handNote/@scope
+      else if (xs:integer($numberOfHands) < 2) then attribute {"scope"} {"sole"} 
+      else if (fn:string($handNote/@xml:id) = "handNote1") then attribute {"scope"} {"major"} 
+      else attribute {"scope"} {"minor"} 
+    let $script := if (fn:string($handNote/@script) != "") then $handNote/@script else attribute {"script"} {"syr"}
+    return element {QName("http://www.tei-c.org/ns/1.0", "handNote")} {$handNote/@xml:id, $medium, $scope, $script, $handNote/*}
+ return $handNoteSequence
+};
+
+declare function mss:update-decoDesc($decoDesc as node()+) as node() { (:not currently tested:)
+  let $decoNotes := mss:enumerate-element-sequence($decoDesc/tei:decoNote, "decoNote", boolean(0))
+  return element {node-name($decoDesc)} {$decoNotes}
+};
+
+declare function mss:update-additions($additions as node()+) as node() {
+  let $additionsList := element {node-name($additions/tei:list)} {mss:enumerate-element-sequence($additions/tei:list/tei:item, "addition", boolean(1))}
+  return element {node-name($additions)} {$additions/tei:p, $additionsList}
 };
 
 declare function mss:update-ms-history($msHistory as node()+) as node() {
@@ -249,7 +295,7 @@ declare function mss:create-page-citedRange-element($recId as xs:string) as node
 (:
 - update-msDesc
   - update-msContents
-  - update-physDesc
+  - update-physDesc (handDesc, decoDesc?, additions)
   - update-history
   - update-additional
 :)
