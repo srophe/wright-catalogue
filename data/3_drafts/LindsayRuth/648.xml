@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/wlpotter/syriaca-wright-catalog/master/schemas/enrich-syriaca.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/wlpotter/wright-catalogue/master/parameters/wright-mss.css"?>
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title>Content pending</title>
+      </titleStmt>
+      <editionStmt>
+        <p>Content pending</p>
+      </editionStmt>
+      <publicationStmt>
+        <p>Content pending</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="manuscript-648">
+          <msIdentifier>
+            <idno type="URI">648</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">14,735, foll. 1-23</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary/>
+            <textLang mainLang="syr"/>
+              <msItem xml:id="a1" n="1">
+                <author ref="http://syriaca.org/person/2816">Serapion</author>
+                <title xml:lang="en">The history of <persName ref="http://syriaca.org/person/856">Macarius the Great</persName>, composed by <persName ref="http://syriaca.org/person/2816">Serapion</persName></title>
+                <quote xml:lang="syr">ܬܘܒ
+                ܬܫܥܝܬܐ ܕܐܒܐ ܘܪܒܐ ܡܩܪܝ ܩܕܝܫܐ ܐܒܐ ܕܟܠܗܘܢ ܕܝܪ̈ܝܐ ܕܗܘ̣ܘ ܒܡܕܒܪܐ ܕܐܣܩܝܛܝܐ ܫ̇ܗܝܬ. ܐܟܬܒܗ̇ ܕܝܢ ܐܒܐ
+                ܣܪܦܝܘܢ ܪܝܫ ܬܠܡܝ̈ܕܘܗܝ ܕܐܒܐ ܐܢܛܘܢܝܘܣ ܪܒܐ ܘܓܡܝ̣ܪܐ ܘܐܒܐ ܕܟܠܗܘܢ ܕܝܪ̈ܝܐ.</quote>
+                <note>See <bibl>Add. 14,732<ptr target="http://syriaca.org/manuscript/639"/>, no. 5.</bibl></note>
+              </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="chart">
+                <foliation/>
+                <collation/>
+                <condition>
+                  <list>
+                    <item>
+                      <p>Paper, about 9 1/2 in. by 6 1/4, consisting of 23 leaves, several of which
+                        are much stained and torn, especially foll. 1, 14—18, 22 and 23. The quires,
+                        three in number, are signed with letters (<foreign xml:lang="syr"
+                          >ܐ</foreign>, <foreign xml:lang="syr">ܒ</foreign>, <foreign xml:lang="syr"
+                          >ܓ</foreign>). Leaves are wanting after foll. 1 and 13. There are from 26
+                        to 35 lines in each page.</p>
+                    </item>
+                  </list>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <p>Content pending</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scope="sole" script="syr"
+                medium="unknown">
+                <desc>This manuscript is written in a rather inelegant hand of about the
+                  <date calendar="Gregorian" notBefore="1200" notAfter="1300">xiiith cent.</date></desc>
+              </handNote>
+            </handDesc>
+            <bindingDesc>
+              <p>Content pending</p>
+            </bindingDesc>
+            <sealDesc>
+              <p>Content pending</p>
+            </sealDesc>
+            <accMat/>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate notBefore="1200" notAfter="1300">xiiith</origDate>
+            </origin>
+            <provenance/>
+            <acquisition/>
+          </history>
+          <additional/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Content pending</p>
+    </encodingDesc>
+    <profileDesc/>
+    <revisionDesc status="draft">
+      <change when="2020-07-11" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
+        encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <formula>Content pending</formula>
+  </facsimile>
+  <text>
+    <body>
+      <bibl>Content pending</bibl>
+    </body>
+  </text>
+</TEI>

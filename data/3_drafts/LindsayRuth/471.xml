@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/wlpotter/syriaca-wright-catalog/master/schemas/enrich-syriaca.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/wlpotter/wright-catalogue/master/parameters/wright-mss.css"?>
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title>Content pending</title>
+      </titleStmt>
+      <editionStmt>
+        <p>Content pending</p>
+      </editionStmt>
+      <publicationStmt>
+        <p>Content pending</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="manuscript-471">
+          <msIdentifier>
+            <idno type="URI">471</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">14,667, foll.46-49</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary/>
+            <textLang mainLang="syr"/>
+              <msItem xml:id="a1" n="1">
+               <title xml:lang="en" type="supplied">prayers for different occasions, e.g. graces, greetings and salutations <foreign xml:lang="syr"
+                  >(ܕܒܣܝܡܘܬܐ)</foreign>, prayers for the dead, etc.</title>
+              </msItem>
+              <msItem xml:id="a2" n="2">
+                <title xml:lang="en" type="supplied">The more ancient text is that of <bibl>the book of Judges, ch.
+                vi. (vv. 15—18 are still legible on the recto), according to the Peshitta version</bibl>.</title> 
+                <note xml:lang="en">The last leaf is palimpsest.</note> 
+              </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="leaf">
+              <supportDesc material="perg">
+                <foliation/>
+                <collation/>
+                <condition>
+                  <list>
+                    <item>
+                      <p>Four vellum leaves, about 7 in. by 5, slightly soiled and mutilated.</p>
+                    </item>
+                  </list>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <p>Content pending</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scope="major" script="syr"
+                medium="unknown">
+                <desc>The prayers for different occasions are written in a small, current hand of the
+                  <date calendar="Gregorian" notBefore="0900" notAfter="1000">xth cent</date>.</desc>
+              </handNote>
+              <handNote scope="minor" script="syr-Syre" medium="unknown">
+                <desc>The older, palimsest text is written in a fine Estrangela of the <date calendar="Gregorian" notBefore="0500" notAfter="0600">vith</date> or <date calendar="Gregorian" notBefore="0600" notAfter="0700">viith cent</date>.</desc>
+              </handNote>
+            </handDesc>
+            <bindingDesc>
+              <p>Content pending</p>
+            </bindingDesc>
+            <sealDesc>
+              <p>Content pending</p>
+            </sealDesc>
+            <accMat/>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate notBefore="0900" notAfter="1000">xth cent</origDate>
+              <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate>
+            </origin>
+            <provenance/>
+            <acquisition/>
+          </history>
+          <additional/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Content pending</p>
+    </encodingDesc>
+    <profileDesc/>
+    <revisionDesc status="draft">
+      <change when="2020-07-08" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
+        encoding.</change>
+      <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
+        encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <formula>Content pending</formula>
+  </facsimile>
+  <text>
+    <body>
+      <bibl>Content pending</bibl>
+    </body>
+  </text>
+</TEI>

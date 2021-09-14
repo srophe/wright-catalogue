@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/wlpotter/syriaca-wright-catalog/master/schemas/enrich-syriaca.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/wlpotter/wright-catalogue/master/parameters/wright-mss.css"?>
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title>Content pending</title>
+      </titleStmt>
+      <editionStmt>
+        <p>Content pending</p>
+      </editionStmt>
+      <publicationStmt>
+        <p>Content pending</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="manuscript-465">
+          <msIdentifier>
+            <idno type="URI">465</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">14,667, foll.17-28</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary/>
+            <textLang mainLang="syr"/>
+            <msItem xml:id="a1" n="1">
+              <title xml:lang="en" type="supplied">Part of a Sacerdotal</title>
+              <note>These leaves are palimpsest</note>
+              <msItem xml:id="b1" n="2" defective="true">
+                <locus from="17a">Fol. 17a</locus>
+                  <title>Prayers, prooemia, and sedras, introductory to the celebration of the holy
+                Eucharist.</title> 
+              </msItem>
+              <msItem xml:id="b2" n="3" defective="true">
+                <locus from="23a">Fol. 23a</locus>
+                <title xml:lang="en" type="supplied">An Anaphora</title> 
+               <note> imperfect both at the beginning and end.</note> 
+              </msItem>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="leaf">
+              <supportDesc material="perg">
+                <foliation/>
+                <collation/>
+                <condition>
+                  <list>
+                    <item>
+                      <p>Twelve vellum leaves, about 7 in. by 5 3/8, all more or less torn (Add.
+                        14,667, foll. 17—28). There are from 17 to 23 lines in each page. </p>
+                    </item>
+                  </list>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <p>Content pending</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scope="major" script="syr"
+                medium="unknown">
+                <desc>The writing is of the <date calendar="Gregorian" notBefore="0900" notAfter="1000">xth</date> or
+                  <date calendar="Gregorian" notBefore="1000" notAfter="1100">xith cent.</date></desc>
+              </handNote>
+              <handNote scope="minor" script="syr-Syre" medium="unknown">
+                <desc>These leaves are palimpsest, but the original Estrangela writing has been
+                  almost completely effaced.</desc>
+              </handNote>
+            </handDesc>
+            <bindingDesc>
+              <p>Content pending</p>
+            </bindingDesc>
+            <sealDesc>
+              <p>Content pending</p>
+            </sealDesc>
+            <accMat/>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate notBefore="0900" notAfter="1100">xth or xith cent.</origDate>
+            </origin>
+            <provenance/>
+            <acquisition/>
+          </history>
+          <additional/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Content pending</p>
+    </encodingDesc>
+    <profileDesc/>
+    <revisionDesc status="draft">
+      <change when="2020-07-08" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
+        encoding.</change>
+      <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
+        encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <formula>Content pending</formula>
+  </facsimile>
+  <text>
+    <body>
+      <bibl>Content pending</bibl>
+    </body>
+  </text>
+</TEI>
