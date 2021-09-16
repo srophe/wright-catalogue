@@ -24,6 +24,13 @@ import module namespace stack="http://wlpotter.github.io/ns/stack" at "https://r
 
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
+(: global variables :)
+declare variable $mss:initial-msItem-up-stack := 
+  stack:initialize(());
+  
+declare variable $mss:initial-msItem-down-stack :=
+  stack:initialize(("a1", "b1", "c1", "d1", "e1", "f1", "g1", "h1", "i1", "j1", "k1", "l1", "m1", "n1"));
+
 (: General helper functions :)
 
 declare function mss:get-record-uri($rec as node()+) as xs:string? {
@@ -229,14 +236,11 @@ declare function mss:create-wright-bl-roman-element($recId as xs:string) as node
 };
 
 declare function mss:update-msContents($msContents as node()+) as node() { (: PENDING. This one will be difficult as it requires enumerating the msItems... :)
-  
-  let $msItems := <msItemContainer>{$msContents/tei:msItem}</msItemContainer>
-  (:
-  - empty summary
-  - <textLang mainLang="{$get-from-config-proj}"/>
-  - processed msItems
-  :)
-  return $msItems
+  let $summary := $msContents/tei:summary
+  let $textLang := if($msContents/tei:textLang) then $msContents/tei:textLang
+                       else element {QName("http://www.tei-c.org/ns/1.0", "textLang")} {attribute {"mainLang"} {$config:project-config/config/projectMetadata/msMainLang/text()}}
+  let $msItems := mss:add-msItem-id-and-enumeration-values(<msItemContainer>{$msContents/tei:msItem}</msItemContainer>, $mss:initial-msItem-up-stack, $mss:initial-msItem-down-stack, 1)[1]/tei:msItem
+  return element {QName("http://www.tei-c.org/ns/1.0", "msContents")} {$summary, $textLang, $msItems}
 };
 
 (: this is the recursive function that adds @xml:id and @n values to msItems. It is in much better shape than the previous attempt and makes use of vertical and horizontal recursion. It keeps track of values using two XQuery stacks, which I've implemented in the stack module (see import above). 

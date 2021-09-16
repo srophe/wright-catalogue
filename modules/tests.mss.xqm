@@ -154,7 +154,7 @@ declare %unit:test function mss-test:create-wright-bl-roman-element-from-stub() 
   unit:assert-equals(<el>{mss:create-wright-bl-roman-element("317")}</el>, <el>{$mss-test:file-to-compare//tei:msIdentifier/tei:altIdentifier[tei:idno[@type="Wright-BL-Roman"]]/*}</el>)
 };
 
-declare %unit:test %unit:ignore function mss-test:update-msContents-from-stub() {
+declare %unit:test function mss-test:update-msContents-from-stub() {
   unit:assert-equals(mss:update-msContents($mss-test:file-to-test//tei:msContents), $mss-test:file-to-compare//tei:msContents)
 };
 
