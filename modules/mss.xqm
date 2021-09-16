@@ -180,11 +180,14 @@ declare function mss:update-sourceDesc($rec as node()+) as node() {
 };
 
 declare function mss:update-msDesc($rec as node()+) as node() {
+  let $msId := functx:substring-after-if-contains(mss:get-record-uri($rec), $config:project-config//projectMetadata/uriBase/text())
   let $msIdentifier := mss:update-msIdentifier($rec)
   let $msContents := mss:update-msContents($rec//tei:msDesc/tei:msContents)
+  let $physDesc := mss:update-physDesc($rec//tei:msDesc/tei:physDesc)
+  let $history := $rec//tei:msDesc/tei:history
+  let $additional := mss:update-ms-additional($msId)
+  return element {QName("http://www.tei-c.org/ns/1.0", "msDesc")} {attribute {"xml:id"} {"manuscript-"||$msId}, $msIdentifier, $msContents, $physDesc, $history, $additional}
   
-  let $msId := "3"
-  return element {QName("http://www.tei-c.org/ns/1.0", "msDesc")} {attribute {"xml:id"} {"manuscript-"||$msId}, $msIdentifier, $msContents}
 };
 
 declare function mss:update-msIdentifier($rec as node()+) as node() {
@@ -354,13 +357,6 @@ declare function mss:create-page-citedRange-element($recId as xs:string) as node
   let $pageCitedRange := fn:replace($msLocationInCatalogue, "#", ":")
   return element {QName("http://www.tei-c.org/ns/1.0", "citedRange")} {attribute {"unit"} {"pp"}, $pageCitedRange}
 };
-(:
-- update-msDesc
-  - update-msContents
-  - update-physDesc (handDesc, decoDesc?, additions)
-  - update-history
-  - update-additional
-:)
 
 (: Note: encodingDesc will only have project metadata, so mss:update-teiHeader() simply points to the config:project-config XML file 
 : Caveat: would we want to have these functions to access them later in simple update scripts? (E.g., you could make a batch change by a simple 'for $x in $mssColl update encodingDesc with mss:update-encodingDesc()') --> to think on; same for editionStmt
@@ -413,60 +409,3 @@ declare function mss:update-tei-text-elements($doc as node()+) as node()+ {
   let $nonHeaderElements := $doc/tei:TEI/*[not(self::tei:teiHeader)]
   return $nonHeaderElements
 };
-(: LIST OF NEEDED FUNCTIONS
-
-## general utility
-
-- delete-enumerations
-- renumber-simple-list (for handNotes and additions/items, though could work for msItems for the n values?)
-
-## updating tei sections and subsections
-
-
-- update-fileDesc
-- update-titleStmt
-
-- update-sourceDesc
-  - update-msDesc
-    - update-msIdentifier
-      - get-record-country, settlement, repository, collection (from config)
-      - get-record-uri
-      - get-record-clean-shelf-mark
-      - create-alt-identifier-list
-        - get-record-catalogue-reference-prose
-        - get-record-wright-arabic-numeral
-        - get-record-wright-roman-numeral
-   - update-msContents
-     - update-msItem-enumeration
-     - delete-msItem-enumeration
-     - renumber-msItems (huge amount of helper functions)
-    - update-physDesc
-      - objectDesc stays as is
-      - update-handDesc
-        - update-handNote-enumeration
-          - delete-handNote-enumeration
-          - renumber-handNotes
-       - update-number-of-hands
-      - update-additions (same process as for handNotes but change the prefix, so make this more generic)
-        - update-additions-item-enumeration
-          - delete-additions-item-enumeration
-          - renumber-additions-items
-      - decoDesc!!
-      - binding and seal descs are pending; accMat/ are unchanged
-     - update-history??
-  - update-additional
-    - update-wright-bibl-entry
-      - get-record-wright-roman-numeral
-      - get-record-wright-catalog-volume-page
-        - get-record-wright-catalog-volume
-        - get-record-wright-catalog-page
-            
-- update-physDesc
-- update-condition
-- update-handDesc
-- renumber-handNotes
-- update-additions
-- renumber-additions-items
-- update-history
-- update-wright-bibl-entry
-:)

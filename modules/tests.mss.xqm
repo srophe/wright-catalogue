@@ -126,10 +126,12 @@ declare %unit:test function mss-test:get-record-uri-from-full-uri() {
 
 (: sourceDesc tests :)
 
+(: whitespace differences only :)
 declare %unit:test %unit:ignore function mss-test:update-sourceDesc-from-stub() {
   unit:assert-equals(mss:update-sourceDesc($mss-test:file-to-test), $mss-test:file-to-compare//tei:sourceDesc)
 };
 
+(: whitespace differences only :)
 declare %unit:test %unit:ignore function mss-test:update-msDesc-from-stub() {
   unit:assert-equals(mss:update-msDesc($mss-test:file-to-test), $mss-test:file-to-compare//tei:msDesc)
 };
