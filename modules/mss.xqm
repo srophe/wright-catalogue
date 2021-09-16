@@ -20,6 +20,7 @@ module namespace mss="http://srophe.org/srophe/mss";
 import module namespace functx="http://www.functx.com";
 import module namespace config="http://srophe.org/srophe/config" at "config.xqm";
 import module namespace decoder="http://srophe.org/srophe/decoder" at "decoder.xqm";
+import module namespace stack="http://wlpotter.github.io/ns/stack" at "https://raw.githubusercontent.com/wlpotter/xquery-utility-modules/main/stack.xqm";
 
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
@@ -82,7 +83,7 @@ declare function mss:enumerate-element-sequence($elementSequence as node()+, $el
     let $elementId := if($elementIdPrefix != "") then attribute {"xml:id"} {$elementIdPrefix||$n}
     let $attrN := if($includeAttributeN) then attribute {"n"} {$n}
     return element {node-name($el)} {$elementId, $attrN, $el/@*, $el/*}
-};
+}; (:NOTE: For msItems, add an off-set value to this which defaults to 0 but can be used when doing dfs traversal of msContents :)
 
 (: Functions to turn XML Stub records into full TEI files :)
 
@@ -172,8 +173,9 @@ declare function mss:update-sourceDesc($rec as node()+) as node() {
 };
 
 declare function mss:update-msDesc($rec as node()+) as node() {
-  let $msIdentifier := $rec//tei:msDesc/tei:msIdentifier
-  let $msContents := $rec//tei:msDesc/tei:msContents
+  let $msIdentifier := mss:update-msIdentifier($rec)
+  let $msContents := mss:update-msContents($rec//tei:msDesc/tei:msContents)
+  
   let $msId := "3"
   return element {QName("http://www.tei-c.org/ns/1.0", "msDesc")} {attribute {"xml:id"} {"manuscript-"||$msId}, $msIdentifier, $msContents}
 };
@@ -226,9 +228,61 @@ declare function mss:create-wright-bl-roman-element($recId as xs:string) as node
   return ($collectionElement, $idnoElement)
 };
 
-declare function mss:update-msContents($rec as node()+) as node() { (: PENDING. This one will be difficult as it requires enumerating the msItems... :)
-  let $blank := ""
-  return $rec
+declare function mss:update-msContents($msContents as node()+) as node() { (: PENDING. This one will be difficult as it requires enumerating the msItems... :)
+  
+  let $msItems := <msItemContainer>{$msContents/tei:msItem}</msItemContainer>
+  (:
+  - empty summary
+  - <textLang mainLang="{$get-from-config-proj}"/>
+  - processed msItems
+  :)
+  return $msItems
+};
+
+declare function mss:add-msItem-id-and-enumeration-values($msItemSeq as node(), $up-stack as node(), $down-stack as node(), $currentItemNumber as xs:integer) {
+  (: currently processing first node in the sequence :)
+  let $currentNode := $msItemSeq/tei:msItem[1]
+  let $currentNodeNum := attribute {"n"} {$currentItemNumber}
+  (: pop the $down-stack and store in $id. Note that XQuery's limitations require popping a stack to be a two-step process (see stack.xqm for more) :)
+  let $id := stack:pop($down-stack)[1]
+  let $down-stack :=stack:pop($down-stack)[2]
+  
+  (: stor popped id as the id for the current node context :)
+  let $currentNodeId := $id
+  
+  (: iterate the numerical portion of the $id and push onto the $up-stack :)
+  
+  let $id := substring($id, 1, 1)||(xs:integer(fn:substring($id, 2, 1))+1)
+  let $up-stack := stack:push($up-stack, $id)
+  
+  (: process child-data recursively using the current stack states :)
+  let $child-seq := <msItemContainer>{$currentNode/tei:msItem}</msItemContainer>
+  let $child-data := if ($child-seq/tei:msItem) then mss:add-msItem-id-and-enumeration-values($child-seq, $up-stack, $down-stack, $currentItemNumber + 1) else ()
+  
+  (: $child-data now contains the processed-child nodes of $currentNode as well as the updated stack states as a three-item list.
+  : Store the child nodes as $child-seq and update the stack states from $child-data
+   :)
+  let $child-seq := if(not(empty($child-data))) then $child-data[1] else $child-seq
+  let $up-stack := if(not(empty($child-data))) then $child-data[2] else $up-stack
+  let $down-stack := if(not(empty($child-data))) then $child-data [3] else $down-stack
+  let $currentItemNumber := if(not(empty($child-data))) then $child-data [4] else $currentItemNumber
+  
+  (: pop the up-stack and push its value onto the down-stack. This ensures that the sibling nodes are processed at the same level in the stack :)
+  let $down-stack := stack:push($down-stack, stack:pop($up-stack)[1])
+  let $up-stack := stack:pop($up-stack)[2]
+  
+  (: store any sibling msItems as a sequence and process using the current stack states:)
+  let $sibling-seq := <msItemContainer>{$msItemSeq/tei:msItem[position()>1]}</msItemContainer>
+  let $sibling-data := if ($sibling-seq/tei:msItem) then mss:add-msItem-id-and-enumeration-values($sibling-seq, $up-stack, $down-stack, $currentItemNumber+1) else ()
+  
+  (: as with child processing, update the sibling-seq, up-stack, and down-stack states with the returns :)
+  let $sibling-seq := if(not(empty($sibling-data))) then $sibling-data[1] else $sibling-seq
+  let $up-stack := if(not(empty($sibling-data))) then $sibling-data[2] else $up-stack
+  let $down-stack := if(not(empty($sibling-data))) then $sibling-data[3] else $down-stack
+  let $currentItemNumber := if(not(empty($sibling-data))) then $sibling-data [4] else $currentItemNumber
+  
+  let $elementReturnSeq := (element {node-name($currentNode)} {attribute {"xml:id"} {$currentNodeId}, $currentNodeNum, $currentNode/@*, $currentNode/*[not(name()='msItem')], $child-seq/tei:msItem}, $sibling-seq/tei:msItem)
+  return (<msItemContainer>{$elementReturnSeq}</msItemContainer>, $up-stack, $down-stack, $currentItemNumber)
 };
 
 declare function mss:update-physDesc($physDesc as node()+) as node()+ {

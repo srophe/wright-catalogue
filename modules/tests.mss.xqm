@@ -14,6 +14,7 @@ module namespace mss-test="http://srophe.org/srophe/mss/mss-test";
 
 import module namespace mss="http://srophe.org/srophe/mss" at "mss.xqm";
 import module namespace config="http://srophe.org/srophe/config" at "config.xqm";
+import module namespace stack="http://wlpotter.github.io/ns/stack" at "https://raw.githubusercontent.com/wlpotter/xquery-utility-modules/main/stack.xqm";
 
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
@@ -39,6 +40,12 @@ declare variable $mss-test:current-date-revisionDesc-to-compare :=
 
 declare variable $mss-test:linear-element-sequence :=
   (<el type="a"/>, <el type="el"/>, <el type="b"><content/>text</el>, <el type="el"/>);
+  
+declare variable $mss-test:initial-msItem-up-stack := 
+  stack:initialize(());
+  
+declare variable $mss-test:initial-msItem-down-stack :=
+  stack:initialize(("a1", "b1", "c1", "d1", "e1", "f1", "g1", "h1", "i1", "j1", "k1", "l1", "m1", "n1"));
   
 declare %unit:before function mss-test:setup() {
   (: make current date correct ?? this is stupidly complex...:)
@@ -148,7 +155,11 @@ declare %unit:test function mss-test:create-wright-bl-roman-element-from-stub() 
 };
 
 declare %unit:test %unit:ignore function mss-test:update-msContents-from-stub() {
-  unit:assert-equals(mss:update-msContents($mss-test:file-to-test), $mss-test:file-to-compare//tei:msContents)
+  unit:assert-equals(mss:update-msContents($mss-test:file-to-test//tei:msContents), $mss-test:file-to-compare//tei:msContents)
+};
+
+declare %unit:test function mss-test:add-msItem-id-and-enumeration-values-from-stub() {
+  unit:assert-equals(mss:add-msItem-id-and-enumeration-values($mss-test:file-to-test//tei:msContents, $mss-test:initial-msItem-up-stack, $mss-test:initial-msItem-down-stack, 1)[1], <msItemContainer>{$mss-test:file-to-compare//tei:msContents/tei:msItem}</msItemContainer>)
 };
 
 declare %unit:test function mss-test:update-physDesc-from-stub() {
