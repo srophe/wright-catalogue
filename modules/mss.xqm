@@ -239,6 +239,10 @@ declare function mss:update-msContents($msContents as node()+) as node() { (: PE
   return $msItems
 };
 
+(: this is the recursive function that adds @xml:id and @n values to msItems. It is in much better shape than the previous attempt and makes use of vertical and horizontal recursion. It keeps track of values using two XQuery stacks, which I've implemented in the stack module (see import above). 
+
+This function is much clearer than previous but could likely still use some refactoring. Tests are set up in tests.mss.xqm, so any refactoring should keep these green to ensure proper script performance.
+:)
 declare function mss:add-msItem-id-and-enumeration-values($msItemSeq as node(), $up-stack as node(), $down-stack as node(), $currentItemNumber as xs:integer) {
   (: currently processing first node in the sequence :)
   let $currentNode := $msItemSeq/tei:msItem[1]
