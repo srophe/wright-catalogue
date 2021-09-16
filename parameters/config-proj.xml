@@ -3,7 +3,10 @@
     <projectMetadata>
         <uriBase>http://syriaca.org/manuscript/</uriBase>
         <shelfMarkPrefix>BL Add MS</shelfMarkPrefix>
-        <shelfMarkLocation type="BL-Shelfmark">TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier/idno</shelfMarkLocation>
+        <shelfMarkType>BL-Shelfmark</shelfMarkType>
+        <!--  The shelf mark must be contained in the following location in your file: /TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier/altIdentifier[@type="$shelfMarkType"]/idno 
+        where the value of $shelfMarkType is stored here in the config file
+        -->
         <editorsFileUri>http://syriaca.org/documentation/editors.xml</editorsFileUri>
         <msMainLang>syr</msMainLang> <!-- contains the ISO language code (2-char preferred) of the primary language in the manuscript(s) being processed. Used in msContents/textLang/@mainLaing -->
     </projectMetadata>
