@@ -17,6 +17,7 @@ import module namespace functx="http://www.functx.com";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 declare variable $config:path-to-repo := 
+(: Change the following line to point to the location on your local system where the wright-catalogue repository is stored :)
    let $rawPath := "C:\Users\anoni\Documents\GitHub\srophe\wright-catalogue"
    return
      replace($rawPath, "\\", "/");
