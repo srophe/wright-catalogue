@@ -2,7 +2,7 @@ xquery version "3.0";
 
 (:
 : Module Name: Unit Testing for Syriaca.org Manuscript Cataloguing
-: Module Version: 0.1
+: Module Version: 1.0
 : Copyright: GNU General Public License v3.0
 : Proprietary XQuery Extensions Used: None
 : XQuery Specification: 08 April 2014
