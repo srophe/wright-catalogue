@@ -60,12 +60,18 @@ declare %unit:test function mss-test:create-processing-instructions-from-config(
   unit:assert-equals(mss:create-processing-instructions(), $mss-test:file-to-compare/processing-instruction())
 };
 
+(: whitespace irregularities and no auto-gen of dates; otherwise the same :)
 declare %unit:test %unit:ignore function mss-test:create-document-with-processing-instructions() {
-  unit:assert-equals(mss:create-document($mss-test:file-to-compare), $mss-test:file-to-compare)
+  unit:assert-equals(mss:create-document($mss-test:file-to-test), $mss-test:file-to-compare)
 };
 
-declare %unit:test %unit:ignore function mss-test:create-teiHeader() {
-  unit:assert-equals(mss:update-teiHeader($mss-test:file-to-compare/*), $mss-test:file-to-compare/teiHeader)
+(: whitespace issue only :)
+declare %unit:test %unit:ignore function mss-test:update-full-record-from-stub() {
+  unit:assert-equals(mss:update-full-record($mss-test:file-to-test), $mss-test:file-to-compare/*[not(self::processing-instruction())])
+};
+
+declare %unit:test function mss-test:create-teiHeader() {
+  unit:assert-equals(mss:update-teiHeader($mss-test:file-to-test)/teiHeader, $mss-test:file-to-compare/teiHeader)
 };
 (: test whether the teiHeader of the processed file is the same as the hand-done file; should fail for a while 
 SKIPPING UNTIL READY TO TEST
@@ -222,23 +228,5 @@ declare %unit:test function mss-test:update-revisionDesc-from-stub() {
 };
 
 declare %unit:test function mss-test:update-tei-text-elements-from-stub() {
-  unit:assert-equals(mss:update-tei-text-elements($mss-test:file-to-test), $mss-test:file-to-compare/tei:TEI/*[not(self::tei:teiHeader)])
+  unit:assert-equals(mss:update-tei-text-elements($mss-test:file-to-test), <nonHeaderElements>{$mss-test:file-to-compare/tei:TEI/*[not(self::tei:teiHeader)]}</nonHeaderElements>)
 };
-(:
-: List of tests
-: - reading inputs
-: - writing outputs
-: - msDesc (xml:id)
-: 	- msParts (later)
-: 	- msContents
-: 		- msItem and sub-items?? (or is this contained in msContents, as long as the right numbering is applied? I suppose if we include remove items testing this might be useful)
-: - physDesc
-: 	- condition description
-: 	- handDesc
-: 	- decoDesc
-: 	- additions
-: - handling empty versions of certain things like decoDesc, etc.
-: - origDate and origPlace
-: - citedRange in //additional/listBibl/bibl
-: - msPart will have additional testing most likely, but for now just refactor based on the above tests
-:)

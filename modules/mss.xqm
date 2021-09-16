@@ -40,12 +40,9 @@ declare function mss:get-record-uri($rec as node()+) as xs:string? {
 };
 
 declare function mss:get-shelf-mark($rec as node()+) as xs:string* {
-  let $pathToShelfMark := $config:project-config/config/projectMetadata/shelfMarkLocation/text()
-  let $shelfMarkType := fn:string($config:project-config/config/projectMetadata/shelfMarkLocation/@type)
-  let $shelfMark :=  functx:dynamic-path($rec, $pathToShelfMark)
-  for $el in $shelfMark
-    where fn:string($shelfMark/@type) = $shelfMarkType
-    return $el/text()
+  let $shelfMarkType := $config:project-config/config/projectMetadata/shelfMarkType/text()
+  let $shelfMark := $rec//tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:altIdentifier/tei:idno[@type=$shelfMarkType]/text()
+  return $shelfMark
 };
 
 declare function mss:clean-shelf-mark($shelf-mark as xs:string) as xs:string* {
@@ -115,8 +112,8 @@ declare function mss:create-processing-instructions() as processing-instruction(
 
 declare function mss:update-full-record($rec as node()+) as node() {
   let $teiHeader := mss:update-teiHeader($rec)
-  let $teiText := mss:update-tei-text-elements($rec)
-  return element {QName("http://www.tei-c.org/ns/1.0", "TEI")} {$teiHeader, $teiText}
+  (: let $teiText := mss:update-tei-text-elements($rec)/* :)
+  return element {QName("http://www.tei-c.org/ns/1.0", "TEI")} {attribute {"xml:lang"} {"en"}, $teiHeader, $rec/tei:facsimile, $rec/tei:text}
 };
 (: Build teiHeader :)
 declare function mss:update-teiHeader($rec as node()+) as node() {
@@ -132,8 +129,9 @@ declare function mss:update-fileDesc($rec as node()+) as node() {
   let $titleStmt := mss:update-titleStmt($rec)
   let $editionStmt := $config:project-config/config/tei:editionStmt
   let $publicationStmt := mss:update-publicationStmt($rec)
+  let $sourceDesc := mss:update-sourceDesc($rec)
   return element {QName("http://www.tei-c.org/ns/1.0", "fileDesc")} {
-    $titleStmt, $editionStmt, $publicationStmt
+    $titleStmt, $editionStmt, $publicationStmt, $sourceDesc
   }
 };
 
@@ -155,7 +153,7 @@ declare function mss:update-titleStmt($rec) as node()* {
 declare function mss:create-record-title($rec as node()+) as node()* {
   let $title := mss:clean-shelf-mark(mss:get-shelf-mark($rec))
   return element {QName("http://www.tei-c.org/ns/1.0", "title")} 
-                  {attribute {"xml:lang"} {"en"}, attribute {"level"} {"a"}, $title}
+                  {attribute {"level"} {"a"}, attribute {"xml:lang"} {"en"}, $title}
 };
 
 (: Note: editionStmt will only have project metadata, so mss:update-fileDesc() simply points to the config:project-config XML file :)
@@ -406,6 +404,6 @@ declare function mss:update-revisionDesc($revisionDesc as node()+) as node() {
 
 (: Note: as currently we are not using non-header elements (saving fascimile and text for later phases, perhaps with transcriptions when available), we are just returning these from the xml stub file in which the catalogue info was encoded. :)
 declare function mss:update-tei-text-elements($doc as node()+) as node()+ {
-  let $nonHeaderElements := $doc/tei:TEI/*[not(self::tei:teiHeader)]
-  return $nonHeaderElements
+  let $nonHeaderElements := ($doc/tei:TEI/tei:facsimile, $doc/tei:TEI/tei:text)
+  return <nonHeaderElements>{$nonHeaderElements}</nonHeaderElements>
 };
