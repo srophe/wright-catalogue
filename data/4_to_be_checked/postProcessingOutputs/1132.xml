@@ -79,78 +79,77 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="" from="1a"/>
-              <title ref="" xml:lang="en">Portions of Choral Services for the
+              <locus from="1a"/>
+              <title xml:lang="en">Portions of Choral Services for the
                                 festivals of the whole year, including madrashe, canons,
                                 etc.</title>
               <msItem xml:id="b1" n="2">
-                <locus to="" from="1a"/>
-                <title ref="" xml:lang="en">The Dedication of the Church</title>
+                <locus from="1a"/>
+                <title xml:lang="en">The Dedication of the Church</title>
                 <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܥܠ ܚܘܿܕܬ ܥܕܬܐ</rubric>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus to="" from="1a"/>
-                <title ref="" xml:lang="en">The Annunciation of
+                <locus from="1a"/>
+                <title xml:lang="en">The Annunciation of
                                         <persName>Zacharias</persName>
                 </title>
               </msItem>
               <msItem xml:id="b3" n="4">
-                <locus to="" from="3a"/>
-                <title ref="" xml:lang="en">The Visit of <persName>Mary</persName>
+                <locus from="3a"/>
+                <title xml:lang="en">The Visit of <persName>Mary</persName>
                                     to <persName>Elisabeth</persName>
                 </title>
               </msItem>
               <msItem xml:id="b4" n="5">
-                <locus to="" from="4a"/>
-                <title ref="" xml:lang="en">The Nativity of <persName>S. John the
+                <locus from="4a"/>
+                <title xml:lang="en">The Nativity of <persName>S. John the
                                         Baptist</persName>
                 </title>
-                <rubric xml:lang="syr"/>
+                
               </msItem>
               <msItem xml:id="b5" n="6">
-                <locus to="" from="5a"/>
-                <title ref="" xml:lang="en">The Nativity of our
+                <locus from="5a"/>
+                <title xml:lang="en">The Nativity of our
                                         <persName>Lord</persName>, and the Commemoration of the
                                     blessed <persName>Virgin Mary</persName>
                 </title>
               </msItem>
               <msItem xml:id="b6" n="7">
-                <locus to="" from="11a"/>
-                <title ref="" xml:lang="en">The Commemoration of <persName>Jacob of
+                <locus from="11a"/>
+                <title xml:lang="en">The Commemoration of <persName>Jacob of
                                         Batnae</persName>
                 </title>
               </msItem>
               <msItem xml:id="b7" n="8">
-                <locus to="" from="12a"/>
-                <title ref="" xml:lang="en">Of <persName>Barbara</persName> and
+                <locus from="12a"/>
+                <title xml:lang="en">Of <persName>Barbara</persName> and
                                         <persName>Juliana</persName>
                 </title>
                 <rubric xml:lang="syr">ܕܒܪܒܪܐ ܘܝܘܠܝܐܢܐ</rubric>
               </msItem>
               <msItem xml:id="b8" n="9">
-                <locus to="" from="12b"/>
-                <title ref="" xml:lang="en">Of <persName>Z̄akhē</persName> or
+                <locus from="12b"/>
+                <title xml:lang="en">Of <persName>Z̄akhē</persName> or
                                         <persName>Nicolaus, bishop of Myra</persName>
                 </title>
                 <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܥܠ ܢܨܝܚܐ ܡܪܝ ܙܟ̇ܐ ܐܦܝ܏ܣܩܘܼ ܕܡܘܪܐ
                                     ܡܕܝܢܬܐ</rubric>
               </msItem>
               <msItem xml:id="b9" n="10">
-                <locus to="" from="13a"/>
-                <title ref="" xml:lang="en">Of <persName>Behnām</persName>
+                <locus from="13a"/>
+                <title xml:lang="en">Of <persName>Behnām</persName>
                 </title>
               </msItem>
               <msItem xml:id="b10" n="11">
-                <locus to="" from="14a"/>
-                <title ref="" xml:lang="en">Of <persName>Romanus</persName>
+                <locus from="14a"/>
+                <title xml:lang="en">Of <persName>Romanus</persName>
                 </title>
               </msItem>
               <msItem xml:id="b11" n="12">
-                <locus to="" from="15a"/>
-                <title ref="" xml:lang="en">Of <persName>Mār
+                <locus from="15a"/>
+                <title xml:lang="en">Of <persName>Mār
                                     Gabriel</persName>
                 </title>
               </msItem>
@@ -191,7 +190,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="" to=""/>
+                  <locus/>
                   <p/>
                   <p>
                     <quote xml:lang="syr"/>
@@ -209,8 +208,8 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate notBefore="1100" notAfter="1200" from="" to="" when=""/>
-                            <origPlace ref="" xml:lang=""/>
+                            <origDate notBefore="1100" notAfter="1200"/>
+                            <origPlace/>
                         </origin>
                         <provenance/>
                         <acquisition/>
@@ -399,6 +398,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
     </revisionDesc>

@@ -79,16 +79,15 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="" from="75a"/>
+              <locus from="75a"/>
               <rubric xml:lang="syr">ܥܛܪ̈ܐ</rubric>
               <note>Imperfect at the beginning</note>
               <note>See <bibl>fol. 58 a</bibl>.</note>
               <msItem xml:id="b1" n="2">
                 <locus to="81a" from="80"/>
-                <title ref="" xml:lang="en">Contain ܡ̈ܥܢܝܬܐ on
+                <title xml:lang="en">Contain ܡ̈ܥܢܝܬܐ on
                                         <persName>George</persName> and
                                         <persName>Theodore</persName>
                 </title>
@@ -96,8 +95,8 @@
               </msItem>
             </msItem>
             <msItem xml:id="a2" n="3">
-              <locus to="" from="81b"/>
-              <title ref="" xml:lang="en">A Calendar</title>
+              <locus from="81b"/>
+              <title xml:lang="en">A Calendar</title>
               <note>See <bibl>fol. 70 b</bibl>.</note>
             </msItem>
           </msContents>
@@ -153,9 +152,9 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate notBefore="" notAfter="" from="" to="" when="">A.D.
+                            <origDate>A.D.
                                 1239</origDate>
-                            <origPlace ref="" xml:lang=""/>
+                            <origPlace/>
                         </origin>
                         <provenance/>
                         <acquisition/>
@@ -344,6 +343,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
     </revisionDesc>
