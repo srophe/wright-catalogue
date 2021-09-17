@@ -79,29 +79,22 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
             <textLang mainLang="syr-Syre"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="" from=""/>
-              <title ref="" xml:lang="en">The four Gospels, in an ancient recension,
+              
+              <title xml:lang="en">The four Gospels, in an ancient recension,
                                 differing notably in many points from the ordinary Peshitta, They
                                 stand in the following order</title>
               <msItem xml:id="b1" n="2" defective="true">
-                <locus to="" from="1b"/>
-                <title ref="" xml:lang="en">
+                <locus from="1b"/>
+                <title xml:lang="en">
                   <persName>S. Matthew</persName>
                 </title>
                 <rubric xml:lang="syr">ܐܘܢܓܠܝܘܢ ܕܡܦܪܫܐ </rubric>
-                <incipit xml:lang="syr"/>
-                <quote xml:lang="syr">
-                                    <locus from="" to=""/>
-                                </quote>
-                <explicit xml:lang="syr">
-                                    <locus to="" from=""/>
-                                </explicit>
-                <finalRubric xml:lang="syr">
-                                    <locus to="" from=""/>
-                                </finalRubric>
+                
+                
+                
+                
                 <note>There is a hole in the vellum, caused by damp, which has
                                     destroyed the greater part of the ܐ in ܕܡܦܪܫܐ but it is certain
                                     that there is no room for a ܕ before ܡܬܝ. Whether there was a
@@ -130,17 +123,17 @@
                                     ordinary Peshitta version.</note>
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
-                <locus to="" from="39a"/>
-                <title ref="" xml:lang="en">
+                <locus from="39a"/>
+                <title xml:lang="en">
                   <persName>S. Mark</persName>
                 </title>
-                <finalRubric xml:lang="syr">ܫܠܡ. ܐܘܢܓܠܝܘܢ̇ ܕܡܪܩܘܣ<locus to="" from=""/>
+                <finalRubric xml:lang="syr">ܫܠܡ. ܐܘܢܓܠܝܘܢ̇ ܕܡܪܩܘܣ
                 </finalRubric>
                 <note>Of this Gospel only ch. xvi. 17—20 remains.</note>
               </msItem>
               <msItem xml:id="b3" n="4" defective="true">
-                <locus to="" from="39a"/>
-                <title ref="" xml:lang="en">
+                <locus from="39a"/>
+                <title xml:lang="en">
                   <persName>S. John</persName>
                 </title>
                 <rubric xml:lang="syr">ܐܘܢܓܠܝܘܢ ܕܝܘܚܢܢ </rubric>
@@ -153,8 +146,8 @@
                                     (e.g. fol. 45 b).</note>
               </msItem>
               <msItem xml:id="b4" n="5" defective="true">
-                <locus to="" from="53a"/>
-                <title ref="" xml:lang="en">
+                <locus from="53a"/>
+                <title xml:lang="en">
                   <persName>S. Luke</persName>
                 </title>
                 <rubric xml:lang="syr">Running title, ܕܠܘܩܐ (e.g. fol. 55 b) or
@@ -209,7 +202,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="" to=""/>
+                  <locus/>
                   <p>The text of this manuscript has been altered in many places
                                         on foll. 6 b—8 a, in order to bring it into uniformity with
                                         that in common use. There is no indication of lessons,
@@ -221,7 +214,7 @@
                   </p>
                 </item>
                 <item xml:id="addition2" n="2">
-                  <locus from="1a" to=""/>
+                  <locus from="1a"/>
                   <p>A note on fol. 1 a, in a current hand of about the <date>xth
                                             cent.</date>, informs us that the volume belonged to a
                                         monk named <persName>Habībai</persName> or
@@ -238,7 +231,7 @@
                                     </p>
                 </item>
                 <item xml:id="addition3" n="3">
-                  <locus from="88a" to=""/>
+                  <locus from="88a"/>
                   <p>On fol. 88 a, at the end of the Gospel of S. Luke, there is a
                                         note, showing that the books belonging to the
                                             <placeName>convent of S. Mary Deipara</placeName> were
@@ -259,7 +252,7 @@
                                     </p>
                 </item>
                 <item xml:id="addition4" n="4">
-                  <locus from="" to=""/>
+                  <locus/>
                   <p>The text of the older portions of this manuscript. has been
                                         edited, with a preface and translation, by the late
                                             <persName>Dr. Cureton</persName> (<bibl>London,
@@ -281,8 +274,8 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate notBefore="" notAfter="" from="" to="" when=""/>
-                            <origPlace ref="" xml:lang=""/>
+                            <origDate/>
+                            <origPlace/>
                         </origin>
                         <provenance/>
                         <acquisition/>
@@ -471,6 +464,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
       <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special

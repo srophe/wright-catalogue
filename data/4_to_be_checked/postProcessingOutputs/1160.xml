@@ -79,11 +79,10 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
             <textLang mainLang="syr-Syre"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="" from=""/>
-              <title ref="" xml:lang="en">The four Gospels, according to the Peshitta
+              
+              <title xml:lang="en">The four Gospels, according to the Peshitta
                                 version</title>
               <note>The Ammonian sections and Eusebian canons are marked with red ink
                                 in the text of both parts of this volume, and there is a harmony at
@@ -98,31 +97,31 @@
               <note>The lessons are rubricated in the text in the usual way, with a
                                 solitary exception on the margin of fol. 18b.</note>
               <msItem xml:id="b1" n="2" defective="true">
-                <locus to="" from="1a"/>
-                <title ref="" xml:lang="en">
+                <locus from="1a"/>
+                <title xml:lang="en">
                   <persName>S. Matthew</persName>,
                                     beginning with ch. ix. 7</title>
                 <note>The only other portion missing is ch. xxvii. 31—xxviii.
                                     5.</note>
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
-                <locus to="" from="34a"/>
-                <title ref="" xml:lang="en">
+                <locus from="34a"/>
+                <title xml:lang="en">
                   <persName>S. Mark</persName>, beginning
                                     with ch. vi. 2</title>
                 <note>There is also wanting ch. xiv. 17—36.</note>
               </msItem>
               <msItem xml:id="b3" n="4">
-                <locus to="" from="29a"/>
-                <title ref="" xml:lang="en">
+                <locus from="29a"/>
+                <title xml:lang="en">
                   <persName>S. Luke</persName>
                 </title>
                 <note>The missing portions are: ch. viii. 35—xi.51, and xxi.
                                     26—xxii. 33.</note>
               </msItem>
               <msItem xml:id="b4" n="5">
-                <locus to="" from="107a"/>
-                <title ref="" xml:lang="en">S. John</title>
+                <locus from="107a"/>
+                <title xml:lang="en">S. John</title>
                 <note>The missing portions are: ch. xviii. 39—xix. 13, and xxi. 17
                                     to the end.</note>
               </msItem>
@@ -175,7 +174,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="58" to=""/>
+                  <locus from="58"/>
                   <p>Fol. 58 is palimpsest and contains <persName>S.
                                             Matthew</persName>, ch. xiii. 54—58, and <persName>S.
                                             Mark</persName>, ch. vi. 1—6. It is a leaf from the same
@@ -197,9 +196,9 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate notBefore="0500" notAfter="0700" from="" to="" when=""/>
-                            <origDate notBefore="0700" notAfter="0800" from="" to="" when=""/>
-                            <origPlace ref="" xml:lang=""/>
+                            <origDate notBefore="0500" notAfter="0700"/>
+                            <origDate notBefore="0700" notAfter="0800"/>
+                            <origPlace/>
                         </origin>
                         <provenance/>
                         <acquisition/>
@@ -388,6 +387,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI
                 encoding.</change>
