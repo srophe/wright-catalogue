@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -83,35 +83,29 @@
             <msItem xml:id="a1" n="1">
               <title xml:lang="en">A Collection of Hymns</title>
               <msItem xml:id="b1" n="2">
-                <rubric xml:lang="syr">ܫܘܚܠܦ ܩ̈ܠܐ </rubric>
+                <locus from="1b"/>
+                <title xml:lang="en">Hymns in which there is a change of tone (<foreign xml:lang="syr">ܫܘܚܠܦ ܩ̈ܠܐ</foreign>)</title>
                 <rubric xml:lang="syr">ܥܠ ܚܲܝܠܐ ܘܣܘܝ̇ܥܐ ܕܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ ܘܫܲܘܝܬ݀ ܒܐܘܣܝܐ ܕܐܒܐ ܘܕܒܪܐ
                   ܘܕܪܘܚܐ ܩܕܝܫܐ ܡܫ̇ܪܝܢܢ ܠܡܟ̣ܬܒ ܫܘܼܚܠܦ ܩ̈ܠܐ </rubric>
-                <finalRubric xml:lang="syr">ܫܠ̣ܡ ܩ̈ܠܐ ܓ̈ܢܝܙܬܐ ܐܘܿ ܟܝܬ ܪܘܪ̈ܒܐ: ܟܠ ܕܩ̇ܪܐ ܢܨ̇ܠܐ ܥܠ
-                  ܟ̇ܬܘܒܐ ܘܥܠ ܟܠ ܕܐܫܬ݀ܘܬܦ ܏ܘܫ.
-                </finalRubric>
-                <note>In [these hymns] there is a change of tone.</note>
+                <finalRubric xml:lang="syr"><locus from="110a"/>ܫܠ̣ܡ ܩ̈ܠܐ ܓ̈ܢܝܙܬܐ <foreign xml:lang="en">(sic)</foreign> ܐܘܿ ܟܝܬ ܪܘܪ̈ܒܐ: ܟܠ ܕܩ̇ܪܐ ܢܨ̇ܠܐ ܥܠ
+                  ܟ̇ܬܘܒܐ ܘܥܠ ܟܠ ܕܐܫܬ݀ܘܬܦ ܏ܘܫ</finalRubric><!-- WLP: Missing Arabic here. It appears that the subscription continues in Arabic -->
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus from="110b"/>
-                <title xml:lang="en">Simple Hymns</title>
-                <rubric xml:lang="syr">ܩ̈ܠܐ ܫܚ̈ܝ̣ܡܐ ܘܕܩܝ̇ܡܬܐ </rubric>
+                <title xml:lang="en">Simple hymns, without any change of tone (<foreign xml:lang="syr">ܩ̈ܠܐ ܫܚ̈ܝ̣ܡܐ ܘܕܩܝ̇ܡܬܐ</foreign>) and hymns for the Resurrection</title>
                 <rubric xml:lang="syr">: ܟܕ ܥܠ ܣܲܒܪܐ ܠܐ ܡܲܒܗܬܢܐ ܕܐܠܗܐ ܡܣܬ݁ܡܟܝܢܢ ܪܡ̇ܝܢܢ ܐܝ̣ܕܐ ܒܩ̈ܠܐ
                   ܫܚ̈ܝ̣ܡܐ ܘܕܩܝ̇ܡܬܐ</rubric>
-                <note>These are hymns without any change of tone</note>
               </msItem>
               <msItem xml:id="b3" n="4">
                 <locus from="175b"/>
-                <title xml:lang="en">Supplications</title>
-                <rubric xml:lang="syr">ܬܟܫ̈ܦܬܐ</rubric>
-                <rubric xml:lang="syr">ܬܘܒ ܒܚܝܠ ܐܠܗܐ ܡܪܐ ܟܠ ܟܬܒܝܢܢ ܬܟܫ̈ܦܬܐ ܩܲܠܝܠ ܡܢ ܣ̇ܓܝ ܐܝܟ ܬܒܲܥܬܗ
-                  ܕܩ̇ܢܝܐ</rubric>
-                <note>ܬܘܒ ܒܚܝܠ ܐܠܗܐ ܡܪܐ ܟܠ ܟܬܒܝܢܢ ܬܟܫ̈ܦܬܐ ܩܲܠܝܠ ܡܢ ܣ̇ܓܝ ܐܝܟ ܬܒܲܥܬܗ ܕܩ̇ܢܝܐ</note>
+                <title xml:lang="en">Supplications (<foreign xml:lang="syr">ܬܟܫ̈ܦܬܐ</foreign>), arranged according to the eight tones</title>
+                <rubric xml:lang="syr">ܬܘܒ ܒܚܝܠ ܐܠܗܐ ܡܪܐ ܟܠ ܟܬܒܝܢܢ ܬܟܫ̈ܦܬܐ ܩܲܠܝܠ ܡܢ ܣ̇ܓܝ ܐܝܟ ܬܒܲܥܬܗ ܕܩ̇ܢܝܐ</rubric>
               </msItem>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -121,12 +115,11 @@
                   <list>
                     <item>
                       <p>Paper, about 5 3/8 in. by 3 1/2, consisting of 206 leaves, some of which
-                        are much stained and torn, especially foll. 1—5, 38, 150, 151, and 206. The
+                        are much stained and torn, especially <locus>foll. 1—5</locus>, <locus>38</locus>, <locus>150</locus>, <locus>151</locus>, and <locus>206</locus>. The
                         quires, signed with letters, were probably 24 in number, but one or two of
-                        them are lost and several others are im¬perfect. Leaves are wanting at the
-                        begin¬ning and end, as well as after foll. 8, 16, 56, 63, 150, 180, 188, and
-                        198. There are from 12 to 16 lines in each page. This volume is written in a
-                        neat, small hand of the xiiith cent.</p>
+                        them are lost and several others are imperfect. Leaves are wanting at the
+                        beginning and end, as well as after <locus>foll. 8</locus>, <locus>16</locus>, <locus>56</locus>, <locus>63</locus>, <locus>150</locus>, <locus>180</locus>, <locus>188</locus>, and
+                        <locus>198</locus>. There are from 12 to 16 lines in each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -137,21 +130,10 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                <desc/>
+                <desc>This volume is written in a neat, small hand of the <date>xiiith cent.</date></desc>
               </handNote>
             </handDesc>
-            <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                  <locus/>
-                  <p/>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                </item>
-              </list>
-            </additions>
+            <additions/>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -162,8 +144,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate from="1200" to="1300">XIIIth
-                Century</origDate>
+              <origDate from="1200" to="1300">xiiith cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
