@@ -91,7 +91,7 @@ declare function mss:enumerate-element-sequence($elementSequence as node()+, $el
 
 (: Functions to turn XML Stub records into full TEI files :)
 
-declare function mss:create-document($rec as node()+) as document-node() {
+declare function mss:create-updated-document($rec as node()+) as document-node() {
   let $processing-instructions := mss:create-processing-instructions()
   let $rec := $rec/descendant-or-self::*[not(self::processing-instruction())]
   let $rec := mss:update-full-record($rec)

@@ -61,8 +61,8 @@ declare %unit:test function mss-test:create-processing-instructions-from-config(
 };
 
 (: whitespace irregularities and no auto-gen of dates; otherwise the same :)
-declare %unit:test %unit:ignore function mss-test:create-document-with-processing-instructions() {
-  unit:assert-equals(mss:create-document($mss-test:file-to-test), $mss-test:file-to-compare)
+declare %unit:test %unit:ignore function mss-test:create-updated-document-with-processing-instructions() {
+  unit:assert-equals(mss:create-updated-document($mss-test:file-to-test), $mss-test:file-to-compare)
 };
 
 (: whitespace issue only :)
