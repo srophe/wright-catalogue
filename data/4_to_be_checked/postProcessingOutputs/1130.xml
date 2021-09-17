@@ -79,33 +79,34 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
+            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              
+              <locus to="" from=""/>
               <author ref="http://syriaca.org/person/51">Severus</author>
-              <title xml:lang="en">Part of the Hymns of Severus</title>
+              <title ref="" xml:lang="en">Part of the Hymns of Severus</title>
               <msItem xml:id="b1" n="2" defective="true">
-                <locus from="110a"/>
+                <locus to="" from="110a"/>
                 <author ref="http://syriaca.org/person/51">Severus</author>
-                <title xml:lang="en">The Epiphany</title>
+                <title ref="" xml:lang="en">The Epiphany</title>
                 <note>Imperfect at the beginning.</note>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus from="111b"/>
+                <locus to="" from="111b"/>
                 <author ref="http://syriaca.org/person/51">Severus</author>
-                <title xml:lang="en">Lent</title>
+                <title ref="" xml:lang="en">Lent</title>
               </msItem>
               <msItem xml:id="b3" n="4">
-                <locus from="115b"/>
+                <locus to="" from="115b"/>
                 <author ref="http://syriaca.org/person/51">Severus</author>
-                <title xml:lang="en">The Miracles, of which we have only the
+                <title ref="" xml:lang="en">The Miracles, of which we have only the
                                     first</title>
                 <rubric xml:lang="syr">ܕܥܠ ܗ̇ܘ ܓܪܒܐ</rubric>
               </msItem>
               <msItem xml:id="b4" n="5">
-                <locus from="116a"/>
+                <locus to="" from="116a"/>
                 <author ref="http://syriaca.org/person/51">Severus</author>
-                <title xml:lang="en">On Monks</title>
+                <title ref="" xml:lang="en">On Monks</title>
                 <rubric xml:lang="syr">ܕܥܠ ܕܝܪ̈ܝܐ</rubric>
               </msItem>
             </msItem>
@@ -143,7 +144,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus/>
+                  <locus from="" to=""/>
                   <p/>
                   <p>
                     <quote xml:lang="syr"/>
@@ -161,8 +162,8 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate notBefore="0900" notAfter="1100"/>
-                            <origPlace/>
+                            <origDate notBefore="0900" notAfter="1100" from="" to="" when=""/>
+                            <origPlace ref="" xml:lang=""/>
                         </origin>
                         <provenance/>
                         <acquisition/>
@@ -351,7 +352,6 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
     </revisionDesc>

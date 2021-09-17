@@ -79,11 +79,12 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
+            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="1b"/>
+              <locus to="" from="1b"/>
               <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
-              <title xml:lang="en">1. The metrical discourse of <persName>Jacob
+              <title ref="" xml:lang="en">1. The metrical discourse of <persName>Jacob
                                     of Batnae</persName> on the Crucifixion of our
                                     <persName>Lord</persName>
               </title>
@@ -96,18 +97,18 @@
                                     p. 324, no. 163</bibl>.</note>
             </msItem>
             <msItem xml:id="a2" n="2">
-              <locus from="99a"/>
+              <locus to="" from="99a"/>
               <author ref="http://syriaca.org/person/13">Ephraim</author>
-              <title xml:lang="en">2. Prayers for the nocturns of Easter
+              <title ref="" xml:lang="en">2. Prayers for the nocturns of Easter
                                 Sunday, ascribed to <persName>Ephraim</persName>
               </title>
               <rubric xml:lang="syr">ܛܟܣܐ ܕܒܥ̈ܘܬܐ ܕܠܠܝܐ ܕܚܕܒܫܒܐ ܕܩܝܡܬܐ. ܕܡܪܝ ܐܦܪܝܡ
                                 ܡܲܠܦܢܐ</rubric>
             </msItem>
             <msItem xml:id="a3" n="3">
-              <locus from="101a"/>
+              <locus to="" from="101a"/>
               <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
-              <title xml:lang="en">3. A fragment of another discourse of
+              <title ref="" xml:lang="en">3. A fragment of another discourse of
                                     <persName>Jacob of Batnae</persName> on the Crucifixion</title>
               <incipit xml:lang="syr">ܚܘܪ ܦܪܘܫܐ ܐܢ ܡܫܟܚ ܐܢܬ ܦܪܘܫܐܝܬ. ܟܕ ܡܬܚܒ̣ܠܐ ܒ̣ܪܝܬܐ
                                 ܒܚܫ̈ܘܗܝ ܕܝܚܝܕܝܐ̣. ܕܝ̇ܠܕܐ ܚ̇ܕܬܐ ܘܪܘܚܢܝܐ ܬܩܘܡ ܬܢܝܢܘܬ. ܏ܘܫ.</incipit>
@@ -149,7 +150,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus/>
+                  <locus from="" to=""/>
                   <p/>
                   <p>
                     <quote xml:lang="syr"/>
@@ -167,8 +168,8 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate notBefore="1000" notAfter="1200"/>
-                            <origPlace/>
+                            <origDate notBefore="1000" notAfter="1200" from="" to="" when=""/>
+                            <origPlace ref="" xml:lang=""/>
                         </origin>
                         <provenance/>
                         <acquisition/>
@@ -357,7 +358,6 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-08-06" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
       <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document

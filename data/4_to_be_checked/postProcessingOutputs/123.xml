@@ -79,14 +79,15 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
+            <summary/>
             <textLang mainLang="syr-Syre"/>
             <msItem xml:id="a1" n="1" defective="true">
-              
-              <title xml:lang="en">The first three Gospels according to the
+              <locus to="" from=""/>
+              <title ref="" xml:lang="en">The first three Gospels according to the
                                 Peshitta version</title>
               <msItem xml:id="b1" n="2" defective="true">
-                <locus from="1a"/>
-                <title xml:lang="en">
+                <locus to="" from="1a"/>
+                <title ref="" xml:lang="en">
                   <persName>S. Matthew</persName>,
                                     commencing with ch. xxiii. v. 28</title>
                 <note>A considerable part of the missing portion, viz. ch. ix.
@@ -94,14 +95,14 @@
                                         <bibl>no. LXXIV</bibl>.</note>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus from="10b"/>
-                <title xml:lang="en">
+                <locus to="" from="10b"/>
+                <title ref="" xml:lang="en">
                   <persName>S. Mark</persName>
                 </title>
               </msItem>
               <msItem xml:id="b3" n="4" defective="true">
-                <locus from="34b"/>
-                <title xml:lang="en">
+                <locus to="" from="34b"/>
+                <title ref="" xml:lang="en">
                   <persName>S. Luke</persName>
                 </title>
                 <note>The missing portions are : ch. ii. 37—iii. 12, ix. 44—x. 8,
@@ -153,7 +154,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus/>
+                  <locus from="" to=""/>
                   <p>The Ammonian sections and Eusebian canons are marked in the
                                         text with red ink, and there is a harmony at the foot of
                                         each page (except foll. 9—18). Lessons are rubricated in the
@@ -174,9 +175,9 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate notBefore="0700" notAfter="0800"/>
-                            <origDate notBefore="0900" notAfter="1000"/>
-                            <origPlace/>
+                            <origDate notBefore="0700" notAfter="0800" from="" to="" when=""/>
+                            <origDate notBefore="0900" notAfter="1000" from="" to="" when=""/>
+                            <origPlace ref="" xml:lang=""/>
                         </origin>
                         <provenance/>
                         <acquisition/>
@@ -365,7 +366,6 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
     </revisionDesc>

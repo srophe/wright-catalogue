@@ -79,46 +79,47 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
+            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              
-              <title xml:lang="en">Consolatory discourses and prayers for the
+              <locus to="" from=""/>
+              <title ref="" xml:lang="en">Consolatory discourses and prayers for the
                                 Dead; viz.</title>
               <msItem xml:id="b1" n="2" defective="true">
-                <locus from="19a"/>
-                <title xml:lang="en">1. For any person</title>
+                <locus to="" from="19a"/>
+                <title ref="" xml:lang="en">1. For any person</title>
                 <rubric xml:lang="syr">ܕܥܠ ܟܠܢܫ</rubric>
                 <note>Imperfect at the beginning.</note>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus from="19b"/>
-                <title xml:lang="en">2. Another</title>
+                <locus to="" from="19b"/>
+                <title ref="" xml:lang="en">2. Another</title>
                 <rubric xml:lang="syr">ܒܘܝܐܐ ܐܚܪܢܐ ܕܥܠ ܟܠܢܫ</rubric>
               </msItem>
               <msItem xml:id="b3" n="4">
-                <locus from="21b"/>
-                <title xml:lang="en">3. Another</title>
+                <locus to="" from="21b"/>
+                <title ref="" xml:lang="en">3. Another</title>
                 <rubric xml:lang="syr">ܒܘܝܐܐ ܐܚܪܢܐ ܕܥܠ ܟܠܢܫ</rubric>
               </msItem>
               <msItem xml:id="b4" n="5">
-                <locus from="23a"/>
-                <title xml:lang="en">4. A prayer</title>
+                <locus to="" from="23a"/>
+                <title ref="" xml:lang="en">4. A prayer</title>
                 <rubric xml:lang="syr">ܨܠܘܬܐ ܕܥܢ̈ܝܕܐ ܕܒܬܪ ܣܕܪܐ</rubric>
               </msItem>
               <msItem xml:id="b5" n="6">
-                <locus from="23b"/>
-                <title xml:lang="en">5. Short addresses on the Commemoration
+                <locus to="" from="23b"/>
+                <title ref="" xml:lang="en">5. Short addresses on the Commemoration
                                     of Saints and Martyrs</title>
               </msItem>
               <msItem xml:id="b6" n="7">
-                <locus from="25b"/>
-                <title xml:lang="en">6. Address of the priest at a
+                <locus to="" from="25b"/>
+                <title ref="" xml:lang="en">6. Address of the priest at a
                                     commemoration</title>
                 <rubric xml:lang="syr">ܡܠܬܐ ܕܐܡܪ ܠܗ ܩܫܝܫܐ ܥܠ ܕܘܟܪܢܐ</rubric>
               </msItem>
               <msItem xml:id="b7" n="8" defective="true">
-                <locus from="26a"/>
-                <title xml:lang="en">7. Consolatory discourse for a
+                <locus to="" from="26a"/>
+                <title ref="" xml:lang="en">7. Consolatory discourse for a
                                     priest</title>
                 <rubric xml:lang="syr">ܒܘܝܝܐ ܕܥܠ ܟܗܢܐ</rubric>
                 <note>Imperfect at the end.</note>
@@ -159,7 +160,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus/>
+                  <locus from="" to=""/>
                   <p/>
                   <p>
                     <quote xml:lang="syr"/>
@@ -177,8 +178,8 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate notBefore="0900" notAfter="1000"/>
-                            <origPlace/>
+                            <origDate notBefore="0900" notAfter="1000" from="" to="" when=""/>
+                            <origPlace ref="" xml:lang=""/>
                         </origin>
                         <provenance/>
                         <acquisition/>
@@ -367,7 +368,6 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-08-05" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
       <change type="planned" subtype="palimpsest"/>

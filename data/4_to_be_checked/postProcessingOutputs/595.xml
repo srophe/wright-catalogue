@@ -79,45 +79,46 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
+            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              
-              <title xml:lang="en">Funeral Services</title>
+              <locus to="" from=""/>
+              <title ref="" xml:lang="en">Funeral Services</title>
               <msItem xml:id="b1" n="2" defective="true">
-                
-                <title xml:lang="en">For Priests, of which the first three
+                <locus to="" from=""/>
+                <title ref="" xml:lang="en">For Priests, of which the first three
                                     are lost</title>
                 <rubric xml:lang="syr">ܕܥܠ ܟܗ̈ܢܐ</rubric>
                 <msItem xml:id="c1" n="3" defective="true">
-                  <locus from="1a"/>
+                  <locus to="" from="1a"/>
                   <rubric xml:lang="syr">ܬܫܡ̣ܫܬܐ ܕܐܪܒܥ</rubric>
                   <note>Imperfect at the beginning.</note>
                 </msItem>
                 <msItem xml:id="c2" n="4">
-                  <locus from="7a"/>
+                  <locus to="" from="7a"/>
                   <rubric xml:lang="syr">ܬܫܡ̣ܫܬܐ ܕܚ̈ܡܫ</rubric>
                 </msItem>
                 <msItem xml:id="c3" n="5">
-                  <locus from="14a"/>
+                  <locus to="" from="14a"/>
                   <rubric xml:lang="syr">ܬܫܡ̣ܫܬܐ ܕܫ̣ܬܐ</rubric>
                 </msItem>
                 <msItem xml:id="c4" n="6">
-                  <locus from="20b"/>
+                  <locus to="" from="20b"/>
                   <rubric xml:lang="syr">ܬܫܡܫܬܐ ܫܒܝ̣ܥܝܬܐ</rubric>
                 </msItem>
                 <msItem xml:id="c5" n="7">
-                  <locus from="27a"/>
+                  <locus to="" from="27a"/>
                   <rubric xml:lang="syr">ܬܫܡ̣ܫܬܐ ܕܬܡ̈ܢܐ</rubric>
                 </msItem>
                 <msItem xml:id="c6" n="8">
-                  <locus from="34a"/>
-                  <title xml:lang="en">Lessons from the Old and New
+                  <locus to="" from="34a"/>
+                  <title ref="" xml:lang="en">Lessons from the Old and New
                                         Testaments, etc.</title>
                 </msItem>
               </msItem>
               <msItem xml:id="b2" n="9" defective="true">
-                <locus from="55a"/>
-                <title xml:lang="en">For monks, who are not priests</title>
+                <locus to="" from="55a"/>
+                <title ref="" xml:lang="en">For monks, who are not priests</title>
                 <rubric xml:lang="syr">ܬܘܒ̣ ܛܟ̣ܣܐ ܕܥܠ ܐܚ̈ܐ ܕܝܪ̈ܝܐ ܕܥ̇ܢܕܝܢ ܕܠܐ
                                     ܐܝܬܝܗ̈ܘܢ ܩ̈ܫܝܫܐ</rubric>
               </msItem>
@@ -159,7 +160,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus/>
+                  <locus from="" to=""/>
                   <p/>
                   <p>
                     <quote xml:lang="syr"/>
@@ -177,8 +178,8 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate notBefore="1200" notAfter="1300"/>
-                            <origPlace/>
+                            <origDate notBefore="1200" notAfter="1300" from="" to="" when=""/>
+                            <origPlace ref="" xml:lang=""/>
                         </origin>
                         <provenance/>
                         <acquisition/>
@@ -367,7 +368,6 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
     </revisionDesc>

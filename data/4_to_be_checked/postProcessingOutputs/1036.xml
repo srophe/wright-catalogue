@@ -79,27 +79,28 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
+            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              
-              <title xml:lang="en">A Choir-book, containing the following
+              <locus to="" from=""/>
+              <title ref="" xml:lang="en">A Choir-book, containing the following
                                 services</title>
               <msItem xml:id="b1" n="2">
-                <locus from="1b"/>
-                <title xml:lang="en">The Commemoration of any one Teacher or
+                <locus to="" from="1b"/>
+                <title ref="" xml:lang="en">The Commemoration of any one Teacher or
                                     Ascetic</title>
                 <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܚܕ ܩܢܘܢܐ ܕܡ̈ܠܦܢܐ ܘܕܥ̈ܢܘܝܐ</rubric>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus from="14a"/>
-                <title xml:lang="en">The Commemoration of any one
+                <locus to="" from="14a"/>
+                <title ref="" xml:lang="en">The Commemoration of any one
                                     Martyr</title>
                 <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܚܕ ܩܢܘܢܐ. ܐܝܢܐ ܕܐܫ̇ܬ̣ܡܠܝ
                                     ܒܣܗܕܘܬܐ</rubric>
               </msItem>
               <msItem xml:id="b3" n="4">
-                <locus from="23b"/>
-                <title xml:lang="en">The Commemoration of
+                <locus to="" from="23b"/>
+                <title ref="" xml:lang="en">The Commemoration of
                                         <persName>Macarius</persName>,
                                     <persName>Domitius</persName>, <persName>Abba Bishoi</persName>
                                         (<persName>Pisoes</persName>), and <persName>John the Less
@@ -109,31 +110,31 @@
                                     ܘܡ̇ܐܟܣܝܡܘܣ ܘܕܘܡܛܝܘܣ܀ ܘܐܒܐ ܒܝܫܘܝ. ܘܐܒܐ ܝܘܚܢܢ ܙܥܘܪܐ</rubric>
               </msItem>
               <msItem xml:id="b4" n="5" defective="true">
-                <locus from="40b"/>
-                <title xml:lang="en">Common anthems, arranged according to
+                <locus to="" from="40b"/>
+                <title ref="" xml:lang="en">Common anthems, arranged according to
                                     the eight tones</title>
                 <rubric xml:lang="syr">ܥ̈ܢܝ̣ܢܐ ܓܘ̈ܢܝܐ ܒܬܡ̈ܢܝܐ ܩܝ̈ܢܬܐ</rubric>
               </msItem>
               <msItem xml:id="b5" n="6" defective="true">
-                <locus from="54a"/>
-                <title xml:lang="en">Hymns and prayers of the holy
+                <locus to="" from="54a"/>
+                <title ref="" xml:lang="en">Hymns and prayers of the holy
                                     Cross</title>
                 <rubric xml:lang="syr">ܩ̈ܠܐ ܘܒ̈ܥܘܬܐ ܕܨܠܝ̣ܒܐ</rubric>
               </msItem>
               <msItem xml:id="b6" n="7">
-                <locus from="58a"/>
+                <locus to="" from="58a"/>
                 <rubric xml:lang="syr">ܥܛܪ̈ܐ ܐܘܟܝܬ ܫܘܚ̣̈ܠܦܐ ܕܩ̈ܠܐ ܕܡܬ݂ܐܡܪ̈ܝܢ ܒܥ̈ܐܕܐ
                                     ܡܪ̈ܢܝܐ</rubric>
               </msItem>
               <msItem xml:id="b7" n="8">
-                <locus from="70b"/>
-                <title xml:lang="en">A Calendar of Festivals and Saints'
+                <locus to="" from="70b"/>
+                <title ref="" xml:lang="en">A Calendar of Festivals and Saints'
                                     Days, from the first Teshrīn to Ilūl</title>
                 <rubric xml:lang="syr">ܩܘܕܝܟܣ ܡܚܲܘܝܢܐ ܕܥ̈ܐܕܐ ܕܟܠܗܘܢ ܩܕ̈ܝܫܐ</rubric>
               </msItem>
               <msItem xml:id="b8" n="9">
-                
-                <title xml:lang="en">Foll. 69, 70 a, and 74, contain ܡ̈ܥܢܝܬܐ
+                <locus to="" from=""/>
+                <title ref="" xml:lang="en">Foll. 69, 70 a, and 74, contain ܡ̈ܥܢܝܬܐ
                                     on <persName>George</persName>, <persName>Theodore</persName>,
                                     and <persName>Cyriacus</persName>
                 </title>
@@ -199,10 +200,10 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate>A.D.
+                            <origDate notBefore="" notAfter="" from="" to="" when="">A.D.
                                 1239</origDate>
-                            <origDate datingMethod="Seleucid">A. Gr. 1550</origDate>
-                            <origPlace ref="http://syriaca.org/place/360">Convent of S.
+                            <origDate datingMethod="Seleucid" notBefore-custom="" notAfter-custom="" from-custom="" to-custom="" when-custom="">A. Gr. 1550</origDate>
+                            <origPlace ref="http://syriaca.org/place/360" xml:lang="">Convent of S.
                                 Mary Deipara</origPlace>
                         </origin>
                         <provenance/>
@@ -392,7 +393,6 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
     </revisionDesc>

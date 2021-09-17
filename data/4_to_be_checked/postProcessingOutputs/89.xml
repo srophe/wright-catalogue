@@ -79,16 +79,23 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
+            <summary/>
             <textLang mainLang="syr-Syre"/>
             <msItem xml:id="a1" n="1">
-              <locus from="3b"/>
-              <title xml:lang="en">The book of <persName>Isaiah</persName>,
+              <locus to="" from="3b"/>
+              <title ref="" xml:lang="en">The book of <persName>Isaiah</persName>,
                                 according to the Peshitta version</title>
               <rubric xml:lang="syr">ܢܒܝܘܬܗ ܕܐܫܥܝܐ</rubric>
-              
-              
-              
-              
+              <incipit xml:lang="syr"/>
+              <quote xml:lang="syr">
+                                <locus from="" to=""/>
+                            </quote>
+              <explicit xml:lang="syr">
+                                <locus to="" from=""/>
+                            </explicit>
+              <finalRubric xml:lang="syr">
+                                <locus to="" from=""/>
+                            </finalRubric>
             </msItem>
           </msContents>
           <physDesc>
@@ -128,7 +135,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="1b"/>
+                  <locus from="1b" to=""/>
                   <p>Some lessons are indicated by rubrics in the text, and many
                                         more have been added on the margins by a later hand, which
                                         has often altered the original rubrics. An index to these
@@ -139,7 +146,7 @@
                   </p>
                 </item>
                 <item xml:id="addition2" n="2">
-                  <locus from="122a"/>
+                  <locus from="122a" to=""/>
                   <p>What originally stood after the doxology, fol. 122 a, has
                                         been erased, in order to make room for a note in a modern
                                         hand. Of this latter only a few words are now legible, owing
@@ -152,7 +159,7 @@
                                     </p>
                 </item>
                 <item xml:id="addition3" n="3">
-                  <locus from="122b"/>
+                  <locus from="122b" to=""/>
                   <p>On fol. 122 b there is a note of older date, probably of the
                                         xth cent., stating that the manuscript belonged to
                                             <persName>Leontius</persName>, abbat of the
@@ -170,8 +177,8 @@
                                     </p>
                 </item>
                 <item xml:id="addition4" n="4">
-                  <locus from="122b"/>
-                  <locus from="3a"/>
+                  <locus from="122b" to=""/>
+                  <locus from="3a" to=""/>
                   <p>The note on fol. 122 b is in the handwriting of one
                                             <persName>Simeon</persName> the son of
                                             <persName>ܪܓܝܘ</persName>, the same who drew up the
@@ -185,7 +192,7 @@
                                     </p>
                 </item>
                 <item xml:id="addition5" n="5">
-                  <locus from="1a"/>
+                  <locus from="1a" to=""/>
                   <p>The large writing that once covered fol. 1 a has been
                                         partially effaced, and over it there is now written a prayer
                                         of <persName>Jacob of Batnae</persName>, <persName>ܒܥܘܬܐ
@@ -196,7 +203,7 @@
                                     </p>
                 </item>
                 <item xml:id="addition6" n="6">
-                  <locus from="121"/>
+                  <locus from="121" to=""/>
                   <p>The leaf, or rather scrap of vellum, numbered fol. 121, does
                                         not belong to this volume, but contains
                                             <persName>Jeremiah</persName>, ch. i. 5—8, ch. ix. 23,
@@ -218,8 +225,8 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate notBefore="0500" notAfter="0600"/>
-                            <origPlace/>
+                            <origDate notBefore="0500" notAfter="0600" from="" to="" when=""/>
+                            <origPlace ref="" xml:lang=""/>
                         </origin>
                         <provenance/>
                         <acquisition/>
@@ -408,7 +415,6 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-07-15" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
       <change type="planned" subtype="greek">Add in missing Greek characters.</change>

@@ -79,24 +79,25 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
+            <summary/>
             <textLang mainLang="syr-Syre"/>
             <msItem xml:id="a1" n="1" defective="true">
-              
+              <locus to="" from=""/>
               <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
-              <title xml:lang="en">Metrical discourses of Jacob of
+              <title ref="" xml:lang="en">Metrical discourses of Jacob of
                                 Batnae</title>
               <msItem xml:id="b1" n="2">
-                <locus from="64a"/>
+                <locus to="" from="64a"/>
                 <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
-                <title xml:lang="en">1. The latter half of the discourse on
+                <title ref="" xml:lang="en">1. The latter half of the discourse on
                                         <persName>Zacchaeus</persName>
                                 </title>
                 <note>See <bibl>no. DCXLV., 9</bibl>.</note>
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
-                <locus from="69a"/>
+                <locus to="" from="69a"/>
                 <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
-                <title xml:lang="en">2. On Simeon Stylites</title>
+                <title ref="" xml:lang="en">2. On Simeon Stylites</title>
                 <rubric xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ ܕܩܕܝܫܐ ܡܪܝ ܝܥܩܘܒ ܡ̇ܠܦܢܐ. ܡܐܡܪܐ
                                     ܕܥܠ ܫܡܥܘܢ ܕܣܛܘܢܗ</rubric>
                 <note>See <bibl>Assemani, Bibl. Or., t. i., p. 329, no. 190</bibl>;
@@ -147,7 +148,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="92b"/>
+                  <locus from="92b" to=""/>
                   <p>On the margin of fol. 92 b we read the name of one
                                             <persName>John</persName>, for many years a recluse in
                                         the convent of <persName>S. Mary Deipara</persName>.</p>
@@ -167,8 +168,8 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate notBefore="0600" notAfter="0700"/>
-                            <origPlace/>
+                            <origDate notBefore="0600" notAfter="0700" from="" to="" when=""/>
+                            <origPlace ref="" xml:lang=""/>
                         </origin>
                         <provenance/>
                         <acquisition/>
@@ -357,7 +358,6 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-08-06" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
       <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document

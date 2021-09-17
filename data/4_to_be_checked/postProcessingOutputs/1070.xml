@@ -79,42 +79,43 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
+            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="1a"/>
-              <title xml:lang="en">Supplicatory hymns</title>
+              <locus to="" from="1a"/>
+              <title ref="" xml:lang="en">Supplicatory hymns</title>
               <rubric xml:lang="syr">ܬܟܫ̈ܦܬܐ</rubric>
               <note>Imperfect at the beginning.</note>
             </msItem>
             <msItem xml:id="a2" n="2" defective="true">
-              <locus from="9a"/>
-              <title xml:lang="en">Similar hymns, arranged according to the
+              <locus to="" from="9a"/>
+              <title ref="" xml:lang="en">Similar hymns, arranged according to the
                                 eight tones</title>
               <rubric xml:lang="syr">ܒܫܡ ܡܪܢ ܟܬܒܝܢܢ ܩܠܝܠ ܬܟܫ̈ܦܬܐ ܘܥܩ̈ܒܐ
                                 ܓܘ̈ܢܝܬܐ</rubric>
               <note>Imperfect at the end.</note>
             </msItem>
             <msItem xml:id="a3" n="3" defective="true">
-              <locus from="47a"/>
+              <locus to="" from="47a"/>
               <rubric xml:lang="syr">ܬܟܫ̈ܦܬܐ</rubric>
               <rubric xml:lang="syr">ܩ̈ܠܐ</rubric>
               <note>Imperfect at the beginning.</note>
             </msItem>
             <msItem xml:id="a4" n="4" defective="true">
-              <locus from="85a"/>
+              <locus to="" from="85a"/>
               <rubric xml:lang="syr">ܬܟܫ̈ܦܬܐ</rubric>
               <rubric xml:lang="syr">ܥܩ̈ܒܐ</rubric>
               <note>Imperfect at the beginning and at the end.</note>
             </msItem>
             <msItem xml:id="a5" n="5">
-              <locus from="95b"/>
-              <title xml:lang="en">From Syrian canons</title>
+              <locus to="" from="95b"/>
+              <title ref="" xml:lang="en">From Syrian canons</title>
               <rubric xml:lang="syr">ܥܩܒ̈ܐ</rubric>
             </msItem>
             <msItem xml:id="a6" n="6" defective="true">
-              <locus from="103a"/>
+              <locus to="" from="103a"/>
               <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
-              <title xml:lang="en">Prayers, of <persName>Jacob of
+              <title ref="" xml:lang="en">Prayers, of <persName>Jacob of
                                     Batnae</persName>, etc</title>
               <rubric xml:lang="syr">ܒܥ̈ܘܬܐ</rubric>
               <note>Imperfect at the end.</note>
@@ -157,7 +158,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus/>
+                  <locus from="" to=""/>
                   <p/>
                   <p>
                     <quote xml:lang="syr"/>
@@ -175,8 +176,8 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate notBefore="1200" notAfter="1400"/>
-                            <origPlace/>
+                            <origDate notBefore="1200" notAfter="1400" from="" to="" when=""/>
+                            <origPlace ref="" xml:lang=""/>
                         </origin>
                         <provenance/>
                         <acquisition/>
@@ -365,7 +366,6 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
     </revisionDesc>
