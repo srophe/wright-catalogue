@@ -261,7 +261,7 @@ declare function mss:add-msItem-id-and-enumeration-values($msItemSeq as node(), 
   
   (: iterate the numerical portion of the $id and push onto the $up-stack :)
   
-  let $id := substring($id, 1, 1)||(xs:integer(fn:substring($id, 2, 1))+1)
+  let $id := substring($id, 1, 1)||(xs:integer(fn:substring($id, 2, fn:string-length($id)))+1)
   let $up-stack := stack:push($up-stack, $id)
   
   (: process child-data recursively using the current stack states :)
