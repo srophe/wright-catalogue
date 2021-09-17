@@ -42,20 +42,9 @@ for $doc in $inputCollection
   let $updatedRecord := if ($docId != "") then try {
     mss:create-updated-document($doc)
   } catch err:XPTY0004  {
-    <error>$docId</error>
+    <error>{$docId}</error>
   }
   
   return if ($docId != "" and not($recordExists = "true")) then  fn:put($updatedRecord, $outputFileUri)
-
-(:
-part of ignored directories:
-
-    
-  let $docPath := fn:document-uri($doc)
-  let $fileName := fn:substring-after($docPath, $inputDirectory)
-  let $docId := $doc//msDesc/msIdentifier/idno[@type="URI"]/text()
-  let $docUri := if(fn:starts-with($docId, "http://syriaca.org/manuscript/")) then $docId else fn:concat("http://syriaca.org/manuscript/", $docId)
-  return if ($docId != '' and not($recordExists)) then (DO ALL THE UPDATES)
-:)
 
 
