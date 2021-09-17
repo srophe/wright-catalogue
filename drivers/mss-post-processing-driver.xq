@@ -15,6 +15,7 @@ import module namespace config="http://srophe.org/srophe/config" at "../modules/
 import module namespace mss="http://srophe.org/srophe/mss" at "../modules/mss.xqm";
 
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
+declare namespace err = "http://www.w3.org/2005/xqt-errors";
 
 
 let $inputCollectionPath := $config:path-to-repo || $config:config/config/inputDirectory/text()
@@ -37,8 +38,14 @@ for $doc in $inputCollection
   let $recordExists := for $uri in $urisToIgnore
     where $uri = $docId
     return "true"
-  (: let $updatedRecord := mss:create-updated-document($doc) :)
-  return if ($docId != "" and not($recordExists = "true")) then  fn:put(mss:create-updated-document($doc), $outputFileUri)
+    
+  let $updatedRecord := if ($docId != "") then try {
+    mss:create-updated-document($doc)
+  } catch err:XPTY0004  {
+    <error>$docId</error>
+  }
+  
+  return if ($docId != "" and not($recordExists = "true")) then  fn:put($updatedRecord, $outputFileUri)
 
 (:
 part of ignored directories:
