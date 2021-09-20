@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,90 +81,66 @@
                     <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              
               <title xml:lang="en">The Book of Women</title>
               <rubric xml:lang="syr">ܟܬܒܐ ܕܢ̈ܫܐ</rubric>
-              <note>compare <bibl>Add. 14,447, above, no. CLVI</bibl>.</note>
+              <note>Compare <bibl>Add. 14,447, above, no. CLVI</bibl>.</note>
               <msItem xml:id="b1" n="2" defective="true">
                 <locus from="1b"/>
-                <title xml:lang="en">The book of
-                                    <persName>Ruth</persName>
-                </title>
-                <explicit xml:lang="syr">the last words being ܘܐܝܟ ܠܝܐ ܗܠܝ̣ܢ in ch.
-                                    iv. 11.
-                </explicit>
+                <title xml:lang="en">The book of <persName>Ruth</persName></title>
                 <rubric xml:lang="syr">ܟܬܒܐ ܕܐܪܥܘܬ</rubric>
+                <explicit xml:lang="syr">ܘܐܝܟ ܠܝܐ ܗܠܝ̣ܢ<note>ch.
+                  iv. 11.</note></explicit>
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
                 <locus from="8a"/>
-                <title xml:lang="en">The book of
-                                    <persName>Esther</persName>
-                </title>
+                <title xml:lang="en">The book of <persName>Esther</persName></title>
                 <rubric xml:lang="syr">ܟܬܒܐ ܕܐܣܬܝܪ</rubric>
-                <incipit xml:lang="syr">commencing with the word ܠܡܥܠ in ch. i. 12. </incipit>
+                <incipit xml:lang="syr">ܠܡܥܠ<note>ch. i. 12.</note></incipit>
               </msItem>
               <msItem xml:id="b3" n="4">
                 <locus from="24b"/>
-                <title xml:lang="en">The book of
-                                    <persName>Susanna</persName>
-                </title>
+                <title xml:lang="en">The book of <persName ref="https://syriaca.org/person/2092">Susanna</persName></title>
                 <rubric xml:lang="syr">ܟܬܒܐ ܕܫܘܫܢ</rubric>
               </msItem>
               <msItem xml:id="b4" n="5" defective="true">
                 <locus from="31a"/>
-                <title xml:lang="en">The book of
-                                    <persName>Judith</persName>
-                </title>
+                <title xml:lang="en">The book of <persName>Judith</persName></title>
                 <rubric xml:lang="syr">ܟܬܒܐ ܕܝܗܘܕܝܬ</rubric>
-                <note>Imperfect, the missing portion being ch. xv. 8—ch. xvi. 2
-                                    (3).</note>
+                <note>Imperfect, the missing portion being ch. xv. 8—ch. xvi. 2 (3).</note>
               </msItem>
               <msItem xml:id="b5" n="6" defective="true">
                 <locus from="61b"/>
-                <title xml:lang="en">The history of
-                                        <persName>Thecla</persName>, the disciple of <persName>S.
-                                        Paul</persName>
-                </title>
+                <title xml:lang="en">The history of <persName ref="https://syriaca.org/person/2416">Thecla</persName>, the disciple of <persName ref="https://syriaca.org/person/1983">S. Paul</persName></title>
                 <rubric xml:lang="syr">ܬܫܥܝܬܐ ܕܬܩܠܐ ܬܠܡܝܕܬܗ ܕܦܘܠܘܣ ܫܠܝܚܐ</rubric>
                 <note>See <bibl>Add. 12,174, no. 76</bibl>.</note>
               </msItem>
             </msItem>
             <msItem xml:id="a2" n="7" defective="true">
               <locus from="83a"/>
-              <title xml:lang="en">The life of <persName>Rabūlas, bishop of
-                                    Edessa</persName>
-              </title>
-              <rubric xml:lang="syr">ܢܨܚ̈ܢܘܗܝ ܕܡܪܝ ܪܒܘܠܐ ܐܦܣܩܦܐ ܕܐܘܪܗܝ ܡܕܝܢܬܐ
-                                ܒܪܝܟܬܐ</rubric>
-              <note>See <bibl>Overbeck, S. Ephraemi Syri etc. Opera Selecta, p.
-                                    159</bibl>.</note>
+              <title xml:lang="en">The life of <persName ref="https://syriaca.org/person/26">Rabūlas, bishop of <placeName ref="https://syriaca.org/place/78">Edessa</placeName></persName></title>
+              <rubric xml:lang="syr">ܢܨܚ̈ܢܘܗܝ ܕܡܪܝ ܪܒܘܠܐ ܐܦܣܩܦܐ ܕܐܘܪܗܝ ܡܕܝܢܬܐ ܒܪܝܟܬܐ</rubric>
+              <note>See <bibl>Overbeck, S. Ephraemi Syri etc. Opera Selecta, p. 159</bibl>.</note>
               <note>To it are appended some of his writings</note>
               <msItem xml:id="b6" n="8">
                 <locus from="125a"/>
-                <author>Rabūlas, bishop of Edessa</author>
-                <title xml:lang="en">Orders to priests and monks dwelling in
-                                    the country</title>
-                <rubric xml:lang="syr">ܦܘ̈ܩܕܢܐ ܘܙܘܗܪ̈ܐ ܕܠܘܬ ܟܗ̈ܢܐ ܘܒ̈ܢܝ ܩ̇ܝܡܐ
-                                    ܕܒܩܘܪ̈ܝܐ</rubric>
-                <note>See <bibl>Overbeck, p. 215.</bibl>
-                </note>
+                <author ref="https://syriaca.org/person/26">Rabūlas, bishop of Edessa</author>
+                <title xml:lang="en">Orders to <persName>priests</persName> and <persName>monks</persName> dwelling in the country</title>
+                <rubric xml:lang="syr">ܦܘ̈ܩܕܢܐ ܘܙܘܗܪ̈ܐ ܕܠܘܬ ܟܗ̈ܢܐ ܘܒ̈ܢܝ ܩ̇ܝܡܐ ܕܒܩܘܪ̈ܝܐ</rubric>
+                <note>See <bibl>Overbeck, p. 215</bibl>.</note>
               </msItem>
               <msItem xml:id="b7" n="9">
                 <locus from="131a"/>
-                <author>Rabūlas, bishop of Edessa</author>
-                <title xml:lang="en">Orders to monks</title>
+                <author ref="https://syriaca.org/person/26">Rabūlas, bishop of Edessa</author>
+                <title xml:lang="en">Orders to <persName>monks</persName></title>
                 <rubric xml:lang="syr">ܙܘܗܪ̈ܐ ܡܛܠ ܕܝܪ̈ܝܐ</rubric>
-                <note>See <bibl>Overbeck, p. 212</bibl>
-                </note>
+                <note>See <bibl>Overbeck, p. 212</bibl>.</note>
               </msItem>
               <msItem xml:id="b8" n="10" defective="true">
                 <locus from="133b"/>
-                <author>Rabūlas, bishop of Edessa</author>
-                <title xml:lang="en">A sermon preached in the church at
-                                    Constantinople before the whole people</title>
-                <rubric xml:lang="syr">ܬܘܪܓܡܐ ܕܡܠܠ ܡܪܝ ܪܒܘܠܐ ܐܦܣܩܘܦܐ ܕܐܘܪܗܝ ܒܥܕܬܐ
-                                    ܕܩܘܣܛܢܛܝܢܦܘܠܝܣ ܩܕܡ ܥܡܐ ܟܠܗ</rubric>
-                <note>Imperfect at the end. </note>
+                <author ref="https://syriaca.org/person/26">Rabūlas, bishop of Edessa</author>
+                <title xml:lang="en">A sermon preached in <placeName>the church at <placeName ref='https://syriaca.org/place/586'>Constantinople</placeName></placeName> before <persName>the whole people</persName></title>
+                <rubric xml:lang="syr">ܬܘܪܓܡܐ ܕܡܠܠ ܡܪܝ ܪܒܘܠܐ ܐܦܣܩܘܦܐ ܕܐܘܪܗܝ ܒܥܕܬܐ ܕܩܘܣܛܢܛܝܢܦܘܠܝܣ ܩܕܡ ܥܡܐ ܟܠܗ</rubric>
+                <note>Imperfect at the end.</note>
                 <note>See <bibl>Overbeck, p. 239</bibl>.</note>
               </msItem>
             </msItem>
@@ -182,17 +158,14 @@
                                         <item>
                                             <p>Vellum, about 8 1/2 in. by 5 1/4, consisting of 138
                                                 leaves, some of which are much stained and torn,
-                                                especially foll. 22, 50—52, 67, 107, 118—125, 128,
-                                                130, 135, 137, and 138. The quires, now 15 in
+                                                especially <locus>foll. 22</locus>, <locus>50—52</locus>, <locus>67</locus>, <locus>107</locus>, <locus>118—125</locus>, <locus>128</locus>,
+                                                <locus>130</locus>, <locus>135</locus>, <locus>137</locus>, and <locus>138</locus>. The quires, now 15 in
                                                 number, are signed with both letters and
                                                 arithmetical figures. They are also numbered with
                                                 Arabic words, and the pages are marked with Coptic
                                                 numerals. Leaves are wanting at the end, and after
                                                 foll. 7, 59, and 65. Each page has from 19 to 28
-                                                lines. The writing is a fine, regular Estrangělā of
-                                                the vith cent. Greek vowels have been occasionally
-                                                added by a later hand (%ܰ, ܶ, ܺ, , or % , , and %;
-                                                e.g. $ܠܩܛܐ, ܫܰܚܬܻܝܬܐ , ܐܪܥܘܬ , ܨܗܰܝ̇ܬܝ, ܢ̣ܕ , ).</p>
+                                                lines.</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -201,10 +174,13 @@
                                 <p>Content pending</p>
                             </layoutDesc>
                         </objectDesc>
-                        <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr-Syre">
-                                <desc/>
+                        <handDesc hands="2">
+                            <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr-Syre">
+                                <desc>The writing is a fine, regular Esṭrangělā of the <date>vith cent.</date></desc>
                             </handNote>
+                          <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
+                            <desc>Greek vowels have been occasionally added by a later hand <!-- missing characters here, marked by % -->(%ܰ, ܶ, ܺ, , or % , , and %; e.g. <!-- many of the markings are missing in this list of examples --><foreign xml:lang="syr">ܠܩܛܐ</foreign>, <foreign xml:lang="syr">ܫܰܚܬܻܝܬܐ</foreign>, <foreign xml:lang="syr">ܐܪܥܘܬ</foreign>, <foreign xml:lang="syr">ܨܗܰܝ̇ܬܝ</foreign>, <foreign>ܢ̣ܕ</foreign>).</desc>
+                          </handNote>
             </handDesc>
                         <additions>
               <p/>
@@ -213,12 +189,12 @@
                                     <locus from="1a"/>
                                     <p>On fol. 1 a there is a note, the first two lines of which
                                         have been almost completely effaced. The third line contains
-                                        the name of an <persName>abbess Maryam</persName>, or Mary,
+                                        the name of an <persName>abbess Maryam, or Mary</persName>,
                                         who may have been the owner of the book.</p>
                                     <p>
                     <quote xml:lang="syr">ܐܬܬܣܝܡܬ . . . ܩܫܝܫܐ . . . ܐ ܩܫܝܫܬܐ ܡܪܝܡ ܪܝܫܬ ܕܝܪܐ ܡܢ ܙܝܢܬܐ ܕܐܠܗܐ ܘܕܕܝܠܗ̣ ܟܠ
-                                            ܕܫܩܠ ܠܗ ܐܝܟ ܕܢܩܪܐ ܒܗ ܐܘ ܕܢܟܬܘܒ ܡܢܗ ܘܟܝܑܡ ܥܠܗ (sic)  ܬܚܝܬ
-                                            ܚܪܡܐ ܕܟܗܢܐ ܐܝܬܘܗܝ ܟܠ ܕܩܪܐ ܢܨܠ[ـܐ] ܥܠܗܝ (sic) ܡܛܠ ܡܪܢ
+                                            ܕܫܩܠ ܠܗ ܐܝܟ ܕܢܩܪܐ ܒܗ ܐܘ ܕܢܟܬܘܒ ܡܢܗ ܘܟܝܑܡ ܥܠܗ <foreign xml:lang="syr">(sic)</foreign>  ܬܚܝܬ
+                      ܚܪܡܐ ܕܟܗܢܐ ܐܝܬܘܗܝ ܟܠ ܕܩܪܐ ܢܨܠ[ـܐ] ܥܠܗܝ <foreign xml:lang="syr">(sic)</foreign> ܡܛܠ ܡܪܢ
                                             ܒܗܝܡܢ ܘܫܠܡ.</quote>
                   </p>
                                 </item>
@@ -234,8 +210,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate notBefore="0500" notAfter="0600">vith
-                                cent.</origDate>
+                          <origDate notBefore="0500" notAfter="0600">vith cent.</origDate>
                             <origPlace/>
                         </origin>
                         <provenance/>
