@@ -27,8 +27,22 @@ declare variable $msParts:config-msParts :=
   let $pathToConfig := $config:path-to-repo || "/parameters/config-msParts.xml"
   return fn:doc($pathToConfig);
 
-
-
+declare variable $msParts:path-to-msParts-folder :=
+  $config:path-to-repo || $msParts:config-msParts/config/manuscriptLevelMetadata/pathToMsPartsFolder/text();
+  
+declare variable $msParts:manuscript-part-source-document-sequence :=
+  for $file in $msParts:config-msParts/config/msPartFiles/fileName
+    let $fullFilePath := $msParts:path-to-msParts-folder || $file/text()
+    return fn:doc($fullFilePath);
+    
+    
+    
+declare function msParts:merge-editor-list($documentSequence as node()+) as node()+ {
+  let $allCreatorEditors := for $doc in $documentSequence
+    return $doc//tei:titleStmt/tei:editor
+  return functx:distinct-deep($allCreatorEditors)
+};
+(: function make a list of editors :)
 (:
 To-do
 - functions needed
