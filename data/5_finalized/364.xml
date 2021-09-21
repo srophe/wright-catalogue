@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -82,90 +82,88 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
               <locus to="10a" from="1a"/>
-              <title xml:lang="en">The Testament of <persName>Ephraim</persName>
+              <author ref="https://syriaca.org/person/13">Ephraim</author>
+              <title xml:lang="en">The Testament of <persName ref="https://syriaca.org/person/13">Ephraim</persName>
               </title>
-              <rubric xml:lang="syr">$ܕܝܬܝܩܐ ܕܩܕܝܫܐ ܘܠܒܝ̣ܫ ܠܐܠܗܐ ܡܪܝ ܐܦܪܝܡ ܡܠܦܢܐ</rubric>
-              <note>Imperfect at the beginning and in the middle </note>
-              <note>See <bibl>S. Ephrsemi Opera, Gr. Lat., t. ii., p. 395</bibl>, and
-                  <bibl>Overbeck, S. Ephraemi Syri etc. Opera Selecta, p. 137</bibl>.</note>
+              <rubric xml:lang="syr">ܕܝܬܝܩܐ ܕܩܕܝܫܐ ܘܠܒܝ̣ܫ ܠܐܠܗܐ ܡܪܝ ܐܦܪܝܡ ܡܠܦܢܐ</rubric>
+              <note>Imperfect at the beginning and in the middle.</note>
+              <note>See <bibl>S. Ephrsemi Opera, Gr. Lat., t. ii., p. 395</bibl>, and <bibl>Overbeck, S. Ephraemi Syri etc. Opera Selecta, p. 137</bibl>.</note>
             </msItem>
             <msItem xml:id="a2" n="2">
               <locus to="10a" from="8b"/>
-              <title xml:lang="en">The Testament of our father <persName>Adam</persName>
-              </title>
-              <rubric xml:lang="syr">
-                <locus from="8b"/> ܕܝܬܝܩܐ ܕܐܒܘܢ ܐܕܡ</rubric>
-              <incipit xml:lang="syr">
-                <locus from="8b"/> ܫܥܬܐ ܩܕܡܝܬܐ ܕܠܠܝܐ: ܬܘܕܝܬܐ ܕܫܐܕܐ̇.
-                ܘܒܗ̇ܝ ܫܥܬܐ ܠܐ ܣܪ̈ܚܝܢ ܘܠܐ ܡ̇ܟܝܢ ܡܕܡ ܠܐܢܫܐ</incipit>
-              <note>The account of the twelve hours of the night and of the day is followed, fol. 9
-                b, by the passage relating to the coming of the Messiah: ܐܡ̣ܪ ܐܕܡ ܠܫܝܬ ܒܪܗ. ܫܡܥ̣ܬ
-                ܒܪܝ ܕܐ̇ܬܐ ܐܠܗܐ ܠܥܠܡܐ ܡܢ ܒܬܪ ܙܒ̈ܢܐ܀ ܘܡܢ ܒܬܘܠܬܐ ܡܬܒܛܢ. ܏ܘܫ. It concludes with the
-                burial of Adam by Seth, fol. 10 a: ܘܐܢܐ ܫܝܬ ܟ̇ܬܒܬ ܕܝܬܝܩܐ ܗܕܐ. ܘܡܝ̣ܬ ܐܒܝ ܘܩܒܪܘܗܝ ܡܢ
-                ܡ̈ܕܢܚܝ ܦܪܕܝܣܐ ܏ܘܫ. See <bibl>Wright's Contributions to the Apocryph. Lit. of the
-                  N.Test., p.61</bibl>, and <bibl>Renan, "Fragments du Livre Gnostique intitule
-                  Apocalypse d'Adam" etc., in the Journal Asiatique for Nov.-Dec. 1853, p.
-                  427.</bibl>
-              </note>
+              <author>Adam</author>
+              <title xml:lang="en">The Testament of our father <persName>Adam</persName></title>
+              <rubric xml:lang="syr">ܕܝܬܝܩܐ ܕܐܒܘܢ ܐܕܡ</rubric>
+              <incipit xml:lang="syr">ܫܥܬܐ ܩܕܡܝܬܐ ܕܠܠܝܐ: ܬܘܕܝܬܐ ܕܫܐܕܐ̇. ܘܒܗ̇ܝ ܫܥܬܐ ܠܐ ܣܪ̈ܚܝܢ ܘܠܐ ܡ̇ܟܝܢ ܡܕܡ ܠܐܢܫܐ</incipit>
+              <note>See <bibl>Wright's Contributions to the Apocryph. Lit. of the
+                N.Test., p. 61</bibl>, and <bibl>Renan, "Fragments du Livre Gnostique intitule
+                  Apocalypse d'Adam" etc., in the Journal Asiatique for Nov.-Dec. 1853, p. 427</bibl>.</note>
+              <msItem>
+                <locus to="9"/>
+                <title xml:lang="en">The account of the twelve hours of the night and of the day</title>
+              </msItem>
+              <msItem>
+                <locus from="9b"/>
+                <title xml:lang="en">The passage relating to the coming of <persName>the Messiah</persName></title>
+                <quote xml:lang="syr"><locus from="9b"/>ܐܡ̣ܪ ܐܕܡ ܠܫܝܬ ܒܪܗ. ܫܡܥ̣ܬ
+                  ܒܪܝ ܕܐ̇ܬܐ ܐܠܗܐ ܠܥܠܡܐ ܡܢ ܒܬܪ ܙܒ̈ܢܐ܀ ܘܡܢ ܒܬܘܠܬܐ ܡܬܒܛܢ. ܏ܘܫ</quote>
+              </msItem>
+              <msItem>
+                <locus from="10a"/>
+                <title xml:lang="en">The burial of <persName>Adam</persName> by <persName>Seth</persName></title>
+                <incipit>ܘܐܢܐ ܫܝܬ ܟ̇ܬܒܬ ܕܝܬܝܩܐ ܗܕܐ. ܘܡܝ̣ܬ ܐܒܝ ܘܩܒܪܘܗܝ ܡܢ ܡ̈ܕܢܚܝ ܦܪܕܝܣܐ ܏ܘܫ</incipit>
+              </msItem>
             </msItem>
             <msItem xml:id="a3" n="3">
-              
-              <title xml:lang="en">Three metrical discourses of<persName> Jacob of
-                  Batnae</persName>
-              </title>
+              <locus from="10"/>
+              <author>Jacob of Batnae</author>
+              <title xml:lang="en">Three metrical discourses of <persName>Jacob of <placeName>Batnae</placeName></persName></title>
               <msItem xml:id="b1" n="4">
                 <locus from="10a"/>
+                <author>Jacob of Batnae</author>
                 <title xml:lang="en">On the fall of the idols</title>
                 <rubric xml:lang="syr">
                   <locus from="10a"/>ܕܥܠ ܡܦܘܠܬܐ ܕܦܬܟܪ̈ܐ</rubric>
-                <note>See <bibl>Assemani, Bibl. Or., t. i., p. 327, no. 181.</bibl>
-                </note>
+                <note>See <bibl>Assemani, Bibl. Or., t. i., p. 327, no. 181</bibl>.</note>
               </msItem>
               <msItem xml:id="b2" n="5">
-                
-                <title xml:lang="en">On Alexander the son of Philip, the Macedonian, and on
+                <locus from="20b"/>
+                <author>Jacob of Batnae</author>
+                <title xml:lang="en">On <persName>Alexander the son of <persName>Philip, the Macedonian</persName></persName>, and on
                   the gate in the north, which faces towards Gog and Magog</title>
-                <rubric xml:lang="syr"> ܕܝܠܗ ܟܕ ܕܝܠܗ ܕܩܕܝܫܐ ܡܪܝܥܩܘܒ ܡܐܡܪܐ ܕܥܠ ܐܠܟܣܢܕܪܘܣ ܒܪ ܦܝܠܦܘܣ
+                <rubric xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ ܕܩܕܝܫܐ ܡܪܝܥܩܘܒ ܡܐܡܪܐ ܕܥܠ ܐܠܟܣܢܕܪܘܣ ܒܪ ܦܝܠܦܘܣ
                   ܡܩܕܘܢܝܐ ܘܥܠ ܗ̇ܘ ܬܪܥܐ ܕܓܪܒܝܐ ܕܒܐ̈ܦܝ ܓܘܓ ܘܡܓܘܓ</rubric>
-                <incipit xml:lang="syr">
-                  <locus from="20b"/>ܒܚܘܒܐ ܡܪܢ ܗܒ ܠܝ ܡܠܬܐ ܡܢ ܝܘܠܦܢܟ.
+                <incipit xml:lang="syr">ܒܚܘܒܐ ܡܪܢ ܗܒ ܠܝ ܡܠܬܐ ܡܢ ܝܘܠܦܢܟ.
                   ܒܗ̈ܘܢܐ ܕܪܘܚܐ ܡ̈ܠܝܝ ܬܗܪܐ ܒܝܬ ܫ̈ܡܘܥܐ. ܒܡܕܥܐ ܕܡ̇ܒܥܕ ܡܢ ܚ̈ܘܫܒܐ ܦܓܪ̈ܢܝܐ. ܐܡ̣ܪ ܠܟ ܡܪܝ
-                  ܩ̈ܠܝ ܫܘܒܚܐ ܒܟܢ̈ܘܫܬܐ. ܡܢܟ ܢܠܒ̇ܫ ܪܥܝܢܝ ܚܝܠܐ ܕܛܥܝܢ ܚ̈ܫܐ܀. </incipit>
+                  ܩ̈ܠܝ ܫܘܒܚܐ ܒܟܢ̈ܘܫܬܐ. ܡܢܟ ܢܠܒ̇ܫ ܪܥܝܢܝ ܚܝܠܐ ܕܛܥܝܢ ܚ̈ܫܐ܀</incipit>
                 <note>See <bibl>Knos, Chrestom. Syr., Gottingen, 1807, p. 66</bibl>; and
                     <bibl>Weber, "Des Mor Yaqub Gedicht uber den glaubigen Konig Aleksandrus u. s.
-                    w.," Berlin, 1851</bibl>
-                </note>
+                    w.," Berlin, 1851</bibl>.</note>
                 <msItem xml:id="c1" n="6">
-                  
-                  <title xml:lang="en">On the parable of the Vineyard, <persName>S.
-                      Matthew</persName>, ch. xxi. 23—41</title>
-                  <rubric xml:lang="syr">$ ܡܐܡܪܐ ܕܥܠ ܡܬܠܐ ܕܟܪܡܗ ܕܚܒܝܒ</rubric>
-                  <incipit xml:lang="syr">
-                    <locus from="34a"/> ܒܢܘܗܪܐ ܕܡܠܬܟ ܐ̇ܬܐ ܠܘܬܟ ܒܪ ܐܠܗܐ:
-                    ܘܐ̇ܬܢܐ ܫܪܒܟ ܟܕ ܬܗ̇ܪ ܐܢܐ ܟܡܐ ܢܗܝܪ ܐܢܬ..</incipit>
+                  <locus from="34a"/>
+                  <author>Jacob of Batnae</author>
+                  <title xml:lang="en">On the parable of the Vineyard, <ref>S.
+                      Matthew, ch. xxi. 23—41</ref></title>
+                  <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܡܬܠܐ ܕܟܪܡܗ ܕܚܒܝܒ</rubric>
+                  <incipit xml:lang="syr">ܒܢܘܗܪܐ ܕܡܠܬܟ ܐ̇ܬܐ ܠܘܬܟ ܒܪ ܐܠܗܐ: ܘܐ̇ܬܢܐ ܫܪܒܟ ܟܕ ܬܗ̇ܪ ܐܢܐ ܟܡܐ ܢܗܝܪ ܐܢܬ</incipit>
                 </msItem>
               </msItem>
             </msItem>
             <msItem xml:id="a4" n="7">
-              <locus to="46a"/>
+              <locus from="45b"/>
               <title xml:lang="en">Story of <persName>Abbā Marcus</persName>, who dwelt on
-                the hill of <placeName>Tharmaka</placeName>
-              </title>
-              <rubric xml:lang="syr">$ ܬܫܥܝܬܐ ܕܐܒܐ ܡܪܩܘܣ ܕܒܛܘܪܐ ܕܬܪܡܩܐ ܥ̣ܡܪ ܒܩܕܝܫܘܬܐ</rubric>
-              <note>See Add. 14,732, fol. 154 a, where the name of the hill is written  ܬܰܪܡܩܳܐ. The
-                situa¬tion of it is thus described, fol 46 a: ܛܘܪܐ (i. e. Alexandria)  ܕܬܪܡܩܐ ܡܒܥܕ
-                ܡܟܐ ܐܪ̈ܒܥܝܢ ܝܘ̈ܡܝܢ. ܘܐܝܬܘܗܝ ܒܡܥܠܢܐ ܕܟܘܫ. ܠܥܠ ܡܢ ܝܡܐ ܗ̇ܘ ܕܟܝ̈ܬܝܐ.. </note>
-              <incipit xml:lang="syr">
-                <locus from="45b"/> ܡܫܬܥ̇ܐ ܗܘ̣ܐ ܠܢ ܛܘܒܢܐ ܣܪܦܝܘܢ ܟܕ
+                the hill of <placeName>Tharmaka</placeName></title>
+              <rubric xml:lang="syr">ܬܫܥܝܬܐ ܕܐܒܐ ܡܪܩܘܣ ܕܒܛܘܪܐ ܕܬܪܡܩܐ ܥ̣ܡܪ ܒܩܕܝܫܘܬܐ</rubric>
+              <incipit xml:lang="syr">ܡܫܬܥ̇ܐ ܗܘ̣ܐ ܠܢ ܛܘܒܢܐ ܣܪܦܝܘܢ ܟܕ
                 ܐܝܬܘܗܝ ܗܘ̣ܐ ܒܐܪܥܐ ܓܘܝܬܐ. ܕܐܝܬܝܗ̇ ܒܡܕܒܪܐ ܓܘܝܐ ܕܡܨܪܝܢ. ܕܚ̇ܙܝܬ ܒܚܠܡܝ ܟܕ ܕܡܝܟ ܐܢܐ ܨܝܕ
-                ܐܒܐ ܝܘܚܢܢ ܣܒܐ ܪܒܐ. ܏ܘܫ.. </incipit>
-            </msItem>
+                ܐܒܐ ܝܘܚܢܢ ܣܒܐ ܪܒܐ. ܏ܘܫ</incipit>
+              <quote xml:lang="syr"><locus from="46a"/>ܛܘܪܐ <foreign xml:lang="en">(i. e. Alexandria)</foreign> ܕܬܪܡܩܐ ܡܒܥܕ ܡܟܐ ܐܪ̈ܒܥܝܢ ܝܘ̈ܡܝܢ. ܘܐܝܬܘܗܝ ܒܡܥܠܢܐ ܕܟܘܫ. ܠܥܠ ܡܢ ܝܡܐ ܗ̇ܘ ܕܟܝ̈ܬܝܐ<note xml:lang="en">The situation of the hill is here described.</note></quote>
+              <note>See <bibl>Add. 14,732, fol. 154 a</bibl>, where the name of the hill is written  <foreign xml:lang="syr">ܬܰܪܡܩܳܐ</foreign>.</note>
+           </msItem>
             <msItem xml:id="a5" n="8">
               <locus from="52b"/>
-              <title xml:lang="en">The Song of Songs, according to the Pěshīttā
-                version</title>
+              <title xml:lang="en">The Song of Songs, according to the Pěshīttā version</title>
               <rubric xml:lang="syr">ܫܐܪܬ ܫܝܪ̈ܝܢ ܕܐܝܬܝܗ̇ ܬܫܒܚܬ ܬܫ̈ܒܚܬܐ</rubric>
-              
             </msItem>
           </msContents>
           <physDesc>
@@ -180,11 +178,10 @@
                   <list>
                     <item>
                       <p>Vellum, about 9 1/2 in. by 6 5/8, consisting of 56 leaves, some of which
-                        are much stained and torn, especially foll. 1, 2, 8, and 56. The quires,
+                        are much stained and torn, especially <locus>foll. 1</locus>, <locus>2</locus>, <locus>8</locus>, and <locus>56</locus>. The quires,
                         signed with letters, are 7 in number, but the first is imperfect, a leaf
-                        being lost at the beginning and another after fol. 6. Each page is divided
-                        into two columns, of from 25 to 31 lines. This volume is written in a good,
-                        regular hand of the ixth cent.</p>
+                        being lost at the beginning and another after <locus>fol. 6</locus>. Each page is divided
+                        into two columns, of from 25 to 31 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -194,22 +191,11 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
-                <desc/>
+              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
+                <desc>This volume is written in a good, regular hand of the <date>ixth cent.</date></desc>
               </handNote>
             </handDesc>
-            <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                  <locus/>
-                  <p/>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                </item>
-              </list>
-            </additions>
+            <additions/>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -220,7 +206,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0800" notAfter="0900">ixth century </origDate>
+              <origDate notBefore="0800" notAfter="0900">ixth cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>

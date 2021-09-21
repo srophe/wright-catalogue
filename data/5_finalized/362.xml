@@ -1,4 +1,4 @@
-<?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
+<?oxygen RNGSchema="../../Documents/github/srophe/srophe-exist-app/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">Willaim L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,13 +81,11 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <title xml:lang="en">The life of <persName>John, bishop of <placeName ref="http://syriaca.org/place/200">Tellā or
-                           Constantina</placeName>
-                </persName>, written by his friend
-                           <persName>Elias</persName>
-              </title>
-              <rubric xml:lang="syr">ܕܡܪܝ ܝܘܚܢܢ ܐܦܝܣܩܘܦܐ</rubric>
-              <note>It has a running title on <locus from="10b">fol. 10b</locus>.</note>
+              <author>Elias</author>
+              <title xml:lang="en">The life of <persName>John, bishop of <placeName ref="http://syriaca.org/place/200">Tellā or Constantina</placeName> </persName>, written by his friend <persName>Elias</persName></title>
+              <rubric xml:lang="syr"><locus from="10b"/>
+                <fw type="header">ܕܡܪܝ ܝܘܚܢܢ ܐܦܝܣܩܘܦܐ</fw></rubric>
+              <note>See <bibl>Add. 12,174, no. 17</bibl>.</note>
             </msItem>
           </msContents>
                <physDesc>
@@ -103,8 +101,8 @@
                               <item>
                                  <p>Vellum, about 9 7/8 in. by 6 3/8, consisting of 27 leaves, the
                                     last of which is much stained and torn. The quires are now
-                                    numbered with letters from <quote xml:lang="syr">ܝܛ</quote>to
-                                       <quote xml:lang="syr">ܟܒ</quote>; but what the original
+                                    numbered with letters from <foreign xml:lang="syr">ܝܛ</foreign> to
+                                       <foreign xml:lang="syr">ܟܒ</foreign>; but what the original
                                     signatures were, does not appear. The volume is imperfect both
                                     at the beginning and end, and leaves are also wanting after
                                        <locus from="21">foll. 21</locus> and <locus from="25">25</locus>. Each page is divided into two columns, of from
@@ -119,21 +117,10 @@
                   </objectDesc>
                   <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                        <desc>It is written in a good, regular hand of about the <origDate notBefore="0800" notAfter="0900">ixth cent</origDate>.</desc>
+                        <desc>It is written in a good, regular hand of about the <origDate notBefore="0800" notAfter="0900">ixth cent.</origDate></desc>
                      </handNote>
             </handDesc>
-                  <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p/>
-                           <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                        </item>
-              </list>
-            </additions>
+                  <additions/>
                   <bindingDesc>
                      <p>Content pending</p>
                   </bindingDesc>
@@ -144,7 +131,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="0800" notAfter="0900"/>
+                    <origDate notBefore="0800" notAfter="0900">ixth cent.</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
