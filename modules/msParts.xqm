@@ -23,13 +23,14 @@ import module namespace mss="http://srophe.org/srophe/mss" at "mss.xqm";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 
+declare variable $msParts:config-msParts :=
+  let $pathToConfig := $config:path-to-repo || "/parameters/config-msParts.xml"
+  return fn:doc($pathToConfig);
+
+
+
 (:
 To-do
-
-- create msParts config file and point to it with config.xqm. it contains
-  - the path to the input directory
-  - the uri and shelfmark for the main record
-  - the order of msParts ?
 - functions needed
   - combine editor[@role="creator"] element list (distinct-nodes)
   - combine respStmt elements whose resp/text() is either "Created by" or "Edited by" (distinct-nodes) or "Project management by"

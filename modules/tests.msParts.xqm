@@ -17,3 +17,7 @@ import module namespace mss="http://srophe.org/srophe/mss" at "mss.xqm";
 import module namespace config="http://srophe.org/srophe/config" at "config.xqm";
 
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
+
+declare %unit:test function msParts-test:config-file-created-successfully() {
+  unit:assert-equals(xs:string($msParts:config-msParts/config/testValue/text()), "ܫܠܡܐ ܥܠܡܐ")
+};
