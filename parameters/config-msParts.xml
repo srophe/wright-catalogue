@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <testValue>ܫܠܡܐ ܥܠܡܐ</testValue><!-- do not delete; required for unit testing -->
+    <manuscriptLevelMetadata>
+        <pathToMsPartsFolder>/resources/testing/540-msParts/</pathToMsPartsFolder><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
+        <uriValue>540</uriValue>
+        <shelfMark>BL Add MS</shelfMark>
+        <revisionDesc>
+            <scriptEditor>
+                <editorId>srophe-util</editorId>
+                <changeLogMessage>Merged the following URIs as msPart elements:</changeLogMessage><!-- script will append a comma-separated list of the manuscript URI numerical values to this text string and place in a //revisionDesc/change element -->
+            </scriptEditor>
+        </revisionDesc>
+    </manuscriptLevelMetadata>
+    <msPartFiles><!-- these should be xml file names containing the data to be converted to msParts. These files should be stored in the folder declared above in the pathToMsPartsFolder text node. They should be ordered according to the sequence they should appear in the msParts sequence (i.e., the first ms part should be the first fileName element in the below sequence, even if it is not the numerically smallest URI value.-->
+        <fileName>541_TEST.xml</fileName>
+        <fileName>542_TEST.xml</fileName>
+    </msPartFiles>
+</config>
