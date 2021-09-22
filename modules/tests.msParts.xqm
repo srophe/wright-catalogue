@@ -27,6 +27,45 @@ declare variable $msParts-test:merged-editor-node-sequence :=
     <editor xmlns="http://www.tei-c.org/ns/1.0" role="creator" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</editor>,
     <editor xmlns="http://www.tei-c.org/ns/1.0" role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>);
 
+declare variable $msParts-test:merged-respStmt-node-sequence :=
+    (
+        <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+          <resp>Created by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
+        </respStmt>,
+        <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+          <resp>Created by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
+        </respStmt>,
+        <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+          <resp>Based on the work of</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
+        </respStmt>,
+        <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+          <resp>Edited by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+        </respStmt>,
+        <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+          <resp>Syriac text entered by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
+        </respStmt>,
+        <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+          <resp>Greek and coptic text entry and proofreading by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
+        </respStmt>,
+        <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+          <resp>Project management by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
+        </respStmt>,
+        <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+          <resp>Project management by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
+        </respStmt>,
+        <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+          <resp>English text entry and proofreading by</resp>
+          <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+        </respStmt>);
+
 declare %unit:test function msParts-test:variable-config-msParts-created-successfully() {
   unit:assert-equals(xs:string($msParts:config-msParts/config/testValue/text()), "ܫܠܡܐ ܥܠܡܐ")
 };
@@ -35,6 +74,10 @@ declare %unit:test function msParts-test:variable-manuscript-part-source-documen
   unit:assert-equals(xs:string($msParts:manuscript-part-source-document-sequence[1]//tei:titleStmt/tei:title[@level="a"]/text()), "BL Add MS 14684 fol. 1-36")
 }; (: not sure this is independent of changing the data input directory :)
 
-declare %unit:test function msParts-test:merge-editor-creator-list() {
+declare %unit:test function msParts-test:merge-editor-list-from-test-records() {
   unit:assert-equals(<el>{msParts:merge-editor-list($msParts:manuscript-part-source-document-sequence)}</el>, <el>{$msParts-test:merged-editor-node-sequence}</el>)
+};
+
+declare %unit:test function msParts-test:merge-respStmt-list-list-from-test-records() {
+  unit:assert-equals(<el>{msParts:merge-respStmt-list($msParts:manuscript-part-source-document-sequence)}</el>, <el>{$msParts-test:merged-respStmt-node-sequence}</el>)
 };

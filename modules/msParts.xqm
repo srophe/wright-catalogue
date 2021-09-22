@@ -42,11 +42,31 @@ declare function msParts:merge-editor-list($documentSequence as node()+) as node
     return $doc//tei:titleStmt/tei:editor
   return functx:distinct-deep($allCreatorEditors)
 };
+  
+declare function msParts:merge-respStmt-list($documentSequence as node()+) as node()+ {
+  let $fullRespStmtList := $documentSequence//tei:respStmt
+  let $creatorRespStmts := for $respStmt in $fullRespStmtList
+    return if($respStmt/tei:resp/text() = "Created by") then $respStmt
+  let $editorRespStmts := for $respStmt in $fullRespStmtList
+    return if($respStmt/tei:resp/text() = "Edited by") then $respStmt
+  let $projectManagerRespStmts := for $respStmt in $fullRespStmtList
+    return if($respStmt/tei:resp/text() = "Project management by") then $respStmt
+  
+  let $updatedRespList := for $respStmt in $documentSequence[1]//tei:titleStmt/tei:respStmt
+    let $respDesc := $respStmt/tei:resp/text()
+    return switch ($respDesc)
+      case "Created by" return $creatorRespStmts
+      case "Edited by" return $editorRespStmts
+      case "Project management by" return $projectManagerRespStmts
+      default return $respStmt
+
+  return functx:distinct-deep($updatedRespList)
+};
+
 (: function make a list of editors :)
 (:
 To-do
-- functions needed
-  - combine editor[@role="creator"] element list (distinct-nodes)
+- functions needed)
   - combine respStmt elements whose resp/text() is either "Created by" or "Edited by" (distinct-nodes) or "Project management by"
   - merge these into an updated titleStmt
     - a-level title is gotten from the shel-mark in the msParts-config
