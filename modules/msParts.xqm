@@ -35,7 +35,12 @@ declare variable $msParts:manuscript-part-source-document-sequence :=
     let $fullFilePath := $msParts:path-to-msParts-folder || $file/text()
     return fn:doc($fullFilePath);
     
-    
+declare variable $msParts:ms-level-shelfmark :=
+  $msParts:config-msParts/config/manuscriptLevelMetadata/shelfMark/text();
+  
+declare variable $msParts:ms-level-uri :=
+  let $msLevelId := $msParts:config-msParts/config/manuscriptLevelMetadata/uriValue/text()
+  return $config:uri-base || $msLevelId;
     
 declare function msParts:merge-editor-list($documentSequence as node()+) as node()+ {
   let $allCreatorEditors := for $doc in $documentSequence
@@ -63,15 +68,22 @@ declare function msParts:merge-respStmt-list($documentSequence as node()+) as no
   return functx:distinct-deep($updatedRespList)
 };
 
+declare function msParts:create-merged-titleStmt($documentSequence as node()+) as node() {
+  let $titleStmtTemplate := $documentSequence[1]//tei:titleStmt
+  let $recordTitle := $titleStmtTemplate/tei:title[@level="a"]
+  let $recordTitle := element {node-name($recordTitle)} {$recordTitle/@*, $msParts:ms-level-shelfmark}
+  let $moduleTitle := $titleStmtTemplate/tei:title[@level="m"]
+  let $mergedEditorList := msParts:merge-editor-list($documentSequence)
+  let $mergedRespStmtList := msParts:merge-respStmt-list($documentSequence)
+  
+  (: Create the updated titleStmt element from the new record title, all the elements shared between the records, and the element and respStmt lists :)
+  return element {node-name($titleStmtTemplate)} {$recordTitle, $moduleTitle, $titleStmtTemplate/*[not(name() = "title") and not(name() = "editor") and not(name() = "respStmt")], $mergedEditorList, $mergedRespStmtList}
+};
+
 (: function make a list of editors :)
 (:
 To-do
 - functions needed)
-  - combine respStmt elements whose resp/text() is either "Created by" or "Edited by" (distinct-nodes) or "Project management by"
-  - merge these into an updated titleStmt
-    - a-level title is gotten from the shel-mark in the msParts-config
-    - everything is static but the creator editors (dmichelson and raydin should be 1 and 2, then the unique list)
-    - respStmts should go Created by; Wright; Edited by; Syriac; Greek and coptic; Proj mgmt; English
   - new pubStmt using overall URI (and update pub date)
 - msDesc is combined as follows
   - xml:id based on overall id

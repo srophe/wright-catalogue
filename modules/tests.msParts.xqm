@@ -66,6 +66,10 @@ declare variable $msParts-test:merged-respStmt-node-sequence :=
           <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
         </respStmt>);
 
+
+declare variable $msParts-test:file-to-compare :=
+  fn:doc($config:path-to-repo || "/resources/testing/540_with_msParts_TEST.xml");
+
 declare %unit:test function msParts-test:variable-config-msParts-created-successfully() {
   unit:assert-equals(xs:string($msParts:config-msParts/config/testValue/text()), "ܫܠܡܐ ܥܠܡܐ")
 };
@@ -80,4 +84,8 @@ declare %unit:test function msParts-test:merge-editor-list-from-test-records() {
 
 declare %unit:test function msParts-test:merge-respStmt-list-list-from-test-records() {
   unit:assert-equals(<el>{msParts:merge-respStmt-list($msParts:manuscript-part-source-document-sequence)}</el>, <el>{$msParts-test:merged-respStmt-node-sequence}</el>)
+};
+
+declare %unit:test function msParts-test:create-merged-titleSmt-from-test-records() {
+  unit:assert-equals(msParts:create-merged-titleStmt($msParts:manuscript-part-source-document-sequence), $msParts-test:file-to-compare//tei:titleStmt)
 };
