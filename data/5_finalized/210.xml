@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -81,78 +81,68 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              
+              <locus from="1"/>
               <title xml:lang="en">A collection of Choral Services and Homilies
                                 for the principal festivals of the whole year</title>
               <rubric xml:lang="syr">ܦܢܩܝܬܐ ܕܚܘܕܪܐ ܕܟܠܗ̇ ܫܢܬܐ</rubric>
-              <note>The contents are similar to those of Add. 14,515 and 17,190. </note>
+              <note>The contents are similar to those of <bibl>Add. 14,515</bibl> and <bibl>17,190</bibl>.</note>
+              <note>It is divided into two volumes.</note>
               <msItem xml:id="b1" n="2" defective="true">
                 <locus to="183" from="1"/>
-                <title xml:lang="en">volume first</title>
+                <title xml:lang="en">Volume first</title>
                 <msItem xml:id="c1" n="3" defective="true">
                   <locus from="1a"/>
-                  <title xml:lang="en">The Annunciation of
-                                            <persName>Zacharias</persName>
-                  </title>
+                  <title xml:lang="en">The Annunciation of <persName>Zacharias</persName></title>
                   <msItem xml:id="d1" n="4">
                     <locus from="1a"/>
                     <author ref="http://syriaca.org/person/573">John
                                             Chrysostom</author>
-                    <title xml:lang="en">Homily of <persName>John
-                                                Chrysostom</persName>
+                    <title xml:lang="en">Homily of <persName ref="http://syriaca.org/person/573">John Chrysostom</persName>
                     </title>
-                    <rubric xml:lang="syr">ܡܐܡܪܐ ܕܩܕܝܫܐ ܡܪܝ [ܐܝܘ]ܐܢܝܣ ܥܠ ܙܟܪܝܐ
-                                            ܟܕ [ܐܣܬܒܪ] ܡܢ ܡܠܐܟܐ ܥܠ [ܡ̇ܘܠܕܗ ܕܝܘܚܢܢ</rubric>
+                    <rubric xml:lang="syr">ܡܐܡܪܐ ܕܩܕܝܫܐ ܡܪܝ [ܐܝܘ]ܐܢܝܣ ܥܠ ܙܟܪܝܐ ܟܕ [ܐܣܬܒܪ] ܡܢ ܡܠܐܟܐ ܥܠ [ܡ̇ܘܠܕܗ ܕܝܘܚܢܢ</rubric>
                     <note>See <bibl>Add. 14,515, fol. 2 b</bibl>.</note>
                   </msItem>
                 </msItem>
                 <msItem xml:id="c2" n="5" defective="true">
                   <locus from="4a"/>
-                  <title xml:lang="en">The Annunciation of the blessed
-                                        Virgin</title>
+                  <title xml:lang="en">The Annunciation of <persName>the blessed Virgin</persName></title>
                   <msItem xml:id="d2" n="6">
                     <locus from="5a"/>
                     <author ref="http://syriaca.org/person/13">Ephraim</author>
+                    <title xml:lang="en">Hymns of <persName ref="http://syriaca.org/person/13">Ephraim</persName></title>
                     <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                   </msItem>
                   <msItem xml:id="d3" n="7">
                     <locus from="5b"/>
-                    <title xml:lang="en">ܣܘܓܝܬܐ on the Angel and
-                                                <persName>Mary</persName>
-                    </title>
+                    <title xml:lang="en">Hymn on <persName>the Angel</persName> and <persName>Mary</persName></title>
                     <rubric xml:lang="syr">ܣܘܓܝܬܐ</rubric>
                   </msItem>
                 </msItem>
                 <msItem xml:id="c3" n="8" defective="true">
                   <locus from="6a"/>
-                  <title xml:lang="en">The Nativity of our Lord</title>
+                  <title xml:lang="en">The Nativity of <persName>our Lord</persName></title>
                   <msItem xml:id="d4" n="9">
                     <locus from="8a"/>
                     <author>Gregory Nyssen</author>
-                    <title xml:lang="en">Homily of <persName>Gregory
-                                                Nyssen</persName>
-                    </title>
-                    <note>See <bibl>Opera, ed. Par. 1638, t. iii., p.
-                                            339</bibl>.</note>
+                    <title xml:lang="en">Homily of <persName>Gregory Nyssen</persName></title>
+                    <note>See <bibl>Opera, ed. Par. 1638, t. iii., p. 339</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d5" n="10" defective="true">
                     <locus from="11a"/>
-                    <author ref="http://syriaca.org/person/511">Gregory
-                                            Nazianzen</author>
-                    <title xml:lang="en">Homily of <persName>Gregory
+                    <author ref="http://syriaca.org/person/511">Gregory Nazianzen</author>
+                    <title xml:lang="en">Homily of <persName ref="http://syriaca.org/person/511">Gregory
                                                 Nazianzen</persName>
                     </title>
                     <note>See <bibl>Opera, t. i., p. 663</bibl>.</note>
                   </msItem>
-                  <msItem xml:id="d6" n="11">
+                  <msItem xml:id="d6" n="11" defective="true">
                     <locus from="12a"/>
                     <title xml:lang="en">Fragment of a homily</title>
                   </msItem>
                   <msItem xml:id="d7" n="12" defective="true">
                     <locus from="13a"/>
-                    <author ref="http://syriaca.org/person/573">John
-                                            Chrysostom</author>
-                    <title xml:lang="en">Homily of <persName>John
+                    <author ref="http://syriaca.org/person/573">John hrysostom</author>
+                    <title xml:lang="en">Homily of <persName ref="http://syriaca.org/person/573">John
                                                 Chrysostom</persName>
                     </title>
                     <note>See <bibl>Opera, t. vi., p. 459</bibl>.</note>
@@ -160,9 +150,7 @@
                   <msItem xml:id="d8" n="13" defective="true">
                     <locus from="16b"/>
                     <author>Severus</author>
-                    <title xml:lang="en">The hundred and first homily of
-                                                <persName>Severus</persName>
-                    </title>
+                    <title xml:lang="en">The hundred and first homily of <persName>Severus</persName></title>
                   </msItem>
                   <msItem xml:id="d9" n="14">
                     <locus from="21a"/>
@@ -170,19 +158,18 @@
                   </msItem>
                   <msItem xml:id="d10" n="15">
                     <locus from="21b"/>
-                    <author ref="http://syriaca.org/person/42">Jacob of
-                                            Batnae</author>
-                    <title xml:lang="en">Prose homily of <persName>Jacob
-                                                of Batnae</persName>
+                    <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
+                    <title xml:lang="en">Prose homily of <persName ref="http://syriaca.org/person/42">Jacob
+                                                of <placeName>Batnae</placeName></persName>
                     </title>
                   </msItem>
                 </msItem>
                 <msItem xml:id="c4" n="16" defective="true">
                   <locus from="23a"/>
-                  <title xml:lang="en">The Commemoration of the blessed
-                                        Virgin</title>
+                  <title xml:lang="en">The Commemoration of <persName>the blessed Virgin</persName></title>
                   <msItem xml:id="d11" n="17">
                     <locus from="25b"/>
+                    <title xml:lang="en">Hymns</title>
                     <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                   </msItem>
                   <msItem xml:id="d12" n="18">
@@ -192,13 +179,11 @@
                 </msItem>
                 <msItem xml:id="c5" n="19">
                   <locus from="32a"/>
-                  <title xml:lang="en">The Massacre of the
-                                        Innocents</title>
+                  <title xml:lang="en">The Massacre of <persName>the Innocents</persName></title>
                   <msItem xml:id="d13" n="20">
                     <locus from="34a"/>
                     <author>Severus</author>
-                    <title xml:lang="en">The eighth homily of
-                                                <persName>Severus</persName>
+                    <title xml:lang="en">The eighth homily of <persName>Severus</persName>
                     </title>
                   </msItem>
                 </msItem>
@@ -207,108 +192,86 @@
                   <title xml:lang="en">The Epiphany</title>
                   <msItem xml:id="d14" n="22">
                     <locus from="40a"/>
-                    <rubric xml:lang="syr">
-                      <locus from="40a"/>ܡܕܪ̈ܫܐ</rubric>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                   </msItem>
                   <msItem xml:id="d15" n="23">
                     <locus from="43a"/>
-                    <author ref="http://syriaca.org/person/511">Gregory
-                                            Nazianzen</author>
-                    <title xml:lang="en">Homily of <persName>Gregory
-                                                Nazianzen</persName>
+                    <author ref="http://syriaca.org/person/511">Gregory Nazianzen</author>
+                    <title xml:lang="en">Homily of <persName ref="http://syriaca.org/person/511">Gregory Nazianzen</persName>
                     </title>
-                    <note>See <bibl>Opera, t. i., p. 677</bibl>. </note>
+                    <note>See <bibl>Opera, t. i., p. 677</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d16" n="24">
                     <locus from="49b"/>
-                    <author ref="http://syriaca.org/person/573">John
-                                            Chrysostom</author>
-                    <title xml:lang="en">Homily of <persName>John
-                                                Chrysostom</persName>
+                    <author ref="http://syriaca.org/person/573">John Chrysostom</author>
+                    <title xml:lang="en">Homily of <persName ref="http://syriaca.org/person/573">John Chrysostom</persName>
                     </title>
                     <note>See <bibl>Opera, t. ii., p. 433</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d17" n="25">
                     <locus from="56b"/>
                     <author>Severus</author>
-                    <title xml:lang="en">Tenth homily of
-                                                <persName>Severus</persName>
+                    <title xml:lang="en">Tenth homily of <persName>Severus</persName>
                     </title>
                   </msItem>
                   <msItem xml:id="d18" n="26">
                     <locus from="60b"/>
-                    <author ref="http://syriaca.org/person/2796">Antipater of
-                                            Bostra</author>
-                    <title xml:lang="en">Homily of <persName>Antipater of
-                                                Bostra</persName>
+                    <author ref="http://syriaca.org/person/2796">Antipater of Bostra</author>
+                    <title xml:lang="en">Homily of <persName ref="http://syriaca.org/person/2796">Antipater of <persName>Bostra</persName></persName>
                     </title>
-                    <rubric xml:lang="syr">ܕ܏ܩܕ ܐܢܛܝܦܐܛܪܘܣ ܐܦܝܣܩܘܦܐ ܕܒܘܣܛܪܐ:
-                                            ܡܐܡܪܐ ܕܥܠ ܕܢܚܗ ܕܦܪܘܩܢ ܡܫܝܚܐ</rubric>
-                    <incipit xml:lang="syr">
-                      <locus from="60b"/>ܡܐ ܫܒܝܚ
-                                            ܚܓܐ: ܘܬܕܡܘܪܬܗ ܕܥܐܕܐ̣̇ ܛܒ ܪܒܐ. ܕܐܟ̈ܣܢܝܬܐ ܐܡ̇ܪ ܠܟܘܢ̣̇ ܣܠܩܬ
-                                            ܝܘܡܢܐ. ܫܡܐ ܡ̇ܢ ܓܝܪ ܕܚܓܐ ܗܢܐ ܕܩܪܝܒ ܐܝܬܘܗܝ̣. ܕܢܚܐ ܕܐܠܗܐ.
-                                            ܏ܘܫ</incipit>
+                    <rubric xml:lang="syr">ܕ܏ܩܕ ܐܢܛܝܦܐܛܪܘܣ ܐܦܝܣܩܘܦܐ ܕܒܘܣܛܪܐ: ܡܐܡܪܐ ܕܥܠ ܕܢܚܗ ܕܦܪܘܩܢ ܡܫܝܚܐ</rubric>
+                    <incipit xml:lang="syr">ܡܐ ܫܒܝܚ ܚܓܐ: ܘܬܕܡܘܪܬܗ ܕܥܐܕܐ̣̇ ܛܒ ܪܒܐ. ܕܐܟ̈ܣܢܝܬܐ ܐܡ̇ܪ ܠܟܘܢ̣̇ ܣܠܩܬ
+                                            ܝܘܡܢܐ. ܫܡܐ ܡ̇ܢ ܓܝܪ ܕܚܓܐ ܗܢܐ ܕܩܪܝܒ ܐܝܬܘܗܝ̣. ܕܢܚܐ ܕܐܠܗܐ. ܏ܘܫ</incipit>
                   </msItem>
                   <msItem xml:id="d19" n="27">
                     <locus from="62a"/>
-                    <author ref="http://syriaca.org/person/42">Jacob of
-                                            Batnae</author>
-                    <title xml:lang="en">Prose homily of <persName>Jacob
-                                                of Batnae</persName>
+                    <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
+                    <title xml:lang="en">Prose homily of <persName ref="http://syriaca.org/person/42">Jacob of <placeName>Batnae</placeName></persName>
                     </title>
                   </msItem>
                 </msItem>
                 <msItem xml:id="c7" n="28">
                   <locus from="65b"/>
-                  <title xml:lang="en">The Commemoration of S.
-                                            <persName>John the Baptist</persName>
+                  <title xml:lang="en">The Commemoration of
+                                            <persName>S. John the Baptist</persName>
                   </title>
                   <msItem xml:id="d20" n="29">
                     <locus from="67b"/>
                     <author ref="http://syriaca.org/person/573">John
                                             Chrysostom</author>
-                    <title xml:lang="en">Homily of <persName>John
-                                                Chrysostom</persName> on the decollation of S.
-                                                <persName>John the Baptist</persName>
+                    <title xml:lang="en">Homily of <persName ref="http://syriaca.org/person/573">John
+                      Chrysostom</persName> on the decollation of <persName>S. John the Baptist</persName>
                     </title>
-                    <note>See <bibl>Opera, t. viii., p. 986—8</bibl>, and
-                                                <bibl>Add. 14,515, fol. 150 b</bibl>.</note>
+                    <note>See <bibl>Opera, t. viii., p. 986—8</bibl>, and <bibl>Add. 14,515, fol. 150 b</bibl>.</note>
                   </msItem>
                 </msItem>
                 <msItem xml:id="c8" n="30">
                   <locus from="70a"/>
-                  <title xml:lang="en">The Nativity of S. <persName>John
-                                            the Baptist</persName>
+                  <title xml:lang="en">The Nativity of <persName>S. John the Baptist</persName>
                   </title>
                   <msItem xml:id="d21" n="31">
                     <locus from="71a"/>
+                    <title xml:lang="en">Hymns</title>
                     <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                   </msItem>
                   <msItem xml:id="d22" n="32">
                     <locus from="72a"/>
                     <author>Severus</author>
-                    <title xml:lang="en">Thirty-second homily of
-                                                <persName>Severus</persName>
+                    <title xml:lang="en">Thirty-second homily of <persName>Severus</persName>
                     </title>
-                    <rubric xml:lang="syr">
-                      <locus from="72a"/>ܕܥܠ ܝܘܚܢܢ
-                                            ܡܥܡܕܢܐ</rubric>
+                    <rubric xml:lang="syr">ܕܥܠ ܝܘܚܢܢ ܡܥܡܕܢܐ</rubric>
                   </msItem>
                 </msItem>
                 <msItem xml:id="c9" n="33">
                   <locus from="77b"/>
-                  <title xml:lang="en">The Commemoration of the blessed
-                                        Virgin</title>
+                  <title xml:lang="en">The Commemoration of <persName>the blessed Virgin</persName></title>
                   <msItem xml:id="d23" n="34">
                     <locus from="80b"/>
                     <author>Atticus of Constantinople</author>
-                    <title xml:lang="en">Homily of <persName>Atticus of
-                                                Constantinople</persName>
+                    <title xml:lang="en">Homily of <persName>Atticus of <placeName>Constantinople</placeName></persName>
                     </title>
-                    <rubric xml:lang="syr">ܡܐܡܪܐ ܕܩܕܝܫܐ ܐܛܝܩܘܣ ܐܦܝܣܩܘܦܐ
-                                            ܕܩܘܣܛܢܛܝܢܘܣ ܕܥܠ ܩܕܝܫܬܐ ܝܠܕܬ ܐܠܗܐ<locus from="80b"/>
-                    </rubric>
+                    <rubric xml:lang="syr">ܡܐܡܪܐ ܕܩܕܝܫܐ ܐܛܝܩܘܣ ܐܦܝܣܩܘܦܐ ܕܩܘܣܛܢܛܝܢܘܣ ܕܥܠ ܩܕܝܫܬܐ ܝܠܕܬ ܐܠܗܐ</rubric>
                     <incipit xml:lang="syr">ܟܠܗܘܢ ܡ̇ܢ ܗܟܝܠ ܚ̈ܓܐ ܕܣܗ̈ܕܐ ܒܢܨܝܚܘܬܐ
                                             ܬܡܝܗܬܐ ܕܩܕ̈ܝܫܐ ܡܕܡܝܢ. ܐܟܙܢܐ ܓܝܪ ܕܟܘ̈ܟܒܐ ܒܫܡܝܐ ܩܒܝܥܝܢ
                                             ܒܣܝ̈ܡܐ: ܘܒܝܕ ܡܬܪܚܩܢܘܬܐ ܕܚܕ ܡܢ ܚܕ ܝܬܝܪܐܝܬ ܡܬܝܕܥܝܢ: ܘܠܟܠܗ
@@ -317,15 +280,12 @@
                   <msItem xml:id="d24" n="35">
                     <locus from="84b"/>
                     <author>Severus</author>
-                    <title xml:lang="en">Fourteenth homily of
-                                                <persName>Severus</persName>
-                    </title>
+                    <title xml:lang="en">Fourteenth homily of <persName>Severus</persName></title>
                   </msItem>
                 </msItem>
                 <msItem xml:id="c10" n="36" defective="true">
                   <locus from="88a"/>
-                  <title xml:lang="en">The Presentation in the
-                                        Temple</title>
+                  <title xml:lang="en">The Presentation in <placeName>the Temple</placeName></title>
                   <msItem xml:id="d25" n="37">
                     <locus from="89a"/>
                     <title xml:lang="en">Fragments of a homily</title>
@@ -337,9 +297,7 @@
                   <msItem xml:id="d26" n="39">
                     <locus from="100a"/>
                     <author>Basil</author>
-                    <title xml:lang="en">Portions of two homilies of
-                                                <persName>Basil</persName>
-                    </title>
+                    <title xml:lang="en">Portions of two homilies of <persName>Basil</persName></title>
                     <note>See <bibl>Opera, t. ii., pp. 1 and 14</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d27" n="40">
@@ -348,44 +306,37 @@
                   </msItem>
                   <msItem xml:id="d28" n="41" defective="true">
                     <locus from="110a"/>
-                    <title xml:lang="en">Homily on the Forty
-                                            Martyrs</title>
+                    <title xml:lang="en">Homily on <persName>the Forty Martyrs</persName></title>
                   </msItem>
                   <msItem xml:id="d29" n="42">
                     <locus from="119a"/>
-                    <author ref="http://syriaca.org/person/573">John
-                                            Chrysostom</author>
+                    <author ref="http://syriaca.org/person/573">John Chrysostom</author>
                     <title xml:lang="en">Fragment of the xxvth homily of
-                                                <persName>John Chrysostom</persName> on the Gospel
-                                            of S. <persName>Matthew</persName>
+                      <persName ref="http://syriaca.org/person/573">John Chrysostom</persName> on <ref>the Gospel
+                                            of S. Matthew</ref>
                     </title>
-                    <note>See <bibl>Opera, t. vii., p. 354</bibl>, from the
-                                            words ὅσα ἄν πάθη, οὐδὲν ἡγήσεται ἀνάξιον πεπονθέναι
-                                        </note>
+                    <note>See <bibl>Opera, t. vii., p. 354, from the words <foreign xml:lang="grc">καὶ ὅσα ἂν πάθη, οὐδὲν ἡγήσεται ἀνάξιον πεπονθέναι</foreign></bibl>.</note>
                   </msItem>
                   <msItem xml:id="d30" n="43" defective="true">
                     <locus from="119b"/>
-                    <author ref="http://syriaca.org/person/573">John
-                                            Chrysostom</author>
-                    <title xml:lang="en">Homily of <persName>John
-                                                Chrysostom</persName> on the Paralytic and on Envy,
-                                            or hom. xxxvii. in Evang. Joannis</title>
+                    <author ref="http://syriaca.org/person/573">John Chrysostom</author>
+                    <title xml:lang="en">Homily of <persName ref="http://syriaca.org/person/573">John
+                                                Chrysostom</persName> on <persName>the Paralytic</persName> and on Envy, or hom. xxxvii. in <ref>Evang. Joannis</ref></title>
                     <note>See <bibl>Opera, t. viii., p. 243</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d31" n="44">
                     <locus from="122a"/>
                     <author>Severus</author>
-                    <title xml:lang="en">Thirty-third homily of
-                                                <persName>Severus</persName>, on the man who was
-                                            blind from his birth</title>
+                    <title xml:lang="en">Thirty-third homily of <persName>Severus</persName>, on <persName>the man who was
+                                            blind from his birth</persName></title>
                   </msItem>
                   <msItem xml:id="d32" n="45">
                     <locus from="124b"/>
                     <author ref="http://syriaca.org/person/573">John
                                             Chrysostom</author>
                     <title xml:lang="en">Portions of the homily of
-                                                <persName>John Chrysostom</persName> on the
-                                            Canaanite woman, S. Matth. ch. xv. 21—28</title>
+                      <persName ref="http://syriaca.org/person/573">John Chrysostom</persName> on <persName>the
+                                            Canaanite woman</persName>, <ref>S. Matth. ch. xv. 21—28</ref></title>
                     <note>See <bibl>Opera, t. iii., p. 516</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d33" n="46">
@@ -393,182 +344,151 @@
                     <author ref="http://syriaca.org/person/573">John
                                             Chrysostom</author>
                     <title xml:lang="en">Part of a homily of
-                                                <persName>John Chrysostom</persName> on
-                                                <persName>Lazarus of Bethany</persName>, being hom.
-                                            lxii. in Evang. Joannis.</title>
-                    <note>See <bibl>Opera, t. viii., p. 426</bibl>, from the
-                                            words μέσον ἐποίησεν ἀναγκαίως τὸν λόγον, καὶ διὰ τῶν
-                                            ἑξῆς δὲ ταῦτα ἅπερ εἶπον ἠνίξατο.</note>
+                      <persName ref="http://syriaca.org/person/573">John Chrysostom</persName> on
+                                                <persName>Lazarus of <placeName>Bethany</placeName></persName>, being hom.
+                                            lxii. in <ref>Evang. Joannis.</ref></title>
+                    <note>See <bibl>Opera, t. viii., p. 426, from the words <foreign xml:lang="grc">μέσον ἐποίησεν ἀναγκαίως τὸν λόγον, καὶ διὰ τῶν ἑξῆς δὲ ταῦτα ἅπερ εἶπον ᾐνίξατο</foreign></bibl>.</note>
                   </msItem>
                   <msItem xml:id="d34" n="47">
                     <locus from="129b"/>
                     <author ref="http://syriaca.org/person/573">John
                                             Chrysostom</author>
                     <title xml:lang="en">Part of a homily of
-                                                <persName>John Chrysostom</persName> on the Rich Man
+                      <persName ref="http://syriaca.org/person/573">John Chrysostom</persName> on <persName>the Rich Man</persName>
                                             and <persName>Lazarus</persName>
                     </title>
                     <note>See <bibl>Opera, t. viii., p. 756</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d35" n="48">
                     <locus from="130a"/>
-                    <title xml:lang="en">Part of a homily on S. Luke, ch.
-                                            x. 30—37</title>
+                    <title xml:lang="en">Part of a homily on <ref>S. Luke, ch. x. 30—37</ref></title>
                   </msItem>
                 </msItem>
                 <msItem xml:id="c12" n="49" defective="true">
-                  
-                  <author ref="http://syriaca.org/person/42">Jacob of
-                                        Batnae</author>
-                  <title xml:lang="en">Festal Sermons of <persName>Jacob of
-                                            Batnae</persName>
+                  <locus from="133"/>
+                  <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
+                  <title xml:lang="en">Festal Sermons of <persName ref="http://syriaca.org/person/42">Jacob of <placeName>Batnae</placeName></persName>
                   </title>
                   <msItem xml:id="d36" n="50" defective="true">
                     <locus from="133a"/>
                     <author ref="http://syriaca.org/person/42">Jacob of
                                             Batnae</author>
-                    <title xml:lang="en">On the Nativity of our
-                                            Lord</title>
-                    <note>See <bibl>Assem., Bibl. Or., t. i., p. 309, no.
-                                                11</bibl>.</note>
+                    <title xml:lang="en">On the Nativity of <persName>our Lord</persName></title>
+                    <note>See <bibl>Assem., Bibl. Or., t. i., p. 309, no. 11</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d37" n="51">
                     <locus from="143a"/>
-                    <author ref="http://syriaca.org/person/42">Jacob of
-                                            Batnae</author>
-                    <title xml:lang="en">On the blessed Mother of
-                                            God</title>
-                    <note>See <bibl>Assem., p. 310, no. 21, serm.
-                                            I</bibl>.</note>
+                    <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
+                    <title xml:lang="en">On <persName>the blessed Mother of God</persName></title>
+                    <note>See <bibl>Assem., p. 310, no. 21, serm. I</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d38" n="52">
                     <locus from="149a"/>
-                    <author ref="http://syriaca.org/person/42">Jacob of
-                                            Batnae</author>
-                    <title xml:lang="en">On the Massacre of the
-                                            Innocents</title>
+                    <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
+                    <title xml:lang="en">On the Massacre of <persName>the Innocents</persName></title>
                     <note>See <bibl>Assem., p. 311, no. 25</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d39" n="53">
                     <locus from="153b"/>
-                    <author ref="http://syriaca.org/person/42">Jacob of
-                                            Batnae</author>
-                    <title xml:lang="en">On the Baptism of our
-                                            Lord</title>
+                    <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
+                    <title xml:lang="en">On the Baptism of <persName>our Lord</persName></title>
                     <note>See <bibl>Assem., p. 312, no. 28</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d40" n="54">
                     <locus from="160a"/>
-                    <author ref="http://syriaca.org/person/42">Jacob of
-                                            Batnae</author>
-                    <title xml:lang="en">On the Decollation of S.
-                                                <persName>John the Baptist</persName>
+                    <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
+                    <title xml:lang="en">On the Decollation of <persName>S. John the Baptist</persName>
                     </title>
                     <note>See <bibl>Assem., p. 312, no. 34</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d41" n="55">
                     <locus from="165a"/>
-                    <author ref="http://syriaca.org/person/42">Jacob of
-                                            Batnae</author>
-                    <title xml:lang="en">On the Presentation in the
-                                            Temple</title>
+                    <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
+                    <title xml:lang="en">On the Presentation in <placeName>the Temple</placeName></title>
                     <note>See <bibl>Assem., p. 312, no. 37</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d42" n="56">
                     <locus from="169b"/>
-                    <author ref="http://syriaca.org/person/42">Jacob of
-                                            Batnae</author>
-                    <title xml:lang="en">Two discourses on Lent</title>
-                    <note>See <bibl>Assem., p. 315, no. 69, serm. III. and I.
-                                                Foll. 169 b and 173 b</bibl>.</note>
+                    <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
+                    <title xml:lang="en">A discourse on Lent</title>
+                    <note>See <bibl>Assem., p. 315, no. 69, serm. III</bibl>.</note>
+                  </msItem>
+                  <msItem>
+                    <locus from="173b"/>
+                    <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
+                    <title xml:lang="en">Another discourse on Lent</title>
+                    <note>See <bibl>Assem., p. 315, no. 69, serm. I</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d43" n="57" defective="true">
                     <locus from="178a"/>
-                    <author ref="http://syriaca.org/person/42">Jacob of
-                                            Batnae</author>
-                    <title xml:lang="en">On <persName>Lazarus of
-                                                Bethany</persName>
-                    </title>
+                    <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
+                    <title xml:lang="en">On <persName>Lazarus of <placeName>Bethany</placeName></persName></title>
                     <note>See <bibl>Assem., p. 322, no. 134</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d44" n="58">
                     <locus from="180a"/>
-                    <author ref="http://syriaca.org/person/42">Jacob of
-                                            Batnae</author>
-                    <title xml:lang="en">On the Forty Martyrs</title>
+                    <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
+                    <title xml:lang="en">On <persName>the Forty Martyrs</persName></title>
                     <note>See <bibl>Assem., p. 319, no. 106</bibl>.</note>
                   </msItem>
                 </msItem>
                 <msItem xml:id="c13" n="59" defective="true">
                   <locus from="183b"/>
-                  <title xml:lang="en">Hymns and Prayers with the title ܕܥܠ
-                                        ܪ̈ܘܓܙܐ "on Calamities"</title>
+                  <title xml:lang="en">Hymns and Prayers with the title, "on Calamities"</title>
                   <rubric xml:lang="syr">ܕܥܠ ܪ̈ܘܓܙܐ</rubric>
-                  <note>corresponding to Add. 14,515, fol. 101 a. </note>
-                  <note>Here ends volume first, and with fol. 184 commences volume
-                                        second.</note>
+                  <note>Corresponding to <bibl>Add. 14,515, fol. 101 a</bibl>.</note>
                 </msItem>
               </msItem>
               <msItem xml:id="b2" n="60">
                 <locus to="208" from="184"/>
-                <title xml:lang="en">volume second</title>
+                <title xml:lang="en">Volume second</title>
                 <msItem xml:id="c14" n="61">
                   <locus from="184a"/>
-                  <title xml:lang="en">Fragments of a homily for Palm
-                                        Sunday</title>
+                  <title xml:lang="en">Fragments of a homily for Palm Sunday</title>
                 </msItem>
                 <msItem xml:id="c15" n="62" defective="true">
-                  
+                  <locus from="186"/>
                   <title xml:lang="en">Passion Week</title>
                   <msItem xml:id="d45" n="63" defective="true">
                     <locus from="186a"/>
-                    <title xml:lang="en">on <persName>Cain</persName> and
-                                                <persName>Abel</persName>
-                    </title>
+                    <title xml:lang="en">On <persName>Cain</persName> and <persName>Abel</persName></title>
                     <rubric xml:lang="syr">ܣܘܓܝܬܐ</rubric>
                   </msItem>
                   <msItem xml:id="d46" n="64">
                     <locus from="187a"/>
-                    <title xml:lang="en">on <persName>Abraham</persName>
-                                            and <persName>Isaac</persName>
-                    </title>
+                    <title xml:lang="en">On <persName>Abraham</persName> and <persName>Isaac</persName></title>
                     <rubric xml:lang="syr">ܣܘܓܝܬܐ</rubric>
                   </msItem>
                   <msItem xml:id="d47" n="65">
                     <locus from="189a"/>
                     <author ref="http://syriaca.org/person/573">John
                                             Chrysostom</author>
-                    <title xml:lang="en">Homily of <persName>John
+                    <title xml:lang="en">Homily of <persName ref="http://syriaca.org/person/573">John
                                                 Chrysostom</persName> for Monday in Passion
                                             week</title>
                     <rubric xml:lang="syr">
-                      <locus from="189a"/>ܡܐܡܪܐ
-                                            ܕܩܕܝܫܐ ܐܝܘܐܢܝܣ ܕܥܠ ܬܪܝܢ ܒܫܒܐ. ܕܫܒܬܐ ܕܚܫܐ ܘܡܛܠ ܘܥܕܗ
-                                            ܕܠܡܐܢܐ. ܐܡܪܗ ܕܝܢ ܒܥܕܬܐ ܕܐܣܝܐ ܟܕ ܗ̣ܘ ܒܐܟܣܘܪܝܐ </rubric>
-                    <incipit xml:lang="syr">ܢܗܝܪ̈ܐ ܕܥܠܒܝܢ ܠܕܥܝܕܐ ܝܘܡܢܐ ܒܡܕܝܢܬܐ
-                                            ܚ̇ܙܐ ܐܢܐ. ܘܫܦܝܪ ܥܒܕܬܘܢ ܏ܐܘ ܐܚ̈ܝ .. ܏ܘܫ</incipit>
+                      <locus from="189a"/>ܡܐܡܪܐ ܕܩܕܝܫܐ ܐܝܘܐܢܝܣ ܕܥܠ ܬܪܝܢ ܒܫܒܐ. ܕܫܒܬܐ ܕܚܫܐ ܘܡܛܠ ܘܥܕܗ ܕܠܡܐܢܐ. ܐܡܪܗ ܕܝܢ ܒܥܕܬܐ ܕܐܣܝܐ ܟܕ ܗ̣ܘ ܒܐܟܣܘܪܝܐ</rubric>
+                    <incipit xml:lang="syr">ܢܗܝܪ̈ܐ ܕܥܠܒܝܢ ܠܕܥܝܕܐ ܝܘܡܢܐ ܒܡܕܝܢܬܐ ܚ̇ܙܐ ܐܢܐ. ܘܫܦܝܪ ܥܒܕܬܘܢ ܐ̄ܘ ܐܚ̈ܝ .. ܏ܘܫ</incipit>
                   </msItem>
                   <msItem xml:id="d48" n="66">
                     <locus from="192b"/>
                     <author ref="http://syriaca.org/person/573">John
                                             Chrysostom</author>
-                    <title xml:lang="en">Homily of <persName>John
-                                                Chrysostom</persName> on S.
-                                                <persName>Matthew</persName>, ch. xxi.-33—44, being
-                                            hom. lxviii. in Evang. Matth</title>
+                    <title xml:lang="en">Homily of <persName ref="http://syriaca.org/person/573">John
+                                                Chrysostom</persName> on <ref>S.
+                                                Matthew, ch. xxi.-33—44</ref>, being
+                                            hom. lxviii. in <ref>Evang. Matth</ref></title>
                     <note>See <bibl>Opera, t. vii., p. 754</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d49" n="67">
                     <locus from="197b"/>
+                    <title xml:lang="en">Hymns</title>
                     <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                   </msItem>
                   <msItem xml:id="d50" n="68">
                     <locus from="198a"/>
-                    <author ref="http://syriaca.org/person/42">Jacob of
-                                            Batnae</author>
-                    <title xml:lang="en">Fragment of a discourse of
-                                                <persName>Jacob of Batnae</persName>
-                    </title>
+                    <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
+                    <title xml:lang="en">Fragment of a discourse of <persName ref="http://syriaca.org/person/42">Jacob of <placeName>Batnae</placeName></persName></title>
                   </msItem>
                   <msItem xml:id="d51" n="69">
                     <locus from="199a"/>
@@ -577,32 +497,22 @@
                 </msItem>
                 <msItem xml:id="c16" n="70">
                   <locus from="200a"/>
-                  <author ref="http://syriaca.org/person/42">Jacob of
-                                        Batnae</author>
-                  <title xml:lang="en">Fragment of a discourse of
-                                            <persName>Jacob of Batnae</persName> on
-                                        Pentecost</title>
-                  <note>See <bibl>Assem., Bibl. Or., t. i., p. 328, no.
-                                        184</bibl>.</note>
+                  <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
+                  <title xml:lang="en">Fragment of a discourse of <persName ref="http://syriaca.org/person/42">Jacob of <placeName>Batnae</placeName></persName> on Pentecost</title>
+                  <note>See <bibl>Assem., Bibl. Or., t. i., p. 328, no. 184</bibl>.</note>
                 </msItem>
                 <msItem xml:id="c17" n="71">
                   <locus from="200b"/>
-                  <author ref="http://syriaca.org/person/42">Jacob of
-                                        Batnae</author>
-                  <title xml:lang="en">Discourse of <persName>Jacob of
-                                            Batnae</persName> on all Martyrs</title>
-                  <incipit xml:lang="syr">ܣ̈ܗܕܐ ܩ̈ܛܝܠܐ ܥܒ̣ܕܘ ܡܫܬܘܬܐ ܪܒܬܐ ܕܕܡܐ̣.
-                                        ܘܬܒܥܘܢܝ ܐ̇ܡܪ ܢܨ̈ܚܢܝܗܘܢ ܒܟ̈ܠܝܠܝܗܘܢ.<locus from="200b"/>
-                  </incipit>
+                  <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
+                  <title xml:lang="en">Discourse of <persName ref="http://syriaca.org/person/42">Jacob of <placeName>Batnae</placeName></persName> on <persName>all Martyrs</persName></title>
+                  <incipit xml:lang="syr">ܣ̈ܗܕܐ ܩ̈ܛܝܠܐ ܥܒ̣ܕܘ ܡܫܬܘܬܐ ܪܒܬܐ ܕܕܡܐ̣. ܘܬܒܥܘܢܝ ܐ̇ܡܪ ܢܨ̈ܚܢܝܗܘܢ ܒܟ̈ܠܝܠܝܗܘܢ</incipit>
                 </msItem>
                 <msItem xml:id="c18" n="72" defective="true">
                   <locus from="204b"/>
-                  <author ref="http://syriaca.org/person/42">Jacob of
-                                        Batnae</author>
+                  <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
                   <title xml:lang="en">Another discourse of
-                                            <persName>Jacob</persName> on all Martyrs</title>
-                  <note>See <bibl>Assem., Bibl. Or., t. i., p. 339, no.
-                                        222</bibl>. </note>
+                    <persName ref="http://syriaca.org/person/42">Jacob</persName> on <persName>all Martyrs</persName></title>
+                  <note>See <bibl>Assem., Bibl. Or., t. i., p. 339, no. 222</bibl>.</note>
                 </msItem>
                 <msItem xml:id="c19" n="73">
                   <locus from="207b"/>
@@ -610,10 +520,8 @@
                 </msItem>
                 <msItem xml:id="c20" n="74">
                   <locus from="208a"/>
-                  <author ref="http://syriaca.org/person/42">Jacob of
-                                        Batnae</author>
-                  <title xml:lang="en">Fragment of a discourse of
-                                            <persName>Jacob of Batnae</persName> on the Dead</title>
+                  <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
+                  <title xml:lang="en">Fragment of a discourse of <persName ref="http://syriaca.org/person/42">Jacob of <placeName>Batnae</placeName></persName> on <persName>the Dead</persName></title>
                   <note>See <bibl>Add. 17,190, fol. 118 a</bibl>.</note>
                 </msItem>
               </msItem>
@@ -639,8 +547,7 @@
                                                 both at the beginning and the end, and there are
                                                 lacunae of greater or less extent in various places.
                                                 Each page is divided into two columns, of from 31 to
-                                                36 lines. It is written in a neat, regular hand of
-                                                the ixth cent.</p>
+                                                36 lines.</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -651,21 +558,10 @@
                         </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>It is written in a neat, regular hand of the <date>ixth cent.</date></desc>
               </handNote>
             </handDesc>
-            <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                  <locus/>
-                  <p/>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                </item>
-              </list>
-            </additions>
+            <additions/>
             <bindingDesc>
                             <p>Content pending</p>
                         </bindingDesc>
@@ -676,7 +572,7 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate notBefore="0800" notAfter="0900"/>
+                          <origDate notBefore="0800" notAfter="0900">ixth cent.</origDate>
                             <origPlace/>
                         </origin>
                         <provenance/>
