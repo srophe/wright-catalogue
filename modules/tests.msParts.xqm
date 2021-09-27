@@ -70,6 +70,20 @@ declare variable $msParts-test:merged-respStmt-node-sequence :=
 declare variable $msParts-test:file-to-compare :=
   fn:doc($config:path-to-repo || "/resources/testing/540_with_msParts_TEST.xml");
 
+declare variable $msParts-test:publicationStmt-to-compare-with-current-date :=
+      <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+        <authority>Syriaca.org: The Syriac Reference Portal</authority>
+        <idno type="URI">http://syriaca.org/manuscript/540/tei</idno>
+        <availability>
+          <p/>
+          <licence target="http://creativecommons.org/licenses/by/3.0/">
+            <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
+          </licence>
+        </availability>
+        <date calendar="Gregorian">{fn:current-date()}</date>
+      </publicationStmt>;
+      
+      
 declare %unit:test function msParts-test:variable-config-msParts-created-successfully() {
   unit:assert-equals(xs:string($msParts:config-msParts/config/testValue/text()), "ܫܠܡܐ ܥܠܡܐ")
 };
@@ -88,4 +102,8 @@ declare %unit:test function msParts-test:merge-respStmt-list-list-from-test-reco
 
 declare %unit:test function msParts-test:create-merged-titleSmt-from-test-records() {
   unit:assert-equals(msParts:create-merged-titleStmt($msParts:manuscript-part-source-document-sequence), $msParts-test:file-to-compare//tei:titleStmt)
+};
+
+declare %unit:test function msParts-test:create-publicationStmt-with-current-date() {
+  unit:assert-equals(msParts:create-publicationStmt($msParts:config-msParts/config/manuscriptLevelMetadata/uriValue/text()),  $msParts-test:publicationStmt-to-compare-with-current-date)
 };

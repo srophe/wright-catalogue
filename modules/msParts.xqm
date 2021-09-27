@@ -42,6 +42,21 @@ declare variable $msParts:ms-level-uri :=
   let $msLevelId := $msParts:config-msParts/config/manuscriptLevelMetadata/uriValue/text()
   return $config:uri-base || $msLevelId;
     
+    
+(:
+- build fileDesc consists of:
+  - titleStmt (already made)
+  - editionStmt (from template)
+  - publicationStmt (from template but sub the overall URI) --> call with $msParts:config-msParts/config/manuscriptLevelMetadata/uriValue/text()
+  - sourceDesc (the main functionality is here)
+- encodingDesc comes from template
+- profileDesc
+  - langUsage from template
+  - textClass create a function that merges the two (wait on the one taxonomy issue??) (or make a 'create-taxonomy' function in mss that takes string and optional part to create it, and then pass it the decoder results for 'normal' creation; here you pass the existing taxonomy values)
+- revisionDesc (script that merges; need to work out ordering, etc.)
+- text element, for now, comes from template. If we were ever to have text of fasc we would need to merge and order properly. but not worth doing right now.
+  
+:)
 declare function msParts:merge-editor-list($documentSequence as node()+) as node()+ {
   let $allCreatorEditors := for $doc in $documentSequence
     return $doc//tei:titleStmt/tei:editor
@@ -80,6 +95,16 @@ declare function msParts:create-merged-titleStmt($documentSequence as node()+) a
   return element {node-name($titleStmtTemplate)} {$recordTitle, $moduleTitle, $titleStmtTemplate/*[not(name() = "title") and not(name() = "editor") and not(name() = "respStmt")], $mergedEditorList, $mergedRespStmtList}
 };
 
+declare function msParts:create-publicationStmt($uri as xs:string) as node() {
+  let $uri := if (fn:starts-with($uri, "http")) then $uri||"/tei" else $config:uri-base||$uri||"/tei"
+  
+  let $templateRecord := $msParts:manuscript-part-source-document-sequence[1]
+  let $templatePubStmt := $templateRecord//tei:publicationStmt
+  let $idno := $templatePubStmt/tei:idno
+  let $idno := element {fn:node-name($idno)} {$idno/@*, $uri}
+  let $publicationDate := element {QName("http://www.tei-c.org/ns/1.0", "date")} {attribute {"calendar"} {"Gregorian"}, fn:current-date()}
+  return element {fn:node-name($templatePubStmt)} {$templatePubStmt/tei:authority, $idno, $templatePubStmt/tei:availability, $publicationDate}
+};
 (: function make a list of editors :)
 (:
 To-do
