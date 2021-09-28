@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -82,38 +82,36 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
               <locus from="1a"/>
+              <author>John of Damascus</author>
+              <author>Cosmas</author>
               <title xml:lang="en">The Octôechus of the services of Sunday and of the ferial
-                days, according to tlie Malkite use</title>
-              <note>The canons are ascribed to John of Damascus, ܐܒܐ (ܐܒܒܐ) ܝܘܐܢܝ, ܐܒܐ ܝܘܢܝ, ܐܒܐ
-                ܝܐܢܝ, or ܐܒܐ ܝܢܝ; and Cosmas, ܐܒܐ (ܐܒܒܐ) ܩܘܙܡܐ</note>
+                days, according to the Malkite use</title>
+              <note>The canons are ascribed to <persName>John of Damascus, <foreign xml:lang="syr">ܐܒܐ (ܐܒܒ) ܝܘܐܢܝ, ܐܒܐ ܝܘܢܝ, ܐܒܐ ܝܐܢܝ, ܐܒܐ ܝܢܝ</foreign></persName>; and <persName>Cosmas, <foreign xml:lang="syr">ܐܒܐ (ܐܒܒܐ) ܩܘܙܡܐ</foreign></persName></note>
               <msItem xml:id="b1" n="2" defective="true">
                 <locus from="1a"/>
                 <title xml:lang="en">First tone</title>
                 <rubric xml:lang="syr">ܪܟܢܐ ܩܕܡܝܐ</rubric>
-                <note>Very Imperfect</note>
+                <note>Very Imperfect.</note>
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
                 <locus from="5b"/>
                 <title xml:lang="en">Second tone</title>
                 <rubric xml:lang="syr">ܪܟܢܐ ܬܪܝܢܐ</rubric>
-                <note>Imperfect</note>
               </msItem>
-              <msItem xml:id="b3" n="4" defective="false">
+              <msItem xml:id="b3" n="4">
                 <locus from="30a"/>
                 <title xml:lang="en">Third tone</title>
                 <rubric xml:lang="syr">ܪܟܢܐ ܬܠܝܬܝܐ</rubric>
               </msItem>
-              <msItem xml:id="b4" n="5" defective="false">
+              <msItem xml:id="b4" n="5">
                 <locus from="58b"/>
                 <title xml:lang="en">Fourth tone</title>
                 <rubric xml:lang="syr">ܪܟܢܐ ܪܒܝܥܝܐ</rubric>
-                <note>Very Imperfect</note>
               </msItem>
-              <msItem xml:id="b5" n="6" defective="false">
+              <msItem xml:id="b5" n="6">
                 <locus from="87a"/>
                 <title xml:lang="en">Fifth tone</title>
                 <rubric xml:lang="syr">ܪܟܢܐ ܚܡܝܫܝܐ</rubric>
-                <note>Very Imperfect</note>
               </msItem>
               <msItem xml:id="b6" n="7" defective="true">
                 <locus from="115a"/>
@@ -124,13 +122,13 @@
                 <locus from="134b"/>
                 <title xml:lang="en">Seventh tone</title>
                 <rubric xml:lang="syr">ܪܟܢܐ ܫܒܝܥܝܐ</rubric>
-                <note>Very Imperfect</note>
+                <note>Very Imperfect.</note>
               </msItem>
               <msItem xml:id="b8" n="9" defective="true">
                 <locus from="148b"/>
                 <title xml:lang="en">Eighth tone</title>
                 <rubric xml:lang="syr">ܪܟܢܐ ܬܡܝܢܝܐ</rubric>
-                <note>Very Imperfect</note>
+                <note>Very Imperfect.</note>
               </msItem>
             </msItem>
           </msContents>
@@ -148,11 +146,10 @@
                       <p>Vellum, about 8 5/8 in. by 6 1/2, consisting of 155 leaves, some of which
                         are much stained and torn, especially foll. 4—6, 39, 137, 138, 141,143, 144,
                         and 153—155. The quires, signed with letters, were probably about 30 in
-                        number; but ܐ,ܒ , ܓ, and (ܟܒ) ܟܓ are lost, and several others are very
+                        number; but<foreign xml:lang="syr"> ܐ,ܒ , ܓ,</foreign> and <foreign xml:lang="syr">(ܟܒ) ܟܓ </foreign>are lost, and several others are very
                         imperfect. Leaves are wanting after foll. 1, 2, 3, 5, 122, 138, 139,
-                        140,141, 142, 150, 152, 153, and 154. There are from 19 to 23 lines in each
-                        page. This volume is written in a good, regular hand of the xith or xiith
-                        cent.</p>
+                        140, 141, 142, 150, 152, 153, and 154. There are from 19 to 23 lines in each
+                        page.</p>
                     </item>
                   </list>
                 </condition>
@@ -163,22 +160,13 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                <desc/>
+                <desc>This volume is written in a good, regular hand of the <date>xith or xiith cent.</date></desc>
               </handNote>
             </handDesc>
-            <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                  <locus/>
-                  <p>Green paint has been often used in the rubrics and other ornaments of this
-                    volume.</p>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                </item>
-              </list>
-            </additions>
+            <decoDesc>
+              <decoNote xml:id="decoNote1" type="ornamentation">Green paint has been often used in the rubrics and other ornaments of this volume.</decoNote>
+            </decoDesc>
+            <additions/>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -189,8 +177,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate from="1000" to="1200">XIth or XIIth
-                Century</origDate>
+              <origDate from="1000" to="1200">xith or xiith cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>

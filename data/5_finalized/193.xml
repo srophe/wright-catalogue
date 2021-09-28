@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -81,280 +81,262 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="1b"/>
-              <author ref="http://syriaca.org/person/13">Ephraim</author>
-              <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
-              <title xml:lang="en">Hymns for the services of the whole
-                                year</title>
-              <rubric xml:lang="syr">ܥܠ ܚ̇ܝ̣ܠܐ ܘܥܘܕܪܢܐ ܕܬܠܝܬܝܘܬܐ ܡܫܒܚ̣ܬ݀ ܒܟܠ ܘܫܘܼܝܬ݀
-                                ܒܐܘܣܝܐ: ܡ̇ܫܪܝܢܢ ܕܢܟ̣ܬܘܒ ܦܢܩܝ̣ܬܐ ܕܡ̈ܥܢܝܬܐ ܕܟܠܗ ܚܘܕܪܐ ܕܫ̇ܢܬܐ.</rubric>
-              <note>Among them are ܩ̈ܠܐ, ܡܕܪ̈ܫܐ,ܣܘ̈ܓܝܬܐ, and prayers, ascribed to
-                                    <persName>Ephraim</persName> and <persName>Jacob of
-                                    Batnae</persName>.</note>
-              <finalRubric xml:lang="syr">ܕܣܝ̇ܥ ܢܫܬ݁ܒ̣ܚ܀ ܕܝ̣ܨܦ ܢܬܒܲܪܟ܀ ܕܟܬ݂ܒ ܢܬܚܲܣ̣ܐ:
-                                ܘܥܠ ܟܠ ܘܒܟܘܠܐ ܡܪܝܐ ܢܫܬܒܚ܀<locus from="177a"/>
-              </finalRubric>
+              <locus from="1b" to="177a"/>
+              <title xml:lang="en">Hymns for the services of the whole year</title>
+              <rubric xml:lang="syr">ܥܠ ܚ̇ܝ̣ܠܐ ܘܥܘܕܪܢܐ ܕܬܠܝܬܝܘܬܐ ܡܫܒܚ̣ܬ݀ ܒܟܠ ܘܫܘܼܝܬ݀ ܒܐܘܣܝܐ: ܡ̇ܫܪܝܢܢ ܕܢܟ̣ܬܘܒ ܦܢܩܝ̣ܬܐ ܕܡ̈ܥܢܝܬܐ ܕܟܠܗ ܚܘܕܪܐ ܕܫ̇ܢܬܐ</rubric>
+              <finalRubric xml:lang="syr"><locus from="177a"/>ܕܣܝ̇ܥ ܢܫܬ݁ܒ̣ܚ܀ ܕܝ̣ܨܦ ܢܬܒܲܪܟ܀ ܕܟܬ݂ܒ ܢܬܚܲܣ̣ܐ: ܘܥܠ ܟܠ ܘܒܟܘܠܐ ܡܪܝܐ ܢܫܬܒܚ܀</finalRubric>
+              <note>Among them are <foreign xml:lang="syr">ܩ̈ܠܐ, ܡܕܪ̈ܫܐ,ܣܘ̈ܓܝܬܐ</foreign>, and prayers, ascribed to
+                <persName ref="http://syriaca.org/person/13">Ephraim</persName> and <persName ref="http://syriaca.org/person/42">Jacob of <placeName>Batnae</placeName></persName>.</note>
+              <note>It is divided into two parts.</note>
               <msItem xml:id="b1" n="2" defective="true">
                 <locus to="88b" from="1"/>
                 <title xml:lang="en">Part 1</title>
-                <finalRubric xml:lang="syr">ܫܠܡ̣ܬ݀ ܦܠܓܘܬܐ ܩܕܡܝܬܐ ܕܟܬܒܐ ܗܢܐ ܡ̇ܥܕܥܕܢܐ
-                                    ܕܚܘܕܪܐ ܕܫ̇ܢܬܐ.<locus from="88b"/>
-                </finalRubric>
+                <finalRubric xml:lang="syr"><locus from="88b"/>ܫܠܡ̣ܬ݀ ܦܠܓܘܬܐ ܩܕܡܝܬܐ ܕܟܬܒܐ ܗܢܐ ܡ̇ܥܕܥܕܢܐ ܕܚܘܕܪܐ ܕܫ̇ܢܬܐ</finalRubric>
                 <msItem xml:id="c1" n="3">
-                  
-                  <title xml:lang="en">The Consecration of the
-                                        Church</title>
-                  
-                  <incipit xml:lang="syr">ܛܟܣ̣ܐ ܩ̈ܠܐــ .ܡ̇ܢ ܩܕܡܝܐ ܕܥܠ ܩܘܕܫ
-                                            ܥܕܬܐ<locus from="1b"/>
-                  </incipit>
+                  <locus from="1b"/>
+                  <title xml:lang="en">The Consecration of the Church</title>
+                  <incipit xml:lang="syr">ܛܟܣ̣ܐ ܩ̈ܠܐــ .ܡ̇ܢ ܩܕܡܝܐ ܕܥܠ ܩܘܕܫ ܥܕܬܐ</incipit>
+                  <msItem>
+                    <locus from="1b"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܩ̈ܠܐ</rubric>
+                  </msItem>
                   <msItem xml:id="d1" n="4">
-                    
-                    <rubric xml:lang="syr">
-                      <locus from="2b"/>ܡܕܪ̈ܫܐ</rubric>
+                    <locus from="2b"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                   </msItem>
                 </msItem>
                 <msItem xml:id="c2" n="5">
-                  
+                  <locus from="3b"/>
                   <title xml:lang="en">The Annunciation of
                                             <persName>Zacharias</persName>
                   </title>
-                  <rubric xml:lang="syr">ܛܟܣ̣ܐ ܩ̈ܠܐــ .ܕܥܠ ܣܘܒܪܗ ܕܙܟܪܝܐ<locus from="3b"/>
-                  </rubric>
+                  <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܣܘܒܪܗ ܕܙܟܪܝܐ</rubric>
+                  <msItem>
+                    <locus from="3b"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܩ̈ܠܐ</rubric>
+                  </msItem>
                   <msItem xml:id="d2" n="6">
-                    
-                    <rubric xml:lang="syr">
-                      <locus from="4b"/>ܡܕܪ̈ܫܐ</rubric>
+                    <locus from="4b"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                   </msItem>
                 </msItem>
                 <msItem xml:id="c3" n="7">
-                  
-                  <title xml:lang="en">The Annunciation of the blessed
-                                            <persName>Virgin</persName>
-                  </title>
-                  <rubric xml:lang="syr">ܩ̈ܠܐــ .ܛܟܣ̣ܐ ܥܠ ܣܘܒܪܗ̇ ܕܝܠ̣ܕܬ݀
-                                            ܐܠܗܐ<locus from="5b"/>
-                  </rubric>
+                  <locus from="5b"/>
+                  <title xml:lang="en">The Annunciation of <persName>the blessed Virgin</persName></title>
+                  <rubric xml:lang="syr">ܛܟܣ̣ܐ ܥܠ ܣܘܒܪܗ̇ ܕܝܠ̣ܕܬ݀ ܐܠܗܐ</rubric>
+                  <msItem>
+                    <locus from="5b"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܩ̈ܠܐ</rubric>
+                  </msItem>
                   <msItem xml:id="d3" n="8">
-                    
-                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ<locus from="6b"/>
-                    </rubric>
+                    <locus from="6b"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                   </msItem>
                 </msItem>
                 <msItem xml:id="c4" n="9">
-                  
-                  <title xml:lang="en">The Visit of
-                                            <persName>Mary</persName> to
-                                            <persName>Elisabeth</persName>
+                  <locus from="7b"/>
+                  <title xml:lang="en">The Visit of <persName>Mary</persName> to <persName>Elisabeth</persName>
                   </title>
-                  <rubric xml:lang="syr">
-                    <locus from="7b"/>ܛܟ̣ܣܐ ܕܡܙܐܠܬܐ
-                                        (sic) ܕܡܪܝܡ ܨܝܕ ܐܠܝܫܒܥ</rubric>
+                  <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܡܙܐܠܬܐ <foreign xml:lang="en">(sic)</foreign> ܕܡܪܝܡ ܨܝܕ ܐܠܝܫܒܥ</rubric>
                 </msItem>
                 <msItem xml:id="c5" n="10">
-                  
+                  <locus from="8b"/>
                   <title xml:lang="en">The Nativity of <persName>S. John
                                             the Baptist</persName>
                   </title>
-                  <rubric xml:lang="syr">
-                    <locus from="8b"/>ܩ̈ܠܐــ ܛܟ̣ܣܐ ܕܥܠ
-                                        ܡܘܠܕܗ ܕܝܘܚܢܢ</rubric>
+                  <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܥܠ ܡܘܠܕܗ ܕܝܘܚܢܢ</rubric>
+                  <msItem>
+                    <locus from="8b"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܩ̈ܠܐ</rubric>
+                  </msItem>
                   <msItem xml:id="d4" n="11">
-                    
-                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ<locus from="9b"/>
-                    </rubric>
+                    <locus from="9b"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                   </msItem>
                 </msItem>
                 <msItem xml:id="c6" n="12">
-                  
+                  <locus from="10b"/>
                   <title xml:lang="en">The Revelation of <persName>S.
                                             Joseph</persName>
                   </title>
-                  <rubric xml:lang="syr">ܡܥ̈ܢܝܬܐ ܕܥܠ ܓܠܝܢ̣ܐ<locus from="10b"/>
-                  </rubric>
+                  <rubric xml:lang="syr">ܡܥ̈ܢܝܬܐ ܕܥܠ ܓܠܝܢ̣ܐ</rubric>
                 </msItem>
                 <msItem xml:id="c7" n="13">
-                  
-                  <title xml:lang="en">The Nativity of our Lord</title>
-                  <rubric xml:lang="syr">ܡ̈ܥܝܢܬܐ ܩ̈ܠܐــ .ܕܥܠ ܥܐܕܐ ܩܕܝܫܐ ܕܝܠܕܗ
-                                            ܕܡܪܢ<locus from="12a"/>
-                  </rubric>
+                  <locus from="12a"/>
+                  <title xml:lang="en">The Nativity of <persName>our Lord</persName></title>
+                  <rubric xml:lang="syr">ܡ̈ܥܝܢܬܐ ܕܥܠ ܥܐܕܐ ܩܕܝܫܐ ܕܝܠܕܗ ܕܡܪܢ</rubric>
+                  <msItem>
+                    <locus from="12a"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܩ̈ܠܐ</rubric>
+                  </msItem>
                   <msItem xml:id="d5" n="14">
-                    
-                    <rubric xml:lang="syr">ܒܥ̈ܘܬܐ ܕܡܪܝ ܝܥܩܘܒ<locus from="16b"/>
-                    </rubric>
+                    <locus from="16b"/>
+                    <title xml:lang="en">Part 2</title>
+                    <rubric xml:lang="syr">ܒܥ̈ܘܬܐ ܕܡܪܝ ܝܥܩܘܒ</rubric>
                   </msItem>
                   <msItem xml:id="d6" n="15">
-                    
-                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ<locus from="17b"/>
-                    </rubric>
+                    <locus from="17b"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                   </msItem>
                   <msItem xml:id="d7" n="16">
-                    
-                    <title xml:lang="en">Canticle on
-                                                <persName>Mary</persName> and the
-                                                <persName>Magi</persName>
-                    </title>
-                    <rubric xml:lang="syr">ܣܘܓܝܬܐ ܕܥܠ ܡܪܝܡ ܘܡ̈ܓܘܫܐ<locus from="20b"/>
-                    </rubric>
+                    <locus from="20b"/>
+                    <title xml:lang="en">Canticle on <persName>Mary</persName> and the <persName>Magi</persName></title>
+                    <rubric xml:lang="syr">ܣܘܓܝܬܐ ܕܥܠ ܡܪܝܡ ܘܡ̈ܓܘܫܐ</rubric>
                   </msItem>
                 </msItem>
                 <msItem xml:id="c8" n="17">
-                  
-                  <title xml:lang="en">The Commemoration of the blessed
-                                        Virgin</title>
-                  <rubric xml:lang="syr">ܡ̈ܥܢܝܬܐ ܕܥܠ ܩܘ̈ܠܣܝܗ̇ ܕܝܠܕܬ݀ ܐܠܗܐ ــ
-                                            ܩ̈ܠܐ<locus from="21b"/>
-                  </rubric>
+                  <locus from="21b"/>
+                  <title xml:lang="en">The Commemoration of <persName>the blessed Virgin</persName></title>
+                  <rubric xml:lang="syr">ܡ̈ܥܢܝܬܐ ܕܥܠ ܩܘ̈ܠܣܝܗ̇ ܕܝܠܕܬ݀ ܐܠܗܐ</rubric>
+                  <msItem>
+                    <locus from="21b"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܩ̈ܠܐ</rubric>
+                  </msItem>
                   <msItem xml:id="d8" n="18">
-                    
-                    <rubric xml:lang="syr">
-                      <locus from="25a"/>ܒܥ̈ܘܬܐ ܕܡܪܝ
-                                            ܝܥܩܘܒ</rubric>
+                    <locus from="25a"/>
+                    <title xml:lang="en">Part 2</title>
+                    <rubric xml:lang="syr">ܒܥ̈ܘܬܐ ܕܡܪܝ ܝܥܩܘܒ</rubric>
                   </msItem>
                   <msItem xml:id="d9" n="19">
-                    
-                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ<locus from="25b"/>
-                    </rubric>
+                    <locus from="25b"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                   </msItem>
                   <msItem xml:id="d10" n="20">
-                    
-                    <title xml:lang="en">Canticles on the
-                                                <persName>Virgin</persName>
-                    </title>
-                    <rubric xml:lang="syr">ܣܘ̈ܓܝܬܐ ܥܠ ܝ̇ܠܕܬ݀ ܐܠܗܐ<locus from="27b"/>
-                    </rubric>
+                    <locus from="27b"/>
+                    <title xml:lang="en">Canticles on the <persName>Virgin</persName></title>
+                    <rubric xml:lang="syr">ܣܘ̈ܓܝܬܐ ܥܠ ܝ̇ܠܕܬ݀ ܐܠܗܐ</rubric>
                   </msItem>
                 </msItem>
                 <msItem xml:id="c9" n="21">
-                  
-                  <title xml:lang="en">The Massacre of the
-                                        Innocents</title>
-                  <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܝ̈ܠܘܕܐ ܕܩܛܠ ܐܝܪܘܕܝܘܣ<locus from="28b"/>
-                  </rubric>
+                  <locus from="28b"/>
+                  <title xml:lang="en">The Massacre of <persName>the Innocents</persName></title>
+                  <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܝ̈ܠܘܕܐ ܕܩܛܠ ܐܝܪܘܕܝܘܣ</rubric>
                 </msItem>
                 <msItem xml:id="c10" n="22">
-                  
-                  <title xml:lang="en">The Commemoration of
-                                            <persName>Basil</persName> and
-                                            <persName>Gregory</persName>
-                  </title>
-                  <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܩ̈ܕܝܫܐ ܛܒܝ̈ܒܐ ܒܣܝܠܝܘܣ
-                                            ܘܓܪܝܓܪܝܘܣ<locus from="30a"/>
-                  </rubric>
+                  <locus from="30a"/>
+                  <title xml:lang="en">The Commemoration of <persName>Basil</persName> and <persName>Gregory</persName></title>
+                  <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܩ̈ܕܝܫܐ ܛܒܝ̈ܒܐ ܒܣܝܠܝܘܣ ܘܓܪܝܓܪܝܘܣ</rubric>
                 </msItem>
                 <msItem xml:id="c11" n="23">
-                  
+                  <locus from="31a"/>
                   <title xml:lang="en">The Epiphany</title>
-                  <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܥܐܕܐ ܩܕܝܫܐ ܕܢܘ̈ܗܪܐ ܐ̇ܘܟܝܬ ܕܕܢܚܐ
-                                        ܦܪܘܩܝܐ ܕܡܪܢ ــ ܩ̈ܠܐ<locus from="31a"/>
-                  </rubric>
+                  <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܥܐܕܐ ܩܕܝܫܐ ܕܢܘ̈ܗܪܐ ܐ̇ܘܟܝܬ ܕܕܢܚܐ ܦܪܘܩܝܐ ܕܡܪܢ</rubric>
+                  <msItem>
+                    <locus from="31a"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܩ̈ܠܐ</rubric>
+                  </msItem>
                   <msItem xml:id="d11" n="24">
-                    
-                    <rubric xml:lang="syr">ܒܥ̈ܘܬܐ ܕܡܪܝ ܝܥܩܘܒ<locus from="35a"/>
-                    </rubric>
+                    <locus from="35a"/>
+                    <title xml:lang="syr">Part 2</title>
+                    <rubric xml:lang="syr">ܒܥ̈ܘܬܐ ܕܡܪܝ ܝܥܩܘܒ</rubric>
                   </msItem>
                   <msItem xml:id="d12" n="25">
-                    
-                    <rubric xml:lang="syr">
-                      <locus from="35b"/>ܡܕܪ̈ܫܐ</rubric>
+                    <locus from="35b"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                   </msItem>
                   <msItem xml:id="d13" n="26">
-                    
-                    <title xml:lang="en">Canticle on <persName>S. John
-                                                the Baptist</persName>
-                    </title>
-                    <rubric xml:lang="syr">ܣܘܓܝܬܐ ܕܥܠ ܡܪܝ ܝܘܚܢܢ<locus from="39a"/>
-                    </rubric>
+                    <locus from="39a"/>
+                    <title xml:lang="en">Canticle on <persName>S. John the Baptist</persName></title>
+                    <rubric xml:lang="syr">ܣܘܓܝܬܐ ܕܥܠ ܡܪܝ ܝܘܚܢܢ</rubric>
                   </msItem>
                 </msItem>
                 <msItem xml:id="c12" n="27">
-                  
+                  <locus from="40a"/>
                   <title xml:lang="en">The Decollation of <persName>S. John
                                             the Baptist</persName>
                   </title>
-                  <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܦܣ̣ܩ ܪܝܫܗ ܕܝܘܚܢܢ ܡܥܡܕܢܐــ
-                                            ܩ̈ܠܐ<locus from="40a"/>
-                  </rubric>
+                  <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܦܣ̣ܩ ܪܝܫܗ ܕܝܘܚܢܢ ܡܥܡܕܢܐ</rubric>
+                  <msItem>
+                    <locus from="40a"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܩ̈ܠܐ</rubric>
+                  </msItem>
                   <msItem xml:id="d14" n="28">
-                    
-                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ<locus from="41a"/>
-                    </rubric>
+                    <locus from="41a"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                   </msItem>
                   <msItem xml:id="d15" n="29">
-                    
-                    <rubric xml:lang="syr">ܣܘܓܝܬܐ<locus from="42a"/>
-                    </rubric>
+                    <locus from="42a"/>
+                    <title xml:lang="en">Canticle</title>
+                    <rubric xml:lang="syr">ܣܘܓܝܬܐ</rubric>
                   </msItem>
                 </msItem>
                 <msItem xml:id="c13" n="30">
-                  
-                  <title xml:lang="en">The Commemoration of <persName>S.
-                                            Stephen</persName>
-                  </title>
-                  <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܩܕܝܫܐ ܘܣܗܕܐ ܐܣܛܦܢܘܣ.<locus from="42b"/>
-                  </rubric>
+                  <locus from="42b"/>
+                  <title xml:lang="en">The Commemoration of <persName>S. Stephen</persName></title>
+                  <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܩܕܝܫܐ ܘܣܗܕܐ ܐܣܛܦܢܘܣ.</rubric>
                 </msItem>
                 <msItem xml:id="c14" n="31">
-                  
+                  <locus from="44a"/>
                   <title xml:lang="en">
                     <persName>S. Simeon</persName> and
                                         the Presentation</title>
-                  <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܥܠ ܫܡܥܘܢ ܣܒܐ ܘܥܠ ܡܥܠܬܗ ܕܡܪܢ
-                                        ܠܗܝܟܠܐ.ــ ܩ̈ܠܐ<locus from="44a"/>
-                  </rubric>
+                  <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܥܠ ܫܡܥܘܢ ܣܒܐ ܘܥܠ ܡܥܠܬܗ ܕܡܪܢ ܠܗܝܟܠܐ</rubric>
+                  <msItem>
+                    <locus from="44a"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܩ̈ܠܐ</rubric>
+                  </msItem>
                   <msItem xml:id="d16" n="32">
-                    
-                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ<locus from="44b"/>
-                    </rubric>
+                    <locus from="44b"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                   </msItem>
                 </msItem>
                 <msItem xml:id="c15" n="33">
-                  
-                  <title xml:lang="en">The Commemoration of
-                                            <persName>Bar-saumā</persName>
-                  </title>
-                  <rubric xml:lang="syr">ܩ̈ܠܐ ــ ܛܟܣ̣ܐ ܕܥܠ ܩܕܝܫܐ ܡܪܝ ܒܪܨܘܡܐ.<locus from="45b"/>
-                  </rubric>
+                  <locus from="45b"/>
+                  <title xml:lang="en">The Commemoration of <persName>Bar-saumā</persName></title>
+                  <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܩܕܝܫܐ ܡܪܝ ܒܪܨܘܡ</rubric>
+                  <msItem>
+                    <locus from="45b"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܩ̈ܠܐ</rubric>
+                  </msItem>
                   <msItem xml:id="d17" n="34">
-                    
-                    <rubric xml:lang="syr">
-                      <locus from="46b"/>ܡܕܪ̈ܫܐ</rubric>
+                    <locus from="46b"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                   </msItem>
                 </msItem>
                 <msItem xml:id="c16" n="35">
-                  
-                  <author ref="http://syriaca.org/person/51">Severus</author>
-                  <title xml:lang="en">The Commemoration of
-                                            <persName>Severus</persName>
+                  <locus from="47b"/>
+                  <title xml:lang="en">The Commemoration of <persName>Severus</persName>
                   </title>
-                  <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܩܕܝܫܐ ܡܪܝ ܣܐܘܝܪܐ ܦܐܛܪܝܪܟܐ
-                                            ܕܐܢܛܝܘܟܝܐ<locus from="47b"/>
-                  </rubric>
+                  <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܩܕܝܫܐ ܡܪܝ ܣܐܘܝܪܐ ܦܐܛܪܝܪܟܐ ܕܐܢܛܝܘܟܝܐ</rubric>
                 </msItem>
                 <msItem xml:id="c17" n="36">
-                  
-                  <title xml:lang="en">The Wedding at
-                                            <placeName>Cana</placeName> of
-                                            <placeName>Galilee</placeName>
-                  </title>
-                  <rubric xml:lang="syr">ܛܟܣܐ ܥܠ ܐܬܐ ܗ̇ܝ ܕܒܩܛܢܐ ܐ̇ܘܟܝܬ ܡܫܬܘܬܐ ܕܥܒܕ
-                                        ܡܪܢ. ܡ̇ܫܬܡܠܐ ܒܢܓܗ ܚܕܒܫܒܐ ܕܥܠ̣ܠ ܨܘܡܐ<locus from="48b"/>
-                  </rubric>
+                  <locus from="48b"/>
+                  <title xml:lang="en">The Wedding at <placeName>Cana</placeName> of <placeName>Galilee</placeName></title>
+                  <rubric xml:lang="syr">ܛܟܣܐ ܥܠ ܐܬܐ ܗ̇ܝ ܕܒܩܛܢܐ ܐ̇ܘܟܝܬ ܡܫܬܘܬܐ ܕܥܒܕ ܡܪܢ. ܡ̇ܫܬܡܠܐ ܒܢܓܗ ܚܕܒܫܒܐ ܕܥܠ̣ܠ ܨܘܡܐ</rubric>
                 </msItem>
                 <msItem xml:id="c18" n="37" defective="true">
-                  
+                  <locus from="49"/>
                   <title xml:lang="en">Lent</title>
                   <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܨܘܡܐ ܩܕܝܫܐ ܕܐܪ̈ܒܥܝܢ</rubric>
                   <msItem xml:id="d18" n="38" defective="true">
                     <locus from="49b"/>
-                    <title xml:lang="en">Of the services for the first
-                                            week only a small fragment remains</title>
+                    <title xml:lang="en">Services for the first week</title>
+                    <note>Of these only a small fragment remains.</note>
                   </msItem>
                   <msItem xml:id="d19" n="39" defective="true">
                     <locus from="50a"/>
-                    <title xml:lang="en">The services for the second week
-                                            are imperfect at the beginning</title>
+                    <title xml:lang="en">Services for the second week</title>
+                    <note>These are imperfect at the beginning.</note>
                   </msItem>
                   <msItem xml:id="d20" n="40">
                     <locus from="55b"/>
@@ -374,25 +356,24 @@
                   </msItem>
                 </msItem>
                 <msItem xml:id="c19" n="44">
-                  <locus from="79b"/>
-                  <title xml:lang="en">The Commemoration of the forty
-                                        Martyrs</title>
+                  <locus from="79b" to="88b"/>
+                  <title xml:lang="en">The Commemoration of <persName>the forty
+                                        Martyrs</persName></title>
                   <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܐܪ̈ܒܥܝܢ ܣܗ̈ܕܐ ܩ̈ܕܝܫܐ</rubric>
                 </msItem>
                 <msItem xml:id="c20" n="45">
                   <locus from="80b"/>
-                  <title xml:lang="en">Palm Sunday and the preceding
-                                        week</title>
+                  <title xml:lang="en">Palm Sunday and the preceding week</title>
                   <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܫܒܬܐ ܩܕܝܫܬܐ ܕܐܘ̈ܫܥܢܐ</rubric>
                   <msItem xml:id="d24" n="46">
-                    
-                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ<locus from="87b"/>
-                    </rubric>
+                    <locus from="87b"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                   </msItem>
                   <msItem xml:id="d25" n="47">
-                    
-                    <rubric xml:lang="syr">ܣܘܓܝܬܐ<locus from="87b"/>
-                    </rubric>
+                    <locus from="87b" to="88b"/>
+                    <title xml:lang="en">Canticle</title>
+                    <rubric xml:lang="syr">ܣܘܓܝܬܐ</rubric>
                   </msItem>
                 </msItem>
               </msItem>
@@ -400,410 +381,369 @@
                 <locus to="177a" from="88b"/>
                 <title xml:lang="en">Part 2</title>
                 <msItem xml:id="c21" n="49">
-                  
+                  <locus from="88"/>
                   <title xml:lang="en">Passion (or Holy) Week</title>
-                  <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܫܒܬܐ ܩܕܝܫܬܐ ܕܚܫܗ
-                                        ܕܦܪܘܩܢ</rubric>
+                  <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܫܒܬܐ ܩܕܝܫܬܐ ܕܚܫܗ ܕܦܪܘܩܢ</rubric>
                   <msItem xml:id="d26" n="50">
                     <locus from="88b"/>
                     <title xml:lang="en">Monday</title>
                     <msItem xml:id="e1" n="51">
-                      
-                      <rubric xml:lang="syr">ܡܕܪ̈ܫܐ<locus from="91b"/>
-                      </rubric>
+                      <locus from="91b"/>
+                      <title xml:lang="en">Hymns</title>
+                      <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                     </msItem>
                   </msItem>
                   <msItem xml:id="d27" n="52">
                     <locus from="94b"/>
                     <title xml:lang="en">Tuesday</title>
                     <msItem xml:id="e2" n="53">
-                      
-                      <rubric xml:lang="syr">ܡܕܪ̈ܫܐ<locus from="97b"/>
-                      </rubric>
+                      <locus from="97b"/>
+                      <title xml:lang="en">Hymns</title>
+                      <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                     </msItem>
                   </msItem>
                   <msItem xml:id="d28" n="54">
                     <locus from="101a"/>
                     <title xml:lang="en">Wednesday</title>
                     <msItem xml:id="e3" n="55">
-                      
-                      <rubric xml:lang="syr">
-                        <locus from="104b"/>ܡܕܪ̈ܫܐ</rubric>
+                      <locus from="104b"/>
+                      <title xml:lang="en">Hymns</title>
+                      <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                     </msItem>
                   </msItem>
                   <msItem xml:id="d29" n="56">
                     <locus from="107b"/>
                     <title xml:lang="en">Thursday</title>
                     <msItem xml:id="e4" n="57">
-                      
-                      <title xml:lang="en">Canticle on
-                                                  <persName>Judas</persName> the traitor</title>
-                      <rubric xml:lang="syr">ܣܘܓܝܬܐ ܕܥܠ ܝܘܕܐ ܡ̇ܫܠܡܢܐ<locus from="109a"/>
-                      </rubric>
+                      <locus from="109a"/>
+                      <title xml:lang="en">Canticle on <persName>Judas the traitor</persName></title>
+                      <rubric xml:lang="syr">ܣܘܓܝܬܐ ܕܥܠ ܝܘܕܐ ܡ̇ܫܠܡܢܐ</rubric>
                     </msItem>
                     <msItem xml:id="e5" n="58">
-                      
-                      <rubric xml:lang="syr">ܣܘܓܝܬܐ<locus from="110a"/>
-                      </rubric>
+                      <locus from="110a"/>
+                      <title xml:lang="en">Canticle</title>
+                      <rubric xml:lang="syr">ܣܘܓܝܬܐ</rubric>
                     </msItem>
                     <msItem xml:id="e6" n="59">
-                      
+                      <locus from="111a"/>
                       <title xml:lang="en">Canticle on
                                                   <persName>Abraham</persName> and
                                                   <persName>Isaac</persName>
                       </title>
-                      <rubric xml:lang="syr">ܣܘܓܝܬܐ ܕܥܠ ܐܒܪܗܡ ܘܐܝܣܚܩ<locus from="111a"/>
-                      </rubric>
+                      <rubric xml:lang="syr">ܣܘܓܝܬܐ ܕܥܠ ܐܒܪܗܡ ܘܐܝܣܚܩ</rubric>
                     </msItem>
                     <msItem xml:id="e7" n="60">
-                      
-                      <rubric xml:lang="syr">ܡܕܪ̈ܫܐ<locus from="112a"/>
-                      </rubric>
+                      <locus from="112a"/>
+                      <title xml:lang="en">Hymns</title>
+                      <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                     </msItem>
                     <msItem xml:id="e8" n="61">
-                      
+                      <locus from="114a"/>
                       <title xml:lang="en">Order of the Consecration of
                                                 the Chrism</title>
-                      <rubric xml:lang="syr">ܛܟܣܐ ܕܩܘܕܫ ܡܘܪܘܢ ܕܐܝܬ܏ܘ ܕܦܠܓܗ
-                                                  ܕܝܘܡܐ<locus from="114a"/>
+                      <rubric xml:lang="syr">ܛܟܣܐ ܕܩܘܕܫ ܡܘܪܘܢ ܕܐܝܬ܏ܘ ܕܦܠܓܗ ܕܝܘܡܐ
                       </rubric>
                     </msItem>
                     <msItem xml:id="e9" n="62">
-                      
+                      <locus from="115a"/>
                       <title xml:lang="en">Order of the Washing (of
                                                 Feet)</title>
-                      <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܫܝܓܬܐ ܕܝܠܗ ܕܝܘܡܐ ܕܡ̇ܫܬܡ̣ܠܐ
-                                                ܒܥܕܢܐ ܕܬܫ̈ܥ ܫ̈ܥܝܢ<locus from="115a"/>
-                      </rubric>
+                      <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܫܝܓܬܐ ܕܝܠܗ ܕܝܘܡܐ ܕܡ̇ܫܬܡ̣ܠܐ ܒܥܕܢܐ ܕܬܫ̈ܥ ܫ̈ܥܝܢ</rubric>
                     </msItem>
                   </msItem>
                   <msItem xml:id="d30" n="63">
                     <locus from="115b"/>
                     <title xml:lang="en">Friday</title>
                     <msItem xml:id="e10" n="64">
-                      <locus to="119a" from="117b"/>
+                      <locus from="117b"/>
+                      <title xml:lang="en">Canticles</title>
+                      <rubric xml:lang="syr">ܣܘ̈ܓܝܬܐ</rubric>
+                    </msItem>
+                    <msItem>
+                      <locus from="118a"/>
+                      <title xml:lang="en">Canticles</title>
+                      <rubric xml:lang="syr">ܣܘ̈ܓܝܬܐ</rubric>
+                    </msItem>
+                    <msItem>
+                      <locus from="119a"/>
+                      <title xml:lang="en">Canticles</title>
                       <rubric xml:lang="syr">ܣܘ̈ܓܝܬܐ</rubric>
                     </msItem>
                     <msItem xml:id="e11" n="65">
-                      
-                      <title xml:lang="en">Madrasha on the apostasy of
+                      <locus from="120a"/>
+                      <title xml:lang="en">Madrāshā on the apostasy of
                                                   <persName>Simon Peter</persName>
                       </title>
-                      <rubric xml:lang="syr">ܡܕܪ̈ܫܐ ܕܥܠ ܟܦܘܪܝܗ ܕܫܡܥܘܢ<locus from="120a"/>
+                      <rubric xml:lang="syr">ܡܕܪ̈ܫܐ ܕܥܠ ܟܦܘܪܝܗ ܕܫܡܥܘܢ
                       </rubric>
                     </msItem>
                     <msItem xml:id="e12" n="66">
-                      <locus to="122b" from="120b"/>
-                      <rubric xml:lang="syr">ܡܕܪ̈ܫܐ<locus from="120b"/>
-                      </rubric>
+                      <locus from="120b"/>
+                      <title xml:lang="en">Hymns</title>
+                      <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
+                    </msItem>
+                    <msItem>
+                      <locus from="122b"/>
+                      <title xml:lang="en">Hymns</title>
+                      <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                     </msItem>
                     <msItem xml:id="e13" n="67">
-                      
+                      <locus from="122b"/>
                       <title xml:lang="en">Canticle on the apostasy of
                                                   <persName>Simon Peter</persName>
                       </title>
-                      <rubric xml:lang="syr">ܣܘܓܝܬܐ ܕܥܠ ܟܦܘܪܝܗ ܕܫܡܥܘܢ<locus from="122b"/>
-                      </rubric>
+                      <rubric xml:lang="syr">ܣܘܓܝܬܐ ܕܥܠ ܟܦܘܪܝܗ ܕܫܡܥܘܢ</rubric>
                     </msItem>
                     <msItem xml:id="e14" n="68">
-                      <locus to="125a" from="123b"/>
+                      <locus from="123b"/>
+                      <title xml:lang="en">Canticle</title>
+                      <rubric xml:lang="syr">ܣܘܓܝܬܐ</rubric>
+                    </msItem>
+                    <msItem>
+                      <locus from="125a"/>
+                      <title xml:lang="en">Canticle</title>
                       <rubric xml:lang="syr">ܣܘܓܝܬܐ</rubric>
                     </msItem>
                     <msItem xml:id="e15" n="69">
-                      
-                      <rubric xml:lang="syr">ܡܕܪ̈ܫܐ<locus from="125b"/>
-                      </rubric>
+                      <locus from="125b"/>
+                      <title xml:lang="en">Hymns</title>
+                      <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                     </msItem>
                     <msItem xml:id="e16" n="70">
-                      
-                      <title xml:lang="en">Canticle on the two
-                                                thieves</title>
-                      <rubric xml:lang="syr">ܣܘܓܝܬܐ̇ ܥܠ ܗ̇ܢܘܢ ܬܪ̈ܝܢ
-                                                  ܓܝ̈ܣܐ<locus from="127a"/>
-                      </rubric>
+                      <locus from="127a"/>
+                      <title xml:lang="en">Canticle on <persName>the two thieves</persName></title>
+                      <rubric xml:lang="syr">ܣܘܓܝܬܐ̇ ܥܠ ܗ̇ܢܘܢ ܬܪ̈ܝܢ ܓܝ̈ܣܐ</rubric>
                     </msItem>
                     <msItem xml:id="e17" n="71">
-                      
-                      <rubric xml:lang="syr">ܡܕܪ̈ܫܐ<locus from="128a"/>
-                      </rubric>
-                      <msItem xml:id="f1" n="72">
-                        
-                        <title xml:lang="en">Order of the Adoration
-                                                  of the holy Cross</title>
-                        <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܥܠ ܣܓܕܬܐ ܕܨܠܝܒܐ
-                                                  ܩܕܝܫܐ<locus from="128b"/>
-                        </rubric>
-                      </msItem>
+                      <locus from="128a"/>
+                      <title xml:lang="en">Hymns</title>
+                      <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                     </msItem>
-                    <msItem xml:id="e18" n="73">
-                      
-                      <title xml:lang="en">Saturday</title>
-                      <rubric xml:lang="syr">
-                        <locus from="129a"/>ܛܟ̣ܣܐ
-                                                ܕܫܒܬܐ ܐܘܿܟܝܬܐ ܕܡܚܬܬܗ ܕܡܪܢ ܠܫܝܘܠ</rubric>
-                      <msItem xml:id="f2" n="74">
-                        
-                        <title xml:lang="en">Canticle on the
-                                                  <persName>Cherub</persName> and the
-                                                  <persName>Thief</persName>
-                        </title>
-                        <rubric xml:lang="syr">ܣܘܓܝܬܐ ܕܥܠ ܟܪܘܒܐ ܘܥܠ
-                                                  ܓ݁ܝܣ̣ܐ<locus from="132b"/>
-                        </rubric>
-                      </msItem>
-                      <msItem xml:id="f3" n="75">
-                        
-                        <title xml:lang="en">Canticle on the Descent
-                                                  of our <persName>Lord</persName> into Hell</title>
-                        <rubric xml:lang="syr">ܣܘܓܝܬܐ ܐܚܪܬܐ ܕܥܠ ܡܚܬܗ(sic)
-                                                  ܕܡܪܢ ܠܫܝܘܠ<locus from="133b"/>
-                        </rubric>
-                      </msItem>
+                    <msItem xml:id="f1" n="72">
+                      <locus from="128b"/>
+                      <title xml:lang="en">Order of the Adoration
+                        of <persName>the holy Cross</persName></title>
+                      <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܥܠ ܣܓܕܬܐ ܕܨܠܝܒܐ
+                        ܩܕܝܫܐ</rubric>
                     </msItem>
                   </msItem>
+                  <msItem xml:id="e18" n="73">
+                    <locus from="129a"/>
+                    <title xml:lang="en">Saturday</title>
+                    <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܫܒܬܐ ܐܘܿܟܝܬܐ ܕܡܚܬܬܗ ܕܡܪܢ ܠܫܝܘܠ</rubric>
+                    <msItem xml:id="f2" n="74">
+                      <locus from="132b"/>
+                      <title xml:lang="en">Canticle on the
+                        <persName>Cherub</persName> and the
+                        <persName>Thief</persName>
+                      </title>
+                      <rubric xml:lang="syr">ܣܘܓܝܬܐ ܕܥܠ ܟܪܘܒܐ ܘܥܠ ܓ݁ܝܣ̣ܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="f3" n="75">
+                      <locus from="133b"/>
+                      <title xml:lang="en">Canticle on the Descent
+                        of <persName>our Lord</persName> into <placeName>Hell</placeName></title>
+                      <rubric xml:lang="syr">ܣܘܓܝܬܐ ܐܚܪܬܐ ܕܥܠ ܡܚܬܗ <foreign xml:lang="en">(sic)</foreign> ܕܡܪܢ ܠܫܝܘܠ</rubric>
+                    </msItem>
+                  </msItem>
+                </msItem>
                   <msItem xml:id="d31" n="76">
                     <locus from="136a"/>
-                    <title xml:lang="en">Easter Sunday and the following
-                                            week</title>
-                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܚܕܒܫܒܐ ܩܕܝܫܐ ܕܩܝܡ̣ܬܐ<locus from="136a"/>
-                    </rubric>
+                    <title xml:lang="en">Easter Sunday and the following week</title>
+                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܚܕܒܫܒܐ ܩܕܝܫܐ ܕܩܝܡ̣ܬܐ</rubric>
                     <msItem xml:id="e19" n="77">
-                      
-                      <rubric xml:lang="syr">ܡܕܪ̈ܫܐ ܕܩܝܡ̣ܬܐ<locus from="138a"/>
+                      <locus from="138a"/>
+                      <title xml:lang="en">Hymns</title>
+                      <rubric xml:lang="syr">ܡܕܪ̈ܫܐ ܕܩܝܡ̣ܬܐ
                       </rubric>
                     </msItem>
                   </msItem>
                   <msItem xml:id="d32" n="78">
                     <locus from="146b"/>
                     <title xml:lang="en">New (or Low) Sunday</title>
-                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܚܕܒܫܒܐ ܚ̣ܕܬܐ<locus from="146b"/>
-                    </rubric>
+                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܚܕܒܫܒܐ ܚ̣ܕܬܐ</rubric>
                   </msItem>
                   <msItem xml:id="d33" n="79">
                     <locus from="148a"/>
-                    <title xml:lang="en">The Thursday of the Ascension of
-                                            our <persName>Lord</persName>
+                    <title xml:lang="en">The Thursday of the Ascension of <persName>our Lord</persName>
                     </title>
-                    <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܚܡܫܐ ܒܫܒܐ ܕܣܘܠܩܐ<locus from="148a"/>
-                    </rubric>
+                    <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܚܡܫܐ ܒܫܒܐ ܕܣܘܠܩܐ</rubric>
                   </msItem>
                   <msItem xml:id="d34" n="80">
                     <locus from="150a"/>
                     <title xml:lang="en">Pentecost or Whitsun Day</title>
-                    <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܥܠ ܚܕܒܫܒܐ ܩܕܝܫܐ
-                                                ܕܦܢܛܝܩܘܣܛ<locus from="150a"/>
-                    </rubric>
+                    <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܥܠ ܚܕܒܫܒܐ ܩܕܝܫܐ ܕܦܢܛܝܩܘܣܛ</rubric>
                   </msItem>
                   <msItem xml:id="d35" n="81">
                     <locus from="151a"/>
                     <title xml:lang="en">The Friday of Gold</title>
-                    <rubric xml:lang="syr">
-                      <locus from="151a"/>ܛܟ̣ܣܐ ܕܥܠ
-                                            ܥܪܘܒܬܐ ܕܕܗܒܐ. ܐܘܿܟܝܬ ܥܠ ܫ̈ܠܝܚܐ ܩ̈ܕܝܫܐ ܓܘܢܐܝܬ</rubric>
+                    <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܥܠ ܥܪܘܒܬܐ ܕܕܗܒܐ. ܐܘܿܟܝܬ ܥܠ ܫ̈ܠܝܚܐ ܩ̈ܕܝܫܐ ܓܘܢܐܝܬ</rubric>
                   </msItem>
                   <msItem xml:id="d36" n="82">
                     <locus from="152a"/>
                     <title xml:lang="en">The Commemoration of
                                                 <persName>S. Peter</persName>
                     </title>
-                    <rubric xml:lang="syr">
-                      <locus from="152a"/>ܛܟ̣ܣܐ ܕܥܠ
-                                            ܫܡܥܘܢ ܟܐܦܐ</rubric>
+                    <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܥܠ ܫܡܥܘܢ ܟܐܦܐ</rubric>
                   </msItem>
                   <msItem xml:id="d37" n="83">
-                    
+                    <locus from="153a"/>
                     <title xml:lang="en">Of <persName>S. John the
                                                 Evangelist</persName>
                     </title>
-                    <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܝܘܚܢܢ ܐܘܢܓܠܝܣܛܐ<locus from="153a"/>
-                    </rubric>
+                    <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܝܘܚܢܢ ܐܘܢܓܠܝܣܛܐ</rubric>
                   </msItem>
                   <msItem xml:id="d38" n="84">
                     <locus from="154a"/>
                     <title xml:lang="en">Of <persName>S.
                                             Paul</persName>
                     </title>
-                    <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܦܘܠܘܣ ܫܠܝܚܐ<locus from="154a"/>
-                    </rubric>
+                    <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܦܘܠܘܣ ܫܠܝܚܐ</rubric>
                   </msItem>
                   <msItem xml:id="d39" n="85">
                     <locus from="154b"/>
                     <title xml:lang="en">Of <persName>S.
                                                 Thomas</persName>
                     </title>
-                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܬܐܘܡܐ ܫܠܝܚܐ<locus from="154b"/>
-                    </rubric>
+                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܬܐܘܡܐ ܫܠܝܚܐ</rubric>
                   </msItem>
                   <msItem xml:id="d40" n="86">
                     <locus from="155b"/>
-                    <title xml:lang="en">The Decease of the blessed
-                                                <persName>Virgin</persName>
+                    <title xml:lang="en">The Decease of <persName>the blessed Virgin</persName>
                     </title>
-                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܡܦܩܢܗ̇ ܕܩܕܝܫܬܐ ܝ̇ܠܕܬ݀ ܐܠܗܐ
-                                                ܡܐܪܝܡ<locus from="155b"/>
-                    </rubric>
+                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܡܦܩܢܗ̇ ܕܩܕܝܫܬܐ ܝ̇ܠܕܬ݀ ܐܠܗܐ ܡܐܪܝܡ</rubric>
                     <msItem xml:id="e20" n="87">
-                      
-                      <rubric xml:lang="syr">
-                        <locus from="156b"/>ܡܕܪ̈ܫܐ</rubric>
+                      <locus from="156b"/>
+                      <title xml:lang="en">Hymns</title>
+                      <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                     </msItem>
                   </msItem>
                   <msItem xml:id="d41" n="88">
                     <locus from="157b"/>
-                    <title xml:lang="en">The Invention of the holy
-                                            Cross</title>
-                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܐܢܩܐܢܝܐ: ܐܘܿܟܝܬ ܚ̇ܘܕܬܐ
-                                            ܕܨܠܝܒܐ ܦܪܘܩܝܐ<locus from="157b"/>
-                    </rubric>
+                    <title xml:lang="en">The Invention of <persName>the holy Cross</persName></title>
+                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܐܢܩܐܢܝܐ: ܐܘܿܟܝܬ ܚ̇ܘܕܬܐ ܕܨܠܝܒܐ ܦܪܘܩܝܐ</rubric>
                   </msItem>
                   <msItem xml:id="d42" n="89">
                     <locus from="159a"/>
-                    <author>George</author>
                     <title xml:lang="en">The Commemoration of
                                                 <persName>George</persName>
                     </title>
-                    <rubric xml:lang="syr">
-                      <locus from="159a"/>ܛܟܣ̣ܐ ܕܥܠ
-                                            ܩܕܝܫܐ ܘܣܗܕܐ ܡܪܝ ܓܘܪܓܝܣ</rubric>
+                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܩܕܝܫܐ ܘܣܗܕܐ ܡܪܝ ܓܘܪܓܝܣ</rubric>
                   </msItem>
                   <msItem xml:id="d43" n="90">
                     <locus from="160a"/>
-                    <title xml:lang="en">Of <persName>Quiricus</persName>
-                                            or <persName>Cyriacus</persName>
+                    <title xml:lang="en">Of <persName>Quiricus or Cyriacus</persName>
                     </title>
-                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܡܪܝ ܩܘܪܝܩܘܣ<locus from="160a"/>
-                    </rubric>
+                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܡܪܝ ܩܘܪܝܩܘܣ</rubric>
                   </msItem>
                   <msItem xml:id="d44" n="91">
                     <locus from="160b"/>
-                    <title xml:lang="en">Of the Maccabees
-                                                (<persName>Shamūnī</persName> and her sons)</title>
-                    <rubric xml:lang="syr">ܛܟܣܐ ܕܫܡܘܢܝ ܘܒܢ̈ܝܗ<locus from="160b"/>
-                    </rubric>
+                    <title xml:lang="en">Of the <persName>Maccabees
+                                                (<persName>Shamūnī</persName> and her sons)</persName></title>
+                    <rubric xml:lang="syr">ܛܟܣܐ ܕܫܡܘܢܝ ܘܒܢ̈ܝܗ</rubric>
                   </msItem>
                   <msItem xml:id="d45" n="92">
                     <locus from="161a"/>
                     <title xml:lang="en">Of
                                             <persName>Domitius</persName>
                     </title>
-                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܡܪܝ ܕܝܡܛ<locus from="161a"/>
-                    </rubric>
+                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܡܪܝ ܕܝܡܛ</rubric>
                   </msItem>
                   <msItem xml:id="d46" n="93">
                     <locus from="162b"/>
                     <title xml:lang="en">Of <persName>Simeon
                                                 Stylites</persName>
                     </title>
-                    <rubric xml:lang="syr">ܛܟܣܐ ܕܡܪܝ ܫܡܥܘܢ ܕܐܣܛܘܢܗ<locus from="162b"/>
-                    </rubric>
+                    <rubric xml:lang="syr">ܛܟܣܐ ܕܡܪܝ ܫܡܥܘܢ ܕܐܣܛܘܢܗ</rubric>
                   </msItem>
                   <msItem xml:id="d47" n="94">
                     <locus from="163b"/>
                     <title xml:lang="en">Of <persName>Sergius</persName>
                                             and <persName>Bacchus</persName>
                     </title>
-                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܣܪܓܝܣ ܘܒܟܘܣ<locus from="163b"/>
-                    </rubric>
+                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܣܪܓܝܣ ܘܒܟܘܣ</rubric>
                   </msItem>
                   <msItem xml:id="d48" n="95">
                     <locus from="164b"/>
                     <title xml:lang="en">Of <persName>Sophia</persName>
-                                            and her daughters</title>
-                    <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܩܕܝܫܬܐ ܣܘܦܝܐܐ ܘܒܢ̈ܬܗ̇<locus from="164b"/>
-                    </rubric>
+                                            and <persName>her daughters</persName></title>
+                    <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܩܕܝܫܬܐ ܣܘܦܝܐܐ ܘܒܢ̈ܬܗ̇</rubric>
                   </msItem>
                   <msItem xml:id="d49" n="96">
                     <locus from="165b"/>
                     <title xml:lang="en">Of <persName>Barbara</persName>
                                             and <persName>Juliana</persName>
                     </title>
-                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܒܪܒܪܐ ܘܝܘܠܝܢܐܐ<locus from="165b"/>
-                    </rubric>
+                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܒܪܒܪܐ ܘܝܘܠܝܢܐܐ</rubric>
                   </msItem>
                   <msItem xml:id="d50" n="97">
                     <locus from="167b"/>
                     <title xml:lang="en">Of <persName>Mary
                                                 Magdalene</persName>
                     </title>
-                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܡܪܝܡ ܡܓܕܠܝܬܐ<locus from="167b"/>
-                    </rubric>
+                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܡܪܝܡ ܡܓܕܠܝܬܐ</rubric>
                   </msItem>
                   <msItem xml:id="d51" n="98">
                     <locus from="168b"/>
                     <title xml:lang="en">Of <persName>Cosmas</persName>
                                             and <persName>Damianus</persName>
                     </title>
-                    <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܩܕܝ̈ܫܐ ܩܘܙܡܐ ܘܕܘܡܝܢܐ<locus from="168b"/>
-                    </rubric>
+                    <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܩܕܝ̈ܫܐ ܩܘܙܡܐ ܘܕܘܡܝܢܐ</rubric>
                   </msItem>
                   <msItem xml:id="d52" n="99">
                     <locus from="169a"/>
                     <title xml:lang="en">Of <persName>Elias the
                                                 Prophet</persName>
                     </title>
-                    <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܡܪܝ ܐܠܝܐ ܢܒܝܐ<locus from="169a"/>
-                    </rubric>
+                    <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܡܪܝ ܐܠܝܐ ܢܒܝܐ</rubric>
                   </msItem>
                   <msItem xml:id="d53" n="100">
                     <locus from="170a"/>
                     <title xml:lang="en">Of
                                             <persName>Romanus</persName>
                     </title>
-                    <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܡܪܝ ܪܘܡܢܘܣ<locus from="170a"/>
-                    </rubric>
+                    <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܡܪܝ ܪܘܡܢܘܣ</rubric>
                   </msItem>
                   <msItem xml:id="d54" n="101">
                     <locus from="171a"/>
-                    <title xml:lang="en">Of any one Saint</title>
-                    <rubric xml:lang="syr">ܛܟܣܐ ܕܚܕ ܩܢܘܡܐ<locus from="171a"/>
-                    </rubric>
+                    <title xml:lang="en">Of <persName>any one Saint</persName></title>
+                    <rubric xml:lang="syr">ܛܟܣܐ ܕܚܕ ܩܢܘܡܐ</rubric>
                   </msItem>
                   <msItem xml:id="d55" n="102">
                     <locus from="172a"/>
-                    <title xml:lang="en">The Consecration of a
-                                            Bishop</title>
-                    <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܩܘܒܠ ܐܦܝ̈ܣܩܘܦܐ<locus from="172a"/>
-                    </rubric>
+                    <title xml:lang="en">The Consecration of <persName>a
+                                            Bishop</persName></title>
+                    <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܩܘܒܠ ܐܦܝ̈ܣܩܘܦܐ</rubric>
                   </msItem>
                   <msItem xml:id="d56" n="103">
                     <locus from="173a"/>
-                    <title xml:lang="en">The Transfiguration of our
-                                                <persName>Lord</persName>
-                    </title>
-                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܐܕܐ ܕܡ̈ܛܐܠܐ<locus from="173a"/>
-                    </rubric>
+                    <title xml:lang="en">The Transfiguration of <persName>our Lord</persName></title>
+                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܐܕܐ ܕܡ̈ܛܐܠܐ</rubric>
                   </msItem>
                   <msItem xml:id="d57" n="104">
                     <locus from="173b"/>
-                    <title xml:lang="en">The Commemoration of
-                                            Priests</title>
-                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܟܗ̈ܢܐ<locus from="173b"/>
-                    </rubric>
+                    <title xml:lang="en">The Commemoration of <persName>Priests</persName></title>
+                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܟܗ̈ܢܐ</rubric>
                   </msItem>
                   <msItem xml:id="d58" n="105">
                     <locus from="174b"/>
-                    <title xml:lang="en">The Commemoration of the
-                                            Dead</title>
-                    <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܥܢܝ̈ܕܐ ܓܘܢܐܝܬ<locus from="174b"/>
-                    </rubric>
+                    <title xml:lang="en">The Commemoration of <persName>the
+                                            Dead</persName></title>
+                    <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܥܢܝ̈ܕܐ ܓܘܢܐܝܬ</rubric>
                   </msItem>
                   <msItem xml:id="d59" n="106">
                     <locus from="176a"/>
-                    <title xml:lang="en">The Commemoration of all
-                                            Martyrs</title>
-                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܣܗ̈ܕܐ ܓܘܢܐܝܬ<locus from="176a"/>
-                    </rubric>
+                    <title xml:lang="en">The Commemoration of <persName>all
+                                            Martyrs</persName></title>
+                    <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܣܗ̈ܕܐ ܓܘܢܐܝܬ</rubric>
                   </msItem>
-                </msItem>
               </msItem>
             </msItem>
             <msItem xml:id="a2" n="107">
               <locus from="177b"/>
-              <title xml:lang="en">Then follows a Calendar of all the Saints'
-                                Days in the year, from the first Kānūn to the latter Teshrīn</title>
+              <title xml:lang="en">A Calendar of <persName>all the Saints</persName>' Days in the year, from the first Kānūn to the latter Teshrīn</title>
               <rubric xml:lang="syr">
-                <locus from="177b"/>ܩܘܕܝܟܣ ܕܟܠܗܘܢ ܥ̈ܕܐܕܐ
-                                ܕܩ̈ܕܝܫܐ</rubric>
+                <locus from="177b"/>ܩܘܕܝܟܣ ܕܟܠܗܘܢ ܥ̈ܕܐܕܐ ܕܩ̈ܕܝܫܐ</rubric>
             </msItem>
           </msContents>
           <physDesc>
@@ -823,10 +763,7 @@
                                                 paper. The quires, signed with letters, were
                                                 originally 19 in number, but the sixth is now lost.
                                                 Each page is divided into two columns, of from 32 to
-                                                42 lines. The greater part of this volume (foll.
-                                                1—159) is written in a good hand of the xth or xith
-                                                cent.; but the last two quires (foll. 160—178) are
-                                                dated A. Gr. 1477, A.D. 1166. </p>
+                                                42 lines.</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -836,8 +773,11 @@
                             </layoutDesc>
                         </objectDesc>
             <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr">
+                <desc>The greater part of this volume (foll. 1—159) is written in a good hand of the <date>xth or xith cent.</date></desc>
+              </handNote>
+              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
+                <desc>The last two quires (foll. 160—178) are dated <date>A. Gr. 1477</date>, <date>A.D. 1166</date>.</desc>
               </handNote>
             </handDesc>
             <additions>
@@ -849,10 +789,8 @@
                                         of the manuscript was written, and the whole of it repaired
                                         and bound, in the year <date>1477</date>, <date>A.D.
                                             1166</date>, by the monk <persName>Abraham</persName>,
-                                        the son of <persName>Paul</persName>, called
-                                            <persName>Bar-Kazzāzē</persName> (or the son of the
-                                        silk-merchants, %, at the expense of a noble lady named
-                                            <persName>'Azīza</persName> (% ܣܝܬܐ ܥܙܝܙܬܐ).</p>
+                                        the son of <persName>Paul, called Bar-Kazzāzē (or the son of the
+                                          silk-merchants, <foreign xml:lang="ar">قَزّاز</foreign>)</persName>, at the expense of a noble lady named <persName>'Azīza (<foreign xml:lang="syr">ܣܝܬܐ ܥܙܝܙܬܐ</foreign>, <foreign xml:lang="ar">السيّدة عَزِيزَة</foreign>)</persName>.</p>
                   <p>
                     <quote xml:lang="syr">ܫܠܡ ܒܥܘܕܪܢ ܡܪܢ ܝܘܡ ܥܪܘܒܬܐ ܬܪܝܢ ܒܐܝܠܘܠ ܝܪܚܐ ܒܪܝܟܐ. ܫܢܬ݀ ܐܠܦ ܘܐܪ̈ܒܥܡܐܐ ܘܫܒ̈ܥܝܢ
                                             ܘܫ̈ܒܥܐ ܕܝܘ̈ܢܝܐ: ܟܬܒ̣ ܕܝܢ ܘܕܒ݁ܩ̣ ܘܚܲܕܬ ܗܠܝܢ܇ ܐܒܪܗܡ ܒܨܝܪܐ
@@ -866,41 +804,41 @@
                                             ܡ̇ܢ ܢܬܚ̇ܣܐ . ܐܡܝܢ܀ ܘܐܣܪܚܘ ܫܘܒܩܢܐ ܠܟܬܘܿܒܐ ܒܠܝ̣ܠܐ ܡܛܠ
                                             ܒܠܝ̣ܠܘܬ݀ ܟܬܝܒܬ݂ܗ. ܒܝܕ ܕܠܝܬ ܗܘܐ ܠܗ ܥܗ̇ܢܘܬܐ ܕܟ݁ܬܘܒܐ.
                                             ܘܒܪܗܝܒ̣ܘܬܐ ܟܬ̣ܒ ܘܫ̇ܡ̣ܠܝ. ܡܪܝܐ ܢܚܲܣܐ ܠܟܠܢ ܐܡܝܢܐܝܬ. ܐܝܢ.
-                                            ܘܐܡܝܢ. </quote>
+                                            ܘܐܡܝܢ</quote>
                   </p>
                 </item>
                 <item xml:id="addition2" n="2">
                   <locus from="178b"/>
-                  <p>A note in the centre of the page states that this book was
-                                        conveyed from the Syrian church at
-                                            <placeName>Nābulūs</placeName> in
+                  <p>A note in the centre of fol. 178 b states that this book was
+                                        conveyed from the <placeName>Syrian church at
+                                            <placeName>Nābulūs</placeName></placeName> in
                                             <placeName>Palestine</placeName> into
                                             <placeName>Egypt</placeName>, and there purchased by
-                                            <persName>Rabban 'Azīz of Bartellā</persName>, near
+                                            <persName>Rabban 'Azīz of <placeName>Bartellā</placeName>, near
                                             <placeName>Nineveh</placeName>
-                                            (<placeName>Mosul</placeName>), who sold it to
+                                              (<placeName>Mosul</placeName>)</persName>, who sold it to
                                             <persName>Rabban Zākhē the Tagritan</persName>, in the
-                                        year <date>1501</date>, <date>A.D. 1190</date>. </p>
+                                        year <date>1501</date>, <date>A.D. 1190</date>.</p>
                   <p>
                                         <quote xml:lang="syr">ܐܫܬܩܠܬ݀ ܦܢܩܝܬܐ ܗܕܐ ܡܢ ܢܐܒܠܘܣ ܡܕܝܢܬܐ
                                             ܕܥܠ ܬܚܘܡܐ ܕܐܘܪܫܠܡ ܡܢ ܥܕܬܐ ܕܣܘܪ̈ܝܝܐ ܘܐܙܕܒܢܬ݀ ܒܡܨܪܝܢ
                                             ܘܙܒ̣ܢܗ̇ ܪܒܢ ܥܙܝܙ ܒܪܛܠܝܐ. ܐܘܿܟܝܬܐ ܢܝܢܘܼܝܐ: ܘܒܬܪܟܢ ܙܒܢܗ̇
                                             ܠܪܒܢ ܙܟ̇ܐ ܟܪܡܘܢܝܐ ܐܘܟܝܬ ܬܐܓܪܝܬܢܝܐ. ܗܘ̣ܝ ܗܠܝܢ ܫܢܬ ܐܠܦ
-                                            ܘܚܡܫܡܐܐ ܘܚܕܐ ܕܝܘ̈ܢܝܐ.</quote>
+                                            ܘܚܡܫܡܐܐ ܘܚܕܐ ܕܝܘ̈ܢܝܐ</quote>
                                     </p>
                 </item>
                 <item xml:id="addition3" n="3">
                   <locus from="178b"/>
-                  <p>A note at the top of the page, in a large hand, states that
-                                            <persName>'Azīz of Bartellā</persName> (%) purchased
+                  <p>A note at the top of 178 b, in a large hand, states that
+                    <persName>'Azīz of Bartellā (<foreign xml:lang="ar">بَرْطُلَّي</foreign>)</persName> purchased
                                         this manuscript in the <placeName>monastery of
-                                            Khandak</placeName> (%) near
-                                            <placeName>Cairo</placeName>, in the year <date>ܐܠܦ
-                                            ܘܬ܏ܚ,</date> which is a mistake for <date>ܐܠܦ
-                                            ܘ܏ܬܩ</date>, <date>A.D. 1500</date>, <date>A. Gr.
+                                          Khandak (<foreign xml:lang="ar">الخَنْدَق</foreign>)</placeName> near
+                                            <placeName>Cairo</placeName>, in the year <date><foreign xml:lang="syr">ܐܠܦ
+                                            ܘܬ܏ܚ</foreign></date>, which is a mistake for <date><foreign xml:lang="syr">ܐܠܦ
+                                            ܘ܏ܬܩ</foreign></date>, <date>A.D. 1500</date>, <date>A. Gr.
                                             1189</date>; for the capture of
                                             <placeName>Jerusalem</placeName> by <persName>Salāh
-                                            al-Dīn</persName>, or <persName>Saladin</persName>, of
+                                            al-Dīn, or Saladin</persName>, of
                                         which the writer makes mention, took place <date>A.H.
                                             583</date>, <date>A.D. 1187-8</date> (see <bibl>Abul-
                                             fedae Annales Muslemici, ed. Reiske and Adler, t. iv.,
@@ -909,45 +847,42 @@
                                         <quote xml:lang="syr">ܙܒ̣ܢ ܟܬܒܐ ܗܢܐ ܥܲܙܝܙ ܐܟܣܢܝܐ ܕܡܢ ܒܪܛܠܠܗ
                                             ܒܕܝܪܐ ܕܟܲܢܕܩ ܕܥܠ ܓܢ̣ܒ ܡܨܪܝܢ ܫܢܬ ܐܠܦ ܘ܏ܬܚ ܕܝܘ̈ܢܝܐ ܡܢ ܡܕܡ
                                             ܕܙܢ̣ܬ݁ ܠܗ ܛܝܒܘܬܐ ܒܫ̇ܢܬ݂ܐ ܩܕܡܝܬܐ ܕܡܲܫܩܠܗ̇ ܡ̇ܪܝܪܐ
-                                            ܕܐܘܪܫܠܡ.</quote>
+                                            ܕܐܘܪܫܠܡ</quote>
                                     </p>
                 </item>
                 <item xml:id="addition4" n="4">
                   <locus from="178b"/>
-                  <p>In another note, at the foot of the page, in the handwriting
-                                        of one <persName>Peter of Bartellā</persName>, we are told
+                  <p>In another note, at the foot of fol. 178 b, in the handwriting
+                                        of one <persName>Peter of <placeName>Bartellā</placeName></persName>, we are told
                                         that the second purchaser <persName>Zākhē</persName>, whose
                                         proper name was <persName>Jacob</persName>, was by birth a
                                         Tagritan, and a monk of the <placeName>monastery of Mār
                                             Matthew</placeName> on the mountain of
                                             <placeName>Elpheph</placeName>, in the region of
-                                            <placeName>Nineveh</placeName> or
-                                            <placeName>Mosul</placeName>. </p>
+                                            <placeName>Nineveh or Mosul</placeName>.</p>
                   <p>
                                         <quote xml:lang="syr">ܙܟ݁ܐ ܗܘܝܘ ܝܥܩܘܼܒ ܡܪܗ ܕܟܬܒܐ ܗܢܐ ܒܓܢ̣ܣܐ
                                             ܡ̇ܢ ܡ̣ܢ ܬܓ̣ܪܝܬ ܒܐܣܟܝܡܐ ܕܝܢ ܡܢ ܕܝܪܐ ܐ̣ܘܟܝܬ ܥܘܡܪܐ ܕܡܪܝ ܡܬܝ
                                             ܢܨ̇ܝܚܐ. ܕܒܛܘܪܐ ܕܐܠܦܦ ܕܒܐܬܪܐ ܕܢܝܢܘܐ ܘܕܡܘܨܠ. ܟܬܒ ܦܛܪܘܣ
-                                            ܒܪܛܠܝܐ.</quote>
+                                            ܒܪܛܠܝܐ</quote>
                                     </p>
                 </item>
                 <item xml:id="addition5" n="5">
                   <locus from="178b"/>
-                  <p>On the same page also stands the following anathema:</p>
+                  <p>On fol. 178 b also stands the following anathema:</p>
                   <p>
                                         <quote xml:lang="syr">ܚ̣ܪܡܐ ܕܐ̇ܒܐ ܡܢ ܪܘܡܐ܇ ܘܕܒܪܐ ܡܢ ܥܘܡܩܐ܇
                                             ܘܕܪܘܚܐ ܡܢ ܡܨ̇ܥܬܐ̣. ܒܪܝܫܗ ܕܗ̇ܘ ܕܡܡܪܚ: ܘܠ̇ܚܐ ܐ̣ܘܓ݁ܪܕ
-                                            ܠܥܘ̈ܗܕܢܐ ܗ̇ܠܝܢ ܕܟܬܝ̣ܒܝܢ ܗܪܟܐ.</quote>
+                                            ܠܥܘ̈ܗܕܢܐ ܗ̇ܠܝܢ ܕܟܬܝ̣ܒܝܢ ܗܪܟܐ</quote>
                                     </p>
                 </item>
                 <item xml:id="addition6" n="6">
                   <locus from="1a"/>
                   <p>The note on fol. 1 a is so much effaced, that only a very few
-                                        words are here and there legible. The writing on the margins
-                                        of many of the leaves (doubtless additional hymns and
-                                        prayers) has also been in great part erased.</p>
-                  <p>
-                                        <quote xml:lang="syr"/>
-                                    </p>
+                                        words are here and there legible.</p>
+                </item>
+                <item>
+                  <p>The writing on the margins of many of the leaves (doubtless additional hymns and prayers) has also been in great part erased.</p>
                 </item>
               </list>
             </additions>
@@ -961,10 +896,8 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate notBefore="0900" notAfter="1100"/>
-                            <origDate>1166</origDate>
-                            <origDate datingMethod="Seleucid">1477</origDate>
-                            <origPlace/>
+                          <origDate notBefore="0900" notAfter="1100">xth or xith cent.</origDate>
+                          <origPlace/>
                         </origin>
                         <provenance/>
                         <acquisition/>
