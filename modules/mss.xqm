@@ -298,7 +298,7 @@ declare function mss:update-physDesc($physDesc as node()+) as node()+ {
   let $objectDesc := $physDesc/tei:objectDesc
   let $handDesc := mss:update-handDesc($physDesc/tei:handDesc)
   let $decoDesc := if($physDesc/tei:decoDesc) then mss:update-decoDesc($physDesc/tei:decoDesc)
-  let $additions := if($physDesc/tei:additions) then mss:update-additions($physDesc/tei:additions)
+  let $additions := if($physDesc/tei:additions/tei:list/tei:item) then mss:update-additions($physDesc/tei:additions) else element {QName("http://www.tei-c.org/ns/1.0", "additions")} {}
   let $bindingDesc := $physDesc/tei:bindingDesc (: as-is :)
   let $sealDesc := $physDesc/tei:sealDesc (: as-is :)
   let $accMat := $physDesc/tei:accMat (: as-is :)
