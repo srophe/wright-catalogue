@@ -79,16 +79,15 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
             <textLang mainLang="syr-Syre"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="" from=""/>
-              <title ref="" xml:lang="en">The four Gospels, according to the Peshitta
+              
+              <title xml:lang="en">The four Gospels, according to the Peshitta
                                 version; viz.</title>
               <note>The lessons are rubricated in the text in the usual way, with a
                                 solitary exception on the margin of fol. 18b.</note>
               <msItem xml:id="b1" n="2">
-                <locus to="" from="1a"/>
+                <locus from="1a"/>
                 <title ref="http://syriaca.org/work/72" xml:lang="en">
                   <persName>S.
                                         Matthew</persName>
@@ -98,7 +97,7 @@
                                     5.</note>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus to="" from="34a"/>
+                <locus from="34a"/>
                 <title ref="http://syriaca.org/work/73" xml:lang="en">
                   <persName>S.
                                         Mark</persName>
@@ -107,7 +106,7 @@
                 <note>There is also wanting ch. xiv. 17—36.</note>
               </msItem>
               <msItem xml:id="b3" n="4">
-                <locus to="" from="59a"/>
+                <locus from="59a"/>
                 <title ref="http://syriaca.org/work/74" xml:lang="en">
                   <persName>S.
                                         Luke</persName>
@@ -116,7 +115,7 @@
                                     26—xxii. 33.</note>
               </msItem>
               <msItem xml:id="b4" n="5">
-                <locus to="" from="107a"/>
+                <locus from="107a"/>
                 <title ref="http://syriaca.org/work/75" xml:lang="en">
                   <persName>S.
                                         John</persName>
@@ -173,7 +172,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="" to=""/>
+                  <locus/>
                   <p>The Ammonian sections and Eusebian canons are marked with red
                                         ink in the text of both parts of this volume, and there is a
                                         harmony at the foot of each page. The larger sections have
@@ -190,7 +189,7 @@
                   </p>
                 </item>
                 <item xml:id="addition2" n="2">
-                  <locus from="58" to=""/>
+                  <locus from="58"/>
                   <p>Fol. 58 is palimpsest and contains S. Matthew, ch. xiii.
                                         54—58, and S. Mark, ch. vi. 1—6. It is a leaf from the same
                                         lectionary to which belonged Add. 14,451, fol. 88.</p>
@@ -210,9 +209,9 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate notBefore="0500" notAfter="0700" from="" to="" when=""/>
-                            <origDate notBefore="0700" notAfter="0800" from="" to="" when=""/>
-                            <origPlace ref="" xml:lang=""/>
+                            <origDate notBefore="0500" notAfter="0700"/>
+                            <origDate notBefore="0700" notAfter="0800"/>
+                            <origPlace/>
                         </origin>
                         <provenance/>
                         <acquisition/>
@@ -401,6 +400,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-29-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-29">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-08-05" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
       <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
