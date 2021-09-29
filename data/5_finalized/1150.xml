@@ -102,10 +102,10 @@
                   <summary/>
                   <textLang mainLang="syr">Syriac</textLang>
                   <msItem xml:id="p1a1" n="1" defective="true">
-                    <locus from="1a">Fol.1</locus>
-                    <title xml:lang="en">the commencement of a dissertation on the Genealogies of our Lord</title>
-                    <incipit xml:lang="syr">ܢܘܿܗܪܐ ܕܡܛܠ ܡـ . . . ܘܬ ܫܪ̈ܒܬܐ . . . ܡܫܝܚܐ ܕܢܚ̣ ܥܠ . . . ܟܢ . . . ܐܘܢ̈ܓܠܝܣܛܐ ܠܬܢܝ̇ܐ ܕܫܪ̈ܒܬܐ.<locus from="1"/></incipit>
-                    <note xml:lang="en">The item is located on the verso</note>
+                    <locus from="1a">Fol.1 a</locus>
+                    <title xml:lang="en">The commencement of a dissertation on the Genealogies of our Lord</title>
+                    <incipit xml:lang="syr">ܢܘܿܗܪܐ ܕܡܛܠ ܡـ . . . ܘܬ ܫܪ̈ܒܬܐ . . . ܡܫܝܚܐ ܕܢܚ̣ ܥܠ . . . ܟܢ . . . ܐܘܢ̈ܓܠܝܣܛܐ ܠܬܢܝ̇ܐ ܕܫܪ̈ܒܬܐ</incipit>
+                    <note xml:lang="en">The item is located on the verso.</note>
                   </msItem>
                 </msContents>
                 <physDesc>
@@ -117,7 +117,7 @@
                       <condition>
                         <list>
                           <item>
-                            <p>Fol. 1 is a torn leaf from a neatly written vellum manuscript of about the <date calendar="Gregorian" notBefore="1100" notAfter="1200">xiith cent</date>. Fol. 1 is much torn.</p>
+                            <p>Fol. 1 is a torn leaf from a vellum manuscript. Fol. 1 is much torn.</p>
                           </item>
                         </list>
                       </condition>
@@ -125,8 +125,12 @@
                   </objectDesc>
                   <handDesc hands="1">
                     <handNote xml:id="p1handNote1" scope="sole" script="syr" medium="unknown">
+                      <desc>Neatly written, of about the <date calendar="Gregorian" notBefore="1100" notAfter="1200">xiith cent</date>.</desc>
                     </handNote>
                   </handDesc>
+                  <decoDesc>
+                    <decoNote xml:id="p1decoNote1" type="illustration">On <locus from="1b">the recto</locus> there is a coloured effigy of <persName>a saint</persName>.</decoNote>
+                  </decoDesc>
                   <additions/>
                   <accMat/>
                 </physDesc>
@@ -176,71 +180,60 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="p2a1" n="1" defective="true">
               <locus to="142" from="1"/>
-              <title xml:lang="en">The <bibl>Psalms, according to the Peshitta
-                           version</bibl>, with short arguments prefixed.</title>
-              <finalRubric xml:lang="syr">ܫܠܡ̤ܘ ܡܙ̇ܡܘܪ̈ܐ ܕܕܘܝܕ ܒܢܘܗܵܪ̈ܐ ܐ̈ܠܨܝܐ ܡܢ ܟܬܒܐ ܕܐܘܨܪ
-                        ܐܪ̈ܙܐ ܥܠ ܐܝܕܝ ܟܬܒܐ (sic) ܐܰܠܝܻܠܐ ܘܒܲܣܝܐ ܘܣܲܪܥܘܛܐ ܘܣܝܵܢܐ ܕܟܠܢܫ.
-              </finalRubric>
-              <note>The <foreign xml:lang="syr">ܡܪ̈ܡܝܬܐ</foreign> and <foreign xml:lang="syr">ܫܘ̈ܒܚܐ</foreign> are marked
-                        as usual. </note>
-              <note>The margins contain numerous notes, a few of which arc in Arabic (e.g.
-                        fol. 24 a).</note>
-              <note>Most of them are derived from the <foreign xml:lang="syr">ܬܘܨܪ ܐܪ̈ܙܐ</foreign> of
-                        <persName ref="http://syriaca.org/person/239">Gregory Bar-Hebraeus</persName>, and refer to the pronunciation
-                        of words in the text, or to various readings of the Greek
-                           (<foreign xml:lang="syr">ܝܘܢܝܐ</foreign> , foll. 18 b, 24 a 26 b, 27 b, 30 b, etc.),
-                        Nestorian (<foreign xml:lang="syr">ܢܣܛܘܪ</foreign> foll. 21 b 23 a, b, 24 a, etc.),
-                        Karkaphensian (<foreign xml:lang="syr">ܩܪܩܦܝܐ</foreign> foll. 100 b 118 b), and Armenian
-                           (<foreign xml:lang="syr">ܐܪܡܢܝܐ</foreign> foll. 34 a, 62 a) versions.</note>
-              <note>This copy contains Psalm cli. </note>
+              <title xml:lang="en">The Psalms, according to the Peshitta
+                           version, with short arguments prefixed</title>
+              <finalRubric xml:lang="syr">ܫܠܡ̤ܘ ܡܙ̇ܡܘܪ̈ܐ ܕܕܘܝܕ ܒܢܘܗܵܪ̈ܐ ܐ̈ܠܨܝܐ ܡܢ ܟܬܒܐ ܕܐܘܨܪ ܐܪ̈ܙܐ ܥܠ ܐܝܕܝ ܟܬܒܐ <foreign xml:lang="en">(sic)</foreign> ܐܰܠܝܻܠܐ ܘܒܲܣܝܐ ܘܣܲܪܥܘܛܐ ܘܣܝܵܢܐ ܕܟܠܢܫ</finalRubric>
+              <note>The <foreign xml:lang="syr">ܡܪ̈ܡܝܬܐ</foreign> and <foreign xml:lang="syr">ܫܘ̈ܒܚܐ</foreign> are marked as usual.</note>
+              <note>See <ref>additions</ref>.</note>
+              <msItem>
+                <title xml:lang="en">Psalm cli.</title>
+              </msItem>
+            </msItem>
               <msItem xml:id="p2b1" n="2">
-                <title xml:lang="en">The Canticles.</title>
+                <title xml:lang="en">The Canticles</title>
                 <msItem xml:id="p2c1" n="3">
                   <locus to="135" from="134a">Foll. 134a-135</locus>
-                  <title xml:lang="en">The first song of <persName>Moses</persName>.</title>
+                  <title xml:lang="en">The first song of <persName>Moses</persName></title>
                 </msItem>
                 <msItem xml:id="p2c2" n="4">
                   <locus to="135" from="135b">Foll. 135b-135</locus>
-                  <title xml:lang="en">The song of <persName>Isaiah</persName>.</title>
+                  <title xml:lang="en">The song of <persName>Isaiah</persName></title>
                 </msItem>
                 <msItem xml:id="p2c3" n="5">
                   <locus to="138" from="136a">Foll. 136a-138</locus>
-                  <title xml:lang="en">The second song of
-                              <persName>Moses</persName>.</title>
+                  <title xml:lang="en">The second song of <persName>Moses</persName></title>
                 </msItem>
                 <msItem xml:id="p2c4" n="6">
                   <locus to="139" from="139a">Foll. 139a-139</locus>
-                  <title xml:lang="en">The Nicene Creed.</title>
+                  <title xml:lang="en">The Nicene Creed</title>
                 </msItem>
                 <msItem xml:id="p2c5" n="7">
                   <locus to="140" from="140a">Foll. 140a-140</locus>
-                  <title xml:lang="en">The "Gloria in Excelsis." </title>
+                  <title xml:lang="en">The "Gloria in Excelsis"</title>
                   <rubric xml:lang="syr">ܬ܏ܫܒܘ ܕܐܬܡܲܠܠܬ݀ ܡܢ ܡ̈ܠܐܟܐ ܒܝܘܡ ܡܲܘܠܕܗ ܕܡܪܢ
                               ܘܫܲܡܠܝܗ̇ ܏ܩܕ ܐܬܐܢܐܣܝܣ ܕܐܠܟܣܢܕܪܝܐ</rubric>
                 </msItem>
                 <msItem xml:id="p2c6" n="8">
                   <locus to="141" from="141a">Foll. 141a-141</locus>
-                  <title xml:lang="en">An addition to no. e.</title>
+                  <title xml:lang="en">An addition to The "Gloria in Excelsis"</title>
                   <incipit xml:lang="syr">܏ܘܡܲܐܩܦܝܢ ܬܪܥܐ ܕܪ̈ܚܡܝܟ ܠܐ ܬܚ̣ܘܕ ܒܐܦ̈ܝܢ ܡܪܝ. ܚ̈ܛܝܐ
                               ܚܢܢ ܡܲܘܕܝܢܢ. ܐܬܪܚ̣ܡ ܥܠܝܢ. ܚܘܒܟ ܢܰܓ݁ܕܳܟ ܡܢ ܐܬܪܟ ܨܝ̈ܕܝܢ ܡܪܝ. ܕܒܝܕ ܡܲܘܬܟ
-                              ܬܬܒܲܛܠܝ ܡܝܬܘܬܢ. ܐܬܪܚܲܡ ܥܠܝܢ.</incipit>
+                              ܬܬܒܲܛܠܝ ܡܝܬܘܬܢ. ܐܬܪܚܲܡ ܥܠܝܢ</incipit>
                 </msItem>
                 <msItem xml:id="p2c7" n="9">
                   <locus to="141" from="141b">Foll. 141b-141</locus>
-                  <title xml:lang="en">The Lord's Prayer.</title>
-                  <rubric xml:lang="syr">ܘܡܐܩܦܝܢ܀ ܨܠܘܬܐ ܕܐܠܦ ܡܪܢ ܠܬܠܡ̈ܝܕܘܗܝ </rubric>
+                  <title xml:lang="en">The Lord's Prayer</title>
+                  <rubric xml:lang="syr">ܘܡܐܩܦܝܢ܀ ܨܠܘܬܐ ܕܐܠܦ ܡܪܢ ܠܬܠܡ̈ܝܕܘܗܝ</rubric>
                 </msItem>
                 <msItem xml:id="p2c8" n="10">
                   <locus to="142" from="142a">Foll. 142a-142</locus>
-                  <title xml:lang="en">The song of the <persName ref="http://syriaca.org/person/624">blessed
-                                 Virgin</persName>. </title>
+                  <title xml:lang="en">The song of the <persName ref="http://syriaca.org/person/624">blessed Virgin</persName></title>
                 </msItem>
                 <msItem xml:id="p2c9" n="11" defective="true">
                   <locus to="142" from="142b">Foll. 142b-142</locus>
-                  <title xml:lang="en">The Beatitudes.</title>
+                  <title xml:lang="en">The Beatitudes</title>
                 </msItem>
               </msItem>
-            </msItem>
           </msContents>
                <physDesc>
                   <objectDesc form="codex">
@@ -251,7 +244,7 @@
                            <list>
                               <item>
                                  <p>Paper, about 7 in. by 5 1/8, consisting of 142 leaves, a few of
-                                    which are slightly stained; and soiled. Fol. 1 is much torn. The
+                                    which are slightly stained and soiled. The
                                     quires, signed with letters, are 15 in number, the last being
                                     imperfect. There are about 15 lines in each page.</p>
                               </item>
@@ -261,32 +254,44 @@
                   </objectDesc>
                   <handDesc hands="3">
               <handNote medium="unknown" xml:id="p2handNote1" scope="major" script="syr">
-                        <desc>This volume is written in a good hand of the <date calendar="Gregorian" notBefore="1300" notAfter="1400">xivth cent</date>., with
-                           numerous Greek and Syriac vowels, etc.</desc>
+                        <desc>This volume is written in a good hand of the <date calendar="Gregorian" notBefore="1300" notAfter="1400">xivth cent.</date>, with numerous Greek and Syriac vowels, etc.</desc>
                      </handNote>
               <handNote medium="unknown" xml:id="p2handNote2" scope="minor" script="syr">
                         <desc>Foll. 2—10 are a later addition of the <date calendar="Gregorian" notBefore="1500" notAfter="1700">xvith or xviith cent</date>.</desc>
                      </handNote>
               <handNote medium="unknown" xml:id="p2handNote3" scope="minor" script="syr">
-                        <desc>See Additions</desc>
+                        <desc>See additions.</desc>
               </handNote>
             </handDesc>
                   <additions>
               <p/>
               <list>
+                <item>
+                  <p>The margins of <ref>The Psalms, according to the Peshitta
+                    version, with short arguments prefixed</ref> contain numerous notes, a few of which are in Arabic (e.g.
+                    fol. 24 a).</p>
+                  <p>Most of them are derived from the <ref><foreign xml:lang="syr">ܬܘܨܪ ܐܪ̈ܙܐ</foreign> of
+                    <persName ref="http://syriaca.org/person/239">Gregory Bar-Hebraeus</persName></ref>, and refer to the pronunciation
+                    of words in the text, or to various readings of the Greek
+                    (<foreign xml:lang="syr">ܝܘܢܝܐ</foreign> , foll. 18 b, 24 a 26 b, 27 b, 30 b, etc.),
+                    Nestorian (<foreign xml:lang="syr">ܢܣܛܘܪ</foreign> foll. 21 b 23 a, b, 24 a, etc.),
+                    Karkaphensian (<foreign xml:lang="syr">ܩܪܩܦܝܐ</foreign> foll. 100 b 118 b), and Armenian
+                    (<foreign xml:lang="syr">ܐܪܡܢܝܐ</foreign> foll. 34 a, 62 a) versions.</p>
+                </item>
                 <item xml:id="p2addition1" n="1">
                   <locus/>
                   <p>On fol. 2 a there is a note in Arabic, stating that the book belonged to one
                       <persName>Anton</persName>, the son of <persName>Shakūr</persName>, the son of
-                      <persName>Hannā</persName>; and another in Italian, <foreign xml:lang="it">ad
-                      uso di Georgio d’ Antonio</foreign>, probably a son of the preceding.</p>
+                      <persName>Hannā</persName>; and another in Italian, , probably a son of the preceding.</p>
                   <p>
                     <quote xml:lang="ar">هاده كتاب مزامير انطون ولد شكور ولد حنا</quote>
                   </p>
                 </item>
-                <item xml:id="p2addition2" n="2">
-                  <locus/>
-                  <p>On the recto there is a coloured effigy of a saint. </p>
+                <item>
+                  <p>On fol. 2 athere is a note in Italian, probably referring to a son of <persName>the preceding</persName>.</p>
+                  <p>
+                    <quote xml:lang="it">ad uso di Georgio d’ Antonio</quote>
+                  </p>
                 </item>
               </list>
             </additions>
@@ -294,8 +299,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" notBefore="1300" notAfter="1400">The largest
-                        part is dated from xivth cent.</origDate>
+                     <origDate calendar="Gregorian" notBefore="1300" notAfter="1400">xivth cent.</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
@@ -480,7 +484,7 @@
           <list>
             <item>
               <ref target="#Part1"/>
-              <ref target=""/>
+              <ref target=""/><!-- WLP: we will need to categorize this manually. -->
             </item>
             <item>
               <ref target="#Part2"/>

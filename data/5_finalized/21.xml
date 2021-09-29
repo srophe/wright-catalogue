@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">Wlliam L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,18 +81,12 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
+              <locus from="7b"/>
               <title xml:lang="en">The first part of a Choral Service-Book for the
                         circle of the whole year</title>
-              <rubric xml:lang="syr-Syre">
-                <locus from="7b"/>ܟܕ ܬܟܝ̣ܠ ܐܢ̣ܐ ܕܡ̇ܣܬ̣ܝ̇ܥ
-                        ܐܢ̣ܐ ܡܢ ܚ̇ܝܠܐ ܐܠܗܝܐ. ܕܐܒܐ ܘܕܒܪܐ ܘܕܪܘܚܐ ܩܕܝܫܐ ܟ̇ܬܒ ܐܢ̣ܐ ܦܢܩܝܬܐ ܕܚܘܕܪܐ ܕܟܠܗ̇
-                        ܫܢܬ݁ܐ.</rubric>
-              <note>The running title varies considerably, being <foreign xml:lang="syr-Syre">ܦܠܓܘܬܐ ܕܟܪܘܟܝܐ ܕܚܘܕܪܐ ܕܟܠܗ̇ ܫܢܬܐ</foreign> (<locus>fol. 14 b</locus>),
-                        or <foreign xml:lang="syr-Syre">ܦܠܓܘܬܐ ܩܕܡܝܬܐ. ܕܟܪܘܟܝܐ. ܩܢ̈ܘܢܐ. ܘܩ̈ܠܐ.
-                           ܘܒܥ̈ܘܬܐ. ܘܡܕܪ̈ܫܐ. ܘܣ̈܏ܘܼ</foreign> (<locus>fol. 24 b</locus>), or
-                           <foreign xml:lang="syr-Syre">ܦܠܓܘܬܐ ܩܕܡܝܬܐ ܕܟܪܘܟܝܬܐ ܕܫ̣ܢܬܐ</foreign>
-                           (<locus>fol. 134 b</locus>), or merely <foreign xml:lang="syr-Syre">ܦܠܓܘܬܐ ܩܕܡܝܬܐ ܕܟܪܘܟܝܐ</foreign> (<locus>fol. 34 b</locus>).</note>
-              <note>As these titles indicate, the services consist of canons, chants, hymns
+              <rubric xml:lang="syr-Syre">ܟܕ ܬܟܝ̣ܠ ܐܢ̣ܐ ܕܡ̇ܣܬ̣ܝ̇ܥ ܐܢ̣ܐ ܡܢ ܚ̇ܝܠܐ ܐܠܗܝܐ. ܕܐܒܐ ܘܕܒܪܐ ܘܕܪܘܚܐ ܩܕܝܫܐ ܟ̇ܬܒ ܐܢ̣ܐ ܦܢܩܝܬܐ ܕܚܘܕܪܐ ܕܟܠܗ̇ ܫܢܬ݁ܐ</rubric>
+              <note>The running title varies considerably, being <foreign xml:lang="syr-Syre">ܦܠܓܘܬܐ ܕܟܪܘܟܝܐ ܕܚܘܕܪܐ ܕܟܠܗ̇ ܫܢܬܐ</foreign> (<locus from="14b">fol. 14 b</locus>), or <foreign xml:lang="syr-Syre">ܦܠܓܘܬܐ ܩܕܡܝܬܐ. ܕܟܪܘܟܝܐ. ܩܢ̈ܘܢܐ. ܘܩ̈ܠܐ. ܘܒܥ̈ܘܬܐ. ܘܡܕܪ̈ܫܐ. ܘܣ̈܏ܘܼ</foreign> (<locus from="24b">fol. 24 b</locus>), or <foreign xml:lang="syr-Syre">ܦܠܓܘܬܐ ܩܕܡܝܬܐ ܕܟܪܘܟܝܬܐ ܕܫ̣ܢܬܐ</foreign> (<locus from="134b">fol. 134 b</locus>), or merely <foreign xml:lang="syr-Syre">ܦܠܓܘܬܐ ܩܕܡܝܬܐ ܕܟܪܘܟܝܐ</foreign> (<locus from="34b">fol. 34 b</locus>).</note>
+              <note>As these running titles indicate, the services consist of canons, chants, hymns
                         and prayers for the various hours of the festivals and other holy days of
                         the Church. The names of the authors are not attached to the canons, chants
                         or hymns, though some of the madrāshē are ascribed on the margins to
@@ -100,18 +94,17 @@
                            <locus>foll. 34 b</locus>, <locus>50 a</locus>, <locus>67 b</locus>,
                            <locus>83 a</locus>, <locus>128 b</locus>, <locus>138 b</locus>,
                            <locus>139 b</locus>, <locus>143 b</locus>, <locus>212 a and b</locus>);
-                        whereas
-                        <!--insert correct accents on
-                        the following word-->bā’avāthā
-                        are invariably assigned either to <persName ref="http://syriaca.org/person/13">Ephraim</persName> or <persName ref="http://syriaca.org/person/42">Jacob of Batnae</persName>, according
-                        to the metre in which they are composed.</note>
+                        whereas bā’ǎvāthā are invariably assigned either to <persName ref="http://syriaca.org/person/13">Ephraim</persName> or <persName ref="http://syriaca.org/person/42">Jacob of <placeName>Batnae</placeName></persName>, according
+to the metre in which they are composed.</note>
               <msItem xml:id="b1" n="2">
+                <locus from="1b"/>
+                <title xml:lang="en">Part 1</title>
                 <msItem xml:id="c1" n="3">
                   <locus from="1b"/>
-                  <title xml:lang="en">Order of canons for the Dedication of the
-                              Church, not written in its proper place</title>
-                  <rubric xml:lang="syr-Syre">ܛܟܣܐ ܕܩܢܘ̈ܢܐ ܕܚܘܕܬ ܥܕܬܐ. ܕܠܐ ܐܬܟ̣ܬܒ
-                              ܒܕܘܟܬܗ</rubric>
+                  <title xml:lang="en">Order of canons for the Dedication of <placeName>the
+                              Church</placeName></title>
+                  <rubric xml:lang="syr-Syre">ܛܟܣܐ ܕܩܢܘ̈ܢܐ ܕܚܘܕܬ ܥܕܬܐ. ܕܠܐ ܐܬܟ̣ܬܒ ܒܕܘܟܬܗ</rubric>
+                  <note>Not written in its proper place.</note>
                 </msItem>
                 <msItem xml:id="c2" n="4">
                   <locus from="2a"/>
@@ -129,54 +122,67 @@
                   <title xml:lang="en">Canon for the same occasion, seventh
                               tone</title>
                   <rubric xml:lang="syr">ܩܢܘܢܐ ܕܝܠܗ ܕܥܐܕܐ ܐܝܟܘܣ (sic) ܫܒܝܥܐ</rubric>
-                  <note>This canon is in a more recent hand.</note>
+                  <note>See <ref>additions</ref>.</note>
                 </msItem>
                 <msItem xml:id="c5" n="7">
                   <locus from="6b"/>
-                  <title xml:lang="en">Canon on <persName>Zacharias the
-                                 priest</persName>
+                  <title xml:lang="en">Canon on <persName>Zacharias the priest</persName>
                   </title>
                   <rubric xml:lang="syr">ܩܢܘܢܐ ܕܥܠ ܙܟܪܝܐ ܟܗܢܐ</rubric>
-                  <note>This canon is in a more recent hand.</note>
+                  <note>See <ref>additions</ref>.</note>
                 </msItem>
               </msItem>
               <msItem xml:id="b2" n="8">
+                <locus from="7b"/>
+                <title xml:lang="en">Part 2</title>
                 <msItem xml:id="c6" n="9">
                   <locus from="7b"/>
-                  <title xml:lang="en">Order of the Consecration of the Church, on
+                  <title xml:lang="en">Order of the Consecration of <placeName>the Church</placeName>, on
                               the first Sunday of the second Teshrīn</title>
-                  <rubric xml:lang="syr-Syre">ܛܟܣ̣ܐ ܕܩܘܕܫ ܥܕܬܐ. ܒܚܕܒ܏ܫܒ ܩܕܡܝܐ ܕܬܫܪܝܢ
-                              ܐܚܪܝ</rubric>
-                  <note>But on fol 9 b we read <foreign xml:lang="syr">ܕܡ̇ܫܬܡܠ̣ܐ ܒܚܕܒܫܒܐ
-                                 ܕܬܪ̈ܝܢ ܕܬܫܪܝܢ ܩܕܝܡ</foreign>, which is celebrated on the second
-                              Sunday of the first Teshrīn.</note>
+                  <rubric xml:lang="syr-Syre">ܛܟܣ̣ܐ ܕܩܘܕܫ ܥܕܬܐ. ܒܚܕܒ܏ܫܒ ܩܕܡܝܐ ܕܬܫܪܝܢ ܐܚܪܝ<note xml:lang="en">But on <locus from="9b">fol 9 b</locus> we read <foreign xml:lang="syr">ܕܡ̇ܫܬܡܠ̣ܐ ܒܚܕܒܫܒܐ ܕܬܪ̈ܝܢ ܕܬܫܪܝܢ ܩܕܝܡ</foreign>, "which is celebrated on the second Sunday of the first Teshrīn".</note></rubric>
                 </msItem>
                 <msItem xml:id="c7" n="10">
                   <locus from="9b"/>
-                  <title xml:lang="en">Order of the Dedication of the Church,
+                  <title xml:lang="en">Order of the Dedication of <placeName>the Church</placeName>,
                               celebrated on the third Sunday of the first Teshrīn</title>
                   <rubric xml:lang="syr-Syre">ܛܟܣ̣ܐ ܕܚܘܕܬ ܥܕܬܐ. ܕܡ̇ܫܬܡܠ̣ܐ ܒܚܕܒܫܒܐ ܕܬܠܬܐ
                               ܕܬܫܪܝܢ ܩܕܝܡ</rubric>
-                  <quote xml:lang="syr">ܡܕܪ̈ܫܐ<locus from="11b"/>
-                  </quote>
+                  <msItem>
+                    <locus from="11b"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
+                  </msItem>
                 </msItem>
                 <msItem xml:id="c8" n="11">
                   <locus from="12a"/>
                   <title xml:lang="en">Order of propitiation and confession of
                               faith, and against heresies; celebrated on the fourth Sunday of the
                               first Teshrīn</title>
-                  <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܚܘܣܝܐ ܘܕܗܝܡܢܘܬܐ. ܘܠܘܩܒܠ ܗܪ̈ܣܝܣ ܕܡ̇ܫܬܡܠ̣ܐ
-                              ܒܚܕ ܒܫܒܐ ܕܐܪܒܥܐ ܕܬܫܪܝܢ ܩܕܝܡ</rubric>
-                  <note>On fol. 16 a the orthodox teachers (<foreign xml:lang="syr">ܬܪ̈ܝܨܝ
-                                 ܫܘܒܚܐ</foreign> = <foreign xml:lang="grc">ὀρθόδοξοι</foreign>) are
-                              blessed by name, viz. <persName>Ignatius</persName>,
-                                 <persName>Athanasius</persName>, <persName ref="http://syriaca.org/person/376">Basil</persName>, and <persName ref="http://syriaca.org/person/511">Gregory (Nazianzen)</persName>;
-                              whilst <persName>Diodorus (of <placeName ref="http://syriaca.org/place/196">Tarsus</placeName>)</persName>, <persName ref="http://syriaca.org/person/780">Theodore (of <placeName ref="http://syriaca.org/place/138">Mopsuestia</placeName>)</persName>, <persName ref="http://syriaca.org/person/655">Nestorius</persName>, <persName ref="http://syriaca.org/person/2299">Leo (the first, bishop of
-                                    <placeName ref="http://syriaca.org/place/641">Rome</placeName>
-                    </persName>, <persName ref="http://syriaca.org/person/616">Marcion</persName>, <persName ref="http://syriaca.org/person/482">Eutyches</persName>, <persName ref="http://syriaca.org/person/579">Julian (of <placeName ref="http://syriaca.org/place/1468">Halicarnassus</placeName>
-                    </persName>),
-                              <persName>Narses</persName>, and <persName ref="http://syriaca.org/person/370">Bar-saumā</persName>, are
-                              cursed as <foreign xml:lang="syr-Syre">ܟ̈ܠܒܐ ܦܩܪ̈ܐ</foreign>.</note>
+                  <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܚܘܣܝܐ ܘܕܗܝܡܢܘܬܐ. ܘܠܘܩܒܠ ܗܪ̈ܣܝܣ ܕܡ̇ܫܬܡܠ̣ܐ ܒܚܕ ܒܫܒܐ ܕܐܪܒܥܐ ܕܬܫܪܝܢ ܩܕܝܡ</rubric>
+                  <msItem>
+                    <locus from="12a"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ ܕܗܝܡܢܘܬܐ</rubric>
+                  </msItem>
+                  <msItem>
+                    <locus from="16a"/>
+                    <title xml:lang="en">The <persName>orthodox teachers (<foreign xml:lang="syr">ܬܪ̈ܝܨܝ
+                      ܫܘܒܚܐ</foreign> = <foreign xml:lang="grc">ὀρθόδοξοι</foreign>)</persName> are blessed by name</title>
+                    <note>The <persName>orthodox teachers</persName> here comprise <persName>Ignatius</persName>,
+                      <persName>Athanasius</persName>, <persName ref="http://syriaca.org/person/376">Basil</persName>, and <persName ref="http://syriaca.org/person/511">Gregory (Nazianzen)</persName>.</note>
+                  </msItem>
+                  <msItem>
+                    <locus from="16a"/>
+                    <title xml:lang="en"><persName>Diodorus (of <placeName ref="http://syriaca.org/place/196">Tarsus</placeName>)</persName>, <persName ref="http://syriaca.org/person/780">Theodore (of <placeName ref="http://syriaca.org/place/138">Mopsuestia</placeName>)</persName>, <persName ref="http://syriaca.org/person/655">Nestorius</persName>, <persName ref="http://syriaca.org/person/2299">Leo (the first, bishop of
+                      <placeName ref="http://syriaca.org/place/641">Rome</placeName>)</persName>, <persName ref="http://syriaca.org/person/616">Marcion</persName>, <persName ref="http://syriaca.org/person/482">Eutyches</persName>, <persName ref="http://syriaca.org/person/579">Julian (of <placeName ref="http://syriaca.org/place/1468">Halicarnassus</placeName>)</persName>, <persName>Narses</persName>, and <persName ref="http://syriaca.org/person/370">Bar-saumā</persName>, are
+                      cursed as <foreign xml:lang="syr-Syre">ܟ̈ܠܒܐ ܦܩܪ̈ܐ</foreign></title>
+                    <rubric xml:lang="syr">ܟ̈ܠܒܐ ܦܩܪ̈ܐ</rubric>
+                  </msItem>
+                  <msItem>
+                    <locus from="16a"/>
+                    <title xml:lang="en">Canticle</title>
+                    <rubric xml:lang="syr">ܣܘܓܝܬܐ ܕܠܘܩܒܠ ܒ̇ܨ̈ܘܝܐ</rubric>
+                  </msItem>
                 </msItem>
               </msItem>
               <msItem xml:id="b3" n="12">
@@ -188,28 +194,43 @@
                            ܕܙܟܪܝܐ</rubric>
                 <msItem xml:id="c9" n="13">
                   <locus from="20a"/>
+                  <title xml:lang="en">Hymns</title>
+                  <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
+                </msItem>
+                <msItem>
                   <locus from="21b"/>
+                  <title xml:lang="en">Hymns</title>
                   <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                 </msItem>
                 <msItem xml:id="c10" n="14">
                   <locus from="23a"/>
+                  <title xml:lang="en">Canticle</title>
                   <rubric xml:lang="syr">ܣܘܓܝܬܐ</rubric>
                 </msItem>
               </msItem>
               <msItem xml:id="b4" n="15">
                 <locus from="31a"/>
-                <title xml:lang="en">Order of the Annunciation of <persName ref="http://syriaca.org/person/624">Mary, the Mother of
-                           God</persName>
+                <title xml:lang="en">Order of the Annunciation of <persName ref="http://syriaca.org/person/624">Mary, the Mother of God</persName>
                 </title>
                 <rubric xml:lang="syr-Syre">ܛܟܣ̣ܐ ܕܥܠ ܣܘܒܪܗ̇ ܕܝ̇ܠܕܬ݀ ܐܠܗܐ ܡ݊ܪܝܡ</rubric>
                 <msItem xml:id="c11" n="16">
                   <locus from="34b"/>
+                  <title xml:lang="en">Hymns</title>
+                  <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
+                </msItem>
+                <msItem>
                   <locus from="35a"/>
+                  <title xml:lang="en">Hymns</title>
                   <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                 </msItem>
                 <msItem xml:id="c12" n="17">
                   <locus from="36b"/>
+                  <title xml:lang="en">Canticles</title>
+                  <rubric xml:lang="syr">ܣܘ̈ܓܝܬܐ</rubric>
+                </msItem>
+                <msItem>
                   <locus from="39a"/>
+                  <title xml:lang="en">Canticles</title>
                   <rubric xml:lang="syr">ܣܘ̈ܓܝܬܐ</rubric>
                 </msItem>
               </msItem>
@@ -220,11 +241,17 @@
                 <rubric xml:lang="syr-Syre">ܛܟܣ̣ܐ ܡܐ̣ܙܠܬܗ̇ ܕܡܪܝܡ ܨܝܕ ܐܠܝܫܒܥ</rubric>
                 <msItem xml:id="c13" n="19">
                   <locus from="49b"/>
+                  <title xml:lang="en">Hymns</title>
+                  <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
+                </msItem>
+                <msItem>
                   <locus from="50a"/>
+                  <title xml:lang="en">Hymns</title>
                   <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                 </msItem>
                 <msItem xml:id="c14" n="20">
                   <locus from="50b"/>
+                  <title xml:lang="en">Canticle</title>
                   <rubric xml:lang="syr">ܣܘܓܝܬܐ</rubric>
                 </msItem>
               </msItem>
@@ -236,7 +263,12 @@
                 <rubric xml:lang="syr-Syre">ܛܟ̣ܣܐ ܕܡ̇ܘܠܕܗ ܕܝܘܚܢܢ ܡ̇ܥܡܕܢܐ</rubric>
                 <msItem xml:id="c15" n="22">
                   <locus from="58a"/>
+                  <title xml:lang="en">Hymns</title>
+                  <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
+                </msItem>
+                <msItem>
                   <locus from="59b"/>
+                  <title xml:lang="en">Hymns</title>
                   <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                 </msItem>
               </msItem>
@@ -247,53 +279,83 @@
                 <rubric xml:lang="syr-Syre">ܛܟ̣ܣܐ ܕܓܠܝ̣ܢܗ ܕܝܘܣܦ</rubric>
                 <msItem xml:id="c16" n="24">
                   <locus from="67a"/>
+                  <title xml:lang="en">Hymns</title>
+                  <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
+                </msItem>
+                <msItem>
                   <locus from="67b"/>
+                  <title xml:lang="en">Hymns</title>
                   <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                 </msItem>
                 <msItem xml:id="c17" n="25">
                   <locus from="67a"/>
+                  <title xml:lang="en">Canticle</title>
                   <rubric xml:lang="syr">ܣܘܓܝܬܐ</rubric>
                 </msItem>
                 <msItem xml:id="c18" n="26">
                   <locus from="68a"/>
+                  <title xml:lang="en">Canticle</title>
                   <rubric xml:lang="syr">ܣܘܓܝܬܐ ܕܥܠ ܡ݊ܪܝܡ ܘܝܘܣܦ</rubric>
                 </msItem>
               </msItem>
               <msItem xml:id="b8" n="27">
                 <locus from="72b"/>
                 <title xml:lang="en">Order of the festival (<foreign xml:lang="grc">ἑορτὴ δεσποτική</foreign>) of the Nativity of <persName ref="http://syriaca.org/person/2245">our Lord</persName>, etc.</title>
-                <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܥܐܕܐ ܡܪܐܢܝܐ ܕܝܠ̣ܕܗ ܕܡܪܢ ܘܐܠܗܢ ܘܦܪܘܩܢ ܝܫܘܥ
-                           ܡܫܝܚܐ ܕܒܒܣܪ ܕܡܢ ܒܬܘܠܬܐ ܩܕܝܫܬܐ ܝ̇ܠܕܬ ܐܠܗܐ ܡ݊ܪܝܡ</rubric>
+                <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܥܐܕܐ ܡܪܐܢܝܐ ܕܝܠ̣ܕܗ ܕܡܪܢ ܘܐܠܗܢ ܘܦܪܘܩܢ ܝܫܘܥ ܡܫܝܚܐ ܕܒܒܣܪ ܕܡܢ ܒܬܘܠܬܐ ܩܕܝܫܬܐ ܝ̇ܠܕܬ ܐܠܗܐ ܡ݊ܪܝܡ</rubric>
                 <msItem xml:id="c19" n="28">
                   <locus from="76b"/>
-                  <locus from="83a"/>
-                  <locus from="91b"/>
-                  <locus from="97a"/>
+                  <title xml:lang="en">Hymns</title>
                   <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                 </msItem>
                 <msItem xml:id="c20" n="29">
                   <locus from="81a"/>
-                  <locus from="97b"/>
+                  <title xml:lang="en">Canticles</title>
                   <rubric xml:lang="syr">ܣܘ̈ܓܝܬܐ</rubric>
+                </msItem>
+                <msItem>
+                  <locus from="83a"/>
+                  <title xml:lang="en">Hymns</title>
+                  <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
+                </msItem>
+                <msItem>
+                  <locus from="91b"/>
+                  <title xml:lang="en">Hymns</title>
+                  <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                 </msItem>
                 <msItem xml:id="c21" n="30">
                   <locus from="93b"/>
+                  <title xml:lang="en">Canticle</title>
                   <rubric xml:lang="syr">ܣܘܓܝܬܐ ܕܥܠ ܡ݊ܪܝܡ. ܘܡܓ̈ܘܫܐ</rubric>
+                </msItem>
+                <msItem>
+                  <locus from="97a"/>
+                  <title xml:lang="en">Hymns</title>
+                  <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
+                </msItem>
+                <msItem>
+                  <locus from="97b"/>
+                  <title xml:lang="en">Canticles</title>
+                  <rubric xml:lang="syr">ܣܘ̈ܓܝܬܐ</rubric>
                 </msItem>
               </msItem>
               <msItem xml:id="b9" n="31">
                 <locus from="109b"/>
-                <title xml:lang="en">Order of the <persName ref="http://syriaca.org/person/624">Mother of God</persName>, which is
-                           celebrated after the Nativity of <persName ref="http://syriaca.org/person/2245">our Lord</persName>
+                <title xml:lang="en">Order of the <persName ref="http://syriaca.org/person/624">Mother of God</persName>, which is celebrated after the Nativity of <persName ref="http://syriaca.org/person/2245">our Lord</persName>
                 </title>
                 <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܝܠܕܬ ܐܠܗܐ ܕܡܫܬ݁ܡܠ̣ܐ ܒܬܪ ܝܠ̣ܕܗ ܕܡܪܢ</rubric>
                 <msItem xml:id="c22" n="32">
                   <locus from="112a"/>
+                  <title xml:lang="en">Hymns</title>
+                  <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
+                </msItem>
+                <msItem>
                   <locus from="118a"/>
+                  <title xml:lang="en">Hymns</title>
                   <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                 </msItem>
                 <msItem xml:id="c23" n="33">
                   <locus from="119a"/>
+                  <title xml:lang="en">Canticle</title>
                   <rubric xml:lang="syr">ܣܘܓܝܬܐ</rubric>
                 </msItem>
               </msItem>
@@ -305,65 +367,104 @@
                 <rubric xml:lang="syr">ܛܟ̣ܣܐ ܥܠ ܝ̈ܠ̣ܘܕܐ̣. ܕܐܬܩ̈ܛܠܘ ܡܢ ܗܪܘܕܣ</rubric>
                 <msItem xml:id="c24" n="35">
                   <locus from="126b"/>
+                  <title xml:lang="en">Hymns</title>
+                  <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
+                </msItem>
+                <msItem>
                   <locus from="128b"/>
+                  <title xml:lang="en">Hymns</title>
                   <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                 </msItem>
                 <msItem xml:id="c25" n="36">
                   <locus from="129a"/>
+                  <title xml:lang="en">Canticle</title>
                   <rubric xml:lang="syr">ܣܘܓܝܬܐ</rubric>
                 </msItem>
               </msItem>
               <msItem xml:id="b11" n="37">
-                <title xml:lang="en">Ephiphany orders</title>
+                <title xml:lang="en">Orders of the Ephiphany</title>
                 <msItem xml:id="c26" n="38">
                   <locus from="134a"/>
                   <title xml:lang="en">Order of the Epiphany</title>
                   <rubric xml:lang="syr">ܛܟܣ̣ܐ ܩܕܝܫܐ ܕܕܢܚܗ ܕܡܪܢ</rubric>
                   <msItem xml:id="d1" n="39">
                     <locus from="137a"/>
-                    <locus from="141b"/>
-                    <locus from="144b"/>
+                    <title xml:lang="en">Hymns</title>
                     <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                   </msItem>
                   <msItem xml:id="d2" n="40">
                     <locus from="140b"/>
+                    <title xml:lang="en">Canticles</title>
+                    <rubric xml:lang="syr">ܣܘ̈ܓܝܬܐ</rubric>
+                  </msItem>
+                  <msItem>
+                    <locus from="141b"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
+                  </msItem>
+                  <msItem>
                     <locus from="144a"/>
+                    <title xml:lang="en">Canticles</title>
+                    <rubric xml:lang="syr">ܣܘ̈ܓܝܬܐ</rubric>
+                  </msItem>
+                  <msItem>
+                    <locus from="144b"/>
+                    <title xml:lang="en">Hymns</title>
+                    <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
+                  </msItem>
+                  <msItem>
                     <locus from="145b"/>
+                    <title xml:lang="en">Canticles</title>
+                    <rubric xml:lang="syr">ܣܘ̈ܓܝܬܐ</rubric>
+                  </msItem>
+                  <msItem>
                     <locus from="146a"/>
+                    <title xml:lang="en">Canticles</title>
                     <rubric xml:lang="syr">ܣܘ̈ܓܝܬܐ</rubric>
                   </msItem>
                 </msItem>
                 <msItem xml:id="c27" n="41">
-                  <locus from="154"/>
+                  <locus from="154b"/>
                   <title xml:lang="en">Another order of the Epiphany</title>
                   <rubric xml:lang="syr">ܛܟܣ̣ܐ ܐܚܪܢܐ ܕܥܐܕܐ ܩܕܝܫܐ ܕܕܢܚ̣ܐ</rubric>
                 </msItem>
               </msItem>
               <msItem xml:id="b12" n="42">
+                <locus from="162a"/>
                 <title xml:lang="en">Order of the Decollation of <persName ref="http://syriaca.org/person/1808">S. John the
                            Baptist</persName>
                 </title>
                 <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܥܠ ܦܣ̣ܳܩ ܪܝܫܗ ܕܝܘܚܢܢ ܡ̇ܥܡܕܢܐ</rubric>
                 <msItem xml:id="c28" n="43">
                   <locus from="164a"/>
+                  <title xml:lang="en">Hymns</title>
+                  <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
+                </msItem>
+                <msItem>
                   <locus from="165b"/>
+                  <title xml:lang="en">Hymns</title>
                   <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                 </msItem>
                 <msItem xml:id="c29" n="44">
                   <locus from="165b"/>
+                  <title xml:lang="en">Canticle</title>
                   <rubric xml:lang="syr">ܣܘܓܝܬܐ</rubric>
                 </msItem>
               </msItem>
               <msItem xml:id="b13" n="45">
-                <locus from="173a">1</locus>
+                <locus from="173a"/>
                 <title xml:lang="en">Order of <persName>S. Stephen the first deacon
                               and martyr</persName>
                 </title>
-                <rubric xml:lang="syr-Syre">ܛܟ̣ܣܐ ܥܠ ܐܣܛܦܢܘܣ ܪܝܫܐ ܕܡܫ̈ܡܫܢܐ ܘܩܕܡܝܐ
-                           ܕܣܗ̈ܕܐ</rubric>
+                <rubric xml:lang="syr-Syre">ܛܟ̣ܣܐ ܥܠ ܐܣܛܦܢܘܣ ܪܝܫܐ ܕܡܫ̈ܡܫܢܐ ܘܩܕܡܝܐ ܕܣܗ̈ܕܐ</rubric>
                 <msItem xml:id="c30" n="46">
                   <locus from="175a"/>
+                  <title xml:lang="en">Hymns</title>
+                  <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
+                </msItem>
+                <msItem>
                   <locus from="175b"/>
+                  <title xml:lang="en">Hymns</title>
                   <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                 </msItem>
               </msItem>
@@ -371,56 +472,82 @@
                 <locus from="182a"/>
                 <title xml:lang="en">Hymns and prayers of
                               <placeName>Nineveh</placeName>, for three successive days</title>
-                <rubric xml:lang="syr">ܩ̈ܠܐ ܘܒ̈ܥܘܬܐ ܥܠ ܢܝܢܘܐ. ܕܡ̇ܫܬܡ̣ܠܝܢ ܒܗ̈ܠܝܢ ܬܠܬܐ
-                           ܝ̈ܘܡܬܐ</rubric>
+                <rubric xml:lang="syr">ܩ̈ܠܐ ܘܒ̈ܥܘܬܐ ܥܠ ܢܝܢܘܐ. ܕܡ̇ܫܬܡ̣ܠܝܢ ܒܗ̈ܠܝܢ ܬܠܬܐ ܝ̈ܘܡܬܐ</rubric>
               </msItem>
               <msItem xml:id="b15" n="48">
                 <locus from="193a"/>
                 <title xml:lang="en">Order of the Meeting, i.e. of the Entrance of
-                              <persName>our Lord</persName> into the Temple, and of <persName>S.
-                              Simeon the Aged</persName>
-                           <note>Both the Syriac and the Greek words are corruptions, the one of
-                                 <foreign xml:lang="grc">ὑπαπαντἡ</foreign>, the other of <foreign xml:lang="grc">ὑπάντησις</foreign>. On fol. 208 a the word is
-                              written <foreign xml:lang="syr">ܦܰܢܛܰܣܺܝܣ</foreign>.</note>
-                </title>
+                              <persName>our Lord</persName> into <placeName>the Temple</placeName>, and of <persName>S.
+                              Simeon the Aged</persName></title>
+                <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܐܰܦܳܘ݊ܦܰܢܛܻܝ ܐܘܟܝܬ ܕܡ̇ܥܠ̣ܬܗ ܕܡܪܢ ܠܗܝܟܠܐ ܘܕܫܡܥܘܢ</rubric>
+                <note>The Syriac word, <foreign xml:lang="syr">ܐܰܦܳܘ݊ܦܰܢܛܻܝ</foreign>, is a corruption of <foreign xml:lang="grc">ὑπαπαντή</foreign>.</note>
+                <note>See <ref>additions</ref>.</note>
                 <msItem xml:id="c31" n="49">
                   <locus from="196a"/>
+                  <title xml:lang="en">Hymns</title>
+                  <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
+                </msItem>
+                <msItem>
                   <locus from="198a"/>
+                  <title xml:lang="en">Hymns</title>
                   <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                 </msItem>
                 <msItem xml:id="c32" n="50">
                   <locus from="198b"/>
+                  <title xml:lang="en">Canticle</title>
                   <rubric xml:lang="syr">ܣܘܓܝܬܐ</rubric>
                 </msItem>
               </msItem>
               <msItem xml:id="b16" n="51">
+                <locus from="208a"/>
+                <author>Mār Severus</author>
                 <title xml:lang="en">Order of <persName>Mār Severus</persName>, or of
-                           any one Saint</title>
+                           <persName>any one Saint</persName></title>
                 <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܥܠ ܡܪܝ ܣ݊ܐ݊ܘ݊ܪܐ. ܐܘ ܟܝܬ ܕܥܠ ܚܕ ܩܢܘܡܐ</rubric>
                 <msItem xml:id="c33" n="52">
                   <locus from="210a"/>
+                  <title xml:lang="en">Hymns</title>
+                  <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
+                </msItem>
+                <msItem>
                   <locus from="212a"/>
+                  <title xml:lang="en">Hymns</title>
                   <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                 </msItem>
               </msItem>
               <msItem xml:id="b17" n="53">
                 <locus from="218a"/>
-                <title xml:lang="en">Order of the Righteous and Priests, and of the
-                           Vigil of the Brethren</title>
+                <title xml:lang="en">Order of <persName>the Righteous</persName> and <persName>Priests</persName>, and of the
+                           Vigil of <persName>the Brethren</persName></title>
+                <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܟܐ̈ܢܐ ܘܟܗ̈ܢܐ. ܘܒܫܗܪܐ ܕܐ̈ܚܐ</rubric>
                 <msItem xml:id="c34" n="54">
                   <locus from="219b"/>
+                  <title xml:lang="en">Hymns</title>
+                  <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
+                </msItem>
+                <msItem>
                   <locus from="220b"/>
+                  <title xml:lang="en">Hymns</title>
                   <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                 </msItem>
               </msItem>
               <msItem xml:id="b18" n="55">
                 <locus from="225b"/>
-                <title xml:lang="en">Order of the Dead in general</title>
+                <title xml:lang="en">Order of <persName>the Dead</persName> in general</title>
                 <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܟܠܗܘܢ ܥܢܝ̈ܕܐ ܓܘܢܐܝܬ</rubric>
                 <msItem xml:id="c35" n="56">
                   <locus from="227b"/>
+                  <title xml:lang="en">Hymns</title>
+                  <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
+                </msItem>
+                <msItem>
                   <locus from="228b"/>
+                  <title xml:lang="en">Hymns</title>
+                  <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
+                </msItem>
+                <msItem>
                   <locus from="229a"/>
+                  <title xml:lang="en">Hymns</title>
                   <rubric xml:lang="syr">ܡܕܪ̈ܫܐ</rubric>
                 </msItem>
               </msItem>
@@ -429,14 +556,13 @@
                 <title xml:lang="en">Order of hymns and prayers, in time of wrath
                               (<foreign xml:lang="grc">θεομηνία</foreign>) and in scarcity of
                            rain</title>
-                <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܩ̈ܠܐ ܘܒ̈܏ܥܘ ܕܡܫܬ݁ܡܠܐ ܒܙܒܢ ܪܘܓܙܐ ܘܒܚܣܝܪܘܬ
-                           ܡܛܪܐ</rubric>
+                <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܩ̈ܠܐ ܘܒ̈܏ܥܘ ܕܡܫܬ݁ܡܠܐ ܒܙܒܢ ܪܘܓܙܐ ܘܒܚܣܝܪܘܬ ܡܛܪܐ</rubric>
               </msItem>
               <msItem xml:id="b20" n="58">
                 <locus from="235a"/>
-                <title xml:lang="en">Order of the Decease of the <persName ref="http://syriaca.org/person/624">Mother of God</persName>; in a
-                           more modern hand</title>
+                <title xml:lang="en">Order of the Decease of the <persName ref="http://syriaca.org/person/624">Mother of God</persName></title>
                 <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܥܘܢܕܢܗ̇ ܕܝܠܕܬ ܐܠܗܐ</rubric>
+                <note>See <ref>additions</ref>.</note>
               </msItem>
             </msItem>
           </msContents>
@@ -454,13 +580,7 @@
                                  <p>Vellum, 15 3/8 in. by 12 5/8, consisting of 235 leaves, some of
                                     which are slightly stained and soiled. The quires, 23 in number,
                                     are signed with letters. Each page is divided into two columns,
-                                    of from 24 to 39 lines. The writing is a large, regular
-                                    Estrangela, with a few Greek vowels. There are some attempts at
-                                    ornamentation; see, for example, on <locus>foll. 17 a</locus>,
-                                       <locus>56 a</locus>, <locus>65 a</locus>, <locus>72
-                                    b</locus>, <locus>106 b</locus> (two birds), <locus>109
-                                       b</locus>, <locus>173 a</locus>, <locus>182 a</locus>, and
-                                       <locus>193 a</locus>.</p>
+                                    of from 24 to 39 lines.</p>
                               </item>
                            </list>
                         </condition>
@@ -472,7 +592,8 @@
                   <handDesc hands="2">
               <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr-Syre">
                         <desc>The writing is a large, regular Estrangela, with a few Greek
-                           vowels.</desc>
+                          vowels. This volume was written <date>A. Gr. 1318</date>, <date>A.D. 1007</date>, as appears from
+                          <ref>the colophon of Add. 12,148</ref>.</desc>
                      </handNote>
               <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
                         <desc>The handwritings on <locus>foll. 5 b</locus>, <locus>6</locus>,
@@ -481,13 +602,47 @@
                            See additions.</desc>
                      </handNote>
             </handDesc>
+                 <decoDesc>
+                   <decoNote xml:id="decoNote1" type="ornamentation">There are some attempts at
+                     ornamentation; see, for example, on <locus>foll. 17 a</locus>,
+                     <locus>56 a</locus>, <locus>65 a</locus>, <locus>72
+                       b</locus>, <locus>106 b</locus> (two birds), <locus>109
+                         b</locus>, <locus>173 a</locus>, <locus>182 a</locus>, and
+                     <locus>193 a</locus>.</decoNote>
+                 </decoDesc>
                   <additions>
               <p/>
               <list>
+                <item>
+                  <locus from="5b"/>
+                  <p>The <ref>Canon for the same occasion, seventh tone</ref> is in a more recent hand.</p>
+                </item>
+                <item>
+                  <locus from="6b"/>
+                  <p>The <ref>Canon on Zacharias the priest</ref> is in a more recent hand.</p>
+                </item>
+                <item>
+                  <locus from="193a"/>
+                  <p>On the margins of the rubric for <ref></ref> is written:</p>
+                  <p>
+                    <quote xml:lang="grc">ϯⲠᾺΝΗⲦⲤΊⲤ</quote><!-- WLP majuscule eta Η is missing circumflex. It's possible, because this would not occur except in majuscule (in mss and inscriptions), that there is no unicode for majuscule eta + circumflex without a breathing mark.-->
+                  </p>
+                  <p>This is a corruption of <foreign xml:lang="grc">ὑπάντησις</foreign>. On <locus from="208a">fol. 208 a</locus> the word is written <foreign xml:lang="syr">ܦܰܢܛܰܣܺܝܣ</foreign>.</p>
+                </item>
+                <item>
+                  <locus from="235a"/>
+                  <p>The <ref>Order of the Decease of the Mother of God</ref>is in a more modern hand.</p>
+                </item>
                 <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p>On <locus>fol. 234 b</locus>, at the end of no. 19, are the words
-                                 <foreign xml:lang="syr">ܫܠܡܬ ܦܠܓܘܬܐ ܩܕܡܝܬܐ</foreign>, followed by
+                           <locus from="234b"/>
+                  <p>On <locus>fol. 234 b</locus>, at the end of the <ref>Order of hymns and prayers, in time of wrath and in scarcity of rain</ref>, are the words,</p>
+                  <p>
+                    <quote xml:lang="syr">ܫܠܡܬ ܦܠܓܘܬܐ ܩܕܡܝܬܐ</quote>
+                  </p>
+                </item>
+                  <item>
+                    <locus from="234b"/>
+                    <p>The <ref>above words</ref> are followed by
                               an epigraph in heptasyllabic metre, naming <persName>the scribe
                                  Yeshūa'</persName> (see also <locus>fol. 72 b</locus>, in the
                               ornament) and the person who paid for the writing of the book,
@@ -499,51 +654,46 @@
                   </p>
                         </item>
                 <item xml:id="addition2" n="2">
-                           <locus/>
-                           <p>Below this there are several later notes, written across the foot of
+                           <locus from="234"/>
+                           <p>Below <ref>the epigraph</ref> there are several later notes, written across the foot of
                               the page. First, a prayer for the said <persName>Abū 'Alī Zakarīyā,
-                                 the chief of the Tagritans in
-                                 <placeName>Egypt</placeName>
-                    </persName>.</p>
+                                 the chief of the Tagritans in <placeName>Egypt</placeName></persName>.</p>
                            <p>
-                              <quote xml:lang="syr">ܟܠ ܕܩܪܐ ܒܗܠܝܢ ܙܕܩ ܠܗ ܕܢܨ̇ܠ̣ܐ ܥܠ ܒܘܥܠܝ ܙܝܟܪܝ ܪܝܫܐ
-                                 ܕܬܓܪ̈ܝܬܢܝܐ ܕܗܘܘ ܒܡܨܪܝܡ.</quote>
+                              <quote xml:lang="syr">ܟܠ ܕܩܪܐ ܒܗܠܝܢ ܙܕܩ ܠܗ ܕܢܨ̇ܠ̣ܐ ܥܠ ܒܘܥܠܝ ܙܝܟܪܝ ܪܝܫܐ ܕܬܓܪ̈ܝܬܢܝܐ ܕܗܘܘ ܒܡܨܪܝܡ</quote>
                            </p>
                         </item>
                 <item xml:id="addition3" n="3">
-                           <locus/>
-                           <p>Then, there is a prayer for <persName>the priest 'Abda</persName> and for
+                           <locus from="234b"/>
+                           <p>The second note at the foot of fol. 234 b is a prayer for <persName>the priest 'Abda</persName> and for
                                  <persName>Abū 'Al̄ī</persName>.</p>
                            <p>
                               <quote xml:lang="syr">ܟܠ ܐܝܢܐ ܕܩ̇ܪܐ ܒܟ̈ܬܒܐ ܗܠܝܢ ܢܨܲܠܐ ܥܠ ܥܒ̣ܕܐ ܩܫܝܫܐ
                                  ܘܕܝܪܝܐ ܢܟܦܐ. ܗ̇ܘ ܕܗ̣ܘ ܗ̣ܘܬ݀ ܠܗ ܝܲܨܝܦܘܬܐ ܥܠ ܫܘܡܠܝܐ ܕܗܠܝܢ ܟܬ̈ܒܐ ܡܪܝܐ
                                  ܢܚܲܣܐ ܠܗ ܘܠܥܢ̣̈ܝܕܘܗܝ̣ ܐܡܝܢ. ܘܠܗ̇ܘ ܐܪܟܘܢܐ ܕܪܫܝܡ ܕܗ̣ܘ ܝܗܒ ܐܓܪܐ
-                                 ܘܐܬܟܬܒܘ.</quote>
+                                 ܘܐܬܟܬܒܘ</quote>
                            </p>
                         </item>
                 <item xml:id="addition4" n="4">
-                           <locus/>
-                           <p>Next, there is a note by one <persName>Peter Bartellāyā</persName> (i.e. from
-                                 <foreign xml:lang="syr">ܒܪܛܠܠܝ ܩܣܛܪܐ</foreign> or %<!--Arabic needed here-->, in the
-                                 <placeName>district of Mosul</placeName>).</p>
+                           <locus from="234b"/>
+                  <p>The third note at the foot of fol. 234 b is by one <persName>Peter Bartellāyā</persName> (i.e. from
+                    <foreign xml:lang="syr">ܒܪܛܠܠܝ ܩܣܛܪܐ</foreign> or <foreign xml:lang="ar">بَرْطٌلَّي</foreign>, in the <placeName>district of Mosul</placeName>).</p>
                            <p>
                               <quote xml:lang="syr">ܟܠ ܡܢ ܕܩ̇ܪܐ ܢܨ̇ܠܐ ܒܚܘܒܐ ܡܫܝ̣ܚܝܐ ܥܠ ܥܒ̣ܕܟܘܢ
                                  ܦܐܛܪܘܣ ܚܛܝ̣ܐ ܕܡܬܕܠܠ ܒܪܛܠܝ̣ܐ. ܘܟܠ̣ ܡ̇ܢ ܕܢ̇ܛܪ. ܡܪܝܐ ܢܚܣܐ ܠܗ. ܘܟܠ
-                                 ܕܠ̇ܚܐ ܠܗܠܝܢ ܣܘܪ̈ܛܐ ܢܬܠ̣ܚܐ ܫܡܗ ܡܢ ܩܕܡ ܒܝܡ ܕܡܫܝܚܐ. ܐܡܝܢ.</quote>
+                                 ܕܠ̇ܚܐ ܠܗܠܝܢ ܣܘܪ̈ܛܐ ܢܬܠ̣ܚܐ ܫܡܗ ܡܢ ܩܕܡ ܒܝܡ ܕܡܫܝܚܐ. ܐܡܝܢ</quote>
                            </p>
                         </item>
                 <item xml:id="addition5" n="5">
-                           <locus/>
-                           <p>Lastly, it has the name of <persName>the priest Joseph
+                           <locus from="234b"/>
+                  <p>The last note at the foot of fol. 234 b has the name of <persName>the priest Joseph
                               Sīmandāyā</persName>.</p>
                            <p>
-                              <quote xml:lang="syr">ܡܪܝܐ ܢܚܲܣܐ ܠܝܘܣܦ ܣܝܡܢܕܝܐ ܩܫܝܫܐ ܕܝܠܗ ܕܥܘܡܪܐ
-                                 ܐܡܝܢ.</quote>
+                              <quote xml:lang="syr">ܡܪܝܐ ܢܚܲܣܐ ܠܝܘܣܦ ܣܝܡܢܕܝܐ ܩܫܝܫܐ ܕܝܠܗ ܕܥܘܡܪܐ ܐܡܝܢ</quote>
                            </p>
                         </item>
                 <item xml:id="addition6" n="6">
-                           <locus/>
-                           <p>The above-mentioned <persName>Peter Bartellāyā</persName> has also
+                           <locus from="92a"/>
+                           <p>The <ref>above-mentioned</ref> <persName>Peter Bartellāyā</persName> has also
                               entered his name on the margin of <locus>fol. 92 a</locus>, as follows.</p>
                            <p>
                               <quote xml:lang="syr">ܒܗܝܡܢ ܨ̇ܠܘ ܥܠ ܦܛܪܘܣ ܚܛܝܐ ܕܡܢ ܐܬܪܐ ܕܡܘܼܨܠ ܕܡܬܕܠܠ
@@ -551,15 +701,13 @@
                            </p>
                         </item>
                 <item xml:id="addition7" n="7">
-                           <locus/>
+                           <locus from="134a"/>
                            <p>On the margin of <locus>fol. 134 a</locus> is written, though rather indistinctly,
                               the name of another <persName>Peter</persName>.</p>
                            <p>
-                              <quote xml:lang="syr">ܨܠܘ ܥܠ ܦܛܪܘܣ ܗ̇ܘ ܡܣܟܢܐ ܘܡܦܠܦܠ ܒܣ̈ܢܝܬܐ ܕܡܬܕܠܠ
-                                 ܟܝܢܘܝܐ.</quote>
+                              <quote xml:lang="syr">ܨܠܘ ܥܠ ܦܛܪܘܣ ܗ̇ܘ ܡܣܟܢܐ ܘܡܦܠܦܠ ܒܣ̈ܢܝܬܐ ܕܡܬܕܠܠ ܟܝܢܘܝܐ</quote>
                            </p>
                         </item>
-              </list>
             </additions>
                   <bindingDesc>
                      <p>Content pending</p>
@@ -571,9 +719,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="1007">This volume was written A. Gr. 1318, A.D. 1007, as appears from
-                        the colophon of Add. 12,148.</origDate>
-                     <origDate datingMethod="Seleucid" when-custom="1318"/>
+                    <origDate calendar="Gregorian" when="1007">A.D. 1007</origDate>
+                    <origDate datingMethod="Seleucid" when-custom="1318">A. Gr. 1318</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
