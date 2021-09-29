@@ -107,3 +107,11 @@ declare %unit:test function msParts-test:create-merged-titleSmt-from-test-record
 declare %unit:test function msParts-test:create-publicationStmt-with-current-date() {
   unit:assert-equals(msParts:create-publicationStmt($msParts:config-msParts/config/manuscriptLevelMetadata/uriValue/text()),  $msParts-test:publicationStmt-to-compare-with-current-date)
 };
+
+declare %unit:test function msParts-test:create-main-msIdentifier-from-config() {(: will likely break if running on different data...:)
+  unit:assert-equals(msParts:create-main-msIdentifier(),  $msParts-test:file-to-compare//tei:msDesc/tei:msIdentifier)
+};
+
+declare %unit:test function msParts-test:create-msPart-sequence-from-test-records() {
+    unit:assert-equals(<el>{msParts:create-msPart-sequence($msParts:manuscript-part-source-document-sequence)}</el>,  <el>{$msParts-test:file-to-compare//tei:msDesc/tei:msPart}</el>)
+};

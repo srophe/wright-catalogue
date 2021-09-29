@@ -34,7 +34,10 @@ declare variable $msParts:manuscript-part-source-document-sequence :=
   for $file in $msParts:config-msParts/config/msPartFiles/fileName
     let $fullFilePath := $msParts:path-to-msParts-folder || $file/text()
     return fn:doc($fullFilePath);
-    
+   
+declare variable $msParts:record-title :=
+  $msParts:config-msParts/config/manuscriptLevelMetadata/recordTitle/text();
+   
 declare variable $msParts:ms-level-shelfmark :=
   $msParts:config-msParts/config/manuscriptLevelMetadata/shelfMark/text();
   
@@ -47,7 +50,7 @@ declare variable $msParts:ms-level-uri :=
 - build fileDesc consists of:
   - titleStmt (already made)
   - editionStmt (from template)
-  - publicationStmt (from template but sub the overall URI) --> call with $msParts:config-msParts/config/manuscriptLevelMetadata/uriValue/text()
+  - publicationStmt (made) --> call with $msParts:config-msParts/config/manuscriptLevelMetadata/uriValue/text(). This function could be moved to mss and refactored so the mss update function calls it with the found URI
   - sourceDesc (the main functionality is here)
 - encodingDesc comes from template
 - profileDesc
@@ -86,7 +89,7 @@ declare function msParts:merge-respStmt-list($documentSequence as node()+) as no
 declare function msParts:create-merged-titleStmt($documentSequence as node()+) as node() {
   let $titleStmtTemplate := $documentSequence[1]//tei:titleStmt
   let $recordTitle := $titleStmtTemplate/tei:title[@level="a"]
-  let $recordTitle := element {node-name($recordTitle)} {$recordTitle/@*, $msParts:ms-level-shelfmark}
+  let $recordTitle := element {node-name($recordTitle)} {$recordTitle/@*, $msParts:record-title}
   let $moduleTitle := $titleStmtTemplate/tei:title[@level="m"]
   let $mergedEditorList := msParts:merge-editor-list($documentSequence)
   let $mergedRespStmtList := msParts:merge-respStmt-list($documentSequence)
@@ -105,11 +108,48 @@ declare function msParts:create-publicationStmt($uri as xs:string) as node() {
   let $publicationDate := element {QName("http://www.tei-c.org/ns/1.0", "date")} {attribute {"calendar"} {"Gregorian"}, fn:current-date()}
   return element {fn:node-name($templatePubStmt)} {$templatePubStmt/tei:authority, $idno, $templatePubStmt/tei:availability, $publicationDate}
 };
+
+declare function msParts:update-msDesc($msPartDocumentSequence as node()+) as node() {
+  let $msDescId := "manuscript"||$msParts:config-msParts/config/manuscriptLevelMetadata/uriValue/text()
+  let $msIdentifier := msParts:create-main-msIdentifier()
+  let $msPartSeq := msParts:create-msPart-sequence($msPartDocumentSequence)
+  return element {QName("http://www.tei-c.org/ns/1.0", "msDesc")} {attribute {"xml:id"} {$msDescId}, $msIdentifier, $msPartSeq}
+};
+
+declare function msParts:create-main-msIdentifier() {
+  let $mainMsMetadata := $msParts:config-msParts/config/manuscriptLevelMetadata
+  let $country := element {QName("http://www.tei-c.org/ns/1.0", "country")} {$mainMsMetadata/country/text()}
+  let $settlement := element {QName("http://www.tei-c.org/ns/1.0", "settlement")} {$mainMsMetadata/settlement/text()}
+  let $repository := element {QName("http://www.tei-c.org/ns/1.0", "repository")} {$mainMsMetadata/repository/text()}
+  let $collection := element {QName("http://www.tei-c.org/ns/1.0", "collection")} {$mainMsMetadata/collection/text()}
+  let $uriIdno := element {QName("http://www.tei-c.org/ns/1.0", "idno")} {attribute {"type"} {"URI"}, "https://syriaca.org/manuscript/"||$mainMsMetadata/uriValue/text()}
+  let $shelfMarkIdno := element {QName("http://www.tei-c.org/ns/1.0", "idno")} {attribute {"type"} {"BL-Shelfmark"}, $mainMsMetadata/shelfMark/text()}
+  let $altIdentifier := element {QName("http://www.tei-c.org/ns/1.0", "altIdentifier")} {$shelfMarkIdno}
+  return element {QName("http://www.tei-c.org/ns/1.0", "msIdentifier")} {$country, $settlement, $repository, $collection, $uriIdno, $altIdentifier}
+};
+
+declare function msParts:create-msPart-sequence($msPartDocumentSequence as node()+) as node()+ {
+  for $doc in $msPartDocumentSequence
+    return element {QName("http://www.tei-c.org/ns/1.0", "msPart")} {$msPartDocumentSequence//tei:msDesc/*}
+};
+
+  (:
+  Should look like this:
+  <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <repository>British Library</repository>
+            <collection>Oriental Manuscripts</collection>
+            <idno type="URI">http://syriaca.org/manuscript/540</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">Add MS 14684</idno>
+            </altIdentifier>
+          </msIdentifier>
+  :)
 (: function make a list of editors :)
 (:
 To-do
-- functions needed)
-  - new pubStmt using overall URI (and update pub date)
+- functions needed
 - msDesc is combined as follows
   - xml:id based on overall id
   - msIdentifier for overall has country, settlement, repository, collection from ms config; URI for overall and BL-Shelfmark for overall. But no Wright #s
