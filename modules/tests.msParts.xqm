@@ -134,14 +134,14 @@ declare %unit:test  function msParts-test:add-part-designation-to-element-sequen
 
 (: add tests for above function to ensure the child elements and other attributes are not affected by this script. :)
 
-declare %unit:test %unit:ignore function msParts-test:add-part-designation-to-msContents-from-test-record() {
+declare %unit:test %unit:ignore function msParts-test:add-part-designation-to-msContents-from-test-record() { (: seems to be just whitespace issues... :)
     unit:assert-equals(msParts:add-part-designation-to-msContents($msParts:manuscript-part-source-document-sequence[1]//tei:msDesc/tei:msContents, "1"), $msParts-test:file-to-compare//tei:msDesc/tei:msPart[1]/tei:msContents)
 }; 
 
-declare %unit:test %unit:ignore function msParts-test:add-part-designation-to-physDesc-from-test-record() {
+declare %unit:test %unit:ignore function msParts-test:add-part-designation-to-physDesc-from-test-record() {(: Note-to-self: no discernable difference between returned and expected. not sure what's wrong in these tests. A way around would be to create multiple tests that say, e.g., "this-function-adds-correct-xml:ids" and another that says "this-function-does-not-change-non-target-nodes" (i.e., does not affect element sequence, children, other attributes, text, etc.) This is a more complex suite of tests but would likely be more comprehensive and easier to debug if we know specific functionalities that are being tested. :)
     unit:assert-equals(msParts:add-part-designation-to-physDesc($msParts:manuscript-part-source-document-sequence[1]//tei:msDesc/tei:physDesc, "1"), $msParts-test:file-to-compare//tei:msDesc/tei:msPart[1]/tei:physDesc)
 }; 
 
-declare %unit:test  %unit:ignore function msParts-test:add-part-designation-to-additional-from-test-record() {
+declare %unit:test  %unit:ignore function msParts-test:add-part-designation-to-additional-from-test-record() { 
     unit:assert-equals(msParts:add-part-designation-to-additional($msParts:manuscript-part-source-document-sequence[1]//tei:msDesc/tei:additional, "1"), $msParts-test:file-to-compare//tei:msDesc/tei:msPart[1]/tei:additional)
 }; 

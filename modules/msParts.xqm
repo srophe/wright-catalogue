@@ -143,7 +143,7 @@ declare function msParts:create-msPart($singleMsDesc as node(), $partNumber as x
   return element {QName("http://www.tei-c.org/ns/1.0", "msPart")} {attribute {"xml:id"} {"Part"||$partNumber}, $msIdentifier, $msContents, $physDesc, $history, $additional}
 };
   (:
-  msContents -- update with p\d+
+
   physDesc > handDesc and (and decoDesc) additions update with p\d+
   history as is
   additional add Part\d+ to adminInfo/source/ref/@target and lisBibl/bilb/@xml:id
@@ -160,47 +160,44 @@ declare function msParts:add-part-designation-to-element-sequence($elementSequen
     return if ($el[fn:node-name() = $nodeName]) 
      then element {$nodeName} {attribute {"xml:id"} {$xmlId}, $el/@*[not(namespace-uri()='http://www.w3.org/XML/1998/namespace' and local-name()='id')], $el/*[not(fn:node-name() = $nodeName)], msParts:add-part-designation-to-element-sequence($el/*[fn:node-name() = $nodeName], $partNumber, $idPrefix)}
      else element {$nodeName} {attribute {"xml:id"} {$xmlId}, $el/@*[not(namespace-uri()='http://www.w3.org/XML/1998/namespace' and local-name()='id')], $el/*}
-    (:
-    - update xml:id of $el
-    - return $el/@* (except xml:id which is now the updated one)
-    - if $el has children of  the same node-name, run this function on those children.
-    - return the children that are the same node-name as is, and the updated children of the same name (this only applies to msItems as there are no nested handDesc, etc.)
-    :)
 };
 
 declare function msParts:add-part-designation-to-msContents($msContents as node(), $partNumber as xs:string) as node() {
-  let $change-this := ""
   let $msItems := msParts:add-part-designation-to-element-sequence($msContents/tei:msItem, $partNumber, "p")
-  return $msContents
-  (:
-  go through each msItem and add "p||$parNumber" to the existing xml:id. 
-  go through an sub-msItems
-  I Think we could do this more generically?
-  :)
+  return element {fn:node-name($msContents)} {$msContents/*[not(name()='msItem')], $msItems}
 };
 
 declare function msParts:add-part-designation-to-physDesc($physDesc as node(), $partNumber as xs:string) as node() {
-  let $change-this := ""
-  return $physDesc
+    let $objectDesc := $physDesc/tei:objectDesc
+    let $handDesc := $physDesc/tei:handDesc
+    let $handDesc := element {fn:node-name($handDesc)} {$handDesc/@*, msParts:add-part-designation-to-element-sequence($handDesc/tei:handNote, $partNumber, "p")}
+    let $decoDesc := if($physDesc/tei:decoDesc) then element {fn:node-name($physDesc/tei:decoDesc)} {$physDesc/tei:decoDesc/@*, msParts:add-part-designation-to-element-sequence($physDesc/tei:decoDesc/tei:decoNote, $partNumber, "p")}
+    let $additions := if($physDesc/tei:additions/tei:list/tei:item) then msParts:add-part-designation-to-additions-items($physDesc/tei:additions, $partNumber)
+      else element {QName("http://www.tei-c.org/ns/1.0", "additions")} {}
+    let $bindingDesc := $physDesc/tei:bindingDesc (: as-is :)
+    let $sealDesc := $physDesc/tei:sealDesc (: as-is :)
+    let $accMat := $physDesc/tei:accMat
+    return element {QName("http://www.tei-c.org/ns/1.0", "physDesc")} {$objectDesc, $handDesc, $decoDesc, $additions, $bindingDesc, $sealDesc, $accMat}
+};
+
+declare function msParts:add-part-designation-to-additions-items($additions as node(), $partNumber as xs:string) as node() {
+  let $additionsList := element {fn:node-name($additions/tei:list)} {msParts:add-part-designation-to-element-sequence($additions/tei:list/tei:item, $partNumber, "p")}
+  return element {fn:node-name($additions)} {$additions/*[not(name()= name($additionsList))], $additionsList}
 };
 
 declare function msParts:add-part-designation-to-additional($additional as node(), $partNumber as xs:string) as node() {
-  let $change-this := ""
-  return $additional
+ (: FIX THE ADMININFO. TRICKY BECAUSE MIXED CONTENT. Probably can use /*::node()[1], $bibl, /*::node()[3] in the tei:source. This nests in tei:recordHist which nests, along with tei:note (empty) in tei:adminInfo, which is returned as previous sibling to the tei:listBibl created below. :)
+
+  let $wrightBibl := $additional/tei:listBibl/tei:bibl
+  let $newBiblId := fn:string($wrightBibl/@xml:id)||"Part"||$partNumber
+  let $wrightBibl := element {fn:node-name($wrightBibl)} {attribute {"xml:id"} {$newBiblId}, $wrightBibl/*}
+  let $listBibl := element {fn:node-name($additional/tei:listBibl)} {$wrightBibl}
+  return element element {fn:node-name($additional)} {$listBibl}
 };
 (:
 To-do
 - functions needed
 - msDesc is combined as follows
-  - xml:id based on overall id
-  - msIdentifier for overall has country, settlement, repository, collection from ms config; URI for overall and BL-Shelfmark for overall. But no Wright #s
-  - each file gives an msPart that has xml:id of Part\d+, etc.
-    - msIdentifier as-is from the file
-    - msContents as is but with updated xml:ids with p\d+ prepended based on position in sequence. (note that this will require creating a table to update linked data)
-    - physDesc > objectDesc as-is
-    - physDesc > handDesc with updated handNotes prepending the p\d+ string to the xml:ids
-      - same idea for additions and for decoDesc if needed
-    - history as-is
     - additional
       - update the adminInfo//source/ref/@target to "#WrightPart\d+" based on position in sequence
         - this is the updated xml:id on the additional/listBibl/bibl that was "Wright"
