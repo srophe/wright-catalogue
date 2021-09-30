@@ -129,24 +129,65 @@ declare function msParts:create-main-msIdentifier() {
 };
 
 declare function msParts:create-msPart-sequence($msPartDocumentSequence as node()+) as node()+ {
-  for $doc in $msPartDocumentSequence
+  for $doc at $i in $msPartDocumentSequence (: figuring out how to handle adding them into existing msParts will be interesting. Potentially an 'update-msPart-sequence' function where you somehow specify the value of the part number and where within it you want it to go. Think more about htis.:)
+    let $msPart := msParts:create-msPart($doc//tei:msDesc, $i)
     return element {QName("http://www.tei-c.org/ns/1.0", "msPart")} {$msPartDocumentSequence//tei:msDesc/*}
 };
 
+declare function msParts:create-msPart($singleMsDesc as node(), $partNumber as xs:string) as node() {
+  let $msIdentifier := $singleMsDesc/tei:msIdentifier
+  let $msContents := msParts:add-part-designation-to-msContents($singleMsDesc/tei:msContents, $partNumber)
+  let $physDesc := msParts:add-part-designation-to-physDesc($singleMsDesc/tei:physDesc, $partNumber)
+  let $history := $singleMsDesc/tei:history
+  let $additional := msParts:add-part-designation-to-additional($singleMsDesc/tei:additional, $partNumber)
+  return element {QName("http://www.tei-c.org/ns/1.0", "msPart")} {attribute {"xml:id"} {"Part"||$partNumber}, $msIdentifier, $msContents, $physDesc, $history, $additional}
+};
   (:
-  Should look like this:
-  <msIdentifier>
-            <country>United Kingdom</country>
-            <settlement>London</settlement>
-            <repository>British Library</repository>
-            <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/540</idno>
-            <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14684</idno>
-            </altIdentifier>
-          </msIdentifier>
+  msContents -- update with p\d+
+  physDesc > handDesc and (and decoDesc) additions update with p\d+
+  history as is
+  additional add Part\d+ to adminInfo/source/ref/@target and lisBibl/bilb/@xml:id
   :)
-(: function make a list of editors :)
+declare function msParts:add-part-designation-to-element-sequence($elementSequence as node()*, $partNumber as xs:string, $idPrefix as xs:string) as node()* {
+  (: all records are assumed to have an xml:id and be in the correct order, so you should have edited the files you are working on and also run a script that adds and renumbers the xml:ids so that they are in the correct sequence, etc. before running this function :)
+  let $temp := ""
+  return if(empty($elementSequence)) then ()
+  else
+  for $el in $elementSequence
+    let $nodeName := fn:node-name($el)
+    let $xmlId := fn:string($el/@xml:id)
+    let $xmlId := $idPrefix||$partNumber||$xmlId
+    return if ($el[fn:node-name() = $nodeName]) 
+     then element {$nodeName} {attribute {"xml:id"} {$xmlId}, $el/@*[not(namespace-uri()='http://www.w3.org/XML/1998/namespace' and local-name()='id')], $el/*[not(fn:node-name() = $nodeName)], msParts:add-part-designation-to-element-sequence($el/*[fn:node-name() = $nodeName], $partNumber, $idPrefix)}
+     else element {$nodeName} {attribute {"xml:id"} {$xmlId}, $el/@*[not(namespace-uri()='http://www.w3.org/XML/1998/namespace' and local-name()='id')], $el/*}
+    (:
+    - update xml:id of $el
+    - return $el/@* (except xml:id which is now the updated one)
+    - if $el has children of  the same node-name, run this function on those children.
+    - return the children that are the same node-name as is, and the updated children of the same name (this only applies to msItems as there are no nested handDesc, etc.)
+    :)
+};
+
+declare function msParts:add-part-designation-to-msContents($msContents as node(), $partNumber as xs:string) as node() {
+  let $change-this := ""
+  let $msItems := msParts:add-part-designation-to-element-sequence($msContents/tei:msItem, $partNumber, "p")
+  return $msContents
+  (:
+  go through each msItem and add "p||$parNumber" to the existing xml:id. 
+  go through an sub-msItems
+  I Think we could do this more generically?
+  :)
+};
+
+declare function msParts:add-part-designation-to-physDesc($physDesc as node(), $partNumber as xs:string) as node() {
+  let $change-this := ""
+  return $physDesc
+};
+
+declare function msParts:add-part-designation-to-additional($additional as node(), $partNumber as xs:string) as node() {
+  let $change-this := ""
+  return $additional
+};
 (:
 To-do
 - functions needed

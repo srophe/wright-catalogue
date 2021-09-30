@@ -112,6 +112,36 @@ declare %unit:test function msParts-test:create-main-msIdentifier-from-config() 
   unit:assert-equals(msParts:create-main-msIdentifier(),  $msParts-test:file-to-compare//tei:msDesc/tei:msIdentifier)
 };
 
-declare %unit:test function msParts-test:create-msPart-sequence-from-test-records() {
-    unit:assert-equals(<el>{msParts:create-msPart-sequence($msParts:manuscript-part-source-document-sequence)}</el>,  <el>{$msParts-test:file-to-compare//tei:msDesc/tei:msPart}</el>)
+declare %unit:test %unit:ignore function msParts-test:update-msDesc-from-test-records() {
+   unit:assert-equals(msParts:update-msDesc($msParts:manuscript-part-source-document-sequence),  $msParts-test:file-to-compare//tei:msDesc)
 };
+
+declare %unit:test %unit:ignore function msParts-test:create-msPart-sequence-from-test-records() {
+    unit:assert-equals(<el>{msParts:create-msPart-sequence($msParts:manuscript-part-source-document-sequence)}</el>, <el>{$msParts-test:file-to-compare//tei:msDesc/tei:msPart}</el>)
+};
+
+declare %unit:test %unit:ignore function msParts-test:create-msPart-from-test-record() {
+    unit:assert-equals(msParts:create-msPart($msParts:manuscript-part-source-document-sequence[1]//tei:msDesc, "1"), $msParts-test:file-to-compare//tei:msDesc/tei:msPart[1])
+};
+
+declare %unit:test  function msParts-test:add-part-designation-to-element-sequence-no-recursion() { (: compare files shows this works, but still giving me error. Whitespace issue?? :)
+    unit:assert-equals(<el>{fn:string-join(msParts:add-part-designation-to-element-sequence($msParts:manuscript-part-source-document-sequence[1]//tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote, "1", "p")/@xml:id, "|")}</el>, <el>{fn:string-join($msParts-test:file-to-compare//tei:msDesc/tei:msPart[1]/tei:physDesc/tei:handDesc/tei:handNote/@xml:id, "|")}</el>)
+}; 
+
+declare %unit:test  function msParts-test:add-part-designation-to-element-sequence-with-recursion() {
+    unit:assert-equals(<el>{fn:string-join(msParts:add-part-designation-to-element-sequence($msParts:manuscript-part-source-document-sequence[1]//tei:msDesc/tei:msContents/tei:msItem, "1", "p")//@xml:id, "|")}</el>, <el>{fn:string-join($msParts-test:file-to-compare//tei:msDesc/tei:msPart[1]/tei:msContents/tei:msItem//@xml:id, "|")}</el>)
+}; 
+
+(: add tests for above function to ensure the child elements and other attributes are not affected by this script. :)
+
+declare %unit:test %unit:ignore function msParts-test:add-part-designation-to-msContents-from-test-record() {
+    unit:assert-equals(msParts:add-part-designation-to-msContents($msParts:manuscript-part-source-document-sequence[1]//tei:msDesc/tei:msContents, "1"), $msParts-test:file-to-compare//tei:msDesc/tei:msPart[1]/tei:msContents)
+}; 
+
+declare %unit:test %unit:ignore function msParts-test:add-part-designation-to-physDesc-from-test-record() {
+    unit:assert-equals(msParts:add-part-designation-to-physDesc($msParts:manuscript-part-source-document-sequence[1]//tei:msDesc/tei:physDesc, "1"), $msParts-test:file-to-compare//tei:msDesc/tei:msPart[1]/tei:physDesc)
+}; 
+
+declare %unit:test  %unit:ignore function msParts-test:add-part-designation-to-additional-from-test-record() {
+    unit:assert-equals(msParts:add-part-designation-to-additional($msParts:manuscript-part-source-document-sequence[1]//tei:msDesc/tei:additional, "1"), $msParts-test:file-to-compare//tei:msDesc/tei:msPart[1]/tei:additional)
+}; 
