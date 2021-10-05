@@ -242,18 +242,24 @@ declare function msParts:add-part-designation-to-recordHist($recordHist as node(
 (: ------------------------------ :)
 
 declare function msParts:create-merged-textClass($msPartsDocumentSequence as node()+) as node() {
-  
+  (: note: currently assumes each msPart has only one ref/@target for the value. Would there be cases where this isn't true that we should handle? Also assuming only one keywords element. :)
+  let $valueAndPartSequence := for $msPart at $i in $msPartsDocumentSequence
+    let $valueRef := <value>{functx:substring-after-if-contains(fn:string($msPart//tei:textClass/tei:keywords/tei:list/tei:item/tei:ref/@target), "#")}</value>
+    let $partRef := <part>{"Part"||$i}</part>
+    return <map>{$valueRef, $partRef}</map>
+  let $valueSeq := $valueAndPartSequence//value
+  let $partSeq := $valueAndPartSequence//part
+  let $keywords := mss:create-keywords-node("Wright-BL-Taxonomy", $valueSeq, $partSeq)
+  return element {QName("http://www.tei-c.org/ns/1.0", "textClass")} {$keywords}
 };
-(:
-  - textClass create a function that merges the two (or make a 'create-taxonomy' function in mss that takes string and optional part to create it, and then pass it the decoder results for 'normal' creation; here you pass the existing taxonomy values)
-
- - textClass/keywords[@scheme="#Wright-Bl-Taxonomy"]/list needs items for each file with the ref as-is but with an additional ref with target to the associated msPart.
-:)
 
 (: -------------------- :)
 (: Merging revisionDesc :)
 (: -------------------- :)
 
+declare function msParts:create-merged-revisionDesc($msPartsDocumentSequence as node()+) as node() {
+  
+};
 (: - revisionDesc (script that merges; need to work out ordering, etc.)
  - revisionDesc should come through with the associated msPart URI added (like the merge places and persons scripts do for duplicate URIs) to indicate which URIs each tei:change is associated with (including planned changes as this is important for later stages). Also add a tei:change for the merge itself. 
 :)

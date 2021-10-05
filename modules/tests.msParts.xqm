@@ -145,3 +145,7 @@ declare %unit:test %unit:ignore function msParts-test:add-part-designation-to-ph
 declare %unit:test %unit:ignore function msParts-test:add-part-designation-to-additional-from-test-record() { (: Whitespace differences only. :)
     unit:assert-equals(msParts:add-part-designation-to-additional($msParts:manuscript-part-source-document-sequence[1]//tei:msDesc/tei:additional, "1"), $msParts-test:file-to-compare//tei:msDesc/tei:msPart[1]/tei:additional)
 }; 
+
+declare %unit:test function msParts-test:create-merged-textClass-from-test-records() {
+  unit:assert-equals(msParts:create-merged-textClass($msParts:manuscript-part-source-document-sequence), $msParts-test:file-to-compare//tei:textClass)
+};
