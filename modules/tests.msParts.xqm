@@ -96,6 +96,10 @@ declare %unit:test function msParts-test:merge-editor-list-from-test-records() {
   unit:assert-equals(<el>{msParts:merge-editor-list($msParts:manuscript-part-source-document-sequence)}</el>, <el>{$msParts-test:merged-editor-node-sequence}</el>)
 };
 
+declare %unit:test %unit:ignore function msParts-test:create-composite-document-from-test-records() { (:whitespace issues only:)
+  unit:assert-equals(msParts:create-composite-document($msParts:manuscript-part-source-document-sequence), $msParts-test:file-to-compare)
+};
+
 declare %unit:test function msParts-test:merge-respStmt-list-list-from-test-records() {
   unit:assert-equals(<el>{msParts:merge-respStmt-list($msParts:manuscript-part-source-document-sequence)}</el>, <el>{$msParts-test:merged-respStmt-node-sequence}</el>)
 };
@@ -148,4 +152,8 @@ declare %unit:test %unit:ignore function msParts-test:add-part-designation-to-ad
 
 declare %unit:test function msParts-test:create-merged-textClass-from-test-records() {
   unit:assert-equals(msParts:create-merged-textClass($msParts:manuscript-part-source-document-sequence), $msParts-test:file-to-compare//tei:textClass)
+};
+
+declare %unit:test function msParts-test:create-merged-revisionDesc-from-test-records() { (: dependent on current-date. :)
+  unit:assert-equals(msParts:create-merged-revisionDesc($msParts:manuscript-part-source-document-sequence), $msParts-test:file-to-compare//tei:revisionDesc)
 };

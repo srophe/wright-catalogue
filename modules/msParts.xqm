@@ -80,7 +80,7 @@ declare function msParts:create-composite-document($msPartsDocumentSequence as n
   
   let $teiHeader := element {QName("http://www.tei-c.org/ns/1.0", "teiHeader")} {$fileDesc, $encodingDesc, $profileDesc, $revisionDesc}
   
-  let $documentNode := element {QName("http://www.tei-c.org/ns/1.0", "TEI")} {$teiHeader, $facsimile, $textElement}
+  let $documentNode := element {QName("http://www.tei-c.org/ns/1.0", "TEI")} {attribute {"xml:lang"} {"en"}, $teiHeader, $facsimile, $textElement}
   
   (: return document node based on built components :)
   return document {$processingInstructions, $documentNode}
@@ -145,7 +145,7 @@ declare function msParts:create-publicationStmt($uri as xs:string) as node() {
 (: -------------------------------------------- :)
 
 declare function msParts:update-msDesc($msPartDocumentSequence as node()+) as node() {
-  let $msDescId := "manuscript"||$msParts:config-msParts/config/manuscriptLevelMetadata/uriValue/text()
+  let $msDescId := "manuscript-"||$msParts:config-msParts/config/manuscriptLevelMetadata/uriValue/text()
   let $msIdentifier := msParts:create-main-msIdentifier()
   let $msPartSeq := msParts:create-msPart-sequence($msPartDocumentSequence)
   return element {QName("http://www.tei-c.org/ns/1.0", "msDesc")} {attribute {"xml:id"} {$msDescId}, $msIdentifier, $msPartSeq}
@@ -165,8 +165,8 @@ declare function msParts:create-main-msIdentifier() {
 
 declare function msParts:create-msPart-sequence($msPartDocumentSequence as node()+) as node()+ {
   for $doc at $i in $msPartDocumentSequence (: figuring out how to handle adding them into existing msParts will be interesting. Potentially an 'update-msPart-sequence' function where you somehow specify the value of the part number and where within it you want it to go. Think more about htis.:)
-    let $msPart := msParts:create-msPart($doc//tei:msDesc, $i)
-    return element {QName("http://www.tei-c.org/ns/1.0", "msPart")} {$msPartDocumentSequence//tei:msDesc/*}
+    let $msPart := msParts:create-msPart($doc//tei:msDesc, fn:string($i))
+    return $msPart
 };
 
 declare function msParts:create-msPart($singleMsDesc as node(), $partNumber as xs:string) as node() {
@@ -258,8 +258,24 @@ declare function msParts:create-merged-textClass($msPartsDocumentSequence as nod
 (: -------------------- :)
 
 declare function msParts:create-merged-revisionDesc($msPartsDocumentSequence as node()+) as node() {
+  let $docUriSeq := for $doc in $msPartsDocumentSequence
+    return $doc//tei:msDesc/tei:msIdentifier/tei:idno/text()
+  let $mergedChangeLog := "Merged the following URIs as msPart elements: "||fn:string-join($docUriSeq, "; ")
+  let $mergedChangeNode := element {QName("http://www.tei-c.org/ns/1.0", "change")} {attribute {"who"} {$config:editors-document-uri||"#"||$config:change-log-script-id}, attribute {"when"} {fn:current-date()}, $mergedChangeLog}
+  let $fullChangeListByUri := for $doc in $msPartsDocumentSequence
+    let $docUri := $doc//tei:msDesc/tei:msIdentifier/tei:idno/text()
+    let $changeLogPrefix := "["||$docUri||"]: "
+    for $change in $doc//tei:revisionDesc/tei:change
+      let $newChangeLog := $changeLogPrefix||$change/text()
+      return element {QName("http://www.tei-c.org/ns/1.0", "change")} {$change/@*, $newChangeLog}
+      
+  let $plannedChangeListOrderedByUri := for $change in $fullChangeListByUri
+    return if($change[@type="planned"]) then $change
+    
+  let $completedChangeListOrderedByDate := for $change in $fullChangeListByUri
+    where $change[not(@type = "planned")]
+    order by $change/@when descending
+    return $change
   
+  return element {QName("http://www.tei-c.org/ns/1.0", "revisionDesc")} {attribute {"status"} {"draft"}, $mergedChangeNode, $completedChangeListOrderedByDate, $plannedChangeListOrderedByUri}
 };
-(: - revisionDesc (script that merges; need to work out ordering, etc.)
- - revisionDesc should come through with the associated msPart URI added (like the merge places and persons scripts do for duplicate URIs) to indicate which URIs each tei:change is associated with (including planned changes as this is important for later stages). Also add a tei:change for the merge itself. 
-:)
