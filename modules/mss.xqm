@@ -371,26 +371,25 @@ declare function mss:update-profileDesc($rec as node()+) as node() {
 declare function mss:create-textClass($uri as xs:string) as node() {
   let $recId := functx:substring-after-if-contains($uri, "manuscript/")
   let $keywordsSeq := for $keyword in $config:project-config/config/tei:profileDesc/tei:textClass/tei:keywords
-      return mss:create-keywords-node($recId, fn:string($keyword/@scheme))
+      let $keyWordRefValues := if(fn:string($keyword/@scheme) = "#Wright-BL-Taxonomy") then decoder:get-wright-taxonomy-id-from-uri($recId) else fn:string($keyword//tei:item/tei:ref[1])
+      return mss:create-keywords-node(fn:string($keyword/@scheme), $keyWordRefValues, "")
   return element {QName("http://www.tei-c.org/ns/1.0", "textClass")} {$keywordsSeq}
 };
 
-declare function mss:create-keywords-node($recId as xs:string, $keywordScheme as xs:string) as node() {
-  let $keywordScheme := functx:substring-after-if-contains($keywordScheme, "#")
-  let $keywordContent := switch ($keywordScheme)
-    case "Wright-BL-Taxonomy" return mss:create-wright-taxonomy-node($recId)
-    (: add more cases as needed :)
-    default return ()
-  return element {QName("http://www.tei-c.org/ns/1.0", "keywords")} {attribute {"scheme"} {"#"||$keywordScheme}, $keywordContent}
+declare function mss:create-keywords-node($keywordSchemeValue as xs:string, $keywordTargetValues as xs:string+, $msPartDesignations as xs:string*) as node() {
+  let $keywordSchemeValue := functx:substring-after-if-contains($keywordSchemeValue, "#")
+  let $items := for $value at $i in $keywordTargetValues
+    let $valueRef := element {QName("http://www.tei-c.org/ns/1.0", "ref")} {attribute {"target"} {"#"||$value}}
+    let $partRef := if($msPartDesignations[$i] != "") then element {QName("http://www.tei-c.org/ns/1.0", "ref")} {attribute {"target"} {"#"||$msPartDesignations[$i]}} else ()
+    return  element {QName("http://www.tei-c.org/ns/1.0", "item")} {$valueRef, $partRef}
+  let $list :=  element {QName("http://www.tei-c.org/ns/1.0", "list")} {$items}
+  return  element {QName("http://www.tei-c.org/ns/1.0", "keywords")} {attribute {"scheme"} {"#"||$keywordSchemeValue}, $list}
 };
-
-declare function mss:create-wright-taxonomy-node($recId as xs:string) as node() {
-  let $wrightTaxonomyValue := decoder:get-wright-taxonomy-id-from-uri($recId)
-  let $wrightTaxonomyRefNode := element {QName("http://www.tei-c.org/ns/1.0", "ref")} {attribute {"target"} {"#"||$wrightTaxonomyValue}}
-  let $wrightTaxonomyItemNode := element {QName("http://www.tei-c.org/ns/1.0", "item")} {$wrightTaxonomyRefNode}
-  let $wrightTaxonomyListNode := element {QName("http://www.tei-c.org/ns/1.0", "list")} {$wrightTaxonomyItemNode}
-  return $wrightTaxonomyListNode
-};
+ (: refactor this to work with msParts. It should instead be: 
+- get wright taxonomy value
+- call a generic 'create-keyword-node' function that takes a string vlaue for the scheme attr; a sequence of strings for the target attributes and a sequence of strings (optional) for part designations. 
+- you'd then have to refactor the above function's switch statement perhaps. I suppose if you allow the create-wright-taxonomy-node function to accept a list of strings and an optional sequence of msParts this could work here as well where you just loop through the recId list and check if there is a matching msPart id each time. If there is, add it, if not, leave out that ref. In msParts you'd just be looking up in the decoder rather than supplying from the source docs which is less than ideal.
+:)
 (: Build revisionDesc :)
 
 declare function mss:update-revisionDesc($revisionDesc as node()+) as node() {

@@ -213,12 +213,8 @@ declare %unit:test function mss-test:create-textClass-from-stub() {
   unit:assert-equals(mss:create-textClass("http://syriaca.org/manuscript/317"), $mss-test:file-to-compare//tei:textClass)
 };
 
-declare %unit:test function mss-test:create-wright-taxonomy-node() {
-  unit:assert-equals(mss:create-wright-taxonomy-node("317"), $mss-test:file-to-compare//tei:textClass/tei:keywords/tei:list)
-};
-
 declare %unit:test function mss-test:create-keywords-node-wright-bl-taxonomy-with-hashtag() {
-  unit:assert-equals(mss:create-keywords-node("317", "#Wright-BL-Taxonomy"), $mss-test:file-to-compare//tei:textClass/tei:keywords)
+  unit:assert-equals(mss:create-keywords-node("#Wright-BL-Taxonomy", "theo-collected", ""), $mss-test:file-to-compare//tei:textClass/tei:keywords)
 };
 
 (: revisionDesc tests :)
