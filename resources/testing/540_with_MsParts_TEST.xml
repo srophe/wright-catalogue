@@ -1,4 +1,4 @@
-<?oxygen RNGSchema="../../../srophe-exist-app/documentation/syriaca-tei-main.rnc" type="compact"?>
+<?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
@@ -65,7 +65,7 @@
             <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
           </licence>
         </availability>
-        <date calendar="Gregorian"/>
+        <date calendar="Gregorian">2021-10-05-04:00</date>
       </publicationStmt>
       <sourceDesc>
         <msDesc xml:id="manuscript-540">
@@ -85,7 +85,7 @@
               <settlement>London</settlement>
               <repository>British Library</repository>
               <collection>Oriental Manuscripts</collection>
-              <idno type="URI">http://syriaca.org/manuscript/541</idno>
+              <idno type="URI">https://syriaca.org/manuscript/541</idno>
               <altIdentifier>
                 <idno type="BL-Shelfmark">Add MS 14684 fol. 1-36</idno>
               </altIdentifier>
@@ -283,7 +283,7 @@
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/542</idno>
+            <idno type="URI">https://syriaca.org/manuscript/542</idno>
             <altIdentifier>
               <idno type="BL-Shelfmark">Add MS 1468437117</idno>
             </altIdentifier>
@@ -480,7 +480,7 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote medium="unknown" xml:id="p2handNote1" scope="" script="">
+              <handNote xml:id="p2handNote1" medium="unknown" scope="" script="">
                 <desc/>
               </handNote>
             </handDesc>
@@ -703,7 +703,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">Merged the following URIs as msPart elements: https://syriaca.org/manuscript/541; https://syriaca.org/manuscript/542</change>
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-10-05-04:00">Merged the following URIs as msPart elements: https://syriaca.org/manuscript/541; https://syriaca.org/manuscript/542</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">[https://syriaca.org/manuscript/541]: CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">[https://syriaca.org/manuscript/542]: CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">[https://syriaca.org/manuscript/542]: CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
