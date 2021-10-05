@@ -23,6 +23,10 @@ import module namespace mss="http://srophe.org/srophe/mss" at "mss.xqm";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 
+(: ---------------------------- :)
+(: Global variable declarations :)
+(: ---------------------------- :)
+
 declare variable $msParts:config-msParts :=
   let $pathToConfig := $config:path-to-repo || "/parameters/config-msParts.xml"
   return fn:doc($pathToConfig);
@@ -45,7 +49,10 @@ declare variable $msParts:ms-level-uri :=
   let $msLevelId := $msParts:config-msParts/config/manuscriptLevelMetadata/uriValue/text()
   return $config:uri-base || $msLevelId;
     
-    
+(: -------------------------------------------------------- :)
+(: Create document node of full record from component parts :)
+(: -------------------------------------------------------- :)
+
 (:
 - build fileDesc consists of:
   - titleStmt (already made)
@@ -58,7 +65,10 @@ declare variable $msParts:ms-level-uri :=
   - textClass create a function that merges the two (wait on the one taxonomy issue??) (or make a 'create-taxonomy' function in mss that takes string and optional part to create it, and then pass it the decoder results for 'normal' creation; here you pass the existing taxonomy values)
 - revisionDesc (script that merges; need to work out ordering, etc.)
 - text element, for now, comes from template. If we were ever to have text of fasc we would need to merge and order properly. but not worth doing right now.
-  
+
+(: -------------------------- :)
+(: Merge titleStmt components :)
+(: -------------------------- :)
 :)
 declare function msParts:merge-editor-list($documentSequence as node()+) as node()+ {
   let $allCreatorEditors := for $doc in $documentSequence
@@ -108,6 +118,10 @@ declare function msParts:create-publicationStmt($uri as xs:string) as node() {
   let $publicationDate := element {QName("http://www.tei-c.org/ns/1.0", "date")} {attribute {"calendar"} {"Gregorian"}, fn:current-date()}
   return element {fn:node-name($templatePubStmt)} {$templatePubStmt/tei:authority, $idno, $templatePubStmt/tei:availability, $publicationDate}
 };
+
+(: -------------------------------------------- :)
+(: Updating manuscript description with msParts :)
+(: -------------------------------------------- :)
 
 declare function msParts:update-msDesc($msPartDocumentSequence as node()+) as node() {
   let $msDescId := "manuscript"||$msParts:config-msParts/config/manuscriptLevelMetadata/uriValue/text()
