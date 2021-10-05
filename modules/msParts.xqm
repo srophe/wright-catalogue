@@ -53,23 +53,44 @@ declare variable $msParts:ms-level-uri :=
 (: Create document node of full record from component parts :)
 (: -------------------------------------------------------- :)
 
-(:
-- build fileDesc consists of:
-  - titleStmt (already made)
-  - editionStmt (from template)
-  - publicationStmt (made) --> call with $msParts:config-msParts/config/manuscriptLevelMetadata/uriValue/text(). This function could be moved to mss and refactored so the mss update function calls it with the found URI
-  - sourceDesc (the main functionality is here)
-- encodingDesc comes from template
-- profileDesc
-  - langUsage from template
-  - textClass create a function that merges the two (wait on the one taxonomy issue??) (or make a 'create-taxonomy' function in mss that takes string and optional part to create it, and then pass it the decoder results for 'normal' creation; here you pass the existing taxonomy values)
-- revisionDesc (script that merges; need to work out ordering, etc.)
-- text element, for now, comes from template. If we were ever to have text of fasc we would need to merge and order properly. but not worth doing right now.
+declare function msParts:create-composite-document($msPartsDocumentSequence as node()+) as node() {
+  (: the first record in the msParts sequence serves as the template for all data shared between msPart records :)
+  let $templateDocument := $msPartsDocumentSequence[1]
+
+  (: get all shared data from template :)
+  let $processingInstructions := $templateDocument/processing-instruction()
+  let $editionStmt := $templateDocument//tei:editionStmt
+  let $encodingDesc := $templateDocument//tei:encodingDesc
+  let $langUsage := $templateDocument//tei:profileDesc/tei:langUsage
+  let $facsimile := $templateDocument//tei:facsimile
+  let $textElement := $templateDocument//tei:text
+  
+  (: build other components from functions :)
+  let $titleStmt := msParts:create-merged-titleStmt($msPartsDocumentSequence)
+  let $publicationStmt := msParts:create-publicationStmt($msParts:config-msParts/config/manuscriptLevelMetadata/uriValue/text())
+  let $msDesc := msParts:update-msDesc($msPartsDocumentSequence)
+  let $textClass := msParts:create-merged-textClass($msPartsDocumentSequence)
+  let $revisionDesc := msParts:create-merged-revisionDesc($msPartsDocumentSequence)
+  
+  (: build out document from components :)
+  let $sourceDesc := element {QName("http://www.tei-c.org/ns/1.0", "sourceDesc")} {$msDesc}
+  
+  let $fileDesc := element {QName("http://www.tei-c.org/ns/1.0", "fileDesc")} {$titleStmt, $editionStmt, $publicationStmt, $sourceDesc}
+  let $profileDesc := element {QName("http://www.tei-c.org/ns/1.0", "profileDesc")} {$langUsage, $textClass}
+  
+  let $teiHeader := element {QName("http://www.tei-c.org/ns/1.0", "teiHeader")} {$fileDesc, $encodingDesc, $profileDesc, $revisionDesc}
+  
+  let $documentNode := element {QName("http://www.tei-c.org/ns/1.0", "TEI")} {$teiHeader, $facsimile, $textElement}
+  
+  (: return document node based on built components :)
+  return document {$processingInstructions, $documentNode}
+  
+};
 
 (: -------------------------- :)
 (: Merge titleStmt components :)
 (: -------------------------- :)
-:)
+
 declare function msParts:merge-editor-list($documentSequence as node()+) as node()+ {
   let $allCreatorEditors := for $doc in $documentSequence
     return $doc//tei:titleStmt/tei:editor
@@ -220,15 +241,19 @@ declare function msParts:add-part-designation-to-recordHist($recordHist as node(
 (: Updating taxonomy in textClass :)
 (: ------------------------------ :)
 
-declare function msParts:create-taxonomy-list()
+declare function msParts:create-merged-textClass($msPartsDocumentSequence as node()+) as node() {
+  
+};
+(:
+  - textClass create a function that merges the two (or make a 'create-taxonomy' function in mss that takes string and optional part to create it, and then pass it the decoder results for 'normal' creation; here you pass the existing taxonomy values)
+
+ - textClass/keywords[@scheme="#Wright-Bl-Taxonomy"]/list needs items for each file with the ref as-is but with an additional ref with target to the associated msPart.
+:)
 
 (: -------------------- :)
 (: Merging revisionDesc :)
 (: -------------------- :)
-(:
-To-do
-- functions needed
- - textClass/keywords[@scheme="#Wright-Bl-Taxonomy"]/list needs items for each file with the ref as-is but with an additional ref with target to the associated msPart. 
- - revisionDesc should come through with the associated msPart URI added (like the merge places and persons scripts do for duplicate URIs) to indicate which URIs each tei:change is associated with (including planned changes as this is important for later stages). Also add a tei:change for the merge itself. 
 
+(: - revisionDesc (script that merges; need to work out ordering, etc.)
+ - revisionDesc should come through with the associated msPart URI added (like the merge places and persons scripts do for duplicate URIs) to indicate which URIs each tei:change is associated with (including planned changes as this is important for later stages). Also add a tei:change for the merge itself. 
 :)
