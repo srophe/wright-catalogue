@@ -142,6 +142,6 @@ declare %unit:test %unit:ignore function msParts-test:add-part-designation-to-ph
     unit:assert-equals(msParts:add-part-designation-to-physDesc($msParts:manuscript-part-source-document-sequence[1]//tei:msDesc/tei:physDesc, "1"), $msParts-test:file-to-compare//tei:msDesc/tei:msPart[1]/tei:physDesc)
 }; 
 
-declare %unit:test  %unit:ignore function msParts-test:add-part-designation-to-additional-from-test-record() { 
+declare %unit:test %unit:ignore function msParts-test:add-part-designation-to-additional-from-test-record() { (: Whitespace differences only. :)
     unit:assert-equals(msParts:add-part-designation-to-additional($msParts:manuscript-part-source-document-sequence[1]//tei:msDesc/tei:additional, "1"), $msParts-test:file-to-compare//tei:msDesc/tei:msPart[1]/tei:additional)
 }; 

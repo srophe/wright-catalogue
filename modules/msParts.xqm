@@ -142,12 +142,7 @@ declare function msParts:create-msPart($singleMsDesc as node(), $partNumber as x
   let $additional := msParts:add-part-designation-to-additional($singleMsDesc/tei:additional, $partNumber)
   return element {QName("http://www.tei-c.org/ns/1.0", "msPart")} {attribute {"xml:id"} {"Part"||$partNumber}, $msIdentifier, $msContents, $physDesc, $history, $additional}
 };
-  (:
 
-  physDesc > handDesc and (and decoDesc) additions update with p\d+
-  history as is
-  additional add Part\d+ to adminInfo/source/ref/@target and lisBibl/bilb/@xml:id
-  :)
 declare function msParts:add-part-designation-to-element-sequence($elementSequence as node()*, $partNumber as xs:string, $idPrefix as xs:string) as node()* {
   (: all records are assumed to have an xml:id and be in the correct order, so you should have edited the files you are working on and also run a script that adds and renumbers the xml:ids so that they are in the correct sequence, etc. before running this function :)
   let $temp := ""
@@ -186,21 +181,39 @@ declare function msParts:add-part-designation-to-additions-items($additions as n
 };
 
 declare function msParts:add-part-designation-to-additional($additional as node(), $partNumber as xs:string) as node() {
- (: FIX THE ADMININFO. TRICKY BECAUSE MIXED CONTENT. Probably can use /*::node()[1], $bibl, /*::node()[3] in the tei:source. This nests in tei:recordHist which nests, along with tei:note (empty) in tei:adminInfo, which is returned as previous sibling to the tei:listBibl created below. :)
-
   let $wrightBibl := $additional/tei:listBibl/tei:bibl
   let $newBiblId := fn:string($wrightBibl/@xml:id)||"Part"||$partNumber
+  let $newRecordHist := msParts:add-part-designation-to-recordHist($additional/tei:adminInfo/tei:recordHist, $newBiblId)
+  let $adminInfo := element {fn:node-name($additional/tei:adminInfo)} {$newRecordHist, $additional/tei:adminInfo/tei:note}
+
   let $wrightBibl := element {fn:node-name($wrightBibl)} {attribute {"xml:id"} {$newBiblId}, $wrightBibl/*}
   let $listBibl := element {fn:node-name($additional/tei:listBibl)} {$wrightBibl}
-  return element element {fn:node-name($additional)} {$listBibl}
+  return element {fn:node-name($additional)} {$adminInfo, $listBibl}
 };
+
+declare function msParts:add-part-designation-to-recordHist($recordHist as node(), $biblId as xs:string) as node() {
+  let $sourceTextBeforeBibl := $recordHist/tei:source/node()[1]
+  let $sourceTextAfterBibl := $recordHist/tei:source/node()[3]
+  let $sourceBibl := $recordHist/tei:source/tei:bibl
+  let $sourceRef := $sourceBibl/tei:ref
+  let $newSourceRef := functx:update-attributes($sourceRef,  QName("", "target"), "#"||$biblId)
+  let $newSourceBibl := element {fn:node-name($sourceBibl)} {$newSourceRef}
+  let $newSource := element {fn:node-name($recordHist/tei:source)} {$sourceTextBeforeBibl, $newSourceBibl, $sourceTextAfterBibl}
+  return element {fn:node-name($recordHist)} {$newSource}
+};
+
+(: ------------------------------ :)
+(: Updating taxonomy in textClass :)
+(: ------------------------------ :)
+
+declare function msParts:create-taxonomy-list()
+
+(: -------------------- :)
+(: Merging revisionDesc :)
+(: -------------------- :)
 (:
 To-do
 - functions needed
-- msDesc is combined as follows
-    - additional
-      - update the adminInfo//source/ref/@target to "#WrightPart\d+" based on position in sequence
-        - this is the updated xml:id on the additional/listBibl/bibl that was "Wright"
  - textClass/keywords[@scheme="#Wright-Bl-Taxonomy"]/list needs items for each file with the ref as-is but with an additional ref with target to the associated msPart. 
  - revisionDesc should come through with the associated msPart URI added (like the merge places and persons scripts do for duplicate URIs) to indicate which URIs each tei:change is associated with (including planned changes as this is important for later stages). Also add a tei:change for the merge itself. 
 
