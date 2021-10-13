@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -81,102 +81,68 @@
           <msContents>
             <textLang mainLang="syr-Syre"/>
             <msItem xml:id="a1" n="1" defective="false">
-              <locus from="1b"/>
+              <locus from="1b" to="113a"/>
               <title xml:lang="en">The Psalms, according to the Peshitta
                                 version</title>
-              <rubric xml:lang="syr">ܥܠ ܚܝܠܟ ܡ̇ܚܟܡ ܟܠ ܡܪܢ ܝܫܘܥ ܡܫܝܚܐ. ܡܫܪܝܢܢ ܠܡܟܬܒ
-                                ܬܫ̈ܒܚܬܐ ܕܕܘܝܕ ܡ̇ܠܟܐ ܘܢܒܝܐ. ܕܐܬܦܫܩܘ ܡܢ ܠܫܢܐ ܥܒܪܝܐ̣ ܠܝܘܢܝܐ. ܘܡܢ ܝܘܢܝܐ̣
-                                ܠܣܘܪܝܝܐ</rubric>
-              <rubric xml:lang="syr">
-                <locus from="9b"/>ܕܘܝܕ ܡ̇ܠܟܐ ܘܢܒܝܐ. ܘܢܘܣܐ
-                                ܕܪܘܚܐ ܩܕܝܫܐ</rubric>
-              <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܬܫܒ̈ܚܬܐ ܕܕܘܝܕ ܕܡܦܪ̈ܫܐ. ܕܗ̈ܘܝܢ
-                                ܒܡܢܝܢܐ ܡܐܐ ܘܚܡܫܝܢ<locus from="113a"/>
-              </finalRubric>
-              <note>The headings of the psalms differ very considerably from these
-                                given in Lee's edition (compare <bibl>Add. 14,436</bibl>).</note>
-              <note>The margins of foll. 1—29 contain a considerable number of various
-                                readings from the LXX., and a low annotations from other sources;
-                                e.g. fol. 1 b, from <persName>Athanasius</persName>, ܕܩܕܝܫܐ ܐܬܢܣܝܝܘܣ
-                                , fol. 19 b, from <persName>Hesychius of Jerusalem</persName>,
-                                ܕܗܘܣܟܝܘܣ ܩܫܝܫܐ ܕܐܘܪܫܠܡ.</note>
+              <rubric xml:lang="syr">ܥܠ ܚܝܠܟ ܡ̇ܚܟܡ ܟܠ ܡܪܢ ܝܫܘܥ ܡܫܝܚܐ. ܡܫܪܝܢܢ ܠܡܟܬܒ ܬܫ̈ܒܚܬܐ ܕܕܘܝܕ ܡ̇ܠܟܐ ܘܢܒܝܐ. ܕܐܬܦܫܩܘ ܡܢ ܠܫܢܐ ܥܒܪܝܐ̣ ܠܝܘܢܝܐ. ܘܡܢ ܝܘܢܝܐ̣ ܠܣܘܪܝܝܐ</rubric>
+              <rubric xml:lang="syr"><locus from="9b"/><fw type="header">ܕܘܝܕ ܡ̇ܠܟܐ ܘܢܒܝܐ. ܘܢܘܣܐ ܕܪܘܚܐ ܩܕܝܫܐ</fw></rubric>
+                <finalRubric xml:lang="syr"><locus from="113a"/>ܫܠܡ ܠܡܟܬܒ ܬܫܒ̈ܚܬܐ ܕܕܘܝܕ ܕܡܦܪ̈ܫܐ. ܕܗ̈ܘܝܢ ܒܡܢܝܢܐ ܡܐܐ ܘܚܡܫܝܢ</finalRubric>
+              <note>The headings of the psalms differ very considerably from those given in <bibl>Lee's edition</bibl> (compare <bibl>Add. 14,436</bibl>).</note>
+                <note>See <ref>additions</ref>.</note>
               <msItem xml:id="b1" n="2">
-                
                 <title xml:lang="en">Ps. i</title>
-                <rubric xml:lang="syr">ܡܙܡܘܪܐ ܩܕܡܝܐ: ܐܡ̣ܝܪ ܠܕܘܝܕ ܥܠ ܫܐܘܠ ܡ̇ܠܟܐ̇.
-                                    ܕܐ̇ܙܠ ܗܘܐ ܒܐܘܪܚܐ ܕܥܕܘܥܝܪ ܏ܘܫ</rubric>
+                <rubric xml:lang="syr">ܡܙܡܘܪܐ ܩܕܡܝܐ: ܐܡ̣ܝܪ ܠܕܘܝܕ ܥܠ ܫܐܘܠ ܡ̇ܠܟܐ̇. ܕܐ̇ܙܠ ܗܘܐ ܒܐܘܪܚܐ ܕܥܕܘܥܝܪ ܏ܘܫ</rubric>
               </msItem>
               <msItem xml:id="b2" n="3">
-                
                 <title xml:lang="en">Ps. ii</title>
-                <rubric xml:lang="syr">ܕܬܪ̈ܬܝ̣ܢ. ܐܡ̣ܝܪ ܠܕܘܝܕ ܥܠ ܐܕܘܢܝ ܘܥܠ ܡܫܝܚܗ. ܟܕ
-                                    ܡܬ݁ܪܥܝܢ ܗܘܘ ܥܡ̈ܡܐ ܕܢܣܩܘܢ ܠܨܗܝܘܢܢ ܠܩܪܒܐ. ܦܬ̈ : ܝ̈ܛ. </rubric>
+                <rubric xml:lang="syr">ܕܬܪ̈ܬܝ̣ܢ. ܐܡ̣ܝܪ ܠܕܘܝܕ ܥܠ ܐܕܘܢܝ ܘܥܠ ܡܫܝܚܗ. ܟܕ ܡܬ݁ܪܥܝܢ ܗܘܘ ܥܡ̈ܡܐ ܕܢܣܩܘܢ ܠܨܗܝܘܢܢ ܠܩܪܒܐ. ܦܬ̈ : ܝ̈ܛ</rubric>
               </msItem>
               <msItem xml:id="b3" n="4">
-                
                 <title xml:lang="en">Ps. iii</title>
-                <rubric xml:lang="syr">ܕܬܠܬ. ܐܡ̣ܝܪ ܠܕܘܝܕ ܟܕ ܥ̇ܪܩ ܗܘܐ ܡܢ ܩܕܡ ܐܒܫܠܘܡ
-                                    ܒܪܗ. ܦܬ̈ : ܝ̈ܙ</rubric>
+                <rubric xml:lang="syr">ܕܬܠܬ. ܐܡ̣ܝܪ ܠܕܘܝܕ ܟܕ ܥ̇ܪܩ ܗܘܐ ܡܢ ܩܕܡ ܐܒܫܠܘܡ ܒܪܗ. ܦܬ̈ : ܝ̈ܙ</rubric>
               </msItem>
               <msItem xml:id="b4" n="5">
-                
                 <title xml:lang="en">Ps. iv</title>
-                <rubric xml:lang="syr">ܕܐܪ̈ܒܥ ܐܡ̣ܝܪ ܠܕܘܝܕ ܟܕ ܫܕܪ ܫܐܘܠ ܠܡܩܛܠܗ ܘܦܠܛ
-                                    ܢܦܫܗ ܡܢܗ : ܦܬ̈ : ܝ̈ܛ.</rubric>
+                <rubric xml:lang="syr">ܕܐܪ̈ܒܥ ܐܡ̣ܝܪ ܠܕܘܝܕ ܟܕ ܫܕܪ ܫܐܘܠ ܠܡܩܛܠܗ ܘܦܠܛ ܢܦܫܗ ܡܢܗ : ܦܬ̈ : ܝ̈ܛ</rubric>
               </msItem>
               <msItem xml:id="b5" n="6">
-                
                 <title xml:lang="en">Ps. v</title>
-                <rubric xml:lang="syr">ܕܚܡܫ ܐܡ̣ܝܪ ܠܕܘܝܕ ܟܕ ܡܩܕܡ ܗܘܐ ܒܨ̇ܦܪܐ ܠܒܝܬܗ
-                                    ܕܐܕܘܢܝ ܦܬ̈ ܟܚ̈</rubric>
+                <rubric xml:lang="syr">ܕܚܡܫ ܐܡ̣ܝܪ ܠܕܘܝܕ ܟܕ ܡܩܕܡ ܗܘܐ ܒܨ̇ܦܪܐ ܠܒܝܬܗ ܕܐܕܘܢܝ ܦܬ̈ ܟܚ̈</rubric>
               </msItem>
               <msItem xml:id="b6" n="7">
-                
                 <title xml:lang="en">Ps. vi</title>
-                <rubric xml:lang="syr">ܕܫ̈ܬ ܐܡ̣ܝܪ ܠܕܘܝܕ ܥܠ ܝܘܡܐ ܕܟܘܪܗܢܗ̣. ܘܥܠ ܝܘܡܐ
-                                    ܕܚܘܠܡܢܗ : ܦܬ̈ : ܟ̈</rubric>
+                <rubric xml:lang="syr">ܕܫ̈ܬ ܐܡ̣ܝܪ ܠܕܘܝܕ ܥܠ ܝܘܡܐ ܕܟܘܪܗܢܗ̣. ܘܥܠ ܝܘܡܐ ܕܚܘܠܡܢܗ : ܦܬ̈ : ܟ̈</rubric>
               </msItem>
               <msItem xml:id="b7" n="8">
-                
                 <title xml:lang="en">Ps. vii</title>
-                <rubric xml:lang="syr">ܕܫܒܥ ܐܡ̣ܝܪ ܠܕܘܝܕ ܟܕ ܫܕܪ ܐܒܫܠܘܡ ܥܠܘܗܝ ܚܝܠܐ
-                                    ܣܓܝܐܐ ܠܡܪܕܦܗ : ܦܬ̈ : ܠܗ̈.</rubric>
+                <rubric xml:lang="syr">ܕܫܒܥ ܐܡ̣ܝܪ ܠܕܘܝܕ ܟܕ ܫܕܪ ܐܒܫܠܘܡ ܥܠܘܗܝ ܚܝܠܐ ܣܓܝܐܐ ܠܡܪܕܦܗ : ܦܬ̈ : ܠܗ̈</rubric>
               </msItem>
               <msItem xml:id="b8" n="9">
-                
                 <title xml:lang="en">Ps. viii</title>
-                <rubric xml:lang="syr">ܕܬܡ̈ܢܐ. ܐܡܝ̣ܪ ܠܕܘܝܕ ܥܠ ܥܡܐ ܘܟܗ̈ܢܐ ܕܫܩܠܘܗ̇
-                                    ܠܩܒܘܬܐ ܕܐܕܘܢܝ. ܘܐܘܒܠܘܗ̇ ܠܒܝܬܐ ܕܒܢ̣ܐ ܠܗ̇ ܕܘܝܕ: ܦܬ̈ :
-                                    ܝܚ̈.</rubric>
+                <rubric xml:lang="syr">ܕܬܡ̈ܢܐ. ܐܡܝ̣ܪ ܠܕܘܝܕ ܥܠ ܥܡܐ ܘܟܗ̈ܢܐ ܕܫܩܠܘܗ̇ ܠܩܒܘܬܐ ܕܐܕܘܢܝ. ܘܐܘܒܠܘܗ̇ ܠܒܝܬܐ ܕܒܢ̣ܐ ܠܗ̇ ܕܘܝܕ: ܦܬ̈ : ܝܚ̈</rubric>
               </msItem>
               <msItem xml:id="b9" n="10">
-                
                 <title xml:lang="en">Ps. ix</title>
-                <rubric xml:lang="syr">ܕܬܫܥ. ܐܡ̣ܝܪ ܠܕܘܝܕ ܟܕ ܩܛܠ ܗܘܐ ܠܗܕܪܥܙܪ. ܡ̇ܠܟܐ
-                                    ܕܨܘܪ̈ܝܐ : ܦܬ̈ : ܡ̈ܒ</rubric>
+                <rubric xml:lang="syr">ܕܬܫܥ. ܐܡ̣ܝܪ ܠܕܘܝܕ ܟܕ ܩܛܠ ܗܘܐ ܠܗܕܪܥܙܪ. ܡ̇ܠܟܐ ܕܨܘܪ̈ܝܐ : ܦܬ̈ : ܡ̈ܒ</rubric>
               </msItem>
               <msItem xml:id="b10" n="11">
-                
-                <title xml:lang="en">Ps. x. (sic) </title>
-                <rubric xml:lang="syr">ܕܥܣܪ̈. ܐܡ̣ܝܪ ܠܕܘܝܕ ܟܕ ܓܘܠܝܕ ܠܡܩܪܒܘ ܘܠܡܩܛܠܗ :
-                                    ܦܬ݂̈ : ܠܚ̈</rubric>
+                <title xml:lang="en">Ps. x.</title>
+                  <rubric xml:lang="syr">ܕܥܣܪ̈. ܐܡ̣ܝܪ ܠܕܘܝܕ ܟܕ ܓܘܠܝܕ <foreign xml:lang="en">(sic)</foreign> ܠܡܩܪܒܘ ܘܠܡܩܛܠܗ : ܦܬ݂̈ : ܠܚ̈</rubric>
               </msItem>
             </msItem>
             <msItem xml:id="a2" n="12">
-              
+              <locus from="113"/>
               <title xml:lang="en">To the Psalms are appended the
                                 Canticles</title>
               <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܬܫܒ̈ܚܬܐ ܟܠܗܝܢ .ܘ. ܐܬܟܬܒ ܒܟܬܒܐ ܗܢܐ
-                                ܡܙܡܘܪ̈ܐ ܡܐܐ ܘܚܡܫܝܢ ܡܦܪ̈ܫܐ. (sic) ܘܬܫ̈ܒܚܬܐ ܬܪ̈ܬܝܢ. ܕܡܘܫܐ ܘܬܪ̈ܬܝܢ
-                                ܕܐܫܥܝܐ. ܘܚܕܐ ܕܚܢܐ ܘܚܕܐ ܕܚܒܩܘܩ. ܘܚܕܐ ܕܡܢܫܐ (sic) ܘܚܕܐ ܕܝܘܢܢ. ܘܬܪ̈ܬܝܢ
-                                ܕܒܝܬ ܚܢܢܝܐ. ܘܚܕܐ ܕܝܠܕܬ ܐܠܗܐ. ܘܚܕܐ ܕܠܠܝܐ (sic) ܘܛܘܒ̈ܐ ܕܒܐܘܢܓܠܝܘܢ
-                                ܘܗܝܡܢܘܬܐ ܕܐܒ̈ܗܬܐ ܩܕܝ̈ܫܐ. ܘܨܠܘܬܐ ܕܐܠܦ ܡܪܢ ܠܬܠܡܝ̈ܕܘܗܝ.</finalRubric>
+                  ܡܙܡܘܪ̈ܐ ܡܐܐ ܘܚܡܫܝܢ ܡܦܪ̈ܫܐ. <foreign xml:lang="en">(sic)</foreign> ܘܬܫ̈ܒܚܬܐ ܬܪ̈ܬܝܢ. ܕܡܘܫܐ ܘܬܪ̈ܬܝܢ
+                  ܕܐܫܥܝܐ. ܘܚܕܐ ܕܚܢܐ ܘܚܕܐ ܕܚܒܩܘܩ. ܘܚܕܐ ܕܡܢܫܐ <foreign xml:lang="en">(sic)</foreign> ܘܚܕܐ ܕܝܘܢܢ. ܘܬܪ̈ܬܝܢ
+                  ܕܒܝܬ ܚܢܢܝܐ. ܘܚܕܐ ܕܝܠܕܬ ܐܠܗܐ. ܘܚܕܐ ܕܠܠܝܐ <foreign xml:lang="en">(sic)</foreign> ܘܛܘܒ̈ܐ ܕܒܐܘܢܓܠܝܘܢ
+                                ܘܗܝܡܢܘܬܐ ܕܐܒ̈ܗܬܐ ܩܕܝ̈ܫܐ. ܘܨܠܘܬܐ ܕܐܠܦ ܡܪܢ ܠܬܠܡܝ̈ܕܘܗܝ</finalRubric>
               <msItem xml:id="b11" n="13">
                 <locus from="113a"/>
                 <author>Moses</author>
-                <title xml:lang="en">The first song of
-                                        <persName>Moses</persName>
-                </title>
+                <title xml:lang="en">The first song of <persName>Moses</persName></title>
               </msItem>
               <msItem xml:id="b12" n="14">
                 <locus from="114a"/>
@@ -188,9 +154,8 @@
               <msItem xml:id="b13" n="15">
                 <locus from="116a"/>
                 <author>Isaiah</author>
-                <title xml:lang="en">The first song of
-                                        <persName>Isaiah</persName>, ch. xlii. 10— 13, xlv.
-                                    8</title>
+                <title xml:lang="en">The first song of <persName>Isaiah</persName>, <ref>ch. xlii. 10— 13</ref>, <ref>xlv.
+                                    8</ref></title>
               </msItem>
               <msItem xml:id="b14" n="16">
                 <locus from="116b"/>
@@ -210,7 +175,7 @@
                 <locus from="118a"/>
                 <author>Isaiah</author>
                 <title xml:lang="en">The second song of
-                                        <persName>Isaiah</persName>, ch. xxvi. 9—19</title>
+                                        <persName>Isaiah</persName>, <ref>ch. xxvi. 9—19</ref></title>
                 <rubric xml:lang="syr">ܬܫܒܘܚܬܐ ܕܐܫܥܝܐ</rubric>
               </msItem>
               <msItem xml:id="b17" n="19">
@@ -223,19 +188,18 @@
               <msItem xml:id="b18" n="20">
                 <locus from="119a"/>
                 <title ref="http://syriaca.org/work/54" xml:lang="en">The song of
-                                    the three holy Children, vs. 3—34</title>
+                                    <persName>the three holy Children</persName>, <ref>vs. 3—34</ref></title>
                 <rubric xml:lang="syr">ܬܫܒܘܚܬܐ ܕܒܝܬ ܚܢܢܝܐ</rubric>
               </msItem>
               <msItem xml:id="b19" n="21">
                 <locus from="120a"/>
-                <title ref="http://syriaca.org/work/54" xml:lang="en">The prayer of
-                                    the three holy Children, vs. 35—66</title>
+                <title xml:lang="en">The prayer of
+                    <persName>the three holy Children</persName>, <ref>vs. 35—66</ref></title>
                 <rubric xml:lang="syr">ܨܠܘܬܐ ܕܒܝܬ ܚܢܢܝܐ</rubric>
               </msItem>
               <msItem xml:id="b20" n="22">
                 <locus from="120b"/>
-                <title xml:lang="en">The song of the blessed
-                                        <persName>Virgin</persName>
+                <title xml:lang="en">The song of the blessed <persName>Virgin</persName>
                 </title>
               </msItem>
               <msItem xml:id="b21" n="23">
@@ -257,7 +221,6 @@
               </msItem>
               <msItem xml:id="b24" n="26">
                 <locus from="121b"/>
-                <author>Council of Nicaea</author>
                 <title xml:lang="en">The Nicene Creed</title>
               </msItem>
               <msItem xml:id="b25" n="27">
@@ -267,53 +230,42 @@
               </msItem>
             </msItem>
             <msItem xml:id="a3" n="28">
-              
+              <locus from="122b"/>
               <author ref="http://syriaca.org/person/13">Ephraim</author>
               <title xml:lang="en">A metrical discourse of
-                                    <persName>Ephraim</persName>
+                  <persName ref="http://syriaca.org/person/13">Ephraim</persName>
               </title>
               <rubric xml:lang="syr">ܡܐܡܪܐ ܕܩܕܝܫܐ ܡܪܝ ܐܦܪܝܡ</rubric>
               <incipit xml:lang="syr">ܠܘ ܕܩܛܝܪܐ ܗܘ ܝܘܠܦܢܐ. ܕܨܒܝܢܐ ܗܝ ܡܠܬ ܚ̈ܝܐ. ܕܨ̇ܒܐ
-                                ܕܢܫܡܥ ܝܘܠܦܢܐ̣. ܢܕܟܐ ܐܪܥܐ ܕܨܒܝܢܗ. ܕܠܐ ܢܦܠ ܙܪܥܐ ܛ̇ܒܐ̇. ܒܝܢܬ ܟܘܒ̈ܐ
-                                ܚܘܫ̈ܒܐ. <locus from="122b"/>
-              </incipit>
-              <finalRubric xml:lang="syr">ܫܠܡ ܡܐܡܪܐ ܕܡܪܬܝܢܘܬܐ ܘܬܝܒܘܬܐ ܕܣܝܡ ܠܩܕܝܫܐ ܡܪܝ
-                                ܐܦܪܝܡ ܡܠܦܢܐ.
-              </finalRubric>
+                                ܕܢܫܡܥ ܝܘܠܦܢܐ̣. ܢܕܟܐ ܐܪܥܐ ܕܨܒܝܢܗ. ܕܠܐ ܢܦܠ ܙܪܥܐ ܛ̇ܒܐ̇. ܒܝܢܬ ܟܘܒ̈ܐ ܚܘܫ̈ܒܐ</incipit>
+              <finalRubric xml:lang="syr">ܫܠܡ ܡܐܡܪܐ ܕܡܪܬܝܢܘܬܐ ܘܬܝܒܘܬܐ ܕܣܝܡ ܠܩܕܝܫܐ ܡܪܝ ܐܦܪܝܡ ܡܠܦܢܐ</finalRubric>
             </msItem>
             <msItem xml:id="a4" n="29">
-              
+                <locus from="135a"/>
               <author ref="http://syriaca.org/person/573">John Chrysostom</author>
-              <title xml:lang="en">A discourse of <persName>John
-                                    Chrysostom</persName> on repentance</title>
+                <title xml:lang="en">A discourse of <persName ref="http://syriaca.org/person/13">John Chrysostom</persName> on repentance</title>
               <rubric xml:lang="syr">ܡܐܡܪܐ ܕܩܕܝܫܐ ܡܪܝ ܐܝܘܐܢܝܣ ܕܥܠ ܬܝܒܘܬܐ</rubric>
-              <incipit xml:lang="syr">ܒܥܝܬ ܡܢܟܘܢ ܡܢ ܩܕܡ ܝܘܡ̈ܬܐ. ܕܒܨ̈ܠܘܬܐ ܥܘܕܪܢܐ ܕܡܢ
-                                ܠܥܠ ܬܫܐܠܘܢ ܠܝ. ܕܐܫܟܚ ܐܫܡܠܐ ܠܘܬܟܘܢ ܬܫܡܫܬܗ̇ ܕܡܠܬܐ. ܏ܘܫ.<locus from="135a"/>
-              </incipit>
+              <incipit xml:lang="syr">ܒܥܝܬ ܡܢܟܘܢ ܡܢ ܩܕܡ ܝܘܡ̈ܬܐ. ܕܒܨ̈ܠܘܬܐ ܥܘܕܪܢܐ ܕܡܢ ܠܥܠ ܬܫܐܠܘܢ ܠܝ. ܕܐܫܟܚ ܐܫܡܠܐ ܠܘܬܟܘܢ ܬܫܡܫܬܗ̇ ܕܡܠܬܐ. ܏ܘܫ</incipit>
             </msItem>
             <msItem xml:id="a5" n="30">
-              
+                <locus from="142b"/>
               <author ref="http://syriaca.org/person/13">Ephraim</author>
-              <title xml:lang="en">A Hymn for the dead</title>
+              <title xml:lang="en">A Hymn for <persName>the dead</persName></title>
               <rubric xml:lang="syr">ܡܕܪܫܐ ܕܥܠ ܥܢܝ̈ܕܐ</rubric>
               <incipit xml:lang="syr">ܐܘ ܥܘܡܪܐ ܕܙܒܢܐ ܠܡܘܢ ܐܬܟܠܬܢܝ ܥܠ ܚ̈ܝܐ. ܐܘ ܝܡܐ
                                 ܕܚܘܒ̈ܐ ܠܡܘܢ ܛܒܥܬܢܝ ܒܬܗܘܡܐ. ܐܘ ܥܠܡܐ ܒܝܫܐ ܠܡܘܢ ܐܪܡܝܬܢܝ ܒܬܥܫܟ. ܘܐܙܠ ܐܢܐ
-                                ܠܐܝܟܐ ܕܡܪܝܐ ܚܘ̈ܒܐ ܡܩܒܠ ܠܝ . ܏ܘܫ.<locus from="142b"/>
-              </incipit>
+                                ܠܐܝܟܐ ܕܡܪܝܐ ܚܘ̈ܒܐ ܡܩܒܠ ܠܝ . ܏ܘܫ</incipit>
               <note>See <bibl>Opera, ed. Rom., t. iii. p. 296</bibl>.</note>
             </msItem>
             <msItem xml:id="a6" n="31">
-              
+                <locus from="145b"/>
               <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
-              <title xml:lang="en">The Creed of <persName>Severus of
-                                    Antioch</persName>
+                <title xml:lang="en">The Creed of <persName>Severus of <placeName ref="http://syriaca.org/person/51">Antioch</placeName></persName>
               </title>
               <rubric xml:lang="syr">ܗܝܡܢܘܬܐ ܕܩܕܝܫܐ ܡܪܝ ܣܐܘܪܐ</rubric>
               <incipit xml:lang="syr">ܡܗ̇ܝܡܢ ܐܢܐ ܒܬܘܕܝܬܐ ܕܚܕ ܐܠܗܐ ܫܪܝܪܐ. ܕܐܝܬܘܗܝ.
                                 ܐܝܬܝܐ ܡܬܘܡܝܐ. ܕܗܘܼ ܡܢܗ ܐܝܬܘܗܝ. ܘܗܘܼ ܠܗ ܝ̇ܕܥ . ܘܗܘܼ ܠܗ ܣ̇ܦܩ. ܘܗܘܝܘ
-                                ܒܪܘܝܐ ܕܟܠ ܕܡܬܚܙܐ ܘܕܠܐ ܡܬܚܙܐ. ܐܝܬܘܗܝ ܓܝܪ ܕܠܐ ܫܘܿܪܝܐ ܘܡ̇ܩܘܐ ܕܠܐ ܫܘܠܡܐ.
-                                    ܏ܘܫ.<locus from="145b"/>
-              </incipit>
+                                ܒܪܘܝܐ ܕܟܠ ܕܡܬܚܙܐ ܘܕܠܐ ܡܬܚܙܐ. ܐܝܬܘܗܝ ܓܝܪ ܕܠܐ ܫܘܿܪܝܐ ܘܡ̇ܩܘܐ ܕܠܐ ܫܘܠܡܐ. ܏ܘܫ</incipit>
             </msItem>
           </msContents>
           <physDesc>
@@ -330,10 +282,7 @@
                                             <p>Vellum, about 10 1/8 in. by 7, consisting of 147
                                                 leaves, some of which are much stained and soiled.
                                                 The quires, 15 in number, are signed with letters.
-                                                There are from 20 to 31 lines in each page. This
-                                                manuscript is written in a good, clear Estrangela,
-                                                dated <date>A.H. 260</date>, <date>A.D.
-                                                  873-74</date>.</p>
+                                                There are from 20 to 31 lines in each page.</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -342,31 +291,49 @@
                                 <p>Content pending</p>
                             </layoutDesc>
                         </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="3">
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr-Syre">
+                  <desc>This manuscript is written in a good, clear Estrangela, dated <date>A.H. 260</date>, <date>A.D. 873-74</date>.</desc>
               </handNote>
+                <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
+                    <desc>See additions.</desc>
+                </handNote>
+                <handNote xml:id="handNote3" medium="unknown" scope="minor" script="cop">
+                    <desc>See additions.</desc>
+                </handNote>
             </handDesc>
             <additions>
               <p/>
               <list>
+                  <item>
+                      <locus from="1" to="29"/>
+                      <p>The margins of foll. 1—29 contain a considerable number of various
+                          readings from the <ref>LXX.</ref>, and a few annotations from other sources;
+                          e.g. <locus>fol. 1 b</locus>, from <persName>Athanasius</persName>, <locus>fol. 19 b</locus>, from <persName>Hesychius of Jerusalem</persName>.</p>
+                      <p>
+                          <quote xml:lang="syr">ܕܩܕܝܫܐ ܐܬܢܣܝܝܘܣ</quote>
+                      </p>
+                      <p>
+                          <quote xml:lang="syr">ܕܗܘܣܟܝܘܣ ܩܫܝܫܐ ܕܐܘܪܫܠܡ</quote>
+                      </p>
+                  </item>
                 <item xml:id="addition1" n="1">
                   <locus from="147a"/>
                   <p>The colophon, fol. 147 a, informs us that this manuscript was
                                         written at <placeName>Edessa</placeName>, <date>A. H .
-                                            260</date>, when <persName>Constantine</persName> [see
-                                            <bibl>Assemani, Bibl. Or., t. i. p. 63 (A.D.
-                                        861)</bibl>, and <bibl>Le Quien, Oriens Christ., t. ii.
-                                            1436-37</bibl>.] was metropolitan of that city:</p>
+                                            260</date>, when <persName>Constantine</persName><note>See
+                                                <bibl>Assemani, Bibl. Or., t. i. p. 63 (A.D.
+                                                    861)</bibl>, and <bibl>Le Quien, Oriens Christ., t. ii.
+                                                        1436-37</bibl>.</note> was metropolitan of that city:</p>
                   <p>
                     <quote xml:lang="syr">ܐܫܬܠܡ ܟܬܒܐ ܗܢܐ ܕܡܙܡܘܪ̈ܐ ܥܡ ܟܠܗܝܢ ܕܒܗ ܒܐܘܪܗܝ ܡܕܝܢܬܐ ܒܫܢܬ ܡܐܬܝܢ ܘܫܬܝܢ ܕܛ̈ܝܝܐ
                                             ܒܝܘܡ̈ܝ ܚܣܝܐ ܡܪܝ ܩܘܢܣܛܢܛܝܢܘܣ ܡܝܛܪܘܦܠܝܛܝܣ ܕܝܠܗ ܕܐܘܪܗܝ ܟܠ
-                                            ܕܩܪܐ ܢܨ̇ܠܐ ܥܠ ܟܠ ܕܐܫܬܘܬܦ ܒܗܝܡܢ.</quote>
+                                            ܕܩܪܐ ܢܨ̇ܠܐ ܥܠ ܟܠ ܕܐܫܬܘܬܦ ܒܗܝܡܢ</quote>
                   </p>
                 </item>
                 <item xml:id="addition2" n="2">
-                  <locus/>
-                  <p>Underneath is written in large characters the name of one
+                  <locus from="147a"/>
+                  <p>Underneath <ref>the colophon</ref> is written in large characters the name of one
                                             <persName>Cosmas</persName>
                   </p>
                   <p>
@@ -376,9 +343,9 @@
                 <item xml:id="addition3" n="3">
                   <locus from="1a"/>
                   <p>A note on fol. 1 a has been purposely erased, but, from the
-                                        few words legible, it appears to have boon a memorandum of
+                                        few words legible, it appears to have been a memorandum of
                                         the presentation of this book to the <placeName>convent of
-                                            S. Mary Deipara</placeName>. </p>
+                                            S. Mary Deipara</placeName>.</p>
                   <p>
                                         <quote xml:lang="syr">. . . ܠܕܝܪܐ ܩܕܝܫܬܐ ܕܝܠܕܬ ܐܠܗܐ . . . ܒܪ
                                             ܝܫܘܥ ܫܘܡܪܝܐ (؟) . . . ܠܗ ܘܠܚܝ̈ܘܗܝ </quote>
@@ -390,7 +357,7 @@
                                         "remember (in prayer) the sinner who wrote (this), that lie
                                         may have compassion upon him and forgive him. Amen."</p>
                   <p>
-                                        <quote xml:lang="cop"/>
+                                        <quote xml:lang="cop"/><!-- add Coptic here -->
                                     </p>
                 </item>
               </list>
@@ -405,11 +372,9 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate>A.D.
-                                873-74</origDate>
-                            <origDate datingMethod="Hijri-qamari">A.H.
-                                260</origDate>
-                            <origPlace/>
+                            <origDate notBefore="0873" notAfter="0874">A.D. 873-74</origDate>
+                            <origDate datingMethod="Hijri-qamari" when-custom="0260">A.H. 260</origDate>
+                            <origPlace xml:lang="en" ref="https://syriaca.org/place/78">Edessa</origPlace>
                         </origin>
                         <provenance/>
                         <acquisition/>
@@ -602,8 +567,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
       <change type="planned" subtype="coptic">Add in missing Coptic characters.</change>
-      <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document
-                needs to be checked for accuracy</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
