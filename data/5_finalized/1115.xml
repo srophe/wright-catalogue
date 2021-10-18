@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -80,74 +80,79 @@
           </msIdentifier>
           <msContents>
             <textLang mainLang="syr"/>
+            <msItem>
+              <locus from="4b"/>
+              <title xml:lang="en">An Index of the Lessons</title>
+              <note>See <ref>decoration description</ref>.</note>
+            </msItem>
             <msItem xml:id="a1" n="1" defective="true">
               <locus from="9b"/>
               <title xml:lang="en">A Jacobite Lectionary from the Gospels for
                                 the whole year</title>
               <rubric xml:lang="syr">ܥܠ ܣܒ̣ܪܐ ܘܬܘܟܠܢܐ̇ ܕܬܠܝܬܝܘܬܐ̣ ܩܕܝܫܬܐ. ܡܫܲܪܝܢܢ̇
                                 ܕܢܟܬ݂ܘܒ̣ ܦܘܪܫ ܩܪ̈ܝܢܐ. ܕܛܛܪܐ̣ ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ. ܚܘܕܪܐ ܕܝܢ ܕܟܠܗ̇
-                                ܫ̇ܢܬܐ.</rubric>
+                                ܫ̇ܢܬܐ</rubric>
               <msItem xml:id="b1" n="2">
                 <locus from="9b"/>
-                <title xml:lang="en">1. The Consecration (Dedication) of the
+                <title xml:lang="en">The Consecration (Dedication) of the
                                     Church</title>
                 <rubric xml:lang="syr">ܕܩܘܿܕܫ ܥܕܬܐ</rubric>
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus from="11a"/>
-                <title xml:lang="en">2. The Annunciation of
+                <title xml:lang="en">The Annunciation of
                                         <persName>Zacharias</persName>
                 </title>
               </msItem>
               <msItem xml:id="b3" n="4">
                 <locus from="12b"/>
-                <title xml:lang="en">3. The Annunciation of the <persName>blessed Virgin</persName>
+                <title xml:lang="en">The Annunciation of the <persName>blessed Virgin</persName>
                 </title>
               </msItem>
               <msItem xml:id="b4" n="5">
                 <locus from="14a"/>
-                <title xml:lang="en">4. The Visit of <persName>Mary</persName> to <persName>Elizabeth</persName>
+                <title xml:lang="en">The Visit of <persName>Mary</persName> to <persName>Elizabeth</persName>
                 </title>
               </msItem>
               <msItem xml:id="b5" n="6">
                 <locus from="15a"/>
-                <title xml:lang="en">5. The Nativity of <persName>S. John the Baptist</persName>
+                <title xml:lang="en">The Nativity of <persName>S. John the Baptist</persName>
                 </title>
               </msItem>
               <msItem xml:id="b6" n="7">
                 <locus from="16a"/>
-                <title xml:lang="en">6. The Sunday preceding the Nativity of our Lord</title>
+                <title xml:lang="en">The Sunday preceding the Nativity of <persName>our Lord</persName></title>
                 <rubric xml:lang="syr">ܕܚܕܒܫܒܐ ܕܩܕܡ ܝܠ̣ܕܐ</rubric>
               </msItem>
               <msItem xml:id="b7" n="8">
                 <locus from="17b"/>
-                <title xml:lang="en">7. The Nativity of our Lord</title>
+                <title xml:lang="en">The Nativity of <persName>our Lord</persName></title>
               </msItem>
               <msItem xml:id="b8" n="9">
                 <locus from="20b"/>
-                <title xml:lang="en">8. The Commemoration of the blessed
-                                    Virgin</title>
+                <title xml:lang="en">The Commemoration of the <persName>blessed
+                                    Virgin</persName></title>
               </msItem>
               <msItem xml:id="b9" n="10">
                 <locus from="21b"/>
-                <title xml:lang="en">9. The Massacre of the Innocents</title>
+                <title xml:lang="en">The Massacre of <persName>the Innocents</persName></title>
               </msItem>
               <msItem xml:id="b10" n="11">
                 <locus from="22b"/>
-                <title xml:lang="en">10. The Sunday after the
+                <title xml:lang="en">The Sunday after the
                                     Nativity</title>
                 <rubric xml:lang="syr">ܩܪܝܢܐ̇ ܕܚܕܒܫܒܐ ܕܒܬܪ ܝ̣ܠܕܐ</rubric>
               </msItem>
               <msItem xml:id="b11" n="12">
                 <locus from="23b"/>
-                <title xml:lang="en">11. The Commemoration of
+                <title xml:lang="en">The Commemoration of
                                         <persName>Basil</persName> and
                                     <persName>Gregory</persName>
                 </title>
               </msItem>
               <msItem xml:id="b12" n="13">
                 <locus from="25a"/>
-                <title xml:lang="en">12. The Epiphany</title>
+                <title xml:lang="en">The Epiphany</title>
                 <msItem xml:id="c1" n="14">
                   <locus from="26a"/>
                   <title xml:lang="en">The Consecration of Water</title>
@@ -156,335 +161,340 @@
               </msItem>
               <msItem xml:id="b13" n="15">
                 <locus from="29b"/>
-                <title xml:lang="en">13. The Decollation of <persName>S. John
+                <title xml:lang="en">The Decollation of <persName>S. John
                                         the Baptist</persName>
                 </title>
               </msItem>
               <msItem xml:id="b14" n="16">
                 <locus from="31b"/>
-                <title xml:lang="en">14. The Commemoration of S.
-                                    Stephen</title>
+                <title xml:lang="en">The Commemoration of <persName>S.
+                                    Stephen</persName></title>
               </msItem>
               <msItem xml:id="b15" n="17">
                 <locus from="34b"/>
-                <title xml:lang="en">15. The Commemoration of the
-                                    Apostles</title>
+                <title xml:lang="en">The Commemoration of <persName>the
+                                    Apostles</persName></title>
               </msItem>
               <msItem xml:id="b16" n="18">
                 <locus from="36b"/>
-                <title xml:lang="en">16. The First Sunday after the
+                <title xml:lang="en">The First Sunday after the
                                     Epiphany</title>
               </msItem>
               <msItem xml:id="b17" n="19">
                 <locus from="38a"/>
-                <title xml:lang="en">17. The second Sunday</title>
+                <title xml:lang="en">The second Sunday</title>
               </msItem>
               <msItem xml:id="b18" n="20">
                 <locus from="39b"/>
-                <title xml:lang="en">18. The third Sunday</title>
+                <title xml:lang="en">The third Sunday</title>
               </msItem>
               <msItem xml:id="b19" n="21">
                 <locus from="41a"/>
-                <title xml:lang="en">19. The fourth Sunday</title>
+                <title xml:lang="en">The fourth Sunday</title>
               </msItem>
               <msItem xml:id="b20" n="22">
                 <locus from="42b"/>
-                <title xml:lang="en">20. The fifth Sunday</title>
+                <title xml:lang="en">The fifth Sunday</title>
               </msItem>
               <msItem xml:id="b21" n="23">
                 <locus from="43b"/>
-                <title xml:lang="en">21. The sixth Sunday</title>
+                <title xml:lang="en">The sixth Sunday</title>
               </msItem>
               <msItem xml:id="b22" n="24">
                 <locus from="45a"/>
-                <title xml:lang="en">22. The Presentation of our Lord in the Temple</title>
+                <title xml:lang="en">The Presentation of <persName>our Lord</persName> in <placeName>the Temple</placeName></title>
               </msItem>
               <msItem xml:id="b23" n="25">
                 <locus from="46a"/>
-                <title xml:lang="en">23. The Commemoration of <persName>Bar-saumā</persName>
+                <title xml:lang="en">The Commemoration of <persName>Bar-saumā</persName>
                 </title>
               </msItem>
               <msItem xml:id="b24" n="26">
                 <locus from="47b"/>
-                <title xml:lang="en">24. The Sunday of the Priests</title>
+                <title xml:lang="en">The Sunday of <persName>the Priests</persName></title>
                 <rubric xml:lang="syr">ܚܕܒܫܒܐ ܕܟܗ̈ܢܐ</rubric>
               </msItem>
               <msItem xml:id="b25" n="27">
                 <locus from="49b"/>
-                <title xml:lang="en">25. The Sunday of the Entrance into Lent</title>
+                <title xml:lang="en">The Sunday of the Entrance into Lent</title>
                 <rubric xml:lang="syr">ܩܪܝܢܐ ܕܚܕܒܫܒܐ ܕܥ̇ܠܠ ܨܘܡܐ</rubric>
               </msItem>
               <msItem xml:id="b26" n="28">
                 <locus from="51a"/>
-                <title xml:lang="en">26. The ferial days of the first week in Lent</title>
+                <title xml:lang="en">The ferial days of the first week in Lent</title>
               </msItem>
               <msItem xml:id="b27" n="29">
                 <locus from="56a"/>
-                <title xml:lang="en">27. The second Sunday in Lent</title>
+                <title xml:lang="en">The second Sunday in Lent</title>
               </msItem>
               <msItem xml:id="b28" n="30">
                 <locus from="58a"/>
-                <title xml:lang="en">28. The ferial days of the second week</title>
+                <title xml:lang="en">The ferial days of the second week</title>
               </msItem>
               <msItem xml:id="b29" n="31">
                 <locus from="62b"/>
-                <title xml:lang="en">29. The third Sunday in Lent</title>
+                <title xml:lang="en">The third Sunday in Lent</title>
               </msItem>
               <msItem xml:id="b30" n="32">
                 <locus from="65a"/>
-                <title xml:lang="en">30. The ferial days of the third week</title>
+                <title xml:lang="en">The ferial days of the third week</title>
               </msItem>
               <msItem xml:id="b31" n="33">
                 <locus from="68b"/>
-                <title xml:lang="en">31. The fourth Sunday in Lent</title>
+                <title xml:lang="en">The fourth Sunday in Lent</title>
               </msItem>
               <msItem xml:id="b32" n="34">
                 <locus from="70b"/>
-                <title xml:lang="en">32. The ferial days of the fourth week</title>
+                <title xml:lang="en">The ferial days of the fourth week</title>
               </msItem>
               <msItem xml:id="b33" n="35">
                 <locus from="74b"/>
-                <title xml:lang="en">33. The fifth Sunday in Lent</title>
+                <title xml:lang="en">The fifth Sunday in Lent</title>
               </msItem>
               <msItem xml:id="b34" n="36">
                 <locus from="76b"/>
-                <title xml:lang="en">34. The ferial days of the fifth week</title>
+                <title xml:lang="en">The ferial days of the fifth week</title>
               </msItem>
               <msItem xml:id="b35" n="37">
                 <locus from="79a"/>
-                <title xml:lang="en">35. The Commemoration of the forty Martyrs of <placeName>Sebaste</placeName>
+                <title xml:lang="en">The Commemoration of <persName>the forty Martyrs of <placeName>Sebaste</placeName></persName>
                 </title>
               </msItem>
               <msItem xml:id="b36" n="38">
                 <locus from="81a"/>
-                <title xml:lang="en">36. The sixth Sunday in Lent</title>
+                <title xml:lang="en">The sixth Sunday in Lent</title>
               </msItem>
               <msItem xml:id="b37" n="39">
                 <locus from="84a"/>
-                <title xml:lang="en">37. The ferial days of the sixth week, ending with the Saturday of <persName>Lazarus</persName>
+                <title xml:lang="en">The ferial days of the sixth week, ending with the Saturday of <persName>Lazarus</persName>
                 </title>
               </msItem>
               <msItem xml:id="b38" n="40">
                 <locus from="90a"/>
-                <title xml:lang="en">38. Palm Sunday</title>
+                <title xml:lang="en">Palm Sunday</title>
               </msItem>
               <msItem xml:id="b39" n="41">
-                <title xml:lang="en">39. Passion (or Holy) Week</title>
-                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܡܟ̈ܢ̣ܫܐ̇ ܡܢ ܐܪ̈ܒܥܬܝܗܘܢ̣ ܐܘ̈ܢܓܠܝܣܛܐ̇.
-                                    ܕܫܒܬܐ ܏܏ܩܕ ܕܚܫܐ</rubric>
-                <note>A note on fol. 133 a states that these lessons for Passion
-                                    Week were compiled by <persName>Daniel the blind</persName>,
-                                    [ܣܓܝ ܢܘܗ̣ܪ̈ܐ = %] of <placeName>Beth-Batin</placeName>, [In the
-                                    district of <placeName>Harran</placeName>. See <bibl>Assemani,
-                                        Bibl. Or., t. ii., pp. 342, 349</bibl>.] and his disciple
-                                        <persName>Isaac</persName>: ܫܠܡ̣ܘ ܩܪ̈ܝܢܐ ܕܚܫܐ ܒܗ̇ܢܘܢ
-                                    ܕܡܬܬ݁ܝ̣ܬܝܢ ܟܠܗܘܢ ܗܘ̈ܦܘܡܢܘܡܛܐ ܕܒܛܐܛ̇ܪܐ ܐܘ̈ܢܓܠܝܐ ܕܡܛܠ ܚܫܐ ܦܪܘܩܝܐ
-                                    ܕܡܪܝܐ. ܡܟ̇ܢ̣ܫܝܢ. ܕܝܢ ܒܚܦܝ̣ܛܘܬܐ̣. ܠܪܒܢ ܪܚ̇ܡ ܐܠܗܐ ܕܢܝܐܝܠ ܣ̇ܓܝ
-                                    ܢܘܗ̣ܪ̈ܐ ܕܡܢ ܒܝܬ ܒܬܝ̣ܢ. ܘܠܐܝܣܚܩ̣ ܬܠܡܝܕܐ ܕܝܠܗ. ܥܠ ܗ̇ܢܘܢ ܕܙܕܩ̇
-                                    ܕܢܨܲܠܐ̣. ܘܡܛܠ ܥܡ̣ܠܗܘܢ̣ ܘܝܘܬܪܢܐ ܫܒܝ̣ܚܐ ܕܡܢܗ.</note>
+                <locus from="93b" to="133"/>
+                <title xml:lang="en">Passion (or Holy) Week</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܡܟ̈ܢ̣ܫܐ̇ ܡܢ ܐܪ̈ܒܥܬܝܗܘܢ̣ ܐܘ̈ܢܓܠܝܣܛܐ̇. ܕܫܒܬܐ ܏܏ܩܕ ܕܚܫܐ</rubric>
+                <note>See <ref>additions</ref>.</note>
                 <msItem xml:id="c2" n="42">
                   <locus from="93b"/>
-                  <title xml:lang="en">a. Monday</title>
-                  <rubric xml:lang="syr">ܕܘܥ̇ܕܗ ܕܠܡܐܢ̣ܐ ܕܠܠܝܐ ܕܬܪ̈ܝܢ ܒܫܒܐ
-                                            ܕܚܫܐ<locus from="96a"/>
-                  </rubric>
+                  <title xml:lang="en">Monday</title>
+                  <msItem>
+                    <locus from="96a"/>
+                    <title xml:lang="en">Part 1</title>
+                    <rubric xml:lang="syr">ܕܘܥ̇ܕܗ ܕܠܡܐܢ̣ܐ ܕܠܠܝܐ ܕܬܪ̈ܝܢ ܒܫܒܐ ܕܚܫܐ</rubric>
+                  </msItem>
                 </msItem>
                 <msItem xml:id="c3" n="43">
                   <locus from="101b"/>
-                  <title xml:lang="en">b. Tuesday</title>
+                  <title xml:lang="en">Tuesday</title>
                 </msItem>
                 <msItem xml:id="c4" n="44">
                   <locus from="108b"/>
-                  <title xml:lang="en">c. Wednesday</title>
+                  <title xml:lang="en">Wednesday</title>
                 </msItem>
                 <msItem xml:id="c5" n="45">
                   <locus from="114b"/>
-                  <title xml:lang="en">d. Thursday</title>
-                  <rubric xml:lang="syr">ܕܩܘܕܫ ܡܘܪܘܢ<locus from="117b"/>
-                  </rubric>
-                  <rubric xml:lang="syr">ܕܫܝ̇ܓܬܐ<locus from="118b"/>
-                  </rubric>
-                  <rubric xml:lang="syr">ܕܒܬܪ ܫܝ̇ܓܬܐ<locus from="119a"/>
-                  </rubric>
+                  <title xml:lang="en">Thursday</title>
+                  <msItem>
+                    <locus from="117b"/>
+                    <title xml:lang="en">Part 1</title>
+                    <rubric xml:lang="syr">ܕܩܘܕܫ ܡܘܪܘܢ</rubric>
+                  </msItem>
+                  <msItem>
+                    <locus from="118b"/>
+                    <title xml:lang="en">Part 2</title>
+                    <rubric xml:lang="syr">ܕܫܝ̇ܓܬܐ</rubric>
+                  </msItem>
+                  <msItem>
+                    <locus from="119a"/>
+                    <title xml:lang="en">Part 3</title>
+                    <rubric xml:lang="syr">ܕܒܬܪ ܫܝ̇ܓܬܐ</rubric>
+                  </msItem>
                 </msItem>
                 <msItem xml:id="c6" n="46">
                   <locus from="119b"/>
-                  <title xml:lang="en">e. Friday</title>
-                  <rubric xml:lang="syr">ܕܣܓܕܬܐ ܕܨܠܝܒܐ<locus from="131b"/>
-                  </rubric>
+                  <title xml:lang="en">Friday</title>
+                  <msItem>
+                    <locus from="131b"/>
+                    <title xml:lang="en">Part 1</title>
+                    <rubric xml:lang="syr">ܕܣܓܕܬܐ ܕܨܠܝܒܐ</rubric>
+                  </msItem>
                 </msItem>
                 <msItem xml:id="c7" n="47">
                   <locus from="132a"/>
-                  <title xml:lang="en">f. Saturday</title>
+                  <title xml:lang="en">Saturday</title>
                   <rubric xml:lang="syr">ܫܒܬܐ ܕܣܒ̣ܪܬܐ</rubric>
                 </msItem>
               </msItem>
               <msItem xml:id="b40" n="48">
                 <locus from="133a"/>
-                <title xml:lang="en">40. The Sunday of the Resurrection (Easter Sunday). </title>
+                <title xml:lang="en">The Sunday of the Resurrection (Easter Sunday)</title>
               </msItem>
               <msItem xml:id="b41" n="49">
                 <locus from="135b"/>
-                <title xml:lang="en">41. The week in Albis</title>
+                <title xml:lang="en">The week in Albis</title>
                 <rubric xml:lang="syr">ܕܚܘܪ̈ܐ</rubric>
                 <msItem xml:id="c8" n="50">
                   <locus from="141b"/>
-                  <title xml:lang="en">The Friday of the Confessors</title>
+                  <title xml:lang="en">The Friday of <persName>the Confessors</persName></title>
                   <rubric xml:lang="syr">ܥܪܘܒܬܐ ܕܡܘ̈ܕܝܢܐ</rubric>
                 </msItem>
               </msItem>
               <msItem xml:id="b42" n="51">
                 <locus from="144a"/>
-                <title xml:lang="en">42. New (or Low) Sunday</title>
+                <title xml:lang="en">New (or Low) Sunday</title>
               </msItem>
               <msItem xml:id="b43" n="52">
                 <locus from="146a"/>
-                <title xml:lang="en">43. The third Sunday after the Resurrection</title>
+                <title xml:lang="en">The third Sunday after the Resurrection</title>
               </msItem>
               <msItem xml:id="b44" n="53">
                 <locus from="147a"/>
-                <title xml:lang="en">44. The fourth Sunday</title>
+                <title xml:lang="en">The fourth Sunday</title>
               </msItem>
               <msItem xml:id="b45" n="54">
                 <locus from="148b"/>
-                <title xml:lang="en">45. The fifth Sunday</title>
+                <title xml:lang="en">The fifth Sunday</title>
               </msItem>
               <msItem xml:id="b46" n="55">
                 <locus from="149b"/>
-                <title xml:lang="en">46. The sixth Sunday</title>
+                <title xml:lang="en">The sixth Sunday</title>
               </msItem>
               <msItem xml:id="b47" n="56">
                 <locus from="150b"/>
-                <title xml:lang="en">47. The Ascension of our Lord</title>
+                <title xml:lang="en">The Ascension of <persName>our Lord</persName></title>
               </msItem>
               <msItem xml:id="b48" n="57">
                 <locus from="152a"/>
-                <title xml:lang="en">48. The seventh Sunday after the Resurrection</title>
+                <title xml:lang="en">The seventh Sunday after the Resurrection</title>
               </msItem>
               <msItem xml:id="b49" n="58">
                 <locus from="153a"/>
-                <title xml:lang="en">49. Pentecost or Whitsun Day</title>
+                <title xml:lang="en">Pentecost or Whitsun Day</title>
               </msItem>
               <msItem xml:id="b50" n="59">
                 <locus from="155b"/>
-                <title xml:lang="en">50. The first Sunday after Pentecost</title>
+                <title xml:lang="en">The first Sunday after Pentecost</title>
               </msItem>
               <msItem xml:id="b51" n="60">
                 <locus from="157b"/>
-                <title xml:lang="en">51. The second Sunday</title>
+                <title xml:lang="en">The second Sunday</title>
               </msItem>
               <msItem xml:id="b52" n="61">
                 <locus from="158b"/>
-                <title xml:lang="en">52. The third Sunday</title>
+                <title xml:lang="en">The third Sunday</title>
               </msItem>
               <msItem xml:id="b53" n="62">
                 <locus from="160a"/>
-                <title xml:lang="en">53. The fourth Sunday</title>
+                <title xml:lang="en">The fourth Sunday</title>
               </msItem>
               <msItem xml:id="b54" n="63">
                 <locus from="161a"/>
-                <title xml:lang="en">54. The fifth Sunday</title>
+                <title xml:lang="en">The fifth Sunday</title>
               </msItem>
               <msItem xml:id="b55" n="64">
                 <locus from="162b"/>
-                <title xml:lang="en">55. The sixth Sunday</title>
+                <title xml:lang="en">The sixth Sunday</title>
               </msItem>
               <msItem xml:id="b56" n="65">
                 <locus from="163b"/>
-                <title xml:lang="en">56. The seventh Sunday</title>
+                <title xml:lang="en">The seventh Sunday</title>
               </msItem>
               <msItem xml:id="b57" n="66">
                 <locus from="164b"/>
-                <title xml:lang="en">57. The eighth Sunday</title>
+                <title xml:lang="en">The eighth Sunday</title>
               </msItem>
               <msItem xml:id="b58" n="67">
                 <locus from="165b"/>
-                <title xml:lang="en">58. The ninth Sunday</title>
+                <title xml:lang="en">The ninth Sunday</title>
               </msItem>
               <msItem xml:id="b59" n="68">
                 <locus from="167a"/>
-                <title xml:lang="en">59. The tenth Sunday</title>
+                <title xml:lang="en">The tenth Sunday</title>
               </msItem>
               <msItem xml:id="b60" n="69">
                 <locus from="168a"/>
-                <title xml:lang="en">60. The eleventh Sunday</title>
+                <title xml:lang="en">The eleventh Sunday</title>
               </msItem>
               <msItem xml:id="b61" n="70">
                 <locus from="169b"/>
-                <title xml:lang="en">61. The twelfth Sunday</title>
+                <title xml:lang="en">The twelfth Sunday</title>
               </msItem>
               <msItem xml:id="b62" n="71">
                 <locus from="171a"/>
-                <title xml:lang="en">62. The Transfiguration of our Lord, or the Feast of Tabernacles</title>
+                <title xml:lang="en">The Transfiguration of <persName>our Lord</persName>, or the Feast of Tabernacles</title>
                 <rubric xml:lang="syr">ܥܐܕܐ ܕܡ̈ܛܠܠܐ</rubric>
               </msItem>
               <msItem xml:id="b63" n="72">
                 <locus from="173a"/>
-                <title xml:lang="en">63. The first Sunday after the Transfiguration</title>
+                <title xml:lang="en">The first Sunday after the Transfiguration</title>
               </msItem>
               <msItem xml:id="b64" n="73">
                 <locus from="173b"/>
-                <title xml:lang="en">64. The second Sunday</title>
+                <title xml:lang="en">The second Sunday</title>
               </msItem>
               <msItem xml:id="b65" n="74">
                 <locus from="175a"/>
-                <title xml:lang="en">65. The third Sunday</title>
+                <title xml:lang="en">The third Sunday</title>
               </msItem>
               <msItem xml:id="b66" n="75">
                 <locus from="176a"/>
-                <title xml:lang="en">66. The fourth Sunday</title>
+                <title xml:lang="en">The fourth Sunday</title>
               </msItem>
               <msItem xml:id="b67" n="76">
                 <locus from="177a"/>
-                <title xml:lang="en">67. The fifth Sunday</title>
+                <title xml:lang="en">The fifth Sunday</title>
               </msItem>
               <msItem xml:id="b68" n="77">
                 <locus from="178b"/>
-                <title xml:lang="en">68. The sixth Sunday</title>
+                <title xml:lang="en">The sixth Sunday</title>
               </msItem>
               <msItem xml:id="b69" n="78">
                 <locus from="180a"/>
-                <title xml:lang="en">69. The seventh Sunday</title>
+                <title xml:lang="en">The seventh Sunday</title>
               </msItem>
               <msItem xml:id="b70" n="79">
                 <locus from="181b"/>
-                <title xml:lang="en">70. The Festival of the holy Cross</title>
+                <title xml:lang="en">The Festival of <persName>the holy Cross</persName></title>
               </msItem>
               <msItem xml:id="b71" n="80">
                 <locus from="181b"/>
-                <title xml:lang="en">71. The first Sunday after the holy Cross</title>
+                <title xml:lang="en">The first Sunday after <persName>the holy Cross</persName></title>
               </msItem>
               <msItem xml:id="b72" n="81">
                 <locus from="183a"/>
-                <title xml:lang="en">72. The second Sunday</title>
+                <title xml:lang="en">The second Sunday</title>
               </msItem>
               <msItem xml:id="b73" n="82">
                 <locus from="184a"/>
-                <title xml:lang="en">73. The third Sunday</title>
+                <title xml:lang="en">The third Sunday</title>
               </msItem>
               <msItem xml:id="b74" n="83">
                 <locus from="185b"/>
-                <title xml:lang="en">74. The fourth Sunday</title>
+                <title xml:lang="en">The fourth Sunday</title>
               </msItem>
               <msItem xml:id="b75" n="84">
                 <locus from="186a"/>
-                <title xml:lang="en">75. The fifth Sunday</title>
+                <title xml:lang="en">The fifth Sunday</title>
               </msItem>
               <msItem xml:id="b76" n="85">
                 <locus from="187a"/>
-                <title xml:lang="en">76. The sixth Sunday</title>
+                <title xml:lang="en">The sixth Sunday</title>
               </msItem>
               <msItem xml:id="b77" n="86">
                 <locus from="188a"/>
-                <title xml:lang="en">77. The seventh Sunday</title>
+                <title xml:lang="en">The seventh Sunday</title>
               </msItem>
               <msItem xml:id="b78" n="87">
                 <locus from="189b"/>
-                <title xml:lang="en">78. The eighth Sunday</title>
+                <title xml:lang="en">The eighth Sunday</title>
               </msItem>
               <msItem xml:id="b79" n="88">
                 <locus from="190b"/>
-                <title xml:lang="en">79. Daily, at the celebration of the holy Eucharist</title>
+                <title xml:lang="en">Daily, at the celebration of the holy Eucharist</title>
                 <rubric xml:lang="syr">ܕܩܘܪܒܐ ܕܟܠܝܘܡ</rubric>
               </msItem>
             </msItem>
@@ -504,11 +514,7 @@
                                                 leaves, some of which are slightly stained and torn,
                                                 especially foll. 192—196. The quires, signed with
                                                 letters, are 19 in number. Each page is divided into
-                                                two columns of 23 lines. . This manuscript is
-                                                written in a good, regular hand, with occasional
-                                                Syriac vowels; dated <date>A. Gr. 1525</date>,
-                                                <date>A.D. 1214</date>. Prefixed to the volume there is an Index of the Lessons, fol. 4 b, richly coloured with various paints. On fol. 3 b there is an illuminated cross; and a similar one on fol. 194 a.
-                                                Greek words are occasionally written on the margins, but very rudely and incorrectly. See, for example, foll. 98 a, 104 b, 105 a, 114 a, 116 a, 123 a, 129 a and b, 130 a, etc.
+                                                two columns of 23 lines.
                                             </p>
                                         </item>
                                     </list>
@@ -518,46 +524,70 @@
                                 <p>Content pending</p>
                             </layoutDesc>
                         </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="2">
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr">
+                <desc>This manuscript is written in a good, regular hand, with occasional Syriac vowels; dated <date>A. Gr. 1525</date>, <date>A.D. 1214</date>.</desc>
+              </handNote>
+              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
+            <decoDesc>
+              <decoNote xml:id="decoNote1" type="ornamentation">The <ref>Index of the Lessons</ref> on <locus from="4b">fol. 4 b</locus> is richly coloured with various paints.</decoNote>
+              <decoNote xml:id="decoNote2" type="illustration">On <locus from="3b">fol. 3 b</locus> there is an illuminated cross.</decoNote>
+              <decoNote xml:id="decoNote3" type="illustration">A similar cross is found on <locus from="194a">fol. 194 a</locus>.</decoNote>
+              <decoNote xml:id="decoNote4" type="rubrication">The <ref>short note</ref> on <locus from="193">fol. 193</locus> is written in red ink</decoNote>
+            </decoDesc>
             <additions>
               <p/>
               <list>
+                <item>
+                  <p>Greek words are occasionally written on the margins, but very rudely and incorrectly. See, for example, <locus>foll. 98 a, 104 b, 105 a, 114 a, 116 a, 123 a, 129 a and b, 130 a, etc.</locus></p>
+                </item>
+                <item>
+                  <locus from="133a"/>
+                  <p>A note on fol. 133 a states that <ref>the lessons for Passion
+                    Week</ref> were compiled by <persName>Daniel the blind,
+                      (<foreign xml:lang="syr">ܣܓܝ ܢܘܗ̣ܪ̈ܐ</foreign> = <foreign xml:lang="ar">البصير</foreign>, <foreign xml:lang="he">%<!--missing Hebrew here --></foreign>)</persName> of <placeName>Beth-Batin</placeName>, and his disciple
+                    <persName>Isaac</persName>. <placeName>Beth-Batin</placeName> is in the
+                    district of <placeName>Harran</placeName>, on which see <bibl>Assemani,
+                      Bibl. Or., t. ii., pp. 342, 349</bibl>.</p>
+                  <p>
+                    <quote xml:lang="syr">ܫܠܡ̣ܘ ܩܪ̈ܝܢܐ ܕܚܫܐ ܒܗ̇ܢܘܢ
+                      ܕܡܬܬ݁ܝ̣ܬܝܢ ܟܠܗܘܢ ܗܘ̈ܦܘܡܢܘܡܛܐ ܕܒܛܐܛ̇ܪܐ ܐܘ̈ܢܓܠܝܐ ܕܡܛܠ ܚܫܐ ܦܪܘܩܝܐ
+                      ܕܡܪܝܐ. ܡܟ̇ܢ̣ܫܝܢ. ܕܝܢ ܒܚܦܝ̣ܛܘܬܐ̣. ܠܪܒܢ ܪܚ̇ܡ ܐܠܗܐ ܕܢܝܐܝܠ ܣ̇ܓܝ
+                      ܢܘܗ̣ܪ̈ܐ ܕܡܢ ܒܝܬ ܒܬܝ̣ܢ. ܘܠܐܝܣܚܩ̣ ܬܠܡܝܕܐ ܕܝܠܗ. ܥܠ ܗ̇ܢܘܢ ܕܙܕܩ̇
+                      ܕܢܨܲܠܐ̣. ܘܡܛܠ ܥܡ̣ܠܗܘܢ̣ ܘܝܘܬܪܢܐ ܫܒܝ̣ܚܐ ܕܡܢܗ</quote>
+                  </p>
+                </item>
                 <item xml:id="addition1" n="1">
                   <locus from="193b"/>
                   <p>Colophon</p>
                   <p>
                     <quote xml:lang="syr">ܫܠ̣ܡ ܠܡ̣ܟܬܒ ܦܘܪܫ ܩܪ̈ܝܢܐ̇ ܕܛܛܪܐ ܐܘܢܓܠܝܐ ܩܕܝܫܐ܇ ܚܘܕܪܐ̣ ܫ̇ܬܢܝܐ. ܏ܫܘܼ ܠܐܒܐ ܏ܘܫ.
                                             ܟܠܕܦ̇ܓܥ ܒܟܬܒܐ ܗܢܐ̇ ܢܨܲܠܐ ܡܛܠ ܐܠܗܐ̇ ܥܠ ܫܡܥܘܢ ܚ̇ܛܝܐ̣.
-                                            ܕܟܬ݂ܒܗ. ܘܥܠ ܐܒܗ̈ܘܗܝ ܦܓܪ̈ܢܝܐ ܟܝܬ ܘܪ̈ܘܚܢܝܐ̣ ܒܒ̣ܥܘ.</quote>
+                                            ܕܟܬ݂ܒܗ. ܘܥܠ ܐܒܗ̈ܘܗܝ ܦܓܪ̈ܢܝܐ ܟܝܬ ܘܪ̈ܘܚܢܝܐ̣ ܒܒ̣ܥܘ</quote>
                   </p>
                 </item>
                 <item xml:id="addition2" n="2">
-                  <locus from="192b" to="193a"/>
+                  <locus from="192b"/>
                   <p>The notes on foll. 192 b and 193 a state that this manuscript
                                         was written in the year <date>1525</date> (<date>A.D.
-                                            1214</date>),—when J<persName>ohn (XIV.)</persName> was
-                                        patriarch of <placeName>Antioch</placeName>; [See
+                                            1214</date>),—when <persName>John (XIV.)</persName> was
+                                        patriarch of <placeName>Antioch</placeName> (on whom see
                                             <bibl>Assemani, Bibl. Or., t. ii. p. 370, no. 49</bibl>;
                                         and <bibl>Le Quien, Oriens Christ., t. ii., col.
-                                        1391</bibl>.] <persName>John (VI., ibn Abī
+                                        1391</bibl>); <persName>John (VI., ibn Abī
                                             Ghālib)</persName>, patriarch of
-                                            <placeName>Egypt</placeName>; [See <bibl>Renaudot, Hist.
+                                            <placeName>Egypt</placeName> (on whom see <bibl>Renaudot, Hist.
                                             Patr. Alexandr. Jacob., p. 554</bibl>; and <bibl>Le
-                                            Quien, Oriens Christ., t. ii., col. 488</bibl>.] and
-                                            <persName>John, bishop of the <placeName>convent of
-                                                  <persName>Mar
-                                            Simeon</persName>
-                      </placeName>
-                    </persName> at
+                                            Quien, Oriens Christ., t. ii., col. 488</bibl>); and
+                                            <persName>John</persName>, bishop of the <placeName>convent of <persName>Mar Simeon</persName></placeName> at
                                             <placeName>Kartamīn</placeName>,—in the
                                             <placeName>convent of Mār Malchus</placeName>, by one
                                             <persName>Simeon bar Abraham</persName>, from
-                                            <placeName>Arbū</placeName>, for the monks of the said
-                                        convent.</p>
+                                            <placeName>Arbū</placeName>, for <persName>the monks of the said
+                                        convent</persName>. The note on fol. 192 b reads:</p>
                   <p>
                                         <quote xml:lang="syr">ܐܫܬܠܲܡ ܟܬܒܐ ܗܢܐ ܕܦܘܪܫ ܩܪ̈ܝܢܐ ܫܢ̣ܬ݀ ܐܠܦ
                                             ܘܚܡܫܡܐܐ ܘ܏ܟܗ ܕܝܘܢ̈ܝܐ. ܏ܒܝܘ ܒܚܙܝܪܢ ܝܪܚܐ. ܒܝܘܡ ܬܪ̈ܝܢ ܒܫܒܐ.
@@ -573,51 +603,56 @@
                                             ܘܨܲܠܘ ܥܠ ܐܒܗ̈ܝܗܘܢ. ܘܨܲܠܘ ܥܠ ܪܒܢ ܐܒܪܗܡ ܏ܩܫܝ ܘܕܝܪܝܐ ܕܗ̣ܘ
                                             ܫ̇ܡ̣ܫ ܐܝܟ ܚܲܝܠܗ. ܘܗ̇ܘ ܕܡܨܲܠܐ ܐܦ ܗ̣ܘ ܢܬܚܲܣܐ ܐܡܝܢ܀ ܘܨܲܠܘ
                                             ܥܠ ܪܒܢ ܝܘܐܢܝܣ ܏ܡܫܡ ܒܪ ܝܫܘܥ ܕܘܢܝܣܪܝܐ ܕܐܦ ܗ̣ܘ ܐܫܬܘܬܦ
-                                            ܒܛܝܡ̈ܘܗܝ ܕܟܬܒܐ ܗܢܐ. ܨܲܠܘ ܥܠܘܗܝ ܡܛܠ ܕܡܗܝܡܢܐ ܗܘ ܫܪܝܪܐ.
-                                            ܠܬܫܒܘܚܬܐ ܘܠܐܝܩܪܐ ܕܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ ܘܫܘܝܲܬ݀ ܒܐܘܣܝܐ ܏ܘܫ.
-                                            ܘܠܨܒ̣ܬܐ ܘܗ̣ܕܪܐ ܕܥܕܬܐ ܩܕܝܫܬܐ ܩܐܬܘܠܝܩܝ ܘܫܠܝܚܝܬܐ. ܘܠܗܘܓܝܐ
-                                            ܘܝܘܬܪܢܐ ܕܐܚ̈ܐ ܚ̈ܦܝܛܐ ܘܪ̈ܚܡ̇ܝ ܚ̈ܝܐ ܝ̣ܨܦ ܘܟܬ̣ܒ ܠܟܬܒܐ ܗܢܐ
-                                            ܡܠܸܐ [ܚ̈ܝܐ] ܫܡܥܘܢ ܚܛܝܐ. ܒܪ ܐܒܪܗܡ̣. ܡܢ ܐܪܒܘ ܡܒܪܟܬܐ.
-                                            ܒܝܨܝܦܘܬܐ ܡܲܢ ܘܫܐܠܬܐ ܕܕܝܪ̈ܝܐ ܩ̈ܕܝܫܐ. ܒܝܘ̈ܡܝ ܪܝܫܕܝܪ̈ܐ ܡܘܫܐ
-                                            ܘܝܘܚܢܢ. ܘܕܝܪ̈ܝܐ ܩ̈ܕܝܫܐ. ܘܪܒܢ ܒܪܨܘܡܐ ܩܘܢܟܝܐ. ܘܪܒܢ ܓܘܪܓܝܣ.
-                                            ܘܪܒܢ ܐܒܪܗܡ̣. ܘܪܒܢ ܒܪܨܘܡܐ ܘܪܒܢ ܐܒܪܗܡ̣ ܘܫܪܟܐ ܕܕܝܪ̈ܝܐ. ܬܘܒ
-                                            ܕܝܢ ܘܡܛܠ ܕܢܫܟ̣ܚܘܢ ܪ̈ܚܡ̣ܐ ܘܦܐܪܪܝܣܝܐ ܩܕܡ ܐܠܗܐ ܗ̣ܢܘܢ
-                                            ܘܥܢ̈ܝܕܝܗܘܢ̣ ܒܢܛܝ̣ܪܘܬܐ ܕܗܘܢܐ ܘܚܘܠܡܢܐ ܕܢܦܫܐ ܝ̣ܨܦܘ
-                                            ܘܩܢܐ̣ܘܘܗܝ ܠܕܝܪܐ ܏ܩܕ ܕܝܠܗܘܢ ܕܡܪܝ ܡ̈ܠܟܐ̇ ܦ̇ܠܚܐ ܢܨܝܚܐ. ܏ܘܫ.
-                                            ܨܲܠܘ ܥܠ ܨܠܝܒܐ ܕܝܪܝܐ ܕܡܢ ܐܓܘܪܣܐ ܘܥܠ ܪܒܢ ܡܘܫܐ ܕܝܪܝܐ ܒܪ
-                                            ܡܪܣܒܐ ܢܝܚܠܝܐ ܕܗܢ̣ܘܢ ܥܕܪܘ ܥܡܝ ܐܝܟ ܚܲܝܠܗܘܢ ܨܠܲܘ ܥܠܝܗܘܢ ܡܛܠ
-                                            ܡܪܢ. </quote>
+                                            ܒܛܝܡ̈ܘܗܝ ܕܟܬܒܐ ܗܢܐ. ܨܲܠܘ ܥܠܘܗܝ ܡܛܠ ܕܡܗܝܡܢܐ ܗܘ ܫܪܝܪܐ</quote>
                                     </p>
                 </item>
-                <item xml:id="addition3" n="3">
-                  <locus/>
-                  <p>Beneath this, there is written in red ink:</p>
+                <item>
+                  <locus from="193"/>
+                  <p>The second of two notes concerning the manuscript's origin (see <ref>above</ref>), written on fol. 193, reads:</p>
                   <p>
-                                        <quote xml:lang="syr">ܨ̇ܠܘ ܥܠ ܓܒܪܐܝܠ ܚܚܝܐ (?)ܕܐܫ̇ܬܘܿܬܦ
-                                            ܒ[ܗ].</quote>
+                    <quote xml:lang="syr">ܠܬܫܒܘܚܬܐ ܘܠܐܝܩܪܐ ܕܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ ܘܫܘܝܲܬ݀ ܒܐܘܣܝܐ ܏ܘܫ.
+                      ܘܠܨܒ̣ܬܐ ܘܗ̣ܕܪܐ ܕܥܕܬܐ ܩܕܝܫܬܐ ܩܐܬܘܠܝܩܝ ܘܫܠܝܚܝܬܐ. ܘܠܗܘܓܝܐ
+                      ܘܝܘܬܪܢܐ ܕܐܚ̈ܐ ܚ̈ܦܝܛܐ ܘܪ̈ܚܡ̇ܝ ܚ̈ܝܐ ܝ̣ܨܦ ܘܟܬ̣ܒ ܠܟܬܒܐ ܗܢܐ
+                      ܡܠܸܐ [ܚ̈ܝܐ] ܫܡܥܘܢ ܚܛܝܐ. ܒܪ ܐܒܪܗܡ̣. ܡܢ ܐܪܒܘ ܡܒܪܟܬܐ.
+                      ܒܝܨܝܦܘܬܐ ܡܲܢ ܘܫܐܠܬܐ ܕܕܝܪ̈ܝܐ ܩ̈ܕܝܫܐ. ܒܝܘ̈ܡܝ ܪܝܫܕܝܪ̈ܐ ܡܘܫܐ
+                      ܘܝܘܚܢܢ. ܘܕܝܪ̈ܝܐ ܩ̈ܕܝܫܐ. ܘܪܒܢ ܒܪܨܘܡܐ ܩܘܢܟܝܐ. ܘܪܒܢ ܓܘܪܓܝܣ.
+                      ܘܪܒܢ ܐܒܪܗܡ̣. ܘܪܒܢ ܒܪܨܘܡܐ ܘܪܒܢ ܐܒܪܗܡ̣ ܘܫܪܟܐ ܕܕܝܪ̈ܝܐ. ܬܘܒ
+                      ܕܝܢ ܘܡܛܠ ܕܢܫܟ̣ܚܘܢ ܪ̈ܚܡ̣ܐ ܘܦܐܪܪܝܣܝܐ ܩܕܡ ܐܠܗܐ ܗ̣ܢܘܢ
+                      ܘܥܢ̈ܝܕܝܗܘܢ̣ ܒܢܛܝ̣ܪܘܬܐ ܕܗܘܢܐ ܘܚܘܠܡܢܐ ܕܢܦܫܐ ܝ̣ܨܦܘ
+                      ܘܩܢܐ̣ܘܘܗܝ ܠܕܝܪܐ ܏ܩܕ ܕܝܠܗܘܢ ܕܡܪܝ ܡ̈ܠܟܐ̇ ܦ̇ܠܚܐ ܢܨܝܚܐ. ܏ܘܫ.
+                      ܨܲܠܘ ܥܠ ܨܠܝܒܐ ܕܝܪܝܐ ܕܡܢ ܐܓܘܪܣܐ ܘܥܠ ܪܒܢ ܡܘܫܐ ܕܝܪܝܐ ܒܪ
+                      ܡܪܣܒܐ ܢܝܚܠܝܐ ܕܗܢ̣ܘܢ ܥܕܪܘ ܥܡܝ ܐܝܟ ܚܲܝܠܗܘܢ ܨܠܲܘ ܥܠܝܗܘܢ ܡܛܠ
+                      ܡܪܢ</quote>
+                  </p>
+                </item>
+                <item xml:id="addition3" n="3">
+                  <locus from="193"/>
+                  <p>Beneath the <ref>above note</ref>, there is written:</p>
+                  <p>
+                                        <quote xml:lang="syr">ܨ̇ܠܘ ܥܠ ܓܒܪܐܝܠ ܚܚܝܐ (?) ܕܐܫ̇ܬܘܿܬܦ ܒ[ܗ]</quote>
                                     </p>
                 </item>
                 <item xml:id="addition4" n="4">
                   <locus from="193a"/>
                   <p>On the lower margin of fol. 193 a there stands a note of more
                                         recent date, much of which has been purposely erased. What
-                                        is still legible, runs as follows: </p>
+                                        is still legible, runs as follows:</p>
                   <p>
                                         <quote xml:lang="syr">ܝܨܦܘ ܘܩܢܐܘܘܗܝ ܠܥܕܬܐ ܩܕܝܫܬܐ ܕܝܠܕܬ ܐܠܗܐ
                                             ܕܩܕܝܫܐ ܡܪܝ ܬܐܘܡܐ ܕ . . . ܒܝܨܝܦܘܬܐ ܕܩܫܝܫܐ ܡܘܫܐ ܘܪܝܫ
-                                            ܕܘܕܘܦܝܠ (?)ܣܥܕܐ (?)ܙܒܢܘܗܝ ܡܢ ܕܝܪܝܐ ܏ܘܡܫ ܢܟܦܐ
+                                            ܕܘܕܘܦܝܠ (?) ܣܥܕܐ (?) ܙܒܢܘܗܝ ܡܢ ܕܝܪܝܐ ܏ܘܡܫ ܢܟܦܐ
                                             ܒܪܨܘܡܐ</quote>
                                     </p>
                 </item>
-                <item xml:id="addition5" n="5">
+                <item xml:id="addition5" n="5"><!-- WLP: since these only contain notes, do we need to record the fly-leaves as separate msParts? -->
                   <locus from="195b"/>
                   <p>The flyleaves of this manuscript contain notes of various
                                         dates, often rather carelessly written. The oldest of these,
                                         fol. 195 b dated <date>A. Gr. 1616</date>, <date>A.D.
                                             1305</date>, relates to the clearing out (?) of a well,
-                                        or rather cistern, called the Camels' well, situated close
+                                        or rather cistern, called <placeName>the Camels' well</placeName>, situated close
                                         to the <placeName>convent of Malchus</placeName>, and to the
-                                        tonsure of certain monks.</p>
+                                        tonsure of <persName>certain monks</persName>.</p>
                   <p>
                                         <quote xml:lang="syr">ܒܫܢܬ ܐܠܦܐ ܘ܏ܣ ܏ܝܘ ܐܬܚܪܪ ܓܘܒܐ ܕܓ̈ܡܠܐ
                                             ܒܝܨܝܦܘܬܐ ܕܐܚ̈ܐ ܫܘܝܝ ܠܕܘܟܪܢܐ ܪܒܢ ܚܒܝܒ ܘܪܒܢ ܒܪܨܘܡܐ ܘܪܒܢ
@@ -625,15 +660,15 @@
                                             ܡܩܕܣܝ ܘܪܒܢ ܝܫܘܥ ܘܪܒܢ ܡ̈ܠܟܐ ܕܥܒܘܠܐ ܘܪܒܢ ܡܠܟܐ ܕܩܪܝܪܐ ܘܪܒܢ
                                             ܣܛܦܢܐ ܘܪܒܢ ܩܘܡܐ ܘܪܒܢ ܣܪܓܝܣ ܘܪܒܢ ܒܟܘܣ ܘܪܒܢ ܝܘܚܢܢ ܘܐܣܬܦܪ
                                             ܬܪܝܢ ܕܝܪ̈ܝܐ ܪܒܢ ܓܒܪܐܝܠ ܘܪܒܢ ܝܥܩܘܒ ܘܪܒܢ ܝܫܘܥ ܕܥܝܙܪ ܘܪܒܢ
-                                            ܟܡܝܣ ܪܒܢ ܒܟܘܣ ܘܪܒܢ ܥܡܘܢܝܠ (sic) ܐܠܗܐ ܢܚܣܐ ܠܟܠ ܕܐܫܬܘܬܦ ܐܢ
+                                            ܟܡܝܣ ܪܒܢ ܒܟܘܣ ܘܪܒܢ ܥܡܘܢܝܠ <foreign xml:lang="en">(sic)</foreign> ܐܠܗܐ ܢܚܣܐ ܠܟܠ ܕܐܫܬܘܬܦ ܐܢ
                                             ܒܡܠܬܐ ܘܐܢ ܒܥܒܕܐ</quote>
                                     </p>
                 </item>
                 <item xml:id="addition6" n="6">
                   <locus from="195b"/>
-                  <p>The next flyleaf-note, in point of age, dated <date>A. Gr.
+                  <p>The next note on the flyleaves, in point of age, dated <date>A. Gr.
                                             1680</date>, <date>A.D. 1369</date>, refers to another
-                                        clearing out (?) of the same well.</p>
+                                        clearing out (?) of <placeName>the same well</placeName>.</p>
                   <p>
                                         <quote xml:lang="syr">ܒܫܢܬ ܐܠܦܐ ܘܫ̈ܬܡܐܐ ܘܬܡ̈ܢܝܢ ܐܬܚܪܪ ܓܘܒܐ
                                             ܕܓ̈ܡܠܐ ܝܘܡ̈ܬܐ ܏ܘ ܒܐܒ ܝܪܚܐ ܝܘܡ ܥܐܕܐ ܕܡ̈ܛܠܠܐ ܒܝܨܝܦܘܬܐ
@@ -641,64 +676,49 @@
                                             ܒܨܝܪܐ ܐܒܝ ܘܪܒܢ ܥܙܝܙ ܘܪܒܢ ܕܘܝܕ ܘܪܒܢ ܝܘܚܢܢ ܘܪܒܢ ܐܒܝ ܢܝܚܠܝܐ
                                             ܘܪܒܢ ܨܠܝܒܐ ܘܪܒܢ ܝܘܣܦ ܕܒܰܪܝ ܘܬܰܪܳܥܳܐ ܡܢܨܘܪ ܚܒܒܝܐ ܚܢܢ
                                             ܟܬܒܢܢ ܒܐܪܥܐ ܘܡܪܝܐ ܢܟܬܘܒ ܐܢܘܢ ܒܥܕܬܐ ܕܒܘܟܪ̈ܐ ܕܒܫܡܝܐ ܐܡܝܢ
-                                            ܘܐܫܬܘܬܦ ܪܒܢ ܐܚܐ ܡܢܥܡܝܐ.</quote>
+                                            ܘܐܫܬܘܬܦ ܪܒܢ ܐܚܐ ܡܢܥܡܝܐ</quote>
                                     </p>
                 </item>
                 <item xml:id="addition7" n="7">
                   <locus from="196a"/>
                   <p>On fol. 196 a there is a deed relating to the acquisition of
-                                        certain lands by the monks of the <placeName>convent of
-                                            Malchus</placeName>, dated <date>A. Gr. 1708</date>,
-                                            <date>A.D. 1397</date>. </p>
+                                        <placeName>certain lands</placeName> by <persName>the monks of the <placeName>convent of
+                                            Malchus</placeName></persName>, dated <date>A. Gr. 1708</date>,
+                                            <date>A.D. 1397</date>.</p>
                   <p>
-                                        <quote xml:lang="syr">. . . ܫܢܬܐܠܦ ܘܫܒܥܡܐܐ . . . ܘܬܡܢܐ . . .
-                                            ܗܐ ܏ܫܘ ܐܡܝܢ ܘܠܥܠܡܝܢ܀. . . ܝܢܢ ܫܘܘ̈ܟܢܐ ܕܫܟܢ ܒ̈ܢܝ ܚܒܒ
-                                            (sic). . . ܬܐ ܠܕܝܪܐ ܏܏ܩܕ ܕܢܨܝܚܐ ܘܪܡ ܒܓ̈ܒܝܐ. ܡܪܝ ܡܠܟܐ
-                                            ܨܠܘܬܗ ܥܡܢ ܐܡܝܢ ܒܡܬܢܐ ܕܚܕܘ̈ܬܐ ܩܕܡܐܝܬ ܚܢܐ ܘܣܸܗܪܐ (sic)
-                                            ܏ܘܩܫ ܒܪܨܘܡܐ ܘܐܚܘ̈ܗܝ ܐܫܥܝܐ ܣܛܦܢܐ ܓܒܪܐܝܠ ܗܠܝܢ ܡܗܝܡܢܐ ܫܟܢ
-                                            ܘܢܣܒ ܕܡ̈ܝ ܐܪ̈ܥܬܐ ܗܠܝܢ ܘܚܢܢ ܣܗ̈ܕܐ ܥܠܝܗܘܢ ܡܢ ܡܠܬ ܦܘܡܝܗܘܢ.
-                                            ܐܢ̇ܐ ܡܚܝܠܐ ܕܒܫܡ ܐܦܣܩܘܦܐ ܕܡܢ ܐܪܒܘ. ܘܡܬܐܡܪ ܕܝ܏ܘܣܩܪ ܙܥܘܪܐ
-                                            ܕܒܝܬ ܪ̈ܝܫܐ. ܘܗܠܝܢ ܐܚ̈ܐ ܕܝܪ̈ܝܐ ܕܠܗܘܢ ܫܟܢ ܘܢܣܒ ܕܡ̈ܝܐ
-                                            ܘܐܝܬܝܗܘܢ ܪܒܢ ܐܫܥܝܐ ܘܪܒܢ ܓܒܪܐܝܠ ܘܪܒܢ ܫܒܐ ܘܪܒܢ ܣܗܕܐ ܘܕܝܪܐ
-                                            (sic) ܓܒܪܐܝܠ ܗܠܝܢ ܟܠܗܘܢ ܟܕ ܟܢܝܫܝܢ ܒܫܘܝܘܬܐ ܟܬܒܢܢ ܒܚܦܝܛܘܬܐ
-                                            ܕܐܚܘܬܐ ܘܠܝܬ ܠܐܢܫ ܫܘܠܛܢܐ ܐܘ̇ ܡܦܣܢܘܬܐ. ܡܢ ܝܘܡܢ ܠܗܠ ܕܢܐܡܪ
-                                            ܡܕܡ ܐܠܐ ܕܦܫ ܡܢ ܥܩܪܐ ܕܕܝܪܐ ܟܕ ܚܪܝܙܝܢ ܒܗ ܒܥܩܪܐ ܕܕܝܪܐ ܗܠܝܢ
-                                            ܟܠ ܕܢܐܡܪ ܘܐܘܿ (sic) ܢܗܦܘܟ ܒܡܠܬܐ ܕܝܠܗ ܢܗܘܐ ܥܕܝܠ ܡܢ ܐܠܗܐ
-                                            ܘܡܢܢ ܡܚܝܠܐ ܗܠܝܢ ܠܙܘܗܪܐ ܕܡܗ̈ܝܡܢܐ.</quote>
+                                        <quote xml:lang="syr">. . . ܫܢܬܐܠܦ ܘܫܒܥܡܐܐ . . . ܘܬܡܢܐ . . . ܗܐ ܏ܫܘ ܐܡܝܢ ܘܠܥܠܡܝܢ܀. . . ܝܢܢ ܫܘܘ̈ܟܢܐ ܕܫܟܢ ܒ̈ܢܝ ܚܒܒ. <foreign xml:lang="en">(sic)</foreign>. . . ܬܐ ܠܕܝܪܐ ܏܏ܩܕ ܕܢܨܝܚܐ ܘܪܡ ܒܓ̈ܒܝܐ. ܡܪܝ ܡܠܟܐ ܨܠܘܬܗ ܥܡܢ ܐܡܝܢ ܒܡܬܢܐ ܕܚܕܘ̈ܬܐ ܩܕܡܐܝܬ ܚܢܐ ܘܣܸܗܪܐ <foreign xml:lang="en"
+                  >(sic)</foreign> ܏ܘܩܫ ܒܪܨܘܡܐ ܘܐܚܘ̈ܗܝ ܐܫܥܝܐ ܣܛܦܢܐ ܓܒܪܐܝܠ ܗܠܝܢ ܡܗܝܡܢܐ ܫܟܢ ܘܢܣܒ ܕܡ̈ܝ ܐܪ̈ܥܬܐ ܗܠܝܢ ܘܚܢܢ ܣܗ̈ܕܐ ܥܠܝܗܘܢ ܡܢ ܡܠܬ ܦܘܡܝܗܘܢ. ܐܢ̇ܐ ܡܚܝܠܐ ܕܒܫܡ ܐܦܣܩܘܦܐ ܕܡܢ ܐܪܒܘ. ܘܡܬܐܡܪ ܕܝ܏ܘܣܩܪ ܙܥܘܪܐ ܕܒܝܬ ܪ̈ܝܫܐ. ܘܗܠܝܢ ܐܚ̈ܐ ܕܝܪ̈ܝܐ ܕܠܗܘܢ ܫܟܢ ܘܢܣܒ ܕܡ̈ܝܐ ܘܐܝܬܝܗܘܢ ܪܒܢ ܐܫܥܝܐ ܘܪܒܢ ܓܒܪܐܝܠ ܘܪܒܢ ܫܒܐ ܘܪܒܢ ܣܗܕܐ ܘܕܝܪܐ <foreign xml:lang="en"
+                  >(sic)</foreign> ܓܒܪܐܝܠ ܗܠܝܢ ܟܠܗܘܢ ܟܕ ܟܢܝܫܝܢ ܒܫܘܝܘܬܐ ܟܬܒܢܢ ܒܚܦܝܛܘܬܐ ܕܐܚܘܬܐ ܘܠܝܬ ܠܐܢܫ ܫܘܠܛܢܐ ܐܘ̇ ܡܦܣܢܘܬܐ. ܡܢ ܝܘܡܢ ܠܗܠ ܕܢܐܡܪ ܡܕܡ ܐܠܐ ܕܦܫ ܡܢ ܥܩܪܐ ܕܕܝܪܐ ܟܕ ܚܪܝܙܝܢ ܒܗ ܒܥܩܪܐ ܕܕܝܪܐ ܗܠܝܢ ܟܠ ܕܢܐܡܪ ܘܐܘܿ <foreign xml:lang="en">(sic)</foreign> ܢܗܦܘܟ ܒܡܠܬܐ ܕܝܠܗ ܢܗܘܐ ܥܕܝܠ ܡܢ ܐܠܗܐ ܘܡܢܢ ܡܚܝܠܐ ܗܠܝܢ ܠܙܘܗܪܐ ܕܡܗ̈ܝܡܢܐ.</quote>
                                     </p>
                 </item>
                 <item xml:id="addition8" n="8">
                   <locus from="195b"/>
                   <p>To the year <date>1716</date>, <date>A.D. 1405</date>,
-                                        belongs the following brief memorial.</p>
+                                        belongs the following brief memorial on fol. 195 b.</p>
                   <p>
                                         <quote xml:lang="syr">ܒܫܡ ܡܪܢ ܟܬܒܝܢܢ ܥܘܗܕܢܐ ܪܒܢ ܝܫܘܥ ܡܫܡܫܢܐ
                                             ܡܢ ܐܫܬܪܟܐ ܩܪܝܬܐ ܡܒܪܟܬܐ ܠܐܒܐ ܕܝܠܗ ܪܒܢ ܓܒܪܐܝܠ ܟܠ ܕܩܪܐ ܢܨܠܐ
                                             ܥܠܝܗܘܢ ܒܚܘܒܐ ܐܠܗܝܐ ܐܠܗܐ ܢܚܣܐ ܠܗܘܢ ܘܠܥܢܝ̈ܕܝܗܘܢ ܐܝܢ ܒܡܠܬܐ
-                                            ܘܐܝܢ ܒܥܒܕܐ ܐܡܝܢ ܒܫܢܬ ܐܠܦܐ ܘܫܒܥܡܐ ܘܝܘ ܕܝ̈ܘܢܝܐ.</quote>
+                                            ܘܐܝܢ ܒܥܒܕܐ ܐܡܝܢ ܒܫܢܬ ܐܠܦܐ ܘܫܒܥܡܐ ܘܝܘ ܕܝ̈ܘܢܝܐ</quote>
                                     </p>
                 </item>
                 <item xml:id="addition9" n="9">
                   <locus from="1a"/>
                   <p>On fol. 1 a there are Arabic notes, written in Syriac
                                         characters, which seem to be dated <date>A. Gr. 1829</date>
-                                        (ܐܦܟܛ <date>A.D. 1518</date>, and <date>A. Gr. 1860</date>
-                                        ܐܦܣ , <date>A.D. 1549</date>. These refer to the purchase of
+                                        (<foreign xml:lang="ar-Syrc">ܐܦܟܛ</foreign>) <date>A.D. 1518</date>, and <date>A. Gr. 1860</date>
+                    (<foreign xml:lang="ar-Syrc">ܐܦܣ</foreign>), <date>A.D. 1549</date>. These refer to the purchase of
                                         the volume by different persons. Here are also recorded some
-                                        incidents of the year <date>1851</date> ܐܦܢܐ , <date>A.D.
-                                            1540</date>, written down in the <placeName>village of
-                                            ܐܠܡܢܥܪ</placeName>
+                                        incidents of the year <date>1851</date> (<foreign xml:lang="ar-Syrc">ܐܦܢܐ</foreign>), <date>A.D.
+                                          1540</date>, written down in the <placeName>village of <foreign xml:lang="ar-Syrc">ܐܠܡܢܥܪ</foreign></placeName>.
                   </p>
-                  <p>
-                                        <quote xml:lang="syr"/>
-                                    </p>
                 </item>
                 <item xml:id="addition10" n="10">
                   <locus from="2a"/>
                   <p>The following note is dated <date>A.D. 1578</date>. It
-                                        contains a memorandum of a deed, giving to the Syriac
-                                        congregation at <placeName>Jerusalem</placeName> the right
-                                        of cutting firewood at a certain place.</p>
+                                        contains a memorandum of a deed, giving to <persName>the Syriac
+                                        congregation at <placeName>Jerusalem</placeName></persName> the right
+                                        of cutting firewood at <placeName>a certain place</placeName>.</p>
                   <p>
                                         <quote xml:lang="syr">ܒܫܡ ܡܪܝܐ ܡܥܝܢ ܚܝ̈ܐ ܝܫܘܥ ܡܫܝܚܐ. ܘܠܡܐ
                                             ܟܐܢ ܒܬܐܪܝܟ ܣܢܗ̈ ܏ܐܦܦܛ ܝܘܢܐܢܝܗ ܚܛܪܬ ܐܢܐ ܐܠܚܩܝܪ ܚܢܐ ܒܣܡ
@@ -706,28 +726,26 @@
                                             ܐܠܡܩܕܣ ܠܒܝܬ ܡܩܕܣܝ ܣܠܡܐܢ ܐܒܢ ܝܫܘܥ ܡܢ ܩܪܝܬ ܡܢܥܪ ܘܕܐܠܟ ܩܪ
                                             ܘܐܥܬܪܦ ܡܩܕܣܝ ܣܠܡܐܢ ܒܚܛܪܬ ܘܠܕܗܳ ܩܣ ܡܢܨܘܪ ܘܝܫܘܥ ܐܢ ܐܘܩܦ
                                             ܐܠܝ ܐܠܩܕܣ ܐܠܫܪܝܦ ܐܠܝ ܛܐܝܦܬ ܐܠܣܪܝܐܢ ܐܠܥܐܡܗ ܕܚܠܬ (?)ܓܣܘܪܬ
-                                            (?)ܟܫܒ ܚܛܒܐܢ ܘܕܠܒ (sic) ܦܝ ܪܝܪ (?)ܟܦܝܦ ܘܩܦܐ ܡܘܒܪܐ ܘܚܣܒܐ
+                                            (?)ܟܫܒ ܚܛܒܐܢ ܘܕܠܒ <foreign xml:lang="en">(sic)</foreign> ܦܝ ܪܝܪ (?)ܟܦܝܦ ܘܩܦܐ ܡܘܒܪܐ ܘܚܣܒܐ
                                             (ܘܚܒܣܐ) ܡܟܠܕܐ ܥܠܝ ܪܘܚܗܳ ܘܪܘܚ ܚܪܡܬܗܳ ܘܨܕܩܗ ܥܢ ܐܘܠܕܗܳ ܠܠܗ
                                             ܬܥܐܠܝ ܡܐ ܠܗܳ ܐܚܕ ܦܝܗܐ ܒܝܥ ܘܠܐ ܫܪܝ ܘܠܐ ܐܟܕ ܘܠܐ ܥܛܐ ܘܟܠܡܢ
                                             ܩܪܝܒ ܐܡ ܐܗܠ ܐܡ ܩܪܐܝܒ ܝܟܘܢ ܡܘܛܥ ܩܐܝܢ ܐܠܕܝ ܩܛܠ ܗܐܒܝܠ
-                                            %</quote>
+                                          <foreign xml:lang="ar">الخ</foreign><!--WLP: missing the abbreviation mark above this Arabic (it's an abbrevation for الى آخره). The abbreviation mark in Wright appears to be the usual Syriac one (a line above the the abbrevaited letters).--></quote>
                                     </p>
                 </item>
                 <item xml:id="addition11" n="11">
                   <locus from="1b"/>
                   <p>On fol. 1 b there is an autograph note by <persName>Ignatius
-                                            (IV.) patriarch of
-                                            <placeName>Antioch</placeName>
-                    </persName>, [See
+                                            (IV.) patriarch of <placeName>Antioch</placeName> </persName> (on whom see
                                             <bibl>Assemani, Bibl. Or., t. ii., p. 381, no.
                                         54</bibl>; <bibl>Le Quien, Oriens Christ., t. ii., col.
-                                            1396</bibl>.] written in the year <date>1909</date>,
+                                            1396</bibl>), written in the year <date>1909</date>,
                                             <date>A.D. 1598</date>, at the village of
                                             <placeName>Sammadār</placeName>, which furnishes some
                                         farther particulars regarding the history of this
-                                        manuscript. </p>
+                                        manuscript.</p>
                   <p>
-                                        <quote xml:lang="syr">ܝܗ ܒܫܡ ܐܝܬܝܐ ܡܬܘܡܝܐ ܕܟܠ ܐܚܝ̣ܕ ܕܠܗ
+                                        <quote xml:lang="ar-Syrc">ܝܗ ܒܫܡ ܐܝܬܝܐ ܡܬܘܡܝܐ ܕܟܠ ܐܚܝ̣ܕ ܕܠܗ
                                             ܬܘܕ̈ܝܢ ܐܝܓܢܐܛܝܘܣ ܬܚܘܒܐ ܦܛܪܝܪܟܐ ܕܐܢܛܝܘܟܝܐ ܘܠܡܐ ܟܐܢ ܒܬܐܪܝܟ
                                             ܐܠܦ ܘܬܣܥܡܐܝܗ ܘܬܣܥܗ ܝܘܢܐܢܝܗ ܚܛܪܢܐ ܦܝ ܐܠܩܪܝܗ̈ ܐܠܥܐܡܪܗ
                                             ܣܡܕܐܪ ܘܐܚܛܪܘܐ ܐܘܠܐܕܢܐ ܐܠܡܒܐܪܟܝܢ ܥܢܕܢܐ ܘܒܥܕ ܕܠܟ ܐܥܠܡܘܢܐ
@@ -739,51 +757,51 @@
                                             ܚܝܐܬܗܳ ܐܠܠܗ ܝܬܩܒܠ ܡܢܗܳ ܘܝܪܚܡ ܐܡܘܐܬܗܳ ܘܒܥܕ ܕܠܟ ܚܕܝܢܐ ܥܠܝ
                                             ܟܠܡܢ ܝܢܛܪ ܒܗܕܐ ܐܠܟܬܐܒ ܐܠܐܢܓܝܠ ܟܠܡܗ̈ ܪܘܚ ܐܠܩܕܣ ܐܢܗ ܡܐ
                                             ܝܛܐܠܥܗ ܡܢ ܐܠܒܝܥܗ̈ ܐܠܛܝܥܗ ܘܠܐ ܝܢܒܐܥ ܘܠܐ ܝܢܫܪܝ ܘܠܐ ܝܢܒܥܬ
-                                            ܡܢ ܡܘܛܥ ܐܠܝ ܡܘܛܥ ܘܟܠܡܢ ܬܣܐܦܗ %</quote>
+                                            ܡܢ ܡܘܛܥ ܐܠܝ ܡܘܛܥ ܘܟܠܡܢ ܬܣܐܦܗ <foreign xml:lang="ar">الخ</foreign><!--WLP: missing the abbreviation mark like above --></quote><!-- WLP: missing the Arabic vowels on this note (it's Arabic Garshuni) -->
                                     </p>
                 </item>
                 <item xml:id="addition12" n="12">
                   <locus from="3a"/>
-                  <p>The manuscript was still at the same place (at
-                                            <placeName>Sammadar</placeName>) in the year
+                  <p>The manuscript was still at
+                    <placeName>Sammadār</placeName> in the year
                                             <date>1939</date> (<date>A.D. 1628</date>), when it was
                                         bound by a priest named <persName>‘Abd
                                         al-Masīh</persName>.</p>
                   <p>
-                                        <quote xml:lang="syr">ܘܠܡܐ ܟܐܢ ܒܬܐܪܝܟ ܣܢܗ̈ ܐܠܦ ܘܬܣܥܡܐܝܗ
+                                        <quote xml:lang="ar-Syrc">ܘܠܡܐ ܟܐܢ ܒܬܐܪܝܟ ܣܢܗ̈ ܐܠܦ ܘܬܣܥܡܐܝܗ
                                             ܘܬܣܥܗ ܘܬܠܐܬܝܢ ܫܕ ܗܕܐ ܐܠܐܢܓ݂ܝܠ ܐܠܡܩܕܣ ܐܠܡܟܪܡ ܐܠܫܪܝܦ
                                             ܐܠܡܚܡܘܠ ܥܠܝ ܐܠܐܝܐܕܝ ܫܕܗܳ ܐܠܥܒܕ ܐܠܚܩܝܪ ܐܠܦܩܝܪ ܐܠܟ݂ܐܛܝ
                                             ܐܠܓ݂ܐܝܨ ܦܝ ܒܚܪ ܐܠܟܛܐܝܐ ܒܐܣܡ ܩܣ ܥܒܕ ܐܠܡܣܝܚ ܐܒܢ ܐܠܡܪܚܘܡ ܩܣ
-                                            ܝܫܘܥ ܐܒܢ ܐܠܡܬܢܝܚ ܩܣ ܣܠܡܐܢ ܡܢ ܐܠܓܙܪܝܗ̈ (sic)ܐܠܩܪܕܘܝܗ ܘܟܐܢ
+                                            ܝܫܘܥ ܐܒܢ ܐܠܡܬܢܝܚ ܩܣ ܣܠܡܐܢ ܡܢ ܐܠܓܙܪܝܗ̈ <foreign xml:lang="en">(sic)</foreign> ܐܠܩܪܕܘܝܗ ܘܟܐܢ
                                             ܫܕܗܳ ܦܝ ܛܝܥܗ̈ ܐܠܡܒܐܪܟܗ ܣܡܐܕܐܪ ܒܛܠܒܗ̈ ܐܗܠ ܐܠܛܝܥܗ̈
                                             ܐܠܡܕܟܘܪܗ ܩܣ ܥܒܕ ܐܠܢܘܪ ܐܒܢ ܩܣ ܣܠܡܐܢ ܘܪܝܣ ܝܘܣܦ ܘܐܗܠ ܐܠܛܝܥܗ
-                                            ܘܟܐܢ ܕܠܟ ܦܝ ܫܗܪ ܚܙܝܪܐܢ ܦܐܠܪܓܐ ܡܢ ܟܠ ܐܟ ܝܢܛܪܗܳ ܝܬܪܚܡ.
+                                            ܘܟܐܢ ܕܠܟ ܦܝ ܫܗܪ ܚܙܝܪܐܢ ܦܐܠܪܓܐ ܡܢ ܟܠ ܐܟ ܝܢܛܪܗܳ ܝܬܪܚܡ
                                         </quote>
                                     </p>
                 </item>
                 <item xml:id="addition13" n="13">
                   <locus from="2a"/>
                   <p>The manuscript was also still in
-                                            <placeName>Sammadar</placeName>  in the year
+                    <placeName>Sammadār</placeName> in the year
                                             <date>1964</date>, <date>A.D. 1653</date>, when the
                                             <persName>patriarch Yeshūa’</persName> made the
                                         following entry in it.</p>
                   <p>
-                                        <quote xml:lang="syr">ܠܡܐ ܟܐܢ ܒܬܐܪܝܟ ܣܢܗ̈ ܐܨܣܕ ܦܝ ܣܒܥܐ
+                                        <quote xml:lang="ar-Syrc">ܠܡܐ ܟܐܢ ܒܬܐܪܝܟ ܣܢܗ̈ ܐܨܣܕ ܦܝ ܣܒܥܐ
                                             ܘܥܫܪܝܢ ܡܢ ܫܗܪ ܐܝܠܘܠ ܐܠܡܒܐܪܟ ܩܕ ܣܡܢܐ ܦܝ ܒܥܝܗ̈ ܐܠܣܝܕܗ ܐܠܕܝ
                                             ܦܝ ܩܪܝܬ ܣܡܕܐܪ ܩܣ ܏ܥ ܐܠܡܣܝܚ ܘܩܣ ܣܠܡܐܢ ܐܘܠܐܕ ܩܣ ܏ܥ ܐܠܢܘܪ
                                             ܘܫܡܐܣ ܐܝܘܒ ܐܒܢ ܝܘܣܦ ܘܫܡܐܣ ܨܠܝܒܐ ܐܒܢ ܥܝܣܐ ܘܫܡܐܣ ܏ܥ ܐܠܚܕ
                                             ܡܢ ܩܪܝܗ̈ ܡܢܥܪ ܩܕ ܣܡܬܗܡ ܐܢܐ ܒܐܛܪܝܪܟ ܝܫܘܥ ܘܪܚܡܗ̈ܐܠܠܗ ܥܠܝ
-                                            ܟܠܢܐܐܓܡܥܝܢ ܐܡܝܢ.</quote>
+                                            ܟܠܢܐܐܓܡܥܝܢ ܐܡܝܢ</quote>
                                     </p>
                 </item>
                 <item xml:id="addition14" n="14">
                   <locus from="9a"/>
-                  <p>A long list of donations to the church of the blessed Virgin
-                                        at <placeName>Sammadār</placeName>, written <date>A. Gr.
+                  <p>A long list of donations to <placeName>the church of the <persName>blessed Virgin</persName>
+                                        at <placeName>Sammadār</placeName></placeName>, written <date>A. Gr.
                                             1976</date>, <date>A. D. 1665</date>.</p>
                   <p>
-                                        <quote xml:lang="syr">ܣܪܝܛ ܒܫܢܬ݀ ܏ܐܨܥܘ܀ ܒܣܡ ܐܠܐܒ ܘܐܠܐܒܢ ܘܪܘܚ
+                                        <quote xml:lang="ar-Syrc">ܣܪܝܛ ܒܫܢܬ݀ ܏ܐܨܥܘ܀ ܒܣܡ ܐܠܐܒ ܘܐܠܐܒܢ ܘܪܘܚ
                                             ܐܠܩܕܣ ܐܠܗ ܘܐܚܕ ܢܒܕܝ ܘܢܟܬܒ ܐܘܩܐܦ ܒܝܥܗ̈ ܐܠܣܝܕܗ ܐܠܕܝ ܦܝ
                                             ܛܝܥܗ̈ ܣܡܕܐܪ܀ ܩܕ ܐܘܩܦ ܥܝܕܠ ܐܠܚܠܠܝ ܘܐܟ݂ܘܗ ܠܚܕܘܐ ܟܠ ܣܢܗ ܟܡܣ
                                             ܫܐܗܝܐܬ ܥܠܝ ܪܘܚܗܡ ܘܪܘܚ ܐܡܘܐܬܗܡ܀ ܩܕ ܐܘܩܦ ܣܠܡܐܢ ܐܒܢ ܕܐܘܕ
@@ -810,32 +828,31 @@
                   <p>A note, dated <date>A. Gr. 2146</date>, <date>A.H.
                                             1250</date>, <date>A.D. 1835</date>, carelessly written
                                         in Karshūnī and Turkish by one <persName>David of
-                                                <placeName>Amid</placeName>
-                    </persName> or
-                                            <placeName>Diyār-bakr</placeName>. </p>
+                                                <placeName>Amid or Diyār-bakr</placeName></persName>.</p>
                   <p>
-                                        <quote xml:lang="syr">ܩܕ ܢܛܪ ܦܝ ܗܕܐ ܐܠܐܢܓܝܠ ܐܠܣܠܢܓܝܠܝ ܐܠܟܐܛܝ
+                                        <quote xml:lang="ar-Syrc">ܩܕ ܢܛܪ ܦܝ ܗܕܐ ܐܠܐܢܓܝܠ ܐܠܣܠܢܓܝܠܝ ܐܠܟܐܛܝ
                                             ܐܠܕܢܝ ܐܠܢܩܝ (sic) ܪܒܐܢ ܕܐܘܕ ܐܰܡܰܕܺܝ̣ ܦܝ ܫܢܬ ܒܩܡܘ ܝܘܢܐܢܝܗ
-                                            (sic) % (sic) % (sic) % (sic) % (sic) % (sic) % </quote>
+                                            <foreign>(sic) % (sic) % (sic) % (sic) % (sic) % (sic) %</foreign> <!-- WLP: missing what I believe is Turkish written in Arabic script. Needs the transcription as well as a script code for this --></quote>
                                     </p>
                 </item>
                 <item xml:id="addition16" n="16">
                   <locus from="194b"/>
+                  <locus from="196b"/>
                   <p>Besides the above notes, we find on fol. 194 b and 196 b, a
-                                        list of the members, male and female, of some fraternity. </p>
+                                        list of <persName>the members, male and female, of some fraternity</persName>.</p>
                   <p>
                                         <quote xml:lang="syr">ܒܫܡ ܡܪܢ ܟܬܒܐ ܕܐܚܘܬܐ ܡܐܪܝܡ ܚܬܐ ܕܐܝܠܢ
                                             ܫܡܘܢܝ ܚܬܐ ܕܐܝܠܢ܀ ܕܘܝܕ ܐܚܐ ܕܝܠܢ ܡܢ ܒܝܬ ܡܢܥܡ ܩܪܝܬܐ ܘܥܡܬܐ
                                             ܕܝܠܗ ܡܪܝܡ܀ ܡܣܥܘܕ ܒܪ ܡܪܣܒܐ ܐܚܐ ܕܝܠܢ ܨܠܘ ܥܠܘܗܝ. ܒܬ ܩܝܡܐ
-                                            ܫܘܫܢ ܒܪܬ ܡܪܣܒܐ ܚܬܐ ܨܠܘ ܥܠܝܗ. ܏܏܏ܘܫ.</quote>
+                                            ܫܘܫܢ ܒܪܬ ܡܪܣܒܐ ܚܬܐ ܨܠܘ ܥܠܝܗ. ܏܏܏ܘܫ</quote>
                                     </p>
                 </item>
                 <item xml:id="addition17" n="17">
                   <locus from="196b"/>
                   <p>On fol. 196 b there is also an inventory, in Arabic, of the
-                                        furniture of a convent. </p>
+                                        furniture of <placeName>a convent</placeName>.</p>
                   <p>
-                                        <quote xml:lang="ar">%</quote>
+                                        <quote xml:lang="ar">%</quote><!-- WLP: Missing Arabic here. It appears that it should be encoded as a table -->
                                     </p>
                 </item>
               </list>
@@ -850,9 +867,8 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate>A.D.
-                                1214</origDate>
-                            <origDate datingMethod="Seleucid">A. Gr. 1525</origDate>
+                            <origDate when="1214">A.D. 1214</origDate>
+                            <origDate datingMethod="Seleucid" when-custom="1525">A. Gr. 1525</origDate>
                             <origPlace>Convent of Mar Malchus</origPlace>
                         </origin>
                         <provenance/>

@@ -30,7 +30,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"></name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -103,58 +103,47 @@
             <msItem xml:id="p1a1" n="1" defective="true">
               <locus from="1a"/>
               <title xml:lang="en">An ascetic discourse</title>
-              <note>imperfect both at the beginning and the end</note>
-              
+              <note>Imperfect both at the beginning and the end.</note>
             </msItem>
             <msItem xml:id="p1a2" n="2" defective="true">
               <locus from="6a"/>
-              <title xml:lang="en">Extracts from the Lives of the Egyptian fathers</title>
-              
-              
+              <title xml:lang="en">Extracts from the Lives of <persName>the Egyptian fathers</persName></title>
               <msItem xml:id="p1b1" n="3">
                 <locus from="10a"/>
                 <title xml:lang="en">Of Love</title>
                 <rubric xml:lang="syr">ܕܥܠ ܚܘܒܐ</rubric>
-                
               </msItem>
               <msItem xml:id="p1b2" n="4">
                 <locus from="11a"/>
                 <title xml:lang="en">Of the seers of visions</title>
                 <rubric xml:lang="syr">ܕܥܠ ܚ̈ܙܝܝ ܚܙܘ̈ܢܐ</rubric>
-                
               </msItem>
             </msItem>
             <msItem xml:id="p1a3" n="5">
-              
               <author ref="https://syriaca.org/person/856">Macarius the Great</author>
-              <title xml:lang="en">Selections from the writings of <persName>Macarius the
+              <title xml:lang="en">Selections from the writings of <persName ref="https://syriaca.org/person/856">Macarius the
                   Great</persName>
               </title>
-              
               <msItem xml:id="p1b3" n="6">
                 <locus from="21b"/>
                 <author ref="https://syriaca.org/person/856">Macarius the Great</author>
                 <title xml:lang="en">A Letter</title>
                 <rubric xml:lang="syr">ܐܝܓܪܬܐ ܕܡܪܝ ܡܩܪܝܣ</rubric>
-                <incipit xml:lang="syr">ܗܫܐ ܬܠܬ ܐܢ̈ܝܢ ܕܡܟܬܪ̈ܢ. ܗܝܡܢܘܬܐ ܘܣܒܪܐ ܘܚܘܒܐ. ܪܒܐ ܗܝ ܓܝܪ
-                  ܫܪܝܪܐܝܬ ܘܣܓܝ ܝܩܝܪܐ ܨܒܘܬܗ ܕܚܘܒܐ. ܏ܘܫ.<locus from="21b"/></incipit>
-                
+                <incipit xml:lang="syr">ܗܫܐ ܬܠܬ ܐܢ̈ܝܢ ܕܡܟܬܪ̈ܢ. ܗܝܡܢܘܬܐ ܘܣܒܪܐ ܘܚܘܒܐ. ܪܒܐ ܗܝ ܓܝܪ ܫܪܝܪܐܝܬ ܘܣܓܝ ܝܩܝܪܐ ܨܒܘܬܗ ܕܚܘܒܐ. ܏ܘܫ</incipit>
               </msItem>
               <msItem xml:id="p1b4" n="7">
                 <locus from="22b"/>
                 <author ref="https://syriaca.org/person/856">Macarius the Great</author>
                 <title xml:lang="en">A letter</title>
                 <rubric xml:lang="syr">ܐܚܪܝܬܐ ܕܡܪܝ ܡܩܪܝܣ</rubric>
-                <incipit xml:lang="syr">ܢܬܘܒ ܐܚ̈ܝ ܚܒ̈ܝܒܐ<locus from="22b"/></incipit>
-                
+                <incipit xml:lang="syr">ܢܬܘܒ ܐܚ̈ܝ ܚܒ̈ܝܒܐ</incipit>
               </msItem>
               <msItem xml:id="p1b5" n="8">
                 <locus from="24b"/>
                 <author ref="https://syriaca.org/person/856">Macarius the Great</author>
                 <title xml:lang="en">A Letter</title>
                 <rubric xml:lang="syr">ܕܡܪܝ ܡܩܪܝܣ ܝܚܝܕܝܐ</rubric>
-                <incipit xml:lang="syr">ܐܚ̈ܝ ܐܬܬܥܝܪ̈ܘ ܘܐܙܕܗܪ̈ܘ<locus from="24b"/></incipit>
-                
+                <incipit xml:lang="syr">ܐܚ̈ܝ ܐܬܬܥܝܪ̈ܘ ܘܐܙܕܗܪ̈ܘ</incipit>
               </msItem>
               <msItem xml:id="p1b6" n="9">
                 <locus from="24b"/>
@@ -162,8 +151,7 @@
                 <title xml:lang="en">Extract</title>
                 <incipit xml:lang="syr">ܬܘܒ ܐܫܬܐܠ ܐܒܐ ܡܩܪܝܣ ܕܐܢܗ̣ܘ ܕܣܛܢܐ ܡܫܬܕܪ ܕܢܩܪܒ ܥܡ ܒܢܝ̈ܢܫܐ.
                   ܚܐܦܗ ܕܝܢ ܕܒܝ̣ܫܐ̣ ܠܘ ܠܘܩܒܠ ܟܪ̈ܣܛܝܢܐ ܚ̇ܐܪ ܒܠܚܘܕ܆ ܐܠܐ ܐܦ ܠܘܩܒܠ ܐܝܠܝܢ ܕܒܝܕ ܦܬܟܪ̈ܐ ܠܗ
-                  ܣܓܕܝܢ. ܏ܘܫ.<locus from="24b"/></incipit>
-                
+                  ܣܓܕܝܢ. ܏ܘܫ</incipit>
               </msItem>
               <msItem xml:id="p1b7" n="10">
                 <locus from="25a"/>
@@ -171,104 +159,91 @@
                 <title xml:lang="en">On Prayer</title>
                 <rubric xml:lang="syr">ܕܥܠ ܨܠܘܬܐ ܕܡܪܝ ܡܩܪܝܣ</rubric>
                 <incipit xml:lang="syr">ܐܢܗ̣ܘ ܓܝܪ ܕܟܕ ܩ̇ܐܡ ܐܢܬ ܐܘ ܓܗܝܢ ܐܢܬ: ܐܘ ܣ̇ܐܡ ܐܢܬ ܒܘܪܟܐ
-                  ܒܨܠܘܬܐ: ܏ܘܫ.<locus from="25a"/></incipit>
-                
+                  ܒܨܠܘܬܐ: ܏ܘܫ</incipit>
               </msItem>
             </msItem>
             <msItem xml:id="p1a4" n="11">
               <locus from="25b"/>
-              
-              <title xml:lang="en">Doctrine of the holy Fathers</title>
+              <title xml:lang="en">An extract entitled the doctrine of <persName>the holy Fathers</persName></title>
               <rubric xml:lang="syr">ܝܘܠܦܢܐ ܕܐܒ̈ܗܬܐ ܩܕܝ̈ܫܐ</rubric>
-              <incipit xml:lang="syr">ܪܚܡܬܗ ܕܥܠܡܐ ܗܢܐ ܡܪܓܙܐ ܠܐܠܗܐ. ܕܡܦܗܐ ܠܗܘܢܐ. ܘܡܫܪܓܠ
-                ܠܚܙܬܐ.<locus from="25b"/></incipit>
-              
+              <incipit xml:lang="syr">ܪܚܡܬܗ ܕܥܠܡܐ ܗܢܐ ܡܪܓܙܐ ܠܐܠܗܐ. ܕܡܦܗܐ ܠܗܘܢܐ. ܘܡܫܪܓܠ ܠܚܙܬܐ</incipit>
             </msItem>
             <msItem xml:id="p1a5" n="12">
               <locus from="27a"/>
               <author ref="https://syriaca.org/person/376">Basil of Caesarea</author>
-              <title xml:lang="en">An Extract from <persName>Basil</persName>
+              <title xml:lang="en">An Extract from <persName ref="https://syriaca.org/person/376">Basil</persName>
               </title>
               <rubric xml:lang="syr"> ܡܠܦܢܘܬܐ ܕܥܠ ܙܗܝܘܬܐ ܘܩܕܝܫܘܬܐ ܕܡܪܝ ܒܣܝܠܝܣ ܐܦܝܣܩܘܦܐ</rubric>
-              <incipit xml:lang="syr">ܝܕܥܝܬܘܢ ܗܘ ܐܚ̈ܝ܆ ܕܗ̇ܘܐ ܕܝܢ̣ܐ ܒܡܕܥܐ ܥܠ ܙܗܝܘܬܐ ܘܥܠ
-                ܙܢܝܘܬܐ.<locus from="27a"/></incipit>
-              
+              <incipit xml:lang="syr">ܝܕܥܝܬܘܢ ܗܘ ܐܚ̈ܝ܆ ܕܗ̇ܘܐ ܕܝܢ̣ܐ ܒܡܕܥܐ ܥܠ ܙܗܝܘܬܐ ܘܥܠ ܙܢܝܘܬܐ</incipit>
             </msItem>
             <msItem xml:id="p1a6" n="13">
-              
               <author ref="https://syriaca.org/person/483">Evagrius</author>
               <title xml:lang="en">Selections from the writings of
-                  <persName>Evagrius</persName>
+                <persName ref="https://syriaca.org/person/483">Evagrius</persName>
               </title>
-              
               <msItem xml:id="p1b8" n="14">
                 <locus from="28a"/>
                 <author ref="https://syriaca.org/person/483">Evagrius</author>
+                <title xml:lang="en">Selection 1</title>
                 <rubric xml:lang="syr">ܕܥܠ ܕܝـ[ـܪܝܘܬܐ] ܘܫܠܝܘܬܐ ܕܒܗ̇. ܘܕܐܝܟܢ ܡܬܩ̇ܢܝܐ</rubric>
-                <note>See <bibl>Add. 14,578, no. 10.</bibl>
-                </note>
+                <note>See <bibl>Add. 14,578, no. 10</bibl>.</note>
               </msItem>
               <msItem xml:id="p1b9" n="15">
                 <locus from="32b"/>
                 <author ref="https://syriaca.org/person/483">Evagrius</author>
+                <title xml:lang="en">Selection 2</title>
                 <rubric xml:lang="syr">ܕܥܠ ܡܪܬܝܢܘܬܐ</rubric>
-                <note>See<bibl> Add. 14,578, no. 13.</bibl>
-                </note>
+                <note>See <bibl>Add. 14,578, no. 13</bibl>.</note>
               </msItem>
               <msItem xml:id="p1b10" n="16">
                 <locus from="33a"/>
                 <author ref="https://syriaca.org/person/483">Evagrius</author>
+                <title xml:lang="en">Selection 3</title>
                 <rubric xml:lang="syr">ܕܥܠ ܡܪܬܝܢܘܬܐ</rubric>
-                <note>See <bibl>Add. 14,578, no. 15.</bibl>
-                </note>
+                <note>See <bibl>Add. 14,578, no. 15</bibl>.</note>
               </msItem>
               <msItem xml:id="p1b11" n="17">
                 <locus from="33b"/>
                 <author ref="https://syriaca.org/person/483">Evagrius</author>
                 <title xml:lang="en">An Extract</title>
-                <incipit xml:lang="syr">ܠܘ ܒܟܠܙܒܢ ܡܫܟܚܝܢܢ ܕܢܫ̇ܠܡ ܬܫ̈ܡܫܬܐ ܕܥܝܕܢ. ܘ̇ܠܐ ܠܢ ܕܢܐܚܘܪ ܒܗ
-                  ܒܙܒܢܐ. ܘܦܘܩ̈ܕܢܐ ܐܝܠܝܢ ܕܡܫܟܚܝܢ ܕܢܗܘܘܢ̣ ܐܝܟ ܕܡܫܟܚܐ ܕܢܥܒܕ ܐܢܘܢ ܢܬܚ̇ܦܛ.<locus from="33b"/></incipit>
-                
+                <incipit xml:lang="syr">ܠܘ ܒܟܠܙܒܢ ܡܫܟܚܝܢܢ ܕܢܫ̇ܠܡ ܬܫ̈ܡܫܬܐ ܕܥܝܕܢ. ܘ̇ܠܐ ܠܢ ܕܢܐܚܘܪ ܒܗ ܒܙܒܢܐ. ܘܦܘܩ̈ܕܢܐ ܐܝܠܝܢ ܕܡܫܟܚܝܢ ܕܢܗܘܘܢ̣ ܐܝܟ ܕܡܫܟܚܐ ܕܢܥܒܕ ܐܢܘܢ ܢܬܚ̇ܦܛ</incipit>
               </msItem>
               <msItem xml:id="p1b12" n="18">
                 <locus from="34b"/>
                 <author ref="https://syriaca.org/person/483">Evagrius</author>
+                <title xml:lang="en">Selection 5</title>
                 <rubric xml:lang="syr">ܕܥܠ ܡܪܬܝܢܘܬܐ</rubric>
-                <note>See <bibl>Add. 14,578, no. 18</bibl>
-                </note>
+                <note>See <bibl>Add. 14,578, no. 18</bibl>.</note>
               </msItem>
               <msItem xml:id="p1b13" n="19">
                 <locus from="35b"/>
                 <author ref="https://syriaca.org/person/483">Evagrius</author>
+                <title xml:lang="en">Selection 6</title>
                 <rubric xml:lang="syr">ܕܥܠ ܡܪܬܝܢܘܬܐ</rubric>
-                <note>See <bibl>Add. 14,578, no. 17</bibl>
-                </note>
+                <note>See <bibl>Add. 14,578, no. 17</bibl>.</note>
               </msItem>
               <msItem xml:id="p1b14" n="20">
                 <locus from="36a"/>
                 <author ref="https://syriaca.org/person/483">Evagrius</author>
+                <title xml:lang="en">Selection 7</title>
                 <rubric xml:lang="syr">ܕܥܠ ܡܪܬܝܢܘܬܐ</rubric>
-                <note>See <bibl>Add. 14,578, no. 16</bibl>
-                </note>
+                <note>See <bibl>Add. 14,578, no. 16</bibl>.</note>
               </msItem>
             </msItem>
             <msItem xml:id="p1a7" n="21" defective="true">
               <locus from="37b"/>
               <author ref="http://syriaca.org/person/42 ">Jacob of Batnae</author>
-              <title xml:lang="en">A letter of Jacob of Batnae</title>
+              <title xml:lang="en">A letter of <persName ref="http://syriaca.org/person/42 ">Jacob of <placeName>Batnae</placeName></persName></title>
               <rubric xml:lang="syr">ܐܝܓܪܬܐ ܕܡܪܝ ܝܥܩܘܒ ܐܦܣ܏ܩܘ ܕܒܛܢܢ</rubric>
-              <incipit xml:lang="syr">ܡܐ ܕܐܚܝܕܐ ܢܦܫܐ ܒܦܓܥ̈ܘܗܝ ܡ̈ܟܝܢܐ̇ ܕܥܠܡܐ. ܗܢ̣ܘܢ ܦܓ̈ܥܐ ܗܘܝܢ ܠܗ̇
-                ܫܦܝܐ. ܏ܘܫ.<locus from="37b"/></incipit>
-              <note>See<bibl> Assemani, Bibl. Or., t. i., p. 304, no. 6.</bibl>
-              </note>
+              <incipit xml:lang="syr">ܡܐ ܕܐܚܝܕܐ ܢܦܫܐ ܒܦܓܥ̈ܘܗܝ ܡ̈ܟܝܢܐ̇ ܕܥܠܡܐ. ܗܢ̣ܘܢ ܦܓ̈ܥܐ ܗܘܝܢ ܠܗ̇ ܫܦܝܐ. ܏ܘܫ</incipit>
+              <note>See <bibl>Assemani, Bibl. Or., t. i., p. 304, no. 6</bibl>.</note>
             </msItem>
             <msItem xml:id="p1a8" n="22">
               <locus to="41a" from="40b"/>
               <title xml:lang="en">Sedrā for the Dead</title>
               <rubric xml:lang="syr">ܣܕܪܐ ܕܥ̈ܢܝܕܐ</rubric>
-              <incipit xml:lang="syr">ܐܠܗܐ ܗܘ ܕܡܢ ܥܠܡ ܐܢܬ ܘܡܛܠ ܫܦܝܪܘܬ ܪܚ̈ܡܐ ܕܝܠܟ ܡܢ ܐܪܥܐ ܠܒܪܢܫܐ ܓܒܠܬ
-                ܏ܘܫ.</incipit>
-              <note>Written by a later hand</note>
+              <incipit xml:lang="syr">ܐܠܗܐ ܗܘ ܕܡܢ ܥܠܡ ܐܢܬ ܘܡܛܠ ܫܦܝܪܘܬ ܪܚ̈ܡܐ ܕܝܠܟ ܡܢ ܐܪܥܐ ܠܒܪܢܫܐ ܓܒܠܬ ܏ܘܫ</incipit>
+              <note>See <ref>additions</ref>.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -282,12 +257,10 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Vellum, about l0 3/8 in. by 7 1/4, consisting of 23 leaves, most of which
-                        are more or less stained and torn. Foll. 1, 18, 21, and 22, are mutilated,
-                        one half of each being lost. About the end of the xth cent., these leaves of the Greek Evangelistarium were
+                      <p><date>About the end of the xth cent.</date>, the leaves of the <ref target="http://syriaca.org/manuscript/1452">lower text</ref> were
                         destroyed by a Syrian monk, who folded them so as to form a volume, at
                         present consisting of 42 leaves, or five quires, signed partly with letters
-                        and partly with arithmetical figures, of which the first is now incomplete. </p>
+                        and partly with arithmetical figures, of which the first is now incomplete. Foll. 19 and 20 of the <ref target="http://syriaca.org/manuscript/1452">lower text</ref> served as fly-leaves to the manuscript in its later form.</p>
                     </item>
                   </list>
                 </condition>
@@ -296,9 +269,12 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="unknown">
+            <handDesc hands="2">
+              <handNote medium="unknown" xml:id="p1handNote1" scope="major" script="syr">
                 <desc/>
+              </handNote>
+              <handNote medium="unknown" xml:id="p1handNote2" scope="minor" script="syr">
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
             <additions>
@@ -306,10 +282,7 @@
               <list>
                 <item xml:id="p1addition1" n="1">
                   <locus from="40b" to="41"/>
-                  <p>On foll. 40 b and 41, a later hand has written a Sedrā for the Dead.
-                    <quote xml:lang="syr">ܣܕܪܐ ܕܥ̈ܢܝܕܐ</quote>
-                    <quote xml:lang="syr">ܐܠܗܐ ܗܘ ܕܡܢ ܥܠܡ ܐܢܬ ܘܡܛܠ ܫܦܝܪܘܬ ܪܚ̈ܡܐ ܕܝܠܟ ܡܢ ܐܪܥܐ ܠܒܪܢܫܐ ܓܒܠܬ ܏ܘܫ.</quote>          
-                </p>
+                  <p>The <ref>Sedrā for the Dead</ref> on foll. 40 b and 41 is by a later hand.</p>
                 </item>
               </list> 
             </additions>
@@ -323,8 +296,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate from="0900" to="1000">xth cen. 
-                Century</origDate>
+              <origDate from="0950" to="1025">About the end of the xth cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -334,7 +306,7 @@
             <adminInfo>
               <recordHist>
                 <source>Manuscript description based on<bibl>
-                    <ref target="#Wright">Wright's
+                    <ref target="#Wrightpart1">Wright's
                       Catalogue</ref>
                   </bibl>. abbreviated by the Syriaca.org editors.</source>
               </recordHist>
@@ -371,11 +343,10 @@
             </msIdentifier>
             <msContents>
               <summary/>
-              <textLang mainLang="syr">Syriac</textLang>
+              <textLang mainLang="grc">Greek</textLang>
             <msItem xml:id="p2a1" n="1">
               <locus from="1" to="23"/>
-              <title xml:lang="en">a Greek Evangelistarium</title>
-              <note>The text is most distinctly legible on the upper half of foll. 19 and 20, which served as fly-leaves to the manuscript in its later form.</note>
+              <title xml:lang="en">A Greek Evangelistarium</title>
             </msItem>
             </msContents>
             <physDesc>
@@ -387,16 +358,23 @@
                   <condition>
                     <list>
                       <item>
-                        <p>These leaves are all that remain of this text. It is written in uncial characters, of the Egyptian type, with large initial letters. Of the rubrics some traces are still visible, e.g. foll. 1 b, 7 b, 11 a, 12 a, and 19 a and b. A few of the initials have also been coloured red,e.g. foll. 15 b and 17 b. About the end of the xth cent., these leaves were destroyed by a Syrian monk.</p>
+                        <p>Vellum, about l0 3/8 in. by 7 1/4, consisting of 23 leaves, most of which
+                          are more or less stained and torn. Foll. 1, 18, 21, and 22, are mutilated,
+                          one half of each being lost. These leaves are all that remain of this text. It belongs apparently to the <date>viith or viiith cent.</date> About the end of the <date>xth cent.</date>, these leaves were destroyed by a Syrian monk, who folded them so as to form the volume for the <ref target="http://syriaca.org/manuscript/1451">upper text</ref>. The text is most distinctly legible on the upper half of foll. 19 and 20, which served as fly-leaves to the manuscript in its later form.</p><!-- WLP: do we need to make these fly-leaves their own msPart? The numbering gets thrown off by the fact that in the upper text, the ms has been folded. Wright doesn't say anything other than that they were fly-leaves (he only describes upper text items up to fol. 42 (which would be 21 of the 23 folded leaves of the lower text, presumably 19 and 20 being 'blank' as fly-leaves).-->
                       </item>
                     </list>
                   </condition>
                 </supportDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote xml:id="p2handNote1" scope="sole" script="syr" medium="unknown">
+                <handNote xml:id="p2handNote1" scope="sole" script="grc" medium="unknown"><!-- WLP: Need script id for Greek uncials (or even more specific 'Egyptian' uncials). It doesn't look like it's in ISO 15924. There is only -Grek for 'Greek'. -->
+                  <desc>It is written in uncial characters, of the Egyptian type, with large initial letters.</desc>
                 </handNote>
               </handDesc>
+              <decoDesc>
+                <decoNote xml:id="p2decoNote1" type="rubrication">Of the rubrics some traces are still visible, e.g. <locus>foll. 1 b</locus>, <locus>7 b</locus>, <locus>11 a</locus>, <locus>12 a</locus>, and <locus>19 a and b</locus>.</decoNote>
+                <decoNote xml:id="p2decoNote2" type="rubrication">A few of the initials have also been coloured red, e.g. <locus>foll. 15 b</locus> and <locus>17 b</locus>.</decoNote>
+              </decoDesc>
               <additions/>
               <accMat/>
             </physDesc>
@@ -422,7 +400,7 @@
                   <date>1870</date>
                   <ptr target="http://syriaca.org/bibl/8"/>
                   <citedRange unit="entry">DCCCXVIII</citedRange>
-                  <citedRange unit="pp">II:833-834</citedRange>
+                  <citedRange unit="pp">II:833</citedRange>
                 </bibl>
               </listBibl>
             </additional>

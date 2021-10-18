@@ -30,7 +30,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -97,34 +97,36 @@
             <msContents>
             <summary/>
             <textLang mainLang="syr"/>
+              <msItem>
+                <locus from="1b"/>
+                <title xml:lang="en">Index of the chapters of the <foreign xml:lang="grc">Κλῖμαξ</foreign></title>
+                <note>See <ref>additions</ref>.</note>
+              </msItem>
             <msItem n="1" xml:id="p1a1">
               <locus from="2b"/>
               <author ref="https://syriaca.org/person/574">John Climacus</author>
-              <title xml:lang="en">The Works of John Climacus</title>
+              <title xml:lang="en">The Works of <persName ref="https://syriaca.org/person/574">John Climacus</persName></title>
               <msItem n="2" xml:id="p1b1">
-                <locus from="2b"/>
+                <locus from="2b" to="3"/>
                 <author ref="https://syriaca.org/person/574">John Climacus</author>
-                <title xml:lang="en">His reply to a letter of <persName>John, abbat of
-                    Raithū</persName></title>
+                <title xml:lang="en">His reply to <ref>a letter of <persName>John, abbat of
+                    Raithū</persName></ref></title>
                 <title xml:lang="en">Spiritual Tablets</title>
                 <rubric xml:lang="syr">ܠܘ̈ܚܐ ܪ̈ܘܚܢܝܬܐ</rubric>
-                <quote xml:lang="syr">ܗܢܘ ܕܝ̣ܢ. ܦ̈ܠܬܐ ܘܐܘ̈ܚܕܬܐ ܡܡܠܠ </quote>
-                <finalRubric xml:lang="syr">ܫܠܡܬ ܩܕܝܡܘܬ ܡܠܬܐ ܕܡܐܡܪܐ ܗ̇ܘ ܕܡܬܟܢܐ ܠܘܚ̈ܐ ܪ̈ܘܚܢܝܬܐ.<locus from="3b"/></finalRubric>
-                <note>The title "Spiritual Tablets," is explained by a later hand, <foreign xml:lang="syr">ܗܢܘ ܕܝ̣ܢ. ܦ̈ܠܬܐ ܘܐܘ̈ܚܕܬܐ ܡܡܠܠ</foreign> (the word <foreign xml:lang="syr">ܡܡܠܠ</foreign> is a still more recent addition)</note>
+                <finalRubric xml:lang="syr"><locus from="3b"/>ܫܠܡܬ ܩܕܝܡܘܬ ܡܠܬܐ ܕܡܐܡܪܐ ܗ̇ܘ ܕܡܬܟܢܐ ܠܘܚ̈ܐ ܪ̈ܘܚܢܝܬܐ</finalRubric>
+                <note>See <ref>additions</ref>.</note>
               </msItem>
               <msItem n="3" xml:id="p1b2">
-                <locus from="3b"/>
+                <locus from="3b" to="172a"/>
                 <author ref="https://syriaca.org/person/574">John Climacus</author>
-                <title xml:lang="en">The <foreign xml:lang="grc">Κλῖμαξ</foreign></title>
-                <title xml:lang="la">Scala Paradisi</title>
-                <note>A portion of the last section, fol. 172 a, is written with green paint.</note>
+                <title xml:lang="en">The <foreign xml:lang="grc">Κλῖμαξ</foreign>, or <foreign xml:lang="la">Scala Paradisi</foreign></title>
+                <note>See <ref>decoration descriptions</ref>.</note>
               </msItem>
               <msItem  n="4" xml:id="p1b3">
                 <locus from="172a"/>
                 <author ref="https://syriaca.org/person/574">John Climacus</author>
                 <title xml:lang="la">Liber ad Pastorem</title>
                 <rubric xml:lang="syr">ܠܘܬ ܪܥܝܐ</rubric>
-                <note/>
               </msItem>
             </msItem>
           </msContents>
@@ -142,9 +144,7 @@
                       <p>Vellum, about 8 1/4 in. by 5 5/8, consisting of 187 leaves, a few of which
                         are slightly stained and torn, especially foll. 1, 80, 186 and 187. The
                         quires, signed with letters, are 19 in number. Leaves are wanting after
-                        foll. 80, 87 and 107. There are from 28 to 34 lines in each page. This
-                        volume is written in a good, regular Estrangĕlā, and dated A. Gr. 1128, A.D.
-                        817.</p>
+                        foll. 80, 87 and 107. There are from 28 to 34 lines in each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -156,34 +156,47 @@
             <handDesc>
               <handNote xml:id="p1handNote1" scope="major" script="syr-Syre"
                 medium="unknown">
-                <desc>This volume is written in a good, regular Estrangĕlā</desc>
+                <desc>This volume is written in a good, regular Estrangĕlā, and dated <date>A. Gr. 1128</date>, <date>A.D. 817</date>.</desc>
               </handNote>
               <handNote xml:id="p1handNote2" scope="minor" script="syr">
-                <desc>See Additions</desc>
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
+            <decoDesc>
+              <decoNote xml:id="p1decoNote1" type="rubrication">A portion of the last section of the <ref>Scala Paradisi</ref>, <locus from="172a">fol. 172 a</locus>, is written with green paint.</decoNote>
+            </decoDesc>
             <additions>
               <p></p>
               <list>
+                <item>
+                  <locus from="2b"/>
+                  <p>The title of <ref>Spiritual Tablets</ref> is explained by a later hand.</p>
+                  <p>
+                    <quote xml:lang="syr">ܗܢܘ ܕܝ̣ܢ. ܦ̈ܠܬܐ ܘܐܘ̈ܚܕܬܐ ܡܡܠܠ </quote></p>
+                </item>
+                <item>
+                  <locus from="2b"/>
+                  <p>The word <foreign xml:lang="syr">ܡܡܠܠ</foreign> in <ref>the above addition</ref> is a still later addition.</p>
+                </item>
                 <item n="1" xml:id="p1addition1">
                   <locus from="185a"/>
                   <p>Colophpon</p>
                   <p><quote xml:lang="syr">ܫܠܡ ܠܡܟܬ̣ܒ ܟܬܒܐ ܗܢܐ ܕܩܕܝܫܐ ܩܠܝܡܟܣ. ܪܝܫܕܝܪܐ ܕܛܘܪܐ ܩܕܝܫܐ ܕܣܝܢܝ. ܫܘܒܚܐ ܠܐܒܐ ܕܥܕܪ.
-                      ܘܠܒܪܐ ܕܣܝܥ. ܘܠܪܘܚܐ ܩܕܝܫܐ ܕܫܡܠܝ. ܗܫܐ ܘܒܟܠ ܙܒܢ ܘܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ. </quote></p>
+                      ܘܠܒܪܐ ܕܣܝܥ. ܘܠܪܘܚܐ ܩܕܝܫܐ ܕܫܡܠܝ. ܗܫܐ ܘܒܟܠ ܙܒܢ ܘܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ</quote></p>
                 </item>
                 <item n="2" xml:id="p1addition2">
-                  <locus from="185a"/>
-                  <p>Then follows, on the same page as the colophon, a note, stating that this book was written at
+                  <locus from="185b"/>
+                  <p>Then follows, on the same page as <ref>the colophon</ref>, a note, stating that this book was written at
                     <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, <date datingMethod="Seleucid" when-custom="1128">A. Gr. 1128</date> (<date calendar="Gregorian" when="0817">A.D. 817</date>), by a professional scribe named
                       <persName>Bar-saumā, the son of <persName>Anastasius, the son of <persName>Cyriacus</persName></persName></persName>,
-                    for a <persName>deacon named Stephen</persName>. </p>
+                    for a <persName>deacon named Stephen</persName>.</p>
                   <p>
                     <quote xml:lang="syr">ܐܫܬܠܡ ܕܝܢ ܟܬܒܐ ܗܢܐ ܒܐܘܪܗܝ ܡܕܝܢܬܐ ܕܒܝܬ ܢܗܪ̈ܝܢ. ܒܐܝܪܚ ܬܡܘܙ.
                       ܫܢܬ ܐܠܦܐ ܘܡܐܐ ܘܥܣܪܝܢ ܘܬܡ̈ܢܐ ܕܝܘ̈ܢܝܐ. ܟܬܒܗ ܕܝܢ ܡܚܝܠܐ ܘܚܛܝܐ. ܘܣܢܝܩ ܥܠ ܪ̈ܚܡܐ
                       ܕܐܠܗܐ. ܒܪܨܘܡܐ ܒܪ ܡܢܚ ܢܦܫܐ ܐܢܣܛܘܣ ܒܪ ܩܘܪܝܩܘܣ ܟܬܘܒܐ ܐܘܪܗܝܐ. ܐܬܚܦܛ ܕܝܢ ܘܥܒܕܗ
                       ܠܩܢܘܡܗ ܕܘܝܐ ܘܚܠܫ ܒܟܠ. ܣܛܦܢܐ ܕܝܪܝܐ ܘܡܫܡܫܢܐ. ܟܠ ܕܩܪܐ ܕܝܢ ܒܟܬܒܐ ܗܢܐ ܘܝܬܪ ܡܢܗ܆
                       ܢܨܠܐ ܥܠ ܟܬܘܒܐ. ܘܥܠ ܟܠ ܕܐܫܬܘܬܦ. ܘܟܠ ܐܢܫ ܐܝܟ ܕܨܒܐ ܕܢܗܘܐ ܠܗ ܢܗܘܐ ܠܝ.
-                      ܐܡܝܢ.</quote>
+                      ܐܡܝܢ</quote>
                   </p>
                 </item>
                 <item n="3" xml:id="p1addition3">
@@ -193,32 +206,28 @@
                   <locus from="2a"/>
                   <p>On fol. 2 a there is a third note, which informs us that the manuscript was
                     purchased from a person named <persName><foreign xml:lang="syr">ܦܝܠܛܘܣ</foreign> (Philotas?)</persName>, of <placeName>the
-                    village of ܟܪܥܐ</placeName>, by <persName>Thomas</persName> and <persName>Solomon the
-                      priest</persName>, the head of the church in the said village. The writer
+                    village of <foreign xml:lang="syr">ܟܪܥܐ</foreign></placeName>, by <persName>Thomas</persName> and <persName>Solomon the
+                      priest</persName>, the head of <placeName>the church in the said village</placeName>. The writer
                     calls himself <persName>Aaron</persName>.</p>
                   <p>
                     <quote xml:lang="syr">ܠܬܫܒܘܚܬܐ ܕܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ ܙܒ̇ܢ ܟܬܒܐ ܗܢܐ ܬܘܡܐ ܚ̇ܛܝܐ. ܡܢ
                       ܦܝܠܛܘܣ ܟܪܥܝܐ ܐܝܟ ܕܠܝܘܬܪܢܐ ܕܢܦܫܗ ܘܕܐܝܠܝܢ ܕܦܓܥܝܢ ܒܗ. ܡܦܝܣܝܢܢ ܠܚܘܒܟܘܢ ܐܚ̈ܝܢ ܕܟܠ
                       ܡ̇ܢ ܕܦܓܥ ܒܟܬܒܐ ܗܢܐ ܢܨܠܐ ܥܠ ܗܘ ܕܙܒܢ ܘܥܠ ܗܘ ܕܙܒܢ. ܕܢܬܚܢܢܘܢ ܒܪ̈ܚܡܐ ܕܐܠܗܐ. ܘܚܣܘ ܐܦ
                       ܠܫܠܡܘܢ ܩܫܝܫܐ ܘܪܝܫ ܥܕܬܐ ܕܝܠܗ ܕܩܪܝܬܐ ܟܪܥܐ ܕܗܘܬ ܠܗ ܫܘܬܦܘܬܐ. ܟܠ ܕܝܢ ܕܫܐܠ ܠܗ ܠܟܬܒܐ
-                      ܗܢܐ̣ ܏ܘܫ. ܘܥܠ ܐܗܪܘܢ ܚܛܝܐ ܕܟܬܒ ܪ̈ܚܡܐ ܢܗܘܘܢ. </quote>
+                      ܗܢܐ̣ ܏ܘܫ. ܘܥܠ ܐܗܪܘܢ ܚܛܝܐ ܕܟܬܒ ܪ̈ܚܡܐ ܢܗܘܘܢ</quote>
                   </p>
                 </item>
                 <item n="5" xml:id="p1addition5">
                   <locus from="2a"/>
                   <p>Another hand has added the words</p>
                   <p>
-                    <quote xml:lang="syr">ܘܟܠ ܕܠܚܐ ܥܘܗܕܢܐ ܗܢܐ ܐܘ ܡܦܩ ܠܟܬܒܐ ܗܢܐ ܡܢ ܗܕܐ ܕܝܪܐ ܡܚܪܡܐ
-                      ܢܗܘܐ.</quote>
+                    <quote xml:lang="syr">ܘܟܠ ܕܠܚܐ ܥܘܗܕܢܐ ܗܢܐ ܐܘ ܡܦܩ ܠܟܬܒܐ ܗܢܐ ܡܢ ܗܕܐ ܕܝܪܐ ܡܚܪܡܐ ܢܗܘܐ</quote>
                   </p>
                 </item>
                 <item n="6" xml:id="p1addition6">
                   <locus from="1b"/>
-                  <p>On fol. 1 b there is an index of the chapters of the <foreign xml:lang="grc">Κλῖμαξ</foreign>, written by a
-                    comparatively modern hand</p>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
+                  <p>The <ref>index of the chapters of the <foreign xml:lang="grc">Κλῖμαξ</foreign></ref> on fol. 1 b is written by a
+                    comparatively modern hand.</p>
                 </item>
               </list>
             </additions>
@@ -232,7 +241,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate calendar="Gregorian" when="0817">817</origDate>
+              <origDate calendar="Gregorian" when="0817">A.D. 817</origDate>
               <origDate datingMethod="Seleucid" when-custom="1128">A.Gr. 1128</origDate>
               <origPlace ref="http://syriaca.org/place/78" xml:lang="en">Edessa</origPlace>
             </origin>
@@ -254,7 +263,7 @@
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
                 <citedRange unit="entry">DCCIV</citedRange>
-                <citedRange unit="pp">II:590-591</citedRange>
+                <citedRange unit="pp">II:590</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -277,10 +286,9 @@
               <msContents>
                 <summary/>
                 <textLang mainLang="syr"/>
-                <msItem n="1" xml:id="p2a1">
+                <msItem n="1" xml:id="p2a1" defective="true">
                   <locus from="186a"/>
-                  <title xml:lang="en">An extract from the "Lives of the Egyptian
-                    Fathers</title>
+                  <title xml:lang="en">An extract from the Lives of the Egyptian Fathers</title>
                   <rubric xml:lang="syr">ܬܘܒ ܡܢ ܡܡܠܠܐ ܕܐܒ̈ܗܬܐ</rubric>
                 </msItem>
               </msContents>
@@ -293,7 +301,7 @@
                     <condition>
                       <list>
                         <item>
-                          <p>Fol. 186 is a flyleaf of the larger manuscript part</p>
+                          <p>Fol. 186 is a fly-leaf of Add. 14,593.</p>
                         </item>
                       </list>
                     </condition>
@@ -353,13 +361,13 @@
                 <author>John the Monk</author>
                 <title xml:lang="en">An extract from the writings of <persName>John the Monk</persName></title>
                 <rubric xml:lang="syr">ܕܝܘܚܢܢ ܐܝܚܝܕܝܐ ܕ . . . ܘܕܟܪܝܘܬܐ</rubric>
-                <note>mutilated at the commencement</note>
+                <note>Mutilated at the commencement.</note>
               </msItem>
               <msItem n="2" xml:id="p3a2" defective="true">
                 <locus from="187b"/>
                 <title xml:lang="en">An extract</title>
-                <note>Of which the title is wholly effaced, and the remainder much stained
-                  and mutilated</note>
+                <note>The title is wholly effaced, and the remainder much stained
+                  and mutilated.</note>
               </msItem>
             </msContents>
             <physDesc>
@@ -371,15 +379,14 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Fol. 187 is a flyleaf of the larger manuscript part.</p>
+                      <p>Fol. 187 is a fly-leaf of Add. 14,593.</p>
                     </item>
                   </list>
                 </condition>
               </supportDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote xml:id="p3handNote1" scope="major" script="syr" medium="unknown">Writer of Fol. 187a</handNote>
-              <handNote xml:id="p3handNote2" scope="minor" script="syr">Writer of Fol. 187b</handNote>
+              <handNote xml:id="p3handNote1" scope="sole" script="syr" medium="unknown"/>
             </handDesc>
             <additions/>
             <accMat/>
@@ -555,7 +562,24 @@
         <language ident="grc">Ancient Greek</language>
         <language ident="cop">Coptic</language>
       </langUsage>
-      <textClass/>
+      <textClass>
+        <keywords scheme="#Wright-BL-Taxonomy">
+          <list>
+            <item>
+              <ref target="#theo-single"/>
+              <ref target="Part1"/>
+            </item>
+            <item>
+              <ref target="#fly-leaves"/>
+              <ref target="Part2"/>
+            </item>
+            <item>
+              <ref target="#fly-leaves"/>
+              <ref target="Part3"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
     </profileDesc>
     <revisionDesc status="draft">
       <change when="2021-08-17" who="http://syriaca.org/documentation/editors.xml#wpotter">Edited record and added project metadata</change>
