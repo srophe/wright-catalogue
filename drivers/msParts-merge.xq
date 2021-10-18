@@ -32,7 +32,7 @@ need:
 :)
 let $outputDoc := msParts:create-composite-document($msParts:manuscript-part-source-document-sequence)
 return if($msParts:file-or-console = "file") then
-          file:write($msParts:output-file-name, $outputDoc)
+          file:write($msParts:output-file-name, $outputDoc, map {'method': 'xml', 'omit-xml-declaration': 'no'})
        else 
          $outputDoc
    
