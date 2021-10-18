@@ -48,6 +48,16 @@ declare variable $msParts:ms-level-shelfmark :=
 declare variable $msParts:ms-level-uri :=
   let $msLevelId := $msParts:config-msParts/config/manuscriptLevelMetadata/uriValue/text()
   return $config:uri-base || $msLevelId;
+
+declare variable $msParts:file-or-console :=
+  $msParts:config-msParts/config/fileOrConsole/text();
+  
+declare variable $msParts:output-directory :=
+  $config:path-to-repo || $msParts:config-msParts/config/outputFileDirectory/text();
+  
+declare variable $msParts:output-file-name :=
+  let $msId := functx:substring-after-if-contains($msParts:ms-level-uri, $config:uri-base)
+  return $msParts:output-directory || $msId || ".xml";
     
 (: -------------------------------------------------------- :)
 (: Create document node of full record from component parts :)
