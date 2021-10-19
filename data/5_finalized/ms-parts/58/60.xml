@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -83,24 +83,14 @@
             <msItem xml:id="a1" n="1">
               <locus to="68" from="65"/>
               <author ref="http://syriaca.org/person/376">Basil</author>
-              <author ref="http://syriaca.org/person/511">Gregory Nazianzen</author>
-              <title xml:lang="en">Questions and answers of Basil and Gregory
-                (Nazianzen)</title>
-              <incipit xml:lang="syr-Syre"> ܒ܏ܣܝܠܝܘܣ ܡ܏ܫܐ̇ܠ. ܡܛܠ ܐܝ̇ܕܐ ܥܠ̣ܬܐ ܫܐ̣ܠ ܝܘܣܦ ܦܓܪܗ ܕܡܪܢ.
+              <author ref="http://syriaca.org/person/511">Gregory (Nazianzen)</author>
+              <title xml:lang="en">Questions and answers of <persName ref="http://syriaca.org/person/376">Basil</persName> and <persName ref="http://syriaca.org/person/511">Gregory (Nazianzen)</persName></title>
+              <incipit xml:lang="syr-Syre">ܒ܏ܣܝܠܝܘܣ ܡ܏ܫܐ̇ܠ. ܡܛܠ ܐܝ̇ܕܐ ܥܠ̣ܬܐ ܫܐ̣ܠ ܝܘܣܦ ܦܓܪܗ ܕܡܪܢ.
                 ܘܐܝܟܢܐ ܐܝܬܝܗ̣ܒ ܠܗ ܕܠܚܝ̣ܡܝܢ ܗܘܘ ܥܠܘܗܝ ܝܗܘ̈ܕܝܐ. ܏ܓܪܝܓܪܝܘܣ ܏ܡ̇ܦܢܐ. ܡܛܠ ܕܕܝܠܗ ܐܝܬܝܗ̇ ܗܘܬ
-                ܓܢܬܐ ܗ̇ܝ ܕܐܝܬ ܗܘܐ ܒܗ̇ ܩܒܪܐ. ܘܡܛܠܬܗ ܐܬܥܒܕ. ܏ܘܫ.</incipit>
+                ܓܢܬܐ ܗ̇ܝ ܕܐܝܬ ܗܘܐ ܒܗ̇ ܩܒܪܐ. ܘܡܛܠܬܗ ܐܬܥܒܕ. ܏ܘܫ</incipit>
               <msItem xml:id="b1" n="2">
                 <locus from="65"/>
-                <title xml:lang="en">On the recto of the first leaf is a note, from which we
-                  learn that this manuscript was written at the expense of the monk
-                    <persName>Yeshūa' bar Gabriel</persName>, for a certain convent (the words
-                    <foreign xml:lang="syr">ܠܥܕܬܐ </foreign>and <foreign xml:lang="syr">ܚܕܒܫܒܐ</foreign> are much later alterations) in the city of
-                  <placeName ref="http://syriaca.org/place/109">Callinicus</placeName>, <date>A. Gr. 1144</date>, <date>A.D.
-                    833</date>, when <persName>Dionysius of Tell-mahar</persName> was patriarch of
-                  <placeName ref="http://syriaca.org/place/10">Antioch</placeName>, <persName>Joseph</persName> patriarch of
-                  <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>, <persName>Theodosius</persName> bishop of
-                  <placeName ref="http://syriaca.org/place/109">Callinicus</placeName>
-                </title>
+                
                 <quote xml:lang="syr-Syre">ܐܬ̇ܚܦܛ ܘܣ̣ܡ ܣܝܡܬܐ ܗܕܐ ܪܘܚܢܝܬܐ ܘܡܘܬܪܢܝܬܐ ܠܗ̇ܢܘܢ ܕܦܓܥܝܢ
                   ܒܗ̇. ܡܛܘܠ ܦܘܪܩܢܐ ܕܢܦܫܗ ܘܕܘܟܪܢܐ ܕܥܢܝ̈ܕܘܗܝ ܡܪܝ ܝܫܘܥ ܕܝܪܝܐ ܒܪ ܓܒܪܐܝܠ ܡܢ ܩܪܝܬܐ
                   ܕܩܘܪ̈ܝܝܐ ܠܥܕܬܐ ܩܕܝܫܬܐ ܕܡܪܝ ܚܕܒܫܒܐ ܕܩܠܢܝܩܘܣ ܡܕܝܢܬܐ܀ ܫܢܬ ܐܠܦܐ ܘܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܐܪܒܥ
@@ -132,10 +122,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Four vellum leaves, 10 5/8 in. by 6 7/8, written in a neat, regular
-                        Estrangela, with from 31 to 33 lines on each page, and dated <date datingMethod="Seleucid" when-custom="1144">A. Gr.
-                          1144</date>, <date calendar="Gregorian" when="0833">A.D. 833</date>
-                      </p>
+                      <p>Four vellum leaves, 10 5/8 in. by 6 7/8, with from 31 to 33 lines on each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -144,20 +131,36 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="2">
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr-Syre">
+                <desc>Written in a neat, regular Estrangela, and dated <date datingMethod="Seleucid" when-custom="1144">A. Gr.
+                  1144</date>, <date calendar="Gregorian" when="0833">A.D. 833</date>.</desc>
+              </handNote>
+              <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
             <additions>
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus/>
-                  <p/>
+                  <locus from="65b"/>
+                  <p>On the recto of the first leaf is a note, from which we
+                    learn that this manuscript was written at the expense of the monk
+                    <persName>Yeshūa' bar Gabriel</persName>, for <placeName>a certain convent</placeName> in the city of
+                    <placeName ref="http://syriaca.org/place/109">Callinicus</placeName>, <date>A. Gr. 1144</date>, <date>A.D.
+                      833</date>, when <persName>Dionysius of <placeName>Tell-mahar</placeName></persName> was patriarch of
+                    <placeName ref="http://syriaca.org/place/10">Antioch</placeName>,<note>See <bibl>Assemani, Bibl. Or., t. ii., p. 344</bibl>; <bibl>Le Quien, Or. Christ., t. ii., col. 1372</bibl>.</note> <persName>Joseph</persName> patriarch of
+                    <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>,<note>See <bibl>Renaudot, Hist. Patr. Alex. Jacob., p. 277</bibl>; <bibl>Le Quien, Or. Christ., tom. ii., col. 465</bibl>.</note> <persName>Theodosius</persName> bishop of
+                    <placeName ref="http://syriaca.org/place/109">Callinicus</placeName>.<note>Probably the same who is mentioned by <bibl>Assemani, Bibl. Or., t. ii., p. 344</bibl>, and <bibl>Le Quien, Or. Christ., t. ii., col. 1479</bibl>.</note>
+                  </p>
                   <p>
                     <quote xml:lang="syr"/>
                   </p>
+                </item>
+                <item>
+                  <locus from="65b"/>
+                  <p>The words <foreign xml:lang="syr">ܠܥܕܬܐ</foreign> and <foreign xml:lang="syr">ܚܕܒܫܒܐ</foreign> are much later alterations to the <ref>above note</ref>.</p>
                 </item>
               </list>
             </additions>
@@ -173,7 +176,6 @@
             <origin>
               <origDate when="0833">A.D. 833</origDate>
               <origDate datingMethod="Seleucid" when-custom="1144">A. Gr. 1144</origDate>
-              <origPlace ref="http://syriaca.org/place/109">Callinicus</origPlace>
             </origin>
             <provenance/>
             <acquisition/>
