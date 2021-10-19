@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14436176</title>
+        <title level="a" xml:lang="en">BL Add MS 14436, foll. 1-76</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/95</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14436176</idno>
+              <idno type="BL-Shelfmark">Add MS 14436, foll. 1-76</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,157 +81,129 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="1b"/>
-              
+              <locus from="1b" to="67a"/>
               <title xml:lang="en">The Psalms, according to the Pěshītta version</title>
-              <rubric xml:lang="syr">[ܥܠ] ܚܝܠܗ ܕܡܪܢ ܝܫܘܥ ܡܫܝܚܐ ܡ̇ܫܪܝܢܢ ܕܢܟܬܘܒ ܕܘܝܕ  ܕܡܦܪ̈ܫܐ. ܕܡ̇ܦܩܢ
-                ܠܗܘܢ ܡܢ ܠܫܢܐ ܦܠܝܣܛܝܢܝܐ̣ ܠܥܒܪܝܐ܆ ܘܡܢ ܥܒܪܝܐ̣ ܠܝܘܢܝܐ܆ ܘܡܢ ܝܘܢܝܐ̣ ܠܣܘܪܝܝܐ.</rubric>
-              <note>Regarding the title: Or more likely, since the leaf is slightly torn, ܕܕܘܝܕ the
-                word ܬܫܒ̈ܚܬܐ having been accidentally omitted.</note>
-              <note>There is a marginal division of the book, by a later hand, into ܡܪ̈ܡܝܐܬܐ and
-                ܫܘܒ̈ܚܐ, the former being indicated by ܪܝܫ ܡܪܡܝܬܐ or ܫܘܒܚܐ ܘܪܝܫ ܡܪܡܝܬܐ.</note>
-              <note>being indicated by ܪܝܫ ܡܪܡܝܬܐ or ܫܘܒܚܐ ܘܪܝܫ ܡܪܡܝܬܐ. The following portions of
-                the text are wanting: Ps. xxxix. 12—xl. 14, lxxviii. 53 —xciv. 4, xcv. 7—civ. 30,
-                cv. 24—cxviii. 88, cxviii. 116—cxxxii. 3, and cxxxv. 5—cxli. 1. </note>
-              <note>The second final rubric is an appendage to the first, done by a later
-                hand</note>
-              <finalRubric xml:lang="syr">ܫܠ̣ܡ ܠܡ̇ܟܬ݂ܒ ܬܫܒ̈ܚܬܐ ܕܡܙܡܪܢܐ ܕܘܝܕ. ܕܗܘ̈ܝܢ ܒܡܢܝܢܐ ܡܐܐ
-                ܘܚܡܫܝܢ</finalRubric>
-              <finalRubric xml:lang="syr">ܘܚܕ ܕܐܝܬܘܗܝ ܕܝܠܢܝܐ ܕܕܘܝܕ ܟܕ ܩܛܠܗ ܠܓܘܠܝܕ</finalRubric>
+              <rubric xml:lang="syr">[ܥܠ] ܚܝܠܗ ܕܡܪܢ ܝܫܘܥ ܡܫܝܚܐ ܡ̇ܫܪܝܢܢ ܕܢܟܬܘܒ ܕܘܝܕ<note xml:lang="en">Or more likely, since the leaf is slightly torn, <foreign xml:lang="syr">ܕܘܝܕ</foreign> should be read <foreign>ܕܕܘܝܕ</foreign>, the
+                word <foreign xml:lang="syr">ܬܫܒ̈ܚܬܐ</foreign> having been accidentally omitted.</note>  ܕܡܦܪ̈ܫܐ. ܕܡ̇ܦܩܢ ܠܗܘܢ ܡܢ ܠܫܢܐ ܦܠܝܣܛܝܢܝܐ̣ ܠܥܒܪܝܐ܆ ܘܡܢ ܥܒܪܝܐ̣ ܠܝܘܢܝܐ܆ ܘܡܢ ܝܘܢܝܐ̣ ܠܣܘܪܝܝܐ</rubric>
+              <finalRubric xml:lang="syr"><locus from="67a"/>ܫܠ̣ܡ ܠܡ̇ܟܬ݂ܒ ܬܫܒ̈ܚܬܐ ܕܡܙܡܪܢܐ ܕܘܝܕ. ܕܗܘ̈ܝܢ ܒܡܢܝܢܐ ܡܐܐ ܘܚܡܫܝܢ</finalRubric>
+              <note>See <ref>additions</ref>.</note>
+              <note>The following portions of the text are wanting: <bibl>Ps. xxxix. 12—xl. 14</bibl>, <bibl>lxxviii. 53 —xciv. 4</bibl>, <bibl>xcv. 7—civ. 30</bibl>, <bibl>cv. 24—cxviii. 88</bibl>, <bibl>cxviii. 116—cxxxii. 3</bibl>, and <bibl>cxxxv. 5—cxli. 1</bibl>.</note>
+              <note>See <ref>additions</ref>.</note>
+              <note>The headings of the psalms are usually quite different from those in <bibl>Lee's edition</bibl>. The first ten, included below, may serve as examples.</note>
               <msItem xml:id="b1" n="2">
-                
                 <title xml:lang="en">Ps. i.</title>
                 <rubric xml:lang="syr">ܡܙܡܘܪܐ ܩܕܡܝܐ̣. ܐܡܝ̣ܪ ܠܕܘܝܕ .. ܥܠ ܫܐܘܠ ܡ̇ܠܟܐ. ܕܐ̇ܙܠ ܗܘܐ ܒܐܘܪܚܐ
-                  ܕܥܕܘܥܝܪ܆ ܠܡ̇ܣܩܘ ܠܫܡܘܐܝܠ ܒܙܟܘܪ̈ܐ: ܘܐܝ̣ܬܒ ܒܡܘܬܒܐ ܕܐܢܬܬܐ ܕܡ̇ܣܩܐ ܒܙܟܘܪ̈ܐ : ܦ̈ܬ : ܝ̈ܕ. </rubric>
-                <note>An example from the psalms</note>
+                  ܕܥܕܘܥܝܪ܆ ܠܡ̇ܣܩܘ ܠܫܡܘܐܝܠ ܒܙܟܘܪ̈ܐ: ܘܐܝ̣ܬܒ ܒܡܘܬܒܐ ܕܐܢܬܬܐ ܕܡ̇ܣܩܐ ܒܙܟܘܪ̈ܐ : ܦ̈ܬ : ܝ̈ܕ</rubric>
               </msItem>
               <msItem xml:id="b2" n="3">
-                
                 <title xml:lang="en">Ps. ii.</title>
                 <rubric xml:lang="syr">ܕܬܪ̈ܬܝܢ. ܐܡܝ̣ܪ ܠܕܘܝܕ. ܥܠ ܐܝܠܝܢ ܕܐܣܬܥܪ̈ܝ ܒܚܫܗ ܕܡܪܢ ܡܢ ܝܗ̈ܘܕܝܐ܆
-                  ܘܡ̇ܥܗܕ ܠܢ ܐܦ ܥܠ ܐܢܫܘܬܗ: ܦ̈ܬ. ܟܚ̈.</rubric>
-                <note>An example from the psalms</note>
+                  ܘܡ̇ܥܗܕ ܠܢ ܐܦ ܥܠ ܐܢܫܘܬܗ: ܦ̈ܬ. ܟܚ̈</rubric>
               </msItem>
               <msItem xml:id="b3" n="4">
-                
                 <title ref="." xml:lang="en">Ps. iii</title>
                 <rubric xml:lang="syr">ܕܬܠܬ. ܐܡܝ̣ܪ ܠܕܘܝܕ ܟܕ ܥ̣ܪܩ ܡܢ ܩܕܡ ܐܒܝܫܠܘܡ ܒܪܗ: ܦܬ̈:
-                  ܝ̈ܙ.</rubric>
-                <note>An example from the psalms</note>
+                  ܝ̈ܙ</rubric>
               </msItem>
               <msItem xml:id="b4" n="5">
-                
                 <title xml:lang="en">Ps. iv.</title>
                 <rubric xml:lang="syr">ܕܐܪ̈ܒܥ ܐܡܝ̣ܪ ܠܕܘܝܕ ܟܕ ܫܕܪ ܫܐ̇ܘܠ ܠܡܩܛܠܗ ܒܒܝܬܗ ܘܦ̇ܠܛ ܢܦܫܗ: ܦܬ̈
                   : ܝ̈ܛ</rubric>
-                <note>An example from the psalms</note>
               </msItem>
               <msItem xml:id="b5" n="6">
-                
                 <title xml:lang="en">Ps. v.</title>
                 <rubric xml:lang="syr">ܕܚܡܫ. ܐܡܝ̣ܪ ܠܕܘܝܕ ܟܕ ܡ̇ܩܕܡ ܗܘܐ ܒܨܦܪܐ ܠܒܝܬܗ ܕܐܕܘܢܝ: ܦܬ̈:
-                  ܟܚ̈.</rubric>
-                <note>An example from the psalms</note>
+                  ܟܚ̈</rubric>
               </msItem>
               <msItem xml:id="b6" n="7">
-                
                 <title xml:lang="en">Ps. vi.</title>
-                <rubric xml:lang="syr">ܕܫܬ: ܐܡܝ̣ܪ ܠܕܘܝܕ ܥܠ ܝܘܡܐ ܕܟܘܪܗܢܗ ܘܕܚܘܠܡܢܗ. ܦܬ̈: ܝܛ̈.</rubric>
-                <note>An example from the psalms</note>
+                <rubric xml:lang="syr">ܕܫܬ: ܐܡܝ̣ܪ ܠܕܘܝܕ ܥܠ ܝܘܡܐ ܕܟܘܪܗܢܗ ܘܕܚܘܠܡܢܗ. ܦܬ̈: ܝܛ̈</rubric>
               </msItem>
               <msItem xml:id="b7" n="8">
-                
                 <title xml:lang="en">Ps. vii.</title>
                 <rubric xml:lang="syr">ܕܫܒܥ ܐܡܝ̣ܪ ܠܕܘܝܕ ܥܠ ܟܘܫ ܗ̇ܢܕܘܝܐ ܒܪ ܝܡܢܕ. ܟܕ ܥ̣ܪܩ ܡܢ ܩܕܡ
-                  ܐܒܝܫܠܘܡ ܒܪܗ: ܦܬ̈. ܠܗ̈.</rubric>
-                <note>An example from the psalms</note>
+                  ܐܒܝܫܠܘܡ ܒܪܗ: ܦܬ̈. ܠܗ̈</rubric>
               </msItem>
               <msItem xml:id="b8" n="9">
-                
                 <title xml:lang="en">Ps. viii.</title>
                 <rubric xml:lang="syr">ܕܬܡ̇ܢܐ ܐܡܝ̣ܪ ܠܕܘܝܕ ܟܕ ܫܩܠܘܗ̇ ܟܗ̈ܢܐ ܘܥܡܐ̣ ܠܩܒܘܬܗ ܕܐ̇ܕܘܢܝ..
-                  ܘܐܘܿܒܠܘܗ̇ ܠܒܝܬܐ ܕܒܢ̣ܐ ܠܗ̇ ܕܘܝܕ. ܦܬ̈ : ܝܚ̈.</rubric>
-                <note>An example from the psalms</note>
+                  ܘܐܘܿܒܠܘܗ̇ ܠܒܝܬܐ ܕܒܢ̣ܐ ܠܗ̇ ܕܘܝܕ. ܦܬ̈ : ܝܚ̈</rubric>
               </msItem>
               <msItem xml:id="b9" n="10">
-                
                 <title xml:lang="en">Ps. ix.</title>
                 <rubric xml:lang="syr">ܕܬܫܥ ܐܡܝ̣ܪ ܠܕܘܝܕ ܟܕ ܩܛܠ ܗܘܐ ܠܗܕܪܥܙܪ ܡ̇ܠܟܐ ܕܨ̇ܘܒܐ : ܦܬ̈ :
-                  ܡ̈.</rubric>
-                <note>An example from the psalms</note>
+                  ܡ̈</rubric>
               </msItem>
               <msItem xml:id="b10" n="11">
-                
                 <title xml:lang="en">Ps. x.</title>
                 <rubric xml:lang="syr">ܕܥܣܪ ܐܡܝ̣ܪ ܠܕܘܝܕ ܥܠ ܐܘܠܨܢܐ ܕܗܘ̣ܐ ܗܘ̣ܐ ܥܠܘܗܝ. ܦܬ̈ :
-                  ܠܚ̈.</rubric>
-                <note>An example from the psalms</note>
+                  ܠܚ̈</rubric>
               </msItem>
             </msItem>
             <msItem xml:id="a2" n="12" defective="true">
               <locus from="67a"/>
-              <title xml:lang="en">The Canticles</title>
-              
+              <title xml:lang="en">The Canticles</title>              
               <msItem xml:id="b11" n="13">
                 <locus from="67a"/>
-                <title xml:lang="en">The first song of Moses, Exod. xv. 1— 21.</title>
-                
+                <title xml:lang="en">The first song of <persName>Moses</persName>, <ref>Exod. xv. 1— 21</ref></title>
               </msItem>
               <msItem xml:id="b12" n="14">
                 <locus from="68a"/>
-                <title xml:lang="en">The second song of Moses, Deut. xxxii. 1—43.</title>
-                
+                <title xml:lang="en">The second song of <persName>Moses</persName>, <ref>Deut. xxxii. 1—43</ref></title>
+              </msItem>
+              <msItem>
+                <locus from="68a"/>
+                <title xml:lang="en">The song of <persName>Isaiah</persName>, <ref>ch. xlii. 10—13, xlv. 8</ref></title>
+                <note>See <ref>additions</ref>.</note>
               </msItem>
               <msItem xml:id="b13" n="15">
                 <locus from="70b"/>
-                <title xml:lang="en">The song of Hannah, 1 Sam. ii. 1—10</title>
+                <title xml:lang="en">The song of <persName>Hannah</persName>, <ref>1 Sam. ii. 1—10</ref></title>
                 
               </msItem>
               <msItem xml:id="b14" n="16" defective="true">
                 <locus from="71a"/>
-                <title xml:lang="en">The song of Habakkuk, Hab. iii.</title>
-                <note>The missing leaf also contained the song of Isaiah, ch. xlii. 10—13, xlv. 8,
-                  which is now added on the margin of fol. 68 a.</note>
+                <title xml:lang="en">The song of <persName>Habakkuk</persName>, <ref>Hab. iii</ref></title>
+                <note>A leaf is missing. Cf. <ref>additions</ref>.</note>
               </msItem>
               <msItem xml:id="b15" n="17" defective="true">
                 <locus from="72a"/>
-                <title xml:lang="en">The song of Jonah, Jon. ii. 3—10</title>
-                <note>Imperfect</note>
+                <title xml:lang="en">The song of <persName>Jonah</persName>, <ref>Jon. ii. 3—10</ref></title>
               </msItem>
               <msItem xml:id="b16" n="18">
                 <locus from="72a"/>
-                <title xml:lang="en">The song of the three holy Children</title>
-                <note>In two parts, vs. 3—34, and vs. 35—66. </note>
+                <title xml:lang="en">The song of <persName>the three holy Children</persName></title>
                 <rubric xml:lang="syr">ܬܫܒܘܚܬܐ ܕܒܝܬ ܚܢܢܝܐ</rubric>
+                <msItem>
+                  <title xml:lang="en">Part 1, <ref>vs. 3-34</ref></title>
+                </msItem>
+                <msItem>
+                  <title xml:lang="en">Part 2, <ref>vs. 35-66</ref></title>
+                </msItem>
               </msItem>
               <msItem xml:id="b17" n="19">
                 <locus from="74a"/>
-                <title xml:lang="en">The song of the Blessed Virgin (Magnificat), S. Luke i.
-                  46—55</title>
-                
+                <title xml:lang="en">The song of <persName>the Blessed Virgin</persName> (Magnificat), <ref>S. Luke i.
+                  46—55</ref></title>
                 <rubric xml:lang="syr">ܬܫܒܘܚܬܐ ܕܝܠܕܬ ܐܠܗܐ ܛ̇ܘܒܢܝܬܐ ܡ݊ܪܝܡ</rubric>
               </msItem>
               <msItem xml:id="b18" n="20">
                 <locus from="74b"/>
-                <title xml:lang="en">The song of Zacharias, S. Luke i. 68— 79</title>
-                
+                <title xml:lang="en">The song of <persName>Zacharias</persName>, <ref>S. Luke i. 68— 79</ref></title>
               </msItem>
               <msItem xml:id="b19" n="21">
                 <locus from="75a"/>
-                <title xml:lang="en">The Beatitudes, S. Matth. v. 3—12</title>
-                
+                <title xml:lang="en">The Beatitudes, <ref>S. Matth. v. 3—12</ref></title>
                 <rubric xml:lang="syr">ܛܘ̈ܒܐ ܕܒܐܘܢܓܠܝܘܢ</rubric>
               </msItem>
               <msItem xml:id="b20" n="22">
                 <locus from="75a"/>
-                <title xml:lang="en">The hymn "Gloria in excelsis," S. Luke ii. 14</title>
-                
+                <title xml:lang="en">The hymn "Gloria in excelsis," <ref>S. Luke ii. 14</ref></title>
                 <rubric xml:lang="syr">ܬܫܒܘܚܬܐ ܕܨܦܕܐ</rubric>
               </msItem>
               <msItem xml:id="b21" n="23" defective="true">
                 <locus from="76a"/>
                 <title xml:lang="en">The Nicene Creed</title>
-                <note>Imperfect</note>
                 <rubric xml:lang="syr">ܗܝܡܢܘܬܐ ܕܬܠܬܡܐܐ ܘܬܡܢܬܥܣܪ ܐ̈ܒܗܬܐ ܩܕܝ̈ܫܐ</rubric>
               </msItem>
             </msItem>
@@ -251,8 +223,7 @@
                         are much stained and torn, especially foll. 1, 57, 61, 62, 69, and 70. The
                         quires, originally 12 in number, are signed with letters. Leaves are wanting
                         after foll. 29, 58, 59, 60, 61, 62, 71, and 76. The number of lines in each
-                        page varies from 22 to 26. It is written in a neat, regular Estrangela of
-                        the viiith or ixth cent</p>
+                        page varies from 22 to 26.</p>
                     </item>
                   </list>
                 </condition>
@@ -261,22 +232,47 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="" script="">
-                <desc/>
+            <handDesc hands="2">
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr-Syre">
+                <desc>It is written in a neat, regular Estrangela of the <date>viiith or ixth cent.</date></desc>
+              </handNote>
+              <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
             <additions>
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="1a" to="10a"/>
+                  <locus from="1a"/>
                   <p>A note on fol. 1 a, apparently in the same handwriting as the text, has been so
-                    much effaced that hardly a word is legible; and the same fate has befallen a
-                    note of more recent date on the margin of fol. 10 a.</p>
+                    much effaced that hardly a word is legible.</p>
+                </item>
+                <item>
+                  <locus from="10a"/>
+                  <p>A note of more recent date on the margin of fol. 10 a has befallen the same fate as <ref>the note on fol. 1 a</ref>.</p>
+                </item>
+                <item>
+                  <locus from="1b" to="67a"/>
+                  <p>There is a marginal division of <ref>The Psalms, according to the Pěshītta version</ref>, by a later hand, into <foreign xml:lang="syr">ܡܪ̈ܡܝܐܬܐ</foreign> and
+                    <foreign xml:lang="syr">ܫܘܒ̈ܚܐ</foreign>, the former being indicated by one of the following:</p>
                   <p>
-                    <quote xml:lang="syr"/>
+                    <quote xml:lang="syr">ܪܝܫ ܡܪܡܝܬܐ</quote>
                   </p>
+                  <p>
+                    <quote xml:lang="syr">ܫܘܒܚܐ ܘܪܝܫ ܡܪܡܝܬܐ</quote>
+                  </p>
+                </item>
+                <item>
+                  <locus from="67a"/>
+                  <p>To the subscription to <ref>The Psalms, according to the Pěshītta version</ref> a later hand has added:</p>
+                  <p>
+                    <quote xml:lang="syr">ܘܚܕ ܕܐܝܬܘܗܝ ܕܝܠܢܝܐ ܕܕܘܝܕ ܟܕ ܩܛܠܗ ܠܓܘܠܝܕ</quote>
+                  </p>
+                </item>
+                <item>
+                  <locus from="68a"/>
+                  <p>The leaf containing the rest of <ref>The song of Habakkuk, Hab. iii</ref> and <ref>The song of Isaiah, ch. xlii. 10—13, xlv. 8</ref> is missing. The latter work is now added on the margin of fol. 68 a.</p>
                 </item>
               </list>
             </additions>
@@ -290,8 +286,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate from="0800" to="0900">IXth
-                Century</origDate>
+              <origDate notBefore="0700" notAfter="0900">viiith or ixth cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
