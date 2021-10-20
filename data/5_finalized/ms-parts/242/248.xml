@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 145255675</title>
+        <title level="a" xml:lang="en">BL Add MS 14525, foll. 56-75</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/248</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 145255675</idno>
+              <idno type="BL-Shelfmark">Add MS 14525, foll. 56-75</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -80,50 +80,43 @@
           </msIdentifier>
           <msContents>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1" defective="false">
+            <msItem xml:id="a1" n="1" defective="true">
+              <title xml:lang="en">Part of a Sacerdotal</title>
+              <msItem xml:id="b1" n="2">
               <locus from="56a"/>
               <title xml:lang="en">Part of a sedrā</title>
             </msItem>
-            <msItem xml:id="a2" n="2" defective="true">
+            <msItem xml:id="b2" n="3" defective="true">
               <locus from="56b"/>
-              <author>
-                <persName>John, Bishop of Bosra</persName>
-              </author>
-              <title xml:lang="en">The Anaphora of <persName>John</persName>, bishop of
-                  <placeName>Bosra</placeName>
+              <author>John, Bishop of Bosra</author>
+              <title xml:lang="en">The Anaphora of <persName>John, bishop of
+                <placeName>Bosra</placeName></persName>
               </title>
-              <rubric xml:lang="syr">ܐܢܦܘܪܐܕܚܣܝܐܘܩܕܝܫܐܝܘܚܢܢܒܘܨܪܝܐ</rubric>
-              <note>(see <bibl>Renaudot, Liturg. Orient., t. ii., p. 421</bibl>, and <bibl>Assemani,
-                  Bibl. Or., t. ii., p. 97</bibl>)</note>
+              <rubric xml:lang="syr">ܐܢܦܘܪܐ ܕܚܣܝܐ ܘܩܕܝܫܐ ܝܘܚܢܢ ܒܘܨܪܝܐ</rubric>
+              <note>See <bibl>Renaudot, Liturg. Orient., t. ii., p. 421</bibl>, and <bibl>Assemani, Bibl. Or., t. ii., p. 97</bibl>.</note>
             </msItem>
-            <msItem xml:id="a3" n="3" defective="true">
+            <msItem xml:id="b3" n="4" defective="true">
               <locus from="67a"/>
-              <author>Severus </author>
-              <title xml:lang="en">The Benediction of the Chalice, of
-                  <persName>Severus</persName>
-              </title>
-              <rubric xml:lang="syr">ܪܫܡܟܣܐܕܩܕܝܫܐܡܪܝܣܐܘܪܐܦܛܪܝܪܟܐܕܐܢܛܝܘܟܝܐܡܕܝܢܬܐ</rubric>
-              
-              
+              <author>Severus</author>
+              <title xml:lang="en">The Benediction of the Chalice, of <persName>Severus</persName></title>
+              <rubric xml:lang="syr">ܪܫܡ ܟܣܐ ܕܩܕܝܫܐ ܡܪܝ ܣܐܘܪܐ ܦܛܪܐܪܟܐ ܕܐܢܛܝܘܟܐ ܡܕܝܢܬܐ</rubric>
             </msItem>
-            <msItem xml:id="a4" n="4" defective="true">
+            <msItem xml:id="b4" n="5" defective="true">
               <locus from="68a"/>
-              <author>
-                <persName>Cyriacus of Tella</persName>
-              </author>
+              <author>Cyriacus of Tellā</author>
               <title xml:lang="en">Prayers, in part alphabetical, ascribed to
-                  <persName>Cyriacus of Tellā</persName>
+                  <persName>Cyriacus of <placeName>Tellā</placeName></persName>
               </title>
-              <rubric xml:lang="syr">ܕܚܣܝܐܩܘܪܝܩܐܕܬܐܠ</rubric>
-              
+              <rubric xml:lang="syr">ܕܚܣܝܐ ܩܘܪܝܩܐ ܕܬܠܐ</rubric>
             </msItem>
-            <msItem xml:id="a5" n="5" defective="true">
+            <msItem xml:id="b5" n="6" defective="true">
               <locus from="72a"/>
               <title xml:lang="en">The Order of the Consecration of Water</title>
             </msItem>
-            <msItem xml:id="a6" n="6" defective="true">
+            <msItem xml:id="b6" n="7" defective="true">
               <locus from="74a"/>
               <title xml:lang="en">A prayer</title>
+            </msItem>
             </msItem>
           </msContents>
           <physDesc>
@@ -138,9 +131,7 @@
                   <list>
                     <item>
                       <p>Twenty vellum leaves, about 7 1/8 in. by 5 1/4, several of which are much
-                        stained and torn (Add. 14,525, foll. 56—75). The writing is neat and
-                        regular, of the xthcent., with from 16 to 22 lines in each page. They formed
-                        part of a Sacerdotal.</p>
+                        stained and torn (Add. 14,525, foll. 56—75). There are from 16 to 22 lines in each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -150,22 +141,11 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="" script="">
-                <desc/>
+              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
+                <desc>The writing is neat and regular, of the <date>xth cent.</date></desc>
               </handNote>
             </handDesc>
-            <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                  <locus/>
-                  <p/>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                </item>
-              </list>
-            </additions>
+            <additions/>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -176,7 +156,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0900" notAfter="1000">xth century </origDate>
+              <origDate notBefore="0900" notAfter="1000">xth cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>

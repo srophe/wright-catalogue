@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14525 foll. 11—24</title>
+        <title level="a" xml:lang="en">BL Add MS 14525, foll. 11—24</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/244</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14525 foll. 11—24</idno>
+              <idno type="BL-Shelfmark">Add MS 14525, foll. 11—24</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -85,7 +85,6 @@
                         prayers of <persName>Ephraim</persName> and
                         <persName>Jacob</persName>
               </title>
-              <note>viz.</note>
               <msItem xml:id="b1" n="2">
                 <locus from="11a"/>
                 <title xml:lang="en">Tuesday</title>
@@ -111,7 +110,7 @@
                         <condition>
                            <list>
                               <item>
-                                 <p>There are fourteen vellum leaves, about 7 1/4 in. by 5 3/8. There are from 21 to 25 lines in each page.</p>
+                                <p>Fourteen vellum leaves, about 7 1/4 in. by 5 3/8 (Add. 14,525, fol. 11-24). There are from 21 to 25 lines in each page. There is a lacuna after fol. 18.</p>
                               </item>
                            </list>
                         </condition>
@@ -125,18 +124,7 @@
                         <desc>The writing is good and regular, of the <origDate notBefore="0900" notAfter="1100">xth or xith cent</origDate>.</desc>
                      </handNote>
             </handDesc>
-                  <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                           <locus from="18"/>
-                           <p>There is a lacuna after fol. 18.</p>
-                           <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                        </item>
-              </list>
-            </additions>
+                  <additions/>
                   <bindingDesc>
                      <p>Content pending</p>
                   </bindingDesc>
@@ -147,7 +135,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate/>
+                    <origDate notBefore="0900" notAfter="1100">xth or xith cent</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>

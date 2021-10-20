@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14525 foll. 25—27</title>
+        <title level="a" xml:lang="en">BL Add MS 14525, foll. 25—27</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -108,7 +108,7 @@
                            <list>
                               <item>
                                  <p>Three vellum leaves, about 6 7/8 in. by 5 1/4. There are 23 or
-                                    24 lines in each page. Those leaves have the appearance of being
+                                    24 lines in each page. These leaves have the appearance of being
                                     palimpsest.</p>
                               </item>
                            </list>
@@ -120,22 +120,10 @@
                   </objectDesc>
                   <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                        <desc>It was written in a fair hand of the <origDate notBefore="0900" notAfter="1100">xth or xith
-                              cent</origDate>.</desc>
+                        <desc>It was written in a fair hand of the <origDate notBefore="0900" notAfter="1100">xth or xith cent.</origDate></desc>
                      </handNote>
             </handDesc>
-                  <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p/>
-                           <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                        </item>
-              </list>
-            </additions>
+                  <additions/>
                   <bindingDesc>
                      <p>Content pending</p>
                   </bindingDesc>
@@ -146,7 +134,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate/>
+                    <origDate notBefore="0900" notAfter="1100">xth or xith cent.</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
