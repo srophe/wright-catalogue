@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <testValue>ܫܠܡܐ ܥܠܡܐ</testValue><!-- do not delete; required for unit testing -->
-    <fileOrConsole>file</fileOrConsole>
+    <fileOrConsole>console</fileOrConsole>
     <outputFileDirectory>/resources/testing/output/</outputFileDirectory><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
     <manuscriptLevelMetadata>
-        <pathToMsPartsFolder>/resources/testing/540-msParts/</pathToMsPartsFolder><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
-        <recordTitle>BL Add MS 14684</recordTitle>
-        <uriValue>540</uriValue>
+        <pathToMsPartsFolder>/data/5_finalized/ms-parts/58/</pathToMsPartsFolder><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
+        <recordTitle>BL Add MS 12171</recordTitle>
+        <uriValue>58</uriValue>
         <country>United Kingdom</country>
         <settlement>London</settlement>
         <repository>British Library</repository>
         <collection>Oriental Manuscripts</collection>
-        <shelfMark>Add MS 14684</shelfMark>
+        <shelfMark>Add MS 12171</shelfMark>
         <revisionDesc>
             <scriptEditor>
                 <editorId>srophe-util</editorId>
@@ -20,7 +20,7 @@
         </revisionDesc>
     </manuscriptLevelMetadata>
     <msPartFiles><!-- these should be xml file names containing the data to be converted to msParts. These files should be stored in the folder declared above in the pathToMsPartsFolder text node. They should be ordered according to the sequence they should appear in the msParts sequence (i.e., the first ms part should be the first fileName element in the below sequence, even if it is not the numerically smallest URI value.-->
-        <fileName>541_TEST.xml</fileName>
-        <fileName>542_TEST.xml</fileName>
+        <fileName>59.xml</fileName>
+        <fileName>60.xml</fileName>
     </msPartFiles>
 </config>
