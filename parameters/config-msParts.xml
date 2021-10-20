@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <testValue>ܫܠܡܐ ܥܠܡܐ</testValue><!-- do not delete; required for unit testing -->
-    <fileOrConsole>console</fileOrConsole>
-    <outputFileDirectory>/resources/testing/output/</outputFileDirectory><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
+    <fileOrConsole>file</fileOrConsole>
+    <outputFileDirectory>/data/5_finalized/</outputFileDirectory><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
     <manuscriptLevelMetadata>
         <pathToMsPartsFolder>/data/5_finalized/ms-parts/58/</pathToMsPartsFolder><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
         <recordTitle>BL Add MS 12171</recordTitle>
