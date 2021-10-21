@@ -185,7 +185,7 @@ declare function msParts:create-msPart($singleMsDesc as node(), $partNumber as x
   let $physDesc := msParts:add-part-designation-to-physDesc($singleMsDesc/tei:physDesc, $partNumber)
   let $history := $singleMsDesc/tei:history
   let $additional := msParts:add-part-designation-to-additional($singleMsDesc/tei:additional, $partNumber)
-  return element {QName("http://www.tei-c.org/ns/1.0", "msPart")} {attribute {"xml:id"} {"Part"||$partNumber}, $msIdentifier, $msContents, $physDesc, $history, $additional}
+  return element {QName("http://www.tei-c.org/ns/1.0", "msPart")} {attribute {"xml:id"} {"Part"||$partNumber}, attribute {"n"} {$partNumber}, $msIdentifier, $msContents, $physDesc, $history, $additional}
 };
 
 declare function msParts:add-part-designation-to-element-sequence($elementSequence as node()*, $partNumber as xs:string, $idPrefix as xs:string) as node()* {
@@ -227,7 +227,7 @@ declare function msParts:add-part-designation-to-additions-items($additions as n
 
 declare function msParts:add-part-designation-to-additional($additional as node(), $partNumber as xs:string) as node() {
   let $wrightBibl := $additional/tei:listBibl/tei:bibl
-  let $newBiblId := fn:string($wrightBibl/@xml:id)||"Part"||$partNumber
+  let $newBiblId := fn:string($wrightBibl/@xml:id)||"part"||$partNumber
   let $newRecordHist := msParts:add-part-designation-to-recordHist($additional/tei:adminInfo/tei:recordHist, $newBiblId)
   let $adminInfo := element {fn:node-name($additional/tei:adminInfo)} {$newRecordHist, $additional/tei:adminInfo/tei:note}
 
