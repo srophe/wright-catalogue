@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -81,74 +81,54 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              
-              <title xml:lang="en">A Collection of Ecclesiastical Canons and
-                                Creeds</title>
-              <note>See <bibl>Add. 12,155, no. xxvii., and Add. 14,527</bibl>.</note>
+                <locus from="1a"/>
+              <title xml:lang="en">A Collection of Ecclesiastical Canons and Creeds</title>
+              <note>See <bibl>Add. 12,155, no. xxvii.</bibl>, and <bibl>Add. 14,527</bibl>.</note>
+                <msItem xml:id="c1" n="3">
+                    <locus from="1a"/>
+                    <title xml:lang="en">A short section explanatory of the division and arrangement</title>
+                    <rubric xml:lang="syr">ܥܠܬܐ ܕܫ̇ܘܝܐ ܕܬܬܩܪܐ ܩܕܡ ܩܢܘ̈ܢܐ ܥ̈ܕܬܢܝܐ̣. ܡܛܠ ܗ̇ܝ ܕܐܝܟܢܐ ܙܕܩ̇ ܕܢܦܓ̣ܥ ܒܗܘܢ ܒܚܬܝܬܘܬܐ ܕܩ̣ܢܝܢ</rubric>
+                    <note>This work precedes the <ref>Synopsis</ref>.</note>
+                    <msItem xml:id="c2" n="4">
+                        <locus from="1a"/>
+                        <title xml:lang="en">51 <foreign>τίτλοι</foreign> or heads</title>
+                        <quote xml:lang="syr">ܛܝܛܠܘܣ ܏ܩܕܡܝܐ. ܥܠ ܕܡܢ ܟܡܐ ܐ̈ܦܝܣܩܘܦܐ܇ ܙܕܩ̇ ܠܗ ܠܐܦܝܣܩܘܦܐ ܕܢܩܒܠ ܟܝܪܘܛܢܝܐ. ܘܕܒܠܥܕ ܡܛܪܘܦܘܠܝܛܝܣ̣ ܠܐ ܙܕܩ̇ ܕܬܗܘܐ ܟܝܪܘܛܘܢܝܐ ܕܐܦܝܣܩܘܦܐ. ܘܕܐܢ ܗܘ̇ܐ ܚܪܝܢܐ ܡܛܠ ܟܝܪܘܛܘܢܝܐ̣. ܨܒܝܢܐ ܕܣ̈ܓܝܐܐ ܘ̇ܠܐ ܕܢܠܒܘܟ. ܕܫ̈ܠܝܚܐ ܏ܐ ܘܗ̇ܘ ܏ܒ. ܩܢܘܢܐ ܕܫܡܥܘܢ ܩܢܢܝܐ. ܕܣܘܢܗܕܘܣ ܕܠܕܝܩܝܐ̣. ܗ̇ܘ ܏ܕ ܀ ܕܐܢܛܝܟܝܐ ܗ̇ܘ. ܏ܝܛ. ܕܢܩܝܐ̣ ܗ̇ܘ ܏ܕܫܬܐ</quote>
+                        <note>The first is here cited as a specimen.</note>
+                    </msItem>
+                </msItem>
               <msItem xml:id="b1" n="2">
-                
+                <locus from="1a"/>
                 <title xml:lang="en">A Synopsis, as it may be called, of the
-                                    Canons of the Apostles and of the principal Councils of the
+                                    <ref>Canons of the <persName>Apostles</persName></ref> and of the principal Councils of the
                                     Church</title>
                 <rubric xml:lang="syr">
-                  <locus from="1a"/>ܟܘܢܫܐ ܕܩ̈ܢܘܢܐ ܟܠܗܘܢ
-                                    ܕܫ̈ܠܝܚܐ ܩ̈ܕܝܫܐ ܘܕܣ̈ܘܢܗܕܘ ܩ̈ܕܝܫܬܐ ܕܐ̈ܒܗܬܐ ܚܝܣ̈ܝܐ. (sic) ܕܡܟܢܫܝܢ
+                  <locus from="1a"/>ܟܘܢܫܐ ܕܩ̈ܢܘܢܐ ܟܠܗܘܢ ܕܫ̈ܠܝܚܐ ܩ̈ܕܝܫܐ ܘܕܣ̈ܘܢܗܕܘ ܩ̈ܕܝܫܬܐ ܕܐ̈ܒܗܬܐ ܚܝܣ̈ܝܐ. <foreign xml:lang="en">(sic)</foreign> ܕܡܟܢܫܝܢ
                                     ܐܟܚܕܐ ܨܝܕ ܚ̈ܕܕܐ. ܘܩܢ̣ܝܢ ܚܕ ܚܝܠܐ̣. ܘܡܫܡܠܝ̣ܢ ܚܕ ܛܝܛܠܘܣ. ܟܕ ܡܬܝܕܥ
-                                    ܟܠ ܛܝܛܠܘܣ ܡܢܐ ܐܝܬܘܗܝ ܚܝܠܗ̣. ܡܢ ܪܘܫܡܐ ܕܝܠܗ. </rubric>
-                <msItem xml:id="c1" n="3">
-                  
-                  <title xml:lang="en">The Synopsis is preceded by a short
-                                        section explanatory of the division and arrangement:</title>
-                  <rubric xml:lang="syr">ܕܕܬܩܪܐ ܩܕܡ ܩܢܘ̈ܢܐ ܥ̈ܕܬܢܝܐ̣. ܡܛܠ ܗ̇ܝ
-                                        ܕܐܝܟܢܐ ܙܕܩ̇ ܕܢܦܓ̣ܥ ܒܗܘܢ </rubric>
-                  <note>There is more Syriac in the Word doc, but it is backwards
-                                        (I think).</note>
-                </msItem>
-                <msItem xml:id="c2" n="4">
-                  
-                  <title xml:lang="en">The number of τίτλοι or heads is 51,
-                                        of which the first may be cited as a specimen</title>
-                  <rubric xml:lang="syr">  ܏ܛܝܛܠܘܣ ܏ܩܕܡܝܐ. ܥܠ ܕܡܢ ܟܡܐ ܐ̈ܦܝܣܩܘܦܐ܇
-                                        ܙܕܩ̇ ܠܗ ܠܐܦܝܣܩܘܦܐ ܕܢܩܒܠ ܟܝܪܘܛܢܝܐ. ܘܕܒܠܥܕ ܡܛܪܘܦܘܠܝܛܝܣ̣ ܠܐ
-                                        ܙܕܩ̇ ܕܬܗܘܐ ܟܝܪܘܛܘܢܝܐ ܕܐܦܝܣܩܘܦܐ. ܘܕܐܢ ܗܘ̇ܐ ܚܪܝܢܐ ܡܛܠ
-                                        ܟܝܪܘܛܘܢܝܐ̣. ܨܒܝܢܐ ܕܣ̈ܓܝܐܐ ܘ̇ܠܐ ܕܢܠܒܘܟ. ܕܫ̈ܠܝܚܐ ܏ܐ ܘܗ̇ܘ ܏ܒ.
-                                        ܩܢܘܢܐ ܕܫܡܥܘܢ ܩܢܢܝܐ. ܕܣܘܢܗܕܘܣ ܕܠܕܝܩܝܐ̣. ܗ̇ܘ ܏ܕ ܀ </rubric>
-                  <note>Again, the Syriac in the Word doc has been interrupted,
-                                        making it difficult to paste accurately.</note>
-                </msItem>
+                                    ܟܠ ܛܝܛܠܘܣ ܡܢܐ ܐܝܬܘܗܝ ܚܝܠܗ̣. ܡܢ ܪܘܫܡܐ ܕܝܠܗ</rubric>
               </msItem>
               <msItem xml:id="b2" n="5">
                 <locus from="4b"/>
-                <title xml:lang="en">Canons of the Apostles, 82 in
-                                    number</title>
+                <title xml:lang="en">Canons of the <persName>Apostles</persName></title>
                 <rubric xml:lang="syr">ܩ̈ܢܘܢܐ ܥ̈ܕܬܢܝܐ̣ ܕܫ̈ܠܝܚܐ ܩ̈ܕܝܫܐ</rubric>
-                <note>See <bibl>de Lagarde, Reliquiae juris ecclesiast. antiquiss.,
-                                        pp. ܡܕ — ܣ</bibl>; and <bibl>Labbe, Sacrosancta Concilia,
-                                        ed. Coleti, t. i., coll. 26, seqq</bibl>.</note>
+                  <note>82 in
+                      number.</note>
+                <note>See <bibl>de Lagarde, Reliquiae juris ecclesiast. antiquiss., pp. <foreign xml:lang="syr">ܣ — ܡܕ</foreign></bibl>; and <bibl>Labbe, Sacrosancta Concilia, ed. Coleti, t. i., coll. 26, seqq.</bibl></note>
               </msItem>
               <msItem xml:id="b3" n="6">
                 <locus from="9a"/>
                 <author>Hippolytus</author>
-                <title xml:lang="en">Orders of the Apostles, given through
+                <title xml:lang="en">Orders of the <persName>Apostles</persName>, given through
                                         <persName>Hippolytus</persName>
                 </title>
-                <rubric xml:lang="syr">ܛ̈ܟܣܐ ܕܫ̈ܠܝܚܐ ܛ̈ܘܒܢܐ̣. ܒܝܕ ܩܕܝܫܐ
-                                    ܐܝܦܝܠܝܛܘܣ</rubric>
-                <msItem xml:id="c3" n="7">
-                  
-                  <title xml:lang="en">These are extracts from the eighth
-                                        book of the Constitutiones Apostolorum</title>
-                  <note>See <bibl>Labbe, t. i., coll. 153, seqq</bibl>.</note>
+                <rubric xml:lang="syr">ܛ̈ܟܣܐ ܕܫ̈ܠܝܚܐ ܛ̈ܘܒܢܐ̣. ܒܝܕ ܩܕܝܫܐ ܐܝܦܝܠܝܛܘܣ</rubric>
+                  <note>These are extracts from <ref>the eighth
+                      book of the Constitutiones Apostolorum</ref>; see <bibl>Labbe, t. i., coll. 153, seqq.</bibl></note>
                   <msItem xml:id="d1" n="8">
                     <locus from="9a"/>
-                    <title xml:lang="en">Of <persName>Simon the
-                                                Cananite</persName>
+                    <title xml:lang="en">Of <persName>Simon the Cananite</persName>
                     </title>
-                    <rubric xml:lang="syr">ܕܫܡܥܘܢ ܩܢܝܢܐ̣. (sic) ܡܛܠ ܩܢܘ̈ܢܐ
-                                            ܥ̈ܕܬܢܝܐ ܘ̈ܦܣܩܐ </rubric>
-                    <note>See <bibl>Constitt. Apostt., lib. viii., cap. xxviii.;
-                                                and de Lagarde, Reliquiae, p. ܟܕ, line
-                                            1</bibl>.</note>
+                    <rubric xml:lang="syr">ܕܫܡܥܘܢ ܩܢܝܢܐ̣. <foreign xml:lang="en">(sic)</foreign> ܡܛܠ ܩܢܘ̈ܢܐ ܥ̈ܕܬܢܝܐ ܘ̈ܦܣܩܐ</rubric>
+                    <note>See <bibl>Constitt. Apostt., lib. viii., cap. xxviii.</bibl>; and <bibl>de Lagarde, Reliquiae, p. <foreign xml:lang="syr">ܟܕ</foreign>, line 4</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d2" n="9">
                     <locus from="9b"/>
@@ -157,8 +137,7 @@
                     </title>
                     <rubric xml:lang="syr">ܡܛܠ ܪ̈ܫܝܬܐ ܘܡܥܣܪ̈ܐ</rubric>
                     <note>See <bibl>Constitt. Apostt., lib. viii., capp. xxx.
-                                                and xxxi.; and de Lagarde, p. $ܟܗ, line
-                                            2</bibl>.</note>
+                        and xxxi.</bibl>; and <bibl>de Lagarde, p. <foreign xml:lang="syr">ܟܗ</foreign>, line 2</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d3" n="10">
                     <locus from="10a"/>
@@ -166,17 +145,15 @@
                                             Paul</persName>
                     </title>
                     <rubric xml:lang="syr">ܦܘܩܕܢܐ̣ ܕܦܘܠܘܣ ܫܠܝܚܐ</rubric>
-                    <note>See <bibl>de Lagarde, p. ܟܗ, line 17</bibl>.</note>
+                      <note>See <bibl>de Lagarde, p. <foreign xml:lang="syr">ܟܗ</foreign>, line 17</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d4" n="11">
                     <locus from="10a"/>
                     <title xml:lang="en">Of <persName>S. Paul</persName>
                                             and <persName>S. Peter</persName>
                     </title>
-                    <rubric xml:lang="syr">ܡܛܠ ܒܛܠܢܐ ܕܥ̣̈ܒܕܐ. ܦܘܩܕܢܐ ܕܦܘܠܘܣ̣
-                                            ܘܕܦܛܪܘܣ.</rubric>
-                    <note>See <bibl>Constitt. Apostt., lib. viii., cap. xxxiii.;
-                                                and de Lagarde, p. ܟܗ, line 23</bibl>.</note>
+                    <rubric xml:lang="syr">ܡܛܠ ܒܛܠܢܐ ܕܥ̣̈ܒܕܐ. ܦܘܩܕܢܐ ܕܦܘܠܘܣ̣ ܘܕܦܛܪܘܣ</rubric>
+                    <note>See <bibl>Constitt. Apostt., lib. viii., cap. xxxiii.</bibl>; and <bibl>de Lagarde, p. <foreign xml:lang="syr">ܟܗ</foreign>, line 23</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d5" n="12">
                     <locus from="10a"/>
@@ -185,8 +162,7 @@
                     </title>
                     <rubric xml:lang="syr">ܡܛܠ ܥ̣̈ܕܢܐ ܕܨ̈ܠܘܬܐ̣ ܕܦܘܠܘܣ
                                             ܫܠܝܚܐ.</rubric>
-                    <note>See <bibl>Constitt. Apostt., lib. viii., cap. xxxiv.;
-                                                and de Lagarde, p. ܟܘ, line 22</bibl>.</note>
+                      <note>See <bibl>Constitt. Apostt., lib. viii., cap. xxxiv.</bibl>; and <bibl>de Lagarde, p. <foreign xml:lang="syr">ܟܘ</foreign>, line 22</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d6" n="13">
                     <locus from="10b"/>
@@ -194,37 +170,27 @@
                                             or, according to others, of <persName>S.
                                                 James</persName>
                     </title>
-                    <rubric xml:lang="syr">ܡܛܠ ܝܘܡ̈ܬܐ ܕܕܡ̈ܟ̣ܐ ܕܐܝܠܝܢ ܢܫܬܡܠܘܢ̣.
-                                            ܕܦܘܠܘܣ ܫܠܝܚܐ. ܐܝܟ ܐܚܪ̈ܢܐ ܕܝـ̣ܢ. ܕܝܥܩܘܒ</rubric>
-                    <note>See <bibl>Constitt. Apostt., lib. viii., capp. xiii.
-                                                and xliii.; and dc Lagarde, p. ܟܚ, line
-                                            1</bibl>.</note>
+                    <rubric xml:lang="syr">ܡܛܠ ܝܘܡ̈ܬܐ ܕܕܡ̈ܟ̣ܐ ܕܐܝܠܝܢ ܢܫܬܡܠܘܢ̣. ܕܦܘܠܘܣ ܫܠܝܚܐ. ܐܝܟ ܐܚܪ̈ܢܐ ܕܝـ̣ܢ. ܕܝܥܩܘܒ</rubric>
+                      <note>See <bibl>Constitt. Apostt., lib. viii., capp. xiii. and xliii.</bibl>; and <bibl>de Lagarde, p. <foreign xml:lang="syr">ܟܚ</foreign>, line 1</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d7" n="14">
                     <locus from="10b"/>
-                    <title xml:lang="en">Of the same</title>
-                    <rubric xml:lang="syr">ܡܛܠ ܗ̇ܝ ܕܢܬܩܪܘܢ ܩܠܝܪ̈ܝܩܘ ܠܕܘܟܪܢܐ
-                                            ܕܗܠܝܢ ܕܕܡ̣ܟܘ</rubric>
-                    <note>See <bibl>Constitt. Apostt., lib. viii., cap. xliv.;
-                                                and de Lagarde, p. ܟܚ, line 14</bibl>.</note>
+                    <title xml:lang="en">Of <persName>the same</persName></title>
+                    <rubric xml:lang="syr">ܡܛܠ ܗ̇ܝ ܕܢܬܩܪܘܢ ܩܠܝܪ̈ܝܩܘ ܠܕܘܟܪܢܐ ܕܗܠܝܢ ܕܕܡ̣ܟܘ</rubric>
+                    <note>See <bibl>Constitt. Apostt., lib. viii., cap. xliv.</bibl>; and <bibl>de Lagarde, p. <foreign xml:lang="syr">ܟܚ</foreign>, line 14</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d8" n="15">
-                    
-                    <title xml:lang="en">Of the same</title>
-                    <rubric xml:lang="syr">ܡܛܠ ܗ̇ܢܘܢ ܕܡܬܪ̈ܕܦܝܢ ܘܥܪ̈ܩܝܢ ܡܛܠ
-                                            ܗܝܡܢܘܬܐ̣. ܕܐܝܢܐ ܒܘܝܐܐ ܢܗܘܐ ܠܗܘܢ</rubric>
-                    <note>See <bibl>Constitt. Apostt., lib. viii., cap. xiv.;
-                                                and de Lagarde, p. ܟܛ, line 13</bibl>.</note>
+                    <title xml:lang="en">Of <persName>the same</persName></title>
+                    <rubric xml:lang="syr">ܡܛܠ ܗ̇ܢܘܢ ܕܡܬܪ̈ܕܦܝܢ ܘܥܪ̈ܩܝܢ ܡܛܠ ܗܝܡܢܘܬܐ̣. ܕܐܝܢܐ ܒܘܝܐܐ ܢܗܘܐ ܠܗܘܢ</rubric>
+                      <note>See <bibl>Constitt. Apostt., lib. viii., cap. xiv.</bibl>; and <bibl>de Lagarde, p. <foreign xml:lang="syr">ܟܛ</foreign>, line 13</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d9" n="16">
                     <locus from="11a"/>
                     <title xml:lang="en">Of <persName>S. Paul</persName>
                                             and <persName>S. Peter</persName>
                     </title>
-                    <rubric xml:lang="syr">ܡܛܠ ܗ̇ܝ ܕܟܠ ܐܢܫ ܢܟܬܪ ܒܛܟܣܐ ܐܝܢܐ
-                                            ܕܐܦ̣ܪܫ ܠܗ̣. ܘܠܐ ܢܥܒܪ ܬܚܘܡ̈ܐ܀ ܕܦܘܠܘܣ ܘܕܦܛܪܘܣ.</rubric>
-                    <note>See <bibl>Constitt. Apostt., lib. viii., cap.
-                                                xlvi</bibl>.</note>
+                    <rubric xml:lang="syr">ܡܛܠ ܗ̇ܝ ܕܟܠ ܐܢܫ ܢܟܬܪ ܒܛܟܣܐ ܐܝܢܐ ܕܐܦ̣ܪܫ ܠܗ̣. ܘܠܐ ܢܥܒܪ ܬܚܘܡ̈ܐ܀ ܕܦܘܠܘܣ ܘܕܦܛܪܘܣ</rubric>
+                    <note>See <bibl>Constitt. Apostt., lib. viii., cap. xlvi</bibl>.</note>
                   </msItem>
                   <msItem xml:id="d10" n="17">
                     <locus from="12b"/>
@@ -233,181 +199,169 @@
                     </title>
                     <rubric xml:lang="syr">ܦܘܩܕܢܐ ܕܦܘܠܘܣ ܫܠܝܚܐ ܡܛܠ ܗ̇ܢܘܢ ܕܚܕܬܐܝܬ
                                             ܡܬܩܪ̈ܒܝܢ ܠܪ̈ܐܙܐ.</rubric>
-                    <note>See <bibl>Constitt. Apostt., lib. viii., cap. xxxii.;
-                                                and do Lagarde, p. ܟܛ, line 21</bibl>.</note>
+                      <note>See <bibl>Constitt. Apostt., lib. viii., cap. xxxii.</bibl>; and <bibl>de Lagarde, p. <foreign xml:lang="syr">ܟܛ</foreign>, line 21</bibl>.</note>
                   </msItem>
-                </msItem>
+                
               </msItem>
+                <msItem xml:id="c4" n="19">
+                    <locus from="13b"/>
+                    <author ref="http://syriaca.org/person/1655">Constantine</author>
+                    <title xml:lang="en">The epistle of
+                        <persName>Constantine</persName>, summoning <persName>the bishops
+                        from <placeName>Ancyra</placeName></persName> to
+                        <placeName>Nicaea</placeName>
+                    </title>
+                    <rubric xml:lang="syr">ܐܓܪܬܐ ܕܩܘܣܛܢܛܝܢܘܣ ܪܒܐ ܐܒܘܗܝ ܕܩܘܣܛܢܛܝܢܣ ܙܥܘܪܐ ܕܩܪܝܐ ܠܐ̈ܦܝܣܩܦܐ ܡܢ ܐܢܩܘܪܐ ܠܢܝܩܝܐ</rubric>
+                    <note>See <bibl>Cowper, Analecta Nicaena, p. 1</bibl>.</note>
+                </msItem>
               <msItem xml:id="b4" n="18">
                 <locus from="13b"/>
-                <title xml:lang="en">Canons of the Council of
-                                        <placeName>Nicaea</placeName>
+                <title xml:lang="en">Canons of the Council of <placeName>Nicaea</placeName>
                 </title>
                 <rubric xml:lang="syr">ܬ̈ܚܘܡܐ ܥ̈ܕܬܢܝܐ ܕܣܘܢܗܕܘܣ ܪܒܬܐ ܘܩܕܝܫܬܐ ܕܬܠܬܡ̈ܐܐ
                                     ܘܬܡܢܬܥܣܪ̈ ܐ̈ܦܝܣܩܘܦܐ ܕܐܬ݂ܟܢܫܬ ܒܢܝܩܝܐ ܡܕܝܢܬܐ ܕܒܬܘܢܝܐ̣. ܒܫܢܬ ܫ̈ܬܡܐܐ
                                     ܘܬ̈ܠܬܝܢ ܘܫܬ݂ ܒܡܢܝܢܐ ܕܐܠܟܣܢܕܪܘܣ. ܒܐܝܪܚ ܚܙܝܪܢ̣. ܒܬܫܬܥܣܪ̈ ܒܗ.
                                     ܒܗܘܦܛܝܐ ܕܦܠܘܝܢܘܣ̣ ܘܕܝܘܠܝܢܘܣ. ܘܬܚ̣ܡܬ ܗܠܝܢ ܕܟܬ̈ܝܒܝܢ ܡܢ
                                     ܠܬܚܬ</rubric>
-                <note>They are 20 in number (see <bibl>Labbe, t. ii., coll. 33,
-                                        seqq</bibl>.)</note>
-                <msItem xml:id="c4" n="19">
-                  <locus from="13b"/>
-                  <author ref="http://syriaca.org/person/1655">Constantine</author>
-                  <title xml:lang="en">They are preceded by the epistle of
-                                            <persName>Constantine</persName>, summoning the bishops
-                                        from <placeName>Ancyra</placeName> to
-                                            <placeName>Nicaea</placeName>
-                  </title>
-                  <rubric xml:lang="syr">ܐܓܪܬܐ ܕܩܘܣܛܢܛܝܢܘܣ ܪܒܐ ܐܒܘܗܝ ܕܩܘܣܛܢܛܝܢܣ
-                                        ܙܥܘܪܐ ܕܩܪܝܐ ܠܐ̈ܦܝܣܩܦܐ ܡܢ ܐܢܩܘܪܐ ܠܢܝܩܝܐ.</rubric>
-                  <note>See <bibl>Cowper, Analecta Nicaena, p. 1</bibl>.</note>
-                </msItem>
-                <msItem xml:id="c5" n="20">
-                  <locus from="16a"/>
-                  <author ref="http://syriaca.org/person/1655">Constantine</author>
-                  <title xml:lang="en">They are followed by the edict of
-                                            <persName>Constantine</persName> against the
-                                        Arians</title>
-                  <rubric xml:lang="syr">ܣܩܪܐ ܕܝܠܗ ܕܩܘܣܛܢܛܝܢܘܣ ܪܒܐ̣. ܠܘܩܒܠ ܐܪ̈ܝܢܘܼ
-                                        ܠܟܠ ܐܬܪ ܕܬܚܝܬ ܐܘܚܕܢܐ ܕܡܠܟܘܬܗ̣. ܡܢ ܒܬܪ ܕܐܬܬܣ̣ܝܡܬ ܗܝܡܢܘܬܐ
-                                        ܒܬܚܘܡܐ̇. ܕܗܕܐ ܣܘܢܗܕܣ ܩܕܝܫܬܐ.</rubric>
-                  <note>See <bibl>Cowper, Anal. Nic., p. 2</bibl>.</note>
-                </msItem>
+                <note>They are 20 in number (see <bibl>Labbe, t. ii., coll. 33, seqq.</bibl>).</note>
               </msItem>
+                <msItem xml:id="c5" n="20">
+                    <locus from="16a"/>
+                    <author ref="http://syriaca.org/person/1655">Constantine</author>
+                    <title xml:lang="en">The edict of
+                        <persName>Constantine</persName> against <persName>the Arians</persName></title>
+                    <rubric xml:lang="syr">ܣܩܪܐ ܕܝܠܗ ܕܩܘܣܛܢܛܝܢܘܣ ܪܒܐ̣. ܠܘܩܒܠ ܐܪ̈ܝܢܘܼ
+                        ܠܟܠ ܐܬܪ ܕܬܚܝܬ ܐܘܚܕܢܐ ܕܡܠܟܘܬܗ̣. ܡܢ ܒܬܪ ܕܐܬܬܣ̣ܝܡܬ ܗܝܡܢܘܬܐ
+                        ܒܬܚܘܡܐ̇. ܕܗܕܐ ܣܘܢܗܕܣ ܩܕܝܫܬܐ</rubric>
+                    <note>See <bibl>Cowper, Anal. Nic., p. 2</bibl>.</note>
+                </msItem>
               <msItem xml:id="b5" n="21">
                 <locus from="16b"/>
                 <title xml:lang="en">Canons of the Council of
-                                        <placeName>Ancyra</placeName>, 24 in number</title>
+                                        <placeName>Ancyra</placeName></title>
                 <rubric xml:lang="syr">ܩ̈ܢܘܢܐ ܕܣܘܢܗܕܣ ܕܒܐܢܩܘܪܐ ܥܣܪ̈ܝܢ ܘܐܪ̈ܒܥܐ. ܗܠܝܢ
                                     ܕܝܢ ܩ̈ܢܘܢܐ ܩܕܝܡܝܢ ܠܐܝܠܝܢ ܕܬܬܣܝܡܘ ܒܢܝܩܝܐ. ܐܬܟܬܒܘ ܕܝܢ ܗܠܝܢ ܕܒܢܝܩܝܐ
                                     ܩ̈ܕܡܝܐ̣. ܡܛܠ ܐܘܬܢܛܝܐ ܕܝܠܗ̇ ܕܣܘܢܗܕܣ ܪܒܬܐ ܘܩܕܝܫܬܐ.</rubric>
-                <note>See <bibl>Labbe, t. i., coll. 11S5, seqq</bibl>.</note>
+                  <note>24 in number.</note>
+                <note>See <bibl>Labbe, t. i., coll. 11S5, seqq.</bibl></note>
               </msItem>
               <msItem xml:id="b6" n="22">
                 <locus from="18b"/>
                 <title xml:lang="en">Canons of the Council of
-                                        <placeName>Neo-Caesarea</placeName>, 14 in number</title>
+                                        <placeName>Neo-Caesarea</placeName></title>
                 <rubric xml:lang="syr">ܕܣܘܢܗܕܘܣ ܕܢܐܘܩܣܘܪܝܐ ܩ̈ܢܘܢܐ ܐܪ̈ܒܬܥܣܪ: ܘܐܦ ܗܠܝܢ
                                     ܩ̈ܢܘܢܐ̣ ܒܬܪ ܗܠܝܢ ܕܒܐܢܩܘܪܐ ܐܬܬܣܝܡܘ. ܩܕܝܡܝܢ ܕܝܢ ܐܦ ܗ̣ܢܘܢ ܠܗ̇ܢܘܢ
                                     ܕܒܢܝܩܝܐ. </rubric>
-                <note>See <bibl>Labbe, t. i., coll. 1509, seqq</bibl>.</note>
+                  <note>14 in number.</note>
+                <note>See <bibl>Labbe, t. i., coll. 1509, seqq.</bibl></note>
               </msItem>
+                <msItem>
+                    <locus from="19b"/>
+                    <title xml:lang="en">The
+                        letter to <persName>the Armenians</persName></title>
+                </msItem>
               <msItem xml:id="b7" n="23">
                 <locus from="19b"/>
                 <title xml:lang="en">Canons of the Council of
-                                        <placeName>Gangra</placeName>, 20 in number, preceded by the
-                                    letter to the Armenians</title>
+                                        <placeName>Gangra</placeName></title>
                 <rubric xml:lang="syr">ܕܣܘܢܗܕܘܣ ܕܒܓܢܓܪܐ ܩܢ̈ܘܢܐ ܥܣܪ̈ܝܢ܀ ܗܠܝܢ ܕܝܢ
                                     ܩ̈ܢܘܢܐ̣. ܡܢ ܒܬܪ ܗܠܝܢ ܕܒܢܝܩܝܐ ܐܬܬܣܝܡܘ</rubric>
-                <note>See <bibl>Labbe, t. ii., coll. 123, seqq</bibl>.</note>
+                  <note>20 in number.</note>
+                <note>See <bibl>Labbe, t. ii., coll. 123, seqq.</bibl></note>
               </msItem>
               <msItem xml:id="b8" n="24">
                 <locus from="21b"/>
                 <title xml:lang="en">Canons of the first Council of
-                                        <placeName>Antioch</placeName>, 25 in number</title>
-                <rubric xml:lang="syr">ܕܣܘܢܗܕܘܣ ܕܐܬ݂ܟܢܫܬ ܒܐܢܩܢܝܐ ܕܥܕܬܐ ܕܐܢܛܝܘܟܝܐ.
-                                    ܩ̈ܢܘܢܐ ܥܣܪ̈ܝـ̣ܢ ܘܚ̈ܡܫܐ.</rubric>
-                <note>See <bibl>Labbe, t. ii., coll. 583, seqq</bibl>.</note>
+                                        <placeName>Antioch</placeName></title>
+                <rubric xml:lang="syr">ܕܣܘܢܗܕܘܣ ܕܐܬ݂ܟܢܫܬ ܒܐܢܩܢܝܐ ܕܥܕܬܐ ܕܐܢܛܝܘܟܝܐ. ܩ̈ܢܘܢܐ ܥܣܪ̈ܝـ̣ܢ ܘܚ̈ܡܫܐ</rubric>
+                  <note>25 in number.</note>
+                <note>See <bibl>Labbe, t. ii., coll. 583, seqq.</bibl></note>
               </msItem>
               <msItem xml:id="b9" n="25">
                 <locus from="25a"/>
-                <title xml:lang="en">Canons of the Council of
-                                        <placeName>Laodicca</placeName> in
-                                        <placeName>Phrygia</placeName>, 59 in number</title>
+                <title xml:lang="en">Canons of the Council of <placeName>Laodicca</placeName> in <placeName>Phrygia</placeName></title>
                 <rubric xml:lang="syr">ܕܣܘܢܗܕܣ ܕܠܕܝܩܝܐ ܕܦܪܘܓܝܐ ܩܢܘ̈ܢܐ ܚܡ̈ܫܝ̣ܢ
                                     ܘܬ̈ܫܥܐ܀ ܣܘܢܗܕܘܣ ܩܕܝܫܬܐ ܕܒܠܕܝܩܝܐ ܕܦܪܘܓܝܐ ܕܦܩܛܝܢܐ ܐܬܟ̣ܢܫܬ: ܡܢ
                                     ܗܘܦܪ̈ܟܝܣ ܡ̈ܫܚܠܦܬܐ ܕܐܣܝܐ̣. ܬܚ̈ܘܡܐ ܣܡ̣ܬ ܥ̈ܕܬܢܝܐ. ܐܝܟ ܕܟܬܝܒ ܡܢ
                                     ܠܬܚܬ</rubric>
-                <note>See <bibl>Labbe, t. i., coll. 1529, seqq</bibl>.</note>
+                  <note>59 in number.</note>
+                <note>See <bibl>Labbe, t. i., coll. 1529, seqq.</bibl></note>
               </msItem>
+                <msItem xml:id="c6" n="27">
+                    <locus from="27b"/>
+                    <title xml:lang="en">The address of <persName>the Council</persName> to the <persName>emperor Theodosius</persName>
+                    </title>
+                    <rubric xml:lang="syr">ܐܢܦܘܪܐ ܕܐܫܬܕܪܬ ܠܕܚܠ ܠܐܠܗܐ ܡ̇ܠܟܐ ܬܐܘܕܣܝܣ
+                        ܪܒܐ̣. ܡܢ ܣܘܢܗܕܘܣ ܕܡܐܐ ܘܚ̈ܡܫܝܢ ܗ̇ܝ ܕܒܩܘܣܛܢܛܝܢܦܘܠܝܣ</rubric>
+                </msItem>
               <msItem xml:id="b10" n="26">
                 <locus from="27b"/>
                 <title xml:lang="en">Canons of the first Council of
-                                        <placeName>Constantinople</placeName>, here four in
-                                    number</title>
+                                        <placeName>Constantinople</placeName></title>
                 <rubric xml:lang="syr">ܣܘܢܗܕܣ ܗ̇ܝ ܕܒܩܘܣܛܢܛܝܢܦܘܠܝܣ ܩ̈ܢܘܢܐ ܐܪ̈ܒܥܐ.
                                     ܒܫܢܬ ܬܫܥ ܕܗܘܦܛܝܐ ܕܐܘܟܪ ܘܕܣܘܓܪܝܣ ܒܝܪܚܐ ܐܒܝ̣. ܒܫܢܬ ܐܪ̈ܒܥܡܐܐ
                                     ܘܥܣܪ̈ܝܢ ܘܬܫܥ ܒܡܢܝܢܐ ܕܐ̈ܢܛܘܟܝܐ̣. ܗܠܝܢ ܬܚܡܘ ܐ̈ܦܝܣܩܘܦܐ ܕܒܛܝܒܘܬܐ
                                     ܕܐܠܗܐ ܡܢ ܗܘܦܪ̈ܟܝܣ ܡ̈ܫܚܠܦܬܐ ܒܩܘܣܛܢܛܝܢܦܘܠܝܣ ܐܬ̇ܟܢܫ̣ܘ. ܒܩ̇ܪܝܬܐ
-                                    ܕܪܚ̇ܡ ܐܠܗܐ ܬܐܘܕܣܝܣ ܡ̇ܠܟܐ. ܒܟܝܪܘܛܢܝܐ ܕܢܩܛܘܪܝܘܣ ܐܦܝܣܩܘܦܐ.</rubric>
-                <note>See <bibl>Labbe, t. ii., coll. 1123, seqq., omitting no.
-                                        vii</bibl>. </note>
-                <msItem xml:id="c6" n="27">
-                  
-                  <title xml:lang="en">The canons are preceded by the
-                                        address of the Council to the <persName>emperor
-                                            Theodosius</persName>
-                  </title>
-                  <rubric xml:lang="syr">ܐܢܦܘܪܐ ܕܐܫܬܕܪܬ ܠܕܚܠ ܠܐܠܗܐ ܡ̇ܠܟܐ ܬܐܘܕܣܝܣ
-                                        ܪܒܐ̣. ܡܢ ܣܘܢܗܕܘܣ ܕܡܐܐ ܘܚ̈ܡܫܝܢ ܗ̇ܝ ܕܒܩܘܣܛܢܛܝܢܦܘܠܝܣ.</rubric>
-                </msItem>
+                                    ܕܪܚ̇ܡ ܐܠܗܐ ܬܐܘܕܣܝܣ ܡ̇ܠܟܐ. ܒܟܝܪܘܛܢܝܐ ܕܢܩܛܘܪܝܘܣ ܐܦܝܣܩܘܦܐ</rubric>
+                  <note>Here four in number.</note>
+                <note>See <bibl>Labbe, t. ii., coll. 1123, seqq., omitting no. vii</bibl>.</note>
               </msItem>
               <msItem xml:id="b11" n="28">
                 <locus from="29a"/>
                 <title xml:lang="en">A single canon of the Council of
-                                        <placeName>Ephesus</placeName>, confirmatory of the Nicene
-                                    Creed</title>
+                                        <placeName>Ephesus</placeName>, confirmatory of <ref>the Nicene
+                                    Creed</ref></title>
                 <rubric xml:lang="syr">ܬܚܘܡܐ ܐܘ ܟܝܬ ܩܢܘܢܐ̣ ܕܣܘܢܗܕܘܣ ܩܕܝܫܬܐ ܕܒܐܦܣܘܣ
-                                    ܐܬܟ̣ܢܫܬ. ܩܕܡ ܟܠܡܕܡ ܬ̇ܚܡ̣ܬ ܣܘܗܢܕܘܣ̣ (sic) ܕܗܝܡܢܘܬܐ ܐܚܪܬܐ̣ ܠܐ ܗܘ̣ܬ
+                                    ܐܬܟ̣ܢܫܬ. ܩܕܡ ܟܠܡܕܡ ܬ̇ܚܡ̣ܬ ܣܘܗܢܕܘܣ̣ <foreign xml:lang="en">(sic)</foreign> ܕܗܝܡܢܘܬܐ ܐܚܪܬܐ̣ ܠܐ ܗܘ̣ܬ
                                     ܫܠܝܛ ܠܐܢܫ ܠܡܚܘܝܘ ܐܘ ܠܡܟܬܒ ܐܘ ܠܡܣܡܘܿ. ܠܒܪ ܡܢ ܗ̇ܝ ܕܐܬܬ̣ܚܡܬ ܡܢ
                                     ܐ̈ܒܗܬܐ ܩ̈ܕܝܫܐ ܗܠܝܢ ܕܒܢܝܩܝܐ ܐܬܟܢܫܘ ܥܡ ܪܘܚܐ ܩܕܝܫܐ. ܠܗܠܝܢ ܕܝܢ
                                     ܕܡܡܪܚܝܢ ܠܡܣܡ ܗܝܡܢܘܬܐ ܐܚܪܬܐ܆ ܐܘ ܠܡܦܩܘ ܐܘ ܠܡܚܘܝܘ ܠܐܝܠܝܢ ܕܒ̇ܥܝܢ
                                     ܠܡܬܦܢܝܘ ܠܘܬ ܝܕܥܬܐ ܕܫܪܪܐ: ܐܘ ܡܢ ܚܢܦܘܬܐ ܐܘ ܡܢ ܝܗܘܕܝܘܬܐ: ܐܘ ܡܢ
                                     ܗܪܣܝܣ ܐܝܕܐ ܕܗ̣ܝ̣. ܗܠܝܢ ܐܢ ܡ̇ܢ ܐܝܬܝܗܘܢ ܐ̈ܦܝܣܩܘܦܐ ܐܘ ܩܠܝܪ̈ܝܩܘܼ.
                                     ܗܘ̣ܘ ܐܝܬܝܗܘܢ ܢܘܟܪ̈ܝܐ ܐ̈ܦܝܣܩܦܐ ܠܐܦܝܣܩܦܘܬܗܘܢ̣ ܘܩܠܝܪ̈ܝܩܘ ܠܩܠܝܪܘܣ.
-                                    ܐܢ ܕܝܢ ܒ̈ܢܝ ܥܠܡܐ ܐܝܬܝܗܘܢ̣ ܗ̣ܘܘ ܡܚܪ̈ܡܝܢ.</rubric>
-                <finalRubric xml:lang="syr">ܫܠܡܘ ܟܠܗܘܢ ܩ̈ܢܘܢܐ ܕܫ̈ܠܝܚܐ ܘܕܟܠܗܝܢ
+                                    ܐܢ ܕܝܢ ܒ̈ܢܝ ܥܠܡܐ ܐܝܬܝܗܘܢ̣ ܗ̣ܘܘ ܡܚܪ̈ܡܝܢ</rubric>
+                  <finalRubric xml:lang="syr"><locus from="29b"/>ܫܠܡܘ ܟܠܗܘܢ ܩ̈ܢܘܢܐ ܕܫ̈ܠܝܚܐ ܘܕܟܠܗܝܢ
                                     ܣܘܢܗ̈ܕܣ ܗܠܝܢ ܕܗܪܟܐ܀ ܗ̇ܘܝܢ ܕܝܢ ܟܠܗܘܢ̣ ܗܟܢܐ. ܕܢܝܩܝܐ̣ ܥܣܪ̈ܝܢ.
                                     ܕܐܢܩܘܪܐ ܥܣܪ̈ܝܢ ܘܐܪ̈ܒܥܐ. ܏ܘܫ. ܕܗ̇ܘܝܢ ܟܠܗܘܢ ܟܢܝܫܐܝܬ݂. ܣܛܪ ܡܢ ܗܠܝܢ
-                                    ܕܫ̈ܠܝܚܐ ܩ̈ܕܝܫܐ̣. ܡܐܐ ܘܫܬܝ̣ܢ ܘܫ̈ܒܥܐ. ܗܠܝ̣ܢ ܕܝܠܗܝܢ ܕܣܘܢܗܕܘܣ.<locus from="29b"/>
-                </finalRubric>
+                                    ܕܫ̈ܠܝܚܐ ܩ̈ܕܝܫܐ̣. ܡܐܐ ܘܫܬܝ̣ܢ ܘܫ̈ܒܥܐ. ܗܠܝ̣ܢ ܕܝܠܗܝܢ ܕܣܘܢܗܕܘܣ</finalRubric><!-- WLP: this subscription appears to refer to all that came before it; however, it is not for the msItem #a1 as that continues (e.g., with Canons of Rabulas, etc.). Is there a way to mark this or should it appear under the a-level item above? -->
               </msItem>
               <msItem xml:id="b12" n="29">
                 <locus from="29b"/>
-                <author>Timothy of Alexandria
-                </author>
+                <author>Timothy of Alexandria</author>
                 <title xml:lang="en">Questions addressed to <persName>Timothy
-                                        of Alexandria</persName>, with his replies</title>
+                                        of <placeName>Alexandria</placeName></persName>, with his replies</title>
                 <rubric xml:lang="syr">ܫܐܘ̈ܠܐ ܕܐ̇ܬܩܪ̈ܒܘ ܠܩܕܝܫܐ ܡܪܝ ܛܝܡܬܐܘܣ ܐܦܝܣܩܦܐ
                                     ܕܐܠܟܣܢܕܪܝܐ̣ ܡܢ ܩܠܝܪ̈ܝܩܘ ܕܝܠܗ.</rubric>
-                <note>See <bibl>Renaudot, Hist. Patr. Alexandria Jacob., p.
-                                        101</bibl>.</note>
-                <note>See <bibl>Labbe, t. ii., coll. 1571, seqq., as far as
-                                        Interrogatio xv</bibl>.</note>
+                <note>See <bibl>Renaudot, Hist. Patr. Alexandria Jacob., p. 101</bibl>.</note>
+                <note>See <bibl>Labbe, t. ii., coll. 1571, seqq., as far as Interrogatio xv</bibl>.</note>
               </msItem>
               <msItem xml:id="b13" n="30">
                 <locus from="30b"/>
-                <author ref="http://syriaca.org/person/26">Rabūlas, bishop of
-                                    Edessa</author>
-                <title xml:lang="en">Canons of <persName>Rabūlas, bishop of
-                                        Edessa</persName>
+                <author ref="http://syriaca.org/person/26">Rabūlas, bishop of Edessa</author>
+                  <title xml:lang="en">Canons of <persName ref="http://syriaca.org/person/26">Rabūlas, bishop of <placeName>Edessa</placeName></persName>
                 </title>
                 <rubric xml:lang="syr">ܩ̈ܢܘܢܐ̣. ܕܡܪܝ ܪܒܘܠܐ ܐܦܝܣܩܘܦܐ ܕܐܘܪܗܝ</rubric>
                 <note>8 in number</note>
-                <note>See <bibl>Overbeck, S. Ephraemi Syri etc. Opera Selecta,
-                                        Oxon., 1805, p. 210</bibl>.</note>
+                <note>See <bibl>Overbeck, S. Ephraemi Syri etc. Opera Selecta, Oxon., 1805, p. 210</bibl>.</note>
               </msItem>
               <msItem xml:id="b14" n="31">
                 <locus from="31a"/>
-                <author ref="http://syriaca.org/person/50">John, bishop of
-                                    Tella</author>
-                <title xml:lang="en">Canons of <persName>John, bishop of
-                                        Tellā</persName>, viz. Canons 2, 3, 4, 5, 6, 7, 9, 10, 12,
-                                    13, 14, and 25. </title>
-                <rubric xml:lang="syr">ܩ̈ܢܘܢܐ ܕܛܘܒܢܐ ܡܪܝ ܝܘܚܢܢ ܐܦܝܣܩܘܦܐ
-                                    ܕܬ̇ܠ̣ܐ.</rubric>
-                <note>See <bibl>Assemani, Bibl. Or., t. ii., pp. 53,
-                                    54</bibl>.</note>
+                  <author ref="http://syriaca.org/person/50">John, bishop of Tellā</author>
+                <title xml:lang="en">Canons of <persName>John, bishop of <placeName>Tellā</placeName></persName></title>
+                <rubric xml:lang="syr">ܩ̈ܢܘܢܐ ܕܛܘܒܢܐ ܡܪܝ ܝܘܚܢܢ ܐܦܝܣܩܘܦܐ ܕܬ̇ܠ̣ܐ</rubric>
+                  <note>Here are included Canons 2, 3, 4, 5, 6, 7, 9, 10, 12,
+                      13, 14, and 25.</note>
+                <note>See <bibl>Assemani, Bibl. Or., t. ii., pp. 53, 54</bibl>.</note>
               </msItem>
               <msItem xml:id="b15" n="32">
                 <locus from="32b"/>
-                <title xml:lang="en">Canons of the Council of
-                                        <placeName>Chalcedon</placeName>, 27 in number</title>
-                <rubric xml:lang="syr">ܩ̈ܢܘܢܐ ܕܣܘܗܕܘܣ(sic) ܕܒܟܠܩܝܕܘܢܐ. ܣܘܢܗܕܘܣ
+                <title xml:lang="en">Canons of the Council of <placeName>Chalcedon</placeName></title>
+                <rubric xml:lang="syr">ܩ̈ܢܘܢܐ ܕܣܘܗܕܘܣ <foreign xml:lang="en">(sic)</foreign> ܕܒܟܠܩܝܕܘܢܐ. ܣܘܢܗܕܘܣ
                                     ܕܒܟܠܩܝܕܘܢܐ ܐܬ݂ܟܢܫܬ݂ ܡܢ ܗܘܦܪ̈ܟܝܘܣ ܡ̈ܫܚܠܦܬܐ̣. ܬ̇ܚܡ̣ܬ ܗܠܝܢ ܕܟܬ̈ܝܒܝܢ
                                     ܡܢ ܠܬܚܬ̣. ܒܥܣܪܝܢ ܘܚܡܫܐ ܒܬܫܪܝ ܩܕܝܡ̇. ܕܫܢܬ ܫܒܥܡܐܐ ܘܫܬܝܢ ܘܬ̈ܠܬ̇.
                                     ܕܐܠܟܣܢܕܪܘܣ ܒܪ ܦܝܠܝܦܘܣ ܡ̇ܩܕܘܢܝܐ. ܩ̈ܢܘܢܐ ܥܣܪ̈ܝܢ ܘܫܒ̈ܥܐ</rubric>
-                <note>See <bibl>Labbe, t. iv., coll. 1681, seqq</bibl>.</note>
+                  <note>27 in number.</note>
+                <note>See <bibl>Labbe, t. iv., coll. 1681, seqq.</bibl></note>
               </msItem>
               <msItem xml:id="b16" n="33">
                 <locus from="36a"/>
@@ -425,7 +379,7 @@
                                         <placeName>Ephesus</placeName>, and
                                         <placeName>Chalcedon</placeName>, giving the date of each
                                     and the reason of its being assembled</title>
-                <rubric xml:lang="syr">ܫܘܘܕܥܐ ܕܝܠܗܝܢ ܕܣܘ̈ܢܕܘܣ (sic) ܗܠܝܢ</rubric>
+                <rubric xml:lang="syr">ܫܘܘܕܥܐ ܕܝܠܗܝܢ ܕܣܘ̈ܢܕܘܣ <foreign xml:lang="en">(sic)</foreign> ܗܠܝܢ</rubric>
               </msItem>
               <msItem xml:id="b18" n="35">
                 
@@ -434,7 +388,7 @@
                                         <persName>Constantine the Great</persName>, and ending with
                                         <persName>Constantine</persName> the son of
                                         <persName>Heraclius</persName>, <date>A.D.
-                                    641</date>.</title>
+                                    641</date></title>
               </msItem>
             </msItem>
           </msContents>
@@ -452,13 +406,10 @@
                                             <p>Vellum, about 9 5/8 in. by 6, consisting of 39
                                                 leaves, the last of which is soiled and torn. The
                                                 quires, four in number, are signed with letters,
-                                                from ܟܗ to ܟܚ, but there was an older numeration,
-                                                apparently from ܟܘ to ܟܛ (see <bibl>fol. 31
-                                                a</bibl>). Each page is divided into two columns, of
-                                                from 33 to 43 lines. This manuscript is written in a
-                                                small, neat hand of the viith cent., probably soon
-                                                after <date>A.D. 641</date> (see <bibl>below, no.
-                                                  18</bibl>).</p>
+                                                from <foreign xml:lang="syr">ܟܗ</foreign> to <foreign xml:lang="syr">ܟܚ</foreign>, but there was an older numeration,
+                                                apparently from <foreign xml:lang="syr">ܟܘ</foreign> to <foreign xml:lang="syr">ܟܛ</foreign> (see <locus>fol. 31
+                                                a</locus>). Each page is divided into two columns, of
+                                                from 33 to 43 lines.</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -468,9 +419,12 @@
                             </layoutDesc>
                         </objectDesc>
             <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr">
+                  <desc>This manuscript is written in a small, neat hand of the <date>viith cent.</date>, probably soon after <date>A.D. 641</date> (see the <ref>List of the Emperors of Constantinople, beginning with Constantine the Great, and ending with Constantine the son of Heraclius, A.D. 641</ref>).</desc>
               </handNote>
+                <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
+                    <desc>See additions.</desc>
+                </handNote>
             </handDesc>
             <additions>
               <p/>
@@ -480,29 +434,27 @@
                   <p>On fol. 39 a there is a long note, of which, unfortunately,
                                         the most important part has been erased, and various words
                                         altered. The offender in this case was the <persName>abbat
-                                            Moses of Nisibis</persName> (<date>A.D. 932</date>), who
+                                            Moses of <placeName>Nisibis</placeName></persName> (<date>A.D. 932</date>), who
                                         states that the book was procured by him, for the
                                             <placeName>convent of S. Mary Deipara</placeName>, from
                                         the monks <persName>Mārūthā</persName>,
                                             <persName>Athanasius</persName> and
                                             <persName>Marcus</persName>.</p>
                   <p>
-                    <quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܢܟ̈ܦܐ ܘܡܝܬܪ̈ܐ ܘܪ̈ܚܡܝ (ܕܢܟܦܐ ܘܡܝܬܪܐ ܘܪܚ̇ܡ originally) ܠܡܫܝܚܐ
-                                            [ܡܪܘܬܐ (ܡܪܝ (orig. ܘܐܬܢܣ ܘܡܪܩܘܣ ܕܝܪ̈ܝܐ ܟ̈ܚܝܕܐ. ܩܢܝܗܝ ܕܝܢ
+                      <quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܢܟ̈ܦܐ ܘܡܝܬܪ̈ܐ ܘܪ̈ܚܡܝ <foreign xml:lang="en">(originally <foreign xml:lang="syr">ܕܢܟܦܐ ܘܡܝܬܪܐ ܘܪܚ̇ܡ</foreign>)</foreign> ܠܡܫܝܚܐ
+                          [ܡܪܘܬܐ <foreign xml:lang="en">(orig. <foreign xml:lang="syr">ܡܪܝ</foreign>)</foreign> ܘܐܬܢܣ ܘܡܪܩܘܣ ܕܝܪ̈ܝܐ ܟ̈ܚܝܕܐ. ܩܢܝܗܝ ܕܝܢ
                                             ܠܕܝܪܐ ܕܝܠܕܬ ܐܠܗܐ ܕܣܘܪ̈ܝܝܐ ܕܒܡܕܒܪܐ ܕܐܣܩ̈ܝܛܐ ܡܘܫܐ ܢܨܝܒܢܝܐ
                                             ܪܝܫܕܝܪܐ ܕܐܠܗܐ ܢܚܣܐ ܠܗ ܘܠܟܠ ܕܐܫܬܘܬܦ ܒܗ ܘܚܪܡܗ ܕܐܠܗܐ ܢܗܘܐ
                                             ܥܠ ܟܠ ܕܡܘܒܕ ܐܘ ܡܫܓܢܐ ܠܗ ܡܢ ܕܝܪܐ] ܕܐܠܗܐ ܗ̇ܘ ܕܡܛܠ ܫܡܗ
-                                            ܩܕܝܫܐ. ܐܬܚܦܛܘܢ ܘܐܠܐܘܢ ܘܣ̣ܡܘܢ (ܘܐܬܚܦܛ ܘܐܠܐܝ orig.  ܘܣܡ)
-                                            ܣܝܡܬܐ ܗܕܐ ܪܘܚܢܝܬܐ ܗ̣ܘ ܢܫܘܐ ܐܢܘܢ (ܢܫܘܝܘܗܝ orig.) ܠܗ̇ܝ ܒܪܬ
+                                            ܩܕܝܫܐ. ܐܬܚܦܛܘܢ ܘܐܠܐܘܢ ܘܣ̣ܡܘܢ <foreign xml:lang="en">(orig. <foreign xml:lang="syr">ܘܐܬܚܦܛ ܘܐܠܐܝ ܘܣܡ</foreign>)</foreign>
+                          ܣܝܡܬܐ ܗܕܐ ܪܘܚܢܝܬܐ ܗ̣ܘ ܢܫܘܐ ܐܢܘܢ <foreign xml:lang="en">(orig. <foreign xml:lang="syr">ܢܫܘܝܘܗܝ</foreign>)</foreign> ܠܗ̇ܝ ܒܪܬ
                                             ܩܠܐ ܕܐܡܪܐ .. ܕܬܘ ܥܘܠܘ ܒܪ̈ܝܟܘܗܝ ܕܐܒܝ ܏ܘܫ ܘܠܥܢ̈ܝܕܝܗܘܢ
-                                            (ܘܠܥܢܝ̈ܕܘܗܝ (orig. ܢܥ̣ܒܕ ܕܘܟܪܢܐ ܛ̇ܒܐ ܒܨ̈ܠܘܬܐ ܕܝܠܕܬ ܐܠܗܐ
-                                            ܡܪܝܡ ܠܥܠܡܝܢ ܐܡܢ (sic) ܀ ܟܠ ܡ̇ܢ ܕܝܢ ܕܫ̇ܩܠ ܠܗ ܠܟܬܒܐ ܗܢܐ
+                          <foreign xml:lang="en">(orig. <foreign xml:lang="syr">ܘܠܥܢܝ̈ܕܘܗܝ</foreign>)</foreign> ܢܥ̣ܒܕ ܕܘܟܪܢܐ ܛ̇ܒܐ ܒܨ̈ܠܘܬܐ ܕܝܠܕܬ ܐܠܗܐ
+                          ܡܪܝܡ ܠܥܠܡܝܢ ܐܡܢ <foreign xml:lang="en">(sic)</foreign> ܀ ܟܠ ܡ̇ܢ ܕܝܢ ܕܫ̇ܩܠ ܠܗ ܠܟܬܒܐ ܗܢܐ
                                             ܕܢܩܪܐ ܒܗ ܐܘ ܕܢܟܬܘܒ ܡܢܗ ܐܘ ܕܢܦܚܡ ܡܢܗ ܐܘ ܒܐܝ̇ܕܐ ܕܗ̣ܝ ܥܠܬܐ
                                             ܘܟܐ̇ܡ ܥܠܘܗܝ ܬܚܝܬ ܚܪܡܐ ܕܐܠܗܐ ܐܝܬܘܗܝ ܥܕܡܐ ܕܡ̇ܦܢܐ ܠܗ ܠܕܝܪܐ
-                                            ܕܐܡܝܪܐ (ܠܡܪܗ ܕܐܡܝܪ. (orig . ܘܟܠ ܡ̇ܢ ܕܩܛ̇ܥ ܐܘ ܓ̇ܪܕ ܐܘ ܠܚܐ
-                                            ܡܕܡ ܡܢ ܥܘܗܕܢܐ ܗܢܐ ܬܗܘܐ ܠܗ ܡܢܬܐ ܥܡ ܡܚ̈ܠܨܝ (ܡܚܨ̈ܝ orig.)
-                                            ܒܝܬ ܩܘܕܫܐ ܘܥܡ ܝܗ̈ܘܕܝܐ ܕܨܠܒܘ ܠܡܫܝܚܐ ܐܡܝܢ ܘܐܡܝܢ ܘܗܠܝܢ
-                                            ܠܟܪܝܣܛܝܢܐ ܣ̈ܦܩܢ. </quote>
+                                            ܕܐܡܝܪܐ <foreign xml:lang="en">(orig. <foreign xml:lang="syr">ܠܡܪܗ ܕܐܡܝܪ</foreign>)</foreign> ܘܟܠ ܡ̇ܢ ܕܩܛ̇ܥ ܐܘ ܓ̇ܪܕ ܐܘ ܠܚܐ
+                          ܡܕܡ ܡܢ ܥܘܗܕܢܐ ܗܢܐ ܬܗܘܐ ܠܗ ܡܢܬܐ ܥܡ ܡܚ̈ܠܨܝ <foreign xml:lang="en">(orig. <foreign xml:lang="syr">ܡܚܨ̈ܝ</foreign>)</foreign> ܒܝܬ ܩܘܕܫܐ ܘܥܡ ܝܗ̈ܘܕܝܐ ܕܨܠܒܘ ܠܡܫܝܚܐ ܐܡܝܢ ܘܐܡܝܢ ܘܗܠܝܢ ܠܟܪܝܣܛܝܢܐ ܣ̈ܦܩܢ</quote>
                   </p>
                 </item>
               </list>
@@ -517,8 +469,7 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate notBefore="0600" notAfter="0700">A.D.
-                                641</origDate>
+                            <origDate notBefore="0641" notAfter="0700">viith cent., probably soon after A.D. 641</origDate>
                             <origPlace/>
                         </origin>
                         <provenance/>
@@ -711,11 +662,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
-      <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document
-                needs to be checked for accuracy</change>
-      <change type="planned" subtype="question">Question in Word Doc to be Addressed: In the
-                Word doc, under 3a, there is a note to check the bibl, specificially whether or not
-                "line 1" is correct. The PDF states "line 4."</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
