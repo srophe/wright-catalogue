@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14528 foll. 152—228</title>
+        <title level="a" xml:lang="en">BL Add MS 14528, foll. 152—228</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -26,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -68,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/255</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14528 foll. 152—228</idno>
+              <idno type="BL-Shelfmark">Add MS 14528, foll. 152—228</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -83,118 +83,101 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="" from="152 a"/>
-              <title ref="" xml:lang="en">An Index to the Lessons ܦܘܪܫ ܩܪ̈ܝܢܐ proper
-                                for the Festivals of the whole year and other occasions.</title>
+              <locus from="152a"/>
+              <title xml:lang="en">An Index to <ref>the Lessons proper
+                                for the Festivals of the whole year and other occasions</ref></title>
               <incipit xml:lang="syr">ܦܘܪܫ ܩܪ̈ܝܢܐ</incipit>
+              <finalRubric xml:lang="syr"><locus from="191b"/>ܫܠܡ ܠܡܟܬܒ ܦܘܪܫ ܩܪ̈ܝܢܐ ܕܟܬ̈ܒܐ ܩܕܝ̈ܫܐ. ܕܒܗ
+                ܗ̣ܘ ܡܫܟܚ ܐܢܫ. ܕܢܕܥ ܩܪ̈ܝܢܐ ܕܡܬܩܪ̈ܝܢ ܒܥ̈ܐܕܐ ܟܠܗܘܢ. ܘܒܕܘܟܪ̈ܢܐ
+                ܕܣܗ̈ܕܐ. ܘܒܕܘܟܪܢܐ ܕܟܠܗܘܢ ܐܒ̈ܗܝܢ ܐܦܣܩܘ̈ܦܐ. ܐܝܠܝܢ ܕܥܢܕܘ ܒܗܝܡܢܘܬܐ
+                ܫܪܝܪܬܐ. ܕܫܠܝ̈ܚܐ ܩܕܝ̈ܫܐ. ܘܐܝܠܝܢ ܩܪ̈ܝܢܐ ܡܬܩܪܝܢ ܒܥܘܢܕܢܐ ܐܘ ܒܕܘܟܪܢܐ
+                ܕܥܢܝ̈ܕܐ . ܘ</finalRubric>
               <msItem xml:id="b1" n="2">
-                <locus to="" from="152 a"/>
-                <title ref="" xml:lang="en">The Epiphany</title>
+                <locus from="152a"/>
+                <title xml:lang="en">The Epiphany</title>
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
-                <locus to="" from="154 b"/>
-                <title ref="" xml:lang="en">Lent</title>
-                <note>Imperfect</note>
+                <locus from="154b"/>
+                <title xml:lang="en">Lent</title>
               </msItem>
               <msItem xml:id="b3" n="4" defective="true">
-                <locus to="" from="159 a"/>
-                <title ref="" xml:lang="en">Passion (or Holy) Week</title>
-                <note>Imperfect</note>
+                <locus from="159a"/>
+                <title xml:lang="en">Passion (or Holy) Week</title>
               </msItem>
               <msItem xml:id="b4" n="5">
-                <locus to="" from="171 a"/>
-                <title ref="" xml:lang="en">The Sunday of the Resurrection (Easter
+                <locus from="171a"/>
+                <title xml:lang="en">The Sunday of the Resurrection (Easter
                                     Sunday)</title>
               </msItem>
               <msItem xml:id="b5" n="6">
-                <locus to="" from="173 a"/>
-                <title ref="" xml:lang="en">The Week of Rest </title>
+                <locus from="173a"/>
+                <title xml:lang="en">The Week of Rest</title>
                 <rubric xml:lang="syr">ܫܒܬܐ ܕܢܝܚܬܐ</rubric>
-                <note>See <bibl>Dr. Payne Smith’s Catalogue of the Syriac
-                                    MSS</bibl>. In the Bodleian Library, col. 115, note b.</note>
+                <note>See <bibl>Dr. Payne Smith’s Catalogue of the Syriac MSS. In the Bodleian Library, col. 115, note b</bibl>.</note>
               </msItem>
               <msItem xml:id="b6" n="7">
-                <locus to="" from="180 b"/>
-                <title ref="" xml:lang="en">The Sunday after the Week of
-                                    Rest</title>
+                <locus from="180b"/>
+                <title xml:lang="en">The Sunday after the Week of Rest</title>
               </msItem>
               <msItem xml:id="b7" n="8">
-                <locus to="" from="181 b"/>
-                <title ref="" xml:lang="en">The Ascension of our Lord</title>
+                <locus from="181b"/>
+                <title xml:lang="en">The Ascension of <persName>our Lord</persName></title>
               </msItem>
               <msItem xml:id="b8" n="9">
-                <locus to="" from="183 a"/>
-                <title ref="" xml:lang="en">Pentecost, or Whitsun Day</title>
+                <locus from="183a"/>
+                <title xml:lang="en">Pentecost, or Whitsun Day</title>
               </msItem>
               <msItem xml:id="b9" n="10">
-                <locus to="" from="184 b"/>
-                <title ref="" xml:lang="en">When a man receives the tonsure and
-                                    becomes a religious</title>
+                <locus from="184b"/>
+                <title xml:lang="en">When <persName>a man</persName> receives the tonsure and becomes <persName>a religious</persName></title>
                 <rubric xml:lang="syr">ܡܐ ܕܡܣܦܪ ܐܢܫ ܕܢܗܘܐ ܒܪ ܩܝܡܐ</rubric>
               </msItem>
               <msItem xml:id="b10" n="11">
-                <locus to="186 b" from="185 a"/>
-                <title ref="" xml:lang="en">The Commemoration of the holy
-                                    Martyrs</title>
+                <locus from="185a"/>
+                <title xml:lang="en">The Commemoration of <persName>the holy Martyrs</persName></title>
               </msItem>
               <msItem xml:id="b11" n="12">
-                <locus to="188 b" from="187 a"/>
-                <title ref="" xml:lang="en">The Commemoration of the Bishops</title>
+                <locus to="188b" from="187a"/>
+                <title xml:lang="en">The Commemoration of <persName>the Bishops</persName></title>
+              </msItem>
+              <msItem>
+                <locus from="188b"/>
+                <title xml:lang="en">The Commemoration of <persName>the Bishops</persName></title>
               </msItem>
               <msItem xml:id="b12" n="13">
-                <locus to="" from="189 b"/>
-                <title ref="" xml:lang="en">When a man becomes a priest</title>
+                <locus from="189b"/>
+                <title xml:lang="en">When <persName>a man</persName> becomes <persName>a priest</persName></title>
                 <rubric xml:lang="syr">ܡܐ ܕܗ̇ܘܐ ܐܢܫ ܟܗܢܐ</rubric>
               </msItem>
               <msItem xml:id="b13" n="14">
-                <locus to="" from="190 a"/>
-                <title ref="" xml:lang="en">The Dedication of a Church</title>
+                <locus from="190a"/>
+                <title xml:lang="en">The Dedication of <placeName>a Church</placeName></title>
                 <rubric xml:lang="syr">ܕܚܘܕܬܐ ܕܗܝܟܠܐ ܩܕܝܫܐ</rubric>
               </msItem>
               <msItem xml:id="b14" n="15">
-                <locus to="" from="190 b"/>
-                <title ref="" xml:lang="en">The Dedication of an Altar</title>
+                <locus from="190b"/>
+                <title xml:lang="en">The Dedication of <placeName>an Altar</placeName></title>
                 <rubric xml:lang="syr">ܕܚܘܕܬܐ ܕܡܕܒܚܐ</rubric>
               </msItem>
               <msItem xml:id="b15" n="16">
-                <locus to="" from="191 a"/>
-                <title ref="" xml:lang="en">The Apparition of the holy Cross to the
-                                    emperor Constantine</title>
+                <locus from="191a"/>
+                <title xml:lang="en">The Apparition of <persName>the holy Cross</persName> to <persName>the
+                                    emperor Constantine</persName></title>
                 <rubric xml:lang="syr">ܒܫܒܥܐ ܒܝܪܚ ܐܝܪ ܒܝܘܡܐ ܕܐܬܚܙܝ ܒܗ ܨܠܝܒܐ ܩܕܝܫܐ
                                     ܒܫܡܝܐ. ܠܛܘܒܢܐ ܩܘܣܛܢܛܝܢܘܣ ܡܠܟܐ ܡܗܝܡܢܐ. ܡܢ ܬܠܬ ܫܥ̈ܝܢ ܒܝܘܡܐ ܥܕܡܐ
                                     ܠܫܬ ܫܥ̈ܝܢ. ܒܗ ܗܟܝܠ ܒܗܢܐ ܝܘܡܐ. ܗܘ̣ܐ ܕܘܟܪܢܐ ܗܢܐ ܕܨܠܝܒܐ ܩܕܝܫܐ.
                                     ܘܡܬܩܪ̈ܝܢ ܒܗ ܗܠܝܢ ܩܪ̈ܝܢܐ. ܩܕܡܝܐ ܕܘܝܕ ܬܫܒܘܚܬܐ ܕܬܫܥܝܢ ܘܫܒܥ ܡܬܐܡܪܐ
                                     ܥܘܢܝܬܐ ܏ܚܘܝܘ ܏ܫܡܝܐ ܏ܙܕܝܩܘܬܗ. ܘ . ܩܪܝܢܐ ܩܕܡܝܐ ܐܓܪܬܐ ܕܟܬ̣ܒ ܗܘܐ
                                     ܐܦܣܩܘܦܐ ܕܐܘܪܫܠܡ ܠܗ ܠܛܘܒܢܐ ܩܘܣܛܝܛܝܢܣ ܡܠܟܐ ܙܟܝܐ. ܩܪܝܢܐ ܕܬܪ̈ܝܢ
-                                    ܫܠܝܚܐ ܐܓܪܬܐ ܕܓ݁ܠ̈ܛܝܐ. ܏ܘܫ. </rubric>
-              </msItem>
-              <msItem xml:id="b16" n="17">
-                <locus to="" from="191 b"/>
-                <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܦܘܪܫ ܩܪ̈ܝܢܐ ܕܟܬ̈ܒܐ ܩܕܝ̈ܫܐ. ܕܒܗ
-                                    ܗ̣ܘ ܡܫܟܚ ܐܢܫ. ܕܢܕܥ ܩܪ̈ܝܢܐ ܕܡܬܩܪ̈ܝܢ ܒܥ̈ܐܕܐ ܟܠܗܘܢ. ܘܒܕܘܟܪ̈ܢܐ
-                                    ܕܣܗ̈ܕܐ. ܘܒܕܘܟܪܢܐ ܕܟܠܗܘܢ ܐܒ̈ܗܝܢ ܐܦܣܩܘ̈ܦܐ. ܐܝܠܝܢ ܕܥܢܕܘ ܒܗܝܡܢܘܬܐ
-                                    ܫܪܝܪܬܐ. ܕܫܠܝ̈ܚܐ ܩܕܝ̈ܫܐ. ܘܐܝܠܝܢ ܩܪ̈ܝܢܐ ܡܬܩܪܝܢ ܒܥܘܢܕܢܐ ܐܘ ܒܕܘܟܪܢܐ
-                                    ܕܥܢܝ̈ܕܐ . ܘ .<locus to="" from=""/>
-                </finalRubric>
+                                    ܫܠܝܚܐ ܐܓܪܬܐ ܕܓ݁ܠ̈ܛܝܐ. ܏ܘܫ</rubric>
               </msItem>
             </msItem>
             <msItem xml:id="a2" n="18">
-              <locus to="" from="192a"/>
-              <title ref="" xml:lang="en">Secular Laws and Enactments of the emperors
-                                    <persName>Constantine</persName>,
-                                    <persName>Theodosius</persName> and <persName>Leo</persName>,
-                                translated from Latin into Aramaic</title>
-              <rubric xml:lang="syr">ܢܡܘ̈ܣܐ ܥܠܡ̈ܢܝܐ ܕܢܦܝ̣ܩܝܢ ܡܢ ܠܫܢܐ ܪܗܘܡܝܐ
-                                ܠܐܪܡܝܐ</rubric>
-              <note>This portion of the manuscript has been edited by Dr. Land in his
-                                    <bibl>Anecdota Syriaca</bibl>, t. i., with a Latin translation
-                                and notes.</note>
+              <locus from="192a"/>
+              <title xml:lang="en">Secular Laws and Enactments of the emperors <persName>Constantine</persName>, <persName>Theodosius</persName> and <persName>Leo</persName>, translated from Latin into Aramaic</title>
+              <rubric xml:lang="syr">ܢܡܘ̈ܣܐ ܥܠܡ̈ܢܝܐ ܕܢܦܝ̣ܩܝܢ ܡܢ ܠܫܢܐ ܪܗܘܡܝܐ ܠܐܪܡܝܐ</rubric>
+              <finalRubric xml:lang="syr"><locus from="228a"/>ܫܠܡ ܢܡܘ̈ܣܐ ܘܦܘ̈ܩܕܢܐ ܕܡ̈ܠܟܐ ܙܟ̈ܝܐ</finalRubric>
               <note/>
-              <msItem xml:id="b17" n="19">
-                <locus to="" from="228 a"/>
-                <finalRubric xml:lang="syr">ܫܠܡ ܢܡܘ̈ܣܐ ܘܦܘ̈ܩܕܢܐ ܕܡ̈ܠܟܐ ܙܟ̈ܝܐ.<locus to="" from=""/>
-                </finalRubric>
-              </msItem>
             </msItem>
           </msContents>
                     <physDesc>
@@ -213,11 +196,13 @@
                                                 are stained and torn, especially foll. 161, 164,
                                                 223, and 228. The quires, ten in number, are signed
                                                 with arithmetical figures (e.g. fol. 156, %; fol.
-                                                164, %; fol. 174, %; fol. 184, %; fol. 194, etc.);
+                                                164, %; fol. 174, %; fol. 184, %; fol. 194, etc.);<!-- Missing Syriac arithmetical figures -->;
                                                 but the first and second are imperfect, three leaves
                                                 being wanting at the beginning, three after fol.
                                                 155, and two after fol. 159. There are from 23 to 26
-                                                lines in each page. </p>
+                                                lines in each page.</p>
+                                          <p>This portion of the manuscript (i.e., Add. 14,528, foll. 152—228) has been edited by Dr. Land in his
+                                            <bibl>Anecdota Syriaca, t. i.</bibl>, with a Latin translation and notes.</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -227,37 +212,40 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="" script="syr-Syre">
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr-Syre">
                                 <desc>This manuscript is written in a good, regular Estrangela of
-                                    the vith cent.</desc>
+                                    the <date>vith cent.</date></desc>
                             </handNote>
+                          <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
+                            <desc>See additions.</desc>
+                          </handNote>
             </handDesc>
                         <additions>
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                                    <locus from="228 b" to=""/>
-                                    <p>On fol. 228 b there is a short note in the handwriting of
-                                            <persName>Moses of Nisibis</persName>, stating that he
-                                        procured this manuscript for the <placeName>convent of S.
-                                            Mary Deipara</placeName> (A.D. 932).</p>
-                                    <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                                </item>
+                  <locus from="228b"/>
+                  <p>On fol. 228 b there is a short note in the handwriting of
+                    <persName>Moses of <placeName>Nisibis</placeName></persName>, stating that he
+                    procured this manuscript for the <placeName>convent of S.
+                      Mary Deipara</placeName> (<date>A.D. 932</date>).</p>
+                </item>
                 <item xml:id="addition2" n="2">
-                                    <locus from="228 a" to=""/>
-                                    <p>ܫܠܡ ܠܡܟܬ[ܒ] ܒܦܢܩܝܬܐ ܗܕܐ ܦܘܪ̈ܫ ܩܪ̈ܝـ[ܢܐ] ܕܟܬܒ̈ܐ ܩܕܝ̈ܫܐ ܘܢܡܘ̈ܣܐ
-                                        ܘ[ܦܘ]ܩ̈ܕܢܐ ܥܠܡ̈ܢܝܐ ܕܣܝ̣ܡܝܢ ܠܩܘܣܛܢܛܝܢܣ ܘܠܬܐܕܣܝܣ[ܘܠܠܐܘܢ]. [As
-                                        it would seem, purposely erased by some reader, who
-                                        confounded the Emperor with the Pope, usually styled by the
-                                        Monophysites.]ܡ̈ܠܟܐ ܡܗ̈ܝܡܢܐ ܘܙܟ̈ܝܐ ܘܪ̈ܚܡܝ ܠܐܠܗܐ: ܕܘܟܪܢܗܘܢ
+                  <locus from="228a"/>
+                  <p>Colophon, fol. 228 a:</p>
+                  <p>
+                    <quote xml:lang="syr">ܫܠܡ ܠܡܟܬ[ܒ] ܒܦܢܩܝܬܐ ܗܕܐ ܦܘܪ̈ܫ ܩܪ̈ܝـ[ܢܐ] ܕܟܬܒ̈ܐ ܩܕܝ̈ܫܐ ܘܢܡܘ̈ܣܐ 
+                    ܘ[ܦܘ]ܩ̈ܕܢܐ ܥܠܡ̈ܢܝܐ ܕܣܝ̣ܡܝܢ ܠܩܘܣܛܢܛܝܢܣ ܘܠܬܐܕܣܝܣ [ܘܠܠܐܘܢ]. ܡ̈ܠܟܐ ܡܗ̈ܝܡܢܐ ܘܙܟ̈ܝܐ ܘܪ̈ܚܡܝ ܠܐܠܗܐ: ܕܘܟܪܢܗܘܢ
                                         ܠܒܘܪܟܬܐ ܘܨܠܘ̈ܬܗܘܢ ܥܠ ܐܪܥܐ ܘܥܠ ܥܡܘܪ̈ܝܗ̇: ܘܟܬܘܒܐ ܕܟܬ݂ܒ ܢܬܚܢܢ
-                                        ܒܝܘܡ ܡܐܬܝܬܗ ܐܡܝܢ . ܘ . . ܘ . ܫܘܒܐܚ ܠܬܠܝܬܝܘܬܐ ܐܡܝܢ .ܘ:ܘ.</p>
-                                    <p>
-                                        <quote xml:lang="syr"/>
-                                    </p>
-                                </item>
+                                        ܒܝܘܡ ܡܐܬܝܬܗ ܐܡܝܢ . ܘ . . ܘ . ܫܘܒܐܚ ܠܬܠܝܬܝܘܬܐ ܐܡܝܢ .ܘ:ܘ</quote>
+                  </p>
+                </item>
+                <item>
+                  <locus from="228a"/>
+                  <p>As it would seem, the name of <persName>the emperor Leo</persName> in <ref>the colophon</ref>, <foreign xml:lang="syr">ܘܠܠܐܘܢ</foreign>, was purposely erased by <persName>some reader</persName>, who
+                    confounded <persName>the Emperor</persName> with <persName>the Pope</persName>, usually styled <foreign xml:lang="syr">ܠܐܘܢ ܪܫܝܥܐ</foreign> by <persName>the
+                    Monophysites</persName>.</p>
+                </item>
               </list>
             </additions>
                         <bindingDesc>
@@ -270,9 +258,8 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate notBefore="0500" notAfter="0600" from="" to="" when="">vith
-                                cent.</origDate>
-                            <origPlace ref="" xml:lang=""/>
+                          <origDate notBefore="0500" notAfter="0600">vith cent.</origDate>
+                            <origPlace/>
                         </origin>
                         <provenance/>
                         <acquisition/>
@@ -463,6 +450,7 @@
         <revisionDesc status="draft">
             <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-16-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-04-15" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
+          <change type="planned" subtype="missing">Missing various unspecified things.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
