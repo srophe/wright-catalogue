@@ -406,3 +406,209 @@ declare function mss:update-tei-text-elements($doc as node()+) as node()+ {
   let $nonHeaderElements := ($doc/tei:TEI/tei:facsimile, $doc/tei:TEI/tei:text)
   return <nonHeaderElements>{$nonHeaderElements}</nonHeaderElements>
 };
+
+(:----------------------
+: Functions for updating elements' xml:id values
+: ------------------------:)
+
+declare function mss:update-xml-id-values($doc as node(), $hasMsParts as xs:boolean)
+as item()+ (: returns a sequence of a document-node() representing the updated record and a node() representing an index of updates needing to be propagated to existing data (e.g., cross-references to specific msItems) :)
+{
+  (: note: handle msParts! Maybe have a for loop where you pass the msPart to this function with a 'false ()' hasMsParts value.
+  Then you can collect a sequence of msParts. Hmm this needs thought but might work? Essentially have the msParts processed normally and then you have a similar flag to control how everything is put together in the last stage?
+   :)
+  let $index := ()
+  
+  (: update the msItems in msContents :)
+  let $temp := mss:update-msContents-xml-id-values($doc//tei:msDesc/tei:msContents)
+  let $newMsContents := $temp[1]
+  let $index := ($index, $temp[position()>1]) (: index is continuously collated from each update function :)
+  
+  (: update the handNotes in handDesc :)
+  let $temp := mss:update-handDesc-xml-id-values($doc//tei:msDesc/tei:physDesc/tei:handDesc)
+  let $newHandDesc := $temp[1]
+  let $index := ($index, $temp[position()>1])
+    
+  (: update the decoNotes in decoDesc :)
+  let $temp := if($doc//tei:msDesc/tei:physDesc/tei:decoDesc) then mss:update-decoDesc-xml-id-values($doc//tei:msDesc/tei:physDesc/tei:decoDesc) else ()
+  let $newDecoDesc := if($doc//tei:msDesc/tei:physDesc/tei:decoDesc) then $temp[1] else $doc//tei:msDesc/tei:physDesc/tei:decoDesc
+  let $index := ($index, $temp[position()>1])
+  
+  (: update the items in additions :)
+  let $temp := if($doc//tei:msDesc/tei:physDesc/tei:additions) then mss:update-additions-xml-id-values($doc//tei:msDesc/tei:physDesc/tei:additions) else()
+  let $newAdditions := if($doc//tei:msDesc/tei:physDesc/tei:additions) then $temp[1] else $doc//tei:msDesc/tei:physDesc/tei:additions
+  let $index := ($index, $temp[position()>1])
+  
+  (: build the new file from updated components :)
+  let $oldPhysDesc := $doc//tei:msDesc/tei:physDesc
+  let $newPhysDesc := element {node-name($oldPhysDesc)} {$oldPhysDesc/@*,
+                                                         $oldPhysDesc/tei:objectDesc,
+                                                         $newHandDesc,
+                                                         $newDecoDesc,
+                                                         $newAdditions}
+  let $oldMsDesc := $doc//tei:msDesc
+  let $newMsDesc := element {node-name($oldMsDesc)} {$oldMsDesc/@*,
+                                                     $oldMsDesc/tei:msIdentifier,
+                                                     $newMsContents,
+                                                     $newPhysDesc,
+                                                     $oldMsDesc/tei:history,
+                                                     $oldMsDesc/tei:additional
+                                                     }
+  let $newSourceDesc := element {node-name($doc//tei:sourceDesc)} {$newMsDesc}
+  
+  let $oldFileDesc := $doc//tei:fileDesc
+  let $newFileDesc := element {node-name($oldFileDesc)} {$oldFileDesc/@*,
+                                                         $oldFileDesc/tei:titleStmt,
+                                                         $oldFileDesc/tei:editionStmt,
+                                                         $oldFileDesc/tei:publicationStmt,
+                                                         $newSourceDesc}
+ 
+ let $oldTeiHeader := $doc//tei:teiHeader
+ let $newTeiHeader := element {node-name($oldTeiHeader)} {$oldTeiHeader/@*,
+                                                          $newFileDesc,
+                                                          $oldTeiHeader/tei:encodingDesc,
+                                                          $oldTeiHeader/tei:profileDesc,
+                                                          $oldTeiHeader/tei:revisionDesc
+                                                          }
+ let $newRecord := element {QName("http://www.tei-c.org/ns/1.0", "TEI")} {attribute {"xml:lang"} {"en"},
+                                                                          $newTeiHeader,
+                                                                         $doc/tei:TEI/*[not(name() = "teiHeader")]}
+ let $newDoc := document {$doc/processing-instruction(), $newRecord}
+ 
+ return ($newDoc, $index)
+};
+
+declare function mss:update-msContents-xml-id-values($msContents as node())
+as item()+ {
+  
+  (: add deprecatedId attributes based on current xml:id values :)
+  let $msItems := $msContents/tei:msItem
+  let $oldMsItemsWithDeprecatedIds := mss:add-deprecatedId-attributes-deep($msItems, "msItem") (: currently assuming we are comparing xml:id values; will be difficult to do otherwise :)
+  
+  (: remove xml:id and n attributes :)
+  let $msItemsWithOnlyDeprecatedIds := functx:remove-attributes-deep($oldMsItemsWithDeprecatedIds, "xml:id") (: I think this is okay since only msItem children will have xml:ids; no notes, rubrics, etc. should have them? :)
+  let $msItemsWithOnlyDeprecatedIds := functx:remove-attributes-deep($msItemsWithOnlyDeprecatedIds, "n")
+  
+  (: renumber and re-identify msItems :)
+  let $msItemsWithNewAndDeprecatedIds := mss:add-msItem-id-and-enumeration-values(<msItemContainer>{$msItemsWithOnlyDeprecatedIds}</msItemContainer>, $mss:initial-msItem-up-stack, $mss:initial-msItem-down-stack, 1)[1]/tei:msItem
+  
+  (: create the index of attribute updates :)
+  let $index := mss:create-index-of-xml-id-updates($msItemsWithNewAndDeprecatedIds, (), "msItem")
+
+  (: remove the deprecatedId attributes as they are no longer needed :)
+  let $updatedMsItems := functx:remove-attributes-deep($msItemsWithNewAndDeprecatedIds, "deprecatedId")
+  
+  (: build the new msContents element from the updated msItem sequence :)
+  let $newMsContents := element {node-name($msContents)} {$msContents/@*, 
+                                                          $msContents/tei:summary,
+                                                          $msContents/tei:textLang,
+                                                          $updatedMsItems}
+  return ($newMsContents, $index)
+};
+
+declare function mss:update-handDesc-xml-id-values($handDesc as node())
+as item()+ {
+  (: add deprecatedId attributes based on current xml:id values :)
+  let $handNotes := $handDesc/tei:handNote
+  let $oldHandNotesWithDeprecatedIds :=  mss:add-deprecatedId-attributes-deep($handNotes, "handNote")
+  
+  (: remove xml:id attributes :)
+  let $handNotesWithOnlyDeprecatedIds := functx:remove-attributes-deep($oldHandNotesWithDeprecatedIds, "xml:id")
+  
+  (: re-identify msItems :)
+  let $handNotesWithNewAndDeprecatedIds := mss:enumerate-element-sequence($handNotesWithOnlyDeprecatedIds, "handNote", fn:boolean(0))
+  
+  (: create the index of attribute updates :)
+  let $index := mss:create-index-of-xml-id-updates($handNotesWithNewAndDeprecatedIds, (), "handNote")
+
+  (: remove the deprecatedId attributes as they are no longer needed :)
+  let $updatedHandNotes := functx:remove-attributes-deep($handNotesWithNewAndDeprecatedIds, "deprecatedId")
+  
+  (: build the new handDesc element from the updated msItem sequence :)
+  let $newHandDesc := element {node-name($handDesc)} {$handDesc/@*, 
+                                                          $updatedHandNotes}
+  
+  return $newHandDesc
+};
+
+(: REFACTOR. This is a carbon copy of the handDesc update with 'hand' changed to 'deco'...:)
+declare function mss:update-decoDesc-xml-id-values($decoDesc as node())
+as item()+ {
+  (: add deprecatedId attributes based on current xml:id values :)
+  let $decoNotes := $decoDesc/tei:decoNote
+  let $oldDecoNotesWithDeprecatedIds :=  mss:add-deprecatedId-attributes-deep($decoNotes, "decoNote")
+  
+  (: remove xml:id attributes :)
+  let $decoNotesWithOnlyDeprecatedIds := functx:remove-attributes-deep($oldDecoNotesWithDeprecatedIds, "xml:id")
+  
+  (: re-identify msItems :)
+  let $decoNotesWithNewAndDeprecatedIds := mss:enumerate-element-sequence($decoNotesWithOnlyDeprecatedIds, "decoNote", boolean(0))
+  
+  (: create the index of attribute updates :)
+  let $index := mss:create-index-of-xml-id-updates($decoNotesWithNewAndDeprecatedIds, (), "decoNote")
+
+  (: remove the deprecatedId attributes as they are no longer needed :)
+  let $updatedDecoNotes := functx:remove-attributes-deep($decoNotesWithNewAndDeprecatedIds, "deprecatedId")
+  
+  (: build the new handDesc element from the updated msItem sequence :)
+  let $newDecoDesc := element {node-name($decoDesc)} {$decoDesc/@*, 
+                                                          $updatedDecoNotes}
+  
+  return $newDecoDesc
+};
+
+declare function mss:update-additions-xml-id-values($additions as node())
+as item()+ {
+  (: add deprecatedId attributes based on current xml:id values :)
+  let $additionItems := $additions/tei:list/tei:item
+  let $oldAdditionItemsWithDeprecatedIds :=  mss:add-deprecatedId-attributes-deep($additionItems, "item")
+  
+  (: remove xml:id and n attributes :)
+  let $additionItemsWithOnlyDeprecatedIds := functx:remove-attributes-deep($oldAdditionItemsWithDeprecatedIds, "xml:id")
+  let $additionItemsWithOnlyDeprecatedIds := functx:remove-attributes-deep($additionItemsWithOnlyDeprecatedIds, "n")
+
+  (: re-identify msItems :)
+  let $additionItemsWithNewAndDeprecatedIds := mss:enumerate-element-sequence($additionItemsWithOnlyDeprecatedIds, "addition", boolean(1))
+  
+  (: create the index of attribute updates :)
+  let $index := mss:create-index-of-xml-id-updates($additionItemsWithNewAndDeprecatedIds, (), "item")
+
+  (: remove the deprecatedId attributes as they are no longer needed :)
+  let $updatedAdditionItems := functx:remove-attributes-deep($additionItemsWithNewAndDeprecatedIds, "deprecatedId")
+  
+  (: build the new handDesc element from the updated msItem sequence :)
+  let $newAdditionsList := element {node-name($additions/tei:list)} {$updatedAdditionItems}
+  let $newAdditions := element {node-name($additions)} {$additions/@*, 
+                                                        $additions/tei:p,
+                                                        $newAdditionsList}
+  
+  return $newAdditions
+};
+
+declare function mss:add-deprecatedId-attributes-deep($nodes as node()*, $elementName as xs:string)
+as node()* {
+  for $node in $nodes
+  let $deprecatedIdValue := string($node/@xml:id)
+  return if($node instance of element())
+         then element {node-name($node)}
+               {$node/@*, attribute {"deprecatedId"} {$deprecatedIdValue},
+               $node/*[not(name() = $elementName)],
+               mss:add-deprecatedId-attributes-deep($node/*[name() = $elementName], $elementName)}
+};
+
+declare function mss:create-index-of-xml-id-updates($nodes as node()*, $currentIndex as node()*, $elementName as xs:string)
+as node()*
+{
+  let $newIndex :=
+     for $node in $nodes
+     let $updateList := if(string($node/@xml:id) != string($node/@deprecatedId) (: if there was a change in ID :)
+                           and string($node/@deprecatedId) != "") (: and if there was an old ID that changed :)
+                        then
+                        <update>
+                          <oldId>{string($node/@deprecatedId)}</oldId>
+                          <newId>{string($node/@xml:id)}</newId>
+                        </update>
+    (: append the ID updates of child nodes to the current update list (since $updateList is passed as the $currentIndex, the updates from the descendants get returned appended to the parent node as the '$newIndex') :)
+    return mss:create-index-of-xml-id-updates($node/*[name() = $elementName], $updateList, $elementName)
+ return ($currentIndex, $newIndex)
+};

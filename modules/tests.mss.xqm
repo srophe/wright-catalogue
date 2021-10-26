@@ -226,3 +226,9 @@ declare %unit:test function mss-test:update-revisionDesc-from-stub() {
 declare %unit:test function mss-test:update-tei-text-elements-from-stub() {
   unit:assert-equals(mss:update-tei-text-elements($mss-test:file-to-test), <nonHeaderElements>{$mss-test:file-to-compare/tei:TEI/*[not(self::tei:teiHeader)]}</nonHeaderElements>)
 };
+
+(: update xml:id tests :)
+
+declare %unit:test function mss-test:add-deprecatedId-attributes-deep-from-stub() {
+  unit:assert-equals(string(mss:add-deprecatedId-attributes-deep($mss-test:file-to-compare//tei:msContents/tei:msItem, "msItem")//*[@n="7"]/@deprecatedId), "c3")
+};
