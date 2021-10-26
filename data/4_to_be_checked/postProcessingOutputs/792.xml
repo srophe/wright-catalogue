@@ -79,21 +79,20 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus to="" from="49a"/>
+              <locus from="49a"/>
               <author ref="https://syriaca.org/person/42">Jacob of Batnae</author>
-              <title ref="" xml:lang="en">A discourse of Jacob of Batnae on the Raising of
+              <title xml:lang="en">A discourse of Jacob of Batnae on the Raising of
                 Lazarus</title>
               <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܠܥܙܪ ܟܕ ܢܚܡܗ ܡܪܢ. ܕܣܝܡ ܠܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ
                 ܕܥܕܬܐ</rubric>
               <note>See <bibl>Assemani, Bibl. Or., t. i., p. 322, no. 134</bibl>.</note>
             </msItem>
             <msItem xml:id="a2" n="2">
-              <locus to="" from="56a"/>
+              <locus from="56a"/>
               <author ref="https://syriaca.org/person/42">Jacob of Batnae</author>
-              <title ref="" xml:lang="en">A sūgīthā of Jacob on the city of
+              <title xml:lang="en">A sūgīthā of Jacob on the city of
                   <placeName>Edessa</placeName>
               </title>
               <rubric xml:lang="syr">ܣܘܓܝܬܐ ܕܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ̣. ܥܠ ܐܘܪܗܝ ܟܕ ܫܠܚܬ ܠܡܪܢ ܕܢܐܬܐ
@@ -102,21 +101,11 @@
               </note>
             </msItem>
             <msItem xml:id="a3" n="3" defective="true">
-              <locus to="" from="56b"/>
+              <locus from="56b"/>
               <author ref="https://syriaca.org/person/42">Jacob of Batnae</author>
-              <title ref="" xml:lang="en">An extract from a discourse of Jacob</title>
-              <rubric xml:lang="syr"/>
+              <title xml:lang="en">An extract from a discourse of Jacob</title>
               <incipit xml:lang="syr">ܐܬܦܫܩܬ ܠܢ ܩܘܩܬܐ ܚܕܬܐ ܗ̇ܝ ܕܐܠܝܫܥ. ܕܐܝܬܝܗ̇ ܛܠܝܬܐ ܒܬܘܠܬܐ ܒܪܙܐ
                 ܕܡܬܩܢ ܐܪܥܐ</incipit>
-              <quote xml:lang="syr">
-                <locus from="" to=""/>
-              </quote>
-              <explicit xml:lang="syr">
-                <locus to="" from=""/>
-              </explicit>
-              <finalRubric xml:lang="syr">
-                <locus to="" from=""/>
-              </finalRubric>
               <note>[No title]</note>
             </msItem>
           </msContents>
@@ -151,7 +140,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="55b" to=""/>
+                  <locus from="55b"/>
                   <p>On fol. 55 b there is a note, stating that this manuscript was written by one
                       <persName>Sergius</persName>
                   </p>
@@ -171,9 +160,9 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="" notAfter="" from="0700" to="0800" when="">VIIIth
+              <origDate from="0700" to="0800">VIIIth
                 Century</origDate>
-              <origPlace ref="" xml:lang=""/>
+              <origPlace/>
             </origin>
             <provenance/>
             <acquisition/>
@@ -362,6 +351,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-10-26-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-10-26">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="" who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
     </revisionDesc>

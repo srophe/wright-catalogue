@@ -79,46 +79,34 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus to="" from=""/>
               <author ref="https://syriaca.org/person/13">Ephraim</author>
-              <title ref="" xml:lang="en">Two metrical discourses of Ephraim</title>
-              <note/>
+              <title xml:lang="en">Two metrical discourses of Ephraim</title>
               <msItem xml:id="b1" n="2">
-                <locus to="" from="1b"/>
+                <locus from="1b"/>
                 <author ref="https://syriaca.org/person/13">Ephraim</author>
-                <title ref="" xml:lang="en">On the female Sinner</title>
+                <title xml:lang="en">On the female Sinner</title>
                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܩܕܝܫܐ ܡܪܝ ܐܦܪܝܡ: ܕܥܠ ܗ̇ܝ ܚܲܛܝܬܐ.</rubric>
                 <incipit xml:lang="syr">ܫܡ̣ܥܘ ܘܐܬܠܒܒܘ ܚ̈ܒܝܒܝ̣ ܕܟܡܐ ܡ̇ܪܚܡ̣ܢ ܐܠܗܐ. ܠܚܲܛܝܬܐ ܫܒ̣ܩ ܠܗ̇
                   ܚܘ̈ܒܝܗ̇܆ ܐܦ ܣܡܟ̣ܗ̇ ܕܡܚܝ̣ܠܐ ܗܘܬ...</incipit>
-                <finalRubric xml:lang="syr">
-                  <locus to="" from=""/>
-                </finalRubric>
-                <note/>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus to="" from="9a"/>
+                <locus from="9a"/>
                 <author ref="https://syriaca.org/person/13">Ephraim</author>
-                <title ref="" xml:lang="en">On <persName>Abraham</persName> and his types</title>
+                <title xml:lang="en">On <persName>Abraham</persName> and his types</title>
                 <rubric xml:lang="syr">ܥܠ ܐܒܪܗܡ ܘܛܘܦܣ̈ܘܗܝ</rubric>
                 <incipit xml:lang="syr">ܐܘ ܠܬܗܪܐ ܕܠܐ ܡ̇ܬܡܠܠ. ܕܐ̇ܚܙܝܬ ܐܚ̈ܝ ܘܐܬ݀ܕܡܪܬ. ܕܦܓ̣ܥ ܒܝ ܚܕ
                   ܐܬܠܝܛܐ. ܕܒܢܣ̈ܝܘܢܐ ܐܬܢܨ̇ܚ. ܐܒܪܗܡ ܓܒܪܐ ܟܐܢܐ. ܕܬܗ̣ܪ ܒܗ ܪܘܡܐ ܘܥܘܡܩܐ. ܏ܘܫ.</incipit>
-                <finalRubric xml:lang="syr">
-                  <locus to="" from=""/>
-                </finalRubric>
-                <note/>
               </msItem>
             </msItem>
             <msItem xml:id="a2" n="4" defective="true">
-              <locus to="" from="15a"/>
+              <locus from="15a"/>
               <author ref="https://syriaca.org/person/483">Evagrius</author>
-              <title ref="" xml:lang="en">The letters of Evagrius to
+              <title xml:lang="en">The letters of Evagrius to
                 <persName>Melania</persName>
               </title>
               <rubric xml:lang="syr">ܐܓܪ̈ܬܐ ܕܐܫ̣ܬܕܪ̈ܝ ܡܢ ܛܘܒܢܐ ܐܘܓܪܝܣ ܠܐܡܬܗ ܕܐܠܗܐ ܡܠܟܐ</rubric>
-              <incipit xml:lang="syr"/>
               <note>(read ܡܠܢܝܐ )</note>
               <note>They are 60 in number, of which the last is imperfect.</note>
             </msItem>
@@ -156,7 +144,7 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="1a" to=""/>
+                  <locus from="1a"/>
                   <p>On fol. 1 a there is an Arabic note, recording that this manuscript belonged to
                       one<persName> Thomas, the son of Samuel</persName>, in the year of the Hijra
                     531, A.D. 1136—37. </p>
@@ -165,7 +153,7 @@
                   </p>
                 </item>
                 <item xml:id="addition2" n="2">
-                  <locus from="45b" to=""/>
+                  <locus from="45b"/>
                   <p>On the margin of fol. 45 b are the remains of a much later note, the greater
                     part of which has been torn away, recording the presentation of the manuscript
                     to a person named George</p>
@@ -186,9 +174,9 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="" notAfter="" when="" from="1100" to="1200">XIIth
+              <origDate from="1100" to="1200">XIIth
                 Century</origDate>
-              <origPlace ref="" xml:lang=""/>
+              <origPlace/>
             </origin>
             <provenance/>
             <acquisition/>
@@ -377,6 +365,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-10-26-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-10-26">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="" who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
