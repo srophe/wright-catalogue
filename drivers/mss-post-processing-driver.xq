@@ -22,6 +22,7 @@ let $inputCollectionPath := $config:path-to-repo || $config:config/config/inputD
 let $inputCollection := fn:collection($inputCollectionPath)
 
 let $outputDirectory := $config:path-to-repo || $config:config/config/outputDirectory/text()
+let $nothing := file:create-dir($outputDirectory) (: create the output directory if it doesn't exist :)
 
 (: create a list of files to ignore based on a list of ignored directories. this and the check if record exists should go in their own module (even in the mss module) :)
 let $urisToIgnore := for $coll in $config:config/config/ignoredDirectoryList/directory/text()
