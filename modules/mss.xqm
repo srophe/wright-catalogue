@@ -420,24 +420,24 @@ as item()+ (: returns a sequence of a document-node() representing the updated r
   let $index := ()
   
   (: update the msItems in msContents :)
-  let $temp := mss:update-msContents-xml-id-values($doc//tei:msDesc/tei:msContents)
-  let $newMsContents := $temp[1]
-  let $index := ($index, $temp[position()>1]) (: index is continuously collated from each update function :)
+  let $msContentsData := mss:update-msContents-xml-id-values($doc//tei:msDesc/tei:msContents)
+  let $newMsContents := $msContentsData[1]
+  let $index := ($index, $msContentsData[position()>1]) (: index is continuously collated from each update function :)
   
   (: update the handNotes in handDesc :)
-  let $temp := mss:update-handDesc-xml-id-values($doc//tei:msDesc/tei:physDesc/tei:handDesc)
-  let $newHandDesc := $temp[1]
-  let $index := ($index, $temp[position()>1])
+  let $handDescData := mss:update-handDesc-xml-id-values($doc//tei:msDesc/tei:physDesc/tei:handDesc)
+  let $newHandDesc := $handDescData[1]
+  let $index := ($index, $handDescData[position()>1])
     
   (: update the decoNotes in decoDesc :)
-  let $temp := if($doc//tei:msDesc/tei:physDesc/tei:decoDesc) then mss:update-decoDesc-xml-id-values($doc//tei:msDesc/tei:physDesc/tei:decoDesc) else ()
-  let $newDecoDesc := if($doc//tei:msDesc/tei:physDesc/tei:decoDesc) then $temp[1] else $doc//tei:msDesc/tei:physDesc/tei:decoDesc
-  let $index := ($index, $temp[position()>1])
+  let $decoDescData := if($doc//tei:msDesc/tei:physDesc/tei:decoDesc) then mss:update-decoDesc-xml-id-values($doc//tei:msDesc/tei:physDesc/tei:decoDesc) else ()
+  let $newDecoDesc := if($doc//tei:msDesc/tei:physDesc/tei:decoDesc) then $decoDescData[1] else $doc//tei:msDesc/tei:physDesc/tei:decoDesc
+  let $index := ($index, $decoDescData[position()>1])
   
   (: update the items in additions :)
-  let $temp := if($doc//tei:msDesc/tei:physDesc/tei:additions) then mss:update-additions-xml-id-values($doc//tei:msDesc/tei:physDesc/tei:additions) else()
-  let $newAdditions := if($doc//tei:msDesc/tei:physDesc/tei:additions) then $temp[1] else $doc//tei:msDesc/tei:physDesc/tei:additions
-  let $index := ($index, $temp[position()>1])
+  let $additionsData := if($doc//tei:msDesc/tei:physDesc/tei:additions) then mss:update-additions-xml-id-values($doc//tei:msDesc/tei:physDesc/tei:additions) else()
+  let $newAdditions := if($doc//tei:msDesc/tei:physDesc/tei:additions) then $additionsData[1] else $doc//tei:msDesc/tei:physDesc/tei:additions
+  let $index := ($index, $additionsData[position()>1])
   
   (: build the new file from updated components :)
   let $oldPhysDesc := $doc//tei:msDesc/tei:physDesc
@@ -528,10 +528,10 @@ as item()+ {
   let $newHandDesc := element {node-name($handDesc)} {$handDesc/@*, 
                                                           $updatedHandNotes}
   
-  return $newHandDesc
+  return ($newHandDesc, $index)
 };
 
-(: REFACTOR. This is a carbon copy of the handDesc update with 'hand' changed to 'deco'...:)
+(: REFACTOR. This is a carbon copy of the handDesc update with 'hand' changed to 'deco'...Note that this would also solve the problem of seal and binding descs as they should follow the same principals. :)
 declare function mss:update-decoDesc-xml-id-values($decoDesc as node())
 as item()+ {
   (: add deprecatedId attributes based on current xml:id values :)
@@ -554,7 +554,7 @@ as item()+ {
   let $newDecoDesc := element {node-name($decoDesc)} {$decoDesc/@*, 
                                                           $updatedDecoNotes}
   
-  return $newDecoDesc
+  return ($newDecoDesc, $index)
 };
 
 declare function mss:update-additions-xml-id-values($additions as node())
@@ -582,7 +582,7 @@ as item()+ {
                                                         $additions/tei:p,
                                                         $newAdditionsList}
   
-  return $newAdditions
+  return ($newAdditions, $index)
 };
 
 declare function mss:add-deprecatedId-attributes-deep($nodes as node()*, $elementName as xs:string)
@@ -602,7 +602,7 @@ as node()*
   let $newIndex :=
      for $node in $nodes
      let $updateList := if(string($node/@xml:id) != string($node/@deprecatedId) (: if there was a change in ID :)
-                           and string($node/@deprecatedId) != "") (: and if there was an old ID that changed :)
+                           (: and string($node/@deprecatedId) != "" :)) (: and if there was an old ID that changed -- commented out for testing purposes :)
                         then
                         <update>
                           <oldId>{string($node/@deprecatedId)}</oldId>
