@@ -478,6 +478,62 @@ as item()+ (: returns a sequence of a document-node() representing the updated r
  return ($newDoc, $index)
 };
 
+(:~ 
+: Returns two items: a sequence of elements nested in a <container/> element
+: with xml:ids updated based on elementName; and an index of <update/> elements
+: nested in a <container/> element recording the old and updated xml:id values
+: for each element.
+: 
+: @param $nodes is the sequence of elements with old IDs needing to be updated
+: @param $elementName is a string containing the local name of the targeted element,
+: e.g., "msItem". This is used both to specify which nodes (especially descendant nodes)
+: to process and serves as the input for the switch statement controlling how the xml:ids
+: are re-calculated.
+: @param $idPrefix is an optional string that is passed to the recalculation functions
+: to allow this function to be used on msPart items.
+:
+:)
+declare function mss:update-xml-id-values-deep($nodes as node()+, $elementName as xs:string, $idPrefix as xs:string?) 
+as node()+
+{
+  (: add deprecatedId attributes based on current xml:id values :)
+  let $oldNodesWithDeprecatedIds := mss:add-deprecatedId-attributes-deep($nodes, $elementName)
+  
+  (: remove xml:id and n attributes :)
+  let $nodesWithOnlyDeprecatedIds := functx:remove-attributes-deep($oldNodesWithDeprecatedIds, "xml:id")
+  let $nodesWithOnlyDeprecatedIds := functx:remove-attributes-deep($nodesWithOnlyDeprecatedIds, "n")
+  
+  (: renumber and re-identify msItems :)
+  (: use a switch statement for msItem (has its own function), additions (needs the 'true' of n value), default (handNote, decoNote, seal, binding, etc.):)
+  let $nodesWithNewAndDeprecatedIds :=
+    switch ($elementName)
+    case "msItem" return 
+      mss:add-msItem-id-and-enumeration-values(<msItemContainer>{$nodesWithOnlyDeprecatedIds}</msItemContainer>, 
+                                               $mss:initial-msItem-up-stack, 
+                                               $mss:initial-msItem-down-stack, 
+                                               1)[1]/tei:msItem
+    case "item" return (: for additions :)
+      mss:enumerate-element-sequence($nodesWithOnlyDeprecatedIds, 
+                                     "addition", 
+                                     true ())
+    default return (: for handNote, decoNote, seal, and binding elements :)
+      mss:enumerate-element-sequence($nodesWithOnlyDeprecatedIds, 
+                                     $elementName, 
+                                     false ())
+  
+  (: create the index of attribute updates :)
+  let $index := mss:create-index-of-xml-id-updates($nodesWithNewAndDeprecatedIds,
+                                                   (),
+                                                   $elementName)
+  
+  (: remove the deprecatedId attributes as they are no longer needed :)
+  let $updatedNodes := functx:remove-attributes-deep($nodesWithNewAndDeprecatedIds, 
+                                                     "deprecatedId")
+                                                     
+  (: return the updated sequence of nodes and the newly built index. :)
+  return (<container>{$updatedNodes}</container>, <container>{$index}</container>)
+};
+
 declare function mss:update-msContents-xml-id-values($msContents as node())
 as item()+ {
   
