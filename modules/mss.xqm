@@ -20,6 +20,7 @@ module namespace mss="http://srophe.org/srophe/mss";
 import module namespace functx="http://www.functx.com";
 import module namespace config="http://srophe.org/srophe/config" at "config.xqm";
 import module namespace decoder="http://srophe.org/srophe/decoder" at "decoder.xqm";
+import module namespace msParts="http://srophe.org/srophe/msParts" at "msParts.xqm";
 import module namespace stack="http://wlpotter.github.io/ns/stack" at "https://raw.githubusercontent.com/wlpotter/xquery-utility-modules/main/stack.xqm";
 
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
@@ -415,7 +416,7 @@ declare function mss:update-document-xml-id-values($doc as node())
 as item()+ (: returns a sequence of a document-node() representing the updated record and a node() representing an index of updates needing to be propagated to existing data (e.g., cross-references to specific msItems) :)
 {
   let $hasMsPart := if($doc//tei:msPart) then true () else false ()
-  let $temp := mss:update-msDesc-xml-id-values($doc//tei:sourceDesc/tei:msDesc, $hasMsPart)
+  let $temp := mss:update-msDesc-xml-id-values($doc//tei:sourceDesc/tei:msDesc, $hasMsPart, "")
   let $newMsDesc := $temp[1]
   let $index := $temp[position() > 1]
 
@@ -443,7 +444,7 @@ as item()+ (: returns a sequence of a document-node() representing the updated r
  return ($newDoc, $index)
 };
 
-declare function mss:update-msDesc-xml-id-values($msDesc as node(), $hasMsParts as xs:boolean) (: or call: msDesc-or-msPart ?:)
+declare function mss:update-msDesc-xml-id-values($msDesc as node(), $hasMsParts as xs:boolean, $idPrefix as xs:string?)
 as item()+
 {
   let $index := ()
@@ -451,11 +452,12 @@ as item()+
   (: if the msDesc is made up of one or more msParts, process those as if they were msDesc nodes :)
     if ($hasMsParts) then 
     let $msPartsAndIndex := 
-      for $msPart in $msDesc/tei:msPart 
-      return mss:update-msDesc-xml-id-values($msDesc, false ())
+      for $msPart at $i in $msDesc/tei:msPart
+      let $partIdPrefix := "p" || $i (: I believe we cand depend on the order here? :)
+      return mss:update-msDesc-xml-id-values($msPart, false (), $partIdPrefix)
   (: split out the msPart elements and the index element for the updates :)
-    let $index := $msPartsAndIndex/*:update
-    let $msParts := $msPartsAndIndex/tei:msPart
+    let $index := $msPartsAndIndex/self::*:update
+    let $msParts := $msPartsAndIndex/self::tei:msPart
    
   (: build the updated msDesc element from the msParts and return along with the index :)
     let $newMsDesc := element {node-name($msDesc)} {$msDesc/@*,
@@ -468,22 +470,22 @@ as item()+
     else
     
     (: update the msItems in msContents :)
-    let $msContentsData := mss:update-msContents-xml-id-values($msDesc/tei:msContents)
+    let $msContentsData := mss:update-msContents-xml-id-values($msDesc/tei:msContents, $idPrefix)
     let $newMsContents := $msContentsData[1]
     let $index := ($index, $msContentsData[position()>1]) (: index is continuously collated from each update function :)
   
     (: update the handNotes in handDesc :)
-    let $handDescData := mss:update-handDesc-xml-id-values($msDesc/tei:physDesc/tei:handDesc)
+    let $handDescData := mss:update-handDesc-xml-id-values($msDesc/tei:physDesc/tei:handDesc, $idPrefix)
     let $newHandDesc := $handDescData[1]
     let $index := ($index, $handDescData[position()>1])
     
     (: update the decoNotes in decoDesc :)
-    let $decoDescData := if($msDesc/tei:physDesc/tei:decoDesc) then mss:update-decoDesc-xml-id-values($msDesc/tei:physDesc/tei:decoDesc) else ()
+    let $decoDescData := if($msDesc/tei:physDesc/tei:decoDesc) then mss:update-decoDesc-xml-id-values($msDesc/tei:physDesc/tei:decoDesc, $idPrefix) else ()
     let $newDecoDesc := if($msDesc/tei:physDesc/tei:decoDesc) then $decoDescData[1] else $msDesc/tei:physDesc/tei:decoDesc
     let $index := ($index, $decoDescData[position()>1])
   
   (: update the items in additions :)
-  let $additionsData := if($msDesc/tei:physDesc/tei:additions/tei:list/tei:item) then mss:update-additions-xml-id-values($msDesc/tei:physDesc/tei:additions) else()
+  let $additionsData := if($msDesc/tei:physDesc/tei:additions/tei:list/tei:item) then mss:update-additions-xml-id-values($msDesc/tei:physDesc/tei:additions, $idPrefix) else()
   let $newAdditions := if($msDesc/tei:physDesc/tei:additions/tei:list/tei:item) then $additionsData[1] else $msDesc/tei:physDesc/tei:additions
   let $index := ($index, $additionsData[position()>1])
   
@@ -547,7 +549,10 @@ as node()+
       mss:enumerate-element-sequence($nodesWithOnlyDeprecatedIds, 
                                      $elementName, 
                                      false ())
-  
+                                     
+  (: add the ID prefix to the xml:ids in the sequence :)
+  let $nodesWithNewAndDeprecatedIds :=
+     msParts:add-part-designation-to-element-sequence($nodesWithNewAndDeprecatedIds, "", $idPrefix) (: this isn't ideal. Refactor to have an 'add-id-prefix-to-elements-deep' function in the mss namespace; call this in the msParts namespace :)
   (: create the index of attribute updates :)
   let $index := mss:create-index-of-xml-id-updates($nodesWithNewAndDeprecatedIds,
                                                    (),
@@ -561,11 +566,11 @@ as node()+
   return (<container>{$updatedNodes}</container>, <container>{$index}</container>)
 };
 
-declare function mss:update-msContents-xml-id-values($msContents as node())
+declare function mss:update-msContents-xml-id-values($msContents as node(), $idPrefix as xs:string?)
 as item()+ {
   
   let $msItems := $msContents/tei:msItem
-  let $temp := mss:update-xml-id-values-deep($msItems, "msItem", "")
+  let $temp := mss:update-xml-id-values-deep($msItems, "msItem", $idPrefix)
   let $updatedMsItems := $temp[1]/* (: return the msItem sequence from the function return's first container :)
   let $index := $temp[2]/* (: return the index of updated ids from the function return's second container :)
   
@@ -577,11 +582,11 @@ as item()+ {
   return ($newMsContents, $index)
 };
 
-declare function mss:update-handDesc-xml-id-values($handDesc as node())
+declare function mss:update-handDesc-xml-id-values($handDesc as node(), $idPrefix as xs:string?)
 as item()+ {
   
   let $handNotes := $handDesc/tei:handNote
-  let $temp := mss:update-xml-id-values-deep($handNotes, "handNote", "")
+  let $temp := mss:update-xml-id-values-deep($handNotes, "handNote", $idPrefix)
   let $updatedHandNotes := $temp[1]/* (: return the handNote sequence from the function return's first container :)
   let $index := $temp[2]/* (: return the index of updated ids from the function return's second container :)
   
@@ -592,11 +597,10 @@ as item()+ {
   return ($newHandDesc, $index)
 };
 
-(: REFACTOR. This is a carbon copy of the handDesc update with 'hand' changed to 'deco'...Note that this would also solve the problem of seal and binding descs as they should follow the same principals. :)
-declare function mss:update-decoDesc-xml-id-values($decoDesc as node())
+declare function mss:update-decoDesc-xml-id-values($decoDesc as node(), $idPrefix as xs:string?)
 as item()+ {
   let $decoNotes := $decoDesc/tei:decoNote
-  let $temp := mss:update-xml-id-values-deep($decoNotes, "decoNote", "")
+  let $temp := mss:update-xml-id-values-deep($decoNotes, "decoNote", $idPrefix)
   let $updatedDecoNotes := $temp[1]/* (: return the decoNote sequence from the function return's first container :)
   let $index := $temp[2]/* (: return the index of updated ids from the function return's second container :)
   
@@ -607,11 +611,11 @@ as item()+ {
   return ($newDecoDesc, $index)
 };
 
-declare function mss:update-additions-xml-id-values($additions as node())
+declare function mss:update-additions-xml-id-values($additions as node(), $idPrefix as xs:string?)
 as item()+ {
   
   let $additionItems := $additions/tei:list/tei:item
-  let $temp := mss:update-xml-id-values-deep($additionItems, "item", "")
+  let $temp := mss:update-xml-id-values-deep($additionItems, "item", $idPrefix)
   let $updatedAdditionItems := $temp[1]/* (: return the handNote sequence from the function return's first container :)
   let $index := $temp[2]/* (: return the index of updated ids from the function return's second container :)
   
