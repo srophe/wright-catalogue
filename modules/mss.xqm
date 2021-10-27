@@ -411,49 +411,14 @@ declare function mss:update-tei-text-elements($doc as node()+) as node()+ {
 : Functions for updating elements' xml:id values
 : ------------------------:)
 
-declare function mss:update-xml-id-values($doc as node(), $hasMsParts as xs:boolean)
+declare function mss:update-document-xml-id-values($doc as node())
 as item()+ (: returns a sequence of a document-node() representing the updated record and a node() representing an index of updates needing to be propagated to existing data (e.g., cross-references to specific msItems) :)
 {
-  (: note: handle msParts! Maybe have a for loop where you pass the msPart to this function with a 'false ()' hasMsParts value.
-  Then you can collect a sequence of msParts. Hmm this needs thought but might work? Essentially have the msParts processed normally and then you have a similar flag to control how everything is put together in the last stage?
-   :)
-  let $index := ()
-  
-  (: update the msItems in msContents :)
-  let $msContentsData := mss:update-msContents-xml-id-values($doc//tei:msDesc/tei:msContents)
-  let $newMsContents := $msContentsData[1]
-  let $index := ($index, $msContentsData[position()>1]) (: index is continuously collated from each update function :)
-  
-  (: update the handNotes in handDesc :)
-  let $handDescData := mss:update-handDesc-xml-id-values($doc//tei:msDesc/tei:physDesc/tei:handDesc)
-  let $newHandDesc := $handDescData[1]
-  let $index := ($index, $handDescData[position()>1])
-    
-  (: update the decoNotes in decoDesc :)
-  let $decoDescData := if($doc//tei:msDesc/tei:physDesc/tei:decoDesc) then mss:update-decoDesc-xml-id-values($doc//tei:msDesc/tei:physDesc/tei:decoDesc) else ()
-  let $newDecoDesc := if($doc//tei:msDesc/tei:physDesc/tei:decoDesc) then $decoDescData[1] else $doc//tei:msDesc/tei:physDesc/tei:decoDesc
-  let $index := ($index, $decoDescData[position()>1])
-  
-  (: update the items in additions :)
-  let $additionsData := if($doc//tei:msDesc/tei:physDesc/tei:additions) then mss:update-additions-xml-id-values($doc//tei:msDesc/tei:physDesc/tei:additions) else()
-  let $newAdditions := if($doc//tei:msDesc/tei:physDesc/tei:additions) then $additionsData[1] else $doc//tei:msDesc/tei:physDesc/tei:additions
-  let $index := ($index, $additionsData[position()>1])
-  
-  (: build the new file from updated components :)
-  let $oldPhysDesc := $doc//tei:msDesc/tei:physDesc
-  let $newPhysDesc := element {node-name($oldPhysDesc)} {$oldPhysDesc/@*,
-                                                         $oldPhysDesc/tei:objectDesc,
-                                                         $newHandDesc,
-                                                         $newDecoDesc,
-                                                         $newAdditions}
-  let $oldMsDesc := $doc//tei:msDesc
-  let $newMsDesc := element {node-name($oldMsDesc)} {$oldMsDesc/@*,
-                                                     $oldMsDesc/tei:msIdentifier,
-                                                     $newMsContents,
-                                                     $newPhysDesc,
-                                                     $oldMsDesc/tei:history,
-                                                     $oldMsDesc/tei:additional
-                                                     }
+  let $hasMsPart := if($doc//tei:msPart) then true () else false ()
+  let $temp := mss:update-msDesc-xml-id-values($doc//tei:sourceDesc/tei:msDesc, $hasMsPart)
+  let $newMsDesc := $temp[1]
+  let $index := $temp[position() > 1]
+
   let $newSourceDesc := element {node-name($doc//tei:sourceDesc)} {$newMsDesc}
   
   let $oldFileDesc := $doc//tei:fileDesc
@@ -476,6 +441,68 @@ as item()+ (: returns a sequence of a document-node() representing the updated r
  let $newDoc := document {$doc/processing-instruction(), $newRecord}
  
  return ($newDoc, $index)
+};
+
+declare function mss:update-msDesc-xml-id-values($msDesc as node(), $hasMsParts as xs:boolean) (: or call: msDesc-or-msPart ?:)
+as item()+
+{
+  let $index := ()
+  return 
+  (: if the msDesc is made up of one or more msParts, process those as if they were msDesc nodes :)
+    if ($hasMsParts) then 
+    let $msPartsAndIndex := 
+      for $msPart in $msDesc/tei:msPart 
+      return mss:update-msDesc-xml-id-values($msDesc, false ())
+  (: split out the msPart elements and the index element for the updates :)
+    let $index := $msPartsAndIndex/*:update
+    let $msParts := $msPartsAndIndex/tei:msPart
+   
+  (: build the updated msDesc element from the msParts and return along with the index :)
+    let $newMsDesc := element {node-name($msDesc)} {$msDesc/@*,
+                                                     $msDesc/tei:msIdentifier,
+                                                     $msParts
+                                                     }
+    return ($newMsDesc, $index)
+    
+    (: if the node does not have nested msParts (i.e., it is an msPart itself or it is a simple msDesc), process it as normal :)
+    else
+    
+    (: update the msItems in msContents :)
+    let $msContentsData := mss:update-msContents-xml-id-values($msDesc/tei:msContents)
+    let $newMsContents := $msContentsData[1]
+    let $index := ($index, $msContentsData[position()>1]) (: index is continuously collated from each update function :)
+  
+    (: update the handNotes in handDesc :)
+    let $handDescData := mss:update-handDesc-xml-id-values($msDesc/tei:physDesc/tei:handDesc)
+    let $newHandDesc := $handDescData[1]
+    let $index := ($index, $handDescData[position()>1])
+    
+    (: update the decoNotes in decoDesc :)
+    let $decoDescData := if($msDesc/tei:physDesc/tei:decoDesc) then mss:update-decoDesc-xml-id-values($msDesc/tei:physDesc/tei:decoDesc) else ()
+    let $newDecoDesc := if($msDesc/tei:physDesc/tei:decoDesc) then $decoDescData[1] else $msDesc/tei:physDesc/tei:decoDesc
+    let $index := ($index, $decoDescData[position()>1])
+  
+  (: update the items in additions :)
+  let $additionsData := if($msDesc/tei:physDesc/tei:additions/tei:list/tei:item) then mss:update-additions-xml-id-values($msDesc/tei:physDesc/tei:additions) else()
+  let $newAdditions := if($msDesc/tei:physDesc/tei:additions/tei:list/tei:item) then $additionsData[1] else $msDesc/tei:physDesc/tei:additions
+  let $index := ($index, $additionsData[position()>1])
+  
+  (: build the new msDesc from updated components :)
+  let $oldPhysDesc := $msDesc/tei:physDesc
+  let $newPhysDesc := element {node-name($oldPhysDesc)} {$oldPhysDesc/@*,
+                                                         $oldPhysDesc/tei:objectDesc,
+                                                         $newHandDesc,
+                                                         $newDecoDesc,
+                                                         $newAdditions}
+  
+  let $newMsDesc := element {node-name($msDesc)} {$msDesc/@*,
+                                                     $msDesc/tei:msIdentifier,
+                                                     $newMsContents,
+                                                     $newPhysDesc,
+                                                     $msDesc/tei:history,
+                                                     $msDesc/tei:additional
+                                                     }
+  return ($newMsDesc, $index)
 };
 
 (:~ 
