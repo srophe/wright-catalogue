@@ -28,8 +28,10 @@ declare default element namespace "http://www.tei-c.org/ns/1.0";
 
 
 
-let $inputDoc := doc("C:\Users\anoni\Documents\GitHub\srophe\wright-catalogue\data\5_finalized\ms-parts\249\250.xml")
-return mss:update-xml-id-values($inputDoc, false ())
+let $inputDoc := doc("C:\Users\anoni\Documents\GitHub\srophe\wright-catalogue\data\5_finalized\58.xml")
+let $hasMsPart := if($inputDoc//msPart) then true () else false ()
+return mss:update-document-xml-id-values($inputDoc)
+(: return mss:update-handDesc-xml-id-values($inputDoc//msDesc/physDesc/handDesc) :)
 (: return functx:remove-attributes-deep($inputDoc//msContents/msItem, "xml:id") :)
   
   (:
