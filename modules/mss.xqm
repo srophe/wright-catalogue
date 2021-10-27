@@ -537,22 +537,10 @@ as node()+
 declare function mss:update-msContents-xml-id-values($msContents as node())
 as item()+ {
   
-  (: add deprecatedId attributes based on current xml:id values :)
   let $msItems := $msContents/tei:msItem
-  let $oldMsItemsWithDeprecatedIds := mss:add-deprecatedId-attributes-deep($msItems, "msItem") (: currently assuming we are comparing xml:id values; will be difficult to do otherwise :)
-  
-  (: remove xml:id and n attributes :)
-  let $msItemsWithOnlyDeprecatedIds := functx:remove-attributes-deep($oldMsItemsWithDeprecatedIds, "xml:id") (: I think this is okay since only msItem children will have xml:ids; no notes, rubrics, etc. should have them? :)
-  let $msItemsWithOnlyDeprecatedIds := functx:remove-attributes-deep($msItemsWithOnlyDeprecatedIds, "n")
-  
-  (: renumber and re-identify msItems :)
-  let $msItemsWithNewAndDeprecatedIds := mss:add-msItem-id-and-enumeration-values(<msItemContainer>{$msItemsWithOnlyDeprecatedIds}</msItemContainer>, $mss:initial-msItem-up-stack, $mss:initial-msItem-down-stack, 1)[1]/tei:msItem
-  
-  (: create the index of attribute updates :)
-  let $index := mss:create-index-of-xml-id-updates($msItemsWithNewAndDeprecatedIds, (), "msItem")
-
-  (: remove the deprecatedId attributes as they are no longer needed :)
-  let $updatedMsItems := functx:remove-attributes-deep($msItemsWithNewAndDeprecatedIds, "deprecatedId")
+  let $temp := mss:update-xml-id-values-deep($msItems, "msItem", "")
+  let $updatedMsItems := $temp[1]/* (: return the msItem sequence from the function return's first container :)
+  let $index := $temp[2]/* (: return the index of updated ids from the function return's second container :)
   
   (: build the new msContents element from the updated msItem sequence :)
   let $newMsContents := element {node-name($msContents)} {$msContents/@*, 
@@ -564,21 +552,11 @@ as item()+ {
 
 declare function mss:update-handDesc-xml-id-values($handDesc as node())
 as item()+ {
-  (: add deprecatedId attributes based on current xml:id values :)
+  
   let $handNotes := $handDesc/tei:handNote
-  let $oldHandNotesWithDeprecatedIds :=  mss:add-deprecatedId-attributes-deep($handNotes, "handNote")
-  
-  (: remove xml:id attributes :)
-  let $handNotesWithOnlyDeprecatedIds := functx:remove-attributes-deep($oldHandNotesWithDeprecatedIds, "xml:id")
-  
-  (: re-identify msItems :)
-  let $handNotesWithNewAndDeprecatedIds := mss:enumerate-element-sequence($handNotesWithOnlyDeprecatedIds, "handNote", fn:boolean(0))
-  
-  (: create the index of attribute updates :)
-  let $index := mss:create-index-of-xml-id-updates($handNotesWithNewAndDeprecatedIds, (), "handNote")
-
-  (: remove the deprecatedId attributes as they are no longer needed :)
-  let $updatedHandNotes := functx:remove-attributes-deep($handNotesWithNewAndDeprecatedIds, "deprecatedId")
+  let $temp := mss:update-xml-id-values-deep($handNotes, "handNote", "")
+  let $updatedHandNotes := $temp[1]/* (: return the handNote sequence from the function return's first container :)
+  let $index := $temp[2]/* (: return the index of updated ids from the function return's second container :)
   
   (: build the new handDesc element from the updated msItem sequence :)
   let $newHandDesc := element {node-name($handDesc)} {$handDesc/@*, 
@@ -590,21 +568,10 @@ as item()+ {
 (: REFACTOR. This is a carbon copy of the handDesc update with 'hand' changed to 'deco'...Note that this would also solve the problem of seal and binding descs as they should follow the same principals. :)
 declare function mss:update-decoDesc-xml-id-values($decoDesc as node())
 as item()+ {
-  (: add deprecatedId attributes based on current xml:id values :)
   let $decoNotes := $decoDesc/tei:decoNote
-  let $oldDecoNotesWithDeprecatedIds :=  mss:add-deprecatedId-attributes-deep($decoNotes, "decoNote")
-  
-  (: remove xml:id attributes :)
-  let $decoNotesWithOnlyDeprecatedIds := functx:remove-attributes-deep($oldDecoNotesWithDeprecatedIds, "xml:id")
-  
-  (: re-identify msItems :)
-  let $decoNotesWithNewAndDeprecatedIds := mss:enumerate-element-sequence($decoNotesWithOnlyDeprecatedIds, "decoNote", boolean(0))
-  
-  (: create the index of attribute updates :)
-  let $index := mss:create-index-of-xml-id-updates($decoNotesWithNewAndDeprecatedIds, (), "decoNote")
-
-  (: remove the deprecatedId attributes as they are no longer needed :)
-  let $updatedDecoNotes := functx:remove-attributes-deep($decoNotesWithNewAndDeprecatedIds, "deprecatedId")
+  let $temp := mss:update-xml-id-values-deep($decoNotes, "decoNote", "")
+  let $updatedDecoNotes := $temp[1]/* (: return the decoNote sequence from the function return's first container :)
+  let $index := $temp[2]/* (: return the index of updated ids from the function return's second container :)
   
   (: build the new handDesc element from the updated msItem sequence :)
   let $newDecoDesc := element {node-name($decoDesc)} {$decoDesc/@*, 
@@ -615,22 +582,11 @@ as item()+ {
 
 declare function mss:update-additions-xml-id-values($additions as node())
 as item()+ {
-  (: add deprecatedId attributes based on current xml:id values :)
+  
   let $additionItems := $additions/tei:list/tei:item
-  let $oldAdditionItemsWithDeprecatedIds :=  mss:add-deprecatedId-attributes-deep($additionItems, "item")
-  
-  (: remove xml:id and n attributes :)
-  let $additionItemsWithOnlyDeprecatedIds := functx:remove-attributes-deep($oldAdditionItemsWithDeprecatedIds, "xml:id")
-  let $additionItemsWithOnlyDeprecatedIds := functx:remove-attributes-deep($additionItemsWithOnlyDeprecatedIds, "n")
-
-  (: re-identify msItems :)
-  let $additionItemsWithNewAndDeprecatedIds := mss:enumerate-element-sequence($additionItemsWithOnlyDeprecatedIds, "addition", boolean(1))
-  
-  (: create the index of attribute updates :)
-  let $index := mss:create-index-of-xml-id-updates($additionItemsWithNewAndDeprecatedIds, (), "item")
-
-  (: remove the deprecatedId attributes as they are no longer needed :)
-  let $updatedAdditionItems := functx:remove-attributes-deep($additionItemsWithNewAndDeprecatedIds, "deprecatedId")
+  let $temp := mss:update-xml-id-values-deep($additionItems, "item", "")
+  let $updatedAdditionItems := $temp[1]/* (: return the handNote sequence from the function return's first container :)
+  let $index := $temp[2]/* (: return the index of updated ids from the function return's second container :)
   
   (: build the new handDesc element from the updated msItem sequence :)
   let $newAdditionsList := element {node-name($additions/tei:list)} {$updatedAdditionItems}
