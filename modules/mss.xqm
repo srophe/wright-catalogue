@@ -495,7 +495,11 @@ as item()+
                                                          $oldPhysDesc/tei:objectDesc,
                                                          $newHandDesc,
                                                          $newDecoDesc,
-                                                         $newAdditions}
+                                                         $newAdditions,
+                                                         (: for now have these last two pass as-is. If we start adding this info we will need to pass this instead to the update id function :)
+                                                         $oldPhysDesc/tei:bindingDesc,
+                                                         $oldPhysDesc/tei:sealDesc,
+                                                         $oldPhysDesc/tei:accMat}
   
   let $newMsDesc := element {node-name($msDesc)} {$msDesc/@*,
                                                      $msDesc/tei:msIdentifier,
