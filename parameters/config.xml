@@ -19,4 +19,7 @@
     <!-- maybe?
      <pathToProjectConfig></pathToProjectConfig>
      -->
+    <!-- Points to a directory wherein are stored XML files representing an index of xml:id values that have changed within a record.
+        These index files may be used to propagate changes to intra-project links created between records, msItems, etc. -->
+    <pathToIndexOfIdsToUpdate>/resources/pending-id-updates/</pathToIndexOfIdsToUpdate>
 </config>

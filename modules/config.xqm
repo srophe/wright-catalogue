@@ -44,6 +44,8 @@ declare variable $config:editors-document :=
 declare variable $config:change-log-script-id := $config:config/config/changeLogScriptId/text();
 
 declare variable $config:change-log-message := $config:config/config/changeLogMessage/text();
+
+declare variable $config:index-of-pending-id-updates-directory := $config:config/config/pathToIndexOfIdsToUpdate/text();
 (:
 global variables:
 

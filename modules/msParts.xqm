@@ -60,6 +60,9 @@ declare variable $msParts:output-directory :=
 declare variable $msParts:output-file-name :=
   let $msId := functx:substring-after-if-contains($msParts:ms-level-uri, $config:uri-base)
   return $msParts:output-directory || $msId || ".xml";
+  
+declare variable $msParts:index-of-pending-id-updates-directory :=
+  $config:path-to-repo || $config:index-of-pending-id-updates-directory;
     
 (: -------------------------------------------------------- :)
 (: Create document node of full record from component parts :)
