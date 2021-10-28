@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14628 foll. 1—8, upper text</title>
+        <title level="a" xml:lang="en">BL Add MS 14628 foll. 1—8, lower text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -49,7 +49,7 @@
       </editionStmt>
          <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/369/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1477/tei</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -59,15 +59,15 @@
         <date calendar="Gregorian"/>
       </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="manuscript-369">
+            <msDesc xml:id="manuscript-1477">
                <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/369</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1477</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14628 foll. 1—8, upper text</idno>
+              <idno type="BL-Shelfmark">Add MS 14628 foll. 1—8, lower text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -80,17 +80,17 @@
           </msIdentifier>
                <msContents>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1" defective="true">
-              <title xml:lang="en">Part of a series of questions and answers</title>
-              <msItem>
-                <title xml:lang="en">The first question and answer</title>
-                <quote xml:lang="syr">܏ܬܠܡܝܕܐ ܏ܡܫܐܠ. ܒܐܝܢܐ ܠܫܢܐ ܡܡܠܠܝܢ ܒܢ̈ܝܢܫܐ ܒܝܘܡܐ ܕܕܝܢ̣ܐ.
-                  ܡܛܠ ܕܬܡܢ ܠܝܬ ܒܘܠܒܠܐ ܕܠܫܢ̈ܐ. ܐܝܢܐ ܐܡ̇ܪ ܐܢܬ ܕܐܝ܏ܬܘ. ܏ܡܠܦܢܐ ܏ܡܦܫܩ. ܒܗ̇ܘ ܠܫܢܐ
-                  ܕܡܠܠ ܒܗ ܐܠܗܐ ܥܡ ܐܕܡ ܡܢ ܩܕܝܡ. ܘܐܕܡ ܥܡ ܐܠܗܐ. ܘܗܢܐ ܡܬܕܡܐ ܠܝ ܡܢ ܪܘܚܐ ܕܩܘܕܫܐ
-                  ܕܐܝܬܘܗܝ ܐܪܡܝܐ. ܠܫܢܐ ܦܬܝܐ ܘܪܘܝܚܐ ܥܠ ܟܠܗܘܢ ܥܡ̈ܡܐ ܡܗܝܡܐܝܬ݂. <foreign xml:lang="en">(sic)</foreign> ܘܒܟܠܗ ܫܪܪܐ
-                  ܕܐܪܡܝܐ ܐܝܬܘܗܝ̣. ܘܕܝܠܗ ܐܝܬܝܗ̇ ܪܒܘܬܐ. ܡܛܠ ܕܚܝܠܬܢ ܗܘ ܒܡܠܬܐ. ܘܦܫܝܛ ܒܡܡܠܠܐ ܘܬܪܝܨ
-                  ܒܠܫܢܐ</quote>
-                <note>Transcribed here as a specimen of the larger work.</note>
+            <msItem defective="true">
+              <title xml:lang="en">The book of Ezekiel, according to the Pěshīttā
+                version</title>
+              <note>It is most clearly legible on <locus from="6">fol. 6</locus>.</note>
+              <msItem defective="true">
+                <locus from="6a"/>
+                <title xml:lang="en">ch. xxiv. 19—25</title>
+              </msItem>
+              <msItem defective="true">
+                <locus from="6b"/>
+                <title xml:lang="en">ch. xxiv. 25— ch. xxv. 5</title>
               </msItem>
             </msItem>
           </msContents>
@@ -105,8 +105,7 @@
                         <condition>
                            <list>
                               <item>
-                                 <p>Eight vellum leaves, 8 1/8 in. by 5, with from 22 to 25 lines in
-                                    each page. These leaves are palimpsest; see further <ref target="http://syriaca.org/manuscript/1477">the more ancient text</ref>.</p>
+                                <p>Eight vellum leaves, 8 1/8 in. by 5. These leaves are palimpsest; see further <ref target="http://syriaca.org/manuscript/369">the less ancient text</ref>.</p>
                               </item>
                            </list>
                         </condition>
@@ -116,8 +115,8 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                <desc>Written in a good, regular hand of <date notBefore="1000" notAfter="1100">about the xith cent.</date></desc>
+              <handNote medium="unknown" xml:id="handNote2" scope="sole" script="syr-Syre">
+                        <desc>Written in a fine Estrangělā of the <date notBefore="0500" notAfter="0700">vith or viith cent.</date></desc>
                      </handNote>
             </handDesc>
                   <additions/>
@@ -131,7 +130,7 @@
                </physDesc>
                <history>
                   <origin>
-                    <origDate notBefore="0950" notAfter="1150">about the xith cent.</origDate>
+                    <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
@@ -156,7 +155,7 @@
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
                 <citedRange unit="entry">DCCCLXXVI</citedRange>
-                <citedRange unit="pp">2:1021-1022</citedRange>
+                <citedRange unit="pp">2:1022</citedRange>
               </bibl>
             </listBibl>
           </additional>
