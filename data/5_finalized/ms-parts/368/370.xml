@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,15 +81,13 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <author ref="http://syriaca.org/person/44">Philoxenus of <placeName ref="http://syriaca.org/place/122">Mabūg</placeName>
-              </author>
-              <title xml:lang="en">Portions of a controversial treatise against the
-                        Nestorians, in the form of a dialogue between the Church (<quote xml:lang="syr-Syre">ܥܕܬܐ</quote>) and a Nestorian (<quote xml:lang="syr-Syre">ܢܣܛܘܪ</quote>), by <persName ref="http://syriaca.org/person/44">Philoxenus of <placeName ref="http://syriaca.org/place/122">Mabūg</placeName>
+              <author ref="http://syriaca.org/person/44">Philoxenus of Mabūg</author>
+              <title xml:lang="en">Portions of a controversial treatise against <persName>the
+                        Nestorians</persName>, in the form of a dialogue between the Church (<foreign xml:lang="syr">ܥܕܬܐ</foreign>) and a Nestorian (<foreign xml:lang="syr">ܢܣܛܘܪ</foreign>), by <persName ref="http://syriaca.org/person/44">Philoxenus of <placeName ref="http://syriaca.org/place/122">Mabūg</placeName>
                 </persName>
               </title>
               <note>Compare <bibl>Assemani, Bibl. Or., t. ii., p. 45, no. 15</bibl>.</note>
-              <note>We have here part of the introduction and the commencement of the
-                        disputation.</note>
+              <note>We have here part of the introduction and the commencement of the disputation.</note>
             </msItem>
           </msContents>
                <physDesc>
@@ -103,7 +101,7 @@
                         <condition>
                            <list>
                               <item>
-                                 <p>Twelve vellum leaves, about 9 1/8 in. by 5 ½, some of which are
+                                 <p>Twelve vellum leaves, about 9 1/8 in. by 5 1/2, some of which are
                                     slightly stained and torn. Several leaves are wanting between
                                     the first six and the last six. It has from 29 to 32 lines in
                                     each page.</p>
@@ -117,23 +115,10 @@
                   </objectDesc>
                   <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr-Syre">
-                        <desc>The writing is a fine, regular Estrangělā of the <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate>. The
-                           handwriting is the same as that of <bibl>Add. 14,670, foll.
-                           19-22</bibl>.</desc>
+                        <desc>The writing is a fine, regular Estrangělā of the <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate> The handwriting is the same as that of <bibl>Add. 14,670, foll. 19-22</bibl>.</desc>
                      </handNote>
             </handDesc>
-                  <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p/>
-                           <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                        </item>
-              </list>
-            </additions>
+                  <additions/>
                   <bindingDesc>
                      <p>Content pending</p>
                   </bindingDesc>
@@ -144,7 +129,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate/>
+                    <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
