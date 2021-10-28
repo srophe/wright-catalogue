@@ -30,7 +30,7 @@ let $nothing := file:create-dir($msParts:output-directory)
 need:
 - if file-or-console = "file" store it
 :)
-let $outputDoc := msParts:create-composite-document($msParts:manuscript-part-source-document-sequence)
+let $outputDoc := msParts:create-composite-document($msParts:manuscript-part-source-document-sequence) (: for refacotring to handle xml id update index, this function will return an index of updates as well. This index should be stored at a specified place and named based on current date and time :)
 return if($msParts:file-or-console = "file") then
           file:write($msParts:output-file-name, $outputDoc, map {'method': 'xml', 'omit-xml-declaration': 'no'})
        else 

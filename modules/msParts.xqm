@@ -78,7 +78,7 @@ declare function msParts:create-composite-document($msPartsDocumentSequence as n
   (: build other components from functions :)
   let $titleStmt := msParts:create-merged-titleStmt($msPartsDocumentSequence)
   let $publicationStmt := msParts:create-publicationStmt($msParts:config-msParts/config/manuscriptLevelMetadata/uriValue/text())
-  let $msDesc := msParts:update-msDesc($msPartsDocumentSequence)
+  let $msDesc := msParts:update-msDesc($msPartsDocumentSequence) (: FOR re-factor update this will also return an index of updates that should be returned up from this function as well (can be returned as-is since it has requisite attributes and elements) :)
   let $textClass := msParts:create-merged-textClass($msPartsDocumentSequence)
   let $revisionDesc := msParts:create-merged-revisionDesc($msPartsDocumentSequence)
   
@@ -157,7 +157,7 @@ declare function msParts:create-publicationStmt($uri as xs:string) as node() {
 declare function msParts:update-msDesc($msPartDocumentSequence as node()+) as node() {
   let $msDescId := "manuscript-"||$msParts:config-msParts/config/manuscriptLevelMetadata/uriValue/text()
   let $msIdentifier := msParts:create-main-msIdentifier()
-  let $msPartSeq := msParts:create-msPart-sequence($msPartDocumentSequence)
+  let $msPartSeq := msParts:create-msPart-sequence($msPartDocumentSequence) (: FOR re-factor of updating xml ids this returns an index as well, which should be passed up the chain as a second return (it can be passed up as-is since it will already have required attributes for uris, etc.):)
   return element {QName("http://www.tei-c.org/ns/1.0", "msDesc")} {attribute {"xml:id"} {$msDescId}, $msIdentifier, $msPartSeq}
 };
 
@@ -175,11 +175,37 @@ declare function msParts:create-main-msIdentifier() {
 
 declare function msParts:create-msPart-sequence($msPartDocumentSequence as node()+) as node()+ {
   for $doc at $i in $msPartDocumentSequence (: figuring out how to handle adding them into existing msParts will be interesting. Potentially an 'update-msPart-sequence' function where you somehow specify the value of the part number and where within it you want it to go. Think more about htis.:)
-    let $msPart := msParts:create-msPart($doc//tei:msDesc, fn:string($i))
+    let $msPart := msParts:create-msPart($doc//tei:msDesc, fn:string($i)) (: FOR re-index refactor; this function will return an index at [2] in the return sequence. 
+    : do something like this:
+    :     let $index := $msPartsAndIndex/self::*:part
+    :     let $msParts := $msPartsAndIndex/self::tei:msPart
+    
+    Then nest the index parts in a <record/> with @uri for the whole ms. Then return this along with the $msPart sequence:)
     return $msPart
 };
 
 declare function msParts:create-msPart($singleMsDesc as node(), $partNumber as xs:string) as node() {
+  (:
+  refactor to create the updated ids index. This renders many sub-functions deprecated.
+  
+  COMMENT: update the xml:ids of the descendants using the part designation as prefix. 
+  let $temp := mss:update-msDesc-xml-id-values($singleMsDesc, false (), "p" || $partNumber)
+  let $newMsDesc := temp[1]
+  
+  COMMENT: Build the index of updates for this msPart, storing the <update/> elements in a <part/> element whose @uri attribute is the URI for that msPart (in its tei:msIdentifier/tei:idno). These will then be nested within each <record/> element identified by the overall composite ms.
+  let $index := temp[position > 1]
+  let $partIndex := <part uri="{$singleMsDesc/tei:msIdentifier/tei:idno/text()}">{$index}</part>
+  
+  COMMENT: Separately add the part designation to the tei:bibls in the tei:additional node
+  let $additional := msParts:add-part-designation-to-additional($singleMsDesc/tei:additional, $partNumber)
+  
+  COMMENT: 
+  let $msPartNode := element {QName("http://www.tei-c.org/ns/1.0", "msPart")} {attribute {"xml:id"} {"Part"||$partNumber}, attribute {"n"} {$partNumber}, $newMsDesc/*[not(name() = "additional"], $additional}
+  
+  COMMENT: return both the msPart node and the
+  return ($msPartNode, $partIndex)
+  
+  :)
   let $msIdentifier := $singleMsDesc/tei:msIdentifier
   let $msContents := msParts:add-part-designation-to-msContents($singleMsDesc/tei:msContents, $partNumber)
   let $physDesc := msParts:add-part-designation-to-physDesc($singleMsDesc/tei:physDesc, $partNumber)
