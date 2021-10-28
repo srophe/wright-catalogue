@@ -647,7 +647,7 @@ as node()*
      let $updateList := if(string($node/@xml:id) != string($node/@deprecatedId) (: if there was a change in ID :)
                            (: and string($node/@deprecatedId) != "" :)) (: and if there was an old ID that changed -- commented out for testing purposes :)
                         then
-                        <update>
+                        <update timeStamp="{string(current-dateTime())}">
                           <oldId>{string($node/@deprecatedId)}</oldId>
                           <newId>{string($node/@xml:id)}</newId>
                         </update>
