@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14638, foll. 1-18, upper text</title>
+        <title level="a" xml:lang="en">BL Add MS 14638, foll. 1-18, lower text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -49,7 +49,7 @@
       </editionStmt>
       <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/401/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1478/tei</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -59,15 +59,15 @@
         <date calendar="Gregorian"/>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-401">
+        <msDesc xml:id="manuscript-1478">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/401</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1478</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14638, foll. 1-18, upper text</idno>
+              <idno type="BL-Shelfmark">Add MS 14638, foll. 1-18, lower text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -80,76 +80,10 @@
           </msIdentifier>
           <msContents>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1" defective="false">
-              <locus from="1b"/>
-              <title>Consolatory discourses and prayers for <persName>the Dead</persName></title>
+            <msItem xml:id="a1" n="1">
+              <locus from="1a"/>
+              <title>Portions of a Greek Lectionary from <ref>the Gospels</ref></title>
               <rubric xml:lang="syr">ܒܘ̈ܝܐܐ ܕܥܠ ܥܢܝ̈ܕܐ</rubric>
-              <msItem xml:id="b1" n="2">
-                <locus from="1b"/>
-                <title xml:lang="en">For the <persName>clergy</persName>, <persName>monks</persName>, and <persName>men of rank</persName></title>
-                <rubric xml:lang="syr">ܩܕܡܝܐ ܕܥܠ ܩܠܝܪ̈ܝܩܘ ܘܕܝܪ̈ܝܐ ܘܐܢܫܐ ܡܝܩܪ̈ܐ</rubric>
-              </msItem>
-              <msItem xml:id="b2" n="3">
-                <locus from="2a"/>
-                <title xml:lang="en">For <persName>old men</persName></title>
-                <rubric xml:lang="syr">ܕܥܠ ܣܒ̈ܐ</rubric>
-              </msItem>
-              <msItem xml:id="b3" n="4">
-                <locus from="3a"/>
-                <title xml:lang="en">For <persName>children</persName></title>
-                <rubric xml:lang="syr">ܕܥܠ ܛܠܝ̈ܐ</rubric>
-              </msItem>
-              <msItem xml:id="b4" n="5">
-                <locus from="3b"/>
-                <title xml:lang="en">Another</title>
-                <rubric xml:lang="syr">ܐܚܪܢܐ</rubric>
-              </msItem>
-              <msItem xml:id="b5" n="6">
-                <locus from="5a"/>
-                <title xml:lang="en">For any person</title>
-                <rubric xml:lang="syr">ܕܥܠ ܟܠܢܫ</rubric>
-              </msItem>
-              <msItem xml:id="b6" n="7">
-                <locus from="5a"/>
-                <title xml:lang="en">For <persName>a priest</persName></title>
-                <rubric xml:lang="syr">ܒܘܝܐܐ ܕܡܛܠ ܟܗܢܐ</rubric>
-              </msItem>
-              <msItem xml:id="b7" n="8">
-                <locus from="7b"/>
-                <title xml:lang="en">For <persName>deacons</persName></title>
-                <rubric xml:lang="syr">ܐܚܪܢܐ ܕܥܠ ܡܫܡ̈ܫܢܐ</rubric>
-              </msItem>
-              <msItem xml:id="b8" n="9">
-                <locus from="9a"/>
-                <title xml:lang="en">For <persName>monks</persName></title>
-                <rubric xml:lang="syr">ܐܚܪܢܐ ܕܥܠ ܕܝܪ̈ܝܐ</rubric>
-              </msItem>
-              <msItem xml:id="b9" n="10">
-                <locus from="10b"/>
-                <title xml:lang="en">For <persName>virgins</persName></title>
-                <rubric xml:lang="syr">ܕܥܠ ܒܬܘ̈ܠܐ ܘܒܬܘ̈ܠܬܐ</rubric>
-              </msItem>
-              <msItem xml:id="b10" n="11">
-                <locus from="12a"/>
-                <title xml:lang="en">For <persName>children</persName></title>
-                <rubric xml:lang="syr">ܐܚܪܢܐ ܕܥܠ ܛ̈ܠܝܐ</rubric>
-              </msItem>
-              <msItem xml:id="b11" n="12" defective="true">
-                <locus from="13b"/>
-                <title xml:lang="en">For any person</title>
-                <rubric xml:lang="syr">ܐܚܪܢܐ ܕܥܠ ܟܠܢܫ</rubric>
-              </msItem>
-            </msItem>
-            <msItem xml:id="a2" n="13">
-              <locus from="14a"/>
-              <title xml:lang="en">Short ejaculatory prayers on various occasions, for the
-                whole people and for individuals</title>
-            </msItem>
-            <msItem xml:id="a3" n="14">
-              <locus from="18a"/>
-              <title xml:lang="en">Consolatory phrases</title>
-              <rubric xml:lang="syr">ܡ̈ܠܐ ܕܒܘܝܐܐ</rubric>
-              <note>Left unfinished by the scribe.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -163,9 +97,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Vellum, about 6 3/4 in. by 4 3/4, consisting of 18 leaves, several of which
-                        are slightly stained and torn, especially foll. 11—13 and 18. The number of
-                        lines in each page varies from 26 to 37. This manuscript is palimpsest; cf. <ref target="http://syriaca.org/manuscript/1478">the lower text</ref>.</p>
+                      <p>This manuscript is palimpsest; cf. <ref target="http://syriaca.org/manuscript/401">the upper text</ref>. Some of the rubrics are still quite legible; for example, foll. 1 a, 4 b, 6 b, 7 a, 8 b, 11 a, and 13 b. The text can be read with considerable ease in most places, but particularly on foll. 1 a and 18 b, which have been left blank by the Syrian scribe.</p>
                     </item>
                   </list>
                 </condition>
@@ -175,12 +107,9 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="minor" script="syr-Syre">
-                <desc><locus>The first two pages</locus> are written in Estrangela, of the <date>ixth or xth cent.</date></desc> 
+              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="grc">
+                <desc><date>Viiith cent.</date>, written in rather elegant, slanting uncials, with larger initial letters and with accents.</desc> 
               </handNote>
-              <handNote medium="unknown" xml:id="handNote2" scope="major" script="syr">
-              <desc>The remainding pages (<locus>foll. 3-18</locus>) are in a more cursive character, also of the <date>ixth or xth cent.</date></desc> 
-                </handNote>
             </handDesc>
             <additions/>
             <bindingDesc>
@@ -193,7 +122,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate from="0800" to="1000">ixth or xth cent.</origDate>
+              <origDate from="0600" to="0700">viith cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -218,7 +147,7 @@
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
                 <citedRange unit="entry">DXXIII</citedRange>
-                <citedRange unit="pp">1:398-399</citedRange>
+                <citedRange unit="pp">1:399</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -375,9 +304,7 @@
       <textClass>
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
-            <item>
-              <ref target="#funerals"/>
-            </item>
+            <item/>
           </list>
         </keywords>
       </textClass>
