@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -35,10 +35,10 @@
             <resp>Greek and coptic text entry and proofreading by</resp>
             <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
         </respStmt>
-        <respStmt>
-            <resp>Project management by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
-        </respStmt>
+          <respStmt>
+              <resp>Project management by</resp>
+              <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
+          </respStmt>
         <respStmt>
             <resp>English text entry and proofreading by</resp>
             <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
@@ -81,42 +81,49 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="1b"/>
+              <locus from="1b" to="49a"/>
               <author ref="https://syriaca.org/person/51">Severus of Antioch</author>
-              <title xml:lang="en">Against the Additions, or Appendices, of
-                  <persName>Julian</persName>, in 43 chapters</title>
+              <title xml:lang="en">Against <ref>the Additions, or Appendices, of
+                  <persName>Julian</persName></ref>, in 43 chapters</title>
               <rubric xml:lang="syr">ܠܘܩܒܠ ܬܘ̈ܣܦܬܐ ܕܝܘܠܝܢܐ</rubric>
-              <incipit xml:lang="syr">ܐܓܪܬܐ] ܕܩܕܝܫܐ ܣܐܘܪܐ ܦܛܪܝܪܟܐ ܕܐܢܛܝܘܟܝܐ. [ܕܠܘܬ] ܐܢܫ ܪܚ̇ܡ ܥܡܠܐ̇.
-                ܕܐܦܝܣܗ ܕܢܦܠܓ ܒܩ̈ܦܠܐܐ̇. [ܠܦܢܩܝـ]ـܬܐ ܗܕܐ ܕܥܡܝܠܐ ܠܗ̇. ܠܘܩܒܠ ܬܘ̈ܣܦܬܐ [ܕܝܘܠܝܢܐ] ܐܠܝܩܪܢܣܝܐ
-                [ܗܪܛܝـ]ܩܐ. .</incipit>
-              <finalRubric xml:lang="syr"> $ܫܠܡ ܠܡܟܬܒ ܟܬܒܐ ܕܠܘܩܒܠ ܬܘܣ̈ܦܬܐ ܕܝܘܠܝܢܐ ܗܪܛܝܩܐ ܐܦܣܩܘܦܐ
-                ܕܐܠܝܩܪܢܣܘܣ܇ ܕܥܒܝܕ ܠܩܕܝܫܐ ܡܪܝ ܣܐܘܪܐ ܦܛܪܝܪܟܐ ܕܐܢܛܝܟܝܐ̇. ܘܡܠܦܢܐ ܫܒܝܚܐ ܕܗܡܢܘܬܐ ܫܪܝܪܬܐ
-                ܘܬܪܝܨܬ ܫܘܒܚܐ. ܐܝܬ ܒܟܬܒܐ ܗܢܐ̣. ܩ̈ܦܠܐܐ ܐܪ̈ܒܥܝ̣ܢ ܘܬܠܬܐ.<locus from="49b"/>
-              </finalRubric>
-              <note>The translation appears to be that of Paul of Callinicus (see <bibl>Assemani,
-                  Bibl. Or., t. ii., p. 46</bibl>).</note>
-              <note>The letter is imperfect, and so also are chapp. i., v., xii., and xxiii. Chapp.,
-                vi. to xi., and xiii. to xxii., are altogether wanting</note>
+                <finalRubric xml:lang="syr"><locus from="49a"/>ܫܠܡ ܠܡܟܬܒ ܟܬܒܐ ܕܠܘܩܒܠ ܬܘܣ̈ܦܬܐ ܕܝܘܠܝܢܐ ܗܪܛܝܩܐ ܐܦܣܩܘܦܐ
+                ܕܐܠܝܩܪܢܣܘܣ܇ ܕܥܒܝܕ ܠܩܕܝܫܐ ܡܪܝ ܣܐܘܪܐ ܦܛܪܝܪܟܐ ܕܐܢܛܝܟܝܐ̇. ܘܡܠܦܢܐ ܫܒܝܚܐ ܕܗܡܢܘܬܐ <foreign xml:lang="en">(sic)</foreign> ܫܪܝܪܬܐ
+                ܘܬܪܝܨܬ ܫܘܒܚܐ. ܐܝܬ ܒܟܬܒܐ ܗܢܐ̣. ܩ̈ܦܠܐܐ ܐܪ̈ܒܥܝ̣ܢ ܘܬܠܬܐ</finalRubric>
+              <note>The translation appears to be that of <persName>Paul of <placeName>Callinicus</placeName></persName> (see <bibl>Assemani, Bibl. Or., t. ii., p. 46</bibl>).</note>
+              <note>Chapp. i., v., xii., and xxiii are imperfect. Chapp.,
+                vi. to xi., and xiii. to xxii., are altogether wanting.</note>
+                <note>Among the works quoted in this treatise is the <ref>commentary of <persName>Cyril of <placeName>Alexandria</placeName></persName> on the <ref>first epistle to the Corinthians</ref></ref>, <locus from="11a">foll. 11 a</locus> and <locus from="26b">26 b</locus>.</note>
+                <msItem defective="true">
+                    <locus from="1b"/>
+                    <author ref="https://syriaca.org/person/51">Severus</author>
+                    <title xml:lang="en">A letter of <persName ref="https://syriaca.org/person/51">Severus</persName>, addressed to <persName>a person who had asked him to divide the treatise into chapters</persName></title>
+                    <rubric xml:lang="syr">ܐܓܪܬܐ] ܕܩܕܝܫܐ ܣܐܘܪܐ ܦܛܪܝܪܟܐ ܕܐܢܛܝܘܟܝܐ. [ܕܠܘܬ] ܐܢܫ ܪܚ̇ܡ ܥܡܠܐ̇.
+                        ܕܐܦܝܣܗ ܕܢܦܠܓ ܒܩ̈ܦܠܐܐ̇. [ܠܦܢܩܝـ]ـܬܐ ܗܕܐ ܕܥܡܝܠܐ ܠܗ̇. ܠܘܩܒܠ ܬܘ̈ܣܦܬܐ [ܕܝܘܠܝܢܐ] ܐܠܝܩܪܢܣܝܐ
+                        [ܗܪܛܝـ]ܩܐ</rubric>
+                </msItem>
             </msItem>
+              <msItem>
+                  <locus from="49a"/>
+                  <title xml:lang="en">An index of <ref>Against the last Apology of Julian</ref></title>
+              </msItem>
             <msItem xml:id="a2" n="2">
-              <locus from="49a"/>
+              <locus from="54"/>
               <author ref="https://syriaca.org/person/51">Severus of Antioch</author>
-              <title xml:lang="en">against the last Apology of
-                <persName>Julian</persName>
+              <title xml:lang="en">Against <ref>the last Apology of
+                <persName>Julian</persName></ref>
               </title>
               <rubric xml:lang="syr">ܟܬܒܐ ܕܥܒܝܕ ܠܩܕܝܫܐ ܡܪܝ ܣܐܘܪܐ ܦܛܪܝܪܟܐ ܕܐܢܛܝܘܟܝܐ̣. ܠܘܩܒܠ ܡܦܩ ܒܪܘܚܗ
                 ܐܚܪܝܐ ܕܝܘܠܝܢܐ ܢܟܝܠܐ ܘܒܝ̣ܫ ܬܪܥܝܬܐ̇. ܕܫܚܠܦ ܒܗ ܠܫܪܪܐ ܕܚ̈ܫܐ ܨܒ̈ܝܢܝܐ ܘܦܪ̈ܘܩܝܐ ܕܥܡܢܘܐܝܠ܇
                 ܘܕܡܘܬܗ ܘܕܩܝܡܬܗ܇ ܠܦܢܛܣܝܐ ܕܗܓܓܘܬܐ ܡܢܝܢܝܬܐ ܘܕܠܐ ܐܠܗ. ܘܫ̇ܪܝܐ ܕܚܪ̈ܡܘܗܝ ܡܣܝ̈ܒܐ</rubric>
-              <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܟܬܒܐ ܕܥܒܝܕ ܠܚܣܝܐ ܡܪܝ ܣܐܘܪܐ ܦܛܪܝܪܟܝܣ ܕܐܢܛܝܟܝܐ̇.
+                <finalRubric xml:lang="syr"><locus from="127b"/>ܫܠܡ ܠܡܟܬܒ ܟܬܒܐ ܕܥܒܝܕ ܠܚܣܝܐ ܡܪܝ ܣܐܘܪܐ ܦܛܪܝܪܟܝܣ ܕܐܢܛܝܟܝܐ̇.
                 ܠܘܩܒܠ ܡܐܡܪܗ ܛܡܐܐ ܕܝܘܠܝܢܐ̇. ܗ̇ܘ ܐܚܪܝܐ ܘܚܫܘܟܝܐ̇. ܕܪܫ̇ܡ ܠܘܩܒܠ ܡܢ̈ܝܢܝܐ̇. ܥܡ ܫܘܒܚܐ ܕܝܢ
                 ܐܠܗܝܐ ܡ̇ܩܪܒ܇ ܕܡܫܚܠܦ ܠܚ̈ܫܐ ܫܪܝܪ̈ܐ ܕܦܪܘܩܢ ܠܕܓܠܘܬܐ ܕܦܢܛܣܝܐ܀ ܐܝܬ ܒܗ ܕܝܢ ܒܗܢܐ ܟܬܒܐ̣.
-                ܩ̈ܦܠܐܐ ܬܠܬܝ̣ܢ ܘܬܠܬܐ. ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܟ ܩܕܝܫܬܐ ܡܪܢ ܠܥܠܡܝܢ ܐܡܝܢ ܀ ܀ ܀<locus from="127b"/>
-              </finalRubric>
-              <note>translated, it would seem, by <persName>Paul of Callinicus</persName>. It is
-                divided into 33 chapters, an index of which is prefixed,</note>
-              <note>Among the works quoted are Cyril's commentaries on the Gospel of S. Matthew,
-                foll. 76 a, 105 b; on the Gospel of S. Luke, fol. 90 a; and on the second Epistle to
-                the Corinthians, fol. 119 b.</note>
+                ܩ̈ܦܠܐܐ ܬܠܬܝ̣ܢ ܘܬܠܬܐ. ܫܘܒܚܐ ܠܬܠܝܬܝܘܬܟ ܩܕܝܫܬܐ ܡܪܢ ܠܥܠܡܝܢ ܐܡܝܢ ܀ ܀ ܀</finalRubric>
+              <note>It is translated, it would seem, by <persName>Paul of <placeName>Callinicus</placeName></persName> and
+                divided into 33 chapters.</note>
+              <note>Among the works quoted are <persName>Cyril</persName>'s <ref>commentaries on the <ref>Gospel of S. Matthew</ref></ref>,
+                <locus from="76a">foll. 76 a</locus>, <locus from="105b">105 b</locus>; <ref>on the <ref>Gospel of S. Luke</ref></ref>, <locus from="90a">fol. 90 a</locus>; and <ref>on the <ref>second Epistle to
+                the Corinthians</ref></ref>, <locus from="119b">fol. 119 b</locus>.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -132,11 +139,9 @@
                     <item>
                       <p>Vellum, about 12 1/8 in. by 9 3/8, consisting of 128 leaves, some of which
                         are much mutilated, especially foll. 1—3 and 128. The quires, signed with
-                        letters, were originally 16 in number, but several leaves of ܐ and ܒ, and
-                        the whole of ܓ and ܕ are now lost. Each page is divided into two columns, of
-                        from 28 to 37 lines. This volume is written in a fine, clear Estrangělā of
-                        the vith cent., the exact date being, in all probability, A.Gr. 899, A.D.
-                        588</p>
+                        letters, were originally 16 in number, but several leaves of <foreign xml:lang="syr">ܐ</foreign> and <foreign xml:lang="syr">ܒ</foreign>, and
+                          the whole of <foreign xml:lang="syr">ܓ</foreign> and <foreign xml:lang="syr">ܕ</foreign> are now lost. Each page is divided into two columns, of
+                        from 28 to 37 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -145,45 +150,48 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="2">
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr-Syre">
+                  <desc>This volume is written in a fine, clear Estrangělā of the <date>vith cent.</date>, the exact date being, in all probability, <date>A.Gr. 899</date>, <date>A.D. 588</date>.</desc>
               </handNote>
+                <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
+                    <desc>See additions.</desc>
+                </handNote>
             </handDesc>
             <additions>
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
                   <locus from="127b" to="128"/>
-                  <p>The greater part of fol. 128 having been cut away, the note which it contained
-                    is lost, with the exception of a few unimportant lines at the top of the second
-                    column. At the foot of fol. 127 b, however, a later hand has written over an
-                    erasure these words</p>
+                  <p>At the foot of fol. 127 b, a later hand has written over an
+                      erasure these words: "This book was finished in the convent of <placeName>. . . . </placeName>, in <date>the year 899</date> (<date>A.D. 588</date>),
+                      in the days of the <persName>abbat Mār Thomas</persName>. May God" etc.</p>
                   <p>
-                    <quote xml:lang="syr">ܐܫܬܠܡ ܕܝܢ ܟܬܒܐ ܗܢܐ ܒܕܝܪܐ ܕܡܟܝ )ܕܡܟܖ (ܒܫܢܬ ܬܡܢܡܐܐ ܘܬܫܥܝܢ ܘܬܫܥ. ܒܝܘ̈ܡܝ ܪܝܫ ܕܝܪܐ
+                    <quote xml:lang="syr">ܐܫܬܠܡ ܕܝܢ ܟܬܒܐ ܗܢܐ ܒܕܝܪܐ ܕܡܟܝ <foreign xml:lang="en">(or <foreign xml:lang="syr">ܕܡܟܖ</foreign>)</foreign> ܒܫܢܬ ܬܡܢܡܐܐ ܘܬܫܥܝܢ ܘܬܫܥ. ܒܝܘ̈ܡܝ ܪܝܫ ܕܝܪܐ
                       ܡܪܝ ܬܘܡܐ. ܕܐܠܗܐ ܢܚܣܐ ܠܗ ܘܠܟܠ ܕܝܨܦ ܘܥܡܠ ܘܢܘܪܬ ܠܟܠܗܘܢ ܚ̈ܝܐ ܘܡܠܟܘܬܐ ܕܫܡܝܐ ܐܝܢ
-                      ܘܐܡܝܢ ܘܐܡܝܢ. </quote>
+                      ܘܐܡܝܢ ܘܐܡܝܢ</quote>
                   </p>
                 </item>
+                  <item>
+                      <p>The greater part of fol. 128 having been cut away, the note which it contained
+                          is lost, with the exception of a few unimportant lines at the top of the second
+                          column.</p>
+                  </item>
                 <item xml:id="addition2" n="2">
                   <locus from="1a"/>
-                  <p>"This book was finished in the convent of . . . . , in the year 899 (A.D. 588),
-                    in the days of the<persName> abbat Mār Thomas</persName>. May God" etc. On fol.
-                    1 a there is a long note, in a hand of the xth cent., from which we learn that
-                    the volume was presented to the <placeName>convent of S. Mary Deipara
-                    </placeName>by one John, in his own name and that of a certain Gabriel. </p>
+                  <p>On fol. 1 a there is a long note, in a hand of the <date>xth cent.</date>, from which we learn that
+                      the volume was presented to the <placeName>convent of S. Mary Deipara</placeName> by one <persName>John</persName>, in his own name and that of <persName>a certain Gabriel</persName>. This note is in the handwriting of the said <persName>John</persName>, see <ref>the cross line</ref>.</p>
                   <p>
                     <quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܩܕܝܫܐ ܡ݊ܪܝ ܣ݊ـ[ܐܘܪܐ] . . . ܕܥܒܝܕ ܠܗ ܠܘܩܒܠ
                       ܝܘܠܝܢܐ ܗܓܓܝܐ ܘܗܘܐ ܬܪ̈ܝܢ . . . ܝܗܒܗ ܕܝܢ ܠܟܬܒܐ ܗܢܐ ܠܕܝܪܐ ܕܣܘܪ̈ܝܝܐ . . . ܕܐܣܩܝܛܐ
                       ܕܝܠܕܬ ܐܠܗܐ ܕܒܩܪܝܒܘܬܐ . . . ܝܘܐܢܝܣ ܐܟܣܢܝܐ ܘܚܛܝܐ ܘܕܘܝܐ: ܝܗܒܗ . . . ܐܠܗܐ ܥܠܘܗܝ:
                       ܘܡܛܠ ܡܪܝ ܓܒܪܝܐܝܠ ܕ . . . ܐܝܟ ܡ̇ܢ ܕܢܚܣܐ ܠܗ ܐܠܗܐ ܠܡܪܝ ܓܒܪܐܝܐܝـ[ܠ] . . . ܚܢܢܐ
-                      ܘܪܚܡܐ ܘܪܘܚܦܐ ܒܝܘܡܐ ܕܩܝܡܬܐ ܏ܘܫ.</quote>
+                      ܘܪܚܡܐ ܘܪܘܚܦܐ ܒܝܘܡܐ ܕܩܝܡܬܐ ܏ܘܫ</quote>
                   </p>
                 </item>
                 <item xml:id="addition3" n="3">
                   <locus from="1a"/>
-                  <p>This note is in the handwriting of the said John, as appears from the cross
-                    line. , "John wrote (this), and gave (this book), and gave (it) of his own free
+                  <p>The cross line on fol. 1 a reads, "<persName>John</persName> wrote (this), and gave (this book), and gave (it) of his own free
                     will. May God grant him forgiveness. Amen."</p>
                   <p>
                     <quote xml:lang="syr">ܟܬܒ ܝܘܐܢܝܣ ܘܝܗܒ ܘܒܨܒܝܢܗ ܝܗܒ. ܡܪܝܐ ܢܚܣܐ ܠܗ. ܐܡܝܢ</quote>
@@ -201,7 +209,8 @@
           </physDesc>
           <history>
             <origin>
-              <origDate when="0588">588 AD</origDate>
+                <origDate notBefore="0500" notAfter="0588">vith cent., the exact date being, in all probability, A.Gr. 899, A.D. 588</origDate>
+                <origDate datingMethod="Seleucid" when="0899">the exact date being, in all probability, A.Gr. 899</origDate>
               <origPlace/>
             </origin>
             <provenance/>
