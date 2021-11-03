@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14649180205</title>
+        <title level="a" xml:lang="en">BL Add MS 14649, foll. 180-205</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/417</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14649180205</idno>
+              <idno type="BL-Shelfmark">Add MS 14649, foll. 180-205</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,42 +81,33 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              
+              <locus from="180a"/>
+              <author>Philoxenus of Mabūg</author>
               <title xml:lang="en">Writings of <persName>Philoxenus of
-                Mabūg</persName>
+                <placeName>Mabūg</placeName></persName>
               </title>
               <author ref="http://syriaca.org/person/44"/>
               <msItem xml:id="b1" n="2">
-                <locus from="180a"/>
-                <title xml:lang="en">Letter to the monk <persName>Patricius of
-                    Edessa</persName>
+                <locus from="180a" to="200b"/>
+                <author>Philoxenus of Mabūg</author>
+                <title xml:lang="en">Letter to the monk <persName>Patricius of <placeName>Edessa</placeName></persName>
                 </title>
                 <rubric xml:lang="syr">ܐܓܪܬܐ ܕܩܕܝܫܐ ܡܪܝ ܐܟܣܢܝܐ ܐܦܝܣܩܘܦܐ ܕܡܒܘܓ܆ ܕܠܘܩܒܠ ܚ̈ܫܐ ܕܢܦܫܐ̣.
                   ܘܥܠ ܕܟܝܘܬܐ ܕܝܠܗ̇ ܕܢܦܫܐ. ܘܕܐܝܟ̣ܢ ܘܒܡܘܢ ܡܬܩܢܝܐ. ܘܕܐܢ ܘ̇ܠܐ ܕܢܓܒ̣ܐ ܕܘ̈ܟܝܬܐ ܠܩܪܒܐ
                   ܕܠܘܩܒܠ ܚ̈ܫܐ. ܘܕܐܢ ܙܕܩ̇ ܕܒܥܒܕܐ ܢܓܡܘܪ ܟܠܗܘܢ ܦܘܩ̈ܕܢܘܗܝ ܕܡܫܝܚܐ. ܕܐܫܬ݁ܐܠ̣ ܡܢ ܩܕܝܫܐ
-                  ܦܛܪܝܩ ܝܚܝܕܝܐ ܐܘܪܗܝܐ. ܟܕ ܥ̇ܕܠ ܠܗ ܒܗ ܒܫܪܒܐ. ܘܡܚ̇ܘܐ ܠܗ̣ ܕܠܘ ܒܛܟܣܐ ܫ̇ܐ̣ܠ܀. </rubric>
-                <note>See <bibl>Assemani, Bibl. Or., t. ii., p. 46, no. 21</bibl>, and <bibl>Add.
-                    12,167, no. vii.</bibl>
-                </note>
-                <note>At the end, fol. 200 b, there is a marginal note by the scribe, now partially
-                  effaced, complaining of the state of the manuscripts from which this copy was
-                  made: ܣܓܝܐܝܬ ܡܚ̣ܒܠ ܗܘܐ ܨܚܚܐ ܗ̇ܘ ܩܕܡܝܐ ܕܡܢܗ ܟܬܒ̇ܬ. ܘܟܕ ܥܠ ܬܠܬܐ ܐܚܪ̈ܢܐ ܦ̇ܚܡܬ: ܕܐܦ
-                  ܗ̣ܢܘܢ ܗܟܘܬ ܐܝܬ ܗܘܐ ܠܗܘܢ܆ ܠܐ ܐܬܡ̇ܨܝܬ ܕܐܗܡܐ.</note>
+                  ܦܛܪܝܩ ܝܚܝܕܝܐ ܐܘܪܗܝܐ. ܟܕ ܥ̇ܕܠ ܠܗ ܒܗ ܒܫܪܒܐ. ܘܡܚ̇ܘܐ ܠܗ̣ ܕܠܘ ܒܛܟܣܐ ܫ̇ܐ̣ܠ܀</rubric>
+                <note>See <bibl>Assemani, Bibl. Or., t. ii., p. 46, no. 21</bibl>, and <bibl>Add. 12,167, no. vii</bibl>.</note>
                 <author ref="http://syriaca.org/person/2281"/>
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus from="200b"/>
                 <title xml:lang="en">Letter to a Novice</title>
-                <rubric xml:lang="syr">ܕܝܠܗ ܕܡܪܝ ܐܟܣܢܝܐ. ܐܓܪܬܐ ܕܐܫ̣ܬܕܪܬ݀ ܠܕܝܪܐ̣. ܨܝܕ ܐܢܫ ܕܚ̣ܕܬܐܝܬ
-                  ܐܬܬ݀ܠܡܕ ܡܢ ܥܠܡܐ..</rubric>
-                <note>. See <bibl>Assemani, Bibl. Or., t. ii., p. 46, no. 22</bibl>, and <bibl>Add.
-                    12,167, no. vii., 2.</bibl>
-                </note>
+                <rubric xml:lang="syr">ܕܝܠܗ ܕܡܪܝ ܐܟܣܢܝܐ. ܐܓܪܬܐ ܕܐܫ̣ܬܕܪܬ݀ ܠܕܝܪܐ̣. ܨܝܕ ܐܢܫ ܕܚ̣ܕܬܐܝܬ ܐܬܬ݀ܠܡܕ ܡܢ ܥܠܡܐ</rubric>
+                <note>See <bibl>Assemani, Bibl. Or., t. ii., p. 46, no. 22</bibl>, and <bibl>Add. 12,167, no. vii., 2</bibl>.</note>
               </msItem>
               <msItem xml:id="b3" n="4">
                 <locus from="202b"/>
-                <title xml:lang="en">Extracts from his commentary on the Gospel of S.
-                  Matthew</title>
+                <title xml:lang="en">Extracts from his commentary on the <ref>Gospel of S. Matthew</ref></title>
                 <rubric xml:lang="syr">ܕܝܠܗ ܕܩܕܝܫܐ ܡܪܝ ܐܟܣܢܝܐ̣. ܡܢ ܟܬܒܐ ܕܦܘܫܩܐ ܕܡܬܝ</rubric>
               </msItem>
             </msItem>
@@ -134,9 +125,8 @@
                     <item>
                       <p>Vellum, about 10 3/8 in. by 6 7/8, consisting of 26 leaves (Add. 14,649,
                         foll. 180—205), the last of which is slightly soiled. The quires, 3 in
-                        number, are signed with letters (ܡܒ to ܡܕ). Each page is divided into two
-                        columns, of from 36 to 47 lines. This manuscript is written in a regular,
-                        current hand of the ixth cent. </p>
+                        number, are signed with letters (<foreign xml:lang="syr">ܡܒ</foreign> to <foreign xml:lang="syr">ܡܕ</foreign>). Each page is divided into two
+                        columns, of from 36 to 47 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -146,24 +136,33 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="" script="">
-                <desc/>
+              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
+                <desc>This manuscript is written in a regular, current hand of the <date>ixth cent.</date></desc>
               </handNote>
             </handDesc>
             <additions>
               <p/>
               <list>
+                <item>
+                  <locus from="200b"/>
+                  <p>At the end of the <ref>Letter to the monk Patricius of Edessa</ref>, fol. 200 b, there is a marginal note by the scribe, now partially
+                    effaced, complaining of the state of the manuscripts from which this copy was
+                    made:</p>
+                  <p>
+                    <quote xml:lang="syr">ܣܓܝܐܝܬ ܡܚ̣ܒܠ ܗܘܐ ܨܚܚܐ ܗ̇ܘ ܩܕܡܝܐ ܕܡܢܗ ܟܬܒ̇ܬ. ܘܟܕ ܥܠ ܬܠܬܐ ܐܚܪ̈ܢܐ ܦ̇ܚܡܬ: ܕܐܦ ܗ̣ܢܘܢ ܗܟܘܬ ܐܝܬ ܗܘܐ ܠܗܘܢ܆ ܠܐ ܐܬܡ̇ܨܝܬ ܕܐܗܡܐ...............</quote>
+                  </p>
+                </item>
                 <item xml:id="addition1" n="1">
                   <locus/>
                   <p>At the end there is a note, now much effaced, which states that the manuscript
                     was written by the <persName>monk Joseph</persName>, from the <placeName ref="http://syriaca.org/place/226">convent
-                      of Mār Simeon at Kartamīn</placeName>, for the <persName>priest
-                      Simeon</persName>, of the convent of [name defaced].</p>
+                      of <persName>Mār Simeon</persName> at <placeName>Kartamīn</placeName></placeName>, for the <persName>priest
+                      Simeon</persName>, of the <placeName>convent of -----</placeName>.</p>
                   <p>
                     <quote xml:lang="syr">ܣ̣ܪܛ ܝܘܣܦ ܐܚܐ ܚܛܝܐ ܡܢ ܥܘܡܪܐ ܩܕܝܫܐ ܕܒܝܬ ܡܪܝ ܫܡܥܘܢ ܕܩܐܪܬܡܝܢ ܟܕ ܐܝܬܘܗܝ
                       ܒܐܟܣܢܝܘܬܐ̣. ܠܪܚ̇ܡ ܐܠܗܐ ܘܪܚ̇ܡ ܐܚ̈ܐ ܩܫܝܫܐ ܡܝܩܪܐ ܡܪܝ ܫܡܥܘܢ ܡܢ ܕܝܪܐ ܕܒܝܬ . . .
                       ܣܗ̈ܕܐ. ܘܡܦܝܣ ܠܗ ܕܡܛܠ ܚܘܒܗ ܕܡܪܝܐ ܕܢܨ̇ܠܐ ܥܠܘܗܝ ܕܢܫ̣ܬܘܐ ܠܪ̈ܚ̣ܡܐ ܕܐܠܗܐ ܒܝܘܡܐ
-                      ܕܕܝܢ̣ܐ܀ . . . </quote>
+                      ܕܕܝܢ̣ܐ܀ . . .</quote>
                   </p>
                 </item>
               </list>
@@ -178,7 +177,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0800" notAfter="0900">ixth century </origDate>
+              <origDate notBefore="0800" notAfter="0900">ixth cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -370,7 +369,7 @@
     <revisionDesc status="draft">
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change when="" who="http://syriaca.org/documentation/editors.xml#eyonan">Initial TEI encoding.</change>
+      <change who="http://syriaca.org/documentation/editors.xml#eyonan">Initial TEI encoding.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
