@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14665, foll. 26, 27, upper text</title>
+        <title level="a" xml:lang="en">BL Add MS 14665 foll. 1-7, lower text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -37,7 +37,7 @@
         </respStmt>
         <respStmt>
           <resp>Project management by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
@@ -49,7 +49,7 @@
       </editionStmt>
       <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/443/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1479/tei</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -59,49 +59,71 @@
         <date calendar="Gregorian"/>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-443">
+        <msDesc xml:id="manuscript-1479">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/443</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1479</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14665, foll. 26, 27, upper text</idno>
+              <idno type="BL-Shelfmark">Add MS 14665 foll. 1-7, lower text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Arabic">877</idno>
+              <idno type="Wright-BL-Arabic">955</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Roman">DCCCLXXVII</idno>
+              <idno type="Wright-BL-Roman">DCCCCLV</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a2" n="2" defective="true">
-              <locus from="26"/>
-              <title>Parts of two discourses</title>
+            <msItem defective="true">
+              <locus from="1" to="2"/>
+              <title xml:lang="en">The book of Ezekiel</title>
               <msItem defective="true">
-                <locus from="26"/>
-                <title xml:lang="en">An encomium on the <persName ref="http://syriaca.org/person/624">blessed Virgin Mary</persName></title>
+                <locus from="2" to="3"/>
+                <title xml:lang="en">ch. iv. 16 — ch. v. 4, <foreign xml:lang="grc">ἐξελεύσεται</foreign></title><!-- WLP: I believe the Greek here refers to the final word that appears on the fol.? -->
+                <note>See <bibl>Tischendorf, Monumenta Sacra Inedita, Nova Coll., t. ii., pp. 313—4</bibl>, and <bibl>Prolegomm., pp. xiii. and xliii.</bibl></note>
               </msItem>
+            </msItem>
+            <msItem defective="true">
+              <locus from="3" to="3"/>
+              <title xml:lang="en">The 3d (1st) book of Kings, ch. viii. 58, <foreign xml:lang="grc">πρὸς αὐτὸν τοῦ πορεύεσθαι</foreign>—ch. ix. 1, <foreign xml:lang="grc">πραγματείαν</foreign></title>
+              <note>See <bibl>Tischendorf, Monum. Sacra Inedita, Nova Coll., t. ii., pp. 315—6</bibl>, and <bibl>Prolegom., pp. xiii. and xliii.</bibl></note>
+            </msItem>
+            <msItem defective="true">
+              <locus from="4" to="4"/>
+              <title xml:lang="en">The 3d (1st) book of Kings, ch. xxi. 26, <foreign xml:lang="grc">εἰς πόλεμον</foreign>—31, <foreign xml:lang="grc">οἶδα</foreign></title>
+            </msItem>
+            <msItem defective="true">
+              <locus from="5" to="7"/>
+              <title xml:lang="en">The book of Ezekiel</title>
               <msItem defective="true">
-                <title xml:lang="en">Second discourse</title>
+                <locus from="5" to="5"/>
+                <title xml:lang="en">Ch. v. 4, <foreign xml:lang="grc">πῦρ</foreign>, —11, <foreign xml:lang="grc">Διὰ τοῦτο, ζῶ ἐγὼ</foreign></title><!-- WLP: I believe the Greek here refers to the first and final words that appear on the fol.? -->
               </msItem>
             </msItem>
           </msContents>
           <physDesc>
-            <objectDesc form="leaf">
+            <objectDesc form="codex">
               <supportDesc material="perg">
+                <extent>
+                  <measure unit="content_pending" quantity="-1"/>
+                </extent>
                 <foliation/>
                 <collation/>
                 <condition>
                   <list>
                     <item>
-                      <p>Two vellum leaves, about 6 3/8 in. by 5 1/8, slightly stained and soiled. They are
-                        palimpsest; cf. <ref target="http://syriaca.org/manuscript/1482">the lower text</ref>.</p>
+                      <p>Foll.1, 2, and 5—7 are fragments of a Greek manuscript,
+                        written in double columns, with 21 lines on each page. Fol. 1 is a very small fragment, on which
+                        only a few letters are visible. The the greater part of the outer columns of fol. 2 has been torn away. Fol. 5 is now much torn. Foll. 6 and 7 are small fragments, on which scarcely any of the original writing is legible.</p>
+                       <p>Fol. 3 is a leaf from a Greek manuscript, written in double columns, with 28 lines in each page.</p>
+                        <p>Fol. 4 is a leaf from a Greek manuscript, written in double columns, with 19 lines on each page.</p>
+                       <p> These leaves are palimpsest; cf. <ref target="http://syriaca.org/manuscript/438">the upper text</ref>.</p>
                     </item>
                   </list>
                 </condition>
@@ -110,11 +132,29 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
-                <desc>Of the <date calendar="Gregorian" notBefore="1100" notAfter="1300">xiith or xiiith cent.</date></desc>
+            <handDesc hands="4">
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="grc">
+                <desc>The character of foll. 1,2, and 5-7 is a slanting uncial of the <date>viiith cent.</date></desc>
+              </handNote>
+              <handNote medium="unknown" xml:id="handNote2" scope="minor" script="grc">
+                <desc>The character of fol. 3 is an upright, Coptic uncial of the <date>vth or vith cent.</date></desc>
+              </handNote>
+              <handNote medium="unknown" xml:id="handNote3" scope="minor" script="grc">
+                <desc>The character is a large, regular uncial of the <date>vith cent.</date></desc>
+              </handNote>
+              <handNote medium="unknown" xml:id="handNote4" scope="minor" script="grc">
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
+            <additions>
+              <list>
+                <item>
+                  <locus from="3"/>
+                  <p>Across <ref>the uncials on fol. 3</ref> there is written another Greek text, likewise in two columns, in a cursive character of the <date>ixth
+                    or xth cent.</date>, but so faded as to be almost illegible.</p>
+                </item>
+              </list>
+            </additions>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -125,7 +165,6 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1100" notAfter="1300">xiith or xiiith cent.</origDate>
             </origin>
             <provenance/>
             <acquisition/>
@@ -148,8 +187,8 @@
                 <pubPlace>London</pubPlace>
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
-                <citedRange unit="entry">DCCCLXXVII</citedRange>
-                <citedRange unit="pp">2:1022</citedRange>
+                <citedRange unit="entry">DCCCCLV</citedRange>
+                <citedRange unit="pp">3:1118-1119</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -306,18 +345,17 @@
       <textClass>
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
-            <item>
-              <ref target="#theo-anonymous"/>
-            </item>
+            <item/>
           </list>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: deleted empty elements and attributes</change>
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change when="2020-07-07" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-16-04:00">CHANGED: deleted empty elements and attributes</change>
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-16-04:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+      <change when="2021-06-17" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
         encoding.</change>
+      <change type="planned" subtype="palimpsest">WLP: the lower text portions of this ms may need further sub-division.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

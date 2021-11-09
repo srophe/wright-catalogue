@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14665, foll. 26, 27, upper text</title>
+        <title level="a" xml:lang="en">BL Add MS 14665, foll. 26, 27, lower text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -49,7 +49,7 @@
       </editionStmt>
       <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/443/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1482/tei</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -59,15 +59,15 @@
         <date calendar="Gregorian"/>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-443">
+        <msDesc xml:id="manuscript-1482">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/443</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1482</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14665, foll. 26, 27, upper text</idno>
+              <idno type="BL-Shelfmark">Add MS 14665, foll. 26, 27, lower text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -80,16 +80,8 @@
           </msIdentifier>
           <msContents>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a2" n="2" defective="true">
-              <locus from="26"/>
-              <title>Parts of two discourses</title>
-              <msItem defective="true">
-                <locus from="26"/>
-                <title xml:lang="en">An encomium on the <persName ref="http://syriaca.org/person/624">blessed Virgin Mary</persName></title>
-              </msItem>
-              <msItem defective="true">
-                <title xml:lang="en">Second discourse</title>
-              </msItem>
+            <msItem xml:id="a1" n="1" defective="true">
+              <title>Part of a sermon</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -101,7 +93,7 @@
                   <list>
                     <item>
                       <p>Two vellum leaves, about 6 3/8 in. by 5 1/8, slightly stained and soiled. They are
-                        palimpsest; cf. <ref target="http://syriaca.org/manuscript/1482">the lower text</ref>.</p>
+                        palimpsest; cf. <ref target="http://syriaca.org/manuscript/443">the upper text</ref>.</p>
                     </item>
                   </list>
                 </condition>
@@ -111,8 +103,8 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
-                <desc>Of the <date calendar="Gregorian" notBefore="1100" notAfter="1300">xiith or xiiith cent.</date></desc>
+              <handNote xml:id="handNote1" scope="sole" script="syr-Syre" medium="unknown">
+                <desc>Written in a small, neat Estranglā of about the <date calendar="Gregorian" notBefore="0700" notAfter="0800">viiith cent.</date></desc>
               </handNote>
             </handDesc>
             <bindingDesc>
@@ -125,7 +117,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1100" notAfter="1300">xiith or xiiith cent.</origDate>
+              <origDate notBefore="0700" notAfter="0800">viiith cent.</origDate>
             </origin>
             <provenance/>
             <acquisition/>
@@ -306,9 +298,7 @@
       <textClass>
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
-            <item>
-              <ref target="#theo-anonymous"/>
-            </item>
+            <item/>
           </list>
         </keywords>
       </textClass>

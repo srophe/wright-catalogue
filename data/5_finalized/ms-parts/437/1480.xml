@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14665, foll. 26, 27, upper text</title>
+        <title level="a" xml:lang="en">BL Add MS 14665, foll. 8-9, lower text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -49,7 +49,7 @@
       </editionStmt>
       <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/443/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1480/tei</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -59,49 +59,42 @@
         <date calendar="Gregorian"/>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-443">
+        <msDesc xml:id="manuscript-1480">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/443</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1480</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14665, foll. 26, 27, upper text</idno>
+              <idno type="BL-Shelfmark">Add MS 14665, foll. 8-9, lower text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Arabic">877</idno>
+              <idno type="Wright-BL-Arabic">981</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Roman">DCCCLXXVII</idno>
+              <idno type="Wright-BL-Roman">DCCCCLXXXI</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <textLang mainLang="syr"/>
-            <msItem xml:id="a2" n="2" defective="true">
-              <locus from="26"/>
-              <title>Parts of two discourses</title>
-              <msItem defective="true">
-                <locus from="26"/>
-                <title xml:lang="en">An encomium on the <persName ref="http://syriaca.org/person/624">blessed Virgin Mary</persName></title>
-              </msItem>
-              <msItem defective="true">
-                <title xml:lang="en">Second discourse</title>
-              </msItem>
+            <textLang mainLang="grc"/>
+            <msItem xml:id="a1" n="1" defective="true">
+              <locus from="8" to="9"/>
+              <title xml:lang="en">Part of a Vocabulary or Glossary, letter <foreign xml:lang="grc">Ο</foreign></title>
+              <note>The order of the words is not strictly alphabetical. That portion, for example, of the first leaf, which is not rewritten, contains the words <foreign xml:lang="grc">ονυχιζεται, ουσια, ουραγεια, ομου, οπλομαχια, οναρ, ομβρος</foreign>, etc. </note>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="leaf">
-              <supportDesc material="perg">
+              <supportDesc material="unknown">
                 <foliation/>
                 <collation/>
                 <condition>
                   <list>
                     <item>
-                      <p>Two vellum leaves, about 6 3/8 in. by 5 1/8, slightly stained and soiled. They are
-                        palimpsest; cf. <ref target="http://syriaca.org/manuscript/1482">the lower text</ref>.</p>
+                      <p>Two palimpsest leaves, much mutilated; cf. <ref target="http://syriaca.org/manuscript/439">the upper text</ref>. From a Greek manuscript. A portion of the first leaf is not rewritten.</p>
                     </item>
                   </list>
                 </condition>
@@ -111,8 +104,8 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
-                <desc>Of the <date calendar="Gregorian" notBefore="1100" notAfter="1300">xiith or xiiith cent.</date></desc>
+              <handNote xml:id="handNote1" scope="sole" script="grc" medium="unknown">
+                <desc>Written in slanting uncials of about the <date calendar="Gregorian" notBefore="0700" notAfter="0800">viiith cent.</date></desc>
               </handNote>
             </handDesc>
             <bindingDesc>
@@ -125,7 +118,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1100" notAfter="1300">xiith or xiiith cent.</origDate>
+              <origDate calendar="Gregorian" notBefore="0700" notAfter="0800">viiith cent.</origDate>
             </origin>
             <provenance/>
             <acquisition/>
@@ -148,8 +141,8 @@
                 <pubPlace>London</pubPlace>
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
-                <citedRange unit="entry">DCCCLXXVII</citedRange>
-                <citedRange unit="pp">2:1022</citedRange>
+                <citedRange unit="entry">DCCCCLXXXI</citedRange>
+                <citedRange unit="pp">3:1151</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -306,9 +299,7 @@
       <textClass>
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
-            <item>
-              <ref target="#theo-anonymous"/>
-            </item>
+            <item/>
           </list>
         </keywords>
       </textClass>
