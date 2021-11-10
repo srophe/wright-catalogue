@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 146671316</title>
+        <title level="a" xml:lang="en">BL Add MS 14667, foll. 13-16</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/464</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 146671316</idno>
+              <idno type="BL-Shelfmark">Add MS 14667, foll. 13-16</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -82,21 +82,22 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
               <locus from="13a">Fol. 13a</locus>
+              <author>Severus</author>
               <title>The Order of Baptism of <persName>Severus</persName>
               </title>
-              <note>imperfect at the beginning</note>
+              <note>Imperfect at the beginning.</note>
             </msItem>
             <msItem xml:id="a2" n="2">
               <locus from="15a">Fol. 15a</locus>
+              <author>Severus</author>
               <title>The Benediction of the Chalice, of <persName>Severus</persName>
               </title>
-              <rubric xml:lang="syr">ܛܟܣܐ ܕܪܫܡ [ܟܣܐ]
-                ܕܩܕܝܫܐ ܡܪܝ ܣܐܘܪܐ ܦܛܪܝܪܟܐ ܕܐܢܛܝܘܟܝܐ</rubric>
+              <rubric xml:lang="syr">ܛܟܣܐ ܕܪܫܡ [ܟܣܐ] ܕܩܕܝܫܐ ܡܪܝ ܣܐܘܪܐ ܦܛܪܝܪܟܐ ܕܐܢܛܝܘܟܝܐ</rubric>
             </msItem>
             <msItem xml:id="a3" n="3" defective="true">
               <locus from="16b">Fol. 16b</locus>
               <title>The Consecration of Water on the night of the Epiphany</title>
-              <rubric xml:lang="syr">ܛܟܣܐ ܕܡܫܬ݁ܡܠܐ̣. ܡܐ ܕܡܬܒܪ̈ܟܝܢ ܡ̈ܝܐ ܒܠܠܝܐ ܕܒܝܬ ܕܢܚ̣ܐ.</rubric>
+              <rubric xml:lang="syr">ܛܟܣܐ ܕܡܫܬ݁ܡܠܐ̣. ܡܐ ܕܡܬܒܪ̈ܟܝܢ ܡ̈ܝܐ ܒܠܠܝܐ ܕܒܝܬ ܕܢܚ̣ܐ</rubric>
               <note>Very imperfect.</note>
             </msItem>
           </msContents>
@@ -120,7 +121,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
-                <desc>The writing is neat and regular, of the <date calendar="Gregorian" notBefore="0800" notAfter="0900">ixth</date> or <date calendar="Gregorian" notBefore="0900" notAfter="1000">xth cent.</date>
+                <desc>The writing is neat and regular, of the <date calendar="Gregorian" notBefore="0800" notAfter="1000">ixth or xth cent.</date>
                 </desc>
               </handNote>
             </handDesc>

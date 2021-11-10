@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14667, fol. 64</title>
+        <title level="a" xml:lang="en">BL Add MS 14667, fol. 49, lower text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -49,7 +49,7 @@
       </editionStmt>
       <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/477/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1483/tei</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -59,30 +59,31 @@
         <date calendar="Gregorian"/>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-477">
+        <msDesc xml:id="manuscript-1483">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/477</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1483</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14667, fol. 64</idno>
+              <idno type="BL-Shelfmark">Add MS 14667, fol. 49, lower text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Arabic">1019</idno>
+              <idno type="Wright-BL-Arabic">501</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Roman">MXIX</idno>
+              <idno type="Wright-BL-Roman">DI</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1">
-              <title>A note</title>
-              <note>See <ref>additions</ref>.</note>
+            <msItem xml:id="a2" n="2">
+              <locus from="49"/>
+              <title xml:lang="en">The book of Judges, ch. vi., according to the Peshitta version</title>
+              <note xml:lang="en">Vv. 15—18 are still legible on the recto.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -93,7 +94,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>A vellum leaf, 7 in. by 5 3/8.</p>
+                      <p>This vellum leaf is palimpsest; cf. <ref target="http://syriaca.org/manuscript/471">the upper text</ref>.</p>
                     </item>
                   </list>
                 </condition>
@@ -102,20 +103,11 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" scope="sole" script="unknown" medium="unknown">
-                <desc>Written in <date datingMethod="Seleucid" when-custom="1243">A. Gr. 1243</date>, <date calendar="Gregorian" when="0932">A.D. 932</date>.</desc>
+            <handDesc hands="2">
+              <handNote xml:id="handNote2" scope="minor" script="syr-Syre" medium="unknown">
+                <desc>Written in a fine Estrangela of the <date calendar="Gregorian" notBefore="0500" notAfter="0700">vith or viith cent</date>.</desc>
               </handNote>
             </handDesc>
-            <additions>
-              <list>
-                <item>
-                  <locus from="64"/>
-                  <p><ref>A note</ref>, in the usual form, relating to the donation by the abbat <persName ref="http://syriaca.org/person/647">Moses of <placeName>Nisibis</placeName></persName>to the library of <placeName>the convent of S.
-                    Mary Deipara</placeName>, <date datingMethod="Seleucid" when-custom="1243">A. Gr. 1243</date>, <date calendar="Gregorian" when="0932">A.D. 932</date>.</p>
-                </item>
-              </list>
-            </additions>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -126,8 +118,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate calendar="Gregorian" when="0932">A.D. 932</origDate>
-              <origDate datingMethod="Seleucid" when-custom="1243">A. Gr. 1243</origDate>
+              <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate>
             </origin>
             <provenance/>
             <acquisition/>
@@ -150,8 +141,8 @@
                 <pubPlace>London</pubPlace>
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
-                <citedRange unit="entry">MXIX</citedRange>
-                <citedRange unit="pp">3:1197</citedRange>
+                <citedRange unit="entry">DI</citedRange>
+                <citedRange unit="pp">1:385</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -308,9 +299,7 @@
       <textClass>
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
-            <item>
-              <ref target="#fly-leaves"/>
-            </item>
+            <item/>
           </list>
         </keywords>
       </textClass>
@@ -318,7 +307,7 @@
     <revisionDesc status="draft">
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change when="2020-07-10" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
+      <change when="2020-07-08" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
         encoding.</change>
     </revisionDesc>
   </teiHeader>

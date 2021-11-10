@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 146672938</title>
+        <title level="a" xml:lang="en">BL Add MS 14667, foll. 29-38</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/466</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 146672938</idno>
+              <idno type="BL-Shelfmark">Add MS 14667, foll. 29-38</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -80,33 +80,37 @@
           </msIdentifier>
           <msContents>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1">
-              <title xml:lang="en" type="supplied">Part of a Sacerdotal</title>
-              <msItem xml:id="b1" n="2">
+            <msItem xml:id="a1" n="1" defective="true">
+              <title xml:lang="en">Part of a Sacerdotal</title>
+              <msItem xml:id="b1" n="2" defective="true">
                 <locus from="29" to="30">Foll. 29, 30.</locus>
-                <title xml:lang="en" type="supplied">Fragments of an Anaphora.</title>
+                <title xml:lang="en" type="supplied">Fragments of an Anaphora</title>
               </msItem>
               <msItem xml:id="b2" n="3">
                 <title>Various sedras</title>
                 <msItem xml:id="c1" n="4">
                   <locus from="31a">Fol. 31a</locus>
-                  <title xml:lang="en">Sedra on Fol. 31a</title>
+                  <title xml:lang="en">Sedra 1</title>
                   <rubric xml:lang="syr">ܣܕܪܐ ܕܨܠܝܒܐ ܦܪܘܩܝܐ</rubric>
                 </msItem>
                 <msItem xml:id="c2" n="5">
-                  <locus from="32a" to="33a">Fol. 32a, 33a</locus>
-                  <title xml:lang="en">Sedra on Fol. 32a and 33a</title>
+                  <locus from="32a">Fol. 32a</locus>
+                  <title xml:lang="en">Sedra 2</title>
+                  <rubric xml:lang="syr">ܣܕܪ̈ܐ ܕܚܘܣܝܐ</rubric>
+                </msItem>
+                <msItem>
+                  <locus from="33a">Fol. 33a</locus>
+                  <title xml:lang="en">Sedra 3</title>
                   <rubric xml:lang="syr">ܣܕܪ̈ܐ ܕܚܘܣܝܐ</rubric>
                 </msItem>
                 <msItem xml:id="c3" n="6">
                   <locus from="34a">Fol. 34a</locus>
-                  <title xml:lang="en">Sedra on Fol. 34a</title>
-                  <rubric xml:lang="syr">ܣܕܪܐ ܐܘܟ̣ܝܬ݀ ܡܥܗܕܢܘܬܐ
-                  ܘܚ̇ܫܚ ܕܢܬܬܠܘܬ. ܒܬܪ ܟܠ ܣܕܪܐ: ܐܝܢܐ ܕܗ̣ܘ</rubric>
+                  <title xml:lang="en">Sedra 4</title>
+                  <rubric xml:lang="syr">ܣܕܪܐ ܐܘܟ̣ܝܬ݀ ܡܥܗܕܢܘܬܐ ܘܚ̇ܫܚ ܕܢܬܬܠܘܬ. ܒܬܪ ܟܠ ܣܕܪܐ: ܐܝܢܐ ܕܗ̣ܘ</rubric>
                 </msItem>
                 <msItem xml:id="c4" n="7">
                   <locus from="37a">Fol. 37a</locus>
-                  <title xml:lang="en">Sedra on Fol. 37a</title>
+                  <title xml:lang="en">Sedra 5</title>
                   <rubric xml:lang="syr">ܣܕܪܐ ܕܚܘܣܝܐ</rubric>
                 </msItem>
               </msItem>
@@ -122,7 +126,7 @@
                     <item>
                       <p>Ten vellum leaves, about 6 1/2 in. by 4 3/4, all of which are more or less
                         stained and some torn (Add. 14,667, foll. 29—38). There are 19 or 20 lines
-                        in each page. </p>
+                        in each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -133,7 +137,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
-                <desc>The writing is good and regular, of the <date calendar="Gregorian" notBefore="0900" notAfter="1000">xth</date> or <date calendar="Gregorian" notBefore="1000" notAfter="1100">xith cent</date>.</desc>
+                <desc>The writing is good and regular, of the <date calendar="Gregorian" notBefore="0900" notAfter="1100">xth or xith cent</date>.</desc>
               </handNote>
             </handDesc>
             <bindingDesc>
@@ -339,8 +343,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-07-08" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
         encoding.</change>
-      <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs to
-        be checked for accuracy</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 1466743</title>
+        <title level="a" xml:lang="en">BL Add MS 14667, fol. 43</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/469</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 1466743</idno>
+              <idno type="BL-Shelfmark">Add MS 14667, fol. 43</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,16 +81,17 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <title xml:lang="en" type="supplied">It belonged to a service-book, containing hymns and prayers for the canonical hours of the ferial days.</title>
+              <locus from="43"/>
+              <title xml:lang="en">A service-book, containing hymns and prayers for the canonical hours of the ferial days</title>
               <msItem xml:id="b1" n="2">
-                <title xml:lang="en" type="supplied">On the recto there is the rubric</title>
-                <rubric xml:lang="syr">(ܕܬܪ̈ܝܢ ܒܫܒܐ viz.) ܒ̈ܬܐ ܕܚ̇ܫܐ ܕܬܫ̈ܥ ܫ̈ܥܝܢ
-                </rubric>
+                <locus from="43a"/>
+                <title xml:lang="en">Recto</title>
+                <rubric xml:lang="syr">ܒ̈ܬܐ ܕܚ̇ܫܐ ܕܬܫ̈ܥ ܫ̈ܥܝܢ <foreign xml:lang="en">(viz. <foreign xml:lang="syr">ܕܬܪ̈ܝܢ ܒܫܒܐ</foreign>)</foreign></rubric>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <title>and on the verso</title>
-                <quote xml:lang="syr">ܬܠ̈ܬܐ ܒܫܒܐ (sic) ܬܘܒ ܕܢܓܗ
-               </quote>
+                <locus from="43a"/>
+                <title xml:lang="en">Verso</title>
+                <rubric xml:lang="syr">ܬܘܒ ܕܢܓܐ <foreign xml:lang="en">(sic)</foreign> ܬܠ̈ܬܐ ܒܫܒܐ</rubric>
               </msItem>
             </msItem>
           </msContents>

@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 146675051</title>
+        <title level="a" xml:lang="en">BL Add MS 14667, foll. 50, 51</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/472</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 146675051</idno>
+              <idno type="BL-Shelfmark">Add MS 14667, foll. 50, 51</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,13 +81,8 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <title xml:lang="en">
-                <foreign xml:lang="syr">ܢܘ̈ܣܝܐ ܕܕܝܘܬܐ</foreign>, or "trials of the ink," and a note with some dates, the latest of which is <date datingMethod="Seleucid" when-custom="1368">A. Gr. 1368</date>, <date calendar="Gregorian" when="1057">A.D. 1057</date>.</title>
-              <quote xml:lang="syr">
-                <quote xml:lang="syr">ܡܟܪ ܝܘܣܦ ܏ܩܫ ܡܢ ܕܝܡܛ ܏ܩܫ ܒܫܢܬ ܐܠܦ ܘܬܠܬܡܐ ܘܬܫܥ</quote>(sic)<quote xml:lang="syr">ܕܝܘ̈ܢܝܐ ܘܒܪܝܟ ܐܬܐܗ</quote>(sic)<quote xml:lang="syr">ܒܫܢܬ ܐܠܦ ܏ܫܣܓ ܘܗܘܐ ܏ܩܫ
-                  ܒܬܪ ܫܒܥܐ ܝܪ̈ܚܐ ܒܗ̇ ܒܫܢܬܐ ܗܘܬ ܣܝܕܗ ܒܫܢܬ ܐܠܦ ܏ܘܫܣܗ: ܒܐܒ ܗܘܬ ܓܠܝܗ ܒܫܢܬ ܐܠܦ ܏ܘܫܣܙ ܒܟܢܘܢ ܚܪܝ ܒܗ
-                  ܘܗܘܐ ܣܝܡܥܢ</quote>(sic)<quote xml:lang="syr">ܒܫܢܬ ܐܠܦ ܏ܘܫܣܚ ܒܚܪܬܗ ܕܬܡܘܙ.</quote>
-              </quote>
+              <title xml:lang="en">Trials of the ink</title>
+              <rubric xml:lang="syr">ܢܘ̈ܣܝܐ ܕܕܝܘܬܐ</rubric>
             </msItem>
           </msContents>
           <physDesc>
@@ -108,10 +103,22 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote xml:id="handNote1" scope="sole" script="unknown" medium="unknown">
-                <desc>The note includes some dates, the latest of which is <date datingMethod="Seleucid" when-custom="1368">A. Gr. 1368</date>, <date calendar="Gregorian" when="1057">A.D. 1057</date>.</desc>
+              <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
+                <desc>The <ref>note</ref> includes some dates, the latest of which is <date datingMethod="Seleucid" when-custom="1368">A. Gr. 1368</date>, <date calendar="Gregorian" when="1057">A.D. 1057</date>.</desc>
               </handNote>
             </handDesc>
+            <additions>
+              <list>
+                <item>
+                  <p>A note with some dates, the latest of which is <date datingMethod="Seleucid" when-custom="1368">A. Gr. 1368</date>, <date calendar="Gregorian" when="1057">A.D. 1057</date>.</p>
+                  <p>
+                    <quote xml:lang="syr">ܡܟܪ ܝܘܣܦ ܏ܩܫ ܡܢ ܕܝܡܛ ܏ܩܫ ܒܫܢܬ ܐܠܦ ܘܬܠܬܡܐ ܘܬܫܥ <foreign xml:lang="en">(sic)</foreign> ܕܝܘ̈ܢܝܐ ܘܒܪܝܟ ܐܬܐܗ <foreign xml:lang="en">(sic)</foreign> ܒܫܢܬ ܐܠܦ ܏ܫܣܓ ܘܗܘܐ ܏ܩܫ
+                        ܒܬܪ ܫܒܥܐ ܝܪ̈ܚܐ ܒܗ̇ ܒܫܢܬܐ ܗܘܬ ܣܝܕܗ ܒܫܢܬ ܐܠܦ ܏ܘܫܣܗ: ܒܐܒ ܗܘܬ ܓܠܝܗ ܒܫܢܬ ܐܠܦ ܏ܘܫܣܙ ܒܟܢܘܢ ܚܪܝ ܒܗ
+                        ܘܗܘܐ ܣܝܡܥܢ <foreign xml:lang="en">(sic)</foreign> ܒܫܢܬ ܐܠܦ ܏ܘܫܣܚ ܒܚܪܬܗ ܕܬܡܘܙ</quote>
+                  </p>
+                </item>
+              </list>
+            </additions>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -305,7 +312,7 @@
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
             <item>
-              <ref target="#"/>
+              <ref target="#fly-leaves"/>
             </item>
           </list>
         </keywords>
@@ -316,8 +323,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-07-08" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
         encoding.</change>
-      <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs to
-        be checked for accuracy</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

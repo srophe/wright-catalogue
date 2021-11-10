@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 146676063</title>
+        <title level="a" xml:lang="en">BL Add MS 14667, foll. 60-63</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/476</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 146676063</idno>
+              <idno type="BL-Shelfmark">Add MS 14667, foll. 60-63</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,9 +81,8 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <title>A canon for the Annunciation of Zacharias</title>
-              <rubric xml:lang="syr">ܩܢܘܢܐ ܕܣܘܒܪܐ ܕܙܟܪܝܐ
-                  ܚܡܝܫܝܐ</rubric>
+              <title>A canon for <ref>the Annunciation of <persName>Zacharias</persName></ref></title>
+              <rubric xml:lang="syr">ܩܢܘܢܐ ܕܣܘܒܪܐ ܕܙܟܪܝܐ ܚܡܝܫܝܐ</rubric>
             </msItem>
           </msContents>
           <physDesc>
@@ -94,8 +93,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Four vellum leaves, about 7 in. by 5, with from 20 to 23 lines in each
-                        page.</p>
+                      <p>Four vellum leaves, about 7 in. by 5, with from 20 to 23 lines in each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -106,23 +104,19 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
-                <desc>written in a good, current hand of the <date calendar="Gregorian" notBefore="0900" notAfter="1000">xth cent.</date>
-                </desc>
+                <desc>Written in a good, current hand of the <date calendar="Gregorian" notBefore="0900" notAfter="1000">xth cent.</date></desc>
               </handNote>
             </handDesc>
             <additions>
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
+                  <locus from="63b"/>
                   <p>On the verso of the fourth leaf there is a note, stating that the volume of canons, of
                     which this formed part, was presented to <placeName>the convent of S. Mary Deipara</placeName> by the patriarch
-                    <persName>Abraham (or Ephraim)</persName>, when <persName>Salībā</persName>was abbat, between <date calendar="Gregorian" when="0977">A.D. 977</date> and <date calendar="Gregorian" when="0981">981</date>.</p>
+                    <persName>Abraham (or Ephraim)</persName>, when <persName>Salībā</persName> was abbat, <date calendar="Gregorian" notBefore="0977" notAfter="0981">between A.D. 977 and 981</date>.</p>
                   <p>
-                    <quote xml:lang="syr">
-                      <quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܩܢ̈ܘܢܐ ܕܕܝܪܐ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ ܕܕܝܪܐ</quote>(sic)<quote xml:lang="syr">ܣܘܪܝܝܐ ܫܟܢܗ ܕܝܢ ܐܒܪܗܡ ܦܛܪܝܪܟܐ ܒܝ̈ܘܡܝ ܨܠܝܒܐ ܪܝܫܕܝܪܐ ܟܠ ܕܡܦܩܠܗ ܡܢ ܡܕܒܪܐ ܥܠ ܚܪܡܐ
-                      ܥܒܪ.</quote>
-                    </quote>
-                  </p>
+                      <quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܩܢ̈ܘܢܐ ܕܕܝܪܐ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ ܕܕܝܪܐ <foreign xml:lang="en">(sic)</foreign> ܣܘܪܝܝܐ ܫܟܢܗ ܕܝܢ ܐܒܪܗܡ ܦܛܪܝܪܟܐ ܒܝ̈ܘܡܝ ܨܠܝܒܐ ܪܝܫܕܝܪܐ ܟܠ ܕܡܦܩܠܗ ܡܢ ܡܕܒܪܐ ܥܠ ܚܪܡܐ ܥܒܪ</quote></p>
                 </item>
               </list>
             </additions>
@@ -329,8 +323,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-07-10" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
         encoding.</change>
-      <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs to
-        be checked for accuracy</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

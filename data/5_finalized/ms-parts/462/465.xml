@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 146671728</title>
+        <title level="a" xml:lang="en">BL Add MS 14667, foll. 17-28</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -80,18 +80,18 @@
           </msIdentifier>
           <msContents>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1">
+            <msItem xml:id="a1" n="1" defective="true">
+              <locus from="17a">Fol. 17a</locus>
               <title xml:lang="en" type="supplied">Part of a Sacerdotal</title>
-              <note>These leaves are palimpsest</note>
               <msItem xml:id="b1" n="2" defective="true">
                 <locus from="17a">Fol. 17a</locus>
                 <title>Prayers, prooemia, and sedras, introductory to the celebration of the holy
-                Eucharist.</title>
+                Eucharist</title>
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
                 <locus from="23a">Fol. 23a</locus>
                 <title xml:lang="en" type="supplied">An Anaphora</title>
-                <note> imperfect both at the beginning and end.</note>
+                <note>Imperfect both at the beginning and end.</note>
               </msItem>
             </msItem>
           </msContents>
@@ -104,7 +104,7 @@
                   <list>
                     <item>
                       <p>Twelve vellum leaves, about 7 in. by 5 3/8, all more or less torn (Add.
-                        14,667, foll. 17—28). There are from 17 to 23 lines in each page. </p>
+                        14,667, foll. 17—28). There are from 17 to 23 lines in each page. These leaves are palimpsest.</p>
                     </item>
                   </list>
                 </condition>
@@ -115,13 +115,10 @@
             </objectDesc>
             <handDesc hands="2">
               <handNote xml:id="handNote1" scope="major" script="syr" medium="unknown">
-                <desc>The writing is of the <date calendar="Gregorian" notBefore="0900" notAfter="1000">xth</date> or
-                  <date calendar="Gregorian" notBefore="1000" notAfter="1100">xith cent.</date>
-                </desc>
+                <desc>The writing is of the <date calendar="Gregorian" notBefore="0900" notAfter="1100">xth or xith cent.</date></desc>
               </handNote>
               <handNote xml:id="handNote2" scope="minor" script="syr-Syre" medium="unknown">
-                <desc>These leaves are palimpsest, but the original Estrangela writing has been
-                  almost completely effaced.</desc>
+                <desc>The original Estrangela writing of the under text has been almost completely effaced.</desc>
               </handNote>
             </handDesc>
             <bindingDesc>

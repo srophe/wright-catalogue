@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 146677071</title>
+        <title level="a" xml:lang="en">BL Add MS 14667, foll. 70, 71</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/479</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 146677071</idno>
+              <idno type="BL-Shelfmark">Add MS 14667, foll. 70, 71</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -85,13 +85,12 @@
               <rubric xml:lang="syr">ܕܬܕܡܪ̈ܬܐ</rubric>
             </msItem>
             <msItem xml:id="a2" n="2">
-              <title>the Resurrection</title>
+              <title>Hymns and canons for the Resurrection</title>
               <rubric xml:lang="syr">ܩܢܘܢܐ ܕܩܝܡܬܐ</rubric>
             </msItem>
             <msItem xml:id="a3" n="3">
-              <title>the Commemoration of <persName ref="http://syriaca.org/person/624">the blessed Virgin</persName>, the martyrs, saints, and the dead</title>
-              <rubric xml:lang="syr">ܩ̈ܢܘܢܐ ܒܕܘܟܪܢܐ ܕܝܠܕܬ [ܐܠܗܐ]
-                  ܘܕܣܗ̈ܕܐ ܘܕܩ̈ܕܝܫܐ ܘܕܥ̈ܢܝܕܐ.</rubric>
+              <title>Hymns and canons for the Commemoration of <persName ref="http://syriaca.org/person/624">the blessed Virgin</persName>, the <persName>martyrs</persName>, <persName>saints</persName>, and <persName>the dead</persName></title>
+              <rubric xml:lang="syr">ܩ̈ܢܘܢܐ ܒܕܘܟܪܢܐ ܕܝܠܕܬ [ܐܠܗܐ] ܘܕܣܗ̈ܕܐ ܘܕܩ̈ܕܝܫܐ ܘܕܥ̈ܢܝܕܐ</rubric>
             </msItem>
           </msContents>
           <physDesc>
@@ -114,9 +113,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
-                <desc>The writing is neat and regular, of the
-                  <date calendar="Gregorian" notBefore="0900" notAfter="1000">xth cent.</date>
-                </desc>
+                <desc>The writing is neat and regular, of the <date calendar="Gregorian" notBefore="0900" notAfter="1000">xth cent.</date></desc>
               </handNote>
             </handDesc>
             <bindingDesc>
@@ -129,7 +126,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0900" notAfter="1000">xth  cent.</origDate>
+              <origDate notBefore="0900" notAfter="1000">xth cent.</origDate>
             </origin>
             <provenance/>
             <acquisition/>
