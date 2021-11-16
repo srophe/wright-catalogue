@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14665 foll. 1, 2, 5-7, lower text</title>
+        <title level="a" xml:lang="en">BL Add MS 14665 fol. 3, lower text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -49,7 +49,7 @@
       </editionStmt>
       <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/1479/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1485/tei</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -59,15 +59,15 @@
         <date calendar="Gregorian"/>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-1479">
+        <msDesc xml:id="manuscript-1485">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/1479</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1485</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14665 foll. 1, 2, 5-7, lower text</idno>
+              <idno type="BL-Shelfmark">Add MS 14665 fol. 3, lower text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,21 +81,9 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem defective="true">
-              <locus from="1" to="2"/>
-              <title xml:lang="en">The book of Ezekiel</title>
-              <msItem defective="true">
-                <locus from="2"/>
-                <title xml:lang="en">ch. iv. 16 — ch. v. 4, <foreign xml:lang="grc">ἐξελεύσεται</foreign></title><!-- WLP: I believe the Greek here refers to the final word that appears on the fol.? -->
-                <note>See <bibl>Tischendorf, Monumenta Sacra Inedita, Nova Coll., t. ii., pp. 313—4</bibl>, and <bibl>Prolegomm., pp. xiii. and xliii.</bibl></note>
-              </msItem>
-            </msItem>
-            <msItem defective="true">
-              <locus from="5" to="7"/>
-              <title xml:lang="en">The book of Ezekiel</title>
-              <msItem defective="true">
-                <locus from="5" to="5"/>
-                <title xml:lang="en">Ch. v. 4, <foreign xml:lang="grc">πῦρ</foreign>, —11, <foreign xml:lang="grc">Διὰ τοῦτο, ζῶ ἐγὼ</foreign></title><!-- WLP: I believe the Greek here refers to the first and final words that appear on the fol.? -->
-              </msItem>
+              <locus from="3" to="3"/>
+              <title xml:lang="en">The 3d (1st) book of Kings, ch. viii. 58, <foreign xml:lang="grc">πρὸς αὐτὸν τοῦ πορεύεσθαι</foreign>—ch. ix. 1, <foreign xml:lang="grc">πραγματείαν</foreign></title>
+              <note>See <bibl>Tischendorf, Monum. Sacra Inedita, Nova Coll., t. ii., pp. 315—6</bibl>, and <bibl>Prolegom., pp. xiii. and xliii.</bibl></note>
             </msItem>
           </msContents>
           <physDesc>
@@ -109,11 +97,8 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Foll.1, 2, and 5—7 are fragments of a Greek manuscript,
-                        written in double columns, with 21 lines on each page. Fol. 1 is a very small fragment, on which
-                        only a few letters are visible. The the greater part of the outer columns of fol. 2 has been torn away. 
-                        Fol. 5 is now much torn. Foll. 6 and 7 are small fragments, on which scarcely any of the original writing is legible. 
-                        These leaves are palimpsest; cf. <ref target="http://syriaca.org/manuscript/438">the upper text</ref>.</p>
+                       <p>Fol. 3 is a leaf from a Greek manuscript, written in double columns, with 28 lines in each page.</p>
+                      <p>These leaves are palimpsest; cf. <ref target="http://syriaca.org/manuscript/438">the more recent upper text</ref> and <ref target="http://syriaca.org/manuscript/1484">the more ancient upper text</ref>.</p>
                     </item>
                   </list>
                 </condition>
@@ -123,8 +108,8 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="major" script="grc">
-                <desc>The character is a slanting uncial of the <date>viiith cent.</date></desc>
+              <handNote medium="unknown" xml:id="handNote2" scope="minor" script="grc">
+                <desc>The character is an upright, Coptic uncial of the <date>vth or vith cent.</date></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -138,7 +123,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate calendar="Gregorian" notBefore="0700" notAfter="0800">viiith cent.</origDate>
+              <origDate calendar="Gregorian" notBefore="0400" notAfter="0600">vth or vith cent.</origDate>
             </origin>
             <provenance/>
             <acquisition/>
@@ -162,7 +147,7 @@
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
                 <citedRange unit="entry">DCCCCLV</citedRange>
-                <citedRange unit="pp">3:1118</citedRange>
+                <citedRange unit="pp">3:1118-1119</citedRange>
               </bibl>
             </listBibl>
           </additional>
