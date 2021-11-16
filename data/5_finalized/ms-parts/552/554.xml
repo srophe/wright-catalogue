@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -80,50 +80,55 @@
           </msIdentifier>
           <msContents>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1" defective="false">
+            <msItem>
+              <locus from="25a"/>
+              <title xml:lang="en">A prayer, to be substituted for the <ref>oratio pacis</ref> on Thursday in Passion Week and on the Saturday of Annunciation</title>
+              <rubric xml:lang="syr">ܨܠܘܬܐ ܕܡܬ݂ܐܡܪܐ ܒܚܲܡܫܐ ܕܪ̈ܐܙܐ ܘܒܫܒܬܐ ܕܣܒܪܬܐ ܒܕܘܟܬ݂݀ ܨܠܘܬܐ ܕܫܠ̇ܡܐ</rubric>
+              <note>See <ref>hand description</ref>.</note>
+            </msItem>
+            <msItem xml:id="a1" n="1">
               <locus from="25" to="99"/>
               <title>A collection of Anaphoras</title>
               <msItem xml:id="b1" n="2">
                 <locus from="25b"/>
-                <title xml:lang="en">Anaphora of <persName>S. Mark</persName>
-                </title>
+                <author>S. Mark</author>
+                <title xml:lang="en">Of <persName>S. Mark</persName></title>
                 <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܕܩܕܝܫܐ ܡܪܝ ܡܪܩܘܣ ܫܠܝܚܐ ܘܡܣܒܪܢܐ</rubric>
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus from="36b"/>
-                <title>Anaphora of <persName>Thomas of
-                  Heraclea</persName>
+                <author>Thomas of Heraclea</author>
+                <title>Of <persName>Thomas of <placeName>Heraclea</placeName></persName>
                 </title>
-                <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܕܩܕܝܫܐ ܡܪܝ ܬܘܡܐ ܫܠܝܚܐ (ܚܪܩܠܳܝܐ marg</rubric>
+                <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܕܩܕܝܫܐ ܡܪܝ ܬܘܡܐ ܫܠܝܚܐ</rubric>
+                <note>To the rubric is appended, marginally, <foreign xml:lang="syr">ܚܪܩܠܳܝܐ</foreign>.</note>
                 <note>See <bibl>Add. 17,229, fol. 16 b</bibl>.</note>
               </msItem>
               <msItem xml:id="b3" n="4">
                 <locus from="45a"/>
-                <title>Anaphora of <persName>Moses bar Kīphā</persName>
-                </title>
+                <author>Moses bar Kīphā</author>
+                <title>Of <persName>Moses bar Kīphā</persName></title>
                 <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܕܚܣܝܐ ܘܠܒܝ̣ܫ ܠܐܠܗܐ ܡܘܫܐ ܒܪܟܐܦܐ</rubric>
-                <note>See <bibl>Renaudot, Liturg. Orient., t. ii., p. 391</bibl>
-                </note>
+                <note>See <bibl>Renaudot, Liturg. Orient., t. ii., p. 391</bibl>.</note>
               </msItem>
               <msItem xml:id="b4" n="5">
                 <locus from="56a"/>
-                <title>Anaphora of <persName>Jacob of Batnae</persName>
+                <author>Jacob of Batnae</author>
+                <title>Of <persName>Jacob of <placeName>Batnae</placeName></persName>
                 </title>
-                <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܗܕܐ ܕܩܕܝܫܐ ܘܠܒܝ̣ܫ ܠܐܠܗܐ ܡܪܝ ܝܥܩܘܼܒ ܡܠܦܢܐ ܘܡܠܸܐ ܚܟ̈ܡܬܐ
-                  ܘܐܦܝܣܩܘܦܐ ܕܒܲܛܢܢ ܕܣܪܘܓ </rubric>
+                <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܗܕܐ ܕܩܕܝܫܐ ܘܠܒܝ̣ܫ ܠܐܠܗܐ ܡܪܝ ܝܥܩܘܼܒ ܡܠܦܢܐ ܘܡܠܸܐ ܚܟ̈ܡܬܐ ܘܐܦܝܣܩܘܦܐ ܕܒܲܛܢܢ ܕܣܪܘܓ</rubric>
               </msItem>
               <msItem xml:id="b5" n="6">
                 <locus from="72a"/>
-                <title>Anaphora of <persName>Lazarus bar Sābtā</persName>, or
-                  Philoxenus, bishop of Bagdad</title>
-                <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܕܩܕܝܫܐ ܡܪܝ ܐܦܝ܏ܣܩ </rubric>
-                <note>(sic) ܕܒܓܕܕ ܕܗ̣ܘ ܠܥܙܪ ܒܪ ܣ̇ܒܬܐ</note>
+                <author>Lazarus bar Sābtā, or Philoxenus, bishop of Bagdad</author>
+                <title>Of <persName>Lazarus bar Sābtā, or Philoxenus, bishop of <placeName>Bagdad</placeName></persName></title>
+                <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܕܩܕܝܫܐ ܡܪܝ ܐܦܝ܏ܣܩ <foreign xml:lang="en">(sic)</foreign> ܕܒܓܕܕ ܕܗ̣ܘ ܠܥܙܪ ܒܪ ܣ̇ܒܬܐ</rubric>
               </msItem>
               <msItem xml:id="b6" n="7">
                 <locus from="84a"/>
-                <title>Anaphora of Cyril of Alexandria</title>
-                <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܕܩܕܝܫܐ ܘܠܒܝ̣ܫ ܠܐܠܗܐ ܕܩܕܝܫܐ (sic) ܡܪܝ ܩܘܪܝܠܠܝܘܣ ܪܝܫ
-                  ܐܦܝܣ̈ܩܘܦܐ ܕܐܠܟܣܢܕܪܝܐ </rubric>
+                <author>Cyril of Alexandria</author>
+                <title>Of Cyril of <placeName>Alexandria</placeName></title>
+                <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܕܩܕܝܫܐ ܘܠܒܝ̣ܫ ܠܐܠܗܐ ܕܩܕܝܫܐ <foreign xml:lang="en">(sic)</foreign> ܡܪܝ ܩܘܪܝܠܠܝܘܣ ܪܝܫ ܐܦܝܣ̈ܩܘܦܐ ܕܐܠܟܣܢܕܪܝܐ</rubric>
               </msItem>
             </msItem>
           </msContents>
@@ -138,11 +143,10 @@
                 <condition>
                   <list>
                     <item>
-                      <p> Paper, about 11 in. by 7 7/8, consisting of 75 leaves (Add. 14,692, foll.
+                      <p>Paper, about 11 in. by 7 7/8, consisting of 75 leaves (Add. 14,692, foll.
                         25—99), some of which are much stained and torn, especially foll. 87, 88,
                         and 99. The quires, signed with letters, are 7 in number. There are from 16
-                        to 18 lines in each page. The writing is large and inelegant. This
-                        manuscript is dated A. Gr. 1658, A.D. 1347</p>
+                        to 18 lines in each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -151,9 +155,14 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="" script="">
-                <desc/>
+            <handDesc hands="2">
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="minor">
+                <desc>The writing is large and inelegant. This manuscript is dated <date>A. Gr. 1658</date>, <date>A.D. 1347</date></desc>
+              </handNote>
+              <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
+                <desc>The writer of <ref target="http://syriaca.org/manuscript/553">the 24 leaves bound with this manuscript</ref> wrote the <ref>prayer, to be substituted
+                  for the oratio pacis on Thursday in Passion Week and on the
+                  Saturday of Annunciation</ref> on <locus from="25a">fol. 25 a</locus>.</desc>
               </handNote>
             </handDesc>
             <additions>
@@ -162,12 +171,12 @@
                 <item xml:id="addition1" n="1">
                   <locus from="99a"/>
                   <p>After the doxology, on fol. 99 a, there is a note, stating that this manuscript
-                    was written in the year 1658 (A.D. 1347) by a scribe named 'Isā (%).</p>
+                    was written in the year <date datingMethod="#Seleucid" when-custom="1658">1658</date> (<date>A.D. 1347</date>) by a scribe named <persName>'Isā (<foreign xml:lang="ar">عِيسَي</foreign>)</persName>.</p>
                   <p>
                     <quote xml:lang="syr">ܫܩܠ ܟܝܬ ܣ̇ܟܐ ܘܫܘܡܠܝܐ ܟܘܪܣܐ ܗܢܐ: ܒܫܢܬ ܐ̇ܠܦ̣ ܫ̈ܬܡ̈ܐܐ ܘܚ̈ܡܫܝܢ
                       ܘܬܡ̈ܢܐ ܕܝܘ̈ܢܝܐ ܢܟܝ̈ܠܐ. ܒܝܪܚ ܐܝܪ ܝܪܚܐ ܚܕܥܣܪ̈ ܒܗ. ܝܘܡ ܥܪܘܒܬܐ ܬܫ̈ܥ ܫ̈ܥܝܢ ܒܗ:
                       ܨ̇ܠ̣ܘ ܥܠܝ ܐܚ̈ܝ ܘܪ̈ܒܢܝ ܐܢ̇ܐ ܥܒ̣ܕܐ ܡܚܝ̣ܠܐ ܘܕܘܝܐ ܘܡܣܟܢܐ ܘܚܲܛܝܐ ܠܐ ܬܥܕܠܘܢ ܠܝ. ܏ܘܫ.
-                      ܐܢ̇ܐ ܥܝܣ̈ܐ ܕܒܫܡ ܏ܩܫܝ.</quote>
+                      ܐܢ̇ܐ ܥܝܣ̈ܐ ܕܒܫܡ ܏ܩܫܝ</quote>
                   </p>
                 </item>
               </list>
@@ -182,7 +191,8 @@
           </physDesc>
           <history>
             <origin>
-              <origDate from="1347">xivth century</origDate>
+              <origDate from="1347">A.D. 1347</origDate>
+              <origDate datingMethod="#Seleucid" when-custom="1658">A. Gr. 1658</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -374,11 +384,7 @@
     <revisionDesc status="draft">
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change when="" who="http://syriaca.org/documentation/editors.xml#eyonan">Initial TEI encoding.</change>
-      <change type="planned" subtype="checkSyriac">T</change>
-      <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs to
-        be checked for accuracy</change>
-      <change type="planned" subtype="arabic">Add missing Arabic text.</change>
+      <change who="http://syriaca.org/documentation/editors.xml#eyonan">Initial TEI encoding.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
