@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,112 +81,128 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="false">
-              <title>A large collection of hymns arranged according to the eight
-                tones</title>
+              <title>A large collection of hymns arranged according to the eight tones</title>
               <rubric xml:lang="syr">ܩ̈ܠܐ</rubric>
               <msItem xml:id="b1" n="2" defective="true">
                 <locus from="79a"/>
-                <title xml:lang="en">first tone</title>
-                <rubric xml:lang="syr">ܛܟ̣ܣܐ ܩܕܡܝܐ </rubric>
+                <title xml:lang="en">First tone</title>
+                <rubric xml:lang="syr">ܛܟ̣ܣܐ ܩܕܡܝܐ</rubric>
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus from="85a"/>
-                <title xml:lang="en">fifth</title>
+                <title xml:lang="en">Fifth</title>
               </msItem>
               <msItem xml:id="b3" n="4">
                 <locus from="104b"/>
-                <title xml:lang="en">second</title>
+                <title xml:lang="en">Second</title>
               </msItem>
               <msItem xml:id="b4" n="5">
                 <locus from="108a"/>
-                <title xml:lang="en">sixth</title>
+                <title xml:lang="en">Sixth</title>
               </msItem>
               <msItem xml:id="b5" n="6">
                 <locus from="121a"/>
-                <title xml:lang="en">third</title>
+                <title xml:lang="en">Third</title>
               </msItem>
               <msItem xml:id="b6" n="7">
                 <locus from="124a"/>
-                <title xml:lang="en">seventh</title>
+                <title xml:lang="en">Seventh</title>
               </msItem>
               <msItem xml:id="b7" n="8">
-                <title xml:lang="en">fourth</title>
-                <note>omitted</note>
+                <title xml:lang="en">Fourth</title>
+                <note>Omitted.</note><!-- WLP: should we delete this item since it doesn't actually exist in the ms? And perhaps leave a not on the parent item? -->
               </msItem>
               <msItem xml:id="b8" n="9" defective="true">
                 <locus from="139a"/>
-                <title xml:lang="en">eighth</title>
+                <title xml:lang="en">Eighth</title>
               </msItem>
             </msItem>
             <msItem xml:id="a2" n="10" defective="true">
               <locus from="144a"/>
-              <title xml:lang="en">A collection of ܥܩ̈ܒܐ, arranged according to the eight
-                tone</title>
+              <title xml:lang="en">A collection of <foreign xml:lang="syr">ܥܩ̈ܒܐ</foreign>, arranged according to the eight tones</title>
               <rubric xml:lang="syr">ܥܩ̈ܒܐ</rubric>
-              <finalRubric xml:lang="syr">ܫܠܡܘ ܗܠܝܢ ܥ̈ܩܒܐ ܥܡ ܬܟܫ̈ܦܬܐ ܕܐܝܬ ܥܠܝܗܘܢ ܣܢܝܩܘܬܐ. ܒܒܥܘ ܨܠܘ
-                ܥܠ ܚܛܝܐ ܕܣ̣ܪܛ ܘܠܐ ܬܥܕܠܘܢ ܡܛܠ ܟܬܝܒܬܐ ܡܒܠܒܠܬܐ ܘܘܪ̈ܩܐ ܡܒ̈ܠܒܠܐ.<locus from="150b"/>
-              </finalRubric>
+              <finalRubric xml:lang="syr"><locus from="150b"/>ܫܠܡܘ ܗܠܝܢ ܥ̈ܩܒܐ ܥܡ ܬܟܫ̈ܦܬܐ ܕܐܝܬ ܥܠܝܗܘܢ ܣܢܝܩܘܬܐ. ܒܒܥܘ ܨܠܘ ܥܠ ܚܛܝܐ ܕܣ̣ܪܛ ܘܠܐ ܬܥܕܠܘܢ ܡܛܠ ܟܬܝܒܬܐ ܡܒܠܒܠܬܐ ܘܘܪ̈ܩܐ ܡܒ̈ܠܒܠܐ</finalRubric>
+              <note>Imperfect at the beginning.</note>
             </msItem>
             <msItem xml:id="a3" n="11">
               <title xml:lang="en">Prayers</title>
               <msItem xml:id="b9" n="12" defective="true">
                 <locus from="150b"/>
+                <title xml:lang="en">Prayer 1</title>
                 <rubric xml:lang="syr">ܒܥ̈ܘܬܐ ܕܝܠܕܬ݀ ܐܠܗܐ</rubric>
               </msItem>
               <msItem xml:id="b10" n="13">
                 <locus from="151a"/>
+                <title xml:lang="en">Prayer 2</title>
                 <rubric xml:lang="syr">ܒܥ̈ܘܬܐ ܕܚܕ ܩܢܘܡܐ</rubric>
               </msItem>
             </msItem>
             <msItem xml:id="a4" n="14">
-              <title xml:lang="en">Hymns called ܬܒܪ̈ܬܐ, arranged according to the eight
-                tones, and ascribed to</title>
+              <title xml:lang="en">Hymns called <foreign xml:lang="syr">ܬܒܪ̈ܬܐ</foreign>, arranged according to the eight tones</title>
               <rubric xml:lang="syr">ܬܒܪ̈ܬܐ</rubric>
               <msItem xml:id="b11" n="15">
                 <locus from="152a"/>
-                <title xml:lang="en">To <persName>Jacob of Batnae</persName>
-                </title>
+                <author>Jacob of Batnae</author>
+                <title xml:lang="en">Hymns ascribed to <persName>Jacob of <placeName>Batnae</placeName></persName></title>
                 <rubric xml:lang="syr">ܡܪܝ ܝܥܩܘܒ ܏ܡܫ</rubric>
-                <note>Some of these constitute the order of the convent of Bar-saumā, ܛܟܣܐ ܕܥܘܡܪܐ
-                  ܕܡܪܝ ܒܪܨܘܡܐ, fol. 152 b.</note>
+                <note>Some of these constitute <ref>the order of <placeName>the convent of Bar-saumā</placeName></ref>, <foreign xml:lang="syr">ܛܟܣܐ ܕܥܘܡܪܐ ܕܡܪܝ ܒܪܨܘܡܐ</foreign>, <locus>fol. 152 b</locus>.</note>
               </msItem>
               <msItem xml:id="b12" n="16">
                 <locus from="154b"/>
-                <title xml:lang="en">To <persName>Ephraim</persName>
-                </title>
+                <author>Ephraim</author>
+                <title xml:lang="en">Hymns ascribed to <persName>Ephraim</persName></title>
                 <rubric xml:lang="syr">ܡܪܝ ܐܦܪܝܡ ܏ܡܫܡ</rubric>
               </msItem>
               <msItem xml:id="b13" n="17">
                 <locus from="156b"/>
-                <title xml:lang="en">To <persName>Balaeus</persName>
-                </title>
-                <rubric xml:lang="syr">ܡܪܝ ܒܐܠ</rubric>
-                <rubric xml:lang="syr">ܡܪܝ ܒ݁ܠ̣</rubric>
+                <author>Balaeus</author>
+                <title xml:lang="en">Hymns ascribed to <persName>Balaeus</persName></title>
+                <rubric xml:lang="syr">ܡܪܝ ܒܐܠܝ</rubric>
+                <rubric xml:lang="syr">ܡܪܝ ܒ݁ܠ̣ܝ</rubric>
               </msItem>
             </msItem>
             <msItem xml:id="a5" n="18">
               <locus from="157a"/>
+              <title xml:lang="en">Part 5</title>
               <rubric xml:lang="syr">ܝܕ̈ܥܐ ܕܥܢܝܢܐ ܘܕܩܕܝܫܬ ܐܠܗܐ</rubric>
-              <note>The word ܝܕ̈ܥܐ seems to denote the first words, or catch-words, of well- known
-                hymns, appropriate to certain occasions. ܐ̄ ܒܪܐ ܕܫ̣ܪܐ ܒܡܪܒܥܐ ܒܬܘܠܐ ܐ̄ ܨܠܝ ܡܪܝܐ ܒ܏ܪ̈ܚ
-                ܐ̄ ܣ̇ܓܕ ܠܟ ܡܪܝܐ ܢܘܗܪܐ ܐ̄ ܨܠܝ ܡܪܝܐ ܒܪ̈ܚܡܐ ܒ̄ ܗ̇ܘ ܛܥܝܢܐ ܡܪܟܒܬܒܐ (sic) ܒ̄ ܨܠܝ ܡܪܝܐ
-                ܒܪ̈ܚܡܐ ܓ̄ ܒܪܝܟ ܗܘ ܩܛܝܠܐ ܕܒ܏ܩܛ ܓ̄ ܨܠܝ ܡܪܝܐ ܒܪ̈ܚܡܐ ܏ܘܫ ܏ܫܠܡܝ ܗܠܝܢ܀ ܏ܨܠܘ ܏ܒܒܥܘ ܐ̄ ܗ̇ܘ
-                ܕܡ̈ܠܐܟܐ ܡܫܡܫܝܢ ܠܗ ܐ̄ ܩܕܝܫܬ ܐܠܗܐ ܒ̄ ܟܕ ܥܠ̣ܘ ܣ̈ܗܕܐ ܒ̄ ܩܕܝܫܬ ܐܠܗܐ ܓ̄ ܒܪܝܟ ܗܘ ܩܛܝܠܐ
-                ܕܒ܏ܩܛܠ ܓ̄ ܩܕܝܫܬ ܐܠܗܐ ܏ܘܫ ܏ܫܠܡ </note>
+              <quote xml:lang="syr"> <!-- WLP: perhaps these should all be split into sub-items? -->
+                ܐ̄ ܒܪܐ ܕܫ̣ܪܐ ܒܡܪܒܥܐ ܒܬܘܠܐ
+                ܐ̄ ܨܠܝ ܡܪܝܐ ܒ܏ܪ̈ܚ
+                ܐ̄ ܣ̇ܓܕ ܠܟ ܡܪܝܐ ܢܘܗܪܐ
+                ܐ̄ ܨܠܝ ܡܪܝܐ ܒܪ̈ܚܡܐ
+                ܒ̄ ܗ̇ܘ ܛܥܝܢܐ ܡܪܟܒܬܒܐ <foreign  xml:lang="en">(sic)</foreign>
+                ܒ̄ ܨܠܝ ܡܪܝܐ ܒܪ̈ܚܡܐ
+                ܓ̄ ܒܪܝܟ ܗܘ ܩܛܝܠܐ ܕܒ܏ܩܛ
+                ܓ̄ ܨܠܝ ܡܪܝܐ ܒܪ̈ܚܡܐ ܏ܘܫ
+                ܏ܫܠܡܝ ܗܠܝܢ܀ ܏ܨܠܘ ܏ܒܒܥܘ
+                
+                ܐ̄ ܗ̇ܘ ܕܡ̈ܠܐܟܐ ܡܫܡܫܝܢ ܠܗ
+                ܐ̄ ܩܕܝܫܬ ܐܠܗܐ
+                ܒ̄ ܟܕ ܥܠ̣ܘ ܣ̈ܗܕܐ
+                ܒ̄ ܩܕܝܫܬ ܐܠܗܐ
+                ܓ̄ ܒܪܝܟ ܗܘ ܩܛܝܠܐ ܕܒ܏ܩܛܠ
+                ܓ̄ ܩܕܝܫܬ ܐܠܗܐ ܏ܘܫ
+                ܏ܫܠܡ
+              </quote>
+              <note>The word <foreign xml:lang="syr">ܝܕ̈ܥܐ</foreign>, in the rubric, seems to denote the first words, or catch-words, of well- known
+                hymns, appropriate to certain occasions.</note>
             </msItem>
             <msItem xml:id="a6" n="19">
               <title xml:lang="en">For Passion Week</title>
               <msItem xml:id="b14" n="20" defective="true">
                 <locus from="158a"/>
+                <title xml:lang="en">Part 1</title>
                 <rubric xml:lang="syr">ܙܘ̈ܡܪܐ ܕܚܫܐ</rubric>
               </msItem>
               <msItem xml:id="b15" n="21" defective="true">
                 <locus from="159a"/>
+                <title xml:lang="en">Part 2</title>
                 <rubric xml:lang="syr">ܒ̈ܬܐ ܕܚܫܐ</rubric>
-                <note>arranged according to the eight tones</note>
+                <note>Arranged according to the eight tones.</note>
               </msItem>
               <msItem xml:id="b16" n="22">
                 <locus from="162a"/>
+                <title xml:lang="en">Part 3</title>
                 <rubric xml:lang="syr">ܦܬܓ̈ܡܐ ܕܗܘ̈ܠܠܐ ܕܚܫܐ</rubric>
               </msItem>
             </msItem>
@@ -194,12 +210,12 @@
               <locus from="163b"/>
               <title xml:lang="en">Anthems and prayers for the services of the Great Sunday
                 of the Resurrection</title>
-              <rubric xml:lang="syr">ܫܒܐ ܪܒܐ ܕܩܝܡܬܐ ܩܕܝܫܬܐ [ܕ]ܦܪܘܩܢ ܕܡܢ ܒܝܬ ܡ̈ܝܬܐ</rubric>
+              <rubric xml:lang="syr">[ܥܢܝ̈ܢܐ] ܕܚܕܒܫܒܐ ܪܒܐ ܕܩܝܡܬܐ ܩܕܝܫܬܐ [ܕ]ܦܪܘܩܢ ܕܡܢ ܒܝܬ ܡ̈ܝܬܐ</rubric>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -209,13 +225,12 @@
                   <list>
                     <item>
                       <p>Paper, about 6 7/8 in. by 4 7/8, consisting of 88 leaves (Add. 14,716,
-                        foll. 79—166), many of which are much stained and torn, espe¬cially foll.
+                        foll. 79—166), many of which are much stained and torn, especially foll.
                         79—86, 138, 143, 144, 151, and 158—166. The quires, signed with letters,
                         were originally at least 22 in number; but several of them are now either
-                        lost or defec¬tive. Leaves are wanting at the beginning and end, as well as
+                        lost or defective. Leaves are wanting at the beginning and end, as well as
                         after foll. 84, 143, 150, and 158. There are from 18 to 21 lines in each
-                        page. This manuscript is written in a good, regular hand of the xiiith
-                        cent.</p>
+                        page.</p>
                     </item>
                   </list>
                 </condition>
@@ -226,21 +241,10 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                <desc/>
+                <desc>This manuscript is written in a good, regular hand of the <date>xiiith cent.</date></desc>
               </handNote>
             </handDesc>
-            <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                  <locus/>
-                  <p/>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                </item>
-              </list>
-            </additions>
+            <additions/>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -251,7 +255,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate from="1200" to="1300">xiiith cent</origDate>
+              <origDate from="1200" to="1300">xiiith cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -444,7 +448,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#eyonan">Initial TEI encoding.</change>
-      <change type="planned" subtype="checkSyriac"/>
     </revisionDesc>
   </teiHeader>
   <facsimile>
