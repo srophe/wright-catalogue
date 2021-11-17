@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -83,56 +83,47 @@
             <msItem xml:id="a1" n="1" defective="false">
               <title>Services for Passion Week</title>
               <rubric xml:lang="syr">ܦܢܩܝܬܐ ܕܚܫܐ ܦܪܘܩܝܐ</rubric>
-              <msItem xml:id="b1" n="2">
-                <title xml:lang="en">prooemia </title>
-                <rubric xml:lang="syr">ܦܪ̈ܘܡܝܘܢ</rubric>
+              <note>Consisting of proœmia (<foreign xml:lang="syr">ܦܪ̈ܘܡܝܘܢ</foreign>), sedras (<foreign xml:lang="syr">ܣܕܪ̈ܐ</foreign>), and prayers (<foreign xml:lang="syr">ܨ̈ܠܘܬܐ ܕܫܘܪܝܐ</foreign>, <foreign xml:lang="syr">܏ܨ̈ ܕܦܝܪܡܐ</foreign>, <foreign xml:lang="syr">܏ܨ̈ ܕܚܘܬܡܐ</foreign>)</note>
+              <msItem xml:id="a2" n="5" defective="true">
+                <locus from="1a"/>
+                <title xml:lang="en">Monday</title>
+                <rubric xml:lang="syr">ܝܘܡܐ ܕܬܪ̈ܝܢ ܒܫܒܐ</rubric>
               </msItem>
-              <msItem xml:id="b2" n="3">
-                <title xml:lang="en">sedras</title>
-                <rubric xml:lang="syr">ܣܕܪ̈ܐ</rubric>
+              <msItem xml:id="a3" n="6">
+                <locus from="20b"/>
+                <title xml:lang="en">Tuesday</title>
+                <rubric xml:lang="syr">ܬܠ̈ܬܐ ܒܫܒܐ</rubric>
               </msItem>
-              <msItem xml:id="b3" n="4">
-                <title xml:lang="en">prayers</title>
-                <rubric xml:lang="syr">ܘܬܐ ܕܫܘܪܝܐ, ܏ܨ̈ ܕܦܝܪܡܐ</rubric>
-                <rubric xml:lang="syr">ܨ̈ ܕܚܘܬܡܐ</rubric>
+              <msItem xml:id="a4" n="7">
+                <locus from="32b"/>
+                <title xml:lang="en">Wednesday </title>
+                <rubric xml:lang="syr">ܐܪ̈ܒܥܐ ܒܫܒܐ</rubric>
               </msItem>
-            </msItem>
-            <msItem xml:id="a2" n="5" defective="true">
-              <locus from="1a"/>
-              <title xml:lang="en">Monday</title>
-              <rubric xml:lang="syr">ܝܘܡܐ ܕܬܪ̈ܝܢ ܒܫܒܐ</rubric>
-            </msItem>
-            <msItem xml:id="a3" n="6">
-              <locus from="20b"/>
-              <title xml:lang="en">Tuesday</title>
-              <rubric xml:lang="syr">ܬܠ̈ܬܐ ܒܫܒܐ</rubric>
-            </msItem>
-            <msItem xml:id="a4" n="7">
-              <locus from="32b"/>
-              <title xml:lang="en">Wednesday </title>
-              <rubric xml:lang="syr">ܐܪ̈ܒܥܐ ܒܫܒܐ</rubric>
-            </msItem>
-            <msItem xml:id="a5" n="8">
-              <locus from="44a"/>
-              <title xml:lang="en">Thursday</title>
-              <rubric xml:lang="syr">ܚ̈ܡܫܐ ܒܫܒܐ ܕܦܨܚܐ ܘܩܕܝܫܐ</rubric>
-              <note>including the office of the Washing of Feet, ܛܟ̣ܣܐ ܕܫܝ̇ܓܬܐ</note>
-            </msItem>
-            <msItem xml:id="a6" n="9" defective="true">
-              <locus from="64b"/>
-              <title xml:lang="en">Friday</title>
-              <rubric xml:lang="syr">ܥܪܘܒܬܐ ܕܚܫܐ ܕܨܠܝܒ̣ܘܬܐ</rubric>
-            </msItem>
-            <msItem xml:id="a7" n="10" defective="true">
-              <locus from="69a"/>
-              <title xml:lang="en">Saturday</title>
-              <rubric xml:lang="syr">ܫܒܬܐ ܕܣܒܪܬܐ</rubric>
-              <note>very imperfect</note>
+              <msItem xml:id="a5" n="8">
+                <locus from="44a"/>
+                <title xml:lang="en">Thursday</title>
+                <rubric xml:lang="syr">ܚ̈ܡܫܐ ܒܫܒܐ ܕܦܨܚܐ ܘܩܕܝܫܐ</rubric>
+                <msItem>
+                  <title xml:lang="en">The office of the Washing of Feet</title>
+                  <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܫܝ̇ܓܬܐ</rubric>
+                </msItem>
+              </msItem>
+              <msItem xml:id="a6" n="9" defective="true">
+                <locus from="64b"/>
+                <title xml:lang="en">Friday</title>
+                <rubric xml:lang="syr">ܥܪܘܒܬܐ ܕܚܫܐ ܕܨܠܝܒ̣ܘܬܐ</rubric>
+              </msItem>
+              <msItem xml:id="a7" n="10" defective="true">
+                <locus from="69a"/>
+                <title xml:lang="en">Saturday</title>
+                <rubric xml:lang="syr">ܫܒܬܐ ܕܣܒܪܬܐ</rubric>
+                <note>Very imperfect.</note>
+              </msItem>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -145,9 +136,7 @@
                         are much stained and torn, especially foll. 57 and 68—71. The quires were
                         probably eight in number. They are signed with Syriac, and by a later hand
                         with Armenian letters. One leaf is wanting at the beginning, and there are
-                        lacunae after foll. 68 and 70. Each page has from 17 to 20 lines. This
-                        manuscript is written in a large, inelegant character, dated A. Gr. 1647,
-                        A.D. 1336</p>
+                        lacunæ after foll. 68 and 70. Each page has from 17 to 20 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -156,22 +145,28 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="3">
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
+                <desc>This manuscript is written in a large, inelegant character, dated <date>A. Gr. 1647</date>, <date>A.D. 1336</date>.</desc>
+              </handNote>
+              <handNote medium="unknown" xml:id="handNote2" scope="sole" script="hy">
+                <desc>A later hand has signed the quires with Armenian letters.</desc>
+              </handNote>
+              <handNote medium="unknown" xml:id="handNote3" scope="sole" script="syr">
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
             <additions>
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus/>
+                  <locus from="71b"/>
                   <p>After the doxology, on fol. 71 b, we find the following note, containing the
                     date.</p>
                   <p>
                     <quote xml:lang="syr">ܠܬܫ܏ܒܘ ܘܠܐܝܩܪܐ ܕܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ ܫ̇ܘܝ̣ܬ݀ ܒܐܘܣܝܐ ܕܐܒܐ ܘܕܒܪܐ
                       ܘܕܪܘܚܐ ܩܕܝܫܐ ܐܠܗܐ ܫܪܝܪܐ: ܟ݁ܬܒܢܢ ܟܬܒܐ ܗܢܐ ܦܢܩܝ̣ܬܐ ܗܕܐ ܕܚܫܐ ܦܪܘܩܝܐ ܕܡܫܝܚܐ ܐܠܗܐ
-                      [ܕܝܠܢ ܒܫܢـ]ܬ ܐܠܦ ܘܫ̈ܬܡ̈ܐܐ ܏ܘܡܙ ܕ[ܝܘ̈ܢܝܐ] ܏ܘܫ. </quote>
+                      [ܕܝܠܢ ܒܫܢـ]ܬ ܐܠܦ ܘܫ̈ܬܡ̈ܐܐ ܏ܘܡܙ ܕ[ܝܘ̈ܢܝܐ] ܏ܘܫ</quote>
                   </p>
                 </item>
               </list>
@@ -186,7 +181,8 @@
           </physDesc>
           <history>
             <origin>
-              <origDate from="1300" to="1400">1336 A.D.</origDate>
+              <origDate when="1336">1336 A.D.</origDate>
+              <origDate datingMethod="#Seleucid" when-custom="1647">A. Gr. 1647</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -379,7 +375,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#eyonan">Initial TEI encoding.</change>
-      <change type="planned" subtype="checkSyriac"/>
     </revisionDesc>
   </teiHeader>
   <facsimile>

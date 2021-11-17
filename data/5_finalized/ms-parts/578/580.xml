@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 147097274</title>
+        <title level="a" xml:lang="en">BL Add MS 14709, foll. 72-74</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/580</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 147097274</idno>
+              <idno type="BL-Shelfmark">Add MS 14709, foll. 72-74</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,9 +81,9 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
+              <locus from="72a"/>
               <title>Portions of the Services for the Sunday of the Resurrection</title>
-              <quote xml:lang="syr">ܥܕܢܐ ܕܨ̇ܦܪܐ ܕܚܕܒܫܒܐ ܪܒܐ ܕܩܝ̣ܡܬܐ ܏ܩܕ ܨܠܘܬܐ ܕܫܘܪܝܐ.<locus from="72a"/>
-              </quote>
+              <rubric xml:lang="syr">ܥܕܢܐ ܕܨ̇ܦܪܐ ܕܚܕܒܫܒܐ ܪܒܐ ܕܩܝ̣ܡܬܐ ܏ܩܕ ܨܠܘܬܐ ܕܫܘܪܝܐ</rubric>
             </msItem>
           </msContents>
           <physDesc>
@@ -95,7 +95,8 @@
                   <list>
                     <item>
                       <p>Three paper leaves, about 10 1/2 in. by 7 3/8, much stained and torn (Add.
-                        14,709, foll. 72 —74).</p>
+                        14,709, foll. 72 —74). They are exactly similar in appearance to <ref target="http://syriaca.org/manuscript/579">the preceding portion of the volume
+                        (foll. l—71, no. ccclxxi)</ref>.</p>
                     </item>
                   </list>
                 </condition>
@@ -106,8 +107,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
-                <desc>They are exactly similar in appearance to the preceding portion of the volume
-                  <bibl>(foll. l—71, no. ccclxxi)</bibl>, and evidently written by the same hand, <date calendar="Gregorian" when="1336">A.D. 1336</date>.</desc>
+                <desc>Evidently written by the same hand as <ref target="http://syriaca.org/manuscript/579">the preceding portion of the volume (foll. l—71, no. ccclxxi)</ref>, <date calendar="Gregorian" when="1336">A.D. 1336</date>.</desc>
               </handNote>
             </handDesc>
             <bindingDesc>
