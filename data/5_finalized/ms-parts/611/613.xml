@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -82,20 +82,18 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
               <locus from="114a"/>
-              <title xml:lang="en">supplicatory hymns</title>
+              <title xml:lang="en">Supplicatory hymns, arranged according to the eight tones</title>
               <rubric xml:lang="syr">ܬܟܫ̈ܦܬܐ</rubric>
-              <note>arranged according to the eight tones</note>
             </msItem>
             <msItem xml:id="a2" n="2" defective="true">
               <locus from="141a"/>
-              <title xml:lang="en">The history of <persName>John the Less</persName> or the
-                Younger</title>
-              <rubric xml:lang="syr">ܡܪܝ ܝܘܚܢܢ ܙܥܘܪܐ </rubric>
+              <title xml:lang="en">The history of <persName>John the Less or the Younger</persName></title>
+              <rubric xml:lang="syr">ܡܪܝ ܝܘܚܢܢ ܙܥܘܪܐ</rubric>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -105,12 +103,10 @@
                   <list>
                     <item>
                       <p>Paper, about 7 1/4 in. by 4 7/8, consisting of 31 leaves (Add. 14,724,
-                        foll. 114—144), some of which are much torn, especially foll. 114 —123 and
+                        foll. 114—144), some of which are much torn, especially foll. 114-123 and
                         141—144. It is imperfect both at the beginning and end, and there are
                         lacunae after foll. 114 and 140. The quires are signed with letters, and
-                        there are from 20 to 25 lines in each page. This manu¬script, which is of
-                        the xiiith cent., is written by two hands (foll. 114 a—121 a and foll. 141
-                        a—144 b by the one, the rest by the other). </p>
+                        there are from 20 to 25 lines in each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -119,23 +115,15 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="2">
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
+                <desc>This manuscript, which is of the <date>xiiith cent.</date>, is written by two hands (<locus from="121b" to="140b">foll. 121 b-140b</locus> by one).</desc>
+              </handNote>
+              <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
+                <desc>This manuscript, which is of the <date>xiiith cent.</date>, is written by two hands (<locus from="114a" to="121a">foll. 114 a—121 a</locus> and <locus from="141a" to="144b">foll. 141 a—144 b</locus> by one).</desc>
               </handNote>
             </handDesc>
-            <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                  <locus/>
-                  <p/>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                </item>
-              </list>
-            </additions>
+            <additions/>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -146,8 +134,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate from="1200" to="1300">XIIIth
-                Century</origDate>
+              <origDate from="1200" to="1300">xiiith cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>

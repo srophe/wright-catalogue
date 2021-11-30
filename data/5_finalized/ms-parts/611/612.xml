@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -84,78 +84,69 @@
               <locus from="1a"/>
               <title xml:lang="en">A collection of hymns</title>
               <rubric xml:lang="syr">ܩ̈ܠܐ</rubric>
+              <note>Imperfect at the beginning.</note>
             </msItem>
-            <msItem xml:id="a2" n="2">
+            <msItem xml:id="a2" n="2" defective="true">
               <locus from="43a"/>
-              <author ref="https://syriaca.org/person/42">Jacob of Batnae</author>
               <author ref="https://syriaca.org/person/13">Ephraim</author>
+              <author ref="https://syriaca.org/person/42">Jacob of Batnae</author>
               <author>Balaeus</author>
-              <title xml:lang="en">A collection of prayers</title>
-              <rubric xml:lang="syr">ܬܘܒ ܟܬܒ̇ܝܢܢ ܫܘܚ̈ܠܦܐ ܕܒ̈ܥܘܬܐ ܕܡܪܝ ܐܦܪܝܡ ܘܡܪܝ ܝܥܩܘܒ [ܘܡܪܝ ܒܲܐܠܝ]
-                ܒܬܡ̈ܢܐ ܩܝ̈ܢܬܐ</rubric>
-              <note>The eigth tone is imperfect</note>
+              <title xml:lang="en">A collection of prayers, ascribed to Ephraim, Jacob of <placeName>Batnae</placeName>, Balaeus, arranged according to the eight tones</title>
+              <rubric xml:lang="syr">ܬܘܒ ܟܬܒ̇ܝܢܢ ܫܘܚ̈ܠܦܐ ܕܒ̈ܥܘܬܐ ܕܡܪܝ ܐܦܪܝܡ ܘܡܪܝ ܝܥܩܘܒ [ܘܡܪܝ ܒܲܐܠܝ] ܒܬܡ̈ܢܐ ܩܝ̈ܢܬܐ</rubric>
+              <note>The eighth tone is imperfect.</note>
             </msItem>
             <msItem xml:id="a3" n="3">
               <locus from="69a"/>
               <author ref="https://syriaca.org/person/13">Ephraim</author>
-              <author ref="https://syriaca.org/person/42">Jacob of Batnae</author>
-              <title xml:lang="en">Prayers for each ferial day during the six weeks of
-                Lent</title>
+              <author ref="https://syriaca.org/person/42">Jacob</author>
+              <title xml:lang="en">Prayers for each ferial day during the six weeks of Lent</title>
               <rubric xml:lang="syr">ܬܘܒ ܒܥ̈ܘܬܐ ܕܝܘܡ̈ܬܐ ܩܕܝ̈ܫܐ ܕܨܘܡܐ. ܟܠ ܝܘܡܐ ܒܝܘܡܐ</rubric>
+              <note>They are ascribed to Ephraim and Jacob.</note>
             </msItem>
             <msItem xml:id="a4" n="4">
               <locus from="76a"/>
-              <title xml:lang="en">catchwords of the prayers, hymns, and stanzas, used in the
-                daily offices of Passion Week</title>
+              <title xml:lang="en">Catchwords of the <ref>prayers</ref>, <ref>hymns</ref>, and <ref>stanzas</ref>, used in <ref>the daily offices of Passion Week</ref></title>
               <rubric xml:lang="syr">ܬܘܒ ܝܕ̈ܥܐ ܕܫܒܬܐ ܕܚܫܐ ܒ̈ܥܘܬܐ ܘܩ̈ܠܐ ܘܒ̈ܬܐ ܕܚܫܐ</rubric>
-              <quote xml:lang="syr">ܕܢܓܗ̇ ܕܬܠ̈ܬܐ. ܏ܩ̈ܠܐ ܐܝܬܝܐ ܕܒܪܡܙܗ܀ ܒܚܕܐ ܒܫܒܐ ܡܪܝܡ ܘܫܠܘܡ܀ ܪܥܡ ܩܠܗ܀
+              <quote xml:lang="syr"><locus from="79b"/>ܕܢܓܗ̇ ܕܬܠ̈ܬܐ. ܏ܩ̈ܠܐ ܐܝܬܝܐ ܕܒܪܡܙܗ܀ ܒܚܕܐ ܒܫܒܐ ܡܪܝܡ ܘܫܠܘܡ܀ ܪܥܡ ܩܠܗ܀
                 ܏ܒ̈ܬܐ ܏ܒܩ ܏ܠܟ ܝ܏ܐܝܐ ܐܡ̣ܪ ܐܠܗܐ ܠܐܒܪܡ ܟܐܢܐ ܕܕܒܪ ܠܐܝܣܚܩ ܒܪܟ ܝܚܝܕܐ. ܘܕܒܘܚܝܗܝ ܠܝ. ܒܚܕ ܡ̣ܢ
                 ܛܘܪ̈ܐ ܕܐܡ̇ܪ ܐܢܐ ܠܟ. ܘܕܪܘܫ ܐܘܪܚܐ ܠܥܠܡܐ ܕܢܚ̣ܙܐ ܩܛܠܗ ܕܝܚܝܕܝ. ܏ܡܪܝ ܏ܐܦܪܝܡ ܐܡ̣ܪ ܐܠܗܐ.
                 ܠܐܒܪܗܡ. ܕܕܒܪ ܠܐܝܣܚܩ ܚܒܝܒܟ. ܘܣܩ ܠܟ ܠܛܘܪܐ ܕܐܚܘܝܟ. ܘܬܡܢ ܕܒܘܚܝܗܝ ܘܠܐ ܬܬܥܝܩ. ܏ܕܡܪܝ ܏ܝܥܩܘܒ
                 ܒܗ ܏ܒܪܟܢܐ ܕܥܕܢܐ ܩܕܡܝܐ ܕܠܠܝܐ ܏ܩ̈ܠܐ ܏ܒܓ ܒܝܪܚܐ ܕܫܬܐ܀ ܙܕܝ̈ܩܐ ܕܪܚܡܘ܀ ܏ܘܒ̈ܬܐ ܏ܒܩ ܏ܩܠ
-                ܏ܩܝ̈ܢܝܐ ܕܒܪ ܐܒܪܗܡ ܠܒܪܗ ܘܢܦܩ. ܐܟܡܐ ܕܐܒܐ ܫܕܪ ܠܒܪܗ. ܩܝܣܐ ܠܕܒܚܐ. (fol. 80 a) ܛܥܝܢ ܗܘܐ
+                ܏ܩܝ̈ܢܝܐ ܕܒܪ ܐܒܪܗܡ ܠܒܪܗ ܘܢܦܩ. ܐܟܡܐ ܕܐܒܐ ܫܕܪ ܠܒܪܗ. ܩܝܣܐ ܠܕܒܚܐ. <foreign xml:lang="en"><locus from="80a">(fol. 80 a)</locus></foreign> ܛܥܝܢ ܗܘܐ
                 ܐܝܣܚܩ. ܘܒܪ ܐܠܗܐ ܙܩܝܦܗ ܘܢܦ̣ܩ. ܕܢܗܘܐ ܕܒܚܐ. ܚܠܦ ܚ̈ܛܝܐ. ܏ܕܡܪܝ ܏ܐܦܪܝܡ ܏ܒܩ ܏ܐܬܦܢܝ̣ܬ݀ ܏ܡ̇ܢ
                 ܏ܨܝܕ ܐܒܪܗܡ ܕܠܒܪܘܝܗ ܪܚ̇ܡ ܗܘܐ ܛܒ ܡܢ ܢܦܫܗ. ܏ܕܝܥܩܘܒ ܕܒܪ ܐܒܪܗܡ ܠܐܝܣܚܩ ܘܐܙܠ̣ ܐܝܟ ܕܐܬܦܩܕ.
-                ܘܐܬ݂ܐ ܪܐܙܐ ܢܓܕܗ ܠܛܠܝܐ ܠܘܩܒܠ ܩܛܠܐ. ܏ܕܥܕܢܐ ܕ܏ܬܪ̈ܝܢ ܩ̈ܠܐ ܏ܒܓ ܩܘܩܝܐ܀ ܕܝ̇ܢܐ ܕܝ̈ܢܐ ܏ܒ̈ܬܐ
-                ܏ܒܩ ܏ܡܛܠ ܏ܓܝܪ ܏ܡܪܝ ܏ܘܫ.<locus from="79b"/>
-              </quote>
+                ܘܐܬ݂ܐ ܪܐܙܐ ܢܓܕܗ ܠܛܠܝܐ ܠܘܩܒܠ ܩܛܠܐ. ܏ܕܥܕܢܐ ܕ܏ܬܪ̈ܝܢ ܩ̈ܠܐ ܏ܒܓ ܩܘܩܝܐ܀ ܕܝ̇ܢܐ ܕܝ̈ܢܐ ܏ܒ̈ܬܐ ܏ܒܩ ܏ܡܛܠ ܏ܓܝܪ ܏ܡܪܝ ܏ܘܫ</quote>
             </msItem>
             <msItem xml:id="a5" n="5">
               <locus from="93a"/>
-              <title xml:lang="en">Catchwords of hymns to be sung by the priests, when going
-                in procession round the altar</title>
+              <title xml:lang="en">Catchwords of <ref>hymns to be sung by <persName>the priests</persName>, when going
+                in procession round <placeName>the altar</placeName></ref>, arranged according to the eight tones</title>
               <rubric xml:lang="syr">ܝܕ̈ܥܐ ܕܩܘ̈ܩܠܝܘܢܐ ܒܬܡ̈ܢܐ ܩܝ̈ܢܬܐ</rubric>
-              <note>see <bibl>Du Cange, Glossar. Graec., κυκλοῦν</bibl>
-              </note>
-              <note>arranged according to the eight tones; e.g. ܏ܩܝܢܬܐ ܏ܩܕܡܝܬܐ. ܩܡ ܓܒܪܐ ܏ܗܗ ܚܢܢ ܕܝܢ
+              <quote xml:lang="syr">܏ܩܝܢܬܐ ܏ܩܕܡܝܬܐ. ܩܡ ܓܒܪܐ ܏ܗܗ ܚܢܢ ܕܝܢ
                 ܗܐ ܡܬܒܩܝܢܢ ܏ܗܗܗ ܐܝܟ ܕܠܫܘܒܚܐ ܏ܗܗܗ ܡܫܝܚܐ ܡܬܝܠܕ ܏ܗܗܗ ܒܚܕ ܐܒܐ ܡܗܝܡܢܝܢܢ ܏ܗܗ ܒܪܬܗ ܕܫܐܘܠ.
-                ܏ܗܗ ܐܫܘܢ ܡܪܢ ܏ܗܗ ܗ̇ܢܘ ܒܫܪܪܐ ܏ܗܗ. ܏ܬܘܒ ܏ܩܝܢܬܐ ܏ܕܬܪ̈ܬܝܢ. ܏ܘܫ. . </note>
+                ܏ܗܗ ܐܫܘܢ ܡܪܢ ܏ܗܗ ܗ̇ܢܘ ܒܫܪܪܐ ܏ܗܗ. ܏ܬܘܒ ܏ܩܝܢܬܐ ܏ܕܬܪ̈ܬܝܢ. ܏ܘܫ</quote>
+              <note>see <bibl>Du Cange, Glossar. Graec., <foreign xml:lang="grc">κυκλοῦν</foreign></bibl>.</note>
             </msItem>
             <msItem xml:id="a6" n="6">
               <locus from="97b"/>
-              <title xml:lang="en">catchwords of hymns to be similarly sung on the festivals
-                of our Lord (δεσποτικαὶ ἑορταί)</title>
+              <title xml:lang="en">Catchwords of <ref>hymns to be similarly sung on the festivals of <persName>our Lord</persName> (<foreign xml:lang="grc">δεσποτικαὶ ἑορταί</foreign>)</ref></title>
               <rubric xml:lang="syr">ܩܘܩܠܝܘܢܐ ܐܚܪ̈ܢܐ ܕܡܬܐܡܪܝܢ ܒܥ̈ܐܕܐ ܡܪ̈ܢܝܐ</rubric>
-              <quote xml:lang="syr">ܓ ܡܪܝܐ ܝܫܘܥ ܨܠܘܬܝ ܏ܐܚܪܢܐ ܏ܒܓ ܒܪܟܝ ܢܦܫܝ ܠܡܪܝܐ ܏ܒ ܏ܐܚܪܢܐ ܏ܒܕ ܐܘܕܘ
-                ܠܡܪܝܐ ܘܩܪܘ ܫܡܗ܀ ܏ܘܫ.
-              </quote>
+              <quote xml:lang="syr">܏ܓ ܡܪܝܐ ܝܫܘܥ ܨܠܘܬܝ ܏ܐܚܪܢܐ ܏ܒܓ ܒܪܟܝ ܢܦܫܝ ܠܡܪܝܐ ܏ܒ ܏ܐܚܪܢܐ ܏ܒܕ ܐܘܕܘ ܠܡܪܝܐ ܘܩܪܘ ܫܡܗ܀ ܏ܘܫ</quote>
             </msItem>
             <msItem xml:id="a7" n="7">
               <locus from="98b"/>
-              <title xml:lang="en">Versicles to be chanted before the lessons</title>
-              <rubric xml:lang="syr">ܦܬܓ̈ܡܐ ܕܟܠܗ ܫܢܬܐ ܕܗܘ̈ܠܝܠܐ (sic) ܬܘܒ ܟܬܝܒܝܢܢ</rubric>
-              <note>arranged according to the eight tones, ܕܣ̇ܠܩܝܢ ܒܬܡ̈ܢܐ ܩܝ̈ܢܬܐ.</note>
+              <title xml:lang="en">Versicles to be chanted before <ref>the lessons</ref>, arranged according to the eight tones</title>
+              <rubric xml:lang="syr">ܬܘܒ ܟܬܝܒܝܢܢ <foreign xml:lang="en">(sic)</foreign> ܦܬܓ̈ܡܐ ܕܟܠܗ ܫܢܬܐ ܕܗܘ̈ܠܝܠܐ <foreign xml:lang="en">(sic)</foreign> ܕܣ̇ܠܩܝܢ ܒܬܡ̈ܢܐ ܩܝ̈ܢܬܐ</rubric>
             </msItem>
             <msItem xml:id="a8" n="8">
               <locus from="107b"/>
-              <title xml:lang="en">Other liturgical pieces for the different
-                festivals</title>
-              <note>The rubrics of which have been mostly effaced</note>
+              <title xml:lang="en">Other liturgical pieces for the different festivals</title>
+              <note>The rubrics of these pieces have been mostly effaced.</note>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -168,8 +159,7 @@
                         are much stained and torn, especially foll. 1—10 and 108—113. The quires are
                         without signatures. Leaves are wanting at the beginning and end, as well as
                         after foll. 2, 7, and 68. The number of lines in each page varies from 15 to
-                        18. This manuscript is written in a good, regular hand of the xiiith
-                        cent.</p>
+                        18.</p>
                     </item>
                   </list>
                 </condition>
@@ -180,21 +170,10 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                <desc/>
+                <desc>This manuscript is written in a good, regular hand of the <date>xiiith cent.</date></desc>
               </handNote>
             </handDesc>
-            <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                  <locus/>
-                  <p/>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                </item>
-              </list>
-            </additions>
+            <additions/>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -205,8 +184,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate from="1200" to="1300">XIIIth
-                Century</origDate>
+              <origDate from="1200" to="1300">xiiith cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
