@@ -611,8 +611,9 @@ handNote:before(6) {
 edit, "@medium",
 columns, 15
 )
-
 }
+
+/*
 origin > origDate:before(8) {
   background-color: #95C6EB;
   color: black;
@@ -627,6 +628,8 @@ origin > origDate:before(7) {
     edit, '@to', columns, 15
     )
 }
+*/
+
 origin > origDate:before(6) {
   background-color: #95C6EB;
   color: black;
@@ -648,16 +651,22 @@ origin > origDate:before(4) {
     edit, '@notAfter', columns, 15
     )
 }
+origin > origDate:before(2) {
+  color: black;
+  content: "\A\AProse date"
+}
+
 origin > origDate[datingMethod]:before(8){
   background-color: #95EBBA;
   color: black;
   content: 'Dating Method: ' oxy_combobox(
     edit, '@datingMethod',
     editable, false,
-    values, 'Gregorian, Julian, AM, Hijri-shamsi, Hijri-qamari, Coptic-EoM, Alexandrian, Iranian-Yazdigird, Iranian-Jalali, Spanish, Ilahi, Hindu, Seleucid, unknown'
-    labels, 'Gregorian (AD), Julian, AM (Anno Mundi), Hijri-shamsi, Hijri-qamari (AH), Coptic-EoM, Alexandrian, Iranian-Yazdigird, Iranian-Jalali, Spanish, Ilahi, Hindu, Seleucid, unknown'
+    values, 'Seleucid, Hijri-qamari, Gregorian, Julian, AM, Hijri-shamsi, Coptic-EoM, Alexandrian, Iranian-Yazdigird, Iranian-Jalali, Spanish, Ilahi, Hindu, unknown'
+    labels, 'Seleucid (A Gr), Hijri-qamari (AH), Gregorian (AD), Julian, AM (Anno Mundi), Hijri-shamsi, Coptic-EoM, Alexandrian, Iranian-Yazdigird, Iranian-Jalali, Spanish, Ilahi, Hindu, unknown'
     )
 }
+/*
 origin > origDate[datingMethod]:before(7){
   background-color: #95EBBA;
   color: black;
@@ -672,6 +681,7 @@ origin > origDate[datingMethod]:before(6){
     edit, '@to-custom', columns, 15
     );
 }
+*/
 origin > origDate[datingMethod]:before(5){
   background-color: #95EBBA;
   color: black;
