@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14732228</title>
+        <title level="a" xml:lang="en">BL Add MS 14732, fol. 228</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/641</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14732228</idno>
+              <idno type="BL-Shelfmark">Add MS 14732, fol. 228</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,18 +81,9 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <title xml:lang="en">part of a metrical discourse of <persName>Jacob of Batnae</persName>, apparently that on <persName>Isaiah</persName>
-              </title>
+              <title xml:lang="en">Part of a metrical discourse of <persName>Jacob of Batnae</persName>, apparently that on <persName>Isaiah</persName></title>
+              <note>This discourse is apparently that on <ref>Isaiah, ch. vii. 14</ref>, <foreign xml:lang="syr">ܘܢܬܩܪܐ ܫܡܗ ܥܡܢܘܐܝܠ</foreign> or <ref>ch. ix. 6</ref>, <foreign xml:lang="syr">ܘܐܬܩܪܝ ܫܡܗ ܕܘܡܪܐ ܏ܘܫ</foreign>.</note>
               <note>See <bibl>Assemani, Bibl. Or., t. i., p. 309, nos. 15 and 16</bibl>.</note>
-              <msItem xml:id="b1" n="2">
-                <title xml:lang="en">ch. vii. 14</title>
-                <rubric xml:lang="syr">ܘܢܬܩܪܐ ܫܡܗ
-                  ܥܡܢܘܐܝܠ</rubric>
-              </msItem>
-              <msItem xml:id="b2" n="3">
-                <title xml:lang="en">ch. ix. 6</title>
-                <rubric xml:lang="syr">ܘܐܬܩܪܝ ܫܡܗ ܕܘܡܪܐ ܏ܘܫ</rubric>
-              </msItem>
             </msItem>
           </msContents>
           <physDesc>
@@ -103,8 +94,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>A paper leaf, about 19 1/2 in. by 12 1/2, with the signature <foreign xml:lang="syr">ܐ</foreign>. The writing is in three columns, of from 41 to
-                        43 lines.</p>
+                      <p>A paper leaf, about 19 1/2 in. by 12 1/2, with the signature <foreign xml:lang="syr">ܐ</foreign>. The writing is in three columns, of from 41 to 43 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -115,8 +105,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
-                <desc>in a good, current hand of
-                  the <date calendar="Gregorian" notBefore="1100" notAfter="1200">xiith</date> or <date calendar="Gregorian" notBefore="1200" notAfter="1300">xiiith cent.</date>
+                <desc>Written in a good, current hand of the <date calendar="Gregorian" notBefore="1100" notAfter="1300">xiith or xiiith cent.</date>
                 </desc>
               </handNote>
             </handDesc>
