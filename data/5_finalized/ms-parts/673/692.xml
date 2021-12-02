@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,6 +81,7 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
+              <title xml:lang="en">See <ref>additions</ref>.</title>
             </msItem>
           </msContents>
                <physDesc>
@@ -94,7 +95,7 @@
                         <condition>
                            <list>
                               <item>
-                                 <p>A paper leaf, about 6 7/8 in. by containing a note</p>
+                                 <p>A paper leaf, about 6 7/8 in. by 4 7/8.</p>
                               </item>
                            </list>
                         </condition>
@@ -105,57 +106,36 @@
                   </objectDesc>
                   <handDesc hands="2">
               <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
-                        <desc>It was written by <persName>Gabriel</persName>.</desc>
+                        <desc>The <ref>note</ref> was written by <persName>Gabriel</persName>.</desc>
                      </handNote>
               <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
-                        <desc>It was also written by <persName>Gabriel's nephew,
-                           Abraham</persName>.</desc>
+                        <desc>The <ref>note</ref> was also written by <persName><persName>Gabriel</persName>'s nephew, Abraham</persName>.</desc>
                      </handNote>
             </handDesc>
                   <additions>
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p>The scribes were monks of <placeName>Beth Severina</placeName>, who
-                              repaired and bound certain<note>q[7 o]q</note>volumes in
-                                 <placeName>the library of the <placeName ref="http://syriaca.org/place/360">convent of S. Mary
-                                    Deipara</placeName>
-                    </placeName>, in the year <date>1804</date>,
-                                 <date calendar="Gregorian" when="1493">A.D. 1493</date>, when
-                                 <persName>Severus (Cyriacus)</persName> was abbat.</p>
-                           <p>
-                    <quote xml:lang="syr"/>
+                           <locus from="99"/>
+                  <p>The following note was written by <persName>Gabriel</persName> and <persName>his nephew, Abraham</persName>, monks of <placeName>Beth Severina</placeName>, who
+                              repaired and bound certain volumes in <placeName>the library of the <placeName ref="http://syriaca.org/place/360">convent of S. Mary Deipara</placeName>
+                    </placeName>, in the year <date datingMethod="Seleucid" when-custom="1804">1804</date>, <date calendar="Gregorian" when="1493">A.D. 1493</date>, when <persName>Severus (Cyriacus)</persName> was abbat.</p>
+                  <p>
+                    <quote xml:lang="syr">ܕܦܓ݁ܥ ܘܡܨܠܐ ܡܛܠ ܡܪܢ̣ ܢܐܡܪ ܐܠܗܐ ܢܚܣܐ ܘܢܫܒܘܩ
+                               ܚ̈ܛܗܘܗܝ ܕܓܒܪܐܝܠ ܕܘܝܐ ܕܚ̇ܕܬ ܒܠܝܘܬܗܘܢ ܕܟܬܒ̈ܐ ܗܠܝܢ ܘܕܒ̇ܩ. ܘܕܒܪ ܐܚ܏ܘ
+                               ܪܒܢ ܐܒܪܗܡ ܩܫܝܫܐ. ܕܐܝܬܝܗܘܢ ܒܫܡ ܕܝܪ̈ܝܐ ܡܕܢܚ̈ܝܐ ܣ̇ܒܝܪ̈ܝܢܝܐ. ܒܢ̈ܝ
+                               ܬܘܠܡܕܐ ܕܝܠܗ ܕܥܘܡܪܐ ܏ܩܕ ܐܘܟܝܬ ܕܝܪܐ ܕܡܪܝ ܫܡܘܐܝܠ ܘܡܪܝ ܫܡܥܘܢ ܘܡܪܝ
+                               ܓܒܪܐܝܠ. ܗܘ̈ܝ ܒܢܫܬ ܐ܏ܦܕ ܕ܏ܝܘܢ ܒܐܝܕ̈ܝ ܚ̈ܛܝܐ ܕܥܗܝܕܝܢ ܟܕ ܐܝܬܝܗܘܢ ܥܡܘܪ̈ܐ
+                               ܘܬܘ̈ܬܒܐ ܒܕܝܪܐ ܗܕܐ ܩܕܝܫܬܐ ܕܝܠܕܬ ܐܠܗܐ. ܕܒܡܕܒܪܐ ܕܐܣܩܝܛܝ ܐܝܟ ܕܠܥܘܗܕܢܐ.
+                               ܒܝ̈ܘܡܝ ܐܒܘܢ ܡܪܝ ܣܐܘܝܪܐ ܚܣܝܐ ܕܗ̣ܘ ܩܘܪܝܩܘܣ ܪܝܫ ܕܝܪܐ ܕܝܠܗ̇ ܕܕܝܪܐ ܕܝܠܕܬ
+                               ܐܠܗܐ ܕܒܡܕܒܪܐ. ܕܗ̣ܝ ܕܣܘܪ̈ܝܐܝܐ</quote>
                   </p>
                         </item>
-                <item xml:id="addition2" n="2">
-                           <locus/>
-                           <p/>
-                           <p>
-                              <quote xml:lang="syr">ܕܦܓ݁ܥ ܘܡܨܠܐ ܡܛܠ ܡܪܢ̣ ܢܐܡܪ ܐܠܗܐ ܢܚܣܐ ܘܢܫܒܘܩ
-                                 ܚ̈ܛܗܘܗܝ ܕܓܒܪܐܝܠ ܕܘܝܐ ܕܚ̇ܕܬ ܒܠܝܘܬܗܘܢ ܕܟܬܒ̈ܐ ܗܠܝܢ ܘܕܒ̇ܩ. ܘܕܒܪ ܐܚ܏ܘ
-                                 ܪܒܢ ܐܒܪܗܡ ܩܫܝܫܐ. ܕܐܝܬܝܗܘܢ ܒܫܡ ܕܝܪ̈ܝܐ ܡܕܢܚ̈ܝܐ ܣ̇ܒܝܪ̈ܝܢܝܐ. ܒܢ̈ܝ
-                                 ܬܘܠܡܕܐ ܕܝܠܗ ܕܥܘܡܪܐ ܏ܩܕ ܐܘܟܝܬ ܕܝܪܐ ܕܡܪܝ ܫܡܘܐܝܠ ܘܡܪܝ ܫܡܥܘܢ ܘܡܪܝ
-                                 ܓܒܪܐܝܠ. ܗܘ̈ܝ ܒܢܫܬ ܐ܏ܦܕ ܕ܏ܝܘܢ ܒܐܝܕ̈ܝ ܚ̈ܛܝܐ ܕܥܗܝܕܝܢ ܟܕ ܐܝܬܝܗܘܢ ܥܡܘܪ̈ܐ
-                                 ܘܬܘ̈ܬܒܐ ܒܕܝܪܐ ܗܕܐ ܩܕܝܫܬܐ ܕܝܠܕܬ ܐܠܗܐ. ܕܒܡܕܒܪܐ ܕܐܣܩܝܛܝ ܐܝܟ ܕܠܥܘܗܕܢܐ.
-                                 ܒܝ̈ܘܡܝ ܐܒܘܢ ܡܪܝ ܣܐܘܝܪܐ ܚܣܝܐ ܕܗ̣ܘ ܩܘܪܝܩܘܣ ܪܝܫ ܕܝܪܐ ܕܝܠܗ̇ ܕܕܝܪܐ ܕܝܠܕܬ
-                                 ܐܠܗܐ ܕܒܡܕܒܪܐ. ܕܗ̣ܝ ܕܣܘܪ̈ܝܐܝܐ.</quote>
-                           </p>
-                        </item>
                 <item xml:id="addition3" n="3">
-                           <locus/>
-                           <p>Lower down, another oriental <persName>monk named Bar 'Isa</persName>
-                              has recorded his name, in the year <date>1840</date>, <date calendar="Gregorian" when="1529">A.D. 1529</date>.</p>
+                  <locus from="99"/>
+                  <p>Lower down, another <persName>oriental monk named Bar 'Isa</persName> has recorded his name, in the year <date datingMethod="Seleucid" when-custom="1840">1840</date>, <date calendar="Gregorian" when="1529">A.D. 1529</date>.</p>
                            <p>
-                              <quote xml:lang="syr"/>
-                           </p>
-                        </item>
-                <item xml:id="addition4" n="4">
-                           <locus/>
-                           <p/>
-                           <p>
-                              <quote xml:lang="syr">ܒܪ ܥܝܣܐ ܒܪ ܩܫܐ ܝܫܘܥ ܡܢ ܩܣܛܪܐ ܡܒܪܟܬܐ ܒܫܢܬ ܐܠܦܐ
-                                 ܘܬܡܐܢܝܡܐܐ ܘܪ̈ܒܥܝܢ(sic) ܕܝܘ̈ܢܝܐ.</quote>
+                             <quote xml:lang="syr">ܒܪ ܥܝܣܐ ܒܪ ܩܫܐ ܝܫܘܥ ܡܢ ܩܣܛܪܐ ܡܒܪܟܬܐ ܒܫܢܬ ܐܠܦܐ ܘܬܡܐܢܝܡܐܐ ܘܪ̈ܒܥܝܢ <foreign xml:lang="en">(sic)</foreign> ܕܝܘ̈ܢܝܐ</quote>
                            </p>
                         </item>
               </list>
@@ -170,8 +150,9 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate/>
-                     <origPlace/>
+                    <origDate calendar="Gregorian" when="1493">A.D. 1493</origDate>
+                    <origDate datingMethod="Seleucid" when-custom="1804">1804</origDate>
+                    <origPlace ref="http://syriaca.org/place/360">convent of S. Mary Deipara</origPlace>
                   </origin>
                   <provenance/>
                   <acquisition/>
@@ -353,7 +334,7 @@
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
             <item>
-              <ref target="#"/>
+              <ref target="#fly-leaves"/>
             </item>
           </list>
         </keywords>
@@ -364,8 +345,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-08-01" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
-         <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
-            to be checked for accuracy</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

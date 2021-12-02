@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 147373549</title>
+        <title level="a" xml:lang="en">BL Add MS 14737, foll. 35-49</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/677</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 147373549</idno>
+              <idno type="BL-Shelfmark">Add MS 14737, foll. 35-49</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -84,9 +84,10 @@
               <title xml:lang="en">Portions of several Anaphoras</title>
               <msItem xml:id="b1" n="2">
                 <locus from="46a">fol. 46a</locus>
-                <title xml:lang="en">among others of that of <persName>S. James</persName>
-                </title>
+                <author>S. James</author>
+                <title xml:lang="en">That of <persName>S. James</persName></title>
                 <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܕܩܕܝܫܐ ܡܪܝ ܝܥܩܘܒ ܐܚܘܗܝ ܕܡܪܢ</rubric>
+                <note>Among others.</note>
               </msItem>
             </msItem>
           </msContents>
@@ -110,8 +111,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
-                <desc>The writing is inelegant, of the <date calendar="Gregorian" notBefore="1300" notAfter="1400">xivth cent.</date>
-                </desc>
+                <desc>The writing is inelegant, of the <date calendar="Gregorian" notBefore="1300" notAfter="1400">xivth cent.</date></desc>
               </handNote>
             </handDesc>
             <bindingDesc>
