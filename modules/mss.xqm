@@ -90,6 +90,34 @@ declare function mss:enumerate-element-sequence($elementSequence as node()+, $el
     return element {node-name($el)} {$elementId, $attrN, $el/@*, $el/*}
 }; (:NOTE: For msItems, add an off-set value to this which defaults to 0 but can be used when doing dfs traversal of msContents :)
 
+declare function mss:remove-empty-attributes-in-node-sequence-recursive($node-seq as element()*)
+as element()*
+{
+  for $node in $node-seq
+  let $nonEmptyAttrs :=
+    for $attr in $node/@*
+    return if(string($attr) != "") then $attr
+    return element {node-name($node)} {$nonEmptyAttrs, 
+    for $child in $node/node()
+    return if ($child instance of element())
+     then mss:remove-empty-attributes-in-node-sequence-recursive($child)
+     else $child}
+};
+
+declare function mss:remove-empty-children-in-node-sequence-msItem-recursive($node-seq as element()*)
+as element()*
+{
+  for $node in $node-seq
+  let $nonEmptyChildren :=
+    for $el in $node/*
+    let $text := string-join($el//text(), "")
+    return 
+      if(local-name($el) = "msItem") then mss:remove-empty-children-in-node-sequence-msItem-recursive($el) (: recurse on msItem elements :)
+      else if(normalize-space($text) != "") then $el (: non-msItem elements with descendant text should be kept :)
+      else if(local-name($el) = "locus" and ($el/@from or $el/@to)) then $el (: locus elements are kept only if they have a @from or @to attribute :)
+  return element {node-name($node)} {$node/@*, $nonEmptyChildren}
+};
+
 (: Functions to turn XML Stub records into full TEI files :)
 
 declare function mss:create-updated-document($rec as node()+) as document-node() {
@@ -185,7 +213,8 @@ declare function mss:update-msDesc($rec as node()+) as node() {
   let $physDesc := mss:update-physDesc($rec//tei:msDesc/tei:physDesc)
   let $history := $rec//tei:msDesc/tei:history
   let $additional := mss:update-ms-additional($msId)
-  return element {QName("http://www.tei-c.org/ns/1.0", "msDesc")} {attribute {"xml:id"} {"manuscript-"||$msId}, $msIdentifier, $msContents, $physDesc, $history, $additional}
+  let $updatedMsDesc := element {QName("http://www.tei-c.org/ns/1.0", "msDesc")} {attribute {"xml:id"} {"manuscript-"||$msId}, $msIdentifier, $msContents, $physDesc, $history, $additional}
+  return mss:remove-empty-attributes-in-node-sequence-recursive($updatedMsDesc)
   
 };
 
@@ -242,6 +271,8 @@ declare function mss:update-msContents($msContents as node()+) as node() { (: PE
   let $textLang := if($msContents/tei:textLang) then $msContents/tei:textLang
                        else element {QName("http://www.tei-c.org/ns/1.0", "textLang")} {attribute {"mainLang"} {$config:project-config/config/projectMetadata/msMainLang/text()}}
   let $msItems := mss:add-msItem-id-and-enumeration-values(<msItemContainer>{$msContents/tei:msItem}</msItemContainer>, $mss:initial-msItem-up-stack, $mss:initial-msItem-down-stack, 1)[1]/tei:msItem
+  let $msItems := mss:remove-empty-attributes-in-node-sequence-recursive($msItems)
+  let $msItems := mss:remove-empty-children-in-node-sequence-msItem-recursive($msItems)
   return element {QName("http://www.tei-c.org/ns/1.0", "msContents")} {$summary, $textLang, $msItems}
 };
 
@@ -333,8 +364,14 @@ declare function mss:update-decoDesc($decoDesc as node()+) as node() { (:not cur
 };
 
 declare function mss:update-additions($additions as node()+) as node() {
-  let $additionsList := element {node-name($additions/tei:list)} {mss:enumerate-element-sequence($additions/tei:list/tei:item, "addition", boolean(1))}
-  return element {node-name($additions)} {$additions/tei:p, $additionsList}
+  let $additions := mss:remove-empty-attributes-in-node-sequence-recursive($additions)
+  let $additionsItemsWithoutEmptyItems := mss:remove-empty-children-in-node-sequence-msItem-recursive($additions/tei:list/tei:item)
+  let $additionsList := element {node-name($additions/tei:list)} {$additionsItemsWithoutEmptyItems}
+  let $additionsListWithoutEmptyItems := mss:remove-empty-children-in-node-sequence-msItem-recursive($additionsList)
+  let $additionsList := if(count($additionsListWithoutEmptyItems/tei:item) > 0) then element {node-name($additions/tei:list)} {mss:enumerate-element-sequence($additionsListWithoutEmptyItems/tei:item, "addition", boolean(1))}
+  else ()
+  let $additions := element {node-name($additions)} {$additions/tei:p, $additionsList}
+  return  mss:remove-empty-children-in-node-sequence-msItem-recursive($additions)
 };
 
 declare function mss:update-ms-history($msHistory as node()+) as node() {
@@ -397,7 +434,8 @@ declare function mss:update-revisionDesc($revisionDesc as node()+) as node() {
   let $currentDate := fn:current-date()
   let $currentDate := fn:substring(xs:string($currentDate), 1, 10)
   let $newChangeLogElement := element {QName("http://www.tei-c.org/ns/1.0", "change")} {attribute {"who"} {$config:editors-document-uri||"#"||$config:change-log-script-id}, attribute {"when"} {$currentDate}, $config:change-log-message}
-   return element {QName("http://www.tei-c.org/ns/1.0", "revisionDesc")} {$revisionDesc/@*, $newChangeLogElement, $revisionDesc/*}
+  let $newChangeLog := mss:remove-empty-attributes-in-node-sequence-recursive(($newChangeLogElement, $revisionDesc/*))
+   return element {QName("http://www.tei-c.org/ns/1.0", "revisionDesc")} {$revisionDesc/@*, $newChangeLog}
 };
 
 (: Build tei:fascimile and tei:text :)
