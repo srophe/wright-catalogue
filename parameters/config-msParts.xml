@@ -4,14 +4,14 @@
     <fileOrConsole>file</fileOrConsole>
     <outputFileDirectory>/data/5_finalized/</outputFileDirectory><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
     <manuscriptLevelMetadata>
-        <pathToMsPartsFolder>/data/5_finalized/ms-parts/614/</pathToMsPartsFolder><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
-        <recordTitle>BL Add MS 14725</recordTitle>
-        <uriValue>614</uriValue>
+        <pathToMsPartsFolder>/data/5_finalized/ms-parts/635/</pathToMsPartsFolder><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
+        <recordTitle>BL Add MS 14730</recordTitle>
+        <uriValue>635</uriValue>
         <country>United Kingdom</country>
         <settlement>London</settlement>
         <repository>British Library</repository>
         <collection>Oriental Manuscripts</collection>
-        <shelfMark>Add MS 14725</shelfMark>
+        <shelfMark>Add MS 14730</shelfMark>
         <revisionDesc>
             <scriptEditor>
                 <editorId>srophe-util</editorId>
@@ -20,9 +20,7 @@
         </revisionDesc>
     </manuscriptLevelMetadata>
     <msPartFiles><!-- these should be xml file names containing the data to be converted to msParts. These files should be stored in the folder declared above in the pathToMsPartsFolder text node. They should be ordered according to the sequence they should appear in the msParts sequence (i.e., the first ms part should be the first fileName element in the below sequence, even if it is not the numerically smallest URI value.-->
-        <fileName>615.xml</fileName>
-        <fileName>616.xml</fileName>
-        <fileName>617.xml</fileName>
-        <fileName>618.xml</fileName>
+        <fileName>636.xml</fileName>
+        <fileName>637.xml</fileName>
     </msPartFiles>
 </config>
