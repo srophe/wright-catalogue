@@ -4,14 +4,14 @@
     <fileOrConsole>file</fileOrConsole>
     <outputFileDirectory>/data/5_finalized/</outputFileDirectory><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
     <manuscriptLevelMetadata>
-        <pathToMsPartsFolder>/data/5_finalized/ms-parts/462/</pathToMsPartsFolder><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
-        <recordTitle>BL Add MS 14667</recordTitle>
-        <uriValue>462</uriValue>
+        <pathToMsPartsFolder>/data/5_finalized/ms-parts/540/</pathToMsPartsFolder><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
+        <recordTitle>BL Add MS 14684</recordTitle>
+        <uriValue>540</uriValue>
         <country>United Kingdom</country>
         <settlement>London</settlement>
         <repository>British Library</repository>
         <collection>Oriental Manuscripts</collection>
-        <shelfMark>Add MS 14667</shelfMark>
+        <shelfMark>Add MS 14684</shelfMark>
         <revisionDesc>
             <scriptEditor>
                 <editorId>srophe-util</editorId>
@@ -20,26 +20,7 @@
         </revisionDesc>
     </manuscriptLevelMetadata>
     <msPartFiles><!-- these should be xml file names containing the data to be converted to msParts. These files should be stored in the folder declared above in the pathToMsPartsFolder text node. They should be ordered according to the sequence they should appear in the msParts sequence (i.e., the first ms part should be the first fileName element in the below sequence, even if it is not the numerically smallest URI value.-->
-        <fileName>463.xml</fileName>
-        <fileName>464.xml</fileName>
-        <fileName>465.xml</fileName>
-        <fileName>466.xml</fileName>
-        <fileName>467.xml</fileName>
-        <fileName>468.xml</fileName>
-        <fileName>469.xml</fileName>
-        <fileName>470.xml</fileName>
-        <fileName>471.xml</fileName>
-        <fileName>1483.xml</fileName>
-        <fileName>472.xml</fileName>
-        <fileName>473.xml</fileName>
-        <fileName>474.xml</fileName>
-        <fileName>475.xml</fileName>
-        <fileName>476.xml</fileName>
-        <fileName>477.xml</fileName>
-        <fileName>478.xml</fileName>
-        <fileName>479.xml</fileName>
-        <fileName>480.xml</fileName>
-        <fileName>481.xml</fileName>
-        <fileName>482.xml</fileName>
+        <fileName>541.xml</fileName>
+        <fileName>542.xml</fileName>
     </msPartFiles>
 </config>
