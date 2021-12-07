@@ -4,3 +4,6 @@ Welcome to the project repository for **A Digital Catalogue of Syriac Manuscript
 
 This repository contains a data pipeline for creating TEI XML manuscript records of entries in William Wright's _Catalogue of Syriac Manuscripts in the British Museum acquired since the year 1838_ (London: Gilbert and Rivington, 1870-1872). For more information, see our [Wiki](https://github.com/srophe/wright-catalogue/wiki).
 
+Useful Pages:
+
+- [Post Processing Drafted Manuscript Records](https://github.com/srophe/wright-catalogue/wiki/Post-Processing-Drafted-Manuscript-Records)
