@@ -42,7 +42,7 @@ for $doc in $inputCollection
     
   let $updatedRecord := if ($docId != "") then try {
     mss:create-updated-document($doc)
-  } catch err:XPTY0004  {
+  } catch *  {
     <error>
     <recId>{$docId}</recId>
     <errorData>
