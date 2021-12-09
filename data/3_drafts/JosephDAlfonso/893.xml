@@ -16,15 +16,15 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <idno type="URI"/>
+            <idno type="URI">893</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark"/>
+              <idno type="BL-Shelfmark">Add. 17,213, fol. 43.</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <summary/>
             <textLang mainLang="syr"/>
-            <msItem defective="false">
+            <msItem defective="true">
               <locus to="" from=""/>
               <author ref=""/>
               <title ref="" xml:lang="en"/>
@@ -43,7 +43,7 @@
             </msItem>
           </msContents>
           <physDesc>
-            <objectDesc form="codex">
+            <objectDesc form="leaf">
               <supportDesc material="perg">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
@@ -53,7 +53,10 @@
                 <condition>
                   <list>
                     <item>
-                      <p/>
+                      <p>A vellum leaf, about 11 7/8 in. by 8 ¾ , much stained and slightly torn. It
+                        was one of the fly-leaves of a manuscript, and contains on both sides some
+                        lines of writing in a hand of the vith or viith cent. What stands on the
+                        recto is much effaced. </p>
                     </item>
                   </list>
                 </condition>
@@ -63,18 +66,21 @@
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote scope="" script=""
-                medium="">
-                <desc></desc>
+              <handNote scope="" script="" medium="">
+                <desc/>
               </handNote>
             </handDesc>
             <additions>
-              <p></p>
+              <p/>
               <list>
                 <item>
-                  <locus from="" to=""/>
-                  <p></p>
-                  <p><quote xml:lang="syr"></quote></p>
+                  <locus from="1b" to=""/>
+                  <p>On the verso we read:</p>
+                  <p>
+                    <quote xml:lang="syr">ܬܗܘܐ ܥܗܕ ܐܢܬ ܕܝܢܐ ܘܫܘܢܩܐ ܕܒܓܗܢܐ. ܘܡܨܐ ܗܢܐ ܪܢܝܐ ܪܕܦ ܡܢܟ
+                      [ܪ]ܒܘ ܒܝܫ̈ܬܐ. ܒܫܒܛܐ ܕܫܡܥܐ ܕܟܐܢܘܬܐ ܡܫܩܠ ܓܦܐ ܕܒܝ̈ܫܬܐ. ܠܡܘܬܐ ܡܡܬܘܡ ܠܐ ܬܛܥܐ ܘܠܐ
+                      ܡܟܐ ܠܟ ܫܘܒܗܪܐ. ܪܢܝܗ ܕܡܘܬܐ ܡܠܦ ܠܟ ܕܐܝܟ ܡܝܘܬܐ ܬܕܒܪ܀.</quote>
+                  </p>
                 </item>
               </list>
             </additions>
@@ -88,8 +94,9 @@
           </physDesc>
           <history>
             <origin>
-              <origDate from="" to="" when=""/>
-              <origPlace ref="" xml:lang=""></origPlace>
+              <origDate notBefore="0500" notAfter="0699" from="" to="" when="">of the vith or viith
+                cent</origDate>
+              <origPlace ref="" xml:lang=""/>
             </origin>
             <provenance/>
             <acquisition/>
@@ -103,7 +110,10 @@
     </encodingDesc>
     <profileDesc/>
     <revisionDesc status="draft">
-      <change when="" who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI encoding.</change>
+      <change when="" who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI
+        encoding.</change>
+      <change type="planned" subtype="question">Question in Word Doc to be Addressed: needs
+        diacritical marks</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
