@@ -81,7 +81,11 @@
           <msContents>
             <summary/>
             <textLang mainLang="syr-Syre"/>
-            <msItem xml:id="a1" n="1" defective="true"/>
+            <msItem xml:id="a1" n="1" defective="true">
+                <locus from="87" to="88"/>
+                <title xml:lang="en">Unspecified contents</title>
+                <note>Cf. <ref>additions</ref>.</note>
+            </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="leaf">
@@ -329,6 +333,7 @@
     <revisionDesc status="draft">
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-09">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI encoding.</change>
+        <change type="planned" subtype="consultation">Wright's description is so incomplete that the physical manuscript needs to be consulted and redescribed.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
