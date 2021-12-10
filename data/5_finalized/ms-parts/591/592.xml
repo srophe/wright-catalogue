@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14716178</title>
+        <title level="a" xml:lang="en">BL Add MS 14716, foll. 1-78</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/592</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14716178</idno>
+              <idno type="BL-Shelfmark">Add MS 14716, foll. 1-78</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -80,67 +80,63 @@
           </msIdentifier>
           <msContents>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1" defective="false">
-              
+            <msItem xml:id="a1" n="1" defective="true">
               <title>The Horologium or daily hours of the Malkite church</title>
               <msItem xml:id="b1" n="2" defective="true">
                 <locus from="1a"/>
-                <title xml:lang="en">morning prayer</title>
+                <title xml:lang="en">Morning prayer</title>
                 <rubric xml:lang="syr">ܨܠܘܬܐ ܕܨܦܪܐ</rubric>
-                <note>imperfect at the beginning and end</note>
+                <note>Imperfect at the beginning and end.</note>
               </msItem>
-              <msItem xml:id="b2" n="3">
+              <msItem xml:id="b2" n="3" defective="true">
                 <locus from="17a"/>
-                <title xml:lang="en">terce</title>
-                <rubric xml:lang="syr">ܨܠܘܬܐ ܕܬܠ̈ܬ ܫ̈ܥܝ</rubric>
-                <note>imperfect at the beginning</note>
+                <title xml:lang="en">Terce</title>
+                <rubric xml:lang="syr">ܨܠܘܬܐ ܕܬܠ̈ܬ ܫ̈ܥܝܢ</rubric>
+                <note>Imperfect at the beginning.</note>
               </msItem>
               <msItem xml:id="b3" n="4">
                 <locus from="22b"/>
-                <title xml:lang="en">sext</title>
+                <title xml:lang="en">Sext</title>
                 <rubric xml:lang="syr">ܨܠܘܬܐ ܕܫܬ̤ ܫ̈ܥܝܢ</rubric>
               </msItem>
               <msItem xml:id="b4" n="5">
                 <locus from="30b"/>
-                
+                <title xml:lang="en">Part 4</title>
                 <rubric xml:lang="syr">ܨ̇܏ܠܘ ܕܡܩܪܙܡ</rubric>
               </msItem>
               <msItem xml:id="b5" n="6">
                 <locus from="39a"/>
-                <title xml:lang="en">none</title>
-                <rubric xml:lang="syr">ܨ̇܏ܠܘ ܕܬܫ̈ܥ ܫ̈ܥܝ</rubric>
+                <title xml:lang="en">None</title>
+                <rubric xml:lang="syr">ܨ̇܏ܠܘ ܕܬܫ̈ܥ ܫ̈ܥܝܢ</rubric>
               </msItem>
               <msItem xml:id="b6" n="7">
                 <locus from="46a"/>
-                <title xml:lang="en">vespers</title>
+                <title xml:lang="en">Vespers</title>
                 <rubric xml:lang="syr">ܨ̇܏ܠܘ ܕܪܡܫܐ</rubric>
               </msItem>
-              <msItem xml:id="b7" n="8">
+              <msItem xml:id="b7" n="8" defective="true">
                 <locus from="54b"/>
-                <title xml:lang="en">compline</title>
+                <title xml:lang="en">Compline</title>
                 <rubric xml:lang="syr">ܨ̇܏ܠܘ ܕܣܘܬܪܐ</rubric>
-                <note>imperfect at the end </note>
+                <note>Imperfect at the end.</note>
               </msItem>
               <msItem xml:id="b8" n="9">
                 <locus from="73a"/>
-                <author ref="http://syriaca.org/person/573">
-                  <persName>John Chrysostom</persName>
+                <author ref="http://syriaca.org/person/573">John Chrysostom
                 </author>
-                <title xml:lang="en">A prayer of <persName>John Chrysostom</persName>
-                </title>
+                <title xml:lang="en">A prayer of <persName ref="http://syriaca.org/person/573">John Chrysostom</persName></title>
                 <rubric xml:lang="syr">ܕܡܪܝ ܝܘܚܢܢ ܦܘܡܐ ܕܕܗܒܐ܀ ܐ܏ܡܪ܀ ܡܪܝܐ ܚ̇ܢܢܐ ܘܡܪܚܦܢܐ. ܢܓܝܪ ܪܘܚܐ
-                  ܘܣ̇ܓܝ ܛܝܒܘܬܐ ܘܩܘܫܬܐ. ܗ̇ܘ ܕܠܐ ܨܒ̇ܐ ܐܢܬ ܒܡܘܬܗ ܕܚ̇ܛܝܐ. ܐܝܟ ܗ̇ܝ ܕܢܐܬܘܒ ܘܢܐܚ̣ܐ.
-                  ܏ܘܫ</rubric>
+                  ܘܣ̇ܓܝ ܛܝܒܘܬܐ ܘܩܘܫܬܐ. ܗ̇ܘ ܕܠܐ ܨܒ̇ܐ ܐܢܬ ܒܡܘܬܗ ܕܚ̇ܛܝܐ. ܐܝܟ ܗ̇ܝ ܕܢܐܬܘܒ ܘܢܐܚ̣ܐ. ܏ܘܫ</rubric>
               </msItem>
-              <msItem xml:id="b9" n="10">
+              <msItem xml:id="b9" n="10" defective="true">
                 <locus to="78" from="77"/>
-                <title xml:lang="en">Fragments of a service.</title>
+                <title xml:lang="en">Fragments of a service</title>
               </msItem>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -152,9 +148,8 @@
                       <p>Paper, about 6 7/8 in. by 4 7/8, consisting of 78 leaves. The quires,
                         signed with letters and Coptic arithmetical figures, were originally at
                         least 14 in number. Leaves are wanting both at the beginning and end, and
-                        there are lacunae after foll. 16, 72, 76, and 77. Each page has from 12 to
-                        17 lines. This manuscript is written in a good, Malkite hand of the xiiith
-                        cent.</p>
+                        there are lacunæ after foll. 16, 72, 76, and 77. Each page has from 12 to
+                        17 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -164,22 +159,11 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="" script="">
-                <desc/>
+              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr-x-syrm">
+                <desc>This manuscript is written in a good, Malkite hand of the <date>xiiith cent.</date></desc>
               </handNote>
             </handDesc>
-            <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                  <locus/>
-                  <p/>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                </item>
-              </list>
-            </additions>
+            <additions/>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -190,7 +174,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate from="1200" to="1300">xiiith </origDate>
+              <origDate from="1200" to="1300">xiiith cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -382,8 +366,7 @@
     <revisionDesc status="draft">
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change when="" who="http://syriaca.org/documentation/editors.xml#eyonan">Initial TEI encoding.</change>
-      <change type="planned" subtype="checkSyriac"/>
+      <change who="http://syriaca.org/documentation/editors.xml#eyonan">Initial TEI encoding.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

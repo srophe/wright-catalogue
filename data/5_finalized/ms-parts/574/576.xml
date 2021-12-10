@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 1470852121</title>
+        <title level="a" xml:lang="en">BL Add MS 14708, foll. 52-121</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/576</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 1470852121</idno>
+              <idno type="BL-Shelfmark">Add MS 14708, foll. 52-121</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -82,61 +82,62 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="false">
               <locus from="52" to="121"/>
-              <title>A Choir-book, the contents of which are similar to those of
-                the immediately preceding numbers.</title>
+              <title>A Choir-book</title>  
+              <note>The contents are similar to those of <ref>the immediately preceding numbers</ref>.</note><!-- WLP: how do we link to these mss that are underspecified? -->        
               <msItem xml:id="b1" n="2">
                 <locus from="52b"/>
-                <title xml:lang="en">Common anthems, arranged according to the eight
-                  tones</title>
-                <rubric xml:lang="syr">ܬܘܒ ܟ݁ܬܒܝܢܢ ܩ̈ܠܐ ܘܒܥ̈ܘܬܐ ܕܨܠܝܒܐ</rubric>
+                <title xml:lang="en">Common anthems, arranged according to the eight tones</title>
+                <rubric xml:lang="syr">ܥܠ ܣܒܪܐ ܕܐܠܗܐ ܟܬ[ܒܝܢܢ ܥܢ̈ܝ]ܢܐ ܓܘ̈ܢܝܐ ܒܬܡ̈ܢܐ ܩܝ̈ܢܬܐ</rubric>
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus from="70a"/>
-                <title xml:lang="en">Hymns and prayers of the holy Cross</title>
+                <title xml:lang="en">Hymns and prayers of <persName>the holy Cross</persName></title>
                 <rubric xml:lang="syr">ܬܘܒ ܟ݁ܬܒܝܢܢ ܩ̈ܠܐ ܘܒܥ̈ܘܬܐ ܕܨܠܝܒܐ</rubric>
               </msItem>
               <msItem xml:id="b3" n="4">
                 <locus from="74b"/>
-                <title xml:lang="en">The Commemoration of any one Teacher or Ascetic</title>
+                <title xml:lang="en">The Commemoration of any one <persName>Teacher</persName> or <persName>Ascetic</persName></title>
                 <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܚܕ ܩܢܘܡܐ ܕܡ̈ܠܦܢܐ ܘܕܥ̈ܢܘܝܐ</rubric>
               </msItem>
               <msItem xml:id="b4" n="5">
                 <locus from="84a"/>
-                <title xml:lang="en">Of any one Martyr</title>
+                <title xml:lang="en">Of any one <persName>Martyr</persName></title>
                 <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܚܕ ܩܢܘܡܐ ܐܝܢܐ ܕܐܫܬ݁ܡܠ̣ܝ ܒܣܗܕܘܬܐ</rubric>
               </msItem>
               <msItem xml:id="b5" n="6">
                 <locus from="91a"/>
-                <title xml:lang="en">Of <persName>Macarius, Maximus</persName>, etc</title>
-                <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܐܒ̈ܗܬܐ ܩܕ̈ܝܫܐ ܐܒܐ ܡ̇ܐܩܪܝܘܣ܀ ܘܡܐܣܡܝܘܣ (sic) ܘܕܘܡܛܝܘܣ
-                  ܘܲ ܘܐܒܐ ܒܝܫ̣ܘܝ ܘܐܒܐ ܝܘܚܢܢ ܙܥܘܪܐ</rubric>
-                <author ref="http://syriaca.org/person/1912"/>
+                <title xml:lang="en">Of <persName>Macarius</persName>, <persName>Maximus</persName>, etc.</title>
+                <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܐܒ̈ܗܬܐ ܩܕ̈ܝܫܐ ܐܒܐ ܡ̇ܐܩܪܝܘܣ܀ ܘܡܐܣܡܝܘܣ <foreign xml:lang="en">(sic)</foreign> ܘܕܘܡܛܝܘܣ ܘܲ ܘܐܒܐ ܒܝܫ̣ܘܝ ܘܐܒܐ ܝܘܚܢܢ ܙܥܘܪܐ</rubric>
               </msItem>
               <msItem xml:id="b6" n="7">
                 <locus from="102a"/>
-                <title xml:lang="en">Of the blessed Virgin, the mother of God, over the ears
-                  of corn</title>
-                <rubric xml:lang="syr">ܛܟܣܐ ܕܡܫܬ݁ܡ̣ܠܐ ܥܠ ܫ̈ܒܠܐ ܕܥܠ ܒܬܘܠܬܐ ܕܟܝܬܐ ܘܩܕܝܫܬܐ ܝܠܕܬ݀ ܐܠܗܐ
-                  ܡܪܝܡ</rubric>
+                <title xml:lang="en">Of <persName>the blessed Virgin, the mother of God</persName>, over the ears of corn</title>
+                <rubric xml:lang="syr">ܛܟܣܐ ܕܡܫܬ݁ܡ̣ܠܐ ܥܠ ܫ̈ܒܠܐ ܕܥܠ ܒܬܘܠܬܐ ܕܟܝܬܐ ܘܩܕܝܫܬܐ ܝܠܕܬ݀ ܐܠܗܐ ܡܪܝܡ</rubric>
               </msItem>
               <msItem xml:id="b7" n="8">
                 <locus from="119a"/>
-                <title xml:lang="en">A Calendar of Festivals and Saints' Days</title>
+                <title xml:lang="en">A Calendar of Festivals and <persName>Saints</persName>' Days</title>
                 <rubric xml:lang="syr">ܬܘܒ ܩܘܕܝܟܘܣ ܡܚܲܘܝܢܐ ܕܥ̈ܐܕܐ ܟܠܗܘܢ ܩ̈ܕܝܫܐ</rubric>
               </msItem>
               <msItem xml:id="b8" n="9">
                 <locus from="121a"/>
-                <title xml:lang="en">Two prayers of <persName>Jacob of Batnae</persName> for
-                  the festival of the holy Cross</title>
+                <author ref="https://syriaca.org/person/42">Jacob of Batnae</author>
+                <title xml:lang="en">Two prayers of <persName>Jacob of <placeName>Batnae</placeName></persName> for
+                  the festival of <persName>the holy Cross</persName></title>
                 <rubric xml:lang="syr">ܒܥ̈ܘܬܐ ܕܡܪܝ ܝܥܩܘܒ ܕܬܠܬܫܥܝܢ ܕܨܠܝܒܐ</rubric>
                 <note>and one for the commemoration of the Dead, ܒܥܘܬܐ ܕܥܢ̈ܝܕܐ</note>
-                <author ref="https://syriaca.org/person/42"/>
+              </msItem>
+              <msItem>
+                <locus from="121a"/>
+                <author ref="https://syriaca.org/person/42">Jacob of Batnae</author>
+                <title xml:lang="en">A prayer forthe commemoration of <persName>the Dead</persName></title>
+                <rubric xml:lang="syr">ܒܥܘܬܐ ܕܥܢ̈ܝܕܐ</rubric>
               </msItem>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -145,10 +146,10 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Paper, about 10 1/4 in. by 7, consisting of 70 leaves, the first two of
+                      <p>Paper, about 10 1/4 in. by 7, consisting of 70 leaves (Add. 14,708, foll. 52-121), the first two of
                         which are slightly stained and torn. The quires, signed with letters, are 7
                         in number. A leaf is wanting after fol. 59. There are from 17 to 22 lines in
-                        each page. The writing is good and regular, apparently of the xivth cent. </p>
+                        each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -158,22 +159,11 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="" script="">
-                <desc/>
+              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
+                <desc>The writing is good and regular, <date>apparently of the xivth cent.</date></desc>
               </handNote>
             </handDesc>
-            <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                  <locus/>
-                  <p/>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                </item>
-              </list>
-            </additions>
+            <additions/>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -184,8 +174,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1300" notAfter="1400">xvith
-                century</origDate>
+              <origDate notBefore="1250" notAfter="1450">apparently of the xivth cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -377,8 +366,7 @@
     <revisionDesc status="draft">
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change when="" who="http://syriaca.org/documentation/editors.xml#eyonan">Initial TEI encoding.</change>
-      <change type="planned" subtype="checkSyriac">T</change>
+      <change who="http://syriaca.org/documentation/editors.xml#eyonan">Initial TEI encoding.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 146674649</title>
+        <title level="a" xml:lang="en">BL Add MS 14667, foll. 46-49, upper text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/471</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 146674649</idno>
+              <idno type="BL-Shelfmark">Add MS 14667, foll. 46-49, upper text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,12 +81,17 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <title xml:lang="en" type="supplied">prayers for different occasions, e.g. graces, greetings and salutations <foreign xml:lang="syr">(ܕܒܣܝܡܘܬܐ)</foreign>, prayers for the dead, etc.</title>
-            </msItem>
-            <msItem xml:id="a2" n="2">
-              <title xml:lang="en" type="supplied">The more ancient text is that of <bibl>the book of Judges, ch.
-                vi. (vv. 15—18 are still legible on the recto), according to the Peshitta version</bibl>.</title>
-              <note xml:lang="en">The last leaf is palimpsest.</note>
+              <title xml:lang="en">Prayers for different occasions</title>
+              <msItem>
+                <title xml:lang="en">Graces</title>
+              </msItem>
+              <msItem>
+                <title xml:lang="en">Greetings and salutations</title>
+                <rubric xml:lang="syr">ܕܒܣܝܡܘܬܐ</rubric>
+              </msItem>
+              <msItem>
+                <title xml:lang="en">Prayers for <persName>the dead</persName>, etc.</title>
+              </msItem>
             </msItem>
           </msContents>
           <physDesc>
@@ -97,7 +102,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Four vellum leaves, about 7 in. by 5, slightly soiled and mutilated.</p>
+                      <p>Four vellum leaves, about 7 in. by 5, slightly soiled and mutilated. The last leaf is palimpsest; cf. <ref target="http://syriaca.org/manuscript/1483">the lower text</ref>.</p>
                     </item>
                   </list>
                 </condition>
@@ -108,11 +113,7 @@
             </objectDesc>
             <handDesc hands="2">
               <handNote xml:id="handNote1" scope="major" script="syr" medium="unknown">
-                <desc>The prayers for different occasions are written in a small, current hand of the
-                  <date calendar="Gregorian" notBefore="0900" notAfter="1000">xth cent</date>.</desc>
-              </handNote>
-              <handNote xml:id="handNote2" scope="minor" script="syr-Syre" medium="unknown">
-                <desc>The older, palimsest text is written in a fine Estrangela of the <date calendar="Gregorian" notBefore="0500" notAfter="0600">vith</date> or <date calendar="Gregorian" notBefore="0600" notAfter="0700">viith cent</date>.</desc>
+                <desc>Written in a small, current hand of the <date calendar="Gregorian" notBefore="0900" notAfter="1000">xth cent.</date></desc>
               </handNote>
             </handDesc>
             <bindingDesc>
@@ -126,7 +127,6 @@
           <history>
             <origin>
               <origDate notBefore="0900" notAfter="1000">xth cent</origDate>
-              <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate>
             </origin>
             <provenance/>
             <acquisition/>
@@ -318,8 +318,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-07-08" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
-        encoding.</change>
-      <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
         encoding.</change>
     </revisionDesc>
   </teiHeader>

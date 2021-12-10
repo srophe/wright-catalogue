@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?oxygen RNGSchema="https://raw.githubusercontent.com/wlpotter/syriaca-wright-catalog/master/schemas/enrich-syriaca.rnc" type="compact"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/wlpotter/syriaca-wright-catalog/master/parameters/wright-mss.css"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/wright-mss.css"?>
 <TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
@@ -16,15 +16,15 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <idno type="URI"></idno>
+            <idno type="URI"/>
             <altIdentifier>
-              <idno type="BL-Shelfmark"></idno>
+              <idno type="BL-Shelfmark"/>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <summary/>
             <textLang mainLang="syr"/>
-            <msItem>
+            <msItem defective="false">
               <locus to="" from=""/>
               <author ref=""/>
               <title ref="" xml:lang="en"/>
@@ -53,7 +53,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p></p>
+                      <p/>
                     </item>
                   </list>
                 </condition>
@@ -88,8 +88,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="" notAfter="" from="" to=""
-                when=""></origDate>
+              <origDate notBefore="" notAfter="" when=""/>
               <origPlace ref="" xml:lang=""></origPlace>
             </origin>
             <provenance/>

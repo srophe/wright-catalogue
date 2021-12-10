@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -83,16 +83,18 @@
             <msItem xml:id="a1" n="1" defective="true">
               <title xml:lang="en">Fragments of a Service-book</title>
               <msItem xml:id="b1" n="2">
+                <title xml:lang="en">Part 1</title>
                 <rubric xml:lang="syr">ܣܕܪ̈ܐ</rubric>
               </msItem>
               <msItem xml:id="b2" n="3">
+                <title xml:lang="en">Part 2</title>
                 <rubric xml:lang="syr">ܥܛܪ̈ܐ</rubric>
               </msItem>
             </msItem>
           </msContents>
                <physDesc>
                   <objectDesc form="codex">
-                     <supportDesc material="perg">
+                     <supportDesc material="chart">
                         <extent>
                            <measure unit="content_pending" quantity="-1"/>
                         </extent>
@@ -101,9 +103,8 @@
                         <condition>
                            <list>
                               <item>
-                                 <p>There are six paper leaves, about 6 ½ in. by 4 7/8, the last two
-                                    of which are much stained and torn. There are 17 lines in each
-                                    page.</p>
+                                 <p>Six paper leaves, about 6 1/2 in. by 4 7/8, the last two
+                                    of which are much stained and torn. There are 17 lines in each page.</p>
                               </item>
                            </list>
                         </condition>
@@ -114,22 +115,10 @@
                   </objectDesc>
                   <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                        <desc>The writing is good and regular, of the <origDate notBefore="1100" notAfter="1300">xiith or xiiith cent.</origDate>
-                </desc>
+                        <desc>The writing is good and regular, of the <date notBefore="1100" notAfter="1300">xiith or xiiith cent.</date></desc>
                      </handNote>
             </handDesc>
-                  <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p/>
-                           <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                        </item>
-              </list>
-            </additions>
+                  <additions/>
                   <bindingDesc>
                      <p>Content pending</p>
                   </bindingDesc>
@@ -140,7 +129,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate/>
+                    <origDate calendar="Gregorian" notBefore="1100" notAfter="1300">xiith or xiiith cent.</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>

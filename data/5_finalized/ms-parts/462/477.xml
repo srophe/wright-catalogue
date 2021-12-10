@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 1466764</title>
+        <title level="a" xml:lang="en">BL Add MS 14667, fol. 64</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/477</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 1466764</idno>
+              <idno type="BL-Shelfmark">Add MS 14667, fol. 64</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,10 +81,8 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <title>Containing on the recto a note, in the usual form,
-                   relating to the donation by the abbat <persName ref="http://syriaca.org/person/647">Moses of Nisibis</persName>to the library of<placeName>the convent of S.
-                Mary Deipara</placeName>, <date datingMethod="Seleucid" when-custom="1243">A. Gr. 1243</date>, <date calendar="Gregorian" when="0932">A.D. 932.</date>
-              </title>
+              <title>A note</title>
+              <note>See <ref>additions</ref>.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -95,7 +93,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>A vellum leaf, 7 in. by 5 3/8,</p>
+                      <p>A vellum leaf, 7 in. by 5 3/8.</p>
                     </item>
                   </list>
                 </condition>
@@ -106,9 +104,18 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" scope="sole" script="unknown" medium="unknown">
-                <desc>Written in <date datingMethod="Seleucid" when-custom="1243">A. Gr. 1243</date>, <date calendar="Gregorian" when="0932">A.D. 932.</date> </desc>
+                <desc>Written in <date datingMethod="Seleucid" when-custom="1243">A. Gr. 1243</date>, <date calendar="Gregorian" when="0932">A.D. 932</date>.</desc>
               </handNote>
             </handDesc>
+            <additions>
+              <list>
+                <item>
+                  <locus from="64"/>
+                  <p><ref>A note</ref>, in the usual form, relating to the donation by the abbat <persName ref="http://syriaca.org/person/647">Moses of <placeName>Nisibis</placeName></persName>to the library of <placeName>the convent of S.
+                    Mary Deipara</placeName>, <date datingMethod="Seleucid" when-custom="1243">A. Gr. 1243</date>, <date calendar="Gregorian" when="0932">A.D. 932</date>.</p>
+                </item>
+              </list>
+            </additions>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -302,7 +309,7 @@
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
             <item>
-              <ref target="#"/>
+              <ref target="#fly-leaves"/>
             </item>
           </list>
         </keywords>

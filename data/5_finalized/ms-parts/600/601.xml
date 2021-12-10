@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -80,11 +80,8 @@
           </msIdentifier>
           <msContents>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1" defective="false">
-              <title>Services for the canonical hours of the ferial days</title>
-              <rubric xml:lang="syr">ܢܓܗܐ</rubric>
-              <rubric xml:lang="syr">ܠܠܝܐ</rubric>
-              <rubric xml:lang="syr">ܨܦܪܐ</rubric>
+            <msItem xml:id="a1" n="1" defective="true">
+              <title>Services for the canonical hours of the ferial days (<foreign xml:lang="syr">ܢܓܗܐ</foreign>, <foreign xml:lang="syr">ܠܠܝܐ</foreign>, and <foreign xml:lang="syr">ܨܦܪܐ</foreign>)</title>
             </msItem>
             <msItem xml:id="a2" n="2" defective="true">
               <locus from="1a"/>
@@ -109,7 +106,7 @@
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -118,14 +115,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Paper, about 7 in. by 5, consisting of 111 leaves, many of which are much
-                        stained and torn, especially foll. 1—40, 66—81, 97, 104, 105, and 110. The
-                        quires, signed with letters, were probably 10 in number; but the first three
-                        are lost, and leaves are wanting after foll. 8, 98, 105, 109, 110, and 111.
-                        The end of each quire is indicated by the letter ܡ (ܫܠܡ) on the verso of the
-                        last leaf (e.g. foll. 28 b, 48 b, 88 b, 98 b). There are from 14 to 16 lines
-                        in each page. This manuscript is written in a good, regular hand of the
-                        xiiith cent.</p>
+                      <p>Paper, about 7 in. by 5, consisting of 111 leaves, many of which are much stained and torn, especially foll. 1—40, 66—81, 97, 104, 105, and 110. The quires, signed with letters, were probably 16 in number; but the first three are lost, and leaves are wanting after foll. 8, 98, 105, 109, 110, and 111. The end of each quire is indicated by the letter <foreign xml:lang="syr">ܡ</foreign> (<foreign xml:lang="syr">ܫܠܡ</foreign>) on the verso of the last leaf (e.g. foll. 28 b, 48 b, 88 b, 98 b). There are from 14 to 16 lines in each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -134,9 +124,12 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="2">
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
+                <desc>This manuscript is written in a good, regular hand of the <date>xiiith cent.</date></desc>
+              </handNote>
+              <handNote medium="unknown" xml:id="handNote2" scope="minor" script="ar">
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
             <additions>
@@ -144,10 +137,7 @@
               <list>
                 <item xml:id="addition1" n="1">
                   <locus/>
-                  <p/>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
+                  <p>The word <quote xml:lang="ar"></quote> (<foreign xml:lang="ar">وقف</foreign>)<!-- missing Arabic here -->, written on the upper margin of several leaves (e.g. <locus from="17b">foll. 17 b</locus>, <locus from="18b">18 b</locus>, <locus from="21b">21 b</locus>) shows that thi smanuscript was given as a present to <placeName>the convent of S. Mary Deipara</placeName>.</p>
                 </item>
               </list>
             </additions>
@@ -161,7 +151,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate from="1200" to="1300">xiiith cent</origDate>
+              <origDate from="1200" to="1300">xiiith cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -354,7 +344,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#eyonan">Initial TEI encoding.</change>
-      <change type="planned" subtype="checkSyriac"/>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
     </revisionDesc>
   </teiHeader>

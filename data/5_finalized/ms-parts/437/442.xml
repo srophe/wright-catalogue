@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 1466525</title>
+        <title level="a" xml:lang="en">BL Add MS 14665, fol. 25</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/442</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 1466525</idno>
+              <idno type="BL-Shelfmark">Add MS 14665, fol. 25</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,12 +81,9 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
+              <locus from="25"/>
               <title>The more recent text seems to be part of the same manuscript as the preceding
-                number.</title>
-            </msItem>
-            <msItem xml:id="a2" n="2">
-              <title>The older text is too much effaced to be
-                legible.</title>
+                number</title><!-- WLP: I marked this as consultation because we Wright does not describe the contents at all...The 'preceding number' is a ms of prayers (no further description is given by Wright there either) -->
             </msItem>
           </msContents>
           <physDesc>
@@ -98,7 +95,9 @@
                   <list>
                     <item>
                       <p>A vellum leaf, much stained and mutilated. It is palimpsest, but rewritten
-                        on one side only.</p>
+                        on one side only. The more recent text seems to be part of the same manuscript as <ref target="http://syriaca.org/manuscript/441">the preceding
+                        number</ref>. The older text, apparently of the <date calendar="Gregorian" notBefore="0400" notAfter="0500">xth cent.</date>, is too much effaced to be
+                        legible.</p>
                     </item>
                   </list>
                 </condition>
@@ -108,14 +107,7 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="2">
-              <handNote xml:id="handNote1" scope="major" script="syr" medium="unknown">
-                <desc>The more recent text seems to be part of the same manuscript as the preceding
-                  number.</desc>
-              </handNote>
-              <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
-                <desc>The older text, apparently of the <date calendar="Gregorian" notBefore="0400" notAfter="0500">xth cent.</date>, is too much effaced to be
-                  legible.</desc>
-              </handNote>
+              <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown"/>
             </handDesc>
             <bindingDesc>
               <p>Content pending</p>
@@ -321,7 +313,8 @@
       <change when="2020-07-07" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
         encoding.</change>
       <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
-        encoding.</change>
+        encoding. WLP: only need to mark this, do not need a second msPart?</change>
+      <change type="planned" subtype="consultation">Wright's description is so incomplete that the physical manuscript needs to be consulted and redescribed.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

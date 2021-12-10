@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 146652627</title>
+        <title level="a" xml:lang="en">BL Add MS 14665, foll. 26, 27, upper text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/443</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 146652627</idno>
+              <idno type="BL-Shelfmark">Add MS 14665, foll. 26, 27, upper text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -80,16 +80,20 @@
           </msIdentifier>
           <msContents>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1">
-              <title>The more ancient Syriac text is apparently part of a sermon.</title>
-            </msItem>
-            <msItem xml:id="a2" n="2">
-              <title>The more modern text consists of parts of two discourses, the first of which is an
-                  encomium on the blessed Virgin <persName ref="http://syriaca.org/person/624">Mary</persName>.</title>
+            <msItem xml:id="a2" n="2" defective="true">
+              <locus from="26"/>
+              <title>Parts of two discourses</title>
+              <msItem defective="true">
+                <locus from="26"/>
+                <title xml:lang="en">An encomium on the <persName ref="http://syriaca.org/person/624">blessed Virgin Mary</persName></title>
+              </msItem>
+              <msItem defective="true">
+                <title xml:lang="en">Second discourse</title>
+              </msItem>
             </msItem>
           </msContents>
           <physDesc>
-            <objectDesc form="codex">
+            <objectDesc form="leaf">
               <supportDesc material="perg">
                 <foliation/>
                 <collation/>
@@ -97,7 +101,7 @@
                   <list>
                     <item>
                       <p>Two vellum leaves, about 6 3/8 in. by 5 1/8, slightly stained and soiled. They are
-                        palimpsest.</p>
+                        palimpsest; cf. <ref target="http://syriaca.org/manuscript/1482">the lower text</ref>.</p>
                     </item>
                   </list>
                 </condition>
@@ -106,16 +110,9 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="2">
-              <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                <desc>The more ancient Syriac text is written in a small, neat Estranglā of about
-                  the <date calendar="Gregorian" notBefore="0700" notAfter="0800">viiith
-                    cent.</date>
-                </desc>
-              </handNote>
-              <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
-                <desc>The more modern text is of the <date calendar="Gregorian" notBefore="1100" notAfter="1200">xiith</date> or <date calendar="Gregorian" notBefore="1200" notAfter="1300">xiiith cent.</date>
-                </desc>
+            <handDesc hands="1">
+              <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
+                <desc>Of the <date calendar="Gregorian" notBefore="1100" notAfter="1300">xiith or xiiith cent.</date></desc>
               </handNote>
             </handDesc>
             <bindingDesc>
@@ -128,7 +125,6 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0700" notAfter="0800">viiith cent.</origDate>
               <origDate notBefore="1100" notAfter="1300">xiith or xiiith cent.</origDate>
             </origin>
             <provenance/>
@@ -321,8 +317,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-07-07" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
-        encoding.</change>
-      <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
         encoding.</change>
     </revisionDesc>
   </teiHeader>

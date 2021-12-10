@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 147371834</title>
+        <title level="a" xml:lang="en">BL Add MS 14737, foll. 18-34</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/676</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 147371834</idno>
+              <idno type="BL-Shelfmark">Add MS 14737, foll. 18-34</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,8 +81,11 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <title xml:lang="en">a considerable portion of the Anaphora of <persName>Eustathius</persName>,
-                and fragments of some other Anaphoras.</title>
+              <author>Eustathius</author>
+              <title xml:lang="en">A considerable portion of the Anaphora of <persName>Eustathius</persName></title>
+            </msItem>
+            <msItem>
+              <title xml:lang="en">Fragments of some other Anaphoras.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -105,9 +108,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
-                <desc>The writing is good and regular, of the
-                  <date calendar="Gregorian" notBefore="1200" notAfter="1300">xiiith cent.</date>
-                </desc>
+                <desc>The writing is good and regular, of the <date calendar="Gregorian" notBefore="1200" notAfter="1300">xiiith cent.</date></desc>
               </handNote>
             </handDesc>
             <bindingDesc>
@@ -144,7 +145,7 @@
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
                 <citedRange unit="entry">CCLXX</citedRange>
-                <citedRange unit="pp">1:21</citedRange>
+                <citedRange unit="pp">1:210</citedRange>
               </bibl>
             </listBibl>
           </additional>

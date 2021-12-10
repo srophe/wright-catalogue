@@ -81,9 +81,7 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="97" from="93"/>
-              <title xml:lang="en">Small fragments of paper manuscripts, varying in age from
-                the xiith to the xvith cent</title>
+              <title xml:lang="en">Unspecified contents</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -97,7 +95,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Small fragments</p>
+                      <p>Small fragments of paper manuscripts, varying in age from the xiith to the xvith cent.</p>
                     </item>
                   </list>
                 </condition>
@@ -108,7 +106,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                <desc/>
+                <desc>Varying in age from the <date>xiith to the xvith cent.</date></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -316,6 +314,7 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-06-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-05-12" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
         encoding.</change>
+      <change type="planned" subtype="consultation">Wright's description is so incomplete that the physical manuscript needs to be consulted and redescribed. Only description given in the index (3:1230), no Wright number.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

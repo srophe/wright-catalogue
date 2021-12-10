@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14734177223</title>
+        <title level="a" xml:lang="en">BL Add MS 14734, foll. 177-223</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,52 +67,38 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/646</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14734177223</idno>
+              <idno type="BL-Shelfmark">Add MS 14734, foll. 177-223</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Arabic">668</idno>
+              <idno type="Wright-BL-Arabic">956</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Roman">DCLXVIII</idno>
+              <idno type="Wright-BL-Roman">DCCCCLVI</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
               <locus from="177a"/>
-              
-              <title xml:lang="en">The martyrdom of George, the general (%) Antonine, and the
-                empress Alexandra</title>
-              <rubric xml:lang="syr">ܥܠ ܚ̇ܝ̣ܠܐ ܕܡܪܢ ܝܫܘܥ ܡܫܝܚܐ ܡܫܪܝܢܢ ܕܢܟܬ݂ܘܒ ܣܗܕܘܬܐ ܕܢܨܝܚܐ ܓܐܘܪܓܝܣ
-                ܘܕܐܢܛܘܢܝܢܘܣ ܐܣܛܪܛܠܛܝܣ ܘܕܐܠܟܣ܏ܢܪ (sic) ܡ̇ܠܟܬܐ ܕܐܣ̈ܗܕܘ ܗ̈ܘܘ ܘܐܬܟ̈ܠܠܘ. ܨܠܘܬܗܘܢ ܥܡܢ
-                ܐܡܝܢ.</rubric>
-              
-              <quote xml:lang="syr">ܐܢܐ ܕܝܢ ܦܘܣܝܩܪܛܝܣ ܥܒ̣ܕܗ ܕܝܠܗ ܕܡܪܝ ܓܐܘܪܓܝܣ. ܢܩܝܦ ܗ̇ܘܝܬ ܠܗ ܠܡܪܝ
-                ܘܟ̇ܬܒܬ ܗܠܝܢ ܟܠܗܝܢ ܡܢ ܫܘܪܝܐ ܠܫܘܠܡܐ.
-              </quote>
-              
-              
-              <note>Regarding the quote: The narrative pretends to be written by Pasicrates, the
-                servant of George</note>
-              <note>See <bibl>the Acta Sanctt. for April, t. iii., pp. 117, seqq.</bibl>
-              </note>
+              <title xml:lang="en">The martyrdom of <persName>George</persName>, <persName>the general (<foreign xml:lang="grc">στρατηλάτης</foreign>) Antonine</persName>, and <persName>the empress Alexandra</persName></title>
+              <rubric xml:lang="syr">ܥܠ ܚ̇ܝ̣ܠܐ ܕܡܪܢ ܝܫܘܥ ܡܫܝܚܐ ܡܫܪܝܢܢ ܕܢܟܬ݂ܘܒ ܣܗܕܘܬܐ ܕܢܨܝܚܐ ܓܐܘܪܓܝܣ ܘܕܐܢܛܘܢܝܢܘܣ ܐܣܛܪܛܠܛܝܣ ܘܕܐܠܟܣ܏ܢܪ <foreign xml:lang="en">(sic)</foreign> ܡ̇ܠܟܬܐ ܕܐܣ̈ܗܕܘ ܗ̈ܘܘ ܘܐܬܟ̈ܠܠܘ. ܨܠܘܬܗܘܢ ܥܡܢ ܐܡܝܢ</rubric>
+              <quote xml:lang="syr">ܐܢܐ ܕܝܢ ܦܘܣܝܩܪܛܝܣ ܥܒ̣ܕܗ ܕܝܠܗ ܕܡܪܝ ܓܐܘܪܓܝܣ. ܢܩܝܦ ܗ̇ܘܝܬ ܠܗ ܠܡܪܝ ܘܟ̇ܬܒܬ ܗܠܝܢ ܟܠܗܝܢ ܡܢ ܫܘܪܝܐ ܠܫܘܠܡܐ</quote>
+              <note>As the above quote indicates, he narrative pretends to be written by <persName>Pasicrates, the servant of <persName>George</persName></persName>.</note>
+              <note>See <bibl>the Acta Sanctt. for April, t. iii., pp. 117, seqq.</bibl></note>
             </msItem>
             <msItem xml:id="a2" n="2">
               <locus from="193b"/>
-              
-              <title xml:lang="en">The history of the martyr Theodore, who suffered at
-                Euchaita, under the governor Publius, or Popillius, in the reign of Julian</title>
-              <rubric xml:lang="syr">ܬܘܒ ܬܫܥܝܬܐ ܕܩܕܝܫܐ ܘܢܨ̇ܝܚܐ ܡܪܝ ܬܐ݊ܝ݊ܕܪܘ݊ܣ ܕܐܣܗ̣ܕ ܒ̇ܐܟܝ̇ܛܐ ܡܕܝܢܬܐ
-                ܒܝܘ̈ܡܝ ܦܘܦܠܝܘܣ ܗܓܡܘܢܐ ܕܐܬܪܐ ܗ̇ܘ.</rubric>
-              <note>See <bibl>Add. 14,735, fol. 144 b.</bibl>
-              </note>
+              <title xml:lang="en">The history of <persName>the martyr Theodore</persName>, who suffered at
+                <placeName ref="http://syriaca.org/place/2573">Euchaita</placeName>, under <persName>the governor Publius, or Popillius</persName>, in the reign of <persName>Julian</persName></title>
+              <rubric xml:lang="syr">ܬܘܒ ܬܫܥܝܬܐ ܕܩܕܝܫܐ ܘܢܨ̇ܝܚܐ ܡܪܝ ܬܐ݊ܝ݊ܕܪܘ݊ܣ ܕܐܣܗ̣ܕ ܒ̇ܐܟܝ̇ܛܐ ܡܕܝܢܬܐ ܒܝܘ̈ܡܝ ܦܘܦܠܝܘܣ ܗܓܡܘܢܐ ܕܐܬܪܐ ܗ̇ܘ</rubric>
+              <note>See <bibl>Add. 14,735, fol. 144 b</bibl>.</note>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -121,11 +107,10 @@
                 <condition>
                   <list>
                     <item>
-                      <p>DCCCCLVI. Paper, about 7 5/8 in. by 5 1/4, consisting of 47 leaves (Add.
+                      <p>Paper, about 7 5/8 in. by 5 1/4, consisting of 47 leaves (Add.
                         14,734, foll. 177—223), the last 11 of which are more or less stained and
-                        torn. The quires are four in num¬ber, but without signatures. There are from
-                        14 to 19 lines in each page. This manuscript is written in a good, regular
-                        hand of the latter part of the xith cent.</p>
+                        torn. The quires are four in number, but without signatures. There are from
+                        14 to 19 lines in each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -135,22 +120,11 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="" script="">
-                <desc/>
+              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
+                <desc>This manuscript is written in a good, regular hand of <date>the latter part of the xith cent.</date></desc>
               </handNote>
             </handDesc>
-            <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                  <locus/>
-                  <p/>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                </item>
-              </list>
-            </additions>
+            <additions/>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -161,8 +135,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate from="1000" to="1100">XIth
-                Century</origDate>
+              <origDate from="1050" to="1100">the latter part of the xith cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -186,8 +159,8 @@
                 <pubPlace>London</pubPlace>
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
-                <citedRange unit="entry">DCLXVIII</citedRange>
-                <citedRange unit="pp">2:517</citedRange>
+                <citedRange unit="entry">DCCCCLVI</citedRange>
+                <citedRange unit="pp">3:119</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -345,7 +318,7 @@
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
             <item>
-              <ref target="#theo-single"/>
+              <ref target="#lives-collect"/>
             </item>
           </list>
         </keywords>
@@ -355,7 +328,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-05-21" who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
-      <change type="planned" subtype="greek">Add in missing Greek characters.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

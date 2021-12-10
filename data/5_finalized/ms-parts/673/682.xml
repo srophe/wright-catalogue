@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -86,7 +86,7 @@
           </msContents>
                <physDesc>
                   <objectDesc form="codex">
-                     <supportDesc material="perg">
+                     <supportDesc material="chart">
                         <extent>
                            <measure unit="content_pending" quantity="-1"/>
                         </extent>
@@ -95,7 +95,7 @@
                         <condition>
                            <list>
                               <item>
-                                 <p>There are six paper leaves, about 6 7/8 in. by 4 7/8, all more
+                                 <p>Six paper leaves, about 6 7/8 in. by 4 7/8, all more
                                     or less stained and torn, with from 15 to 18 lines in each
                                     page.</p>
                               </item>
@@ -108,21 +108,10 @@
                   </objectDesc>
                   <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                        <desc>It is written in a good, regular hand of the <origDate notBefore="1200" notAfter="1300">xiiith cent</origDate>.</desc>
+                        <desc>Written in a good, regular hand of the <date notBefore="1200" notAfter="1300">xiiith cent.</date></desc>
                      </handNote>
             </handDesc>
-                  <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p/>
-                           <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                        </item>
-              </list>
-            </additions>
+                  <additions/>
                   <bindingDesc>
                      <p>Content pending</p>
                   </bindingDesc>
@@ -133,7 +122,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="1200" notAfter="1300"/>
+                    <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>

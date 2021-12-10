@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14737 foll. 71 72</title>
+        <title level="a" xml:lang="en">BL Add MS 14737 foll. 71, 72</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/684</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14737 foll. 71 72</idno>
+              <idno type="BL-Shelfmark">Add MS 14737 foll. 71, 72</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,15 +81,13 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <title xml:lang="en">hHymns and prayers for the Decollation of
-                        <persName ref="http://syriaca.org/person/1808">S. John the Baptist</persName>
-              </title>
+              <title xml:lang="en">Hymns and prayers for the Decollation of <persName ref="http://syriaca.org/person/1808">S. John the Baptist</persName></title>
               <rubric xml:lang="syr">ܦܷܣܴܩ ܪܝܫܗ ܕܝܘܚܢܢ ܡܥܡܕܢܐ</rubric>
             </msItem>
           </msContents>
                <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="perg">
+                  <objectDesc form="leaf">
+                     <supportDesc material="chart">
                         <extent>
                            <measure unit="content_pending" quantity="-1"/>
                         </extent>
@@ -110,21 +108,10 @@
                   </objectDesc>
                   <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                        <desc>It is written in a good hand of the <origDate notBefore="1100" notAfter="1200">xiith cent</origDate>.</desc>
+                        <desc>Written in a good hand of the <date notBefore="1100" notAfter="1200">xiith cent.</date></desc>
                      </handNote>
             </handDesc>
-                  <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p/>
-                           <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                        </item>
-              </list>
-            </additions>
+                  <additions/>
                   <bindingDesc>
                      <p>Content pending</p>
                   </bindingDesc>
@@ -135,7 +122,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate/>
+                    <origDate notBefore="1100" notAfter="1200">xiith cent.</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
@@ -329,8 +316,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-07-25" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
-         <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
-            to be checked for accuracy</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

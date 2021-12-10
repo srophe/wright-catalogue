@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14715217241</title>
+        <title level="a" xml:lang="en">BL Add MS 14715, foll. 217-241</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/590</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14715217241</idno>
+              <idno type="BL-Shelfmark">Add MS 14715, foll. 217-241</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,11 +81,8 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <title xml:lang="en">Services for the Commemoration of <persName>Jacob of Batnae</persName>
-              </title>
-              <quote xml:lang="syr">ܥܠ ܚ̇ܝ̣ܠܐ ܕܐܠܗܐ
-                ܟܬ݀ܒܝܢܢ ܛܟ̣ܣܐ ܕܩ̈ܢܘܢܐ ܘܩ̈ܠܐ ܘܒ̈ܥܘܬܐ ܘܡܕܪ̈ܫܐ ܕܥܠ ܢܨ̇ܝܚܐ ܘܠܒܝ̣ܫ ܠܐܠܗܐ ܡܪܝ ܝ̇݅ܥܩܘܒ ܡ̇ܠ̣ܦܢܐ
-                ܒܚܝ̣ܪܐ</quote>
+              <title xml:lang="en">Services for the Commemoration of <persName>Jacob of <placeName>Batnae</placeName></persName></title>
+              <rubric xml:lang="syr">ܥܠ ܚ̇ܝ̣ܠܐ ܕܐܠܗܐ ܟܬ݀ܒܝܢܢ ܛܟ̣ܣܐ ܕܩ̈ܢܘܢܐ ܘܩ̈ܠܐ ܘܒ̈ܥܘܬܐ ܘܡܕܪ̈ܫܐ ܕܥܠ ܢܨ̇ܝܚܐ ܘܠܒܝ̣ܫ ܠܐܠܗܐ ܡܪܝ ܝ̇݅ܥܩܘܒ ܡ̇ܠ̣ܦܢܐ ܒܚܝ̣ܪܐ</rubric>
             </msItem>
           </msContents>
           <physDesc>
@@ -108,21 +105,16 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
-                <desc>It is written in a good, regular hand of the
-                  <date calendar="Gregorian" notBefore="1200" notAfter="1300">xiiith cent.</date>
-                </desc>
+                <desc>It is written in a good, regular hand of the <date calendar="Gregorian" notBefore="1200" notAfter="1300">xiiith cent.</date></desc>
               </handNote>
             </handDesc>
             <additions>
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <p>The colophon gives the name of the scribe<persName>Jacob</persName>
-                  </p>
+                  <p>The colophon gives the name of the scribe, <persName>Jacob</persName>:</p>
                   <p>
-                    <quote xml:lang="syr">ܫܠܸܡ ܛܟ̣ܣܐ
-                    ܕܩ̈ܢܘܢܐ ܘܩ̈ܠܐ ܘܡܕܪ̈ܫܐ ܕܥܠ ܏ܩܕܝ ܡܪܝ ܝ̇݅ܥܩ̇݅ܘܒ̇݅ ܡ̇ܠ̣ܦܢܐ ܬܡܝ̣ܗܐ ܘܐܦܝ̣܏ܣ ܕܒܛܢܢ ܕܣܪܘܓ. ܨ̈ܠܘܬܗ ܥܠ
-                    ܟܠܢ ܐܡܝܢ܀ ܟܠ ܕܩ̇ܪܐ ܢܨܲܠܐ ܥܠ ܚ̇ܛܝ̣ܐ ܝܥܩܘܒ ܕܟ̣ܬܒ ܒܡܪܢ ܐܡܝܢ܀</quote>
+                    <quote xml:lang="syr">ܫܠܸܡ ܛܟ̣ܣܐ ܕܩ̈ܢܘܢܐ ܘܩ̈ܠܐ ܘܡܕܪ̈ܫܐ ܕܥܠ ܏ܩܕܝ ܡܪܝ ܝ̇݅ܥܩ̇݅ܘܒ̇݅ ܡ̇ܠ̣ܦܢܐ ܬܡܝ̣ܗܐ ܘܐܦܝ̣܏ܣ ܕܒܛܢܢ ܕܣܪܘܓ. ܨ̈ܠܘܬܗ ܥܠ ܟܠܢ ܐܡܝܢ܀ ܟܠ ܕܩ̇ܪܐ ܢܨܲܠܐ ܥܠ ܚ̇ܛܝ̣ܐ ܝܥܩܘܒ ܕܟ̣ܬܒ ܒܡܪܢ ܐܡܝܢ܀</quote>
                   </p>
                 </item>
               </list>

@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 1466589</title>
+        <title level="a" xml:lang="en">BL Add MS 14665, foll. 8-9, upper text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/439</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 1466589</idno>
+              <idno type="BL-Shelfmark">Add MS 14665, foll. 8-9, upper text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,7 +81,7 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <title>part of the martyrdom of <persName ref="http://syriaca.org/person/9">Simeon bar Sabba'e</persName> and his companions.</title>
+              <title>Part of the martyrdom of <persName ref="http://syriaca.org/person/9">Simeon bar Sabba'e</persName> and <persName>his companions</persName></title>
               <note>See <bibl>Assemani, Acta Martt., pars i., p. 25</bibl>.</note>
             </msItem>
           </msContents>
@@ -93,11 +93,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Two palimpsest leaves, much mutilated, from a Greek manuscript, written in
-                        slanting uncials of about the <date calendar="Gregorian" notBefore="0700" notAfter="0800">viiith cent</date>. They are part of a Vocabulary or
-                        Glossary, letter O, but the order of the words is not strictly alphabetical.
-                        That portion, for example, of the first leaf, which is not rewritten,
-                        contains the words <!--%, %, %, %, %, %, %, add Greek here--> etc. </p>
+                      <p>Two palimpsest leaves, much mutilated; cf. <ref target="http://syriaca.org/manuscript/1480">the lower text</ref>.</p>
                     </item>
                   </list>
                 </condition>
@@ -108,7 +104,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
-                <desc>The Syriac text is written in a small, neat hand of about the <date calendar="Gregorian" notBefore="0900" notAfter="1000">xth cent</date>.</desc>
+                <desc>The Syriac text is written in a small, neat hand of about the <date calendar="Gregorian" notBefore="0900" notAfter="1000">xth cent.</date></desc>
               </handNote>
             </handDesc>
             <bindingDesc>
@@ -313,9 +309,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-07-07" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
-        encoding.</change>
-      <change type="planned" subtype="greek">Add in missing Greek characters.</change>
-      <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
         encoding.</change>
     </revisionDesc>
   </teiHeader>

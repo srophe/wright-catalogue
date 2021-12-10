@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 146652124</title>
+        <title level="a" xml:lang="en">BL Add MS 14665, foll. 21-24, upper text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/441</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 146652124</idno>
+              <idno type="BL-Shelfmark">Add MS 14665, foll. 21-24, upper text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,19 +81,8 @@
           <msContents>
             <textLang mainLang="syr-Syre"/>
             <msItem xml:id="a1" n="1">
-              <title>The more recent text consists of prayers, mostly written in a coarse Estrangela of
-                the <date calendar="Gregorian" notBefore="1100" notAfter="1200">xiith</date> or <date notBefore="1200" notAfter="1300">xiiith cent.</date>
-              </title>
-            </msItem>
-            <msItem xml:id="a2" n="2">
-              <title>The older text is written in a fine, regular Estrangela, of the <date calendar="Gregorian" notBefore="0400" notAfter="0500">vth</date> or
-                <date calendar="Gregorian" notBefore="0500" notAfter="0600">vith cent.</date>, in two columns of 26 or 27 lines, and once formed part of the
-                apocryphal,<quote xml:lang="syr">ܠܘܘܝܗ̇ ܕܡܪܬܝ ܡܪܝܡ</quote>, <bibl>Add. 14,484<ptr target="http://syriaca.org/manuscript/170"/>,<citedRange unit="locus">foll. 1—8.</citedRange>
-                </bibl>
-              </title>
-              <note>See above, <bibl>p. 99, no. clviii,</bibl> and <bibl>Wright's Contributions to the Apocryphal Literature of the N.
-                T., preface, p. 13.</bibl>
-              </note>
+              <locus from="21" to="24"/>
+              <title xml:lang="en">Prayers</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -104,8 +93,7 @@
               <condition>
                 <list>
                   <item>
-                    <p>Four vellum leaves, about 11 1/4 in. by 8 3/4, much stained and mutilated,
-                      and all palimpsest.</p>
+                    <p>Four vellum leaves, about 11 1/4 in. by 8 3/4, much stained and mutilated, and all palimpsest; cf. <ref target="http://syriaca.org/manuscript/1185">the lower text</ref>.</p>
                   </item>
                 </list>
               </condition>
@@ -116,15 +104,9 @@
             </objectDesc>
             <handDesc hands="2">
               <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                <desc>The more recent text consists of prayers, mostly written in a coarse
-                  Estrangela of the <date calendar="Gregorian" notBefore="1100" notAfter="1200">xiith</date> or <date notBefore="1200" notAfter="1300">xiiith
-                  cent.</date>
-                </desc>
+                <desc>The more recent text is written in a coarse Estrangela of the <date calendar="Gregorian" notBefore="1100" notAfter="1300">xiith or xiiith cent.</date></desc>
               </handNote>
-              <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr-Syre">
-                <desc>The older text is written in a fine, regular Estrangela, of the <date calendar="Gregorian" notBefore="0400" notAfter="0500">vth</date> or <date calendar="Gregorian" notBefore="0500" notAfter="0600">vith cent.</date>.</desc>
-              </handNote>
-            </handDesc>            
+            </handDesc>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -135,7 +117,6 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0400" notAfter="0600">vth or vith cent.</origDate>
               <origDate notBefore="1100" notAfter="1300">xiith or xiiith cent.</origDate>
             </origin>
             <provenance/>
@@ -328,8 +309,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-07-07" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
-        encoding.</change>
-      <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
         encoding.</change>
     </revisionDesc>
   </teiHeader>

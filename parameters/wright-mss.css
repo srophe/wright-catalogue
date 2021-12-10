@@ -532,8 +532,8 @@ columns, 30
     content: 'language: ' oxy_combobox(
 edit, '@xml:lang',
 editable, false,
-values, 'syr, syr-Syre, syr-Syrj, syr-Syrn, syr-x-syrm, syr-x-syrp, ar-Syrc, ar-Syrj, ar-Syrn, en, ar, fr, de, la, grc, cop',
-labels, 'Unvocalized or undetermined Syriac, Syriac in Estrangela, Vocalized West Syriac, Vocalized East Syriac, Melkite Syriac, Palestinian Syriac, Unvocalized or Undetermined Arabic Garshuni, Arabic Garshuni in Vocalized West Syriac Script, Arabic Garshuni in Vocalized East Syriac Script, English, Arabic, French, German, Latin, Ancient Greek, Coptic'
+values, 'syr, syr-Syre, syr-Syrj, syr-Syrn, syr-x-syrm, syr-x-syrp, syr-Arab, ar-Syrc, ar-Syrj, ar-Syrn, en, ar, fr, de, la, grc, cop',
+labels, 'Unvocalized or undetermined Syriac, Syriac in Estrangela, Vocalized West Syriac, Vocalized East Syriac, Melkite Syriac, Palestinian Syriac, Syriac written in Arabic characters, Unvocalized or Undetermined Arabic Garshuni, Arabic Garshuni in Vocalized West Syriac Script, Arabic Garshuni in Vocalized East Syriac Script, English, Arabic, French, German, Latin, Ancient Greek, Coptic'
 )
 }
 TEI[xml|lang]:before(7)
@@ -548,8 +548,8 @@ TEI[xml|lang]:before(7)
     content: 'main language: ' oxy_combobox(
 edit, '@mainLang',
 editable, false,
-values, 'syr, syr-Syre, syr-Syrj, syr-Syrn, syr-x-syrm, syr-x-syrp, ar-Syrc, ar-Syrj, ar-Syrn, en, ar, fr, de, la, grc, cop',
-labels, 'Unvocalized or undetermined Syriac, Syriac in Estrangela, Vocalized West Syriac, Vocalized East Syriac, Melkite Syriac, Palestinian Syriac, Unvocalized or Undetermined Arabic Garshuni, Arabic Garshuni in Vocalized West Syriac Script, Arabic Garshuni in Vocalized East Syriac Script, English, Arabic, French, German, Latin, Ancient Greek, Coptic'
+values, 'syr, syr-Syre, syr-Syrj, syr-Syrn, syr-x-syrm, syr-x-syrp, syr-Arab, ar-Syrc, ar-Syrj, ar-Syrn, en, ar, fr, de, la, grc, cop',
+labels, 'Unvocalized or undetermined Syriac, Syriac in Estrangela, Vocalized West Syriac, Vocalized East Syriac, Melkite Syriac, Palestinian Syriac, Syriac written in Arabic characters, Unvocalized or Undetermined Arabic Garshuni, Arabic Garshuni in Vocalized West Syriac Script, Arabic Garshuni in Vocalized East Syriac Script, English, Arabic, French, German, Latin, Ancient Greek, Coptic'
 )
 }
 *[otherLangs]:before(6)
@@ -559,8 +559,8 @@ labels, 'Unvocalized or undetermined Syriac, Syriac in Estrangela, Vocalized Wes
   content: 'other languages: ' oxy_combobox(
 edit, '@otherLangs',
 editable, false,
-values, 'syr, syr-Syre, syr-Syrj, syr-Syrn, syr-x-syrm, syr-x-syrp, ar-Syrc, Mixed, Unknown',
-labels, 'Unvocalized or undetermined Syriac, Estrangela, Jacobite Syriac or Syriac with Greek vowels, Nestorian Syriac or Syriac with pointed vowels, Malkite or Melkite, Palestinian Syriac, Arabic translation in Syriac Characters, mixed, unknown'
+values, 'syr, syr-Syre, syr-Syrj, syr-Syrn, syr-x-syrm, syr-x-syrp, syr-Arab, ar-Syrc, Mixed, Unknown',
+labels, 'Unvocalized or undetermined Syriac, Estrangela, Jacobite Syriac or Syriac with Greek vowels, Nestorian Syriac or Syriac with pointed vowels, Malkite or Melkite, Palestinian Syriac, Syriac written in Arabic characters, Arabic translation in Syriac Characters, mixed, unknown'
 )
 }
 objectDesc[form]:before(8) {
@@ -599,8 +599,8 @@ handNote:before(7) {
     content: 'script: ' oxy_combobox(
 edit, '@script',
 editable, false,
-values, 'syr, syr-Syre, syr-Syrj, syr-Syrn, syr-x-syrm, syr-x-syrp, ar-Syrc, Mixed, Unknown',
-labels, 'Unvocalized or undetermined Syriac, Estrangela, Jacobite Syriac or Syriac with Greek vowels, Nestorian Syriac or Syriac with pointed vowels, Malkite or Melkite, Palestinian Syriac, Arabic translation in Syriac Characters, mixed, unknown'
+values, 'syr, syr-Syre, syr-Syrj, syr-Syrn, syr-x-syrm, syr-x-syrp, syr-Arab, ar-Syrc, Mixed, Unknown',
+labels, 'Unvocalized or undetermined Syriac, Estrangela, Jacobite Syriac or Syriac with Greek vowels, Nestorian Syriac or Syriac with pointed vowels, Malkite or Melkite, Palestinian Syriac, Syriac written in Arabic characters, Arabic translation in Syriac Characters, mixed, unknown'
 )
 
 }
@@ -611,8 +611,9 @@ handNote:before(6) {
 edit, "@medium",
 columns, 15
 )
-
 }
+
+/*
 origin > origDate:before(8) {
   background-color: #95C6EB;
   color: black;
@@ -627,6 +628,8 @@ origin > origDate:before(7) {
     edit, '@to', columns, 15
     )
 }
+*/
+
 origin > origDate:before(6) {
   background-color: #95C6EB;
   color: black;
@@ -648,16 +651,22 @@ origin > origDate:before(4) {
     edit, '@notAfter', columns, 15
     )
 }
+origin > origDate:before(2) {
+  color: black;
+  content: "\A\AProse date"
+}
+
 origin > origDate[datingMethod]:before(8){
   background-color: #95EBBA;
   color: black;
   content: 'Dating Method: ' oxy_combobox(
     edit, '@datingMethod',
     editable, false,
-    values, 'Gregorian, Julian, AM, Hijri-shamsi, Hijri-qamari, Coptic-EoM, Alexandrian, Iranian-Yazdigird, Iranian-Jalali, Spanish, Ilahi, Hindu, Seleucid, unknown'
-    labels, 'Gregorian (AD), Julian, AM (Anno Mundi), Hijri-shamsi, Hijri-qamari (AH), Coptic-EoM, Alexandrian, Iranian-Yazdigird, Iranian-Jalali, Spanish, Ilahi, Hindu, Seleucid, unknown'
+    values, 'Seleucid, Hijri-qamari, Gregorian, Julian, AM, Hijri-shamsi, Coptic-EoM, Alexandrian, Iranian-Yazdigird, Iranian-Jalali, Spanish, Ilahi, Hindu, unknown'
+    labels, 'Seleucid (A Gr), Hijri-qamari (AH), Gregorian (AD), Julian, AM (Anno Mundi), Hijri-shamsi, Coptic-EoM, Alexandrian, Iranian-Yazdigird, Iranian-Jalali, Spanish, Ilahi, Hindu, unknown'
     )
 }
+/*
 origin > origDate[datingMethod]:before(7){
   background-color: #95EBBA;
   color: black;
@@ -672,6 +681,7 @@ origin > origDate[datingMethod]:before(6){
     edit, '@to-custom', columns, 15
     );
 }
+*/
 origin > origDate[datingMethod]:before(5){
   background-color: #95EBBA;
   color: black;

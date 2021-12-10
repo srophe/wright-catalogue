@@ -42,8 +42,19 @@ for $doc in $inputCollection
     
   let $updatedRecord := if ($docId != "") then try {
     mss:create-updated-document($doc)
-  } catch err:XPTY0004  {
-    <error>{$docId}</error>
+  } catch *  {
+    <error>
+    <recId>{$docId}</recId>
+    <errorData>
+      <code>{$err:code}</code>
+      <description>{$err:description}</description>
+      <value>{$err:value}</value>
+      <module>{$err:module}</module>
+      <lineNumber>{$err:line-number}</lineNumber>
+      <columnNumber>{$err:column-number}</columnNumber>
+      <additional>{$err:additional}</additional>
+      </errorData>
+    </error>
   }
   
   return if ($docId != "" and not($recordExists = "true")) then  fn:put($updatedRecord, $outputFileUri)

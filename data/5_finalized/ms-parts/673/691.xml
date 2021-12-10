@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -79,13 +79,16 @@
             </altIdentifier>
           </msIdentifier>
                <msContents>
-            <textLang mainLang="syr"/>
+            <textLang mainLang="ar"/>
             <msItem xml:id="a1" n="1" defective="true">
+                <locus from="98b"/>
+                <title xml:lang="en">A prayer</title>
+              <note>In Arabic.</note>
             </msItem>
           </msContents>
                <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="perg">
+                  <objectDesc form="leaf">
+                     <supportDesc material="chart">
                         <extent>
                            <measure unit="content_pending" quantity="-1"/>
                         </extent>
@@ -104,43 +107,33 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                        <desc/>
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
+                        <desc>Dated <date>A. Gr. 1643</date>, <date>A.D. 1332</date>.</desc>
                      </handNote>
+                    <handNote medium="unknown" xml:id="handNote2" scope="minor" script="ar">
+                      <desc>The prayer on <locus from="98b">the verso</locus> is in Arabic.</desc>
+                    </handNote>
             </handDesc>
                   <additions>
               <p/>
               <list>
-                <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p>Beneath is the following notice, apparently in the same handwriting: </p>
-                           <p>
-                    <quote xml:lang="syr">ܡܢ <note>(Guillaume?)</note> ܓ݁ܠܝܡܢ ܢܣܒ ܒܝܬܐ
-                                    <note>(Moguntia, Mainz?)</note> ܡܓܘܨܐ ܒ̈ܬܫܥܐ <note>(Ser Giorgio
-                                    ?)</note> ܒܕܪܬܐ ܕܣܝܪܓ݂ܪܓ݂ ܕܝܢܪ̈ܐ ܒܫܢܬܐ ܟܠ ܝܪܚܐ ܬܠܬܐ ܨܘ̈ܠܐ ܬܠ̈ܬܝܢ
-                                 ܘܫ̈ܬܐ ܙܘ̈ܙܐ ܥܣܪܝܢ ܝܘܡܝܢ ܒܕܪ (sic) ܝܪܚܐ ܝܘܡ ܥܪܘܒܬܐ ܘܝܗ̣ܒ ܪܗܒܢܐ ܏ܝܒ
-                                 ܙܘ̈ܙܐ.</quote>
+                <item xml:id="addition3" n="3">
+                  <locus from="98a"/>
+                  <p>It exhibits on the recto, at the top, the date <origDate datingMethod="Seleucid" when-custom="1643">A. Gr. 1643</origDate>,
+                    <origDate calendar="Gregorian" when="1332">A.D. 1332</origDate>.</p>
+                  <p>
+                    <quote xml:lang="syr">ܒܪܝܫ ܝܪܚܐ ܬܡܘܙ ܒܫܢܬ ܐܠܦ̈ ܘܫܬܡ̈ܐܐ ܘܪ̈ܒܥܝܢ <foreign xml:lang="en">(sic)</foreign> ܘܬܠܬ ܕܝܘ̈ܢܝܐ</quote>
+                  </p>
+                </item>
+                <item xml:id="addition1" n="1"> 
+                  <locus from="98a"/>
+                  <p>Beneath <ref>the date</ref> is the following notice, apparently in the same handwriting:</p>
+                  <p>
+                    <quote xml:lang="syr">ܓ݁ܠܝܡܢ <foreign xml:lang="en">(<persName>Guillaume</persName>?)</foreign> ܡܢ  ܡܓܘܨܐ <foreign xml:lang="en">(<placeName>Moguntia, Mainz</placeName>?)</foreign> ܢܣܒ ܒܝܬܐ ܒܕܪܬܐ ܕܣܝܪܓ݂ܪܓ݂ <foreign xml:lang="en">(<persName>Ser Giorgio</persName>?)</foreign> ܒ̈ܬܫܥܐ  ܕܝܢܪ̈ܐ ܒܫܢܬܐ ܟܠ ܝܪܚܐ ܬܠܬܐ ܨܘ̈ܠܐ ܬܠ̈ܬܝܢ ܘܫ̈ܬܐ ܙܘ̈ܙܐ ܥܣܪܝܢ ܝܘܡܝܢ ܒܕܪ <foreign xml:lang="en">(sic)</foreign> ܝܪܚܐ ܝܘܡ ܥܪܘܒܬܐ ܘܝܗ̣ܒ ܪܗܒܢܐ ܏ܝܒ ܙܘ̈ܙܐ</quote>
                   </p>
                         </item>
-                <item xml:id="addition2" n="2">
-                           <locus/>
-                           <p>On the verso there is a prayer in Arabic.</p>
-                           <p>
-                              <quote xml:lang="syr"/>
-                           </p>
-                        </item>
-                <item xml:id="addition3" n="3">
-                           <locus/>
-                           <p>It exhibits on the recto, at the top, the date <origDate datingMethod="Seleucid" when-custom="1643">A. Gr. 1643</origDate>,
-                                 <origDate calendar="Gregorian" when="1332">A.D.
-                              1332</origDate>.</p>
-                           <p>
-                              <quote xml:lang="syr">ܒܪܝܫ ܝܪܚܐ ܬܡܘܙ ܒܫܢܬ ܐܠܦ̈ ܘܫܬܡ̈ܐܐ ܘܪ̈ܒܥܝܢ(sic)
-                                 ܘܬܠܬ ܕܝܘ̈ܢܝܐ</quote>
-                           </p>
-                        </item>
               </list>
-            </additions>
+                  </additions>
                   <bindingDesc>
                      <p>Content pending</p>
                   </bindingDesc>
@@ -151,8 +144,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate when="1332"/>
-                     <origDate datingMethod="Seleucid" when-custom="1643"/>
+                     <origDate when="1332">A.D. 1332</origDate>
+                    <origDate datingMethod="Seleucid" when-custom="1643">A. Gr. 1643</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
@@ -335,7 +328,7 @@
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
             <item>
-              <ref target="#"/>
+              <ref target="#fly-leaves"/>
             </item>
           </list>
         </keywords>
@@ -346,8 +339,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-08-01" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
-         <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
-            to be checked for accuracy</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

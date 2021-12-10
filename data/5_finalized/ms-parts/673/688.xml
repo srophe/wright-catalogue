@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14737 foil. 87—91</title>
+        <title level="a" xml:lang="en">BL Add MS 14737 foll. 87—91</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/688</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14737 foil. 87—91</idno>
+              <idno type="BL-Shelfmark">Add MS 14737 foll. 87—91</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,11 +81,13 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
+              <title xml:lang="en">Fragments of an ascetic work</title>
+              <note>Identification of this manuscript's contents is uncertain.</note>
             </msItem>
           </msContents>
                <physDesc>
                   <objectDesc form="codex">
-                     <supportDesc material="perg">
+                     <supportDesc material="chart">
                         <extent>
                            <measure unit="content_pending" quantity="-1"/>
                         </extent>
@@ -94,7 +96,7 @@
                         <condition>
                            <list>
                               <item>
-                                 <p>There are five paper leaves, all much soiled and torn.</p>
+                                 <p>Five paper leaves, all much soiled and torn.</p>
                               </item>
                            </list>
                         </condition>
@@ -105,22 +107,10 @@
                   </objectDesc>
                   <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                        <desc>It is written in a good, current hand of the
-                           <origDate notBefore="1200" notAfter="1300">xiiith cent</origDate>.</desc>
+                        <desc>Written in a good, current hand of the <date notBefore="1200" notAfter="1300">xiiith cent.</date></desc>
                      </handNote>
             </handDesc>
-                  <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p>They appear to be fragments of an ascetic work.</p>
-                           <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                        </item>
-              </list>
-            </additions>
+                  <additions/>
                   <bindingDesc>
                      <p>Content pending</p>
                   </bindingDesc>
@@ -131,7 +121,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="1200" notAfter="1300"/>
+                    <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>

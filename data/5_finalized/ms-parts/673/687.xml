@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 11737 foll. 85 86</title>
+        <title level="a" xml:lang="en">BL Add MS 11737 foll. 85, 86</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/687</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 11737 foll. 85 86</idno>
+              <idno type="BL-Shelfmark">Add MS 11737 foll. 85, 86</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,13 +81,12 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <title xml:lang="en">An enumeration of saints and holy men, who wrought
-                        various miracles</title>
+              <title xml:lang="en">An enumeration of <persName>saints and holy men, who wrought various miracles</persName></title>
             </msItem>
           </msContents>
                <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="perg">
+                  <objectDesc form="leaf">
+                     <supportDesc material="chart">
                         <extent>
                            <measure unit="content_pending" quantity="-1"/>
                         </extent>
@@ -96,9 +95,7 @@
                         <condition>
                            <list>
                               <item>
-                                 <p>There are two paper leaves, about 6 5/8 in. by 5, from a
-                                    manuscript of the <origDate notBefore="1200" notAfter="1300">xiiith cent</origDate>. There are 13 or 14 lines in each
-                                    page. </p>
+                                 <p>Two paper leaves, about 6 5/8 in. by 5. There are 13 or 14 lines in each page.</p>
                               </item>
                            </list>
                         </condition>
@@ -109,21 +106,10 @@
                   </objectDesc>
                   <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                        <desc/>
+                <desc>From a manuscript of the <date notBefore="1200" notAfter="1300">xiiith cent.</date></desc>
                      </handNote>
             </handDesc>
-                  <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p/>
-                           <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                        </item>
-              </list>
-            </additions>
+                  <additions/>
                   <bindingDesc>
                      <p>Content pending</p>
                   </bindingDesc>
@@ -134,7 +120,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="1200" notAfter="1300"/>
+                    <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>

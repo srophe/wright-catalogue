@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 146675559</title>
+        <title level="a" xml:lang="en">BL Add MS 14667, foll. 55-59</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/475</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 146675559</idno>
+              <idno type="BL-Shelfmark">Add MS 14667, foll. 55-59</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -80,8 +80,8 @@
           </msIdentifier>
           <msContents>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1">
-              <title xml:lang="en" type="supplied">fragments of a Malkite Service-book, containing offices for Passion Week</title>
+            <msItem xml:id="a1" n="1" defective="true">
+              <title xml:lang="en">Fragments of a Malkite Service-book, containing offices for Passion Week</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -104,7 +104,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
-                <desc>written in a good, current hand, of about the <date calendar="Gregorian" notBefore="1000" notAfter="1100">xith cent</date>.</desc>
+                <desc>Written in a good, current hand, of <date calendar="Gregorian" notBefore="0950" notAfter="1150">about the xith cent.</date></desc>
               </handNote>
             </handDesc>
             <bindingDesc>
@@ -117,7 +117,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1000" notAfter="1100">xith cent.</origDate>
+              <origDate calendar="Gregorian" notBefore="0950" notAfter="1150">about the xith cent.</origDate>
             </origin>
             <provenance/>
             <acquisition/>

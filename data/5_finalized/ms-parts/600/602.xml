@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -82,35 +82,37 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
               <locus from="112a"/>
-              <title xml:lang="en">supplicatory hymns, arranged according to the eight
-                tones</title>
+              <title xml:lang="en">Supplicatory hymns, arranged according to the eight tones</title>
               <rubric xml:lang="syr">ܬܟܫ̈ܦܬܐ </rubric>
-              <note>the first of which is imperfect</note>
+              <note>The first is imperfect.</note>
             </msItem>
             <msItem xml:id="a2" n="2">
               <locus from="121a"/>
+              <author>Mār Hananyā</author>
               <title>A discourse of <persName>Mār Hananyā</persName> or
                   <persName>Ananias</persName>
               </title>
               <rubric xml:lang="syr">ܕܡܪܝ ܚܢܢܝܐ</rubric>
               <incipit xml:lang="syr">ܐ̇ܦܢܐ ܠܒܝܬ ܐܒܝ ܐܝܟ ܐܣܘܛܐ ܘܡܬܩܲܒܠ ܐܢ̣ܐ. ܘܐܝܟ ܕܥܒ̣ܕ ܗ̇ܘ ܐ̇ܥܒܕ
-                ܐܢܐ ܕܠܡܐ ܢܥ̇ܠܢܝ. ܒܬܪܥܟ ܐܒܐ ܪܚܘܡܬܢܐ ܗܐ ܢܩ̇ܫ ܐܢ̣ܐ. ܦܬܚ ܠܝ ܐܥ̇ܘܠ ܥܕܠܐ ܐ̇ܒܕ ܘܐܪܚܩ
-                ܘܐܛ̇ܥܐ. ܏ܘܫ.</incipit>
-              <note>In Dr. Payne Smith’s Catalogue of the Syriac MSS. In the Bodleian Library, col.
-                431, no. 3, this discourse is ascribed to Ananias Xenaias, or Ignatius XI, patriarch
-                of the Jacobites, A.D. 1484-1493 (see <bibl>Assemani, Bibl. Or., t. ii., pp. 386,
-                  468</bibl>); but the present mauscript seems to belong to the previous
-                century</note>
-              <note>It is composed in the metro of <persName>Jacob of Batnae</persName>
-              </note>
+                ܐܢܐ ܕܠܡܐ ܢܥ̇ܠܢܝ. ܒܬܪܥܟ ܐܒܐ ܪܚܘܡܬܢܐ ܗܐ ܢܩ̇ܫ ܐܢ̣ܐ. ܦܬܚ ܠܝ ܐܥ̇ܘܠ ܥܕܠܐ ܐ̇ܒܕ ܘܐܪܚܩ ܘܐܛ̇ܥܐ. ܏ܘܫ</incipit>
+              <note>In <bibl>Dr. Payne Smith’s Catalogue of the Syriac MSS. In the Bodleian Library, col.
+                431, no. 3</bibl>, this discourse is ascribed to <persName>Ananias Xenaias</persName>, or <persName>Ignatius XI, patriarch
+                of <persName>the Jacobites</persName></persName>, <date>A.D. 1484-1493</date> (see <bibl>Assemani, Bibl. Or., t. ii., pp. 386,
+                  468</bibl>); but the present mauscript seems to belong to <date>the previous century</date>.</note>
+              <note>It is composed in the metre of <persName>Jacob of <placeName>Batnae</placeName></persName>.</note>
+            </msItem>
+            <msItem>
+              <locus from="122b"/>
+              <title xml:lang="en">Ps. xix, vv. 1-10</title>
+              <note>Written by <ref>another hand</ref>.</note>
             </msItem>
             <msItem xml:id="a3" n="3" defective="true">
               <locus from="123b"/>
-              <title xml:lang="en">A discourse of <persName>Ephraim</persName> on
-                repentance</title>
+              <author>Ephraim</author>
+              <title xml:lang="en">A discourse of <persName>Ephraim</persName> on repentance</title>
               <rubric xml:lang="syr">ܡܐܡܪܐ ܕܡܪܝ ܐܦܪܝܡ ܕܥܠ ܬܘܬ ܢܦܫܐ</rubric>
-              <incipit xml:lang="syr"> ܬܪ̈ܝܢ ܥܘ̈ܗܕܢܝܢ ܡܪ̈ܝܪܐ ܕܡܠ̣ܝܢ ܙܘ̈ܥܐ ܘܣܘܪܕܐ. ܏ܘܫ. </incipit>
-              <note>imperfect at the end</note>
+              <incipit xml:lang="syr">ܬܪ̈ܝܢ ܥܘ̈ܗܕܢܝܢ ܡܪ̈ܝܪܐ ܕܡܠ̣ܝܢ ܙܘ̈ܥܐ ܘܣܘܪܕܐ. ܏ܘܫ</incipit>
+              <note>Imperfect at the end.</note>
             </msItem>
             <msItem xml:id="a4" n="4" defective="true">
               <locus from="133a"/>
@@ -120,7 +122,7 @@
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -131,10 +133,10 @@
                     <item>
                       <p>Paper, about 7 in. by 5, consisting of 24 leaves (Add. 14,720, foll.
                         112—135), the last four of which are much torn. The quires, of which the
-                        original number is uncertain, are signed with Syriac and Greek letters (ܛ
-                        and ΙΓ, fol. 122 b), but by a later hand. There is a lacuna after fol. 132.
-                        Each page has from 17 to 22 lines. This manuscript is written in a rather
-                        inelegant hand, apparently of the xiv cent. </p>
+                        original number is uncertain, are signed with Syriac and Greek letters (<foreign xml:lang="syr">ܛ</foreign>
+                        and <foreign xml:lang="grc">ΙΓ</foreign><!-- missing characters here -->, fol. 122 b). There is a lacuna after fol. 132.
+                        Each page has from 17 to 22 lines.</p>
+                      <p><locus from="112b">Foll. 112 b</locus>, <locus from="113a">113 a</locus>, and <locus from="122b">122 b</locus> were left blank by the scribe. </p>
                     </item>
                   </list>
                 </condition>
@@ -144,22 +146,17 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                <desc/>
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
+                <desc>This manuscript is written in a rather inelegant hand, <date>apparently of the xiv cent.</date></desc>
+              </handNote>
+              <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr"><!-- WLP: I believe we also want to mark as script="grc"? -->
+                <desc>The quires were signed by a later hand.</desc>
+              </handNote>
+              <handNote>
+                <desc>On <locus from="122b">foll. 122 b</locus> another hand has written <ref xml:lang="en">Ps. xix, vv. 1-10</ref>.</desc>
               </handNote>
             </handDesc>
-            <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                  <locus/>
-                  <p/>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                </item>
-              </list>
-            </additions>
+            <additions/>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -170,7 +167,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate from="1300" to="1400">xivth cent</origDate>
+              <origDate from="1250" to="1450">apparently of the xiv cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -363,8 +360,6 @@
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#eyonan">Initial TEI encoding.</change>
-      <change type="planned" subtype="checkSyriac"/>
-      <change type="planned" subtype="arabic">Add missing Arabic text.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
