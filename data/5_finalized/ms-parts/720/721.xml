@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -86,18 +87,18 @@
               </title>
               <msItem xml:id="b1" n="2">
                 <locus from="1a"/>
-                <title xml:lang="en">1. Of <persName ref="http://syriaca.org/person/512">Gregory
+                <title xml:lang="en">Of <persName ref="http://syriaca.org/person/512">Gregory
                            Nyssen</persName>
                 </title>
                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܩܕܝܫܐ ܓܪܝܓܪܝܘܣ ܕܥܠ ܣܛܦܐܢܘܣ ܪܝܫܐ
                            ܕܣܗ̈ܕܐ.</rubric>
-                <note>See <bibl>Opera, t. iii., from p. 356 C, <foreign xml:lang="grc">διάκονον μυστηρίων Χριστοῦ</foreign>, to p. 358 D, τίνα φέρει τῶν
-                              λυπούντων διόρθωσιν; and from p. 361 A, <foreign xml:lang="grc">καὶ
+                <note>See <bibl>Opera, t. iii., from p. 356 C, <foreign xml:lang="grc">διάκονον μυστηρίων Χριστοῦ</foreign>, to p. 358 D, <foreign xml:lang="grc">τίνα φέρει τῶν
+                              λυπούντων διόρθωσιν</foreign>; and from p. 361 A, <foreign xml:lang="grc">καὶ
                                  τῶν ἀπὸ τῆς 'Αλεξύνδρου πόλεως σοφῶν αὐτῷ
                               προσπαλαίουσθαι</foreign>, to the end</bibl>.</note>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <title xml:lang="en">2. Of <persName ref="http://syriaca.org/person/573">John
+                <title xml:lang="en">Of <persName ref="http://syriaca.org/person/573">John
                            Chrysostom</persName>
                 </title>
                 <rubric xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܩܕܝܫܐ ܝܘܐܢܝܣ ܕܥܠ ܣܛܦܐܢܘܣ ܪܝܫܐ
@@ -108,7 +109,7 @@
                            ܕܥܠܘܗܝ ܐ̇ܡܠܠ܆ ܏ܘܫ.</incipit>
               </msItem>
               <msItem xml:id="b3" n="4" defective="true">
-                <title xml:lang="en">3. Of <persName ref="http://syriaca.org/person/42">Jacob of
+                <title xml:lang="en">Of <persName ref="http://syriaca.org/person/42">Jacob of
                            Batnae</persName>
                 </title>
                 <rubric xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܩܕܝܫܐ ܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ ܕܥܠ ܩܕܝܫܐ ܣܛܦܐܢܘܣ
@@ -116,7 +117,6 @@
                 <incipit xml:lang="syr">
                   <locus from="5b"/>ܒܘܟܪܐ ܕܣ̈ܗܕܐ ܩܪܢܝ ܠܚܠܘܠܗ
                            ܪܘܚܢܝܐ̣. ܗܒ ܠܝ ܡܪܢ ܕܒܪ̈ܘܡܝܢܐ ܐܚܕܐ ܥܡܗ.</incipit>
-                <note>It is imperfect.</note>
               </msItem>
             </msItem>
           </msContents>
@@ -133,7 +133,8 @@
                               <item>
                                  <p>It consists of six paper leaves, about 13 3/8 in. by 7 3/4, the
                                     last of which is much torn. Each page is divided into two
-                                    columns of from 34 to 39 lines.</p>
+                                    columns of from 34 to 39 lines. The discourse of <persName ref="http://syriaca.org/person/42">Jacob of
+                           Batnae</persName> is imperfect.</p>
                               </item>
                            </list>
                         </condition>
@@ -359,6 +360,7 @@
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
+      <change when="2021-12-14" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edits to msContents and condition</change>
          <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-08-04" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
