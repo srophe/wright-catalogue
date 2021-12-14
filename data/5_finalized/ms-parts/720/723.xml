@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,13 +82,13 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <title xml:lang="en">1. A fragment of the metrical discourse of
+              <title xml:lang="en">A fragment of the metrical discourse of
                            <persName ref="http://syriaca.org/person/42">Jacob of Batnae</persName>
-                        on <persName>S. Simeon</persName> and the Presentation of <persName ref="http://syriaca.org/person/2245">our Lord</persName>
+                        on <persName>S. Simeon</persName> and the Presentation of our Lord
               </title>
             </msItem>
             <msItem xml:id="a2" n="2">
-              <title xml:lang="en">2. Hymns for the Commemoration of <persName>S.
+              <title xml:lang="en">Hymns for the Commemoration of <persName>S.
                            Simeon</persName>
               </title>
             </msItem>
@@ -104,7 +105,7 @@
                            <list>
                               <item>
                                  <p>It consists of three paper leaves, about 11 3/4 in. by 8, much
-                                    torn.</p>
+                                    torn. There are 25 lines in each full page.</p>
                               </item>
                            </list>
                         </condition>
@@ -330,6 +331,7 @@
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
+      <change when="2021-12-14" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edits to msContents and condition</change>
          <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-08-04" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
