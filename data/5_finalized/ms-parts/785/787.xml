@@ -16,6 +16,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</name>
@@ -26,7 +27,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -83,23 +84,19 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="15" from="13"/>
+              <locus from="13a" to="15b"/>
               <author ref="http://syriaca.org/person/496">Galen</author>
               <title ref="" xml:lang="en">The remnants of a manuscript of the works of
-                                    <persName>Galen</persName>, probably in the translation of
-                                    <persName>Sergius of Ras-'ain</persName>.</title>
-              <note>The text is divided into chapters, which are not, however, exactly
-                                the same as in the Greek original; for ch. 57 comprises both % and %
-                                ch. 58, ܢܚ: ܥܠ ܦܪ̈ܥܐ ܪܓ̈ܝܐ ܕܐܝ̈ܠܢܐ, corresponds with % and ch. 59,
-                                ܢܛ: ܥܠ ܫܘܚܠܦܐ ܕܐܝܬ ܒܡܢ̈ܘܬܐ ܕܐܝ̈ܠܢܐ. , with %.</note>
+                                    <persName ref="http://syriaca.org/person/496" xml:lang="en" type="supplied">Galen</persName>, probably in the translation of
+                                    <persName ref="http://syriaca.org/person/49" xml:lang="en" type="supplied">Sergius of Rās-'ain</persName>.</title>
               <msItem xml:id="b1" n="2">
-                <locus to="" from="13"/>
+                <locus from="13a" to="13b"/>
                 <author ref="http://syriaca.org/person/496">Galen</author>
                 <title ref="http://syriaca.org/work/9734" xml:lang="en">Part of the
-                                    "Ars medica" viz., from ch. xxviii., near the end, %, to ch. XXX
+                                    "<title xml:lang="la">Ars medica</title>" viz., from ch. xxviii., near the end, %, to ch. XXX
                                     %.</title>
-                <note>See <bibl>Opera, ed. Kuhn, t. i., pp. 384—87</bibl>;
-                                        <bibl>Sachau, Inedita Syriaca, p. 91</bibl>.</note>
+                <note>See <bibl>Opera, ed. Kuhn, t. i., pp. 384—87</bibl>; <bibl>Sachau, Inedita Syriaca, p. 91</bibl>.
+                </note>
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus to="" from="14"/>
@@ -119,6 +116,10 @@
                                     the middle of ch. lxi., %. </title>
                 <note>See <bibl>Opera, t. vi., pp. 613— 47</bibl>; <bibl>Sachau,
                                         Ined. Syr., p. 94</bibl>.</note>
+                <note>The text is divided into chapters, which are not, however, exactly
+                      the same as in the Greek original; for ch. 57 comprises both % and %
+                      ch. 58, ܢܚ: ܥܠ ܦܪ̈ܥܐ ܪܓ̈ܝܐ ܕܐܝ̈ܠܢܐ, corresponds with % and ch. 59,
+                      ܢܛ: ܥܠ ܫܘܚܠܦܐ ܕܐܝܬ ܒܡܢ̈ܘܬܐ ܕܐܝ̈ܠܢܐ. , with %.</note>
               </msItem>
             </msItem>
           </msContents>
@@ -364,6 +365,7 @@
       </textClass>
     </profileDesc>
         <revisionDesc status="draft">
+        <change when="2021-12-15" who="http://syriaca.org/documentation/editors.xml#jarnwine">General edits to msContents; to be continued</change>
             <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-16-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-05-23" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
             <change type="planned" subtype="greek">Add in missing Greek characters.</change>
