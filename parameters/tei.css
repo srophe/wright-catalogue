@@ -79,7 +79,7 @@ msIdentifier idno::before {content:attr(type) ": ";}
 msContents {display:block; margin:.5em;  border: 2px solid #eee;}
 msContents::before {content: "Contents"; display:block; font-weight: bold; margin: 1em 0;}
 msContents > summary {display:none;}
-msContents > textLang::before {content: "Text Language: ";}
+msContents > textLang::before {content: "Text Language: " attr(mainLang);}
 msContents > textLang {display:block; margin:.5em;  border: 2px solid #eee;}
 msItem {display:block; margin:.5em;  padding: .5em; border: 2px solid #eee;}
 msItem::before {content:attr(n) ". ";}
