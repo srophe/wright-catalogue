@@ -1,0 +1,750 @@
+@namespace tan "tag:textalign.net,2015:ns";
+@namespace tei "http://www.tei-c.org/ns/1.0";
+@namespace oxy url('http://www.oxygenxml.com/extensions/author');
+@namespace xml "http://www.w3.org/XML/1998/namespace";
+/* CSS file intended to be used to configure how Wright catalog manuscripts are rendered by oXygen Author */
+
+/* Highlight those elements whose text nodes are targets for editing */
+idno,
+rubric,
+incipit,
+explicit,
+quote,
+finalRubric,
+author,
+note,
+title,
+handNote > desc,
+additions > p,
+item > p:not(p:has(quote)),
+condition > p,
+origDate,
+origPlace,
+change {
+    border: 1px green solid;
+    background-color: lightyellow;
+    content: '\A' oxy_textfield(
+      edit, "#text", columns, 50
+      ) '\A';
+}
+
+/* labels for elements that are targets for editing */
+TEI:before(9),
+locus:before(9),
+rubric:before(9),
+incipit:before(9),
+explicit:before(9),
+quote:before(9),
+finalRubric:before(9),
+author:before(9),
+note:before(9),
+title:before(9),
+handNote > desc:before(9),
+origDate:before(9),
+origPlace:before(9),
+change:before(9) {
+    content: oxy_local-name() ' ';
+    color: black;
+    font-size: 18px;
+}
+/* exceptions to the general label rule above */
+TEI:before(9) {
+    content: 'Wright manuscript metadata ';
+    color: black;
+}
+msIdentifier > idno:before(9) {
+    content: 'manuscript ID: ';
+    color: black;
+}
+altIdentifier > idno:before(9) {
+    content: 'BL Shelfmark: ';
+    color: black;
+}
+msContents:before(9) {
+    content: 'MANUSCRIPT CONTENTS \A';
+    color: black;
+}
+msItem:before(9) {
+    content: 'MANUSCRIPT ITEM \A';
+    color: black;
+}
+physDesc:before(9) {
+    content: 'MANUSCRIPT PHYSICAL DESCRIPTION \A';
+    color: black;
+}
+condition > list > item > p:before(9) {
+  content: 'Condition Description';
+    background-color: #72B9D7;
+  color: black;
+}
+condition > list > item > p {
+  background-color: #72B9D7;
+
+}
+handNote:before(9) {
+  content: 'HAND NOTE \A';
+  color: black;
+  background-color: #d89274;
+}
+additions:before(9) {
+  content: 'ADDITIONS \A';
+  color: black;
+}
+additions > p:before(9) {
+  content: 'General notes on additions ';
+  color: black;
+}
+additions > list > item:before(9) {
+  content: 'Additional Item \A';
+  color: black;
+}
+item > p:not(p:has(quote)):before(9) {
+  content: 'Description';
+  color: black;
+  background-color: #72B9D7;
+}
+history:before(9) {
+    content: 'MANUSCRIPT HISTORY \A';
+    color: black;
+}
+/* BACKGROUND */
+sourceDesc {
+    background: ghostwhite
+}
+
+/* BORDERS */
+msContents,
+msItem,
+physDesc,
+handNote,
+additions,
+history {
+    border: 2px black solid;
+    background-color: ghostwhite;
+
+}
+
+additions * {
+    border: solid;
+    border-color: black;
+    border-width: thin;
+}
+/* COLORS */
+oxy|entity[name ^= '#'] {
+    background-color: black;
+}
+oxy|comment {
+    background-color: lightgray;
+}
+*:before(9) {
+    color: gray
+}
+*:before(8),
+*:before(7),
+*:before(6) {
+    color: darkgreen
+}
+
+msIdentifier idno {
+    background-color: #72B9D7;
+}
+
+msIdentifier > idno {
+    background-color: #d89274;
+}
+
+msItem > * {
+    border: black;
+}
+msItem locus {
+  background-color: inherit;
+  border: solid;
+  border-width: thin;
+}
+msItem > locus {
+  background-color: #d89274;
+  border: solid;
+  border-width: thin;
+}
+author {
+  background-color: #72B9D7;
+}
+title {
+  background-color: #d89274;
+}
+rubric {
+  background-color: #72B9D7;
+}
+incipit {
+  background-color: #d89274;
+}
+quote {
+  background-color: #72B9D7;
+}
+explicit {
+  background-color: #d89274;
+}
+finalRubric {
+  background-color: #72B9D7;
+  opacity: 0.8;
+}
+note {
+  background-color: #d89274;
+}
+additions > list >item, additions p {
+  background-color: #72B9D7;
+  border-color: black;
+  border: solid;
+}
+p{
+  background-color: inherit;
+}
+handNote, handNote > desc{
+  background-color: #d89274;
+  border: solid;
+  border-width: thin;
+  border-color: black;
+}
+item > p:not(p:has(quote)) {
+  background-color: #72B9D7;
+}
+origin > origDate{
+  background-color: #72B9D7;
+}
+origPlace{
+  background-color: #d89274;
+}
+/* DISPLAY */
+
+* {
+    display: block;
+}
+titleStmt,
+summary,
+editionStmt,
+publicationStmt,
+profileDesc,
+facsimile,
+supportDesc > extent,
+layoutDesc,
+bindingDesc,
+sealDesc,
+encodingDesc,
+foliation,
+collation,
+accMat,
+provenance,
+acquisition,
+additional,
+body,
+text {
+    display: none;
+}
+oxy|processing-instruction {
+    display: none !important
+}
+foreign {
+  display: inline;
+  background-color: white;
+}
+/* Display rules for sub-element wrapping by user */
+persName {
+  display:inline;
+  background-color: lightgray;
+
+}
+persName:before(0) {
+  content: "["oxy_local-name()"]";
+  color: black;
+  font-style: italic;
+  font-size: 14px;
+}
+placeName {
+  display:inline;
+  background-color: lightblue;
+
+}
+placeName:before(0) {
+  content: "["oxy_local-name()"]";
+  color: black;
+  font-style: italic;
+  font-size: 14px;
+}
+bibl {
+  display:inline;
+  background-color: ghostwhite;
+
+}
+bibl:before(0) {
+  content: "["oxy_local-name()"]";
+  color: black;
+  font-style: italic;
+  font-size: 14px;
+}
+date, origDate {
+  display:inline;
+  background-color: ghostwhite;
+
+}
+date:before(0), origDate:before(0) {
+  content: "["oxy_local-name()"]";
+  color: black;
+  font-style: italic;
+  font-size: 14px;
+}
+/* Distinguishing the display of origDates and those found specifically in origin */
+origin > origDate {
+  display: block;
+}
+origin > origDate:before(0) {
+  content: ""
+}
+/* FONTS */
+*:lang(syr),
+*:lang(syr-Syre),
+*:lang(syr-Syrj),
+*:lang(syr-Syrn),
+*:lang(syr-x-syrm),
+*:lang(syr-x-syrp),
+*:lang(ar-Syrc),
+*:lang(ar-Syrj),
+*:lang(ar-Syrn) {
+    font-family: 'Estrangelo Talada';
+    font-size: 20px;
+}
+*:lang(cop) {
+    font-family: antinoou;
+}
+*:lang(grc) {
+    font-family: 'Gentium Plus', 'Garamond Premiere Pro', 'Gentium Plus', serif;
+}
+
+/* MARGINS */
+* {
+    margin-left: 16px;
+}
+
+/* SPECIAL OXYGEN */
+textLang:not(textLang[otherLangs]):after(1){
+  content: oxy_button(
+    actionID, "insert.attribute.otherLangs"
+    )
+}
+msContents:not(msContents:has(msItem)):after(1)
+{
+    content:
+    oxy_button(
+actionID, "append.child.msItem")
+}
+
+msItem:last-of-type:after(0) {
+    content:
+    oxy_button(
+actionID, "append.sibling.msItem");
+}
+
+msItem:before(7) {
+    background-color: lightyellow;
+    color: black;
+    content:
+    'defective? ' oxy_checkbox(
+edit, "@defective",
+values, "true",
+uncheckedValues, "false");
+}
+
+msItem:not(msItem:has(locus)):after(1),
+msItem > rubric:not(rubric:has(locus)):after(0),
+msItem > incipit:not(incipit:has(locus)):after(0),
+msItem > quote:not(quote:has(locus)):after(1),
+msItem > explicit:not(explict:has(locus)):after(1),
+msItem > finalRubric:not(finalRubric:has(locus)):after(1)
+{
+    content:
+    oxy_button(
+actionID, "append.child.locus");
+}
+msItem > author:after(2),
+msItem > title:after(2),
+msItem > rubric:after(2),
+msItem > incipit:after(2),
+msItem > quote:after(2),
+msItem > explicit:after(2),
+msItem > finalRubric:after(2),
+msItem > note:after(2),
+handNote:after(2),
+additions > list > item:after(2),
+origPlace:after(2)
+{
+    content: oxy_button(
+actionID, "delete.self");
+}
+msItem:after(11){
+  content: oxy_button(
+    actionID, "delete.self"
+    );
+}
+msItem:not(msItem:has(author)):after(2)
+{
+    content:
+    oxy_button(
+actionID, "append.child.author");
+}
+msItem:not(msItem:has(title)):after(3)
+{
+    content:
+    oxy_button(
+actionID, "append.child.title");
+}
+msItem:not(msItem:has(rubric)):after(4)
+{
+    content:
+    oxy_button(
+actionID, "append.child.rubric");
+}
+msItem:not(msItem:has(incipit)):after(5)
+{
+    content:
+    oxy_button(
+actionID, "append.child.incipit");
+}
+msItem:not(msItem:has(quote)):after(6)
+{
+    content:
+    oxy_button(
+actionID, "append.child.quote");
+}
+msItem:not(msItem:has(explicit)):after(7)
+{
+    content:
+    oxy_button(
+actionID, "append.child.explicit");
+}
+msItem:not(msItem:has(finalRubric)):after(8)
+{
+    content:
+    oxy_button(
+actionID, "append.child.finalRubric");
+}
+msItem:not(msItem:has(note)):after(9)
+{
+    content:
+    oxy_button(
+actionID, "append.child.note");
+}
+msItem:not(msItem:has(msItem)):after(10)
+{
+    content:
+    oxy_button(
+actionID, "append.child.msItem");
+}
+msItem author:last-of-type:after(1) {
+    content:
+    oxy_button(
+actionID, "append.sibling.author");
+}
+msItem title:last-of-type:after(1) {
+    content:
+    oxy_button(
+actionID, "append.sibling.title");
+}
+msItem rubric:last-of-type:after(1) {
+    content:
+    oxy_button(
+actionID, "append.sibling.rubric");
+}
+msItem incipit:last-of-type:after(1) {
+    content:
+    oxy_button(
+actionID, "append.sibling.incipit");
+}
+msItem quote:last-of-type:after(1) {
+    content:
+    oxy_button(
+actionID, "append.sibling.quote");
+}
+msItem explicit:last-of-type:after(1) {
+    content:
+    oxy_button(
+actionID, "append.sibling.explicit");
+}
+msItem finalRubric:last-of-type:after(1) {
+    content:
+    oxy_button(
+actionID, "append.sibling.finalRubric");
+}
+msItem note:last-of-type:after(1) {
+    content:
+    oxy_button(
+actionID, "append.sibling.note");
+}
+handNote:last-of-type:after(1)
+{
+    content:
+    oxy_button(
+actionID, "append.sibling.handNote");
+}
+additions list item:last-of-type:after(1)
+{
+    content:
+    oxy_button(
+actionID, "append.sibling.addition");
+}
+origin > origDate:last-of-type:after(1) {
+  content: oxy_button(
+    actionID, "append.sibling.dateGregorian"
+    )
+}
+origin > origDate:last-of-type:after(2) {
+  content: oxy_button(
+    actionID, "append.sibling.dateCustom"
+    )
+}
+origin > origDate:after(3) {
+  content: oxy_button(
+    actionID, "delete.self"
+    )
+}
+origPlace:last-of-type:after(1){
+  content: oxy_button(
+    actionID, "append.sibling.origPlace"
+    )
+}
+change[when]:before(8) {
+    content: oxy_datePicker(
+edit, "@when",
+format, "yyyy-MM-dd")
+}
+change:last-of-type:after(0){
+  content: "\A \A ADD PLANNED CHANGES: \A" oxy_button(actionID, "append.sibling.change.checkSyriac")
+  oxy_button(actionID, "append.sibling.change.question")
+  oxy_button(actionID, "append.sibling.change.missing")
+  oxy_button(actionID, "append.sibling.change.arabic")
+  oxy_button(actionID, "append.sibling.change.syriac")
+  oxy_button(actionID, "append.sibling.change.greek")
+  oxy_button(actionID, "append.sibling.change.coptic")
+  oxy_button(actionID, "append.sibling.change.vocalization")
+  oxy_button(actionID, "append.sibling.change.arithmetical")
+  oxy_button(actionID, "append.sibling.change.table")
+  oxy_button(actionID, "append.sibling.change.reconstruction")
+  oxy_button(actionID, "append.sibling.change.consultation")
+  oxy_button(actionID, "append.sibling.change.palimpsest")
+}
+*[href] {
+    content:
+    oxy_urlChooser(
+edit, "@href",
+columns 25);
+}
+locus:before(8) {
+    background-color: inherit;
+    opacity: 0.8;
+    color: black;
+    content: 'from: ' oxy_textfield(
+edit, "@from",
+columns, 15
+)
+}
+locus:before(7) {
+    background-color: inherit;
+    opacity: 0.8;
+    color: black;
+    content: ' to: ' oxy_textfield(
+edit, "@to",
+columns, 15
+)
+}
+*[ref]:before(8) {
+    color: black;
+    content: 'URI: ' oxy_textfield(
+edit, "@ref",
+columns, 30
+)
+}
+*[xml|lang]:before(7)
+{
+    background-color: inherit;
+    color: black;
+    content: 'language: ' oxy_combobox(
+edit, '@xml:lang',
+editable, false,
+values, 'syr, syr-Syre, syr-Syrj, syr-Syrn, syr-x-syrm, syr-x-syrp, syr-Arab, ar-Syrc, ar-Syrj, ar-Syrn, en, ar, fr, de, la, grc, cop',
+labels, 'Unvocalized or undetermined Syriac, Syriac in Estrangela, Vocalized West Syriac, Vocalized East Syriac, Melkite Syriac, Palestinian Syriac, Syriac written in Arabic characters, Unvocalized or Undetermined Arabic Garshuni, Arabic Garshuni in Vocalized West Syriac Script, Arabic Garshuni in Vocalized East Syriac Script, English, Arabic, French, German, Latin, Ancient Greek, Coptic'
+)
+}
+TEI[xml|lang]:before(7)
+{
+  display:none;
+}
+
+*[mainLang]:before(7)
+{
+    background-color: inherit;
+    color: black;
+    content: 'main language: ' oxy_combobox(
+edit, '@mainLang',
+editable, false,
+values, 'syr, syr-Syre, syr-Syrj, syr-Syrn, syr-x-syrm, syr-x-syrp, syr-Arab, ar-Syrc, ar-Syrj, ar-Syrn, en, ar, fr, de, la, grc, cop',
+labels, 'Unvocalized or undetermined Syriac, Syriac in Estrangela, Vocalized West Syriac, Vocalized East Syriac, Melkite Syriac, Palestinian Syriac, Syriac written in Arabic characters, Unvocalized or Undetermined Arabic Garshuni, Arabic Garshuni in Vocalized West Syriac Script, Arabic Garshuni in Vocalized East Syriac Script, English, Arabic, French, German, Latin, Ancient Greek, Coptic'
+)
+}
+*[otherLangs]:before(6)
+{
+  background-color: inherit;
+  color: black;
+  content: 'other languages: ' oxy_combobox(
+edit, '@otherLangs',
+editable, false,
+values, 'syr, syr-Syre, syr-Syrj, syr-Syrn, syr-x-syrm, syr-x-syrp, syr-Arab, ar-Syrc, Mixed, Unknown',
+labels, 'Unvocalized or undetermined Syriac, Estrangela, Jacobite Syriac or Syriac with Greek vowels, Nestorian Syriac or Syriac with pointed vowels, Malkite or Melkite, Palestinian Syriac, Syriac written in Arabic characters, Arabic translation in Syriac Characters, mixed, unknown'
+)
+}
+objectDesc[form]:before(8) {
+    background-color: lightyellow;
+    color: black;
+    content: 'form: ' oxy_combobox(
+edit, "@form",
+editable, false,
+values, 'codex, scroll, leaf, other',
+labels, 'codex, scroll, leaf, other'
+)
+}
+supportDesc[material]:before(7) {
+    background-color: lightyellow;
+    color: black;
+    content: 'material: ' oxy_combobox(
+edit, "@material",
+editable, false,
+values, 'perg, chart, mixed, unknown',
+labels, 'parchment, paper, mixed, unknown'
+)
+}
+handNote:before(8) {
+    background-color: #d89274;
+    border: solid;
+    border-color: black;
+    border-width: thin;
+    color: black;
+    content: 'scope: ' oxy_combobox(
+edit, '@scope',
+editable, false,
+values, 'sole, major, minor',
+labels, 'sole, major, minor'
+)
+}
+handNote:before(7) {
+    background-color: #d89274;
+    border: solid;
+    border-color: black;
+    border-width: thin;
+    color: black;
+    content: 'script: ' oxy_combobox(
+edit, '@script',
+editable, false,
+values, 'syr, syr-Syre, syr-Syrj, syr-Syrn, syr-x-syrm, syr-x-syrp, syr-Arab, ar-Syrc, Mixed, Unknown',
+labels, 'Unvocalized or undetermined Syriac, Estrangela, Jacobite Syriac or Syriac with Greek vowels, Nestorian Syriac or Syriac with pointed vowels, Malkite or Melkite, Palestinian Syriac, Syriac written in Arabic characters, Arabic translation in Syriac Characters, mixed, unknown'
+)
+
+}
+handNote:before(6) {
+    background-color: #d89274;
+    border: solid;
+    border-color: black;
+    border-width: thin;
+    color: black;
+    content: 'medium: ' oxy_textfield(
+edit, "@medium",
+columns, 15
+)
+}
+
+/*
+origin > origDate:before(8) {
+  background-color: #95C6EB;
+  color: black;
+  content: 'from: ' oxy_textfield(
+    edit, '@from', columns, 15
+    )
+}
+origin > origDate:before(7) {
+  background-color: #95C6EB;
+  color: black;
+  content: ' to: ' oxy_textfield(
+    edit, '@to', columns, 15
+    )
+}
+*/
+
+origin > origDate:before(6):not(origDate[datingMethod]) {
+  background-color: #95C6EB;
+  color: black;
+  content: ' when: ' oxy_textfield(
+    edit, '@when', columns, 15
+    )
+}
+origin > origDate:before(5) {
+  background-color: #95C6EB;
+  color: black;
+  content: '\ANot Before: ' oxy_textfield(
+    edit, '@notBefore', columns, 15
+    )
+}
+origin > origDate:before(4) {
+  background-color: #95C6EB;
+  color: black;
+  content: ' Not After: ' oxy_textfield(
+    edit, '@notAfter', columns, 15
+    )
+}
+origin > origDate:before(2) {
+  color: black;
+  content: "\A\AProse date"
+}
+
+origin > origDate[datingMethod]:before(8){
+  background-color: #95EBBA;
+  color: black;
+  content: 'Dating Method: ' oxy_combobox(
+    edit, '@datingMethod',
+    editable, false,
+    values, 'Seleucid, Hijri-qamari, Gregorian, Julian, AM, Hijri-shamsi, Coptic-EoM, Alexandrian, Iranian-Yazdigird, Iranian-Jalali, Spanish, Ilahi, Hindu, unknown'
+    labels, 'Seleucid (A Gr), Hijri-qamari (AH), Gregorian (AD), Julian, AM (Anno Mundi), Hijri-shamsi, Coptic-EoM, Alexandrian, Iranian-Yazdigird, Iranian-Jalali, Spanish, Ilahi, Hindu, unknown'
+    )
+}
+/*
+origin > origDate[datingMethod]:before(7){
+  background-color: #95EBBA;
+  color: black;
+  content: ' from: ' oxy_textfield(
+    edit, '@from-custom', columns, 15
+    );
+}
+origin > origDate[datingMethod]:before(6){
+  background-color: #95EBBA;
+  color: black;
+  content: ' to: ' oxy_textfield(
+    edit, '@to-custom', columns, 15
+    );
+}
+*/
+origin > origDate[datingMethod]:before(5){
+  background-color: #95EBBA;
+  color: black;
+  content: ' when: ' oxy_textfield(
+    edit, '@when-custom', columns, 15
+    );
+}
+origin > origDate[datingMethod]:before(4){
+  background-color: #95EBBA;
+  color: black;
+  content: '\A Not Before: ' oxy_textfield(
+    edit, '@notBefore-custom', columns, 15
+    );
+}
+origin > origDate[datingMethod]:before(3){
+  background-color: #95EBBA;
+  color: black;
+  content: ' Not After: ' oxy_textfield(
+    edit, '@notAfter-custom', columns, 15
+    );
+}
