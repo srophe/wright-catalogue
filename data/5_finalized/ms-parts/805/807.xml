@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -81,14 +82,15 @@
           <msContents>
             <textLang mainLang="syr-Syre"/>
             <msItem xml:id="a1" n="1" defective="true">
-              
+              <locus from="15a" to="27"/>
               <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
-              <title xml:lang="en">Metrical discourses of Jacob of
-                                Batnae</title>
+              <title xml:lang="en">Metrical discourses of <persName ref="http://syriaca.org/person/42">
+                  Jacob of Batnae
+              </persName></title>
               <msItem xml:id="b1" n="2" defective="true">
-                <locus from="15a"/>
+                <locus from="15a" to="25"/>
                 <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
-                <title xml:lang="en">1. On <persName>David</persName> and
+                <title xml:lang="en">On <persName>David</persName> and
                                         <persName>Goliath</persName>
                 </title>
                 <rubric xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܣܝܡ ܠܩܕܝܫܐ ܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ. ܕܥܠ
@@ -97,9 +99,9 @@
                                         i</bibl>.</note>
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
-                <locus from="25a"/>
+                <locus from="25a" to="27"/>
                 <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
-                <title xml:lang="en">2. For Palm Sunday</title>
+                <title xml:lang="en">For Palm Sunday</title>
                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܐܘܫ̈ܥܢܐ</rubric>
                 <note>Very imperfect.</note>
                 <note>See <bibl>Assemani, p. 322, no. 135</bibl>.</note>
@@ -119,12 +121,9 @@
                                         <item>
                                             <p>Thirteen vellum leaves, about 12 in. by 8, several of
                                                 which are much stained and torn (Add. 17,162, foll.
-                                                15—27). There are lacunae after foll. 15, 16, 17,
-                                                18, 21, 24 and 25. Each page is divided into two
-                                                columns, of from 23 to 27 lines. This manuscript is
-                                                written, apparently by more than one hand, in a
-                                                large, regular Estrangela of about the ixth
-                                                cent.</p>
+                                                15—27). There are lacunae after foll. <locus from="15b">15</locus>, <locus from="16b">16</locus>, <locus from="17b">17</locus>,
+                                                <locus from="18b">18</locus>, <locus from="21b">21</locus>, <locus from="24b">24</locus> and <locus from="25b">25</locus>. Each page is divided into two
+                                                columns, of from 23 to 27 lines.</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -135,7 +134,7 @@
                         </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>This manuscript is written, apparently by more than one hand, in a large, regular Estrangela of about the <origDate calendar="Gregorian" notBefore="0800" notAfter="0900">ixth cent</origDate>.</desc>
               </handNote>
             </handDesc>
             <additions>
