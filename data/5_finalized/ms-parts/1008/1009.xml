@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17229147</title>
+        <title level="a" xml:lang="en">BL Add MS 17229 foll. 1-47</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/1009</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17229147</idno>
+              <idno type="BL-Shelfmark">Add MS 17229 foll. 1-47</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,28 +82,27 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="1a"/>
+              <locus from="1a" to="45b"/>
               <title xml:lang="en">A Collection of Anaphoras</title>
-              
               <msItem xml:id="b1" n="2" defective="true">
-                <locus from="1a"/>
-                <author ref="https://syriaca.org/person/2163">Julius Pope of Rome</author>
-                <title xml:lang="en">Anaphora of Julius of Rome</title>
+                <locus from="1a" to="2"/>
+                <author ref="https://syriaca.org/person/2163">Julius, Pope of Rome</author>
+                <title xml:lang="en">Anaphora of <persName ref="https://syriaca.org/person/2163">Julius of Rome</persName></title>
                 <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܕܩܕܝܫܐ ܐܝܘܠܝܘܣ</rubric>
                 <note>Very Imperfect</note>
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
-                <locus from="2b"/>
+                <locus from="2b" to="4"/>
                 <author ref="https://syriaca.org/person/44">Philoxenus of Mabug</author>
-                <title xml:lang="en">Anaphora of Philoxenus of Mabug</title>
-                <rubric xml:lang="syr">ܕܩܕܝܫܐ ܦܝܠܠܟܣܝܢܘܣ ܐܦܝܣܩܘܦܐ ܕܡܒܘܓ ܐܠܗܐ ܚ̣̈ܝܐ ܕܟܠ ܘܢܘܼܗܪܐ.
-                  ܏ܘܫ</rubric>
+                <title xml:lang="en">Anaphora of <persName ref="https://syriaca.org/person/44">Philoxenus of Mabug</persName></title>
+                <rubric xml:lang="syr">ܕܩܕܝܫܐ ܦܝܠܠܟܣܝܢܘܣ ܐܦܝܣܩܘܦܐ ܕܡܒܘܓ</rubric>
+                <incipit xml:lang="syr">ܐܠܗܐ ܚ̣̈ܝܐ ܕܟܠ ܘܢܘܼܗܪܐ ܏ܘܫ</incipit>
                 <note>See <bibl>Renaudot, Liturg. Orient., t. ii., p. 301</bibl>
                 </note>
                 <incipit xml:lang="syr">ܐܠܗܐ ܚ̣̈ܝܐ ܕܟܠ ܘܢܘܼܗܪܐ . ܏ܘܫ</incipit>
               </msItem>
               <msItem xml:id="b3" n="4" defective="true">
-                <locus from="4b"/>
+                <locus from="4b" to="16"/>
                 <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
                 <title xml:lang="en">Anaphora of Jacob of Batnae</title>
                 <rubric xml:lang="syr">ܕܡܪܝ ܝܥܩܘܒ ܡܲܠܦܢܐ</rubric>
@@ -409,6 +409,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2021-12-20">Initial edits to msContents; to be continued</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-06-02" who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
