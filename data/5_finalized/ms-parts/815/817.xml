@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,45 +82,55 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
+              <locus from="114b" to="126"/>
               <author ref="https://syriaca.org/person/483">Evagrius</author>
-              <title xml:lang="en">Selections from the writings of Evagrius</title>
+              <title xml:lang="en">Selections from the writings of <persName ref="https://syriaca.org/person/483">Evagrius</persName></title>
               <msItem xml:id="b1" n="2">
-                <locus from="114b"/>
+                <locus from="114b" to="115"/>
                 <rubric xml:lang="syr">ܡܡܠܠܐ ܕܩܕܝܫܐ ܐܘܓܪܝܣ ܝܚܝܕܝܐ܆ ܕܥܠ ܕܘܒܪ̈ܐ ܕܝܚ̈ܝܕܝܐ
                   ܕܡܝܬܪܘܬܐ</rubric>
-                <note>See Add. 14,578, no. 13.</note>
+                <note>See <ref target="http://syriaca.org/manuscript/314">Add. 14,578, no. 13</ref>.</note>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus from="115b"/>
+                <locus from="115b" to="125"/>
                 <title xml:lang="en">On the eight evil passions</title>
                 <incipit xml:lang="syr">ܥܠ ܪܚܡܬ ܟܪܣܐ. ܪܝܫܐ ܕܥܡ̈ܡܐ ܥܡܠܝܩ. ܘܪܝܫܐ ܕܚ̈ܫܐ ܪܒܘܬ
                   ܟܪܣܐ</incipit>
-                <note>Compare <bibl>Add. 11,578, no. 5</bibl>. c.ܕܥܠ ܡ̇ܠܦܢܐ ܘܬܠܡ̈ܝܕܐ . Fol. 125 b.
-                  See <bibl>Add. 14,578, no. 23 </bibl>
+                <note>Compare <ref target="http://syriaca.org/manuscript/314">Add. 14,578, no. 5</ref>.
+                </note>
+                </note>
+              </msItem>
+              <msItem xml:id="b3" n="4">
+                <locus from="125b" to="126"/>
+                <rubric xml:lang="syr">ܕܥܠ ܡ̇ܠܦܢܐ ܘܬܠܡ̈ܝܕܐ</rubric>
+                <note>See <ref target="http://syriaca.org/manuscript/314">Add. 14,578, no. 23</ref>.
                 </note>
               </msItem>
             </msItem>
-            <msItem xml:id="a2" n="4">
-              <locus from="126b"/>
-              <author>Xystus, bishop of Rome</author>
-              <title ref="https://syriaca.org/person/22" xml:lang="en">The discourses of<bibl>
-                  Xystus, bishop of Rome</bibl>
+            <msItem xml:id="a2" n="5" defective="true">
+              <locus from="126b" to="149a"/>
+              <author ref="https://syriaca.org/person/22">Xystus, bishop of Rome</author>
+              <title xml:lang="en">The discourses of<persName ref="https://syriaca.org/person/22">
+                  Xystus, bishop of Rome</persName>
               </title>
               <rubric xml:lang="syr">ܡܡܠܠܐ ܕܡܪܝ ܟܣܝܣܛܘܣ: ܐܦܝܣܩܘܦܐ ܕܪܗܘܡܐ</rubric>
-              <note>These have been left unfinished by the scribe, the text ending, on fol. 149 a,
-                with the words ܡܛܠ ܕܦܓܪܟ ܠܒܘܫܗ̇ ܗܘ ܕܢܦܫܟ ܠܘܬ (see de Lagarde's Anal. Svr., p. 25,
-                line 7).</note>
+              <note>These have been left unfinished by the scribe, the text ending, on fol. <locus from="149a">149 a</locus>,
+                with the words <quote xml:lang="syr">ܡܛܠ ܕܦܓܪܟ ܠܒܘܫܗ̇ ܗܘ ܕܢܦܫܟ ܠܘܬ</quote> (see <bibl>
+                  de Lagarde's Anal. Syr., p. 25,
+                  line 7
+                </bibl>).</note>
             </msItem>
-            <msItem xml:id="a3" n="5">
-              <locus from="149b"/>
+            <msItem xml:id="a3" n="6">
+              <locus from="114a" to="114a"/>
+              <locus from="149b" to="153b"/>
               <author ref="https://syriaca.org/person/42">Jacob of Batnae</author>
-              <title xml:lang="en">Extract from a metrical discourse of Jacob of Batnae on S.
+              <title xml:lang="en">Extract from a metrical discourse of <persName ref="https://syriaca.org/person/42">Jacob of Batnae</persName> on S.
                 John's Gospel ch. i. 1</title>
               <rubric xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܥܠ ܡܠܬܐ ܒܪܝܫܝܬ</rubric>
               <incipit xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܡܪܝ ܝܥܩܘܒ ܠܐ ܡܬܡܠܠ ܡܠܬܐ ܡܪܢ ܡܢ ܡ̈ܠܠܐ. ܕܟܣܐ ܗܘ ܫܪܒܗ
                 ܐܦ ܟܕ ܐܬܐ ܦܓܪܢܐܝܬ</incipit>
-              <note>See <bibl>Add. 14,580, no. 4, c</bibl>. From fol. 153 b the text is continued on
-                fol. 114 a.</note>
+              <note>See <ref target="http://syriaca.org/manuscript/316">Add. 14,580, no. 4, c</ref>. From fol. <locus from="153b">153 b</locus> the text is continued on
+                fol. <locus from="114a">114 a</locus>.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -134,12 +145,9 @@
                   <list>
                     <item>
                       <p>Vellum, about 7 1/4 in. by 5 1/8, consisting of 40 leaves (Add. 17,168,
-                        foll. 114—153). The quires, four in number, are signed with letters from ܐto
-                        ܕ , and afterwards from ܝܓto ܝܘ. There are from 19 to 25 lines in each page.
-                        This manuscript is written in a good, regular hand of the ixth cent. The
-                        first few pages are in Estrangela, the remainder in a more cursive
-                        character. Foll. 119 b—153 b are apparently in a different handwriting, of
-                        not much later date. </p>
+                        foll. 114—153). The quires, four in number, are signed with letters from <foreign xml:lang="syr">ܐ</foreign> to
+                        <foreign xml:lang="syr">ܕ</foreign>, and afterwards from <foreign xml:lang="syr">ܝܓ</foreign> to <foreign xml:lang="syr">ܝܘ</foreign>. There are from 19 to 25 lines in each page.
+                        </p>
                     </item>
                   </list>
                 </condition>
@@ -148,9 +156,18 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="4">
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
+                <desc>This manuscript is written in a good, regular hand of the <origDate calendar="Greogrian" notBefore="0800" notAfter="0900">ixth cent</origDate>. The majority of the manuscript is in a more cursive character.</desc>
+              </handNote>
+              <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr-Syre">
+                <desc>The first few pages are in Estrangela.</desc>
+              </handNote>
+              <handNote medium="unknown" xml:id="handNote3" scope="minor" script="syr">
+                <desc>Foll. <locus from="149b" to="153b">149 b—153 b</locus> are apparently in a different handwriting, of not much later date.</desc>
+              </handNote>
+              <handNote medium="unknown" xml:id="handNote4" scope="minor" script="syr">
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
             <additions>
@@ -366,6 +383,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+    <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2021-12-20">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
