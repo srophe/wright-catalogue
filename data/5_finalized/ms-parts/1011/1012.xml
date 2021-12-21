@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17230119</title>
+        <title level="a" xml:lang="en">BL Add MS 17230 foll. 1-19</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/1012</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17230119</idno>
+              <idno type="BL-Shelfmark">Add MS 17230 foll. 1-19</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,25 +82,23 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" xmlid="a1">
-              <locus from="1b">Fol. 1b</locus>
-              <title xml:lang="en">The Order of Baptism, of <persName>Severus</persName>
+              <locus from="1b" to="18">Fol. 1b</locus>
+              <title xml:lang="en">The Order of Baptism, of <persName ref="http://syriaca.org/person/51">Severus</persName>
               </title>
               <rubric xml:lang="syr">ܥܠ ܣܒܪܐ ܕܬܠܝ̣ܬܝܘܬ݂ܐ ܩܕܝܫܬܐ
                 ܡܫܲܪܝܢܢ: ܕܢܟܬܘܒ ܛܟܣܐ ܕܥܡܕܐ ܏ܩܕ. ܕܡܪܝ ܣܐܘܝܪܐ ܦ܏ܐܛܪ ܩܕܝܫܐ</rubric>
             </msItem>
             <msItem xml:id="a2" n="2" defective="true">
-              <locus from="18a">Fol. 18a</locus>
-              <title xml:lang="en">The same order abridged</title>
-              <rubric xml:lang="syr">ܬܘܒ ܥܡ̇ܕܐ ܕܒܣ̈ܩܝܬܐ</rubric>
-              <rubric xml:lang="en">(sic)</rubric>
-              <rubric xml:lang="syr">ܕ܏ܩܕ ܡܪܝ ܣ̣ܐܘܝܪܐ ܘܐܢ ܐܢܲܢܩܝ ܕܡܘܬܐ ܬܗ̇ܘܼܐ ܘܠܐ ܫܟܝ̣ܚ ܟܗܢܐ ܕܠܐ ܐܟܝ̣ܠ ܠܗ ܠܚܡܐ ܐ܏ܘ
+              <locus from="18a" to="19">Fol. 18a</locus>
+              <title xml:lang="en">The same order of Baptism, of <persName ref="http://syriaca.org/person/51">Severus</persName>, abridged</title>
+              <rubric xml:lang="syr">ܬܘܒ ܥܡ̇ܕܐ ܕܒܣ̈ܩܝܬܐ <foreign xml:lang="en">(sic)</foreign> ܕ܏ܩܕ ܡܪܝ ܣ̣ܐܘܝܪܐ ܘܐܢ ܐܢܲܢܩܝ ܕܡܘܬܐ ܬܗ̇ܘܼܐ ܘܠܐ ܫܟܝ̣ܚ ܟܗܢܐ ܕܠܐ ܐܟܝ̣ܠ ܠܗ ܠܚܡܐ ܐ܏ܘ
                 ܕܐܟܝ̣ܠ ܠܗ ܢܥ̣ܡܕ</rubric>
               <note>Slightly imperfect at the end.</note>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <foliation/>
                 <collation/>
                 <condition>
@@ -320,6 +319,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2021-12-21">Edits to msContents</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-08-06" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
