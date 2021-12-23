@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17246, foll. 75—84</title>
+        <title level="a" xml:lang="en">BL Add MS 17246 foll. 75—84</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/1037</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17246, foll. 75-84</idno>
+              <idno type="BL-Shelfmark">Add MS 17246 foll. 75-84</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,23 +82,22 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="75a"/>
+              <locus from="75a" to="81"/>
               <rubric xml:lang="syr">ܥܛܪ̈ܐ</rubric>
               <note>Imperfect at the beginning</note>
-              <note>See <bibl>fol. 58 a</bibl>.</note>
-              <msItem xml:id="b1" n="2">
-                <locus to="81a" from="80"/>
-                <title xml:lang="en">Contain ܡ̈ܥܢܝܬܐ on
-                                        <persName>George</persName> and
-                                        <persName>Theodore</persName>
+              <note>See <ref target="http://syriaca.org/manuscript/1036">fol. 58 a</bibl>.</ref>
+            <msItem xml:id="a2" n="2">
+                <locus from="80a" to="80b"/>
+                <title xml:lang="en"><foreign xml:lang="syr">ܡ̈ܥܢܝܬܐ</foreign> on <persName>George</persName>
                 </title>
-                <rubric xml:lang="syr">ܡ̈ܥܢܝܬܐ</rubric>
               </msItem>
-            </msItem>
-            <msItem xml:id="a2" n="3">
-              <locus from="81b"/>
+            <msItem xml:id="a3" n="3">
+                <locus from="81a" to="81"/>
+                <title xml:lang="en"><foreign xml:lang="syr">ܡ̈ܥܢܝܬܐ</foreign> on <persName>Theodore</persName><title>                                     
+            <msItem xml:id="a4" n="4">
+              <locus from="81b" to="84"/>
               <title xml:lang="en">A Calendar</title>
-              <note>See <bibl>fol. 70 b</bibl>.</note>
+              <note>See <ref target="http://syriaca.org/manuscript/1036">fol. 70 b</ref>.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -112,10 +112,9 @@
                                     <list>
                                         <item>
                                             <p>Ten paper leaves, about 9 3/8 in. by 6 1/2, forming
-                                                the last quire (marked ܣ) of a manuscript (Add.
+                                                the last quire (marked <foreign xml:lang="syr">ܣ</foreign>) of a manuscript (Add.
                                                 17,246, foil. 75—84), precisely similar to no.
-                                                ccclxxx, and written by the same person in the same
-                                                year, <date>A.D. 1239</date>. </p>
+                                                <ref target="http://syriaca.org/manuscript/1036">ccclxxx</ref>.</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -126,7 +125,7 @@
                         </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>This manuscript was written by the same person as no. <ref target="http://syriaca.org/manuscript/1036">ccclxxx</ref> in the same year, A.D. <origDate calendar="Gregorian" when="1239">1239</origDate>.</desc>
               </handNote>
             </handDesc>
             <additions>
@@ -135,7 +134,7 @@
                 <item xml:id="addition1" n="1">
                   <locus from="79b" to="80a"/>
                   <p>On foll. 79 b and 80 a there is a note, giving the date,
-                                        etc., precisely as on fol. 68 b.</p>
+                                        etc., precisely as on fol. 68 b in no. <ref target="http://syriaca.org/manuscript/1036">ccclxxx</ref>.</p>
                   <p>
                     <quote xml:lang="syr"/>
                   </p>
@@ -152,7 +151,7 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate>A.D.
+                            <origDate calendar="Gregorian" when="1239">A.D.
                                 1239</origDate>
                             <origPlace/>
                         </origin>
@@ -343,6 +342,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+        <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2021-12-22">Edits to msContents, handDesc, and additions</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
