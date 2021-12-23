@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17256 foll. 83—132</title>
+        <title level="a" xml:lang="en">Add MS 17256 foll. 83—132</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -16,6 +16,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</name>
@@ -26,7 +27,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -83,31 +84,11 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="132" from="83"/>
-              <author ref="">Bacchus</author>
-              <title ref="" xml:lang="en">The second part</title>
-              <incipit xml:lang="syr">ܒ</incipit>
-              <note>Ps. i. 1—lxxxiv. 11 are wanting, with the exception of part of Ps.
-                                xxxii. and xxxiii. (fol. 83).</note>
-              <note>the commencement of each verse is marked by the letter ܒ</note>
-              <msItem xml:id="b1" n="2">
-                <locus to="" from=""/>
-                <title ref="http://syriaca.org/work/10506" xml:lang="en">The
-                                    Canticles</title>
-                <note>Complete</note>
-                <msItem xml:id="c1" n="3">
-                  <locus to="" from="126 b"/>
-                  <title ref="" xml:lang="en">the first song of Moses</title>
-                </msItem>
-                <msItem xml:id="c2" n="4">
-                  <locus to="" from="127 b"/>
-                  <title ref="" xml:lang="en">the song of Isaiah</title>
-                </msItem>
-                <msItem xml:id="c3" n="5">
-                  <locus to="" from="128 a"/>
-                  <title ref="" xml:lang="en">the second song of Moses</title>
-                </msItem>
-              </msItem>
+              <locus from="83a" to="131"/>
+              <title ref="" xml:lang="en">The second part of a Choir-book, comprising the <title ref="http://syriaca.org/work/19">Psalms</title> and <title ref="http://syriaca.org/work/10506">Canticles</title>, according to the Peshitta version.</title>
+              <note>Accordingly, the commencement of each verse is marked by the letter <foreign xml:lang="syr">ܒ</foreign>.</note>
+              <note><ref target="http://syriaca.org/work/9672">Ps. i. 1—lxxxiv. 11</ref> are wanting, with the exception of part of <ref target="http://syriaca.org/work/9672">Ps. xxxii.</ref> and <ref target="http://syriaca.org/work/9672">xxxiii.</ref> (fol. <locus from="83a" to="83b">83</locus>).</note>
+              <note><ref target="http://syriaca.org/work/10507">The Canticles</ref> are complete, viz., <title>the first song of Moses</title>, fol. <locus from="126b">126 b</locus>; <title>the song of Isaiah</title>, fol. <locus from="127b">127 b</locus>; and <title>the second song of Moses</title>, fol. <locus from="128a">128 a</locus>.</note>
             </msItem>
           </msContents>
                     <physDesc>
@@ -126,14 +107,9 @@
                                                 are stained and torn, especially foll. 83, 93, 94,
                                                 103, 104, 131, and 132. The. quires, 11 in number,
                                                 are, signed with letters, and also with Coptic,
-                                                ciphers at the top, (fol. 84 a, %; fol. 94 a, %).
+                                                ciphers at the top, (fol. 84 a, <foreign xml:lang="cop"><!--Justin: Needs Coptic cipher--></foreign>; fol. 94 a, <foreign xml:lang="cop"><!--Justin: Needs Coptic cipher--></foreign>).
                                                 The first six have been lost, with the exception of
-                                                a single loaf. The writing, date, etc., are the same
-                                                as of the preceding number. At the commencements of
-                                                the ܡܪ̈ܡܝܬܐ, in both parts of this Choir-book, there
-                                                are interlaced ornaments, highly coloured with
-                                                different paints; e.g. foll. 3 b, 19 a, 32 b, 89 a,
-                                                96 a, 108 a, etc.</p>
+                                                a single loaf.</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -142,27 +118,34 @@
                                 <p>Content pending</p>
                             </layoutDesc>
                         </objectDesc>
-                        <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="" script="">
-                                <desc/>
+                        <handDesc hands="2">
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
+                                <desc>The writing, date, etc., are the same as of the <ref target="http://syriaca.org/manuscript/1051">preceding number</ref>.</desc>
+                            </handNote>
+              <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
+                                <desc>See additions.</desc>
                             </handNote>
             </handDesc>
+            <decoDesc>
+              <decoNote xml:id="decoNote1" type="ornamentation">
+                <desc>At the commencements of the <foreign xml:lang="syr">ܡܪ̈ܡܝܬܐ</foreign>, in both parts of this Choir-book, there
+                                                are interlaced ornaments, highly coloured with
+                                                different paints; e.g. foll. <locus from="3b">3 b</locus>, <locus from="19a">19 a</locus>, <locus from="32b">32 b</locus>, <locus from="89a">89 a</locus>,
+                                                <locus from="96a">96 a</locus>, <locus from="108a">108 a</locus>, etc.</desc>
+              </decoNote>
+              </decoDesc>
                         <additions>
-              <p/>
+              <p>
               <list>
                 <item xml:id="addition1" n="1">
-                                    <locus from="131 a" to=""/>
-                                    <p>a note, stating that the two parts of this Psalter were
-                                        written, A. Gr. 1562, A.D. 1251, in the <placeName>convent
+                                    <locus from="131a" to="131a"/>
+                                    <p>On fol. 131 a there is a note, stating that the two parts of this Psalter were
+                                        written, <date datingMethod="Seleucid" when-custom="1562">A. G. 1562</date>, <date calendar="Gregorian" when="1251">A.D. 1251</date>, in the <placeName ref="http://syriaca.org/place/360">convent
                                             of S. Mary Deipara</placeName>, by a monk named
                                             <persName>Bacchus</persName>, when
-                                            <persName>Ignatius</persName> was patriarch of Antioch
-                                            [<bibl>Ignatius II. See Assemani, Bibl. Or., t. ii. P.
-                                            371</bibl>; <bibl>Le Quien, Oriens Christ, t. ii., col.
-                                            493</bibl>.] and <persName>Athanasius</persName> of
-                                        Egypt. [See <bibl>Renaudot, Hist. Patr. Alexander., p.
-                                            599</bibl>; <bibl>Le Quien, Oriens Christ., t. ii., col.
-                                            493</bibl>.]</p>
+                                            <persName>Ignatius</persName> was patriarch of Antioch<ref target="#footNote1" type="noteAnchor">*</ref>
+                                            and <persName>Athanasius</persName> of
+                                        Egypt.<ref target="#footNote2" type="noteAnchor">†</ref></p>
                                     <p>
                     <quote xml:lang="syr">ܫܩ̣ܠܬ݀ ܣܟܐ ܘܫܘܡܠܝܐ ܦܠܓܘܬܐ ܬܪܝܢܝܬܐ ܕܡܙܡܘܪ̈ܐ ܕܕܘܝܕ ܡܲܠܟܐ ܘܢܒܝܐ ܥܡ ܚܒܪܬܗ̇܀ ܒܫܢܬ
                                             ܐܠܦ ܘܚܡ̈ܫܡܐܐ ܘܐܫ̈ܬܝܢ ܘܬܪ̈ܬܝܢ ܕܝ̈ܘܢܝܐ ܢܟ̈ܝ̣ܠܐ. ܒܝܘܡ ܫܒܬܐ
@@ -186,9 +169,15 @@
                                             ܕܗ̣ܘ ܐܠܦܢܝ ܐܠܗܐ ܢܚ̇ܣܐ ܠܢܦܫܗ [ܐܡܝܢ.]</quote>
                   </p>
                                 </item>
+                                <note xml:id="footNote1" type="footnote"><bibl>Ignatius II. See Assemani, Bibl. Or., t. ii. P.
+                                            371</bibl>; <bibl>Le Quien, Oriens Christ, t. ii., col.
+                                            493</bibl>.</note>
+                                <note xml:id="footNote2" type="footnote">See <bibl>Renaudot, Hist. Patr. Alexander., p.
+                                            599</bibl>; <bibl>Le Quien, Oriens Christ., t. ii., col.
+                                            493</bibl>.</note>
                 <item xml:id="addition2" n="2">
                                     <locus from="131 b" to="132"/>
-                                    <p>Foll. 131 b and 132 contain Ps. Ii., written in an inelegant
+                                    <p>Foll. 131 b and 132 contain <title ref="http://syriaca.org/work/19">Ps. li.</title>, written in an inelegant
                                         hand of somewhat later date.</p>
                                     <p>
                                         <quote xml:lang="syr"/>
@@ -206,9 +195,9 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate notBefore="" notAfter="" from="" to="" when="">1251</origDate>
-                            <origDate datingMethod="Seleucid" notBefore-custom="" notAfter-custom="" from-custom="" to-custom="" when-custom="">1562</origDate>
-                            <origPlace ref="http://syriaca.org/place/360" xml:lang="">convent of S.
+                            <origDate calendar="Gregorian" when="1251">1251</origDate>
+                            <origDate datingMethod="Seleucid" when-custom="1562">1562</origDate>
+                            <origPlace ref="http://syriaca.org/place/360" xml:lang="">Convent of S.
                                 Mary Deipara</origPlace>
                         </origin>
                         <provenance/>
@@ -398,6 +387,7 @@
       </textClass>
     </profileDesc>
         <revisionDesc status="draft">
+        <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2021-12-23">Edits to msContents, handDesc, decoDesc, and additions; attempted to encode Wright footnotes in additions.</change>
             <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-16-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
             <change type="planned" subtype="coptic">Add in missing Coptic characters.</change>
