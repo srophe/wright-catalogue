@@ -86,14 +86,14 @@
             <msItem xml:id="a1" n="1" defective="true">
               <locus from="13a" to="15b"/>
               <author ref="http://syriaca.org/person/496">Galen</author>
-              <title ref="" xml:lang="en">The remnants of a manuscript of the works of
+              <title xml:lang="en">The remnants of a manuscript of the works of
                                     <persName ref="http://syriaca.org/person/496" xml:lang="en" type="supplied">Galen</persName>, probably in the translation of
                                     <persName ref="http://syriaca.org/person/49" xml:lang="en" type="supplied">Sergius of Rās-'ain</persName>.</title>
               <msItem xml:id="b1" n="2">
                 <locus from="13a" to="13b"/>
                 <author ref="http://syriaca.org/person/496">Galen</author>
                 <title ref="http://syriaca.org/work/9734" xml:lang="en">Part of the
-                                    "<title ref="" xml:lang="la">Ars medica</title>"</title>
+                                    "<title xml:lang="la">Ars medica</title>"</title>
                 <note>It contains from ch. xxviii., near the end, <quote xml:lang="grc">εἰ μὲν γὰρ παχυμερές ἐστιν, οὐχ ὁδοιπορήσει μέχρι βάθους πολλοῦ</quote>, to ch. XXX
                                     <quote xml:lang="grc">μαλακὸν δὲ καὶ παιδικὸν ὀστοῦν καὶ συμφῦναι δυνατόν. σπάνιος δὲ καὶ ἡ τοῦδε τοῦ πάθους γένεσις ἄνευ συμπλοκῆς</quote>. See <bibl>Opera, ed. Kuhn, t. i., pp. 384—87</bibl>; <bibl>Sachau, Inedita Syriaca, p. 91</bibl>.
                 </note>
@@ -111,7 +111,7 @@
               <msItem xml:id="b3" n="4" defective="true">
                 <locus from="15a" to="15b"/>
                 <author ref="http://syriaca.org/person/496">Galen</author>
-                <title ref="" xml:lang="en">Part of the treatise "<title ref="" xml:lang="la">de Alimentorum Facultatibus</title>"</title> 
+                <title xml:lang="en">Part of the treatise "<title xml:lang="la">de Alimentorum Facultatibus</title>"</title> 
                 <note>It contains Book ii., from the end of ch. lviii., <quote xml:lang="grc">τροφὴν μέντοι τῷ σώματι δίδωσιν ὀλίγην τε καὶ οὐκ εὔχυμον</quote>, to
                                     the middle of ch. lxi., <quote xml:lang="grc">ὥσπερ γὰρ ἐπ' ἄλλων φυτῶν τὸ πλεῖστον τῆς οὐσίας ἔν τε τοῖς καυλοῖς καὶ τοῖς στελέχεσιν, κ.τ.λ.</quote>. See <bibl>Opera, t. vi., pp. 613— 47</bibl>; <bibl>Sachau,
                                         Ined. Syr., p. 94</bibl>.</note>
@@ -148,21 +148,10 @@
                         </objectDesc>
                         <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                                <desc>These leaves are written in a fine, regular hand of about the <origDate notBefore="700" notAfter="800">viiith cent</origDate></desc>
+                                <desc>These leaves are written in a fine, regular hand of about the <origDate notBefore="0700" notAfter="0800">viiith cent</origDate></desc>
                             </handNote>
             </handDesc>
-                        <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                                    <locus from="" to=""/>
-                                    <p/>
-                                    <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                                </item>
-              </list>
-            </additions>
+                        <additions/>
                         <bindingDesc>
                             <p>Content pending</p>
                         </bindingDesc>
