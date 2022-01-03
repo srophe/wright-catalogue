@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17258, foil. 1—118</title>
+        <title level="a" xml:lang="en">Add MS 17258 foll. 1-118</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/1070</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17258, foll. 1-118</idno>
+              <idno type="BL-Shelfmark">Add MS 17258 foll. 1-118</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,13 +82,12 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="1a"/>
-              <title xml:lang="en">Supplicatory hymns</title>
-              <rubric xml:lang="syr">ܬܟܫ̈ܦܬܐ</rubric>
+              <locus from="1a" to="9"/>
+              <title xml:lang="en">Supplicatory hymns, <foreign xml:lang="syr">ܬܟܫ̈ܦܬܐ</foreign></title>              
               <note>Imperfect at the beginning.</note>
             </msItem>
             <msItem xml:id="a2" n="2" defective="true">
-              <locus from="9a"/>
+              <locus from="9a" to="47"/>
               <title xml:lang="en">Similar hymns, arranged according to the
                                 eight tones</title>
               <rubric xml:lang="syr">ܒܫܡ ܡܪܢ ܟܬܒܝܢܢ ܩܠܝܠ ܬܟܫ̈ܦܬܐ ܘܥܩ̈ܒܐ
@@ -95,28 +95,19 @@
               <note>Imperfect at the end.</note>
             </msItem>
             <msItem xml:id="a3" n="3" defective="true">
-              <locus from="47a"/>
-              <rubric xml:lang="syr">ܬܟܫ̈ܦܬܐ</rubric>
-              <rubric xml:lang="syr">ܩ̈ܠܐ</rubric>
+              <locus from="47a" to="85"/>
+              <title xml:lang="en"><foreign xml:lang="syr">ܬܟܫ̈ܦܬܐ</foreign> and <foreign xml:lang="syr">ܩ̈ܠܐ</foreign></title>
               <note>Imperfect at the beginning.</note>
             </msItem>
             <msItem xml:id="a4" n="4" defective="true">
-              <locus from="85a"/>
-              <rubric xml:lang="syr">ܬܟܫ̈ܦܬܐ</rubric>
-              <rubric xml:lang="syr">ܥܩ̈ܒܐ</rubric>
-              <note>Imperfect at the beginning and at the end.</note>
-            </msItem>
-            <msItem xml:id="a5" n="5">
-              <locus from="95b"/>
-              <title xml:lang="en">From Syrian canons</title>
-              <rubric xml:lang="syr">ܥܩܒ̈ܐ</rubric>
-            </msItem>
-            <msItem xml:id="a6" n="6" defective="true">
-              <locus from="103a"/>
+              <locus from="85a" to="95"/>
+              <title xml:lang="en"><foreign xml:lang="syr">ܥܩܒ̈ܐ</foreign> from Syrian canons</title>
+              </msItem>
+            <msItem xml:id="a5" n="5" defective="true">
+              <locus from="103a" to="118"/>
               <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
-              <title xml:lang="en">Prayers, of <persName>Jacob of
+              <title xml:lang="en"><foreign xml:lang="syr">ܒܥ̈ܘܬܐ</foreign>, or prayers, of <persName ref="http://syriaca.org/person/42">Jacob of
                                     Batnae</persName>, etc</title>
-              <rubric xml:lang="syr">ܒܥ̈ܘܬܐ</rubric>
               <note>Imperfect at the end.</note>
             </msItem>
           </msContents>
@@ -133,11 +124,7 @@
                                         <item>
                                             <p>Paper, about 5 1/4 in. by 3 3/4, consisting of 118
                                                 leaves, the first 40 of which are slightly
-                                                mutilated. It is evidently the work of several hands
-                                                of the xiii and xiv centuries. Foll. 82 a—84 b and
-                                                foll. 85 a—102 b are neatly written, with occasional
-                                                Greek vowels; elsewhere the writing is more or less
-                                                irregular and inelegant. This manuscript is
+                                                mutilated. This manuscript is
                                                 imperfect at the beginning and end, and there are
                                                 lacunae after foll. 46, 84, and 94. </p>
                                         </item>
@@ -148,10 +135,15 @@
                                 <p>Content pending</p>
                             </layoutDesc>
                         </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="2">
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr">
+                <desc>It is evidently the work of several hands of the <origDate calendar="Gregorian" notBefore="1200" notAfter="1400">xiii and xiv centuries</origDate>. Foll. 82 a—84 b and foll. 85 a—102 b are neatly written, with occasional
+                                                Greek vowels; elsewhere the writing is more or less
+                                                irregular and inelegant.</desc>
               </handNote>
+              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
+                <desc>Foll. <locus from="82a" to="84b">82 a—84 b</locus> and foll. <locus from="85a" to="102b">85 a—102 b</locus> are neatly written, with occasional Greek vowels.</desc>
+                </handNote>
             </handDesc>
             <additions>
               <p/>
@@ -175,7 +167,7 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate notBefore="1200" notAfter="1400"/>
+                            <origDate calendar="Gregorian" notBefore="1200" notAfter="1400"/>
                             <origPlace/>
                         </origin>
                         <provenance/>
@@ -365,6 +357,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-03">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>

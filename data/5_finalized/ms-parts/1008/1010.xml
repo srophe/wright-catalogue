@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 172294877</title>
+        <title level="a" xml:lang="en">BL Add MS 17229 foll. 48-77</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/1010</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 172294877</idno>
+              <idno type="BL-Shelfmark">Add MS 17229 foll. 48-77</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,36 +82,31 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              
-              <title xml:lang="en">Collection of Anaphoras</title>
-              
+              <locus from="48a" to="77b"/>
+              <title xml:lang="en">A Small Collection of Anaphoras</title>              
               <msItem xml:id="b1" n="2">
-                <locus from="48a"/>
-                
-                <title xml:lang="en">Anaphora of S. Mark</title>
+                <locus from="48a" to="56"/>
+                <title xml:lang="en">Anaphora of <persName ref="http://syriaca.org/person/1871">S. Mark</persName></title>
                 <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܕܛܘܼܒܢܐ ܡܪܩܘܣ ܐܘܢܓܠܝ̣ܣܛܐ</rubric>
                 <note>See <bibl>Renaudot, Liturg. Orient., t. ii., p. 176</bibl>.</note>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus from="56a"/>
+                <locus from="56a" to="63"/>
                 <author ref="https://syriaca.org/person/44">Philoxenus of Mabug</author>
                 <title xml:lang="en">Anaphora of Philoxenus of Mabug</title>
                 <incipit xml:lang="syr">ܡܪܝܐ ܐܠܗܐ ܚ̇ܝ̣ܠܬܢܐ ܘܩܕܝܫܐ ܘܐܚ̣ܝܕ ܟܠ. ܏ܘܫ </incipit>
-                
               </msItem>
               <msItem xml:id="b3" n="4">
-                <locus from="63b"/>
+                <locus from="63b" to="77"/>
                 <author>Ignatius</author>
-                <title xml:lang="en">Anaphora of Ignatius</title>
+                <title xml:lang="en">Anaphora of <persName ref="http://syriaca.org/person/544">Ignatius</persName></title>
                 <rubric xml:lang="syr">ܕܩܕܝܫܐ ܡܪܝ ܐܝܓܢܐܛܝ̣ܘܣ ܢܘܪܢܐ </rubric>
-                
-                
-              </msItem>
+                </msItem>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -121,8 +117,7 @@
                     <item>
                       <p>Paper, about 10 1/8 in. by 6 5/8, consisting of 30 leaves (Add. 17,229,
                         foll. 48—77). The quires, signed with letters, are three in number. There
-                        are from 17 to 20 lines in each page. This manuscript is written in a good,
-                        regular hand of the xiiith cent</p>
+                        are from 17 to 20 lines in each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -132,8 +127,8 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="" script="">
-                <desc/>
+              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
+                <desc>This manuscript is written in a good, regular hand of the <origDate notBefore="1200" notAfter="1300">xiiith cent</origDate>.</desc>
               </handNote>
             </handDesc>
             <additions>
@@ -141,11 +136,9 @@
               <list>
                 <item xml:id="addition1" n="1">
                   <locus from="77b"/>
-                  <p>At the foot of fol. 77 b we read:</p>
-                  <p>
-                    <quote xml:lang="syr">ܒ̇ܥܐ ܐܢ̣ܐ ܡܢ ܟܠ ܕܦ̇ܓܥ ܐܘܿ ܡܩܲܪܒ ܒܗܠܝܢ ܩܘܪ̈ܒܐ ܢܨ̇ܠܐ ܥܠ ܡ̇ܢ ܕܟܬ݂ܒ. ܘܗ̇ܘ ܕܡܨ̇ܠܐ
+                  <p>At the foot of fol. 77 b we read: <quote xml:lang="syr">ܒ̇ܥܐ ܐܢ̣ܐ ܡܢ ܟܠ ܕܦ̇ܓܥ ܐܘܿ ܡܩܲܪܒ ܒܗܠܝܢ ܩܘܪ̈ܒܐ ܢܨ̇ܠܐ ܥܠ ܡ̇ܢ ܕܟܬ݂ܒ. ܘܗ̇ܘ ܕܡܨ̇ܠܐ
                       ܗ̣ܘ ܢܬܚܲܣܐ.</quote>
-                  </p>
+                      </p>                 
                 </item>
               </list>
             </additions>
@@ -350,6 +343,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2021-12-21">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-06-02" who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>

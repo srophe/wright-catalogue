@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17246, foll. 1—74</title>
+        <title level="a" xml:lang="en">BL Add MS 17246 foll. 1—74</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/1036</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17246, foll. 1-74</idno>
+              <idno type="BL-Shelfmark">Add MS 17246 foll. 1-74</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,68 +82,79 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              
+              <locus from="1b" to="74"/>
               <title xml:lang="en">A Choir-book, containing the following
                                 services</title>
+              <note>Foll. 69, 70 a, and 74, contain <foreign xml:lang="syr">ܡ̈ܥܢܝܬܐ</foreign>
+                                    on <persName>George</persName>, <persName>Theodore</persName>,
+                                    and <persName>Cyriacus</persName></note>
               <msItem xml:id="b1" n="2">
-                <locus from="1b"/>
+                <locus from="1b" to="14"/>
                 <title xml:lang="en">The Commemoration of any one Teacher or
                                     Ascetic</title>
                 <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܚܕ ܩܢܘܢܐ ܕܡ̈ܠܦܢܐ ܘܕܥ̈ܢܘܝܐ</rubric>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus from="14a"/>
+                <locus from="14a" to="23"/>
                 <title xml:lang="en">The Commemoration of any one
                                     Martyr</title>
                 <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܚܕ ܩܢܘܢܐ. ܐܝܢܐ ܕܐܫ̇ܬ̣ܡܠܝ
                                     ܒܣܗܕܘܬܐ</rubric>
               </msItem>
               <msItem xml:id="b3" n="4">
-                <locus from="23b"/>
+                <locus from="23b" to="40"/>
                 <title xml:lang="en">The Commemoration of
-                                        <persName>Macarius</persName>,
-                                    <persName>Domitius</persName>, <persName>Abba Bishoi</persName>
-                                        (<persName>Pisoes</persName>), and <persName>John the Less
+                                        <persName ref="http://syriaca.org/person/856">Macarius</persName>,
+                                    <persName ref="http://syriaca.org/person/1213">Domitius</persName>, <persName ref="http://syriaca.org/person/1175">Abba Bishoi</persName>
+                                        (<persName ref="http://syriaca.org/person/1175">Pisoes</persName>), and <persName>John the Less
                                         (or the Younger)</persName>
                 </title>
                 <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܐܒܗ̈ܬܐ ܩܕܝ̈ܫܐ ܐܒܐ ܡ̇ܐܩܪܝܣ܀
                                     ܘܡ̇ܐܟܣܝܡܘܣ ܘܕܘܡܛܝܘܣ܀ ܘܐܒܐ ܒܝܫܘܝ. ܘܐܒܐ ܝܘܚܢܢ ܙܥܘܪܐ</rubric>
               </msItem>
               <msItem xml:id="b4" n="5" defective="true">
-                <locus from="40b"/>
+                <locus from="40b" to="54"/>
                 <title xml:lang="en">Common anthems, arranged according to
                                     the eight tones</title>
                 <rubric xml:lang="syr">ܥ̈ܢܝ̣ܢܐ ܓܘ̈ܢܝܐ ܒܬܡ̈ܢܝܐ ܩܝ̈ܢܬܐ</rubric>
               </msItem>
               <msItem xml:id="b5" n="6" defective="true">
-                <locus from="54a"/>
+                <locus from="54a" to="58"/>
                 <title xml:lang="en">Hymns and prayers of the holy
                                     Cross</title>
                 <rubric xml:lang="syr">ܩ̈ܠܐ ܘܒ̈ܥܘܬܐ ܕܨܠܝ̣ܒܐ</rubric>
               </msItem>
               <msItem xml:id="b6" n="7">
-                <locus from="58a"/>
+                <locus from="58a" to="70"/>
                 <rubric xml:lang="syr">ܥܛܪ̈ܐ ܐܘܟܝܬ ܫܘܚ̣̈ܠܦܐ ܕܩ̈ܠܐ ܕܡܬ݂ܐܡܪ̈ܝܢ ܒܥ̈ܐܕܐ
                                     ܡܪ̈ܢܝܐ</rubric>
               </msItem>
               <msItem xml:id="b7" n="8">
-                <locus from="70b"/>
+                <locus from="69a" to="70"/>
+                <title xml:lang="en"><foreign xml:lang="syr">ܡ̈ܥܢܝܬܐ</foreign> on George</title>
+                </title>
+              </msItem>
+              <msItem xml:id="b8" n="9">
+                <locus from="70a" to="70"/>
+                <title xml:lang="en"><foreign xml:lang="syr">ܡ̈ܥܢܝܬܐ</foreign> on Theodore</title>
+                </title>
+              </msItem>
+              <msItem xml:id="b9" n="10">
+                <locus from="70b" to="73"/>
                 <title xml:lang="en">A Calendar of Festivals and Saints'
                                     Days, from the first Teshrīn to Ilūl</title>
                 <rubric xml:lang="syr">ܩܘܕܝܟܣ ܡܚܲܘܝܢܐ ܕܥ̈ܐܕܐ ܕܟܠܗܘܢ ܩܕ̈ܝܫܐ</rubric>
               </msItem>
-              <msItem xml:id="b8" n="9">
-                
-                <title xml:lang="en">Foll. 69, 70 a, and 74, contain ܡ̈ܥܢܝܬܐ
-                                    on <persName>George</persName>, <persName>Theodore</persName>,
-                                    and <persName>Cyriacus</persName>
+              <msItem xml:id="b10" n="11">
+                <locus from="74a" to="74"/>
+                <title xml:lang="en"><foreign xml:lang="syr">ܡ̈ܥܢܝܬܐ</foreign> on Cyriacus</title>
                 </title>
               </msItem>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-                            <supportDesc material="perg">
+                            <supportDesc material="chart">
                                 <extent>
                                     <measure unit="content_pending" quantity="-1"/>
                                 </extent>
@@ -155,12 +167,9 @@
                                                 leaves, some of which are slightly stained and torn.
                                                 In the first half, foll. 1—39, the quires are
                                                 without signatures; in the second half, foll. 40—74,
-                                                they are signed with letters, from ܐ to ܗ. Leaves
+                                                they are signed with letters, from <foreign xml:lang="syr">ܐ</foreign> to <foreign xml:lang="syr">ܗ</foreign>. Leaves
                                                 are wanting after foll. 40, 53, and 57. The number
-                                                of lines in each page varies from 15 to 19. The
-                                                volume is written in a rather inelegant hand, and
-                                                dated <date>A. Gr. 1550</date>, <date>A.D.
-                                                  1239</date>.</p>
+                                                of lines in each page varies from 15 to 19.</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -171,7 +180,7 @@
                         </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>The volume is written in a rather inelegant hand, and dated A. Gr. <origDate datingMethod="Seleucid" when-custom="1550">1550</origDate>, A.D. <origDate calendar="Gregorian" when="1239">1239</origDate>.</desc>
               </handNote>
             </handDesc>
             <additions>
@@ -179,12 +188,9 @@
               <list>
                 <item xml:id="addition1" n="1">
                   <locus from="68b" to="69a"/>
-                  <p>On foll. 68 b and 69 a there is a note, stating that this
-                                        book was written in the <placeName>convent of S. Mary
-                                            Deipara</placeName>, <date>A. Gr. 1550</date>, <date>A.
-                                            D. 1239</date>. </p>
+                  <p>On foll. 68 b and 69 a there is a note, stating that this book was written in the <placeName ref="http://syriaca.org/place/360">convent of S. Mary Deipara</placeName>, A. Gr. <origDate datingMethod="Seleucid" when-custom="1550">1550</origDate>, A.D. <origDate calendar="Gregorian" when="1239">1239</origDate>.</p>
                   <p>
-                    <quote xml:lang="syr"/>
+                    <quote xml:lang="syr">ܠܬܫܒܘܚܬܐ ܘܠܐܝܩ̣ܪܐ ܘܠܪܘܡܪܡܐ ܕܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ ܘܫ̇ܘܝ̣ܬ݀ ܒܐܘܣܝܐ. ܐܒܐ ܘܒܪܐ ܘܪܘܚܐ ܩܕܝܫܐ. ܚܕ ܐܠܗܐ ܫܪܝܪܐ. ܐܬܟܬ݂ܒ ܕܝܢ ܟܘܪܣܐ ܗܕܐ. ܒܥܘܼܡܪܐ ܩܕܝܫܐ. ܕܒܝܬ ܝ̇ܠܕܬ݀ ܐܠܗܐ ܕܒܡ̇ܕܒܪܐ ܕܣܩܝܛܝܘܣ. ܫܢ̣ܬ݀ ܐܠܦ ܘܚ̈ܡܫܡܐܐ ܘܚ̈ܡܫܝܢ ܕܝܘܢ̈ܝܐ. ܐܫܬ݁ܡܠܝ̣ ܟܘܪܣܐ ܗܕܐ ܕܥ̈ܢܝܢܐ. ܒܝܘܼܡ ܫܒܬܐ ܒܝܪܚܐ ܕܐܕܪ ܒܬܪ̈ܥܣܪ ܒܗ. ܟܬܒ̣ܗ ܕܝܢ ܐܢܫ ܚܲܛܝܐ ܘܕܘܝܐ. ܘܒܫܡ ܠܡ ܕܝܪܝܐ. ܘܒܫܡ ܩܫܝ̣ܫܐ. ܘܠܐ ܫ̇ܘܐ ܕܢܬܟ̣ܬܒ ܫܡܗ. ܏ܘܫ.</quote>
                   </p>
                 </item>
               </list>
@@ -199,9 +205,9 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate>A.D.
+                            <origDate calendar="Gregorian" when="1239">A.D.
                                 1239</origDate>
-                            <origDate datingMethod="Seleucid">A. Gr. 1550</origDate>
+                            <origDate datingMethod="Seleucid" when-custom="1550">A. Gr. 1550</origDate>
                             <origPlace ref="http://syriaca.org/place/360">Convent of S.
                                 Mary Deipara</origPlace>
                         </origin>
@@ -392,6 +398,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+    <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2021-12-22">Edits to msContents, handDesc, and additions; added Syriac text</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>

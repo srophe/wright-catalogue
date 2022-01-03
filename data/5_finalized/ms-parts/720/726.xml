@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -89,7 +90,7 @@
           </msContents>
                <physDesc>
                   <objectDesc form="codex">
-                     <supportDesc material="perg">
+                     <supportDesc material="chart">
                         <extent>
                            <measure unit="content_pending" quantity="-1"/>
                         </extent>
@@ -116,28 +117,21 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                           <locus/>
+                           <locus from="23b" to="23b">
                            <p>On the verso there are two notes. The first one is in Arabic, and
                               dated in the year <date datingMethod="Coptic-EoM" when-custom="1199">1199 of the Coptic era</date>,
                               <!-->Ryan on April 23, 2011 noted that it needs
-                              Arabic-->,
-                                 <date calendar="Gregorian" when="1483">A.D. 1483</date>.</p>
-                           <p>
-                    <quote xml:lang="ar"/>
-                  </p>
+                              Arabic-->, <quote xml:lang="ar"/>, <!-- Justin rearranged Arabic quote to fit in the paragraph for addition1 --><date calendar="Gregorian" when="1483">A.D. 1483</date>.
+                              </p>
                         </item>
                 <item xml:id="addition2" n="2">
-                           <locus/>
+                           <locus from="23b" to="23b">
                            <p>The other note is in Karshūnī, and states that this volume was
-                              given, as a wakf or legacy, to the <placeName ref="http://syriaca.org/place/360">convent of S. Mary
-                                 Deipara</placeName> by <persName>a monk named
-                              Ephraim</persName>.</p>
-                           <p>
-                              <quote xml:lang="ar-Syrc">ܝܩܘܠ ܡܣܛܪܗܐ ܐܦܪܐܡ ܐܠܪܐܗܒ ܐܠܣܪܝܐܢܝ ܐܢܝ ܐܘܩܦܬ
+                              given, as a waḳf or legacy, to the <placeName ref="http://syriaca.org/place/360">convent of S. Mary
+                                 Deipara</placeName> by a monk named <persName>Ephraim</persName>, <quote xml:lang="ar-Syrc">ܝܩܘܠ ܡܣܛܪܗܐ ܐܦܪܐܡ ܐܠܪܐܗܒ ܐܠܣܪܝܐܢܝ ܐܢܝ ܐܘܩܦܬ
                                  ܗܕܐ ܐܠܟܬܐܒ ܐܠܡܒܐܪܟ ܐܠـ . . . ܐܠܚܣܐܝܐܬ ܥܠܝ [ܕܝܪ] ܣܬܢܐ ܐܠܣܝܕܗ
                                  ܐܠܡ̇ܥـ[ܛܡܗ] ܡܣܟܢ ܐܠܣܪ̈ܝܐܢ ܦܝ ܒܪ[ܝܗ] ܐܠܐܣܩܝܛ ܘܩܦܐ ܡܐ[ܒܕܐ] ܘܚܒܣܐ
-                                 ܡܟܠܕܐ ܐܠ܏ܟ.</quote>
-                           </p>
+                                 ܡܟܠܕܐ ܐܠ܏ܟ.</quote></p>
                         </item>
               </list>
             </additions>
@@ -341,6 +335,7 @@
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
+      <change when="2021-12-15" who="http://syriaca.org/documentation/editors.xml#jarnwine">General edits to supportDesc and additions</change>
          <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-08-04" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial

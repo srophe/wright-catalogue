@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17266, foll. 1-50</title>
+        <title level="a" xml:lang="en">Add MS 17266 foll. 1-50</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/1083</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17266, foll. 1-50</idno>
+              <idno type="BL-Shelfmark">Add MS 17266 foll. 1-50</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,10 +82,11 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
+              <locus from="1b" to="15"/>
               <author ref="https://syriaca.org/person/13">Ephraim</author>
-              <title xml:lang="en">Two metrical discourses of Ephraim</title>
+              <title xml:lang="en">Two metrical discourses of <persName ref="https://syriaca.org/person/13">Ephraim</persName></title>
               <msItem xml:id="b1" n="2">
-                <locus from="1b"/>
+                <locus from="1b" to="9"/>
                 <author ref="https://syriaca.org/person/13">Ephraim</author>
                 <title xml:lang="en">On the female Sinner</title>
                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܩܕܝܫܐ ܡܪܝ ܐܦܪܝܡ: ܕܥܠ ܗ̇ܝ ܚܲܛܝܬܐ.</rubric>
@@ -92,28 +94,28 @@
                   ܚܘ̈ܒܝܗ̇܆ ܐܦ ܣܡܟ̣ܗ̇ ܕܡܚܝ̣ܠܐ ܗܘܬ...</incipit>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus from="9a"/>
+                <locus from="9a" to="15"/>
                 <author ref="https://syriaca.org/person/13">Ephraim</author>
                 <title xml:lang="en">On <persName>Abraham</persName> and his types</title>
                 <rubric xml:lang="syr">ܥܠ ܐܒܪܗܡ ܘܛܘܦܣ̈ܘܗܝ</rubric>
-                <incipit xml:lang="syr">ܐܘ ܠܬܗܪܐ ܕܠܐ ܡ̇ܬܡܠܠ. ܕܐ̇ܚܙܝܬ ܐܚ̈ܝ ܘܐܬ݀ܕܡܪܬ. ܕܦܓ̣ܥ ܒܝ ܚܕ
+                <incipit xml:lang="syr">ܐܘّ ܠܬܗܪܐ ܕܠܐ ܡ̇ܬܡܠܠ. ܕܐ̇ܚܙܝܬ ܐܚ̈ܝ ܘܐܬ݀ܕܡܪܬ. ܕܦܓ̣ܥ ܒܝ ܚܕ
                   ܐܬܠܝܛܐ. ܕܒܢܣ̈ܝܘܢܐ ܐܬܢܨ̇ܚ. ܐܒܪܗܡ ܓܒܪܐ ܟܐܢܐ. ܕܬܗ̣ܪ ܒܗ ܪܘܡܐ ܘܥܘܡܩܐ. ܏ܘܫ.</incipit>
               </msItem>
             </msItem>
             <msItem xml:id="a2" n="4" defective="true">
-              <locus from="15a"/>
+              <locus from="15a" to="50"/>
               <author ref="https://syriaca.org/person/483">Evagrius</author>
-              <title xml:lang="en">The letters of Evagrius to
+              <title xml:lang="en">The letters of <persName ref="https://syriaca.org/person/483">Evagrius</persName> to
                 <persName>Melania</persName>
               </title>
               <rubric xml:lang="syr">ܐܓܪ̈ܬܐ ܕܐܫ̣ܬܕܪ̈ܝ ܡܢ ܛܘܒܢܐ ܐܘܓܪܝܣ ܠܐܡܬܗ ܕܐܠܗܐ ܡܠܟܐ</rubric>
-              <note>(read ܡܠܢܝܐ )</note>
+              <note>In the rubric, read <foreign xml:lang="syr">ܡܠܢܝܐ</foreign> for <foreign xml:lang="syr">ܡܠܟܐ</foreign>.</note>
               <note>They are 60 in number, of which the last is imperfect.</note>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -123,10 +125,8 @@
                   <list>
                     <item>
                       <p>Paper, about 8 5/8 in. by 5 2/3, consisting of 50 leaves, the last 18 of
-                        which are slightly mutilated. The quires are signed with letters from $ܝܐ to
-                        $ܝܕ. The number of lines in each page varies from 21 to 25. This manuscript
-                        is written in a good, regular hand, and belongs to the early part of the
-                        xiith cent, (see below).</p>
+                        which are slightly mutilated. The quires are signed with letters from <foreign xml:lang="syr">ܝܐ</foreign> to
+                        <foreign xml:lang="syr">ܝܕ</foreign>. The number of lines in each page varies from 21 to 25.</p>
                     </item>
                   </list>
                 </condition>
@@ -135,9 +135,15 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="3">
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr">
+                <desc>This manuscript is written in a good, regular hand, and belongs to the early part of the <origDate calendar="Gregorian" notBefore="1100" notAfter="1200">xiith cent.</origDate></desc>
+              </handNote>
+              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="ar">
+                <desc><ref target="#addition1">See additions.</ref></desc>
+              </handNote>
+              <handNote xml:id="handNote3" medium="unknown" scope="minor" script="syr">
+                <desc><ref target="#addition2">See additions.</ref></desc>
               </handNote>
             </handDesc>
             <additions>
@@ -146,20 +152,20 @@
                 <item xml:id="addition1" n="1">
                   <locus from="1a"/>
                   <p>On fol. 1 a there is an Arabic note, recording that this manuscript belonged to
-                      one<persName> Thomas, the son of Samuel</persName>, in the year of the Hijra
-                    531, A.D. 1136—37. </p>
+                      one<persName> Thomas, the son of <persName>Samuel</persName></persName>, in the year of the Hijra
+                    <date when-custom="0531" datingMethod="Hijri-qamari">531</date>, A.D. <date calendar="Gregorian" notBefore="1136" notAfter="1137">1136—37</date>.</p>
                   <p>
-                    <quote xml:lang="syr"/>
+                    <quote xml:lang="ar">عبدك يسوع المسيح توما بن صمويل القس بن يوسف الراهب بن عيسي الح ...... العبودي وهو يسل الغفران بشفاعة السيدة الطاهرة مرتمريم وجميع القديسين امين ملكه من فَضل الله وجزيل عطأيه بتاريخ سنة احد وثلثين وخمسمأية من سني ...... سني العرب الهجرة بالعربية،</quote>
                   </p>
                 </item>
                 <item xml:id="addition2" n="2">
                   <locus from="45b"/>
                   <p>On the margin of fol. 45 b are the remains of a much later note, the greater
                     part of which has been torn away, recording the presentation of the manuscript
-                    to a person named George</p>
+                    to a person named <persName>George</persName></p>
                   <p>
                     <quote xml:lang="syr">ܒܫܡܐ ܕܐܠܗܐ ܚܝ̣̇ܐ ܫܟܢ ܟܬܒܐ ܗ[ܢܐ] . . . ܠܓܐܘܪܓܝܣ ܒܨܝܪܐ ܕܟܠ
-                      ܡܐ ܕܟܪܝܐ.</quote>
+                      .......ܡܐ ܕܟܪܝܐ</quote>
                   </p>
                 </item>
               </list>
@@ -365,6 +371,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-03">Edits to msContents, handDesc, and additions; Added Arabic text in addition1 and Garshuni shedda in incipit of msItem b2</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-10-26-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-10-26">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>

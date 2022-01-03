@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,14 +82,13 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <title xml:lang="en">The order of the celebration of the holy Eucharist,
-                        comprising lessons from the Gospels and Epistles, prayers, etc.</title>
-              <rubric xml:lang="syr">ܩܘܿܪܒܐ</rubric>
+              <title xml:lang="en">The order of the celebration of the holy Eucharist, <foreign xml:lang="syr">ܩܘܿܪܒܐ</foreign>, 
+                        comprising lessons from the Gospels and Epistles, prayers, etc.</title>              
             </msItem>
           </msContents>
                <physDesc>
                   <objectDesc form="codex">
-                     <supportDesc material="perg">
+                     <supportDesc material="chart">
                         <extent>
                            <measure unit="content_pending" quantity="-1"/>
                         </extent>
@@ -121,20 +121,16 @@
                            <p>On fol. 1a, there is an Arabic note, rather indistinct and somewhat
                               mutilated, from which it appears that this volume was written for the
                                  <placeName ref="http://syriaca.org/place/360">convent of S. Mary
-                                 Deipara</placeName> by a monk from the city of <placeName ref="http://syriaca.org/place/8">Amid</placeName>.</p>
+                                 Deipara</placeName> by a monk from the city of <placeName ref="http://syriaca.org/place/8">Amid</placeName>. There is also a Syriac note, partly to the same effect.</p>
                            <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                        </item>
-                <item xml:id="addition2" n="2">
-                           <locus/>
-                           <p>There is also a Syriac note, partly to the same effect.</p>
-                           <p>
-                              <quote xml:lang="syr">ܐܝܬ܏ܘ ܟܬܒܐ ܗܢܐ ܠܕܝܪܐ ܏ܩܕ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ ܕܒܡܕܒܪܐ
+                            <quote xml:lang="ar">مما عمل برسم الدير المعمور للسيده عرف بدير السريان علي جانب الدير العظيم الذي علي اسم الاب العظيم ال...... الذي في ديار المصرية المحروسه في بريه ابو مقار القديس ص[لاته] تكون مع الكاتب هذه الاصطر الصغير شماس ....ا من مدينة امد المحروسه الخ.</quote>
+                            </p> <!--Justin: Missing abbreviation symbol over final word in Arabic quotation-->
+                          <p>
+                            <quote xml:lang="syr">ܐܝܬ܏ܘ ܟܬܒܐ ܗܢܐ ܠܕܝܪܐ ܏ܩܕ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ ܕܒܡܕܒܪܐ
                                  ܕܐܣܩܝ̣ܛܝ ܕܡܬܝܕܥ ܕܣܘܪ̈ܝܝܐ ܘܠܝܬ ܠܐܢܫ ܡܢ ܐܠܗܐ ܦܘܩܕܢܐ ܕܢܐܦ̣ܩ ܠܗܢܐ ܠܒܪ
                                  ܡܢ ܕܝܪܐ ܕܐܡܝܪ ܏ܘܫ.</quote>
-                           </p>
-                        </item>
+                          </p>
+                        </item>                
               </list>
             </additions>
                   <bindingDesc>
@@ -337,13 +333,13 @@
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
+        <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2021-12-22">Edits to msContents and additions; Arabic text added.</change>
          <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-08-06" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
-         <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
-            to be checked for accuracy</change>
-      </revisionDesc>
+            <change type="planned" subtype="arabic"> Add missing Arabic abbreviation symbol in additions quotation</change>
+         </revisionDesc>
    </teiHeader>
    <facsimile>
       <formula>Content pending</formula>

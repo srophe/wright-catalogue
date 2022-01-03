@@ -16,6 +16,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</name>
@@ -26,7 +27,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -83,42 +84,41 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="15" from="13"/>
+              <locus from="13a" to="15b"/>
               <author ref="http://syriaca.org/person/496">Galen</author>
               <title ref="" xml:lang="en">The remnants of a manuscript of the works of
-                                    <persName>Galen</persName>, probably in the translation of
-                                    <persName>Sergius of Ras-'ain</persName>.</title>
-              <note>The text is divided into chapters, which are not, however, exactly
-                                the same as in the Greek original; for ch. 57 comprises both % and %
-                                ch. 58, ܢܚ: ܥܠ ܦܪ̈ܥܐ ܪܓ̈ܝܐ ܕܐܝ̈ܠܢܐ, corresponds with % and ch. 59,
-                                ܢܛ: ܥܠ ܫܘܚܠܦܐ ܕܐܝܬ ܒܡܢ̈ܘܬܐ ܕܐܝ̈ܠܢܐ. , with %.</note>
+                                    <persName ref="http://syriaca.org/person/496" xml:lang="en" type="supplied">Galen</persName>, probably in the translation of
+                                    <persName ref="http://syriaca.org/person/49" xml:lang="en" type="supplied">Sergius of Rās-'ain</persName>.</title>
               <msItem xml:id="b1" n="2">
-                <locus to="" from="13"/>
+                <locus from="13a" to="13b"/>
                 <author ref="http://syriaca.org/person/496">Galen</author>
                 <title ref="http://syriaca.org/work/9734" xml:lang="en">Part of the
-                                    "Ars medica" viz., from ch. xxviii., near the end, %, to ch. XXX
-                                    %.</title>
-                <note>See <bibl>Opera, ed. Kuhn, t. i., pp. 384—87</bibl>;
-                                        <bibl>Sachau, Inedita Syriaca, p. 91</bibl>.</note>
+                                    "<title ref="" xml:lang="la">Ars medica</title>"</title>
+                <note>It contains from ch. xxviii., near the end, <quote xml:lang="grc">εἰ μὲν γὰρ παχυμερές ἐστιν, οὐχ ὁδοιπορήσει μέχρι βάθους πολλοῦ</quote>, to ch. XXX
+                                    <quote xml:lang="grc">μαλακὸν δὲ καὶ παιδικὸν ὀστοῦν καὶ συμφῦναι δυνατόν. σπάνιος δὲ καὶ ἡ τοῦδε τοῦ πάθους γένεσις ἄνευ συμπλοκῆς</quote>. See <bibl>Opera, ed. Kuhn, t. i., pp. 384—87</bibl>; <bibl>Sachau, Inedita Syriaca, p. 91</bibl>.
+                </note>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus to="" from="14"/>
+                <locus from="14a" to="14b"/>
                 <author ref="http://syriaca.org/person/496">Galen</author>
                 <title ref="http://syriaca.org/work/9734" xml:lang="en">Another
-                                    portion of the same work; viz., from ch. xxiii., near the end, %
-                                    to the end of ch. xxiv. </title>
-                <note>See <bibl>Opera, t. i., pp. 369—72</bibl>; <bibl>Sachau, Ined.
+                                    portion of the same <ref target="#b1">work</ref></title>
+                <note>It contains from ch. xxiii., near the end, <quote xml:lang="grc">τῷ δὲ ἤτοι μηδ' ὅλως δεομένῳ προσφερόμενον, ἢ οὐκ ἐν τῷ προσήκοντι μέτρῳ, νοσῶδες καθίσταται</quote>
+                                    to the end of ch. xxiv. See <bibl>Opera, t. i., pp. 369—72</bibl>; <bibl>Sachau, Ined.
                                         Syr., p. 88</bibl>. </note>
                 <note>There is no division into chapters in the Syriac text. </note>
               </msItem>
               <msItem xml:id="b3" n="4" defective="true">
-                <locus to="" from="15"/>
+                <locus from="15a" to="15b"/>
                 <author ref="http://syriaca.org/person/496">Galen</author>
-                <title ref="" xml:lang="en">Part of the treatise "de Alimentorum
-                                    Facultatibus," viz. Rook ii., from the end of ch. lviii., %, to
-                                    the middle of ch. lxi., %. </title>
-                <note>See <bibl>Opera, t. vi., pp. 613— 47</bibl>; <bibl>Sachau,
+                <title ref="" xml:lang="en">Part of the treatise "<title ref="" xml:lang="la">de Alimentorum Facultatibus</title>"</title> 
+                <note>It contains Book ii., from the end of ch. lviii., <quote xml:lang="grc">τροφὴν μέντοι τῷ σώματι δίδωσιν ὀλίγην τε καὶ οὐκ εὔχυμον</quote>, to
+                                    the middle of ch. lxi., <quote xml:lang="grc">ὥσπερ γὰρ ἐπ' ἄλλων φυτῶν τὸ πλεῖστον τῆς οὐσίας ἔν τε τοῖς καυλοῖς καὶ τοῖς στελέχεσιν, κ.τ.λ.</quote>. See <bibl>Opera, t. vi., pp. 613— 47</bibl>; <bibl>Sachau,
                                         Ined. Syr., p. 94</bibl>.</note>
+                <note>The text is divided into chapters, which are not, however, exactly
+                      the same as in the Greek original; for ch. 57 comprises both <quote xml:lang="grc">κεφ. νή</quote> and <quote xml:lang="grc">νθ´</quote>;
+                      ch. 58, <quote xml:lang="syr">ܢܚ: ܥܠ ܦܪ̈ܥܐ ܪܓ̈ܝܐ ܕܐܝ̈ܠܢܐ</quote>, corresponds with <quote xml:lang="grc">κεφ. ξ´. περὶ βλαστῶν</quote> and ch. 59,
+                      <quote xml:lang="syr">ܢܛ: ܥܠ ܫܘܚܠܦܐ ܕܐܝܬ ܒܡܢ̈ܘܬܐ ܕܐܝ̈ܠܢܐ</quote>. , with <quote xml:lang="grc">κεφ. ξά. περὶ τῆς ἐν τοῖς μέρεσι τῶν ἐσθιομένων φυτῶν διαφορᾶς</quote>.</note>
               </msItem>
             </msItem>
           </msContents>
@@ -134,8 +134,7 @@
                                     <list>
                                         <item>
                                             <p>Three vellum leaves, 10 7/8 in. by 7 1/8 which formed
-                                                part of a manuscript, written in a fine, regular
-                                                hand of about the viiith cent. (Add. 17,156, foll.
+                                                part of a manuscript (Add. 17,156, foll.
                                                 13—15). The last leaf signed ܝܒ is much torn. Each
                                                 page is divided into two columns, of from 32 to 35
                                                 lines.</p>
@@ -148,8 +147,8 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="" script="">
-                                <desc/>
+              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
+                                <desc>These leaves are written in a fine, regular hand of about the <origDate notBefore="700" notAfter="800">viiith cent</origDate></desc>
                             </handNote>
             </handDesc>
                         <additions>
@@ -174,8 +173,8 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate notBefore="0700" notAfter="0800" when=""/>
-                            <origPlace ref="" xml:lang=""/>
+                            <origDate/>
+                            <origPlace/>
                         </origin>
                         <provenance/>
                         <acquisition/>
@@ -364,6 +363,8 @@
       </textClass>
     </profileDesc>
         <revisionDesc status="draft">
+        <change when="2021-12-16" who="http://syriaca.org/documentation/editors.xml#jarnwine">General edits to msContents and handDesc</change>
+        <change when="2021-12-15" who="http://syriaca.org/documentation/editors.xml#jarnwine">General edits to msContents; to be continued</change>
             <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-16-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-05-23" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
             <change type="planned" subtype="greek">Add in missing Greek characters.</change>

@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17233, foll. 80—151</title>
+        <title level="a" xml:lang="en">BL Add MS 17233 foll. 80—151</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/1018</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17233, foll. 80-151</idno>
+              <idno type="BL-Shelfmark">Add MS 17233 foll. 80-151</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,66 +82,64 @@
           <msContents>
             <textLang mainLang="syr-x-syrm"/>
             <msItem xml:id="a1" n="1" defective="true">
-              
+              <locus from="80a" to="125a"/>
               <title xml:lang="en">The Octôechus of the services of Sunday and
                                 of the ferial days according to the Malkite use.</title>
               <note>Tones 1 — 5 are wanting.</note>
               <note>The subscription gives the name of the scribe,
                                     <persName>Paul</persName>.</note>
               <finalRubric xml:lang="syr">ܫܠܡ ܒܥܘܕܪܢ ܐܠܗܐ ܐܩܛܘܼܐܝܟܘܣ ܐܝܟ ܛܟܣܐ ܕܝܘܢ̈ܝܐ
-                                ܕܠܐ ܒܘܨ̇ܪܐ ܕܐܬܦܫ̇ܩ ܚܕܬܐ (sic). ܡܠܬܗ̣ ܕܐܒܐ ܒܪܗ̇ ܕܒܬܘܠܬܐ. ܝܫܘܥ ܐܠܗܐ.
+                                ܕܠܐ ܒܘܨ̇ܪܐ ܕܐܬܦܫ̇ܩ ܚܕܬܐ <foreign xml:lang="en">(sic)</foreign>. ܡܠܬܗ̣ ܕܐܒܐ ܒܪܗ̇ ܕܒܬܘܠܬܐ. ܝܫܘܥ ܐܠܗܐ.
                                 ܚ̇ܣܐ ܚܘ̈ܒܘܗܝ ܕܦܘܠܘܣ ܚܛܝܐ ܒܫܡܐ ܟܗܢܐ ܘܠܐ ܒܥܒ̣̈ܕܐ ܘܡܐ ܕܟܣܝ̈ܬܐ ܡܬܓ̈ܠܝܢ
                                 ܚ̇ܦ̣ܐ ܟܠܗܝܢ ܣܢܝ̈ܬܗ̣ ܐܡܝܢ ܐܡܝܢ.<locus from="125a"/>
               </finalRubric>
               <msItem xml:id="b1" n="2" defective="true">
-                <locus from="80a"/>
+                <locus from="80a" to="87"/>
                 <title xml:lang="en">Sixth tone</title>
                 <rubric xml:lang="syr">ܪܟܢܐ ܫܬܝܬܝܐ</rubric>
                 <note>Imperfect at beginning</note>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus from="87a"/>
+                <locus from="87a" to="102"/>
                 <title xml:lang="en">Seventh tone</title>
                 <rubric xml:lang="syr">ܪܟܢܐ ܫܒܝܥܝܐ</rubric>
               </msItem>
               <msItem xml:id="b3" n="4">
-                <locus from="102a"/>
+                <locus from="102a" to="125a"/>
                 <title xml:lang="en">Eighth tone</title>
                 <rubric xml:lang="syr">ܪܟܢܐ ܚ</rubric>
               </msItem>
             </msItem>
             <msItem xml:id="a2" n="5" defective="true">
-              
-              <author ref="http://syriaca.org/person/575">John of Damascus</author>
-              <author>Cosmas</author>
+              <locus from="125b" to="151"/>
               <title xml:lang="en">Canons of the Resurrection, by
-                                    <persName>John of Damascus</persName> and
+                                    <persName ref="http://syriaca.org/person/575">John of Damascus</persName> and
                                     <persName>Cosmas</persName>, arranged according to the eight
                                 tones</title>
               <rubric xml:lang="syr">ܬܘܒ ܟܬܒ̈ܝܢܢ ܩܢܘ̈ܢܐ ܕܩܝܡܬܐ ܕܬܡ̈ܢܝܐ ܪ̈ܟܢܐ ܣܝ̇ܡܐ
                                 ܕܐܒܐ ܝܘܼܚ̇ܢܢ ܕܪܡܣܘܩܝܐ ܘܚܒܪܗ̣ ܩܘܙܡܐ.</rubric>
               <note>Tones 5—8 are wanting.</note>
               <msItem xml:id="b4" n="6">
-                <locus from="125b"/>
+                <locus from="125b" to="134"/>
                 <title xml:lang="en">First tone</title>
               </msItem>
               <msItem xml:id="b5" n="7" defective="true">
-                <locus from="134b"/>
+                <locus from="134b" to="138"/>
                 <title xml:lang="en">Second tone</title>
               </msItem>
               <msItem xml:id="b6" n="8" defective="true">
-                <locus from="138a"/>
+                <locus from="138a" to="144"/>
                 <title xml:lang="en">Third tone</title>
               </msItem>
               <msItem xml:id="b7" n="9">
-                <locus from="144b"/>
+                <locus from="144b" to="151"/>
                 <title xml:lang="en">Fourth tone</title>
               </msItem>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-                            <supportDesc material="perg">
+                            <supportDesc material="chart">
                                 <extent>
                                     <measure unit="content_pending" quantity="-1"/>
                                 </extent>
@@ -154,12 +153,10 @@
                                                 are much torn, especially foll. 80, 81, 87, and 138.
                                                 The quires, signed with Syriac letters and Coptic
                                                 arithmetical figures, were originally upwards of 23
-                                                in number; but ܝܓ ــ ܐ, and all after ܟܓ, are lost,
+                                                in number; but <foreign xml:lang="syr">ܐ</foreign>-<foreign xml:lang="syr">ܝܓ</foreign>, and all after <foreign xml:lang="syr">ܟܓ</foreign>, are lost,
                                                 and some of the remainder are imperfect. Leaves are
                                                 wanting after foll. 80, 135, 137, 145, and 151.
-                                                There are from 18 to 20 lines in each page. This
-                                                manuscript is written in a good, regular, Malkite
-                                                hand of the xiiith cent.</p>
+                                                There are from 18 to 20 lines in each page.</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -169,22 +166,11 @@
                             </layoutDesc>
                         </objectDesc>
             <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr-x-syrm">
+                <desc>This manuscript is written in a good, regular, Malkite hand of the <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate></desc>
               </handNote>
             </handDesc>
-            <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                  <locus/>
-                  <p/>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                </item>
-              </list>
-            </additions>
+            <additions/>
             <bindingDesc>
                             <p>Content pending</p>
                         </bindingDesc>
@@ -385,6 +371,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2021-12-21">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>

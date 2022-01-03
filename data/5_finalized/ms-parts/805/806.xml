@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -82,43 +83,45 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="10b">Fol. 10b</locus>
-              <title xml:lang="en">"Book of the Vowel-points of the Old and New Testaments and of
+              <locus from="1a" to="14"/>
+              <title xml:lang="en">"Book of the Vowel-points of the <title ref="">Old</title> and <title ref="">New Testaments</title> and of
                 the (Greek) Doctors."</title>
-              <rubric xml:lang="syr">ܟܘܪܣܐ ܕܫ̈ܡܗܐ: ܕܕܝܐܬܝܩܐ ܥܬܝܩܬܐ: ܘܕܚ̇ܕܬܐ: ܘܕܡ̈ܠܦܢܐ</rubric>
-              <note>Part of a work similar in character to the preceding.</note>
-              <note>The fragments remaining extend over only a small part of the Old
-                Testament.</note>
+              <rubric xml:lang="syr"><fw type="header">ܟܘܪܣܐ ܕܫ̈ܡܗܐ: ܕܕܝܐܬܝܩܐ ܥܬܝܩܬܐ: ܘܕܚ̇ܕܬܐ: ܘܕܡ̈ܠܦܢܐ</fw></rubric>
+              <note>Part of a work similar in character to the <ref target="http://syriaca.org/manuscript/463">preceding</ref>.</note>
+              <note>The fragments remaining extend over only a small part of the <title ref="">
+                Old
+                  Testament
+              </title>.</note>
               <msItem xml:id="b1" n="2" defective="true">
-                <locus from="1a">Fol. 1a.</locus>
-                <title>Genesis</title>
+                <locus from="1a" to="1a">Fol. 1a.</locus>
+                <title>Book of the Vowel-points of Genesis</title>
                 <note>It is very imperfect.</note>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus from="1a">Fol. 1a</locus>
-                <title xml:lang="en">Exodus</title>
+                <locus from="1a" to="1a">Fol. 1a</locus>
+                <title xml:lang="en">Book of the Vowel-points of Exodus</title>
               </msItem>
               <msItem xml:id="b3" n="4">
-                <locus from="5b">Fol. 5b.</locus>
-                <title xml:lang="en">Leviticus</title>
+                <locus from="5b" to="9">Fol. 5b.</locus>
+                <title xml:lang="en">Book of the Vowel-points of Leviticus</title>
               </msItem>
               <msItem xml:id="b4" n="5" defective="true">
-                <locus from="9a">Fol. 9a</locus>
-                <title xml:lang="en">Numbers</title>
+                <locus from="9a" to="12">Fol. 9a</locus>
+                <title xml:lang="en">Book of the Vowel-points of Numbers</title>
               </msItem>
               <msItem xml:id="b5" n="6" defective="true">
-                <locus from="12a">Fol. 12a</locus>
-                <title xml:lang="en">Deuteronomy</title>
+                <locus from="12a" to="14">Fol. 12a</locus>
+                <title xml:lang="en">Book of the Vowel-points of Deuteronomy</title>
                 <note>It is very imperfect.</note>
               </msItem>
               <msItem xml:id="b6" n="7" defective="true">
-                <locus from="14a">Fol. 14a</locus>
-                <title xml:lang="en">Joshua</title>
+                <locus from="14a" to="14a">Fol. 14a</locus>
+                <title xml:lang="en">Book of the Vowel-points of Joshua</title>
                 <note>It is very imperfect.</note>
               </msItem>
               <msItem xml:id="b7" n="8" defective="true">
-                <locus from="14a">Fol. 14a</locus>
-                <title xml:lang="en">Judges</title>
+                <locus from="14a" to="14a">Fol. 14a</locus>
+                <title xml:lang="en">Book of the Vowel-points of Judges</title>
                 <note>It is very imperfect.</note>
               </msItem>
             </msItem>
@@ -132,7 +135,7 @@
                   <list>
                     <item>
                       <p>Vellum, about 12 1/2 in. by 8 1/8, consisting of 14 leaves, the first of
-                        which is much stained and torn. The quires, now only three in number, arc
+                        which is much stained and torn. The quires, now only three in number, are
                         signed with letters,<foreign xml:lang="syr">ܒ</foreign>,<foreign xml:lang="syr">ܓ</foreign>, and<foreign xml:lang="syr">ܕ</foreign>. The
                         first quire has been entirely lost, and of<foreign xml:lang="syr">ܓ</foreign>and<foreign xml:lang="syr">ܕ</foreign>only the first and last
                         leaves remain. Each, page is divided into two columns, of from 29 to 32
@@ -144,7 +147,7 @@
             </objectDesc>
             <handDesc hands="2">
               <handNote xml:id="handNote1" scope="major" script="syr" medium="unknown">
-                <desc>This manuscript is written in a good, regular hand of the <date calendar="Gregorian" notBefore="0900" notAfter="1000">xth</date> or <date calendar="Gregorian" notBefore="1000" notAfter="1100">xith cent</date>. The
+                <desc>This manuscript is written in a good, regular hand of the <origDate calendar="Gregorian" notBefore="0900" notAfter="1000">xth</origDate> or <origDate calendar="Gregorian" notBefore="1000" notAfter="1100">xith cent</origDate>. The
                   points <foreign>rukkākh</foreign> and <foreign>kushshāi</foreign> are marked in
                   red, and numerous Greek vowels are appended (<foreign xml:lang="grc">ܰ</foreign>,<foreign xml:lang="grc">ܶ</foreign>,<foreign xml:lang="grc">ܺ</foreign>,<foreign xml:lang="grc">ܳ</foreign>,<foreign xml:lang="grc">ܽ</foreign>, or , , and %
                   <!--insert greek where there are commas and percentage sign-->, as<foreign xml:lang="syr">ܘܢܶܫܛܺܝ̣ܘܗܝ</foreign>
@@ -164,9 +167,11 @@
                     etc. The Septuagint version is often cited <foreign xml:lang="syr">ܒܕܫܒܥܝܢ</foreign>
                     <foreign xml:lang="syr">ܒܕ܏ܫ</foreign>
                     <foreign xml:lang="syr">ܒܫܒܥܝܢܝܐ</foreign>). The authorities quoted are
-                      <persName>Daniel of <placeName>Salach</placeName>
-                    </persName>,<foreign xml:lang="syr">ܕܢܝܐܝܠ ܨܠܚܝܐ</foreign>commentary on the Psalms, <locus from="4a">fol. 4a</locus>;<persName ref="http://syriaca.org/person/13">Ephraim,</persName>
-                    <locus from="3a">foll. 3a</locus>, <locus from="5a">5a</locus>, <locus from="8a">8a</locus>; <persName>Narses the Nestorian</persName>,<foreign xml:lang="syr">ܢܪܣܝ ܢܣܛܘܪܝܢܐ ܡܠܦܢܐ ܠܝܛܐ ܨܢܝܥܐ</foreign>
+                      <persName ref="http://syriaca.org/person/59">Daniel of <placeName>Salach</placeName>
+                    </persName>,<persName ref="http://syriaca.org/person/59">
+                      <foreign xml:lang="syr">ܕܢܝܐܝܠ ܨܠܚܝܐ</foreign>
+                    </persName><title ref="">commentary on the Psalms</title>, <locus from="4a">fol. 4a</locus>;<persName ref="http://syriaca.org/person/13">Ephraim,</persName>
+                    <locus from="3a">foll. 3a</locus>, <locus from="5a">5a</locus>, <locus from="8a">8a</locus>; <persName ref="http://syriaca.org/person/650">Narses the Nestorian</persName>,<foreign xml:lang="syr">ܢܪܣܝ ܢܣܛܘܪܝܢܐ ܡܠܦܢܐ ܠܝܛܐ ܨܢܝܥܐ</foreign>
                     <locus from="10a">fol. 10a</locus>,
                     and <persName ref="http://syriaca.org/person/51">Severus of <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
                     </persName>,<foreign xml:lang="syr">ܣܐܘܝܪܐ</foreign>
@@ -368,6 +373,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+    <change when="2021-12-17" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edits to msContents</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-06-23-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2020-06-23-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and
