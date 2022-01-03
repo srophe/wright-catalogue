@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17258, foll. 119—190</title>
+        <title level="a" xml:lang="en">Add MS 17258 foll. 119—190</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/1071</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17258, foll. 119-190</idno>
+              <idno type="BL-Shelfmark">Add MS 17258 foll. 119-190</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,53 +82,51 @@
           <msContents>
             <textLang mainLang="syr-x-syrm"/>
             <msItem xml:id="a1" n="1">
-              
+              <locus from="119" to="190"/>
               <title xml:lang="en">Services according to the Malkite
                                 use</title>
-              <note>At the end of each service there is a rude attempt at
-                                ornamentation.</note>
               <msItem xml:id="b1" n="2" defective="true">
-                <locus from="119a"/>
+                <locus from="119a" to="122"/>
                 <title xml:lang="en">Part of a service</title>
                 <note>Imperfect at the beginning.</note>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus from="122a"/>
+                <locus from="122a" to="131"/>
                 <title xml:lang="en">Exaposteilaria of the ferial
                                     days</title>
                 <rubric xml:lang="syr">ܐܟܣ܏ܦܘܣ ܕܝܘܡ̈ܬܐ ܫܚܝ̈ܡܐ</rubric>
               </msItem>
               <msItem xml:id="b3" n="4">
-                
-                <title xml:lang="en">The Horologium or services of the daily
-                                    canonical hours</title>
+                <locus from="131b" to="190"/>
+                <title xml:lang="en">The Horologium or services of the daily canonical hours</title>
+                <!--Justin: Are the Syriac rubrics in the following msItems actually Wright's titles, or are they rubrics in the manuscripts he has described?  -->
                 <msItem xml:id="c1" n="5">
-                  <locus from="131b"/>
+                  <locus from="131b" to="144"/>
                   <title xml:lang="en">Morning prayer or prime</title>
                   <rubric xml:lang="syr">ܨܠܘܬܐ ܕܫܥܬܐ ܩܕܡܝܬܐ</rubric>
                 </msItem>
                 <msItem xml:id="c2" n="6">
-                  <locus from="144a"/>
+                  <locus from="144a" to="152"/>
                   <title xml:lang="en">Terce</title>
                   <rubric xml:lang="syr">ܨܠܘܬܐ ܕܬܠܬ ܫܥܝ̈ܢ</rubric>
                 </msItem>
                 <msItem xml:id="c3" n="7">
-                  <locus from="152a"/>
+                  <locus from="152a" to="162"/>
                   <title xml:lang="en">Sext</title>
                   <rubric xml:lang="syr">ܨܠܘܬܐ ܕܫܝܬ ܫ̈ܥܝܢ</rubric>
                 </msItem>
                 <msItem xml:id="c4" n="8">
-                  <locus from="162b"/>
-                  <rubric xml:lang="syr">(μακαρισμοι) ܨܠܘܬܐ ܕܡܩܪܙܡܝ</rubric>
-                  <rubric xml:lang="grc">ἀκολουθία τῶν τυπικῶν</rubric>
+                  <locus from="162b" to="169"/>
+                  <rubric xml:lang="syr">ܨܠܘܬܐ ܕܡܩܪܙܡܝ</rubric>
+                  <note><foreign xml:lang="grc">(μακαρισμοι), ἀκολουθία τῶν τυπικῶν</foreign></note>
                 </msItem>
                 <msItem xml:id="c5" n="9">
-                  <locus from="169a"/>
+                  <locus from="169a" to="180"/>
                   <title xml:lang="en">None</title>
                   <rubric xml:lang="syr">ܨܠܘܬܐ ܕܬܫܥ ܫܥܝܢ</rubric>
                 </msItem>
                 <msItem xml:id="c6" n="10">
-                  <locus from="180a"/>
+                  <locus from="180a" to="190"/>
                   <title xml:lang="en">Evening prayer or vespers</title>
                   <rubric xml:lang="syr">ܨܠܘܬܐ ܕܪܡܫܐ</rubric>
                 </msItem>
@@ -149,11 +148,7 @@
                                                 leaves (Add. 17,258, foll. 119—190), a few of which
                                                 are much torn, especially foll. 119, 134, and 181.
                                                 The quires are without signatures. The number of
-                                                lines in each page varies from 10 to 16. This
-                                                manuscript is written in a good, regular, Malkite
-                                                hand of the xiiith cent.; with the exception of
-                                                foll. 142, 143, 158, 159, 178,179, 189, and 190,
-                                                which are later additions.</p>
+                                                lines in each page varies from 10 to 16.</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -163,19 +158,23 @@
                             </layoutDesc>
                         </objectDesc>
             <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr-x-syrm">
+                <desc>This manuscript is written in a good, regular, Malkite hand of the <origDate calendar="Gregorian" notBefore="1200" notAfter="1300">xiiith cent.</origDate></desc>
+              </handNote>
+              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
+            <decoDesc>
+              <decoNote xml:id="decoNote1" type="ornamentation">
+                <desc>At the end of each service there is a rude attempt at ornamentation.</desc>
+              </decoNote>
+            </decoDesc>
             <additions>
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus/>
-                  <p/>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
+                  <p>Foll. <locus from="142a" to="143b">142, 143</locus>, <locus from="158a" to="159b">158, 159</locus>, <locus from="178a" to="179b">178, 179</locus>, <locus from="189a" to="190b">189, and 190</locus>, are later additions.</p>
                 </item>
               </list>
             </additions>
@@ -189,7 +188,7 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate notBefore="1200" notAfter="1300"/>
+                            <origDate calendar="Gregorian" notBefore="1200" notAfter="1300"/>
                             <origPlace/>
                         </origin>
                         <provenance/>
@@ -379,6 +378,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-03">Edits to msContents, handDesc, decoDesc, and additions</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
