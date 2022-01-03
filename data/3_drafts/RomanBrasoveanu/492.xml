@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?oxygen RNGSchema="https://raw.githubusercontent.com/wlpotter/syriaca-wright-catalog/master/schemas/enrich-syriaca.rnc" type="compact"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/wright-mss.css"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/wlpotter/wright-catalogue/master/parameters/wright-mss.css"?>
 <TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
@@ -16,39 +16,21 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <idno type="URI">792</idno>
+            <idno type="URI">492</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add. 17,158, foll. 49—56.</idno>
+              <idno type="BL-Shelfmark">Add. 11,668, foll. 40—43</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <summary/>
             <textLang mainLang="syr"/>
             <msItem>
-              <locus to="" from="49a"/>
-              <author ref="https://syriaca.org/person/42">Jacob of Batnae</author>
-              <title ref="" xml:lang="en">A discourse of Jacob of Batnae on the Raising of
-                Lazarus</title>
-              <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܠܥܙܪ ܟܕ ܢܚܡܗ ܡܪܢ. ܕܣܝܡ ܠܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ
-                ܕܥܕܬܐ</rubric>
-              <note>See <bibl>Assemani, Bibl. Or., t. i., p. 322, no. 134</bibl>.</note>
-            </msItem>
-            <msItem>
-              <locus to="" from="56a"/>
-              <author ref="https://syriaca.org/person/42">Jacob of Batnae</author>
-              <title ref="" xml:lang="en">A sūgīthā of Jacob on the city of
-                  <placeName>Edessa</placeName></title>
-              <rubric xml:lang="syr">ܣܘܓܝܬܐ ܕܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ̣. ܥܠ ܐܘܪܗܝ ܟܕ ܫܠܚܬ ܠܡܪܢ ܕܢܐܬܐ
-                ܠܗ̇.</rubric>
-              <note>See <bibl>Cureton's Ancient Syriac Documents, pp. ܩܙ and 106.</bibl></note>
-            </msItem>
-            <msItem defective="true">
-              <locus to="" from="56b"/>
-              <author ref="https://syriaca.org/person/42">Jacob of Batnae</author>
-              <title ref="" xml:lang="en">An extract from a discourse of Jacob</title>
-              <rubric xml:lang="syr"/>
-              <incipit xml:lang="syr">ܐܬܦܫܩܬ ܠܢ ܩܘܩܬܐ ܚܕܬܐ ܗ̇ܝ ܕܐܠܝܫܥ. ܕܐܝܬܝܗ̇ ܛܠܝܬܐ ܒܬܘܠܬܐ ܒܪܙܐ
-                ܕܡܬܩܢ ܐܪܥܐ</incipit>
+              <locus to="" from="40a"/>
+              <author ref=""/>
+              <title ref="" xml:lang="en">Part of the history of
+                <persName ref="https://syriaca.org/person/1955">Pachomius</persName></title>
+              <rubric xml:lang="syr">ܫܪܒܐ ܕܥܠ ܦܟܘܡ</rubric>
+              <incipit xml:lang="syr"/>
               <quote xml:lang="syr">
                 <locus from="" to=""/>
               </quote>
@@ -58,7 +40,34 @@
               <finalRubric xml:lang="syr">
                 <locus to="" from=""/>
               </finalRubric>
-              <note>[No title]</note>
+              <note/>
+            </msItem>
+            <msItem>
+              <locus to="" from="10a"/>
+              <author ref=""/>
+              <title ref="" xml:lang="en">Other extracts from the Lives of the Egyptian
+                Fathers</title>
+              <rubric xml:lang="syr"/>
+              <incipit xml:lang="syr"/>
+              <quote xml:lang="syr">
+                <locus from="" to=""/>
+              </quote>
+              <explicit xml:lang="syr">
+                <locus to="" from=""/>
+              </explicit>
+              <finalRubric xml:lang="syr">
+                <locus to="" from=""/>
+              </finalRubric>
+              <note/>
+            </msItem>
+            <msItem>
+              <locus to="" from="42a"/>
+              <author ref="https://syriaca.org/person/548">Isaiah of Scete</author>
+              <title ref="" xml:lang="en">Fragments of the writings of Isaiah of Scete</title>
+              <rubric xml:lang="syr"/>
+              <finalRubric xml:lang="syr">ܫܠܡ ܡܡܠܠܐ ܕܐܒܐ ܐܫܥܝܐ<locus to="" from="43a"
+                /></finalRubric>
+              <note/>
             </msItem>
           </msContents>
           <physDesc>
@@ -72,9 +81,10 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Eight vellum leaves, 9 3/4 in. by 6 1/2, written in a good, regular hand of
-                        about the viiith cent. (Add. 17,158, foll. 49—56). Each page is divided into
-                        two columns, of from 25 to 27 lines.</p>
+                      <p>Four vellum leaves, about 9 7/8 in. by 6 7/8, all more or less soiled and
+                        torn (Add. 14,668, foll. 40—43). Each page is divided into two columns, of
+                        from 27 to 32 lines. They are written in a good, regular hand; dated a. Gr.
+                        1177, a.d. 866</p>
                     </item>
                   </list>
                 </condition>
@@ -93,10 +103,11 @@
               <p></p>
               <list>
                 <item>
-                  <locus from="55b" to=""/>
-                  <p>On fol. 55 b there is a note, stating that this manuscript was written by one
-                      <persName>Sergius</persName></p>
-                  <p><quote xml:lang="syr">ܐܢ̇ܐ ܣܪܓܝܣ ܚܛܝܐ ܟܬܒܬ ܡܐܡܪܐ ܗܢܐ ܟܠ ܕܩ̇ܪܐ ܒܗ ܢܨܠܐ ܥܠ ܡ̇ܢ ܕܟܬܒܗ ܡܛܠ ܡܪܢ.</quote></p>
+                  <locus from="13b" to=""/>
+                  <p>On fol. 13 b there are notes, giving the date and other particulars regarding
+                    the volume, of which, however, the greater part is no longer clearly legible</p>
+                  <p><quote xml:lang="syr">ܐܫܬܠܡ ܕܝܢ ܟܬܒܐ ܗܢܐ ܕܐܒܐ ܐܫܥܝܐ ܐܝܚܝܕܝܐ ܒܫܢܬ ܐܠܦܐ ܘܡܐܐ ܘܫܒ̈ܥܝܢ ܘܫܒ̈ܥ ܕܐܠܟܣܢܕܪܘܣ
+                      ܒܪ ܦـ[ـܝܠܦܘܣ] ܒܝ̈ܘܡܝ ܡܪܝ ܝܘܚܢܢ ܦܛܪܝܪܟܝܣ ܕܟܘܪܣܝܐ ܫܠܝܚܝܐ ܕܐܢܛܝܘܟܝܐ. ܏ܘܫ.</quote></p>
                 </item>
               </list>
             </additions>
@@ -110,7 +121,9 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0700" notAfter="0800" when="">VIIIth Century</origDate>
+              <origDate notBefore="" notAfter="" from="" to="" when="0866">866 A.D.</origDate>
+              <origDate datingMethod="Seleucid" notBefore-custom="" notAfter-custom=""
+                from-custom="" to-custom="" when-custom="1177">A. Gr. 1177</origDate>
               <origPlace ref="" xml:lang=""></origPlace>
             </origin>
             <provenance/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?oxygen RNGSchema="https://raw.githubusercontent.com/wlpotter/syriaca-wright-catalog/master/schemas/enrich-syriaca.rnc" type="compact"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/wright-mss.css"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/wlpotter/wright-catalogue/master/parameters/wright-mss.css"?>
 <TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
@@ -16,19 +16,19 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <idno type="URI">461</idno>
+            <idno type="URI">173</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add. 14,666, foll. 57-64</idno>
+              <idno type="BL-Shelfmark">Add. 14,484, foll. 48-133</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <summary/>
             <textLang mainLang="syr-Syre"/>
-            <msItem defective="true">
-              <locus to="" from="57a"/>
-              <author ref="https://syriaca.org/person/13">Ephraim</author>
-              <title ref="" xml:lang="en">The Testament of Ephraim</title>
-              <rubric xml:lang="syr">ܕܝܬܝܩܐ ܕܡܪܝ ܐܦܪܝܡ</rubric>
+            <msItem>
+              <locus to="" from="48b"/>
+              <author ref="https://syriaca.org/person/31">Cosmas</author>
+              <title ref="" xml:lang="en">The Acts of <persName ref="http://syriaca.org/person/744">Simeon Stylites</persName></title>
+              <rubric xml:lang="syr">ܢܨܚܢܗ ܕܡܪܝ ܫܡܥܘܢ ܪܫܐ ܕܐ̈ܒܝܠܐ</rubric>
               <incipit xml:lang="syr"/>
               <quote xml:lang="syr">
                 <locus from="" to=""/>
@@ -39,20 +39,19 @@
               <finalRubric xml:lang="syr">
                 <locus to="" from=""/>
               </finalRubric>
-              <note>imperfect at the beginning</note>
-              <note>See<bibl> Assemani, Bibl. Or., t. i., p. 141, no. 8, and Overbeck, S. Ephraemi
-                  Syri etc. Opera Selecta, pp. xvii. and 137</bibl></note>
+              <note>The text is substantially the same as that published by Assemani in the
+                  <bibl>Acta SS. Martyrum, t. ii., p. 268</bibl>, but the verbal differences are
+                very considerable. See<bibl> Add. 12,174, no. 2.</bibl></note>
             </msItem>
-            <msItem defective="true">
-              <locus to="" from="61b"/>
-              <author ref="https://syriaca.org/person/33">Isaac of Antioch</author>
-              <title ref="" xml:lang="en">A metrical discourse of <persName>Isaac of
-                  Antioch</persName> on the plague in the days of <persName>King David</persName> (2
-                Sam., ch. xxiv)</title>
-              <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܡܘܬܢܐ ܕܗܘܐ ܒܝ̈ܘܡܝ ܕܘܝܕ ܢܒܝܐ. ܕܣܝܡ ܠܛܘܒܢܐ ܡܪܝ ܐܝܣܚܩ
-                ܐܦܝܣܩܘܦܐ ܘܡܠܦܢܐ.</rubric>
-              <incipit xml:lang="syr">ܕܘܝܕ ܡܠܟܐ ܒܪ ܐܝܫܝ ܐܬܚ̇ܫܒ ܗܘܐ ܟܣܝܐܝܬ: ܘܪܗ̣ܛ ܫ̇ܡܫ ܓܠܝܐܝܬ. ܡܕܡ
-                ܕܪܢ̣ܐ ܪܥܝܢܗ: ܏ܘܫ.</incipit>
+            <msItem>
+              <locus to="" from="130b"/>
+              <author ref=""/>
+              <title ref="" xml:lang="en">Precepts and Admonitions of the blessed <persName ref="http://syriaca.org/person/744">Mar
+                  Simeon</persName></title>
+              <rubric xml:lang="syr">ܦܘ̈ܩܕܢܐ ܘܙܘܗܪ̈ܐ ܕܡܪܝ ܫܡܥܘܢ ܛܘܒܢܐ</rubric>
+              <incipit xml:lang="syr">ܐ̈ܚܝ ܘܒ̈ܢܝ ܘܚ̈ܒܝܒܝ. ܟܬܝܒ ܒܟ̈ܬܒܐ ܩܕܝ̈ܫܐ. ܕܐܪܝܐ ܢܗܡ ܡܢ ܠܐ ܢܕܚܠ
+                ܡܪ̈ܡܪ̈ܘܬܐ ܐܢ [ܡܪ̈ܐ ܡܪ̈ܘܬܐ] ܪܓܙ. ܐܝܕܐ ܗܝ ܒܪܝܬܐ ܕܪ̈ܘܚܢܐ ܐܘ ܕܦܓܪ̈ܢܐ ܕܬܣܝܒܪ. ܘܗܫܐ ܒ̈ܢܝ.
+                ܐܢܐ ܫܡܥܘܢ ܒܨܝܪܐ ܡܠܟ ܐܢܐ ܠܟܘܢ ܕܬܩܪܒܘܢ ܬܝܒܘܬܐ ܠܘܬ ܐܠܗܐ ܡܪܚܡܢܐ. ܏ܘܫ. </incipit>
               <quote xml:lang="syr">
                 <locus from="" to=""/>
               </quote>
@@ -62,8 +61,7 @@
               <finalRubric xml:lang="syr">
                 <locus to="" from=""/>
               </finalRubric>
-              <note>Imperfect at the end. For the rest of this discourse see<bibl> Add. 14,608 (no.
-                  DCCLXVI)</bibl>, to which manuscript these leaves belong.</note>
+              <note/>
             </msItem>
           </msContents>
           <physDesc>
@@ -77,10 +75,13 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Eight vellum leaves, about 8 7/8 in. by 5 7/8, some of which are slightly
-                        stained and torn (Add. 14,666, foll. 57—64). There are from 24 to 26 lines
-                        in each page. The writing is a large, regular Estrangela of the viith or
-                        viiith cent. </p>
+                      <p>Vellum, about 10 1/2 in. by 8 3/8, consisting of 86 leaves (Add. 14,484,
+                        foll. 48—133), a few of which are slightly, stained and torn. The quires, 11
+                        in number, seem to have been originally signed with arithmetical figures
+                        (see foll. 72 a, 94 a, and 102 a), but are now numbered with letters from ܝܕ
+                        (fol. 49 a) to ܟܗ (fol. 127 a). Each page is divided into two columns, of
+                        from 22 to 28 lines. This manuscript is written in a fine Estrangela of the
+                        vith cent</p>
                     </item>
                   </list>
                 </condition>
@@ -99,9 +100,10 @@
               <p></p>
               <list>
                 <item>
-                  <locus from="" to=""/>
-                  <p></p>
-                  <p><quote xml:lang="syr"></quote></p>
+                  <locus from="133b" to=""/>
+                  <p>After the doxology, fol. 133 b, we read in a smaller character the words :</p>
+                  <p><quote xml:lang="syr">ܕܟܝܪ̈ܝܢ ܐ̈ܚܐ ܟܠܗܘܢ ܕܒܡܫܝܚܐ: ܕܐܝܬ ܒܟܘܠ ܐܬܪ. ܘܨܠܘܬܗܘܢ ܬܗܘܐ ܥܠ ܚܛܝܐ ܘܒܨܝܪܐ ܠܥܠܡ
+                      ܥܠܡܝܢ ܐܡܝܢ..</quote></p>
                 </item>
               </list>
             </additions>
@@ -115,7 +117,8 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0600" notAfter="0800" when="">VIIth or VIIIth Century</origDate>
+              <origDate notBefore="0500" notAfter="0600" from="" to="" when="">VIth
+                Century</origDate>
               <origPlace ref="" xml:lang=""></origPlace>
             </origin>
             <provenance/>
