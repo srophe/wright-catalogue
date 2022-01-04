@@ -119,11 +119,11 @@ declare function msParts:merge-editor-list($documentSequence as node()+) as node
 declare function msParts:merge-respStmt-list($documentSequence as node()+) as node()+ {
   let $fullRespStmtList := $documentSequence//tei:respStmt
   let $creatorRespStmts := for $respStmt in $fullRespStmtList
-    return if($respStmt/tei:resp/text() = "Created by") then $respStmt
+    return if($respStmt/tei:resp/text() = "Created by") then element {node-name($respStmt)} {$respStmt/*}
   let $editorRespStmts := for $respStmt in $fullRespStmtList
-    return if($respStmt/tei:resp/text() = "Edited by") then $respStmt
+    return if($respStmt/tei:resp/text() = "Edited by") then element {node-name($respStmt)} {$respStmt/*}
   let $projectManagerRespStmts := for $respStmt in $fullRespStmtList
-    return if($respStmt/tei:resp/text() = "Project management by") then $respStmt
+    return if($respStmt/tei:resp/text() = "Project management by") then element {node-name($respStmt)} {$respStmt/*}
   
   let $updatedRespList := for $respStmt in $documentSequence[1]//tei:titleStmt/tei:respStmt
     let $respDesc := $respStmt/tei:resp/text()
