@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,16 +82,17 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
+              <locus from="92a" to="101b"/>
               <author ref="https://syriaca.org/person/51">Severus</author>
-              <author>John bar Aphtūnāyā</author>
-              <title xml:lang="en">The Hymns of <persName>Severus</persName>, <persName>John
-                  bar Aphtūnāya</persName>̄, etc., from no. 374 (ܫܥܕ) to no. 402 (ܬܒ); </title>
-              <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܡ̈ܥܢܝܬܐ ܕܩܕܝܫܐ ܘܠܒ̣ܝܫ ܠܐܠܗܐ ܡܪܝ ܣܐܘܪܐ ܦܛܪܝܪܟܐ
-                ܕܟܘܪܣܝܐ ܫܠܝܚܝܐ ܕܐܢܛܘܝܟܝܐ (sic) ܡܕܝܢܬܐ ܕܣܘܪܝܐ</finalRubric>
+              <author ref="https://syriaca.org/person/52">John bar Aphtūnāyā</author>
+              <title xml:lang="en">The Hymns of <persName ref="https://syriaca.org/person/51">Severus</persName>, <persName ref="https://syriaca.org/person/52">John
+                  bar Aphtūnāya</persName>̄, etc., from no. 374 (<foreign xml:lang="syr">ܫܥܕ</foreign>) to no. 402 (<foreign xml:lang="syr">ܬܒ</foreign>)</title>
+              <finalRubric xml:lang="syr"><locus from="101b"/>ܫܠܡ ܠܡܟܬܒ ܡ̈ܥܢܝܬܐ ܕܩܕܝܫܐ ܘܠܒ̣ܝܫ ܠܐܠܗܐ ܡܪܝ ܣܐܘܪܐ ܦܛܪܝܪܟܐ
+                ܕܟܘܪܣܝܐ ܫܠܝܚܝܐ ܕܐܢܛܘܝܟܝܐ <foreign xml:lang="en">(sic)</foreign> ܡܕܝܢܬܐ ܕܣܘܪܝܐ</finalRubric>
               <msItem xml:id="b1" n="2">
                 <locus from="92a"/>
                 <rubric xml:lang="syr">ܡ̈ܥܢܝܬܐ ܕܥ̈ܢܝܕܐ</rubric>
-                <note>from no. 8 to no. 26. </note>
+                <note>From no. 8 to no. 26.</note>
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus from="98b"/>
@@ -100,20 +102,20 @@
               </msItem>
             </msItem>
             <msItem xml:id="a2" n="4">
-              <locus from="101b"/>
+              <locus from="101b" to="102"/>
               <title xml:lang="en">Anthems to be chanted before the administration of the
                 holy Eucharist</title>
               <rubric xml:lang="syr">ܬܘܒ ܐܢܛܝ̈ܦܘܢܐ ܐܘܟܝܬ ܦܬܓ̈ܡܐ ܕܡܬܐܡܪ̈ܝܢ ܡܢ ܟܗ̈ܢܐ. ܘܥ̇ܢܐ ܥܡܐ ܒܬܪܗܘܢ
                 ܡܢ ܩܕܡ ܕܡܬܝ̈ܗܒܝܢ ܪ̈ܐܙܐ ܩ̈ܕܝܫܐ ܠܥܡܐ</rubric>
             </msItem>
             <msItem xml:id="a3" n="5">
-              <locus from="102a"/>
+              <locus from="102a" to="108a"/>
               <title xml:lang="en">Prosphorici for several occasions</title>
-              <rubric xml:lang="syr">ܦܪܣܦܪܝܩܘ ܕܡܬܐܡܪ̈ܝܢ ܟܕ ܡ̈ܬܝܗܒܢ (sic)ܪ̈ܐܙܐ ܩ̈ܕܝܫܐ</rubric>
+              <rubric xml:lang="syr">ܦܪܣܦܪܝܩܘ ܕܡܬܐܡܪ̈ܝܢ ܟܕ ܡ̈ܬܝܗܒܢ <foreign xml:lang="en">(sic)</foreign>ܪ̈ܐܙܐ ܩ̈ܕܝܫܐ</rubric>
               <finalRubric xml:lang="syr">ܐܫܬ̣ܡܠܝܬ݁ ܦܢܩܝܬܐ ܗܕܐ ܕܡ̈ܥܢܝܬܐ ܕܩܕܝܫܐ ܡܪܝ ܣܐܘܪܐ ܦܐܛܪܝܪܟܐ
                 ܕܐܢܛܝܘܟܝܐ ܕܣܘܪܝܐ ܫܢܬ ܐܠܦ ܘܡܐܐ ܘܬܫ̈ܥܝܢ ܘܚܡܫ ܕܐܠܟܣܢܕܪܘܣ ܒܪ ܦܝܠܝܦܘܣ ܡܐܩܕܘܢܝܐ.<locus from="108a"/>
               </finalRubric>
-              <note>The subscription gives the date</note>
+              <note>The subscription gives the date.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -127,10 +129,9 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Eighteen vellum leaves, about 5 1/2 in. by 3 7/8, the last two quires (ܝܗ
-                        and ܝܘ) of a manuscript (Add. 18,819, foll. 92—109). There are from 17 to 21
-                        lines in each page. The writing is neat and regular. They are dated A. Gr.
-                        1195, A.D. 884,</p>
+                      <p>Eighteen vellum leaves, about 5 1/2 in. by 3 7/8, the last two quires (<foreign xml:lang="syr">ܝܗ</foreign>
+                        and <foreign xml:lang="syr">ܝܘ</foreign>) of a manuscript (Add. 18,819, foll. 92—109). There are from 17 to 21
+                        lines in each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -141,7 +142,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                <desc/>
+                <desc>The writing is neat and regular.</desc>
               </handNote>
             </handDesc>
             <additions>
@@ -149,8 +150,8 @@
               <list>
                 <item xml:id="addition1" n="1">
                   <locus from="108a"/>
-                  <p>On the same page, fol. 108 a, there is a note, stating that the book was
-                    written and bound by a man from the village of Gadmin. His name has, however,
+                  <p>On fol. 108 a, there is a note, stating that the book was
+                    written and bound by a man from the village of <placeName>Gadmin</placeName>. His name has, however,
                     been erased, and that of <persName>Simeon</persName> substituted. </p>
                   <p>
                     <quote xml:lang="syr">ܐܬܚ̇ܦܛ ܘܩ̣ܢܐ ܐܘܿܟܝܬ ܟܬ̣ܒ ܘܕܒ̇ܩ ܣܝܡܬܐ ܗܕܐ ܪܘܚܢܝܬܐ [ܫܡܥܘܢ] ܡܚܝܠܐ ܘܐܟܣܢܝܐ ܕܡܢ
@@ -181,7 +182,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate when="0884">884 AD</origDate>
+              <origDate>These vellum leaves are dated <origDate datingMethod="Seleucid" when-custom="1195">A. Gr. 1195</origDate>, <origDate calendar="Gregorian" when="0884">>A.D. 884</origDate>.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -206,7 +207,7 @@
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
                 <citedRange unit="entry">CCCCXXIII</citedRange>
-                <citedRange unit="pp">1:34</citedRange>
+                <citedRange unit="pp">1:340</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -371,6 +372,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-04">Edits to msContents, handDesc, origDate, and citedRange</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
