@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 172665178</title>
+        <title level="a" xml:lang="en">Add MS 17266 foll. 51-78</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/1084</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 172665178</idno>
+              <idno type="BL-Shelfmark">Add MS 17266 foll. 51-78</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,12 +82,19 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <title>The Psalms and Canticles, according to the Peshitta version.</title>
-              <note>The missing portions are: Ps. i. — li.; lxxviii. 69 — lxxxi. 2; xci. 16—xciv.
-                16; and xcvii. 3—cxviii. 117.</note>
-              <note>The Canticles were contained on foll. 76b— 78b, but nearly the whole of foll. 77
-                and 78 has been torn away. Consequently, too, only a very few words of the colophon
-                are left.</note>
+              <locus from="51a" to="78b"/>
+              <title>The <title ref="http://syriaca.org/work/19">Psalms</title> and <title ref="http://syriaca.org/work/10506">Canticles</title>, according to the Peshitta version.</title>
+              <msItem xml:id="b1" n="2" defective="true">
+                <locus from="51a" to="76"/>
+                <title ref="http://syriaca.org/work/19">The Psalms, according to the Peshitta version</title>
+                <note>The missing portions are: <ref target="http://syriaca.org/work/9672">Ps. i. — li.</ref>; <ref target="http://syriaca.org/work/9672">lxxviii. 69 — lxxxi. 2</ref>; <ref target="http://syriaca.org/work/9672">xci. 16—xciv.16</ref>; and <ref target="http://syriaca.org/work/9672">xcvii. 3—cxviii. 117</ref>.</note>
+              </msItem>
+              <msItem xml:id="b2" n="3" defective="true">
+                <locus from="76b" to="78b"/>
+                <title ref="http://syriaca.org/work/10506">The Canticles, according to the Peshitta version</title>
+                <note>The Canticles were contained on foll. 76b— 78b, but nearly the whole of foll. 77
+                and 78 has been torn away. Consequently, too, only a very few words of the <ref target="#addition1">colophon</ref> are left.</note>
+              </msItem>
             </msItem>
           </msContents>
           <physDesc>
@@ -101,7 +109,7 @@
                         51— 78), all more or less stained and torn. The quires, signed with letters,
                         were six in number (<foreign xml:lang="syr">ܘ</foreign>, fol. 68a); but the
                         first three are lost, and leaves are wanting after foll. 61, 66, and 67.
-                        Each page is divided into two columns, of from 25 to 30 lines. </p>
+                        Each page is divided into two columns, of from 25 to 30 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -115,6 +123,16 @@
                 <desc>The writing is good and regular, of the <date calendar="Gregorian" notBefore="1100" notAfter="1200">xiith cent</date>.</desc>
               </handNote>
             </handDesc>
+            <additions>
+              <p/>
+                <list>
+                  <item xml:id="addition1" n="1">
+                    <locus from="78b"/>
+                    <p>Only a very few words of the colophon are left on fol. 78b.
+                    </p>
+                   </item>                
+              </list>            
+            </additions>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -315,6 +333,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-04">Edits to msContents and additions</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-06-24" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
