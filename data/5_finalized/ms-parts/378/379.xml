@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14631116</title>
+        <title level="a" xml:lang="en">BL Add MS 14631 foll. 1-16</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/379</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14631116</idno>
+              <idno type="BL-Shelfmark">Add MS 14631 foll. 1-16</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -82,29 +83,22 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
               <locus from="1" to="14a">Fol. 1-14a</locus>
-              <author>
-                <persName>Theopistus</persName>
-              </author>
-              <title xml:lang="en" type="supplied">Part of a life of <persName ref="http://syriaca.org/person/2432">Dioscorus I</persName>., patriarch of <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>, the successor of <persName ref="http://syriaca.org/person/430">Cyril</persName>
+              <title xml:lang="en" type="supplied">Part of a life of <persName ref="http://syriaca.org/person/2432">Dioscorus I</persName>., patriarch of <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>, the successor of <persName ref="http://syriaca.org/person/430">Cyril</persName> (<note>See <bibl>Renaudot, Hist. Patr. Alexandrin. Jacobit., p. 114</bibl>, and <bibl>Le Quien, Oriens Christ., t. ii., col. 409</bibl></note>), written by his disciple <persName>Theopistus</persName>, 
+              <persName><foreign xml:lang="grc">Θεόπιστος</foreign></persName>, <persName><foreign xml:lang="syr">ܬܐܘܒܝܣܛܘܣ</foreign></persName> (fol. <locus from="1b" to="1b">1b</locus>., <locus from="12a" to="12a">12a</locus>) in the <placeName>Pentapolis</placeName> or <placeName>Cyrenaica</placeName>, shortly after the death of <persName ref="http://syriaca.org/person/2432">Dioscorus</persName>
               </title>
-              <quote xml:lang="syr">ܗܝܕܝܢ ܐܬ݀ܕܟܪܬ ܡ̈ܠܘܗܝ ܕܐܒܐ
+              <note>See fol. <locus from="13a">13 a</locus> at the foot: <quote xml:lang="syr">ܗܝܕܝܢ ܐܬ݀ܕܟܪܬ ܡ̈ܠܘܗܝ ܕܐܒܐ
                   ܕܝܠܝ ܕܐܬܢܒܝ ܥܠܝ ܘܐܡ̣ܪ ܕܩܝܢܕܝܢܘܣ ܪܒܐ ܐܬ̇ܐ ܥܠܝܟ. ܘܒܪܫܥܬܗ ܫ̇ܢܝܬ ܠܝ̣ ܠܦܢܛܐܦܘܠܝܣ ܡܕܝܢܬܐ̣
                   ܘܐܬ̇ܛ̇ܫܝܬ ܒܗ̇. ܘܬܡܢ ܐܟ̇ܬܒܬ ܠܗܕܐ ܬܫܥܝܬܐ ܕܐܒܘܢ ܚܣܝܐ ܘܩܕܝܫܐ ܡܪܝ ܕܝܣܩܪܘܣ. ܘܡ̇ܘܕܐ ܐܢܐ ܩܕܡ ܐܠܗܐ
-                  ܕܫܪܪܐ ܐܟ݁ܬܒܬ. ܏ܘܫ.<locus from="13a"/>
-              </quote>
-              <note>See <bibl>Renaudot, Hist. Patr. Alexandrin. Jacobit., p. 114</bibl>, and <bibl>Le Quien, Oriens Christ., t. ii., col. 409</bibl>
-              </note>
-              <note>Written by his disciple <persName>Theopistus</persName>, <!--% Add in Greek here-->, <foreign xml:lang="syr">ܬܐܘܒܝܣܛܘܣ</foreign> (fol. 1b., 12a) in the Pentapolis or Cyrenaica,
-                shortly after the death of <persName ref="http://syriaca.org/person/2432">Dioscorus</persName>.</note>
+                  ܕܫܪܪܐ ܐܟ݁ܬܒܬ. ܏ܘܫ.</quote>              
             </msItem>
             <msItem xml:id="a2" n="2" defective="true">
-              <locus from="14b">Fol. 14b.</locus>
+              <locus from="14b" to="16">Fol. 14b-16</locus>
               <title xml:lang="en" type="supplied">Extract from a letter of <persName ref="http://syriaca.org/person/113">Jacob of Edessa</persName> to the deacon <persName>Bar-had-be-shabba</persName>, against
                   the adherents of the Council of <placeName ref="http://syriaca.org/place/622">Chalcedon</placeName>
               </title>
-              <quote xml:lang="syr">ܕܡܪܝ ܝܥܩܘܒ ܕܐܘܪܗܝ ܡܢ ܐܓܪܬܐ
-                  ܕܠܘܬ ܫܡܫܐ ܒܪܚܕܒܫܒܐ. ܠܘܩܒܠ ܟܠܩܝ̈ܕܘܢܝܐ.</quote>
-              <note>Imperfect at the end</note>
+              <rubric xml:lang="syr">ܕܡܪܝ ܝܥܩܘܒ ܕܐܘܪܗܝ ܡܢ ܐܓܪܬܐ
+                  ܕܠܘܬ ܫܡܫܐ ܒܪܚܕܒܫܒܐ. ܠܘܩܒܠ ܟܠܩܝ̈ܕܘܢܝܐ.</rubric>
+              <note>Imperfect at the end.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -333,6 +327,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-06" >Edits to msContents</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-07-07" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
