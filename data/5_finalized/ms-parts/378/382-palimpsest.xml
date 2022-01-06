@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14631 foll. 45—53, upper text</title>
+        <title level="a" xml:lang="en">BL Add MS 14631 fol. 45, lower text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -14,11 +14,10 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
-        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Based on the work of</resp>
@@ -50,7 +49,7 @@
     </editionStmt>
       <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/381/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/382/tei</idno>
         <availability>
             <p/>
             <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -60,15 +59,15 @@
         <date calendar="Gregorian">2022-01-03-05:00</date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-381">
+        <msDesc xml:id="manuscript-382">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/381</idno>
+            <idno type="URI">http://syriaca.org/manuscript/382</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14631 foll. 45-53, upper text</idno>
+              <idno type="BL-Shelfmark">Add MS 14631, fol. 45, lower text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,44 +80,11 @@
           </msIdentifier>
           <msContents>
             <summary/>
-            <textLang mainLang="syr"/>
+            <textLang mainLang="cop"/>
             <msItem xml:id="a1" n="1">
-              <locus from="45a" to="45a">Fol. 45a</locus>
-              <title xml:lang="en">Part of a prayer</title>
-            </msItem>
-            <msItem xml:id="a2" n="2">
-              <locus from="45a" to="49a">Fol. 45a-49a</locus>
-              <title xml:lang="en">Questions addressed by the priest
-                  <persName>Sergius</persName> to <persName ref="https://syriaca.org/person/50">John bar Cyriacus</persName>, bishop of
-                  <placeName ref="http://syriaca.org/place/2848">Tellā</placeName>, with the replies of the latter</title>
-              <rubric xml:lang="syr">ܫ̈ܘܐܠܐ ܕܫܐܠ ܩܫܝܫܐ ܣܪܓܝܣ. ܠܚܣܝܐ ܡܪܝ ܝܘܚܢܢ ܒܪ ܩܘܪܝܩܘܣ ܐܦܝܣܩܘܦܐ
-                ܕܬܠܐ ܕܡܘܙܠܬ. ܐܝܬ ܠܗܘܢ ܛܟܣܐ ܕܩ̈ܢܘܢܐ</rubric>
-              <finalRubric xml:lang="syr">ܫܠܡ ܩ̈ܢܘܢܐ ܕܡܪܝ ܝܘܚܢܢ ܒܪ ܩܘܪܩܘܣ<locus from="49a"/>
-              </finalRubric>
-              <note>These are also called <title>the Canons of <persName ref="https://syriaca.org/person/50">John of Tellā</persName></title></note>
-              <note>See <bibl>Lamy, Dissert, de Syrorum fide et disciplina in re Eucharistica, p.
-                  62.</bibl>
-              </note>
-            </msItem>
-            <msItem xml:id="a3" n="3">
-              <locus from="49a" to="52">Fol. 49a-52</locus>
-              <title xml:lang="en">Questions addressed by the priest <persName>Addai</persName> to <persName ref="https://syriaca.org/person/113">Jacob of Edessa</persName>, with the replies of the latter</title>
-              <rubric xml:lang="syr">ܬܘܒ ܕܡܪܝ ܝܥܩܘܒ ܕܐܘܪܗܝ ܫ̈ܘܐܠܐ ܕܫܐܠܗ ܩܫܝܫܐ ܐܕܝ</rubric>
-              <note>See <bibl>de Lagarde, Reliquiae juris ecclesiast. antiquiss.,19.1 p. ܩܟܕ,
-                </bibl> and <bibl>Lamy, Dissert. de Syr. fide etc., p. 98.</bibl>
-              </note>
-            </msItem>
-            <msItem xml:id="a4" n="4" defective="true">
-              <locus from="52b" to="53">Foll. 52b-53</locus>
-              <title xml:lang="en">A calendar of Saints' days</title>
-              <rubric xml:lang="syr">[ܩܘܕܝܟـ]ـܣ ܐܘܟܝܬ ܛܘܟܣܐ ܕܕܘܟܪ̈ܢܐ ܕܩ̈ܕܝܫܐ ܕܒܐܝܢܐ ܕܗ̣ܘ ܝܘܡܐ ܐܘ . . . ܕܟܪܘܟܝܐ ܕܟܠܗ̇ ܫܢܬܐ</rubric>
-            </msItem>
-            <msItem xml:id="a5" n="5" defective="true">
-              <locus from="53b" to="53b">Fol. 53b</locus>
+              <locus from="45a" to="45b">Fol. 45<locus>
               <title xml:lang="en">Unspecified contents</title>
-              <note>Fol. 53 b was also covered with writing by the same hand, but this leaf is so
-                    much mutilated, that it is impossible to say what the subject was.</note>
-            </msItem>
+            </msItem>            
           </msContents>
           <physDesc>
             <objectDesc form="codex">
@@ -131,14 +97,9 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Vellum, about 7 3/4 in. by 5 1/8, consisting of 9 leaves (Add. 14,631,
-                        foll. 45 — 53), of which the first and last are much stained and torn. There
-                        are from 29 to 39 lines in each page.</p>
-                    </item>
-                    <item>
-                      <p>Fol. <locus from="45a" to="45b">45</locus> is palimpsest. The more ancient text is Coptic, written in double
-                    columns, in uncial characters of about the <date calendar="Gregorian" notBefore="0600" notAfter="0700">viith cent.</date> Perhaps the leaf belonged
-                    to the palimpsest that appears in <ref target="http://syriaca.org/manuscript/<!--Justin: URI to be determined-->">Add. 17,183</ref>.</p> <!--Justin: This <ref> will need a URI for the palimpsest of Add. 17,183. Since in Wright's assessment, this folio and the palimpsestic Add. 17,183 may belong together, this <ref> URI for palimpsest Add. 17,183 and URI for palimpsest Add MS 14631 fol. 45 may need the same URI may need to be merged as separate msParts in same theoretical manuscript-->
+                      <p>This folio is palimpsest. The more ancient text is Coptic, written in double
+                    columns, in uncial characters of about the <origDate calendar="Gregorian" notBefore="0600" notAfter="0700">viith cent.</origDate> Perhaps the leaf belonged
+                    to the palimpsest that appears in <ref target="http://syriaca.org/manuscript/<!--Justin: URI to be determined-->">Add. 17,183</ref>.</p> <!--Justin: This <ref> will need a URI for the palimpsest of Add. 17,183. Since in Wright's assessment, this folio and the palimpsestic Add. 17,183 may belong together, this <ref> URI for palimpsest Add. 17,183 and URI for palimpsest Add MS 14631 fol. 45 may need the same URI or may need to be merged as separate msParts in same theoretical manuscript-->
                     </item>
                   </list>
                 </condition>
@@ -148,8 +109,9 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>The writing is good and regular, partly Estrangela, partly current, of the <origDate calendar="Gregorian" notBefore="0800" notAfter="1000">ixth or xth cent.</origDate></desc>
+              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="cop">
+                <desc>The more ancient text is Coptic, written in double
+                    columns, in uncial characters of about the <origDate calendar="Gregorian" notBefore="0600" notAfter="0700">viith cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -163,8 +125,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0800" notAfter="1000">IXth or Xth
-                Century</origDate>
+              <origDate notBefore="0600" notAfter="0700">VIIth Century</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -354,11 +315,10 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-06" >Edits to msContents, physDesc, and handDesc; created separate file for palimpsest</change>
+        <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-06">Initial TEI encoding.</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-03">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
       <change type="planned" subtype="consultation">Wright could not determine the contents; the physical manuscript needs to be consulted and redescribed, if possible.</change>
-      <change type="planned" subtype="palimpsest">Another file for palimpsest will need to be created and merged with the palimpsest for Add. 17,183</change>
+      <change type="planned" subtype="palimpsest">This file may need to be merged with the palimpsest for Add. 17,183</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
