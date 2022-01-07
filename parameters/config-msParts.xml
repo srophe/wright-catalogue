@@ -19,6 +19,19 @@
             </scriptEditor>
         </revisionDesc>
     </manuscriptLevelMetadata>
+    <!-- This element should be left empty **unless** merging msParts into an existing record that already has msPart elements.
+        The existing msPart elements should be included in the <msPartFiles> list below as <fileName> elements whose text node is the
+        xml:id of the corresponding msPart element, preceded by a "#", e.g. "#Part3".
+        The order of msParts and ms part files should reflect the desired **final** order of the record.
+        So, if parts 1, 2 and 4 are included (but labelled, "Part1", "Part2", and "Part"3), but part 3 is in a separate file called "135.xml" and must
+        inserted into the sequence, the following is how the elements should look:
+        <fileName>#Part1</fileName>
+        <fileName>#Part2</fileName>
+        <fileName>135.xml</fileName>
+        <fileName>#Part3</fileName>
+       The resulting record will have the 4 parts, each renumbered as needed according to the above sequence order.
+        -->
+    <compositeMsFile></compositeMsFile>
     <msPartFiles><!-- these should be xml file names containing the data to be converted to msParts. These files should be stored in the folder declared above in the pathToMsPartsFolder text node. They should be ordered according to the sequence they should appear in the msParts sequence (i.e., the first ms part should be the first fileName element in the below sequence, even if it is not the numerically smallest URI value.-->
         <fileName>1070.xml</fileName>
         <fileName>1071.xml</fileName>
