@@ -51,6 +51,21 @@ declare variable $msParts:manuscript-part-source-document-sequence :=
       let $fullFilePath := $msParts:path-to-msParts-folder || $file/text()
       return doc($fullFilePath);
      
+declare variable $msParts:taxonomy-classification-map :=
+
+    for $file at $i in $msParts:config-msParts/config/msPartFiles/fileName
+    let $classId := 
+      if(starts-with($file/text(), "#")) then 
+      (: find the textClass item that matches the part designation in the template file :)
+      let $classItem := $msParts:composite-file-template//tei:textClass/tei:keywords/tei:list/tei:item[tei:ref/@target = $file/text()]
+      return string($classItem/tei:ref[@target != $file/text()]/@target)
+      else string($msParts:manuscript-part-source-document-sequence[$i]//tei:textClass/tei:keywords/tei:list/tei:item/tei:ref/@target)
+    return
+      <map>
+        <part>{"Part" || $i}</part>
+        <value>{string-join($classId, " ")}</value>
+      </map>;
+     
 declare variable $msParts:record-title :=
   $msParts:config-msParts/config/manuscriptLevelMetadata/recordTitle/text();
    
@@ -323,13 +338,8 @@ declare function msParts:add-part-designation-to-recordHist($recordHist as node(
 (: ------------------------------ :)
 
 declare function msParts:create-merged-textClass($msPartsDocumentSequence as node()+) as node() {
-  (: note: currently assumes each msPart has only one ref/@target for the value. Would there be cases where this isn't true that we should handle? Also assuming only one keywords element. :)
-  let $valueAndPartSequence := for $msPart at $i in $msPartsDocumentSequence
-    let $valueRef := <value>{functx:substring-after-if-contains(fn:string($msPart//tei:textClass/tei:keywords/tei:list/tei:item/tei:ref/@target), "#")}</value>
-    let $partRef := <part>{"Part"||$i}</part>
-    return <map>{$valueRef, $partRef}</map>
-  let $valueSeq := $valueAndPartSequence//value
-  let $partSeq := $valueAndPartSequence//part
+  let $valueSeq := $msParts:taxonomy-classification-map//value
+  let $partSeq := $msParts:taxonomy-classification-map//part
   let $keywords := mss:create-keywords-node("Wright-BL-Taxonomy", $valueSeq, $partSeq)
   return element {QName("http://www.tei-c.org/ns/1.0", "textClass")} {$keywords}
 };

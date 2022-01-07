@@ -417,8 +417,8 @@ declare function mss:create-textClass($uri as xs:string) as node() {
 declare function mss:create-keywords-node($keywordSchemeValue as xs:string, $keywordTargetValues as xs:string+, $msPartDesignations as xs:string*) as node() {
   let $keywordSchemeValue := functx:substring-after-if-contains($keywordSchemeValue, "#")
   let $items := for $value at $i in $keywordTargetValues
-    let $valueRef := element {QName("http://www.tei-c.org/ns/1.0", "ref")} {attribute {"target"} {"#"||$value}}
-    let $partRef := if($msPartDesignations[$i] != "") then element {QName("http://www.tei-c.org/ns/1.0", "ref")} {attribute {"target"} {"#"||$msPartDesignations[$i]}} else ()
+    let $valueRef := element {QName("http://www.tei-c.org/ns/1.0", "ref")} {attribute {"target"} {"#"||functx:substring-after-if-contains($value, "#")}}
+    let $partRef := if($msPartDesignations[$i] != "") then element {QName("http://www.tei-c.org/ns/1.0", "ref")} {attribute {"target"} {"#"||functx:substring-after-if-contains($msPartDesignations[$i], "#")}} else ()
     return  element {QName("http://www.tei-c.org/ns/1.0", "item")} {$valueRef, $partRef}
   let $list :=  element {QName("http://www.tei-c.org/ns/1.0", "list")} {$items}
   return  element {QName("http://www.tei-c.org/ns/1.0", "keywords")} {attribute {"scheme"} {"#"||$keywordSchemeValue}, $list}
