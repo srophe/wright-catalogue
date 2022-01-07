@@ -313,7 +313,7 @@ declare function msParts:add-part-designation-to-additions-items($additions as n
 
 declare function msParts:add-part-designation-to-additional($additional as node(), $partNumber as xs:string) as node() {
   let $wrightBibl := $additional/tei:listBibl/tei:bibl
-  let $newBiblId := fn:string($wrightBibl/@xml:id)||"part"||$partNumber
+  let $newBiblId := "Wrightpart"||$partNumber
   let $newRecordHist := msParts:add-part-designation-to-recordHist($additional/tei:adminInfo/tei:recordHist, $newBiblId)
   let $adminInfo := element {fn:node-name($additional/tei:adminInfo)} {$newRecordHist, $additional/tei:adminInfo/tei:note}
 
