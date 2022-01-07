@@ -350,10 +350,10 @@ declare function msParts:create-merged-textClass($msPartsDocumentSequence as nod
 
 declare function msParts:create-merged-revisionDesc($msPartsDocumentSequence as node()+) as node() {
   let $docUriSeq := for $doc in $msPartsDocumentSequence
-    return $doc//tei:msDesc/tei:msIdentifier/tei:idno/text()
+    return if($doc//tei:msDesc) then $doc//tei:msDesc/tei:msIdentifier/tei:idno/text() else $doc//tei:msIdentifier/tei:idno/text()
   let $mergedChangeLog := "Merged the following URIs as msPart elements: "||fn:string-join($docUriSeq, "; ")
   let $mergedChangeNode := element {QName("http://www.tei-c.org/ns/1.0", "change")} {attribute {"who"} {$config:editors-document-uri||"#"||$config:change-log-script-id}, attribute {"when"} {fn:current-date()}, $mergedChangeLog}
-  let $fullChangeListByUri := for $doc in $msPartsDocumentSequence
+  let $fullChangeListByUri := for $doc in ($msParts:composite-file-template, $msPartsDocumentSequence)
     let $docUri := $doc//tei:msDesc/tei:msIdentifier/tei:idno/text()
     let $changeLogPrefix := "["||$docUri||"]: "
     for $change in $doc//tei:revisionDesc/tei:change
