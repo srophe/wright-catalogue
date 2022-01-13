@@ -99,7 +99,7 @@
                     <item>
                       <p>This folio is palimpsest. The more ancient text is Coptic, written in double
                     columns, in uncial characters of about the <origDate calendar="Gregorian" notBefore="0600" notAfter="0700">viith cent.</origDate> Perhaps the leaf belonged
-                    to the palimpsest that appears in <ref target="http://syriaca.org/manuscript/<!--Justin: URI to be determined-->">Add. 17,183</ref>.</p> <!--Justin: This <ref> will need a URI for the palimpsest of Add. 17,183. Since in Wright's assessment, this folio and the palimpsestic Add. 17,183 may belong together, this <ref> URI for palimpsest Add. 17,183 and URI for palimpsest Add MS 14631 fol. 45 may need the same URI or may need to be merged as separate msParts in same theoretical manuscript-->
+                    to the palimpsest that appears in <ref target="http://syriaca.org/manuscript/1489">Add. 17,183</ref>.</p> 
                     </item>
                   </list>
                 </condition>
@@ -315,10 +315,11 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-        <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-06">Initial TEI encoding.</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-13" >Added URI for palimpsest</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-06">Initial TEI encoding.</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-03">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change type="planned" subtype="consultation">Wright could not determine the contents; the physical manuscript needs to be consulted and redescribed, if possible.</change>
-      <change type="planned" subtype="palimpsest">This file may need to be merged with the palimpsest for Add. 17,183</change>
+      <change type="planned" subtype="palimpsest">This file may need to be merged with the palimpsest for Add. 17,183 (URI: 1489)</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
