@@ -81,32 +81,34 @@
           <msContents>
             <summary/>
             <textLang mainLang="cop"/>
-            <msItem xml:id="a1" n="1">
+            <msItem xml:id="a1" n="1" defective="true">
               <locus from="1a" to="187">Foll. 1a-187<locus>
               <title xml:lang="en">Several books of the <title ref="http://syriaca.org/work/9586">Old Testament</title> in the Sahidic dialect</title>
-              <msItem xml:id="b1" n="2">
-                <locus from="" to=""></locus>
-                <title xml:lang="en" type="supplied"></title>
+              <msItem xml:id="b1" n="2" defective="true">
+                <locus from="42b" to="42b">Fol. 42b</locus>
+                <title xml:lang="en" type="supplied"><title ref="https://syriaca.org/work/9534">Esther</title>, ch. iv. 3-8</title>
+                <note>This folio has been left partially blank by the later scribe. See <ref target="http://syriaca.org/manuscript/1488">BL Add MS 17183, upper text</ref>.</note>
                 </msItem>
-              <msItem xml:id="b2" n="3">
-                <locus from="" to=""></locus>
-                <title xml:lang="en" type="supplied"></title>
+              <msItem xml:id="b2" n="3" defective="true">
+                <locus from="60a" to="60a">Fol. 60a</locus>
+                <title xml:lang="en" type="supplied">Part of <title ref="https://syriaca.org/work/9650">Judges</title>, ch. i. 13, 15</title>
                 </msItem>
-              <msItem xml:id="b3" n="4">
-                <locus from="" to=""></locus>
-                <title xml:lang="en" type="supplied"></title>
+              <msItem xml:id="b3" n="4" defective="true">
+                <locus from="108a" to="108a">Fol. 108a</locus>
+                <title xml:lang="en" type="supplied"><title ref="https://syriaca.org/work/9650">Judges</title>, ch. ix. 31-36</title>
+                <note>This folio has been left wholly blank by the later scribe. See <ref target="http://syriaca.org/manuscript/1488">BL Add MS 17183, upper text</ref>.</note>
                 </msItem>
-              <msItem xml:id="b4" n="5">
-                <locus from="" to=""></locus>
-                <title xml:lang="en" type="supplied"></title>
+              <msItem xml:id="b4" n="5" defective="true">
+                <locus from="116a" to="116b">Foll. 116a-116b</locus>
+                <title xml:lang="en" type="supplied">Part of <title ref="https://syriaca.org/work/9650">Judges</title>, ch. ix. 18, 20, 23, 25</title>
                 </msItem>
-              <msItem xml:id="b5" n="6">
-                <locus from="" to=""></locus>
-                <title xml:lang="en" type="supplied"></title>
+              <msItem xml:id="b5" n="6" defective="true">
+                <locus from="163a" to="163b"></locus>
+                <title xml:lang="en" type="supplied">Part of <title ref="https://syriaca.org/work/9651">Ruth</title>, ch. iii. 14, 16, and ch. iv. 1</title>
                 </msItem>
-              <msItem xml:id="b6" n="7">
-                <locus from="" to=""></locus>
-                <title xml:lang="en" type="supplied"></title>
+              <msItem xml:id="b6" n="7" defective="true">
+                <locus from="164b" to="164b">Fol. 164b</locus>
+                <title xml:lang="en" type="supplied">Part of <title ref="https://syriaca.org/work/9651">Ruth</title>, ch. iv. 13, 16</title>
                 </msItem>
             </msItem>            
           </msContents>
@@ -121,9 +123,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>This folio is palimpsest. The more ancient text is Coptic, written in double
-                    columns, in uncial characters of about the <origDate calendar="Gregorian" notBefore="0600" notAfter="0700">viith cent.</origDate> Perhaps the leaf belonged
-                    to the palimpsest that appears in <ref target="http://syriaca.org/manuscript/<!--Justin: URI to be determined-->">Add. 17,183</ref>.</p> <!--Justin: This <ref> will need a URI for the palimpsest of Add. 17,183. Since in Wright's assessment, this folio and the palimpsestic Add. 17,183 may belong together, this <ref> URI for palimpsest Add. 17,183 and URI for palimpsest Add MS 14631 fol. 45 may need the same URI or may need to be merged as separate msParts in same theoretical manuscript-->
+                      <p>This volume is palimpsest throughout. The more ancient text is that of a Coptic manuscript. Each page is divided into two columns of 25 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -134,8 +134,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="cop">
-                <desc>The more ancient text is Coptic, written in double
-                    columns, in uncial characters of about the <origDate calendar="Gregorian" notBefore="0600" notAfter="0700">viith cent.</origDate></desc>
+                <desc>The more ancient text is written in uncial characters, of about the <origDate calendar="Gregorian" notBefore="0600" notAfter="0700">viith cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -174,7 +173,7 @@
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
                 <citedRange unit="entry">DCCCVII</citedRange>
-                <citedRange unit="pp">2:815</citedRange>
+                <citedRange unit="pp">2:823</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -339,10 +338,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-        <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-06">Initial TEI encoding.</change>
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-03">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change type="planned" subtype="consultation">Wright could not determine the contents; the physical manuscript needs to be consulted and redescribed, if possible.</change>
-      <change type="planned" subtype="palimpsest">This file may need to be merged with the palimpsest for Add. 17,183</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-13">Initial TEI encoding</change>      
     </revisionDesc>
   </teiHeader>
   <facsimile>
