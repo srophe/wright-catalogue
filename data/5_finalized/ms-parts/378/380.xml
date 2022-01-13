@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 146311744</title>
+        <title level="a" xml:lang="en">BL Add MS 14631 foll. 17-44</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/380</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 146311744</idno>
+              <idno type="BL-Shelfmark">Add MS 14631 foll. 17-44</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -82,11 +83,10 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
               <title xml:lang="en" type="supplied">Anecdotes of holy men and women, chiefly Egyptian, from the earliest times down to the
-                end of the <date calendar="Gregorian" notBefore="0400" notAfter="0500">vth cent.</date>
+                end of the <date calendar="Gregorian" notBefore="0450" notAfter="0500">vth cent.</date>
               </title>
               <note>They are numbered with red letters on the margin, as far as
-                <foreign xml:lang="syr">ܦܕ</foreign>.</note>
-              <note>Only the first anecdote is altogether wanting, but <foreign xml:lang="syr">ܒ</foreign>,<foreign xml:lang="syr">ܟܐ</foreign>,<foreign xml:lang="syr">ܟܒ</foreign>,
+                <foreign xml:lang="syr">ܦܕ</foreign>. Only the first anecdote is altogether wanting, but <foreign xml:lang="syr">ܒ</foreign>,<foreign xml:lang="syr">ܟܐ</foreign>,<foreign xml:lang="syr">ܟܒ</foreign>,
                 and<foreign xml:lang="syr">ܦܕ</foreign>, are more or less imperfect.</note>
             </msItem>
           </msContents>
@@ -98,7 +98,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Vellum, about 7 1/4in. by 5 1/4, consisting of 28 leaves (Add.
+                      <p>Vellum, about 7 1/4 in. by 5 1/4, consisting of 28 leaves (Add.
                         14,631, foll. 17—44), some of which are much stained and torn, especially foll. 25, 33, 35,
                         and 44. The quires, now only three in number, are signed with letters. One leaf is missing at
                         the beginning, and another after fol. 24; how much is wanting at the end, cannot be
@@ -113,7 +113,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
-                <desc>This manuscript is written in a small, neat hand of the <date calendar="Gregorian" notBefore="0800" notAfter="0900">ixth</date> or <date notBefore="0900" notAfter="1000">xth cent.</date>
+                <desc>This manuscript is written in a small, neat hand of the <origDate calendar="Gregorian" notBefore="0800" notAfter="1000">ixth or xth cent.</origDate>
                 </desc>
               </handNote>
             </handDesc>
@@ -152,7 +152,7 @@
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
                 <citedRange unit="entry">DCCCCXXXIII</citedRange>
-                <citedRange unit="pp">3:108</citedRange>
+                <citedRange unit="pp">3:1080</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -317,6 +317,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-06" >Edits to msContents, handDesc, and citedRange</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-07-07" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
