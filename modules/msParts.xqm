@@ -36,10 +36,35 @@ declare variable $msParts:config-msParts :=
 declare variable $msParts:path-to-msParts-folder :=
   $config:path-to-repo || $msParts:config-msParts/config/manuscriptLevelMetadata/pathToMsPartsFolder/text();
   
+declare variable $msParts:composite-file-template :=
+  if($msParts:config-msParts/config/compositeMsFile/text() != "") then
+  let $pathToFile := $msParts:path-to-msParts-folder || $msParts:config-msParts/config/compositeMsFile/text()
+  return doc($pathToFile)
+  else();
+  
 declare variable $msParts:manuscript-part-source-document-sequence :=
   for $file in $msParts:config-msParts/config/msPartFiles/fileName
-    let $fullFilePath := $msParts:path-to-msParts-folder || $file/text()
-    return fn:doc($fullFilePath);
+    return if(starts-with($file/text(), "#")) then 
+      let $partId := substring-after($file/text(), "#")
+      return $msParts:composite-file-template//tei:msDesc/tei:msPart[@xml:id = $partId]
+    else
+      let $fullFilePath := $msParts:path-to-msParts-folder || $file/text()
+      return doc($fullFilePath);
+     
+declare variable $msParts:taxonomy-classification-map :=
+
+    for $file at $i in $msParts:config-msParts/config/msPartFiles/fileName
+    let $classId := 
+      if(starts-with($file/text(), "#")) then 
+      (: find the textClass item that matches the part designation in the template file :)
+      let $classItem := $msParts:composite-file-template//tei:textClass/tei:keywords/tei:list/tei:item[tei:ref/@target = $file/text()]
+      return string($classItem/tei:ref[@target != $file/text()]/@target)
+      else string($msParts:manuscript-part-source-document-sequence[$i]//tei:textClass/tei:keywords/tei:list/tei:item/tei:ref/@target)
+    return
+      <map>
+        <part>{"Part" || $i}</part>
+        <value>{string-join($classId, " ")}</value>
+      </map>;
      
 declare variable $msParts:record-title :=
   $msParts:config-msParts/config/manuscriptLevelMetadata/recordTitle/text();
@@ -70,7 +95,7 @@ declare variable $msParts:index-of-pending-id-updates-directory :=
 
 declare function msParts:create-composite-document($msPartsDocumentSequence as node()+) as item()+ {
   (: the first record in the msParts sequence serves as the template for all data shared between msPart records :)
-  let $templateDocument := $msPartsDocumentSequence[1]
+  let $templateDocument := if(boolean($msParts:composite-file-template)) then $msParts:composite-file-template else $msPartsDocumentSequence[1]
 
   (: get all shared data from template :)
   let $processingInstructions := $templateDocument/processing-instruction()
@@ -119,11 +144,11 @@ declare function msParts:merge-editor-list($documentSequence as node()+) as node
 declare function msParts:merge-respStmt-list($documentSequence as node()+) as node()+ {
   let $fullRespStmtList := $documentSequence//tei:respStmt
   let $creatorRespStmts := for $respStmt in $fullRespStmtList
-    return if($respStmt/tei:resp/text() = "Created by") then $respStmt
+    return if($respStmt/tei:resp/text() = "Created by") then element {node-name($respStmt)} {$respStmt/*}
   let $editorRespStmts := for $respStmt in $fullRespStmtList
-    return if($respStmt/tei:resp/text() = "Edited by") then $respStmt
+    return if($respStmt/tei:resp/text() = "Edited by") then element {node-name($respStmt)} {$respStmt/*}
   let $projectManagerRespStmts := for $respStmt in $fullRespStmtList
-    return if($respStmt/tei:resp/text() = "Project management by") then $respStmt
+    return if($respStmt/tei:resp/text() = "Project management by") then element {node-name($respStmt)} {$respStmt/*}
   
   let $updatedRespList := for $respStmt in $documentSequence[1]//tei:titleStmt/tei:respStmt
     let $respDesc := $respStmt/tei:resp/text()
@@ -137,12 +162,14 @@ declare function msParts:merge-respStmt-list($documentSequence as node()+) as no
 };
 
 declare function msParts:create-merged-titleStmt($documentSequence as node()+) as node() {
-  let $titleStmtTemplate := $documentSequence[1]//tei:titleStmt
+  (: use the declared template file, if it exists. Otherwise use the first file in the ms part file sequence :)
+  let $templateDoc := if(boolean($msParts:composite-file-template)) then $msParts:composite-file-template else $documentSequence[1]
+  let $titleStmtTemplate := $templateDoc//tei:titleStmt
   let $recordTitle := $titleStmtTemplate/tei:title[@level="a"]
   let $recordTitle := element {node-name($recordTitle)} {$recordTitle/@*, $msParts:record-title}
   let $moduleTitle := $titleStmtTemplate/tei:title[@level="m"]
-  let $mergedEditorList := msParts:merge-editor-list($documentSequence)
-  let $mergedRespStmtList := msParts:merge-respStmt-list($documentSequence)
+  let $mergedEditorList := msParts:merge-editor-list(($templateDoc, $documentSequence))
+  let $mergedRespStmtList := msParts:merge-respStmt-list(($templateDoc, $documentSequence))
   
   (: Create the updated titleStmt element from the new record title, all the elements shared between the records, and the element and respStmt lists :)
   return element {node-name($titleStmtTemplate)} {$recordTitle, $moduleTitle, $titleStmtTemplate/*[not(name() = "title") and not(name() = "editor") and not(name() = "respStmt")], $mergedEditorList, $mergedRespStmtList}
@@ -151,7 +178,7 @@ declare function msParts:create-merged-titleStmt($documentSequence as node()+) a
 declare function msParts:create-publicationStmt($uri as xs:string) as node() {
   let $uri := if (fn:starts-with($uri, "http")) then $uri||"/tei" else $config:uri-base||$uri||"/tei"
   
-  let $templateRecord := $msParts:manuscript-part-source-document-sequence[1]
+  let $templateRecord := if(boolean($msParts:composite-file-template)) then $msParts:composite-file-template else $msParts:manuscript-part-source-document-sequence[1]
   let $templatePubStmt := $templateRecord//tei:publicationStmt
   let $idno := $templatePubStmt/tei:idno
   let $idno := element {fn:node-name($idno)} {$idno/@*, $uri}
@@ -189,9 +216,10 @@ declare function msParts:create-main-msIdentifier() {
 declare function msParts:create-msPart-sequence($msPartDocumentSequence as node()+) as node()+ {
   (: the function msParts:create-msPart returns both an msPart element and a <part/> element containing an index of id updates. These get separated out below :)
   let $msPartsAndIndex := 
-    for $doc at $i in $msPartDocumentSequence (: figuring out how to handle adding them into existing msParts will be interesting. Potentially an 'update-msPart-sequence' function where you somehow specify the value of the part number and where within it you want it to go. Think more about htis.
-    An option: have in config-msParts an attribute (@n?) for each fileName. If blank, just use the file order (could get tricky), otherwise use the @n value. :)
-    return msParts:create-msPart($doc//tei:msDesc, fn:string($i))
+    for $doc at $i in $msPartDocumentSequence 
+    (: use the tei:msDesc node if the ms part is a separate file; otherwise use the root node which should be a tei:msPart gotten from the template file :)
+    let $desc := if($doc//tei:msDesc) then $doc//tei:msDesc else $doc
+    return msParts:create-msPart($desc, fn:string($i))
   
   (: separate the msPart nodes from the nodes containing id update indices. :)
   let $partsIndices := $msPartsAndIndex/self::*:part
@@ -285,7 +313,7 @@ declare function msParts:add-part-designation-to-additions-items($additions as n
 
 declare function msParts:add-part-designation-to-additional($additional as node(), $partNumber as xs:string) as node() {
   let $wrightBibl := $additional/tei:listBibl/tei:bibl
-  let $newBiblId := fn:string($wrightBibl/@xml:id)||"part"||$partNumber
+  let $newBiblId := "Wrightpart"||$partNumber
   let $newRecordHist := msParts:add-part-designation-to-recordHist($additional/tei:adminInfo/tei:recordHist, $newBiblId)
   let $adminInfo := element {fn:node-name($additional/tei:adminInfo)} {$newRecordHist, $additional/tei:adminInfo/tei:note}
 
@@ -310,13 +338,8 @@ declare function msParts:add-part-designation-to-recordHist($recordHist as node(
 (: ------------------------------ :)
 
 declare function msParts:create-merged-textClass($msPartsDocumentSequence as node()+) as node() {
-  (: note: currently assumes each msPart has only one ref/@target for the value. Would there be cases where this isn't true that we should handle? Also assuming only one keywords element. :)
-  let $valueAndPartSequence := for $msPart at $i in $msPartsDocumentSequence
-    let $valueRef := <value>{functx:substring-after-if-contains(fn:string($msPart//tei:textClass/tei:keywords/tei:list/tei:item/tei:ref/@target), "#")}</value>
-    let $partRef := <part>{"Part"||$i}</part>
-    return <map>{$valueRef, $partRef}</map>
-  let $valueSeq := $valueAndPartSequence//value
-  let $partSeq := $valueAndPartSequence//part
+  let $valueSeq := $msParts:taxonomy-classification-map//value
+  let $partSeq := $msParts:taxonomy-classification-map//part
   let $keywords := mss:create-keywords-node("Wright-BL-Taxonomy", $valueSeq, $partSeq)
   return element {QName("http://www.tei-c.org/ns/1.0", "textClass")} {$keywords}
 };
@@ -327,10 +350,10 @@ declare function msParts:create-merged-textClass($msPartsDocumentSequence as nod
 
 declare function msParts:create-merged-revisionDesc($msPartsDocumentSequence as node()+) as node() {
   let $docUriSeq := for $doc in $msPartsDocumentSequence
-    return $doc//tei:msDesc/tei:msIdentifier/tei:idno/text()
+    return if($doc//tei:msDesc) then $doc//tei:msDesc/tei:msIdentifier/tei:idno/text() else $doc//tei:msIdentifier/tei:idno/text()
   let $mergedChangeLog := "Merged the following URIs as msPart elements: "||fn:string-join($docUriSeq, "; ")
   let $mergedChangeNode := element {QName("http://www.tei-c.org/ns/1.0", "change")} {attribute {"who"} {$config:editors-document-uri||"#"||$config:change-log-script-id}, attribute {"when"} {fn:current-date()}, $mergedChangeLog}
-  let $fullChangeListByUri := for $doc in $msPartsDocumentSequence
+  let $fullChangeListByUri := for $doc in ($msParts:composite-file-template, $msPartsDocumentSequence)
     let $docUri := $doc//tei:msDesc/tei:msIdentifier/tei:idno/text()
     let $changeLogPrefix := "["||$docUri||"]: "
     for $change in $doc//tei:revisionDesc/tei:change
