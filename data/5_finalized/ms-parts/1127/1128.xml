@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -82,11 +83,12 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
               <author ref="https://syriaca.org/person/51">Severus</author>
-              <author>John bar Aphtunaya</author>
-              <title xml:lang="en">The Hymns of <persName>Severus</persName>, <persName>John
+              <author ref="http://syriaca.org/person/52">John bar Aphtunaya</author>
+              <title xml:lang="en">The Hymns of <persName ref="https://syriaca.org/person/51">Severus</persName>, <persName ref="https://syriaca.org/person/52">John
                   bar Aphtūnāyā</persName>, etc. </title>
-              <note>The last number in the older portion of the manuscript is 143 (fol. 79 b,
-                ܫܡܓ).</note>
+              <note>The last number in the older portion of the manuscript is 143 (fol. <locus from="79b">79 b</locus>,
+                <foreign xml:lang="syr">ܫܡܓ</foreign>).</note>
+                <note>The principal rubrics are noted below.</note>
               <msItem xml:id="b1" n="2">
                 <locus from="2a"/>
                 <rubric xml:lang="syr">ܥܠ ܣܝܡ ܒܘܪܟܐ ܕܦܢܛܝܩܘܣܛܐ</rubric>
@@ -118,8 +120,7 @@
               </msItem>
               <msItem xml:id="b8" n="9">
                 <locus from="55a"/>
-                <title xml:lang="en">Various ܡ̈ܥܢܝܬܐ ܕܡܪܬܝܢܘܬܐ ܘܕܬܘܬ ܢܦܫܐ</title>
-                <rubric xml:lang="syr">ܡ̈ܥܢܝܬܐ ܕܡܪܬܝܢܘܬܐ ܘܕܬܘܬ ܢܦܫܐ</rubric>
+                <title xml:lang="en">Various <foreign xml:lang="syr">ܡ̈ܥܢܝܬܐ ܕܡܪܬܝܢܘܬܐ ܘܕܬܘܬ ܢܦܫܐ</foreign>, beginning with that entitled <foreign xml:lang="syr">ܥܠ ܒܪܘܡܠܝܐ</foreign></title>
                 <msItem xml:id="c1" n="10">
                   <locus from="55a"/>
                   <rubric xml:lang="syr">ܥܠ ܒܪܘܡܠܝܐ</rubric>
@@ -159,10 +160,8 @@
                       <p>Vellum, about 5 1/8 in. by 3 7/8, consisting of 91 leaves, many of which
                         are much stained and soiled. The quires are signed with letters; but several
                         are missing at the beginning and end, and there is a lacuna after fol. 8.
-                        Some other #lacunae have been supplied by a later hand. The number of lines
-                        in each page varies from 18 to 22. The greater part of this manuscript is
-                        written in a small, neat hand of the ixth or xth cent.; with the exception
-                        of foll. 42—44, 49, and 80—91, which are of the xiith or xiiith cent. </p>
+                        Some other lacunae have been supplied by a later hand. The number of lines
+                        in each page varies from 18 to 22.</p>
                     </item>
                   </list>
                 </condition>
@@ -171,9 +170,12 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="2">
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
+                <desc>The greater part of this manuscript is written in a small, neat hand of the <origDate calendar="Gregorian" notBefore="0800" notAfter="1000">ixth or xth cent.</origDate></desc>
+              </handNote>
+              <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
+                <desc>Foll. <locus from="42a" to="44b">42—44</locus>, <locus from="49a" to="49b">49</locus>, and <locus from="80a" to="91b">80—91</locus> are the exception, which are of the <date calendar="Gregorian" notBefore="1100" notAfter="1300">xiith or xiiith cent.</date></desc>
               </handNote>
             </handDesc>
             <additions>
@@ -182,10 +184,7 @@
                 <item xml:id="addition1" n="1">
                   <locus/>
                   <p>The marginal notes contain the references to the passages of Scripture, which
-                    are cited in the hymns.</p>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
+                    are cited in the hymns.</p>                
                 </item>
               </list>
             </additions>
@@ -390,6 +389,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-04">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>

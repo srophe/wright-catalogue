@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 18820, foll. 17-55</title>
+        <title level="a" xml:lang="en">BL Add MS 18820 foll. 17-55</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/1133</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 18820, foll. 17-55</idno>
+              <idno type="BL-Shelfmark">Add MS 18820 foll. 17-55</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,98 +82,128 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              
+              <locus from="17a" to="55b"/>
               <title xml:lang="en">Anthems, madrāshē, and canons for various
                                 occasions</title>
               <msItem xml:id="b1" n="2" defective="true">
-                <locus to="21a" from="17a"/>
+                <locus from="17a" to="21"/>
                 <title xml:lang="en">The Nativity of our
                                         <persName>Lord</persName>
                 </title>
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
-                <locus from="24b"/>
-                <title xml:lang="en">The Epiphany</title>
+                <locus from="21a" to="24"/>
+                <title xml:lang="en">The Nativity of our
+                                        <persName>Lord</persName>
+                </title>
               </msItem>
               <msItem xml:id="b3" n="4" defective="true">
-                <locus from="25a"/>
+                <locus from="24b" to="25"/>
+                <title xml:lang="en">The Epiphany</title>
+              </msItem>
+              <msItem xml:id="b4" n="5" defective="true">
+                <locus from="25a" to="36"/>
                 <title xml:lang="en">The several Sundays in Lent</title>
               </msItem>
-              <msItem xml:id="b4" n="5">
-                <locus from="36a"/>
+              <msItem xml:id="b5" n="6">
+                <locus from="36a" to="36a"/>
                 <title xml:lang="en">The Ascension of our
                                         <persName>Lord</persName>
                 </title>
               </msItem>
-              <msItem xml:id="b5" n="6">
-                <locus from="36a"/>
+              <msItem xml:id="b6" n="7">
+                <locus from="36a" to="37"/>
                 <title xml:lang="en">Pentecost</title>
               </msItem>
-              <msItem xml:id="b6" n="7" defective="true">
-                <locus from="37a"/>
-                <title xml:lang="en">The Commemoration of <persName>S.
-                                        Peter</persName> and <persName>S. John</persName> the
+              <msItem xml:id="b7" n="8" defective="true">
+                <locus from="37a" to="38"/>
+                <title xml:lang="en">The Commemoration of <persName ref="https://syriaca.org/person/2008">S.
+                                        Peter</persName> and <persName ref="http://syriaca.org/person/1826">S. John</persName> the
                                     Apostles</title>
               </msItem>
-              <msItem xml:id="b7" n="8">
-                <locus from="38a"/>
-                <locus from="42a"/>
-                <title xml:lang="en">Of <persName>Barbara</persName> and
-                                        <persName>Juliana</persName>
-                </title>
-              </msItem>
               <msItem xml:id="b8" n="9">
-                <locus to="43a" from="39a"/>
-                <title xml:lang="en">Of <persName>Basil</persName> and
-                                        <persName>Gregory</persName>
+                <locus from="38a" to="39"/>
+                <title xml:lang="en">Of <persName ref="http://syriaca.org/person/1624">Barbara</persName> and
+                                        <persName ref="http://syriaca.org/person/1329">Juliana</persName>
                 </title>
               </msItem>
               <msItem xml:id="b9" n="10">
-                <locus from="46a"/>
-                <title xml:lang="en">Of
-                                    <persName>Bar-sauma</persName>
+                <locus from="39a" to="42"/>
+                <title xml:lang="en">Of <persName ref="http://syriaca.org/person/376">Basil</persName> and
+                                        <persName>Gregory</persName>
                 </title>
               </msItem>
               <msItem xml:id="b10" n="11">
-                <locus from="46b"/>
-                <title xml:lang="en">Of <persName>Simeon
-                                    Stylites</persName>
+                <locus from="42a" to="43"/>
+                <title xml:lang="en">Of <persName ref="http://syriaca.org/person/1624">Barbara</persName> and
+                                        <persName ref="http://syriaca.org/person/1329">Juliana</persName>
                 </title>
               </msItem>
               <msItem xml:id="b11" n="12">
-                <locus from="48a"/>
-                <title xml:lang="en">Of <persName>Domitius</persName>
+                <locus from="43a" to="46"/>
+                <title xml:lang="en">Of <persName ref="http://syriaca.org/person/376">Basil</persName> and
+                                        <persName>Gregory</persName>
+                </title>
+              </msItem>
+              <msItem xml:id="b12" n="13">
+                <locus from="46a" to="46"/>
+                <title xml:lang="en">Of
+                                    <persName>Bar-ṣaumā</persName>
+                </title>
+              </msItem>
+              <msItem xml:id="b13" n="14">
+                <locus from="46b" to="48"/>
+                <title xml:lang="en">Of <persName ref="https://syriaca.org/person/744">Simeon
+                                    Stylites</persName>
+                </title>
+              </msItem>
+              <msItem xml:id="b14" n="15">
+                <locus from="48a" to="50"/>
+                <title xml:lang="en">Of <persName ref="http://syriaca.org/person/1213">Domitius</persName>
                 </title>
                 <rubric xml:lang="syr">ܡܪܝ ܕܝܡܛ</rubric>
               </msItem>
-              <msItem xml:id="b12" n="13">
-                <locus from="50a"/>
+              <msItem xml:id="b15" n="16">
+                <locus from="50a" to="51"/>
                 <title xml:lang="en">The Dedication of the Church</title>
                 <rubric xml:lang="syr">ܕܚܘܕܬ ܥܕܬܐ</rubric>
               </msItem>
-              <msItem xml:id="b13" n="14" defective="true">
-                <locus from="51b"/>
+              <msItem xml:id="b16" n="17" defective="true">
+                <locus from="51b" to="52"/>
                 <title xml:lang="en">The Annunciation of
                                         <persName>Zacharias</persName>
                 </title>
               </msItem>
-              <msItem xml:id="b14" n="15" defective="true">
-                <locus from="52a"/>
+              <msItem xml:id="b17" n="18" defective="true">
+                <locus from="52a" to="53"/>
                 <title xml:lang="en">The Commemoration of Priests</title>
               </msItem>
-              <msItem xml:id="b15" n="16" defective="true">
-                <locus from="53b"/>
-                <locus from="54a"/>
-                <locus from="55a"/>
+              <msItem xml:id="b18" n="19" defective="true">
+                <locus from="53b" to="54"/>
                 <title xml:lang="en">The Commemoration of any one
                                     Saint</title>
                 <rubric xml:lang="syr">ܕܥܠ ܚܕ ܩܢܘܡܐ</rubric>
               </msItem>
-              <msItem xml:id="b16" n="17">
-                <locus from="54b"/>
-                <locus from="55b"/>
+              <msItem xml:id="b19" n="20" defective="true">
+                <locus from="54a" to="54b"/>
+                <title xml:lang="en">The Commemoration of any one
+                                    Saint</title>
+                <rubric xml:lang="syr">ܕܥܠ ܚܕ ܩܢܘܡܐ</rubric>
+              </msItem>
+              <msItem xml:id="b20" n="21">
+                <locus from="54b" to="55a"/>
                 <title xml:lang="en">The Transfiguration of our Lord</title>
               </msItem>
+              <msItem xml:id="b21" n="22" defective="true">
+                <locus from="55a" to="55b"/>
+                <title xml:lang="en">The Commemoration of any one
+                                    Saint</title>
+                <rubric xml:lang="syr">ܕܥܠ ܚܕ ܩܢܘܡܐ</rubric>
+              </msItem>
+              <msItem xml:id="b22" n="23">
+                <locus from="55b" to="55b"/>
+                <title xml:lang="en">The Transfiguration of our Lord</title>
+              </msItem>                
             </msItem>
           </msContents>
           <physDesc>
@@ -188,11 +219,7 @@
                                         <item>
                                             <p>Thirty-nine vellum leaves, many of which are much
                                                 stained and torn (Add. 18,820, foll. 17—55). Each
-                                                page is divided into two columns. They were written
-                                                by different hands, during the xith and xiith
-                                                centuries, some portions being dated <date>A. Gr.
-                                                    1432</date>, <date>A.D. 1121</date>. These leaves ought to have been bound with Add. 12,146-7-8-9, as they merely contain supplemental services, such as are found here and there in those volumes. Fol. 54 b, for example, is in the same handwriting as Add. 12,146, fol. 235.</p>
-                                        </item>
+                                                page is divided into two columns.</p>
                                     </list>
                                 </condition>
                             </supportDesc>
@@ -200,9 +227,15 @@
                                 <p>Content pending</p>
                             </layoutDesc>
                         </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="3">
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr">
+                <desc>These leaves were written by different hands, during the <origDate calendar="Gregorian" notBefore="1000" notAfter="1200">xith and xiith centuries</origDate>.</desc>
+              </handNote>
+              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
+                <desc><ref="#addition1">See additions.</ref></desc>
+              </handNote>
+              <handNote xml:id="handNote3" medium="unknown" scope="minor" script="syr">
+                <desc><ref="#binding1">See binding description.</ref></desc>
               </handNote>
             </handDesc>
             <additions>
@@ -212,10 +245,10 @@
                   <locus from="26b"/>
                   <locus from="41b"/>
                   <p>Notes on foll. 26 b and 41 b inform us that some of these
-                                        services were written in the year <date>1432</date>,
-                                            <date>A.D. 1121</date>, by the priest
+                                        services were written in the year <date datingMethod="Seleucid" when-custom="1432">1432</date>,
+                                            <date calendar="Gregorian" when="1121">A.D. 1121</date>, by the priest
                                             <persName>Bar-saumā of Mar'ash</persName>, at the
-                                        expense of the <persName>deacon Rabban Isaac of
+                                        expense of the deacon <persName>Rabban Isaac of
                                             Bagdād</persName>. </p>
                   <p>
                     <quote xml:lang="syr">ܟܬ݂ܒ ܠܗܠܝܢ ܙܥܘܪ̈ܝܬܐ ܕܒܗܢܐ ܟܘܪܣܐ ܘܒܗ̇ܘ ܐܚܪܢܐ ܚܒܪܗ ܒܪܨܘܡܐ ܒܨܝܪܐ ܘܠܐ ܚܫܚܐ ܒܕܝܪ̈ܝܐ
@@ -227,15 +260,14 @@
                 <item xml:id="addition2" n="2">
                   <locus from="55b"/>
                   <p>Of a note on fol. 55 b only a very few words are legible.</p>
-                  <p>
-                                        <quote xml:lang="syr"/>
-                                    </p>
                 </item>
               </list>
             </additions>
             <bindingDesc>
-                            <p>Content pending</p>
-                        </bindingDesc>
+              <binding xml:id="binding1" contemporary="unknown">
+                  <p>These leaves ought to have been bound with Add. <ref target="http://syriaca.org/manuscript/21">12,146</ref>-<ref target="http://syriaca.org/manuscript/22">7</ref>-<ref target="http://syriaca.org/manuscript/23">8</ref>-<ref target="http://syriaca.org/manuscript/24">9</ref>, as they merely contain supplemental services, such as are found here and there in those volumes. Fol. <locus from="54b" to="54b">54 b</locus>, for example, is in the same handwriting as Add. <ref target="http://syriaca.org/manuscript/21">12,146, fol. 235</ref>.</p>
+              </binding>
+              </bindingDesc>
             <sealDesc>
                             <p>Content pending</p>
                         </sealDesc>
@@ -243,9 +275,7 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate notBefore="1000" notAfter="1200">A.D.
-                                1121</origDate>
-                            <origDate datingMethod="Seleucid">A. Gr. 1432</origDate>
+                            <origDate notBefore="1000" notAfter="1200"/>
                             <origPlace/>
                         </origin>
                         <provenance/>
@@ -435,6 +465,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-05">Edits to msContents, handDesc, and bindingDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
