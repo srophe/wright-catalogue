@@ -4,14 +4,14 @@
     <fileOrConsole>file</fileOrConsole>
     <outputFileDirectory>/data/5_finalized/</outputFileDirectory><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
     <manuscriptLevelMetadata>
-        <pathToMsPartsFolder>/data/5_finalized/ms-parts/1082/</pathToMsPartsFolder><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
-        <recordTitle>BL Add MS 17266</recordTitle>
-        <uriValue>1082</uriValue>
+        <pathToMsPartsFolder>/data/5_finalized/ms-parts/1127/</pathToMsPartsFolder><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
+        <recordTitle>BL Add MS 18189</recordTitle>
+        <uriValue>1127</uriValue>
         <country>United Kingdom</country>
         <settlement>London</settlement>
         <repository>British Library</repository>
         <collection>Oriental Manuscripts</collection>
-        <shelfMark>Add MS 17266</shelfMark>
+        <shelfMark>Add MS 18189</shelfMark>
         <revisionDesc>
             <scriptEditor>
                 <editorId>srophe-util</editorId>
@@ -33,7 +33,8 @@
         -->
     <compositeMsFile></compositeMsFile>
     <msPartFiles><!-- these should be xml file names containing the data to be converted to msParts. These files should be stored in the folder declared above in the pathToMsPartsFolder text node. They should be ordered according to the sequence they should appear in the msParts sequence (i.e., the first ms part should be the first fileName element in the below sequence, even if it is not the numerically smallest URI value.-->
-        <fileName>1083.xml</fileName>
-        <fileName>1084.xml</fileName>
+        <fileName>1128.xml</fileName>
+        <fileName>1129.xml</fileName>
+        <fileName>1130.xml</fileName>
     </msPartFiles>
 </config>
