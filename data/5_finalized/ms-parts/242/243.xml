@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14525, foll. 1-10</title>
+        <title level="a" xml:lang="en">BL Add MS 14525 foll. 1-10</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -26,6 +27,10 @@
         <respStmt>
           <resp>Edited by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited also by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +72,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/243</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14525, foll. 1-10</idno>
+              <idno type="BL-Shelfmark">Add MS 14525 foll. 1-10</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,50 +86,49 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="2b"/>
-              <title xml:lang="en">Funeral Services, with appropriate lessons, etc.</title>
+              <locus from="2b" to="10">Foll. 2b-10</locus>
+              <title xml:lang="en" type="supplied">Funeral Services, with appropriate lessons, etc.</title>
               <rubric xml:lang="syr">ܥܠ ܚܝܠܗ ܕܡܪܢ ܝܫܘܥ ܡܫܝܚܐ: ܡܫܪܝܢܢ ܕܢܟܬܘܒ ܟܘܪܣܐ ܕܥ̈ܢܝܕܐ: ܟܠܡܕܡ ܕܡܬܐܡܪ ܥܠ ܟܪܣ̈ܛܝܢܐ</rubric>
               <msItem xml:id="b1" n="2">
-                <locus from="3a"/>
+                <locus from="3a" to="4">Foll. 3a-4</locus>
                 <title xml:lang="en">Part 1</title>
                 <rubric xml:lang="syr">ܛܟܣܐ ܩܕܡܝܐ̣. ܥܠ ܪ̈ܝܫܝ ܟܗ̈ܢܐ</rubric>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus from="4b"/>
+                <locus from="4b" to="6">Foll. 4b-6</locus>
                 <title xml:lang="en">Part 2</title>
                 <rubric xml:lang="syr">ܛܟܣܐ ܕܥܠ ܩܫܝܫܐ</rubric>
               </msItem>
               <msItem xml:id="b3" n="4">
-                <locus from="6a"/>
+                <locus from="6a" to="6">Fol. 6</locus>
                 <title xml:lang="en">Part 3</title>
                 <rubric xml:lang="syr">ܬܫܡܫܬܐ ܕܥܠ ܡܫ̈ܡܫܢܐ</rubric>
               </msItem>
               <msItem xml:id="b4" n="5">
-                <locus from="6b"/>
+                <locus from="6b" to="7">Foll. 6a-7</locus>
                 <title xml:lang="en">Part 4</title>
                 <rubric xml:lang="syr">ܛܟܣܐ ܕܛ̈ܠܝܐ ܙܥܘܪ̈ܐ ܘܕܗܘ̈ܦܕܝܩ</rubric>
               </msItem>
               <msItem xml:id="b5" n="6">
-                <locus from="7a"/>
+                <locus from="7a" to="7">Fol. 7</locus>
                 <title xml:lang="en">Part 5</title>
                 <rubric xml:lang="syr">ܛܟܣܐ ܕܛ̈ܠܝܐ ܙܥܘܪ̈ܐ ܘܕܗܘ̈ܦܕܝܩ</rubric>
               </msItem>
               <msItem xml:id="b6" n="7">
-                <locus to="10b" from="7b"/>
-                <title xml:lang="en">Various anthems according to different tones</title>
-                <rubric xml:lang="syr">ܥܘ̈ܢܝܬܐ</rubric>
+                <locus from="7b" to="10b">Foll. 7b-10b</locus>
+                <title xml:lang="en">Various anthems,<foreign xml:lang="syr">ܥܘ̈ܢܝܬܐ</foreign>, according to different tones</title>
                 <msItem xml:id="c1" n="8">
-                  <locus from="7b"/>
+                  <locus from="7b" to="8">Foll. 7b-8</locus>
                   <title xml:lang="en">Part 1</title>
                   <rubric xml:lang="syr">ܩܠܐ ܩܕܡܝܐ</rubric>
                 </msItem>
                 <msItem xml:id="c2" n="9">
-                  <locus from="8b"/>
+                  <locus from="8b" to="10">Foll. 8b-10</locus>
                   <title xml:lang="en">Part 2</title>
                   <rubric xml:lang="syr">ܥܘܢܝ̈ܬܐ ܕܥܠ ܡܘܬܢܐ. ܒܗ ܒܩܠܐ</rubric>
                 </msItem>
                 <msItem xml:id="c3" n="10" defective="true">
-                  <locus from="10b"/>
+                  <locus from="10b" to="10b">Fol. 10b</locus>
                   <title xml:lang="en">Part 3</title>
                   <rubric xml:lang="syr">ܩܠܐ ܕܬܪܝܢ</rubric>
                 </msItem>
@@ -152,12 +156,15 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="2">
+            <handDesc hands="3">
               <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
-                <desc>Written in a neat, regular hand of the <date>ixth or xth cent.</date></desc>
+                <desc>Written in a neat, regular hand of the <origDate calendar="Gregorian" notBefore="0800" notAfter="1000">ixth or xth cent.</origDate></desc>
               </handNote>
               <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
-                <desc>See additions.</desc>
+                <desc>See <ref target="#addition1">additions</ref>.</desc>
+              </handNote>
+              <handNote medium="unknown" xml:id="handNote3" scope="minor" script="syr">
+                <desc>See <ref target="#addition2">additions</ref>.</desc>
               </handNote>
             </handDesc>
             <additions>
@@ -166,7 +173,7 @@
                 <item xml:id="addition1" n="1">
                   <locus from="2a"/>
                   <p>On fol. 2 a there is a note stating that the book belonged by purchase to the
-                    deacon <persName>Moses bar Hafs of <placeName>Rās-ain</placeName></persName></p>
+                    deacon <persName>Moses bar Ḥafṣ of <placeName>Rās-'ain</placeName></persName></p>
                   <p>
                     <quote xml:lang="syr">ܐܝܬܘܗܝ ܦܢܩܝܬܐ ܗܕܐ ܕܡܘܫܐ ܡܫܡܫܢܐ ܒܪ ܚܦܨ <foreign xml:lang="ar">(حَفْص)</foreign> ܢܖܣܒܖܝܐ <foreign xml:lang="en">(sic)</foreign> ܡܢ ܪܝܫܥܝܢܐ ܕܩܢܝܗ ܐܝܟ ܕܠܝܘܬܪܢܐ ܕܩܢܘܡܗ ܘܕܐܝܠܝܢ ܕܦܓܥܝܢ ܒܗ. ܟܠ ܕܝܢ ܕܫܐܠ ܠܗ ܒܙܢܐ ܐܝܢܐ ܕܗܘ ܘܟܡܢ ܥܠܝܗ ܏ܘܫ</quote>
                   </p>
@@ -174,10 +181,10 @@
                 <item xml:id="addition2" n="2">
                   <locus from="1b"/>
                   <p>On fol. 1 b there is another note, which tells us that this volume was
-                    presented by <persName>Shabūr bar 'Idūrak (?)</persName> and his nephew <persName>Habīb bar Simeon</persName>, of
-                    <placeName>Rās-'ain</placeName>, to <placeName>the monastery of S. Mary Deipara</placeName>, in the time of the abbat <persName>Moses
-                    of <placeName>Nisībis</placeName></persName>. This note was written by one <persName>Yeshua'</persName> at <placeName>Ramla</placeName> in <placeName>Palestine</placeName>, <date>A.H.
-                    332</date> = <date>A.D. 943-4</date>.</p>
+                    presented by <persName>Shabūr bar 'Idūraḳ</persName> (?) and his nephew <persName>Ḥabīb bar Simeon</persName>, of
+                    <placeName>Rās-'ain</placeName>, to <placeName ref="https://syriaca.org/place/360">the monastery of S. Mary Deipara</placeName>, in the time of the abbat <persName>Moses
+                    of <placeName ref="https://syriaca.org/place/142">Nisībis</placeName></persName>. This note was written by one <persName>Yeshua'</persName> at <placeName>Ramla</placeName> in <placeName ref="https://syriaca.org/place/2701">Palestine</placeName>, <date datingMethod="Hijri-qamari" when-custom="332">A.H.
+                    332</date> = <date calendar="Gregorian" from="943" to="944">A.D. 943-4</date>.</p>
                   <p>
                     <quote xml:lang="syr">ܒܫܡܐ ܕܬܠܝܬܝܘܬܐ ܡܫܒܚܬܐ ܥܠܬܐ ܕܟ̈ܠܗܝܢ ܛܒ̈ܬܐ ܩܪܒܘ ܦܢܩܝܬܐ ܗܕܐ
                       ܫܒܘܪ ܒܪ ܥܝܕܘܪܩ ܘܒܪ ܐܚܐ ܕܝܠܗ ܚܒܝܒ ܒܪ ܫܡܥܘܢ ܕܡܢ ܪܝܫܥܝܢܐ ܡܕܝܢܬܐ ܩܪܒܗ <foreign xml:lang="en">(sic)</foreign> ܕܝܢ
@@ -394,6 +401,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change when="2022-01-18" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edits to msContents, handDesc, and additions</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
