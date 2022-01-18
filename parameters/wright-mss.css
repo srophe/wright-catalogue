@@ -662,8 +662,8 @@ origin > origDate[datingMethod]:before(8){
   content: 'Dating Method: ' oxy_combobox(
     edit, '@datingMethod',
     editable, false,
-    values, 'Seleucid, Hijri-qamari, Gregorian, Julian, AM, Hijri-shamsi, Coptic-EoM, Alexandrian, Iranian-Yazdigird, Iranian-Jalali, Spanish, Ilahi, Hindu, unknown'
-    labels, 'Seleucid (A Gr), Hijri-qamari (AH), Gregorian (AD), Julian, AM (Anno Mundi), Hijri-shamsi, Coptic-EoM, Alexandrian, Iranian-Yazdigird, Iranian-Jalali, Spanish, Ilahi, Hindu, unknown'
+    values, 'Seleucid, Hijri-qamari, Gregorian, Julian, AM, Coptic-EoM, Alexandrian, Iranian-Yazdigird, Iranian-Jalali, Spanish, Ilahi, Hindu, unknown'
+    labels, 'Seleucid (A Gr), Hijri-qamari (AH), Gregorian (AD), Julian, AM (Anno Mundi), Coptic-EoM, Alexandrian, Iranian-Yazdigird, Iranian-Jalali, Spanish, Ilahi, Hindu, unknown'
     )
 }
 /*
