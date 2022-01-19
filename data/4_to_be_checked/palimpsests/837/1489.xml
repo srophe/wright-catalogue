@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -86,29 +86,29 @@
               <title xml:lang="en">Several books of the <title ref="http://syriaca.org/work/9586">Old Testament</title> in the Sahidic dialect</title>
               <msItem xml:id="b1" n="2" defective="true">
                 <locus from="42b" to="42b">Fol. 42b</locus>
-                <title xml:lang="en" type="supplied"><title ref="https://syriaca.org/work/9534">Esther</title>, ch. iv. 3-8</title>
-                <note>This folio has been left partially blank by the later scribe. See <ref target="http://syriaca.org/manuscript/1488">BL Add MS 17183, upper text</ref>.</note>
+                  <title xml:lang="en" type="supplied" ref="https://syriaca.org/work/9534">Esther, ch. iv. 3-8</title>
+                  <note>This folio has been left partially blank by <persName>the later scribe</persName>. See <bibl>BL Add MS 17183, upper text<ptr target="http://syriaca.org/manuscript/1488"/></bibl>.</note>
                 </msItem>
               <msItem xml:id="b2" n="3" defective="true">
                 <locus from="60a" to="60a">Fol. 60a</locus>
-                <title xml:lang="en" type="supplied">Part of <title ref="https://syriaca.org/work/9650">Judges</title>, ch. i. 13, 15</title>
+                  <title xml:lang="en" type="supplied" ref="https://syriaca.org/work/9650">Part of Judges, ch. i. 13, 15</title>
                 </msItem>
               <msItem xml:id="b3" n="4" defective="true">
                 <locus from="108a" to="108a">Fol. 108a</locus>
-                <title xml:lang="en" type="supplied"><title ref="https://syriaca.org/work/9650">Judges</title>, ch. ix. 31-36</title>
-                <note>This folio has been left wholly blank by the later scribe. See <ref target="http://syriaca.org/manuscript/1488">BL Add MS 17183, upper text</ref>.</note>
+                  <title xml:lang="en" type="supplied" ref="https://syriaca.org/work/9650">Judges, ch. ix. 31-36</title>
+                  <note>This folio has been left wholly blank by <persName>the later scribe</persName>. See <bibl>BL Add MS 17183, upper text<ptr target="http://syriaca.org/manuscript/1488"/></bibl>.</note>
                 </msItem>
               <msItem xml:id="b4" n="5" defective="true">
                 <locus from="116a" to="116b">Foll. 116a-116b</locus>
-                <title xml:lang="en" type="supplied">Part of <title ref="https://syriaca.org/work/9650">Judges</title>, ch. ix. 18, 20, 23, 25</title>
+                  <title xml:lang="en" type="supplied" ref="https://syriaca.org/work/9650">Part of Judges, ch. ix. 18, 20, 23, 25</title>
                 </msItem>
               <msItem xml:id="b5" n="6" defective="true">
                 <locus from="163a" to="163b"></locus>
-                <title xml:lang="en" type="supplied">Part of <title ref="https://syriaca.org/work/9651">Ruth</title>, ch. iii. 14, 16, and ch. iv. 1</title>
+                  <title xml:lang="en" type="supplied" ref="https://syriaca.org/work/9651">Part of Ruth, ch. iii. 14, 16, and ch. iv. 1</title>
                 </msItem>
               <msItem xml:id="b6" n="7" defective="true">
                 <locus from="164b" to="164b">Fol. 164b</locus>
-                <title xml:lang="en" type="supplied">Part of <title ref="https://syriaca.org/work/9651">Ruth</title>, ch. iv. 13, 16</title>
+                  <title xml:lang="en" type="supplied" ref="https://syriaca.org/work/9651">Part of Ruth, ch. iv. 13, 16</title>
                 </msItem>
             </msItem>            
           </msContents>
@@ -122,8 +122,11 @@
                 <collation/>
                 <condition>
                   <list>
+                      <item>
+                          <p>Each page is divided into two columns of 25 lines.A once handsome volume.</p>
+                      </item>
                     <item>
-                      <p>This volume is palimpsest throughout. The more ancient text is that of a Coptic manuscript. Each page is divided into two columns of 25 lines.</p>
+                        <p>This volume is palimpsest throughout. See also <ref target="http://syriaca.org/manuscript/1488">the more modern text</ref>.</p>
                     </item>
                   </list>
                 </condition>
@@ -153,7 +156,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0600" notAfter="0700">VIIth Century</origDate>
+                <origDate notBefore="0600" notAfter="0700">viith cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -336,7 +339,7 @@
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
             <item>
-              <ref target="#theo-collected"/>
+              <ref target="#"/>
             </item>
           </list>
         </keywords>
