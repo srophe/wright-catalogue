@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14666, foll. 10—12</title>
+        <title level="a" xml:lang="en">BL Add MS 14666 foll. 10—12</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/451</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14666, foll. 10-12</idno>
+              <idno type="BL-Shelfmark">Add MS 14666 foll. 10-12</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -82,7 +83,7 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="12" from="10"/>
+              <locus from="10a" to="12">Foll. 10a-12</locus>
               <title ref="https://syriaca.org/work/19" xml:lang="en">Portions of the Psalms,
                 according to the Peshitta version</title>
               <msItem xml:id="b1" n="2">
@@ -90,8 +91,9 @@
                   4</title>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <title ref="https://syriaca.org/work/19" xml:lang="en">Ps. xcv. 11—xcviii. 6. </title>
+                <title ref="https://syriaca.org/work/19" xml:lang="en">Psalms xcv. 11—xcviii. 6</title>
               </msItem>
+              <note>Arguments are prefixed.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -105,9 +107,8 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Three vellum leaves, about 6 7/8 in. by 5, much soiled and torn. The
-                        writing is neat and regular, of the ixth or xth cent., with 25 or 26 lines
-                        in each page. Arguments are prefixed.</p>
+                      <p>Three vellum leaves, about 6 7/8 in. by 5, much soiled and torn, with 25 or 26 lines
+                        in each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -118,7 +119,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>The writing is neat and regular, of the <origDate calendar="Gregorian" notBefore="0800" notAfter="1000">ixth or xth cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -323,6 +324,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-20">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-03">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
     </revisionDesc>

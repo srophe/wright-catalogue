@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,25 +82,24 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <title xml:lang="en">Portions of the Hymns of
-                           <persName>Severus</persName>
+              <locus from="22a" to="29">Foll. 22a-29</locus>
+              <title xml:lang="en" type="supplied">Portions of the Hymns of <persName ref="http://syriaca.org/person/51">Severus</persName>
               </title>
-              <note>viz.</note>
               <msItem xml:id="b1" n="2">
-                <title xml:lang="en">On the forty Martyrs,<quote>ܣܒ</quote>to <quote xml:lang="syr">ܣܗ</quote>
+                <title xml:lang="en" type="supplied">On the forty Martyrs,<foreign xml:lang="syr">ܣܒ</foreign>to <foreign xml:lang="syr">ܣܗ</foreign>
                 </title>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <title xml:lang="en">On the Miracles, <quote xml:lang="syr">ܣܘ</quote>to <quote xml:lang="syr">ܥܘ</quote>
+                <title xml:lang="en" type="supplied">On the Miracles, <foreign xml:lang="syr">ܣܘ</foreign>to <foreign xml:lang="syr">ܥܘ</foreign>
                 </title>
               </msItem>
               <msItem xml:id="b3" n="4">
-                <title xml:lang="en">On Palm Sunday, <quote xml:lang="syr">ܨܘ</quote>
-                           to <quote xml:lang="syr">ܩܐ</quote>
+                <title xml:lang="en" type="supplied">On Palm Sunday, <foreign xml:lang="syr">ܨܘ</foreign>
+                           to <foreign xml:lang="syr">ܩܐ</foreign>
                 </title>
               </msItem>
               <msItem xml:id="b4" n="5">
-                <title xml:lang="en">On the Passion, <quote xml:lang="syr">ܩܒ</quote>
+                <title xml:lang="en">On the Passion, <foreign xml:lang="syr">ܩܒ</foreign>
                 </title>
               </msItem>
             </msItem>
@@ -344,6 +344,7 @@
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
+        <change when="2022-01-18" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edits to msContents</change>
          <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-06-27" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial

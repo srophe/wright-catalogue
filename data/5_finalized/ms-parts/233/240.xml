@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine<name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,24 +82,25 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <title xml:lang="en">Part of the Hymns of <persName>Severus</persName>,
-                        etc.;</title>
+              <locus from="30a" to="47b">Foll. 30a-47b</locus>
+              <title xml:lang="en" type="supplied">Part of the Hymns of <persName ref="http://syriaca.org/person/51">Severus</persName>,
+                        etc.</title>
               <msItem xml:id="b1" n="2">
-                <locus from="30a"/>
-                <title xml:lang="en">The hymns for the Resurrection, arranged
+                <locus from="30a" to="45">Foll. 30a-45</locus>
+                <title xml:lang="en" type="supplied">The hymns for the Resurrection, arranged
                            according to the eight tones</title>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus from="45b"/>
-                <title xml:lang="en">The Ascension</title>
+                <locus from="45b" to="47">Foll. 45b-47</locus>
+                <title xml:lang="en" type="supplied">The hymns for the Ascension</title>
               </msItem>
               <msItem xml:id="b3" n="4">
-                <locus from="47a"/>
-                <title xml:lang="en">S. Mark</title>
+                <locus from="47a" to="47">Foll. 47a-47</locus>
+                <title xml:lang="en" type="supplied">The hymns for <persName ref="https://syriaca.org/person/1871">S. Mark</persName></title>
               </msItem>
               <msItem xml:id="b4" n="5">
-                <locus from="47b"/>
-                <title xml:lang="en">S. Thomas and S. John the Evangelist</title>
+                <locus from="47b" to="47b">Fol. 47b</locus>
+                <title xml:lang="en" type="supplied">The hymns for <persName ref="https://syriaca.org/person/2123">S. Thomas</persName> and <persName ref="https://syriaca.org/person/1826">S. John the Evangelist</persName></title>
               </msItem>
             </msItem>
           </msContents>
@@ -114,7 +116,8 @@
                            <list>
                               <item>
                                  <p>Eighteen vellum leaves, about 5 1/8in. by 3 3/4, the last of
-                                    which is much torn (<bibl>Add. 14,524, foll. 30—47</bibl>).</p>
+                                    which is much torn (Add. 14,524, foll. 30—47), with from 13 to 18 lines in each
+                           page.</p>
                               </item>
                            </list>
                         </condition>
@@ -125,8 +128,7 @@
                   </objectDesc>
                   <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                        <desc>The writing is of the <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate>, with from 13 to 18 lines in each
-                           page.</desc>
+                        <desc>The writing is of the <origDate calendar="Gregorian" notBefore="1200" notAfter="1300">xiiith cent.</origDate></desc>
                      </handNote>
             </handDesc>
                   <additions>
@@ -151,7 +153,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate/>
+                     <origDate calendar="Gregorian" notBefore="1200" notAfter="1300">XIIIth Century</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
@@ -341,6 +343,7 @@
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
+        <change when="2022-01-18" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edits to msContents, condition, handDesc, and origDate</change>
          <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-06-27" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial

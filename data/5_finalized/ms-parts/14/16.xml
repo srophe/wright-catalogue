@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,10 +82,10 @@
           <msContents>
             <textLang mainLang="syr-Syre"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="107" from="74"/>
+              <locus from="74a" to="107">Foll. 74a-107</locus>
               <title xml:lang="en">Acts of Martyrs</title>
               <msItem xml:id="b1" n="2" defective="true">
-                <locus from="74a"/>
+                <locus from="74a" to="86b">Foll. 74a-86b</locus>
                 <title xml:lang="en">The martyrdom of <persName ref="http://syriaca.org/person/1185">Cyprianus</persName>,
                   <persName ref="http://syriaca.org/person/1333">Justa</persName> and <persName>Theoctistus</persName>, at
                   <placeName ref="http://syriaca.org/place/502">Nicomedia</placeName>, during the reign of
@@ -93,52 +94,51 @@
                 <finalRubric xml:lang="syr-Syre">ܫܠܡܬ ܣܗܕܘܬܐ ܕܩܘܦܪܝܢܐ ܚܪܫܐ ܘܕܝܘܣܛܐ ܒܬܘܠܬܐ ܘܕܬܐܩܛܣܛܐ
                     ܡܗܝܡܢܐ<locus from="86b"/>
                 </finalRubric>
-                <note>slightly imperfect at the commencement</note>
-                <note>See <bibl>Add. 12,174, fol. 175 a.</bibl>
+                <note>Slightly imperfect at the commencement.</note>
+                <note>See <ref target="http://syriaca.org/manuscript/70">Add. 12,174, fol. 175 a.</ref>
                 </note>
                 <note>These acts agree substantially with the narrative in the <bibl>Acta Sanctorum
                     for September, tom, vii., pp. 217—219</bibl> and <bibl>244—246</bibl>.</note>
                 <note>The father of <persName ref="http://syriaca.org/person/1333">Justa</persName>
                   is here called <persName>
-                    <foreign xml:lang="syr-Syre">ܐܕܣܝܐ</foreign>
+                    <foreign xml:lang="syr">ܐܕܣܝܐ</foreign>
                   </persName>,
-                  in <bibl>Add. 12,174</bibl>, <persName>
-                    <foreign xml:lang="syr-Syre">ܐܘܕܘܣܝܐ</foreign>
+                  in <ref target="http://syriaca.org/manuscript/70">Add. 12,174</ref>, <persName>
+                    <foreign xml:lang="syr">ܐܘܕܘܣܝܐ</foreign>
                   </persName>; whilst his mother is named in the latter
                       manuscript,<persName>
-                    <foreign xml:lang="syr-Syre">ܩܠܘܕܘܢܝܐ</foreign>
+                    <foreign xml:lang="syr">ܩܠܘܕܘܢܝܐ</foreign>
                   </persName>, and the deacon whom she heard
                       preaching,<persName>
-                    <foreign xml:lang="syr-Syre">ܐܦܪܠܝܐ</foreign>
+                    <foreign xml:lang="syr">ܐܦܪܠܝܐ</foreign>
                   </persName>.
                   The name of <persName>Agladius</persName> is not mentioned here ; in
-                    <bibl>12,174</bibl> he is called <persName>
-                    <foreign xml:lang="syr-Syre">ܐܘܓܠܝܕܘܢ</foreign>
+                    <ref target="http://syriaca.org/manuscript/70">12,174</ref> he is called <persName>
+                    <foreign xml:lang="syr">ܐܘܓܠܝܕܘܢ</foreign>
                   </persName>. The priest who receives <persName ref="http://syriaca.org/person/1185">Cyprian</persName> into the church is
                   called in this manuscript <persName>
-                    <foreign xml:lang="syr-Syre">ܐܘܬܡܝܐ</foreign>
-                  </persName>; in <bibl>12,174</bibl>,<persName>
-                    <foreign xml:lang="syr-Syre">ܐܢܬܝܡܐ</foreign>
+                    <foreign xml:lang="syr">ܐܘܬܡܝܐ</foreign>
+                  </persName>; in <ref target="http://syriaca.org/manuscript/70">12,174</ref>,<persName>
+                    <foreign xml:lang="syr">ܐܢܬܝܡܐ</foreign>
                   </persName>. The Comes Orientis who
                   persecutes <persName ref="http://syriaca.org/person/1185">Cyprian</persName> and
                     <persName ref="http://syriaca.org/person/1333">Justa</persName> is named in
-                    <bibl>12,142</bibl>, <persName>
-                    <foreign xml:lang="syr-Syre">ܐܘܛܠܡܐܘܣ</foreign>
-                  </persName>; in <bibl>12,174</bibl>,<persName>
-                    <foreign xml:lang="syr-Syre">ܐܘܛܘܠܡܘܣ</foreign>
-                  </persName>. Instead of %, both
-                  manuscripts have <foreign xml:lang="syr-Syre">ܒܘܠܒܘܣ ܕܝܢ ܣܘܢܩܬܕܪܗ ܕܡܠܟܐ</foreign>.
+                    <ref target="#b1">12,142</ref>, <persName>
+                    <foreign xml:lang="syr">ܐܘܛܠܡܐܘܣ</foreign>
+                  </persName>; in <ref target="http://syriaca.org/manuscript/70">12,174</ref>,<persName>
+                    <foreign xml:lang="syr">ܐܘܛܘܠܡܘܣ</foreign>
+                  </persName>. Instead of <foreign xml:lang="grc">Φουλεανὸς δὲ ὁ συγκάθεδρος</foreign>, both
+                  manuscripts have <quote xml:lang="syr-Syre">ܒܘܠܒܘܣ ܕܝܢ ܣܘܢܩܬܕܪܗ ܕܡܠܟܐ</quote>.
                   Lastly, the name of the Roman matron, who received the bodies of the martyrs from
                   the sailors, is <persName>
-                    <foreign xml:lang="syr-Syre">ܪܘܦܝܢܐ</foreign>
-                  </persName>, of the family of <foreign xml:lang="syr-Syre">
-                    ܩܠܘܕܝܢܐ</foreign> (<bibl>12,142</bibl>) or <foreign xml:lang="syr-Syre">ܩܠܘܕܝܢܝܘܣ</foreign> (<bibl>12,174</bibl>). </note>
-                <note>The date of the martyrdom is the <date>15th of Ḥazῑrān</date>,<foreign xml:lang="syr-Syre">ܒܚܡܫܥܣܪ̈ܐ ܒܝܪܚܐ ܕܡܬܩܪܐ ܚܙܝܪܢ</foreign>; but in
-                    <bibl>12,174</bibl> the words <foreign xml:lang="syr-Syre">ܝܘܢܝܘܣ ܕܐܝܬܘܗܝ
-                    ܕܡܬܩܪܐ</foreign> are inserted after <foreign xml:lang="syr-Syre">ܕܡܬܩܪܐ</foreign>.</note>
+                    <foreign xml:lang="syr">ܪܘܦܝܢܐ</foreign>
+                  </persName>, of the family of <foreign xml:lang="syr">
+                    ܩܠܘܕܝܢܐ</foreign> (<ref target="#b1">12,142</ref>) or <foreign xml:lang="syr">ܩܠܘܕܝܢܝܘܣ</foreign> (<ref target="http://syriaca.org/manuscript/70">12,174</ref>).</note>
+                <note>The date of the martyrdom is the <date>15th of Ḥazῑrān</date>,<quote xml:lang="syr-Syre">ܒܚܡܫܥܣܪ̈ܐ ܒܝܪܚܐ ܕܡܬܩܪܐ ܚܙܝܪܢ</quote>; but in
+                    <ref target="http://syriaca.org/manuscript/70">12,174</ref> the words <quote xml:lang="syr-Syre">ܝܘܢܝܘܣ ܕܐܝܬܘܗܝ</quote> are inserted after <foreign xml:lang="syr">ܕܡܬܩܪܐ</foreign>.</note>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus from="87ܫ"/>
+                <locus from="87a" to="104a">Foll. 87a-104a</locus>
                 <author>
                   <persName>Laurentius</persName>, <persName>Bassus</persName>, and <persName>Probianus</persName>
                 </author>
@@ -156,16 +156,27 @@
                     ܡܕܝܢܬܐ<locus from="104a"/>
                 </finalRubric>
                 <note>These acts also agree substantially with those given in the <bibl>Acta
-                    Sanctorum for July, torn, vi., pp. 412—420</bibl>
+                    Sanctorum for July, tom. vi., pp. 412—420</bibl>
                 </note>
-                <note>See additions</note>
+                <note>These acts were written according to a statement at the end, by three of <persName ref="http://syriaca.org/person/1180">Pantaleon</persName>'s disciples, <persName>Laurentius</persName>,
+                      <persName>Bassus</persName>, and <persName>Probianus</persName>; fol. <locus from="103b" to="103b">103 b</locus>,
+                    second col.: <quote xml:lang="syr">ܐܢܐ ܕܝܢ ܠܘܪܢܛܝܣ ܘܒܣܘܣ ܘܦܪܘܒܝܢܣ ܕܐܝܬܝܢ ܗܘܝܢ ܒ̈ܢܝ ܒܝܬܗ ܕܦܢܛܐܠܡܘܢ <foreign xml:lang="en">(<persName>Panteleêmôn</persName>)</foreign> ܩܕܝܫܐ. ܕܕܒܝܩܝܢ ܗܘܝܢ
+                      ܠܗ ܘܚܙܝܢ ܗܘܝܢ ܣܗܕܘܬܗ ܕܐܬܠܝܛܐ. ܘܟܠ ܡܕܡ ܕܚܙܝܢܢ. ܘܟܠ ܕܦܢܝ ܕܘܝܐ ܦܬܓܡܐ ܘܟܠܡܕܡ ܕܚܫ.
+                      ܘܥܠ ܩܠܐ ܕܡܢ ܫܡܝܐ ܕܫܡܥܢܢ. ܘܟܬܒܢܢ ܕܘܒܪ̈ܘܗܝ ܥܡ ܗܘܦܡ̈ܢܡܛܐ ܕܝܠܗ. ܘܒ̈ܢܝ ܐܣܟܘܠܐ ܕܝܠܗ
+                      ܐܝܬܝܢ ܗܘܝܢ. ܘܡܛܠ ܕܦܪܣܛܓܡܐ ܗܘ̣ܐ ܕܡܠܟܐ ܕܟܬܝܒ ܗܘ̣ܱܐ ܒܗ ܗܟܢܐ ܕܟܠ ܡ̇ܢ ܕܥܒ̇ܪ ܥܠ
+                      ܦܘܩܕܢܐ ܗܢܐ. ܘܡܡܪܚ ܕܗܘܦܡ̈ܢܡܛܐ ܢܣ̣ܒ̣. ܗܢܐ ܠܡܘܬܐ ܢܫܬܠܡ. ܐܢܚܢܢ ܕܝܢ̣ ܐܪܚܩܢ ܗܘܝܢ
+                      ܠܐܬܪ̈ܘܬܐ ܕܡܕܢܚܐ. ܡܛܘܠ ܕܐܬܐܟܠܘ ܩܪ̈ܨܝܢ ܩܕܡܘܗܝ ܕܡܠܟܐ. ܟܠܗܘܢ ܓܝܪ ܣܗ̈ܕܐ ܕܒܝܘ̈ܡܝ
+                      ܡܟܣܝܡܝܢܣ ܐܬܟ݁ܠܠܘܿ ܗܘܘ̣. ܫܘܟܠܠܐ ܕܟܠܗܘܢ ܦܢܛܠܐܡܘܢ ܐܝܬܘܗܝ ܗܘ̣ܐ. ܠܬܫܒܘܚܬܐ ܕܐܠܗܐ
+                      ܐܒܐ. ܘܕܡܪܢ ܝܫܘܥ ܡܫܝܚܐ. ܘܕܪܘܚܐ ܕܩܘܕܫܐ. ܕܠܗ ܫܘܒܚܐ ܘܐܝܩܪܐ ܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ.</quote></note>
               </msItem>
               <msItem xml:id="b3" n="4" defective="true">
-                <locus from="104a"/>
+                <locus from="104a" to="107">Foll. 104a-107</locus>
                 <title xml:lang="en">The martyrdom of <persName ref="http://syriaca.org/person/3003">Candida</persName>, a Roman
                   lady, who was taken captive and carried away into <placeName ref="http://syriaca.org/place/526">Persia</placeName>,
                   where she became the wife of the king <persName>Vartran</persName>, the
-                  grandfather of <persName>Shabūr</persName> (Sapor) and suffered, along with other
+                  grandfather of <persName>Shabūr</persName> (Sapor)<note><persName>Vararanes</persName> or <persName>Bahram I.</persName> seems to be
+                  meant. He reigned <date calendar="Gregorian" from="0274" to="0277">A.D. 274-277</date>, and was the
+                  great-great-grandfather of <persName>Sapor II</persName>. or the Great</note> and suffered, along with other
                   women, in the first persecution of the Christians</title>
                 <rubric xml:lang="syr-Syre">
                   <locus from="104a"/> ܣܗܕܘܬܐ ܕܩܢܕܝܕܐ ܛܘܒܢܝܬܐ.
@@ -175,11 +186,7 @@
                   <locus from="104a"/>ܒܪܕܘܦܝܐ ܩܕܡܝܐ ܕܗܘ̣ܐ ܒܐܬܪܐ
                   ܕܦܪ̈ܣܝܐ. ܡܛܘܠ ܝܘܠܦܢܗ ܕܝܫܘܥ ܡܫܝܚܐ. ܒܝܘ̈ܡܝ ܘܪܬܪܢ ܐܒܐ ܕܐܒܘܗܝ ܕܫܒܘܪ ܡܠܟ ܡ̈ܠܟܐ ܕܦܪܣ.
                   ܏ܘܫ.</incipit>
-                <note>
-                  <persName>Vararanes</persName> or <persName>Bahram I</persName>. seems to be
-                  meant. He reigned <date calendar="Gregorian" when="0274">A.D. 274</date>—<date calendar="Gregorian" when="0277">277</date>, and was the
-                  great-great-grandfather of <persName>Sapor II</persName>. or the Great</note>
-                <note>These acts are imperfect at the end</note>
+                <note>These acts are imperfect at the end.</note>
               </msItem>
             </msItem>
           </msContents>
@@ -194,14 +201,13 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Vellum, about 12 in. by 8 7/8, consisting of 33 leaves (<bibl>Add. 12,142,
-                          foll. 74—107</bibl>), the last of which is much soiled and torn. The
+                      <p>Vellum, about 12 in. by 8 7/8, consisting of 33 leaves (Add. 12,142,
+                          foll. 74—107), the last of which is much soiled and torn. The
                         quires are numbered with both letters and arithmetical figures (e. g.,
-                          <locus from="81">foll. 81</locus>, <foreign>ܝܓ</foreign>; <locus from="93">93</locus>, <foreign>ܝܗ</foreign>); the later numeration with letters is
+                          <locus from="81">foll. 81</locus>, <foreign xml:lang="syr">ܝܓ</foreign> <foreign xml:lang=""><!--Justin: Arithmetical figures needed here--></foreign>; <locus from="93">93</locus>, <foreign xml:lang="syr">ܝܗ</foreign> <foreign xml:lang=""><!--Justin: Arithmetical figures needed here--></foreign>); the later numeration with letters is
                         in part erroneous. Twelve quires and some leaves are wanting at the
                         beginning, and at least several leaves at the end. Each page is divided into
-                        two columns, of from 23 to 27 lines. The writing is a fine, regular
-                        Esṭrangĕlā of the <date calendar="Gregorian" notBefore="0500" notAfter="0600">vith cent</date>. </p>
+                        two columns, of from 23 to 27 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -210,38 +216,15 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" scope="sole" script="syr-Syre" medium="unknown">
-                <desc/>
+            <handDesc hands="2">
+              <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
+                <desc>The writing is a fine, regular Esṭrangĕlā of the <origDate calendar="Gregorian" notBefore="0500" notAfter="0600">vith cent</origDate>.</desc>
+              </handNote>
+              <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
+                <desc>The later numeration with letters is in part erroneous.</desc>
               </handNote>
             </handDesc>
-            <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                  <locus from="103b"/>
-                  <p>The martyrdom acts of <persName ref="http://syriaca.org/person/1180">Pantaleon</persName>,
-                    <persName ref="http://syriaca.org/person/1772">Hermolaus</persName>, <persName>Hermippus</persName>,
-                      <persName>Hermocrates</persName>, and others were written, according to a
-                    statement at the end, by three of <persName ref="http://syriaca.org/person/1180">Pantaleon</persName>'s disciples, <persName>Laurentius</persName>,
-                      <persName>Bassus</persName>, and <persName>Probianus</persName>; fol. 103 b,
-                    second col.</p>
-                  <p>
-                    <quote xml:lang="syr">ܐܢܐ ܕܝܢ ܠܘܪܢܛܝܣ ܘܒܣܘܣ ܘܦܪܘܒܝܢܣ ܕܐܝܬܝܢ ܗܘܝܢ ܒ̈ܢܝ ܒܝܬܗ ܕܦܢܛܐܠܡܘܢ
-                          (<persName>
-                        <foreign>Panteleêmôn</foreign>
-                      </persName>) ܩܕܝܫܐ. ܕܕܒܝܩܝܢ ܗܘܝܢ
-                      ܠܗ ܘܚܙܝܢ ܗܘܝܢ ܣܗܕܘܬܗ ܕܐܬܠܝܛܐ. ܘܟܠ ܡܕܡ ܕܚܙܝܢܢ. ܘܟܠ ܕܦܢܝ ܕܘܝܐ ܦܬܓܡܐ ܘܟܠܡܕܡ ܕܚܫ.
-                      ܘܥܠ ܩܠܐ ܕܡܢ ܫܡܝܐ ܕܫܡܥܢܢ. ܘܟܬܒܢܢ ܕܘܒܪ̈ܘܗܝ ܥܡ ܗܘܦܡ̈ܢܡܛܐ ܕܝܠܗ. ܘܒ̈ܢܝ ܐܣܟܘܠܐ ܕܝܠܗ
-                      ܐܝܬܝܢ ܗܘܝܢ. ܘܡܛܠ ܕܦܪܣܛܓܡܐ ܗܘ̣ܐ ܕܡܠܟܐ ܕܟܬܝܒ ܗܘ̣ܱܐ ܒܗ ܗܟܢܐ ܕܟܠ ܡ̇ܢ ܕܥܒ̇ܪ ܥܠ
-                      ܦܘܩܕܢܐ ܗܢܐ. ܘܡܡܪܚ ܕܗܘܦܡ̈ܢܡܛܐ ܢܣ̣ܒ̣. ܗܢܐ ܠܡܘܬܐ ܢܫܬܠܡ. ܐܢܚܢܢ ܕܝܢ̣ ܐܪܚܩܢ ܗܘܝܢ
-                      ܠܐܬܪ̈ܘܬܐ ܕܡܕܢܚܐ. ܡܛܘܠ ܕܐܬܐܟܠܘ ܩܪ̈ܨܝܢ ܩܕܡܘܗܝ ܕܡܠܟܐ. ܟܠܗܘܢ ܓܝܪ ܣܗ̈ܕܐ ܕܒܝܘ̈ܡܝ
-                      ܡܟܣܝܡܝܢܣ ܐܬܟ݁ܠܠܘܿ ܗܘܘ̣. ܫܘܟܠܠܐ ܕܟܠܗܘܢ ܦܢܛܠܐܡܘܢ ܐܝܬܘܗܝ ܗܘ̣ܐ. ܠܬܫܒܘܚܬܐ ܕܐܠܗܐ
-                      ܐܒܐ. ܘܕܡܪܢ ܝܫܘܥ ܡܫܝܚܐ. ܘܕܪܘܚܐ ܕܩܘܕܫܐ. ܕܠܗ ܫܘܒܚܐ ܘܐܝܩܪܐ ܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ. </quote>
-                  </p>
-                </item>
-              </list>
-            </additions>
+            <additions/>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -252,7 +235,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0500" notAfter="0600">the vith
+              <origDate calendar="Gregorian" notBefore="0500" notAfter="0600">the vith
                 cent.</origDate>
             </origin>
             <provenance/>
@@ -442,11 +425,11 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change when="2022-01-14" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edits to msContents, handDesc, and additions</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-07-17" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
         encoding.</change>
-      <change type="planned" subtype="greek">Add in missing Greek characters.</change>
       <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs to
         be checked for accuracy</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>

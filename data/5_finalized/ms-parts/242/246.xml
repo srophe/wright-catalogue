@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14525, foll. 28—45</title>
+        <title level="a" xml:lang="en">BL Add MS 14525 foll. 28—45</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -16,6 +16,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</name>
@@ -27,6 +28,10 @@
         <respStmt>
           <resp>Edited by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited also by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -68,7 +73,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/246</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14525, foll. 28—45</idno>
+              <idno type="BL-Shelfmark">Add MS 14525 foll. 28—45</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -83,39 +88,38 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus from="28" to="45"/>
-              <title xml:lang="en">Anthems and hymns for the festivals of the whole year</title>
-              <rubric xml:lang="syr">ܥܢܝ̈ܢܐ ܘܩ̈ܠܐ</rubric>
+              <locus from="28a" to="45">Foll. 28a-45</locus>
+              <title xml:lang="en">Anthems and hymns (<foreign xml:lang="syr">ܥܢܝ̈ܢܐ ܘܩ̈ܠܐ</foreign>) for the festivals of the whole year</title>
               <msItem xml:id="b1" n="2" defective="true">
-                <locus from="28a"/>
-                <title xml:lang="en">The Epiphany</title>
+                <locus from="28a" to="31">Foll. 28a-31</locus>
+                <title xml:lang="en">Anthems and hymns for the Epiphany</title>
                 <msItem xml:id="c1" n="3" defective="true">
-                  <locus from="28a"/>
+                  <locus from="28a" to="28a">Fol. 28a</locus>
                   <title xml:lang="en">First order</title>
                   <note>Very imperfect.</note>
                 </msItem>
                 <msItem xml:id="c2" n="4" defective="true">
-                  <locus from="28a"/>
+                  <locus from="28a" to="31">Foll. 28a-31</locus>
                   <title xml:lang="en">Second order</title>
                   <rubric xml:lang="syr">ܛܟܣܐ ܕܬܪܝܢ ܕܕܢ̣ܚܐ</rubric>
                 </msItem>
               </msItem>
               <msItem xml:id="b2" n="5" defective="true">
-                <locus from="31a"/>
-                <title xml:lang="en">The Commemoration of <persName>S. John the Baptist</persName>
+                <locus from="31a" to="32">Foll. 31a-32</locus>
+                <title xml:lang="en">The Commemoration of <persName ref="https://syriaca.org/person/1808">S. John the Baptist</persName>
                 </title>
               </msItem>
               <msItem xml:id="b3" n="6" defective="true">
-                <locus from="32a"/>
+                <locus from="32a" to="33">Foll. 32a-33</locus>
                 <title xml:lang="en">The Presentation of <persName>our Lord</persName> in <placeName>the
                   Temple</placeName> and the Commemoration of <persName>S. Simeon the Aged</persName></title>
               </msItem>
               <msItem xml:id="b4" n="7" defective="true">
-                <locus from="33a"/>
-                <title xml:lang="en">The <persName>forty Martyrs</persName></title>
+                <locus from="33a" to="37">Foll. 33a-37</locus>
+                <title xml:lang="en"><persName ref="https://syriaca.org/person/1901">The forty Martyrs</persName></title>
               </msItem>
               <msItem xml:id="b5" n="8" defective="true">
-                <locus from="37b"/>
+                <locus from="37b" to="45">Foll. 37b-45</locus>
                 <title xml:lang="en">Lent</title>
               </msItem>
             </msItem>
@@ -144,7 +148,7 @@
                         </objectDesc>
                         <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                <desc>The writing is good and regular, of the <date>xth or xith cent.</date></desc>
+                <desc>The writing is good and regular, of the <origDate calendar="Gregorian" notBefore="0900" notAfter="1100">xth or xith cent.</origDate></desc>
                             </handNote>
             </handDesc>
                         <additions/>
@@ -158,7 +162,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                          <origDate notBefore="0900" notAfter="1100">xth or xith cent.</origDate>
+                          <origDate calendar="Gregorian" notBefore="0900" notAfter="1100">xth or xith cent.</origDate>
                             <origPlace/>
                         </origin>
                         <provenance/>
@@ -348,6 +352,7 @@
       </textClass>
     </profileDesc>
         <revisionDesc status="draft">
+          <change when="2022-01-18" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edits to msContents and handDesc</change>
             <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-16-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-04-05" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
         </revisionDesc>

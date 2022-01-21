@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 12169, foil. 179—218</title>
+        <title level="a" xml:lang="en">BL Add MS 12169 foil. 179—218</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/53</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 12169, foll. 179-218</idno>
+              <idno type="BL-Shelfmark">Add MS 12169 foll. 179-218</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -82,34 +83,32 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="179a"/>
+              <locus from="179a" to="190">Foll. 179a-190</locus>
               <author ref="https://syriaca.org/person/22">Xystus, Bishop of Rome</author>
-              <title xml:lang="en">Select Sayings of Xystus, bishop of Rome</title>
+              <title xml:lang="en" type="supplied">Select Sayings of Xystus, bishop of Rome</title>
               <rubric xml:lang="syr">ܡ̈ܠܐ ܡܓܒ̈ܝܬܐ ܕܡܪܝ ܟܣܣܛܘܣ ܐܦܣܩܦܐ ܕܪܗܘܡܐ</rubric>
-              <quote xml:lang="syr">ܐܝܩܪܗ ܓܝܪ ܪܒܐ ܕܐܠܗܐ ܗܢܘ<locus/>
-              </quote>
-              <note>The second discourse is imperfect, as three leaves are wanting after fol. 189. </note>
-              <note>The third discourse commences with the words quoted, (see <bibl>de Lagarde,
+              <note><title>The second discourse</title> is imperfect, as three leaves are wanting after fol. <locus from="189" to="189">189</locus>.</note>
+              <note><title>The third discourse</title> commences with the words <quote xml:lang="syr">ܐܝܩܪܗ ܓܝܪ ܪܒܐ ܕܐܠܗܐ ܗܢܘ</quote>, (see <bibl>de Lagarde,
                   Anal. Syr., p. 31, line 1</bibl>).</note>
             </msItem>
             <msItem xml:id="a2" n="2">
-              <locus from="190b"/>
+              <locus from="190b" to="202">Foll. 190b-202</locus>
               <author ref="https://syriaca.org/person/2698">Marcianus</author>
-              <title xml:lang="en">Select writings of Marcianus the monk</title>
+              <title xml:lang="en">Select writings of <persName ref="https://syriaca.org/person/2698">Marcianus</persName> the monk</title>
               <rubric xml:lang="syr">ܡܠܦܢܘܬܗ ܕܡܪܩܝܢܣ.</rubric>
               <msItem xml:id="b1" n="3" defective="true">
-                <locus from="190b"/>
+                <locus from="190b" to="192">Foll. 190b-192</locus>
                 <author ref="https://syriaca.org/person/2698">Marcianus</author>
-                <title xml:lang="en">On repentance</title>
+                <title xml:lang="en" type="supplied">On repentance</title>
                 <rubric xml:lang="syr">ܕܥܠ ܬܝܒܘܬܐ ܘܕܐܝܟܢܐ ܙܕܩ ܕܢܬܘܒܘܢ</rubric>
                 <incipit xml:lang="syr">ܠܡܫܒܚܘ ܘܠܡܒܪܟܘ ܘܠܡܘܪܒܘ ܙܕܩ ܠܐܠܗܐ ܕܫܡܝܐ ܘܡܪܐ ܕܟܠܗ̇
                   ܐܪܥܐ</incipit>
-                <note>Imperfect, a leaf being wanting after fol. 191</note>
+                <note>Imperfect, a leaf being wanting after fol. <locus from="191" to="191">191</locus></note>
               </msItem>
               <msItem xml:id="b2" n="4">
-                <locus from="192a"/>
+                <locus from="192a" to="197">Foll. 192a-197</locus>
                 <author ref="https://syriaca.org/person/2698">Marcianus</author>
-                <title xml:lang="en">On perfect discipline, that touches the soul,
+                <title xml:lang="en" type="supplied">On perfect discipline, that touches the soul,
                   etc.</title>
                 <rubric xml:lang="syr">ܥܠ ܬܘܠܡܕܐ ܡܫܡܠܢܐ ܕܥܕܡܐ ܠܢܦܫܐ ܘܕܐܝܟܢܐ ܣܛܢܐ ܡܪܕ ܥܠ ܐܢܫܐ ܘܥܠ
                   ܡܐܬܝܬܗ ܕܡܪܢ ܕܠܒܝܬ ܒ̈ܢܝ ܐܢܫܐ ܘܥܠ ܪܚܡܬ ܟܣܦܐ ܘܥܘܗܕܢܐ ܕܕܝܢܐ ܘܦܘܪܥܢܐ ܕܥܒ̈ܕܐ</rubric>
@@ -117,53 +116,56 @@
                   ܒܥܒܕܐ ܢܫܒܚܘܢ</incipit>
               </msItem>
               <msItem xml:id="b3" n="5">
-                <locus from="197a"/>
+                <locus from="197a" to="199">Foll. 197a-199</locus>
                 <author ref="https://syriaca.org/person/2698">Marcianus</author>
-                <title xml:lang="en">On baptism</title>
+                <title xml:lang="en" type="supplied">On baptism</title>
                 <rubric xml:lang="syr">ܡܠܦܢܘܬܐ ܕܥܠ ܡܥܡܘܕܝܬܐ ܘܬܫܥܝܬܐ ܥܠ ܛܒ̈ܬܐ ܕܗ̈ܘܝ ܡܢܗ̇ ܘܙܘܗܪܐ
-                  ܠܐܝܠܝܢ ܕܥܡܕܘ ܘܠܐܝܠܝܢ ܕܢܦܠܘ ܣܒܪܐ ܕܬܝܒܘܬܐ </rubric>
+                  ܠܐܝܠܝܢ ܕܥܡܕܘ ܘܠܐܝܠܝܢ ܕܢܦܠܘ ܣܒܪܐ <foreign xml:lang="en">(sic)</foreign> ܕܬܝܒܘܬܐ</rubric>
                 <incipit xml:lang="syr">ܐܪܙܐ ܗ̣ܘ ܕܠܐ ܡܬܡܠܠ. ܘܬܗܪܐ ܫܪܝܪܐܝܬ ܘܕܘܡܪܐ. ܥܠ ܡܘܗܒܬܗ ܕܡܪܢ
-                  ܝܫܘܥ ܡܫܝܚܐ̣. ܕܠܐ ܡܬܡܠܠܐ..</incipit>
+                  ܝܫܘܥ ܡܫܝܚܐ̣. ܕܠܐ ܡܬܡܠܠܐ.</incipit>
               </msItem>
               <msItem xml:id="b4" n="6">
-                <locus from="199b"/>
+                <locus from="199b" to="202">Foll. 199b-202</locus>
                 <author ref="https://syriaca.org/person/2698">Marcianus</author>
-                <title xml:lang="en">Hortatory discourse on the Faith of the Church</title>
+                <title xml:lang="en" type="supplied">Hortatory discourse on the Faith of the Church</title>
                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܦܝܣܐ ܥܠ ܗܝܡܢܘܬܐ ܕܥܕܬܐ</rubric>
                 <incipit xml:lang="syr">ܥܠ ܗܝܡܢܘܬܐ ܕܝܢ ܕܝܚܝܕܝܐ ܒܪܐ ܕܐܠܗܐ̣. ܠܝܬ ܠܢ ܦܠܝܓܘܬܐ.</incipit>
               </msItem>
             </msItem>
             <msItem xml:id="a3" n="7">
-              <locus from="202a"/>
+              <locus from="202a" to="218">Foll. 202a-218</locus>
               <author ref="https://syriaca.org/person/2473">Palladius</author>
-              <author>Hieronymus</author>
+              <author ref="https://syriaca.org/person/857">Hieronymus</author>
               <title xml:lang="en">Selections from the History of the Egyptian Fathers by
-                  <persName>Palladius</persName> and <persName>Hieronymus</persName>
+                  <persName ref="https://syriaca.org/person/2473">Palladius</persName> and <persName ref="https://syriaca.org/person/857">Hieronymus</persName>
               </title>
               <msItem xml:id="b5" n="8">
-                <locus from="202a"/>
+                <locus from="202a" to="203">Foll. 202a-203</locus>
+                <title xml:lang="en" type="supplied">Part a</title>
                 <rubric xml:lang="syr">ܫ̈ܘܐܠܐ ܕܡܢ ܐܒ̈ܗܬܐ</rubric>
               </msItem>
               <msItem xml:id="b6" n="9" defective="true">
-                <locus from="203a"/>
+                <locus from="203a" to="208">Foll. 203a-208</locus>
+                <title xml:lang="en" type="supplied">Part b</title>
                 <rubric xml:lang="syr">ܫܘܐܠܐ ܘܦܘܫܩܐ ܕܡܪܬܝܢܘܬܐ ܕܐܒ̈ܗܬܐ ܩܕܝ̈ܫܐ ܡܨܪ̈ܝܐ</rubric>
-                <note>No less, it would appear, than eight leaves are lost after fol. 205.</note>
+                <note>No less, it would appear, than eight leaves are lost after fol. <locus from="205" to="205">205</locus>.</note>
               </msItem>
               <msItem xml:id="b7" n="10">
-                <locus from="208a"/>
+                <locus from="208a" to="208">Fol. 208</locus>
+                <title xml:lang="en" type="supplied">Part c</title>
                 <rubric xml:lang="syr">ܡܪܬܝܢܘܬܐ ܕܣ̈ܒܐ ܡܨܪ̈ܝܐ</rubric>
                 <incipit xml:lang="syr">ܫܠܝܐ ܕܡܠܬܐ ܐܬܦܪܣ ܠܡܩܢܐ̣ ܗܟܢܐ. ܐܦ ܒܓܘܚܟܐ ܘܒܗܠܟܐ. ܡܢ ܩܫܝܘܬ
                   ܬܪܥܝܬܐ ܕܝ̣ܢ ܥܪܘܩ.</incipit>
               </msItem>
               <msItem xml:id="b8" n="11">
-                <locus from="208b"/>
+                <locus from="208b" to="208b">Fol. 208b</locus>
+                <title xml:lang="en" type="supplied">Part d</title>
                 <rubric xml:lang="syr">ܬܘܒ ܫܘܐܠܐ ܘܦܘܢܝ ܦܬܓܡܐ ܐܚܪ̈ܢܐ ܕܝܠܗܘܢ ܕܣ̈ܒܐ ܡܨܪ̈ܝܐ</rubric>
               </msItem>
               <msItem xml:id="b9" n="12">
-                <locus from="208b"/>
-                  <author>Abbā Moses</author>
-                <title xml:lang="en">Sayings which <persName>Abbā Moses</persName> sent to
-                    <persName>Abbā Poemen</persName> with other excerpts</title>
+                <locus from="208b" to="218">Foll. 208b-218</locus>
+                <title xml:lang="en">Sayings which <persName ref="https://syriaca.org/person/1386">Abbā Moses</persName> sent to
+                    <persName ref="http://syriaca.org/person/2739">Abbā Poemen</persName> with other excerpts</title>
                 <rubric xml:lang="syr">ܗܠܝܢ ܦܬܓ̈ܡܐ ܕܫܕܪ ܐܒܐ ܡܘܫܐ ܠܐܒܐ ܦܘܡܢ</rubric>
                 <incipit xml:lang="syr">ܦܬܓܡܐ ܩܕܡܝܐ ܗܢܐ ܐܝܬܘܗܝ. ܕܐܬܐܡܪ ܡܢܗ ܕܣܒܐ. ܕܫܦܝܪ ܗ̣ܘ ܠܒܪ
                   ܐܢܫܐ̇. ܕܢܡܝܬ ܢܦܫܗ ܡܢ ܩܪܝܒܗ. ܘܒܡܕܡ̣ ܠܐ ܢܚܝܒܝܘܗܝ..</incipit>
@@ -184,10 +186,9 @@
                       <p>Vellum, about 8 3/4 in. by 5 3/8, consisting of 40 leaves (Add. 12,169,
                         foll. 179— 218), many of which are much stained and some slightly torn. The
                         quires, 5 in number, of which the second and fourth are imperfect, are
-                        signed with letters (ܝܓ to ܝܙ), and also, though incorrectly, with Coptic
-                        arithmetical figures (e.g. %, 23, foll. 180 a and 194 b; %, 22, fol. 204 b).
-                        Each page is divided into two columns, of from 40 to 45 lines. This
-                        manuscript is written in a fine regular hand of the vith cent.</p>
+                        signed with letters (<foreign xml:lang="syr">ܝܓ</foreign> to <foreign xml:lang="syr">ܝܙ</foreign>), and also, though incorrectly, with Coptic
+                        arithmetical figures (e.g. <foreign xml:lang="cop"><!--Justin: Insert Coptic arithmetical figures here--></foreign>, 23, foll. <locus from="180a" to="180a">180 a</locus> and <locus from="194b" to="194b">194 b</locus>; <foreign xml:lang="cop"><!--Justin: Insert Coptic arithmetical figures here--></foreign>, 22, fol. <locus from="204b" to="204b">204 b</locus>).
+                        Each page is divided into two columns, of from 40 to 45 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -198,7 +199,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>This manuscript is written in a fine regular hand of the <origDate calendar="Gregorian" notBefore="0500" notAfter="0600">vith cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -403,6 +404,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change when="2022-01-14" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-06">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
       <change type="planned" subtype="coptic">Add in missing Coptic characters.</change>

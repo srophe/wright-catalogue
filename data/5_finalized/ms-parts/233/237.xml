@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,9 +82,11 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <title xml:lang="en">A portion of the first part of a Choir-book,
-                        comprising <title>Psalms xlvi. 5—lx. 6, according to the Peshitta
+              <title xml:lang="en" type="supplied">A portion of the first part of a Choir-book,
+                        comprising <title ref="http://syriaca.org/work/19">Psalms xlvi. 5—lx. 6, according to the Peshitta
                            version</title>.</title>
+              <note>The Psalms are numbered, the <foreign xml:lang="syr">ܡܪ̈ܡܝܬܐ</foreign> and <foreign xml:lang="syr">ܫܘ̈ܒܚܐ</foreign> marked, and the versicles divided as usual by
+                                       <foreign xml:lang="syr">ܗ</foreign>.</note>
             </msItem>
           </msContents>
                <physDesc>
@@ -98,8 +101,7 @@
                            <list>
                               <item>
                                  <p>Five vellum leaves, about 5 1/2 in. by 4 1/4, with from 17 to 19
-                                    lines in each page. The Psalms are numbered, the <quote xml:lang="syr">ܡܪ̈ܡܝܬܐ</quote> and <quote xml:lang="syr">ܫܘ̈ܒܚܐ</quote>marked, and the versicles divided as usual by
-                                       <quote xml:lang="syr">ܗ</quote>.</p>
+                                    lines in each page.</p>
                               </item>
                            </list>
                         </condition>
@@ -110,7 +112,7 @@
                   </objectDesc>
                   <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                        <desc>The writing is rather inelegant, of the <origDate notBefore="1200" notAfter="1300">xiiith cent</origDate>.</desc>
+                        <desc>The writing is rather inelegant, of the <origDate calendar="Gregorian" notBefore="1200" notAfter="1300">xiiith cent</origDate>.</desc>
                      </handNote>
             </handDesc>
                   <additions>
@@ -325,6 +327,7 @@
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
+        <change when="2022-01-18" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edits to msContents</change>
          <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-06-27" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial

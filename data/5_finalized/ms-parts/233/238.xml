@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14524, foll. 12—21</title>
+        <title level="a" xml:lang="en">BL Add MS 14524 foll. 12—21</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/238</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14524, foll. 12-21</idno>
+              <idno type="BL-Shelfmark">Add MS 14524 foll. 12-21</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -82,20 +83,21 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus from="12a"/>
-              <author ref="Severus">https://syriaca.org/person/51</author>
-              <title xml:lang="en">Part of the Hymns of Severus</title>
-              <rubric xml:lang="syr">ܦܢܩܝܬܐ ܕܡ̈ܥܢܝܬܐ</rubric>
+              <locus from="12b" to="13a">Foll. 12b-13a</locus>
+              <title xml:lang="en">Part of the Hymns of <persName ref="http://syriaca.org/person/51">Severus</persName></title>
+              <note>Foll. 12 b and 13 a contain <title xml:lang="en">the hymns of <persName ref="http://syriaca.org/person/51">Severus<persName></title>, but according to a
+                different arrangement, which the scribe presently abandoned, commencing afresh on
+                fol. 13 b.</note>
+            </msItem>
+            <msItem xml:id="a2" n="2">
+              <locus from="13b" to="21">Foll. 13b-21</locus>
+              <title xml:lang="en">Part of the Hymns (<foreign xml:lang="syr">ܦܢܩܝܬܐ ܕܡ̈ܥܢܝܬܐ</foreign>) of <persName ref="http://syriaca.org/person/51">Severus</persName></title>
               <rubric xml:lang="syr">
                 <locus from="13b"/>ܒܚܝ̣ܠ ܥܘܕܪܢܐ ܕܟܝ̇ܢܐ ܗ̇ܘ ܬܠܝܬ݂ܝ ܩ̈ܢܘܡܐ
                 ܕܐܒܐ ܘܕܒܪܐ ܘܕܪܘܚܐ ܩܕܝܫܐ. ܡܫ̇ܪܝܢܢ ܕܢܟܬ݂ܘܒ ܦܢܩܝܬܐ ܕܡ̈ܥܢܝܬܐ ܕܩܕܝܫܐ ܡܪܝ ܣܐܘܝܪܐ ܦܐܛܪܝܪܟܐ
                 ܕܐܢܛܝܘܟܝܐ. ܐܝܟ ܬ݁ܘܪܨܐ ܚ̣ܕܬܐ ܟܠ ܚܕܐ ܒܬܪ ܒܪܬ ܫܘܼܒܚܗ</rubric>
-              <note>Foll. 12 b and 13 a also contain the hymns of Severus, but according to a
-                different arrangement, which the scribe presently abandoned, commencing afresh on
-                fol. 13 b.</note>
-              <note>Each hymn is accompanied by letters on the margin, indicating its number and the
+              <note>These hymns are for the Nativity, <foreign xml:lang="syr">ܕܒܝܬ ܝܠ̣ܕܐ<foreign>, 14 in number, and the first three for the Epiphany, <foreign xml:lang="syr">ܕܒܝܬ ܕܢܚ̣ܐ</foreign>. Each hymn is accompanied by letters on the margin, indicating its number and the
                 tone according to which it is chanted.</note>
-              <note>The Hymns are 14 in number, and the first three for the Epiphany</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -110,7 +112,7 @@
                   <list>
                     <item>
                       <p>Ten vellum leaves, about 6 in. by 3 7/8, forming the first quire of a
-                        neatly written manuscript of the xith cent., with ornamental devices (Add.
+                        neatly written manuscript of the xith cent., (Add.
                         14,524, foll. 12—21). There are from 20 to 24 lines in each page.</p>
                     </item>
                   </list>
@@ -122,13 +124,15 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>Neatly written, of the <origDate calendar="Gregorian" notBefore="1000" notAfter="1100">xith cent.</origDate></desc>
               </handNote>
             </handDesc>
-            <additions>
-              <p>Each hymn is accompanied by letters on the margin, indicating its number and the
-                tone according to which it is chanted.</p>
-            </additions>
+            <decoDesc>
+              <decoNote xml:id="decoNote1" type="ornamentation">
+                <desc>These leaves contain ornamental devices.</desc>
+              </decoNote>
+            </decoDesc>
+            <additions/>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -330,6 +334,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+    <change when="2022-01-18" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edits to msContents, condition, and handDesc; added decoDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-03">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
     </revisionDesc>

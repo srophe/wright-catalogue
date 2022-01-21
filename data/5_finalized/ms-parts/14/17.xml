@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,30 +82,32 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <title xml:lang="en">The Commentary of <persName ref="http://syriaca.org/person/573">John Chrysostom</persName> on the
-                           <title>Gospel according to S. Matthew</title>, homm. i.—xxxii.</title>
-              <note>See the <bibl>Benedictine edition of Chrysostom's works, 1834—38, t.
-                           vii., pp. 1—426</bibl>, and <bibl>Migne, Patrol. Gr., t.
-                        lvii</bibl>.</note>
-              <note>The following portions of the text are missing. At the beginning, hom.
-                        i., from the commencement to the words "<foreign xml:lang="grc">Εἰ δέ τι
-                           περὶ καιρῶν ἦ τόπων διαφόρως ἀπήγγειλαν</foreign>" (tom. vii., p. 6).
-                        After <locus from="113">fol. 113</locus>, hom. ii., from the words "<foreign xml:lang="grc">Οὐχ ὤς τινες οἴονται κάτωθεν ἄνω βουλόμενος
-                           ἐλθεῖν</foreign>" (p. 27) to the end; the whole of hom. iii.; and hom.
-                        iv., from the beginning to the words % <!--insert missing Greek here--> (p.
-                        60). After <locus from="114">fol. 114</locus>, hom. iv., from the words
-                           "<foreign xml:lang="grc">καίτοι γε οὐ παραδευγματισμοῦ μόνον ἦν ὑπεύθυνος
-                           ἡ τοιαύτη, ἀλλὰ καὶ κολάζεσθαι αὐτὴν ὁ νόμος ἐκέλευεν</foreign>" (p. 63)
-                        to "<foreign xml:lang="grc">Εἰ γὰρ καὶ μὴ σὸς ὁ τόκος</foreign>" (p. 67).
-                        After <locus from="120">fol. 120</locus>, hom. v., from the words "<foreign xml:lang="grc">καὶ τὰ πρὸ τούτου δε εἰρημένα τοῦτον τὸν λόγον
-                           συνίστησιν</foreign>" (p. 88) to "<foreign xml:lang="grc">Κἄν 'Ιεζεκιὴλ ἦ
-                           ὁ παρακαλῶν, ἀκούσεται, ὅτι 'Εὰν στῇ Νῶε</foreign>" (p. 92). After <locus from="171">fol. 171</locus>, hom. xv., from the words "<foreign xml:lang="grc">Τὸ γὰρ δὴ θαυμαστὸν, τοῦτό ἐστιν, ὅτι οὐ κολακεύοντες,
-                           οὐδὲ θεραπεύοντες, ἀλλ' ἐπιστύφοντες ὥσπερ τὸ ἄλας</foreign>" (p. 222) to
-                        the end; and hom. xvi., from the beginning to the words "<foreign xml:lang="grc">Οταν μὴ ἑαυτοῖς ἀμύνωμεν, ἀλλ' ἑτέρους σκιρτῶντας ἄγχωμεν,
-                           καὶ ρᾳθυμοῦντας ἐπιστρέφωμεν</foreign>" (p. 244). After <locus from="241">fol. 241</locus>, the greater part of hom. xxxii., from "<foreign xml:lang="grc">πορεύεσθε δὲ μᾶλλον πρὸς τὰ πρόβατα τὰ ἀπολωλότα οἴκου
-                           'Ισραήλ</foreign>" (p. 417) to the end; with the exception of the
-                        fragment <locus from="242">fol. 242</locus>, which contains p. 418, lines
-                        1—4, and the last seven lines of p. 419.</note>
+              <locus from="108a" to="242">Foll. 108a-242</locus>
+              <title xml:lang="en" type="supplied">The Commentary of <persName ref="http://syriaca.org/person/573">John Chrysostom</persName> on the
+                           <title ref="https://syriaca.org/work/9646" xml:lang="en" type="supplied">Gospel according to S. Matthew</title>, homm. i.—xxxii.</title>
+              <note>
+                <p>See the <bibl>Benedictine edition of Chrysostom's works, 1834—38, t.
+                           vii., pp. 1—426</bibl>, and <bibl>Migne, Patrol. Gr., t. lvii</bibl>.
+                </p>
+                <p>The following portions of the text are missing. At the beginning, <title>hom. i.</title>, from the commencement to the words <foreign xml:lang="grc">Εἰ δέ τι
+                           περὶ καιρῶν ἦ τόπων διαφόρως ἀπήγγειλαν</foreign> (<bibl>tom. vii., p. 6</bibl>).
+                        After <locus from="113">fol. 113</locus>, <title>hom. ii.</title>, from the words <foreign xml:lang="grc">Οὐχ ὤς τινες οἴονται κάτωθεν ἄνω βουλόμενος
+                           ἐλθεῖν</foreign> (<bibl>p. 27</bibl>) to the end; the whole of <title>hom. iii.</title>; and <title>hom.
+                        iv.</title>, from the beginning to the words <foreign xml:lang="grc">καίτοι γε οὐ παραδευγματισμοῦ μόνον ἦν ὑπεύθυνος ἡ τοιαύτη, ἀλλὰ καὶ κολάζεσθαι αὐτὴν ὁ νόμος ἐκέλευεν</foreign> (<bibl>p.
+                        60</bibl>). After <locus from="114">fol. 114</locus>, <title>hom. iv.</title>, from the words
+                           <foreign xml:lang="grc">καὶ γὰρ καὶ τῶν εἰρημένων ἕνεκεν, καὶ ἵνα φανῇ αὐτοῦ ἡ φιλοσοφία, ἀναβάλλεται τὴν παρουσίαν</foreign> (<bibl>p. 63</bibl>)
+                        to <foreign xml:lang="grc">Εἰ γὰρ καὶ μὴ σὸς ὁ τόκος</foreign> (<bibl>p. 67</bibl>).
+                        After <locus from="120">fol. 120</locus>, <title>hom. v.</title>, from the words <foreign xml:lang="grc">καὶ τὰ πρὸ τούτου δε εἰρημένα τοῦτον τὸν λόγον
+                           συνίστησιν</foreign> (<bibl>p. 88</bibl>) to <foreign xml:lang="grc">Κἄν 'Ιεζεκιὴλ ἦ
+                           ὁ παρακαλῶν, ἀκούσεται, ὅτι 'Εὰν στῇ Νῶε</foreign> (<bibl>p. 92</bibl>). After <locus from="171">fol. 171</locus>, <title>hom. xv.</title>, from the words <foreign xml:lang="grc">Τὸ γὰρ δὴ θαυμαστὸν, τοῦτό ἐστιν, ὅτι οὐ κολακεύοντες,
+                           οὐδὲ θεραπεύοντες, ἀλλ' ἐπιστύφοντες ὥσπερ τὸ ἄλας</foreign> (<bibl>p. 222</bibl>) to
+                        the end; and <title>hom. xvi.</title>, from the beginning to the words <foreign xml:lang="grc">Οταν μὴ ἑαυτοῖς ἀμύνωμεν, ἀλλ' ἑτέρους σκιρτῶντας ἄγχωμεν,
+                           καὶ ρᾳθυμοῦντας ἐπιστρέφωμεν</foreign> (<bibl>p. 244</bibl>). After <locus from="241">fol. 241</locus>, the greater part of <title>hom. xxxii.</title>, from <foreign xml:lang="grc">πορεύεσθε δὲ μᾶλλον πρὸς τὰ πρόβατα τὰ ἀπολωλότα οἴκου
+                           'Ισραήλ</foreign> (<bibl>p. 417</bibl>) to the end; with the exception of the
+                        fragment <locus from="242">fol. 242</locus>, which contains <bibl>p. 418, lines
+                        1—4</bibl>, and <bibl>the last seven lines of p. 419</bibl>.
+                  </p>
+                </note>
             </msItem>
           </msContents>
                <physDesc>
@@ -119,10 +122,10 @@
                            <list>
                               <item>
                                  <p>Vellum, about 12 ¼ in. by 9, consisting of 135 leaves
-                                       (<bibl>Add. 12,142, foll. 108—242</bibl>), some of which are
+                                       (Add. 12,142, foll. 108—242), some of which are
                                     much stained and torn, especially <locus from="110">foll.
                                        110</locus>, <locus from="230">230</locus>, and
-                                       <locus>237—242</locus>. The quires have been twice numbered
+                                       <locus from="237" to="242">237—242</locus>. The quires have been twice numbered
                                     with arithmetical figures, once by the scribe, and again by an
                                     early corrector (see <locus from="212a">fol. 212 a</locus>). A
                                     third numeration, with letters, is of late date and incorrect.
@@ -137,24 +140,20 @@
                         <p>Content pending</p>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc hands="1">
+                  <handDesc hands="3">
               <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr-Syre">
                         <desc>This manuscript is written in a small, elegant, Edessene character,
-                           probably of the beginning of the <origDate>vith cent</origDate>.</desc>
+                           probably of the beginning of the <origDate calendar="Gregorian" notBefore="0500" notAfter="0600">vith cent</origDate>.</desc>
+                     </handNote>
+              <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
+                        <desc>The quires have been numbered with arithmetical figures by an
+                                    early corrector (see <locus from="212a">fol. 212 a</locus>).</desc>
+                     </handNote>
+              <handNote medium="unknown" xml:id="handNote3" scope="minor" script="syr">
+                        <desc>A third numeration, with letters, is of late date and incorrect.</desc>
                      </handNote>
             </handDesc>
-                  <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p/>
-                           <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                        </item>
-              </list>
-            </additions>
+                  <additions/>
                   <bindingDesc>
                      <p>Content pending</p>
                   </bindingDesc>
@@ -165,7 +164,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate/>
+                     <origDate calendar="Gregorian" notBefore="0500" notAfter="0600">VIth century</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
@@ -355,6 +354,7 @@
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
+        <change when="2022-01-14" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edits to msContents, handDesc, and origDate</change>
          <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change  who="http://syriaca.org/documentation/editors.xml#jpagan">Initial TEI

@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14666, foll. 33—36</title>
+        <title level="a" xml:lang="en">BL Add MS 14666 foll. 33—36</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/453</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14666, foll. 33-36</idno>
+              <idno type="BL-Shelfmark">Add MS 14666 foll. 33-36</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -80,12 +81,12 @@
           </msIdentifier>
           <msContents>
             <summary/>
-            <textLang mainLang="syr-Syre"/>
+            <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus to="36" from="33a"/>
-              <title ref="https://syriaca.org/work/19" xml:lang="en">A fragment of the first part ܐ
-                of a Choir-book, containing Psalms ii. 6—x. 15, according to the Peshitta version. </title>
-              <note>The verse of the last leaf seems to have been left blank by the scribe</note>
+              <locus from="33a" to="36">Foll. 33a-36</locus>
+              <title xml:lang="en" type="supplied">A fragment of the first part (<foreign xml:lang="syr">ܐ</foreign>)
+                of a Choir-book, containing <title ref="https://syriaca.org/work/19" xml:lang="en" type="supplied">Psalms ii. 6—x. 15, according to the Peshitta version</title></title>
+              <note>The verso of the last leaf seems to have been left blank by the scribe</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -100,8 +101,7 @@
                   <list>
                     <item>
                       <p>Four vellum leaves, all much soiled and torn. There are 17 or 18 lines in
-                        each page. The writing is partly cursive, partly Estrangela, of the xiith or
-                        xiiith cent.</p>
+                        each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -112,7 +112,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>The writing is partly cursive, partly Estrangela, of the <origDate calendar="Gregorian" notBefore="1100" notAfter="1300">xiith or xiiith cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -126,7 +126,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1100" notAfter="1300">XIIth or XIIIth
+              <origDate calendar="Gregorian" notBefore="1100" notAfter="1300">XIIth or XIIIth
                 Century</origDate>
               <origPlace/>
             </origin>
@@ -317,6 +317,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-20">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-03">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
     </revisionDesc>

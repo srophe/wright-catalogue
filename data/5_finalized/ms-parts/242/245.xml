@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14525, foll. 25—27</title>
+        <title level="a" xml:lang="en">BL Add MS 14525 foll. 25—27</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</name>
@@ -26,6 +27,10 @@
         <respStmt>
           <resp>Edited by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited also by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,19 +86,8 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <title xml:lang="en">Anthems</title>
-              <rubric xml:lang="syr">ܥܢܝ̈ܢܐ</rubric>
-              <msItem xml:id="b1" n="2">
-                <title xml:lang="en">The Nativity</title>
-              </msItem>
-              <msItem xml:id="b2" n="3">
-                <title xml:lang="en">The Massacre of the
-                           <persName ref="http://syriaca.org/person/1786">Innocents</persName>
-                </title>
-              </msItem>
-              <msItem xml:id="b3" n="4">
-                <title xml:lang="en">The Epiphany</title>
-              </msItem>
+              <locus from="25a" to="27">Foll. 25a-27</locus>
+              <title xml:lang="en"><foreign xml:lang="syr">ܥܢܝ̈ܢܐ</foreign>, or anthems, for the Nativity, the Massacre of the Innocents, and the Epiphany</title>
             </msItem>
           </msContents>
                <physDesc>
@@ -120,7 +114,7 @@
                   </objectDesc>
                   <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                        <desc>It was written in a fair hand of the <origDate notBefore="0900" notAfter="1100">xth or xith cent.</origDate></desc>
+                        <desc>These leaves were written in a fair hand of the <origDate calendar="Gregorian" notBefore="0900" notAfter="1100">xth or xith cent.</origDate></desc>
                      </handNote>
             </handDesc>
                   <additions/>
@@ -134,7 +128,7 @@
                </physDesc>
                <history>
                   <origin>
-                    <origDate notBefore="0900" notAfter="1100">xth or xith cent.</origDate>
+                    <origDate calendar="Gregorian" notBefore="0900" notAfter="1100">xth or xith cent.</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
@@ -324,12 +318,11 @@
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
+        <change when="2022-01-18" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edits to msContents</change>
          <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-06-27" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
-         <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
-            to be checked for accuracy</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
