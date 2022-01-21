@@ -4,7 +4,7 @@
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
       <titleStmt>
-        <title xml:lang="en">BL Add MS 14717</title>
+        <title xml:lang="en">BL Add MS 14717, foll. 59-102</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
@@ -16,6 +16,7 @@
           Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#jdeboer">Jacob A. DeBoer</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#jdeboer">Jacob A. DeBoer</name>
@@ -27,6 +28,10 @@
         <respStmt>
           <resp>Edited by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#jpagan">Jessica Pagan</name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited also by</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -70,7 +75,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/596</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14717</idno>
+              <idno type="BL-Shelfmark">Add MS 14717, foll. 59-102</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum
@@ -84,9 +89,7 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
-            <!--Note: Do not manually enter summary. We will automatically generate this from the @class later-->
-            <textLang mainLang="syr">Syriac</textLang>
+            <textLang mainLang="syr"/>
             <msItem n="1" xml:id="a1" defective="true">
               <locus from="59a" to="98a">Foll. 59a-98a</locus>
               <author ref=""/>
