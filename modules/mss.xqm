@@ -518,7 +518,7 @@ as item()+
     let $index := ($index, $handDescData[position()>1])
     
     (: update the decoNotes in decoDesc :)
-    let $decoDescData := if($msDesc/tei:physDesc/tei:decoDesc) then mss:update-decoDesc-xml-id-values($msDesc/tei:physDesc/tei:decoDesc, $idPrefix) else ()
+    let $decoDescData := if($msDesc/tei:physDesc/tei:decoDesc[decoNote]) then mss:update-decoDesc-xml-id-values($msDesc/tei:physDesc/tei:decoDesc, $idPrefix) else ()
     let $newDecoDesc := if($msDesc/tei:physDesc/tei:decoDesc) then $decoDescData[1] else $msDesc/tei:physDesc/tei:decoDesc
     let $index := ($index, $decoDescData[position()>1])
   
