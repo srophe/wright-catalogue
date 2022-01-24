@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/master/srophe-app/documentation/enrich-syriaca.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
+<?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en">BL Add MS 17159</title>
+                <title xml:lang="en">BL Add. MS 17159, foll. 1-63</title>
                 <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
                 <funder>The National Endowment for the Humanities</funder>
                 <funder>The Andrew W. Mellon Foundation</funder>
@@ -24,7 +24,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>Edited by</resp>
-                    <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin A. Arnwine</name>
+                    <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
                 </respStmt>
                 <respStmt>
                     <resp>Syriac text entered by</resp>
@@ -52,9 +52,7 @@
                         <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
                     </licence>
                 </availability>
-                <date calendar="Gregorian">
-          <!-- Our date of publication of this XML document-->
-                </date>
+                <date calendar="Gregorian">2014-07-09</date>
             </publicationStmt>
             <sourceDesc>
                 <msDesc xml:id="manuscript-795" xml:lang="en">
@@ -65,7 +63,7 @@
                         <collection>Oriental Manuscripts</collection>
                         <idno type="URI">http://syriaca.org/manuscript/795</idno>
                         <altIdentifier>
-                            <idno type="BL-Shelfmark">Add MS 17159</idno>
+                            <idno type="BL-Shelfmark">Add MS 17159, foll. 1-63</idno>
                         </altIdentifier>
                         <altIdentifier>
                             <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -78,39 +76,37 @@
                     </msIdentifier>
                     <msContents>
                         <summary/>
-                        <textLang mainLang="syr">Syriac</textLang>
+                        <textLang mainLang="syr"/>
                         <msItem n="1" xml:id="a1" defective="true">
-                            <locus from="1" to="63">Foll. 1-63</locus>
-                            <author>Jacob of Batnae</author>
-                            <title ref="http://syriaca.org/person/42" type="supplied">Metrical discourses of Jacob of Batnae</title>
-                            <note>
-                                <locus from="1">Fol. 1</locus>is merely a torn fly-leaf, containing some, now almost illegible, writing.</note>
+                            <locus from="2a" to="63">Foll. 2a-63</locus>
+                            <author xml:id="https://syriaca.org/person/42">Jacob of Batnae</author>
+                            <title xml:lang="en" type="supplied">Metrical discourses of <persName ref="https://syriaca.org/person/42">Jacob of Batnae</persName></title>
                             <msItem n="2" xml:id="b1" defective="true">
-                                <locus from="2a" to="11">Foll. 2a-11</locus>
-                                <author ref="http://syriaca.org/person/42"/>
-                                <title type="supplied">On S. John the Baptist</title>
+                                <locus from="2a"/>
+                                <author xml:id="https://syriaca.org/person/42">Jacob of Batnae</author>
+                                <title type="supplied">On S. <persName ref="https://syriaca.org/person/1808">John the Baptist</persName></title>
                                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܝܘܚܢܢ ܡܥܡܕܢܐ<locus from="2a" to="2a"/>
                                 </rubric>
-                                <listBibl>
-                                    <bibl>Assemani, Bibl. Or., t. i., p. 312, no. 35.</bibl>
-                                </listBibl>
+                                <note>
+                                    See <bibl>Assemani, Bibl. Or., t. i., p. 312, no. 35</bibl>.
+                                </note>
                             </msItem>
                             <msItem n="3" xml:id="b2" defective="true">
-                                <locus from="11a" to="21a">Foll. 11a-21a</locus>
-                                <author ref="http://syriaca.org/person/42"/>
-                                <title type="supplied">On. S. Simeon the Aged</title>
+                                <locus from="11a" to="21a"/>
+                                <author xml:id="https://syriaca.org/person/42">Jacob of Batnae</author>
+                                <title type="supplied">On. S. <persName>Simeon the Aged</persName></title>
                                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܫܡܥܘܢ ܣܒܐ. ܕܣܝܡ ܠܩܕܝܫܐ ܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ<locus from="11a" to="11a"/>
                                 </rubric>
                                 <finalRubric xml:lang="syr">ܫܠܡ ܡܐܡܪܐ ܕܥܠ ܫܡܥܘܢ ܣܒܐ. ܕܣܝܡ ܠܩܕܝܫܐ ܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ. ܕܐܝܬ ܒܗ ܦܬ̈ܓܡܐ ܬܠܬܡܐܐ ܘܬܫܥܝܢ ܘܐܪ̈ܒܥܐ.<locus from="21a" to="21a"/>
                                 </finalRubric>
-                                <listBibl>
-                                    <bibl>Assemani, p. 312, no. 37</bibl>
-                                </listBibl>
+                                <note>
+                                    See <bibl>Assemani, p. 312, no. 37</bibl>.
+                                </note>
                             </msItem>
                             <msItem n="4" xml:id="b3">
-                                <locus from="21a" to="32b">Foll. 21a-32b</locus>
-                                <author ref="http://syriaca.org/person/42"/>
-                                <title type="supplied">On the Blessings that Isaac gave unto Jacob</title>
+                                <locus from="21a" to="32b"/>
+                                <author xml:id="https://syriaca.org/person/42">Jacob of Batnae</author>
+                                <title type="supplied">On the Blessings that <persName>Isaac</persName> gave unto <persName>Jacob</persName></title>
                                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܒܘܪ̈ܟܬܗ ܕܐܝܣܚܩ ܕܠܘܬ ܝܥܩܘܒ<locus from="21a" to="21a"/>
                                 </rubric>
                                 <incipit xml:lang="syr">ܩܘܡ ܝܘܠܦܢܐ ܚܡܘܠ ܥ̈ܠܠܬܟ ܡܢ ܩܪ̈ܝܢܐ. ܕܡܢܟ ܚܐ̇ܪ ܥܠܡܐ ܕܢܣܒܥ ܕܒܪܝܟܐ ܐܢܬ. ܘ܏ܫ.<locus from="21a" to="21a"/>
@@ -119,18 +115,18 @@
                                 </finalRubric>
                             </msItem>
                             <msItem n="5" xml:id="b4">
-                                <locus from="32b" to="45">32b-45</locus>
-                                <author ref="http://syriaca.org/person/42"/>
-                                <title type="supplied">On the Son of the Widow, whom our Lord restored to life</title>
+                                <locus from="32b"/>
+                                <author xml:id="https://syriaca.org/person/42">Jacob of Batnae</author>
+                                <title type="supplied">On the Son of the Widow, whom <persName>our Lord</persName> restored to life</title>
                                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܒܪܗ̇ ܕܐܪܡܠܬܐ ܕܐ̇ܚܝ ܡܪܢ<locus from="32b" to="32b"/>
                                 </rubric>
-                                <listBibl>
-                                    <bibl>Assemani, p. 320, no. 118.</bibl>
-                                </listBibl>
+                                <note>
+                                    See <bibl>Assemani, p. 320, no. 118</bibl>.
+                                </note>
                             </msItem>
                             <msItem n="6" xml:id="b5">
                                 <locus from="45a" to="48">Foll. 45a-48</locus>
-                                <author ref="http://syriaca.org/person/42"/>
+                                <author xml:id="https://syriaca.org/person/42">Jacob of Batnae</author>
                                 <title type="supplied">On the Dead</title>
                                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܥܢܝ̈ܕܐ<locus from="45a" to="45a"/>
                                 </rubric>
@@ -140,27 +136,26 @@
                             </msItem>
                             <msItem n="7" xml:id="b6">
                                 <locus from="48a" to="58">Foll. 48a-58</locus>
-                                <author ref="http://syriaca.org/person/42"/>
+                                <author xml:id="https://syriaca.org/person/42">Jacob of Batnae</author>
                                 <title type="supplied">On the two Harlots (Solomon's Judgement)</title>
                                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܣܝܡ ܠܡܪܝ ܝܥܩܘܒ ܥܠ ܗܠܝܢ ܬܪ̈ܬܝܢ ܙܢܝ̈ܬܐ<locus from="48a" to="48a"/>
                                 </rubric>
                                 <incipit xml:lang="syr">ܡܪܝܐ ܦܬܚ ܠܝ ܣܦܘ̈ܬܝ ܕܐܡ̣ܪ ܥܠ ܛܝܒܘܬܟ. ܕܡܠ̣ܝܢ ܡܢܟ ܫܡܝܐ ܘܐܪܥܐ ܘܙܥܘܪܝܢ ܠܟ. ܘ܏ܫ.<locus from="48a" to="48a"/>
                                 </incipit>
                             </msItem>
-                            <msItem n="8" xml:id="b7">
+                        </msItem>
+                        <msItem n="8" xml:id="a2">
                                 <locus from="58a" to="58">Fol. 58a</locus>
                                 <title ref="http://syriaca.org/person/42" type="supplied" resp="http://syriaca.org/documentation/editors.xml#ngibson">Part of Metrical discourses of Jacob of Batnae</title>
-                                <author ref="http://syriaca.org/person/42"/>
                                 <title ref="http://syriaca.org/person/42" type="supplied" resp="http://syriaca.org/documentation/editors.xml#ngibson">Part of Metrical discourses of Jacob of Batnae</title>
                                 <incipit xml:lang="syr">ܢܓܘܠܘܢ ܪ̈ܚܡܝܟ ܥܠ ܚܘܒܠܐ ܕܐܬܪ̈ܘܬܐ. ܕܕܠܐ ܪ̈ܚܡܐ ܐܚܪܒ ܐܢ̈ܘܢ ܐܬܘܪ̈ܝܐ<locus from="58a" to="58a"/>
                                 </incipit>
                                 <note>
                                     <ref target="#addition1 #handNote2">See additions.</ref>
                                 </note>
-                            </msItem>
-                            <msItem n="9" xml:id="b8">
+                        </msItem>
+                        <msItem n="9" xml:id="a3">
                                 <locus from="58b" to="59a">Foll. 58b-59a</locus>
-                                <author ref="http://syriaca.org/person/42"/>
                                 <title type="supplied">An extract on the Martyrs</title>
                                 <incipit xml:lang="syr">
                                     <sic>ܚܬܢܐ ܡܫܝܚܐ ܙܡܢ ܐܢܘܢ ܠܚܫܡܝܬܐ: ܘܝܬܘܗܝ  ܗܢܘܢ ܥܡܗܘܢ ܪܘܡ̈ܝܢܝܗܘܢ܆ ܘ܏ܫ.</sic>
@@ -169,10 +164,10 @@
                                 <note>
                                     <ref target="#addition2 #handNote3">See additions.</ref>
                                 </note>
-                            </msItem>
-                            <msItem n="10" xml:id="b9" defective="true">
+                        </msItem>
+                        <msItem n="10" xml:id="a4" defective="true">
                                 <locus from="59b" to="63">Foll. 59b-63</locus>
-                                <author ref="http://syriaca.org/person/42"/>
+                                <author xml:id="https://syriaca.org/person/42">Jacob of Batnae</author>
                                 <title type="supplied">Part of a discourse on<persName>Zacchaeus</persName>the publican</title>
                                 <rubric xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ ܕܡܪܝ ܝܥܩܘܒ. ܕܥܠ ܙܟܝ ܡܟܣܐ<locus from="59b" to="59b"/>
                                 </rubric>
@@ -182,7 +177,6 @@
                                 <note>
                                     <ref target="#addition3 #handNote4">See additions.</ref>
                                 </note>
-                            </msItem>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -251,7 +245,8 @@
                         </handDesc>
                         <decoDesc/>
                         <additions>
-                            <p/>
+                            <p/>                            <note>
+                                <locus from="1">Fol. 1</locus>is merely a torn fly-leaf, containing some, now almost illegible, writing.</note>
                             <list>
                                 <item n="1" xml:id="addition1">
                                     <locus from="58a" to="58"/>
@@ -414,6 +409,7 @@
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
+            <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-24">Initial edits to file from older template</change>
             <change who="http://syriaca.org/documentation/editors.xml#ngibson" when="2016-12-13+01:00">Added generic msItem title(s) based on ancestor title</change>
             <change when="2014-07-09" who="http://syriaca.org/documentation/editors.xml#kkotewald">Created: file</change>
             <change when="2014-07-10" who="http://syriaca.org/documentation/editors.xml#thannah">Initial edit: blah blah blah</change>
