@@ -4,14 +4,14 @@
     <fileOrConsole>file</fileOrConsole>
     <outputFileDirectory>/data/5_finalized/</outputFileDirectory><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
     <manuscriptLevelMetadata>
-        <pathToMsPartsFolder>/data/5_finalized/ms-parts/51/</pathToMsPartsFolder><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
-        <recordTitle>BL Add MS 12169</recordTitle>
-        <uriValue>51</uriValue>
+        <pathToMsPartsFolder>/data/5_finalized/ms-parts/233/</pathToMsPartsFolder><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
+        <recordTitle>BL Add MS 12524</recordTitle>
+        <uriValue>233</uriValue>
         <country>United Kingdom</country>
         <settlement>London</settlement>
         <repository>British Library</repository>
         <collection>Oriental Manuscripts</collection>
-        <shelfMark>Add MS 12169</shelfMark>
+        <shelfMark>Add MS 12524</shelfMark>
         <revisionDesc>
             <scriptEditor>
                 <editorId>srophe-util</editorId>
@@ -31,9 +31,15 @@
         <fileName>#Part3</fileName>
        The resulting record will have the 4 parts, each renumbered as needed according to the above sequence order.
         -->
-    <compositeMsFile>51.xml</compositeMsFile>
+    <compositeMsFile>233.xml</compositeMsFile>
     <msPartFiles><!-- these should be xml file names containing the data to be converted to msParts. These files should be stored in the folder declared above in the pathToMsPartsFolder text node. They should be ordered according to the sequence they should appear in the msParts sequence (i.e., the first ms part should be the first fileName element in the below sequence, even if it is not the numerically smallest URI value.-->
-        <fileName>#Part1</fileName>
-        <fileName>53.xml</fileName>
+        <fileName>234.xml</fileName>
+        <fileName>235.xml</fileName>
+        <fileName>#Part3</fileName>
+        <fileName>237.xml</fileName>
+        <fileName>238.xml</fileName>
+        <fileName>239.xml</fileName>
+        <fileName>240.xml</fileName>
+        <fileName>241.xml</fileName>
     </msPartFiles>
 </config>
