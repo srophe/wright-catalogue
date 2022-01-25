@@ -125,17 +125,17 @@
                                 </note>
                             </msItem>
                             <msItem n="6" xml:id="b5">
-                                <locus from="45a" to="48">Foll. 45a-48</locus>
+                                <locus from="45a"/>
                                 <author xml:id="https://syriaca.org/person/42">Jacob of Batnae</author>
                                 <title type="supplied">On the Dead</title>
                                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܥܢܝ̈ܕܐ<locus from="45a" to="45a"/>
                                 </rubric>
-                                <listBibl>
-                                    <bibl>Assemani, p. 313, no. 44, sermo ii.</bibl>
-                                </listBibl>
+                                <note>
+                                    See <bibl>Assemani, p. 313, no. 44, sermo ii</bibl>.
+                                </note>
                             </msItem>
                             <msItem n="7" xml:id="b6">
-                                <locus from="48a" to="58">Foll. 48a-58</locus>
+                                <locus from="48a"/>
                                 <author xml:id="https://syriaca.org/person/42">Jacob of Batnae</author>
                                 <title type="supplied">On the two Harlots (Solomon's Judgement)</title>
                                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܣܝܡ ܠܡܪܝ ܝܥܩܘܒ ܥܠ ܗܠܝܢ ܬܪ̈ܬܝܢ ܙܢܝ̈ܬܐ<locus from="48a" to="48a"/>
@@ -145,132 +145,83 @@
                             </msItem>
                         </msItem>
                         <msItem n="8" xml:id="a2">
-                                <locus from="58a" to="58">Fol. 58a</locus>
-                                <title ref="http://syriaca.org/person/42" type="supplied" resp="http://syriaca.org/documentation/editors.xml#ngibson">Part of Metrical discourses of Jacob of Batnae</title>
-                                <title ref="http://syriaca.org/person/42" type="supplied" resp="http://syriaca.org/documentation/editors.xml#ngibson">Part of Metrical discourses of Jacob of Batnae</title>
+                                <locus from="58a"/>
+                                <title type="supplied">An extract</title>
                                 <incipit xml:lang="syr">ܢܓܘܠܘܢ ܪ̈ܚܡܝܟ ܥܠ ܚܘܒܠܐ ܕܐܬܪ̈ܘܬܐ. ܕܕܠܐ ܪ̈ܚܡܐ ܐܚܪܒ ܐܢ̈ܘܢ ܐܬܘܪ̈ܝܐ<locus from="58a" to="58a"/>
                                 </incipit>
-                                <note>
-                                    <ref target="#addition1 #handNote2">See additions.</ref>
-                                </note>
+                                <note>This extract is written in a cursive hand of the <date calendar="Gregorian" notBefore="0900" notAfter="1000">xth cent.</date></note>
                         </msItem>
                         <msItem n="9" xml:id="a3">
-                                <locus from="58b" to="59a">Foll. 58b-59a</locus>
+                                <locus from="58b"/>
                                 <title type="supplied">An extract on the Martyrs</title>
-                                <incipit xml:lang="syr">
-                                    <sic>ܚܬܢܐ ܡܫܝܚܐ ܙܡܢ ܐܢܘܢ ܠܚܫܡܝܬܐ: ܘܝܬܘܗܝ  ܗܢܘܢ ܥܡܗܘܢ ܪܘܡ̈ܝܢܝܗܘܢ܆ ܘ܏ܫ.</sic>
-                                    <locus from="58b" to="58b"/>
-                                </incipit>
-                                <note>
-                                    <ref target="#addition2 #handNote3">See additions.</ref>
-                                </note>
+                                <incipit xml:lang="syr">ܚܬܢܐ ܡܫܝܚܐ ܙܡܢ ܐܢܘܢ ܠܚܫܡܝܬܐ: ܘܝܬܘܗܝ <foreign xml:lang="en">(sic)</foreign> ܗܢܘܢ ܥܡܗܘܢ ܪܘܡ̈ܝܢܝܗܘܢ܆ ܘ܏ܫ.</incipit>
+                                <note>This extract is written in a cursive hand of the <date calendar="Gregorian" notBefore="0800" notAfter="0900">ixth cent.</date></note>
                         </msItem>
-                        <msItem n="10" xml:id="a4" defective="true">
-                                <locus from="59b" to="63">Foll. 59b-63</locus>
+                        <msItem n="10" xml:id="a4">
+                                <locus from="59b"/>
                                 <author xml:id="https://syriaca.org/person/42">Jacob of Batnae</author>
                                 <title type="supplied">Part of a discourse on<persName>Zacchaeus</persName>the publican</title>
                                 <rubric xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ ܕܡܪܝ ܝܥܩܘܒ. ܕܥܠ ܙܟܝ ܡܟܣܐ<locus from="59b" to="59b"/>
                                 </rubric>
-                                <listBibl>
-                                    <bibl>Assemani, p. 317, no. 95.</bibl>
-                                </listBibl>
+                                <note>This discourse is written in a hand of the<date notBefore="0800" notAfter="1000">ixth or xth cent.</date></note>
                                 <note>
-                                    <ref target="#addition3 #handNote4">See additions.</ref>
+                                    See <bibl>Assemani, p. 317, no. 95</bibl>.
                                 </note>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
-                                <support>
-                                    <material>Vellum</material>
-                                </support>
                                 <extent>
-                                    <measure type="composition" unit="leaf" quantity="63">63 ff.</measure>
-                                    <dimensions type="leaf" unit="in">
-                                        <height>
-                                            <measure type="height" quantity="7.125" unit="in">7 1/8</measure>
-                                        </height>
-                                        <width>
-                                            <measure type="width" quantity="4.625" unit="in">4 5/8</measure>
-                                        </width>
-                                    </dimensions>
+                                    <measure unit="content_pending" quantity="-1"/>
                                 </extent>
                                 <foliation/>
-                                <collation>
-                                    <p>The quires, signed with letters, are 7 in number</p>
-                                </collation>
+                                <collation/>
                                 <condition>
                                     <list>
                                         <item>
-                                            <p>Of the quires, the first and third are very imperfect, several leaves being missing after<locus from="1">fol. 1</locus>, and single leaves after<locus from="12">foll. 12</locus>,<locus from="16">16</locus>, and<locus from="19">19</locus>.</p>
-                                        </item>
-                                        <item>
-                                            <p>Some of the leaves are much stained and torn, especially<locus from="1" to="3">foll. 1—3</locus>,<locus from="12">12</locus>,<locus from="17" to="19">17—19</locus>,<locus from="45" to="46">45, and 46</locus>.</p>
+                                            <p>Vellum, about 7 1/8 in, by 4 5/8, consisting of 63 leaves, some of which are much stained and torn, especially foll. 1—3, 12, 17—19, 45, and 46. The quires, signed with letters, are 7 in number, but of these the first and third are very imperfect, several leaves being missing after fol. 1, and single leaves after foll. 12, 16, and 19. There are from 21 to 26 lines in each page.</p>
                                         </item>
                                     </list>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="21 26">
-                                    <p>There are from 21 to 26 lines in each page.</p>
-                                </layout>
+                                <p>Content pending</p>
                             </layoutDesc>
-                        </objectDesc>
-                        <handDesc hands="5">
+                </objectDesc>
+                        <handDesc hands="7">
                             <handNote xml:id="handNote1" scope="major" script="syr-Syre" medium="unknown">
-                                <desc>The writing is a neat, regular Estrangela of the<origDate notBefore="0600" notAfter="0700">viith cent.</origDate>
+                                <desc>The writing is a neat, regular Estrangela of the <origDate notBefore="0600" notAfter="0700">viith cent.</origDate>, with the exception of foll. 58 b—63 b.
                                 </desc>
                             </handNote>
                             <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
-                                <desc>A cursive hand of the<date notBefore="0900" notAfter="1000">xth cent.</date>
-                                    <ref target="#addition1">See additions.</ref>
+                                <desc>The extract above is written in a cursive hand of the <date notBefore="0900" notAfter="1000">xth cent.</date>
                                 </desc>
                             </handNote>
                             <handNote xml:id="handNote3" scope="minor" script="syr" medium="unknown">
-                                <desc>A cursive hand of the<date notBefore="0800" notAfter="0900">ixth cent.</date>
-                                    <ref target="#addition2">See additions.</ref>
+                                <desc>The extract on martyrs above is written in a cursive hand of the <date notBefore="0800" notAfter="0900">ixth cent.</date>
                                 </desc>
                             </handNote>
                             <handNote xml:id="handNote4" scope="minor" script="syr" medium="unknown">
-                                <desc>A hand of the<date notBefore="0800" notAfter="1000">ixth or xth cent.</date>
-                                    <ref target="#addition3">See additions.</ref>
+                                <desc>The discourse on Zacchaeus is written in a hand of the <date notBefore="0800" notAfter="1000">ixth or xth cent.</date>
                                 </desc>
                             </handNote>
                             <handNote xml:id="handNote5" scope="minor" script="syr" medium="unknown">
-                                <desc>
-                                    <ref target="#addition4">See additions.</ref>
-                                </desc>
+                                <desc>See additions.</desc>
                             </handNote>
                         </handDesc>
                         <decoDesc/>
                         <additions>
-                            <p/>                            <note>
-                                <locus from="1">Fol. 1</locus>is merely a torn fly-leaf, containing some, now almost illegible, writing.</note>
+                            <p/>                            
                             <list>
                                 <item n="1" xml:id="addition1">
-                                    <locus from="58a" to="58"/>
-                                    <p>This extract is written in a cursive hand of the<date notBefore="0900" notAfter="1000" calendar="Gregorian">xth cent.</date>
-                                    </p>
+                                    <locus from="1a" to="1b"/>
+                                    <p>Fol. 1</locus>is merely a torn fly-leaf, containing some, now almost illegible, writing.</p>
                                     <p/>
                                 </item>
                                 <item n="2" xml:id="addition2">
-                                    <locus from="58b" to="59a"/>
-                                    <p>This extract is written in a cursive hand of the<date notBefore="0800" notAfter="0900" calendar="Gregorian">ixth cent.</date>
-                                    </p>
-                                    <p/>
-                                </item>
-                                <item n="3" xml:id="addition3">
-                                    <locus from="59b" to="63"/>
-                                    <p>This extract is written in a  hand of the<date notBefore="0800" notAfter="1000" calendar="Gregorian">ixth or xth cent.</date>
-                                    </p>
-                                </item>
-                                <item n="4" xml:id="addition4">
                                     <locus from="58b" to="58b"/>
-                                    <p>On the margin of fol. 58b there is the name of one<persName>Simeon</persName>,</p>
-                                    <p>
-                                        <quote xml:lang="syr">ܫܡܥܘܢ</quote>
-                                    </p>
+                                    <p>On the margin of fol. 58b there is the name of one<persName>Simeon</persName>, <quote xml:lang="syr">ܫܡܥܘܢ</quote></p>
                                 </item>
                             </list>
                         </additions>
@@ -409,6 +360,7 @@
             </textClass>
         </profileDesc>
         <revisionDesc status="draft">
+            <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-25">Completed edits to file from older template</change>
             <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-24">Initial edits to file from older template</change>
             <change who="http://syriaca.org/documentation/editors.xml#ngibson" when="2016-12-13+01:00">Added generic msItem title(s) based on ancestor title</change>
             <change when="2014-07-09" who="http://syriaca.org/documentation/editors.xml#kkotewald">Created: file</change>
