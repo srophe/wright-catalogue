@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -79,34 +80,31 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <textLang mainLang="syr-Syre"/>
+            <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              
+              <locus from="64a" to="93"/>
               <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
-              <title xml:lang="en">Metrical discourses of Jacob of
+              <title xml:lang="en" type="supplied">Metrical discourses of Jacob of
                                 Batnae</title>
               <msItem xml:id="b1" n="2">
                 <locus from="64a"/>
                 <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
-                <title xml:lang="en">1. The latter half of the discourse on
+                <title xml:lang="en">The latter half of the discourse on
                                         <persName>Zacchaeus</persName>
                                 </title>
-                <note>See <bibl>no. DCXLV., 9</bibl>.</note>
+                <note>See <bibl>no. DCXLV.<ptr target="http://syriaca.org/manuscript/795"/>, <citedRange>9</citedRange></bibl>.</note><!--The element <citedRange> requires additional attributes to refer to <msItem xml:id="a4" n=10> in URI: 795; no practice implemented yet-->
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
                 <locus from="69a"/>
                 <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
-                <title xml:lang="en">2. On Simeon Stylites</title>
+                <title xml:lang="en">On Simeon Stylites</title>
                 <rubric xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ ܕܩܕܝܫܐ ܡܪܝ ܝܥܩܘܒ ܡ̇ܠܦܢܐ. ܡܐܡܪܐ
                                     ܕܥܠ ܫܡܥܘܢ ܕܣܛܘܢܗ</rubric>
                 <note>See <bibl>Assemani, Bibl. Or., t. i., p. 329, no. 190</bibl>;
-                                    and <bibl>Acta SS. Martyrum, pars 2, p. 230</bibl>. [Assemani's
-                                    text is very imperfect. For example, in the passage p. 231,
-                                    lines 15 and. 16, after the words ܦܥܠܐ ܛ̇ܒܐ ܕܫܪܝ ܒܨܦܪܐ ܟܫܝܪܐܝܬ,
-                                    this manuscript proceeds as follows, fol. 69 b: ܘܟܠܗ ܝܘܡܐ ܪܗ̣ܛ
-                                    ܐܝܟ ܛܪܩܐ ܒܙܕܝܩܘܬܐ. ܚܟܝܡ ܠܒܐ ܕܚ̇ܪ ܒܐܠܗܐ ܡܢ ܛܠܝܘܬܗ. ܘܒܗ ܪܒ̇ܐ ܗܘܐ
-                                    ܘܪ̈ܒܝܢ ܫܘܦܪ̈ܘܗܝ ܥܡ ܬܪܥܝܬܗ. ܐܓܘܢܣܛܐ ܕܥܒ̣ܕ ܕܪܐ ܒܥܠܝܡܘܬܗ. ܘܚܒܬ ܡܢܗ
-                                    ܟܠܗ̇ ܛܘܥܝܝ ܟܕ ܡܬܟܬܫ. ܏ܘܫ.] </note>
+                                    and <bibl>Acta SS. Martyrum, pars 2, p. 230</bibl>. <note>Assemani's
+                                    text is very imperfect. For example, in the passage 
+                                    <bibl>p. 231, lines 15 and. 16</bibl>, after the words <quote xml:lang="syr">ܦܥܠܐ ܛ̇ܒܐ ܕܫܪܝ ܒܨܦܪܐ ܟܫܝܪܐܝܬ</quote>,
+                                    this manuscript proceeds as follows, fol. <locus from="69b">69 b</locus>: <quote xml:lang="syr">ܘܟܠܗ ܝܘܡܐ ܪܗ̣ܛ ܐܝܟ ܛܪܩܐ ܒܙܕܝܩܘܬܐ. ܚܟܝܡ ܠܒܐ ܕܚ̇ܪ ܒܐܠܗܐ ܡܢ ܛܠܝܘܬܗ. ܘܒܗ ܪܒ̇ܐ ܗܘܐ ܘܪ̈ܒܝܢ ܫܘܦܪ̈ܘܗܝ ܥܡ ܬܪܥܝܬܗ. ܐܓܘܢܣܛܐ ܕܥܒ̣ܕ ܕܪܐ ܒܥܠܝܡܘܬܗ. ܘܚܒܬ ܡܢܗ ܟܠܗ̇ ܛܘܥܝܝ ܟܕ ܡܬܟܬܫ. ܏ܘܫ.</quote></note></note>
               </msItem>
             </msItem>
           </msContents>
@@ -128,8 +126,7 @@
                                                 at least 8 in number; but the first three are now
                                                 lost, and there are lacunae after foll. 74 and 85.
                                                 The number of lines in each page varies from 23 to
-                                                26. This manuscript is written in a neat, regular
-                                                Estrangela of the viith cent.</p>
+                                                26.</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -138,9 +135,12 @@
                                 <p>Content pending</p>
                             </layoutDesc>
                         </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="2">
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr-Syre">
+                <desc>This manuscript is written in a neat, regular Estrangela of the <origDate calendar="Gregorian" notBefore="0600" notAfter="0700">viith cent.</origDate></desc>
+              </handNote>
+              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
             <additions>
@@ -150,7 +150,7 @@
                   <locus from="92b"/>
                   <p>On the margin of fol. 92 b we read the name of one
                                             <persName>John</persName>, for many years a recluse in
-                                        the convent of <persName>S. Mary Deipara</persName>.</p>
+                                        <placeName ref="https://syriaca.org/place/360">the convent of <persName>S. Mary Deipara</persName></placeName>.</p>
                   <p>
                     <quote xml:lang="syr">ܨܠܘ ܥܠ ܝܘܚܢܢ ܚܒܝܫܝܐ ܕܗܘܐ ܫ̈ܢܝܐ ܣܓ̈ܝܬܐ ܕܕܝܪܐ ܗܕܐ ܕܝܠܕܬ ܐܠܗܐ ܒܡܕܒܪܐ.</quote>
                   </p>
@@ -357,11 +357,10 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+    <change when="2021-08-06" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-08-06" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
-      <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document
-                needs to be checked for accuracy</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
