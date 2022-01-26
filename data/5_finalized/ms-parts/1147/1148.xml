@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</name>
@@ -26,6 +27,10 @@
         <respStmt>
           <resp>Edited by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited also by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -81,24 +86,23 @@
                     <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus to="70a" from="1"/>
+              <locus from="2b" to="70" />
               <title xml:lang="en">A treatise on Natural History</title>
               <rubric xml:lang="syr">
                 <locus from="2b"/>ܬܘܼܒ ܒܝܕ ܐܠܗܐ ܡܪܐܟ݁ܠ ܡܫܲܪܝܢܢ ܕܢ̇ܟܬܘܿܒ ܡ̣ܢܬܐ ܩܲܠܝ̣ܠ ܥܠ ܚܝ̈ܘܬܐ ܕܡܢ ܓܢ̣̈ܣܐ ܡܫܲܚ̈ܠܦܐ ܕܚܝ̈ܘܬܐ ܡܪ̈ܟܒܢ ܘܡܩܝ̈ܡܢ ܠܬ̣ܫܒܘܿܚܬܐ ܕܐܠܗܐ ܒ̇ܪܘܝ̇ܗܝܢ</rubric>
               <finalRubric xml:lang="syr">ܫܠܡ ܒܥܘܕܪܢ ܡܪܢ ܟܬܒܐ ܕܥܠ ܟܝܢ̈ܝܬܐ ܕܚܝ̈ܘܬܐ ܘܕܦܪ̈ܚܬܐ ܘܕܪ̈ܚܫܐ. ܨܠܘ ܥܠ ܕܘܝܐ ܕܟܬ̣ܒ</finalRubric>
-              <note>This treatise bears a certain affinity to the <ref>"Physiologus" of
-                <persName>Epiphanius</persName></ref>, and the <ref>"Physiologus Syrus,"</ref>
-                edited by <bibl>Tychsen (Rostock, 1795)</bibl>, but is of much greater
+              <note>This treatise bears a certain affinity to the <ref>"<title xml:lang="la">Physiologus</title>" of
+                <persName ref="https://syriaca.org/person/477">Epiphanius</persName></ref>, and the <bibl>"Physiologus Syrus," edited by Tychsen (Rostock, 1795)</bibl>, but is of much greater
                 extent.</note>
               <note>There are no less than 125 sections. The headings of the first 25 may serve as specimens.</note>
               <msItem xml:id="b1" n="2">
                 <locus from="2b"/>
-                <title xml:lang="en">Of various animals in <placeName>India</placeName></title>
+                <title xml:lang="en">Of various animals in <placeName ref="https://syriaca.org/place/500">India</placeName></title>
                 <rubric xml:lang="syr">ܥܠ ܚܲܝܘܬܐ ܡܫܲܚܠܦܬܐ ܕܐܝ̣ܬ ܒܐܬܪܐ ܕܗ̣ܢܕܘ</rubric>
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus from="3a"/>
-                <title xml:lang="en">of the sirens (<ref>Isaiah, ch. xiii. 22</ref>, <ref>Jeremiah, ch. 1. 30</ref>) and jackals</title>
+                <title xml:lang="en">Of the sirens (<ref target="http://syriaca.org/work/9640">Isaiah, ch. xiii. 22</ref>, <ref target="https://syriaca.org/work/9568">Jeremiah, ch. 1. 30</ref>) and jackals</title>
                 <rubric xml:lang="syr">ܡܛܠ ܣܝܪ̈ܝܢܘܣ ܘܝܪܘܪ̈ܐ</rubric>
               </msItem>
               <msItem xml:id="b3" n="4">
@@ -110,7 +114,7 @@
                 <locus from="3b"/>
                 <title xml:lang="en">Of a hybrid animal</title>
                 <rubric xml:lang="syr">ܡܛܠ ܫܘܫ̣ܡܢ ܐܪܝܐ</rubric>
-                <note>The name of this animal is explained by <persName>Elias of <placeName>Nisibis</placeName></persName> in his <ref>Lexidion</ref> by <foreign xml:lang="ar">خَرانِقُ (فرانق؟) الأَسَدِ</foreign>, and in <bibl>Add. 7203</bibl> by <foreign xml:lang="ar">فراس (فرانق؟) الاسدَ</foreign>.</note>
+                <note>The name of this animal is explained by <persName ref="https://syriaca.org/person/472">Elias of <placeName ref="http://syriaca.org/place/142">Nisibis</placeName></persName> in his <ref>Lexidion</ref> by <foreign xml:lang="ar">خَرانِقُ (فرانق؟) الأَسَدِ</foreign>, and in <bibl>Add. 7203</bibl> by <foreign xml:lang="ar">فراس (فرانق؟) الاسدَ</foreign>.</note>
               </msItem>
               <msItem xml:id="b5" n="6">
                 <locus from="3b"/>
@@ -120,7 +124,7 @@
               <msItem xml:id="b6" n="7">
                 <locus from="4a"/>
                 <title xml:lang="en">Of apes</title>
-                <rubric xml:lang="syr">(ܒܘܙܝܢܗ) ܡܛܠ ܩܘ̈ܦܐ ܕܗ̣ܘ ܒܘܙܢܢܗ̇ </rubric>
+                <rubric xml:lang="syr">ܡܛܠ ܩܘ̈ܦܐ ܕܗ̣ܘ <choice><sic>ܒܘܙܢܢܗ̇</sic><corr resp="http://syriaca.org/editors.xml#wwright">ܒܘܙܝܢܗ</corr></choice></rubric>
               </msItem>
               <msItem xml:id="b7" n="8" defective="true">
                 <locus from="4b"/>
@@ -132,7 +136,7 @@
                 <locus from="5a"/>
                 <title xml:lang="en">Of sundry beasts and birds</title>
                 <rubric xml:lang="syr">ܡܛܠ ܚܝܘ̈ܬܐ ܘܦܪ̈ܚܬܐ ܡܫ̈ܬܚ̣ܠܦܢ</rubric>
-                <note>unfinished</note>
+                <note>Unfinished.</note>
               </msItem>
               <msItem xml:id="b9" n="10">
                 <locus from="6a"/>
@@ -156,7 +160,7 @@
               </msItem>
               <msItem xml:id="b13" n="14">
                 <locus from="8b"/>
-                <title xml:lang="en">Of an Indian tree, called in Greek <foreign xml:lang="syr">ܐܦܝܕܐܟܣܝܣ</foreign> (?)</title>
+                <title xml:lang="en">Of an Indian tree, called in Greek <foreign xml:lang="syr">ܐܦܝܕܐܟܣܝܣ</foreign>(?)</title>
                 <rubric xml:lang="syr">ܡܛܠ ܐܝܠ̣ܢܐ. ܐܝܬ ܒܗܢܕܘ ܐܝܠܢܐ ܕܡ̣ܬܩܪܐ ܝܘܢܐܝܬ ܐܦܝܕܐܟܣܝܣ</rubric>
               </msItem>
               <msItem xml:id="b14" n="15">
@@ -467,10 +471,12 @@
       </textClass>
     </profileDesc>
         <revisionDesc status="draft">
+          <change when="2022-01-26" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edits to msContents</change>
             <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-16-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-16-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-05-12" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
             <change type="planned" subtype="missing">See the comment at the end of the msContents.</change>
+            <change type="planned" subtype="consultation">Wright does not provide entries for sections 26-125 of msItem "a1".</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
