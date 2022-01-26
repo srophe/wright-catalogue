@@ -1,10 +1,10 @@
-<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/master/srophe-app/documentation/enrich-syriaca.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
+<?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="en">BL Add MS 17158</title>
+        <title xml:lang="en">BL Add MS 17158, fol. 57</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
@@ -15,6 +15,8 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dgreeson">Daniel J. Greeson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#thannah">Tucker D. Hannah</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#emjohnson">Erin Minta Johnson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#emjohnson">Erin Minta Johnson</name>
@@ -25,9 +27,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#">
-            <!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") -->
-            <!--Initial editor's name here -->
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine
           </name>
         </respStmt>
         <respStmt>
@@ -51,7 +51,6 @@
         <edition n="1.0"/>
       </editionStmt>
       <publicationStmt>
-        <pubPlace/>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
         <idno type="URI">http://syriaca.org/manuscript/793/tei</idno>
         <availability>
@@ -60,9 +59,7 @@
             <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
           </licence>
         </availability>
-        <date calendar="Gregorian">
-          <!-- Our date of publication of this XML document-->
-        </date>
+        <date calendar="Gregorian">2014-02-08</date>
       </publicationStmt>
       <sourceDesc>
         <msDesc xml:id="manuscript-793" xml:lang="en">
@@ -73,7 +70,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/793</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17158</idno>
+              <idno type="BL-Shelfmark">Add MS 17158, fol. 57</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -85,74 +82,39 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
-            <textLang mainLang="syr">Syriac</textLang>
+            <textLang mainLang="syr"/>
             <msItem n="1" xml:id="a1" defective="true">
-              <locus from="57" to="57">Fol. 57</locus>
-              <author ref="http://syriaca.org/person/13">
-                <persName xml:lang="en" type="uniform">Ephrem</persName>
-                <persName xml:lang="en" type="supplied">Ephraim</persName>
-              </author>
-              <title type="supplied">Madrashe of<listPerson>
-                  <person ref="http://syriaca.org/person/13">Ephraim</person>
-                </listPerson>
-              </title>on Penitence<rubric xml:lang="syr">ܡܕܪ̈ܫܐ ܕܡܪܝ ܐܦܪܝܡ ܕܥܠ ܬܘܬ ܢܦܫܐ<locus from="57" to="57"/>Fol. 57</rubric>
+              <locus from="57a" to="57b">Fol. 57</locus>
+              <author ref="http://syriaca.org/person/13">Ephraim</author>
+              <title type="supplied">Madrashe of <persName ref="http://syriaca.org/person/13">Ephraim</persName> on penitence</title>
+              <rubric xml:lang="syr">ܡܕܪ̈ܫܐ ܕܡܪܝ ܐܦܪܝܡ ܕܥܠ ܬܘܬ ܢܦܫܐ<locus from="57" to="57"/>Fol. 57</rubric>
               <incipit xml:lang="syr">ܐܪܦܝܢ ܚܢܢ ܐܘܪܚܐ ܒܨܒܝܢ̣ܢ ܕܒܗ̇ ܪܕܝܢ ܟܐ̈ܢܐ ܠܡܠܟܘܬܐ. ܘܠܒܟܢ ܚܢܢ ܬܘ̈ܫܐ ܘܬܘ̈ܩܠܬܐ. ܘܫܒ̈ܝܠܐ ܕܡܘܒܠܝܢ ܠܐܒܕܢܐ<locus from="57" to="57"/>Fol. 57</incipit>
-              <quote xml:lang="syr">
-                <locus from="" to=""/>
-              </quote>
-              <explicit xml:lang="syr">
-                <locus from="" to=""/>
-              </explicit>
-              <finalRubric xml:lang="syr">
-                <locus from="" to=""/>
-              </finalRubric>
-              <colophon>
-                <ref target="">See below.</ref>
-              </colophon>
-              <note/>
+              <note>Imperfect at the end.</note>
             </msItem>
-            <msItem n="2" xml:id="a2" defective=""/>
           </msContents>
           <physDesc>
-            <objectDesc form="leaf">
+            <objectDesc form="codex">
               <supportDesc material="perg">
-                <support>
-                  <material>Vellum</material>
-                </support>
                 <extent>
-                  <measure type="composition" unit="leaf" quantity="1">1 f.</measure>
-                  <dimensions type="leaf" unit="in">
-                    <height>
-                      <measure type="height" quantity="9.625" unit="in">9 5/8</measure>
-                    </height>
-                    <width>
-                      <measure type="width" quantity="6.5" unit="in">6 1/2</measure>
-                    </width>
-                  </dimensions>
+                  <measure unit="content_pending" quantity="-1"/>
                 </extent>
-                <foliation type="ancient"/>
-                <collation>
-                  <p>A vellum leaf</p>
-                </collation>
+                <foliation/>
+                <collation/>
                 <condition>
                   <list>
                     <item>
-                      <p>It is imperfect at the end.</p>
+                      <p>A vellum leaf, 9 5/8  in. 6 1/2. Each page is divided into two columns, of from 30 to 35 lines.</p>
                     </item>
                   </list>
                 </condition>
               </supportDesc>
               <layoutDesc>
-                <layout columns="2" writtenLines="30 35">
-                  <locus from="57" to="57"/>
-                  <p>Each page is divided into two columns, of from 30 to 35 lines.</p>
-                </layout>
+                <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote xml:id="handNote1" scope="sole" script="syr-Syr" medium="unknown">
-                <desc>The writing is good, though rather inelegant, of about the<origDate notBefore="0650" notAfter="0850">viiith cent.</origDate>
+              <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
+                <desc>The writing is good, though rather inelegant, of about the <origDate notBefore="0700" notAfter="0800">viiith cent.</origDate>
                 </desc>
               </handNote>
             </handDesc>
@@ -164,7 +126,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0650" notAfter="0850">The writing is good, though rather inelegant, of about the viiith cent.</origDate>
+              <origDate notBefore="0700" notAfter="0800"/>
             </origin>
             <provenance/>
             <acquisition/>
@@ -293,6 +255,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change when="2022-01-26" who="http://syriaca.org/documentation/editors.xml#jarnwine">Updates to previous template; edits to msContents and condition</change>
       <change when="2014-02-08" who="http://syriaca.org/documentation/editors.xml#emjohnson">Created: file</change>
       <change when="2016-07-06" who="http://syriaca.org/documentation/editors.xml#pgmiller">Changed: Files moved to srophe-app-data/data/manuscripts/tei repository.</change>
     </revisionDesc>
