@@ -291,15 +291,16 @@
                   the disciple of <persName ref="http://syriaca.org/person/13">Ephraim</persName>, foll. <locus from="75a">75 a</locus>, <locus from="81a">81 a</locus>;
                 <persName ref="http://syriaca.org/person/354">Athanasius</persName>, foll. <locus from="77a">77 a</locus>, <locus from="78a">78 a</locus>; <persName ref="https://syriaca.org/person/430">Cyril</persName>,
                 foll. <locus from="72b">72 b</locus>, <locus from="73b">73 b</locus>, <locus from="74b">74 b</locus>, <locus from="77b">77 b</locus>, <locus from="78a">78 a</locus>, <locus from="81a">81 a</locus> and <locus from="81b">b</locus>; <persName ref="http://syriaca.org/person/59">Daniel of Salach</persName>, <quote xml:lang="syr">ܨ̇ܠܚܝܐ</quote>, foll. <locus from="77b">77 b</locus>, <locus from="78a">78 a</locus>; <persName ref="https://syriaca.org/person/452">Dionysius the Areopagite</persName>, fol. <locus from="83a">83 a</locus>; <persName ref="http://syriaca.org/person/13">Ephraim</persName>, foll. <locus from="74a">74 a</locus>, <locus from="76b">76 b</locus>,
-                <locus from="81a">81 a</locus> and <locus from="81b">b</locus>; <persName>Epiphanius</persName>, fol. 82 b; <persName ref="http://syriaca.org/person/511">Gregory
-                  Nazianzen</persName>, foll. 73 b, 77 a; <persName>Gregory Nyssen</persName>, fol.
-                78 b; <persName ref="http://syriaca.org/person/537">Hippolytus</persName>, $ܐܝܦܘܠܝܛܘܣ, fol. 78 b; and
-                  <persName>Josephus</persName>, $ܐܝܘܣܝܦܘܣ ܥܒܪܝܐ, fol. 82 b.</note>
+                <locus from="81a">81 a</locus> and <locus from="81b">b</locus>; <persName ref="https://syriaca.org/person/477">Epiphanius</persName>, fol. <locus from="82b">82 b</locus>; <persName ref="http://syriaca.org/person/511">Gregory
+                  Nazianzen</persName>, foll. <locus from="73b">73 b</locus>, <locus from="77a">77 a</locus>; <persName ref="https://syriaca.org/person/512">Gregory Nyssen</persName>, fol.
+                <locus from="78b">78 b</locus>; <persName ref="http://syriaca.org/person/537">Hippolytus</persName>, <quote xml:lang="syr">ܐܝܦܘܠܝܛܘܣ</quote>, fol. <locus from="78b">78 b</locus>; and
+                  <persName ref="https://syriaca.org/person/577">Josephus</persName>, <quote xml:lang="syr">ܐܝܘܣܝܦܘܣ ܥܒܪܝܐ</quote>, fol. <locus from="82b">82 b</locus>.</note>
             </msItem>
-            <msItem xml:id="a13" n="22">
+            <msItem xml:id="a13" n="21">
+              <locus from="85b"/>
               <author ref="http://syriaca.org/person/573">John Chrysostom</author>
               <title xml:lang="en">A discourse of <persName ref="https://syriaca.org/person/573">John Chrysostom</persName>,
-                delivered in the Σέκρετον, in reply to the question of
+                delivered in the <foreign xml:lang="grc">Σέκρετον</foreign>, in reply to the question of
                   <persName>Heraclitus</persName>, whether, in calling each Person of the Trinity
                 God, we do not speak of three Gods</title>
               <rubric xml:lang="syr">ܕܩܕܝܫܐ ܡܪܝܘܗ݊ܢܝܣ ܐܦ܏ܝܣ ܕܩ܏ܘܢܣ. ܡ̇ܠܦܢܘܬܐ ܐܘܟܝܬ ܡܦܩ ܒܪܘܚܐ̣. ܕܐܡܝܪ
@@ -312,7 +313,7 @@
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -334,8 +335,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>This manuscript is written in a fine, regular, current hand of the xth
-                  cent.</desc>
+                <desc>This manuscript is written in a fine, regular, current hand of the <origDate notBefore="0900" notAfter="1000">xth cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -349,8 +349,8 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0900" notAfter="1000">of the xth
-                cent</origDate>
+              <origDate notBefore="0900" notAfter="1000">xth
+                cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -540,6 +540,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-28">Completed edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-27">Initial edits to msContents</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-18">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#aahn">Initial TEI encoding.</change>
