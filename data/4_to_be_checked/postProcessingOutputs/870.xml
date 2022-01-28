@@ -1,0 +1,657 @@
+<?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="a" xml:lang="en">BL Add MS 17208</title>
+        <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
+        <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+        <funder>The National Endowment for the Humanities</funder>
+        <funder>The Andrew W. Mellon Foundation</funder>
+        <principal>David A. Michelson</principal>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</editor>
+        <respStmt>
+          <resp>Created by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</name>
+        </respStmt>
+        <respStmt>
+            <resp>Based on the work of</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
+        </respStmt>
+        <respStmt>
+            <resp>Edited by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+        </respStmt>
+        <respStmt>
+            <resp>Syriac text entered by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
+        </respStmt>
+        <respStmt>
+            <resp>Greek and coptic text entry and proofreading by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
+        </respStmt>
+        <respStmt>
+            <resp>Project management by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
+        </respStmt>
+        <respStmt>
+            <resp>English text entry and proofreading by</resp>
+            <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0"/>
+    </editionStmt>
+      <publicationStmt>
+        <authority>Syriaca.org: The Syriac Reference Portal</authority>
+        <idno type="URI">http://syriaca.org/manuscript/870/tei</idno>
+        <availability>
+            <p/>
+            <licence target="http://creativecommons.org/licenses/by/3.0/">
+                <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
+            </licence>
+        </availability>
+        <date calendar="Gregorian">2022-01-28-06:00</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="manuscript-870">
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <repository>British Library</repository>
+            <collection>Oriental Manuscripts</collection>
+            <idno type="URI">http://syriaca.org/manuscript/870</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">Add MS 17208</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Arabic">717</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Roman">DCCXVII</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary/>
+            <textLang mainLang="syr-Syre"/>
+            <msItem xml:id="a1" n="1" defective="false">
+              <author>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+              </author>
+              <title xml:lang="en">Works of <persName>Antonius Rhetor of
+                <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                </persName>
+              </title>
+              <note>see <bibl>Assemani, Bibl. Or., t. ii., p. 345</bibl>
+              </note>
+              <msItem xml:id="b1" n="2">
+                <locus from="1b"/>
+                <author>
+                  <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                  </persName>
+                </author>
+                <title xml:lang="en">A treatise on Rhetoric</title>
+                <rubric xml:lang="syr-Syre">ܒܝܕ ܐܠܗܐ ܟܬܒܝܢܢ ܡܐܡܪܐ ܕܥܒܝܕ ܒܚܦܝܛܘܬܐ̇. ܠܐܢܫ ܪܚ̇ܡ ܥܡܠܐ
+                  ܐܝܟ ܚܝܠܐ ܕܡܢ ܠܥܠ ܐܬ݀ܦܠܓ ܠܗ. ܕܒܐܡܢܐ ܡ̣ܢ ܡܢܝܚܢܐ. ܒܕܡܐ ܕܝ̣ܢ ܬܓܪܝܬܢܝܐ. ܫܡܐ ܕܝ̣ܢ
+                  ܐܢܛܘܢܝܐ. ܕܥܠ ܝܕܥܬܐ ܕܪܗܝܛܪܘܬܐ. ܕܡܠܦ̣ ܘܐܦܘܕܝܟܣܐ (ἀπόδειξις, marg.(ܘܡܚܘܝܢܘܬܐ ܥ̇ܒܕ ܒܝܕ
+                  ܛܟ̈ܢܐ ܡܕܡ̣. ܕܐܝܟܢܐ ܡܨܝܐ ܕܬܬܩܸܢܐ ܘܬܬ̤ܕܪܟ ܗ̣ܝ ܗܕܐ ܐܘܡܢܘܬܐ܀ </rubric>
+                <msItem xml:id="c1" n="3">
+                  <locus from="1b"/>
+                  <author>
+                    <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                    </persName>
+                  </author>
+                  <title xml:lang="en">Chap. i.</title>
+                  <rubric xml:lang="syr-Syre">ܩܦܠܐܘܢ ܩܕܡܝܐ. ܕܡܢ ܐܝܟܐ̣ ܘܐܝ̇ܕܐ ܗ̣ܝ ܡܬܬܙܝܥܢܘܬܐ ܕܠܘܬ
+                    ܡܟܬܒܢܘܬܐ ܗܕܐ ܢܬܩܪܒ</rubric>
+                </msItem>
+                <msItem xml:id="c2" n="4" defective="true">
+                  <locus from="2b"/>
+                  <author>
+                    <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                    </persName>
+                  </author>
+                  <title xml:lang="en">Chap. ii.</title>
+                  <rubric xml:lang="syr-Syre">ܩܦܠܐܘܢ ܕܬܪܝܢ. ܫܘܘܕܝܐ ܕܥܠ ܐܘܡܢܘܬܐ. ܘܕܡܢܐ ܗ̣ܝ ܪܗܛܪܘܬܐ
+                    ܒܬܚܘܡܐ. ܘܦܘܫܩܗ ܕܗܢܐ</rubric>
+                </msItem>
+                <msItem xml:id="c3" n="5">
+                  <author>
+                    <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                    </persName>
+                  </author>
+                  <title xml:lang="en">Chap. iii.</title>
+                  <note>Wanting</note>
+                </msItem>
+                <msItem xml:id="c4" n="6">
+                  <author>
+                    <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                    </persName>
+                  </author>
+                  <title xml:lang="en">Chap. iv.</title>
+                  <note>Wanting</note>
+                </msItem>
+                <msItem xml:id="c5" n="7" defective="true">
+                  <locus from="3a"/>
+                  <author>
+                    <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                    </persName>
+                  </author>
+                  <title xml:lang="en">Chap. v.</title>
+                  <note>Imperfect at the beginning</note>
+                </msItem>
+                <msItem xml:id="c6" n="8">
+                  <locus from="3b"/>
+                  <author>
+                    <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                    </persName>
+                  </author>
+                  <title xml:lang="en">Chap. vi.</title>
+                  <rubric xml:lang="syr-Syre">ܩܦܠܐܘܢ ܕܫܬܐ. ܕܐܝܠܝܢ ܐܢܘܢ ܦܘ̈ܠܓܐ ܕܐܕܫܐ ܗ̇ܘ ܡܓܪܓܢܐ
+                    ܘܟ̇ܠܘܝܐ ܕܩܪ̈ܒܐ̣. ܘ[ܚܫܚ]ܬܐ ܕܒܗܠܝܢ.</rubric>
+                </msItem>
+                <msItem xml:id="c7" n="9" defective="true">
+                  <locus from="4a"/>
+                  <author>
+                    <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                    </persName>
+                  </author>
+                  <title xml:lang="en">Chap. vii.</title>
+                  <rubric xml:lang="syr-Syre">ܩܦܠܐܘܢ ܕܫܒܥܐ. ܦܘܠܓܐ ܕܫܘܝܘܬ ܡܢܬܐ ܕܩܛܐܓܪܢܘܬܐ
+                    ܘܕܦܠܝܪܘܦܘܪܝܐ ܕܡܙܗܪ ܒܝܕ ܬܚ̈ܘܬܐ ܟܬܒܝ̈ܬܐ</rubric>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b2" n="10">
+                <author>
+                  <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                  </persName>
+                </author>
+                <title xml:lang="en">Various metrical compositions, written with rhyme, the
+                  style and language of which are often very intricate and hard to be
+                  understood</title>
+                <msItem xml:id="c8" n="11" defective="true">
+                  <locus from="5a"/>
+                  <author>
+                    <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                    </persName>
+                  </author>
+                  <title xml:lang="en">Consolatory epistle addressed to one
+                      <persName>Euphemius</persName>
+                  </title>
+                  <finalRubric xml:lang="syr-Syre">ܐܣ̈ܛܘܟܣܐ ܡܐܬܝܢ ܏ܘܝ.<locus from="5b"/>
+                  </finalRubric>
+                  <note>Imperfect at the beginning</note>
+                </msItem>
+                <msItem xml:id="c9" n="12">
+                  <locus from="5b"/>
+                  <author>
+                    <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                    </persName>
+                  </author>
+                  <title xml:lang="en">Thanksgiving to God on the part of the said
+                      <persName>Euphemius</persName>, alias <persName>#'Othman bar 'Anbasa, of
+                        <placeName ref="http://syriaca.org/place/109">Callinicus</placeName>
+                    </persName>
+                  </title>
+                  <rubric xml:lang="syr-Syre">ܬܘܕܝܬܐ ܠܐܠܗܐ ܐܝܟ ܕܡܢ ܦܪܨܘܦܗ ܕܐܘܦܝܡܝܘܣ ܗ̇ܘ ܕܡܢ ܠܥܠ̣.
+                    ܒܗ̇ ܟܕ ܒܗ̇ ܒܕܝܨܬܐ</rubric>
+                  <incipit xml:lang="syr-Syre">ܟܠ ܬܫܒܘܚܬܐ ܢ̣̇ܚܘܚ ܪܥܝܢܝ̣. ܘܟܠ ܛܝܒܘܬܐ ܢܲܣܪܚ ܠܫܢܝ.
+                    ܕܐܪܡܪܡܝܘܗܝ ܠܡܪܝܐ ܕܥܒܕܢܝ̣. ܘܒܟܠ ܐܝܩܪ ܐܣܓܝ ܗܕܪܢܝ. ܘܥܡ ܪܘܪ̈ܒܢܐ ܒܦܣܐ ܣܡܢܝ̣. ܘܠܥܝܢ
+                    ܡ̈ܠܟܐ ܟܚܝܕܐ ܚܘܝܢܝ. ܘܒܥܪܝܡܘܬܐ ܐܚܕܪ ܟܠܠܢܝ̣. ܘܒܩܢܝܢܐ ܐܟܚܕ ܫܟܠܠܢܝ. ܘܟܕ ܐ̣ܬܛ̇ܦܠܬ ܛܢ
+                    ܘܕܟܝܢܝ̣. ܘܒܝܕ ܚܘܒܗ ܚ̇ܪ ܘܚܘܪܢܝ. ܘܠܐ ܠܚܛܝ̣ܬܐ ܫܒ̣ܩ ܕܬܟܬܡܢܝ̣. ܘܠܐ ܠܒܝܫ̣ܘܬܐ ܬܘܒ
+                    ܕܬܫܟܪܢܝ. ܘܒܪܘܚܦܗ ܐܣܓܝ ܥܲܠܝܢܝ̣. ܘܟܕ ܟܝܬ ܡ̇ܛܬ ܚܢ ܘܕܠܝܢܝ. ܏ܘܫ.</incipit>
+                  <finalRubric xml:lang="syr-Syre">ܫ̣ܠܡ ܩܘܒܠ ܛܝܒܘܬܐ ܕܐܘܦܝܡܝܘܣ ܗܢܘ ܕܝܢ ܥܘܬܡܢ ܒܪ ܥܢܒܣܐ
+                      ܩܠܝܢܩܝܐ.<locus from="10a"/>
+                  </finalRubric>
+                </msItem>
+                <msItem xml:id="c10" n="13">
+                  <locus from="10a"/>
+                  <author>
+                    <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                    </persName>
+                  </author>
+                  <title xml:lang="en">Consolatory epistle to a son on the death of his
+                    father</title>
+                  <rubric xml:lang="syr-Syre">ܐܚܪܢܐ ܡܒܝܐܢܐ ܒܬܫܥܝܬܐ</rubric>
+                  <incipit xml:lang="syr-Syre">ܛܒ̣ܐ ܓܝܪ ܕܩ̣ܨܐ ܡܲܚܫܠ ܠܐܕ̈ܢܝ̇. ܕܪܓܝܓܐ ܐܒܘܟ ܕܡܢܢ ܫܲܢܝ.
+                    ܘܡܢ ܥܘܙܗ ܕܛ̣ܒܐ̣ ܫܘܪ̈ܝܢ ܡ̈ܠܝ. ܘܐܬ̇ܓܢܚܬ ܛܒ ܒܠܒܝ̣. ܘܐܬ݂ܗܦܟܘ ܡ̈ܥܝ. ܘܒܕܓܘܢ ܐܬ̇ܪܢܝܬ
+                    ܡܛܠܬܟ݂. ܕܒܡܡܘܠ ܚܫܐ ܛ̇ܝܦܐ ܚܫܒܬܟ. ܐܢ ܓܝܪ ܟܝܬ ܐܢܐ ܥܠ ܕܠܗ ܝ̇ܕܥܬ: ܟܠܗ ܗܢܐ ܒܚܫܐ
+                    ܒ̇ܠܥܬ݂. ܚܕܐ ܟܡܐ ܐܢܬ ܕܐܝܬܝܟ ܒܪܐ ܝܚܝܕܐ̇. ܘܝܬܝܪ ܡܢ ܢܘܗܪܐ ܠܗ ܗܘ̣ܝܬ ܟܚܝܕܐ. ܘܒܬܪ ܐܠܗܐ
+                    ܥܝܢܐ ܕܚ̈ܝܐ̇. ܬܟܪܐ ܘܬܕܡܥ ܥܠ ܕܡܢ ܚ̈ܝܐ ܐܓܗܝ ܗ̣ܘ ܓܒܪܐ ܫ̇ܘܐ ܠܬܗܪܐ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c11" n="14">
+                  <locus from="16a"/>
+                  <author>
+                    <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                    </persName>
+                  </author>
+                  <title xml:lang="en">Encomium on one <persName>Sergius</persName>
+                  </title>
+                  <rubric xml:lang="syr-Syre">ܬܦܢܟܐ ܕܪܒܘܬ ܢܦܫܐ ܒܝܕ ܛܘܒܢܐ ܣܪܓܝܣ ܒܚܠܝܬܐ.</rubric>
+                  <incipit xml:lang="syr-Syre">ܠܣܪܓܝܣ ܪܒܐ ܘܪܡܐ: ܕܡܕܥܗ ܕܡ̇ܐ ܠܝܡܐ: ܘܙܢܗ ܡܡܪܐ ܒܣܐܡܐ:
+                    ܕܐܝܩܢ ܥܘܕ ܠܗܝܩ ܐܢܐ̣. ܘܕܐܨܘܪ ܪܒܬ ܣܘ̤ܐ ܐܢܐ. ܘܕܡ ܒܡܠܬܝ ܙܥ̇ܪ ܐܢܐ̇. ܘܡܢ ܨܒܘܬܐ ܦܐ̇ܫ
+                    ܐܢܐ. ܕܫܪܒܗ ܕܡ̇ܐ ܠܛܘܪܐ̣. ܘܚ̇ܣܝܢ ܗ̣ܘ ܡܢ ܟܠ ܫܘܪܐ. ܘܗܘܢܝ ܚܠܫ ܡܢ ܥܘܪܐ̣. ܘܒܡܠܬܝ ܐܝܬܝ
+                    ܒܘܪܐ. ܘܟܕ ܐܣܓܝܬ ܒܪܥܝܢܝ ܘܠܐ̇ܝܬ: ܘܕܐܫܪܫܐ ܠܪܓܬܝ ܪܢ̇ܝܬ݂. ܘܕܐܪܫܠ ܫܘܥܝܬܝ ܨܒ̇ܝܬ. ܘܠܐ
+                    ܕܐܨܘܪ ܒܝܕ ܩ̈ܠܝ܇ ܐܘ ܕܐܪܡܪܡ ܒܝܕ ܡ̈ܠܝ܇ ܠܓܒܪܐ ܕܡܕܥܗ ܫܒܝܚܐ̇. ܥ̇ܠܒ ܠܫܡܫܐ ܢܨܝܚܐ. ܘܪܒܘܬ
+                    ܢܦܫܗ ܩܪܝܚܐ̣. ܘܦܚ̇ܡܐ ܠܫܡܝܐ ܪܘܝܚܐ. ܘܠܫܢ ܐܪ̈ܥܢܐ ܢܐ̇ܫ. ܘܡܢ ܟܘܠܠܗ ܦܐ̇ܫ. ܘܥܡܠܐ ܚܠܝܐ
+                    ܚܐ̇ܫ̣. ܘܩܘܠܣܗ ܠܐ ܡܐ̇ܫ ܪܘܡܗ ܫܡ̇ܝܢܐ̣. ܦܐ̇ܫ ܠܗ ܪܥܝܢܐ. ܘܠܩܠܐ ܕܥܢܢܐ̣. ܦܐܐ ܕܢܗܘܐ
+                    ܡܙܥܩܢܐ. ܏ܘܫ.</incipit>
+                  <note>On the last word of this title there is the following marginal note: ܫܡܗ̇
+                    ܕܡܫܘܚܬܐ ܚܠܝܬܐ ܕܐܟܚܕ ܫܘ̤ܝܬ ܫ̈ܩܠܐ ܗ̣ܝ ܘܡܡܫܚܬܐ. ܒܗܠܝܢ ܓܝܪ ܬܚܡܢܢ ܠܡܘܢܝܛܐ
+                    ܣܩܝܠܬܐ</note>
+                </msItem>
+                <msItem xml:id="c12" n="15">
+                  <locus from="20b"/>
+                  <author>
+                    <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                    </persName>
+                  </author>
+                  <title xml:lang="en">Encomium on one <persName>Joseph</persName>
+                  </title>
+                  <rubric xml:lang="syr-Syre">ܟܠܝܠܐ ܫܲܠܡܐ ܕܟܠ ܩ̈ܘܠܣܐ ܠܣܒܐ ܝܘܣܦ ܒܫܘ̤ܝܬ ܫ̈ܩܐ</rubric>
+                  <incipit xml:lang="syr-Syre">ܥܠ ܕܟܝܘܬܗ ܘܡܗܝܪܘ܏ܬܗ ܕܣܒܐ ܝܘܣܦ ܣܢܝܩ ܗܘܝܬ ܏ܗܟܝܠ . . ܟܕ
+                    ܗ̣ܘ ܚܐܦ܏ܐ ܘܚ̇ܘܪܐ ܕܪܥܝ܏ܢܝ ܕܐܪܡܪܡ܏ܝܘܗܝ ܐܝܬܘܗܝ ܡܟܝ܏ܠ . . ܕܐܡܠܠܝܘܗܝ ܏ܓܝܪ ܐܦ
+                    ܕܐܟܠܠܝ܏ܘܗܝ ܐܢܢܩܐ ܗܝ̣ ܏ܠܝ ܡܢ ܥܠܬ ܏ܫܬ . . ܕܡܪܗ ܢ̣ܐܪܡ ܘܛ̇ܒ̈ܐ ܢܕܘܨܘܢ ܘܫܦܠܐ ܕܐܢܫܐ
+                    ܬܦܢܟܐ ܢܣܒܘܢ . . ܘܬܬܪܝܡ ܚܘܒܬܝ ܘܬܐܪܒ ܡܠܬܝ ܘܠܫܢܝ ܪܦܝܐ ܒܫܘܒܚܗ ܢܨܛܒܥ . . ܒܕܓܘܢ ܐܒܐ
+                    ܡܪܗܘܢ ܕܪ̈ܚܡܐ ܘܪܫܐ ܕܚ̈ܝܐ ܐܢܗܪ ܡܕܥܝ . . </incipit>
+                  <note>On the last words there is the marginal note: ܫܘ̤ܝܬ ܫ̈ܩܐ ܟ̇ܢܝܬ ܠܡܫܘܚܬܐ̣. ܡܛܠ
+                    ܕܒܐܪ̈ܒܥ ܡܢܝܚ̈ܢܘܬܐ ܪܕܝܐ</note>
+                </msItem>
+                <msItem xml:id="c13" n="16" defective="true">
+                  <locus from="31b"/>
+                  <author>
+                    <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                    </persName>
+                  </author>
+                  <title xml:lang="en">Against the seditious or agitators</title>
+                  <rubric xml:lang="syr-Syre">ܟܘܘܐ̈ܢܐ ܘܟ̈ܘܝܐ ܠܛܪ̈ܟܢܐ ܘ̈ܝܐ</rubric>
+                  <incipit xml:lang="syr-Syre">ܐܠܗܝ ܛ̇ܢܢܐ. ܗܒ ܠܝ ܒܚܢܢܐ. ܡܠܬܐ ܕܡܘܬ ܫܢܢܐ. ܘܩܠܐ ܕܡܢ
+                    ܥܢܢܐ. ܕܒܗܘܢ ܐ̣ܡ̇ܚܐ. ܘܪܒܬ ܐܨܚܐ. ܠܓܒܪ̈ܐ ܛܪ̈ܟܢܐ. ܕܒܝܕ ܛܘܟ̈ܢܐ. ܨ̇ܝܕܝܢ ܠܐܒܕܢܐ. ܢܦܫ̈ܬ
+                    ܥܫ̈ܝܢܐ. ܏ܘܫ.</incipit>
+                  <note>Imperfect at the end</note>
+                  <note>Part of this poem, from the beginning as far as fol. 32 b, 2nd col., line 7,
+                    has been edited by <bibl>Professor Roediger in his Chrestomathia Syriaca, 2nd
+                      edit., 1868, pp. 110, 111.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c14" n="17" defective="true">
+                  <locus from="35a"/>
+                  <author>
+                    <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                    </persName>
+                  </author>
+                  <title xml:lang="en">An encomium</title>
+                  <rubric xml:lang="syr">ܩܘܠܣܐ</rubric>
+                  <note>only a few words remain, the greater part of the leaf haying been torn
+                    away</note>
+                </msItem>
+                <msItem xml:id="c15" n="18" defective="true">
+                  <locus from="36a"/>
+                  <author>
+                    <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                    </persName>
+                  </author>
+                  <note>Imperfect at the beginning</note>
+                </msItem>
+                <msItem xml:id="c16" n="19">
+                  <locus from="36a"/>
+                  <author>
+                    <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                    </persName>
+                  </author>
+                  <title xml:lang="en">A short piece</title>
+                  <rubric xml:lang="syr-Syre">ܫܘܚܠܦܐ ܒܫܘܝܘܬ ܫ̈ܩܐ</rubric>
+                  <incipit xml:lang="syr-Syre">ܛܘܒܢ ܒܥܘܬܪ܏ܐ ܘܐܟܚܕ ܒܫܘܦܪ܏ܐ ܘܛܒ ܡܢ ܗܠ܏ܝܢ ܒܥܪܝܡܘܬܐ̇.
+                    ܘܒܐܘܚܕܢܐ ܬܘ܏ܒ ܘܐܡ̈ܢܐ ܚܣ̈ܝ܏ܐ ܘܒܐܝܕܐ ܕܕܝܢ̣܏ܐ ܘܟܠ ܡܝܬܪܘܬܐ. ܕܫܪܝܪܐܝܬ ܥܘܬܪܐ ܕܓܙܗ
+                    ܘܥܘܫܢܐ ܕܐܝܕܗ ܡܠܘܐܐ ܐܝܬܘܗܝ̣. ܕܙܝܘܢܘܬܐ ܘܪܚܡܢܘܬܐ ܕܡܛܪ̈ܦܐ ܟܝܬ ܕܥ̇ܕܝܢ ܥܠܘܗܝ.
+                    ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c17" n="20">
+                  <locus from="36a"/>
+                  <author>
+                    <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                    </persName>
+                  </author>
+                  <title xml:lang="en">Another short piece </title>
+                  <rubric xml:lang="syr-Syre">ܫܘܚܠܦܐ</rubric>
+                  <incipit xml:lang="syr-Syre">ܐܝܕܐ ܗ̣ܝ ܡܝܬܪܘܬܐ ܐܘ ܗܢܐ. ܗ̇ܝ ܕܟܕ ܠܟܠܡܕܡ ܐܝܬ ܣܒܥܐ̇.
+                    ܠܗ̇ ܢܩ̇ܦ ܘܠܐ ܚܕ ܣܒܥܐ. ܪܚܡܬܐ ܓܝܪ ܗ̇ܝ ܠܐ ܡܣܬܒܥܢܝܬܐ̣ ܛܒ ܡܢ ܟܠ ܡܝܬܪܐ. ܐܝܟ ܩܠܐ ܕܐܢܫ
+                    ܩܕܝܫܐ. ܏ܘܫ.</incipit>
+                  <finalRubric xml:lang="syr-Syre">ܫܠܡ ܦܬ ܝܛ<locus/>
+                  </finalRubric>
+                </msItem>
+                <msItem xml:id="c18" n="21">
+                  <locus from="36b"/>
+                  <author>
+                    <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                    </persName>
+                  </author>
+                  <title xml:lang="en">Another</title>
+                  <rubric xml:lang="syr-Syre">ܐܚܪܢܐ</rubric>
+                  <incipit xml:lang="syr-Syre">ܕܡܚܒ ܐܢܐ ܠܟ ܟܕ ܫܬܝܩ ܐܢܐ ܬܐܪܬܟ ܚܟܡܐ ܐܢ ܠܝ ܪܒܝ ܘܚܘܪ ܒܝ
+                    ܘܚܘܢܝ ܕܡܢ ܚ̈ܙܝܬܟ ܡܫܬܘܕܥ ܐܢܐ ܕܡܚܒ ܐܢܬ ܠܝ. ܏ܘܫ.</incipit>
+                  <finalRubric xml:lang="syr-Syre">ܫܠܡ ܦܬ ܘ<locus from="36b"/>
+                  </finalRubric>
+                </msItem>
+                <msItem xml:id="c19" n="22">
+                  <locus from="36b"/>
+                  <author>
+                    <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                    </persName>
+                  </author>
+                  <title xml:lang="en">Another</title>
+                  <rubric xml:lang="syr-Syre">ܐܚܪܢܐ</rubric>
+                  <incipit xml:lang="syr-Syre">ܡܓܙܝܢܢ ܘܓܠܝܙܝܢܢ. ܘܪܚܡܬܐ ܚܠܝܬܐ ܙܒܢܝܢ ܚܢܢ ܘܡܙܒܢܝܢܢ. ܬܐ
+                    ܨܐܕܝ ܐܘ ܚܒܝܒܐ. ܕܪܥ̤ܐ ܐܢܬ ܒܚܘܒܐ ܠܐ ܡܝܘܬܐ. ܘܐܝܬ ܠܝ ܕܡ̈ܝܐ ܠܐ ܡܬܡ̈ܫܚܢܐ ܕܗܢܐ ܥܘܪܦܢܐ
+                    ܫܦܝܪ ܥܘܠܒܢܐ. ܘܐܢ ܠܝܬ ܠܟ݂. ܐܦܠܐ ܓܝܪ ܠܣ̈ܓܝܐܐ. ܐܢܐ ܐܪܬܝܟ ܘܐܬܐܪܝܟ݁. ܕܡܢ ܐܝܟܐ ܘܐܝܟܢ̇.
+                    ܕܡ̈ܝܐ ܠܡܩܢܐ ܕܗܢܐ ܐܡܢܐ. ܏ܘܫ.</incipit>
+                  <finalRubric xml:lang="syr-Syre">ܫܠܡ ܦܬ̈ ܠ<locus/>
+                  </finalRubric>
+                </msItem>
+                <msItem xml:id="c20" n="23">
+                  <locus from="37a"/>
+                  <author>
+                    <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                    </persName>
+                  </author>
+                  <title xml:lang="en">Another</title>
+                  <rubric xml:lang="syr-Syre">ܐܚܪܢܐ</rubric>
+                  <incipit xml:lang="syr-Syre">ܐܥܗܕܟ ܡܕܡ ܐܘ ܪܚ̇ܡܐ. ܐܝܟ ܐܢܫ ܕܪܥ̇ܐ ܠܡܘܬܪܘܬܟ. ܚܕ ܒܥ̣ܝ܇
+                    ܬܚܘܡܐ ܕܚܘܒܐ ܒܚܩܠ ܪܚܡܟ. ܕܥܕܡܐ ܠܡܘܬܐ ܢܡܛܐ̣ ܘܠܐ ܢܗܦܘܟ. ܗ̇ܝ ܟܝܬ ܕܦܝܠܘܢ̇. ܚܬܡ ܘܓܡ̣ܪ
+                    ܝܡܝܢܐܝܬ݀. ܠܐܠܟܣܢܕܪܘܣ ܐܚܝܕ ܥܠܡܐ. ܟܕ ܓܝܕ ܨܒ̣ܐ: ܕܢܪܕܐ ܢܚܙܐ ܠܩܝܛܘܣ ܪܒܐ: ܕܡܢ ܩܒܘܠ:
+                    ܡܲܣܒܗ ܗܘ̣ܐ ܠܛܘܪܐ ܪܒܐ̣. ܟܠܝܗܝ ܡܢ ܗܢܐ̇. ܩܝܢܕܘܢܣ ܪܚ̇ܡܐ ܚ̇ܙܝܐ. ܘܩ̇ܒ̣ܠ ܥܠܘܗܝ̣. ܕܗ̣ܘ
+                    ܢܐܙܠ ܢܚܙܐ. ܡ̇ܢܘ. ܘܐܢ ܙܝܡܝܐ ܗ̣ܝ܆ ܥܠܘܗܝ ܬܣܒܟ ܐܘ ܥܠ ܡܠܟܐ. ܘܛܦ ܠܬܗܘܡܐ ܘܕܫ ܥܠ ܩܝܛܘܣ
+                    ܘܠܗ ܥܡ ܚܒܪ̈ܘܗܝ ܛܒܥܗ ܩܝܛܘܣ. ܏ܘܫ</incipit>
+                  <finalRubric xml:lang="syr-Syre">ܫܠܡ ܦܬܓܡܐ ܏ܟܚ.<locus/>
+                  </finalRubric>
+                </msItem>
+                <msItem xml:id="c21" n="24">
+                  <locus from="37b"/>
+                  <author>
+                    <persName>Antonius Rhetor of <placeName ref="http://syriaca.org/place/193">#Tagrit</placeName>
+                    </persName>
+                  </author>
+                  <title xml:lang="en">A discourse against those who do violence unto grace
+                    (the thankless or un-grateful)</title>
+                  <rubric xml:lang="syr-Syre">ܫܝܒ. ܡܡܠܐ ܥܡ ܕܝܢ̣ܐ ܥܠ ܛ̈ܠܡܝ ܛܝܒܘܬܐ ܒܛܪܝܦܘܕܐ. </rubric>
+                  <incipit xml:lang="syr-Syre">ܒܥܕܢܐ ܒܗܝܠܐ ܕܛܗܪܐ ܚܣܝܢ܏ܐ ܟܕ ܒܩܝܠܐ ܪܡܸܐ ܐܢ܏ܐ. ܘܫܢܬܐ
+                    ܓܢܸܐ ܒܥܝ̈ܢ܏ܝ ܘܫܬܩܐ ܥܢܸܐ ܒܠܫܢ܏ܝ ܘܕܐܚܪܫ ܩܪܝܒ ܐܢ܏ܐ. ܩܠ ܙܡ̈ܡܐ ܫܡ̇ܥ܏܏܏ܬ ܕܡܪܝܒܝܢ ܠܐܐ܏ܪ
+                    ܘܠܫܡܥܐ ܡܕܠܚܝ܏ܢ. ܘܣܒܪܬ ܕܕܒܘܪ̈ܐ. ܡܢ ܩ̣ܨ ܚܘܡܡܐ ܫܓܫܝܢ. ܘܡܢ ܗܪܟܐ ܐܕܫܬ ܘܚܘ̈ܫܒܝ ܐܣܪܚܬ
+                    ܘܠܢܝܚܐ ܥ̇ܦܩܬ. ܥܕܡܐ ܕܗ̣ܘ ܠܥܙܐ ܐܬܕܡܝ ܕܩܠܐ ܗ̣ܘ ܘܡܡܠܠܐ̇ ܕܒܪܢܫܐ. ܘܡܢ ܗܪܟܐ ܬܡܪ̈ܝ
+                    ܚܬ̈ܝܡܝ ܒܐܒܪܐ ܦܬ݁ܚܬ ܘܐܬܒܝܢܬ. ܘܗܐ ܓܒܪܐ ܟܡܝܪܐ ܕܚܝܪܗ ܓܥܝܪܐ ܗ̣ܘ ܓܢܸܐ ܒܣܬܪ ܬܪܥܐ.
+                    ܘܡܩܪ̈ܡܛܢ ܐ̈ܦܘܗܝ ܘܡܬܲܠܝܢ ܓܒܝ̈ܢܘܗܝ ܘܪܟܝܢ ܠܘܬ ܐܪܥܐ. ܘܣܦܘ̈ܬܗ ܪ̈ܬܡܢ ܡܕܡ ܠܐ ܡܦܪܫܐ ܐܝܟ
+                    ܒܩ̈ܝ ܪܡܫܐ. ܘܕܡ̇ܐ ܗܘ̣ܐ ܠܓܒܪܐ ܕܒܛܝܢ ܒܓܘ ܠܒܗ ܥܝܛܐ ܣܓܝܐܐ. ܘܝ̇ܠܕ ܠܫܢܗ ܡܣܓܐ ܠܘܬ̈ܡܐ ܐܝܟ
+                    ܕܠܒܘܝܐܐ. ܏ܘܫ.</incipit>
+                </msItem>
+              </msItem>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="perg">
+                <extent>
+                  <measure unit="content_pending" quantity="-1"/>
+                </extent>
+                <foliation/>
+                <collation/>
+                <condition>
+                  <list>
+                    <item>
+                      <p>Vellum, about 10 ¼ in. by 7, consisting of 42 leaves, some of which are
+                        much stained and torn, especially foll. 2, 4, 24, and 35. The quires, signed
+                        with letters, were once 17 in number, but the first 13 are now lost, with
+                        the exception of four leaves of ܐ. There are from 27 to 35 lines in each
+                        page. This volume is written in a good #Estrangela of the ixth cent.</p>
+                    </item>
+                  </list>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <p>Content pending</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
+                <desc/>
+              </handNote>
+            </handDesc>
+            <additions>
+              <list>
+                <item xml:id="addition1" n="1">
+                  <locus from="41b"/>
+                  <p>On fol. 41 b, at the foot of the page, there once stood a note in a different
+                    hand, which has been carefully erased, with the exception of the first three
+                    words</p>
+                  <p>
+                    <quote xml:lang="syr-Syre">ܐܝܬܘܗܝ ܕܝܢ ܟܬܒܐ.</quote>
+                  </p>
+                </item>
+              </list>
+            </additions>
+            <bindingDesc>
+              <p>Content pending</p>
+            </bindingDesc>
+            <sealDesc>
+              <p>Content pending</p>
+            </sealDesc>
+            <accMat/>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate notBefore="0800" notAfter="0900">of the ixth
+                cent.</origDate>
+              <origPlace/>
+            </origin>
+            <provenance/>
+            <acquisition/>
+          </history>
+          <additional>
+            <adminInfo>
+                    <recordHist>
+                        <source>Manuscript description based on <bibl>
+                            <ref target="#Wright">Wright's
+                            Catalogue</ref>
+                        </bibl>, abbreviated by the Syriaca.org editors.</source>
+                    </recordHist>
+                    <note/>
+                </adminInfo>
+            <listBibl>
+              <bibl xml:id="Wright">
+                <author>William Wright</author>
+                <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired
+                        since the Year 1838</title>
+                <pubPlace>London</pubPlace>
+                <date>1870</date>
+                <ptr target="http://syriaca.org/bibl/8"/>
+                <citedRange unit="entry">DCCXVII</citedRange>
+                <citedRange unit="pp">2:613-617</citedRange>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <interpretation>
+                <p>Description is based on Wright's Catalogue without consultation of physical
+                    manuscripts. Foliation is approximate. Wright often does not indicate ending folia so
+                    those have been assumed based on beginning folia.</p>
+                <p>Scribal notes which could not be more clearly classified based on Wright's descriptions
+                    have been identified as &lt;addition&gt;s whether they occur in the margins or the body
+                    of the manuscript.</p>
+                <p>In general, we have classified as an &lt;msItem&gt; as much of the manuscript contents
+                    as possible, including tables of contents and indices.</p>
+            </interpretation>
+        </editorialDecl>
+        <classDecl>
+            <taxonomy xml:id="Wright-BL-Taxonomy">
+                <bibl>
+                    <ref target="#Wright"/>
+                    <ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy.html"/>
+                </bibl>
+                <category xml:id="biblical-manuscripts">
+                    <category xml:id="bible-ot">
+                        <catDesc>Old Testament</catDesc>
+                    </category>
+                    <category xml:id="bible-nt">
+                        <catDesc>New Testament</catDesc>
+                    </category>
+                    <category xml:id="bible-apocrypha">
+                        <catDesc>Apocrypha</catDesc>
+                    </category>
+                    <category xml:id="bible-punctuation">
+                        <catDesc>Punctuation</catDesc>
+                    </category>
+                </category>
+                <category xml:id="service-books">
+                    <category xml:id="psalter">
+                        <catDesc>Psalters</catDesc>
+                    </category>
+                    <category xml:id="lectionaries">
+                        <catDesc>Lectionaries</catDesc>
+                    </category>
+                    <category xml:id="missals">
+                        <catDesc>Missals</catDesc>
+                    </category>
+                    <category xml:id="sacerdotals">
+                        <catDesc>Sacerdotals</catDesc>
+                    </category>
+                    <category xml:id="choral">
+                        <catDesc>Choral Books</catDesc>
+                    </category>
+                    <category xml:id="hymns">
+                        <catDesc>Hymns</catDesc>
+                    </category>
+                    <category xml:id="prayers">
+                        <catDesc>Prayers</catDesc>
+                    </category>
+                    <category xml:id="funerals">
+                        <catDesc>Funeral Services</catDesc>
+                    </category>
+                </category>
+                <category xml:id="theology">
+                    <category xml:id="theo-single">
+                        <catDesc>Individual Authors</catDesc>
+                    </category>
+                    <category xml:id="theo-collected">
+                        <catDesc>Collected Authors</catDesc>
+                    </category>
+                    <category xml:id="theo-catenae">
+                        <catDesc>Catenae Patrum and Demonstrations against Heresies</catDesc>
+                    </category>
+                    <category xml:id="theo-anonymous">
+                        <catDesc>Anonymous Works</catDesc>
+                    </category>
+                    <category xml:id="theo-council">
+                        <catDesc>Councils of the Church and Ecclesioastical Canons</catDesc>
+                    </category>
+                </category>
+                <category xml:id="wright-history">
+                    <category xml:id="history">
+                        <catDesc>History</catDesc>
+                    </category>
+                </category>
+                <category xml:id="lives">
+                    <category xml:id="lives-collect">
+                        <catDesc>Collected Lives</catDesc>
+                    </category>
+                    <category xml:id="lives-single">
+                        <catDesc>Single Lives</catDesc>
+                    </category>
+                </category>
+                <category xml:id="scientific-lit">
+                    <category xml:id="sci-logic">
+                        <catDesc>Logic and Rhetoric</catDesc>
+                    </category>
+                    <category xml:id="sci-grammar">
+                        <catDesc>Grammar and Lexicography</catDesc>
+                    </category>
+                    <category xml:id="sci-ethics">
+                        <catDesc>Ethics</catDesc>
+                    </category>
+                    <category xml:id="sci-medicine">
+                        <catDesc>Medicine</catDesc>
+                    </category>
+                    <category xml:id="sci-agriculture">
+                        <catDesc>Agriculture</catDesc>
+                    </category>
+                    <category xml:id="sci-chemistry">
+                        <catDesc>Chemistry</catDesc>
+                    </category>
+                    <category xml:id="sci-natural-history">
+                        <catDesc>Natural History</catDesc>
+                    </category>
+                </category>
+                <category xml:id="wright-fly-leaves">
+                    <category xml:id="fly-leaves">
+                        <catDesc>Fly Leaves</catDesc>
+                    </category>
+                </category>
+                <category xml:id="appendices">
+                    <category xml:id="appendix-a">
+                        <catDesc>Appendix A</catDesc>
+                    </category>
+                    <category xml:id="appendix-b">
+                        <catDesc>Appendix B</catDesc>
+                    </category>
+                </category>
+            </taxonomy>
+        </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+            <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            <language ident="syr-Syre">Syriac in Estrangela</language>
+            <language ident="syr-Syrj">Vocalized West Syriac</language>
+            <language ident="syr-Syrn">Vocalized East Syriac</language>
+            <language ident="syr-x-syrm">Melkite Syriac</language>
+            <language ident="syr-x-syrp">Palestinian Syriac</language>
+            <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
+            <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
+            <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="cop">Coptic</language>
+        </langUsage>
+      <textClass>
+        <keywords scheme="#Wright-BL-Taxonomy">
+          <list>
+            <item>
+              <ref target="#theo-single"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-28">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI encoding.</change>
+      <change type="planned" subtype="missing">Missing diacritical markings wherever there is a
+        #</change>
+      <change type="planned" subtype="missing">The Word Document is missing an entire section
+        beginning "on fol. 42 a there is a note of still later date...". I think the Syriac at the
+        end of the Word Doc is the quote associated with this section, but I'm not positive</change>
+      <change type="planned" subtype="syriac">Check Syriac in section "A treatise on
+        Rhetoric"</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <formula>Content pending</formula>
+  </facsimile>
+  <text>
+    <body>
+      <bibl>Content pending</bibl>
+    </body>
+  </text>
+</TEI>

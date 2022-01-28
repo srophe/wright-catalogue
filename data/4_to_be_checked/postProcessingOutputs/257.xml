@@ -1,0 +1,705 @@
+<?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="a" xml:lang="en">BL Add MS 14530</title>
+        <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
+        <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+        <funder>The National Endowment for the Humanities</funder>
+        <funder>The Andrew W. Mellon Foundation</funder>
+        <principal>David A. Michelson</principal>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</editor>
+        <respStmt>
+          <resp>Created by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</name>
+        </respStmt>
+        <respStmt>
+            <resp>Based on the work of</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
+        </respStmt>
+        <respStmt>
+            <resp>Edited by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+        </respStmt>
+        <respStmt>
+            <resp>Syriac text entered by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
+        </respStmt>
+        <respStmt>
+            <resp>Greek and coptic text entry and proofreading by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
+        </respStmt>
+        <respStmt>
+            <resp>Project management by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
+        </respStmt>
+        <respStmt>
+            <resp>English text entry and proofreading by</resp>
+            <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0"/>
+    </editionStmt>
+      <publicationStmt>
+        <authority>Syriaca.org: The Syriac Reference Portal</authority>
+        <idno type="URI">http://syriaca.org/manuscript/257/tei</idno>
+        <availability>
+            <p/>
+            <licence target="http://creativecommons.org/licenses/by/3.0/">
+                <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
+            </licence>
+        </availability>
+        <date calendar="Gregorian">2022-01-28-06:00</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="manuscript-257">
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <repository>British Library</repository>
+            <collection>Oriental Manuscripts</collection>
+            <idno type="URI">http://syriaca.org/manuscript/257</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">Add MS 14530</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Arabic">905</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Roman">DCCCCV</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary/>
+            <textLang mainLang="syr"/>
+            <msItem xml:id="a1" n="1" defective="false">
+              <title xml:lang="en">The Acts of the Second Council of Ephesus—the so-called
+                ληστρικὴ σύνοδος or <ref>"Latrocinium Ephesinum"</ref>—held A.D. 449, during the
+                reigns of <persName ref="http://syriaca.org/person/1529">Theodosius</persName> and <persName>Valentinian</persName>,
+                under the presidency of <persName ref="http://syriaca.org/person/2432">Dioscorus of
+                  <placeName ref="http://syriaca.org/place/2620">Alexandria</placeName>
+                </persName>
+              </title>
+              <rubric xml:lang="syr">ܣܘܢܗܕܘܣ ܕܬܪ̈ܬܝܢ ܕܐܬܟܢܫܬ ܒܐܦܣܘܣ ܒܝ̈ܘܡܝ ܩܕܝܫܐ ܕܝܘܣܩܘܪܘܣ
+                ܐܦܣܩܦܐ.</rubric>
+              <note>A small part of this volume has been edited by the <persName>Rev. S. G. F.
+                  Perry</persName>, under the title of <bibl>"An Ancient Syriac Document, purporting
+                  to be the record, in its chief features, of the second Synod of Ephesus," etc.,
+                  Oxford, 1867.</bibl>
+              </note>
+              <note>see <bibl>Labbe, Sacros. Concilia, ed. Coleti, t. iv., coll. 743, seqq., and
+                  compare also coll. 889—1189</bibl>
+              </note>
+              <msItem xml:id="b1" n="2">
+                <locus from="1b"/>
+                <author>the Emperors</author>
+                <title xml:lang="en">Letter of <persName>the Emperors</persName> to
+                  <persName ref="http://syriaca.org/person/2432">Dioscorus</persName>, convening the Council</title>
+                <rubric xml:lang="syr">ܐܘܛܘܩܪܛܘܪܘܣ ܩܐܣܪ̈ܣ ܬܐܘܕܘܣܝܣ ܘܘܠܢܛܝܢܝܢܘܣ ܙܟ̈ܝܐ ܘܡ̈ܬܢܨܚ ܒܙܟ̈ܘܬܐ
+                  ܘܡܣ̈ܬܓܕܝ ܒܟܠܙܒܢ܆ ܐܓܘ̈ܣܛܘ ܠܕܝܘܣܩܘܪܘܣ</rubric>
+                <note>See <bibl>Labbe, coll. 869, seqq.</bibl>
+                </note>
+              </msItem>
+              <msItem xml:id="b2" n="3">
+                <locus from="2b"/>
+                <author>the Emperors</author>
+                <title xml:lang="en">Letter of <persName>the Emperors</persName> to
+                  <persName ref="http://syriaca.org/person/2432">Dioscorus</persName>, regarding <persName ref="http://syriaca.org/person/781">Theodoret of
+                    <placeName ref="http://syriaca.org/place/65">Cyrus</placeName>
+                  </persName>
+                </title>
+                <note>See <bibl>Labbe, coll. 881—3.</bibl>
+                </note>
+              </msItem>
+              <msItem xml:id="b3" n="4">
+                <locus from="3b"/>
+                <author>the Emperors</author>
+                <title xml:lang="en">Letter of <persName>the Emperors</persName> to the
+                  Council, regarding<persName ref="http://syriaca.org/person/534">Ibas of
+                    <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                  </persName>
+                </title>
+              </msItem>
+              <msItem xml:id="b4" n="5">
+                <locus from="4a"/>
+                <title xml:lang="en">List of the bishops and priests who were present at the
+                  Council, concluding with the name of "<persName ref="http://syriaca.org/person/370">Barsumas presbyter et
+                    archimandrita</persName>" </title>
+                <note>see <bibl>Labbe, coll. 889—893</bibl>
+                </note>
+                <note>The names of <persName>Julian</persName> (the locum tenens of <persName ref="http://syriaca.org/person/2299">Leo, bishop of <placeName ref="http://syriaca.org/place/641">Rome</placeName>
+                  </persName>), <persName ref="http://syriaca.org/person/2264">Domnus of <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                  </persName>, and
+                    <persName ref="http://syriaca.org/person/2653">Flavian of <placeName ref="http://syriaca.org/place/586">Constantinople</placeName>
+                  </persName> are
+                  omitted.</note>
+                <note>The proceedings in the case of <persName ref="http://syriaca.org/person/482">Eutyches</persName>, which occupied
+                  the first session of the council, are passed over in this manuscript. See
+                    <bibl>Add. 12,156, fol. 51 b.</bibl>
+                </note>
+              </msItem>
+              <msItem xml:id="b5" n="6">
+                <locus from="5b"/>
+                <title xml:lang="en">Statements of deputations of the Council, regarding the
+                  representatives of <persName ref="http://syriaca.org/person/2299">Leo</persName> (<persName>Julian</persName> and
+                    <persName>Ililarius</persName>), who refused to be present at its meetings,
+                  after the conclusion of the case of <persName ref="http://syriaca.org/person/482">Eutyches</persName>; and regarding
+                  <persName ref="http://syriaca.org/person/2264">Domnus of <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                  </persName>, who was sick or
+                  pretended to be so</title>
+                <quote xml:lang="syr">ܐܠܐ ܘܡܢ ܒܬܪ ܗܢܐ ܥܢܝܢܐ̣. ܬܘܒ ܠܨܦܪܗ ܕܝܘܡܐ ܕܐܝܬܘܗܝ ܚܕ ܒܫܒܐ̣.
+                  ܐܙܠ̣ܢܢ ܠܬܡܢ. ܘܗܘ̣ܝܢܢ ܒܥܢܝܢܗ ܕܝܠܗ ܕܢܘܛܪܐ. ܘܐܡ̣ܪ ܕܠܐ ܡܫܟܚܐ ܕܢܬܟܢܫܘܢ ܥܡܗܘܢ̣. ܘܐܦܢ
+                  ܥܣܪ̈ ܙܒ̈ܢܝܢ ܬܫܕܪ ܗ̣ܝ ܩܕܝܫܬܐ ܣܘܢܗܕܘܣ. ܒܗ̇ܝ ܕܟܬܝܒ̈ܬܐ ܐܝܠܝܢ ܕܐܬܗܝܡܢܘ ܡܢ ܪܝܫܐ ܕܐܦܣ̈ܩܦܐ
+                  ܠܐܘܢ̇. ܕܡܫܡܗܬܐ ܘܡܠܟܬܐ ܪܗܘܡܐ̣. ܘܠܐ ܡܕܡ ܐܚܪܢܐ ܐܝܬ ܒܗܝـ̣ܢ. ܐܠܐ ܕܢܐܬܘܢ ܠܟܢܘܫܝܐ ܕܝܠܗ̇
+                  ܕܣܘܢܗܕܘܣ ܩܕܝܫܬܐ̣. ܥܕܡܐ ܕܫ̇ܪܝܐ ܣܘܥܪܢܐ ܕܕܚܠ ܠܐܠܗܐ ܩܫܝܫܐ ܘܪܫܕܝܪܐ ܐܘܛܘܟܐ<locus from="6b"/>
+                </quote>
+              </msItem>
+              <msItem xml:id="b6" n="7">
+                <locus from="8a"/>
+                <title xml:lang="en">Action against <persName ref="http://syriaca.org/person/534">Ibas, bishop of
+                  <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                  </persName>
+                </title>
+                <rubric xml:lang="syr">ܗܘ̈ܦܡܢܡܛܐ ܕܗܘܘ ܠܘܩܒܠ ܗܝܒܐ ܐܦܝܣܩܘܦܐ ܕܐܘܪܗܝ ܡܕܝܢܬܐ</rubric>
+                <note>this title is given on fol. 2 b, before the letter of <persName>the
+                  Emperors</persName> regarding <persName ref="http://syriaca.org/person/781">Theodoret</persName>
+                </note>
+                <msItem xml:id="c1" n="8">
+                  <locus from="8a"/>
+                  <author>the Emperors</author>
+                  <title xml:lang="en">Letter of <persName>the Emperors</persName> to the
+                    Council, regarding the complaints against <persName ref="http://syriaca.org/person/534">Ibas</persName>
+                  </title>
+                  <note>see <bibl>above, no. 3</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c2" n="9">
+                  <locus from="8a"/>
+                  <author>the Emperors</author>
+                  <title xml:lang="en">letter of <persName>the Emperors</persName> to various
+                    monks of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, brought to the Council by a deputation
+                    of the monks</title>
+                  <note>Compare the letters to <persName ref="http://syriaca.org/person/2432">Dioscorus</persName> and
+                    <persName ref="http://syriaca.org/person/370">Barsumas</persName> in <bibl>Labbe, t. iv., coll.
+                    876-77.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c3" n="10">
+                  <locus from="10a"/>
+                  <title xml:lang="en">report of various proceedings of the people and clergy
+                    at <placeName ref="http://syriaca.org/place/78">Edessa</placeName>, such as the
+                    outcries of the populace (ܦܘ̈ܢܣ ܕܒ̈ܢܝ ܡܕܝܢܬܐ) at the entry of the Comes Chaereas
+                    (ܟܐܪܐܐ, Χαιρέας) into the city</title>
+                </msItem>
+                <msItem xml:id="c4" n="11">
+                  <locus from="13b"/>
+                  <title xml:lang="en">relations or reports (ܐܢܦܘܪ̈ܣ, ἀναφοραί) of
+                    Chaereas</title>
+                </msItem>
+                <msItem xml:id="c5" n="12">
+                  <locus from="23a"/>
+                  <title xml:lang="en">relations or reports (ܐܢܦܘܪ̈ܣ, ἀναφοραί) of
+                    Chaereas</title>
+                </msItem>
+                <msItem xml:id="c6" n="13">
+                  <locus from="34a"/>
+                  <author ref="http://syriaca.org/person/534">Ibas</author>
+                  <title xml:lang="en">letter of <persName ref="http://syriaca.org/person/534">Ibas</persName> to <persName ref="http://syriaca.org/person/874">Mārī
+                    the <placeName ref="http://syriaca.org/place/526">Persian</placeName>
+                    </persName>
+                  </title>
+                  <note>see <bibl>Labbe, t. iv., coll. 1573—80</bibl>
+                  </note>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b7" n="14">
+                <locus from="47b"/>
+                <author ref="http://syriaca.org/person/2257">Daniel, bishop of
+                  <placeName ref="http://syriaca.org/place/216">Harran</placeName>
+                </author>
+                <title xml:lang="en">Deposition (καθαίρεσις) of <persName ref="http://syriaca.org/person/2257">Daniel, bishop of
+                  <placeName ref="http://syriaca.org/place/216">Harran</placeName>
+                  </persName>
+                </title>
+                <rubric xml:lang="syr">ܩܬܪܣܝܣ ܕܕܢܝܐܝܠ ܐܦܣܩܦܐ ܕܚܪܢ</rubric>
+              </msItem>
+              <msItem xml:id="b8" n="15">
+                <locus from="50b"/>
+                <author ref="http://syriaca.org/person/847">Irenaeus, bishop of Tyre</author>
+                <title xml:lang="en">Deposition of <persName ref="http://syriaca.org/person/847">Irenaeus, bishop of
+                  <placeName ref="http://syriaca.org/place/195">Tyre</placeName>
+                  </persName>
+                </title>
+                <rubric xml:lang="syr">ܩܬܪܣܝܣ ܕܐܝܪܝܢܐܘܣ ܐܦܣܩܦܐ ܕܛܘܪܘܣ. </rubric>
+              </msItem>
+              <msItem xml:id="b9" n="16">
+                <locus from="52a"/>
+                <author ref="http://syriaca.org/person/844">Aquilinus, bishop of
+                  <placeName ref="http://syriaca.org/place/52">Byblos</placeName>
+                </author>
+                <title xml:lang="en">Deposition of <persName ref="http://syriaca.org/person/844">Aquilinus, bishop of
+                  <placeName ref="http://syriaca.org/place/52">Byblos</placeName>
+                  </persName>
+                </title>
+                <rubric xml:lang="syr">ܩܬܪܣܝܣ ܕܐܩܘܠܝܢܘܣ ܐܦܣܩܦܐ ܕܒܝܒܠܘܣ</rubric>
+              </msItem>
+              <msItem xml:id="b10" n="17">
+                <locus from="54a"/>
+                <title xml:lang="en">Action against <persName>Sophronius, bishop of
+                  <placeName ref="http://syriaca.org/place/1889">Tellā</placeName> or
+                  <placeName ref="http://syriaca.org/place/200">Constantina</placeName>
+                  </persName>
+                </title>
+                <rubric xml:lang="syr">ܗܘܦܡ̈ܢܡܛܐ ܕܐܣܬܥܪܘ ܥܠ ܣܘܦܪܘܢ ܐܦܝܣܩܘܦܐ ܕܬܠܠܐ ܡܕܝܢܬܐ.. </rubric>
+              </msItem>
+              <msItem xml:id="b11" n="18">
+                <locus from="57a"/>
+                <author ref="http://syriaca.org/person/781">Theodoret, bishop of Cyrus</author>
+                <title xml:lang="en">Deposition of <persName ref="http://syriaca.org/person/781">Theodoret, bishop of
+                  <placeName ref="http://syriaca.org/place/65">Cyrus</placeName>
+                  </persName>
+                </title>
+                <rubric xml:lang="syr"> ܩܬܪܣܝܣ ܕܬܐܕܘܪܝܛܐ ܐܦܣܩܦܐ ܕܩܘܪܘܣ</rubric>
+                <msItem xml:id="c7" n="19">
+                  <locus from="62a"/>
+                  <author ref="http://syriaca.org/person/781">Theodoret</author>
+                  <title xml:lang="en">Letter written by <persName ref="http://syriaca.org/person/781">Theodoret</persName> to
+                    the monks, against <persName ref="http://syriaca.org/person/430">Cyril</persName> and the (first) Council of
+                    Ephesus</title>
+                </msItem>
+                <msItem xml:id="c8" n="20">
+                  <locus from="72b"/>
+                  <author ref="http://syriaca.org/person/781">Theodoret</author>
+                  <title xml:lang="en">extracts from his writings</title>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b12" n="21">
+                <locus from="78b"/>
+                <author ref="http://syriaca.org/person/2264">Domnus, bishop of Antioch</author>
+                <title xml:lang="en">Adherence of <persName ref="http://syriaca.org/person/2264">Domnus, bishop of
+                  <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                  </persName>, by message, to the above
+                  decisions</title>
+              </msItem>
+              <msItem xml:id="b13" n="22">
+                <locus from="79a"/>
+                <title xml:lang="en">The excommunication, laid on certain of the clergy by
+                  <persName ref="http://syriaca.org/person/2653">Flavian of <placeName ref="http://syriaca.org/place/586">Constantinople</placeName>
+                  </persName>, is
+                  removed</title>
+              </msItem>
+              <msItem xml:id="b14" n="23">
+                <locus from="79a"/>
+                <title xml:lang="en">Action against <persName ref="http://syriaca.org/person/2264">Domnus, bishop of
+                  <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                  </persName>
+                </title>
+                <rubric xml:lang="syr">ܗܘܦܡ̈ܢܡܛܐ ܕܐܣܬܥܪܘ ܠܘܩܒܠ ܕܘܡܢܘܣ ܐܦܣܩܘܦܐ ܕܐܢܛܝܘܟܝܐ</rubric>
+                <msItem xml:id="c9" n="24">
+                  <locus from="79b"/>
+                  <title xml:lang="en">Libellus of <persName>Cyriaeus the
+                    priest</persName>
+                  </title>
+                </msItem>
+                <msItem xml:id="c10" n="25">
+                  <locus from="83a"/>
+                  <author ref="http://syriaca.org/person/2264">Domnus</author>
+                  <title xml:lang="en">letter of <persName ref="http://syriaca.org/person/2264">Domnus</persName> to
+                    <persName ref="http://syriaca.org/person/2653">Flavian</persName>
+                  </title>
+                </msItem>
+                <msItem xml:id="c11" n="26">
+                  <locus from="85b"/>
+                  <title xml:lang="en">libelli of the <persName>priest
+                    Marcellus</persName>
+                  </title>
+                  <rubric xml:lang="syr">ܠܝܒ̈ܠܘ</rubric>
+                </msItem>
+                <msItem xml:id="c12" n="27">
+                  <locus from="87b"/>
+                  <title xml:lang="en">of <persName>the deacon Heliodorus</persName> and
+                    other monks</title>
+                </msItem>
+                <msItem xml:id="c13" n="28">
+                  <locus from="89a"/>
+                  <title xml:lang="en">ἐξωμοσία of <persName>the priest
+                    Pelagius</persName>
+                  </title>
+                  <rubric xml:lang="syr">ܐܟܣܘܡܘܣܝܐ ܕܦܠܓܝܣ ܩܫܝܫܐ</rubric>
+                </msItem>
+                <msItem xml:id="c14" n="29">
+                  <locus from="92a"/>
+                  <author ref="http://syriaca.org/person/2432">Dioscorus of
+                    <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>
+                  </author>
+                  <title xml:lang="en">letter of <persName ref="http://syriaca.org/person/2432">Dioscorus of
+                    <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>
+                    </persName> to
+                    <persName ref="http://syriaca.org/person/2264">Domnus</persName>
+                  </title>
+                </msItem>
+                <msItem xml:id="c15" n="30" defective="true">
+                  <locus from="96a"/>
+                  <author ref="http://syriaca.org/person/2264">Domnus</author>
+                  <title xml:lang="en">reply of <persName ref="http://syriaca.org/person/2264">Domnus</persName>
+                  </title>
+                </msItem>
+                <msItem xml:id="c16" n="31" defective="true">
+                  <locus from="97a"/>
+                  <author ref="http://syriaca.org/person/2432">Dioscorus</author>
+                  <title xml:lang="en">another letter of <persName ref="http://syriaca.org/person/2432">Dioscorus</persName> to
+                    <persName ref="http://syriaca.org/person/2264">Domnus</persName>
+                  </title>
+                </msItem>
+                <msItem xml:id="c17" n="32">
+                  <locus from="99b"/>
+                  <author ref="http://syriaca.org/person/2264">Domnus</author>
+                  <title xml:lang="en">reply of <persName ref="http://syriaca.org/person/2264">Domnus</persName>
+                  </title>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b15" n="33">
+                <locus from="104a"/>
+                <title xml:lang="en">An imperial document, setting forth the reasons for
+                  convening the second Council of Ephesus; chiefly on account of the machinations of
+                  <persName ref="http://syriaca.org/person/2653">Flavian</persName> and <persName>Eusebius</persName>, and their
+                  abettors, <persName ref="http://syriaca.org/person/2264">Domnus</persName>, <persName ref="http://syriaca.org/person/781">Theodoret</persName> and
+                  others</title>
+                <rubric xml:lang="syr">ܦܘܫܩܐ</rubric>
+                <incipit xml:lang="syr">ܢܡܘܣ̈ܐ ܐܝܠܝܢ ܕܚܠܦ ܝܘܬܪ̈ܢܐ ܕܓܘܐ ܡܬܟܪܙܝ̣ܢ. ܣܟ݂ ܠܐ ܡܬܛܦܝܣܝܢ ܚܢܢ
+                  ܕܠܛܘܥܝܝ ܢܫܬܠܡܘܢ̇ ܘܠܐ ܬܘܒ ܕܒ̈ܦܘܩܕܢܐ ܕܦܘܪܩܢܐ ܕܐܘܚܕܢܢ ܕܢܬܚܒܠܘܢ̇ ܒܡܪܚܘܬܐ ܕܚܪ̈ܢܐ. ܐܠܐ
+                  ܒܡܪܚܡܢܘܬܐ ܐܝ̇ܕܐ ܕܪܚܝܡܐ ܡܢܢ. ܣܘܥܪ̈ܢܐ ܕܡܪܚܘܬܐ ܕܢܬ̇ܪܨ ܚܦܝܛܝܢ ܚܢܢ. ܗܢܘ ܕܝ̣ܢ. ܣܛܪ ܡܢ
+                  ܡܣܡ ܒܪܫܐ ܕܕܡܐ. ܏ܘܫ.</incipit>
+              </msItem>
+              <msItem xml:id="b16" n="34">
+                <locus from="106a"/>
+                <title xml:lang="en">Part of an imperial letter to (<persName ref="http://syriaca.org/person/2432">Dioscorus of <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>
+                  </persName>),
+                  directing him to write encyclical letters (ܟܬܝ̈ܒܬܐ ܐܢܩ̈ܘܩܠܝܐ) containing the
+                  imperial decree (against the Nestorians, ܢܡܘܣܢ ܗܢܐ), the Nicene Creed (ܣܝܡܐ
+                  ܕܗܝܡܢܘܬܢ ܩܕܝܫܬܐ), and the definition (ܬܚܘܡܐ) of the two Councils (of Ephesus), to
+                  the metropolitan bishops of Constantinople, Jerusalem, etc. </title>
+                <note>They are to affix their signatures, and those of their subordinates, to these
+                  letters, and to read them publicly in their churches. Heretical writings,
+                  especially Nestorian, are to be burnt.</note>
+              </msItem>
+              <msItem xml:id="b17" n="35">
+                <locus from="106b"/>
+                <title xml:lang="en">Part of a letter of the <persName ref="https://syriaca.org/person/1529">emperor
+                    Theodosius</persName> to <persName>Juvenalis, bishop of
+                      <placeName ref="http://syriaca.org/place/104">Jerusalem</placeName>
+                  </persName>, to the same effect as no.
+                  16</title>
+                <rubric xml:lang="syr">ܥܢܝܢܐ ܕܐܓܪܬܐ ܕܡܗܝܡܢܐ ܘܕܚ̇ܠ ܠܐܠܗܐ ܡ̇ܠܟܐ ܕܝܠܢ ܬܐܘܕܘܣܝܘܣ ܘܠܘܬ
+                  [ܕܠܘܬ] ܝܘܒܢܠܝܘܣ ܐܦܣܩܘܦܐ ܕܐܪܫܠܡ</rubric>
+              </msItem>
+              <msItem xml:id="b18" n="36">
+                <locus from="107a"/>
+                <title xml:lang="en">Part of a letter of <persName ref="http://syriaca.org/person/2432">Dioscorus of
+                  <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>
+                  </persName> to the various bishops, carrying
+                  out the instructions contained in no. 16</title>
+                <quote xml:lang="syr">The following is the formula to be signed by the bishops and
+                  clergy: ܏ܦܚܡܐ ܏ܕܐܪܡܝ ܏ܐܝܕܐ܀ ܦܠܢ ܐܦܣܩܘܦܐ ܕܦܠܢܝܬ ܡܕܝܢܬܐ ܐܪܡܝܬ ܐܝܕܐ ܒܐܝܠܝܢ ܕܟܬܝܒܢ ܡܢ
+                  ܠܥܠ ܒܢܡܘܣܐ ܗܢܐ̣. ܘܡܩܝܡ ܐܢܐ ܥܠ ܟܘܠܗܝܢ̣ ܘܫ̇ܠܡ ܐܢܐ ܕܟܠܡܕܡ ܐܛܪ ܕܟܬܝܒ ܒܗܕܐ ܐܓܪܬܐ̣. ܟܕܠܐ
+                  ܡܘܣܦ ܐܢܐ ܡܕܡ ܐܘ ܡܒܨܪ ܐܢܐ ܡܢ ܐܝܠܝܢ ܕܣܝܡܢ ܒܗ̇܀ <locus/>
+                </quote>
+                <finalRubric xml:lang="syr">ܫܠܡܬ ܣܘܢܗܕܘܣ ܕܬܪ̈ܬܝܢ ܕܐܬܟܢܫܬ ܒܐܦܣܘܣ ܒܝܘ̈ܡܝ ܩܕܝܫܐ ܘܪܚ̇ܡ
+                  ܐܠܗܐ ܕܝܘܣܩܘܪܘܣ ܐܦܣܩܦܐ ܕܐܠܟܣܢܕܪܝܐ̇. ܘܒܝ̈ܘܡܝ ܡ̈ܠܟܐ ܙܟ̈ܝܐ ܬܐܕܘܣܝܣ ܘܘܠܢܛܝܢܝܢܘܣ܀ ܫܘܒܚܐ
+                  ܠܐܒܐ ܘܠܒܪܐ ܘܠܪܘܚܐ ܕܩܘܕܫܐ ܚܕ ܐܪܙܐ ܡܫܡܠܝܐ ܕܬܠܝܬܝܘܬܐ ܡܫܒܚܬܐ̣. ܠܥܠܡܝܢ ܐܡܝܢ܀<locus from="108a"/>
+                </finalRubric>
+              </msItem>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="perg">
+                <extent>
+                  <measure unit="content_pending" quantity="-1"/>
+                </extent>
+                <foliation/>
+                <collation/>
+                <condition>
+                  <list>
+                    <item>
+                      <p>Vellum, about 8 7/8 in. by 5 5/8, consisting of 108 leaves, some of which,
+                        particularly at the end, are much stained and slightly torn. The quires,
+                        signed with letters, were originally 12 or 13 in number, but the last two or
+                        three, from fol. 94 (ܝܐ) onwards, are imperfect, leaves being missing after
+                        foil. 96, 98, 101, 105, and 106. There are from 27 to 34 lines in each page.
+                        This volume is written in a fine, regular hand, and dated A. Gr. 846, A.D.
+                        535. </p>
+                    </item>
+                  </list>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <p>Content pending</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
+                <desc/>
+              </handNote>
+            </handDesc>
+            <additions>
+              <list>
+                <item xml:id="addition1" n="1">
+                  <locus from="108a" to="108b"/>
+                  <p>On fol. 108 a and b is a long note, written in a small cursive character, in
+                    parts almost illegible, stating that this book was transcribed in the year 846,
+                    A.D. 535, in the convent of Eusebius in the village called ܟܦܪܐ ܕܒܪܬܐ, for
+                      <persName>the priest John</persName>, abbat of the said convent, by a monk of
+                    the convent, also named <persName>John</persName>
+                  </p>
+                  <p>
+                    <quote xml:lang="syr">ܐܫܬܠܡ ܟܬܒܐ ܗܢܐ ܒܫܢܬ ܬܡܢܡܐܐ ܘܐܪܒܥܝܢ ܘܫ̈ܬ ܒܡܢܝܢܐ ܕܐܠܟܣܢܕܪܘܣ
+                      ܒܝܪܚ ܐܝܪ ܒܥܣܪܬܐ ܒܗ ܒܕܝܪܐ ܩܕܝܫܬܐ ܕܛܘܒܢܐ ܡܪܝ ܐܘܣܒ ܕܟܦܪܐ ܕܒܪܬܐ. ܒܝܘ̈ܡܝ ܡܝܬܪܐ
+                      ܘܪܚ̇ܡ ܐܠܗܐ ܪܥܝܐ ܥܝܪܐ ܘܩܘܒܪܢܛܐ ܚܟܝܡܐ ܡܚܒܢܐ ܕܐܟ̈ܣܢܝܐ ܘܫܘܪܐ ܚܣܝܢܐ ܕܐܕܡܘܣ ܕܥܒܝܕ
+                      ܠܡܪܥܝܬܗ ܕܠܐ ܢܥܘܠ ܚܕ ܡܢ ܕܐܒ̈ܐ ܣܪ̈ܘܚܐ ܘܢܟܐ ܠܚܕ ܡܢ ܐܡܪ̈ܐ ܒܪ̈ܝܪܐ ܕܒܓܘ ܛܝܪܗ ܡܫܝܢܐ
+                      ܟܢܝܫܝܢ. ܡܪܝ ܩܫܝܫܐ ܘܪܫܕܝܪܐ ܝܘܚܢܢ ܕܝܠܗ̇ ܕܕܝܪܐ. ܕܐܠܗܐ ܗ̇ܘ ܕܡܛܠ ܫܡܗ ܐܬܚܦܛ ܘܩܢ̣ܐ
+                      ܟܬܒܐ ܗܢܐ ܠܥܘܡܪܗ ܩܕܝܫܐ̣. ܏ܘܫ. ܐܬܟܬܒ ܕܝܢ ܟܬܒܐ ܗܢܐ ܒܝܘ̈ܝ ܪ̈ܚܡܝ ܐܠܗܐ ܠܡܦ̈ܝܕܐ
+                      [ܕܥܕܬܐ] ܠܡ̈ܐܢܐ ܕܢܝܚܐ ܚܣ̈ܝܐ ܘܩ̈ܕܝܫܐ ܪ̈ܚܡܝ ܐܟ̈ܣܢܝܐ ܘܚ̈ܦܝܛܐ ܒܕܘܒܪ̈ܝܗܘܢ ܘܛܢ̈ܢܐ
+                      ܒܗܝܡܢܘܬܐ ܬܪܝܨܬܐ ܏ܘܫ. ܡܪܝ ܩܫܝܫܐ ܐܒܪܗܡ ܘܦܪܢܣܐ ܕܝܠܗ̇ ܕܕܝܪܐ ܕܡܢ ܟܦܪܛܘܒ̈ـ[ܐ.] ܕܐܠܗܐ
+                      ܗ̇ܘ ܕܡܛܠ ܫܡܗ ܠܐ̇ܝܢ ܘܥܡ̇ܠܝܢ ܒܥܘܡܪܗ ܩܕܝܫـ[ܐ] ܚܠܦ ܐ̈ܚܐ ܪ̈ܚܝܡܐ ܕܥܡܗܘܢ ܥܡܪܝܢ. ܗ̣ܘ
+                      ܘܡܪܝ ܩܫܝܫܐ ܐܒܪܗܡ ܘܡܪܝ ܐܘܣܒ ܬܠܡܝܕܗ ܕܡܢ ܬܪ ܩܪܝܬܐ ܕܐ . . . ܐܦ ܗ̣ܘ ܒܝܬ ܓܙܐ ܕܟܬܒ̈ܐ
+                      ܕܝܠܗ̇ ܕܕܝܪܐ̣. ܒܗ̇ܘ ܝܘܡܐ ܡܐ ܕܡܬܦܪܫܝܢ ܛܒ̈ܐ ܡܢ ܒܝ̈ܫܐ. ܓܕܝ̈ܐ ܡܢ ܐܡܪ̈ܐ. ܏ܘܫ. ܢܫܘܐ
+                      ܐܢܘܢ ܠܓܢܘܢܗ ܕܠܐ ܦܛ̇ܪ. ܏ܘܫ. ܐܢܐ ܚܛܝܐ ܘܕܘܝܐ ܘܒܨܝܪܐ ܝܘܚܢܢ ܕܡܢ ܟܘܪܐ ܕܐܢܛܝ̈ܘܟܝܐ
+                      ܕܥܡ̇ܪ ܒܝܬ ܡܪܝ ܐܘܣܒ ܕܟܦܪܐ ܕܒܪܬܐ ܟܬܒܬ ܟܬܒܐ ܗܢܐ. ܐܠܐ ܟܠ ܡ̇ܢ ܕܩܪܐ ܒܗ ܘܝ̇ܠܦ ܚܝܠܐ
+                      ܕܗܝܡܢܘܬܐ ܬܪܝܨܬ݀ ܫܘܒܚܐ ܢܨܠܐ ܥܠ ܡܣܟܢܐ ܕܟܬܒ̣. ܏ܘܫ.</quote>
+                  </p>
+                </item>
+                <item xml:id="addition2" n="2">
+                  <locus from="1b"/>
+                  <p>From the note on the margin of fol. 1 b, it would appear that a commentary on
+                    one of the Gospels was once hound with this manuscript.</p>
+                  <p>
+                    <quote xml:lang="syr">ܦܘܫܩܐ ܕܐܘܢܓܠܝܘܢ . . .</quote>
+                  </p>
+                </item>
+              </list>
+            </additions>
+            <bindingDesc>
+              <p>Content pending</p>
+            </bindingDesc>
+            <sealDesc>
+              <p>Content pending</p>
+            </sealDesc>
+            <accMat/>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="0535">dated A. Gr. 846, A.D. 535. </origDate>
+              <origDate datingMethod="Seleucid" when-custom="0846">dated A. Gr. 846, A.D.
+                535.</origDate>
+              <origPlace/>
+            </origin>
+            <provenance/>
+            <acquisition/>
+          </history>
+          <additional>
+            <adminInfo>
+                    <recordHist>
+                        <source>Manuscript description based on <bibl>
+                            <ref target="#Wright">Wright's
+                            Catalogue</ref>
+                        </bibl>, abbreviated by the Syriaca.org editors.</source>
+                    </recordHist>
+                    <note/>
+                </adminInfo>
+            <listBibl>
+              <bibl xml:id="Wright">
+                <author>William Wright</author>
+                <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired
+                        since the Year 1838</title>
+                <pubPlace>London</pubPlace>
+                <date>1870</date>
+                <ptr target="http://syriaca.org/bibl/8"/>
+                <citedRange unit="entry">DCCCCV</citedRange>
+                <citedRange unit="pp">2:1027-1030</citedRange>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <interpretation>
+                <p>Description is based on Wright's Catalogue without consultation of physical
+                    manuscripts. Foliation is approximate. Wright often does not indicate ending folia so
+                    those have been assumed based on beginning folia.</p>
+                <p>Scribal notes which could not be more clearly classified based on Wright's descriptions
+                    have been identified as &lt;addition&gt;s whether they occur in the margins or the body
+                    of the manuscript.</p>
+                <p>In general, we have classified as an &lt;msItem&gt; as much of the manuscript contents
+                    as possible, including tables of contents and indices.</p>
+            </interpretation>
+        </editorialDecl>
+        <classDecl>
+            <taxonomy xml:id="Wright-BL-Taxonomy">
+                <bibl>
+                    <ref target="#Wright"/>
+                    <ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy.html"/>
+                </bibl>
+                <category xml:id="biblical-manuscripts">
+                    <category xml:id="bible-ot">
+                        <catDesc>Old Testament</catDesc>
+                    </category>
+                    <category xml:id="bible-nt">
+                        <catDesc>New Testament</catDesc>
+                    </category>
+                    <category xml:id="bible-apocrypha">
+                        <catDesc>Apocrypha</catDesc>
+                    </category>
+                    <category xml:id="bible-punctuation">
+                        <catDesc>Punctuation</catDesc>
+                    </category>
+                </category>
+                <category xml:id="service-books">
+                    <category xml:id="psalter">
+                        <catDesc>Psalters</catDesc>
+                    </category>
+                    <category xml:id="lectionaries">
+                        <catDesc>Lectionaries</catDesc>
+                    </category>
+                    <category xml:id="missals">
+                        <catDesc>Missals</catDesc>
+                    </category>
+                    <category xml:id="sacerdotals">
+                        <catDesc>Sacerdotals</catDesc>
+                    </category>
+                    <category xml:id="choral">
+                        <catDesc>Choral Books</catDesc>
+                    </category>
+                    <category xml:id="hymns">
+                        <catDesc>Hymns</catDesc>
+                    </category>
+                    <category xml:id="prayers">
+                        <catDesc>Prayers</catDesc>
+                    </category>
+                    <category xml:id="funerals">
+                        <catDesc>Funeral Services</catDesc>
+                    </category>
+                </category>
+                <category xml:id="theology">
+                    <category xml:id="theo-single">
+                        <catDesc>Individual Authors</catDesc>
+                    </category>
+                    <category xml:id="theo-collected">
+                        <catDesc>Collected Authors</catDesc>
+                    </category>
+                    <category xml:id="theo-catenae">
+                        <catDesc>Catenae Patrum and Demonstrations against Heresies</catDesc>
+                    </category>
+                    <category xml:id="theo-anonymous">
+                        <catDesc>Anonymous Works</catDesc>
+                    </category>
+                    <category xml:id="theo-council">
+                        <catDesc>Councils of the Church and Ecclesioastical Canons</catDesc>
+                    </category>
+                </category>
+                <category xml:id="wright-history">
+                    <category xml:id="history">
+                        <catDesc>History</catDesc>
+                    </category>
+                </category>
+                <category xml:id="lives">
+                    <category xml:id="lives-collect">
+                        <catDesc>Collected Lives</catDesc>
+                    </category>
+                    <category xml:id="lives-single">
+                        <catDesc>Single Lives</catDesc>
+                    </category>
+                </category>
+                <category xml:id="scientific-lit">
+                    <category xml:id="sci-logic">
+                        <catDesc>Logic and Rhetoric</catDesc>
+                    </category>
+                    <category xml:id="sci-grammar">
+                        <catDesc>Grammar and Lexicography</catDesc>
+                    </category>
+                    <category xml:id="sci-ethics">
+                        <catDesc>Ethics</catDesc>
+                    </category>
+                    <category xml:id="sci-medicine">
+                        <catDesc>Medicine</catDesc>
+                    </category>
+                    <category xml:id="sci-agriculture">
+                        <catDesc>Agriculture</catDesc>
+                    </category>
+                    <category xml:id="sci-chemistry">
+                        <catDesc>Chemistry</catDesc>
+                    </category>
+                    <category xml:id="sci-natural-history">
+                        <catDesc>Natural History</catDesc>
+                    </category>
+                </category>
+                <category xml:id="wright-fly-leaves">
+                    <category xml:id="fly-leaves">
+                        <catDesc>Fly Leaves</catDesc>
+                    </category>
+                </category>
+                <category xml:id="appendices">
+                    <category xml:id="appendix-a">
+                        <catDesc>Appendix A</catDesc>
+                    </category>
+                    <category xml:id="appendix-b">
+                        <catDesc>Appendix B</catDesc>
+                    </category>
+                </category>
+            </taxonomy>
+        </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+            <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            <language ident="syr-Syre">Syriac in Estrangela</language>
+            <language ident="syr-Syrj">Vocalized West Syriac</language>
+            <language ident="syr-Syrn">Vocalized East Syriac</language>
+            <language ident="syr-x-syrm">Melkite Syriac</language>
+            <language ident="syr-x-syrp">Palestinian Syriac</language>
+            <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
+            <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
+            <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="cop">Coptic</language>
+        </langUsage>
+      <textClass>
+        <keywords scheme="#Wright-BL-Taxonomy">
+          <list>
+            <item>
+              <ref target="#theo-council"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-28">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <formula>Content pending</formula>
+  </facsimile>
+  <text>
+    <body>
+      <bibl>Content pending</bibl>
+    </body>
+  </text>
+</TEI>
