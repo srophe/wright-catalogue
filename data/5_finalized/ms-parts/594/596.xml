@@ -1,21 +1,22 @@
-<?oxygen RNGSchema="enrich-syriaca.rnc" type="compact"?>
-<?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
-<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="en">BL Add MS 14717</title>
+        <title level="a" xml:lang="en">BL Add MS 14717, foll. 59-102</title>
+        <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
         <funder>The Andrew W. Mellon Foundation</funder>
         <principal>David A. Michelson</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A.
-          Michelson</editor>
+        <editor role="general-editor" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#wwright">William Wright</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A.
-          Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#jdeboer">Jacob A. DeBoer</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="creator" ref="http://syriaca.org/editors.xml#jpagan">Jessica Pagan</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#jdeboer">Jacob A. DeBoer</name>
@@ -27,6 +28,10 @@
         <respStmt>
           <resp>Edited by</resp>
           <name type="person" ref="http://syriaca.org/editors.xml#jpagan">Jessica Pagan</name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited also by</resp>
+          <name type="person" ref="http://syriaca.org/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -48,18 +53,17 @@
       </titleStmt>
       <editionStmt>
         <edition n="1.0"/>
-      </editionStmt>
+    </editionStmt>
       <publicationStmt>
-        <pubPlace/>
-        <authority>Syriaca.org: The Syriac Reference Portal </authority>
-        <idno type="URI">http://syriaca.org/manuscript/596/source</idno>
+        <authority>Syriaca.org: The Syriac Reference Portal</authority>
+        <idno type="URI">http://syriaca.org/manuscript/596/tei</idno>
         <availability>
-          <p/>
-          <licence target="http://creativecommons.org/licenses/by/3.0/">
-            <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
-          </licence>
+            <p/>
+            <licence target="http://creativecommons.org/licenses/by/3.0/">
+                <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
+            </licence>
         </availability>
-        <date calendar="Gregorian"><!-- Our date of publication of this XML document--></date>
+        <date calendar="Gregorian">2015-12-01</date>
       </publicationStmt>
       <sourceDesc>
         <msDesc xml:id="manuscript-596" xml:lang="en">
@@ -70,7 +74,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/596</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14717</idno>
+              <idno type="BL-Shelfmark">Add MS 14717, foll. 59-102</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum
@@ -84,50 +88,39 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
-            <!--Note: Do not manually enter summary. We will automatically generate this from the @class later-->
-            <textLang mainLang="syr">Syriac</textLang>
+            <textLang mainLang="syr"/>
             <msItem n="1" xml:id="a1" defective="true">
               <locus from="59a" to="98a">Foll. 59a-98a</locus>
-              <author ref=""/>
               <title ref="" type="supplied">Services for the Commemoration of
                   <persName>Bar-saumā</persName></title>
-              <colophon>
-                <ref target="#addition1">See below.</ref>
-              </colophon>
               <msItem n="2" xml:id="b1" defective="true">
                 <locus from="59a" to="65">Foll. 59a-65</locus>
-                <author/>
-                <title ref="" type="supplied"/>
+                <title type="supplied">Part a</title>
                 <rubric xml:lang="syr">ܕܪܡܫܐ<locus from="59a" to="59a"/>
                 </rubric>
               </msItem>
               <msItem n="3" xml:id="b2">
                 <locus from="65b" to="80">Foll. 65b-80</locus>
-                <author/>
-                <title ref="" type="supplied"/>
+                <title type="supplied">Part b</title>
                 <rubric xml:lang="syr">ܕܠܠܝܐ<locus from="65b" to="65b"/>
                 </rubric>
               </msItem>
               <msItem n="4" xml:id="b3" defective="true">
                 <locus from="80a" to="97">Foll. 80a-97</locus>
-                <author/>
-                <title ref="" type="supplied"/>
+                <title type="supplied">Part c</title>
                 <rubric xml:lang="syr">ܕܨܦܪܐ<locus from="80a" to="80a"/>
                 </rubric>
               </msItem>
               <msItem n="5" xml:id="b4" defective="true">
                 <locus from="97a" to="98">Foll. 97a-98</locus>
-                <author/>
-                <title ref="" type="supplied"/>
+                <title type="supplied">Part d</title>
                 <rubric xml:lang="syr">ܕܬܠܬ ܫ̈ܥܝܢ<locus from="97a" to="97a"/>
                 </rubric>
               </msItem>
-              <msItem n="5" xml:id="a2" defective="true">
+              <msItem n="6" xml:id="a2" defective="true">
                 <locus from="98b" to="102">Foll. 98b-102</locus>
-                <author/>
-                <title ref="" type="supplied">Services for the Commemoration of the
-                    <persName>archangel Michael</persName></title>
+                <title type="supplied">Services for the Commemoration of the
+                    archangel <persName>Michael</persName></title>
                 <rubric xml:lang="syr">[ܛܟܣܐ ܕ]ܥܠ ܡܠܐܟܐ ܢ̣ܨܝܚܐ ܡܪܝ ܡܝܟܐܝܠ <locus from="98b" to="98b"
                   />
                 </rubric>
@@ -136,43 +129,24 @@
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="chart">
-                <support>
-                  <material>Paper</material>
-                </support>
-                <extent>
-                  <measure type="composition" unit="leaf" quantity="44">44 ff.</measure>
-                  <dimensions type="leaf" unit="in">
-                    <height>
-                      <measure type="height" quantity="9" unit="in">9</measure>
-                    </height>
-                    <width>
-                      <measure type="width" quantity="6" unit="in">6</measure>
-                    </width>
-                  </dimensions>
-                </extent>
-                <foliation type="ancient"/>
-                <collation>
-                  <p>The quires, signed with letters, are four in number.</p>
-                </collation>
-                <condition>
-                  <list>
-                    <item>
-                      <p>Some of the leaves are much stained and torn, especially <locus from="59"
-                          to="59">foll. 59</locus> and <locus from="96" to="102">96—102</locus>.</p>
-                    </item>
-                    <item>
-                      <p>The first of the quires are imperfect at the beginning.</p>
-                    </item>
-                  </list>
-                </condition>
-              </supportDesc>
-              <layoutDesc>
-                <layout columns="1" writtenLines="17 21">
-                  <p>There are from 17 to 21 lines in each page.</p>
-                </layout>
-              </layoutDesc>
-            </objectDesc>
+                            <supportDesc material="chart">
+                                <extent>
+                                    <measure unit="content_pending" quantity="-1"/>
+                                </extent>
+                                <foliation/>
+                                <collation/>
+                                <condition>
+                                    <list>
+                                        <item>
+                                            <p>Paper, about 9 in. by 6, consisting of 44 leaves (Add. 14,717, foll. 59—102), some of which are much stained and torn, especially foll. 59 and 96—102. The quires, signed with letters, are four in number, the first being imperfect at the beginning. There are from 17 to 21 lines in each page.</p>
+                                        </item>
+                                    </list>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <p>Content pending</p>
+                            </layoutDesc>
+                </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
                 <desc>This manuscript is written in a good, regular hand of the <origDate
@@ -198,7 +172,6 @@
                       ܘܨܡܝܕܬ . . . ܩܕܝܫܐ. ܒܒܥܘ ܨ̇ܠܘ ܏ܘܫ</quote>
                   </p>
                 </item>
-                <!-- See manual for how to link the person and/or the handnote to the addition, when possible do both or at least handnote if no person is mentioned-->
               </list>
             </additions>
             <bindingDesc/>
@@ -337,19 +310,17 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
+       <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-24">Edits to file from older template</change>
+       <change who="http://syriaca.org/documentation/editors.xml#jpagan" when="2020-06-03">Edits to file</change>
       <change when="2015-12-01" who="http://syriaca.org/editors.xml#jdeboer">Created: file</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
-    <!-- facsimile information about the manuscript -->
-    <graphic/>
-    <!-- Alternatively you could provide 'surface' elements with more than one image per surface, and optionally with 'zone' 
-      elements to give coordinates for any special areas of interest -->
-  </facsimile>
+        <formula>Content pending</formula>
+    </facsimile>
   <text>
-    <body>
-      <!-- If you had a transcription of the manuscript you would put it here -->
-      <p/>
-    </body>
-  </text>
+        <body>
+            <bibl>Content pending</bibl>
+        </body>
+    </text>
 </TEI>

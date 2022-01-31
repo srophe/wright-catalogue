@@ -92,12 +92,11 @@
                                     p. 335</bibl>)</title>
               <msItem xml:id="b1" n="2" defective="true">
                 <locus from="1" to="2"/>
-                <author ref="http://syriaca.org/person/99"><persName xml:lang="en" type="supplied" ref="http://syriaca.org/person/99">Severus Sabocht, bishop
-                                    of Kinnesrin</persName></author>
+                <author role="#disputed">Severus Sabocht, bishop of Kinnesrin</author>
                 <title xml:lang="en">Fragments of a commentary on the <title xml:lang="grc">Περὶ ἑρμηνείας</title> of
                                         <persName ref="	http://syriaca.org/person/342">Aristotle</persName>
                 </title>
-                <note>This may, however, be the work of some other author.</note>
+                <note type="incerta">This may, however, be the work of some other author.</note>
                 </msItem>
               <msItem xml:id="b2" n="3" defective="true">
                 <locus from="3a" to="5b"/>
@@ -387,6 +386,7 @@
       </textClass>
     </profileDesc>
         <revisionDesc status="draft">
+        <change when="2022-01-25" who="http://syriaca.org/documentation/editors.xml#jarnwine">Added pseudonymity to msItem b1</change>
         <change when="2021-12-15" who="http://syriaca.org/documentation/editors.xml#jarnwine">General edits to msContents and physDesc; added decoDesc</change>
             <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-16-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-05-12" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>

@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -83,8 +84,8 @@
             <msItem xml:id="a1" n="1">
               <locus from="49a"/>
               <author ref="https://syriaca.org/person/42">Jacob of Batnae</author>
-              <title xml:lang="en">A discourse of Jacob of Batnae on the Raising of
-                Lazarus</title>
+              <title xml:lang="en">A discourse of <persName ref="https://syriaca.org/person/42">Jacob of Batnae</persName> on the Raising of
+                <persName>Lazarus</persName></title>
               <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܠܥܙܪ ܟܕ ܢܚܡܗ ܡܪܢ. ܕܣܝܡ ܠܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ
                 ܕܥܕܬܐ</rubric>
               <note>See <bibl>Assemani, Bibl. Or., t. i., p. 322, no. 134</bibl>.</note>
@@ -92,21 +93,20 @@
             <msItem xml:id="a2" n="2">
               <locus from="56a"/>
               <author ref="https://syriaca.org/person/42">Jacob of Batnae</author>
-              <title xml:lang="en">A sūgīthā of Jacob on the city of
-                  <placeName>Edessa</placeName>
+              <title xml:lang="en">A sūgīthā of <persName ref="https://syriaca.org/person/42">Jacob</persName> on the city of
+                  <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
               </title>
               <rubric xml:lang="syr">ܣܘܓܝܬܐ ܕܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ̣. ܥܠ ܐܘܪܗܝ ܟܕ ܫܠܚܬ ܠܡܪܢ ܕܢܐܬܐ
                 ܠܗ̇.</rubric>
-              <note>See <bibl>Cureton's Ancient Syriac Documents, pp. ܩܙ and 106.</bibl>
+              <note>See <bibl>Cureton's Ancient Syriac Documents, pp. <foreign xml:lang="syr">ܩܙ</foreign> and 106.</bibl>
               </note>
             </msItem>
             <msItem xml:id="a3" n="3" defective="true">
               <locus from="56b"/>
               <author ref="https://syriaca.org/person/42">Jacob of Batnae</author>
-              <title xml:lang="en">An extract from a discourse of Jacob</title>
+              <title xml:lang="en">An extract from a discourse of <persName ref="https://syriaca.org/person/42">Jacob</persName>, without title</title>
               <incipit xml:lang="syr">ܐܬܦܫܩܬ ܠܢ ܩܘܩܬܐ ܚܕܬܐ ܗ̇ܝ ܕܐܠܝܫܥ. ܕܐܝܬܝܗ̇ ܛܠܝܬܐ ܒܬܘܠܬܐ ܒܪܙܐ
                 ܕܡܬܩܢ ܐܪܥܐ</incipit>
-              <note>[No title]</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -120,8 +120,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Eight vellum leaves, 9 3/4 in. by 6 1/2, written in a good, regular hand of
-                        about the viiith cent. (Add. 17,158, foll. 49—56). Each page is divided into
+                      <p>Eight vellum leaves (Add. 17,158, foll. 49—56), 9 3/4 in. by 6 1/2, each page divided into
                         two columns, of from 25 to 27 lines.</p>
                     </item>
                   </list>
@@ -133,7 +132,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>These leaves are written in a good, regular hand of about the <origDate notBefore="0700" notAfter="0800">viiith cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions>
@@ -160,7 +159,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate from="0700" to="0800">VIIIth
+              <origDate notBefore="0700" notAfter="0800">VIIIth
                 Century</origDate>
               <origPlace/>
             </origin>
@@ -351,6 +350,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change when="2022-01-26" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-10-26-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-10-26">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>

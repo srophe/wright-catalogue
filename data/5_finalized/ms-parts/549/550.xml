@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,70 +83,83 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
+              <locus from="1a" to="2">Foll. 1a-2</locus>
+              <title xml:lang="en" type="supplied">A lesson (<title ref="https://syriaca.org/work/9595" xml:lang="en" type="supplied">1 Corinth., xi. 23 — 32</title>)</title>
+            </msItem>
+            <msItem xml:id="a2" n="2">
+              <locus from="1a" to="2">Foll. 1a-2</locus>
+              <title xml:lang="en" type="supplied">Several prayers (<foreign xml:lang="syr">ܨ̈ܠܘܬܐ ܕܒܘܪܟܬܐ</foreign>)</title>
+            </msItem>
+            <msItem xml:id="a3" n="3">
+              <locus from="1a" to="2">Foll. 1a-2</locus>
+              <title xml:lang="en" type="supplied">Instructions to the priest for celebrating the holy Eucharist</title>
+            </msItem>
+            <msItem xml:id="a4" n="4">
+              <locus from="2b" to="108">Foll. 2b-108</locus>
               <title xml:lang="en">A collection of Anaphoras</title>
-              <msItem xml:id="b1" n="2">
-                <locus from="2b"/>
+              <msItem xml:id="b1" n="5">
+                <locus from="2b" to="24">Foll. 2b-24</locus>
                 <author ref="http://syriaca.org/person/113">Jacob of Edessa</author>
                 <author ref="http://syriaca.org/person/1798">S. James, the brother of our
                   Lord</author>
-                <title xml:lang="en">Of S. James, the brother of our Lord, as revised by
-                  Jacob of Edessa</title>
+                <title xml:lang="en">Of <persName ref="http://syriaca.org/person/1798">S. James</persName>, the brother of our Lord, as revised by
+                  <persName ref="http://syriaca.org/person/113">Jacob of Edessa</persName></title>
                 <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܕܩܕܝܫܐ. ܡܪܝ ܝܥܩܘܒ. ܐܚܘܗܝ ܕܡܪܢ܆ ܐܝܟ ܬܘܪܨܐ܇ ܚܲܬܝܬܐ
                   ܘܚ̇ܕܬܐ ܕܝܥܩܘܒ ܐܘܪܗܝܐ </rubric>
               </msItem>
-              <msItem xml:id="b2" n="3">
-                <locus from="24b"/>
+              <msItem xml:id="b2" n="6">
+                <locus from="24b" to="43">Foll. 24b-43</locus>
                 <author ref="http://syriaca.org/person/573">John Chrysostom</author>
-                <title xml:lang="en">Of John Chrysostom</title>
+                <title xml:lang="en">Of <persName ref="http://syriaca.org/person/573">John Chrysostom</persName></title>
                 <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܕܩܕܝܫܐ ܡܪܝ ܐܝܘܐܢܢܝܣ ܦܘܡܐ ܕܕܗܒܐ </rubric>
               </msItem>
-              <msItem xml:id="b3" n="4">
-                <locus from="43a"/>
+              <msItem xml:id="b3" n="7">
+                <locus from="43a" to="55">Foll. 43a-55</locus>
                 <author ref="http://syriaca.org/person/430">Cyril of Alexandria</author>
-                <title xml:lang="en">Of Cyril of Alexandria</title>
+                <title xml:lang="en">Of <persName ref="http://syriaca.org/person/430">Cyril of Alexandria</persName></title>
                 <rubric xml:lang="syr">ܐܢܦܘܪܐ ܕܩܕܝܫܐ ܩܘܪܝܠܠܘܣ ܐܦܝ܏ܣܩ ܕܐܠܟܣܢܕܪܝܐ </rubric>
               </msItem>
-              <msItem xml:id="b4" n="5">
-                <locus from="55b"/>
+              <msItem xml:id="b4" n="8">
+                <locus from="55b" to="74">Foll. 55b-74</locus>
                 <author ref="http://syriaca.org/person/511">Gregory Nazianzen</author>
-                <title xml:lang="en">Of Gregory Nazianzen</title>
+                <title xml:lang="en">Of <persName ref="http://syriaca.org/person/511">Gregory Nazianzen</persName></title>
                 <rubric xml:lang="syr">ܐܢܦܘܪܐ ܕܩܕܝܫܐ ܡܪܝ ܓܪܝܓܘܪܝܘܣ ܬܐܘܠܘܓܘܣ ܐܦܝ܏ܣܩ ܕܐܢܙܝܢܙܘ </rubric>
               </msItem>
-              <msItem xml:id="b5" n="6">
-                <locus from="74a"/>
+              <msItem xml:id="b5" n="9">
+                <locus from="74a" to="85">Foll. 74a-85</locus>
                 <author ref="http://syriaca.org/person/113">Jacob of Edessa</author>
-                <title xml:lang="en">Of Jacob of Edessa</title>
+                <title xml:lang="en">Of <persName ref="http://syriaca.org/person/113">Jacob of Edessa</persName></title>
                 <rubric xml:lang="syr">ܐܢܦܘܪܐ ܕ܏ܩܕ ܡܪܝ ܝܥܩܘܒ ܐܘܪܗܝܐ </rubric>
                 <note>See <bibl>Renaudot, Liturg. Orient., t. ii., p. 371</bibl>
                 </note>
               </msItem>
-              <msItem xml:id="b6" n="7">
-                <locus from="85a"/>
-                <author>Ignatius</author>
-                <title xml:lang="en">Of Ignatius</title>
+              <msItem xml:id="b6" n="10">
+                <locus from="85a" to="100">Foll. 85-100</locus>
+                <author ref="http://syriaca.org/person/544">Ignatius</author>
+                <title xml:lang="en">Of <persName ref="http://syriaca.org/person/544">Ignatius</persName></title>
                 <rubric xml:lang="syr">ܐܢܦܘܪܐ ܕ܏ܩܕ ܐܝܓܢܐܛܝ̣ܘܣ ܢܘܪܢܐ </rubric>
               </msItem>
-              <msItem xml:id="b7" n="8">
-                <locus from="100a"/>
+              <msItem xml:id="b7" n="11">
+                <locus from="100a" to="104">Foll. 100a-104</locus>
                 <author ref="http://syriaca.org/person/22">Xystus, bishop of Rome</author>
-                <title xml:lang="en">Of Xystus, bishop of Rome</title>
-                <rubric xml:lang="syr">ܐܢܦܘܪܐ ܕܩܕܝܫܐ ܟܣܘܣܛܘܣ ܦܛܪܝܪܟܐ ܕܪܡܝ̣ </rubric>
+                <title xml:lang="en">Of <persName ref="http://syriaca.org/person/22">Xystus, bishop of Rome</persName></title>
+                <rubric xml:lang="syr">ܐܢܦܘܪܐ ܕܩܕܝܫܐ ܟܣܘܣܛܘܣ ܦܛܪܝܪܟܐ ܕܪܡܝ̣ <foreign xml:lang="en">(sic)</foreign></rubric>
               </msItem>
-              <msItem xml:id="b8" n="9">
-                <locus from="104a"/>
+              <msItem xml:id="b8" n="12">
+                <locus from="104a" to="108">Foll. 104a-108</locus>
                 <author ref="http://syriaca.org/person/212">Dionysius bar Salībī</author>
-                <title xml:lang="en">Of Dionysius bar Salībī</title>
+                <title xml:lang="en">Of <persName ref="http://syriaca.org/person/212">Dionysius bar Salībī</persName></title>
                 <rubric xml:lang="syr">ܐܢܦܘܪܐ ܕ܏ܩܕ ܕܝܘܢܢܣܝ̣ܘܣ ܒܪ ܨܠܝ̣ܒܝ </rubric>
                 <note>See <bibl>Renaudot, p. 449</bibl>
                 </note>
               </msItem>
-              <msItem xml:id="b9" n="10" defective="true">
-                <locus from="108a"/>
-                <title xml:lang="en">Of Eustathius</title>
+              <msItem xml:id="b9" n="13" defective="true">
+                <locus from="108a" to="108a">Fol. 108a</locus>
+                <author ref="https://syriaca.org/person/1725">Eustathius</author>
+                <title xml:lang="en">Of <persName ref="https://syriaca.org/person/1725">Eustathius</persName></title>
                 <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܕ܏ܩܕ ܡܪܝ ܐܘܣܛܬܐܘܣ </rubric>
-                <note>To those a later hand has added</note>
-                <note>See <bibl>Renaudot, p. 235</bibl>
-                </note>
+                <note>See <bibl>Renaudot, p. 235</bibl></note>
+                <note>A later hand has added this anaphora.</note>
               </msItem>
             </msItem>
           </msContents>
@@ -163,7 +177,7 @@
                       <p>Paper, about 10 1/4 in. by 6 7/8, consisting of 109 leaves, many of which
                         are much stained and torn, especially foll. 1—8 and 107—109. The quires,
                         signed with letters, are 11 in number. There are from 14 to 21 lines in each
-                        page. The writing is good and regular. This manuscript is dated A. Gr. 1541,
+                        page. This manuscript is dated A. Gr. 1541,
                         A.D. 1230</p>
                     </item>
                   </list>
@@ -173,35 +187,26 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="6">
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr">
+                <desc>The writing is good and regular.</desc>
+              </handNote>
+              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
+                <desc>Foll. 1 and 2 a were written by a different hand from the rest of the volume.</desc>
+              </handNote>
+              <handNote xml:id="handNote3" medium="unknown" scope="minor" script="syr">
+                <desc>A later hand has added the anaphora of Eustathius.</desc>
+              </handNote>
+              <handNote xml:id="handNote4" medium="unknown" scope="minor" script="syr">
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
             <additions>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="1" to="2a"/>
-                  <p>Foll. 1 and 2 a contain a lesson (1 Corinth, xi. 23 — 32), written by a
-                    different hand from the rest of the volume.</p>
-                </item>
-                <item xml:id="addition2" n="2">
-                  <locus from="1" to="2a"/>
-                  <p>Foll. 1 and 2 a contain several prayers, written by a different hand from the
-                    rest of the volume.</p>
-                  <p>
-                    <quote xml:lang="syr">ܨ̈ܠܘܬܐ ܕܒܘܪܟܬܐ</quote>
-                  </p>
-                </item>
-                <item xml:id="addition3" n="3">
-                  <locus from="1" to="2a"/>
-                  <p>Foll. 1 and 2 a contain instructions to the priest for celebrating the holy
-                    Eucharist; written by a different hand from the rest of the volume.</p>
-                </item>
-                <item xml:id="addition4" n="4">
                   <locus from="107b" to="108a"/>
                   <p>On foll. 107 b and 108 a there is a note, stating that this manuscript was
-                    written in the year 1541, A.D. 1230, by the priest '<persName>Adlēv bar
+                    written in the year <origDate datingMethod="Seleucid" when-custom="1541">1541</origDate>, A.D. <origDate calendar="Gregorian" when="1230">1230</origDate>, by the priest <persName>'Adlēv bar
                       Joseph</persName>.</p>
                   <p>
                     <quote xml:lang="syr">ܐܫܬ݀ܠܡ ܘܐܣܬ݀ܝܟ ܟܘܪܣܐ ܗ̇ܢܐ ܕܩܘܪ̈ܒܐ ܒܟܠܗܝܢ ܕܝ̈ܠܝܬܗ ܘܐܟܬ݂ܒ ܒܗ
@@ -212,7 +217,7 @@
                       . . . ܡܘܓܝ̣ܬܗ. ܒ݁ܒ̣݁ܥܘ ܡ̣ܢ ܟܠ ܕܡܩܲܪܒ ܘ܏ܫ.</quote>
                   </p>
                 </item>
-                <item xml:id="addition5" n="5">
+                <item xml:id="addition2" n="2">
                   <locus from="73b"/>
                   <p>In another note, at the foot of fol. 73 b, he mentions his brother
                       <persName>Rabban Michael</persName>.</p>
@@ -221,7 +226,7 @@
                       ܪܒܢ ܡܝܟܐܝܠ ܡܪܝܐ ܡܚܣܐ ܠܗ ܕܐܦ ܗܘ ܐܫܬܘܬܦ ܥܡܝ.</quote>
                   </p>
                 </item>
-                <item xml:id="addition6" n="6">
+                <item xml:id="addition3" n="3">
                   <locus from="108a"/>
                   <p>The volume passed by purchase from the hands of <persName>‘Adlēv</persName>
                     into those of <persName>Rabban Iyūb</persName>. Fol. 108 a. </p>
@@ -254,7 +259,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate when="1230">A.D. 1230</origDate>
+              <origDate calendar="Gregorian" when="1230">A.D. 1230</origDate>
               <origDate datingMethod="Seleucid" when-custom="1541">A. Gr. 1541</origDate>
               <origPlace/>
             </origin>
@@ -445,9 +450,10 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-24">Updates to reflect current procedure</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-21">Edits to msContents, handDesc, and additions</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-07">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#cchen">Initial TEI encoding.</change>
-      <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
