@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -81,11 +82,9 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              
+              <locus from="87b" to="125a"/>
               <author ref="http://syriaca.org/person/154">Antonius of Tagrit</author>
-              <title xml:lang="en">1. A work of <persName>Antonius of
-                                        <placeName>Tagrit</placeName>
-                </persName> on the good Providence of
+              <title xml:lang="en">A work of <persName ref="http://syriaca.org/person/154">Antonius of <placeName ref="https://syriaca.org/place/193">Tagrit</placeName></persName> on the good Providence of
                                 God, in four discourses</title>
               <finalRubric xml:lang="syr">
                 <locus from="125a"/>ܫܠܡܘ ܐܪ̈ܒܥܐ ܡ̈ܐܡܪܐ ܕܥܠ ܒܛܝܠܘܬܐ. ܕܥܒ̣ܝܕܝܢ
@@ -93,17 +92,13 @@
                                 ܡܲܛܗܡ.</finalRubric>
               <msItem xml:id="b1" n="2">
                 <locus from="87b"/>
-                <author>Antonius of Tagrit</author>
+                <author ref="http://syriaca.org/person/154">Antonius of Tagrit</author>
                 <title xml:lang="en">Part a</title>
-                <rubric xml:lang="syr">ܥܠ ܚܝܠܐ ܕܬܠܝܬܝܘܬܐ ܣܓܝܕܬܐ ܘܠܐ ܥܒܝܕܬܐ. ܟ݁ܬܒܝܢܢ
-                                    ܡܐܡ̈ܪܐ (sic) ܕܥܠ ܒܛܝܠܘܬܐ ܣ̇ܥܪܬ ܛܒ̈ܬܐ ܕܐܠܗܐ. ܕܡܚܘܐ ܘܡܒܲܕܩ ܕܐܝܟܢܐ
-                                    ܟܕܠܐ ܥ̇ܨܝܐ ܠܚܐܪܘܬܐ. ܡܢ ܫܘܪܥܬܐ ܘܦܐܪ̈ܐ ܕܚܛܝܬܐ ܡܥܘܿܟܐ ܠܗ܀ ܥܒܝܕܝܢ
-                                    ܕܝܢ ܠܐܢܛܘܢ ܕܝܪܝܐ ܬܐܓܪܝܬܢܝܐ</rubric>
+                <rubric xml:lang="syr">ܥܠ ܚܝܠܐ ܕܬܠܝܬܝܘܬܐ ܣܓܝܕܬܐ ܘܠܐ ܥܒܝܕܬܐ. ܟ݁ܬܒܝܢܢ ܡܐܡ̈ܪܐ <foreign xml:lang="en">(sic)</foreign> ܕܥܠ ܒܛܝܠܘܬܐ ܣ̇ܥܪܬ ܛܒ̈ܬܐ ܕܐܠܗܐ. ܕܡܚܘܐ ܘܡܒܲܕܩ ܕܐܝܟܢܐ ܟܕܠܐ ܥ̇ܨܝܐ ܠܚܐܪܘܬܐ. ܡܢ ܫܘܪܥܬܐ ܘܦܐܪ̈ܐ ܕܚܛܝܬܐ ܡܥܘܿܟܐ ܠܗ܀ ܥܒܝܕܝܢ ܕܝܢ ܠܐܢܛܘܢ ܕܝܪܝܐ ܬܐܓܪܝܬܢܝܐ</rubric>
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus from="99a"/>
-                <author ref="http://syriaca.org/person/154">Antonius of
-                                    Tagrit</author>
+                <author ref="http://syriaca.org/person/154">Antonius of Tagrit</author>
                 <title xml:lang="en">Part b</title>
                 <rubric xml:lang="syr">ܐܚܪܢܐ ܕܬܪ̈ܝܢ ܕܝܠܗ ܟܕ ܕܝܠܗ܆ ܥܠܘܗܝ ܕܢܝܫܐ. ܡܛܠ
                                     ܡܪܕܘܬܐ ܕܐܠܗܐ̣. ܘܡܚܘܝܢܘܬܐ ܕܐܢ ܦܪܫܐ ܢܦܫܐ ܡܢ ܦܓܪܐ: ܒܠܥܕ ܦܘܩܕܢܐ
@@ -118,7 +113,7 @@
                                     ܐܢܫ̈ܝܐ ܘܕܡ̇ܢܘ ܩܨܐ܀ ܕܝܠܗ</rubric>
               </msItem>
               <msItem xml:id="b4" n="5">
-                <locus from="114b"/>
+                <locus from="114b" to="125a"/>
                 <author ref="http://syriaca.org/person/154">Antonius of
                                     Tagrit</author>
                 <title xml:lang="en">Part d</title>
@@ -128,10 +123,9 @@
               </msItem>
             </msItem>
             <msItem xml:id="a2" n="6">
-              
+              <locus from="125a" to="125b"/>
               <author ref="http://syriaca.org/person/154">Antonius of Tagrit</author>
-              <title xml:lang="en">2. Prayers composed with rhyme by Antonius
-                                of Tagrit</title>
+              <title xml:lang="en">Prayers composed with rhyme by <persName ref="http://syriaca.org/person/154">Antonius of Tagrit</persName></title>
               <finalRubric xml:lang="syr">
                 <locus from="125b"/>ܫܠܡܬ ܒ̇ܥܘܬܐ
                                 ܕܢܐܢܛܘܢ: ܣܓܝ ܥܲܛܠܐ ܡܠܬܗ ܐܘ ܩܪܘܝܐ ܘܛܒ ܣܢܝܩܐ ܥܠ
@@ -172,18 +166,15 @@
                                     dead</title>
                 <rubric xml:lang="syr">ܒܥܘܬܐ ܕܐܝܠܝܢ ܕܦ̣ܛܪܘ ܒܦܐܝܘܬܐ ܕܝܠܗ
                                     ܕܐܢܛܘܢ</rubric>
-                <incipit xml:lang="syr">ܚܣܐ ܛܒ̇ܐ ܒܛܝܒܘܬܟ ܘܒ̇ܪ̈ܚܡܐ ܕܝܠܟ ܐܫ̈ܝܕܐ.
-                                    ܠܐܒܗ̈ܝܢ ܐܦ ܠܐܚ̈ܝܢ܇ ܕܗܘܘ ܡܢܟ ܥܢܝ̈ܕܐ܇ ܘܠܒܘܨܪ̈ܐ ܕܣܥܪܘ: ܐܝܟ ܚܠܫ̈ܐ
-                                    ܘܥ̈ܒܝܕܐ. Fol. 125 </incipit>
+                <incipit xml:lang="syr">ܚܣܐ ܛܒ̇ܐ ܒܛܝܒܘܬܟ ܘܒ̇ܪ̈ܚܡܐ ܕܝܠܟ ܐܫ̈ܝܕܐ. ܠܐܒܗ̈ܝܢ ܐܦ ܠܐܚ̈ܝܢ܇ ܕܗܘܘ ܡܢܟ ܥܢܝ̈ܕܐ܇ ܘܠܒܘܨܪ̈ܐ ܕܣܥܪܘ: ܐܝܟ ܚܠܫ̈ܐ ܘܥ̈ܒܝܕܐ. ܏ܘܫ.</incipit>
               </msItem>
             </msItem>
             <msItem xml:id="a3" n="11">
               <locus from="125b"/>
               <author ref="http://syriaca.org/person/573">John Chrysostom</author>
-              <title xml:lang="en">3. A homily of John Chrysostom on the
+              <title xml:lang="en">A homily of <persName ref="http://syriaca.org/person/573">John Chrysostom</persName> on the
                                 parable of the ten Virgins</title>
-              <rubric xml:lang="syr">ܬܘܒ ܡܐܡܪܐ ܕܥܣܪ ܒܬܘ̈ܠܢ (sic) ܕܩܕܝܫܐ ܝ݊ܘܐܢܝܣ ܕܥܠ
-                                ܡܠܬܐ </rubric>
+              <rubric xml:lang="syr"> ܬܘܒ ܡܐܡܪܐ ܕܩܕܝܫܐ ܝ݊ܘܐܢܝܣ ܕܥܠ ܡܠܬܐ<foreign xml:lang="en">(sic)</foreign> ܕܥܣܪ ܒܬܘ̈ܠܢ</rubric>
               <note>See <bibl>Opera, t. viii., p. 666</bibl>.</note>
             </msItem>
           </msContents>
@@ -202,8 +193,7 @@
                                                 leaves (Add. 14,726, foll. 87—128), of which the
                                                 last is slightly torn. The quires, four in number,
                                                 are signed with letters. There are from 34 to 38
-                                                lines in each page. This manuscript is written in a
-                                                good, regular hand, apparently of the xth cent.</p>
+                                                lines in each page.</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -212,10 +202,13 @@
                                 <p>Content pending</p>
                             </layoutDesc>
                         </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
-              </handNote>
+            <handDesc hands="2">
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr">
+                <desc>This manuscript is written in a good, regular hand, apparently of the <origDate notBefore="0900" notAfter="1000">xth cent.</origDate></desc>
+                              </handNote>
+              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
+                <desc>See additions.</desc>
+                              </handNote>
             </handDesc>
             <additions>
               <p/>
@@ -430,6 +423,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-28">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
