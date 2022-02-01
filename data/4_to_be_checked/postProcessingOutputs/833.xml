@@ -1,0 +1,907 @@
+<?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="a" xml:lang="en">BL Add MS 17181</title>
+        <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
+        <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+        <funder>The National Endowment for the Humanities</funder>
+        <funder>The Andrew W. Mellon Foundation</funder>
+        <principal>David A. Michelson</principal>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</editor>
+        <respStmt>
+          <resp>Created by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</name>
+        </respStmt>
+        <respStmt>
+            <resp>Based on the work of</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
+        </respStmt>
+        <respStmt>
+            <resp>Edited by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+        </respStmt>
+        <respStmt>
+            <resp>Syriac text entered by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
+        </respStmt>
+        <respStmt>
+            <resp>Greek and coptic text entry and proofreading by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
+        </respStmt>
+        <respStmt>
+            <resp>Project management by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
+        </respStmt>
+        <respStmt>
+            <resp>English text entry and proofreading by</resp>
+            <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0"/>
+    </editionStmt>
+      <publicationStmt>
+        <authority>Syriaca.org: The Syriac Reference Portal</authority>
+        <idno type="URI">http://syriaca.org/manuscript/833/tei</idno>
+        <availability>
+            <p/>
+            <licence target="http://creativecommons.org/licenses/by/3.0/">
+                <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
+            </licence>
+        </availability>
+        <date calendar="Gregorian">2022-02-01-06:00</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="manuscript-833">
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <repository>British Library</repository>
+            <collection>Oriental Manuscripts</collection>
+            <idno type="URI">http://syriaca.org/manuscript/833</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">Add MS 17181</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Arabic">738</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Roman">DCCXXXVIII</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary/>
+            <textLang mainLang="syr"/>
+            <msItem xml:id="a1" n="1">
+              <title xml:lang="en">A collection of Discourses for various occasions. The
+                names of the authors are nowhere mentioned.</title>
+              <msItem xml:id="b1" n="2" defective="true">
+                <title xml:lang="en">Sixteen short addresses, to be spoken by the abbat or
+                  prior (ܪܝܫܕܝܪܐ), to persons who have brought presents to the monastery</title>
+                <note>The first three are altogether wanting, and of the fourth only a few lines
+                  remain</note>
+                <msItem xml:id="c1" n="3">
+                  <locus from="1a"/>
+                  <title xml:lang="en">Part 1</title>
+                  <rubric xml:lang="syr">ܕܚܡܫܐ ܥܠܘܗܝ ܕܫܪܒܐ</rubric>
+                  <incipit xml:lang="syr">ܐܠܘ ܐܝܬ ܗܘܐ ܠܢ ܡܘܗܒܬܐ ܕܫܘܝܐ ܠܦܘܪܫܢܟ ܕܠܘܬܢ̣. ܒܚܘܒܐ ܗ̇ܘ
+                    ܕܐܬܝܬ ܠܘܬܢ̇. ܘܐܦ ܚܢܢ ܡܘܗܒܬܐ ܒܗ ܒܚܘܒܐ ܠܦܪܘܫܘܬܟ ܝܗܒܝܢ ܗܘܝܢ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c2" n="4">
+                  <locus from="1b"/>
+                  <title xml:lang="en">Part 2</title>
+                  <rubric xml:lang="syr">ܕܫܬܐ ܥܠܘܗܝ ܕܫܪܒܐ</rubric>
+                  <incipit xml:lang="syr">ܒܢ̈ܝ ܐܢܫܐ ܐܝܠܝܢ ܕܟܪܝܗܝܢ ܦܓܪܢܐܝܬ ܒܟܐܒ̈ܐ ܕܦܓܪܐ̣. ܠܘܬ ܐܣܘ̈ܬܐ
+                    ܕܥܠܡܐ ܪܗܛܝܢ ܕܢܣܒܘܢ ܡܢܗܘܢ ܥܘܕܪܢܐ ܠܟܐ̈ܒܝܗܘܢ̇ ܘܡܗܝ̈ܡܢܐ ܐܝܠܝܢ ܕܪܓܝܫܝܢ ܒܢܦܫܗܘܢ ܟܘܪܗܢܐ
+                    ܕܒܘܨܪ̈ܐ ܕܡܢ ܢܘܬܦܘ̈ܗܝ ܕܥܠܡܐ̣. ܠܘܬ ܐܣ̈ܘܬܐ ܪ̈ܘܚܢܐ ܪܗܛܝܢ ܕܢܣܒܘܢ ܡܢܗܘܢ ܐܣܝܘܬܐ ܕܪܘܚܐ
+                    ܠܚ̈ܫܐ ܕܢܦܫܬܗܘܢ̇ ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c3" n="5">
+                  <locus from="2a"/>
+                  <title xml:lang="en">Part 3</title>
+                  <rubric xml:lang="syr">ܕܫܒܥܐ ܥܠܘܗܝ ܕܫܪܒܐ</rubric>
+                  <incipit xml:lang="syr">ܠܡܢ ܕܪܓܝܓ ܕܢܐܬܪ ܒܪ̈ܘܚܢܝܬܐ ܡܠܬܐ ܡܘܬܪܢܝܬܐ ܙܕܩ̇ ܠܢ ܕܢܐܡܪ ܠܗ.
+                    ܐܝܟܢܐ ܕܢܫܟܚ ܠܘܬܢ ܢܝܚܐ ܕܒܥܬܗ. ܕܢܣܒ ܡܢ ܡܠܟܢ ܗ̇ܘ ܡܕܡ ܕܪܚܡ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c4" n="6">
+                  <locus from="2b"/>
+                  <title xml:lang="en">Part 4</title>
+                  <rubric xml:lang="syr">ܕܬܡܢܝܐ ܥܠܘܗܝ ܕܫܪܒܐ . . ܕܡܡܠܠ ܪܝܫܕܝܪܐ ܥܡ ܟܠ ܡ̇ܢ ܕܗ̇ܘ ܕܦܪܫ
+                    ܘܡܝܬܐ ܣܘܥܪܢܐ ܘܥܡ ܣܓ̈ܝܐܐ ܬܘܒ ܟܢܝܫܐܝܬ.</rubric>
+                  <incipit xml:lang="syr">ܚܕܝܢܢ ܪܘܪܒܐܝܬ ܒܡܐܬܝܬܟܘܢ ܚܦܝܛܬܐ ܕܠܘܬܢ̇ ܠܘ ܡܛܠ ܕܐܝܬܝܬܘܢ ܠܢ
+                    ܐܠܐ ܡܛܠ ܕܐܬܝܬܘܢ ܠܘܬܢ̇ ܘܠܘ ܡܛܠ ܕܣܥܪܬܘܢܢ ܒܡܘܗܒ̈ܬܐ ܦܓܪ̈ܢܝܬܐ. ܐܠܐ ܡܛܠ ܕܛܥܡܢܢ ܚܘܒܟܘܢ
+                    ܕܠܘܬ ܐܠܗܐ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c5" n="7">
+                  <locus from="3b"/>
+                  <title xml:lang="en">Part 5</title>
+                  <rubric xml:lang="syr">ܕܬܫܥܐ ܥܠܘܗܝ ܕܫܪܒܐ</rubric>
+                  <incipit xml:lang="syr">ܐܡܪ ܦܪܘܩܢ ܒܣܒܪܬܐ ܕܝܘܠܦܢܗ ܕܡ̇ܢ ܕܒܩܠܝܠ ܡܗܝܡܢ ܐܦ ܒܣܓܝ ܡܗܝܡܢ
+                    ܗܘܼ. ܘܡܢ ܕܒܩܠܝܠ ܥܘܿܠ ܐܦ ܒܣܓܝ ܥܘܠ ܗܼܘ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c6" n="8">
+                  <locus from="4a"/>
+                  <title xml:lang="en">Part 6</title>
+                  <rubric xml:lang="syr">ܕܥܣܪܐ ܥܠܘܗܝ ܕܫܪܒܐ</rubric>
+                  <incipit xml:lang="syr">ܪܘܪܒܝܢ ܡܣܟ̈ܢܐ ܝܗܘ̈ܒܐ ܒܡܘܗܒܬܗܘܢ ܛܒ ܡܢ ܥܬܝܪ̈ܐ ܕܗܘܝܢ ܝܗܘ̈ܒܐ.
+                    ܡܛܠ ܕܥܬܝܪ̈ܐ ܝܗܒܝܢ ܡܢ ܡܠܝܘܬܐ. ܘܡܣ̈ܟܢܐ ܡܢ ܚܣܝܪܘܬܐ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c7" n="9">
+                  <locus from="4b"/>
+                  <title xml:lang="en">Part 7</title>
+                  <rubric xml:lang="syr">ܕܚܕܥܣܪ ܥܠܘܗܝ ܕܫܪܒܐ</rubric>
+                  <incipit xml:lang="syr">ܫܦܝܪ ܠܡܗܝ̈ܡܢܐ ܕܝܬܒܝܢ ܒܐܪܥܐ ܕܫܘܠܛܢܗ ܕܐܠܗܐ̇. ܕܢܬܠܘܢ ܐܢܘܢ
+                    ܠܡܠܟܐ ܫܡܝܢܐ ܕܝܬܝܒܝܢ ܒܓܘ ܐܪܥܗ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c8" n="10">
+                  <locus from="5a"/>
+                  <title xml:lang="en">Part 8</title>
+                  <rubric xml:lang="syr">ܕܬܪܥܣܪ ܥܠܘܗܝ ܕܫܪܒܐ</rubric>
+                  <incipit xml:lang="syr">ܕܡܘܬܐ ܛܒܬܐ ܕܣܘܥܪ̈ܢܐ ܕܩܕܝ̈ܫܐ ܒܟܬܒ̈ܐ ܐ̈ܠܗܝܐ ܪܫܝܡܐ ܠܡܗܝ̈ܡܢܐ.
+                    ܘܥܬܝܩܬܐ ܩܕܡܬ ܐܠܦܬ ܠܬܠܡ̈ܝܕܝܗ̇ ܕܚܪ̈ܬܬܐ̣ (sic) ܕܢܬܚܦܛܘܢ ܠܣܘܥܪܢܐ ܕܝܚܝ̈ܕܝܐ ܘܠܚܙܬܐ
+                    ܐܡܝܢܬܐ. ܘܫܐܠܬ ܫܠܡܐ ܕܗ̇ܢܘܢ ܕܢܦܝܩܝܢ ܡܢ ܥܠܡܐ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c9" n="11">
+                  <locus from="5b"/>
+                  <title xml:lang="en">Part 9</title>
+                  <rubric xml:lang="syr">ܕܬܠܬܥܣܪ ܥܠܘܗܝ ܕܫܪܒܐ</rubric>
+                  <incipit xml:lang="syr">ܟܕ ܝܗܘܒܐ ܥܬܝܪܐ ܕܠܟܠ ܙܐܢ ܐܠܗܐ ܗܘ. ܐܦ ܡܗܝ̈ܡܢܐ ܡܪ̈ܚܡܢܐ
+                    ܕܡܫܡܠܝܢ ܦܘܩܕܢܗ ܕܐܠܗܐ̣ ܒܐܠܗܐ ܡܬܕܡܝܢ. ܡܛܠ ܕܐܦ ܗ̣ܘ ܐܠܗܐ ܠܕܡܘܬܐ ܕܡܪܚܡܢܘܬܗ ܩ̣ܪܐ ܐܢܘܢ.
+                    ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c10" n="12">
+                  <locus from="6a"/>
+                  <title xml:lang="en">Part 10</title>
+                  <rubric xml:lang="syr">ܕܐܪ̈ܒܬܥܣܪ ܥܠܘܗܝ ܕܫܪܒܐ</rubric>
+                  <incipit xml:lang="syr">ܦܪܘܥܐ ܗ̣ܘ ܛܒܐ ܐܠܗܐ ܠܟܠ ܡܘܗ̈ܒܬܐ ܕܡܛܘܠ ܫܡܗ ܡܬܝܗܒܝܢ. ܐܢ
+                    ܪܘܪ̈ܒܬܐ ܐܢܝܢ ܘܐܢ ܙܥܘܪ̈ܝܬܐ. ܘܡ̇ܦܢܐ ܝܗܒ̇ ܠܝܗܘܒܐ ܐܓܪܐ ܫܦܝܥܐ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c11" n="13">
+                  <locus from="7a"/>
+                  <title xml:lang="en">Part 11</title>
+                  <rubric xml:lang="syr">ܕܚܡܫܬܥܣܪ ܥܠܘܗܝ ܕܫܪܒܐ</rubric>
+                  <incipit xml:lang="syr">ܩܘܪ̈ܒܢܐ ܪ̈ܘܪܒܐ ܘܙܥܘܪ̈ܐ ܩܒܠ ܡܘܫܐ ܡܢ ܥܬܝܪ̈ܐ ܘܡܢ ܡܣܟ̈ܢܐ
+                    ܒܬܘܩܢܗ ܕܡܫܟܢ ܙܒܢܐ. ܡܛܠ ܕܗܟܢܐ ܐܝܠܦ ܡܢ ܗ̇ܘ ܕܦܩܕܗ ܥܠ ܬܘܩܢܗ ܕܡܫܟܢܐ. ܕܐܦ ܒܗܕܐ ܢܬܕܡܐ
+                    ܡܩܒܠܢܐ ܡܘܫܐ ܒܐܠܗܐ ܗܘܿ ܕܦܩܕܗ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c12" n="14">
+                  <locus from="7b"/>
+                  <title xml:lang="en">Part 12</title>
+                  <rubric xml:lang="syr">ܕܐܫܬܬܥܣܪ ܥܠܘܗܝ ܕܫܪܒܐ</rubric>
+                  <incipit xml:lang="syr">ܡܢ ܛܥܡܬܗ ܕܦܐܪܐ ܡܬܝܕܥ ܚܝܠܗ ܕܐܝܠܢܐ. ܘܡܢ ܥܒ̈ܕܘܗܝ ܕܒܪܢܫܐ ܡܬܓܠܐ
+                    ܨܒܝܢܐ ܕܒܢܦܫܗ. ܏ܘܫ.</incipit>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b2" n="15">
+                <title xml:lang="en">Fifteen short addresses, to be spoken by the abbat to
+                  the assembled monks at table, after meals, chiefly with reference to those who
+                  have made presents to the convent</title>
+                <msItem xml:id="c13" n="16">
+                  <locus from="8a"/>
+                  <title xml:lang="en">Part 1</title>
+                  <rubric xml:lang="syr">ܡܡܠܠܐ ܕܪܝܫܕܝܪܐ ܠܘܬ ܐܚ̈ܐ ܥܠ ܦܬܘܪܐ ܡܢ ܒܬܪ ܕܛܥܡ̇ܝܢ ܘܨܝܕ ܡ̇ܢ
+                    ܕܥܒ̇ܕ ܦܘܪܫܢܐ</rubric>
+                  <incipit xml:lang="syr">ܥܬܝܪܐܝܬ ܙܝܢܐ ܠܢ ܛܝܒܘܬܗ ܫܦܝܥܬܐ ܕܐܠܗܢ̇ ܘܡܛܝܒܐ ܠܢ ܒܟܠ ܙܒ̈ܢܝܢ
+                    ܡܕܡ ܕܡܬܒܥܐ ܠܚܘܫܚܐ ܕܚܝ̈ܝܢ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c14" n="17">
+                  <locus from="8b"/>
+                  <title xml:lang="en">Part 2</title>
+                  <rubric xml:lang="syr">ܕܬܪ̈ܝܢ ܥܠܘܗܝ ܕܫܪܒܐ</rubric>
+                  <incipit xml:lang="syr">ܗ̇ܘ ܕܣܓܝ ܡܬܝܩܪ ܚܝ̇ܒ ܕܢܣܓܐ ܢܝܩܪ. ܘܐܝܢܐ ܕܡܠܐ̇ ܦܬܘܪܗ ܛܒ̈ܬܐ
+                    ܕܙܝܘܢܐ̣. ܚܝ̇ܒ ܕܢܬܡܠܐ ܠܒܗ ܕܘܟܪܢܗ ܐܡܝܢܐ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c15" n="18">
+                  <locus from="9a"/>
+                  <title xml:lang="en">Part 3</title>
+                  <rubric xml:lang="syr">ܕܬܠܬܐ ܥܠܘܗܝ ܕܫܪܒܐ</rubric>
+                  <incipit xml:lang="syr">ܐܢ ܠܗܠܝܢ ܕܙܒܢܐ ܠܝܬ ܦܘܪܥܢܐ [ܕ]ـܫ̇ܘܐ ܠܗܝ̣ܢ. ܡ̇ܢܘ ܣ̇ܦܩ ܕܢܦܪܘܥ
+                    ܚܠܦ ܛܘ̈ܒܐ ܕܠܥܠܡ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c16" n="19">
+                  <locus from="9b"/>
+                  <title xml:lang="en">Part 4</title>
+                  <rubric xml:lang="syr">ܕܐܪܒܥܐ ܥܠܘܗܝ ܕܫܪܒܐ</rubric>
+                  <incipit xml:lang="syr">ܚܝܒܝܢܢ ܕܕܠܐ ܫܠܝܐ ܢܘܕܐ ܠܐܠܗܐ̇. ܗ̇ܘ ܕܕܠܐ ܫܠܝܐ ܣܥܪܐ ܠܢ
+                    ܛܝܒܘܬܗ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c17" n="20">
+                  <locus from="10a"/>
+                  <title xml:lang="en">Part 5</title>
+                  <rubric xml:lang="syr">ܕܚܡܫܐ ܥܠܘܗܝ ܕܫܪܒܐ</rubric>
+                  <incipit xml:lang="syr">ܗܐ ܚܙܘ ܚܒܝ̈ܒܝ ܣܘܥܪܢܗ ܕܛܝܒܘܬܐ ܣܥܪܬ ܚ̈ܝܐ ܕܟܠ܇ ܟܡܐ ܥܬܝܪ ܘܫܦܝܥ
+                    ܠܘܬܢ̇ ܘܪܒܘ ܦܘܡ̈ܝܢ ܐܢ ܢܩܢܐ̣. ܠܐ ܣܦܩܝܢ ܚܢܢ ܕܢܘܕܐ ܚܠ̣ܦ ܗܠܝܢ ܡܘܗܒ̈ܬܐ ܕܐܡ̈ܝܢܢ ܠܚ̈ܝܝܢ.
+                    ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c18" n="21">
+                  <locus from="11a"/>
+                  <title xml:lang="en">On the commemoration of an abbat who endowed the
+                    monastery</title>
+                  <rubric xml:lang="syr">ܕܫܬܐ ܥܠܘܗܝ ܕܫܪܒܐ. ܕܡܡܠܠ ܪܝܫ ܕܝܪܐ ܩܕܡ ܐܚ̈ܐ ܥܠ ܦܬܘܪܐ ܒܕܘܟܪܢܐ
+                    ܕܡܪܝ ܪܝܫ ܕܝܪܐ ܪܒܐ</rubric>
+                  <incipit xml:lang="syr">ܐ̈ܒܗܐ ܚܝ̇ܒܝܢ ܕܢܣܝܡܘܢ ܣܝܡ̈ܬܐ ܠܒ̈ܢܝܗܘܢ. ܐܝܟ ܡܠܦܢܘܬܗ ܕܦܘܠܘܣ.
+                    ܐܝܟ ܕܟܬܝܒ̣. ܐܒܘܢ ܛܘܒܢܐ ܣܡ ܠܢ ܣܝܡܬܐ ܕܦܓܪܐ ܘܕܢܦܫܐ. ܕܒܦܓܪ̈ܢܝܬܐ ܨܠܘܬܗ ܙܝܢܐ ܠܢ̇
+                    ܘܒܪ̈ܘܚܢܝܬܐ ܒܡܫܠܡܢܘܬܐ ܕܦܘܩ̈ܕܢܘܗܝ ܪܕܝܢܢ̇ ܘܒܥܩ̈ܒܬܐ ܕܕܘܒܪ̈ܘܗ̣̇ܝ ܡܗܠܟܝܢ ܐܢܚܢܢ̇ ܡܢ
+                    ܣܝܡ̈ܬܐ ܓܝܪ ܕܣܡ ܠܢ ܡܬܦܪܢܣܝܢ ܚܢܢ ܒܬܪ̈ܬܝܗܝܢ̇ ܡܛܠ ܕܐܒܐ ܗܘ̣ܐ ܚܦܝܛܐ ܘܟܫܝܪܐ. ܘܟܢܫ̇
+                    ܒܥܝܪܘܬܗ ܩܢܝܢܐ ܕܣܦ̇ܩ ܠܗ ܘܠܒܢ̈ܘܗܝ. ܘܣܡ ܣܝܡܬܐ ܕܡܠܝܐ ܛܘ̈ܒܐ ܪ̈ܘܚܢܐ ܘܦܓܪ̈ܢܐ.
+                    ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c19" n="22">
+                  <locus from="11b"/>
+                  <title xml:lang="en">Part 7</title>
+                  <rubric xml:lang="syr">ܕܫܒܥܐ ܥܠܘܗܝ ܕܫܪܒܐ</rubric>
+                  <incipit xml:lang="syr">ܪܒ ܘܡܫܡܗ ܫܡܗ ܕܐܒܘܢ ܩܕܡ ܐܠܗܐ ܘܠܘܬ ܒܢܝ̈ܢܫܐ. ܘܓܠܝܐ ܗ̣ܝ ܗܕܐ ܡܢ
+                    ܗ̇ܝ ܕܐܦ ܐܢܚܢܢ ܒܫܡܗ ܡܫܡ̈ܗܐ ܗܘܝܢܢ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c20" n="23">
+                  <locus from="12a"/>
+                  <title xml:lang="en">On the commemoration of any preceding abbat</title>
+                  <rubric xml:lang="syr">ܕܬܡܝܢܐ ܥܠܘܗܝ ܕܫܪܒܐ. ܕܡܡܠܠ ܪܝܫܕܝܪܐ ܒܕܘܟܪܢܐ ܕܟܠ ܚܕ ܡܢ ܪ̈ܝܫܝ
+                    ܕܝܪܐ</rubric>
+                  <incipit xml:lang="syr">ܡܩܒܠܝܢ ܐܢܚܢܢ ܛܝܒܘܬܐ ܕܐܠܗܐ ܙܝܘܢܢ. ܗ̇ܝ ܕܒܨܠܘܬܐ ܕܐܒ̈ܗܝܢ ܟܠܡܕܡ
+                    ܕܡܬܒܥܐ ܠܢ ܡܛܝܒܐ ܠܢܝܚ̈ܝܢ ܦܓܪ̈ܢܐ. ܘܡܬܕܟܪܝܢ ܐܢܚܢܢ ܒܚܘܒܐ ܘܐܦ ܠܐܒܗ̈ܝܢ. ܗܢܘܢ ܕܨܠܘܬܗܘܢ
+                    ܐܝܬܝܗܝܢ ܥܠܬܐ ܕܟܠܗܝܢ ܛܒ̈ܬܢ̇. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c21" n="24">
+                  <locus from="12b"/>
+                  <title xml:lang="en">Address of the abbat on the occasion of his making an
+                    offering or present</title>
+                  <rubric xml:lang="syr">ܕܬܫܥܐ ܕܡܡܠܠ ܪܝܫܕܝܪܐ ܥܡ ܐܚ̈ܐ ܒܝܘܡܐ ܕܦܘܪܫܢܐ ܕܝܠܗ</rubric>
+                  <incipit xml:lang="syr">ܡܕܡ ܕܐܫܠܡܘ ܠܢ ܐ̈ܒܗܝܢ ܐܢ ܒܦܓܪ̈ܢܝܬܐ ܘܐܢ ܒܪ̈ܘܚܢܝܬܐ̣. ܙܗܝܪܐܝܬ
+                    ܚܝܒܝܢ ܚܢܢ ܕܢܛܪ ܦܘܠܚܢܐ ܕܪ̈ܘܚܢܝܬܐ. ܡܛܠ ܕܢܐܪܬ ܒܗ ܥܡܗܘܢ ܚ̈ܝܐ ܕܠܥܠܡ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c22" n="25">
+                  <locus from="13a"/>
+                  <title xml:lang="en">On the occasion of the priests and deacons making
+                    their offering</title>
+                  <rubric xml:lang="syr">ܫܪܒܐ ܕܥܣܪܐ ܕܡܡܠܠ ܥܡ ܐܚ̈ܐ ܥܠ ܦܬܘܪܐ ܒܦܘܪܫܢܐ ܕܥܒܕܝܢ ܩܫ̈ܝܫܐ
+                    ܘܫܡ̈ܫܐ</rubric>
+                  <incipit xml:lang="syr">ܐܡܬܝ ܕܐ̈ܒܗܐ ܬܫܡܫܬܐ ܠܒܢ̈ܝܐ ܡܩܪܒܝ̣ܢ. ܠܗܘܢ ܠܒ̈ܢܝܐ ܗܘܝܢ ܡ̈ܠܦܢܐ
+                    ܕܢܫܡܫܘܢ ܠܐ̈ܒܗܐ. ܘܐܡܬܝ ܕܗ̇ܢܘܢ ܕܡܬܚܝܒܝܢ ܕܢܬܝܩܪܘܢ ܐܝܩܪܐ ܠܬܠܡܝ̈ܕܝܗܘܢ ܢܬܚܙܘܢ ܕܝܗܒܝ̣ܢ.
+                    ܠܗܘܢ ܠܬܠܡ̈ܝܕܐ ܗܘܝܢ ܡ̈ܚܦܛܢܐ ܕܢܝܩܪܘܢ ܠܚ̈ܕܕܐ. ܐܦ ܠܪ̈ܒܢܝܗܘܢ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c23" n="26">
+                  <locus from="13b"/>
+                  <title xml:lang="en">On the offering of those who hold posts in the
+                    convent</title>
+                  <rubric xml:lang="syr">ܫܪܒܐ ܕܚܕܥܣܪ ܕܡܡܠܠ ܥܠ ܦܬܘܪܐ ܒܦܘܪܫܢܐ ܕܗܠܝܢ ܕܩܝܡܝܢ
+                    ܒܕܘܟ̈ܝܬܐ</rubric>
+                  <incipit xml:lang="syr">ܠܘ ܐܓܪܐ ܝܗܒܝܢ ܐܢܚܢܢ ܠܗܢܘܢ ܕܩܝܡܝܢ ܒܕܘܟܝ̈ܬܐ ܒܓܘ ܥܘܡܪܐ̇. ܡܐ
+                    ܕܚܠܦܝܗܘܢ ܦܘܪܫܢܐ ܦܓܪܢܐ ܥܒܕܝܢ ܚܢܢ̇ ܐܠܐ ܕܢܢܝܚ ܐܢܘܢ ܒܢܝܚܟܘܢ ܘܢܒܝܐ ܐܢܘܢ ܒܦܘܪܫܢܗܘܢ
+                    ܕܨܐܕܝܟܘܢ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c24" n="27">
+                  <locus from="14a"/>
+                  <title xml:lang="en">On silence at table</title>
+                  <rubric xml:lang="syr">ܕܬܪ̈ܥܣܪ ܕܪܝܫ ܕܝܪܐ ܠܘܬ ܐܚ̈ܐ ܡܛܠ ܫܠܝܐ ܕܥܠ ܦܬܘܪܐ</rubric>
+                  <incipit xml:lang="syr">ܟܠܗܘܢ ܐܣܟ̈ܡܐ ܬܩ̈ܢܐ ܘܛܟ̈ܣܐ ܫܦܝܪ̈ܐ ܡܬܬܚܝܒܝܢ ܠܗ ܠܕܘܒܪܐ ܗܢܐ
+                    ܕܒܗ ܩܝܡܝܢ ܚܢܢ̇ ܝܬܝܪ ܕܝܢ ܡܢ ܟܠܗܘܢ̣. ܫܠܝܐ ܐܡܝܢܐ ܗ̇ܘ ܕܡܬܝܠܕ ܡܢ ܝܩܝܪܘܬܗ̇ ܕܢܦܫܐ. ܡܛܠ
+                    ܕܐܦ ܢܒܝܐ ܕܐܠܗܐ ܡܠܦ ܠܢ̇ ܕܦܘܠܚܢܐ ܕܙܕܝܩܘܬܐ ܫܠܝܐ ܗܘܼ. ܘܣܒܪܐ ܕܠܥܠܡ ܥܠܡܝܢ. ܏ܘܫ. </incipit>
+                </msItem>
+                <msItem xml:id="c25" n="28">
+                  <locus from="15a"/>
+                  <title xml:lang="en">Part 13</title>
+                  <rubric xml:lang="syr">ܕܬܠܬܥܣܪ ܕܪܝܫ ܕܝܪܐ ܠܘܬ ܐܚ̈ܐ ܬܘܒ ܥܠܘܗܝ ܕܫܠܝܐ ܕܥܠ
+                    ܦܬܘܪܐ</rubric>
+                  <incipit xml:lang="syr">ܠܐ ܙܕܩ̇ ܠܢ ܕܢܫܠܐ ܡܢ ܡܠܬܐ ܕܐܠܗܐ ܕܐܡܝܢܐܝܬ ܡܘܬܪܐ ܘܡܥܕܪܐ
+                    ܠܚܝ̈ܝܢ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c26" n="29">
+                  <locus from="15b"/>
+                  <title xml:lang="en">Part 14</title>
+                  <rubric xml:lang="syr">ܕܐܪ̈ܒܬܥܣܪ ܥܠܘܗܝ ܕܫܪܒܐ ܕܫܠܝܐ ܥܠ ܦܬܘܪܐ</rubric>
+                  <incipit xml:lang="syr">ܘܐܦܢ ܐܝܟ ܟܠ ܐܢܫ ܡܣܬܝܒܪܝܢ ܐܢܚܢ̣ܢ. ܐܠܐ ܠܘ ܐܝܟ ܟܠ ܐܢܫ ܙܕܩ̇ ܠܢ
+                    ܕܢܣܬܝܒܪ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c27" n="30">
+                  <locus from="16a"/>
+                  <title xml:lang="en">On the commemoration of all the deceased
+                    brethren</title>
+                  <rubric xml:lang="syr">ܕܚܡܫܬܥܣܪ. ܬܘܒ ܡܡܠܠܐ ܕܪܝܫܕܝܪܐ ܠܘܬ ܐܚ̈ܐ ܥܠ ܦܬܘܪܐ ܒܕܘܟܪܢܐ
+                    ܕܗ̇ܘܐ ܠܟܠܗܘܢ ܐܚ̈ܐ ܕܥܢܕܘ</rubric>
+                  <incipit xml:lang="syr">ܟܠ ܡܕܡ ܕܦܓ̇ܥ ܒܦܪ̈ܘܫܐ ܒܚ̈ܝܐ ܥܒܘܪ̈ܐ. ܥܘܗܕܢܐ ܠܚ̈ܝܐ ܕܥܬܝܕܝܢ
+                    ܢܣܒܝܢ ܠܗ. ܏ܘܫ.</incipit>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b3" n="31">
+                <title xml:lang="en">Four addresses, to be spoken by the abbat to the
+                  brethren after they have eaten</title>
+                <msItem xml:id="c28" n="32">
+                  <locus from="16b"/>
+                  <title xml:lang="en">Part 1</title>
+                  <rubric xml:lang="syr">ܬܘܒ ܡܡܠܠܐ ܕܡܡܠܠ ܪܝܫ ܕܝܪܐ ܥܡ ܐܚ̈ܐ ܡܢ ܒܬܪ ܕܛܥܡ̇ܝܢ</rubric>
+                  <incipit xml:lang="syr">ܛܝܒܘ ܠܐܠܗܐ ܥܠ ܡܘܗܒܬܗ ܕܠܘܬܢ ܕܠܐ ܡܬܡܠܠܐ. ܐܝܟ ܐܒܐ ܓܝܪ ܡܬܪܣܐ
+                    ܠܢ ܒܦܓܪ̈ܢܝܬ݂ܐ. ܘܐܝܟ ܡܠܦܢܐ ܪܕܐ ܠܢ ܒܪ̈ܘܚܢܝܬܐ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c29" n="33">
+                  <locus from="17a"/>
+                  <title xml:lang="en">Part 2</title>
+                  <rubric xml:lang="syr">ܕܬܪܝܢ ܥܠܘܗܝ ܕܢܝܫܐ ܩܕܡܝܐ</rubric>
+                  <incipit xml:lang="syr">ܐܠܗܐ ܗ̇ܘ ܕܡܡܠܐ ܣܘ̈ܢܩܢܐ ܕܟܠ ܒܣܪ̣. ܡܬܪܣܐ ܠܥܒܕܘ̈ܗܝ ܒܝܕ
+                    ܡܗܝܡ̈ܢܐ ܕܫ̇ܘܝܢ ܠܡܘܗܒ̈ܬܗ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c30" n="34">
+                  <locus from="17b"/>
+                  <title xml:lang="en">Part 3</title>
+                  <rubric xml:lang="syr">ܕܬܠܬܐ ܥܠܘܗܝ ܕܫܪܒܐ</rubric>
+                  <incipit xml:lang="syr">ܢܘܕܐ ܠܐܠܗܐ ܪܚܡ ܒܢܝ̈ܢܫܐ ܕܒܪ̈ܚܡܘܗܝ ܒܟܠ ܙܒܢ ܣܥܪ ܡܚܝܠܘܬܢ̇
+                    ܘܒܥܘܬܪܐ ܕܚܢܢܗ ܡܡܠܐ ܚܣܝܪ̈ܬܢ̇ ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c31" n="35">
+                  <locus from="18a"/>
+                  <title xml:lang="en">Part 4</title>
+                  <rubric xml:lang="syr">ܕܐܪܒܥܐ ܥܠܘܗܝ ܕܫܪܒܐ</rubric>
+                  <incipit xml:lang="syr">ܡܠܬܐ ܚܝܬܐ ܕܐܠܗܐ ܡܠܦܐ ܠܢ ܕܢܒܥܐ ܡܠܟܘܬܐ ܘܙܕܝܩܘܬܐ. ܘܗܠܝܢ ܟܠܗܝܢ
+                    ܡܢ ܝܬܝܪܘ ܡܬܬܘܣܦܢ ܠܢ̇ ܏ܘܫ.</incipit>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b4" n="36">
+                <locus from="18b"/>
+                <title xml:lang="en">Familiar address of the abbat to the brethren, on the
+                  commemoration of the blessed <persName>abbat N.</persName>
+                </title>
+                <rubric xml:lang="syr">ܬܘܒ ܡܡܠܠܐ ܕܪܝܫ ܕܝܪܐ ܠܘܬ ܐ̈ܚܐ ܒܝܬܐܝܬ ܥܠ ܦܬܘܪܐ ܒܕܘܟܪܢܐ ܕܡܪܝ ܪܝܫ
+                  ܕܝܪܐ ܛܘܒܢܐ</rubric>
+                <incipit xml:lang="syr">ܐܒܘܢ ܡܒܪܟܐ ܘܛܘܒܢܐ ܒܟܠ ܙܒܢ ܥܠܬܐ ܗܼܘ ܕܟܠܗܝܢ ܛܒ̈ܬܐ. ܫܡܗ ܥܒܕ ܠܢ
+                  ܡܫܡ̈ܗܐ ܒܝܬ ܒܢ̈ܝ ܐܢܫܐ. ܘܨܠܘܬܗ ܝܕܝ̈ܥܐ ܩܕܡ ܐܠܗܐ. ܏ܘܫ.</incipit>
+              </msItem>
+              <msItem xml:id="b5" n="37">
+                <locus from="19a"/>
+                <title xml:lang="en">Familiar address to the brethren</title>
+                <rubric xml:lang="syr">ܬܘܒ ܡܡܠܠܐ ܕܥܡ ܐ̈ܚܐ ܕܡܬܡܠܠ ܒܝܬܐܝܬ </rubric>
+                <incipit xml:lang="syr">ܛܝܒܘܬܐ ܕܐܠܗܐ ܟܢܫܬܢ ܠܥܘܡܪܐ ܗܢܐ ܕܚ̈ܝܐ ܕܢܥܦܐ ܡܢܗ ܦܐܪ̈ܐ
+                  ܕܝܘܬܪ̈ܢܐ. ܘܢܒܥܐ ܘܢܫܟܚ ܠܫܪܪܐ ܒܡ̈ܠܝܢ ܫܦܝܪ̈ܬܐ ܕܚܕ ܠܘܬ ܚܕ. ܠܘ ܓܝܪ ܐܝܟ ܪܫܐ ܠܘܬ ܡܫܥ̈ܒܕܐ
+                  ܡܡܠܠ ܐܢܐ. ܘܐܦ ܠܐ ܐܝܟ ܡܠܦܢܐ ܠܘܬ ܬܠܡ̈ܝܕܐ. ܏ܘܫ.</incipit>
+              </msItem>
+              <msItem xml:id="b6" n="38">
+                <locus from="20a"/>
+                <title xml:lang="en">Address of the abbat over a deceased brother</title>
+                <rubric xml:lang="syr">ܬܘܒ ܥܠ ܐܚܐ ܡܐ ܕܥܢ̇ܕ ܘܡܡܠܠ ܥܠܘܗܝ ܪܝܫ ܕܝܪܐ</rubric>
+                <incipit xml:lang="syr">ܗܐ ܚܙܬܐ ܕܝܘܬܪ̈ܢܐ ܣܝܡܐ ܩܕܡ ܥܝ̈ܢܝܢ. ܦܓܪܗ ܕܐܚܘܢ ܕܐܬܚܛܦ ܡܢ ܡܘܬܐ.
+                  ܠܝܬ ܡܕܡ ܕܐܝܬܘܗܝ ܡܚܦܛܢܐ ܕܟܫܝܪ̈ܐ ܐܝܟ ܚܙܬܐ ܕܡܐܬܝܬܗ ܕܡܘܬܐ. ܏ܘܫ.</incipit>
+              </msItem>
+              <msItem xml:id="b7" n="39">
+                <locus from="20b"/>
+                <title xml:lang="en">Address to a rich man, when he comes to the
+                  convent</title>
+                <rubric xml:lang="syr">ܡܡܠܠܐ ܕܠܘܬ ܓܒ̣ܪܐ ܥܬܝܪܐ ܡܐ ܕܐܬ݁ܐ ܠܕܝܪܐ</rubric>
+                <incipit xml:lang="syr">ܐܝܠܝܢ ܕܐܝܬܝܗܘܢ ܥܬܝܪ̈ܐ ܒܥܠܡܐ̣. ܗܢܘܢ ܝܬܝܪܐܝܬ ܡܬܬܚܝܒܝܢ ܕܢܗܘܘܢ
+                  ܥܬܝܪ̈ܐ ܒܙܕܩ̈ܬܐ. ܏ܘܫ.</incipit>
+              </msItem>
+              <msItem xml:id="b8" n="40">
+                <title xml:lang="en">Three addresses of the abbat to the brethren, when they
+                  spend the night fasting</title>
+                <msItem xml:id="c32" n="41">
+                  <locus from="21a"/>
+                  <title xml:lang="en">Part 1</title>
+                  <rubric xml:lang="syr">ܡܡܠܠܐ ܕܪܝܫ ܕܝܪܐ ܠܘܬ ܐ̈ܚܐ ܡܐ ܕܢܦܩܝܢ ܒܘܬܐ</rubric>
+                  <incipit xml:lang="syr">ܚܠܦ ܦܬܘܪܐ ܦܓܪܢܐ ܕܡܬܪܣܐ ܦܓܪܐ̣. ܙܕܩ̇ ܕܢܬܩܢ ܩܕܡܝܟܘܢ ܦܬܘܪܐ
+                    ܕܡܠܬܐ ܡܥܕܪܢܝܬܐ ܕܐܝܬܝܗ̇ ܬܘܪܣܝܐ ܕܚ̈ܝܝܢ. ܗ̇ܝ ܕܝܗܝܒܐ ܠܢ ܡܢ ܐܠܗܐ̣. ܕܒܗ̇ ܢܐܬܪ ܘܢܘܬܪ
+                    ܠܐܚܪ̈ܢܐ. ܘܬܗܘܐ ܠܢ ܚܠܦ ܡܟܘܠܬܐ ܕܟܝܢܐ ܗ̇ܝ ܕܗܫܐ ܡܢܗ̇ ܚܣܝܟܝܢ ܚܢܢ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c33" n="42">
+                  <locus from="22a"/>
+                  <title xml:lang="en">Part 2</title>
+                  <rubric xml:lang="syr">ܬܘܒ ܥܠܘܗܝ ܕܫܪܒܐ</rubric>
+                  <incipit xml:lang="syr"> ܩܠܝܠܝܢ ܐܘ̈ܠܨܢܐ ܘܥ̈ܡܠܐ ܕܕܘܒܪ̈ܐ ܠܢܦܫܐ ܐܝܕܐ ܕܐܪܓܫܬ ܒܣܒܪܐ
+                    ܫܡܝܢܐ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c34" n="43">
+                  <locus from="23b"/>
+                  <title xml:lang="en">Part 3</title>
+                  <rubric xml:lang="syr">ܕܬܠܬܐ ܥܠܘܗܝ ܕܫܪܒܐ</rubric>
+                  <incipit xml:lang="syr"> ܙܕܩ̇ ܠܢ ܕܒܟܠ ܥܕܢ ܒܗܪܓܐ ܕܡܠܬ ܐܠܗܐ ܢܗܘܐ ܥܢܝܢܢ. ܝܬܝܪܐܝܬ ܕܝܢ
+                    ܡܐ ܕܩܠܝܠܝܢ ܠܒܘ̈ܬܢ ܡܢ ܝܘܩܪܐ ܕܡܟܘܠܬܐ ܕܟܝܢܐ. ܡܛܠ ܕܟܡܐ ܕܝܩܪ ܦܓܪܐ ܒܡܐܟܠܘܬܐ̣. ܥܡܗ ܝܩܪܐ
+                    ܘܐܦ ܩܠܝܠܘܬܗ ܕܪܥܝܢܐ. ܏ܘܫ.</incipit>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b9" n="44">
+                <locus from="24b"/>
+                <author ref="http://syriaca.org/person/44">Philoxenus of
+                  <placeName ref="http://syriaca.org/place/2812">Mabug</placeName>
+                </author>
+                <title xml:lang="en">Familiar address to the brethren on the tranquillity
+                  that subsists in the service and order of the convent</title>
+                <rubric xml:lang="syr">ܬܘܒ ܡܡܠܠܐ ܕܠܘܬ ܐ̈ܚܐ ܒܝܬܐܝܬ ܡܛܘܠ ܫܠܝܐ ܕܒܬܫܡܫܬܐ ܘܡܛܟܣܘܬܐ
+                  ܕܥܘܡܪܐ</rubric>
+                <incipit xml:lang="syr">ܦܐܝܐ ܢܟܦܘܬܐ ܠܢܟ̈ܦܐ. ܘܟܢܝܟܘܬܐ ܠܝܩܝܪ̈ܐ. ܘܡܛܟܣܘܬܐ ܠܬܠܡ̈ܝܕܘܗܝ
+                  ܕܡܫܝܚܐ</incipit>
+                <note>See <bibl>Add. 17,173, no. 5</bibl>.</note>
+              </msItem>
+              <msItem xml:id="b10" n="45">
+                <locus from="26a"/>
+                <title xml:lang="en">Address of the abbat to the brethren, on a deceased
+                  priest or deacon</title>
+                <rubric xml:lang="syr">ܡܡܠܠܐ ܕܪܝܫ ܕܝܪܐ ܠܘܬ ܐܚ̈ܐ ܕܥܠ ܩܫܝܫܐ ܐܘ ܡܫܡܫܢܐ ܡܐ
+                  ܕܥ̇ܢܕܝܢ</rubric>
+                <incipit xml:lang="syr">ܟܠܡܕܡ ܕܐܝܬ ܒܥܠܡܐ̣. ܡܥܕܪܢܐ ܗܘܐ ܠܢ ܠܡܠܬܐ ܕܡܚܦܛܐ ܥܠ ܫܦܝܪ̈ܬܐ.
+                  ܘܡܢ ܟܠ ܐܝܟܐ ܕܢܬܒܩܐ ܥܠܬܐ ܕܚܝ̈ܝܢ ܢܣ̇ܒܝܢ ܚܢܢ ܐܢ ܢܨܒܐ. ܡܛܠ ܕܗܟܢܐ ܡܬܩܢ ܥܠܡܐ ܡܢ ܒܪܘܝܗ̣.
+                  ܕܢܗܘܐ ܡܠܦܢܐ ܕܫܦܝܪ̈ܬܐ ܠܒܢ̈ܝܢܫܐ. ܏ܘܫ.</incipit>
+              </msItem>
+              <msItem xml:id="b11" n="46">
+                <locus from="27a"/>
+                <title xml:lang="en">Address of the abbat to brethren and lay persons, who
+                  come to the convent on the feast of the Nativity; to be spoken at the time of
+                  morning prayer, after they have rested from the vigils of the whole night</title>
+                <rubric xml:lang="syr">ܡܡܠܠܐ ܕܡܢ ܪܝܫ ܕܝܪܐ ܠܘܬ ܐ̈ܚܐ ܘܥܠܡ̈ܝܐ ܕܐ̇ܬܝܢ ܠܕܝܪܐ ܒܥܐܕܐ ܕܒܝܬ
+                  ܝܠܕܐ. ܕܡܬܡܠܠ ܒܥܕܢܐ ܕܨܦܪܐ ܡܢ ܒܪ ܕܡܬܬ݁ܢܝܚܝܢ ܡܢ ܫܗܪܐ ܕܠܠܝܐ ܟܘܠܗ </rubric>
+                <incipit xml:lang="syr">ܪܘܪܒܢ ܘܠܐ ܡܬܡܠܠܢ ܛܒ̈ܬܗ ܕܐܠܗܐ ܕܠܘܬ ܓܢܣܐ ܕܡܝܘ̈ܬܐ. ܘܫܘܝܐ
+                  ܪܒܘܬܗܝܢ ܠܪܒܘܬܗ ܕܐܠܗܐ ܥܒܘܕܗܝܢ. ܏ܘܫ.</incipit>
+              </msItem>
+              <msItem xml:id="b12" n="47">
+                <locus from="27b"/>
+                <title xml:lang="en">A similar address on the feast of the Epiphany, at
+                  morning prayer, after the conclusion of the service</title>
+                <rubric xml:lang="syr">ܬܘܒ ܗ̣ܘ ܟܕ ܗ̣ܘ ܢܝܫܐ ܕܡܡܠܠܐ ܕܡܬܡܠܠ ܒܥܐܕܐ ܕܕܢܚܐ ܒܨܦܪܐ ܡܢ ܒܬܪ
+                  ܫܘܠܡܐ ܕܬܫܡܫܬܐ</rubric>
+                <incipit xml:lang="syr">ܒܪܝܟ ܗܼܘ ܥܠܝܐ ܕܒܛܝܒܘܬܗ ܐܫܘܝ ܠܢ ܠܥܕܥ̈ܕܘܗܝ ܩܕܝ̈ܫܐ. ܕܒܬܫ̈ܒܚܬܢ
+                  ܘܙܘܡܪܢ ܕܒܥ̈ܕܘܗܝ ܢܗܘܐ ܚܒܪ̈ܐ ܕܥ̈ܠܝܐ. ܏ܘܫ.</incipit>
+              </msItem>
+              <msItem xml:id="b13" n="48">
+                <locus from="28b"/>
+                <title xml:lang="en">A similar address on the feast of the Resurrection, in
+                  the morning</title>
+                <rubric xml:lang="syr">ܬܘܒ ܡܡܠܠܐ ܐܚܪܢܐ ܕܡܬܡܠܠ ܡܢ ܪܝܫ ܕܝܪܐ ܠܘܬ ܐ̈ܚܐ ܘܠܘܬ ܥܠܡ̈ܝܐ
+                  ܕܡܣܬܩܒܠܝܢ ܒܥܐܕܐ ܕܩܝܡܬܗ ܕܡܪܢ ܒܥܕܢܐ ܕܨܦܪܐ</rubric>
+                <incipit xml:lang="syr">ܟܕ ܟܠܗܘܢ ܥܐ̈ܕܐ ܕܐܫܠܡ ܡܫܝܚܐ ܦܪܘܩܢ ܠܥܕܬܗ ܩܕܝܫܬܐ ܕܚܕܘܬܐ ܐܢܘܢ̣̇
+                  ܝܬܝܪ ܡܢ ܟܠܗܘܢ̣. ܥܐܕܐ ܗܢܐ ܐܝܬܘܗܝ ܕܚܕܘܬܐ. ܏ܘܫ.</incipit>
+              </msItem>
+              <msItem xml:id="b14" n="49">
+                <locus from="29b"/>
+                <title xml:lang="en">Madrasha on Faith</title>
+                <rubric xml:lang="syr">ܡܕܪܫܐ ܕܗܝܡܢܘܬܐ ܥܠ ܩܠܐ ܕܦܪܕܝܣܐ</rubric>
+                <incipit xml:lang="syr">ܝܠܕܗ̇ ܕܥܩܪܬܐ ܐܣ̇ܗܕ ܒܓܘ ܟܪܣܐ. ܕܡܪܝܐ ܘܐܠܗܐ ܒܬܘܠܬܐ ܛܥܝܢܐ ܗܘܬ.
+                  ܒܕܓܘܢ ܡܕܝܨ ܗܘ̣ܐ ܒܓܘ ܡܪܒܥܐ ܕܐܡܗ. ܕܢ̇ܟܣ ܠܛܥ̈ܝܐ ܕܐܡܪܝܢ. ܕܠܐ ܫ̣ܪܐ ܒܓܘ ܟܪܣܐ ܚܝܠܗ ܕܥܠܝܐ.
+                  ܕܘܨܗ ܕܝܘܚܢܢ ܐܟܪܙ ܕܡܪܗ ܗ̣ܘ . ܘ .</incipit>
+              </msItem>
+              <msItem xml:id="b15" n="50">
+                <locus from="31a"/>
+                <title xml:lang="en">Stanzas to the tune of “Kallath Malka”</title>
+                <rubric xml:lang="syr">ܒ̈ܬܐ ܥܠ ܩܠܐ ܕܟܠܬ ܡܠܟܐ</rubric>
+                <incipit xml:lang="syr">ܬܘ ܚܒܝ̈ܒܝ ܢܬܛܦܝܣ ܠܡܠܬ ܥܝܪܐ ܕܐܟܪܙ ܩܘܫܬܐ. ܬܘ ܬܠܡ̈ܝܕܐ ܢܠܦܢܝ ܗܘ
+                  ܪܘܚܢܐ ܕܬܢܐ ܫܪܪܐ. ܗ̣ܘ ܢܦܫܩ ܠܢ ܥܠ ܗ̇ܘ ܕܣܒܪ ܕܒܪ ܡ̇ܢ ܐܝܬܘܗܝ. ܕܡܪܝܐ ܗ̣ܘ ܕܟܠܐ̇. ܘܝܠܕܗ
+                  ܕܥܠܝܐ ܕܢܚܬ ܗܘܐ ܐܢܫܐ ܕܢܥܒܕ ܠܬܚ̈ܬܝܐ ܥ̈ܠܝܐ . ܘ . </incipit>
+              </msItem>
+              <msItem xml:id="b16" n="51">
+                <locus from="12b"/>
+                <title xml:lang="en">Part 17</title>
+                <rubric xml:lang="syr">ܡܡܠܠܐ ܕܪܥܝܢܐ</rubric>
+                <incipit xml:lang="syr">ܐܝܢܐ ܕܡܡܪܚ ܕܢܡܠܠܝܘܗܝ ܠܫܪܪܐ ܠܐ ܝܕܥ̇ ܠܗ ܠܫܪܪܐ. ܝܕܥ ܠܗ ܕܝܢ ܐܝܢܐ
+                    ܕܝܕܥ ܕܠܐ ܡܬܡܠܠ. ܡܡܠܠܗ ܓܝܪ ܕܫܪܪܐ ܫܬܩܐ ܗ̣ܘ. ܘܡܠܬܐ ܕܥܠ ܗܝܡܢܘܬܐ ܡܬܐܡܪܐ ܫܠܝܐ ܗ̣ܘ.
+                    ܏ܘܫ.</incipit>
+              </msItem>
+              <msItem xml:id="b17" n="52">
+                <title xml:lang="en">Eleven homilies for the feast of the Nativity</title>
+                <rubric xml:lang="syr">ܡܐܡܪ̈ܐ ܕܬܘܪܓܡܐ ܕܥܠ ܒܝܬ ܝܠܕܗ ܕܡܪܢ.</rubric>
+                <msItem xml:id="c35" n="53">
+                  <locus from="43a"/>
+                  <title xml:lang="en">Part 1</title>
+                  <incipit xml:lang="syr">ܥܠ ܝܠܕܐ ܕܕܘܡܪܐ ܫܩܠܬܢܝ ܬܪܥܝܬܝ ܕܐܡܠܠ܇ ܘܥܠ ܒܪܐ ܣܓܝܕܐ ܕܩܕܡ
+                      ܙܒ̈ܢܐ ܘܥ̈ܠܡܐ̇. ܥ̇ܨܐ ܠܝ ܚܘܒܐ ܕܐܬܪܓܡ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c36" n="54">
+                  <locus from="45b"/>
+                  <title xml:lang="en">Part 2</title>
+                  <rubric xml:lang="syr">ܬܘܒ ܕܬܪ̈ܝܢ ܕܥܠ ܒܝܬ ܝܠܕܐ, marg.  ܣܘܒܪܐ</rubric>
+                  <incipit xml:lang="syr">ܬܫܒܘܚܬܐ ܚܕܬܐ ܡܬܒܥܝܐ ܠܢ ܕܢܫ̇ܒܚ ܝܘܡܢܐ̣. ܠܝܠܕܐ ܚܕܬܐ ܕܐܬܝܠܕ
+                      ܒܝܬ ܠܚܡ. ܘܩ̈ܠܐ ܪ̈ܘܚܢܐ ܙܕܩ ܠܢ ܕܢܙܡܪ ܠܪܘܚܢܐ ܕܗܘ̣ܐ ܦܓܪܢܐ̣. ܘܕܢܚ̣ ܡܢ ܒܬܘܠܬܐ.
+                      ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c37" n="55">
+                  <locus from="49b"/>
+                  <title xml:lang="en">Part 3</title>
+                  <rubric xml:lang="syr">ܬܘܒ ܕܬܠܬܐ ܕܒܝܬ ܝܠܕܐ</rubric>
+                  <incipit xml:lang="syr">ܠܚܠܘܠܐ ܕܒܝܬ ܝܠܕܗ ܕܬܠܝܬܝܗ̇ ܕܐܝܬܘܬܐ ܒܡܐܡܪܐ ܬܘܒ ܕܬܠܬܐ ܡܬܛܝܒ
+                      ܐܢܐ ܠܡܥܠ. ܟܕ ܐܚܝܕ ܐܢܐ ܟܢܪܐ ܕܡ̈ܢܐ ܚܝ̈ܬܐ. ܘܡܣܟܐ ܐܢܐ ܠܨܒܥܐ ܕܛܝܒܘܬܐ ܕܬܩܘܫ ܒܗ.
+                      ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c38" n="56">
+                  <locus from="55b"/>
+                  <title xml:lang="en">Part 4</title>
+                  <rubric xml:lang="syr">ܬܘܒ ܕܐܪ̈ܒܥܐ ܕܒܝܬ ܝܠܕܐ, marg. ܣܘܒܪܗ ܕܙܟܪܝܐ</rubric>
+                  <incipit xml:lang="syr">ܝܘܡܐ ܩܕܝܫܐ ܕܒܝܬ ܝܠܕܗ ܕܒܪܐ̣. ܡܙܡܢ ܠܝ ܠܡܠܬܐ ܕܬܫܒܘܚܬܗ. ܘܚܠܘܠܐ
+                      ܫܡܝܢܐ ܕܥܐܕܐ ܐܠܗܝܐ: ܩܪܐ̇ ܕܐܪܡܐ ܒܗ ܪܘܡܝܢܐ̣ ܩܘܠܣܐ ܕܬܫܥܝܬܗ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c39" n="57">
+                  <locus from="58b"/>
+                  <title xml:lang="en">Part 5</title>
+                  <rubric xml:lang="syr">ܬܘܒ ܕܚܡܫܐ ܕܒܝܬ ܝܠܕܐ, marg. ܡܘܠܕܐ ܕܝܘܚܢܢ</rubric>
+                  <incipit xml:lang="syr">ܠܫܢܗ ܫܬܝܩܐ ܕܙܟܪܝܐ̣ ܗܘ̣ܐ ܟܪܘܙܐ. ܩܕܡܐܝܬ ܠܡܠܬܐ ܐܠܗܐ̇. ܕܐܬܓܠܝ
+                      ܒܒܣܪ ܒܥܠܡܐ. ܘܒܝܕ ܡܠܬܗ ܐܣܝܪܬܐ̣ ܠܡܠܬ ܪܡܐ ܕܡܬܚܘܐ ܠܒܢ̈ܝ ܐܢܫܐ̇. ܒ̣ܕܡܘܬܗܘܢ ܡ̇ܣܒܪ ܗܘܐ.
+                      ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c40" n="58">
+                  <locus from="62b"/>
+                  <title xml:lang="en">Part 6</title>
+                  <rubric xml:lang="syr">ܬܘܒ ܕܫܬܐ ܕܒܝܬ ܝܠܕܐ</rubric>
+                  <incipit xml:lang="syr">ܡܢܘ ܣ̇ܦܩ ܕܢܫܒܚܝܘܗܝ ܠܗܢܐ ܡܘܠܕܐ̇. ܘܡܢܘ ܡܫܟܚ ܕܢܫܠܐ ܡܢ ܬܫܒܘܚܬܗ
+                      ܕܗܢܐ ܝܠܕܐ ܚܒܝܒܐ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c41" n="59">
+                  <locus from="66a"/>
+                  <title xml:lang="en">Part 7</title>
+                  <rubric xml:lang="syr">ܬܘܒ ܕܫܒܥܐ ܕܒܝܬ ܝܠܕܐ</rubric>
+                  <incipit xml:lang="syr">ܡܨܥܝܐ ܕܐܠܗܐ ܘܕܒ̈ܢܝ ܐܢܫܐ ܐܝܬܘܗܝ ܚܝܠܗ ܕܥܠܝܐ. ܗܢܐ ܕܝܘܡܢܐ ܡܢ
+                      ܒܬܘܠܬܐ ܐܬܝܠܕ ܦܪܘܩܐ ܠܒܪܝܬܐ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c42" n="60">
+                  <locus from="69b"/>
+                  <title xml:lang="en">Part 8</title>
+                  <rubric xml:lang="syr">ܬܘܒ ܕܬܡܢܝܐ ܕܒܝܬ ܝܠܕܐ, marg. ܕܣܘܒܪܐ</rubric>
+                  <incipit xml:lang="syr">ܓܒܪܝܐܝܠ ܓܒܪܐ ܕܐܠܗܐ̣ ܐܫܬܠܚ ܡܢ ܐܠܗܐ̣. ܕܢܐܬܐ ܢܣܒܪܗ̇ ܠܒܬܘܠܬܐ̣
+                      ܕܠܐܠܗܐ ܝܠܕܐ. ܘܪܘܚܢܐ ܡܢ ܒܝܢܬ ܟܢ̈ܫܐ ܕܪ̈ܘܚܢܐ ܐܬܦܪܫ ܘܐܫܬܕܪ̣. ܕܢܝܬܐ ܛܒܐ ܚܕܬܐ ܠܒܪܝܬܐ̇.
+                      ܥܠ ܥܬܝܩ ܥܠܡ̈ܐ̣ ܕܡܬܓܠܐ ܒܗ̇. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c43" n="61">
+                  <locus from="74a"/>
+                  <title xml:lang="en">Part 9</title>
+                  <rubric xml:lang="syr">ܬܘܒ ܕܬܫܥܐ ܕܒܝܬ ܝܠܕܐ, marg. ܦܘܫܩܐ ܕܡܪܢ ܥܡܟܝ</rubric>
+                  <incipit xml:lang="syr">ܡܢ ܡܠܬܗ ܕܡܠܐܟܐ ܙܕܩ̣ ܠܢ ܕܢܣܬܟܠܝܘܗܝ ܠܗܢܐ ܕܐܣܬܒܪ ܡܢܗ̣ ܕܒܪܐ ܗܘ
+                      ܫܪܝܪܐ ܕܡܢ ܥܠܡ ܘܝܠܕܐ ܡܬܘܡܝܐ ܗ̇ܝ ܐܝܬܘܬܐ ܣܓܝܕܬܐ̇. ܘܒܪ ܟܝܢܐ ܗܘ ܕܝܠܘܕܗ. ܘܡܢܗ ܒܩܕܡܐ
+                      ܐܬܝܠܕ ܕܠܐ ܫܘܪܝܐ̣. ܘܗܝܕܝܢ ܠܚܪܬܐ ܒܫܘܪܝܐ ܐܬܝܠܕ ܡܢ ܒܬܘܠܬܐ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c44" n="62">
+                  <locus from="81b"/>
+                  <title xml:lang="en">Part 10</title>
+                  <rubric xml:lang="syr">ܬܘܒ ܕܥܣܪ̈ܐ ܕܒܝܬ ܝܠܕܐ</rubric>
+                  <incipit xml:lang="syr">ܒܪܝܟ ܡܠܟܐ ܡܫܒܚܐ ܕܝܘܡܢܐ ܐܬܝܠܕ ܒܐܦܪܬܐ ܘܐܦܪܝ ܒܦܘܡܐ ܕܥ̈ܠܝܐ
+                      ܬܫܒܘܚܬܐ ܚܕܬܐ ܒܡܘܠܕܗ ܬܗܝܪܐ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c45" n="63">
+                  <locus from="87a"/>
+                  <title xml:lang="en">Part 11</title>
+                  <rubric xml:lang="syr">ܬܘܒ ܕܚܕܥܣܪ ܕܒܝܬ ܝܠܕܐ, marg. ܦܘܫܩܐ ܕܢܒ̈ܝܐ</rubric>
+                  <incipit xml:lang="syr">ܒܪܐ ܕܐܠܗܐ ܒܡܪܚܡܢܘܬܗ̣ ܢܦܫܗ ܣܪܩ ܘܕܡܘܬܐ ܕܥܒܕܐ ܢܣ̣ܒ. ܘܠܡܘܬܐ
+                      ܕܙܩܝܦܐ ܐܫܬܡܥ. ܘܒܕܡܐ ܕܢܦܫܗ̣ ܟܘܡܪܐ ܡܚܣܝܢܐ ܗܘ̣ܐ ܠܟܠܗ ܓܢܣܐ ܕܒ̈ܢܝ ܐܢܫܐ.
+                      ܏ܘܫ.</incipit>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b18" n="64">
+                <title xml:lang="en">Two homilies for the feast of the Epiphany</title>
+                <msItem xml:id="c46" n="65">
+                  <locus from="89b"/>
+                  <title xml:lang="en">Part 1</title>
+                  <rubric xml:lang="syr">ܡܐܡܪܐ ܩܕܡܝܐ ܕܥܠ ܕܢܚܐ</rubric>
+                  <incipit xml:lang="syr">ܒܪܝܟ ܕܢܚܐ ܫܒܝܚܐ ܕܡܫܝܚܐ ܦܪܘܩ̣ܢ. ܕܒܨܡܚܗ ܐܠܗܝܐ ܐܢܗܪ ܒܪ̈ܝܬܐ̇.
+                      ܕܒܚܫܘܟܐ ܘܒ̈ܛܠܠܝ ܡܘܬܐ ܝܬܒܢ ܗ̈ܘܝ. ܘܬܪܨ ܪ̈ܓܠܐ ܬܩ̈ܝܠܬܐ̣ ܒܐܘܪܚܐ ܫܦܝܬܐ ܕܫܠܡܐ.
+                      ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c47" n="66">
+                  <locus from="95a"/>
+                  <title xml:lang="en">Part 2</title>
+                  <rubric xml:lang="syr">ܬܘܒ ܕܬܪ̈ܝܢ ܕܥܠ ܕܢܚܐ</rubric>
+                  <incipit xml:lang="syr">ܡܢ ܥܐܕܐ ܠܥܐܕܐ ܡܪܐ ܕܥܐܕ̈ܐ̣ ܡܝܒܠ ܠܓܙܪ̈ܘܗܝ ܪ̈ܘܚܢܐ. ܕܒܘܣܡ̈ܐ
+                      ܫܡ̈ܝܢܐ̣ ܡܢ ܥܐܕ̈ܐ ܢܩܒܠܘܢ. ܡܢ ܥܐܕܐ ܩܕܡܝܐ ܕܒܝܬ ܝܠܕܐ̣. ܠܥܕܐ ܕܥܡܕܐ. ܏ܘܫ.</incipit>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b19" n="67">
+                <locus from="100a"/>
+                <title xml:lang="en">A homily on <ref target="http://syriaca.org/work/9607">Hebrews, ch. v. 7</ref>
+                </title>
+                <rubric xml:lang="syr">ܡܡܠܠܐ ܥܠ ܗ̇ܝ ܕܐܡ̣ܪ ܦܘܠܘܣ. ܕܗ̇ܘ ܕܒܝܘܡ̈ܬܐ ܕܒܣܪܗ̣ ܒܥܘܬܐ ܘܬܟܫܦܬܐ
+                    ܒܓܥܬܐ ܚܝܠܬܢܝܬܐ ܘܒ̈ܕܡܥܐ ܩܪܒ ܗܘܐ. ܠܡ̇ܢ ܕܡܫܟܚ ܗܘܐ ܕܡܢ ܡܘܬܐ ܢܦܨܝܘܗܝ.</rubric>
+                <incipit xml:lang="syr">ܐܠܘ ܡܫܬܒܩ ܗܘܝܬ ܡܢ ܥܝܛܐ ܕܓܘܕܦ̈ܝܗܘܢ ܕܗ̇ܢܘܢ ܕܐܡܝܢܝܢ ܢܨܝܢ ܥܡ
+                    ܡ̈ܠܐ ܕܪܘܚܐ ܕܐܠܗܐ̣. ܒܫܬܩܐ ܕܓܒܐ ܠܝ ܘܐܝܬܘܗܝ ܡܥܕܪܢܐ ܕܚܝ̈ܝ ܡܟܬܪ ܗܘܝܬ. ܐܠܐ ܡܛܠ ܕܙܕܩ ܠܢ
+                    ܕܠܐ ܢܗܘܐ ܫܬܝ̈ܩܐ. ܐܝܟܐ ܕܫܪܪܐ ܡܢ ܡܪ̈ܚܐ ܡܬܛܠܡ̣. ܡܬܬܙܝܥܝܢ ܐܢܚܢܢ ܕܢܦܢܐ ܦܬܓܡܐ ܟܐܢܐܝܬ
+                    ܠܘܩܒܠ ܒܥܠܕܒ̈ܒܘܗܝ. ܕܠܐ ܢܬܚܝܒ ܡܢܗ ܕܫܪܪܐ ܥܠ ܕܫܬܩܢܢ ܡܢ ܬܘܕܝܬܗ. ܏ܘܫ.</incipit>
+                <note>The last few words are erased, both in the heading and in the
+                    subscription</note>
+              </msItem>
+              <msItem xml:id="b20" n="68">
+                <title xml:lang="en">Three discourses on the Female Sinner (<ref target="http://syriaca.org/work/9648">S. Luke, ch.
+                    vii. 36—50</ref>)</title>
+                <msItem xml:id="c48" n="69">
+                  <locus from="115b"/>
+                  <title xml:lang="en">Part 1</title>
+                  <rubric xml:lang="syr">ܡܐܡܪܐ ܩܕܡܝܐ ܕܥܠ ܚܛܝܬܐ</rubric>
+                  <incipit xml:lang="syr">ܛܘܒܝܗܘܢ ܠܚ̈ܛܝܐ ܕܐ̣ܝܕܐ ܡܢܬܐ ܡܛܬ ܐܢܘܢ ܕܐܠܗܐ ܥܒܝܕ ܣܢܐܓܪܐ
+                    ܚܠܦܝܗܘܢ. ܛܘܒܝܗܘܢ ܠܐܒ̈ܝܕܐ ܕܠܐܝܕܐ ܡܘܗܒܬܐ ܐܫܬܘܝܘ ܕܪܥܝܐ ܕܫܪܪܐ ܢܦܝܩ ܒܒܥܬܗܘܢ̇
+                    ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c49" n="70">
+                  <locus from="120a"/>
+                  <title xml:lang="en">Part 2</title>
+                  <rubric xml:lang="syr">ܬܘܒ ܕܬܪ̈ܝܢ ܕܥܠ ܚܛܝܬܐ</rubric>
+                  <incipit xml:lang="syr">ܝܬܝܪ ܡܢ ܟܘܠ ܫܪ̈ܒܝܢ ܕܡܬܡܠܠܝܢ ܒܣܝܡܐ ܠܟܪܝܗܐ ܬܫܥܝܬܐ ܕܚܘܠܡܢܗ.
+                    ܘܟܕ ܟܠ ܡ̈ܠܝܢ ܠܙܬܐ ܚ̈ܫܝܒܢ ܠܗ. ܒܩܘܛܦ ܪܥܝܢܗ ܕܡܢ ܚܫܐ ܕܟܘܪܗܢܗ. ܫܪܒܐ ܕܐܣܝܘܬܗ ܒܣܝܡܐܝܬ
+                    ܒܢܓܝܪܘܬ ܪܘܚܐ ܫܡ̇ܥ ܠܗ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c50" n="71">
+                  <locus from="126b"/>
+                  <title xml:lang="en">Part 3</title>
+                  <rubric xml:lang="syr">ܬܘܒ ܕܬܠܬܐ ܕܥܠ ܚܛܝܬܐ</rubric>
+                  <incipit xml:lang="syr">ܐܝܠܝܢ ܕܒܥܝܢܐ ܕܗܝܡܢܘܬܐ ܡܬܒܩܝܢ ܒܟܣܝ̈ܬܐ. ܗܢܘܢ ܡܨܝܢ ܗܘܝܢ
+                    ܚܙܝܝ̈ܗܝܢ ܫܪܝܪܐ. ܡܛܠ ܕܟܠ ܚܙܝܐ ܡܕܡ ܕܠܚܡ ܠܗ ܡܫܟܚ ܕܢܚܙܐ. ܐܝܠܝܢ ܓܝܪ ܕܡܚܝܢܢ ܠܦܓܪܐ
+                    ܒܚܙܬܐ ܕܥܝܢ̈ܝ ܦܓܪܐ ܡܬܚܙܝܢ. ܘܐܝܠܝܢ ܕܠܘܬ ܢܦܫܐ ܐܝܬ ܠܗܝܢ ܫܘܬܦܘܬܐ. ܒܥܝܢܐ ܚܠܝܡܬܐ
+                    ܕܗܝܡܢܘܬܗ ܕܢܦܫܐ ܡܬܚܙܝܢ. ܏ܘܫ.</incipit>
+                </msItem>
+              </msItem>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="perg">
+                <extent>
+                  <measure unit="content_pending" quantity="-1"/>
+                </extent>
+                <foliation/>
+                <collation/>
+                <condition>
+                  <list>
+                    <item>
+                      <p>Vellum, about 12 1/4 in. by 9 1/2, consisting of 136 leaves, a few of which
+                        are slightly stained and torn, especially foll. 1, 9, 110, 111, and 136. The
+                        quires, signed with letters from ܐ to ܣ, were originally 15 in number; but
+                        the first is now lost. Each page is divided into two columns, of from 33 to
+                        37 lines. This volume is written by two hands (foll. 1—43 a and foll. 43
+                        a—136) in a fine, elegant Estrangela of the vith cent.</p>
+                    </item>
+                  </list>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <p>Content pending</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
+                <desc/>
+              </handNote>
+            </handDesc>
+            <additions>
+              <list>
+                <item xml:id="addition1" n="1">
+                  <locus from="136b"/>
+                  <p>The original colophon appears to have been erased, and in its place we now
+                    find, fol. 136b, a more modern note, which states that the book was repaired and
+                    bound by one <persName>Ephraim</persName>, at the expense of <persName>Moses and
+                      Aaron, priests and directors of the <placeName ref="http://syriaca.org/place/360">convent of S. Mary
+                        Deipara</placeName>
+                    </persName>. </p>
+                  <p>
+                    <quote xml:lang="syr">ܕܒܩ ܘܚܕܬ ܠܟܬܒܐ ܗܢܐ ܐܦܪܝܡ ܐܟܣܢܝܐ ܒܚܦܝܛܘܬܐ ܕܡܘܫܐ ܘܐܗܪܘܢ ܩܫ̈ܝܫܐ ܘܡܕܒܪ̈ܢܐ ܕܝܠܗ̇
+                    ܕܕܝܪܐ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ ܕܒܡܕܒܪܐ ܕܣܘܪ̈ܝܝܐ ܘܠܐ ܐܢܫ ܫܠܝܛ ܒܡܠܬܐ ܙܝܥܬܐ ܘܕܚܝܠܬܐ ܕܢܠܚܐ
+                    ܠܥܘܗܕܢܐ ܗܢܐ ܏ܘܫ.</quote>
+                  </p>
+                </item>
+                <item xml:id="addition2" n="2">
+                  <locus from="136b"/>
+                  <p>On the same page, between the columns, there is another anathema of later
+                    date.</p>
+                  <p>
+                    <quote xml:lang="syr">ܟܠ ܕܡܦܩ ܠܗ ܠܟܬܒܐ ܗܢܐ ܡܢ ܕܝܪܐ ܗܕܐ. ܐܘ ܦܣܩ ܡܢܗ ܡܕܡ. ܐܘ ܟܐܡ
+                      ܥܠܘܗܝ ܐܘ ܠܚܐ ܥܘܗܕܢܐ ܗܢܐ ܡܚܪܡܐ ܢܗܘܐ ܘܡܣܠܝܐ ܡܢ ܡܪܝܐ ܥܕܡܐ ܕܡܗܦܟ ܠܗ ܠܗܕܐ ܕܝܪܐ ܕܒܝܬ
+                      ܝܠܕܬ ܐܠܗܐ.</quote>
+                  </p>
+                </item>
+              </list>
+            </additions>
+            <bindingDesc>
+              <p>Content pending</p>
+            </bindingDesc>
+            <sealDesc>
+              <p>Content pending</p>
+            </sealDesc>
+            <accMat/>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate notBefore="0500" notAfter="0600">vith cent.</origDate>
+              <origPlace/>
+            </origin>
+            <provenance/>
+            <acquisition/>
+          </history>
+          <additional>
+            <adminInfo>
+                    <recordHist>
+                        <source>Manuscript description based on <bibl>
+                            <ref target="#Wright">Wright's
+                            Catalogue</ref>
+                        </bibl>, abbreviated by the Syriaca.org editors.</source>
+                    </recordHist>
+                    <note/>
+                </adminInfo>
+            <listBibl>
+              <bibl xml:id="Wright">
+                <author>William Wright</author>
+                <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired
+                        since the Year 1838</title>
+                <pubPlace>London</pubPlace>
+                <date>1870</date>
+                <ptr target="http://syriaca.org/bibl/8"/>
+                <citedRange unit="entry">DCCXXXVIII</citedRange>
+                <citedRange unit="pp">2:661-668</citedRange>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <interpretation>
+                <p>Description is based on Wright's Catalogue without consultation of physical
+                    manuscripts. Foliation is approximate. Wright often does not indicate ending folia so
+                    those have been assumed based on beginning folia.</p>
+                <p>Scribal notes which could not be more clearly classified based on Wright's descriptions
+                    have been identified as &lt;addition&gt;s whether they occur in the margins or the body
+                    of the manuscript.</p>
+                <p>In general, we have classified as an &lt;msItem&gt; as much of the manuscript contents
+                    as possible, including tables of contents and indices.</p>
+            </interpretation>
+        </editorialDecl>
+        <classDecl>
+            <taxonomy xml:id="Wright-BL-Taxonomy">
+                <bibl>
+                    <ref target="#Wright"/>
+                    <ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy.html"/>
+                </bibl>
+                <category xml:id="biblical-manuscripts">
+                    <category xml:id="bible-ot">
+                        <catDesc>Old Testament</catDesc>
+                    </category>
+                    <category xml:id="bible-nt">
+                        <catDesc>New Testament</catDesc>
+                    </category>
+                    <category xml:id="bible-apocrypha">
+                        <catDesc>Apocrypha</catDesc>
+                    </category>
+                    <category xml:id="bible-punctuation">
+                        <catDesc>Punctuation</catDesc>
+                    </category>
+                </category>
+                <category xml:id="service-books">
+                    <category xml:id="psalter">
+                        <catDesc>Psalters</catDesc>
+                    </category>
+                    <category xml:id="lectionaries">
+                        <catDesc>Lectionaries</catDesc>
+                    </category>
+                    <category xml:id="missals">
+                        <catDesc>Missals</catDesc>
+                    </category>
+                    <category xml:id="sacerdotals">
+                        <catDesc>Sacerdotals</catDesc>
+                    </category>
+                    <category xml:id="choral">
+                        <catDesc>Choral Books</catDesc>
+                    </category>
+                    <category xml:id="hymns">
+                        <catDesc>Hymns</catDesc>
+                    </category>
+                    <category xml:id="prayers">
+                        <catDesc>Prayers</catDesc>
+                    </category>
+                    <category xml:id="funerals">
+                        <catDesc>Funeral Services</catDesc>
+                    </category>
+                </category>
+                <category xml:id="theology">
+                    <category xml:id="theo-single">
+                        <catDesc>Individual Authors</catDesc>
+                    </category>
+                    <category xml:id="theo-collected">
+                        <catDesc>Collected Authors</catDesc>
+                    </category>
+                    <category xml:id="theo-catenae">
+                        <catDesc>Catenae Patrum and Demonstrations against Heresies</catDesc>
+                    </category>
+                    <category xml:id="theo-anonymous">
+                        <catDesc>Anonymous Works</catDesc>
+                    </category>
+                    <category xml:id="theo-council">
+                        <catDesc>Councils of the Church and Ecclesioastical Canons</catDesc>
+                    </category>
+                </category>
+                <category xml:id="wright-history">
+                    <category xml:id="history">
+                        <catDesc>History</catDesc>
+                    </category>
+                </category>
+                <category xml:id="lives">
+                    <category xml:id="lives-collect">
+                        <catDesc>Collected Lives</catDesc>
+                    </category>
+                    <category xml:id="lives-single">
+                        <catDesc>Single Lives</catDesc>
+                    </category>
+                </category>
+                <category xml:id="scientific-lit">
+                    <category xml:id="sci-logic">
+                        <catDesc>Logic and Rhetoric</catDesc>
+                    </category>
+                    <category xml:id="sci-grammar">
+                        <catDesc>Grammar and Lexicography</catDesc>
+                    </category>
+                    <category xml:id="sci-ethics">
+                        <catDesc>Ethics</catDesc>
+                    </category>
+                    <category xml:id="sci-medicine">
+                        <catDesc>Medicine</catDesc>
+                    </category>
+                    <category xml:id="sci-agriculture">
+                        <catDesc>Agriculture</catDesc>
+                    </category>
+                    <category xml:id="sci-chemistry">
+                        <catDesc>Chemistry</catDesc>
+                    </category>
+                    <category xml:id="sci-natural-history">
+                        <catDesc>Natural History</catDesc>
+                    </category>
+                </category>
+                <category xml:id="wright-fly-leaves">
+                    <category xml:id="fly-leaves">
+                        <catDesc>Fly Leaves</catDesc>
+                    </category>
+                </category>
+                <category xml:id="appendices">
+                    <category xml:id="appendix-a">
+                        <catDesc>Appendix A</catDesc>
+                    </category>
+                    <category xml:id="appendix-b">
+                        <catDesc>Appendix B</catDesc>
+                    </category>
+                </category>
+            </taxonomy>
+        </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+            <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            <language ident="syr-Syre">Syriac in Estrangela</language>
+            <language ident="syr-Syrj">Vocalized West Syriac</language>
+            <language ident="syr-Syrn">Vocalized East Syriac</language>
+            <language ident="syr-x-syrm">Melkite Syriac</language>
+            <language ident="syr-x-syrp">Palestinian Syriac</language>
+            <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
+            <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
+            <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="cop">Coptic</language>
+        </langUsage>
+      <textClass>
+        <keywords scheme="#Wright-BL-Taxonomy">
+          <list>
+            <item>
+              <ref target="#theo-collected"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-02-01">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+      <change who="http://syriaca.org/documentation/editors.xml#cchen">Initial TEI encoding.</change>
+      <change type="planned" subtype="question">Question in Word Doc to be Addressed: the "Sixteen
+        Short Addresses" MSitem contains 12 items, unclear which are flawed. WLP: Wright says the first three are missing and the fourth only has  a few remaining lines (2:661).</change>
+      <change type="planned" subtype="question"/>
+      <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
+        encoding, check the additions section</change>
+      <change type="planned" subtype="question">Question in Word Doc to be Addressed: is S. Mary
+        Deipara origplace? (check additions)</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <formula>Content pending</formula>
+  </facsimile>
+  <text>
+    <body>
+      <bibl>Content pending</bibl>
+    </body>
+  </text>
+</TEI>
