@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14738, foll.85-89</title>
+        <title level="a" xml:lang="en">BL Add MS 14738, foll. 85-89</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,10 +83,11 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
+              <locus from="85a" to="89b"/>
               <title xml:lang="en">Extracts from several writers</title>
               <msItem xml:id="b1" n="2">
                 <locus from="85a"/>
-                <author ref="http://syriaca.org/person/1320">John the monk</author>
+                <author>John the monk</author>
                 <title xml:lang="en">John the monk, on Love</title>
                 <rubric xml:lang="syr">ܕܥܠ ܚܘܒܐ</rubric>
                 <incipit xml:lang="syr">ܐܘܡܢ ܗܘ ܓܝܪ. ܚܒ̈ܝܒܝܢ. ܒܥܠܕܪܢ. ܘܨܢܝܥ ܕܠܩܘܼܒܠܢ ܘܡܬܟܲܬܫ.
@@ -93,41 +95,44 @@
               </msItem>
               <msItem xml:id="b2" n="3">
                 <author>Thomas</author>
-                <title xml:lang="en">Thomas</title>
+                <title xml:lang="en">Extracts from <persName>Thomas</persName></title>
                 <rubric xml:lang="syr">ܕܬܘܡܐ ܛܘܼܒܢܐ</rubric>
                 <msItem xml:id="c1" n="4" defective="true">
                   <locus from="85b"/>
-                  <title xml:lang="en">Beginning</title>
+                  <author>Thomas</author>
+                  <title xml:lang="en">Part a</title>
                   <incipit xml:lang="syr"> ܠܐ ܡܫ̣ܟܚ ܕܒܥܢܝ̣ܢܐ ܕܠܐܗ ܢܗܘ̣ܐ ܘܕܒܢ̈ܝܢܫܐ̣. ܘܠܐ ܟܕ ܩܲܪܝܒ ܐܢܫ
                     ܠܓܢ̣ܣܗ ܦܓܪܢܝܐ̣. ܢܬܩܲܪܒ ܠܪ̈ܘܚܢܝܬܐ. ܏ܘܫ.</incipit>
                 </msItem>
                 <msItem xml:id="c2" n="5">
                   <locus from="86a"/>
-                  <title xml:lang="syr">ܥܠ ܣ̣ܬܘܪܝܐ ܘܕܠܐ ܢܕܘܢ ܠܩܪܝܒܐ</title>
+                  <author>Thomas</author>
+                  <title xml:lang="en">Part b</title>
+                  <rubric xml:lang="syr">ܥܠ ܣ̣ܬܘܪܝܐ ܘܕܠܐ ܢܕܘܢ ܠܩܪܝܒܐ</rubric>
                   <incipit xml:lang="syr">ܫ̇ܡܥܬ ܠܣ̇ܬܘܪ̈ܐ ܘܟ̇ܐܝܬ ܒܗܘܢ܆ ܘܗܕܐ ܡܦܲܢܝܢ ܗܘܘ ܠܝ ܦܥ̈ܠܐ
                     ܕܒܝܫ̣ܘܬܐ. ܏ܘܫ.</incipit>
                 </msItem>
               </msItem>
               <msItem xml:id="b3" n="6">
                 <locus from="86a"/>
-                <author>Basil</author>
-                <title xml:lang="en">Basil</title>
+                <author ref="https://syriaca.org/person/376">Basil</author>
+                <title xml:lang="en">Extract from <persName ref="https://syriaca.org/person/376">Basil</persName></title>
                 <rubric xml:lang="syr">ܕܡܪܝ ܒܣܝܠܠܝܘܣ</rubric>
                 <incipit xml:lang="syr">ܙܕܩ̇ ܠܗ ܠܕܝܪܝܐ ܕܢܗ̣ܘܐ ܐܝܬ ܠܗ ܗܠܝܢ ܕܘܒܪ̈ܐ ܡܣܲܪ̈ܩܐ</incipit>
                 <note>See <bibl>Opera, t. ii., p. 295</bibl>.</note>
               </msItem>
               <msItem xml:id="b4" n="7">
                 <locus from="87a"/>
-                <author>Abraham Nephtarenus</author>
-                <title xml:lang="en">Abraham Nephtarenus</title>
+                <author ref="https://syriaca.org/person/321">Abraham Nephtarenus</author>
+                <title xml:lang="en">Extract from <persName ref="https://syriaca.org/person/321">Abraham Nephtarenus</persName></title>
                 <rubric xml:lang="syr">ܕܡܪܝ ܐܒܪܗܡ ܢ̇ܦ̣ܬܪܝܐ</rubric>
                 <incipit xml:lang="syr"> ܡܛܠ ܕܚ̣ܙܝܬܟ ܕܨ̇ܒܐ ܐܢܬ ܠܡܐܙ̇ܠ ܠܚܝ̈ܐ. ܏ܘܫ.</incipit>
                 <note>See <bibl>Assemani, Bibl. Or., t. i., p. 464, no 1</bibl>.</note>
               </msItem>
               <msItem xml:id="b5" n="8" defective="true">
                 <locus from="88b"/>
-                <author>Xystus</author>
-                <title xml:lang="en">Xystus</title>
+                <author ref="https://syriaca.org/person/22">Xystus</author>
+                <title xml:lang="en">Extract from <persName ref="https://syriaca.org/person/22">Xystus</persName></title>
                 <rubric xml:lang="syr">ܟܣܘܣܛܘܣ</rubric>
                 <incipit xml:lang="syr">ܙܕܝܩܐ ܒܟܠ̣ܙܒܢ ܠܐܠܗܐ ܢ̇ܩ̣ܝܦ</incipit>
               </msItem>
@@ -146,8 +151,7 @@
                     <item>
                       <p>Five paper leaves, about 9 in. by 6, all more or less torn, forming part of
                         the 21st quire of a manuscript (Add. 14,738, foll. 85—89). There are from 29
-                        to 31 lines in each page. The writing is good and regular, of the xiiith or
-                        xivth cent.</p>
+                        to 31 lines in each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -158,7 +162,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>The writing is good and regular, of the <origDate notBefore="1200" notAfter="1400">xiiith or xivth cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -362,6 +366,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-02">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-07">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#cchen">Initial TEI encoding.</change>
     </revisionDesc>
