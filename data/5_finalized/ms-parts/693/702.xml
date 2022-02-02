@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#aahn">Alexys Ahn</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#aahn">Alexys Ahn</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -84,14 +85,14 @@
             <msItem xml:id="a1" n="1" defective="true">
               <locus from="37a"/>
               <title xml:lang="en">Part of a Choral Service-book, containing hymns and
-                prayers (ܩ̈ܠܐ ܘܒ̈ܥܘܬܐ) for the festivals of the whole year</title>
+                prayers for the festivals of the whole year</title>
               <rubric xml:lang="syr">ܩ̈ܠܐ ܘܒ̈ܥܘܬܐ</rubric>
               <msItem xml:id="b1" n="2">
                 <locus from="37a"/>
                 <title xml:lang="en">The Commemoration of <persName ref="http://syriaca.org/person/376">Basil</persName> and
                     <persName>Gregory</persName>
                 </title>
-                <note>imperfect at the beginning</note>
+                <note>Imperfect at the beginning.</note>
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus from="39b"/>
@@ -126,8 +127,7 @@
               </msItem>
               <msItem xml:id="b7" n="8">
                 <locus from="57b"/>
-                <author ref="http://syriaca.org/person/51">Severus of Antioch</author>
-                <title xml:lang="en">Of <persName>Severus of Antioch</persName>
+                <title xml:lang="en">Of <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>
                 </title>
                 <rubric xml:lang="syr">ܛܟܣ̣ܐ ܕܥܠ ܏ܩܕ ܡܪܝ ܣܐܘܪܐ ܦܛܪܝܪܟܐ</rubric>
               </msItem>
@@ -140,7 +140,7 @@
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -162,7 +162,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>The writing is good and regular, of the xiiith cent</desc>
+                <desc>The writing is good and regular, of the <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -176,7 +176,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1200" notAfter="1300">of the xiiith cent.</origDate>
+              <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -366,6 +366,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-02">Edits to msContents and origDate</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-18">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#aahn">Initial TEI encoding.</change>
     </revisionDesc>
