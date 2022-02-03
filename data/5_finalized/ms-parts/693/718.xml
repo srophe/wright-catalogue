@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14738 fol. 119.</title>
+        <title level="a" xml:lang="en">BL Add MS 14738, fol. 119.</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/718</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14738 fol. 119.</idno>
+              <idno type="BL-Shelfmark">Add MS 14738, fol. 119.</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,11 +82,17 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
+              <locus from="119a"/>
+              <title xml:lang="en" type="supplied">A portion of a letter, in which various persons are named</title>
+            </msItem>
+            <msItem xml:id="a2" n="2" defective="true">
+              <locus from="119b"/>
+              <title xml:lang="en" type="supplied">A portion of a discourse</title>
             </msItem>
           </msContents>
                <physDesc>
                   <objectDesc form="codex">
-                     <supportDesc material="perg">
+                     <supportDesc material="chart">
                         <extent>
                            <measure unit="content_pending" quantity="-1"/>
                         </extent>
@@ -94,10 +101,7 @@
                         <condition>
                            <list>
                               <item>
-                                 <p>It is part of a paper leaf, probably the last of a volume. It
-                                    contains, on the verso, a portion of a discourse, and on the
-                                    recto, a portion of a letter, in which various persons are
-                                    named.</p>
+                                 <p>It is part of a paper leaf, probably the last of a volume.</p>
                               </item>
                            </list>
                         </condition>
@@ -107,12 +111,11 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc hands="2">
-              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
-                        <desc>The first part (a portion of a discourse) is written in a small, neat hand of the <origDate notBefore="1000" notAfter="1100">xith cent</origDate>.</desc>
+              <handNote medium="unknown" xml:id="handNote1" scope="minor" script="syr">
+                        <desc>Fol. <locus from="119a">119a</locus> is written in a large, coarse hand of the <origDate notBefore="1000" notAfter="1200">xith or xiith cent.</origDate></desc>
                      </handNote>
               <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
-                        <desc>The second part (a portion of a letter) is written in a large, coarse hand of the <origDate notBefore="1000" notAfter="1200">xith or
-                           xiith cent</origDate>.</desc>
+                        <desc>Fol. <locus from="119b">119b</locus> is written in a small, neat hand of the <origDate notBefore="1000" notAfter="1100">xith cent.</origDate></desc>
                      </handNote>
             </handDesc>
                   <additions>
@@ -137,7 +140,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="1000" notAfter="1200"/>
+                     <origDate notBefore="1000" notAfter="1100">xith cent.</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
@@ -327,6 +330,7 @@
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
+        <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-03">Edits to msContents and origDate</change>
          <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-08-10" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
