@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17213 foll. 8—10</title>
+        <title level="a" xml:lang="en">BL Add MS 17213, foll. 8—10</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/879</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17213 foll. 8—10</idno>
+              <idno type="BL-Shelfmark">Add MS 17213, foll. 8—10</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,21 +82,21 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <title xml:lang="en">1. Part of a discourse of <persName ref="http://syriaca.org/person/512">Gregory Nyssen</persName> on
+              <author ref="http://syriaca.org/person/512">Gregory Nyssen</author>
+              <title xml:lang="en">Part of a discourse of <persName ref="http://syriaca.org/person/512">Gregory Nyssen</persName> on
                            <persName ref="http://syriaca.org/person/1711">S. Stephen the
                            protomartyr</persName>
               </title>
-              <note>See Opera, t. iii., p. 354.</note>
-              <note>The text begins, on <locus from="8a">fol. 8 a</locus>, with the passage
-                        corresponding to p. 355,1.20, <foreign xml:lang="grc">τὸ γὰρ ἑτοίμως τοῦτον
-                           καταλιπεῖν τὸν βίον, κ.τ.λ.</foreign>; and ends with p. 362,1. 32,
+              <note>See <bibl>Opera, t. iii., p. 354</bibl>. The text begins, on <locus from="8a">fol. 8 a</locus>, with the passage
+                        corresponding to <bibl>p. 355, l. 20</bibl>, <foreign xml:lang="grc">τὸ γὰρ ἑτοίμως τοῦτον
+                           καταλιπεῖν τὸν βίον, κ.τ.λ.</foreign>; and ends with <bibl>p. 362, l. 32</bibl>,
                            <foreign xml:lang="grc">τοῖς δὲ ἀντικειμένοις φέρειν τὸν
                            ὄλεθρον</foreign>.</note>
             </msItem>
             <msItem xml:id="a2" n="2" defective="true">
               <locus from="10a"/>
-              <title xml:lang="en">2. Part of a metrical discourse of <persName ref="http://syriaca.org/person/42">Jacob of Batnae</persName> on the
-                        parable of the Vineyard, <title>S. Matthew</title>, ch. xxi. 38</title>
+              <title xml:lang="en">Part of a metrical discourse of <persName ref="http://syriaca.org/person/42">Jacob of Batnae</persName> on the
+                        parable of the Vineyard, <title ref="https://syriaca.org/work/9646">S. Matthew, ch. xxi. 38</title></title>
             </msItem>
           </msContents>
                <physDesc>
@@ -123,7 +124,7 @@
                   <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr-Syre">
                         <desc>The writing is a neat, regular Estrangela of the
-                           <origDate notBefore="0700" notAfter="0900">viiith or ixth cent</origDate>.</desc>
+                           <origDate notBefore="0700" notAfter="0900">viiith or ixth cent.</origDate></desc>
                      </handNote>
             </handDesc>
                   <additions>
@@ -148,7 +149,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate/>
+                     <origDate notBefore="0700" notAfter="0900">viiith or ixth cent.</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
@@ -338,6 +339,7 @@
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
+        <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-03">Edits to msContents and origDate</change>
          <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-08-06" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
