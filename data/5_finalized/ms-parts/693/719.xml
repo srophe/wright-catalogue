@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14738 fol. 120</title>
+        <title level="a" xml:lang="en">BL Add MS 14738, fol. 120</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/719</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14738 fol. 120</idno>
+              <idno type="BL-Shelfmark">Add MS 14738, fol. 120</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,6 +82,7 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
+              <locus from="120a" to="120b"/>
               <title xml:lang="en">Histories of holy men</title>
               <rubric xml:lang="syr">ܬܫ̈ܥܝܬܐ ܕܩܕܝ̈ܫܐ</rubric>
             </msItem>
@@ -114,13 +116,13 @@
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                           <locus/>
+                           <locus from="120a"/>
                            <p>On the recto there is a note, stating that the volume was read by
-                                 <persName>a monk named John</persName>, from the <placeName>convent
-                                 of Mar Simeon at <placeName>Kartamin</placeName>
+                                 a monk named <persName>John</persName>, from the <placeName>convent
+                                 of Mar Simeon at <placeName ref="https://syriaca.org/place/244">Kartamin</placeName>
                     </placeName>. He entered the
                               <placeName ref="http://syriaca.org/place/360">convent of S. Mary Deipara</placeName>, in the year
-                                 <date>1721</date>, <date calendar="Gregorian" when="1413">A.D. 1413</date>, at which time there was
+                                 <date datingMethod="Seleucid" when-custom="1721">1721</date>, <date calendar="Gregorian" when="1413">A.D. 1413</date>, at which time there was
                               only one monk there.</p>
                            <p>
                     <quote xml:lang="syr">ܦܓ̇ܥܬ ܒܟܬܒܐ ܗܢܐ ܕܬܫܥ̈ܝܬܐ ܕܩܕܝ̈ܫܐ ܐܢܐ ܝܘܚܢܢ ܕܝܪܝܐ ܡܕܒܪܝܐ ܡܢ ܥܘܡܪܐ ܕܒܝܬ ܡܪܝ
@@ -333,6 +335,7 @@
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
+        <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-03">Edits to msContents and additions</change>
          <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-08-03" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
