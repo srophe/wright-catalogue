@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -81,37 +82,39 @@
           <msContents>
             <summary/>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1">
+            <msItem xml:id="a1" n="1" defective="true">
               <locus from="21a"/>
-              <author ref="430">Cyril of Alexandria</author>
-              <title xml:lang="en">Selections from the treatise of Cyril of Alexandria on
+              <author ref="https://syriaca.org/person/430">Cyril of Alexandria</author>
+              <title xml:lang="en">Selections from the treatise of <persName ref="https://syriaca.org/person/430">Cyril of Alexandria</persName> on
                 Worship in Spirit and in Truth</title>
               <rubric xml:lang="syr">ܬܘܒ ܬܚ̈ܘܝܬܐ ܕܡ̈ܬܟܢܫܢ ܒܫܩܠ ܛܥܢܐ̣. ܡܢ ܟܬܒܐ ܕܥܠ ܬܫܡܫܬܐ ܕܒܪܘܚ܆
                 ܕܩܕܝܫܐ ܩܘܪܝܠܘܣ</rubric>
+                <note>Very imperfect.</note>
             </msItem>
             <msItem xml:id="a2" n="2">
+              <locus from="30a"/>
               <author>Gregory the Monk</author>
-              <title xml:lang="en">Writings of Gregory the Monk</title>
+              <title xml:lang="en">Writings of <persName>Gregory the Monk</persName></title>
               <msItem xml:id="b1" n="3">
                 <locus from="30a"/>
                 <author>Gregory the Monk</author>
-                <title xml:lang="en">Part of the tract ܕܥܠ ܓܘ̈ܢܐ ܕܫܐܕ̈ܐ </title>
-                <rubric xml:lang="syr">ܕܥܠ ܓܘ̈ܢܐ ܕܫܐܕ̈ܐ </rubric>
-                <note>See Add. 12,163, fol. 241 b.</note>
+                <title xml:lang="en">Part of a tract</title>
+                <rubric xml:lang="syr">ܕܥܠ ܓܘ̈ܢܐ ܕܫܐܕ̈ܐ</rubric>
+                <note>See <bibl>Add. 12,163<ptr target="http://syriaca.org/manuscript/1225"/>, fol. <citedRange unit="locus">241 b</citedRange></bibl>.</note>
               </msItem>
               <msItem xml:id="b2" n="4">
                 <locus from="31a"/>
                 <author>Gregory the Monk</author>
-                <title xml:lang="en">Fragments of the tract ܥܠ ܬܐܘܪܝܐ ܩܕܝܫܬܐ</title>
+                <title xml:lang="en">Fragments of a tract</title>
                 <rubric xml:lang="syr">ܥܠ ܬܐܘܪܝܐ ܩܕܝܫܬܐ</rubric>
-                <note>See Add. 12,163, fol. 262 a</note>
+                <note>See <bibl>Add. 12,163<ptr target="http://syriaca.org/manuscript/1225"/>, fol. <citedRange unit="locus">262 a</citedRange></bibl>.</note>
               </msItem>
               <msItem xml:id="b3" n="5">
                 <locus from="35b"/>
                 <author>Gregory the Monk</author>
                 <title xml:lang="en">Part of the dialogue with the brethren</title>
                 <rubric xml:lang="syr">ܥܠ ܦܘܠܚܢܐ ܕܡܝܬܪ̈ܬܐ</rubric>
-                <note>See Add. 12,163, fol. 280 b.</note>
+                <note>See <bibl>Add. 12,163<ptr target="http://syriaca.org/manuscript/1225"/>, fol. <citedRange unit="locus">280 b</citedRange></bibl>.</note>
               </msItem>
             </msItem>
             <msItem xml:id="a3" n="6">
