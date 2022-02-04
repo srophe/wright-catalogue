@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17213, fol. 19.</title>
+        <title level="a" xml:lang="en">BL Add MS 17213, fol. 19</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,8 +83,8 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="1"/>
-              <title xml:lang="en">part of a life of <persName ref="http://syriaca.org/person/548">Isaiah of <placeName ref="http://syriaca.org/place/289">Scete</placeName>
+              <locus from="19a" to="19b"/>
+              <title xml:lang="en">Part of a life of <persName ref="http://syriaca.org/person/548">Isaiah of <placeName ref="http://syriaca.org/place/289">Scete</placeName>
                 </persName>
               </title>
               <incipit xml:lang="syr">ܛܘܒܢܐ ܗܟܝܠ ܐܒܐ ܐܫܥܝܐ̣. ܒܓܢܣܗ ܐܝܬܘܗܝ ܗܘܐ ܡܨܪܝܐ. ܏ܘܫ</incipit>
@@ -101,8 +102,7 @@
                   <list>
                     <item>
                       <p>A vellum leaf, about 12 5/8 in. by 7 5/8, much torn. There are 30 lines in
-                        the one page, and 32 in the other. It is written in a current hand of the
-                        xth or xith cent.</p>
+                        the one page, and 32 in the other.</p>
                     </item>
                   </list>
                 </condition>
@@ -113,7 +113,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>It is written in a current hand of the <origDate notBefore="0900" notAfter="1100">xth or xith cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -153,7 +153,7 @@
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
                 <citedRange unit="entry">DCCCCLXXVII</citedRange>
-                <citedRange unit="pp">3:115</citedRange>
+                <citedRange unit="pp">3:1150</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -318,6 +318,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-04">Edits to handDesc and additional</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-28">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI encoding.</change>
     </revisionDesc>
