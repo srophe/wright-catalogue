@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17213, fol. 11.</title>
+        <title level="a" xml:lang="en">BL Add MS 17213, fol. 41a</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/890</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17213, fol. 41</idno>
+              <idno type="BL-Shelfmark">Add MS 17213, fol. 41a</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -82,20 +83,12 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <author>Zakhe Ya'kub</author>
-              <author>the recluse John, of the convent of Mar Matthew</author>
+              <locus from="41a"/>
               <title xml:lang="en">A note to the effect that the manuscript, to which it
-                belonged, was presented, with several others, to the convent of <placeName ref="http://syriaca.org/place/360">S. Mary Deipara</placeName>, by Zakhe Ya'kub,
-                the oriental, and the recluse John, of the convent of <placeName>Mar
+                belonged, was presented, with several others, to <placeName ref="http://syriaca.org/place/360">the convent of S. Mary Deipara</placeName>, by <persName>Zakhe Ya'kub</persName>,
+                the oriental, and the recluse <persName>John</persName>, of <placeName ref="http://syriaca.org/place/227">the convent of Mar
                   Matthew</placeName>.</title>
-              <rubric xml:lang="syr">ܗܕܐ ܦܢܩܝܬܐ ܥܡ ܟ̈ܬܒܐ ܐܚܪ̈ܢܐ ܫܲܟܢ ܠܗܘܢ ܙܟ̇ܐ ܝܥܩܘܒ ܡܕܢܚܝܐ. ܘܝܘܚܢܢ
-                ܟܘܪܚܝܐ (؟) ܐܘܟܝܬ ܡܲܬܝܐ ܘܚܒܝܫܝܐ̣. ܠـ[ܕܝܪܐ] ܩܕܝܫܬܐ ܕܒܝܬ ܝܠ̣ܕܬ̇ ܐܠܗܐ ܡܪܬܝ ܡܪܝܡ ܐܝܟ
-                ܕ[ܢܗܘܘܢ] ܠܗܘܢ ܥܠ̣ܬ ܥܘܗܕܢܐ ܠܟܠ ܦܪܘܫܐ ܕܢܩܪܐ [ܒܗ]ܘܢ ܘܢܐܡܪ ܕܐܠܗܐ ܚܲܣܐ ܘܫܒܘܩ ܚܘܒ̈ܝܗ[ܘܢ]
-                ܕܗ̇ܢܘܢ ܕܫܲܟܢ ܠܗܘܢ ܠܕܘܟܬܐ ܗܕܐ ܩܕܝܫܬ[ܐ. ܘܠܐ] ܫܠܝܛ ܠܐܢܫ ܡܢ ܒܢ̈ܝܢܫܐ ܕܢܟܘܡ ܥܠܝܗܘܢ. ܏ܘܫ.
-                ܘܫܟܢ ܥܡ ܗܠܝܢ ܟ̈ܬܒܐ ܬܘܒ ܟܬܒܐ ܕܦܪ . . . ܦܘܫܩܐ ܕܘܕ̈ܕܐ(sic)ܫܦܝܪܐ ܚ̣ܕܬܐ . . . ܡܢ ܥܘܡܪܐ
-                ܛܒܝ̣ܒܐ ܕܡܪܝ ܡܬܝ ܢܨܝـ[ـܚܐ] ܘܟܬܒ̈ܐ ܐܚܪ̈ܢܐ ܕܝܕܥ̇ ܠܗܘܢ . . . ܟܠ ܕܢ̇ܛܪ ܠܗܘܢ ܐܠܗܐ
-                ܢܢܛܪܝܘܗ[ܝ.] ܕܫ̇ܩܠ ܠܗܘܢ ܠܢܦܫܗ ܢܫܩܘܠ ܐ[ܒܕܢܐ] ܠܚܝ̈ܘܗܝ ܐܡܝܢ ܐܡܝܢ. ܗܘܝ ܗܠܝܢ [ܒܫܢܬ] ܐܠܦ
-                ܘܚܡ̈ܫ ܡ̈ܐܐ ܘܥܣܪ̈ܝܢ ܕܝܘ̈[ܢܝܐ.] ܒܪܟܡܪ[ܝ].</rubric>
+              <quote xml:lang="syr">ܗܕܐ ܦܢܩܝܬܐ ܥܡ ܟ̈ܬܒܐ ܐܚܪ̈ܢܐ ܫܲܟܢ ܠܗܘܢ ܙܟ̇ܐ ܝܥܩܘܒ ܡܕܢܚܝܐ. ܘܝܘܚܢܢ ܟܘܪܚܝܐ (؟) ܐܘܟܝܬ ܡܲܬܝܐ ܘܚܒܝܫܝܐ̣. ܠـ[ܕܝܪܐ] ܩܕܝܫܬܐ ܕܒܝܬ ܝܠ̣ܕܬ̇ ܐܠܗܐ ܡܪܬܝ ܡܪܝܡ ܐܝܟ ܕ[ܢܗܘܘܢ] ܠܗܘܢ ܥܠ̣ܬ ܥܘܗܕܢܐ ܠܟܠ ܦܪܘܫܐ ܕܢܩܪܐ [ܒܗ]ܘܢ ܘܢܐܡܪ ܕܐܠܗܐ ܚܲܣܐ ܘܫܒܘܩ ܚܘܒ̈ܝܗ[ܘܢ] ܕܗ̇ܢܘܢ ܕܫܲܟܢ ܠܗܘܢ ܠܕܘܟܬܐ ܗܕܐ ܩܕܝܫܬ[ܐ. ܘܠܐ] ܫܠܝܛ ܠܐܢܫ  ܡܢ  ܒܢ̈ܝܢܫܐ ܕܢܟܘܡ ܥܠܝܗܘܢ. ܏ܘܫ. ܘܫܟܢ  ܥܡ ܗܠܝܢ ܟ̈ܬܒܐ ܬܘܒ ܟܬܒܐ  ܕܦܪ . . . ܦܘܫܩܐ ܕܘܕ̈ܕܐ <foreign xml:lang="en">(sic)</foreign> ܫܦܝܪܐ ܚ̣ܕܬܐ . . . ܡܢ ܥܘܡܪܐ ܛܒܝ̣ܒܐ ܕܡܪܝ ܡܬܝ ܢܨܝـ[ـܚܐ] ܘܟܬܒ̈ܐ ܐܚܪ̈ܢܐ ܕܝܕܥ̇ ܠܗܘܢ . . . ܟܠ ܕܢ̇ܛܪ ܠܗܘܢ ܐܠܗܐ ܢܢܛܪܝܘܗ[ܝ.] ܕܫ̇ܩܠ ܠܗܘܢ ܠܢܦܫܗ ܢܫܩܘܠ ܐ[ܒܕܢܐ] ܠܚܝ̈ܘܗܝ ܐܡܝܢ ܐܡܝܢ. ܗܘܝ ܗܠܝܢ [ܒܫܢܬ] ܐܠܦ ܘܚܡ̈ܫ ܡ̈ܐܐ ܘܥܣܪ̈ܝܢ ܕܝܘ̈[ܢܝܐ.] ܒܪܟܡܪ[ܝ].</quote>
             </msItem>
           </msContents>
           <physDesc>
@@ -135,9 +128,9 @@
           </physDesc>
           <history>
             <origin>
-              <origDate when="1209">A.D. 1209</origDate>
+              <origDate calendar="Gregorian" when="1209">A.D. 1209</origDate>
               <origDate datingMethod="Seleucid" when-custom="1520">A. Gr. 1520</origDate>
-              <origPlace ref="http://syriaca.org/place/360">S. Mary Deipara</origPlace>
+              <origPlace/>
             </origin>
             <provenance/>
             <acquisition/>
@@ -326,6 +319,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-07">Edits to msContents</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-07">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#cchen">Initial TEI encoding.</change>
       <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
