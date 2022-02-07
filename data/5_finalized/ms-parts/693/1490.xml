@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14738, foll. 12—21</title>
+        <title level="a" xml:lang="en">BL Add MS 14738, foll. 11—22</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -68,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/699</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14738, foll. 12—21</idno>
+              <idno type="BL-Shelfmark">Add MS 14738, foll. 11—22</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -82,12 +82,20 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
+              <locus from="11a" to="11b"/>
+              <title xml:lang="en" type="supplied">A table of some kind</title>
+              <note>This folio is a fly-leaf.</note>
+            </msItem>
+            <msItem xml:id="a2" n="2" defective="true">
               <locus from="12a" to="21b"/>
               <title xml:lang="en" type="supplied">Fragments of a collection of Anaphoras</title>
               <msItem xml:id="b1" n="3" defective="true">
                 <locus from="16a" to="17a"/>
                 <title xml:lang="en" type="supplied">Fragments of an Anaphora of <persName ref="https://syriaca.org/person/44">Philoxenus of Mabug</persName></title>
-              </msItem>
+            <msItem xml:id="a3" n="4" defective="true">
+              <locus from="22a" to="22b"/>
+              <title xml:lang="en" type="supplied">Parts of two metrical discourses</title>
+              <note>This folio is a fly-leaf.</note>
             </msItem>            
           </msContents>
                <physDesc>
@@ -101,7 +109,7 @@
                         <condition>
                            <list>
                               <item>
-                                 <p>Paper leaves, about 7 7/8 in. by 5 1/2, all much stained
+                                 <p>Twelve paper leaves, about 7 7/8 in. by 5 1/2, all much stained
                                     and torn, so as to be in many places almost illegible. There are
                                     from 18 to 24 lines in each page.</p>
                               </item>
