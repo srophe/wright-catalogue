@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17213, fol. 12.</title>
+        <title level="a" xml:lang="en">BL Add MS 17213, fol. 42</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,18 +83,14 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus from="recto"/>
-              <title xml:lang="en">Relating to repentance</title>
+              <locus from="42a"/>
+              <title xml:lang="en">Some short extracts relating to repentance</title>
               <rubric xml:lang="syr">ܬܝܒܘܬܐ</rubric>
-              <note>in a hand of the xth cent.</note>
             </msItem>
             <msItem xml:id="a2" n="2">
-              <title xml:lang="en">The following anathema</title>
-              <rubric xml:lang="syr">ܚܪܡܐ ܕܐܒܐ ܡܢ ܫܡܝܐ ܘܕܒܪܐ ܡܢ ܨܠܝܒܐ ܘܕܪܘܚܐ ܏ܩܕ ܡܢ ܝܘܪܕܢܢ ܢܗܪܐ.
-                ܚܪܡܐ ܕ܏ܫ ܡܐܐ ܘܬܡܬܥܣܪ (sic) ܡܢ ܢܐܩܝܐܐ ܘܚܪܡܐ ܕܡܐܬܝܢ ܘܥܣܪܝܢ ܡܢ ܩܘܣܛܢܛܐܦܠܝܣ ܘܕܡܐܐ ܘܚܡܫܝܢ
-                ܡܢ ܐܦܣܘܣ ܘܕܬܪܥܣܪ ܫ̈ܠܝܚܐ ܡܢ ܥܠܝܬܐ ܕܨܗܝܘܢ. ܒܢܦܫܗ ܘܒܦܓܪܗ ܘܕܥ̈ܢܝܕܘܗܝ ܘܕܟܠܡ̇ܢ ܕܡܫܬܘܬܦ ܒܗ.
-                ܕܡܦܩ̇ ܠܟܬܒܐ ܗܢܐ ܡܢ ܗܕܐ ܕܝܪܐ ܘܠܐ ܡܕܥܪ ܠܗ ܠܟܐ ܐܝܢ ܘܐܡܝܢ. </rubric>
-              <note>in a hand of the xth cent.</note>
+              <locus from="42b"/>
+              <title xml:lang="en">The contents of the volume to which it once belonged, and the following anathema:</title>
+              <quote xml:lang="syr">ܚܪܡܐ ܕܐܒܐ ܡܢ ܫܡܝܐ ܘܕܒܪܐ ܡܢ ܨܠܝܒܐ ܘܕܪܘܚܐ ܏ܩܕ ܡܢ ܝܘܪܕܢܢ ܢܗܪܐ. ܚܪܡܐ ܕ܏ܫ ܡܐܐ ܘܬܡܬܥܣܪ <foreign xml:lang="en">(sic)</foreign> ܡܢ ܢܐܩܝܐܐ ܘܚܪܡܐ ܕܡܐܬܝܢ ܘܥܣܪܝܢ ܡܢ ܩܘܣܛܢܛܐܦܠܝܣ ܘܕܡܐܐ ܘܚܡܫܝܢ ܡܢ ܐܦܣܘܣ ܘܕܬܪܥܣܪ ܫ̈ܠܝܚܐ ܡܢ ܥܠܝܬܐ ܕܨܗܝܘܢ. ܒܢܦܫܗ ܘܒܦܓܪܗ ܘܕܥ̈ܢܝܕܘܗܝ ܘܕܟܠܡ̇ܢ ܕܡܫܬܘܬܦ ܒܗ. ܕܡܦܩ̇ ܠܟܬܒܐ ܗܢܐ ܡܢ ܗܕܐ ܕܝܪܐ ܘܠܐ ܡܕܥܪ ܠܗ ܠܟܐ ܐܝܢ ܘܐܡܝܢ.</quote>
             </msItem>
           </msContents>
           <physDesc>
@@ -118,14 +115,14 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>It is written in a hand of the <origDate notBefore="0900" notAfter="1000">xth cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="b"/>
-                  <p>the contents of the volume to which it once belonged</p>
+                  <locus/>
+                  <p/>
                 </item>
               </list>
             </additions>
@@ -329,6 +326,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-07">Edits to msContents, handDesc, and additions</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-07">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#cchen">Initial TEI encoding.</change>
     </revisionDesc>
