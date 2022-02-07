@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#aahn">Alexys Ahn</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#aahn">Alexys Ahn</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,11 +83,25 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus from="3"/>
+              <locus from="3a"/>
               <title xml:lang="en">Part of the Services for Friday in Passion Week (Good
-                Priday)</title>
-              <rubric xml:lang="syr">ܬܫܡܫܬܐ ܕܐܪܒܥ ܕܠܠܝܐ ܕܥܪܘܒܬܐ, and ܬܫܡܫܬܐ ܕܨܦܪܐ ܕܥܪܘܒܬܐ
-                ܕܚܫܐ.</rubric>
+                Friday)</title>
+              <msItem xml:id="b1" n="2">
+                <title xml:lang="en">Part a</title>
+                <rubric xml:lang="syr">ܬܫܡܫܬܐ ܕܐܪܒܥ</rubric>
+              </msItem>
+              <msItem xml:id="b1" n="2">
+                <title xml:lang="en">Part b</title>
+                <rubric xml:lang="syr">ܬܫܡܫܬܐ ܕܨܦܪܐ</rubric>
+              </msItem>
+              <msItem xml:id="b1" n="2">
+                <title xml:lang="en">Part c</title>
+                <rubric xml:lang="syr">ܕܠܠܝܐ ܕܥܪܘܒܬܐ</rubric>
+              </msItem>
+              <msItem xml:id="b1" n="2">
+                <title xml:lang="en">Part d</title>
+                <rubric xml:lang="syr">ܕܥܪܘܒܬܐ ܕܚܫܐ</rubric>
+              </msItem>
             </msItem>
           </msContents>
           <physDesc>
@@ -100,7 +115,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>A vellum leaf, much soiled and torn</p>
+                      <p>A vellum leaf, much soiled and torn, written in double columns.</p>
                     </item>
                   </list>
                 </condition>
@@ -111,7 +126,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>written in double columns, in a good hand of the ixth cent.</desc>
+                <desc>It is written in a good hand of the <origDate notBefore="0800" notAfter="0900">ixth cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -125,8 +140,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0800" notAfter="0900">of the ixth
-                cent</origDate>
+              <origDate notBefore="0800" notAfter="0900">ixth cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -316,6 +330,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-07">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-18">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#aahn">Initial TEI encoding.</change>
     </revisionDesc>
