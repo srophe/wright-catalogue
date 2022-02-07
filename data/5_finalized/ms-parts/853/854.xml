@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17197, foll. 1—25.</title>
+        <title level="a" xml:lang="en">BL Add MS 17197, foll. 1—25</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,14 +83,9 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <author ref="http://syriaca.org/person/511">Gregory Nazianzen</author>
-              <author>Abbat Paul</author>
-              <author>Anonymous Author</author>
-              <author ref="http://syriaca.org/person/152">Benjamin, metropolitan of Edessa</author>
-              <title xml:lang="en">A Commentary on the first volume of the Works of Gregory
-                Nazianzen, as translated by the abbat Paul, compiled by an anonymous author, who
-                followed <ref>the exposition of Benjamin, metropolitan of Edessa</ref>
-              </title>
+              <locus from="1a"/>
+              <title xml:lang="en">A Commentary on <ref>the first volume of the Works of <persName ref="http://syriaca.org/person/511">Gregory Nazianzen</persName></ref>, as translated by the abbat <persName>Paul</persName>, compiled by an anonymous author, who
+                followed the exposition of <persName ref="http://syriaca.org/person/152">Benjamin</persName>, metropolitan of Edessa</title>
               <rubric xml:lang="syr">ܒܫܡ ܝܫܘܥ ܢܘܼܗܪܐ ܕܢܘܼܗܪ̈ܐ ܡ̇ܫܪܝܢܢ ܕܢܟܬܘܒ ܦܘܫ̇ܩܐ ܐܝܟ ܕܒܙܥܘܪ̈ܝܬܐ
                 ܕܡ̈ܠܐ ܥܣ̈ܩܬܐ ܕܡܬܬܝ̈ܬܝܢ ܒܟܬܒܐ ܩܕܡܝܐ ܕܩܕܝܫܐ ܓܪܝܓܘܪܝܘܣ ܬܐܘܠܘܓܘܣ ܐܦܝܣܩܘܦܐ ܕܢܐܙܝܐܢܙܘ܀
                 ܕܣܝ̣ܡ ܠܐܢܫ ܪܚ̇ܡ ܥܡ̣ܠܐ ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܚܣܝܐ ܡܪܝ ܒܢܝܐ݊ܡܝܢ ܡܝܛܪܘܦܠܝܛܝܣ ܕܐܘܪܗܝ..</rubric>
@@ -99,12 +95,12 @@
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
                 <locus from="3a"/>
-                <title xml:lang="la">Ad cos qui ipsum acciverant, nee occurrerant</title>
+                <title xml:lang="la">Ad eos qui ipsum acciverant, nec occurrerant</title>
               </msItem>
               <msItem xml:id="b3" n="4" defective="true">
                 <locus from="10a"/>
                 <title xml:lang="la">Apologetica</title>
-                <note>imperfect at the beginning and end, as well as elsewhere</note>
+                <note>Imperfect at the beginning and end, as well as elsewhere.</note>
               </msItem>
             </msItem>
           </msContents>
@@ -122,8 +118,7 @@
                       <p>Vellum, about 9 in. by 6, consisting of 25 leaves, some of which are much
                         soiled, especially foll. 1—7. The quires are signed with letters. There are
                         from 26 to 31 lines in each page. This manuscript is imperfect at the end,
-                        and there are lacunae after foll. 3, 9, and 12. It is written in a small,
-                        regular hand of the ixth or xth cent.</p>
+                        and there are lacunae after foll. 3, 9, and 12.</p>
                     </item>
                   </list>
                 </condition>
@@ -134,7 +129,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>It is written in a small, regular hand of the <origDate notBefore="0800" notAfter="1000">ixth or xth cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -338,6 +333,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-07">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-07">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#cchen">Initial TEI encoding.</change>
     </revisionDesc>
