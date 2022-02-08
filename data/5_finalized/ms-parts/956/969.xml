@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17218, fol. 57.</title>
+        <title level="a" xml:lang="en">BL Add MS 17218, fol. 57</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,8 +83,8 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <title xml:lang="en">Part of a Choral Service-book of the xith or xiith
-                cent.</title>
+              <locus from="57a"/>
+              <title xml:lang="en">Part of a Choral Service-book of the <origDate notBefore="1000" notAfter="1200">xith or xiith cent.</origDate></title>
             </msItem>
           </msContents>
           <physDesc>
@@ -97,8 +98,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>A vellum leaf, 8 1/2 in. by 5 5/8, much soiled and torn, belonging to a
-                        Choral Service-book of the xith or xiith cent.</p>
+                      <p>A vellum leaf, 8 1/2 in. by 5 5/8, much soiled and torn.</p>
                     </item>
                   </list>
                 </condition>
@@ -123,7 +123,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1000" notAfter="1199">of the xith or xiith
+              <origDate notBefore="1000" notAfter="1200">xith or xiith
                 cent.</origDate>
               <origPlace/>
             </origin>
