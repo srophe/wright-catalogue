@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,7 +83,7 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="1"/>
+              <locus from="52a"/>
               <title xml:lang="en">Parts of two sedras</title>
             </msItem>
           </msContents>
@@ -97,8 +98,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>A vellum leaf, 8 3/4 in. by 5 7/8, much soiled and torn. It contains parts
-                        of two sedras, written in a good hand of about the ixth cent.</p>
+                      <p>A vellum leaf, 8 3/4 in. by 5 7/8, much soiled and torn.</p>
                     </item>
                   </list>
                 </condition>
@@ -109,7 +109,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>It is written in a good hand of about the <origDate notBefore="0800" notAfter="0900">ixth cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -123,8 +123,8 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0800" notAfter="0899">of about the ixth
-                cent</origDate>
+              <origDate notBefore="0800" notAfter="0900">ixth
+                cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -314,6 +314,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-08">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-09">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI encoding.</change>
     </revisionDesc>
