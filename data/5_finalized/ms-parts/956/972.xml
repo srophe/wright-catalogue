@@ -83,12 +83,14 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
+              <locus from="70a"/>
               <author ref="http://syriaca.org/person/22">Xystus of Rome</author>
               <title xml:lang="en">Two discourses of Xystus of Rome</title>
               <msItem xml:id="b1" n="2" defective="true">
                 <locus from="70a"/>
                 <author ref="http://syriaca.org/person/22">Xystus of Rome</author>
                 <title xml:lang="en">The first discourse</title>
+                <note>Very imperfect</note>
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
                 <locus from="70a"/>
@@ -98,6 +100,7 @@
               </msItem>
             </msItem>
             <msItem xml:id="a2" n="4">
+              <locus from="79a"/>
               <author>John the monk</author>
               <title xml:lang="en">Two discourses of John the monk</title>
               <msItem xml:id="b3" n="5">
@@ -114,7 +117,7 @@
                 <title xml:lang="en">On the New World</title>
                 <rubric xml:lang="syr">ܕܝܠܗ ܡܢ ܡܐܡܪܐ ܕܥܠ ܥܠܡܐ ܚܕܬܐ</rubric>
                 <incipit xml:lang="syr">ܐܣܬܟܠܘ ܪܚܡ̣ܬܐ ܕܐܠܗܐ ܕܠܘܬܟܘܢ ܐܘ ܒܢܝ̈ܢܫܐ.. ܚܙܘ ܪܒܘܬܐ ܕܣܒܪܐ
-                  ܕܝܗܒ̣ ܠܟܘܢ ܒܝܕ ܒܪܗ ܚܒܝܒܐ. ܏ܘܫ . </incipit>
+                  ܕܝܗܒ̣ ܠܟܘܢ ܒܝܕ ܒܪܗ ܚܒܝܒܐ. ܏ܘܫ.</incipit><!--JA: The interjection ܐܘ is missing a diacritical mark from Wright's catalogue -->
               </msItem>
             </msItem>
           </msContents>
@@ -131,9 +134,8 @@
                     <item>
                       <p>Fourteen vellum leaves, about 9 1/8 in. by 6 1/4, the first of which is
                         slightly stained and torn (Add. 17,218, foll. 70—83). The quires are signed
-                        with letters (fol. 70, ܝܘ; fol. 72, ܝܙ). Several leaves are wanting after
-                        fol. 70. Each page is divided into two columns, of from 26 to 31 lines. The
-                        writing is good and regular, of the ixth cent.</p>
+                        with letters (fol. <locus from="70">70</locus>, <foreign xml:lang="syr">ܝܘ</foreign>; fol. <locus from="72">72</locus>, <foreign xml:lang="syr">ܝܙ</foreign>). Several leaves are wanting after
+                        fol. 70. Each page is divided into two columns, of from 26 to 31 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -144,7 +146,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>The writing is good and regular, of the <origDate notBefore="0800" notAfter="0900">ixth cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -348,10 +350,10 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-08">Edits to msContents, condition, and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-07">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#cchen">Initial TEI encoding.</change>
-      <change type="planned" subtype="syriac">Add in missing Syriac characters. Robert Aydin -- "a
-        vowel is missing"</change>
+      <change type="planned" subtype="syriac">Add in missing Syriac characters. Diacritical mark missing on the ܐܘ noted above</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
