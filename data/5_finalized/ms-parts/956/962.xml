@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#aahn">Alexys Ahn</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#aahn">Alexys Ahn</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,8 +83,8 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus from="47"/>
-              <title xml:lang="en">madrāshē</title>
+              <locus from="47a"/>
+              <title xml:lang="en">Madrāshē</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -108,7 +109,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>It contains madrāshē, written in a good, current hand of the xth cent.</desc>
+                <desc>It is written in a good, current hand of the <origDate notBefore="900" notAfter="1000">xth cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -122,8 +123,8 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="900" notAfter="1000">of the xth
-                cent</origDate>
+              <origDate notBefore="900" notAfter="1000">xth
+                cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -313,6 +314,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-08">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-18">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#aahn">Initial TEI
         encoding.</change>
