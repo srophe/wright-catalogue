@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17218, fol. 89.</title>
+        <title level="a" xml:lang="en">BL Add MS 17218, fol. 89</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,9 +83,15 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="1a"/>
-              <title xml:lang="en">Part of a discourse (left unfinished)</title>
+              <locus from="89a"/>
+              <title xml:lang="en">Part of a discourse</title>
+              <note>The discourse was left unfinished.<note>
             </msItem>
+            <msItem xml:id="a2" n="2" defective="true">
+              <locus from="89b"/>
+              <title xml:lang="en">Unspecified contents</title>
+              <note>The writing on the verso is no longer legible.</note>
+            <msItem>
           </msContents>
           <physDesc>
             <objectDesc form="leaf">
@@ -97,10 +104,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>The last leaf of a vellum manuscript, much stained and mutilated, It
-                        contains, on the recto, part of a discourse (left unfinished), written in a
-                        current band of about the xth cent. The writing on the verso is no longer
-                        legible. </p>
+                      <p>The last leaf of a vellum manuscript, much stained and mutilated.</p>
                     </item>
                   </list>
                 </condition>
@@ -111,7 +115,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>It is written in a current hand of about the <origDate notBefore="0900" notAfter="1000">xth cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -125,7 +129,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0900" notAfter="0999">of about the xth
+              <origDate notBefore="0900" notAfter="1000">xth
                 cent.</origDate>
               <origPlace/>
             </origin>
@@ -316,8 +320,10 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-08">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-09">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI encoding.</change>
+      <change type="planned" subtype="consultation">Wright's description is so incomplete that the physical manuscript needs to be consulted and redescribed.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
