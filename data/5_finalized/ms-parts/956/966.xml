@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,8 +83,8 @@
             <summary/>
             <textLang mainLang="syr-Syre"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="1"/>
-              <author>part of the Order of Baptism</author>
+              <locus from="53a"/>
+              <title>Part of the Order of Baptism</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -97,9 +98,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Two vellum leaves, about 8 1/2 in. by 5 3/8, much soiled and mutilated.
-                        They contain part of the Order of Baptism, written in a regular #Estrangela
-                        of the viiith cent., with 20 or 21 lines in each page.</p>
+                      <p>Two vellum leaves, about 8 1/2 in. by 5 3/8, much soiled and mutilated, with 20 or 21 lines in each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -109,15 +108,15 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr=Syre">
+                <desc>They are written in a regular Estrangela of the <origDate notBefore="0700" notAfter="0800">viiith cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="1"/>
-                  <p>20 or 21 lines in each page</p>
+                  <locus/>
+                  <p/>
                 </item>
               </list>
             </additions>
@@ -131,7 +130,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0700" notAfter="0799">of the viiith
+              <origDate notBefore="0700" notAfter="0800">viiith
                 cent.</origDate>
               <origPlace/>
             </origin>
@@ -322,10 +321,9 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-08">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-09">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI encoding.</change>
-      <change type="planned" subtype="question">Question in Word Doc to be Addressed: needs
-        diacriticals on Estrangela</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
