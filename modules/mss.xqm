@@ -49,10 +49,10 @@ declare function mss:get-shelf-mark($rec as node()+) as xs:string* {
 declare function mss:clean-shelf-mark($shelf-mark as xs:string) as xs:string* {
   let $shelfMarkPreamble := $config:project-config/config/projectMetadata/shelfMarkPrefix/text()
   
-  let $shelfMarkNumber := if (fn:contains($shelf-mark, "fo")) then fn:substring-before($shelf-mark, " fo") else $shelf-mark (: ignore any suffix foll. designation :)
-  let $shelfMarkNumber := fn:string-join(functx:get-matches($shelfMarkNumber, "\d+"), "")
+  let $shelfMarkNumber := if (contains(lower-case($shelf-mark), "fo")) then substring-before(lower-case($shelf-mark), " fo") else $shelf-mark (: ignore any suffix foll. designation :)
+  let $shelfMarkNumber := string-join(functx:get-matches($shelfMarkNumber, "\d+"), "")
   
-  let $shelfMarkSuffix := if (fn:contains($shelf-mark, "fo")) then "fo"||fn:substring-after($shelf-mark, "fo") else ""
+  let $shelfMarkSuffix := if (contains(lower-case($shelf-mark), "fo")) then "fo"||substring-after(lower-case($shelf-mark), "fo") else ""
   let $shelfMarkSuffix := if ($shelfMarkSuffix != "") then ", "||$shelfMarkSuffix
   return $shelfMarkPreamble||" "||$shelfMarkNumber||$shelfMarkSuffix
 };

@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17156 foll. 1—12</title>
+        <title level="a" xml:lang="en">BL Add MS 25878, foll. 1—70</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -27,6 +26,10 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited also by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
@@ -51,7 +54,7 @@
       </editionStmt>
             <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/786/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1148/tei</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -61,95 +64,171 @@
         <date calendar="Gregorian"/>
       </publicationStmt>
             <sourceDesc>
-                <msDesc xml:id="manuscript-786">
+                <msDesc xml:id="manuscript-1148">
                     <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/786</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1148</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17156 foll. 1—12</idno>
+              <idno type="BL-Shelfmark">Add MS 25878, foll. 1—70</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Arabic">989</idno>
+              <idno type="Wright-BL-Arabic">1008</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Roman">DCCCCLXXXIX</idno>
+              <idno type="Wright-BL-Roman">MVIII</idno>
             </altIdentifier>
           </msIdentifier>
                     <msContents>
-            <summary/>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1" defective="true">
-              <locus from="1" to="12"/>
-              <author ref="http://syriaca.org/person/99"><persName xml:lang="en" type="supplied" ref="http://syriaca.org/person/99">Severus Sabocht, bishop
-                                    of Kinnesrin</persName></author>
-              <title xml:lang="en">Works of <persName ref="http://syriaca.org/person/99">Severus Sabocht, bishop
-                                    of Kinnesrin</persName> (see <bibl>Assemani, Bibl. Or., t. ii.,
-                                    p. 335</bibl>)</title>
-              <msItem xml:id="b1" n="2" defective="true">
-                <locus from="1" to="2"/>
-                <author role="#disputed">Severus Sabocht, bishop of Kinnesrin</author>
-                <title xml:lang="en">Fragments of a commentary on the <title xml:lang="grc">Περὶ ἑρμηνείας</title> of
-                                        <persName ref="	http://syriaca.org/person/342">Aristotle</persName>
-                </title>
-                <note type="incerta">This may, however, be the work of some other author.</note>
-                </msItem>
-              <msItem xml:id="b2" n="3" defective="true">
-                <locus from="3a" to="5b"/>
-                <author ref="http://syriaca.org/person/99"><persName xml:lang="en" type="supplied" ref="http://syriaca.org/person/99">Severus Sabocht, bishop
-                                    of Kinnesrin</persName></author>
-                <title xml:lang="en">A treatise on the Syllogisms in the
-                                    <title xml:lang="la">Analytica (Priora)</title> of <persName ref="http://syriaca.org/person/342">Aristotle</persName>
-                </title>
-                <finalRubric xml:lang="syr"><locus from="5b" to="5b"/>
-                ܫܠ̣ܡ ܡܐܡܪܐ ܕܒܙܥܘܪܝܬܐ ܕܡܛܠ ܣܘܠܘܓܝܣܡܘܣ
-                                    ܕܒܐܢܐܘܠܘܛܝܩܐ ܕܐܪܝܣܛܛܠܝܣ ܕܥܒܝܕ ܠܚܣܝܐ ܐܒܘܣ ܡܪܝ ܣܐܘܪܐ ܐܦܝܣܩܘܦܐ
-                                        ܕܩܢ̣ܫܪܝܢ.
-                </finalRubric>
-                <note>Imperfect at the beginning</note>
-                <note>See <ref target="http://syriaca.org/manuscript/428">Add. 14,660, no. 2</ref>
-                </note>
+            <msItem xml:id="a1" n="1">
+              <locus from="2b" to="70" />
+              <title xml:lang="en">A treatise on Natural History</title>
+              <rubric xml:lang="syr">
+                <locus from="2b"/>ܬܘܼܒ ܒܝܕ ܐܠܗܐ ܡܪܐܟ݁ܠ ܡܫܲܪܝܢܢ ܕܢ̇ܟܬܘܿܒ ܡ̣ܢܬܐ ܩܲܠܝ̣ܠ ܥܠ ܚܝ̈ܘܬܐ ܕܡܢ ܓܢ̣̈ܣܐ ܡܫܲܚ̈ܠܦܐ ܕܚܝ̈ܘܬܐ ܡܪ̈ܟܒܢ ܘܡܩܝ̈ܡܢ ܠܬ̣ܫܒܘܿܚܬܐ ܕܐܠܗܐ ܒ̇ܪܘܝ̇ܗܝܢ</rubric>
+              <finalRubric xml:lang="syr">ܫܠܡ ܒܥܘܕܪܢ ܡܪܢ ܟܬܒܐ ܕܥܠ ܟܝܢ̈ܝܬܐ ܕܚܝ̈ܘܬܐ ܘܕܦܪ̈ܚܬܐ ܘܕܪ̈ܚܫܐ. ܨܠܘ ܥܠ ܕܘܝܐ ܕܟܬ̣ܒ</finalRubric>
+              <note>This treatise bears a certain affinity to the <ref>"<title xml:lang="la">Physiologus</title>" of
+                <persName ref="https://syriaca.org/person/477">Epiphanius</persName></ref>, and the <bibl>"Physiologus Syrus," edited by Tychsen (Rostock, 1795)</bibl>, but is of much greater
+                extent.</note>
+              <note>There are no less than 125 sections. The headings of the first 25 may serve as specimens.</note>
+              <msItem xml:id="b1" n="2">
+                <locus from="2b"/>
+                <title xml:lang="en">Of various animals in <placeName ref="https://syriaca.org/place/500">India</placeName></title>
+                <rubric xml:lang="syr">ܥܠ ܚܲܝܘܬܐ ܡܫܲܚܠܦܬܐ ܕܐܝ̣ܬ ܒܐܬܪܐ ܕܗ̣ܢܕܘ</rubric>
+              </msItem>
+              <msItem xml:id="b2" n="3">
+                <locus from="3a"/>
+                <title xml:lang="en">Of the sirens (<ref target="http://syriaca.org/work/9640">Isaiah, ch. xiii. 22</ref>, <ref target="https://syriaca.org/work/9568">Jeremiah, ch. 1. 30</ref>) and jackals</title>
+                <rubric xml:lang="syr">ܡܛܠ ܣܝܪ̈ܝܢܘܣ ܘܝܪܘܪ̈ܐ</rubric>
               </msItem>
               <msItem xml:id="b3" n="4">
-                <locus from="5b" to="11a"/>
-                <author ref="http://syriaca.org/person/99"><persName xml:lang="en" type="supplied" ref="http://syriaca.org/person/99">Severus Sabocht, bishop
-                                    of Kinnesrin</persName></author>
-                <title xml:lang="en">A letter to <persName>Jonas, the
-                                        periodeutes</persName>, explanatory of some points in the
-                                    <title xml:lang="la">Ars Rhetorica</title> of <persName ref="	http://syriaca.org/person/342">Aristotle</persName>
-                </title>
-                <rubric xml:lang="syr"><locus from="5b" to="5b"/>ܬܘܒ ܐܝܓܪܬܐ ܕܚܣܝܐ ܣܐܘܪܐ ܣܒܘܟܬ ܐܦܝܣܩܦܐ
-                                    ܕܩܢ̇ܫܪܝܢ: ܠܘܬ ܣܥܘܪܐ ܝܘܢܢ ܪܚ̇ܡܗ ܡܛܠ ܦܘܫܩܐ ܡܕܡ ܡܕܡ ܡܢ ܐܘܡܢܘܬܐ
-                                    ܡܠܝܠܬܐ ܕܐܪܝܣܛܛܠܝܣ ܦܝܠܣܦܐ</rubric>
-                <incipit xml:lang="syr">ܠܪܚ̇ܡ ܐܠܗܐ ܘܕܚܠ ܠܐܠܗܐ̇. ܐܚܘܢ ܪܘܚܢܐ ܘܚܒܝܒܐ
-                                    ܩܫܝܫܐ ܘܣܥܘܪܐ ܝܘܢܢ܆ ܣܐܘܪܐ ܒܨܝܪܐ ܒܡܪܝܐ ܚ̣ܕܝ.܀ ܩܒܠܬ ܐܦ ܗܫܐ ܠܐܝܓܪܬܐ
-                                    ܕܐܚܘܬܟ ܪܘܚܢܝܬܐ. ܐܦܢ ܘܠܡܚܣܢ ܘܡܫܘܚܪܐܝܬ: ܒܬܪ ܫܢܬܐ ܓܝܪ ܚܕܐ ܠܥܢܝܢܐ
-                                    ܗ̇ܘ ܕܥ̇ܒܕܬ̇ ܠܘܬ ܚܘܒܟ ܐܬ̣ܐ ܠܘܬܝ. ܘܪܒܬܝ ܚܕܝܬ. ܕܐܣܬܒܪܬ ܐܝܟ ܥܝܕܐ̇.
-                                    ܥܠ ܫܦܝܪܘܬ ܚܘܠܡܢܐ ܕܕܚܠܬ ܐܠܗܐ ܕܝܠܟ. ܐܟܚܕܐ ܕܝܢ ܘܕܫܦܪܬ ܠܣܟܘܠܬܢܘܬܐ
-                                    ܕܐܚ̇ܘܬܟ. ܡܥܗܕܢܘܬܐ ܗ̇ܝ ܕܗܘ̣ܬ ܡܢܝ܇ ܡܛܠ ܦܘܫ̈ܟܐ ܗ̇ܢܘܢ ܕܗܘ̣ܘ ܠܗ ܒܙܒܢ܇
-                                    ܡܛܠ ܩܢܘ̈ܢܐ ܡܕܡ ܡܕܡ̇. ܕܐܒܗ̈ܬܐ ܩ̈ܕܝܫܐ܀ ܏ܘܫ. </incipit>
+                <locus from="3a"/>
+                <title xml:lang="en">Of the echidna (<foreign xml:lang="grc">ἔχιδνα</foreign>)</title>
+                <rubric xml:lang="syr">ܕܥܠ ܐܟܕ̈ܢܐ</rubric>
               </msItem>
-              <msItem xml:id="b4" n="5" defective="true">
-                <locus from="11a" to="12"/>
-                <author ref="http://syriaca.org/person/99"><persName xml:lang="en" type="supplied" ref="http://syriaca.org/person/99">Severus Sabocht, bishop
-                                    of Kinnesrin</persName></author>
-                <title xml:lang="en">A letter to the priest
-                                        <persName>Aitilaha</persName> on certain terms in the
-                                    treatise <title xml:lang="grc">Περὶ ἑρμηνείας</title></title>
-                <rubric xml:lang="syr">ܐܓܪܬܐ ܕܚܣܝܐ ܣܐܘܪܐ ܣܒܘܟܬ. ܡܛܠ ܒ̈ܢܬ ܩ̈ܠܐ ܡ̣ܕܡ
-                                    ܕܒܟܬܒܐ ܕܦܪܝܪܡܢܝܐܣ. ܠܘܬ ܩܫܝܫܐ ܐܝܬܝܠܗܐ</rubric>
-                <note>Imperfect at the end</note>
-                <note>See <ref target="http://syriaca.org/manuscript/428">Add. 14,660, no. 3</ref>.</note>
+              <msItem xml:id="b4" n="5">
+                <locus from="3b"/>
+                <title xml:lang="en">Of a hybrid animal</title>
+                <rubric xml:lang="syr">ܡܛܠ ܫܘܫ̣ܡܢ ܐܪܝܐ</rubric>
+                <note>The name of this animal is explained by <persName ref="https://syriaca.org/person/472">Elias of <placeName ref="http://syriaca.org/place/142">Nisibis</placeName></persName> in his <ref>Lexidion</ref> by <foreign xml:lang="ar">خَرانِقُ (فرانق؟) الأَسَدِ</foreign>, and in <bibl>Add. 7203</bibl> by <foreign xml:lang="ar">فراس (فرانق؟) الاسدَ</foreign>.</note>
               </msItem>
-            </msItem>
+              <msItem xml:id="b5" n="6">
+                <locus from="3b"/>
+                <title xml:lang="en">Of the river-horse or hippopotamus</title>
+                <rubric xml:lang="syr">ܣܘܣܝܐ ܕܢܗܪܐ</rubric>
+              </msItem>
+              <msItem xml:id="b6" n="7">
+                <locus from="4a"/>
+                <title xml:lang="en">Of apes</title>
+                <rubric xml:lang="syr">ܡܛܠ ܩܘ̈ܦܐ ܕܗ̣ܘ <choice><sic>ܒܘܙܢܢܗ̇</sic><corr resp="http://syriaca.org/editors.xml#wwright">ܒܘܙܝܢܗ</corr></choice></rubric>
+              </msItem>
+              <msItem xml:id="b7" n="8" defective="true">
+                <locus from="4b"/>
+                <title xml:lang="en">Of the griffin (<foreign xml:lang="grc">γρύψ</foreign>)</title>
+                <rubric xml:lang="syr">ܡܛܠ ܐܓܪܘܦܘܣ</rubric>
+                <note>Unfinished.</note>
+              </msItem>
+              <msItem xml:id="b8" n="9" defective="true">
+                <locus from="5a"/>
+                <title xml:lang="en">Of sundry beasts and birds</title>
+                <rubric xml:lang="syr">ܡܛܠ ܚܝܘ̈ܬܐ ܘܦܪ̈ܚܬܐ ܡܫ̈ܬܚ̣ܠܦܢ</rubric>
+                <note>Unfinished.</note>
+              </msItem>
+              <msItem xml:id="b9" n="10">
+                <locus from="6a"/>
+                <title xml:lang="en">Of creatures that are produced without the act of generation</title>
+                <rubric xml:lang="syr">ܡܛܠ ܚܝ̈ܘܬܐ ܕܕܠܐ ܙܘܘܓܐ ܗܘ̈ܝܢ</rubric>
+              </msItem>
+              <msItem xml:id="b10" n="11">
+                <locus from="7b"/>
+                <title xml:lang="en">Of the Indian tiger</title>
+                <rubric xml:lang="syr">ܡܛܠ ܛܝܓܪܝܣ ܗܢܕܘܝܬܐ</rubric>
+              </msItem>
+              <msItem xml:id="b11" n="12">
+                <locus from="7b"/>
+                <title xml:lang="en">Of the Phoenix</title>
+                <rubric xml:lang="syr">ܥܠ ܦܘܢܝܟ̣ܣ</rubric>
+              </msItem>
+              <msItem xml:id="b12" n="13">
+                <locus from="8a"/>
+                <title xml:lang="en">Of the Indian worm</title>
+                <rubric xml:lang="syr">ܡܛܠ ܬܘܠܥܐ ܗܢܕܘܝܬܐ</rubric>
+              </msItem>
+              <msItem xml:id="b13" n="14">
+                <locus from="8b"/>
+                <title xml:lang="en">Of an Indian tree, called in Greek <foreign xml:lang="syr">ܐܦܝܕܐܟܣܝܣ</foreign>(?)</title>
+                <rubric xml:lang="syr">ܡܛܠ ܐܝܠ̣ܢܐ. ܐܝܬ ܒܗܢܕܘ ܐܝܠܢܐ ܕܡ̣ܬܩܪܐ ܝܘܢܐܝܬ ܐܦܝܕܐܟܣܝܣ</rubric>
+              </msItem>
+              <msItem xml:id="b14" n="15">
+                <locus from="8b"/>
+                <title xml:lang="en">Of the properties of animals, and first, of the lion</title>
+                <rubric xml:lang="syr">ܡܛܠ ܕܝ̈ܠܝܬܐ ܕܚܝ̈ܘܬܐ. ܩܕܡܐܝܬ ܡܛܠ ܐܪܝܐ</rubric>
+              </msItem>
+              <msItem xml:id="b15" n="16">
+                <locus from="11a"/>
+                <title xml:lang="en">Of the leopard</title>
+                <rubric xml:lang="syr">ܡܛܠ ܦܐܪܕܝܢ</rubric>
+              </msItem>
+              <msItem xml:id="b16" n="17">
+                <locus from="11a"/>
+                <title xml:lang="en">Of the panther</title>
+                <rubric xml:lang="syr">ܡܛܠ ܢܡ̣ܪܐ</rubric>
+              </msItem>
+              <msItem xml:id="b17" n="18">
+                <locus from="11b"/>
+                <title xml:lang="en">Of the dog</title>
+                <rubric xml:lang="syr">ܡܛܠ ܟܠܒܐ</rubric>
+              </msItem>
+              <msItem xml:id="b18" n="19">
+                <locus from="12b"/>
+                <title xml:lang="en">Of the ichneumon</title>
+                <rubric xml:lang="syr">ܡܛܠ ܐܝܟܢܝܡܘܢ</rubric>
+              </msItem>
+              <msItem xml:id="b19" n="20">
+                <locus from="12b"/>
+                <title xml:lang="en">Of the river-dog, a species of ichneumon</title>
+                <rubric xml:lang="syr">ܥܠ ܟܠ̣ܒܐ ܕܡ̈ܝܐ</rubric>
+              </msItem>
+              <msItem xml:id="b20" n="21">
+                <locus from="13a"/>
+                <title xml:lang="en">Of the bear</title>
+                <rubric xml:lang="syr">ܡܛܠ ܕܒ̣ܐ</rubric>
+              </msItem>
+              <msItem xml:id="b21" n="22">
+                <locus from="13a"/>
+                <title xml:lang="en">Of the wolf</title>
+                <rubric xml:lang="syr">ܡܛܠ ܕܐܒܐ</rubric>
+              </msItem>
+              <msItem xml:id="b22" n="23">
+                <locus from="13b"/>
+                <title xml:lang="en">Of the hyaena</title>
+                <rubric xml:lang="syr">ܡܛܠ ܝܕ̈ܢܐ</rubric>
+              </msItem>
+              <msItem xml:id="b23" n="24" defective="true">
+                <locus from="14a"/>
+                <title xml:lang="en">Of the weasel</title>
+                <rubric xml:lang="syr">ܡܛܠ ܟܟܘܼܫܬܐ</rubric>
+                <note>Unfinished.</note>
+              </msItem>
+              <msItem xml:id="b24" n="25">
+                <locus from="14a"/>
+                <title xml:lang="en">Of the stag</title>
+                <rubric xml:lang="syr">ܡܛܠ ܐܝ̇ܠܐ</rubric>
+              </msItem>
+              <msItem xml:id="b25" n="26">
+                <locus from="14b"/>
+                <title xml:lang="en">Of the elephant</title>
+                <rubric xml:lang="syr">ܡܛܠ ܦܝܠܐ</rubric>
+              </msItem>
+            </msItem><!-- WLP: Wright tells us, recorded in the note for msItem #a1, that he is only including the first 25 of the 125 section headings "as specimens". Could we add an msItem called something to the effect "sections 26-125" and bearing a note "at the time of Wright's cataloguing, these 100 sections were discernible, but Wright did not transcribe them in his entry for this manuscript." -->
           </msContents>
                     <physDesc>
                         <objectDesc form="codex">
-                            <supportDesc material="perg">
+                            <supportDesc material="chart">
                                 <extent>
                                     <measure unit="content_pending" quantity="-1"/>
                                 </extent>
@@ -158,12 +237,9 @@
                                 <condition>
                                     <list>
                                         <item>
-                                            <p> Twelve vellum leaves, about 10 7/8 in. by 7 1/4, the
-                                                first three of which are much soiled and torn. They
-                                                formed parts of three quires, numbered <quote xml:lang="syr">ܝܛ</quote> , <quote xml:lang="syr">ܟ</quote>, and
-                                                <quote xml:lang="syr">ܟܐ</quote> , but there are considerable lacunae after foll.
-                                                1 and 2. Each page is divided into two columns, of
-                                                from 27 to 30 lines.</p>
+                                            <p>Paper, about 6 1/4 in. by 4 1/4 consisting of 70 leaves.
+                                                The quires, signed with letters, are 7 in number.
+                                                There are 17 lines in each page.</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -172,20 +248,29 @@
                                 <p>Content pending</p>
                             </layoutDesc>
                         </objectDesc>
-                        <handDesc hands="1">
+                        <handDesc hands="2">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                                <desc>The writing is neat and regular, and seems to be of the <origDate notBefore="0800" notAfter="0900">ixth cent</origDate>.</desc>
+                    <desc>This manuscript is written in a small, angular hand of the <date>xviith cent.</date></desc>
                             </handNote>
+                          <handNote medium="unknown" xml:id="handNote2" scope="sole" script="syr">
+                            <desc>See additions.</desc>
+                          </handNote>
             </handDesc>
-            <decoDesc>
-                <decoNote xml:id="decoNote1" type="ornamentation">
-                  <locus from="4b" to="4b"/>
-                  <locus from="5b" to="5b"/>
-                  <locus from="9a" to="9a"/>
-                    <desc>These leaves are decorated with interlaced ornaments and figures of birds; e.g. foll. 4b, 5b, and 9a.</desc>
-                </decoNote>
-            </decoDesc>
-                        <additions/>
+                        <additions>
+                          <list>
+                            <item>
+                              <locus from="2a"/>
+                              <p>On fol. 2 a there are three lines of Armenian writing</p>
+                            </item>
+                            <item>
+                              <locus from="2a"/>
+                              <p>On fol. 2 a there is the following note:</p>
+                              <p>
+                                <quote xml:lang="en">This book from the Stowe Collection was given to me by the Earl of Ashburnham. <date when="1849-10-18">Octr. 18th, 1849</date>. <persName>W. Cureton</persName>.</quote>
+                              </p>
+                            </item>
+                          </list>
+                        </additions>
                         <bindingDesc>
                             <p>Content pending</p>
                         </bindingDesc>
@@ -196,7 +281,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate/>
+                          <origDate notBefore="1600" notAfter="1700">xviith cent.</origDate>
                             <origPlace/>
                         </origin>
                         <provenance/>
@@ -220,8 +305,8 @@
                 <pubPlace>London</pubPlace>
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
-                <citedRange unit="entry">DCCCCLXXXIX</citedRange>
-                <citedRange unit="pp">3:1162-1163</citedRange>
+                <citedRange unit="entry">MVIII</citedRange>
+                <citedRange unit="pp">3:1192-1193</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -379,18 +464,19 @@
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
             <item>
-              <ref target="#sci-logic"/>
+              <ref target="#sci-natural-history"/>
             </item>
           </list>
         </keywords>
       </textClass>
     </profileDesc>
         <revisionDesc status="draft">
-        <change when="2022-01-25" who="http://syriaca.org/documentation/editors.xml#jarnwine">Added pseudonymity to msItem b1</change>
-        <change when="2021-12-15" who="http://syriaca.org/documentation/editors.xml#jarnwine">General edits to msContents and physDesc; added decoDesc</change>
-            <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-16-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+          <change when="2022-01-26" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edits to msContents</change>
+            <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-16-05:00">CHANGED: deleted empty elements and attributes</change>
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-16-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-05-12" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
-            <change type="planned" subtype="greek">Add in missing Greek characters.</change>
+            <change type="planned" subtype="missing">See the comment at the end of the msContents.</change>
+            <change type="planned" subtype="consultation">Wright does not provide entries for sections 26-125 of msItem "a1".</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
