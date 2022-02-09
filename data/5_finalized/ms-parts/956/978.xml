@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17218, foll. 91—96.</title>
+        <title level="a" xml:lang="en">BL Add MS 17218, foll. 91—96</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -81,9 +82,10 @@
           <msContents>
             <summary/>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1" defective="false">
-              <title xml:lang="en">an Index of Lessons</title>
-              <rubric xml:lang="syr">ܦܘܪܫ ܩܪ̈ܝܢܐ </rubric>
+            <msItem xml:id="a1" n="1">
+              <locus from="91a"/>
+              <title xml:lang="en">An Index of Lessons</title>
+              <rubric xml:lang="syr">ܦܘܪܫ ܩܪ̈ܝܢܐ</rubric>
             </msItem>
           </msContents>
           <physDesc>
@@ -97,9 +99,8 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Six vellum leaves, about 9 1/8 in. by 6 ½. They contain an Index of
-                        Lessons, ܦܘܪܫ ܩܪ̈ܝܢܐ painted in various colours. It belonged apparently to a
-                        manuscript of the Gospels of the xiith cent.</p>
+                      <p>Six vellum leaves, about 9 1/8 in. by 6 ½. It belonged apparently to a
+                        manuscript of <title xml:lang="en" type="supplied" ref="https://syriaca.org/work/9645">the Gospels</title> of the <origDate notBefore="1100" notAfter="1200">xiith cent.</origDate></p>
                     </item>
                   </list>
                 </condition>
@@ -113,6 +114,11 @@
                 <desc/>
               </handNote>
             </handDesc>
+            <decoDesc>
+              <decoNote xml:id="decoNote1" type="ornamentation">
+                <desc>The Index is painted in various colours.</desc>
+              </decoNote>
+            <decoDesc>
             <additions/>
             <bindingDesc>
               <p>Content pending</p>
@@ -124,7 +130,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1100" notAfter="1199">of the xiith
+              <origDate notBefore="1100" notAfter="1200">xiith
                 cent.</origDate>
               <origPlace/>
             </origin>
@@ -315,6 +321,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-09">Edits to msContents and decoDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-09">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI encoding.</change>
     </revisionDesc>

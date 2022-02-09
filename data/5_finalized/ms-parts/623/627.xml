@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14728208238</title>
+        <title level="a" xml:lang="en">BL Add MS 14728, foll. 208-238</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,67 +83,67 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
               <locus from="208a"/>
-              <author>Severus</author>
-              <title xml:lang="en">1. Short extracts, including one from
-                                Severus, "against any evil passion"</title>
+              <author ref="http://syriaca.org/person/51">Severus</author>
+              <title xml:lang="en">Short extracts, including one from
+                                <persName ref="http://syriaca.org/person/51">Severus</persName>, "<title xml:lang="en" type="supplied">against any evil passion</title>"</title>
               <rubric xml:lang="syr">ܕܡܪܝ ܣܐܘܪܐ ܠܘܩܒܠ ܟܠ ܚܫܐ ܐܝܢܐ ܕܗ̣ܘ.</rubric>
               <note>Imperfect at the beginning.</note>
             </msItem>
             <msItem xml:id="a2" n="2">
-              <author>Isaac of Nineveh</author>
-              <title xml:lang="en">2. Selections from the writings of Isaac of
-                                    <placeName>Nineveh</placeName>
+              <locus from="209b" to="238b"/>
+              <author ref="https://syriaca.org/person/550">Isaac of Nineveh</author>
+              <title xml:lang="en">Selections from the writings of <persName ref="https://syriaca.org/person/550">Isaac of <placeName>Nineveh</placeName></persName>
               </title>
               <msItem xml:id="b1" n="3">
                 <locus from="209b"/>
-                <author>Isaac of Nineveh</author>
-                <title xml:lang="en">Selection A</title>
+                <author ref="https://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part a</title>
                 <rubric xml:lang="syr">ܡܠܦܢܘܬܐ ܕܩܕܝܫܐ ܡܪܝ ܐܝܣܚܩ ܕܥܠ [ܐܘܪ̈ܚܬܐ]
                                     ܩܪ̈ܝܒܬܐ ܕܨܝܕ ܐܠܗܐ ܕܡܬܓ̈ܠܝܢ ܠܐܢܫ ܡܢ ܥ[ـܡ̈ܠܐ] ܚ̈ܠܝܐ ܕܒܫܗܪܐ.
                                     ܘܕܐܝܠܝܢ ܕܥ̇ܡܠܝܢ ܒܗ ܒܕܘܒܪ̈ܐ ܫܦܝܪ̈ܐ ܕܒ̣ܫܐ ܡܣܬܝ̇ܒܪܝܢ ܟܠܗܘܢ
                                     ܝܘܡ̈ܬܐ</rubric>
-                <note>See <bibl>Add. 14,633, no. 12</bibl>.</note>
+                <note>See <bibl>Add. 14,633<ptr target="http://syriaca.org/manuscript/383"/>, no. <citedRange>12</citedRange></bibl>.</note> <!--JA: Element citedRange requires attribute for Wright's numbering-->
               </msItem>
               <msItem xml:id="b2" n="4">
                 <locus from="211b"/>
-                <author>Isaac of Nineveh</author>
-                <title xml:lang="en">Selection B</title>
+                <author ref="https://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part b</title>
                 <rubric xml:lang="syr">ܬܘܒ ܐܝܠܝܢ ܕܫܡ̇ܥܬ ܡܢ ܐܢ̈ܫܐ ܣܒ̈ܐ ܘܫܪ̈ܒܐ ܕܐܢܫ̈ܐ
                                     ܩܕܝ̈ܫܐ ܘܡ̈ܠܝܗܘܢ ܚ̈ܣܝܬܐ ܘܕܘܒܪ̈ܝܗܘܢ ܬܡ̈ܝ̣ܗܐ</rubric>
-                <note>See <bibl>Add. 14,633, no. 13</bibl>.</note>
+                <note>See <bibl>Add. 14,633<ptr target="http://syriaca.org/manuscript/383"/>, no. <citedRange>13</citedRange></bibl>.</note> <!--JA: Element citedRange requires attribute for Wright's numbering-->
               </msItem>
               <msItem xml:id="b3" n="5">
                 <locus from="216a"/>
-                <author>Isaac of Nineveh</author>
-                <title xml:lang="en">Selection C</title>
+                <author ref="https://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part c</title>
                 <rubric xml:lang="syr">ܬܘܒ ܢܝܫܐ ܕܨܠܘܬܐ ܘܫܪܒܐ ܕܐܝܠܝܢ ܕܠܥܘܗܕܢܐ ܐܡܝܢܐ
                                     ܐܠܨܐܝܬ ܡܬܒ̈ܥܝܢ ܘܣܓܝ ܡܘܬܪ̈ܢ ܐܢ ܐܢܫ ܒܦܘܪܫܢܐ ܩ̇ܪܐ ܘܐܚܕ
                                     ܠܗܝܢ</rubric>
-                <note>See <bibl>Add. 14,633, no. 52</bibl>.</note>
+                <note>See <bibl>Add. 14,633<ptr target="http://syriaca.org/manuscript/383"/>, no. <citedRange>52</citedRange></bibl>.</note> <!--JA: Element citedRange requires attribute for Wright's numbering-->
               </msItem>
               <msItem xml:id="b4" n="6">
                 <locus from="221a"/>
-                <author>Isaac of Nineveh</author>
-                <title xml:lang="en">Selection D</title>
+                <author ref="https://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part d</title>
                 <rubric xml:lang="syr">ܫ̈ܐܘܠܐ ܕܥܠ ܦܘܪܫ ܡܝܬܪ̈ܬܐ ܘܥܠ ܣܟܐ ܕܟܠܗ ܪܗ̣ܛܐ:
                                     ܘܥܠ ܪܒܘܬܗ ܕܚܘܼܒܐ ܕܒܢܝ̈ܢܫܐ ܘܥܠ ܢܝ̣ܫܐ ܪܘܚܢܝܐ ܕܗܘܼܝܘ ܓ̇ܡܪ ܠܟܠܗܘܢ
                                     ܩܕܝ̈ܫܐ ܘܩ̇ܒܥ ܒܗܘܢ ܕܘܡ̣ܝܐ ܐܠܗܝܐ ܒܚܘܒܗ ܗ̇ܘ ܥܬܝܪܐ ܕܐܫ̣ܦܥ ܥܠ ܓܢܣܐ
                                     ܕܒܢܝ̈ܢܫܐ</rubric>
-                <note>See <bibl>Add. 14,632, no. 60</bibl>.</note>
+                <note>See <bibl>Add. 14,632<ptr target="http://syriaca.org/manuscript/382"/>, no. <citedRange>60</citedRange></bibl>.</note> <!--JA: Element citedRange requires attribute for Wright's numbering-->
               </msItem>
               <msItem xml:id="b5" n="7">
                 <locus from="224b"/>
-                <author>Isaac of Nineveh</author>
-                <title xml:lang="en">Selection E</title>
+                <author ref="https://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part e</title>
                 <rubric xml:lang="syr">ܥܠ ܫܗܪܐ ܕܠܝ̈ܠܘܬܐ ܘܥܠ ܦܘܪ̈ܫܢܐ ܣ̈ܓܝܐܐ ܕܙܢ̈ܝ
                                     ܥܡ̈ܠܐ ܕܒܗ. ܏ܘܫ</rubric>
-                <note>See <bibl>Add. 14,632, no. 66</bibl>.</note>
+                <note>See <bibl>Add. 14,632<ptr target="http://syriaca.org/manuscript/382"/>, no. <citedRange>66</citedRange></bibl>.</note> <!--JA: Element citedRange requires attribute for Wright's numbering-->
               </msItem>
               <msItem xml:id="b6" n="8">
-                <locus from="237a"/>
-                <author>Isaac of Nineveh</author>
-                <title xml:lang="en">f. "How a man may know whether he is far
-                                    from the world or not"</title>
+                <locus from="237a" to="238b"/>
+                <author ref="https://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">How a man may know whether he is far
+                                    from the world or not</title>
                 <rubric xml:lang="syr">ܕܐܝܟܢ ܝܕܥ̇ ܐܢܫ ܕܪܚܝܩ ܡܢ ܥܠܡܐ ܐܘܼ ܠܐ ܏ܗ ܥܠ
                                     ܥܪܘܩܝܐ</rubric>
                 <incipit xml:lang="syr">ܐܡܬܝ ܕܝܢ ܕܬܫܡ̣ܥ ܪܚܘܩܝܐ ܕܡܢ ܥܠܡܐ̇. ܐܘܼ
@@ -150,6 +151,8 @@
                                     ܘܠܡ̣ܕܥ ܠܘ ܗܕܝܘܛܐܝܬ ܐܠܐ ܒܙܘ̈ܥܐ ܝܕܘ̈ܥܬܢܐ. ܕܡ̇ܳܢܰܘ ܟܘܢܝܗ
                                         ܕܥܠܡܐ.<locus from="237a"/>
                 </incipit>
+                <finalRubric xml:lang="syr">ܫܠܸܡ ܒܥܘܕܪܢ ܡܪܢ. ܩ̣ܪܝ ܐܚܘܢ ܘܐܣܬܰܟܠ ܘܨ̇ܠܐ ܥܠܝ ܕܐܝܟ ܨܒܝ̣ܢܟ ܘܐܝܟ ܚ̇ܝ̣ܠܝ ܟܬܒ̇ܬ ܠܟ
+                                            ܒܪܟܡܪܝ܀<locus from="238b"/></finalRubric>
               </msItem>
             </msItem>
           </msContents>
@@ -168,10 +171,7 @@
                                                 (Add. 14,728, foll. 208—238), many of which are
                                                 slightly stained and torn. The quires, signed with
                                                 letters, are three in number. There are from 20 to
-                                                30 lines in each page. This manuscript is written in
-                                                a current hand of the xiith or xiiith cent. The
-                                                writing on the flyleaf, fol. 208, and on fol. 209 a,
-                                                is different.</p>
+                                                30 lines in each page.</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -180,9 +180,12 @@
                                 <p>Content pending</p>
                             </layoutDesc>
                         </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="2">
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr">
+                <desc>This manuscript is written in a current hand of the <origDate notBefore="1100" notAfter="1300">xiith or xiiith cent.</origDate></desc>
+              </handNote>
+              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
+                <desc>The writing on the flyleaf, fol. <locus from="208a" to="208b">208</locus>, and on fol. <locus from="209a">209 a</locus>, is different.</desc>
               </handNote>
             </handDesc>
             <additions>
@@ -190,11 +193,7 @@
               <list>
                 <item xml:id="addition1" n="1">
                   <locus from="238b"/>
-                  <p>Colophon</p>
-                  <p>
-                    <quote xml:lang="syr">ܫܠܸܡ ܒܥܘܕܪܢ ܡܪܢ. ܩ̣ܪܝ ܐܚܘܢ ܘܐܣܬܰܟܠ ܘܨ̇ܠܐ ܥܠܝ ܕܐܝܟ ܨܒܝ̣ܢܟ ܘܐܝܟ ܚ̇ܝ̣ܠܝ ܟܬܒ̇ܬ ܠܟ
-                                            ܒܪܟܡܪܝ܀</quote>
-                  </p>
+                  <p/>
                 </item>
               </list>
             </additions>
@@ -398,11 +397,11 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-01">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-29-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-29">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-09-27" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
-      <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document
-                needs to be checked for accuracy</change>
+      <change type="planned" subtype="missing">Attributes for citedRange missing in items noted above</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

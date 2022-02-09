@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,17 +83,16 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <author ref="http://syriaca.org/person/826">John Saba</author>
+              <author ref="http://syriaca.org/person/826">John Sābā</author>
               <title xml:lang="en">Selections from the writings of <persName ref="http://syriaca.org/person/826">John
-                  Saba</persName>
+                  Sābā</persName>
               </title>
-              <rubric xml:lang="syr"> ܒܝܕ ܐܠܗܐ ܡܪܟܐܠ (sic) ܪܫܡ̇ܝܢܢ ܡܢ̇ܬܐ ܩـ[ܠܝܠ ܡܢ ܟـ]ܬܒܐ ܕܡܪܝ ܣܒܐ
-                ܕܡܬ݂ܩܪܐ ܝܘܚܢܢ ܨܠܘܬܐ ܥܡܢ ܐܡܝܢ. </rubric>
-              <note>see <bibl>Assemani, Bibl. Or., t. i., p. 433 seqq.</bibl>
+              <rubric xml:lang="syr">ܒܝܕ ܐܠܗܐ ܡܪܟܐܠ <foreign xml:lang="en">(sic)</foreign> ܪܫܡ̇ܝܢܢ ܡܢ̇ܬܐ ܩـ[ܠܝܠ ܡܢ ܟـ]ܬܒܐ ܕܡܪܝ ܣܒܐ ܕܡܬ݂ܩܪܐ ܝܘܚܢܢ ܨܠܘܬܐ ܥܡܢ ܐܡܝܢ.</rubric>
+              <note>See <bibl>Assemani, Bibl. Or., t. i., p. 433 seqq.</bibl>
               </note>
               <msItem xml:id="b1" n="2">
                 <locus from="239a"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">On the training of novices</title>
                 <rubric xml:lang="syr">ܥܠ ܛܘܿܟܣܐ ܕܐܚ̈ܐ ܫܪ̈ܘܝܐ</rubric>
                 <note>See <bibl>Assemani, p. 437, serm. 8.</bibl>
@@ -100,7 +100,7 @@
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus from="240a"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">Admonitions</title>
                 <rubric xml:lang="syr">ܙܘܗܪ̈ܐ</rubric>
                 <incipit xml:lang="syr"> ܐܝܢܐ ܕܨܒ̇ܐ ܕܢܫܟܚ̣ ܠܐܠܗܐ ܘܪܓܝܓ ܠܚ̈ܝܐ ܡ̇ܠܟ ܐܢܐ ܠܗ
@@ -108,22 +108,21 @@
               </msItem>
               <msItem xml:id="b3" n="4">
                 <locus from="240b"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">On repentance</title>
                 <rubric xml:lang="syr">ܕܥܠ ܬܝܒܘܬܐ</rubric>
                 <incipit xml:lang="syr">ܕܡܪܚܲܡ ܟܠܫܥ. ܟܠܫܥ ܬܪܥܗ ܕܡܪܝܐ ܦܬ̣ܚ ܩܕܡܘܗܝ </incipit>
               </msItem>
               <msItem xml:id="b4" n="5">
                 <locus from="241a"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">Admonitions regarding watchfulness</title>
                 <rubric xml:lang="syr">ܙܘܗܪ̈ܐ ܕܥܠ ܢܛܘܪܬܐ</rubric>
-                <incipit xml:lang="syr">ܐܘ ܕܪܓܝܓ ܠܗ ܢܟܦܘܬܐ. ܠܐ ܬܣ̣ܬܘܪ ܒܟܣܝܐ ܠܐܚ̣ܘܟ. ܗܐ ܫܡܝܐ ܠܓܘ ܡܢܟ
-                  ܐܢ ܕܟܲܐ ܐܢܬ. ܏ܘܫ. </incipit>
+                <incipit xml:lang="syr">ܐܘّ ܕܪܓܝܓ ܠܗ ܢܟܦܘܬܐ. ܠܐ ܬܣ̣ܬܘܪ ܒܟܣܝܐ ܠܐܚ̣ܘܟ. ܗܐ ܫܡܝܐ ܠܓܘ ܡܢܟ ܐܢ ܕܟܲܐ ܐܢܬ. ܏ܘܫ.</incipit>
               </msItem>
               <msItem xml:id="b5" n="6">
                 <locus from="242b"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">On the demon of fornication</title>
                 <rubric xml:lang="syr">ܡܢ ܟܬܒܐ ܕܣܒܐ ܕܥܠ ܕܝܘܐ ܕܙܢܝܘܬܐ ܢܕܝܕܬܐ</rubric>
                 <note>See <bibl>Assemani, p. 436, serm. 3.</bibl>
@@ -131,7 +130,7 @@
               </msItem>
               <msItem xml:id="b6" n="7">
                 <locus from="243b"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">On the demon of blasphemy</title>
                 <rubric xml:lang="syr">ܕܥܠ ܫܐܕܐ ܕܓܘܕܦܐ</rubric>
                 <note>See <bibl>Assemani, p. 436, serm. 4.</bibl>
@@ -139,69 +138,69 @@
               </msItem>
               <msItem xml:id="b7" n="8">
                 <locus from="244a"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">On anger</title>
                 <rubric xml:lang="syr">ܥܠ ܪܘܓܙܐ</rubric>
-                <incipit xml:lang="syr">ܫܐܕܐ ܗܢܐ ܕܪܘܓܙܐ ܡܥ̣ܗܕ ܠܗ̇ ܠܢܦܫܐ ܣܘܥܪ̈ܢܐ ܕܥ̈ܒܪܝ. ܘ܏ܫ </incipit>
+                <incipit xml:lang="syr">ܫܐܕܐ ܗܢܐ ܕܪܘܓܙܐ ܡܥ̣ܗܕ ܠܗ̇ ܠܢܦܫܐ ܣܘܥܪ̈ܢܐ ܕܥ̈ܒܪܝ. ܘ܏ܫ.</incipit>
                 <note>See <bibl>Assemani, p. 437, no. 5.</bibl>
                 </note>
               </msItem>
               <msItem xml:id="b8" n="9">
                 <locus from="244b"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">On the custody of the senses, internal and
                   external</title>
                 <rubric xml:lang="syr">ܥܠ ܢܛܘܪܬܐ ܕܪ̈ܓܫܐ ܕܠܒܪ ܥܡ ܕܠܓܘ ܘܐܝܟܢ</rubric>
                 <incipit xml:lang="syr">ܚܙ̣ܝ ܐܚܝ ܝ̇ܠܕܬܐ ܕܝܠ̇ܕܐ ܠܟ ܒܪܐ ܠܐܠܗܐ ܗܕܐ ܗ̇ܝ ܦܪܘܫܘܬܐ ܥܦܝܦ̣ܬ
-                  ܡ̈ܢܘܬܐ. ܏ܘܫ </incipit>
+                  ܡ̈ܢܘܬܐ. ܏ܘܫ</incipit>
                 <note>Compare <bibl>Assemani, p. 437, serm. 10.</bibl>
                 </note>
               </msItem>
               <msItem xml:id="b9" n="10">
                 <locus from="245a"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">On the (divine) visitings that are vouchsafed unto
                   solitaries</title>
-                <rubric xml:lang="syr">ܥܠ ܣ̈ܥܘܪܘܬܐ ܕܠܘܬ ܝܚܝܕܝܐ ܡܫ̈ܬܟܢܢ </rubric>
-                <incipit xml:lang="syr">ܐܝܬ ܕܝܗ̇ܒܐ ܠܗ ܛܝܒܘܬܐ ܡܟܝ̣ܟܘܬܐ܀ ܘܐܝܬ ܕܕܡ̈ܥܐ: ܘܐܝܬ ܕܙܘܡܪܐ܀ ܏ܘܫ </incipit>
-                <note>See <bibl>Assemani, p. 435, #praefatio.</bibl>
+                <rubric xml:lang="syr">ܥܠ ܣ̈ܥܘܪܘܬܐ ܕܠܘܬ ܝܚܝܕܝܐ ܡܫ̈ܬܟܢܢ</rubric>
+                <incipit xml:lang="syr">ܐܝܬ ܕܝܗ̇ܒܐ ܠܗ ܛܝܒܘܬܐ ܡܟܝ̣ܟܘܬܐ܀ ܘܐܝܬ ܕܕܡ̈ܥܐ: ܘܐܝܬ ܕܙܘܡܪܐ܀ ܏ܘܫ</incipit>
+                <note>See <bibl>Assemani, p. 435, praefatio.</bibl>
                 </note>
               </msItem>
               <msItem xml:id="b10" n="11">
                 <locus from="245b"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">Stories of brethren</title>
                 <rubric xml:lang="syr">ܬܫ̈ܥܝܬܐ ܕܐܚ̈ܐ</rubric>
               </msItem>
               <msItem xml:id="b11" n="12">
                 <locus from="246b"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">On the love shown by the angels to ascetics, with
                   warnings against the demons that try to lead them astray</title>
                 <rubric xml:lang="syr">ܕܥܠ ܪܚܡ̣ܬ݀ ܡ̈ܠܐܟܐ ܕܡ̇ܚ̣ܘܝܢ ܠܘܬ ܟܫܝܪ̈ܐ ܘܙܘܗܪ̈ܐ ܕܕܝ̈ܘܐ ܕܨ̇ܒܝܢ
-                  ܠܡ̇ܛܥܝܘ </rubric>
-                <note>See <bibl>Assemani, p. 437, serm. 6,</bibl> and <bibl>Zingerle's Monumenta
-                    Syriaca, vol. i., p. 102.</bibl>
+                  ܠܡ̇ܛܥܝܘ</rubric>
+                <note>See <bibl>Assemani, p. 437, serm. 6</bibl>, and <bibl>Zingerle's Monumenta
+                    Syriaca, vol. i., p. 102</bibl>.
                 </note>
               </msItem>
               <msItem xml:id="b12" n="13">
                 <locus from="247a"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">Concise reflections</title>
                 <rubric xml:lang="syr">ܬܐܘܪ̈ܝܐ ܦܣܝ̈ܩܬܐ</rubric>
               </msItem>
               <msItem xml:id="b13" n="14" defective="true">
                 <locus from="247a"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">On prayer</title>
                 <rubric xml:lang="syr">ܥܠ ܨܠܘܬܐ</rubric>
-                <note>slightly mutilated at the beginning</note>
+                <note>Slightly mutilated at the beginning</note>
                 <note>Compare <bibl>Assemani, p. 437, serm. 9.</bibl>
                 </note>
               </msItem>
               <msItem xml:id="b14" n="15">
                 <locus from="247b"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">On voluntary death to the world</title>
                 <rubric xml:lang="syr">ܥܠ ܡܘܬܐ ܨܒܝ̇ܢܝܐ ܕܡܢ ܥܠܡܐ</rubric>
                 <note>See <bibl>Assemani, p. 438, serm. 11.</bibl>
@@ -209,7 +208,7 @@
               </msItem>
               <msItem xml:id="b15" n="16">
                 <locus from="247b"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">On freedom of speech towards God</title>
                 <rubric xml:lang="syr">ܥܠ ܦܪܪܣܝܐ ܕܠܘܬ ܐܠܗܐ</rubric>
                 <note>See <bibl>Assemani, p. 439, serm. 13.</bibl>
@@ -217,23 +216,22 @@
               </msItem>
               <msItem xml:id="b16" n="17">
                 <locus from="248a"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">Extract</title>
-                <incipit xml:lang="syr">ܐܣ̇ܬ̣ܟܠ ܐܚܝ ܕܠܐ ܡܫܟ̣ܚ ܗܘܢܐ ܡܚܝ̣ܠܐ ܠܡܚ̣ܪ ܒܐܠܗܐ. </incipit>
+                <incipit xml:lang="syr">ܐܣ̇ܬ̣ܟܠ ܐܚܝ ܕܠܐ ܡܫܟ̣ܚ ܗܘܢܐ ܡܚܝ̣ܠܐ ܠܡܚ̣ܪ ܒܐܠܗܐ.</incipit>
               </msItem>
               <msItem xml:id="b17" n="18">
                 <locus from="248a"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">On the revelation of God in the soul</title>
                 <rubric xml:lang="syr">ܥܠ ܡܬܓܠܝܢܘܬܐ ܕܐܠܗܐ ܒܢܦܫܐ</rubric>
-                <incipit xml:lang="syr">ܒܙܒܢ ܟܕ ܡܨܲܠܐ ܘܡܬܥ̣ܢܐ ܥܡ ܐܠܗܐ. ܩܠܐ ܠܐ ܫܡܝ̣ܥܐ ܠܐܕ̈ܢܝ ܒܣܪܐ
-                  ܐܫܡ̣ܬܥ (sic) ܠܗ ܕܐܡ̇ܪ. ܏ܘܫ.</incipit>
+                <incipit xml:lang="syr">ܒܙܒܢ ܟܕ ܡܨܲܠܐ ܘܡܬܥ̣ܢܐ ܥܡ ܐܠܗܐ. ܩܠܐ ܠܐ ܫܡܝ̣ܥܐ ܠܐܕ̈ܢܝ ܒܣܪܐ ܐܫܡ̣ܬܥ <foreign xml:lang="en">(sic)</foreign> ܠܗ ܕܐܡ̇ܪ. ܏ܘܫ.</incipit>
                 <note>See <bibl>Assemani, p. 439, serm. 16.</bibl>
                 </note>
               </msItem>
               <msItem xml:id="b18" n="19">
                 <locus from="248b"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">On the contemplation of the Trinity</title>
                 <rubric xml:lang="syr">ܥܠ ܐܬܘܪܝܐ ܕܬܠܝܬܝܘܬܐ</rubric>
                 <quote xml:lang="syr">ܡܬܟܲܢܐ ܡܪܢ ܒ̣ܪܐ ܡܛܠ ܕܒܗ ܐܬܒ̣ܪܝ ܟܠ܀ ܘܪܘܚܐ ܡܛܠ ܕܟܠ ܕܚ̇ܝ ܒܪܘܚܗ
@@ -244,17 +242,16 @@
               </msItem>
               <msItem xml:id="b19" n="20">
                 <locus from="248b"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">On the gifts of the Spirit to those who are occupied
                   with meditation on God</title>
-                <rubric xml:lang="syr">ܬܘܒ ܥܠ ܫܘܘ̈ܟܢܐ ܕܡܢ ܪܘܚܐ ܡܬܝܗܒܝܢ ܠܥ̈ܢܝܢܝ (sic) ܒܗܪܓܐ
-                  ܕܒܐܠܗܐ</rubric>
+                <rubric xml:lang="syr">ܬܘܒ ܥܠ ܫܘܘ̈ܟܢܐ ܕܡܢ ܪܘܚܐ ܡܬܝܗܒܝܢ ܠܥ̈ܢܝܢܝ <foreign xml:lang="en">(sic)</foreign> ܒܗܪܓܐ ܕܒܐܠܗܐ</rubric>
                 <note>See <bibl>Assemani, p. 439, serm. 18.</bibl>
                 </note>
               </msItem>
               <msItem xml:id="b20" n="21">
                 <locus from="249a"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">On fleeing from the world</title>
                 <rubric xml:lang="syr">ܥܠ ܥܪܘܩܝܐ ܕܡܢ ܥܠܡܐ</rubric>
                 <incipit xml:lang="syr">ܘܠܐ ܡܕܡ ܐܚܪܝܢ ܥ̇ܒܕ ܠܢ ܪ̈ܚܝܩܝ ܡܢ ܥܠܡܐ ܘܡ̈ܚܬܝ ܠܚ̈ܫܐ ܘܚ̈ܝܝܢ
@@ -264,7 +261,7 @@
               </msItem>
               <msItem xml:id="b21" n="22">
                 <locus from="250a"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">On the revelation of <persName ref="http://syriaca.org/person/2245">the Messiah</persName> to
                   those who love him</title>
                 <rubric xml:lang="syr">ܥܠ ܡܬܓ̇ܠܝ̣ܢܘܬܗ ܕܡܫܝܚܐ ܠܪ̈ܚܡܘܗܝ</rubric>
@@ -275,7 +272,7 @@
               </msItem>
               <msItem xml:id="b22" n="23">
                 <locus from="250b"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">Extract</title>
                 <incipit xml:lang="syr">ܐܢܫ ܡܢ ܐ̈ܚܐ ܟܬܝ̈ܒܢ ܗܘ̈ܝ ܠܗ ܗܠܝܢ ܘܣܝ̈ܡܢ ܩܕܡܘܗܝ ܒܐܡܝ̣ܢܘ.
                   ܏ܘܫ</incipit>
@@ -284,7 +281,7 @@
               </msItem>
               <msItem xml:id="b23" n="24">
                 <locus from="251b"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">On the vision seen at the celebration of the holy
                   Eucharist</title>
                 <rubric xml:lang="syr">ܥܠ ܚܙܵܬܐ ܕܚ̣ܙܐ ܒܪ̈ܐܙܐ</rubric>
@@ -295,8 +292,8 @@
               </msItem>
               <msItem xml:id="b24" n="25">
                 <locus from="252a"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
-                <title xml:lang="en">How profitable quiet is to the ascetic, and how %
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
+                <title xml:lang="en">How profitable quiet is to the ascetic, and how
                   injurious relaxation is to the labours of the monastic life</title>
                 <rubric xml:lang="syr">ܥܠ ܕܟܡܐ ܡ̇ܘܬܪ ܫܠܝ̣ܐ ܠܟܫܝܪ̈ܐ. ܘܟܡܐ ܡ̇ܘܒܕܐ ܫ̇ܪܝܘܬܐ ܠܥܡ̈ܠܐ
                   ܕܕܝܪܝܘܬܐ</rubric>
@@ -307,7 +304,7 @@
               </msItem>
               <msItem xml:id="b25" n="26">
                 <locus from="252b"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">On the love of God</title>
                 <rubric xml:lang="syr">ܥܠ ܪܚ̣ܡܬܐ ܕܐܠܗܐ ܘܐܝܟܢ ܫܪܝܐ ܘܡܬܩ̇ܢ̣ܝܐ</rubric>
                 <incipit xml:lang="syr">ܡܢ ܒ̇ܬܪ ܕܐܟ̣ܬܒ ܥܠ ܚܘܒ̣ܐ ܘܪܚܡ̣ܬܐ. ܐܡ̣ܪ ܗ̣ܘ ܣܒܐ ܏ܩܕ. ܣ̇ܗܕ ܗܘ
@@ -317,7 +314,7 @@
               </msItem>
               <msItem xml:id="b26" n="27">
                 <locus from="253a"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">On the study of the knowledge of the dispensation of our
                   Lord</title>
                 <rubric xml:lang="syr">ܥܠ ܗ̣ܪܓܐ ܕܡ̇ܕܥܐ ܕܒܡܕܒܪܢܘܬܗ ܕܡܪܢ</rubric>
@@ -327,7 +324,7 @@
               </msItem>
               <msItem xml:id="b27" n="28">
                 <locus from="255b"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">On the vision of God</title>
                 <rubric xml:lang="syr">ܥܠ ܚ̇ܙܬܐ ܕܐܠܗܐ</rubric>
                 <incipit xml:lang="syr">ܐܚܐ ܚܕ ܐܡ̣ܪ ܠܝ ܟܕ ܓܝܪ ܥܘܗܕܢܐ ܕܦܪܕܝܣܐ ܫܩܠܗ ܠܗܘܢܝ.
@@ -337,7 +334,7 @@
               </msItem>
               <msItem xml:id="b28" n="29">
                 <locus from="258b"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">A letter</title>
                 <rubric xml:lang="syr">ܕܝܠܗ ܐܓܪܬܐ</rubric>
                 <incipit xml:lang="syr">ܙܒܢܐ ܗܘ ܕܥ̈ܩܬܐ ܐܚܝ ܘܠܡ̇ܚ̣ܣ̣ܢ ܡܫܟ̣ܚ ܐܢܫ ܠܡܫܘܙܒܘ ܢܦܫܗ ܡܢ
@@ -345,26 +342,26 @@
               </msItem>
               <msItem xml:id="b29" n="30">
                 <locus from="259a"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">Short extract</title>
                 <incipit xml:lang="syr">ܨ̇ܠܐ ܐܚܝ ܕܢܬܩܲܦܠ ܥܡܛܢܐ ܡܢ ܐܦ̈ܝ ܪܩܝܥܢ</incipit>
               </msItem>
               <msItem xml:id="b30" n="31">
                 <locus from="259a"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">Another short extract</title>
                 <incipit xml:lang="syr">ܐܡ̣ܪ ܠܝ ܐܢܫ ܕܒܙ̣ܒܢ ܐܬܢ̇ܦܫܬ. ܘܫ̇ܪܝܬ ܛ̇ܐܣ ܐܢܐ ܘܐܬܥ̇ܠܝܬ ܠܥܠ ܡܢ
-                  ܟܠ. ܏ܘܫ. </incipit>
+                  ܟܠ. ܏ܘܫ.</incipit>
               </msItem>
               <msItem xml:id="b31" n="32">
                 <locus from="259a"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">An extract</title>
                 <incipit xml:lang="syr">ܥܠܡܐ ܗܢܐ ܐܚܝ ܠܒܘܚܪܢܐ ܘܠܕܘܪܫܐ ܣܡܗ ܒܪܘܝܐ. ܏ܘܫ</incipit>
               </msItem>
               <msItem xml:id="b32" n="33">
                 <locus from="259b"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
                 <title xml:lang="en">On the contemplation of God</title>
                 <rubric xml:lang="syr">ܥܠ ܪܢܝ̣ܐ ܕܐܠܗܐ</rubric>
                 <incipit xml:lang="syr">ܥܠ ܥܘܗܕܢܐ ܕܐܠܗܐ ܕܫ̇ܐܠܬ݂ܢܝ ܡܢܐ ܐܡ̇ܪ ܠܟ. ܏ܘܫ.</incipit>
@@ -373,8 +370,8 @@
               </msItem>
               <msItem xml:id="b33" n="34" defective="true">
                 <locus from="260b"/>
-                <author ref="http://syriaca.org/person/826">John Saba</author>
-                <title xml:lang="en">Extracts from the letters of John #Saba, from the first
+                <author ref="http://syriaca.org/person/826">John Sābā</author>
+                <title xml:lang="en">Extracts from the letters of <persName ref="http://syriaca.org/person/826">John Sābā</persName>, from the first
                   to the forty-third</title>
                 <note>See <bibl>Assemani, p. 441 seqq.</bibl>
                 </note>
@@ -394,7 +391,7 @@
                     <item>
                       <p>Paper, about 6 1/2 in. by 5, consisting of 30 leaves (Add. 14,728, foll.
                         239—268), some of which are much stained and torn, especially foll. 266—268.
-                        The quires, now three in number, are signed with letters, from ܕ to ܘ. There
+                        The quires, now three in number, are signed with letters, from <foreign xml:lang="syr">ܕ</foreign> to <foreign xml:lang="syr">ܘ</foreign>. There
                         are from 18 to 28 lines in each page. </p>
                     </item>
                   </list>
@@ -420,7 +417,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1100" notAfter="1300">of the xiith or
+              <origDate notBefore="1100" notAfter="1300">xiith or
                 xiiith cent.</origDate>
               <origPlace/>
             </origin>
@@ -611,18 +608,9 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-01">Edits to msContents and origDate</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-28">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI encoding.</change>
-      <change type="planned" subtype="missing">Missing diacritical marks on every instance of
-        "Saba".</change>
-      <change type="planned" subtype="arabic">Add missing Arabic vowel in section titled
-        "Admonitions regarding watchfulness"</change>
-      <change type="planned" subtype="missing">Missing Latin ae character in note in section "on the
-        (divine) visitings..."</change>
-      <change type="planned" subtype="syriac">check Syriac in section "On the gifts of the Spirit to
-        those who are occupied with meditation on God"</change>
-      <change type="planned" subtype="missing">Missing some sort of markings next to word "how" in
-        section "How profitable quiet is to the ascetic..."</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

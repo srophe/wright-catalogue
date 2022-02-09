@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17218, fol. 56.</title>
+        <title level="a" xml:lang="en">BL Add MS 17218, fol. 56</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,8 +83,8 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="1"/>
-              <title xml:lang="en">Part of a Malkite Service-book of the xith cent.</title>
+              <locus from="56a"/>
+              <title xml:lang="en">Part of a Malkite Service-book of the <origDate notBefore="1000" notAfter="1100">xith cent.</origDate></title>
             </msItem>
           </msContents>
           <physDesc>
@@ -97,8 +98,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>A vellum leaf, 8 3/4 in. by 6 1/8, slightly torn. It belonged to a Malkite
-                        Service-book of the xith cent., and is neatly written, with 20 or 21 lines
+                      <p>A vellum leaf, 8 3/4 in. by 6 1/8, slightly torn, with 20 or 21 lines
                         in each page.</p>
                     </item>
                   </list>
@@ -110,7 +110,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>It is neatly written.</desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -124,7 +124,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1000" notAfter="1099">of the xith
+              <origDate notBefore="1000" notAfter="1100">xith
                 cent.</origDate>
               <origPlace/>
             </origin>
@@ -315,6 +315,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-08">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-09">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI encoding.</change>
     </revisionDesc>

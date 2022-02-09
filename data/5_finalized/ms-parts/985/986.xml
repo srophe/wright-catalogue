@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#aahn">Alexys Ahn</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#aahn">Alexys Ahn</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -85,36 +86,32 @@
               <locus from="1b"/>
               <title xml:lang="en">Portions of a Service-book, containing the Order of the
                 Resurrection, in eight parts.</title>
+              <rubric xml:lang="syr">ܥܠ ܣܒܪܐ ܕܠܗܐ <foreign xml:lang="en">(sic)</foreign> ܟܬܒܝܢܢ ܛܟܣܐ ܕܩ̈ܠܐ ܕܩܝܡܝܬܐ <foreign xml:lang="en">(sic)</foreign> ܩܕܝܫܬܐ</rubric>
               <msItem xml:id="b1" n="2">
-                <locus from="1b"/>
-                <title xml:lang="en"> Title</title>
-                <rubric xml:lang="syr"> ܥܠܣܒܪܐܕܠܗܐ(sic) ܟܬܒܝܢܢܛܟܣܐܕܩ̈ܐܠܕܩܝܡܝܬܐ(sic)ܩܕܝܫܬܐ</rubric>
-              </msItem>
-              <msItem xml:id="b2" n="3">
                 <locus from="5b"/>
                 <title xml:lang="en">The fourth order</title>
-                <rubric xml:lang="syr">ܬܘܒܛܟܣܐܪܒܝܥܝܐܕܚܕ܏ ܒܫܒ ܕܩܝܡܬܐ</rubric>
+                <rubric xml:lang="syr">ܬܘܒ ܛܟܣܐ ܪܒܝܥܝܐ ܕܚܕ܏ܒܫܒ ܕܩܝܡܬܐ</rubric>
               </msItem>
               <msItem xml:id="b3" n="4">
                 <locus from="9a"/>
-                <title xml:lang="en">the seventh order</title>
-                <rubric xml:lang="syr">ܬܘܒܛܟܣܐܫܒܝܥܝܐ ܕܚܕܒ ܏ܕܩܝܡܬܐ</rubric>
+                <title xml:lang="en">The seventh order</title>
+                <rubric xml:lang="syr">ܬܘܒ ܛܟܣܐ ܫܒܝܥܝܐ ܏ܕܚܕܒ ܕܩܝܡܬܐ</rubric>
               </msItem>
               <msItem xml:id="b4" n="5">
                 <locus from="10a"/>
-                <title xml:lang="en">the eighth order</title>
-                <rubric xml:lang="syr">ܬܘܒܛܟܣܐܬܡܝ̣ܢܝܐܕܚܕܒܫܒܐܕܩܝܡܬܐ</rubric>
+                <title xml:lang="en">The eighth order</title>
+                <rubric xml:lang="syr">ܬܘܒ ܛܟܣܐ ܬܡܝ݂ܢܝܐ ܕܚܕܒܫܒܐ ܕܩܝܡܬܐ</rubric>
               </msItem>
               <msItem xml:id="b5" n="6">
                 <locus from="16b"/>
-                <title xml:lang="en">Unspecified Contents</title>
-                <rubric xml:lang="syr">ܛܟܣܐܕܫܠܡܐ</rubric>
+                <title xml:lang="en">Part d</title>
+                <rubric xml:lang="syr">ܛܟܣܐ ܕܫܠܡܐ</rubric>
               </msItem>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -125,7 +122,7 @@
                     <item>
                       <p>Seventeen paper leaves, about 14 5/8 in. by 10 5/8, nearly all more or less
                         stained and torn. Each page is divided into two columns, of from 22 to 25
-                        lines. </p>
+                        lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -136,7 +133,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>The writing is good and regular, of the xiiith cent.</desc>
+                <desc>The writing is good and regular, of the <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -150,8 +147,8 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1200" notAfter="1300">of the xiiith
-                cent</origDate>
+              <origDate notBefore="1200" notAfter="1300">xiiith
+                cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -341,10 +338,10 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-09">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-18">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#aahn">Initial TEI
         encoding.</change>
-      <change type="planned" subtype="missing">Missing English title.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17218, foll. 85 and 86.</title>
+        <title level="a" xml:lang="en">BL Add MS 17218, foll. 85, 86</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -81,9 +82,15 @@
           <msContents>
             <summary/>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1" defective="false">
-              <title xml:lang="en">The end of the 2nd and the beginning of the 3rd chapter of
-                an Exposition of the Order of the Celebration of the holy Eucharist</title>
+            <msItem xml:id="a1" n="1">
+              <locus from="85a"/>
+              <title xml:lang="en">An Exposition of the Order of the Celebration of the holy Eucharist</title>
+              <msItem xml:id="b1" n="2">
+                <locus from="85a"/>
+                <title xml:lang="en">The end of the 2nd chapter</title>
+              </msItem>
+              <msItem xml:id="b2" n="3">
+              <title xml:lang="en">The beginning of the 3rd chapter</title>
               <incipit xml:lang="syr">ܩܐܦܐܠܐܘܢ ܕܬ̈ܠܬܐ .. ܏ܡܛܠ ܏ܒܪܬ. ܏ܩܠܐ ܏ܗ̇ܝ ܏ܕܠܚܡܐ ܏ܫܡܝܢܐ.
                 ܏ܩ̇ܨܝܢܢ܀ ܝܬܝܪܬܐ ܗܝ ܡܕܝܢ ܡܢ ܗܪܟܐ̇. ܘܕܠܝܬ ܢܩܝܦܘܬܐ ܡܐܠܠܘܢ̇. ܘܐܦ ܒܪܬ ܩܠܐ ܗ̇ܝ ܕܠܚܡܐ ܫܡܝܢܐ
                 ܘܛܒܝܒܬܐ: ܕܠܐ ܝܕܝܥܐ ܠܐܝܟܐ ܡܬܡܠܠܐ. ܐܠܐ ܐܢ ܠܘܬ ܐܒܐ ܪܒܐ ܒܙܢܐ ܗ̇ܘ ܕܨܠܘܬܐ. ܘܠܐ ܐܢ ܠܘܬ ܥܡܐ
@@ -91,6 +98,7 @@
                 ܠܚܕ ܟܗܢܐ ܐܠܐ ܠܣ̈ܓܝܐܐ̇. ܕܡܢܐ ܐܪܪܐ ܥ̇ܒܕܝܢ ܐܢܬܘܢ̇. ܘܡ̇ܦܢܝܢ ܕܠܚܡܐ ܫ̇ܡܝܢܐ ܩ̇ܨܝܢܢ. ܘܗܐ ܒܪܬ
                 ܩܠܐ ܗ̇ܝ ܐܘܢܓܠܝܬܐ ܕܡܪܝܐ̇. ܐܝܟ ܟܝܬ ܕܡܣ̣ܬܒܪܐ̇. ܘܐܦܢ ܐܚܪܢܝܐܝܬ ܐܝܬ ܠܗ̇܇ ܒܪܡ ܕܝܢ ܠܘ ܕܘܟܬܗ̇
                 ܐܝܬܝܗ̇ ܐܝܟ ܕܒܫܪܪܐ̇. ܗܕܐ ܕܒܗ̇ ܡܬܐܡܪܐ. ܏ܘܫ.</incipit>
+              </msItem>
             </msItem>
           </msContents>
           <physDesc>
@@ -104,10 +112,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Two vellum leaves, about 9 1/4 in. by 6 1/2. The writing is good and
-                        regular, of the ixth cent., with from 35 to 38 lines in each page. They
-                        contain the end of the 2nd and the beginning of the 3rd chapter of an
-                        Exposition of the Order of the Celebration of the holy Eucharist. </p>
+                      <p>Two vellum leaves, about 9 1/4 in. by 6 1/2, with from 35 to 38 lines in each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -118,7 +123,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>The writing is good and regular, of the <origDate notBefore="0800" notAfter="0900">ixth cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -132,7 +137,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0800" notAfter="0899">of the ixth
+              <origDate notBefore="0800" notAfter="0900">ixth
                 cent.</origDate>
               <origPlace/>
             </origin>
@@ -323,6 +328,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-08">Edits to msContents, condition, and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-09">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI encoding.</change>
     </revisionDesc>

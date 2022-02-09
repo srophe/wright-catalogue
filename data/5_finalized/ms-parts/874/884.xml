@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17213 foll. 16 17</title>
+        <title level="a" xml:lang="en">BL Add MS 17213, foll. 16, 17</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/884</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17213 foll. 16 17</idno>
+              <idno type="BL-Shelfmark">Add MS 17213, foll. 16, 17</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,6 +82,9 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
+              <locus from="16a" to="17b"/>
+              <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
+              <title xml:lang="en" type="supplied">Portions of metrical discourses of <persName ref="http://syriaca.org/person/42">Jacob of Batnae</persName></title>
             </msItem>
           </msContents>
                <physDesc>
@@ -96,7 +100,7 @@
                               <item>
                                  <p>Two vellum leaves, about 11 5/8 in. by 8, the second of which is
                                     much torn. Each page is divided into two columns, of from 26 to
-                                    28 lines.</p>
+                                    28 lines. They once formed part of the last quire of a manuscript.</p>
                               </item>
                            </list>
                         </condition>
@@ -105,27 +109,22 @@
                         <p>Content pending</p>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                        <desc>The writing is good and regular, of the <origDate notBefore="0900" notAfter="1000">xth cent</origDate>.</desc>
+                  <handDesc hands="2">
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
+                        <desc>The writing is good and regular, of the <origDate notBefore="0900" notAfter="1000">xth cent.</origDate></desc>
+                     </handNote>
+                     <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
+                        <desc>See additions.</desc>
                      </handNote>
             </handDesc>
                   <additions>
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p>They once formed part of the last quire of a manuscript, and contain
-                              portions of metrical discourses of <persName ref="http://syriaca.org/person/42">Jacob of Batnae</persName>.</p>
-                           <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                        </item>
-                <item xml:id="addition2" n="2">
-                           <locus/>
+                           <locus from="17b"/>
                            <p>On the verso of the second leaf there is a note, stating that the
-                              manuscript to which they belonged was repaired at the expense of <persName>a
-                              monk named Thomas</persName>.</p>
+                              manuscript to which they belonged was repaired at the expense of a
+                              monk named <persName>Thomas</persName>.</p>
                            <p>
                               <quote xml:lang="syr">ܢܗܘ̣ܘܢ ܪ̈ܚܡ̣ܐ ܕܐܠܗܐ
                                  ܒܬܪ̈ܝܗܘܢ ܥ̈ܠܡܐ. ܥܠ ܡܪܝ ܬܐܘܡܐ ܕܝܪܝܐ. ܘܢܚܣܐ ܠܗ ܘܠܥܢܝ̈ܕܘܗܝ. ܕܗ̣ܘ ܥܒ̣ܕ
@@ -146,7 +145,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="0900" notAfter="1000"/>
+                     <origDate notBefore="0900" notAfter="1000">xth cent.</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
@@ -336,12 +335,11 @@
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
+        <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-03">Edits to msContents, additions, and origDate</change>
          <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-08-06" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
-         <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
-            to be checked for accuracy</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

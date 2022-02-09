@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17197 foll. 1—25</title>
+        <title level="a" xml:lang="en">BL Add MS 17197, foll. 1—25</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -83,9 +83,9 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus from="1a" to="25">Foll. 1a-25</locus>
-              <title xml:lang="en">A Commentary on <title xml:lang="en" type="supplied">the first volume of the Works of <persName ref="http://syriaca.org/person/511">Gregory Nazianzen</persName></title>, as translated by the abbat <persName>Paul</persName>, compiled by an anonymous author, who
-                followed <title>the exposition of <persName ref="http://syriaca.org/person/152">Benjamin, metropolitan of Edessa</persName></title></title>
+              <locus from="1a"/>
+              <title xml:lang="en">A Commentary on <ref>the first volume of the Works of <persName ref="http://syriaca.org/person/511">Gregory Nazianzen</persName></ref>, as translated by the abbat <persName>Paul</persName>, compiled by an anonymous author, who
+                followed the exposition of <persName ref="http://syriaca.org/person/152">Benjamin</persName>, metropolitan of Edessa</title>
               <rubric xml:lang="syr">ܒܫܡ ܝܫܘܥ ܢܘܼܗܪܐ ܕܢܘܼܗܪ̈ܐ ܡ̇ܫܪܝܢܢ ܕܢܟܬܘܒ ܦܘܫ̇ܩܐ ܐܝܟ ܕܒܙܥܘܪ̈ܝܬܐ
                 ܕܡ̈ܠܐ ܥܣ̈ܩܬܐ ܕܡܬܬܝ̈ܬܝܢ ܒܟܬܒܐ ܩܕܡܝܐ ܕܩܕܝܫܐ ܓܪܝܓܘܪܝܘܣ ܬܐܘܠܘܓܘܣ ܐܦܝܣܩܘܦܐ ܕܢܐܙܝܐܢܙܘ܀
                 ܕܣܝ̣ܡ ܠܐܢܫ ܪܚ̇ܡ ܥܡ̣ܠܐ ܐܝܟ ܡܫܠܡܢܘܬܐ ܕܚܣܝܐ ܡܪܝ ܒܢܝܐ݊ܡܝܢ ܡܝܛܪܘܦܠܝܛܝܣ ܕܐܘܪܗܝ..</rubric>
@@ -94,7 +94,7 @@
                 <title xml:lang="la">In sanctum Pascha et in tarditatem</title>
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
-                <locus from="3a" to="10">Foll. 3a-10</locus>
+                <locus from="3a"/>
                 <title xml:lang="la">Ad eos qui ipsum acciverant, nec occurrerant</title>
               </msItem>
               <msItem xml:id="b3" n="4" defective="true">
@@ -129,7 +129,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>This manuscript is written in a small, regular hand of the <origDate calendar="Gregorian" notBefore="0800" notAfter="1000">ixth or xth cent.</origDate></desc>
+                <desc>It is written in a small, regular hand of the <origDate notBefore="0800" notAfter="1000">ixth or xth cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -333,7 +333,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-21">Edits to msContents and handDesc</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-07">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-07">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#cchen">Initial TEI encoding.</change>
     </revisionDesc>

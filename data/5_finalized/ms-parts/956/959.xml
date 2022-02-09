@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17218, foll. 23—40.</title>
+        <title level="a" xml:lang="en">BL Add MS 17218, foll. 23—40</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,36 +83,36 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus from="23"/>
+              <locus from="23a"/>
               <title xml:lang="en">Portions of a Jacobite Lectionary from the Old and New
                 Testaments for various festivals</title>
+              <rubric xml:lang="syr"><fw type="header">ܦܘܪܫ ܩܪ̈ܝܢܐ<locus from="29b"/><locus from="36b"/></fw></rubric>
               <note>Only the lessons from the Old Testament are given in full.</note>
-              <note>running title, ܦܘܪܫ ܩܪ̈ܝܢܐ foll. 29 b, 36 b, etc.</note>
               <note>Some of the lessons from the Old Testament are according to the LXX.; e.g., fol.
-                38 b (Exodus, ch. xvii. 8—14).</note>
+                <locus from="38b">38 b</locus> (<title xml:lang="en" type="supplied" ref="https://syriaca.org/work/140">Exodus, ch. xvii. 8—14</title>).</note>
               <msItem xml:id="b1" n="2">
                 <locus from="25b"/>
                 <title xml:lang="en">The Epiphany</title>
-                <rubric xml:lang="syr">ܕܒܝܬ ܕܢܚܐ ܒܐܝܡܡܐ </rubric>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܒܝܬ ܕܢܚܐ ܒܐܝܡܡܐ</rubric>
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus from="26a"/>
                 <title xml:lang="en">The Commemoration of the <persName ref="http://syriaca.org/person/624">blessed
                     Virgin</persName>
                 </title>
-                <rubric xml:lang="syr">ܕܝܠܕܬ ܐܠܗܐ </rubric>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܕܘܟܪܢܐ ܕܝܠܕܬ ܐܠܗܐ</rubric>
               </msItem>
               <msItem xml:id="b3" n="4">
                 <locus from="31b"/>
                 <title xml:lang="en">The Commemoration of <persName ref="http://syriaca.org/person/1808">S. John the
                     Baptist</persName>
                 </title>
-                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܒܕܘܟܪܢܐ ܕܝܘܚܢܢ ܡܥܡܕܢܐ </rubric>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܒܕܘܟܪܢܐ ܕܝܘܚܢܢ ܡܥܡܕܢܐ</rubric>
               </msItem>
               <msItem xml:id="b4" n="5">
                 <locus from="38a"/>
                 <title xml:lang="en">The Adoration of the holy Cross</title>
-                <rubric xml:lang="syr">ܕܥܐܕܐ ܕܨܠܝܒܐ </rubric>
+                <rubric xml:lang="syr">ܕܩܪ̈ܝܢܐ ܕܥܐܕܐ ܕܨܠܝܒܐ</rubric>
               </msItem>
               <msItem xml:id="b5" n="6">
                 <locus from="40a"/>
@@ -133,9 +134,8 @@
                     <item>
                       <p>Vellum, about 8 5/8 in. by 6 1/4, consisting of 18 leaves (Add. 17,218,
                         foll. 23—40), many of which are much stained and torn. The quires are signed
-                        with letters (fol. 39 b, ܟܕ). Each page is divided, into two columns, of
-                        from 28 to 34 lines. The writing is good and regular, of the ixth or xth
-                        cent.</p>
+                        with letters (fol. <locus from="39b">39 b</locus>, <foreign xml:lang="syr">ܟܕ</foreign>). Each page is divided, into two columns, of
+                        from 28 to 34 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -146,7 +146,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>The writing is good and regular, of the <origDate notBefore="0800" notAfter="1000">ixth or xth cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -160,7 +160,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0800" notAfter="0999"/>
+              <origDate notBefore="0800" notAfter="1000"/>
               <origPlace/>
             </origin>
             <provenance/>
@@ -350,10 +350,9 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-07">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-09">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI encoding.</change>
-      <change type="planned" subtype="question">Question in Word Doc to be Addressed: Wright gives a
-        running title and then remaining rubrics, how do we address this?</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

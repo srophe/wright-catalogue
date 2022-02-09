@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14738, foll. 77, 78.</title>
+        <title level="a" xml:lang="en">BL Add MS 14738, fol. 22</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -50,7 +50,7 @@
       </editionStmt>
          <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/705/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1491/tei</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -60,31 +60,31 @@
         <date calendar="Gregorian"/>
       </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="manuscript-705">
+            <msDesc xml:id="manuscript-1491">
                <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/705</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1491</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14738, foll. 77, 78.</idno>
+              <idno type="BL-Shelfmark">Add MS 14738, fol. 22</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Arabic">405</idno>
+              <idno type="Wright-BL-Arabic">275</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Roman">CCCCV</idno>
+              <idno type="Wright-BL-Roman">CCLXXV</idno>
             </altIdentifier>
           </msIdentifier>
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="77a" to="78b"/>
-              <title xml:lang="en" type="supplied">Part of a Malkite Service-book</title>
-            </msItem>
+              <locus from="22a" to="22b"/>
+              <title xml:lang="en" type="supplied">Parts of two metrical discourses</title>
+            </msItem>            
           </msContents>
                <physDesc>
                   <objectDesc form="codex">
@@ -97,9 +97,7 @@
                         <condition>
                            <list>
                               <item>
-                                 <p>Two paper leaves, about 8 in. by 5 1/2, much stained and torn.
-                                    They belonged to a Malkite Service-book of the <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate>,
-                                    with from 15 to 17 lines in each page.</p>
+                                 <p>A paper fly-leaf for <bibl>Add. 14,738<ptr target="http://syriaca.org/manuscript/699"/>, foll. <citedRange unit="folio">12-21</citedRange></bibl>.</p>
                               </item>
                            </list>
                         </condition>
@@ -110,7 +108,7 @@
                   </objectDesc>
                   <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                        <desc>They are written in a good, regular hand</desc>
+                        <desc/>
                      </handNote>
             </handDesc>
                   <additions>
@@ -119,9 +117,14 @@
                 <item xml:id="addition1" n="1">
                            <locus/>
                            <p/>
-                           <p>
                     <quote xml:lang="syr"/>
                   </p>
+                        </item>
+                <item xml:id="addition2" n="2">
+                           <locus/>
+                           <p/>
+                              <quote xml:lang="syr"/>
+                           </p>
                         </item>
               </list>
             </additions>
@@ -135,7 +138,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate>
+                     <origDate/>
                      <origPlace/>
                   </origin>
                   <provenance/>
@@ -159,8 +162,8 @@
                 <pubPlace>London</pubPlace>
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
-                <citedRange unit="entry">CCCCV</citedRange>
-                <citedRange unit="pp">1:316</citedRange>
+                <citedRange unit="entry">CCLXXV</citedRange>
+                <citedRange unit="pp">1:212</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -318,14 +321,15 @@
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
             <item>
-              <ref target="#choral"/>
+              <ref target="#missals"/>
             </item>
           </list>
         </keywords>
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
-        <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-02">Edits to msContents and origDate</change>
+        <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-07">Edited to reflect new URIs for fly-leaves; 699.xml now its own part, to be merged with fly-leaves</change>
+        <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-02">Edits to msContents, additions and origDate</change>
          <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-08-01" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial

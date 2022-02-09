@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,28 +83,28 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
               <locus from="1a"/>
-              <author>Evagrius</author>
-              <title xml:lang="en">1. Extracts from the writings of
-                                Evagrius</title>
+              <author ref="https://syriaca.org/person/483">Evagrius</author>
+              <title xml:lang="en">Extracts from the writings of <persName ref="https://syriaca.org/person/483">Evagrius</persName></title>
             </msItem>
             <msItem xml:id="a2" n="2" defective="true">
               <locus from="5b"/>
               <author>John the Monk</author>
-              <title xml:lang="en">2. Discourse of <persName>John the
-                                    monk</persName> on <persName>S. Matthew</persName>, ch. v.
-                                3</title>
+              <title xml:lang="en">Discourse of <persName>John the
+                                    monk</persName> on <ref target="https://syriaca.org/work/9646">S. Matthew, ch. v.
+                                3</ref></title>
               <rubric xml:lang="syr">ܬܘܒ ܦܘܫܩܐ ܕܡܪܝ ܝܘܚܢܢ ܝܚܝܕܝܐ ܕܛܘܒܝܗܘܢ ܠܡ̈ܣܟܢܐ ܒܪܘܚ
                                 ܕܕܝܠܗܘܢ ܗܝ ܡܠܟܘܬܐ ܕܫܡܝܐ</rubric>
-              <note>See <bibl>Add. 17,170, fol. 14 a</bibl>.</note>
+              <note>See <bibl>Add. 17,170<ptr target="http://syriaca.org/manuscript/820"/>, fol. <citedRange unit="locus">14 a</citedRange></bibl>.</note>
             </msItem>
             <msItem xml:id="a3" n="3">
-              <author>Macarius</author>
-              <title xml:lang="en">3. Letters of Macarius</title>
+              <locus from="25b"/>
+              <author ref="http://syriaca.org/person/3501">Macarius</author>
+              <title xml:lang="en">Letters of <persName ref="http://syriaca.org/person/3501">Macarius</persName></title>
               <rubric xml:lang="syr">ܬܘܒ ܟܬܒܝܢܢ ܡܢ ܐܓܪ̈ܬܐ ܕܡܪܝ ܡܩܪܝܣ</rubric>
               <msItem xml:id="b1" n="4">
                 <locus from="25b"/>
-                <author>Macarius</author>
-                <title xml:lang="en">a. The second letter</title>
+                <author ref="http://syriaca.org/person/3501">Macarius</author>
+                <title xml:lang="en">The second letter</title>
                 <rubric xml:lang="syr">ܐܓܪܬܐ ܕܬܪ̈ܬܝܢ</rubric>
                 <incipit xml:lang="syr">ܠܒܢ̈ܝܐ ܪ̈ܚܝܡܐ. ܡ̇ܘܕܐ ܐܢܐ ܬܘܒ ܠܐܠܗܐ: ܕܐܫܟܚܬ
                                     ܦܫܝܩܘܬܐ ܕܒܝܕ ܟܬܝ̈ܒܬܐ ܐܥ̇ܗܕܟܘܢ ܏ܘܫ.<locus from="25b"/>
@@ -111,8 +112,8 @@
               </msItem>
               <msItem xml:id="b2" n="5">
                 <locus from="27b"/>
-                <author>Macarius</author>
-                <title xml:lang="en">b. The third letter</title>
+                <author ref="http://syriaca.org/person/3501">Macarius</author>
+                <title xml:lang="en">The third letter</title>
                 <rubric xml:lang="syr">ܐܓܪܬܐ ܕܬܠܬ̈ ܕܡܪܝ ܡܩܪܝܣ</rubric>
                 <incipit xml:lang="syr">ܠܐ ܐܢܫ ܡܫܟܚ ܠܬܪ̈ܝܢ ܡܪ̈ܘܢ ܕܢܦܠܘܚ. ܏ܘܫ.<locus from="27b"/>
                 </incipit>
@@ -120,8 +121,8 @@
             </msItem>
             <msItem xml:id="a4" n="6">
               <locus from="28b"/>
-              <title xml:lang="en">4. A discourse extracted from the Climax or
-                                Ladder</title>
+              <title xml:lang="en">A discourse extracted from the <title>Climax</title> or
+                                <title>Ladder</title></title>
               <rubric xml:lang="syr">ܬܘܒ ܡܡܠܐ ܡܘܬܪܢܐ ܕܢܦܫܐ ܡܢ ܟܬܒܐ ܕܡܣ̈ܩܬܐ</rubric>
               <incipit xml:lang="syr">ܡܟܝܠ ܢܦܪܘܫ ܦܘ̈ܩܕܢܐ ܪ̈ܘܪܒܐ ܕܒܗܘܢ ܡܬܓܡܪ ܐܢܫ܆ ܘܢܦܩ
                                 ܐܢܘܢ ܡܢ ܝܪܩܐ ܘܚ̇ܠ̣ܒܐ: ܗܠܝܢ ܕܡܪܢ ܘܫܠܝܚ̈ܘܗܝ ܝ̣ܗܒ ܐܢܘܢ ܠܓܡܝܪ̈ܐ.<locus from="28b"/>
@@ -129,80 +130,73 @@
             </msItem>
             <msItem xml:id="a5" n="7">
               <locus from="34a"/>
-              <title xml:lang="en">5. The history of <persName>Marcus the
-                                    solitary</persName>, who dwelt on the <placeName>hill of
+              <title xml:lang="en">The history of <persName ref="http://syriaca.org/person/1356">Marcus</persName> the
+                                    solitary, who dwelt on the <placeName>hill of
                                     Tharmaka</placeName>
               </title>
               <rubric xml:lang="syr">ܬܫܥܝܬܐ ܕܪܒܐ ܘܓܒ̣ܝܐ ܐܒܐ ܡܪܩܘܣ ܝܚܝܕܝܐ. ܗ̇ܘ ܕܥ̇ܡܪ
                                 ܗܘ̣ܐ ܒܛܘܼܪܐ ܕܬܪܡܩܐ. ܘܥܠ ܐܒܐ ܣܪܦܝܘܢ. ܐܝܟܢܐ ܐܙܠ̣ ܨܝܕܘܗܝ.</rubric>
-              <note>See <bibl>Add. 14,624, no. 4</bibl>.</note>
+              <note>See <bibl>Add. 14,624<ptr target="http://syriaca.org/manuscript/364"/>, no. <citedRange>4</citedRange></bibl>.</note> <!--JA: Element <citedRange> requires attribute for Wright's numbering-->
             </msItem>
             <msItem xml:id="a6" n="8">
               <locus from="42a"/>
-              <author>Ephraim</author>
-              <title xml:lang="en">6. A prayer of Ephraim, to be used by a monk
+              <author ref="https://syriaca.org/person/13">Ephraim</author>
+              <title xml:lang="en">A prayer of <persName ref="https://syriaca.org/person/13">Ephraim</persName>, to be used by a monk
                                 when retiring to rest</title>
               <rubric xml:lang="syr">ܨܠܘܬܐ ܕܩܕܝܫܐ ܡܪܝ ܐܦܪܝܡ ܕܐܡ̇ܪ ܠܗ̇ ܕܝܪܝܐ ܟܕ ܒ̇ܥܐ
                                 ܕܢܕܡܟ</rubric>
-              <incipit xml:lang="syr">$ ܗܒ ܠܝ ܡܪܝ ܕܐܢ ܫ̇ܗܪ ܐܢܐ. ܕܥܝܪܐܝܬ ܐܩ̣ܘܡ ܩܘܕܡܝܟ.
+              <incipit xml:lang="syr">ܗܒ ܠܝ ܡܪܝ ܕܐܢ ܫ̇ܗܪ ܐܢܐ. ܕܥܝܪܐܝܬ ܐܩ̣ܘܡ ܩܘܕܡܝܟ.
                                 ܘܐܢܗ̣ܘ ܬܘܒ ܕܕܡ̇ܟ ܐܢ̣ܐ ܠܝ. ܕܠܐ ܚܛܝܬܐ ܬܗܘ̣ܐ ܫ̣ܢܬܝ.<locus from="42a"/>
               </incipit>
             </msItem>
             <msItem xml:id="a7" n="9">
               <locus from="42b"/>
-              <author>John the younger</author>
-              <title xml:lang="en">. Extracts from the history of
-                                    <persName>John the less</persName>, or the younger</title>
+              <title xml:lang="en">Extracts from the history of
+                                    <persName>John</persName> the less, or the younger</title>
               <rubric xml:lang="syr">ܡܢ ܬܫܥܝܬܐ ܕܐܒܐ ܝܘܚܢܢ ܙܥܘܪܐ</rubric>
             </msItem>
             <msItem xml:id="a8" n="10">
               <locus from="49a"/>
-              <author>Abba Bishoi (Pisoes)</author>
-              <title xml:lang="en">8. Extracts from the history of Abba Bishoi
-                                (Pisoes)</title>
+              <title xml:lang="en">Extracts from the history of Abba <persName ref="http://syriaca.org/person/1175"><choice><sic>Bishoi</sic><corr resp="http://syriaca.org/documentation/editors.xml#wwright">(Pisoes)</corr></choice></persName></title>
               <rubric xml:lang="syr">ܡܢ ܡܡܠܐ ܕܐܒܐ ܒܝܫܘܝ ܨܠܘܬܗ ܥܡܢ ܐܡܝܢ.</rubric>
             </msItem>
             <msItem xml:id="a9" n="11">
               <locus from="53b"/>
-              <title xml:lang="en">9. Extracts from the history of
-                                    <persName>Macarius</persName>
+              <title xml:lang="en">Extracts from the history of
+                                    <persName ref="http://syriaca.org/person/3501">Macarius</persName>
               </title>
               <rubric xml:lang="syr">ܬܘܒ ܡܡܠܐ ܡܢ ܬܫܥܝܬܗ ܕܐܒܐ ܡܐܩܪܝ ܨܠܘܬܗ ܥܡܢ.</rubric>
             </msItem>
             <msItem xml:id="a10" n="12">
-              <title xml:lang="en">10. History of the Man of God from the city
-                                of <placeName>Rome</placeName>, in the time of <persName>Rabulas of
-                                        <placeName>Edessa</placeName>
+              <locus from="55b"/>
+              <title xml:lang="en">History of the <persName ref="https://syriaca.org/person/607">Man of God</persName> from the city
+                                of <placeName ref="http://syriaca.org/place/641">Rome</placeName>, in the time of <persName ref="https://syriaca.org/person/26">Rabulas of
+                                        <placeName ref="https://syriaca.org/place/78">Edessa</placeName>
                 </persName>
               </title>
-              <note>See <bibl>Add. 14,649, no. 3</bibl>.</note>
+              <note>See <bibl>Add. 14,649<ptr target="http://syriaca.org/manuscript/416"/>, no. <citedRange>3</citedRange></bibl>.</note> <!--JA: Element citedRange requires attribute for Wright's numbering-->
               <msItem xml:id="b3" n="13">
                 <locus from="55b"/>
-                <title xml:lang="en">a. Part first</title>
-                <rubric xml:lang="syr">ܬܘܒ ܟܬܒܝܢܢ ܬܫܥܝܬܐ ܕܓܒܪܐ ܕܐܠܗܐ ܥܠ ܡܦܩܗ ܕܡܢ
-                                    ܥܠܡܐ ܘܕܐܝܟܢܐ ܗܘܐ. ܘܕܐܝ܏ܬܘ ܡܢ ܪܗܡܝ (sic) $ ܡܕܝܢܬܐ. ܨܠܘܬܗ ܥܡܢ
-                                    ܐܡܝܢ.</rubric>
+                <title xml:lang="en">Part first</title>
+                <rubric xml:lang="syr">ܬܘܒ ܟܬܒܝܢܢ ܬܫܥܝܬܐ ܕܓܒܪܐ ܕܐܠܗܐ ܥܠ ܡܦܩܗ ܕܡܢ ܥܠܡܐ ܘܕܐܝܟܢܐ ܗܘܐ. ܘܕܐܝ܏ܬܘ ܡܢ ܪܗܡܝ <foreign xml:lang="en">(sic)</foreign> ܡܕܝܢܬܐ. ܨܠܘܬܗ ܥܡܢ ܐܡܝܢ.</rubric>
               </msItem>
               <msItem xml:id="b4" n="14">
                 <locus from="63a"/>
-                <title xml:lang="en">b. Part second</title>
+                <title xml:lang="en">Part second</title>
                 <rubric xml:lang="syr">ܬܘܒ ܬܫܥܝܬܐ ܕܬܪ̈ܬܝܢ ܕܓܒܪܐ ܕܐܠܗܐ ܕܡܢ ܒܬܪ ܥܘܢܕܢܗ
                                     ܕܒܐܘܪܗܝ.</rubric>
               </msItem>
             </msItem>
             <msItem xml:id="a11" n="15" defective="true">
               <locus from="71b"/>
-              <author>Evagrius</author>
-              <title xml:lang="en">11. Extract from Evagrius, "On
-                                virgins"</title>
+              <author ref="https://syriaca.org/person/483">Evagrius</author>
+              <title xml:lang="en">Extract from <persName ref="https://syriaca.org/person/483">Evagrius</persName>, "<title>On virgins</title>"</title>
               <rubric xml:lang="syr">ܕܥܠ ܒܬܘ̈ܠܬܐ</rubric>
-              <note>See <bibl>Add. 14,578, no. 43</bibl>.</note>
+              <note>See <bibl>Add. 14,578<ptr target="http://syriaca.org/manuscript/314"/>, no. <citedRange>43</citedRange></bibl>.</note> <!--JA: Element citedRange requires attribute for Wright's numbering-->
             </msItem>
             <msItem xml:id="a12" n="16" defective="true">
               <locus from="72a"/>
-              <author>Macarius</author>
-              <title xml:lang="en">12. Extracts from the history of
-                                Macarius</title>
+              <title xml:lang="en">Extracts from the history of <persName ref="http://syriaca.org/person/3501">Macarius</persName></title>
               <note>Imperfect at the beginning.</note>
             </msItem>
           </msContents>
@@ -222,9 +216,7 @@
                                                 foll. 1—7 and 75. The quires, signed with letters,
                                                 are 7 in number. Leaves are wanting at the
                                                 beginning, and after foll. 1, 4, 5, and 71. Each
-                                                page has from 16 to 26 lines. This manuscript is
-                                                written, apparently by two persons, in a current
-                                                hand of the xiiith cent.</p>
+                                                page has from 16 to 26 lines.</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -233,9 +225,9 @@
                                 <p>Content pending</p>
                             </layoutDesc>
                         </objectDesc>
-            <handDesc hands="1">
+            <handDesc hands="2">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>This manuscript is written, apparently by two persons, in a current hand of the <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions>
@@ -450,11 +442,11 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-31">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-29-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-29">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-09-27" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
-      <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document
-                needs to be checked for accuracy</change>
+      <change type="planned" subtype="missing">Attributes for citedRange missing in items noted above</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

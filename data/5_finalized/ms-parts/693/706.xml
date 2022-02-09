@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14738 foll. 79—81</title>
+        <title level="a" xml:lang="en">BL Add MS 14738, foll. 79—81</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/706</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14738 foll. 79—81</idno>
+              <idno type="BL-Shelfmark">Add MS 14738, foll. 79—81</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,11 +82,13 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
+              <locus from="79a" to="81b"/>
+              <title xml:lang="en" type="supplied">Portions of hymns and prayers</title>
             </msItem>
           </msContents>
                <physDesc>
                   <objectDesc form="codex">
-                     <supportDesc material="perg">
+                     <supportDesc material="chart">
                         <extent>
                            <measure unit="content_pending" quantity="-1"/>
                         </extent>
@@ -95,7 +98,7 @@
                            <list>
                               <item>
                                  <p>Three paper leaves, about 7 7/8 in. by 5 1/8, much soiled and
-                                    torn. They contain portions of hymns and prayers.</p>
+                                    torn.</p>
                               </item>
                            </list>
                         </condition>
@@ -106,7 +109,7 @@
                   </objectDesc>
                   <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                        <desc>It is written in a hand of the <origDate notBefore="1200" notAfter="1300">xiiith cent</origDate>.</desc>
+                        <desc>They are written in a hand of the <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate></desc>
                      </handNote>
             </handDesc>
                   <additions>
@@ -131,7 +134,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="1200" notAfter="1300"/>
+                     <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
@@ -321,6 +324,7 @@
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
+        <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-02">Edits to msContents and origDate</change>
          <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-08-01" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial

@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#aahn">Alexys Ahn</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#aahn">Alexys Ahn</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,17 +83,17 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus from="44"/>
+              <locus from="44a"/>
               <title xml:lang="en">Madrāshē for the Commemoration of the Saints</title>
               <rubric xml:lang="syr">ܒܕܘܟܪܢܐ ܕܩ̈ܕܝܫܐ</rubric>
             </msItem>
             <msItem xml:id="a2" n="2">
-              <title xml:lang="en">the Prophets and the Apostles</title>
+              <title xml:lang="en">Madrāshē for the Commemoration of the Prophets and the Apostles</title>
               <rubric xml:lang="syr">ܒܕܘܟܪܢܐ ܕܢܒ̈ܝܐ ܘܕܫ̈ܠܝܚܐ</rubric>
             </msItem>
             <msItem xml:id="a3" n="3">
-              <title xml:lang="en">some hymns (ܩ̈ܠܐ) on the Resurrection of the Dead</title>
-              <rubric xml:lang="syr">ܕܚܝܬܡ̈ܝܬܐ</rubric>
+              <title xml:lang="en">Some hymns on the Resurrection of the Dead</title>
+              <rubric xml:lang="syr">ܩ̈ܠܐ ܕܚܝܬ ܡ̈ܝܬܐ</rubric>
             </msItem>
           </msContents>
           <physDesc>
@@ -118,7 +119,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>The writing is small and regular, of the viiith or ixth cent.</desc>
+                <desc>The writing is small and regular, of the <origDate notBefore="0700" notAfter="0900">viiith or ixth cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -133,7 +134,7 @@
           <history>
             <origin>
               <origDate notBefore="0700" notAfter="0900">viiith or ixth
-                cent</origDate>
+                cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -323,6 +324,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-08">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-13">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#aahn">Initial TEI encoding.</change>
     </revisionDesc>

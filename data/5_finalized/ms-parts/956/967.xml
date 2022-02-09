@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17218, fol. 55.</title>
+        <title level="a" xml:lang="en">BL Add MS 17218, fol. 55</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,8 +83,9 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="1"/>
-              <title xml:lang="en">a small portion of a Funeral Service</title>
+              <locus from="55a"/>
+              <title xml:lang="en">A small portion of a Funeral Service</title>
+              <note>It closely resembles in appearance the <bibl>two preceding numbers<ptr target="http://syriaca.org/manuscript/192 http://syriaca.org/manuscript/760"/></bibl>.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -97,9 +99,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>A vellum leaf, much mutilated, written in double columns, in a regular hand
-                        of the xii cent. It contains a small portion of a Funeral Service, and
-                        closely resembles in appearance the two preceding numbers.</p>
+                      <p>A vellum leaf, much mutilated, written in double columns.</p>
                     </item>
                   </list>
                 </condition>
@@ -110,14 +110,14 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>It is written in a regular hand of the <origDate notBefore="1100" notAfter="1200">xii cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="1"/>
-                  <p>closely resembles in appearance the two preceding numbers</p>
+                  <locus/>
+                  <p/>
                 </item>
               </list>
             </additions>
@@ -131,7 +131,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1100" notAfter="1199">of the xii
+              <origDate notBefore="1100" notAfter="1200">xii
                 cent.</origDate>
               <origPlace/>
             </origin>
@@ -322,6 +322,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-08">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-09">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI encoding.</change>
     </revisionDesc>

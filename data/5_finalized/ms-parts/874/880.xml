@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17213 foll. 11 12</title>
+        <title level="a" xml:lang="en">BL Add MS 17213, foll. 11, 12</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/880</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17213 foll. 11 12</idno>
+              <idno type="BL-Shelfmark">Add MS 17213, foll. 11, 12</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -82,17 +83,18 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
               <locus from="11b"/>
-              <title xml:lang="en">1. Part of the second discourse of <persName>Jacob
-                           of Batnae</persName> on the <persName>prophet Elijah</persName>, when he
-                        fled from <persName>Jezebel</persName> (<title>1 Kings</title>, ch.
-                        xix)</title>
+              <author ref="https://syriaca.org/person/42">Jacob of Batnae</author>
+              <title xml:lang="en">Part of the second discourse of <persName ref="https://syriaca.org/person/42">Jacob
+                           of Batnae</persName> on the prophet <persName>Elijah</persName>, when he
+                        fled from <persName>Jezebel</persName> (<title ref="https://syriaca.org/work/9662">1 Kings, ch. xix</title>)</title>
               <rubric xml:lang="syr">ܡܐܡܪܐ ܕܬܪ̈ܝܢ. ܕܥܠ ܐܠܝܐ̣. ܟܕ ܥ̣ܪܩ ܡܢ ܐܝܙܒܝܠ</rubric>
-              <note>See <bibl>Add. 17,184, no. 1, b.</bibl>
+              <note>See <bibl>Add. 17,184<ptr target="http://syriaca.org/manuscript/838"/>, no. <citedRange>1, b</citedRange></bibl>. <!--JA: Element citedRange requires attribute for Wright's numbering-->
               </note>
             </msItem>
             <msItem xml:id="a2" n="2">
-              <title xml:lang="en">2. Part of another (the fourth?) discourse on
-                           <persName>Elijah</persName> (<title>1 Kings</title>, ch. xxii.).</title>
+              <locus from="12a"/>
+              <title xml:lang="en">Part of another (the fourth?) discourse on
+                           <persName>Elijah</persName> (<title ref="https://syriaca.org/work/9662">1 Kings, ch. xxii.</title>).</title>
             </msItem>
           </msContents>
                <physDesc>
@@ -117,9 +119,12 @@
                         <p>Content pending</p>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                        <desc>The writing is good and regular, of the <origDate notBefore="0800" notAfter="1000">ixth or xth cent</origDate>.</desc>
+                  <handDesc hands="2">
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
+                        <desc>The writing is good and regular, of the <origDate notBefore="0800" notAfter="1000">ixth or xth cent.</origDate></desc>
+                     </handNote>
+                     <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
+                        <desc>See additions.</desc>
                      </handNote>
             </handDesc>
                   <additions>
@@ -147,7 +152,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate notBefore="0800" notAfter="1000"/>
+                     <origDate notBefore="0800" notAfter="1000">ixth or xth cent.</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
@@ -337,12 +342,12 @@
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
+        <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-03">Edits to msContents, handDesc and origDate</change>
          <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-08-06" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
-         <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
-            to be checked for accuracy</change>
+         <change type="planned" subtype="missing">Attributes for citedRange missing in items noted above</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
