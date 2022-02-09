@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17224, foll. 19—21.</title>
+        <title level="a" xml:lang="en">BL Add MS 17224, foll. 19—21</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -107,7 +108,7 @@
                 <title xml:lang="en">The Annunciation of the <persName ref="http://syriaca.org/person/624">blessed
                     Virgin</persName>
                 </title>
-                <rubric xml:lang="syr">ܕܝ̇ܠܕܬ ܐܠܗܐ </rubric>
+                <rubric xml:lang="syr">ܕܣܘܒܪܗ̇ ܕܝ̇ܠܕܬ ܐܠܗܐ</rubric>
               </msItem>
               <msItem xml:id="b4" n="5">
                 <locus from="21a"/>
@@ -121,7 +122,7 @@
                 <title xml:lang="en">The Nativity of <persName ref="http://syriaca.org/person/1808">S. John the
                   Baptist</persName>
                 </title>
-                <rubric xml:lang="syr">ܕܡܘܠܕܗ ܕܝܘܚܢܢ </rubric>
+                <rubric xml:lang="syr">ܕܡܘܠܕܗ ܕܝܘܚܢܢ</rubric>
               </msItem>
             </msItem>
           </msContents>
@@ -138,8 +139,7 @@
                     <item>
                       <p>Three paper leaves, about 10 5/8 in. by 7 1/8, all more or less stained and
                         torn (Add. 17,224, foll. 19—21). Each page is divided into two columns, of
-                        from 25 to 31 lines. The writing is good and regular, of the xiiith or xivth
-                        cent., with occasional Greek vowels.</p>
+                        from 25 to 31 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -150,7 +150,8 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>The writing is good and regular, of the <origDate notBefore="1200" notAfter="1400">xiiith or xivth
+                        cent.</origDate>, with occasional Greek vowels.</desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -164,7 +165,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1200" notAfter="1399">of the xiiith or
+              <origDate notBefore="1200" notAfter="1400">xiiith or
                 xivth cent.</origDate>
               <origPlace/>
             </origin>
@@ -355,6 +356,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-09">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-09">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI encoding.</change>
     </revisionDesc>
