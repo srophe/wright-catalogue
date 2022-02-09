@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17218, fol. 97.</title>
+        <title level="a" xml:lang="en">BL Add MS 17218, fol. 97</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -81,10 +82,11 @@
           <msContents>
             <summary/>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1" defective="false">
-                <locus from="97"/>
-                <title xml:lang="en">Unspecified contents</title>
-                <note>See <ref>additions</ref>.</note>
+            <msItem xml:id="a1" n="1">
+                <locus from="97a"/>
+                <title xml:lang="en">A partially erased note, which states that this copy of <title xml:lang="en" ref="https://syriaca.org/work/9645">the four
+                    Gospels</title>, or of <title xml:lang="en" ref="https://syriaca.org/work/9587">the whole New Testament</title>, belonged to <placeName ref="https://syriaca.org/place/360">the convent of S. Mary Deipara</placeName></title>
+                <note>See additions.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -98,7 +100,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>A vellum leaf, about 9 in. by 5 ¾</p>
+                      <p>A vellum leaf, about 9 in. by 5 ¾.</p>
                     </item>
                   </list>
                 </condition>
@@ -115,20 +117,10 @@
             <additions>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="1b"/>
-                  <p>on the recto, a partially erased note, which states that this copy of the four
-                    Gospels, or of the whole New Testament, belonged to the convent of <persName>S.
-                      Mary Deipara</persName>.</p>
-                  <p>
-                    <quote xml:lang="syr">ܟܬܒܐ ܕܐܘܢܓܠܝܘܢ ܐܪܒܥܐ ܟܬܒܐ ܕܚܕܬܐ ܟܠܗ̇ ܕܕܝܪܐ ܕܣܘܪ̈ܝܝܐ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ. ܕܒܡܕܒܪܐ
-                      ܕܐܣܩܛܝ . . . </quote>
-                  </p>
-                </item>
-                <item xml:id="addition2" n="2">
-                  <locus from="1b"/>
-                  <p>A little below, we find a later note, which says that the number of those who
+                  <locus from="1a"/>
+                  <p>A little below the partially erased note, we find a later note, which says that the number of those who
                     received ordination from <persName ref="http://syriaca.org/person/50">John, bishop of
-                      <placeName ref="http://syriaca.org/place/1889">#Tella</placeName>
+                      <placeName ref="http://syriaca.org/place/1889">Tella</placeName>
                     </persName>, was 170,070</p>
                   <p>
                     <quote xml:lang="syr">ܗܘܝܢ ܗܘܘ ܚܘܫܒܢܐ ܕܐܝܠܝܢ ܕܩܒܠܘ ܟܝܪܘܛܘܢܝܐ ܡܢ ܐܦ܏ܝܣ ܝܘܚܢܢ ܕܬܠܐ
@@ -172,7 +164,7 @@
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
                 <citedRange unit="entry">MXXXV</citedRange>
-                <citedRange unit="pp">3:12</citedRange>
+                <citedRange unit="pp">3:1200</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -337,6 +329,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-09">Edits to msContents, additions, and Wright catalogue citedRange</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-09">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI encoding.</change>
       <change type="planned" subtype="missing">Missing diacritical marks on Tella</change>
