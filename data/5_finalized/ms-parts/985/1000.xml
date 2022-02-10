@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -83,17 +84,14 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
               <locus from="76a"/>
-              <author ref="573">John Chrysostom</author>
-              <author ref="511">Gregory Nazianzen</author>
-              <author ref="42">Jacob of Batnae</author>
-              <author ref="51">Severus of Antioch</author>
-              <title xml:lang="en">a portion of the Index of the discourses contained in a
-                large Service-book</title>
+              <title xml:lang="en">A portion of the Index of the discourses contained in a
+                large Service-book (like <bibl>Add. 14,515<ptr target="http://syriaca.org/manuscript/209"/></bibl>)</title>
               <rubric xml:lang="syr">ܩܘܕܩܣ ܕܡ̈ܐܡܪܐ ܘܕܬܘܪ̈ܓܡܐ ܕܒܟܬܒܐ ܗ[ܢܐ] ܡ̈ܛܟܣܝܢ. </rubric>
+              <note>The authors named are <persName ref="http://syriaca.org/person/573">John Chrysostom</persName>, <persName ref="http://syriaca.org/person/511">Gregory Nazianzen</persName>, <persName ref="http://syriaca.org/person/42">Jacob of Batnae</persName>, and <persName ref="http://syriaca.org/person/51">Severus of Antioch</persName>.</note>
             </msItem>
-            <msItem xml:id="a2" n="2">
+            <msItem xml:id="a2" n="2" defective="true">
               <locus from="76b"/>
-              <title xml:lang="en">a note, of which the only interesting portion has been
+              <title xml:lang="en">A note, of which the only interesting portion has been
                 torn away</title>
             </msItem>
           </msContents>
@@ -108,8 +106,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Part of a paper leaf, written in a current hand of the xith or xiith
-                        cent.</p>
+                      <p>Part of a paper leaf.</p>
                     </item>
                   </list>
                 </condition>
@@ -120,7 +117,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>It is written in a current hand of the <origDate notBefore="1000" notAfter="1200">xith or xiith cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -324,6 +321,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-10">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-13">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jrushing">Initial TEI encoding.</change>
     </revisionDesc>
