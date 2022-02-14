@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17224, fol. 18.</title>
+        <title level="a" xml:lang="en">BL Add MS 17224, fol. 18</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#aahn">Alexys Ahn</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#aahn">Alexys Ahn</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,21 +83,24 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus from="18"/>
-              <title xml:lang="en">The Commemoration of <persName>Basil</persName> and
-                  <persName>Gregory</persName>
-              </title>
-              <rubric xml:lang="syr"> ܛܟ̣ܣܐܕܥܠܡ̈ܠܦܢܐܬܪ̈ܝܨܝ ܫܘ ܏</rubric>
-            </msItem>
-            <msItem xml:id="a2" n="2">
-              <title xml:lang="en">The Epiphany</title>
-              <rubric xml:lang="syr"> ܬܘܒܛܟ̣ܣܐܕܥܠܥ̣ܐܕܐܩܕܝܫܐܕܕܢܚ̣ܗܐܘܟ̣ܝܬܥܡ̇ܕܗܕܡܪܢ</rubric>
-              <note>The division of the services is: ܨܠܘܬܐ, ܦܪܘܡܝܘܢ, ܣܕܪܐ, ܥܛܪܐ, and ܚܘܬܡܐ</note>
+              <locus from="18a"/>
+              <title xml:lang="en" type="supplied">Portions of services</title>
+              <note>The division of the services is: <quote xml:lang="syr">ܨܠܘܬܐ</quote>, <quote xml:lang="syr">ܦܪܘܡܝܘܢ</quote>, <quote xml:lang="syr">ܣܕܪܐ</quote>, <quote xml:lang="syr">ܥܛܪܐ</quote>, and <quote xml:lang="syr">ܚܘܬܡܐ</quote>.</note>
+              <msItem xml:id="b1" n="2">
+                <title xml:lang="en">The Commemoration of <persName ref="https://syriaca.org/person/376">Basil</persName> and
+                  <persName ref="https://syriaca.org/person/511">Gregory</persName>
+                </title>
+                <rubric xml:lang="syr">ܛܟ̣ܣܐ ܕܥܠ ܡ̈ܠܦܢܐ ܬܪ̈ܝܨܝ ܏ܫܘ</rubric>
+              </msItem>
+              <msItem xml:id="b2" n="3">
+                <title xml:lang="en">The Epiphany</title>
+                <rubric xml:lang="syr">ܬܘܒ ܛܟ̣ܣܐ ܕܥܠ ܥ̣ܐܕܐ ܩܕܝܫܐ ܕܕܢܚ̣ܗ ܐܘܟ̣ܝܬ ܥܡ̇ܕܗ ܕܡܪܢ</rubric>
+              </msItem>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -106,7 +110,7 @@
                   <list>
                     <item>
                       <p>A paper leaf, 13 in. by 9 ½ , much torn. The pages are divided into two
-                        columns of 28 lines. </p>
+                        columns of 28 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -117,7 +121,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>The writing is good and regular, of the xiiith cent</desc>
+                <desc>The writing is good and regular, of the <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -131,7 +135,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1200" notAfter="1300">of the xiiith
+              <origDate notBefore="1200" notAfter="1300">xiiith
                 cent</origDate>
               <origPlace/>
             </origin>
@@ -322,9 +326,9 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-09">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-18">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#aahn">Initial TEI encoding.</change>
-      <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

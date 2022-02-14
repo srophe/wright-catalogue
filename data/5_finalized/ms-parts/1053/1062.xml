@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#aahn">Alexys Ahn</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#aahn">Alexys Ahn</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,14 +83,14 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus from="82"/>
-              <title xml:lang="en">Portions of the Psalms, according to the Peshittaversion;
-                viz. Ps. xxii. 24—28; xxiii. 5—xxiv. 4; xxxv. 26—xxxvi. 4; and xxxvii. 2—9.</title>
+              <locus from="82a"/>
+              <title xml:lang="en">Portions of the <ref target="http://syriaca.org/work/19">Psalms, according to the Peshitta version</ref>;
+                viz. <ref target="http://syriaca.org/work/19">Ps. xxii. 24—28</ref>; <ref target="http://syriaca.org/work/19">xxiii. 5—xxiv. 4</ref>; <ref target="http://syriaca.org/work/19">xxxv. 26—xxxvi. 4</ref>; and <ref target="http://syriaca.org/work/19">xxxvii. 2—9</ref>.</title>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -98,7 +99,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Two paper leaves, both much torn</p>
+                      <p>Two paper leaves, both much torn.</p>
                     </item>
                   </list>
                 </condition>
@@ -109,7 +110,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>written in a good, regular hand of the xiith cent</desc>
+                <desc>They are written in a good, regular hand of the <origDate notBefore="1100" notAfter="1200">xiith cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -123,8 +124,8 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1100" notAfter="1200">of the xiith
-                cent</origDate>
+              <origDate notBefore="1100" notAfter="1200">xiith
+                cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -314,6 +315,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-11">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-13">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#aahn">Initial TEI encoding.</change>
     </revisionDesc>

@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17257, foll. 22—73.</title>
+        <title level="a" xml:lang="en">BL Add MS 17257, foll. 22—73</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,16 +83,36 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
+              <locus from="22a"/>
               <title xml:lang="en">Large portions of the second part of a Choir-book,
-                containing <ref target="http://syriaca.org/work/9672">the Psalms, according; to the Peshitta version</ref>
+                containing <ref target="https://syriaca.org/work/19">the Psalms, according; to the Peshitta version</ref>
               </title>
-              <quote xml:lang="en">Part of Ps. xvii.; xxiv. 4—xxvi.12; xxviii. 2— xxxi. 7; xxxii.
-                2—xxxiv. 2 ; xxxv. 20— xxxvii. 20; xii. 4—xliv. 2; xiv. 13—xlvii. 1; xlviii.
-                13—xlix. 18; li. 15—liii. 1; lv. 9— lvi. 2 ; lix. 5—Ixii. 10; lxv. 1—lxviii. 4 ;
-                lxviii. 26—lxix. 34; lxxi. 12—xcv. 3; xcviii. 9—cii. 22; civ. 24—cv. 12; cviii.
-                2—cxviii. 24; and cxviii. 61—87<locus/>
-              </quote>
-              <note>The ܡܪ̈ܡܝܬܐ and ܫܘܒ̈ܚܐ are marked, and the verses divided by ܗ. </note>
+              <note>We have here: part of <ref target="https://syriaca.org/work/19">Ps. xvii.</ref>; <ref target="https://syriaca.org/work/19">xxiv. 4—xxvi.12</ref>; <ref target="https://syriaca.org/work/19">xxviii. 2— xxxi. 7</ref>; <ref target="https://syriaca.org/work/19">xxxii.
+                2—xxxiv. 2</ref>; <ref target="https://syriaca.org/work/19">xxxv. 20— xxxvii. 20</ref>; <ref target="https://syriaca.org/work/19">xii. 4—xliv. 2</ref>; <ref target="https://syriaca.org/work/19">xiv. 13—xlvii. 1</ref>; <ref target="https://syriaca.org/work/19">xlviii.
+                13—xlix. 18</ref>; <ref target="https://syriaca.org/work/19">li. 15—liii. 1</ref>; <ref target="https://syriaca.org/work/19">lv. 9— lvi. 2</ref>; <ref target="https://syriaca.org/work/19">lix. 5—Ixii. 10</ref>; <ref target="https://syriaca.org/work/19">lxv. 1—lxviii. 4</ref>;
+                <ref target="https://syriaca.org/work/19">lxviii. 26—lxix. 34</ref>; <ref target="https://syriaca.org/work/19">lxxi. 12—xcv. 3</ref>; <ref target="https://syriaca.org/work/19">xcviii. 9—cii. 22</ref>; <ref target="https://syriaca.org/work/19">civ. 24—cv. 12</ref>; <ref target="https://syriaca.org/work/19">cviii.
+                2—cxviii. 24</ref>; and <ref target="https://syriaca.org/work/19">cxviii. 61—87</ref></note>
+              <note>The <foreign xml:lang="syr">ܡܪ̈ܡܝܬܐ</foreign> and <foreign xml:lang="syr">ܫܘܒ̈ܚܐ</foreign> are marked, and the verses divided by <foreign xml:lang="syr">ܗ</foreign>. The commencements of the various daily services are also rubricated in the text.</note>
+              <msItem xml:id="b1" n="2">
+                <locus from="23b"/>
+                <title xml:lang="en" type="supplied">Part a</title>
+                <rubric xml:lang="syr">ܬܫܡ̣ܫܬܐ ܕܬܠܬ ܫ̈ܥܝܢ ܕܟܠܝܘܡ</rubric>
+              </msItem>
+              <msItem xml:id="b2" n="3">
+                <locus from="40b"/>
+                <title xml:lang="en" type="supplied">Part b</title>
+                <rubric xml:lang="syr">ܕܬܫ̈ܥ ܫ̈ܥܝܢ</rubric>
+              </msItem>
+              <msItem xml:id="b3" n="4">
+                <locus from="53b"/>
+                <title xml:lang="en" type="supplied">Part c</title>
+                <rubric xml:lang="syr">ܕܪܡܫܐ ܕܟܠܝܘܡ</rubric>
+              </msItem>
+              <msItem xml:id="b4" n="5">
+                <locus from="72a"/>
+                <title xml:lang="en" type="supplied">Part d</title>
+                <rubric xml:lang="syr">ܕܬܪ̈ܬܝܢ ܕܠܠܝܐ</rubric>
+              </msItem>
             </msItem>
           </msContents>
           <physDesc>
@@ -108,8 +129,7 @@
                       <p>Paper, about 6 7/8 in. by 5 1/4, consisting of 52 leaves (Add. 17,257,
                         foll. 22—73), most of which, are more or less stained and torn. The quires
                         are signed with letters. The number of lines in each page varies from 11 to
-                        15. This manuscript is written in a rather inelegant hand of the xiiith or
-                        xivth cent., with a few Greek vowels</p>
+                        15.</p>
                     </item>
                   </list>
                 </condition>
@@ -120,41 +140,17 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>This manuscript is written in a rather inelegant hand of the <origDate notBefore="1200" notAfter="1400">xiiith or
+                        xivth cent.</origDate>, with a few Greek vowels.</desc>
               </handNote>
             </handDesc>
             <additions>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="23b"/>
-                  <p>The commencements of the various daily services are also rubricated in the
-                    text</p>
+                  <locus/>
+                  <p/>
                   <p>
-                    <quote xml:lang="syr">ܬܫܡ̣ܫܬܐ ܕܬܠܬ ܫ̈ܥܝܢ ܕܟܠܝܘܡ</quote>
-                  </p>
-                </item>
-                <item xml:id="addition2" n="2">
-                  <locus from="40b"/>
-                  <p>The commencements of the various daily services are also rubricated in the
-                    text</p>
-                  <p>
-                    <quote xml:lang="syr">ܕܬܫ̈ܥ ܫ̈ܥܝܢ</quote>
-                  </p>
-                </item>
-                <item xml:id="addition3" n="3">
-                  <locus from="53b"/>
-                  <p>The commencements of the various daily services are also rubricated in the
-                    text</p>
-                  <p>
-                    <quote xml:lang="syr">ܕܪܡܫܐ ܕܟܠܝܘܡ</quote>
-                  </p>
-                </item>
-                <item xml:id="addition4" n="4">
-                  <locus from="72a"/>
-                  <p>The commencements of the various daily services are also rubricated in the
-                    text</p>
-                  <p>
-                    <quote xml:lang="syr">ܕܬܪ̈ܬܝܢ ܕܠܠܝܐ</quote>
+                    <quote xml:lang="syr"/>
                   </p>
                 </item>
               </list>
@@ -360,6 +356,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-10">Edits to msContents, handDesc, and additions</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-03">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#cchen">Initial TEI encoding.</change>
     </revisionDesc>

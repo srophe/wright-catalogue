@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,20 +83,19 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus from="36"/>
-              <author ref="480">Eusebius of Caesarea</author>
-              <title xml:lang="en">Part of the Epistle of Eusebius to Carpianus, explanatory
+              <locus from="36a"/>
+              <author ref="https://syriaca.org/person/480">Eusebius of Caesarea</author>
+              <title xml:lang="en">Part of the Epistle of <persName ref="https://syriaca.org/person/480">Eusebius</persName> to <persName>Carpianus</persName>, explanatory
                 of the canons</title>
             </msItem>
             <msItem xml:id="a2" n="2">
-              <locus from="36"/>
-              <title xml:lang="en">the genealogy of S. Joseph, the husband of the Virgin
-                Mary</title>
+              <locus from="36b"/>
+              <title xml:lang="en">The genealogy of <persName ref="https://syriaca.org/person/1838">S. Joseph</persName>, the husband of the Virgin <persName ref="https://syriaca.org/person/624">Mary</persName></title>
             </msItem>
             <msItem xml:id="a3" n="3">
-              <locus from="36"/>
-              <title xml:lang="en">a statement of the number of chapters, sections, etc., in
-                the gospels of S. Matthew and S. Mark</title>
+              <locus from="36b"/>
+              <title xml:lang="en">A statement of the number of chapters, sections, etc., in
+                the gospels of <title ref="https://syriaca.org/work/9646">S. Matthew</title> and <title ref="https://syriaca.org/work/9647">S. Mark</title></title>
             </msItem>
           </msContents>
           <physDesc>
@@ -109,7 +109,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>A paper leaf, much mutilated, of the xiiith cent., apparently one of the
+                      <p>A paper leaf, much mutilated, of the <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate>, apparently one of the
                         fly-leaves of a copy of the Gospels.</p>
                     </item>
                   </list>
@@ -325,6 +325,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-10">Edits to msContents and condition</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-13">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jrushing">Initial TEI encoding.</change>
     </revisionDesc>

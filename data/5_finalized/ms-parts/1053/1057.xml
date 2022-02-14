@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17257, fol. 75.</title>
+        <title level="a" xml:lang="en">BL Add MS 17257, fol. 75</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,10 +83,11 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
+              <locus from="75a"/>
               <title xml:lang="en">A portion of the second part of a Choir-book, containing
-                <ref target="http://syriaca.org/work/9672">Psalms lv. 16—lvi. 13, according to the Peshitta version</ref>
+                <ref target="http://syriaca.org/work/19">Psalms lv. 16—lvi. 13, according to the Peshitta version</ref>
               </title>
-              <note>Instead of ܗ, there is written in some places ܗܠܠܘ.</note>
+              <note>Instead of <foreign xml:lang="syr">ܗ</foreign>, there is written in some places <foreign xml:lang="syr">ܗܠܠܘ</foreign>.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -99,8 +101,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>A paper leaf, slightly torn, about 6 1/2 in. by 5. The writing is good and
-                        regular, of the xiiith cent.</p>
+                      <p>A paper leaf, slightly torn, about 6 1/2 in. by 5.</p>
                     </item>
                   </list>
                 </condition>
@@ -111,7 +112,8 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>The writing is good and
+                        regular, of the <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -316,6 +318,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-10">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-03">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#cchen">Initial TEI encoding.</change>
     </revisionDesc>

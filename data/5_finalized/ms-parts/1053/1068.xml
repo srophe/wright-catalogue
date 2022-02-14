@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,13 +83,14 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <title ref="19" xml:lang="en">
-                <ref target="https://syriaca.org/work/19">Psalms cxlix., cl., and cli.</ref>
+              <locus from="113a"/>
+              <title ref="https://syriaca.org/work/19" xml:lang="en">
+                Psalms cxlix., cl., and cli.
               </title>
               <rubric xml:lang="syr">ܙܥܘܼܪܐ ܐܝ̇ܬܝ ܒܐܚ̈ܝ</rubric>
             </msItem>
             <msItem xml:id="a2" n="2">
-              <title ref="2" xml:lang="en">part of the <ref target="https://syriaca.org/work/2">first song of Moses, according to the Peshitta version</ref>
+              <title xml:lang="en">Part of the first song of <persName>Moses</persName>, according to the Peshitta version
               </title>
             </msItem>
           </msContents>
@@ -103,7 +105,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p/>
+                      <p>A paper leaf, 6 1/4 in. by 4.</p>
                     </item>
                   </list>
                 </condition>
@@ -114,7 +116,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>written in a hand of the <origDate notBefore="1300" notAfter="1500" calendar="Gregorian">xivth or xvth cent.</origDate>
+                <desc>It is written in a hand of the <origDate notBefore="1300" notAfter="1500" calendar="Gregorian">xivth or xvth cent.</origDate>
                 </desc>
               </handNote>
             </handDesc>
@@ -129,7 +131,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1300" notAfter="1500"/>
+              <origDate notBefore="1300" notAfter="1500">xivth or xvth cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -319,6 +321,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-14">Edits to msContents and handDesc; added condition</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-18">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jrushing">Initial TEI encoding.</change>
     </revisionDesc>

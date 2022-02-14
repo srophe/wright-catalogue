@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,16 +83,10 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <title ref="19" xml:lang="en">
-                <ref target="https://syriaca.org/work/19">Psalms xliv. 22—xlvi. 2, according to the
-                  Peshitta version</ref>
-              </title>
-            </msItem>
-            <msItem xml:id="a2" n="2">
-              <title xml:lang="en">
-                <ref target="https://syriaca.org/work/19">Psalms xlviii. 8— xlix. 18, according to the Peshitta
-                version.</ref>
-              </title>
+              <locus from="108a"/>
+              <title ref="https://syriaca.org/work/19" xml:lang="en">
+                Psalms xliv. 22—xlvi. 2 and xlviii. 8— xlix. 18, according to the
+                  Peshitta version</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -105,7 +100,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Four paper leaves, about 7 in. by 5 1/8</p>
+                      <p>Four paper leaves, about 7 in. by 5 1/8, written in double columns of 13 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -116,7 +111,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>written in double columns of 13 lines. The writing is neat and regular, of the
+                <desc>The writing is neat and regular, of the
                   <origDate notBefore="1200" notAfter="1400" calendar="Gregorian">xiiith or xivth cent.</origDate>
                 </desc>
               </handNote>
@@ -132,7 +127,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate/>
+              <origDate notBefore="1200" notAfter="1400">xiiith or xivth cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -322,6 +317,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-14">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-18">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jrushing">Initial TEI encoding.</change>
     </revisionDesc>

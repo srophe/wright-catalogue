@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,13 +83,12 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus from="75"/>
-              <title xml:lang="en">a portion of a Cross, with the words ܚܘܪܘ ܠܘܬܗ</title>
-              <rubric xml:lang="syr">ܚܘܪܘ ܠܘܬܗ</rubric>
+              <locus from="75a"/>
+              <title xml:lang="en">A portion of a Cross, with the words <quote xml:lang="syr">ܚܘܪܘ ܠܘܬܗ</quote></title>
             </msItem>
             <msItem xml:id="a2" n="2">
-              <locus from="75"/>
-              <title xml:lang="en">a fragment of an Index of Lessons</title>
+              <locus from="75b"/>
+              <title xml:lang="en">A fragment of an Index of Lessons</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -102,7 +102,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Part of an illuminated Vellum leaf</p>
+                      <p>Part of an illuminated vellum leaf. It seems to be of the <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate></p>
                     </item>
                   </list>
                 </condition>
@@ -116,6 +116,11 @@
                 <desc/>
               </handNote>
             </handDesc>
+            <decoDesc>
+              <decoNote xml:id="decoNote1" type="illustration">
+                <desc>A portion of a Cross, with the words <quote xml:lang="syr">ܚܘܪܘ ܠܘܬܗ</quote></desc>
+              </decoNote>
+            </decoDesc>
             <additions/>
             <bindingDesc>
               <p>Content pending</p>
@@ -317,6 +322,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-10">Edits to msContents and added decoDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-13">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jrushing">Initial TEI encoding.</change>
     </revisionDesc>

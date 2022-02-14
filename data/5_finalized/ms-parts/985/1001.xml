@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -83,27 +84,17 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
               <locus from="77a"/>
-              <author>Mas'ud ibn Kalda ibn Mauhub, of Bartella Castra (بَرْطُلَّى), near
-                Mosul</author>
-              <title xml:lang="en">a note stating that the volume, to which it belonged, was
-                written by a monk named Mas'ud ibn Kalda ibn Mauhub, of Bartella Castra
-                (بَرْطُلَّى), near Mosul, for Eabban Jum'a </title>
+              <title xml:lang="en">A note stating that the volume, to which it belonged, was
+                written by a monk named <persName>Mas'ud ibn Kalda ibn Mauhub</persName>, of <placeName ref="http://syriaca.org/place/260">Bartella Castra</placeName>
+                (<placeName xml:lang="ar" ref="http://syriaca.org/place/260">بَرْطُلَّي</placeName>), near <placeName ref="http://syriaca.org/place/139">Mosul</placeName>, for <persName>Rabban Jum'a</persName></title>
               <rubric xml:lang="syr">ܟܬܒܗ ܕܝܢ ܠܟܬܒܐ ܗܢܐ ܡܣܥܘܕ ܡܚܝ̣ܠܐ ܕܒܫܡܐ ܕܝܪܝܐ ܒܪ ܟܠܕܐ ܒܪ ܡܘܗܘܒ ܡܢ
                 ܒܪܛܠܝ ܩܐܣܛܪܐ ܡܫܲܡܗܐ ܕܒܐܬܪܐ ܕܢܝܢ̣ܘܐ. ܐܝܟ ܫܐ̣ܠܬܗ ܕܪܒܢ ܓܘܡܥܐ. ܕܐܠܗܐ ܡܪܐ ܟܠ ܢܚܲܣܐ ܠܟܬܘܒܐ
                 ܘܠܩܲܢܝܐ ܒܬܪ̈ܝܗܘܢ ܥ̈ܠܡܐ ܠܥܠܡܝܢ ܐܡܝܢ. </rubric>
             </msItem>
-            <msItem xml:id="a2" n="2">
-              <locus from="77b"/>
-              <title xml:lang="en">another note, of later date, which informs us that the
-                volume belonged to a monk named Abraham, who had purchased it from the priest
-                Isaiah.</title>
-              <rubric xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܐܒ̈ܗܬܐ ܠܪܒܢ ܐܒܪܗܡ ܕܝܪܝܐ ܢܟܦܐ ܕܩܢܝ̣ܗܝ ܒܙܒܢܐ
-                ܢܡܘܣܝܐ ܡܢ ܡܐ ܕܙܳܢܰܬ ܠܗ ܛܝܒܘܬܐ ܐܠܗܝܬܐ ܡܢ ܩܫܝܫܐ ܐܫܥܝܐ.</rubric>
-            </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -112,8 +103,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>A paper leaf, about 9 ¾ in. by 6 5/8, written in a good hand of the xiiith
-                        cent.</p>
+                      <p>A paper leaf, about 9 ¾ in. by 6 5/8.</p>
                     </item>
                   </list>
                 </condition>
@@ -122,12 +112,29 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="2">
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr">
+                <desc>It is written in a good hand of the <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate></desc>
+              </handNote>
+              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
-            <additions/>
+            <additions>
+              <p/>
+                <list>
+                  <item xml:id="addition1" n="1">
+                  <locus from="77b"/>
+                    <p>Another note, of later date, which informs us that the
+                volume belonged to a monk named <persName>Abraham</persName>, who had purchased it from the priest
+                <persName>Isaiah</persName>.</p>
+                    <p>
+                      <quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܐܒ̈ܗܬܐ ܠܪܒܢ ܐܒܪܗܡ ܕܝܪܝܐ ܢܟܦܐ ܕܩܢܝ̣ܗܝ ܒܙܒܢܐ
+                ܢܡܘܣܝܐ ܡܢ ܡܐ ܕܙܳܢܰܬ ܠܗ ܛܝܒܘܬܐ ܐܠܗܝܬܐ ܡܢ ܩܫܝܫܐ ܐܫܥܝܐ.</quote>
+                    </p>
+                </item>
+              </list>
+            </additions>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -328,6 +335,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-10">Edits to msContents, handDesc, and additions</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-13">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jrushing">Initial TEI encoding.</change>
     </revisionDesc>

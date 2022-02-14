@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17224, foll. 22—33.</title>
+        <title level="a" xml:lang="en">BL Add MS 17224, foll. 22—33</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,6 +83,7 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
+              <locus from="22a"/>
               <title xml:lang="en">Part of a Jacobite Lectionary from the Gospels for various
                 occasions</title>
               <msItem xml:id="b1" n="2" defective="true">
@@ -101,6 +103,7 @@
                   <title xml:lang="en">The fourth week</title>
                 </msItem>
               </msItem>
+              <note>See additions.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -116,8 +119,7 @@
                     <item>
                       <p>Twelve paper leaves, about 12 7/8 in. by 9 7/8, several of which are
                         stained and torn (Add. 17,224, foll. 22—33). Each page is divided into two
-                        columns, of from 21 to 25 lines. The writing is good and regular, of the
-                        xiiith cent., with occasional Greek vowels and other points. </p>
+                        columns, of from 21 to 25 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -128,27 +130,16 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>The writing is good and regular, of the
+                        <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate>, with occasional Greek vowels and other points.</desc>
               </handNote>
             </handDesc>
             <additions>
-              <p>On the margins there are a few grammatical and explanatory notes.</p>
+              <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="22a"/>
-                  <p>
-                    <persName ref="http://syriaca.org/person/1855">S. Luke</persName> ii. 8, ܘܢ̇ܛܪܝܢ ܡܰܛܰܪܳܬ݀ܐ ܕܠܠܝܐ ܥܠ ܡ̈ܪܥܝܳܬܗܘܢ On
-                    ܡܛܪܬܐ margin: ܒܦܬܚ ܛܝ܏ܬ ܚܕܢܐܝܬ ܏ܘ . . . ܒܰܙܩܦ ܏ܪܝܫ ܣܓܝܐܢܐܝܬ "with pĕthāchā of
-                    the tēth as a singular; and (the Nestorians?) with zĕkāphā of the rīsh as a
-                    plural." Again, on ܡ̈ܪܥܝܬܗܘܢ, margin: ܚܪܩܠܝܐ ܒܚܒܨ ܏ܥܐ ܚܕܢܐܝܬ "the Harklensian
-                    version with chĕbāsā of the ‘ē as a singular."</p>
-                </item>
-                <item xml:id="addition2" n="2">
-                  <locus from="24b"/>
-                  <p>
-                    <persName>S. Matthew</persName>, xiii. 29,ܬܥܩܪܘܢ ܥܡܗܘܢ ܐܦ ܚ̈ܛܐ On ܬܥ̣ܩܪܘܢ ,
-                    margin ܒܶܪܒܨ ܏ܬܘ ܏ܢܣܛܘܪ̈ ܏ܒܦܬ ܏ܬܘ "with rĕbāsā of the tau, but the Nestorians
-                    with pĕthāchā of the tau."</p>
+                  <locus/>
+                  <p>On the margins there are a few grammatical and explanatory notes. E.g., fol. <locus from="22a">22 a</locus>, <title xml:lang="en" ref="https://syriaca.org/work/9648">S. Luke ii. 8</title>,  <quote xml:lang="syr">ܘܢ̇ܛܪܝܢ ܡܰܛܰܪܳܬ݀ܐ ܕܠܠܝܐ ܥܠ ܡ̈ܪܥܝܳܬܗܘܢ</quote> On <quote xml:lang="syr">ܡܛܪܬܐ</quote> margin: <quote xml:lang="syr"><locus from="22a"/>ܒܦܬܚ ܛܝ܏ܬ ܚܕܢܐܝܬ ܏ܘ . . . ܒܰܙܩܦ ܏ܪܝܫ ܣܓܝܐܢܐܝܬ <supplied reason="translation" xml:lang="en" resp="http://syriaca.org/documentation/editors.xml#wwright">"with pĕthāchā of the tēth as a singular; and (the Nestorians?) with zĕkāphā of the rīsh as a plural."</supplied></quote> Again, on <quote xml:lang="syr">ܡ̈ܪܥܝܬܗܘܢ</quote>, margin: <quote xml:lang="syr"><locus from="22a"/>ܚܪܩܠܝܐ ܒܚܒܨ ܏ܥܐ ܚܕܢܐܝܬ <supplied reason="translation" xml:lang="en" resp="http://syriaca.org/documentation/editors.xml#wwright">"the Harklensian version with chĕbāsā of the ‘ē as a singular."</supplied></quote> Fol. <locus from="24b">24 b</locus>, <title xml:lang="en" ref="https://syriaca.org/work/9646">S. Matthew, xiii. 29</title>,<quote xml:lang="syr">ܬܥܩܪܘܢ ܥܡܗܘܢ ܐܦ ܚ̈ܛܐ</quote> On <quote xml:lang="syr">ܬܥ̣ܩܪܘܢ</quote> , margin <quote xml:lang="syr"><locus from="24b"/>ܒܶܪܒܨ ܏ܬܘ ܏ܢܣܛܘܪ̈ ܏ܒܦܬ ܏ܬܘ <supplied reason="translation" xml:lang="en" resp="http://syriaca.org/documentation/editors.xml#wwright">"with rĕbāsā of the tau, but the Nestorians with pĕthāchā of the tau."</supplied></quote></p>
                 </item>
               </list>
             </additions>
@@ -162,7 +153,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1200" notAfter="1299">of the xiiith
+              <origDate notBefore="1200" notAfter="1300">xiiith
                 cent.</origDate>
               <origPlace/>
             </origin>
@@ -353,6 +344,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-09">Edits to msContents, handDesc, and additions</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-09">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI encoding.</change>
     </revisionDesc>
