@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#aahn">Alexys Ahn</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#aahn">Alexys Ahn</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,14 +83,14 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus from="103"/>
-              <title xml:lang="en">Psalms xxi. 7—xxv. 6, according to the Peshitta
-                version.</title>
+              <locus from="103a"/>
+              <title xml:lang="en" ref="http://syriaca.org/work/19">Psalms xxi. 7—xxv. 6, according to the Peshitta
+                version</title>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -98,7 +99,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Five paper leaves, about 6 3/8 in. by 4 7/8, slightly torn. </p>
+                      <p>Five paper leaves, about 6 3/8 in. by 4 7/8, slightly torn. There are 13 or 14 lines in each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -109,8 +110,8 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>here are 13 or 14 lines in each page. The writing is of the xiiith or xivth
-                  cent., with occasional Syriac vowels.</desc>
+                <desc>The writing is of the <origDate notBefore="1200" notAfter="1400">xiiith or xivth
+                  cent.</origDate>, with occasional Syriac vowels.</desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -124,7 +125,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1200" notAfter="1400">of the xiiith or
+              <origDate notBefore="1200" notAfter="1400">xiiith or
                 xivth cent</origDate>
               <origPlace/>
             </origin>
@@ -315,6 +316,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-14">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-13">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#aahn">Initial TEI encoding.</change>
     </revisionDesc>
