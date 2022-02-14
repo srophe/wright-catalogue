@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,9 +83,9 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <title ref="19" xml:lang="en">
-                <ref target="https://syriaca.org/work/19">Ps. lxxviii. 26—45, according to the Peshitta
-                version</ref>
+              <title ref="https://syriaca.org/work/19" xml:lang="en">
+                Ps. lxxviii. 26—45, according to the Peshitta
+                version
               </title>
             </msItem>
           </msContents>
@@ -110,7 +111,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>neatly written in a hand of the <origDate notBefore="1300" notAfter="1400" calendar="Gregorian">xivth cent.</origDate>, with some Syriac vowels and other
+                <desc>It is neatly written in a hand of the <origDate notBefore="1300" notAfter="1400" calendar="Gregorian">xivth cent.</origDate>, with some Syriac vowels and other
                   points.</desc>
               </handNote>
             </handDesc>
@@ -125,7 +126,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notAfter="1400" notBefore="1300"/>
+              <origDate notBefore="1300" notAfter="1400">xivth cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -315,6 +316,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-14">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-18">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jrushing">Initial TEI encoding.</change>
     </revisionDesc>
