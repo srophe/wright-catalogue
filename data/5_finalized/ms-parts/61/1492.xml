@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 12172, foll. 25—54, upper text</title>
+        <title level="a" xml:lang="en">BL Add MS 12172, foll. 28, 31, lower text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -14,11 +14,10 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
-        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Based on the work of</resp>
@@ -50,7 +49,7 @@
     </editionStmt>
       <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/64/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1492/tei</idno>
         <availability>
             <p/>
             <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -60,15 +59,15 @@
         <date calendar="Gregorian">2022-01-03-05:00</date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-64">
+        <msDesc xml:id="manuscript-1492">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/64</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1492</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 12172, foll. 25-54, upper text</idno>
+              <idno type="BL-Shelfmark">Add MS 12172, foll. 28, 31, lower text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -83,50 +82,10 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="25a"/>
-              <title xml:lang="en">The history of <persName ref="https://syriaca.org/person/1721">Euphrosyne of
-                  Alexandria</persName>
-              </title>
-              <rubric xml:lang="syr">ܬܫܥܝܬܐ ܕܥܠ ܩܕܝܫܬܐ ܐܘܦܪܘܣܘܢܝ. ܗ̇ܝ ܕܡܢ ܐܠܟܣܢܕܪܝܐ ܕܐܬܥܢ̣ܘܝܬ݀
-                ܡܛܫܝܐܝܬ ܒܥܘܡܪܐ ܕܓܒܪ̈ܐ.</rubric>
-              <note>See the <bibl>Acta Sanctt., Febr., t. ii., pp. 537, seqq</bibl>.</note>
-            </msItem>
-            <msItem xml:id="a2" n="2">
-              <locus from="32b"/>
-              <title xml:lang="en">The history of another virgin of Alexandria</title>
-              <rubric xml:lang="syr">ܬܫܥܝܬܐ ܕܥܠ ܒܬܘܠܬܐ ܐܚܪܬܐ ܡܝܬܪܬܐ ܐܠܟܣܢܕܪܝܬܐ</rubric>
-              <finalRubric xml:lang="syr">ܛܘܒܢܝܬܐ ܒܬܘܠܬܐ ܦܝܠܝܦܘ<locus/>
-              </finalRubric>
-              <note>See <bibl>Add. 14,649, fol. 103 b</bibl>.
-              </note>
-              <note>In the subscription she is named <persName>Philippa</persName></note>
-            </msItem>
-            <msItem xml:id="a3" n="3">
-              <locus from="35b"/>
-              <title xml:lang="en">The history of <persName>Maria</persName>, who entered a convent of monks under
-                the name of <persName>Marinus</persName>, <quote xml:lang="syr">ܡܐܪܝܢܐ</quote></title>
-              <rubric xml:lang="syr">ܬܫܥܝܬܐ ܕܥܠ ܩܕܝܫܬܐ ܘܢܨܝܚܬܐ ܡܐܪܝܐ</rubric>
-              <note>See<bibl> Rosweyde, Vitae Patrum, lib. i., p. 393.</bibl>
-              </note>
-            </msItem>
-            <msItem xml:id="a4" n="4">
-              <locus from="38a"/>
-              <title xml:lang="en">The history of <persName ref="https://syriaca.org/person/1268">Hilaria</persName>, the daughter
-                of the emperor <persName>Zeno</persName></title>
-              <rubric xml:lang="syr">ܬܫܥܝܬܐ ܕܥܠ ܩܕܝܫܬܐ ܐܠܐܪܝܐ ܒܪܬܗ ܕܙܝܢܘܢ ܡ̇ܠܟܐ</rubric>
-              <finalRubric xml:lang="syr"><note xml:lang="en">In the subscription is added:</note> ܕܫܢ̣ܝܬ݀ ܡܢ ܒܝܬ ܐܒܗ̈ܝܗ̇. ܡܛܫܝܐܝܬ݀ ܘܐܬܥܢ̣ܘܝܬ݀ ܒܡ̇ܕܒܪܐ ܗ̇ܘ
-                  ܕܡܨܪܝܢ.<locus/>
-              </finalRubric>
-            </msItem>
-            <msItem xml:id="a5" n="5">
-              <locus from="48b"/>
-              <title xml:lang="en">The history of <persName>Andronicus</persName> and his
-                wife <persName>Athanasia</persName>
-              </title>
-              <rubric xml:lang="syr">ܬܫܥܝܬܐ ܕܥܠ ܩܕܝܫܐ ܐܢܕܪܘܢܝܩܘܣ ܘܐܬܢܣܝܐ ܐܢܬܬܐ ܕܝܠܗ. ܘܥܠ ܫܘܠܡܐ
-                ܛܘܒܬܢܐ ܕܗ̣ܘܐ ܠܗܘܢ ܡܢ ܥܠܡܐ ܗܢܐ.</rubric>
-              <note>See the<bibl> Acta Sanctt., Octob., t. iv., p. 998</bibl>.
-              </note>
+              <locus from="28a"/>
+              <locus from="31a"/>
+              <title xml:lang="en">Unspecified contents</title>
+              <note>Scarcely a word can be completely deciphered.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -140,9 +99,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Vellum, about 9 3/8 in. by 6 1/8, consisting of 30 leaves (Add. 12,172,
-                        foll. 25—54), some of which are much stained and soiled. Each page is
-                        divided into two columns, of from 27 to 31 lines. <bibl>Add. 12,172, foll. 28 and 31<ptr target="http://syriaca.org/manuscript/1492"/></bibl> are Syriac palimpsest.</p>
+                      <p>Vellum, about 9 3/8 in. by 6 1/8. These leaves are palimpsest and now part of <bibl>Add. 12,172, foll. 25-54<ptr target="http://syriaca.org/manuscript/64"/></bibl>.</p>
                     </item>
                   </list>
                 </condition>
@@ -152,39 +109,19 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="2">
-              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr">
-                <desc>The character is a good,
-                        regular cursive of about the <origDate notBefore="0900" notAfter="1000">xth cent.</origDate></desc>
-              </handNote>
-              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
-                <desc>See additions.</desc>
+              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr-Syre">
+                <desc>The older writing is an Estrangela of the
+                <origDate notBefore="0600" notAfter="0700">viith cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions>
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="53b"/>
-                  <p>On fol. 53 b there is a note, some portions of which have been altered at a
-                    later period, stating that "<quote xml:lang="en">this book of <persName>Abba Isaiah</persName></quote>" was
-                    purchased by the deacon <persName>David bar Aaron of Melitene</persName>,
-                    Consequently the manuscript must have been long bound with nos. <bibl>DLXXX<ptr target="http://syriaca.org/manuscript/62"/></bibl>. and
-                    <bibl>DCCCCLIII<ptr target="http://syriaca.org/manuscript/63"/></bibl>.</p>
-                  <p>
-                    <quote xml:lang="syr">ܙܒܢ ܟܬܒܐ ܗܢܐ ܕܐܒܐ ܐܫܥܝܐ ܕܘܝܕ ܡܫܡܫܢܐ ܒܪ ܐܗܪܘܢ ܡܠܝܛܢܝܐ ܡܢ ܥܡܠܐ ܕܐܝ̈ܕܘܗܝ. [ܘܫܟܢܗ
-                      ܠܗܢܐ ܠܕܝܪܐ ܏ܩܕ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ ܕܣܘܪ̈ܝܝܐ ܕܡܕܒܪܐ ܕܐܣܩܛܝ]. ܐܠܐ ܟܠ ܕܫܐܠ ܠܗ ܕܢܩܪܐ
-                      ܒܗ. ܏ܘܫ.</quote>
-                  </p>
+                  <locus/>
+                  <p/>
                 </item>
-                <item xml:id="addition2" n="2">
-                  <locus from="53b"/>
-                  <p>On the margin of the same page two persons, called <persName>John</persName> and <persName>David</persName>, have
-                    recorded their names:</p>
-                  <p>
-                    <quote xml:lang="syr">ܝܘܚܢܢ ܒܪ ܦܘܠܓ (?) ܘܕܘܝܕ ܚܛܝܐ ܘܕܘܝܐ ܘܐܟܣܢܝܐ ܘܣܢܩܠܐ</quote>
-                  </p>
-                </item>
-              </list>
+                </list>
             </additions>
             <bindingDesc>
               <p>Content pending</p>
@@ -196,7 +133,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0900" notAfter="1000">Xth
+              <origDate notBefore="0600" notAfter="0700">VIIth
                 Century</origDate>
               <origPlace/>
             </origin>
@@ -222,7 +159,7 @@
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
                 <citedRange unit="entry">DCCCCLIV</citedRange>
-                <citedRange unit="pp">3:1117-1118</citedRange>
+                <citedRange unit="pp">3:1118</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -387,9 +324,9 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-15">Edits to msContents, condition, and handDesc</change>
+    <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-15">Initial TEI encoding.</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-03">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
+      <change type="planned" subtype="consultation">Wright's description is so incomplete that the physical manuscript needs to be consulted and redescribed.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
