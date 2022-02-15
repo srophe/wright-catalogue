@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 12172, foll. 65—135.</title>
+        <title level="a" xml:lang="en">BL Add MS 12172, foll. 65—135</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,40 +83,38 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus to="78" from="65"/>
+              <locus from="65a" to="78b"/>
               <author ref="http://syriaca.org/person/113">Jacob of Edessa</author>
-              <title xml:lang="en">The first portion, foll. 65—78, contains a collection of
-                letters of Jacob of Edessa</title>
+              <title xml:lang="en">A collection of
+                letters of <persName ref="http://syriaca.org/person/113">Jacob of Edessa</persName></title>
               <msItem xml:id="b1" n="2" defective="true">
                 <locus from="65a"/>
                 <author ref="http://syriaca.org/person/113">Jacob of Edessa</author>
                 <title xml:lang="en">Part of a long letter in heptasyllabic metre</title>
-                <note>At the commencement Jacob speaks of the three creative agencies, God (ܐܠܗܐ),
-                  Nature (ܟܝܢܐ), and Mind (ܗܘܢܐ), fol. 65a: <quote xml:lang="syr">ܐܠܗܐ ܒ̇ܪܐ ܒܚܝܠܗ̣.
+                <note>At the commencement Jacob speaks of the three creative agencies, God (<quote xml:lang="syr">ܐܠܗܐ</quote>),
+                  Nature (<quote xml:lang="syr">ܟܝܢܐ</quote>), and Mind (<quote xml:lang="syr">ܗܘܢܐ</quote>), fol. <locus from="65a">65a</locus>: <quote xml:lang="syr">ܐܠܗܐ ܒ̇ܪܐ ܒܚܝܠܗ̣.
                     ܘܟܝܢܐ̣ ܐܝܟ ܡܐ ܕܦܩܝܕ. ܘܗܘܢܐ ܚܐ̇ܪ ܒܟܝܢܐ̣. ܘܒ̇ܪܐ ܐܦ ܗ̣ܘ ܠܦܘܬ ܚܝܠܗ. ܬܠܬܐ ܐܝܬ ܠܟ
                     ܒܪ̈ܘܝܐ. ܦܪܘܫܐ̇ ܚܘܪ ܘܐܬܕܡܪ. ܚܕ ܕܒ̣ܪܐ ܟܠ ܒܪ̈ܝܬܐ̣. ܘܬܪ̈ܝܢ ܒܪ̈ܝܐ ܘܥܒ̈ܝܕܐ. ܚܕ ܒ̇ܪܐ
                     ܐܝܟ ܡܐ ܕܨ̇ܒܐ̣. ܘܗ̇ܘ ܕܬܪ̈ܝ̣ܢ ܐܝܟ ܡܐ ܕܡܟܢ. ܘܗ̇ܘ ܕܬܠܬܐ̣ ܒܕܡܘܼܬܐ̇. ܕܗ̇ܘ ܕܬܪ̈ܝܢ ܒ̇ܪܐ
                     ܐܦ ܗ̇ܘ <locus from="65a"/>
-                  </quote> He then addresses the mind, warning it
-                  against too great presumption, fol. 66a : <quote xml:lang="syr"> ܗܠܝܢ ܟܠܗܝܢ ܠܐ
-                    ܣ̣ܦܩ ܠܟ: ܠܡܒܚܘ (read ܠܡܒܚܢܘ) ܡܪܚܐ: ܐܠܐ ܕܐܦ ܥܠ ܒܪܘܝܟ: ܣ̇ܥܐ ܐܢܬ ܠܡܥܩܒܘܼ. ܟܝ̈ܢܐ
-                    ܟܠܗܘܢ ܕܒܪܝܬܐ: ܠܐ ܣ̣ܦܩܘ ܠܗ̇ ܠܡܪܚܘܬܟ: ܐܠܐ ܕܐܦ ܒܥܒܘܕܘܬܐ: ܣܒ̇ܟ ܐܝܬ ܡܪܚܐܝܬ݂. ܚܘܪ ܚܠܫܐ
-                    ܒܟܝܢܟ܆ ܐܦ ܐܬܒܩܐ ܒܒܪܝܬܟ. ܘܟܕ ܐܢܬ ܠܟ ܠܐ ܡ̇ܕܪܟ ܐܢܬ̣. ܠܐ ܬܣܥܐ ܥܠ ܥܒܘܕܟ <locus from="66a"/>
-                  </quote> ; speaks of the opportunity afforded him of showing
-                  his skill as a poet (creator, maker, ποιητής); and quotes a part of a letter which
-                  he had received (fol. 67b), in which the writer says that he regards every wise
+                  </quote>. He then addresses the mind, warning it
+                  against too great presumption, fol. <locus from="66a">66a</locus>: <quote xml:lang="syr">ܗܠܝܢ ܟܠܗܝܢ ܠܐ ܣ̣ܦܩ ܠܟ: <choice><sic>ܠܡܒܚܘ</sic><corr xml:lang="en" resp="http://syriaca.org/documentation/editors.xml#wwright">(read <foreign xml:lang="syr">ܠܡܒܚܢܘ</foreign>)</corr></choice>
+                  ܡܪܚܐ:  ܐܠܐ ܕܐܦ ܥܠ ܒܪܘܝܟ: ܣ̇ܥܐ ܐܢܬ ܠܡܥܩܒܘܼ. ܟܝ̈ܢܐ ܟܠܗܘܢ ܕܒܪܝܬܐ: ܠܐ ܣ̣ܦܩܘ ܠܗ̇ ܠܡܪܚܘܬܟ: ܐܠܐ ܕܐܦ ܒܥܒܘܕܘܬܐ: ܣܒ̇ܟ ܐܝܬ ܡܪܚܐܝܬ݂. ܚܘܪ ܚܠܫܐ ܒܟܝܢܟ܆ ܐܦ ܐܬܒܩܐ ܒܒܪܝܬܟ. ܘܟܕ ܐܢܬ ܠܟ ܠܐ ܡ̇ܕܪܟ ܐܢܬ̣. ܠܐ ܬܣܥܐ ܥܠ ܥܒܘܕܟ<locus from="66a"/>
+                  </quote>; speaks of the opportunity afforded him of showing
+                  his skill as a poet (creator, maker, <foreign xml:lang="grc">ποιητής</foreign>); and quotes a part of a letter which
+                  he had received (fol. <locus from="67b">67b</locus>), in which the writer says that he regards every wise
                   man, whether residing far or near, whether personally known to him or not, as a
-                  friend, and consequently claims Jacob as such : <quote xml:lang="syr">ܕܠܒܪܢܫܐ
+                  friend, and consequently claims <persName ref="http://syriaca.org/person/113">Jacob</persName> as such: <quote xml:lang="syr">ܕܠܒܪܢܫܐ
                     ܚܟܝܡܐ: ܐܦܢ ܒܐܬܪܐ ܗܘ ܪܚܝܩܐ: ܐܦܢ ܠܐ ܡܬܘܡ ܢܣܬܩܒܠ: ܕܐܚ̇ܙܐ ܒܥܝ̈ܢܝ ܓܠܝܐܝܬ: ܪܚܡܐ ܕܐ̇ܢ
                     ܐܢܐ ܕܐܝܬܘܗܝ: ܘܕܐܒܝܬܝܘܗܝ ܠܝ ܨ̇ܒܐ̣ ܐܢܐ̣. ܕܐܚܫܘܒ ܘܐ̇ܡܪ ܐܟܘܬܗ̇. ܐܦ ܐܢܐ ܡܚܕܐ ܕ̇ܢܬ܇ ܟܕ
                     ܡܢ ܡܠܬܗ ܐܬ݀ܢܓܕܬ܇ ܘܢܩ̇ܦܬ ܒܬܪ ܚܘܫܒܢܗ. ܒܕܓܘܢ ܟܕ ܐ̇ܣܩܬ ܥܠ ܒܠܝ: ܠܪܚܡܬ ܐܠܗܐ ܕܝܠܟ: ܘ܏ܫ
                       <locus from="67b"/>
-                  </quote> Jacob in return praises the writer's
+                  </quote>. <persName ref="http://syriaca.org/person/113">Jacob</persName> in return praises the writer's
                   philanthropy and eagerness in searching after wisdom; enlarges on the
-                  worthlessness of human judgments (ܕܝ̈ܢ̣ܐ ܕܐܢܫ̈ܐ), citing passages from an unnamed
-                  author (ܠܐܢܫ ܚܟܝܡܐ ܘܡܠܦܢܐ, fol. 69a) and from a Greek poet, fol. 69b, <quote xml:lang="syr">ܩ̇ܒ̣ܠ ܕܐܦ ܐܢܫ ܒܪܝܐ̇ ܦܘܐܝܛܐ ܥܠܝܗܘܢ ܐܡ̣ܪ: ܕܠܙܒܠܐ ܕܗܒܐ ܩ̇ܪܝܢ̇.
-                    ܘܠܕܗܒܐ ܙܒܠܐ ܡ̇ܟܢܝ̣ܢ. ܘܠܐ ܡܬܘܡ ܬܬܠ ܩܘܠܣܐ̇. ܠܒܪܢܫܐ ܩܕܡ ܫܘܠܡܗ ܏ܘܫ <locus from="69a" to="69b"/>
-                  </quote> ; and finally exhorts him to seek after wisdom, not merely
+                  worthlessness of human judgments (<quote xml:lang="syr">ܕܝ̈ܢ̣ܐ ܕܐܢܫ̈ܐ</quote>), citing passages from an unnamed
+                  author (<quote xml:lang="syr">ܠܐܢܫ ܚܟܝܡܐ ܘܡܠܦܢܐ<locus from="69a"/>, fol. 69a</quote>) and from a Greek poet, fol. 69b, <quote xml:lang="syr">ܩ̇ܒ̣ܠ ܕܐܦ ܐܢܫ ܒܪܝܐ̇ ܦܘܐܝܛܐ ܥܠܝܗܘܢ ܐܡ̣ܪ: ܕܠܙܒܠܐ ܕܗܒܐ ܩ̇ܪܝܢ̇.
+                    ܘܠܕܗܒܐ ܙܒܠܐ ܡ̇ܟܢܝ̣ܢ. ܘܠܐ ܡܬܘܡ ܬܬܠ ܩܘܠܣܐ̇. ܠܒܪܢܫܐ ܩܕܡ ܫܘܠܡܗ ܏ܘܫ <locus from="69b"/>
+                  </quote>; and finally exhorts him to seek after wisdom, not merely
                   in words, but also in deeds, fol. 69b: <quote xml:lang="syr">ܚܟܡܬܐ ܓܝܪ ܕܥ̇ܒ̈ܕܐ̣.
                     ܡܬܩܠܣܐ̣ ܘܠܐ ܗܘܐ ܕܡ̈ܠܐ. ܠܗܕܐ ܒܥܝ ܐܘܚ ܚܒܝܒܐ̣. ܘܒܬܪ ܗܕܐ ܐܬܚ̇ܦܛ. ܥ̇ܒ̈ܕܐ ܓܝܪ ܘܕܠܐ
                     ܡ̈ܠܐ̣. ܒܠܚܘܕܝܗܘܢ ܡܬܬܕܝܢܝܢ. ܘܠܐ ܣܢܝܩܝܢ ܥܠ ܣܗܕܘܬܐ̣ ܕܗ̣ܢܘܢ ܡܢܗܘܢ ܫܪܝܪܝܢ. ܡ̈ܠܐ ܕܝܢ
@@ -126,13 +125,12 @@
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
                 <locus from="70a"/>
-                <author>Eustathius of Dārā</author>
                 <author ref="http://syriaca.org/person/113">Jacob of Edessa</author>
-                <title xml:lang="en">Letter to Eustathius of Dārā</title>
+                <title xml:lang="en">Letter to <persName>Eustathius of Dārā</persName></title>
                 <rubric xml:lang="syr">ܠܘܬ ܐܘܣܛܬܝ ܕܪܝܐ</rubric>
                 <incipit xml:lang="syr">ܟܕ ܡܕܢܚܐ ܗ̇ܝ ܥܛܝܦܬ ܙܠܝܩ̈ܐ ܘܝܠܘܕܬܐ ܕܫܡܫܐ ܕܦܘܝܛܐܝܬ ܐ̇ܡܪ: ܗ̇ܝ
                   ܕܐܦ ܠܟܘܟܒ ܢܘܓܗܐ ܡܙܝܚܐ ܗ̣ܝ ܒܗ̇ ܒܩܪܝܒܘܬܐ ܕܠܘܬ ܫܡܫܐ: ܏ܘܫ</incipit>
-                <note>It replies to the question, whether Jacob followed, the heavenly path or the
+                <note>It replies to the question, whether <persName ref="http://syriaca.org/person/113">Jacob</persName> followed, the heavenly path or the
                   earthly one (that is to say, lived as an ascete or as a man of the world), fol.
                   71a: <quote xml:lang="syr"> ܡܛܠ ܕܝܢ ܕܗܕܐ ܦܩܕܬ ܚܟܡܬܟ ܗ̇ܝ ܣܟܘܬܢܝܬܐ ܠܡܣܟܢܘܬܝ ܕܐܫܘܕܥ
                     ܠܗ̇܇ ܕܕܐ̇ܝܕܐ ܡܢ ܗܠܝܢ ܬܪ̈ܬܝܢ ܐܘܪ̈ܚܬܐ ܕܚܒ̣ܠܬ ܡܠܬܗ̇ ܠܡܙܩܪ ܐܝܟܢܐ ܕܒܡ̈ܠܝܗ ܐܨ̇ܛܒܬ
@@ -149,25 +147,15 @@
               </msItem>
               <msItem xml:id="b3" n="4" defective="true">
                 <locus from="72b"/>
-                <author>Eustathius of Dārā</author>
                 <author ref="http://syriaca.org/person/113">Jacob of Edessa</author>
-                <title xml:lang="en">Letter, imperfect at the beginning, in reply to an
-                  invitation to visit a certain person (probably Eustathius of Dārā)</title>
-                <quote xml:lang="syr">ܠܡܢܐ ܐܘ ܪܚܡܐ ܕܚܘܒܐ ܢܬ݀ܦ ܐܢܬ ܠܘܬܟ ܡܓܢܝܛܝܣ̇. ܠܦܪܙܠܐ ܪܟܝܟܐ ܘܨܐܐ
-                  ܘܕܠܐ ܚܫܚܘ. ܠܡܢܐ ܠܐܬܝ̈ܢܣ ܕܝܠܟܘܢ ܡܐܝܬܐ ܐܢܬ ܠܝ܇ ܟܕ ܛܥ̣ܝܢ ܐܢܐ ܟܘܟܒܝ ܦܪܚܬܐ ܣܪܝܩܬܐ̇
-                  ܘܠܠܚܬܐ. ܠܡܢܐ ܢܫܪܐ ܚܠܝܡ ܓ̈ܦܐ ܘܣ̇ܓܝ ܓ̈ܦܐ܇ ܠܓܝܘܢܐ ܣܪܝܩܐ ܘܕܒܓ̈ܠܦܢܐ ܢܘܟܪ̈ܝܐ ܡܨܒܬ ܨ̇ܒܐ
-                  ܕܢܚܙܐ. ܨ̇ܒܐ ܐܢܬ ܐ̇ܡܪ ܡܕܡ ܕܦܨܝܚܘܬܐ̣. ܠܡܢܐ ܡܬܒܥܐ ܠܟܣܢܬܘܣ ܐܣܘܦܘܣ ܣܲܢܐ ܒܚܙܬܐ̇. ܦܝܩܐ
-                  ܡܕܚܠ ܒܒ̈ܘܣܐ܀ ܡܢܐ ܡܬܒܥܐ ܠܟ ܙܟܝ ܕܥܠ ܬܬܐ ܣܢܝܩ ܕܬܗܘܐ ܠܗ ܪ̈ܓܠܐ ܡܛܠ ܩܘܡܬܗ ܙܥܘܪܬܐ ܐܝܟܢܐ
-                  ܕܠܡܫܝܚܐ ܢܚ̣ܙܐ ܟܕ ܥܒ̇ܪ܇ ܟܕ ܐܝܬ ܠܟ ܠܟ(sic) ܩܘܡܬܐ ܡܫܡܠܝܬܐ ܕܦܛܪܘܣ ܐܘ ܕܐܢܕܪܐܐܣ܇ ܐܝܟܢܐ
-                  ܕܟܕ ܫ̇ܒܩ ܐܢܐ ܗܠܝܢ ܢܘܟܪ̈ܝܬܐ̇. ܒܗܠܝܢ ܕܝܠܢ ܐܬ݀ܥܢܐ. ܨ̇ܒܐ ܐܢܬ ܐܘܕܥܗ ܠܚܘܒܐ ܟܠܗ̇ ܚܙܬܐ
-                  ܫܝܛܬܐ ܕܪܚܡܗ܆ ܣܲܢܐ ܦܬܐ. ܣܦܘܛ ܕܩܢܐ. ܪܘܪܒ ܫ̈ܢܐ. ܟܡܝܪ ܦܪܨܘܦܐ. ܟܪܐ ܩܘܡܬܐ. ܫܝܛ ܒܚܙܬܐ̣.
-                  ܕܐܝܬ ܠܗ ܚܣܕܗ ܕܐܠܝܫܥ ܥܠ ܪܝܫܗ. ܕܐܬܝ ܒܫ̈ܢܝܐ ܕܚ̈ܝܘܗܝ̣. ܥܕܡܐ ܠܐܪ̈ܒܥܝܢ ܘܬܪ̈ܬܝܢ ܫ̈ܢܝܢ.
-                  ܠܡܢܐ ܠܗܢܐ ܩ̇ܪܐ ܐܢܬ܇ ܘܠܐ ܫ̇ܒܩ ܐܢܬ ܕܡܢ ܪܘܚܩܐ ܢܗܘܐ ܠܟ ܪܚܡ̇ܐ: ܏ܘܫ.<locus/>
+                <title xml:lang="en">Letter in reply to an
+                  invitation to visit a certain person (probably <persName>Eustathius of Dārā</persName>)</title>
+                <quote xml:lang="syr">ܠܡܢܐ ܐܘ ܪܚܡܐ ܕܚܘܒܐ ܢܬ݀ܦ ܐܢܬ ܠܘܬܟ ܡܓܢܝܛܝܣ̇. ܠܦܪܙܠܐ ܪܟܝܟܐ ܘܨܐܐ ܘܕܠܐ ܚܫܚܘ. ܠܡܢܐ ܠܐܬܝ̈ܢܣ ܕܝܠܟܘܢ ܡܐܝܬܐ ܐܢܬ ܠܝ܇ ܟܕ ܛܥ̣ܝܢ ܐܢܐ ܟܘܟܒܝ ܦܪܚܬܐ ܣܪܝܩܬܐ̇ ܘܠܠܚܬܐ. ܠܡܢܐ ܢܫܪܐ ܚܠܝܡ ܓ̈ܦܐ ܘܣ̇ܓܝ ܓ̈ܦܐ܇ ܠܓܝܘܢܐ ܣܪܝܩܐ ܘܕܒܓ̈ܠܦܢܐ ܢܘܟܪ̈ܝܐ ܡܨܒܬ ܨ̇ܒܐ ܕܢܚܙܐ. ܨ̇ܒܐ ܐܢܬ ܐ̇ܡܪ ܡܕܡ ܕܦܨܝܚܘܬܐ̣. ܠܡܢܐ ܡܬܒܥܐ ܠܟܣܢܬܘܣ ܐܣܘܦܘܣ ܣܲܢܐ ܒܚܙܬܐ̇. ܦܝܩܐ ܡܕܚܠ ܒܒ̈ܘܣܐ܀ ܡܢܐ ܡܬܒܥܐ ܠܟ ܙܟܝ ܕܥܠ ܬܬܐ ܣܢܝܩ ܕܬܗܘܐ ܠܗ ܪ̈ܓܠܐ ܡܛܠ ܩܘܡܬܗ ܙܥܘܪܬܐ ܐܝܟܢܐ ܕܠܡܫܝܚܐ ܢܚ̣ܙܐ ܟܕ ܥܒ̇ܪ܇ ܟܕ ܐܝܬ ܠܟ ܠܟ <foreign xml:lang="en">(sic)</foreign> ܩܘܡܬܐ ܡܫܡܠܝܬܐ ܕܦܛܪܘܣ ܐܘ ܕܐܢܕܪܐܐܣ܇ ܐܝܟܢܐ ܕܟܕ ܫ̇ܒܩ ܐܢܐ ܗܠܝܢ ܢܘܟܪ̈ܝܬܐ̇. ܒܗܠܝܢ ܕܝܠܢ ܐܬ݀ܥܢܐ. ܨ̇ܒܐ ܐܢܬ ܐܘܕܥܗ ܠܚܘܒܐ ܟܠܗ̇ ܚܙܬܐ ܫܝܛܬܐ ܕܪܚܡܗ܆ ܣܲܢܐ ܦܬܐ. ܣܦܘܛ ܕܩܢܐ. ܪܘܪܒ ܫ̈ܢܐ. ܟܡܝܪ ܦܪܨܘܦܐ. ܟܪܐ ܩܘܡܬܐ. ܫܝܛ ܒܚܙܬܐ̣. ܕܐܝܬ ܠܗ ܚܣܕܗ ܕܐܠܝܫܥ ܥܠ ܪܝܫܗ. ܕܐܬܝ ܒܫ̈ܢܝܐ ܕܚ̈ܝܘܗܝ̣. ܥܕܡܐ ܠܐܪ̈ܒܥܝܢ ܘܬܪ̈ܬܝܢ ܫ̈ܢܝܢ. ܠܡܢܐ ܠܗܢܐ ܩ̇ܪܐ ܐܢܬ܇ ܘܠܐ ܫ̇ܒܩ ܐܢܬ ܕܡܢ ܪܘܚܩܐ ܢܗܘܐ ܠܟ ܪܚܡ̇ܐ: ܏ܘܫ.<locus from="72b"/>
                 </quote>
+                <note>Imperfect at the beginning.</note>
               </msItem>
               <msItem xml:id="b4" n="5">
                 <locus from="73a"/>
-                <author>Eustathius of Dārā</author>
                 <author ref="http://syriaca.org/person/113">Jacob of Edessa</author>
                 <title xml:lang="en">To the same, chiefly occupied with explanations
                   regarding a former letter, which was composed with much art in dodecasyllabic
@@ -177,14 +165,13 @@
                   ܕܒܡܫܘܚܬܐ ܡ̇ܢ ܫܦܝܪ ܡܟܠܝܢ: ܡܢ ܣܘܢܛܐܟܣܣ ܕܝܢ ܐܘ ܟܝܬ ܡܢ ܣܕܝܪܘܬܐ ܘܗܘܢܐ ܦܕܝܢ ܘܠܐ ܦܪܥܝܢ
                   ܠܚܡܐܝܬ: ܘܕܝܢܐ ܡܢ ܟܠ ܦܪܘܣ ܕܡܨܝܐ ܗܘܬ ܕܠܟܣܝܣ ܐܚܪ̈ܢܝܬܐ ܚܠܦ ܗܠܝܢ ܕܣܝ̈ܡܢ ܒܗܘܢ ܢܬܟ̈ܬܒܢ
                   ܘܢܚ̈ܘܝܢ ܣܕܝܪܘܬܐ ܡܠܚܡܬܐ ܕܗ̈ܘܢܐ ܡܕܡ ܡܢ ܗܠܝܢ ܕܪܫܝܡܝܢ ܒܗ̇܆ ܝܕܥܬܐ ܨ̇ܒܐ ܐܢܐ ܕܬܗܘܐ ܠܗܲ.
-                    ܏ܘܫ.<locus/>
+                    ܏ܘܫ.<locus from="73a"/>
                 </quote>
               </msItem>
               <msItem xml:id="b5" n="6">
                 <locus from="73b"/>
-                <author>Eustathius of Dārā</author>
                 <author ref="http://syriaca.org/person/113">Jacob of Edessa</author>
-                <title xml:lang="en">To the same, regarding the place of the letters % and %
+                <title xml:lang="en">To the same, regarding the place of the letters <foreign xml:lang="grc">ι</foreign> and <foreign xml:lang="grc">κ</foreign>
                   in the Greek alphabet</title>
                 <incipit xml:lang="syr">ܠܐ ܗܘܐ ܟܠܗ ܗܢܐ ܐܝܟ ܕܕܡܝܐ܇ ܐܝܬ ܩܪܝܒܘܬܐ ܒܐܠܦܐ ܒܝܛܘܢ ܕܝܘ̈ܢܝܐ
                   ܠܝܘܛܐ ܨܝܕ ܩܐܦܐ̇. ܗ̇ܝ ܐ̇ܝܕܐ ܕܟܕ ܛܒ ܐܝܟ ܡܠܬܐ ܕܓܪ̈ܡܛܝܩܘ ܒܪܬ ܓܢܣܐ ܐܝܬܝܗ̇ ܕܓܡܐ ܘܕܟܝ܇
@@ -194,7 +181,6 @@
               </msItem>
               <msItem xml:id="b6" n="7" defective="true">
                 <locus from="74b"/>
-                <author>Eustathius of Dārā</author>
                 <author ref="http://syriaca.org/person/113">Jacob of Edessa</author>
                 <title xml:lang="en">To the same</title>
                 <incipit xml:lang="syr">ܬܫܥܝܬܐ ܡܕܡ ܥܬܝܩܬܐ ܡܬܬܝܬܝܐ ܠܘܬ ܟܬܒܐ ܟܗܢܝܐ̣. ܕܐܢ̈ܫܝܢ ܓܒ̈ܥܘܢܝܐ
