@@ -1,0 +1,1132 @@
+<?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="a" xml:lang="en">BL Add MS 14602</title>
+        <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
+        <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+        <funder>The National Endowment for the Humanities</funder>
+        <funder>The Andrew W. Mellon Foundation</funder>
+        <principal>David A. Michelson</principal>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#aahn">Alexys Ahn</editor>
+        <respStmt>
+          <resp>Created by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#aahn">Alexys Ahn</name>
+        </respStmt>
+        <respStmt>
+            <resp>Based on the work of</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
+        </respStmt>
+        <respStmt>
+            <resp>Edited by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+        </respStmt>
+        <respStmt>
+            <resp>Syriac text entered by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
+        </respStmt>
+        <respStmt>
+            <resp>Greek and coptic text entry and proofreading by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
+        </respStmt>
+        <respStmt>
+            <resp>Project management by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
+        </respStmt>
+        <respStmt>
+            <resp>English text entry and proofreading by</resp>
+            <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0"/>
+    </editionStmt>
+      <publicationStmt>
+        <authority>Syriaca.org: The Syriac Reference Portal</authority>
+        <idno type="URI">http://syriaca.org/manuscript/338/tei</idno>
+        <availability>
+            <p/>
+            <licence target="http://creativecommons.org/licenses/by/3.0/">
+                <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
+            </licence>
+        </availability>
+        <date calendar="Gregorian">2022-02-18-06:00</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="manuscript-338">
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <repository>British Library</repository>
+            <collection>Oriental Manuscripts</collection>
+            <idno type="URI">http://syriaca.org/manuscript/338</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">Add MS 14602</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Arabic">754</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Roman">DCCLIV</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary/>
+            <textLang mainLang="syr"/>
+            <msItem xml:id="a1" n="1">
+              <title xml:lang="en">A large collection of letters </title>
+              <msItem xml:id="b1" n="2">
+                <author ref="http://syriaca.org/person/784">Theodosius of Alexandria</author>
+                <title xml:lang="en">Synodical letter of <persName ref="http://syriaca.org/person/784">Theodosius of
+                      <placeName>Alexandria</placeName>
+                  </persName> to <persName ref="http://syriaca.org/person/51">Severus of
+                    <placeName>Antioch</placeName>
+                  </persName>
+                </title>
+                <rubric xml:lang="syr">ܐܓܪܬܐ ܣܘܗܘܕܝܩܐ (sic) $ܕܚܣܝܐ ܘܩܕܝܫܐ ܪܝܫܐ ܕܐ̈ܦܝܣܩܘܦܐ ܕܐܠܟܣܢܕܪܝܐ
+                  ܬܐܘܕܘܣܝܣ̣. ܕܠܘܬ ܛܘܒܬܢܐ ܡܪܝ ܣܐܘܪܐ ܦܛܪܝܪܟܐ ܕܐܢܛܝܘܟܝܐ ܒܐܝܪܚ ܚܙܝܪܢ. </rubric>
+                <quote xml:lang="syr">
+                  <note xml:lang="en">After anathematizing the older heretics,
+                      <persName>Yalentinus</persName>, <persName>Marcion</persName>,
+                      <persName>Manes</persName>, <persName>Arius</persName>,
+                      <persName>Macedonius</persName>, <persName>Eunomius</persName>,
+                      <persName>Apollinaris</persName> and <persName>Eutyches</persName>, the writer
+                    proceeds thus, fol. 4 b </note>: ܘܬܘܒ ܡ̇ܚܪܡ ܐܢܐ̣ ܠܦܘܠܐ ܫܡܫܛܝܐ. ܘܠܕܝܘܕܘܪܘܣ
+                  ܘܠܬܐܘܕܘܪܘܣ. ܘܠܢܣܛܘܪܝܘܣ. ܘܠܬܐܘܕܘܪܝܛܐ. ܘܠܐܢܕܪܐܣ. ܘܠܗܝܒܐ. ܘܠܐܘܬܪܝܣ. ܘܠܐܠܟܣܢܕܪܘܣ
+                  ܡܒܓܝܐ. ܘܠܐܝܪܢܐܘܣ ܕܝܓܡܘܣ. ܗ̇ܢܘ ܕܝ̣ܢ ܕܬܪ̈ܬܝܢ ܢܫ̈ܘܗܝ. <note xml:lang="en">[On fol.
+                    115 a <persName>Irenæus</persName> is called ܐܝܪܢܐܘܣ ܬܪܝܢܝ ܙܘܘܓܐ, marg.
+                    ⲆⲒⲖⲀⲘⲞⲤ.]</note> ܘܠܩܘܪܘܣ ܘܠܝܘܚܢܢ ܕܡܢ ܐܓܐܣ ܕܩܝܠܝܩܝܐ. ܘܠܟܠܗܘܢ ܐܝܠܝܢ ܕܐܡܪܚܘ ܕܢܐܡܪܘܢ
+                  ܠܘܩܒܠ ܬܪ̈ܥܣܪ ܩ̈ܦܠܐܐ ܕܩܕܝܫܐ ܩܘܪܝܠܘܣ. ܥܡ ܡ̈ܠܐ ܡ̈ܛܢܦܬܐ ܘܠܐ ܚ̈ܣܝܬܐ ܕܕܠܩܘܒܠܐ ܕܐܬܐܡܪ
+                  ܡܢܗܘܢ. ܘܠܒܪ ܨܘܡܐ ܦܪܣܝܐ̣ ܥܡ ܩ̈ܢܘܢܘܗܝ ܡܚ̈ܒܠܐ. ܘܥܡ ܗܠܝܢ ܟܠܗܝ̣ܢ. ܠܣܘܢܗܕܘܣ ܕܟܠܩܝܕܘܢܐ̣
+                  ܘܠܛܘܡܣܗ ܕܠܐܘܢ.<locus/>
+                </quote>
+              </msItem>
+              <msItem xml:id="b2" n="3">
+                <author ref="http://syriaca.org/person/51">Severus</author>
+                <title xml:lang="en">Synodical letter of <persName ref="http://syriaca.org/person/51">Severus</persName> to
+                  <persName ref="http://syriaca.org/person/784">Theodosius</persName>
+                </title>
+                <rubric xml:lang="syr">ܐܓܪܬܐ ܕܩܕܝܫܐ ܘܪܝܫܐ ܕܐ̈ܦܣܩܦܐ ܦܛܪܝܪܟܐ ܕܐܢܛܝܘܟܝܐ ܣܐܘܪܐ̣.
+                  ܕܐܬܟ̣ܬܒܬ ܠܘܬ ܛܘܒܬܢܐ ܬܐܘܕܘܣܝܘܣ܇ ܪܝܫܐ ܕܐ̈ܦܣܩܦܐ ܕܐܠܟܣܢܕܪܝܐ ܗ̇ܝ ܕܐܦ ܣܘܢܗܘܕܝܩܐ ܡܫܬ̇ܡܗܐ.
+                  ܒܗܢܕܩܛܝܘܢܐ ܕܬܠܬܥܣܪܐ. ܒܐܝܪܚ ܬܡܘܙ. ܒܥܣܪ̈ܝܢ ܘܫܬܐ.</rubric>
+              </msItem>
+              <msItem xml:id="b3" n="4">
+                <author ref="http://syriaca.org/person/784">Theodosius</author>
+                <title xml:lang="en">Letter of <persName ref="http://syriaca.org/person/784">Theodosius</persName>, concerning a
+                  certain heresy that had sprung up in his days among those of his communion</title>
+                <rubric xml:lang="syr">ܐܓܪܬܐ ܕܦܛܪܝܪܟܐ ܬܐܘܕܘܣܝܘܣ܆ ܡܛܠ ܗܝܡܢܘܬܐ ܕܡܕܡ ܡܕܡ̇. ܕܢܒ̣ܥܬ
+                  ܒܝܘܡ̈ܬܗ ܡܢ ܒ̈ܢܝ ܫܘܬܦܘܬܐ ܕܝܠܗ</rubric>
+                <incipit xml:lang="syr">
+                  <locus from="16b"/>ܠܐܝܠܝܢ ܕܒܟܠܡܕܡ ܪ̈ܚܡܝ ܐܠܗܐ ܘܕܚ̈ܠܝ
+                  ܐܠܗܐ ܐܦܝ̈ܣܩܘܦܐ: ܩ̈ܫܝܫܐ ܘܡܫ̈ܡܫܢܐ ܘܐܒܗ̈ܬܐ ܕܝܪ̈ܝܐ: ܘܠܐܝܠܝܢ ܕܥܡܟܘܢ ܒܕܘܒܪ̈ܐ ܕܐܝܚܝܕܝܘܬܐ
+                  ܥܡܝܠܝܢ: ܘܒܗܝܡܢܘܬܐ ܕܐܠܗܐ ܡܫܪܪܝܢ: ܘܠܟܠܗ ܥܡܐ ܪܚ̇ܡ ܠܡܫܝܚܐ: ܘܠܟܠܗܘܢ ܕܬܚܝܬ ܫܘܬܦܘܬܢ
+                  ܣܝ̣ܡܝ̣ܢ. ܪ̈ܚܝܡܐ ܘܚ̈ܒܝܒܐ̣. ܬܐܘܕܘܣܝܘܣ ܒܡܪܢ̣ ܫܠܡ܀ ܘܠܐ ܒܥܠܕܒܒܐ ܕܦܘܪܩܢܢ ܗ̇ܘ ܚܘܝܐ ܪܝܫܐ
+                  ܕܒܝܫܬܐ: ܡܢ ܟܕ ܕܠܪܝܫ ܓܒܝܠܬܢ ܒܗ̇ܝ ܕܒܣܒܪ̈ܬܐ ܣܦܝ̈ܩܬܐ ܬܠ̣ܐ: ܏ܘܫ.</incipit>
+                <note>This letter was transmitted at the same time with the discourse no. 5.</note>
+              </msItem>
+              <msItem xml:id="b4" n="5">
+                <title xml:lang="en">A short introduction to the discourse no. 5, explaining
+                  its drift and the occasion of its being written </title>
+                <rubric xml:lang="syr">ܬܘܒ ܬܐܘܪܝܐ ܕܝܠܗ ܕܡܐܡܪܐ. ܕܡܢܐ ܗܘ ܢܝܫܗ ܘܥܠ̣ܬܐ
+                  ܕܡܟܬܒܢܘܬܗ</rubric>
+                <incipit xml:lang="syr">
+                  <locus from="17b"/>ܥ̇ܕܪܐ ܠܘܩܕܡ ܠܡܕܥ ܠܪ̈ܚ̇ܡܝ ܫܪܪܐ
+                  ܕܩ̇ܪܝܢ ܒܡܐܡܪܐ ܗܢܐ̣. ܕܐܢܫܝܢ ܩܡܘ ܡܢ ܥܕܬܢ ܩܕܝܫܬܐ: ܐܝܠܝܢ ܕܢܣ̇ܝܘ ܠܡܐܡܪ: ܕܬܠܝܬܝܘܬܐ
+                  ܩܕܝܫܬܐ: ܗ̇ܝ ܕܐܝܬܝܗ̇ ܐܒܐ ܘܒܪܐ ܘܪܘܚܐ ܩܕܝܫܐ̣. ܠܘ ܚܕܐ ܐܝܬܘܬܐ ܘܚܕ ܟܝܢܐ ܙ̇ܕܩ ܒܠܚܘܕ
+                  ܕܬܬܘܕܐ ܕܐܝܬܝܗ̣̇. ܐܠܐ ܕܐܦ ܬܠܬ ܐܝܬܘ̈ܬܐ ܘܠܬܠܬܐ ܟܝ̈ܢܐ. ܏ܘܫ.</incipit>
+              </msItem>
+              <msItem xml:id="b5" n="6">
+                <author>Theodosius at Constantinople</author>
+                <title xml:lang="en">Discourse delivered by <persName>Theodosius at
+                      <placeName>Constantinople</placeName>
+                  </persName>, showing that we ought not to
+                  acknowledge a number of substances or of natures in the Holy Trinity, and that
+                  when one of the Trinity, God the Word, became incarnate, neither the Father nor
+                  the Holy Ghost became incarnate </title>
+                <rubric xml:lang="syr">ܡܐܡܪܐ ܕܡܡܠܠܐ ܐܠܗܝܐ ܕܐܬܐܡܪ ܒܩܘܣܛܝܢܘܦܘܠܝܣ̣. (sic) $ܡܢ ܚܣܝܐ̣
+                  ܘܛܘܒܬܢܐ ܪܝܫܐ ܕܐ̈ܦܝܣܩܦܐ ܕܐܠܟܣܢܕܪܝܐ ܬܐܘܕܘܣܝܣ. ܥܠ ܗ̇ܝ̣. ܕܠܐ ܙ̇ܕܩ ܕܡܢܝܢܐ ܕܐܘ̈ܣܝܣ ܐܘ
+                  ܕܟܝ̈ܢܐ̇. ܢܘܕܐ ܒܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ. ܘܕܟܕ ܚܕ ܡܢ ܬܠܝܬܝܘܬܐ ܡܠܬܐ ܐܠܗܐ ܬܐܒܣܪ̣. ܘܠܐ ܐܒܐ̣ ܘܠܐ
+                  ܪܘܚܐ ܩܕܝܫܐ ܐܬܒܣܪ.</rubric>
+                <incipit xml:lang="syr">ܙ̇ܕܩ ܗܘܐ ܠܟܘܢ ܡ̇ܢ ܐܚ̈ܝܢ ܐܝܟ ܡܪܬܝܢܘܬܐ ܫܠܝܚܝܬܐ̣. ܕܠܗ̇ ܟܕ ܠܗ̇
+                  ܥܠ ܚ̈ܕܕܐ ܬܬܚ̇ܫܒܘܢ̣. ܗ̇ܝ ܕܐܦ ܒܡܫܝܚܐ ܝܫܘܥ. ܏ܘܫ<locus from="19a"/>
+                </incipit>
+              </msItem>
+              <msItem xml:id="b6" n="7">
+                <author>Theodosius</author>
+                <title xml:lang="en">Letter of <persName>Theodosius</persName>, containing
+                  five ecclesiastical canons</title>
+                <rubric xml:lang="syr">ܐܓܪܬܐ ܕܝܠܗ ܟܕ ܕܝܠܗ ܕܩ̈ܢܘܢܐ̣. ܕܩܕܝܫܐ ܦܦܐ ܬܐܘܕܘܣܝܘܣ</rubric>
+                <incipit xml:lang="syr">ܡܛܠ ܒܥܬܐ ܡ̇ܢ ܗ̇ܝ ܕܩܕܡ ܩܠܝܠ ܝܘܡ̈ܬܐ ܐܬܬ̣ܙܝܥܬ ܡܛܠ ܩܕܝܫܬܐ ܘܫܘ̣ܝܬ
+                  ܒܐܝܬܘܬܐ ܬܠܝܬܝܘܬܐ: ܏ܘܫ<locus from="35a"/>
+                </incipit>
+                <finalRubric xml:lang="syr">ܫܠ̣ܡܬ ܐܓܪܬܐ ܕܩ̈ܢܘܢܐ ܕܩܕܝܫܐ ܘܛܘܒܬܢܐ ܦܦܐ ܬܐܘܕܘܣܝܘܣ ܦܛܪܝܪܟܐ
+                  ܕܐܠܟܣܢܪܝܐ ܪܒܬܐ̇. ܘܡܐܡܪܐ ܕܥܒܝܕ ܠܗ ܡܛܠ ܗܪܣܝܣ ܡܕܡ ܕܢܒܥ̣ܬ ܒܝ̈ܘܡܬܗ ܡܢ ܒ̈ܢܝ ܫܘܬܦܘܬܐ
+                  ܕܝܠܗ܇ ܡܛܠ ܬܠܬ ܐܘ̈ܣܝܣ ܘܬܠܬܐ ܩܢܘ̈ܡܐ܇ ܕܐܒܐ ܘܕܒܪܐ ܘܕܪܘܚܐ ܩܕܝܫܐ.<locus from="37a"/>
+                </finalRubric>
+              </msItem>
+              <msItem xml:id="b7" n="8">
+                <locus from="37a"/>
+                <author>priests of Constantinople</author>
+                <title xml:lang="en">Formula of signature by the priests of
+                    <placeName>Constantinople</placeName>, who conformed to the doctrines enunciated
+                  by <persName>Theodosius</persName> in the above discourse (no. 5), and which he
+                  also got signed by those of his own communion at
+                  <placeName>Alexandria</placeName>
+                </title>
+                <rubric xml:lang="syr">ܦܚܡܐ ܕܐܪ̈ܡܝ ܐܝ̣ܕܐ ܕܐܬܥܒܕ ܡܢ ܩ̈ܫܝܫܐ ܗ̇ܢܘܢ ܕܥܡ̇ܪܝܢ
+                  ܒܩܘܣܛܢܛܝܢܘܦܘܠܝ̣ܣ. ܘܐܬܝܗܒ ܠܛܘܒܬܢܐ ܦܦܐ ܬܐܘܕܘܣܝܘܣ. ܕܠܗ ܠܗܢܐ ܐܦ ܗ̣ܘ ܠܗ̇ܢܘܢ ܕܡܢ
+                  ܣܘܢܗܘܕܝܐ ܕܝܠܗ̣ ܬܒ̣ܥ ܕܢܪܡܘܢ ܐܝ̣ܕܐ</rubric>
+                <note>The signature given is that of <persName>Longinus</persName>, ܠܘܢܓܝܢܘܣ, priest
+                  of the church of <placeName>Alexandria</placeName>.</note>
+              </msItem>
+              <msItem xml:id="b8" n="9">
+                <locus from="37b"/>
+                <author>Theodosius</author>
+                <title xml:lang="en">Letter of <persName>Theodosius</persName> to the Eastern
+                  bishops (<persName ref="http://syriaca.org/person/69">Jacob Baradæus</persName>,
+                    <persName ref="http://syriaca.org/person/1336">Conon of
+                      <placeName>Tarsus</placeName>
+                  </persName>, <persName>Eugenius of
+                      <placeName>Seleucia</placeName> in <placeName>Isauria</placeName>
+                  </persName>,
+                  etc.)</title>
+                <rubric xml:lang="syr">ܐܓܪܬܐ ܕܦܛܪܝܪܟܐ ܡܪܝ ܬܐܘܕܘܣܝܘܣ ܕܐܠܟܣܢܕܪܝܐ̣. ܕܠܘܬ ܐܦܣ̈ܩܘܦܐ
+                  ܡ̈ܕܢܚܝܐ܀ ܠܗ̇ܢܘܢ ܕܒܟܠܡܕܡ ܩ̈ܕܝܫܐ ܐܚ̈ܝܢ ܘܒ̈ܢܝ ܬܫܡܫܬܢ: ܝܥܩܘܒ ܩܘܢܘܢ ܐܘܓܢ: ܘܫܪܟܐ ܕܚ̈ܣܝܐ
+                  ܐ̈ܦܣܩܦܐ ܕܥܡ̇ܪܝܢ ܒܡܕܢܚܐ̣ ܬܐܘܕܘܣܝܘܣ . ܘ.ܘ. ܡܪܐ ܡ̇ܢ ܕܝܠܢ ܘܐܠܗܐ ܝܫܘܥ ܡܫܝܚܐ: ܒܕܛܒܐ
+                  ܐܝܬܘܗܝ ܘܥܒܘܕܐ ܕܟܠ̣ ܒܛܝܠܘܬܐ ܠܚܡܐܝܬ ܥܒ̇ܕ ܕܦܘܪܩܢܐ ܕܟܘܠܐ. ܏ܘܫ.</rubric>
+              </msItem>
+              <msItem xml:id="b9" n="10">
+                <locus from="39a"/>
+                <author>Theodosius</author>
+                <title xml:lang="en">Another letter of <persName>Theodosius</persName> to the
+                  same, ܐܓܪܬܐ ܕܠܘܬ ܐ̈ܦܣܩܦܐ ܕܡܕܢܚܐ, regarding the consecration of
+                    <persName>Paul</persName> as successor to <persName>Sergius, patriarch of
+                      <placeName>Antioch</placeName>
+                  </persName>
+                </title>
+                <rubric xml:lang="syr">ܐܓܪܬܐ ܡ̇ܢ ܕܒܝܕ ܕܚ̇ܠ ܠܐܠܗܐ ܪܝܫ ܕܝܪܐ ܠܐܝ̈ܕܝܗ̇ ܕܩܕܝܫܘܬܟܘܢ
+                  ܡܬܝܗܒܐ̣. ܐܝܕܝܥܐ ܕܟܕܠܐ ܓܠܝ̣ܢܢ ܠܕܚܠܬ ܐܠܗܐ ܕܒܗ ܟܬܒܢܢ ܠܘܬܟܘܢ. ܒܕܓܘܢ̣ ܘܒܚܕܘܬܐ ܣܓܝܐܬܐ
+                  ܝ̇ܩܪ ܠܗ̇ܝ ܕܢܚܘܬ ܒܐܠ̣ܦܐ ܠܗ̇ܝ ܕܠܘܬܟܘܢ̇. ܘܒܟܠܗ̇ ܗ̇ܝ ܐܘܪܚܐ ܢܚܘܬ.܀ ܏ܘܫ.</rubric>
+              </msItem>
+              <msItem xml:id="b10" n="11">
+                <locus from="39b"/>
+                <author ref="http://syriaca.org/person/69">Jacob Baradæus</author>
+                <author>Eugenius of Seleucia</author>
+                <author>Eunomius</author>
+                <title xml:lang="en">Letter of the bishops <persName>Jacob
+                    Baradæus</persName>, <persName>Eugenius of
+                    <placeName>Seleucia</placeName>
+                  </persName>, and <persName>Eunomius</persName>,
+                  to <persName>Theodosius</persName>
+                </title>
+                <rubric xml:lang="syr">ܐܓܪܬܐ ܕܐܬܟ̣ܬܒܬ ܠܩܕܝܫܐ ܘܛܘܒܬܢܐ ܦܛܪܝܪܟܐ ܬܐܘܕܘܣܝܘܣ̣. ܡܢ ܐܦܣ̈ܩܦܐ
+                  ܝܥܩܘܒ ܘܐܘܓܢ ܘܐܘܢܘܡܝܘܣ.</rubric>
+                <note>It is also signed by the bishops <persName ref="https://syriaca.org/person/1336">Conon of
+                    <placeName>Tarsus</placeName>
+                  </persName>, <persName>John of
+                      <placeName>Kinnesrīn</placeName>
+                  </persName>($ܡܕܝܢܬܐ ܕܩܢܫܪ̈ܝܐ), John of ܐܦܝܪܘܦܘܠܝܣ ܕܣܠܘܩ̈ܝܐ ('Ιεράπολις ?),
+                    <persName>Sergius</persName>, and <persName>John</persName>.</note>
+              </msItem>
+              <msItem xml:id="b11" n="12">
+                <locus from="40b"/>
+                <author>bishop Theodore</author>
+                <title xml:lang="en">Letter of the <persName>bishop Theodore</persName> to
+                    <persName>Paul of <placeName>Antioch</placeName>
+                  </persName>
+                </title>
+                <rubric xml:lang="syr">ܦܚܡܐ ܕܐܓܪܬܐ ܕܐܬܥ̣ܒܕܬ ܒܩܘܣܛܢܛܝܢܘܦܘܠܝܣ܇ ܡܢ ܚܣܝܐ ܡܪܝ ܬܐܘܕܘܪܐ̇.
+                  ܡܛܠ ܕܠܐ ܐܫܬܟܚ ܐܦ ܠܐ ܐܪܡܝ ܐܝ̣ܕܐ̇. ܒܐܓܪܬܐ ܓܘܢܝܬܐ ܕܚ̈ܣܝܐ ܐܦܣ̈ܩܘܦܐ</rubric>
+                <quote xml:lang="syr">
+                  <note xml:lang="en">The signature is as follows</note> : $ܦܚܡܐ ܕܐܪܡܝ ܐܝ̣ܕܐ܀
+                  ܬܐܘܕܘܪܘܣ ܒܛܝܒܘܬܐ ܕܐܠܗܐ ܐܦܝܣܩܘܦܐ ܡܢ ܦܘܪܢܣܐ ܡܕܢܚܝܐ̣. ܟܕ ܚܬܡ̇ܬ ܘܒܪ ܚܘܫܒܐ ܗܘ̇ܝܬ
+                  ܕܟܝܪܘܛܘܢܝܐ ܕܝܠܟܘܢ ܢܡܘܣܝܬܐ̣. ܫܘܿܕܥܬ݂. ܘܚܬܡ̇ܬ݂ ܒܟܝܪܬ ܐܝܕܝ.<locus/>
+                </quote>
+              </msItem>
+              <msItem xml:id="b12" n="13">
+                <locus from="41a"/>
+                <author>Theodosius</author>
+                <title xml:lang="en">Letter of <persName>Theodosius</persName> to the
+                  orthodox bishops of the East</title>
+                <rubric xml:lang="syr">ܐܓܪܬܐ ܕܩܕܝܫܐ ܦܛܪܝܪܟܐ ܬܐܘܕܘܣܝܘܣ̣. ܠܘܬ ܐܦܣ̈ܩܘܦܐ ܐܘܪ̈ܬܘܕܘܟܣܘ
+                  ܕܡܕܢܚܐ܀ ܠܗ̇ܢܘܢ ܕܒܟܠܡܕܡ ܩ̈ܕܝܫܐ ܐܚ̈ܐ ܘܒ̈ܢܝ ܬܫܡܫܬܐ: ܝܥܩܘܒ ܘܫܪܟܐ ܕܚ̈ܣܝܐ ܐܦܣ̈ܩܘܦܐ
+                  ܕܒܡܕܢܚܐ̣ ܬܐܘܕܘܣܝܘܣ. ܘ . ܟܕ ܩ̇ܒܠܬ ܐܓܪܬܐ ܕܪܚܡܬ ܐܠܗܐ ܕܒܟܘܢ: ܒܝܕ ܕܚ̇ܠ ܠܐܠܗܐ ܐܚܐ ܕܓܘܐ
+                  ܘܒܪ ܬܫܡܫܬܢ ܐܘܢܘܡܝܘܣ ܕܡܫܘܕܥܐ: ܕܐܢܬܘܢ ܒܡܫܝܚܐ ܠܚܣܝܐ ܦܘܠܐ: ܪܥ̇ܝܐ ܘܪܝܫ ܟܘܡܪ̈ܐ ܕܥܕܬܐ
+                  ܪܒܬܐ ܕܐܢ̈ܛܝܘܟܝܐ ܐܘ ܟܝܬ ܕܬܐܘ̈ܦܘܠܝܛܐ: ܥܒܕܬܘܢ ܒܟܝܪܘܛܘܢܝܐ̣. ܟܠܗ̇ ܗܕܐ ܪܘ̇ܙܬ ܒܪܘܚܐ̣.
+                  ܘܕܝ̇ܨܐ ܫܪܝܪܐ ܘܛܘܒܬܢܐ ܕܨ̇ܬ܆ ܏ܘܫ.</rubric>
+              </msItem>
+              <msItem xml:id="b13" n="14">
+                <locus from="42a"/>
+                <author>Paul, patriarch of Antioch</author>
+                <title xml:lang="en">Synodical letter of <persName>Paul, patriarch of
+                      <placeName>Antioch</placeName>
+                  </persName>, to <persName>Theodosius, patriarch
+                    of <placeName>Alexandria</placeName>
+                  </persName>
+                </title>
+                <rubric xml:lang="syr">ܐܓܪܐ ܣܘܢܗܘܕܝܩܘܢ ܕܚܣܝܐ ܘܪܝܫܐ ܕܐ̈ܦܣܩܘܦܐ ܕܐܢܛܝܟܝܐ ܡܪܝ ܦܘܠܐ̇. ܠܘܬ
+                  ܩܕܝܫܐ ܬܐܘܕܘܣܝܘܣ ܪܝܫܐ ܕܐ̈ܦܝܣܩܘܦܐ ܕܐܠܟܣܢܕܪܝܐ.</rubric>
+              </msItem>
+              <msItem xml:id="b14" n="15">
+                <locus from="48a"/>
+                <author>Theodosius</author>
+                <title xml:lang="en">Synodical letter of <persName>Theodosius</persName> to
+                    <persName>Paul</persName>
+                </title>
+              </msItem>
+              <msItem xml:id="b15" n="16">
+                <locus from="52a"/>
+                <author>Eusebius, abbat of the convent of Mar Bassus</author>
+                <author>Bar-hab-be-shabbā, abbat of the Great Convent (of Teleda)</author>
+                <author>Zenobius, abbat of the convent of Maār Biza</author>
+                <title xml:lang="en">Letter of <persName>Eusebius, abbat of the convent of
+                    Mār Bassus</persName>, <persName>Bar-hab-be-shabbā, abbat of the Great Convent
+                    (of <placeName>Teleda</placeName>)</persName>, <persName>Zenobius, abbat of the
+                    convent of Maār Biza</persName>, and others, to
+                  <persName>Theodosius</persName>
+                </title>
+                <rubric xml:lang="syr">ܦܚܡܐ ܕܐܓܪ̈ܬܐ ܕܐܫܬܕܪ ܒܝܕ ܚܣܝܐ ܡܪܝ ܝܥܩܘܒ̣. ܘܐܬܝܗܒ ܒܝܕ ܩܘܢܘܢ
+                  ܘܐܘܢܘܡܝܘܣ ܚܣ̈ܝܐ̇. ܠܩܕܝܫܐ ܦܦܐ ܡܪܝ ܬܐܘܕܘܣܝܘܣ ܕܐܠܟܣܢܕܪܝܐ.܀ ܠܡܪܐ ܕܝܠܢ ܩܕܝܫ ܒܟܘܠ
+                  ܘܛܘܒܬܢܐ܆ ܡܠܦܢܐ ܕܬܒܝܠ ܡܪܝ ܦܦܐ ܬܐܘܕܘܣܝܘܣ܆ ܐܘܣܒܝܘܣ ܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܕܛܘܒܢܐ ܡܪܝ ܒܣ.
+                  ܒܪܚܒܫܒܐ ܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܪܒܬܐ. ܙܐܢܘܒܝܣ ܪܝܫܕܝܪܐ ܕܡܪܝ ܒܝܙܐ: ܘܫܪܟܐ ܕܪ̈ܝܫܝ ܕܝܪ̈ܬܐ.܀
+                  ܕܥܕܬܐ ܒܝܬܐ ܐܝܬܘܗܝ ܕܐܠܗܐ ܚܝܐ̇. ܦܘܠܘܣ ܚܟܝܡ ܒܟܠ ܟܕ ܠܘܬ ܛܝܡܘܬܐܘܣ ܟܬ̇ܒ ܐܡ̇ܪ ܗܘܐ.
+                  ܏ܘܫ.</rubric>
+                <note>It is also signed by <persName>Andrew, abbat of the convent of
+                    Manasses</persName> ($ܕܛܘܒܢܐ ܡܢܣܐ), <persName>Phocas, abbat of the convent of
+                    Eusebius</persName>, and <persName>John, abbat of the convent of
+                    Romanus</persName>.</note>
+              </msItem>
+              <msItem xml:id="b16" n="17">
+                <locus from="53a"/>
+                <author>abbats of the East</author>
+                <title xml:lang="en">Letter of the abbats of the East to <persName>Paul of
+                      <placeName>Antioch</placeName>
+                  </persName>
+                </title>
+                <rubric xml:lang="syr">ܐܓܪܬܐ ܕܐܬܟ̣ܬܒܬ ܠܘܬ ܦܛܪܝܪܟܐ ܡܪܝ ܦܘܠܐ̣. ܡܢ ܪ̈ܝܫܝ ܥܘܡܪ̈ܐ
+                  ܕܡܕܢܚܐ</rubric>
+                <note>It is signed by the above-named <persName>Eusebius</persName>,
+                    <persName>Bar-hab-bĕ-shabbā</persName>, <persName>Zenobius</persName>,
+                    <persName>Andrew</persName>, and <persName>John</persName>.</note>
+              </msItem>
+              <msItem xml:id="b17" n="18">
+                <locus from="54a"/>
+                <author>Jacob, abbat of the convent of Aphtuūnāyā</author>
+                <title xml:lang="en">Letter of <persName>Jacob, abbat of the convent of
+                    Aphtūnāyā</persName>, to <persName>Theodosius</persName>
+                </title>
+                <rubric xml:lang="syr">ܦܚܡܐ ܕܐܓܪܬܐ ܕܐܫܬ̣ܕܪܬ ܡܢ ܚܣܝܐ ܡܪܝ ܝܥܩܘܒ̣. ܘܐܬܝܗ̣ܒܬ ܒܝܕ ܚܣܝܐ
+                  ܡܪܝ ܐܘܢܘܡܝܘܣ̇. ܠܩܕܝܫܐ ܦܦܐ ܬܐܘܕܘܣܝܘܣ.܀. ܠܡܪܐ ܕܝܠܢ ܩܕܝܫܐ ܘܛܘܒܬܢܐ ܘܡܝܩܪܐ: ܐܒܐ ܪܘܚܢܐ
+                  ܪܝܫܐ ܕܐܦܣ̈ܩܘܦܐ ܘܦܛܪܝܪܟܐ ܬܐܒܠܝܐ ܡܪܝ ܬܐܘܕܘܣܝܘܣ̣ ܪܝܫ ܕܝܪܐ ܘܩ̈ܫܝܫܐ ܘܡܫ̈ܡܫܢܐ ܘܫܪܟܐ
+                  ܕܝܚ̈ܝܕܝܐ ܕܒܝܬ ܐܦܬܘܢܝܐ܀ ܗܫܐ ܦܐܝܐ ܗܝ ܕܒܙܒܢܗ̇ ܠܘܬ ܛܘܒܬܢܘܬܟܘܢ ܕܝܠܟܘܢ ܢ̇ܙܥܩ܇ ܗ̇ܘ ܡܐ
+                  ܕܠܘܬ ܐܠܝܐ ܬܫܒܝܐ ܡܢ ܩܕܝܡ ܗ̇ܢܘܢ ܕܡܢ ܐܝܣܪܐܝܠ܇ ܏ܘܫ. </rubric>
+              </msItem>
+              <msItem xml:id="b18" n="19">
+                <locus from="54a"/>
+                <author>Theodosius</author>
+                <title xml:lang="en">First ἀνατολικόν (letter to the East) of
+                    <persName>Theodosius</persName> to <persName>Paul</persName>
+                </title>
+                <rubric xml:lang="syr">ܦܚܡܐ ܕܐܢܛܘܠܝܩܘܢ ܩܕܡܝܐ ܕܛܘܒܬܢܐ ܦܦ̣ܐ ܬܐܘܕܘܣܝܣ̣. ܕܠܘܬ ܦܘܠܐ
+                  ܦܛܪܝܪܟܐ</rubric>
+              </msItem>
+              <msItem xml:id="b19" n="20">
+                <locus from="54b"/>
+                <author>Theodosius</author>
+                <title xml:lang="en">Second % of <persName>Theodosius</persName> to
+                    <persName>Paul</persName>
+                </title>
+                <rubric xml:lang="syr">ܐܢܛܘܠܝܩܘܢ ܕܬܪ̈ܝܢ ܕܝܠܗ ܟܕ ܕܝܠܗ ܕܦܦܐ̣. ܠܘܬܗ ܕܝܠܗ ܕܡܪܝ ܦܘܠܐ
+                  ܦܛܪܝܪܟܐ</rubric>
+                <note>This letter has also the signatures of <persName ref="http://syriaca.org/person/74">John of
+                    <placeName>Ephesus</placeName>
+                  </persName> (ܝܘܚܢܢ ܒܛܝܒܘܬܐ ܕܐܠܗܐ ܪܝܫܐ ܕܐ̈ܦܣܩܘܦܐ
+                  ܕܡܛܪܘܦܘܠܝܣ ܕܐ̈ܦܣܝܐ), <persName>John of <placeName ref="http://syriaca.org/place/1473">Pelusium</placeName>
+                  </persName>
+                  (ܡܕܝܢܬܐ ܕܦܠܘ̈ܣܝܘܛܐ), the priests <persName>Longinus</persName> and
+                    <persName>Basil</persName>, and the <persName ref="http://syriaca.org/person/1413">deacon Peter, of
+                      <placeName>Alexandria</placeName>
+                  </persName>.</note>
+              </msItem>
+              <msItem xml:id="b20" n="21">
+                <locus from="56a"/>
+                <author>Theodosius</author>
+                <title xml:lang="en">Letter of <persName>Theodosius</persName> to the bishops
+                    <persName>John</persName>, <persName>Leonidas</persName>, and
+                    <persName>Joseph</persName>
+                </title>
+                <rubric xml:lang="syr">ܠܘܬ ܝܘܚܢܢ: ܘܠܐܘܢܝܕܝܣ ܘܝܘܣܦ ܚ̈ܣܝܐ ܐ̈ܦܣܩܦܐ.</rubric>
+              </msItem>
+              <msItem xml:id="b21" n="22">
+                <locus from="56b"/>
+                <author>Theodosius</author>
+                <title xml:lang="en">Letter of <persName>Theodosius</persName> to the
+                    <persName>bishop Theodore</persName>
+                </title>
+                <rubric xml:lang="syr">ܠܘܬ ܚܣܝܐ ܬܐܘܕܘܪܐ ܐܦܝܣܩܘܦܐ̇ ܘܗ̇ܢܘܢ ܕܒܬܒܐܝܕܐ ܘܒܐܪܩܕܝܐ̇. ܕܝܪ̈ܝܐ
+                  ܘܪ̈ܝܫܝ ܕܝܪ̈ܬܐ ܘܐ̈ܚܐ ܡܗ̈ܝܡܢܐ</rubric>
+              </msItem>
+              <msItem xml:id="b22" n="23">
+                <locus from="56b"/>
+                <author>Theodosius</author>
+                <title xml:lang="en">Letter of <persName>Theodosius</persName> to the people
+                  of <placeName>Alexandria</placeName>
+                </title>
+                <rubric xml:lang="syr">ܠܘܬ ܗ̇ܢܘܢ ܕܒܐܠܟܣܢܕܪܝܐ</rubric>
+                <note>This letter is signed by the same persons as no. 19</note>
+              </msItem>
+              <msItem xml:id="b23" n="24">
+                <locus from="58b"/>
+                <author>patricius Ḥareth (Aretas)</author>
+                <title xml:lang="en">Letter of the <persName>patricius Ḥareth
+                  (Aretas)</persName> to <persName ref="http://syriaca.org/person/69">Jacob (Baradæus)</persName>
+                </title>
+                <rubric xml:lang="syr">ܦܚܡܐ ܕܟ̈ܬܝܒܬܐ: ܕܫܒܝܚ ܒܟܠ ܦܛܪܝܩܝܘܣ ܚܐܪܬ݂. ܕܐܬܟܬܒ ܠܘܬ ܚܣܝܐ ܡܪܝ
+                  ܝܥܩܘܒ</rubric>
+              </msItem>
+              <msItem xml:id="b24" n="25">
+                <locus from="58b"/>
+                <author ref="https://syriaca.org/person/69">Jacob Baradæus</author>
+                <title xml:lang="en">Letter of <persName ref="https://syriaca.org/person/69">Jacob Baradæus</persName> to the
+                    <persName>bishop Eunomius</persName>
+                </title>
+                <rubric xml:lang="syr">ܦܚܡܐ ܕܐܓܪܬܐ ܕܐܬܟܬ̣ܒܬܐ ܡܢ ܚܣܝܐ ܐܦܣܩܘܦܐ ܡܪܝ ܝܥܩܘܒ̣. ܠܘܬ
+                  ܐܘܢܘܡܝܘܣ ܚܣܝܐ ܐܦܣܩܘܦܐ</rubric>
+              </msItem>
+              <msItem xml:id="b25" n="26">
+                <locus from="59b"/>
+                <title xml:lang="en">Letter of the orthodox bishops at
+                    <placeName>Constantinople</placeName> to the orthodox bishops, abbats, etc., of
+                  the East</title>
+                <rubric xml:lang="syr">ܐܓܪܬܐ ܕܐܬܟܬ̣ܒܬ ܡܢ ܐ̈ܦܣܩܘܦܐ ܐܘܪ̈ܬܘܕܘܟܣܐ ܕܩܘܣܛܢܛܝܢܘܦܘܠܝܣ̣. ܠܘܬ
+                  ܐ̈ܦܣܩܦܐ ܐܘܪ̈ܬܘܕܘܟܣܐ ܕܡܕܢܚܐ̇. ܘܠܪ̈ܝܫܝ ܥܘܡܪ̈ܐ ܘܠܩ̈ܫܝܫܐ ܘܠܡܫ̈ܡܫܢܐ ܘܠܗ̈ܦܘܕܝܩܢܐ
+                  ܠܐ̈ܢܓܢܣܛܐ ܘܠܟܠܗ ܥܡܐ ܡܗܝܡܢܐ.. ܠܡܪ̈ܝܢ ܗ̇ܢܘܢ ܕܒܟܠ ܡܕܡ ܩ̈ܕܝܫܐ ܐܚ̈ܐ ܘܒ̈ܢܝ ܬܫܡܫܬܐ:
+                  ܝܥܩܘܒ. ܬܐܘܕܘܪܐ. ܝܘܚܢܢ. ܝܘܚܢܢ. ܝܘܚܢܢ. ܣܪܓܝܘܣ. ܘܫܪܟܐ ܕܐܦܣ̈ܩܘܦܐ ܕܥܕܬܐ ܩܕܝܫܬܐ ܕܡܕܢܚܐ܀
+                  ܘܠܪ̈ܚܡܝ ܐܠܗܐ ܩܫ̈ܝܫܐ܇ ܏ܡܐܪܝ ܕܕܝܪܐ ܕܛܘܒܢܐ ܡܪܝ ܒܣ܀ ܏ܒܪ ܏ܚܒܫܒܐ ܕܕܝܪܐ ܪܒܬܐ܀ ܏ܙܐܢܘܒܝܘܣ
+                  ܕܕܝܪܐ ܕܛܘܒܢܐ ܡܪܝ ܒܝܙܐ܀ ܏ܩܘܣܛܢܛܝܢܘܣ ܕܕܝܪܐ ܕܛܘܒܢܐ ܡܪܝ ܐܘܣܒ܀ ܏ܝܘܚܢܢ ܕܕܝܪܐ ܕܛܘܒܢܐ ܡܪܝ
+                  ܪܘܡܢܐ܀ ܏ܬܐܘܡܐ ܕܕܝܪܐ ܕܛܘܒܢܐ ܡܪܝ ܣܪܓܝܣ ܕܢܦܫ̈ܬܐ܀ ܏ܐܒܪܗܡ ܕܕܝܪܐ ܕܠܓܝ̈ܢܐ܀ ܏ܝܘܚܢܢ ܕܕܝܪܐ
+                  ܕܛܝ̈ܝܐ܀ ܏ܐܢܕܪܝܐ ܕܕܝܪܐ ܕܩܘܡܣ ܡܢܣܐ܀ ܏ܚܢܝܢܐ ܕܕܝܪܐ ܕܒܝܬܒܘܢ܀ ܏ܡܪܘܬܐ ܕܕܝܪܐ ܕܡ̈ܕܢܚܝܐ܀
+                  ܏ܒܪܠܗܐ ܕܕܝܪܐ ܕܛܘܒܢܐ ܡܪܝ ܝܘܚܢܢ ܕܒܝܬ ܐܦܬܘܢܝܐ܀ ܏ܡܪܐ ܕܕܝܪܐ ܕܐܣܦܩܠܝܣ܀ ܏ܐܒܪܗܡ ܕܕܝܪܐ
+                  ܕܩܘ̈ܒܐ܀ ܏ܣܪܓܝܘܣ ܕܕܝܪܐ ܕܩܕܝܫܐ ܡܪܝ ܣܪܓܝܣ܀ ܏ܝܘܚܢܢ ܕܕܝܪܐ ܕܩܕܝܫܐ ܝܘܚܢܢ ܕܒܙܘܩܢܝܢ܀ ܘܠܫܪܟܐ
+                  ܕܪ̈ܝܫܝ ܕܝܪ̈ܬܐ ܘܕܝܚ̈ܝܕܝܐ ܕܦܘܪܢܣܐ ܡܕܢܚܝܐ. ܘܠܩܫ̈ܝܫܐ ܘܠܡܫܡ̈ܫܢܐ ܘܠܗ̈ܘܦܘܕܝܩܢܐ
+                  ܘܠܐܢܓܢܘ̈ܣܛܐ̇. ܘܠܟܠܗ ܥܡܐ ܡܗܝܡܢܐ ܕܥܕܬܐ ܕܝܠܢ ܩܕܝܫܬܐ ܕܐܠܗܐ ܕܒܡܕܢܚܐ̣. ܝܘܚܢܢ. ܣܛܦܢܘܣ.
+                  ܠܘܢܓܝܢܘܣ. ܦܛܘܠܘܡܐܘܣ. ܐܠܝܫܥ ܘܦܘܠܐ̣. ܒܛܝܒܘܬܐ ܕܐܠܗܐ ܐܦܣ̈ܩܘܦܐ. </rubric>
+              </msItem>
+              <msItem xml:id="b26" n="27">
+                <locus from="62b"/>
+                <title xml:lang="en">Copy of the συνδοκτικόν (pact or agreement) made at
+                    <placeName>Alexandria</placeName> and at the capital
+                    (<placeName>Constantinople</placeName>)</title>
+                <rubric xml:lang="syr">ܦܚܡܐ ܕܣܘܢܕܘܩܛܝܩܘܢ ܕܐܬܥܒܕ ܒܐܠܟܣܢܕܪܝܐ ܘܒܡܕܝܢܬ ܡܠܟܘܬܐ܀ ܦܚܡܐ
+                  ܕܣܘܢܕܘܩܛܝܩܘܢ ܕܐܬܥܒܕ ܒܝܢܬܢ ܘܕܗ̇ܢܘܢ ܕܒܝܬ ܚܣܝܐ ܡܪܝ ܩܘܢܘܢ̇. ܒܕܘܟܬܐ ܚܕܐ ܕܦܠܛܝܢ ܐܠܗܝܐ̇.
+                  ܕܒܗ ܐܦ ܐܪܡܝܘ ܐܝ̣ܕܐ܇ ܪ̈ܚܡܝ ܐܠܗܐ ܪ̈ܝܫܝ ܕܝܪ̈ܬܐ ܕܡܕܢܚܐ܀</rubric>
+              </msItem>
+              <msItem xml:id="b27" n="28">
+                <locus from="63a"/>
+                <author ref="http://syriaca.org/person/74">John of Asia and his followers</author>
+                <title xml:lang="en">"Copy of the second allocution or address (προσφώνησις),
+                  drawn up between us (<persName ref="http://syriaca.org/person/74">John of
+                      <placeName>Asia</placeName>
+                  </persName> and his followers) and the followers of
+                    <persName>Conon</persName> and <persName ref="http://syriaca.org/person/1231">Eugenius</persName> at the place called ܐܘܪܡܝܙܐ."</title>
+                <rubric xml:lang="syr">ܦܚܡܐ ܕܡܦ̣ܩ ܒܪܘܚܐ ܐܘ ܟܝܬ ܕܦܪܘܣܦܘܢܣܝܣ ܕܬܪ̈ܬܝܢ ܕܐܬܥܒܕ ܒܝܬ ܠܢ
+                  ܘܠܗܠܝܢ ܕܒܝܬ ܚܣܝܐ ܩܘܢܘܢ ܘܐܘܓܢ ܒܐܘܪܡܝܙܐ܇ ܕܒܗ ܐܦ ܟܠܢ ܐܪܡܝܢ ܚܢܢ ܐܝܕܐ</rubric>
+                <note>The signatures are those of the bishops <persName>John</persName>,
+                  <persName>Conon</persName>, <persName ref="http://syriaca.org/person/1231">Eugenius</persName>,
+                    <persName>Stephen</persName>, <persName>Elisha</persName>, and
+                    <persName>Longinus</persName>. </note>
+              </msItem>
+              <msItem xml:id="b28" n="29">
+                <locus from="64b"/>
+                <author>bishop John</author>
+                <title xml:lang="en">Anathema directed against <persName ref="http://syriaca.org/person/576"> John Philoponus of
+                      <placeName>Alexandria</placeName>
+                  </persName> by the <persName>bishop
+                    John</persName>
+                </title>
+                <rubric xml:lang="syr">ܦܚܡܐ ܕܟܬܒܐ ܕܚܪܡܐ ܕܐܬܥܒܕ ܒܚܪܬܐ. ܒܗ̇ܝ ܕܐܠܟܣܢܕܪ̈ܝܐ ܥܠ ܐܡܒܘܢ̇. ܡܢ
+                  ܒܬܪ ܐܣ̈ܦܠܝܣ ܩܕܡ̈ܝܬܐ ܕܐܬܥܒܕ ܡܢܗܘܢ̇. ܡܢ ܝܘܚܢܢ ܚܣܝܐ ܐܦܣܩܦܐ܇ ܕܠܗ ܐܦ ܫ̣ܠܡ ܟܠܗ ܩܠܝܪܘܣ
+                  ܪܚ̇ܡ ܠܐܠܗܐ ܕܝܠܗ̇ ܟܕ ܕܝܠܗ̇ ܕܡܕܝܢܬܐ ܪܒܬܐ ܐܠܟܣܢܕܪܝܐ.܀. ܟܕ ܗ̇ܘ ܕܥܡ ܩܕܝ̈ܫܐ ܐܒܐ ܕܝܠܢ
+                  ܘܪܝܫܐ ܕܐܦܣ̈ܩܦܐ ܬܐܘܕܘܣܝܘܣ: ܬܪܝܨܐܝܬ ܘܐܝܟ ܡܠܦܢܘܬܐ ܕܐܒܗ̈ܬܐ ܩ̈ܕܝܫܐ ܐܠ̣ܦ ܘܐܟ̣ܪܙ ܕܐܝܟܢܐ
+                  ܙ̇ܕܩ ܠܢ ܕܢ̇ܬܪܥܐ ܘܢܗ̇ܝܡܢ ܡܛܠ ܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ ܘܫܘ̣ܝܬ ܒܐܘܣܝܐ̣. ܐܫܟܚܢܢ ܐܝܠܝܢ ܕܐܬܟܬܒ ܡܢ
+                  ܝܘܚܢܢ ܓܪܡܛܝܩܐ ܗ̇ܘ ܕܡܬܐܡܪ ܦܝܠܘܦܘܢܘܣ̇. ܗܪܛܝܩܐ ܕܝܢ ܫܪܝܪܐ̇. ܕܡܢ ܟܠܗ̇ ܠܐ ܐܠܗܘܬܐ ܡ̈ܠܝܢ.
+                  ܘܕܕܠܩܘܒܠܐ ܐܝܬܝܗܝܢ܇ ܕܡܐܡܪܐ ܗ̇ܘ ܕܡܛܠ ܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ ܐܬܬܣܝܡ̇. ܡܢ ܗ̇ܘ ܕܐܡܝܪ ܩܕܝܫܐ ܐܒܐ
+                  ܕܝܠܢ ܬܐܘܕܘܣܝܘܣ̇. ܘܕܡܠܦܢܘܬܐ ܕܐܒܗ̈ܬܐ̇. ܗ̇ܢܘܢ ܕܬ̣ܪܨܘ ܡ̣ܠܬܐ ܕܫܪܪܐ. ܡܚܪܡܝܢ ܚܢܢ ܕܝܢ
+                  ܠܟܠܗܝܢ ܐܝܠܝܢ ܕܡܛܠ ܗܕܐ ܐܬܟܬܒ܇ ܡܢܗ ܕܝܠܗ ܕܓܪܡܛܝܩܐ ܝܘܚܢܢ܇ ܗ̇ܘ ܕܡܬܐܡܪ ܦܝܠܘܦܘܢܘܣ ܐܝܟ
+                  ܕܐܡܝܪ. ܏ܘܫ.</rubric>
+              </msItem>
+              <msItem xml:id="b29" n="30">
+                <locus from="64b"/>
+                <title xml:lang="en">Copy of the first συνδοκτικόν (pact or agreement) made
+                  by the abbats of the East after the death of
+                  <persName>Theodosius</persName>
+                </title>
+                <rubric xml:lang="syr">ܦܚܡܐ ܕܣܘܢܕܘܩܛܝܩܘܢ ܩܕܡܝܐ ܕܐܬܥܒܕ ܒܡܕܢܚܐ̇. ܡܢ ܪ̈ܚܡܝ ܠܐܠܗܐ ܪ̈ܫܝ
+                  ܕܝܪ̈ܬܐ. ܕܒܗ̣ ܐܦ ܐܪܡܝܘ ܐܝ̣ܕܐ ܟܠ ܚܕ ܡܢܗܘܢ. ܐܬܥܒܕ ܕܝ̣ܢ. ܡܢ ܒܬܪ ܫܘܡܠܝܗ ܕܗ̇ܘ ܕܥܡ ܩ̈ܕܝܫܐ
+                  ܦܦܐ ܘܡܘܕܝܢܐ ܬܐܘܕܘܣܝܣ</rubric>
+                <quote xml:lang="syr">
+                  <note xml:lang="en">Fol. 64 b. It is dated in the year of
+                      <placeName>Antioch</placeName> 615, A.D. 567:</note> ܒܝܪܚܐ ܐܝܪ ܒܫܒܬܥܣܪ ܒܗ܇ ܫܢܬ
+                  ܫܬ ܡܐܐ ܘܚܡܫܥܣܪ̈ܐ ܐܝܟ ܡܢܝܢܐ ܕܐ̈ܢܛܝܘܟܝܐ: ܘܐܬܟ̇ܢܫܢ ܚܢܢ ܠܕܝܪܐ ܕܩܕܝܫܐ ܒܣ̇ܐ ܠܩܪܝܬܐ
+                  ܐܒܝܬܒܘ. ܘܐܬܡ̇ܠܟܢܢ ܡܛܠ ܛܒ̣̈ܐ ܕܐܫܬܡܥܘ ܒܐ̈ܕܢܝܢ ܡܢ ܡܕܝܢܬ ܡܠܟܘܬܐ̇. ܡܛܠ ܗܝܡܢܘܬܐ ܫܠܝܚܝܬܐ
+                  ܬܪܝܨܬ ܫܘܒܚܐ̇. ܏ܘܫ.. <note xml:lang="en">Attached to it is the following list of 45
+                    names</note>. ܀ ܐܪܡܝ ܐܝ̣ܕܐ܀ ܏ܡܐܪܝ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܥܘܡܪܐ ܩܕܝܫܐ ܕܛܘܒܬܢܐ ܡܪܝ ܒܣ܆
+                  ܡܩ̇ܒܠ ܐܢܐ ܘܫ̇ܠܡ ܐܢܐ̣. ܠܟܠ ܡܕܡ ܕܟܬܝܒ ܡ̇ܢ ܠܥܠ܀ ܏ܒܪ ܏ܚܒܫܒܐ ܩܫܝܫܐ ܘܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܪܒܬܐ
+                  ܕܬܠܥܕܐ. ܒܗ̇ ܒܕܡܘܼܬܐ ܫ̇ܠܡ ܐܢܐ ܘܡܩ̇ܒܠ ܐܢܐ ܠܟܠܡܕܡ ܕܟܬܝܒ ܡܢ ܠܥܠ܀ ܏ܙܐܢܘܒ ܩܫܝܫܐ ܘܪܝܫ
+                  ܕܝܪܐ ܕܒܝܬ ܡܪܝ ܒܝܙܐ̣. ܡܩ̇ܒܠ ܐܢܐ ܠܟܠ ܡܕܡ ܕܟܬܝܒ ܡܢ ܠܥܠ܀ ܏ܩܘܣܛܢܛܝܢܐ ܪܝܫ ܕܝܪܐ ܕܕܝܪܐ
+                  ܕܡܪܝ ܐܘܣܒ ܕܟܦܪܐ ܕܒܪܬܐ܀ ܏ܐܒܪܗܡ ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܠܓܝܢܐ܀ ܏ܐܢܛܝܘܟ ܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܕܛܝ̈ܝܐ܀
+                  ܏ܐܢܕܪܝܐܣ ܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܕܩܘܡܝܣ ܡܢܣܐ܀ ܏ܚܢܝܢܐ ܪܝܫܕܝܪܐ ܕܣܝܓܬܐ ܕܒܝܬܒܘ. ܐܦ ܚܢܢ ܟܘܠ̣ܢ
+                  ܫܠܡܝܢ ܚܢܢ ܠܡܕܡ ܕܟܬܝܒ ܡܢ ܠܥܠ܀ ܏ܓܝܘܪܓܝܣ ܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܕܒܝܬ ܡܪܝ ܝܘܚܢܢ ܕܢܐܪܒ܀ ܏ܣܪܓܝܣ
+                  ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܒܝܬ ܡܪܝ ܐܢܛܝܘܟ܀ ܏ܦܘܠܐ ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܒܝܬ ܡܪܝ ܝܘܚܢܢ ܕܒܝܬ ܙܓܒܐ܀ ܐܓܬܐ
+                  ܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܕܢܝܐܝܠ܀ ܏ܫܡܥܘܢ ܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܗܪܘܕ܀ ܏ܣܪܓܝܣ ܪܝܫܕܝܪܐ ܕܐܝܣܬܡܟ.
+                  ܏ܡܐܪܝܣ ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܒܝܬ ܡܪܝ ܦܘܩܐ ܕܕܪ̈ܘܣܝܬܐ. ܟܠܢ ܫܠܡܝܢ ܚܢܢ ܠܡܕܡ ܕܟܬܝܒ ܡܢ ܠܥܠ܀
+                  ܀܏ܫܡܥܘܢ ܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܠܒܢܝ܀ ܏ܠܥܙܪ ܩܫܝܫܐ ܝܘܢܝܐ܀ ܏ܐܣܛܦܢܐ ܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܩܘܪܩܐ܀
+                  ܏ܐܘܣܒ ܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܩܘܪܝܣ. ܘܚܢܢ ܟܘܠܢ ܫܠܡܝܢ ܚܢܢ ܠܟܠ ܡܕܡ ܕܟܬܝܒ ܡܢ ܠܥܠ܀ ܏ܣܪܓܝܣ
+                  ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܟܦܪܠܕܝܢ. ܏ܝܘܚܢܢ ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܒܝܬ ܡܪܝ ܐܘܣܒ܀ ܏ܝܘܢܢ ܪܝܫܕܝܪܐ ܕܩܐܡ ܥܠ
+                  ܐܣܛܘܢܐ ܒܟܦܪ ܕܪܝܢ ܩܪܝܬܐ܀ ܏ܙܐܢܘܒ ܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܐܘܣܛܬ ܕܐܕܐܝܟ ܩܕܝܬܐ (sic) ܏ܣܛܦܢܐ
+                  ܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܐܣܛܦܢܐ ܕܣܪܡܕܐ ܩܪܝܬܐ. ܘܐܢܚܢܢ ܟܠܢ ܫܠܡܝܢ ܚܢܢ ܠܟܠ ܡܕܡ ܕܡܢ ܠܥܠ ܟܬܝܒ܀
+                  ܏ܫܡܥܘܢ ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܒܝܬ ܡܪܝ ܪܒܘܠܐ܀ ܏ܓܢܕ ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܟܦܪ ܫ̈ܠܐܐ܀ ܏ܬܐܘܡܐ ܪܝܫܕܝܪܐ
+                  ܕܕܝܪܐ ܕܣܢܘܢ܀ ܏ܫܡܥܘܢ ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܡܪܝ ܩܣܝܢܐ܀ ܏ܝܘܚܢܢ ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܩܝܪܩܘ܀
+                  ܏ܒܪܚܒܫܒܐ ܪܝܫܕܝܪܐ ܕܐܪܥܐ܀ ܏ܝܘܚܢܢ ܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܕܘܝܕ܀ ܏ܣܪܓܝܣ ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܡ̇ܢܝܢ܀
+                  ܏ܕܡܝܢܐ ܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܣܪܓܝܣ ܕܟܦܪ ܢܘܓܗܐ. ܘܚܢܢ ܟܠܢ ܫ̇ܠܡܝܢ ܚܢܢ ܠܟܠ ܡܕܡ ܕܟܬܝܒ ܡܢ
+                  ܠܥܠ܀ ܏ܫܡܥܘܢ ܪܝܫܕܝܪܐ ܕܠܒܙܢܘ܀ ܏ܩܝܪܝܣ ܪܝܫܕܝܪܐ ܕܣܚܪܬܐ. ܏ܦܩܝܕܐ ܪܝܫܕܝܪܐ ܕܣܚܖܬܐ. (sic)
+                  ܏ܩܘܙܡܐ ܪܝܫ ܕܝܪܐ ܕܟܦܪ ܢܘܪܢ܀ ܏ܩܘܪܩܐ ܕܒܝܬ ܡܪܝ ܐܘܣܛܬ܀ ܏ܫܡܥܘܢ ܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܕܒܝܬ
+                  ܐܝܣܝܘܢ܀ ܏ܣܪܓܝܣ ܪܝܫܕܝܪܐ ܕܕܘܪܢ܀ ܏ܫܡܥܘܢ ܪܝܫܕܝܪܐ ܕܟܦܪ ܨܢܕܝܠ܀ ܏ܐܣܛܦܢܐ ܪܝܫܕܝܪܐ ܕܕܝܪܐ
+                  ܕܒܝܬ ܦܝܣܝܘܢ܀ ܏ܩܘܙܡܐ ܪܝܫܕܝܪܐ ܕܒܝܬ ܚܘܪܓܐ܀ ܏ܟܪܝܣܛܘܦܘܪܐ ܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܐܘܣܒ܀
+                  ܏ܬܐܘܕܘܪܐ ܪܝܫܕܝܪܐ ܕܐܢܫܝܬ. ܘܚܢܢ ܟܠܢ ܫ̇ܠܡܝܢ ܚܢܢ ܠܟܠ ܡܕܡ ܕܟܬܝܒ ܡܢ ܠܥܠ܀ ܫܠܡ܀ <locus/>
+                </quote>
+              </msItem>
+              <msItem xml:id="b30" n="31">
+                <locus from="65b"/>
+                <author>Bishop Jacob </author>
+                <author>Bishop Theodore</author>
+                <title xml:lang="en">Letter of the bishops <persName>Jacob</persName> and
+                    <persName>Theodore</persName> to the orthodox monks</title>
+                <rubric xml:lang="syr">ܐܓܪܬܐ ܕܚ̈ܣܝܐ ܡܪܝ ܝܥܩܘܒ ܘܡܪܝ ܬܐܘܕܪܐ ܐܦܣ̈ܩܘܦܐ̣. ܠܘܬ ܕܝܪ̈ܝܐ
+                  ܐܘܪ̈ܬܘܕܘܟܣܐ</rubric>
+              </msItem>
+              <msItem xml:id="b31" n="32">
+                <locus from="66a"/>
+                <title xml:lang="en">Copy of the second συνδοκτικόν made by the abbats of the
+                  East, in the year of <placeName>Antioch</placeName> 619, A.D. 571</title>
+                <rubric xml:lang="syr">ܦܚܡܐ ܕܣܘܢܕܘܩܛܝܩܘܢ ܕܬܪ̈ܝܢ ܕܐܬܥܒܕ ܡܢ ܪ̈ܚ̇ܡܝ ܠܐܠܗܐ ܪ̈ܝܫܝ ܕܝܪ̈ܬܐ
+                  ܕܡܕܢܚܐ܀ ܟܕ ܩܕܡ ܩܠܝܠ ܙܒܢܐ ܐܬܟܢ̇ܫܢ ܚܢܢ ܟܠܢ ܪ̈ܝܫܝ ܥܘܡܪ̈ܐ: ܠܕܝܪܐ ܕܩܕܝܫܐ ܡܪܝ ܒܣ ܗ̇ܝ
+                  ܕܐܝܬܝܗ̇ ܒܒܝܬܒܘ ܩܪܝܬܐ: ܘܒܛܝܒܘܬܗ ܕܐܠܗܐ ܐܬܡ̇ܠܟܢ ܚܢܢ: ܘܩ̇ܕܡܢ ܚܢܢ ܫܪܪܢܢ ܒܝܕ ܡܦ̣ܩ ܒܪܘܚܐ
+                  ܟܬܝܒܝܐ: ܒܗ̇ܘ ܕܐܦ ܐܪܡܝܢ ܚܢܢ ܒܗ ܐܝ̣ܕܐ: ܏ܘܫ. ܬܘܒ ܕܝܢ ܘܡܢ ܩܘܣܛܢܛܝܢܘܦܘܠܝܣ ܩ̇ܒܠܢܢ ܚܢܢ
+                  ܟܬܝ̈ܒܬܐ: ܡܢ ܗ̇ܢܘܢ ܕܬܡܢ ܚ̈ܣܝܐ ܐܦܣܩ̈ܘܦܐ ܕܝܠܢ: ܡܪ̈ܝܢ. ܝܘܚܢܢ. ܐܘܢܘܡܝܘܣ. ܐܣܛܦܢܘܣ.
+                  ܠܘܢܓܝܢܘܣ. ܐܠܥܫܥ. ܦܛܘܠܘܡܐܘܣ: ܒܝܕ ܢܟ̈ܦܐ ܕܝܪ̈ܝܐ ܕܕܝܪܐ ܩܕܝܫܬܐ ܕܩܕܝܫܐ ܙܟܝ: ܘܩܘܪܐ
+                  ܩ̈ܠܝܢܝܩܝܣܝܐ: ܕܠܗܝܢ ܟܕ ܠܗܝܢ ܦܩ̈ܕܢ ܠ̣ܢ. ܐܬܚ̣ܙܝܬ ܠܢ ܬܘܒ܇ ܕܢܬ̇ܟܢܫ ܠܗ ܟܕ ܠܗ ܠܗ̇ܘ ܥܘܡܪܐ
+                  ܩܕܝܫܐ ܕܗ̇ܘ ܕܥܡ ܩ̈ܕܝܫܐ ܡܪܝ ܒܣ̇. ܘܒܛܝܒܘܬܐ ܕܐܠܗܐ ܐܪܘܝܚܐܝܬ̇. ܡܛܠ ܗܠܝܢ ܢܬܡ̇ܠܟ. ܒܥܘܕܪܢܐ
+                  ܗܟܝܠ ܕܝܠܗ̇ ܕܩܕܝܫܬܐ ܘܫܘܼܝܬ ܒܐܘܣܝܐ ܬܠܝܬܝܘܬܐ̣. ܐܬܟ̇ܢܫܢܢ ܒܟܢܘܢ ܐܚܪܝ ܝܪܚܐ ܒܬܠܬܐ ܒܗ܇ ܫܢܬ
+                  ܫܬܡܐܐ ܘܬܫ̈ܥܣܪܐ ܐܝܟ ܡܢܝܢܐ ܕܡܕܝܢܬ ܐܠܗܐ܇ ܒܙܒ̈ܢܐ ܕܗܢܕܩܛܝܘܢܐ ܕܦܪܘܛܐ. ܏ܘܫ.</rubric>
+                <quote xml:lang="syr">
+                  <note xml:lang="en">The signatures are 58 in number, viz</note>. ܏ܡܐܪܝ ܩܫܝܫܐ ܘܪܝܫ ܕܝܪܐ
+                  ܕܕܝܪܐ ܕܛܘܒܢܐ ܡܪܝ ܒܣ܇ ܡܩ̇ܒܠ ܐܢܐ ܠܟܠܡܕܡ ܕܟܬܝܒ ܡܢ ܠܥܠ܀ ܏ܙܐܢܘܒ ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܒܝܬ ܡܪܝ
+                  ܒܝܙܐ̣. ܡܩ̇ܒܠ ܐܢܐ ܠܟܠ ܡܕܡ ܕܟܬܝܒ ܡܢ ܠܥܠ܀ ܏ܩܘܣܛܢܛܝܢܐ ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܒܝܬ ܡܪܝ ܐܘܣܒ
+                  ܕܒܪܬܐ̣ ܗܟܢܐ܀ ܏ܐܒܪܗܡ ܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܕܠܓܝܢܐ̣ ܗܟܢܐ ܒܗ̇ ܒܕܡܘܼܬܐ܀ ܏ܝܘܚܢܢ ܪܝܫܕܝܪܐ ܕܕܝܪܐ
+                  ܕܛ̈ܝܝܐ ܗܟܢܐ܀ ܏ܐܢܕܪܐܐ ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܩܘܡܣ ܡܢܣܐ ܗܟܢܐ܀ ܏ܓܝܘܪܓܝܣ ܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ
+                  ܝܘܚܢܢ ܕܢܐܪܒ̣ ܗܟܢܐ܀ ܏ܚܢܝܢܐ ܪܝܫܕܝܪܐ ܕܣܝܓܬܐ ܕܒܝܬܒܘܼ ܗܟܢܐ܀ ܏ܣܪܓܝܣ ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܒܝܬ
+                  ܡܪܝ ܐܢܛܝܘܟ̣ ܗܟܢܐ܀ ܏ܦܘܠܐ ܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܝܘܚܢܢ ܕܒܝܬ ܙܓܒܐ̣ ܗܟܢܐ܀ ܏ܙܐܢܘܒ ܪܝܫ ܕܝܪܐ
+                  ܕܒܝܬ ܡܪܝ ܐܘܣܛܬ ܕܐܕܐܝܟ̣ ܗܟܢܐ܀ ܏ܫܠܝܚܐ ܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܪܒܘܠܐ̣ ܗܟܢܐ܀ ܏ܓܝܢܐ ܪܝܫܕܝܪܐ
+                  ܕܕܝܪܐ ܕܟܦܪܫ̈ܠܐܐ̣ ܗܟܢܐ܀ ܏ܙܘܣܝܡܐ ܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܐܘܣܛܬ̣ ܗܟܢܐ܀ ܏ܢܘܢܘܣ ܪܝܫܕܝܪܐ ܕܕܝܪܐ
+                  ܕܚܙ̇ܙ ܗܟܢܐ܀ ܏ܫܡܥܘܢ ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܫ̇ܢܝܒ̣ ܗܟܢܐ܀ ܏ܩܘܙܡܐ ܪܝܫ ܕܝܪܐ ܕܒܝܬ ܡܠܘܛܐ̣ ܗܟܢܐ܀
+                  ܏ܚܢܝܢܐܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܕܘܝܕ̣ ܗܟܢܐ܀ ܏ܕܝܘܢܝܣ ܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܓܝܘܪܓܝܣ̣ ܗܟܢܐ܀ ܏ܦܘܠܘܣ
+                  ܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܢܘܢܐ̣ ܗܟܢܐ܀ ܏ܣܪܓܝܣ ܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܒܪܚܒܫܒܐ̣ ܗܟܢܐ܀ ܐ܏ܓܬܐ ܪܝܫܕܝܪܐ
+                  ܕܒܝܬ ܡܪܝ ܕܢܝܐܝܠ̣ ܗܟܢܐ܀ ܏ܩܘܪܝܣ ܕܕܝܪܐ ܕܒܝܬ ܡܪܝ ܒܪܚܒܫܒܐ̣ ܗܟܢܐ܀ ܏ܒܪܚܒܫܒܐ ܕܕܝܪܐ ܕܒܝܬ
+                  ܡܪܝ ܝܘܚܢ̣ܢ ܗܟܢܐ܀ ܏ܝܘܚܢܢ ܕܕܝܪܐ ܕܒܝܬ ܫܢܕܠܝܐ̣ ܗܟܢܐ܀ ܏ܣܛܦܢܐ ܕܕܝܪܐ ܕܒܝܬ ܦܛܝܫ̣ ܗܟܢܐ܀
+                  ܏ܫܡܥܘܢ ܕܕܝܪܐ ܕܒܝܬ ܡܪܝ ܗܪܘܕ̣ ܗܟܢܐ܀ ܏ܬܐܘܡܐ ܕܕܝܪܐ ܕܒܝܬ ܡܪܝ ܚܒܝܒ̣ ܗܟܢܐ܀ ܏ܝܘܚܢܢ ܕܕܝܪܐ
+                  ܕܒܝܬ ܡܪܝ ܐܘܣܒ ܕܒܝܬ ܚܘܪ̈ܓܐ̣ ܗܟܢܐ܀ ܏ܣܪܓܝܣ ܕܒܝܬ ܓܘܕܐ̣ ܗܟܢܐ܀ ܏ܣܪܓܝܣ ܕܐܝܣܬܡܟ̣ ܗܟܢܐ܀
+                  ܏ܚܒܫܒ ܕܐܪܥܐ̣ ܗܟܢܐ܀ ܏ܠܐܘܢܛܝ ܚܒܝܫܐ̣ ܗܟܢܐ܀ ܏ܚܒܫܒ ܕܣܥܐ̣ ܗܟܢܐ܀ ܏ܩܘܙܡܐ ܩܫܝܫܐ ܕܝܠܗ̇
+                  ܕܩܪܝܬܐ̣ ܗܟܢܐ܀ ܏ܣܪܓܝܣ ܕܟܦܪ ܡܢܝ̣ ܗܟܢܐ܀ ܏ܝܘܚܢܢ ܕܒܝܬ ܡܪܝ ܕܘܝܕ ܕܩܢܫܪܝ̣ܢ ܗܟܢܐ܀ ܏ܝܘܚܢܢ
+                  ܕܟܦܪܐ ܕܒܒܠܝܐ̣ ܗܟܢܐ܀ ܏ܫܡܥܘܢ ܕܠܒܙܢܘܼ ܗܟܢܐ܀ ܏ܐܘܣܛܬ ܐܝܣܛܘܢܪܐ ܕܬܩܕ̣ ܗܟܢܐ܀ ܏ܫܡܥܘܢ
+                  ܐܝܣܛܘܢܪܐ ܕܐܪܚܒ̣ ܗܟܢܐ܀ ܏ܕܘܝܕ ܚܒܝܫܐ ܚܒܝܫܐ (sic) $ܕܣܚܪܬܐ̣ ܗܟܢܐ܀ ܏ܪܘܡܢܐ ܩܫܝܫܐ ܕܣܚܪܬܐ̣
+                  ܗܟܢܐ܀ ܏ܓܝܘܪܓܝ ܚܒܝܫܐ ܕܕܪܥܡ̣ܢ ܗܟܢܐ ܏ܦܘܡܝܢ ܕܒܝܬ ܡܪܝ ܠܒܢܝ̣ ܗܟܢܐ܀ ܏ܝܘܚܢܢ ܕܬܠܥܘܩܒܪ̈ܝ̣ܢ
+                  ܗܟܢܐ܀ ܏ܣܛܦܢܐ ܕܒܝܬ ܡܪܝ ܩܘܪܩܐ ܕܐܡܣ̣ ܗܟܢܐ܀ ܏ܒܣܒܐ ܚܒܝܫܐ ܕܟܦܪ ܟܪ̈ܡܐ̣ ܗܟܢܐ܀ ܏ܫܡܥܘܢ ܕܒܝܬ
+                  ܨ̇ܝܪܐ̣ ܗܟܢܐ܀ ܏ܐܝܣܚܩ ܕܒܝܬ ܡܪܝ ܦܠܕ̣ ܗܟܢܐ܀ ܏ܩܘܪܩܐ ܕܕܝܪܐ ܕܠܝܬܪܝܒ̣ ܗܟܢܐ܀ ܏ܩܘܙܡܪܐ ܕܟܦܪ
+                  ܢܘܪܢ̣ ܗܟܢܐ܀ ܏ܣܛܦܢܐ ܕܣܪܡܕܐ̣ ܗܟܢܐ܀ ܏ܦܘܠܘܣ ܐܝܣܛܘܢܪܐ ܕܚܡܠܐ̣ ܗܟܢܐ܀ ܏ܩܘܪܩܐ ܕܟܦܪ ܙܪ̈ܬܝ̣ܢ
+                  ܗܟܢܐ܀ ܏ܓܝܘܪܓܝܣ ܕܐܛܡܐ̣ ܗܟܢܐ܀ ܏ܠܥܙܪ ܩܫܝܫܐ̣ ܗܟܢܐ܀ ܏ܫܡܥܘܢ ܕܒܝܬ ܡܪܝ ܩܣܝܢܐ ܕܚ̇ܪܢ̣ ܗܟܢܐ܀
+                  ܕܗ̇ܘܝܢ ܟܠܗܘܢ ܒܡܢܝܢܐ̣ ܚܡܫܝܢ ܘܬܡܢܝܐ. <locus/>
+                </quote>
+              </msItem>
+              <msItem xml:id="b32" n="33">
+                <locus from="68a"/>
+                <title xml:lang="en">Letter of the above-mentioned abbats,
+                    <persName>Mārī</persName>, <persName>Zenobius</persName>,
+                    <persName>Constantine</persName>, etc., to the <persName>bishop Jacob</persName>
+                </title>
+                <rubric xml:lang="syr">ܕܝܠܗܘܢ ܟܕ ܕܝܠܗܘܢ ܕܪ̈ܫܝ ܥܘܡܪ̈ܐ ܕܡܕܢܚܐ̣. ܠܘܬ ܡܪܝ ܝܥܩܘܒ
+                  ܐܦܣܩܘܦܐ</rubric>
+              </msItem>
+              <msItem xml:id="b33" n="34">
+                <locus from="69b"/>
+                <author>Paul of Antioch</author>
+                <title xml:lang="en">Letter of <persName>Paul of
+                      <placeName>Antioch</placeName>
+                  </persName> to the bishops
+                    <persName>Jacob</persName> and <persName>Theodore</persName>
+                </title>
+                <rubric xml:lang="syr">ܐܓܪܬܐ ܕܚܣܝܐ ܘܛܘܒܬܢܐ ܦܘܠܐ ܦܛܪܝܪܟܐ ܕܐܢܛܝܘܟܝܐ̣. ܠܘܬ ܡܪܝ ܝܥܩܘܒ
+                  ܘܡܪܝ ܬܐܘܕܘܪܐ ܐܦܣ̈ܩܦܐ.</rubric>
+              </msItem>
+              <msItem xml:id="b34" n="35">
+                <locus from="70a"/>
+                <author>Jacob</author>
+                <author>Theodore</author>
+                <title xml:lang="en">Reply of <persName>Jacob</persName> and
+                    <persName>Theodore</persName> to <persName>Paul</persName>. </title>
+              </msItem>
+              <msItem xml:id="b35" n="36">
+                <title xml:lang="en">Letter of the abbats of the East to the orthodox clergy
+                  at <placeName>Constantinople</placeName>
+                </title>
+                <rubric xml:lang="syr">ܦܚܡܐ ܕܐܓܪܬܐ ܕܪ̈ܫܝ ܥܘܡܪ̈ܐ ܕܡܕܢܚܐ̣. ܠܘܬ ܐܦܝ̈ܣܩܘܦܐ ܐܘܪ̈ܬܘܕܟܣܐ
+                  ܘܩ̈ܫܝܫܐ ܘܡܫ̈ܡܫܢܐ ܕܥܡ̇ܪܝܢ ܒܩܘܣܛܢܛܝܢܘܦܘܠܝܣ.</rubric>
+                <incipit xml:lang="syr">
+                  <locus from="70b"/>ܠܡܪ̈ܝܢ ܗ̇ܢܘܢ ܕܒܟܠܡܕܡ ܚܣ̈ܝܐ ܘܣܡ̈ܝܟܝ
+                  ܥܠ ܐܠܗܐ: ܝܘܚܢܢ. ܩܘܢܘܢ. ܐܘܓܢ. ܐܘܢܘܡܝܣܘ. ܝܘܠܝܢܘܣ. ܣܛܦܢܘܣ. ܐܠܝܫܥ. ܦܛܘܠܘܡܐܘܣ.
+                  ܠܘܢܓܝܢܘܣ. ܐܦܣܩ̈ܘܦܐ܀ ܘܠܢܟ̈ܦܐ ܘܪ̈ܚܡ̇ܝ ܠܐܠܗܐ. ܐܬܢܣܝܣ. ܘܦܘܛܝܢܘܣ. ܒܣܝܠܝܘܣ. ܐܘܣܒܝܘܣ.
+                  ܦܘܩܐ. ܐܒܘܝ. ܝܘܚܢܢ. ܣܪܓܝܘܣ. ܩܘܢܘܢ. ܘܫܪܟܐ ܕܩܫ̈ܝܫܢܐ܀ ܘܠܝܘܚܢܢ ܘܙܐܢܘܒܝܘܣ ܘܬܐܘܡܐ ܘܫܪܟܐ
+                  ܕܡܫܡܫ̈ܢܐ܀ ܘܠܫܪܟܐ ܕܥܡܐ ܡܗܝܡܢܐ ܕܒܡܪܝܐ ܡܬܕܒ̇ܪܝܢ ܐܚ̈ܐ ܕܝܠ̣ܢ. ܡܢ ܪ̈ܝܫܝ ܕܝܪ̈ܬܐ ܕܡܕܢܚܐ܀
+                  ܐܢܐ ܏ܐܘܣܒ ܩܫܝܫܐ ܘܪܝܫ ܕܝܪܐ ܕܥܘܡܪܐ ܩܕܝܫܐ ܕܛܘܒܢܐ ܡܪܝ ܒܣ܀ ܏ܚܒܫܒ ܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܪܒܬܐ
+                  ܕܬܠܥܕܐ܀ ܏ܙܐܢܘܒ ܪܝܫ ܕܝܪܐ ܕܥܘܡܪܐ ܩܕܝܫܐ ܕܡܪܝ ܒܝܙܐ܀ ܏ܝܘܚܢܢ ܪܝܫܕܝܪܐ ܕܥܘܡܪܐ ܕܛܘܒܢܐ ܘܢܝ̣ܚ
+                  ܢܦܫܐ ܡܪܝ ܪܘܡܢܐ܀ ܏ܩܘܣܛܢܛܝܢܐ ܪܝܫ ܕܝܪܐ ܕܥܘܡܪܐ ܕܛܘܒܢܐ ܡܪܝ ܐܘܣܒ ܕܟܦܪܐ ܕܒܪܬܐ܀ ܏ܬܐܘܡܐ ܪܝܫ
+                  ܕܝܪܐ ܕܕܝܪܐ ܕܡܪܝ ܣܪܓܝܣ ܕܢܦܫ̈ܬܐ܀ ܏ܒܪܠܗܐ ܪܝܫ ܕܝܪܐ ܕܥܘܡܪܐ ܩܕܝܫܐ ܕܒܝܬ ܐܦܬܘܢܝܐ܀ ܏ܐܒܪܗܡ
+                  ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܠܓܝܢܐ܀ ܏ܐܢܛܝܘܟ ܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܕܛܝ̈ܝܐ܀ ܏ܐܢܕܪܐܐ ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܩܘܡܝܣ
+                  ܡܢܣܐ܀ ܏ܚܢܝܢܐ ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܣܝܓܬܐ ܕܒܝܬܒܘ ܩܪܝܬܐ܀ ܏ܓܝܘܪܓܝܣ ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܒܝܬ ܡܪܝ
+                  ܝܘܚܢܢ ܕܢܐܪܒ܀ ܏ܣܪܓܝܣ ܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܐܢܛܝܘܟ܀ ܏ܦܘܠܘܣ ܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܝܘܚܢܢ ܕܒܝܬ
+                  ܙܓܒܐ܀ ܏ܐܓܬܐ ܪܝܫ ܕܝܪܐ ܕܥܘܡܪܐ ܩܕܝܫܐ ܕܒܝܬ ܡܪܝ ܕܢܐܝܐܝܠ܀ ܏ܐܠܝܐ ܪܝܫܕܝܪܐ ܕܥܘܡܪܐ ܩܕܝܫܐ
+                  ܕܦܥܢܘܪ܀ ܏ܬܐܘܡܐ ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܒܝܬ ܡܪܝ ܩܘܪܩܐ ܕܬܘܪܥܝ܀ ܏ܕܢܝܐܝܠ ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܕܝܠܒܝܢ܀
+                  ܏ܝܘܚܢܢ ܩܫܝܫܐ ܕܛܛܪܐ ܩܘܡܐ ܕܣܠܡܝܐ܀ ܏ܓܝܢܐ ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܟܦܪ ܫ̈ܠܐܐ܀ ܏ܝܘܚܢܢ ܪܝܫܕܝܪܐ
+                  ܕܕܝܪܐ ܕܒܝܬ ܡܪܝ ܚܢܝܢܐ.. ܥܡ ܫܪܟܐ ܕܪ̈ܝܫܝ ܕܝܪ̈ܬܐ ܕܡܕܢܚܐ܀܀ ܐܠܗܐ ܕܫܠܡܐ ܗ̇ܘ ܕܒܐܘ̈ܢܓܠܝܐ
+                  ܐܡ̣ܪ ܠܬܠܡ̈ܕܘܗܝ: ܏ܘܫ.</incipit>
+              </msItem>
+              <msItem xml:id="b36" n="37">
+                <locus from="72a"/>
+                <author>Jacob</author>
+                <title xml:lang="en">Letter of <persName>Jacob</persName> to
+                  <persName>Conon</persName> and <persName ref="https://syriaca.org/person/1231">Eugenius</persName>
+                </title>
+                <rubric xml:lang="syr">ܦܚܡܐ ܕܟ̈ܬܝܒܬܐ ܕܐܬܟܬܒ ܡܢ ܩܕܝܫܐ ܡܪܝ ܝܥܩܘܒ̣. ܠܘܬ ܩ̈ܕܝܫܐ ܩܘܢܘܢ
+                  ܘܐܘܓܢ</rubric>
+              </msItem>
+              <msItem xml:id="b37" n="38">
+                <locus from="72b"/>
+                <author>Jacob</author>
+                <title xml:lang="en">Letter of <persName>Jacob</persName> to the bishops
+                    <persName>John</persName>, <persName>Eunomius</persName>,
+                    <persName>Stephen</persName>, <persName>Longinus</persName>, etc.</title>
+                <rubric xml:lang="syr">ܕܝܠܗ ܟܕ ܕܝܠܗ ܕܩܕܝܫܐ ܡܪܝ ܝܥܩܘܒ܇ ܠܘܬ ܚ̈ܣܝܐ ܐ̈ܦܣܩܘܦܐ̇. ܝܘܚܢܢ
+                  ܐܘܢܘܡܝܘܣ ܐܣܛܦܢܘܣ ܠܘܢܓܝܢܘܣ̇. ܘܗ̇ܢܘܢ ܕܥܡܗܘܢ</rubric>
+              </msItem>
+              <msItem xml:id="b38" n="39">
+                <locus from="73a"/>
+                <title xml:lang="en">Letter of the orthodox bishops in the East to the
+                  orthodox bishops at <placeName>Constantinople</placeName>
+                </title>
+                <rubric xml:lang="syr">ܐܓܪܬܐ ܕܐܬܟ̣ܬܒܬ ܡܢ ܐܦܣ̈ܩܦܐ ܐܘܪ̈ܬܘܕܘܟܣܐ ܕܒܡܕܢܚܐ̣. ܠܘܬ ܐܦܣ̈ܩܦܐ
+                  ܐܘܪ̈ܬܘܕܟܣܐ ܕܒܩܘܣܛܢܛܝܢܘܦܘܠܝܣ</rubric>
+                <note>The signatures are those of <persName>Jacob</persName>,
+                    <persName>Theodore</persName>, <persName>John</persName>,
+                    <persName>John</persName>, <persName>John</persName>,
+                    <persName>Sergius</persName>, <persName>John</persName>,
+                    <persName>Stephen</persName>, <persName>Longinus</persName>,
+                    <persName>Ptolemy</persName>, <persName>Elisha</persName>, and
+                    <persName>Paul</persName>.</note>
+              </msItem>
+              <msItem xml:id="b39" n="40">
+                <locus from="75b"/>
+                <title xml:lang="en">Letter of the orthodox bishops to the orthodox in the
+                  various hyparchies </title>
+                <rubric xml:lang="syr">ܐܓܪܬܐ ܕܐܬܟܬܒܬ ܡܢ ܐܦܣ̈ܩܦܐ ܐܘܪ̈ܬܘܕܟܣܐ ܠܘܬ ܐܘܪ̈ܬܘܕܘܟܣܐ ܕܗܘ̈ܦܪܟܝܣ
+                  ܡܫ̈ܚܠܦܬܐ.</rubric>
+                <note>It is signed by <persName>Jacob</persName>, <persName>Theodore</persName>,
+                    <persName>John</persName>, <persName>John</persName>, <persName>John</persName>,
+                    <persName>Sergius</persName>, <persName>Sergius (for John)</persName>,
+                    <persName>Stephen</persName>, <persName>Ptolemy</persName>,
+                    <persName>Elisha</persName>, <persName>Longinus</persName>, and <persName>John
+                    (for Paul, who was sick)</persName>. </note>
+              </msItem>
+              <msItem xml:id="b40" n="41">
+                <locus from="78b"/>
+                <title xml:lang="en">Letter of the orthodox bishops to the clergy and people
+                  of <placeName>Arabia</placeName>
+                </title>
+                <rubric xml:lang="syr">ܬܘܒ ܕܝܠܗܘܢ ܟܕ ܕܝܠܗܘܢ ܠܘܬ ܩܠܝܪ̈ܝܩܘ ܩ̈ܫܝܫܢܐ ܘܡܫ̈ܡܫܢܐ ܘܪ̈ܝܫܝ
+                  ܕܝܪ̈ܬܐ̣. ܘܥܡܐ ܟܠܗ ܡܗܝܡܢܐ ܕܒܐܪܒܝܐ</rubric>
+              </msItem>
+              <msItem xml:id="b41" n="42">
+                <locus from="80b"/>
+                <title xml:lang="en">Reply of the abbats of <placeName>Arabia</placeName> to
+                  the orthodox bishops</title>
+                <rubric xml:lang="syr">ܐܓܪܬܐ ܕܐܬܥ̣ܒܕܬ ܡܢ ܪ̈ܝܫܝ ܕܝܪ̈ܬܐ ܕܐܪܒܝܐ̣. ܠܘܬ ܐ̈ܦܣܩܘܦܐ
+                  ܐܘܪ̈ܬܘܕܘܟܣܐ</rubric>
+                <quote xml:lang="syr">
+                  <note xml:lang="en">The signatures to this letter fill seven pages, and are
+                    as follow</note>: ܀ܐܪܡܝ ܐܝ̈ܕܐ܀ ܏ܬܐܘܕܘܪܐ ܩܫܝܫܐ ܕܝܪܐ ܕܕܝܪܐ ܕܐܒܣ ܡܪܩܠܝܢ (fol. 82 a)
+                  $ܘܪܫ ܕܛܘܪܐ ܕܚܪܬܐ̣. ܟܕ ܫ̇ܠܡ ܐܢܐ ܠܡܕܡ ܕܟܬܝܒ ܡܢ ܠܥܠ ܒܗܢܐ ܟܪܛܝܣܐ: ܗ̇ܘ ܕܐܦ ܐܬܩܪܝ ܩܕܡܝ
+                  ܘܐܬܦܫ̇ܩ ܠܝ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕ܀ ܏ܐܢܣܛܣܝܣ ܒܨܝܪܐ ܕܕܝܪܐ ܪܒܬܐ ܕܓܫܡܝ̣ܢ. ܚܬܡ̇ܬ
+                  ܝܘܢܐܝܬ܀ ܏ܢܛܝܪܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܐܒܣ ܡܪܝ ܡܟܣܝܡܐ ܕܐܛܘܼ. ܐܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀
+                  ܏ܚܒܫܘܒ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܒܪܬ ܐܪܥ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܬܐܘܡܐ ܩܫܝܫܐ ܕܛܘܪܐ
+                  ܕܚܪܬܐ̇. ܟܕ ܐܢܐ ܩ̇ܕܡܬ ܣܡ̇ܬ ܠܨܠܝܒܐ ܝܩܝܪܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܓܝܘܪܓܝ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ
+                  ܕܚܪ̈ܝܡܝܐ ܐܪܡܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܐܠܝܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܒܝܬ ܡܪܝ ܐܣܛܦܢܐ ܕܥܩܪܒ̣.
+                  ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܬܐܘܡܐ ܩܫܝܫܐ ܕܝܠܢ ܟܕ ܐܢܐ ܩܕܡ̇ܬ ܣܡ̇ܬ ܠܨܠܝܒܐ ܝܩܝܪܐ ܒܟܝܪܬ ܐܝܕ܀
+                  ܏ܦܛܪܘܣ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܟܦܪ ܣܘܓܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬܐ ܐܝܕܝ܀ ܏ܣܛܦܢܐ ܩܫܝܫܐ
+                  ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܡܪܝ ܫܠܡܢ ܕܩܘܪ̈ܕܝܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܫܠܡܢ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ
+                  ܕܕܝܪܐ ܕܟܦܪ ܒܣܛܣ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܓܝܘܪܓܝ ܬܠܡܝܕܐ ܕܝܠܝ܀ ܏ܩܘܢܘܢ ܩܫܝܫܐ
+                  ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܓܘܦܢܬ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܩܘܢܘܢ ܩܫܝܫܐ ܟܕ ܡܦܣܢܘܬܐ ܢܣ̇ܒܬ ܡܢ
+                  ܏ܩܘܪܩܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܡܟܪ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܚܠܦܘܗܝ܀ ܏ܐܝܘܒ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ
+                  ܕܡ̈ܛܠܠܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܓܝܘܪܓܝܣ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܒܝܬ ܚܠܐ̣. ܐܪܡ̇ܝܬ
+                  ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܡܪܝ ܪܚ̇ܡ ܠܐܠܗܐ ܩܫܝܫܐ ܘܪܝܫ ܕܝܪܐ ܐܝܘܒ ܕܕܝܪܐ ܕܡ̈ܛܠܠܐ܀ ܏ܕܘܝܕ ܪܝܫ ܕܝܪܐ
+                  ܕܕܝܪܐ ܕܒܝܛܠܝܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܐܪܡ̇ܝܬ ܕܝ̣ܢ ܐܦ ܚܠܦ ܩܫܝܫܐ ܘܪܝܫ ܕܝܪܐ ܕܕܝܪܐ
+                  ܕܒܘܪܓܐ ܚܘܪܐ ܡܪܝ ܏ܦܘܠܐ܀ ܏ܣܪܓܝܣ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܐܪܛܡܝܣ܆ ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ
+                  ܐܝܕܝ܀ ܏ܝܘܠܝܢܐ ܐܒܝܠܐ ܐܘܪܗܝܐ ܕܥܡ̇ܪ ܐܢܐ ܒܐܪܒܝܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܬܒܐ ܗܢܐ܇ ܘܫܠܡ ܐܢܐ ܠܟܠ
+                  ܕܟܬܝܒ ܡܢ ܠܥܠ܀ ܏ܬܐܘܡܐ ܩܫܝܫܐ ܘܪܝܫ ܕܝܪܐ ܕܬܘܒܢܝܢ ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܬܒܐ ܗܢܐ ܘܫ̇ܠܡ ܐܢܐ ܠܟܠ
+                  ܡܕܡ ܕܟܬܝܒ ܡܢ ܠܥܠ܀ ܏ܪܘܡܢܐ ܩܫܝܫܐ ܘܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܕܚܝܢܐ ܕܡܪܝ ܕܘܝܕ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ
+                  ܐܝܕܝ܀ (fol. 82 b)  ܪܘܡܢܐ ܩܫܝܫܐ ܟܕ ܡܦܣܢܘܬܐ ܢܣ̇ܒܬ ܡܢ ܏ܝܘܚܢܢ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܠܘܩܕ݂
+                  ܐܪܡ̇ܝܬ ܐܝܕܐ ܚܠܦܘܗܝ܀ ܏ܐܠܦܝܕ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܐܡܝ̣ܢ. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀
+                  ܐܠܦܝܕ ܩܫܝܫܐ ܟܕ ܡܦܣܢܘܬܐ ܢܣ̇ܒܬ ܡܢ ܏ܩܘܪܩܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܠܘܘܢ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ
+                  ܚܠܦܘܗܝ܀ ܏ܓܝܘܪܓܝ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܒܝܬ ܣܒܢܝܢ ܕܓܫܡܝ̣ܢ ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀
+                  ܓܝܘܪܓܝ ܩܫܝܫܐ ܟܕ ܡܦܣܢܘܬܐ ܢܣ̇ܒܬ ܡܢ ܡܪܝ ܏ܐܠܘܣ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܣܪܓܝܣ ܕܓܒ̇ܝܬܐ̣.
+                  ܐܪܡ̇ܝܬ ܐܝܕܐ ܚܠܦܘܗܝ܀ ܏ܡܐܢܐ ܩܫܝܫܐ ܘܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܕܟܦܪܫ̣ܡܫ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀
+                  ܏ܣܒܢܝ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܐܒܣ ܛܝܛܘܣ ܕܥܩܪܒ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܩܘܢܘܢ ܩܫܝܫܐ
+                  ܕܝܠܢ܀ ܏ܢܛܘܪ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܟܦܪ ܟܘܡܪܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܝܘܚܢܢ ܩܫܝܫܐ
+                  ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܥܠܩܝ̣ܢ. (؟) ܟܕ ܐܦܣ̇ܬ ܠܓܐܘܪܓܝܣ ܒܪܗ ܕܥܙܝܙ ܕܢܟܬܘܒ ܚܠܦܝ ܝܘܢܐܝܬ. ܡܛܠ
+                  ܕܠܐ ܐܫܬܟܚ ܚܕ ܡܢ ܬܠܡ̈ܝܕܝ ܗܪܟܐ̣. ܟܕ ܫ̇ܠܡ ܐܢܐ̣ ܫ̇ܘܕܥܬ܀ ܏ܐܬܘܡܐ ܩܫܝܫܐ ܕܡܓܕܘܠܐ̣ ܐܪܡ̇ܝܬ
+                  ܐܝܕܐ̣ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܓܝܘܪܓܝ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܢܡܪ̣. ܟܬ̇ܒܬ ܒܟܝܪܬ ܐܝܕܐ ܕܝܠܝ̣
+                  ܝܘܢܐܝܬ܀ ܏ܦܪܘܩܠܘܣ ܩܫܝܫܐ ܘܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܕܓܫܡܝ̣ܢ ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܡܪܛܝܪܝܣ
+                  ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܙܡܪܘܢ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܡܪܛܝܪܝܣ ܟܕ ܢܣ̇ܒܬ ܡܦܣܢܘܬܐ ܡܢ
+                  ܏ܓܝܘܪܓܝ ܩܫܝܫܐ ܘܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܕܡܬܢܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ̣ ܚܠܦܘܗܝ܀ ܏ܬܐܘܕܘܪܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ
+                  ܕܡܪܛܝܪܐ ܕܡܪܝ ܬܐܘܕܘܪܐ ܕܒܪܘܩܝܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ̣ ܒܟܝܪܬ ܐܝܕܗ ܕܐܒܪܗܡ ܐܚܐ ܕܝܠܢ܀ ܏ܡܐܢܣ
+                  ܩܫܝܫܐ ܘܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܕܓܫܡܝ̣ܢ. ܟܬ̇ܒܬ ܒܟܝܪܬ ܐܝܕܝ ܝܘܢܐܝܬ܀ ܏ܐܠܝܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ
+                  ܕܓܫܡܝ̣ܢ. ܟܬܒ̇ܬ ܝܘܢܐܝܬ̣ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܬܐܘܕܘܪܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܦܘܩܐ ܕܫܘܫܢܐ̣.
+                  ܐܪܡܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܙܐܢܘܕܘܪܘܣ ܩܫܝܫܐ ܕܨܘܪܡܢܝܢ ܩܪܝܬܐ̣. ܟܬܒܬ ܒܟܝܪܬ ܐܝܕܝ ܏ܝܘܚܢܢ
+                  ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܢܗܪܐ ܕܩܣܛܪܐ ܟ̇ܬܒܬ ܝܘܢܐܝܬ̣ ܒܟܝܪܬ ܐܝܕܝ܀  (fol. 83 a) $܏ܠܐܘܢܛܝܣ ܩܫܝܫܐ
+                  ܘܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܚܕܬܐ ܕܟܦܪ ܬܘܠܥܬ ܩܪܝܬܐ̣. ܟܕ ܡܘܕܐ ܐܢܐ ܫ̇ܠܡ ܐܢܐ ܠܐܒ̈ܗܝܢ ܩ̈ܕܝܫܐ̣.
+                  ܟܬ̇ܒܬ ܝܘܢܐܝܬ݂ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܦܘܠܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܫܘܪܘܼ. ܐܪܡܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܐܢܐ
+                  ܦܘܠܐ ܒܨܝܪܐ ܟܕ ܡܦܣܢܘܬܐ ܢܣ̇ܒܬ ܡܢ ܡܪܝ ܏ܐܣܛܦܢܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܙܒܝܪܬ݂. ܐܪܡ̇ܝܬ
+                  ܐܝܕܐ ܚܠܦܘܗܝ܀ ܏ܝܘܚܢܢ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܛܘܪܐ ܕܡܚܓܐ̣. ܫ̇ܠܡ ܐܢܐ ܠܡܕܡ ܕܟܬܝܒ ܡܢ ܠܥ̣ܠ.
+                  ܘܚܬ̇ܡܬ݂ ܒܟܝܪܬ ܐܝܕܝ܀ ܐܢܐ ܝܘܚܢܢ ܟܕ ܡܦܣܢܘܬܐ ܢܣ̇ܒܬ ܡܢ ܡܪܝ ܏ܣܛܦܢܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ
+                  ܕܦܐܕܝ̣ܢ. ܐܪܡܝܬ ܐܝܕܐ ܚܠܦܘܗܝ܀ ܏ܦܛܪܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܠܟܦ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ̣ ܒܟܝܪܬ ܐܝܕܗ
+                  ܕܐܠܝܐ ܩܫܝܫܐ ܕܝܠܢ܀ ܏ܬܐܘܕܘܪܘܣ ܩܫܝܫܐ ܕܢܗܪܐ ܕܩܣܛܪܐ. ܟܕ ܩ̇ܪܝܬ ܘܐܬܩ̇ܒܠ ܥܠܝ̣. ܟܬܒ̇ܬ
+                  ܝܘܢܐܝܬ݂ ܒܟܝܪܬ ܐܝܕܝ܀ ܬܐܘܕܘܪܘܣ ܩܫܝܫܐ ܟܕ ܡܦܣܢܘܬܐ ܢܣ̇ܒܬ ܡܢ ܏ܐܝܘܒ ܩܫܝܫܐ ܘܪܚ̇ܡ ܠܐܠܗܐ
+                  ܪܝܫܕܝܪܐ ܕܡܪܝ ܝܘܣܦ ܕܒܘܛܥ ܩܪܝܬܐ̣. ܟܬܒ̇ܬ ܚܠܦܘܗܝ̣. ܡܛܠ ܕܠܐ ܝ̇ܕܥ ܗܘܐ ܕܢܟܬܘܒ܀ ܚ܏ܘܠܝܦ
+                  ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܟܦܪ ܫܡܫ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܗܢܐ ܟܪܛܝܣܐ̣. ܟܕ ܫ̇ܠܡ ܐܢܐ ܠܟܠܗܘܢ
+                  ܐܒ̈ܗܬܐ ܐܘܪ̈ܬܘܕܘܟܣܐ ܘܕܣܢܗܕܣ ܕܬܠܬܡܐܐ ܘܬܡܢܬܥܣܪ ܘܕܡܐܐ ܘܚܡܫܝܢ ܘܕܐܦܣܘܣ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ܀
+                  ܏ܩܘܪܝܩܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܒܪ ܣ̇ܦܪܐ̣. ܟܬܒ̇ܬ ܝܘܢܐܝܬ݂ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܙܐܢܘܕܘܪܐ ܩܫܝܫܐ
+                  ܘܪܫ ܕܝܪܐ ܕܕܝܪܐ ܕܓܠܫܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܓܐܘܪܓܝܣ ܒܨܝܪܐ ܩܫܝܫܐ ܘܚܒܝܫܐ ܕܕܝܪܐ
+                  ܕܒܘܣܪܐܝܠ ܩܪܝܬܐ̣. ܟܬܒ̇ܬ ܝܘܢܐܝܬ݂ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܣܛܦܢܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܩܘܢܝܬܐ̣.
+                  ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܩܫܝܫܐ ܡܪܝ ܣܪܓܝ ܕܛܘܪܐ ܕܡܚܓܐ܀ ܏ܝܘܚܢܢ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ
+                  ܩܕܝܫܬܐ ܕܡܪܝ ܩܘܢܘܢ ܕܙܪ̈ܘܝܐ̣. ܫ̇ܠܡ ܐܢܐ ܘܐܪܡ̇ܝܬ ܐܝܕܐ̣ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܣܪܓܝ ܩܫܝܫܐ
+                  ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܥܠܡܬ݂. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܐܢܐ ܣܪܓܝܣ ܟܕ ܡܦܣܢܘܬܐ ܢܣܒ̇ܬ ܡܢ ܡܪܝ
+                  ܏ܣܪܓܝ ܩܫܝܫܐ ܕܒܝܬ ܣܗ̈ܕܐ ܕܡܪܝ ܣܪܓܝܣ ܕܥܠܡܬ݂. ܐܪܡ̇ܝܬ ܐܝܕܐ ܚܠܦܘܗܝ܀ ܏ܝܘܚܢܢ ܩܫܝܫܐ
+                  ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܣܥܪܝܥܐܝ̣ܠ. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܐܢܐ ܝܘܚܢܢ ܟܕ ܡܦܣܢܘܬܐ ܢܣ̇ܒܬ ܡܢ
+                  ܡܪܝ ܏ܐܠܝܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܓܕܝܪܬܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܚܠܦܘܗܝ܀ (fol. 83 b) ܏ܝܘܚܢܢ
+                  ܫܡܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܥܗܪܬ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܣܪܓܝܣ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ
+                  ܕܒܘܪܓܐ ܕܚ̣ܪܦ̣. ܟܬܒ̇ܬ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܣܪܓܝܣ ܩܫܝܫܐ ܘܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܕܥܠܡܬ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ
+                  ܒܟܝܪܬ ܐܝܕܝ܀ ܐܢܐ ܣܪܓܝܣ ܟܕ ܡܦܣܢܘܬܐ ܢܣܒ̇ܬ ܡܢ ܡܪܝ ܏ܐܘܦܝܢܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܥܠܡܬ̣.
+                  ܐܪܡ̇ܝܬ ܐܝܕܐ ܚܠܦܘܗܝ܀ ܏ܥܒܕܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܪܘܥܦ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܐܢܐ
+                  ܥܒ̣ܕܐ ܟܕ ܡܦܣܢܘܬܐ ܢܣ̇ܒܬ ܡܢ ܡܪܝ ܏ܐܝܘܒ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܪܘܥܦ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ
+                  ܚܠܦܘܗܝ܀ ܐ܏ܝܘܒ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܐܛܝܡܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܐܠܝܐ ܩܫܝܫܐ
+                  ܕܡܟܪ ܩܪܝܬܐ̣. ܟܬܒ̇ܬ݂ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܣܪܓܝܣ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܦܝܠܝܦܘܣ̇ ܕܐܘܦܢܝܐ̣.
+                  ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܐܢܐ ܣܪܓܝܣ ܟܕ ܡܦܣܢܘܬܐ ܢܣܒ̇ܬ ܡܢ ܡܪܝ ܏ܐܠܝܐ ܩܫܝܫܐ ܘܪܝܫ ܕܝܪܐ
+                  ܕܕܝܪܐ ܕܓܘܬܪ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܚܠܦܘܗܝ܀ ܏ܐܝܘܒ ܫܡܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܟܦܪܓܘܙܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ
+                  ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܐܣܛܦܢܘܣ ܩܫܝܫܐ ܘܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܕܢܡܘܠ̣. ܟܬܒ̇ܬ ܒܟܝܪܬ ܐܝܕܝ ܝܘܢܐܝܬ܀ ܏ܚܒܫܘܒ
+                  ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܥܡܘܕܐ ܕܟܦܪ ܢܣ̇ܓ܆ ܐܪܡܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܝܘܚܢܢ ܩܫܝܫܐ ܕܝܠܢ܀ ܏ܚܒܫܘܒ
+                  ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܐܡܘܢܝ̣ܢ. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܣܒܛ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ
+                  ܕܝ̇ܬܒܐ ܒܚܝܢܐ ܕܡܬܩܪܝܐ ܕܦܘܡܗ ܕܕܐܒܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܩܘܢܘܢ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ
+                  ܕܕܝܪܐ ܕܡܟܪ̣. ܟܬܒ̇ܬ ܒܟܝܪܬ ܐܝܕܗ ܕܩܫܝܫܐ ܐܠܘܣ ܕܝܠܗ̇ ܕܩܪܝܬܐ܀ ܏ܡܘܫܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ
+                  ܕܠܒܘܢܬܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܐܝܘܒ ܬܠܡܝܕܐ ܕܝܠܢ܀ ܏ܐܒܪܗܡ ܩܫܝܫܐ ܘܪܝܫ ܕܝܪܐ ܕܕܝܪܐ
+                  ܕܒܝܬ ܨܠܡܐ ܕܒܚܝܢܐ ܩܪܝܬܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܓܝܘܪܓܝ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܡܪܝ
+                  ܩܪܘܩ ܕܚܝܢܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܡܪܝ ܐܠܝܐ ܩܫܝܫܐ ܘܚܒܝܫܐ ܕܕܝܪܐ ܕܝܠܢ܀ ܏ܣܪܓܝܣ
+                  ܚܒܝܫܐ ܕܕܝܪܐ ܕܚܝܢܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܡܪܝ ܐܠܝܐ ܚܒܝܫܐ܀ ܏ܬܐܘܡܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ
+                  ܕܕܝܪܐ ܕܡܪܝ ܐܠܝܐ ܕܚܝܢܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܡܪܝ ܐܒܪܗܡ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ
+                  ܕܒܝܬ ܨܠܡܐ܀ ܏ܚܠܦܝ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܕܘܪܒܝܠ܆ ܟܕ ܫ̇ܠܡ ܐܢܐ ܠܐܒ̈ܗܝܢ ܩ̈ܕܝܫܐ ܟܬܒ̇ܬ
+                  ܒܟܝܪܬ ܐܝܕܝ ܝܘܢܐܝܬ܀ (fol. 84 a) ܏ܦܘܠܘܣ ܫܡܫܐ ܘܪܝܫ ܕܝܪܐ ܕܥܝܢܓܖܐ̣. (sic) ܟܬܒ̇ܬ ܒܟܝܪܬ
+                  ܐܝܕܗ ܕܚܠܦܝ ܕܕܝܪܐ ܕܪܚ̇ܡ ܐܠܗܐ ܚܠܦܝ ܕܕܘܪܒܝܠ ܩܪܝܬܐ܀ ܏ܐܣܛܦܢܐ ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܟܦܪ ܚ̇ܘܪ
+                  ܕܒܛܝܒܘܬܐ ܕܐܠܗܐ ܕܡܬܩܪܐ ܐܢܐ ܚܒܝܫܐ ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܝܘܚܢܢ ܩܫܝܫܐ ܘܚܒܝܫܐ ܕܕܝܪܐ
+                  ܕܒܝܬܝܡܢ ܩܪܝܬܐ̣. ܟܬܒ̇ܬ ܝܘܢܐܝܬ ܒܟܝܪܬ ܐܝܕܗ ܕܝܘܠܝܢܐ ܬܠܡܝܕܐ ܕܝܠ܀ ܏ܙܐܢܘܕܘܪܐ ܩܫܝܫܐ
+                  ܘܪܝܫܕܝܪܐ ܕܥܡܘܕܐ ܕܒܝܬ ܬܝܡ̣ܢ. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܝܘܚܢܢ ܕܥܡ̇ܪ ܒܕܝܪܐ ܕܚܝܢܐ
+                  ܕܡܬܩܪܝܐ ܕܒܝܬ ܡܪܬܝ ܡܪܝܡ܀ ܏܏ܣܪܓܘܢ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܦܪܣܝܕܝܢ. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ
+                  ܐܝܕܗ ܕܡܪܝ ܪܚ̇ܡ ܐܠܗܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܘܣܥܘܪܐ ܓܐܘܪܓܝ ܕܕܝܪܐ ܕܚܪ̈ܝܡܝܐ܀ ܏ܣܠܘܢܘܣ ܩܫܝܫܐ
+                  ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܥܘܕܝ. ܫ̇ܠܡ ܐܢܐ ܠܡܕܡ ܕܟܬܝܒ ܡܢ ܠܥܠ. ܘܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܡܐܪܘܢ
+                  ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܒܝܬ ܐܝܠܢܐ ܕܕܖܝܐ̣. (sic) ܐܪܡܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܕܢܝܐܝܠ ܩܫܝܫܐ
+                  ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܕܪ̈ܝܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܝܘܚܢܢ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܬܠܠܐ
+                  ܕܩܘܪ̈ܕܝܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܡܪܝ ܕܚ̇ܠ ܠܐܠܗܐ ܩܫܝܫܐ ܘܪܝܫ ܕܝܪܐ ܣܠܘܢܘܣ ܕܥܘܕܝܢ܀
+                  ܏ܚܠܦܝ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܚܕܬܐ ܕܟܦܪ ܣܘܣܝܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܐܝܘܒ ܫܡܫܐ
+                  ܕܝܠܢ܀ ܏ܣܒܢܝܢܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܝ ܐܠܝܐ ܕܩܘܪ̈ܕܝܐ̣. ܐܪܡܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܡܪܝ
+                  ܪܚ̇ܡ ܐܠܗܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܘܣܥܘܪܐ ܐܣ̇ܛܦܢܐ ܕܕܝܪܐ ܕܡܪܝ ܫܠܡܢ ܕܩܘܪ̈ܕܝܐ܀ ܏ܩܘܢܘܢ ܩܫܝܫܐ
+                  ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܟܦܐ ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܡܐܪܘܢ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܒܝܬ ܐܝܠܢܐ
+                  ܕܕܪ̈ܝܐ܀ ܏ܐܠܝܐ ܫܡܫܐ ܘܪܝܫܕܝܪܐ ܕܢܘܣܐ̣. ܐܪܡܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܡܪܝ ܝܘܚܢܢ ܬܠܡܝܕܐ ܕܕܝܪܐ
+                  ܕܡܪܝ ܫܠܡܢ ܕܩܘܪ̈ܕܝܐ܀ ܏ܝܘܚܢܢ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܡܪܝ ܦܘܠܐ ܕܣܟܝܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ
+                  ܒܟܝܪܬ ܐܝܕܗ ܕܪܚܡ ܐܠܗܐ ܡܪܝ ܣܛܦܢܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܘܣܥܘܪܐ ܕܕܝܪܐ ܕܡܪܝ ܫܠܡܢ ܕܩܘܪ̈ܕܝܐ܀
+                  ܏ܚܒܘܫ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܣܟܝܐ ܕܐܝܬܝ ܒܛܝܒܘܬܗ ܕܐܠܗܐ ܚܒܝܫܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ
+                  ܐܝܕܝ܀ ܏ܡܐܢܣ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܓܘ̈ܒܝܐ ܕܒܩܘܪ̈ܕܝܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܐܠܝܐ
+                  ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܒܘܨܥ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܠܐܘܢܛܝܣ ܫܡܫܐ ܘܪܝܫ ܕܝܪܐ ܕܕܝܪܐ
+                  ܕܡܪܝ ܣܪܓܝܣ ܕܒܘܨܥ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܡܪܝ ܡܐܢܣ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܓܒ̈ܝܐ܀
+                  (fol. 84 b) ܏ܪܘܦܘܣ ܫܡܫܐ ܘܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܕܒܘܨܥ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܐܠܝܐ
+                  ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܩܘܪ̈ܕܝܐ̣ ܟܬܒ̇ܬ ܒܟܝܪܬ ܐܝܕܝ ܝܘܢܐܝܬ܀ ܟܬܒ̇ܬ ܕܝ̣ܢ. ܘܚܠܦ ܏ܚܠܦܝ
+                  ܫܡܫܐ ܘܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܕܟܘܣܝܬܐ ܩܪܝܬܐ̇. ܟܕ ܡܦܣܢܘܬܐ ܢܣܒܬ ܡܢܗ܀ ܏ܣܡܩܝ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ
+                  ܘܚܒܝܫܐ ܕܕܝܪܐ ܕܒܘܨܥ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܐܠܝܐ ܩܫܝܫܐ ܘܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܕܨܦܪܝ̣ܢ.
+                  ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܡܪܝ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܢܝܐܝܠ ܕܕܝܪܐ ܕܕܪ̈ܝܐ܀ ܏ܪܘܡܢܐ ܫܡܫܐ ܘܪܝܫ
+                  ܕܝܪܐ ܕܕܝܪܐ ܕܕܪ̈ܝܐ ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܐܪܡ̇ܝܬ ܕܝ̣ܢ ܐܦ ܚܠܦ ܕܚ̇ܠ ܠܐܠܗܐ ܡܪܝ ܏ܒܪܟܝ
+                  ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܕܪ̈ܝܐ܀ ܏ܦܘܠܘܣ ܫܡܫܐ ܘܪܫ ܕܝܪܐ ܕܕܝܪܐ ܕܠܘ̈ܙܐ ܕܕܪ̈ܝܐ ܩܪܝܬܐ̣.
+                  ܟܬܒ̇ܬ ܒܟܝܪܬ ܐܝܕܗ ܕܫܡܫܐ ܝܘܚܢܢ ܕܝܠܗ̇ ܕܩܪܝܬܐ ܕܪ̈ܝܐ܀ ܏ܣܒܘܢ ܫܡܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ
+                  ܕܕܪ̈ܝܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܡܪܘܢ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܒܝܬ ܐܝܠܢܐ܀ ܏ܣܒܢܝܢ
+                  ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܘܚܒܝܫܐ ܕܕܝܪܐ ܕܪܝܫ ܐܝܠܢܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܡܪܝ ܣܪܓܝܣ ܫܡܫܐ
+                  ܕܝܠܢ܀ ܏ܝܘܚܢܢ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܡܬܐܡܪܐ ܕܚܘܠܒܘܢ̣. ܟܬܒ̇ܬ ܝܘܢܐܝܬ ܒܟܝܪܬ ܐܝܕܝ܀ ܟܬܒ̇ܬ
+                  ܕܝ̣ܢ ܘܚܠܦ ܪܚ̇ܡ ܠܐܠܗܐ ܏ܬܐܘܡܐ ܩܫܝܫܐ ܘܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܕܟܦܪܣܘܣܝܐ ܩܪܝܬܐ܀ ܏ܚܠܦܝ ܩܫܝܫܐ
+                  ܘܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܕܚܩܠܐ ܕܕܪ̈ܝܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܐܪܡ̇ܝܬ ܕܝܢ ܐܦ ܚܠܦ ܡܪܝ
+                  ܏ܝܘܚܢܢ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܕܪ̈ܝܐ܀ ܏ܣܒܛ ܫܡܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܡܪܝ ܝܘܢܢ ܕܕܪ̈ܝܐ̣.
+                  ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܡܪܝ ܝܘܚܢܢ ܬܠܡܝܕܐ ܕܕܝܪܐ ܕܒܝܬ ܡܪܝ ܫܠܡܢ ܕܩܘܪ̈ܕܝܐ܀ ܏ܐܢܛܝܘܟܐ
+                  ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܓܒܬܠ. ܟܕ ܢܩ̇ܦ ܐܢܐ ܠܐܒ̈ܗܝܢ ܩ̈ܕܝܫܐ̣. ܟܬܒ̇ܬ ܝܘܢܐܝܬ ܒܟܝܪܬ ܐܝܕܝ܀
+                  ܏ܢܝܩܣܝܘܣ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܓܒܬܝܠ. ܟܬܒ̇ܬ ܝܘܢܐܝܬ݂ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܢܘܢܐ ܩܫܝܫܐ̇
+                  ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܓܒܬܝܠ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܠܘܩܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ
+                  ܕܥܘܝ̣ܪܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܡܪܝ ܝܘܚܢܢ ܩܫܝܫܐ ܕܝܠܢ܀ ܏ܬܐܘܡܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ
+                  ܕܕܝܪܐ ܕܓܘܒܝܠ. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ (fol. 85 a) ܏ܥܒܕܠܗܐ ܩܫܝܫܐ ܘܪܝܫ ܕܝܪܐ ܕܕܝܪܐ
+                  ܕܚ̇ܕܬܐ̣ ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܣܪܓܝܣ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܚܠܝܘܪܡ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ
+                  ܒܟܝܪܬ ܐܝܕܗ ܕܡܪܝ ܝܘܠܝܢܐ ܐܚܐ ܕܝܠܢ܀ ܏ܒܣ̇ܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܓܝ̈ܓܠܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ
+                  ܒܟܝܪܬ ܐܝܕܗ ܕܬܐܘܡܐ ܩܫܝܫܐ ܕܝܠܢ܀ ܏ܣܪܓܝܣ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܥܘܩܒܬܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ
+                  ܒܟܝܪܬ ܐܝܕܗ ܕܡܪܝ ܩܫܝܫܐ ܐܘܣܛܬ ܬܢܝܢܐ ܕܝܠܝ܇ ܗ̇ܘ ܕܐܝܬܘܗܝ ܩܫܝܫܐ ܕܥܕܬܐ ܕܫܒܝܚܐ ܘܪܚ̇ܡ
+                  ܠܡܫܝܚܐ ܦܛܪܝܩܝܘܣ ܡܘܢܕܪ܀ ܏ܢܛܝܪܐ ܩܫܝܫܐ ܘܪܝܕܝܪܐ ܕܐܦܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀
+                  ܏ܠܐܘܢܛܝܣ ܚܛܝܐ ܕܒܪ̈ܚܡ̣ܘܗܝ ܕܐܠܗܐ ܕܝܪܝܐ ܘܒܛܝܒܘܬܗ ܕܡܫܝܚܐ ܕܥܡܘܕܐ ܕܕܝܪܐ ܕܩܕܝܫܐ ܚ̇ܓܘܢ̣.
+                  ܢܩ̇ܦ ܐܢܐ ܠܗܝܡܢܘܬܐ ܬܪܝܨܬܐ ܘܫܪܝܪܬܐ ܕܐܒܗ̈ܬܐ ܩ̈ܕܝܫܐ ܐܘܪ̈ܬܘܕܘܟܣܐ̣. ܘܡܘܕܝܢܐܝܬ ܟܬܒ̇ܬ
+                  ܝܘܢܐܝܬ݂ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܐܠܝܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܡܝܬܒܝ̣ܢ. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀
+                  ܐܪܡ̇ܝܬ ܕܝ̣ܢ ܐܦ ܚܠܦ ܡܪܝ ܏ܗܒܝܠ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܒܝܬ ܡܪܝ ܐܝܣܚܩ ܕܠܘܒܝܒ܀ ܏ܛܝܡܬ
+                  ܫܡܫܐ ܘܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܕܡܨܪܝ̣ܢ. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܐܪܡ̇ܝܬ ܕܝ̣ܢ ܐܦ ܚܠܦ ܡܪܝ ܏ܐܠܝܐ
+                  ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܫܡܢܝܠ ܘܚܠܦ ܡܪܝ ܏ܝܘܠܝܢܐ ܩܫܝܫܐ ܘܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܕܓܕܝܐ܀ ܏ܐܠܝܐ
+                  ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܟܦܪ ܐܘܫܝ ܩܪܝܬܐ̣. ܟܬܒ̇ܬ ܒܟܝܪܬ ܐܝܕܗ ܕܪܚ̇ܡ ܐܠܗܐ ܐܠܝܐ ܩܫܝܫܐ
+                  ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܓܫܡܝܢ ܩܪܝܬܐ܀ ܏ܝܘܚܢܢ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܥܝܣܢܝܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ
+                  ܒܟܝܪܬ ܐܝܕܗ ܕܡܪܝ ܐܠܝܐ ܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܐܪ̈ܥܒܢܝܐ܀ ܏ܐܠܝܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܒܝܬ ܡܪܬܝ ܡܪܝܡ
+                  ܕܐܦܪܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܚܢܝܢܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܩܕܝܫܐ ܫܠܡ̣ܢ. ܐܪܡܝܬ
+                  ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܗ ܕܡܪܝ ܪܚ̇ܡ ܠܐܠܗܐ ܐܝܣܚܩ ܩܫܝܫܐ ܕܝܠܝ܀ ܏ܐܠܝܐ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ
+                  ܕܡܝܣܦܪ ܩܪܝܬܐ̣. ܟܬܒ̇ܬ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܛܦܣܘܪܘܣ ܩܫܝܫܐ ܕܡܝܣܦܪ ܩܪܝܬܐ̣. ܟܬܒ̇ܬ ܝܘܢܐܝܬ ܒܟܝܪܬ
+                  ܐܝܕܝ܀ ܏ܐܠܝܐ ܫܡܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܐܪ̈ܥܒܢܝܐ̣. ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܝܘܣܦ ܩܫܝܫܐ
+                  ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܟܦܪܐ ܙܥܘܪܐ̣. ܟܬܒ̇ܬ ܒܟܝܪܬ ܐܝܕܝ܀ ܏ܐܠܦܝܕ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܥܝܘܢ܆
+                  ܐܪܡ̇ܝܬ ܐܝܕܐ ܒܟܝܪܬ ܐܝܕܝ܀ (fol. 85 b) ܐܪܡ̇ܝܬ ܕܝܢ ܐܦ ܚܠܦ ܕܚ̇ܠ ܠܐܠܗܐ ܡܪܝ ܏ܕܘܝܕ ܩܫܝܫܐ
+                  ܘܪܝܫܕܝܪܐ ܕܕܝܪܐ ܕܪ̈ܫܝܐ܀ ܫܠܡ܀ <locus/>
+                </quote>
+              </msItem>
+              <msItem xml:id="b42" n="43">
+                <locus from="85b"/>
+                <author>Sergius, or Sergūnā, a recluse of the convent at Nicæa</author>
+                <title xml:lang="en">Replies by one of the orthodox (viz.
+                    <persName>Sergius</persName>, or <persName>Sergūnā</persName>, a recluse of the
+                  convent at <placeName ref="https://syriaca.org/place/621">Nicæa</placeName>), addressed to the <persName>priest John
+                    the Aged ($ܣܒܐ), of <placeName>Rās'ain</placeName>
+                  </persName>, in answer to
+                  certain questions propounded to the latter by the <persName>priest John the
+                    Lame</persName> ($ܚܓܝܪܐ), who had left the convent of Mār Bassus.</title>
+                <rubric xml:lang="syr">ܦܘܢܝ ܦܬܓܡܐ ܐܘ ܟܝܬ ܫܪܝܐ ܕܗܘ̣ܐ ܡܢ ܐܢܫ ܬܪܝܨ ܫܘܒܚܐ̣. ܠܘܩܒܠ ܬܒ̈ܥܬܐ
+                  ܗܠܝܢ ܕܬܒ̣ܥ܇ ܩܫܝܫܐ ܝܘܚܢܢ ܗ̇ܘ ܕܢܦ̇ܝܩ ܡܢ ܥܘܡܪܐ ܩܕܝܫܐ ܕܡܪܝ ܒܣ܀ ܟܪܛܝܣܐ ܝܗܒ̣ܬ ܠܝ ܐܒܗܘܬܟ
+                  ܠܩܪܝܢܐ̣. ܘܟܕ ܐܫ̇ܬܐ̣ܠܬ ܡܢܝ: ܕܡܢ ܡܢ̣ܘ ܐܬܝܗܒ ܠܟ: ܘܒܐ̈ܝܕܝ ܡܢ̣ܘ ܟܬܝܒ̣. ܐܡ̣ܪܬ ܠܝ ܕܐܬܬܨܚ
+                  ܡ̇ܢ ܘܐܬܝܗܒ ܠܟ܆ ܡܢ ܩܫܝܫܐ ܘܪܝܫܕܝܪܐ ܡܪܝ ܝܘܚܢܢ. ܗ̇ܘ ܕܢܦܝܩ ܡܢ ܥܘܡܪܐ ܟܢܝܟܐ ܕܡܪܝ ܒܣ.
+                  ܐܬܟܬܒ ܕܝ̣ܢ ܒܟܝܪܬ ܐܝܕܐ ܕܬܠܡܝܕܗ ܦܪܘܒܐ. ܏ܘܫ.</rubric>
+                <quote xml:lang="syr">
+                  <note xml:lang="en">Prefixed is the following short introduction</note>
+                  ܠܘܩܕܡ ܙܕܩ ܠܟܠ ܡ̇ܢ ܕܦܓ̇ܥ ܒܟܬܝܒ̈ܬܐ ܗܠܝ̣ܢ. ܕܢܕܥ ܕܥܠܬ݂ܗܝ̣ܢ ܗܕܐ ܐܝܬܝܗ̇܀ ܩܫܝܫܐ ܝܘܚܢܢ
+                  ܚܓܝܪܐ: ܗ̇ܘ ܕܢ̇ܦܝܩ ܡܢ ܥܘܡܪܐ ܕܒܝܬ ܡܪܝ ܒܣ̣. ܦܓܥ ܒܡܝܬܪܐ ܩܫܝܫܐ ܡܪܝ ܝܘܚܢܢ ܣܒܐ ܕܡܢ ܪܝܫ
+                  ܥܝܢܐ: ܗ̇ܘ ܕܐܝܬܘܗܝ ܪܒܗ ܪܡܪܝ ܣܪܓܝܣ ܗ̇ܘ ܕܚܒܝܫ ܒܕܝܪܐ ܕܒܢܩܝܐ̣. ܘܒܫܩ̣ܠ ܛܥܢܐ ܝ̣ܨܦ ܗ̣ܘ
+                  ܝܘܚܢܢ ܚܓܝܪܐ ܕܢܟܫܠܝܘܗܝ ܠܗ ܠܣܒܐ ܡܪܝ ܝܘܚܢ̣ܢ. ܘܢܦܪܫܝܘܗܝ ܡܢ ܫܘܬܦܘܬܗ ܕܛܘܒܬܢܐ ܡܪܝ ܦܘܠܐ
+                  ܦܛܪܝܪܟܝܣ. ܘܟܕ ܣܓܝܐ̈ܬܐ ܐܡ̣ܪ ܠܗ̣. ܦܢ̇ܝ ܦܬܓܡܐ ܗ̣ܘ ܣܒܐ: ܟܕ ܡܬܥ̇ܕܠ ܒܗ ܒܝܘܚܢܢ ܗ̇ܘ
+                  ܕܐܡܝܪ̣. ܕܥܠ ܡܢܐ ܐܪܚܩܬܘܢ ܡܢ ܫܘܬܦܘܬܗ ܕܦܛܪܝܪܟܐ ܡܪܝ ܦܘܠܐ̇. ܟܕ ܠܐ ܐܟܣܬܘܢܝܗܝ ܥܠ ܗܠܝܢ
+                  ܕܐܡܪܝܢ ܐܢܬܘܢ ܥܠܘܗܝ ܟܕ ܪܚܝܩ. ܘܐܡ̣ܪ ܠܗ ܗ̣ܘ ܝܘܚܢ̣ܢ. ܕܐܦ ܐܒܗ̈ܬܐ ܠܡ ܩ̈ܕܝܫܐ̣. ܣܥ̣ܪܘ
+                  ܕܕܐܝܟ ܗܟܢܐ ܒܙܒ̈ܢܝܗܘܢ. ܗ̣ܘ ܕܝܢ ܣܒܐ ܢܟܦܐ ܬܒܥܗ̣. ܕܒܟ̈ܬܝܒܬܐ ܢܬܠ ܠܗ ܥ̈ܕܠܝܐ ܗܠܝܢ ܕܐܡ̣ܪ
+                  ܥܠ ܦܛܪܝܪܟܝܣ. ܗ̣ܘ ܕܝܢ ܠܘ ܒܠܚܘܕ ܥܕ̈ܠܝܐ ܐܟܬ݂ܒ̣. ܐܠܐ ܐܡ̣ܪܚ̣ ܕܐܦ ܠܗܝܢ ܠܣܘ̈ܢܗܘܕܘܣ
+                  ܩܕܝ̈ܫܬܐ ܕܥܕܬܐ ܢܛܠܘܡ̇. ܕܣ̣ܥܪ ܠܡ ܕܕܐܝܟ ܗܕܐ̇. ܘܫ̈ܕܝ ܠܐ̈ܢܫܝܢ ܕܠܐ ܒܘܚ̇ܢܐ. ܗܠܝܢ ܕܟ̣ܬܒ̣.
+                  ܐ̈ܬܝ ܠܘܬܗ ܕܪܚ̇ܡ ܠܐܠܗܐ ܡܪܝ ܣܪܓܝܣ ܗ̇ܘ ܕܐܡܝܪ̣. ܒܐܝ̈ܕܘܗܝ ܕܝܠܗ ܕܣܒܐ ܪܒܗ. ܘܩ̇ܒܠ ܡܢܗ ܫܪܝܐ
+                  ܕܝܠܗܝ̣ܢ. ܗܠܝܢ ܕܟܬܝܒܝܢ ܡܢ ܠܬܚܬ ܒܬܪ ܒܬܪ<locus from="85b"/>
+                </quote>
+                <note>In the course of this tract there are cited, amongst other authorities, the
+                  ecclesiastical histories of <persName ref="http://syriaca.org/person/849">Socrates</persName>, foll. 87 b, 88 a, 100 b, and <persName ref="http://syriaca.org/person/2757">Sozomen</persName>, foll. 88 a, 93 b;
+                  letters of <persName ref="http://syriaca.org/person/781">Theodoret</persName> to
+                    <persName ref="http://syriaca.org/person/1812">John of
+                      <placeName>Antioch</placeName>
+                  </persName>, <persName>Andrew of
+                      <placeName>Samosata</placeName>
+                  </persName>, <persName>Alexander of
+                        <placeName ref="https://syriaca.org/place/122">Mabūg</placeName>
+                  </persName>, <persName ref="http://syriaca.org/person/655">Nestorius</persName>, etc., fol. 96 b; and
+                  letters of <persName>Severus</persName> to the orthodox people of
+                    <placeName>Tyre</placeName>, to the reader <persName>Archelaus</persName>, to
+                    <persName>Marinus, bishop of <placeName>Berytus</placeName>
+                  </persName>, and to
+                  the <persName>Hêgemôn of <placeName>Tyre</placeName>
+                  </persName>, fol. 98 a. </note>
+              </msItem>
+              <msItem xml:id="b43" n="44">
+                <locus from="110b"/>
+                <author>Theodore</author>
+                <title xml:lang="en">Synodical letter of <persName>Theodore</persName> of
+                    <placeName>Alexandria</placeName> to <persName>Paul of
+                      <placeName>Antioch</placeName>
+                  </persName>
+                </title>
+                <rubric xml:lang="syr">ܐܓܪܬܐ ܣܘܢܗܘܕܝܩܐ ܕܐܫ̣ܬܕܪܬ ܡܢ ܚܣܝܐ ܘܛܘܒܬܢܐ ܡܪܝ ܬܐܘܕܘܪܐ ܦܛܪܝܪܟܐ
+                  ܕܥܕܬܐ ܬܪܝܨܬ ܫܘܒܚܐ ܕܒܐܠܟܣܢܕܪܝܐ̣. ܠܘܬ ܩܕܝܫܐ ܘܛܘܒܬܢܐ ܡܪܝ ܦܘܠܐ ܦܛܪܝܪܟܐ ܕܥܕܬܐ ܬܪܝܨܬ
+                  ܫܘܒܚܐ ܕܐܢܛܝܘܟܝܐ܀</rubric>
+              </msItem>
+              <msItem xml:id="b44" n="45">
+                <locus from="116a"/>
+                <author>Paul</author>
+                <title xml:lang="en">Synodical letter of <persName>Paul</persName> to
+                    <persName>Theodore</persName>
+                </title>
+                <rubric xml:lang="syr">ܐܓܪܬܐ ܣܘܢܗܘܕܝܩܐ ܘܕܦܘܢܝ ܦܬܓܡܐ̣. ܕܐܫ̣ܬܕܪܬ ܡܢ ܚܣܝܐ ܘܛܘܒܬܢܐ ܡܪܝ
+                  ܦܘܠܐ ܦܛܪܝܪܟܐ ܕܥܕܬܐ ܬܪܝܨܬ ܫܘܒܚܐ ܕܐܢܛܝܘܟܝܐ̣. ܠܘܬ ܩܕܝܫܐ ܘܛܘܒܬܢܐ ܡܪܝ ܬܐܘܕܘܪܐ ܦܛܪܝܪܟܐ
+                  ܕܥܕܬܐ ܬܪܝܨܬ ܫܘܒܚܐ ܕܒܐܠܟܣܢܪܝܐ܀</rubric>
+              </msItem>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="perg">
+                <extent>
+                  <measure unit="content_pending" quantity="-1"/>
+                </extent>
+                <foliation/>
+                <collation/>
+                <condition>
+                  <list>
+                    <item>
+                      <p>Vellum, about 9 1/4 in. by 6, consisting of 127 leaves, a few of which are
+                        much stained and torn, especially the first and last. The quires, signed
+                        with letters, are 13 in number. Each page is divided into two columns, of
+                        from 32 to 49 lines. </p>
+                    </item>
+                  </list>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <p>Content pending</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
+                <desc>This volume is written in a small, elegant hand of the vith or viith
+                  cent.</desc>
+              </handNote>
+            </handDesc>
+            <additions/>
+            <bindingDesc>
+              <p>Content pending</p>
+            </bindingDesc>
+            <sealDesc>
+              <p>Content pending</p>
+            </sealDesc>
+            <accMat/>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate notBefore="0500" notAfter="0700">of the vith or viith
+                cent.</origDate>
+              <origPlace/>
+            </origin>
+            <provenance/>
+            <acquisition/>
+          </history>
+          <additional>
+            <adminInfo>
+                    <recordHist>
+                        <source>Manuscript description based on <bibl>
+                            <ref target="#Wright">Wright's
+                            Catalogue</ref>
+                        </bibl>, abbreviated by the Syriaca.org editors.</source>
+                    </recordHist>
+                    <note/>
+                </adminInfo>
+            <listBibl>
+              <bibl xml:id="Wright">
+                <author>William Wright</author>
+                <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired
+                        since the Year 1838</title>
+                <pubPlace>London</pubPlace>
+                <date>1870</date>
+                <ptr target="http://syriaca.org/bibl/8"/>
+                <citedRange unit="entry">DCCLIV</citedRange>
+                <citedRange unit="pp">2:701-715</citedRange>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <interpretation>
+                <p>Description is based on Wright's Catalogue without consultation of physical
+                    manuscripts. Foliation is approximate. Wright often does not indicate ending folia so
+                    those have been assumed based on beginning folia.</p>
+                <p>Scribal notes which could not be more clearly classified based on Wright's descriptions
+                    have been identified as &lt;addition&gt;s whether they occur in the margins or the body
+                    of the manuscript.</p>
+                <p>In general, we have classified as an &lt;msItem&gt; as much of the manuscript contents
+                    as possible, including tables of contents and indices.</p>
+            </interpretation>
+        </editorialDecl>
+        <classDecl>
+            <taxonomy xml:id="Wright-BL-Taxonomy">
+                <bibl>
+                    <ref target="#Wright"/>
+                    <ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy.html"/>
+                </bibl>
+                <category xml:id="biblical-manuscripts">
+                    <category xml:id="bible-ot">
+                        <catDesc>Old Testament</catDesc>
+                    </category>
+                    <category xml:id="bible-nt">
+                        <catDesc>New Testament</catDesc>
+                    </category>
+                    <category xml:id="bible-apocrypha">
+                        <catDesc>Apocrypha</catDesc>
+                    </category>
+                    <category xml:id="bible-punctuation">
+                        <catDesc>Punctuation</catDesc>
+                    </category>
+                </category>
+                <category xml:id="service-books">
+                    <category xml:id="psalter">
+                        <catDesc>Psalters</catDesc>
+                    </category>
+                    <category xml:id="lectionaries">
+                        <catDesc>Lectionaries</catDesc>
+                    </category>
+                    <category xml:id="missals">
+                        <catDesc>Missals</catDesc>
+                    </category>
+                    <category xml:id="sacerdotals">
+                        <catDesc>Sacerdotals</catDesc>
+                    </category>
+                    <category xml:id="choral">
+                        <catDesc>Choral Books</catDesc>
+                    </category>
+                    <category xml:id="hymns">
+                        <catDesc>Hymns</catDesc>
+                    </category>
+                    <category xml:id="prayers">
+                        <catDesc>Prayers</catDesc>
+                    </category>
+                    <category xml:id="funerals">
+                        <catDesc>Funeral Services</catDesc>
+                    </category>
+                </category>
+                <category xml:id="theology">
+                    <category xml:id="theo-single">
+                        <catDesc>Individual Authors</catDesc>
+                    </category>
+                    <category xml:id="theo-collected">
+                        <catDesc>Collected Authors</catDesc>
+                    </category>
+                    <category xml:id="theo-catenae">
+                        <catDesc>Catenae Patrum and Demonstrations against Heresies</catDesc>
+                    </category>
+                    <category xml:id="theo-anonymous">
+                        <catDesc>Anonymous Works</catDesc>
+                    </category>
+                    <category xml:id="theo-council">
+                        <catDesc>Councils of the Church and Ecclesioastical Canons</catDesc>
+                    </category>
+                </category>
+                <category xml:id="wright-history">
+                    <category xml:id="history">
+                        <catDesc>History</catDesc>
+                    </category>
+                </category>
+                <category xml:id="lives">
+                    <category xml:id="lives-collect">
+                        <catDesc>Collected Lives</catDesc>
+                    </category>
+                    <category xml:id="lives-single">
+                        <catDesc>Single Lives</catDesc>
+                    </category>
+                </category>
+                <category xml:id="scientific-lit">
+                    <category xml:id="sci-logic">
+                        <catDesc>Logic and Rhetoric</catDesc>
+                    </category>
+                    <category xml:id="sci-grammar">
+                        <catDesc>Grammar and Lexicography</catDesc>
+                    </category>
+                    <category xml:id="sci-ethics">
+                        <catDesc>Ethics</catDesc>
+                    </category>
+                    <category xml:id="sci-medicine">
+                        <catDesc>Medicine</catDesc>
+                    </category>
+                    <category xml:id="sci-agriculture">
+                        <catDesc>Agriculture</catDesc>
+                    </category>
+                    <category xml:id="sci-chemistry">
+                        <catDesc>Chemistry</catDesc>
+                    </category>
+                    <category xml:id="sci-natural-history">
+                        <catDesc>Natural History</catDesc>
+                    </category>
+                </category>
+                <category xml:id="wright-fly-leaves">
+                    <category xml:id="fly-leaves">
+                        <catDesc>Fly Leaves</catDesc>
+                    </category>
+                </category>
+                <category xml:id="appendices">
+                    <category xml:id="appendix-a">
+                        <catDesc>Appendix A</catDesc>
+                    </category>
+                    <category xml:id="appendix-b">
+                        <catDesc>Appendix B</catDesc>
+                    </category>
+                </category>
+            </taxonomy>
+        </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+            <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            <language ident="syr-Syre">Syriac in Estrangela</language>
+            <language ident="syr-Syrj">Vocalized West Syriac</language>
+            <language ident="syr-Syrn">Vocalized East Syriac</language>
+            <language ident="syr-x-syrm">Melkite Syriac</language>
+            <language ident="syr-x-syrp">Palestinian Syriac</language>
+            <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
+            <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
+            <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="cop">Coptic</language>
+        </langUsage>
+      <textClass>
+        <keywords scheme="#Wright-BL-Taxonomy">
+          <list>
+            <item>
+              <ref target="#theo-collected"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-02-18">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+      <change who="http://syriaca.org/documentation/editors.xml#aahn">Initial TEI encoding.</change>
+      <change type="planned" subtype="greek">Add in missing Greek characters. item 19</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <formula>Content pending</formula>
+  </facsimile>
+  <text>
+    <body>
+      <bibl>Content pending</bibl>
+    </body>
+  </text>
+</TEI>
