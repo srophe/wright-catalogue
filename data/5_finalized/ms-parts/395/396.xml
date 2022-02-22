@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -152,12 +153,12 @@
               <msItem xml:id="b12" n="13">
                 <locus from="50b"/>
                 <author ref="http://syriaca.org/person/573">John Chrysostom</author>
-                <title xml:lang="en">from the commentary of <persName>John
-                                        Chrysostom</persName> on the Gospel of <persName>S.
-                                        Matthew</persName>, hom. xxxi</title>
+                <title xml:lang="en">from the commentary of <persName ref="http://syriaca.org/person/573">John
+                                        Chrysostom</persName> on <ref target="https://syriaca.org/work/9646">the Gospel of <persName>S.
+                                        Matthew</persName></ref>, hom. xxxi</title>
                 <rubric xml:lang="syr">ܡܢ ܦܘܫܩܐ ܕܐܘܢܓܠܝܘܢ ܕܡܬܝ</rubric>
-                <note>See <bibl>Opera, ed. Par. 1837, t. vii., p. 407, penult line,
-                                        καὶ μετὰ τοῦτο κἀκεῖνο μάνθανε, κ.τ.λ</bibl>.</note>
+                <note>See <bibl>Opera, ed. Par. 1837, t. vii., p. 407, penult line</bibl>,
+                                        <foreign xml:lang="grc">καὶ μετὰ τοῦτο κἀκεῖνο μάνθανε, κ.τ.λ.</foreign></note>
               </msItem>
             </msItem>
           </msContents>
@@ -175,8 +176,7 @@
                                             <p>Vellum, about 7 1/8 in. by 5 3/8, consisting of 56
                                                 leaves. The quires, signed with letters, are six in
                                                 number; and there are from 19 to 24 lines in each
-                                                page. This manuscript is written in a good, regular
-                                                hand of the ixth or xth cent.</p>
+                                                page.</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -187,7 +187,7 @@
                         </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>This manuscript is written in a good, regular hand of the <origDate notBefore="0800" notAfter="1000">ixth or xth cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions>
@@ -195,9 +195,9 @@
               <list>
                 <item xml:id="addition1" n="1">
                   <locus from="56a"/>
-                  <p>On fol. 56 a is the following note in a good Arabic hand: </p>
+                  <p>On fol. 56 a is the following note in a good Arabic hand:</p>
                   <p>
-                    <quote xml:lang="syr">% (sic) %</quote>
+                    <quote xml:lang="ar"><choice><sic>نضر</sic><corr resp="http://syriaca.org/documentation/editors.xml#wwright">(نظر)</corr></choice><foreign xml:lang="en">(sic)</foreign></quote>
                   </p>
                 </item>
                 <item xml:id="addition2" n="2">
