@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 11668, foll. 40—43</title>
+        <title level="a" xml:lang="en">BL Add MS 14668, foll. 40—43</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -88,7 +89,7 @@
               </title>
               <rubric xml:lang="syr">ܫܪܒܐ ܕܥܠ ܦܟܘܡ</rubric>
             </msItem>
-            <msItem xml:id="a2" n="2">
+            <msItem xml:id="a2" n="2" defective="true">
               <locus from="10a"/>
               <title xml:lang="en">Other extracts from the Lives of the Egyptian
                 Fathers</title>
@@ -96,7 +97,7 @@
             <msItem xml:id="a3" n="3">
               <locus from="42a"/>
               <author ref="https://syriaca.org/person/548">Isaiah of Scete</author>
-              <title xml:lang="en">Fragments of the writings of Isaiah of Scete</title>
+              <title xml:lang="en">Fragments of the writings of <persName ref="https://syriaca.org/person/548">Isaiah of Scete</persName></title>
               <finalRubric xml:lang="syr">ܫܠܡ ܡܡܠܠܐ ܕܐܒܐ ܐܫܥܝܐ<locus from="43a"/>
               </finalRubric>
             </msItem>
@@ -114,8 +115,7 @@
                     <item>
                       <p>Four vellum leaves, about 9 7/8 in. by 6 7/8, all more or less soiled and
                         torn (Add. 14,668, foll. 40—43). Each page is divided into two columns, of
-                        from 27 to 32 lines. They are written in a good, regular hand; dated a. Gr.
-                        1177, a.d. 866</p>
+                        from 27 to 32 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -126,7 +126,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>They are written in a good, regular hand; dated A. Gr. <origDate datingMethod="Seleucid" when-custom="1177">1177</origDate>, A.D. <origDate calendar="Gregorian" when="0866">866</origDate>.</desc>
               </handNote>
             </handDesc>
             <additions>
@@ -134,10 +134,9 @@
                 <item xml:id="addition1" n="1">
                   <locus from="13b"/>
                   <p>On fol. 13 b there are notes, giving the date and other particulars regarding
-                    the volume, of which, however, the greater part is no longer clearly legible</p>
+                    the volume, of which, however, the greater part is no longer clearly legible.</p>
                   <p>
-                    <quote xml:lang="syr">ܐܫܬܠܡ ܕܝܢ ܟܬܒܐ ܗܢܐ ܕܐܒܐ ܐܫܥܝܐ ܐܝܚܝܕܝܐ ܒܫܢܬ ܐܠܦܐ ܘܡܐܐ ܘܫܒ̈ܥܝܢ ܘܫܒ̈ܥ ܕܐܠܟܣܢܕܪܘܣ
-                      ܒܪ ܦـ[ـܝܠܦܘܣ] ܒܝ̈ܘܡܝ ܡܪܝ ܝܘܚܢܢ ܦܛܪܝܪܟܝܣ ܕܟܘܪܣܝܐ ܫܠܝܚܝܐ ܕܐܢܛܝܘܟܝܐ. ܏ܘܫ.</quote>
+                    <quote xml:lang="syr">ܐܫܬܠܡ ܕܝܢ ܟܬܒܐ ܗܢܐ ܕܐܒܐ ܐܫܥܝܐ ܐܝܚܝܕܝܐ ܒܫܢܬ ܐܠܦܐ ܘܡܐܐ ܘܫܒ̈ܥܝܢ ܘܫܒ̈ܥ ܕܐܠܟܣܢܕܪܘܣ ܒܪ ܦـ[ـܝܠܦܘܣ] ܒܝ̈ܘܡܝ ܡܪܝ ܝܘܚܢܢ <note xml:lang="en"><persName>John III</persName>. See <bibl>Assemani, Bibl. Or., t. ii., p. 348</bibl>; <bibl>Le Quien, Or. Christ., t. ii., col. 1374</bibl>.</note> ܦܛܪܝܪܟܝܣ ܕܟܘܪܣܝܐ ܫܠܝܚܝܐ ܕܐܢܛܝܘܟܝܐ. ܏ܘܫ.</quote>
                   </p>
                 </item>
               </list>
@@ -152,7 +151,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate when="0866">866 A.D.</origDate>
+              <origDate calendar="Gregorian" when="0866">866 A.D.</origDate>
               <origDate datingMethod="Seleucid" when-custom="1177">A. Gr. 1177</origDate>
               <origPlace/>
             </origin>
@@ -343,6 +342,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-23">Edits to msContents, handDesc, and additions</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-03">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
     </revisionDesc>
