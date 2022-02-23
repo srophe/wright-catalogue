@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -84,40 +85,40 @@
             <msItem xml:id="a1" n="1">
               <locus to="36" from="32"/>
               <author ref="https://syriaca.org/person/780">Theodore of Mopsuestia</author>
-              <title xml:lang="en">Portions of the Commentary of Theodore of Mopsuestia on
+              <title xml:lang="en">Portions of the Commentary of <persName ref="https://syriaca.org/person/780">Theodore of Mopsuestia</persName> on
                 the twelve minor Prophets </title>
-              <note>see the original Greek in<bibl> Mai, Scriptorum Veterum Nova Collectio, t.
-                  vi.,</bibl> or <bibl>Migne, Patrol. Gr., t. lxvi., col. 124</bibl>
+              <note>See the original Greek in <bibl>Mai, Scriptorum Veterum Nova Collectio, t.
+                  vi.</bibl>, or <bibl>Migne, Patrol. Gr., t. lxvi., col. 124</bibl>.
               </note>
               <msItem xml:id="b1" n="2">
                 <locus from="32"/>
                 <author ref="https://syriaca.org/person/780">Theodore of Mopsuestia</author>
-                <title xml:lang="en">[Commentary on] Hosea, ch. viii. 7—12</title>
+                <title xml:lang="en">Commentary on <ref target="https://syriaca.org/work/9618">Hosea, ch. viii. 7—12</ref></title>
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus from="33"/>
                 <author ref="https://syriaca.org/person/780">Theodore of Mopsuestia</author>
-                <title xml:lang="en">[Commentary on] Joel, ch. i. 19—ii. 2</title>
+                <title xml:lang="en">Commentary on <ref target="https://syriaca.org/work/9546">Joel, ch. i. 19—ii. 2</ref></title>
               </msItem>
               <msItem xml:id="b3" n="4">
                 <locus from="34"/>
                 <author ref="https://syriaca.org/person/780">Theodore of Mopsuestia</author>
-                <title xml:lang="en">[Commentary on] Joel, ch. ii. 20—26</title>
+                <title xml:lang="en">Commentary on <ref target="https://syriaca.org/work/9546">Joel, ch. ii. 20—26</ref></title>
               </msItem>
               <msItem xml:id="b4" n="5">
                 <locus from="35"/>
                 <author ref="https://syriaca.org/person/780">Theodore of Mopsuestia</author>
-                <title xml:lang="en">[Commentary on] Amos: part of the introduction</title>
+                <title xml:lang="en">Commentary on <ref target="https://syriaca.org/work/9547">Amos</ref>: part of the introduction</title>
               </msItem>
               <msItem xml:id="b5" n="6">
                 <locus from="36"/>
                 <author ref="https://syriaca.org/person/780">Theodore of Mopsuestia</author>
-                <title xml:lang="en">[Commentary on] Amos: ch. ii. 3—5</title>
-                <note>These fragments have been edited by Dr. Sachau, with the corresponding Greek
-                  text, in <bibl>"Theodori Mopsuesteni Fragmenta Syriaca," Leipzig,
-                  1869.</bibl>
-                </note>
+                <title xml:lang="en">Commentary on <ref target="https://syriaca.org/work/9547">Amos, ch. ii. 3—5</ref></title>                
               </msItem>
+              <note>These fragments have been edited by Dr. <persName>Sachau</persName>, with the corresponding Greek
+                  text, in <bibl>"Theodori Mopsuesteni Fragmenta Syriaca," Leipzig,
+                  1869</bibl>.
+                </note>
             </msItem>
           </msContents>
           <physDesc>
@@ -131,10 +132,9 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Five vellum leaves, about 10 1/4 in. by 6 ½, the second and third of which
+                      <p>Five vellum leaves, about 10 1/4 in. by 6 1/2, the second and third of which
                         are much torn (Add. 14,668, foll. 32—36.). Each page is divided into two
-                        columns, of from 27 to 29 lines. The writing is a line, regular Estrangělā,
-                        of the vith cent.</p>
+                        columns, of from 27 to 29 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -145,7 +145,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>The writing is a fine, regular Estrangělā, of the <origDate from="0500" to="0600">vith cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -350,6 +350,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-23">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-06">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
     </revisionDesc>

@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14636, foll. 77—82.</title>
+        <title level="a" xml:lang="en">BL Add MS 14636, foll. 77—82</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#zzhang">Ziyan Zhang</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#zzhang">Ziyan Zhang</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -109,10 +110,7 @@
                 <locus from="79b"/>
                 <title xml:lang="en">Funeral discourse</title>
                 <rubric xml:lang="syr">ܒܘܝܝܐ ܕܥܠ ܟܠܢܫ</rubric>
-                <incipit xml:lang="syr">ܐܠܗܐ ܗ̇ܘ ܕܐܝܬܘܗܝ ܘܐܝܟ ܕܒܫܪܪܐ ܐܝܬܘܗܝ ܡܢ ܩܕܡ ܥ̈ܠܡܐ: ܟܕ ܐܝܟ ܛܒܐ
-                  ܒܠܚܘܕܘܗܝ ܘܚܟܝܡܐ ܘܓܢ̱ܒܪܐ ܕܥ̈ܠܡܐ: ܐܝܬܝ ܠܟܠܗܘܢ ܥ̈ܠܡܐ ܡܢ ܗ̇ܝ ܕܠܐ ܐܝܬܝܗܘܢ̣ ܠܗ̇ܝ ܕܢܗܘܢ
-                  (sic) ܐܝܬܝܗܘܢ: ܠܘܩܕܡ ܡ̇ـ̣ܢ ܠܥܠܡܐ ܗ̇ܘ ܡܬܝܕܥܢܐ ܐܬܩܢ ܗܘܐ ܘܐܩܝܡ̇. ܕܚܝ̈ܠܘܬܐ ܡܬܗ̈ܘܢܢܐ
-                  ܘܐܘܣܝܣ ܗܢ̈ܝܢ ܕܠܐ ܓܫܘܡ. ܏ܘܫ.</incipit>
+                <incipit xml:lang="syr">ܐܠܗܐ ܗ̇ܘ ܕܐܝܬܘܗܝ ܘܐܝܟ ܕܒܫܪܪܐ ܐܝܬܘܗܝ ܡܢ ܩܕܡ ܥ̈ܠܡܐ: ܟܕ ܐܝܟ ܛܒܐ ܒܠܚܘܕܘܗܝ ܘܚܟܝܡܐ ܘܓܢ̱ܒܪܐ ܕܥ̈ܠܡܐ: ܐܝܬܝ ܠܟܠܗܘܢ ܥ̈ܠܡܐ ܡܢ ܗ̇ܝ ܕܠܐ ܐܝܬܝܗܘܢ̣ ܠܗ̇ܝ ܕܢܗܘܢ <foreign xml:lang="en">(sic)</foreign> ܐܝܬܝܗܘܢ: ܠܘܩܕܡ ܡ̇ـ̣ܢ ܠܥܠܡܐ ܗ̇ܘ ܡܬܝܕܥܢܐ ܐܬܩܢ ܗܘܐ ܘܐܩܝܡ̇. ܕܚܝ̈ܠܘܬܐ ܡܬܗ̈ܘܢܢܐ ܘܐܘܣܝܣ ܗܢ̈ܝܢ ܕܠܐ ܓܫܘܡ. ܏ܘܫ.</incipit>
               </msItem>
             </msItem>
           </msContents>
@@ -128,7 +126,7 @@
                   <list>
                     <item>
                       <p>Six vellum leaves, about 7 in. by 5 1/4, with from 18 to 27 lines in each
-                        page (Add. 14,636, foll. 77—82). </p>
+                        page (Add. 14,636, foll. 77—82).</p>
                     </item>
                   </list>
                 </condition>
@@ -139,7 +137,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>They are written in a good, regular hand of the xth cent.</desc>
+                <desc>They are written in a good, regular hand of the <origDate notBefore="0900" notAfter="1000">xth cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -153,7 +151,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0900" notAfter="1000">the xth
+              <origDate notBefore="0900" notAfter="1000">xth
                 cent.</origDate>
               <origPlace/>
             </origin>
@@ -344,6 +342,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-23">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-02-14">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#zzhang">Initial TEI encoding.</change>
     </revisionDesc>
