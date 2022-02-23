@@ -4,14 +4,14 @@
     <fileOrConsole>file</fileOrConsole>
     <outputFileDirectory>/data/5_finalized/</outputFileDirectory><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
     <manuscriptLevelMetadata>
-        <pathToMsPartsFolder>/data/5_finalized/ms-parts/623/</pathToMsPartsFolder><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
-        <recordTitle>BL Add MS 14728</recordTitle>
-        <uriValue>623</uriValue>
+        <pathToMsPartsFolder>/data/5_finalized/ms-parts/956/</pathToMsPartsFolder><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
+        <recordTitle>BL Add MS 17218</recordTitle>
+        <uriValue>956</uriValue>
         <country>United Kingdom</country>
         <settlement>London</settlement>
         <repository>British Library</repository>
         <collection>Oriental Manuscripts</collection>
-        <shelfMark>Add MS 14728</shelfMark>
+        <shelfMark>Add MS 17218</shelfMark>
         <revisionDesc>
             <scriptEditor>
                 <editorId>srophe-util</editorId>
@@ -31,12 +31,31 @@
         <fileName>#Part3</fileName>
        The resulting record will have the 4 parts, each renumbered as needed according to the above sequence order.
         -->
-    <compositeMsFile></compositeMsFile>
+    <compositeMsFile>956.xml</compositeMsFile>
     <msPartFiles><!-- these should be xml file names containing the data to be converted to msParts. These files should be stored in the folder declared above in the pathToMsPartsFolder text node. They should be ordered according to the sequence they should appear in the msParts sequence (i.e., the first ms part should be the first fileName element in the below sequence, even if it is not the numerically smallest URI value.-->
-        <fileName>624.xml</fileName>
-        <fileName>625.xml</fileName>
-        <fileName>626.xml</fileName>
-        <fileName>627.xml</fileName>
-        <fileName>628.xml</fileName>
+        <fileName>957.xml</fileName>
+        <fileName>958.xml</fileName>
+        <fileName>959.xml</fileName>
+        <fileName>#Part4</fileName>
+        <fileName>960.xml</fileName>
+        <fileName>961.xml</fileName>
+        <fileName>962.xml</fileName>
+        <fileName>963.xml</fileName>
+        <fileName>964.xml</fileName>
+        <fileName>965.xml</fileName>
+        <fileName>966.xml</fileName>
+        <fileName>967.xml</fileName>
+        <fileName>968.xml</fileName>
+        <fileName>969.xml</fileName>
+        <fileName>970.xml</fileName>
+        <fileName>971.xml</fileName>
+        <fileName>972.xml</fileName>
+        <fileName>973.xml</fileName>
+        <fileName>974.xml</fileName>
+        <fileName>975.xml</fileName>
+        <fileName>976.xml</fileName>
+        <fileName>#Part21</fileName>    
+        <fileName>978.xml</fileName>
+        <fileName>979.xml</fileName>
     </msPartFiles>
 </config>
