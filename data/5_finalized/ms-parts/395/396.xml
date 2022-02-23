@@ -197,13 +197,13 @@
                   <locus from="56a"/>
                   <p>On fol. 56 a is the following note in a good Arabic hand:</p>
                   <p>
-                    <quote xml:lang="ar"><choice><sic>نضر</sic><corr resp="http://syriaca.org/documentation/editors.xml#wwright">(نظر)</corr></choice><foreign xml:lang="en">(sic)</foreign></quote>
+                    <quote xml:lang="ar"><choice><sic>نضر</sic><corr resp="http://syriaca.org/documentation/editors.xml#wwright">(نظر)</corr></choice> في هذا الكتاب واحد خاطي وكتب منه شيءِ <foreign xml:lang="en">(sic)</foreign> قليل عن الاخبار الاوله</quote>
                   </p>
                 </item>
                 <item xml:id="addition2" n="2">
                   <locus from="56b"/>
                   <p>On fol. 56 b is an older Syriac note, stating that the book
-                                        once belonged to a priest named Yāyē: </p>
+                                        once belonged to a priest named <persName>Yāyē</persName>: </p>
                   <p>
                                         <quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܝܐܝܐ ܩܫܝܫܐ ܕܝܪܝܐ
                                             ܐܟܣܢܝܐ ܟܠ ܕܩܪܐ ܨܠܐ.</quote>
@@ -411,10 +411,10 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-23">Edits to condition, handDesc, and additions</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
-      <change type="planned" subtype="arabic">Add missing Arabic text.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
