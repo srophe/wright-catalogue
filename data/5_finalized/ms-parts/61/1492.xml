@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 12172, foll. 12-24</title>
+        <title level="a" xml:lang="en">BL Add MS 12172, foll. 28, 31, lower text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -14,11 +14,10 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
-        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Based on the work of</resp>
@@ -50,7 +49,7 @@
     </editionStmt>
       <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/63/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1492/tei</idno>
         <availability>
             <p/>
             <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -60,64 +59,33 @@
         <date calendar="Gregorian">2022-01-03-05:00</date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-63">
+        <msDesc xml:id="manuscript-1492">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/63</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1492</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 12172, foll. 12-24</idno>
+              <idno type="BL-Shelfmark">Add MS 12172, foll. 28, 31, lower text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Arabic">953</idno>
+              <idno type="Wright-BL-Arabic">954</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Roman">DCCCCLIII</idno>
+              <idno type="Wright-BL-Roman">DCCCCLIV</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <summary/>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1">
-              <locus from="13a"/>
-              <title xml:lang="en" type="supplied">The martyrdom of <persName ref="https://syriaca.org/person/2008">S. Peter</persName>
-              </title>
-              <rubric xml:lang="syr">ܣܗܕܘܬܗ ܕܩܕܝܫܐ ܦܛܪܘܣ ܪܝܫܐ ܕܫ̈ܠܝܚܐ </rubric>
-              <incipit xml:lang="syr">ܦܛܪܘܣ ܕܝܢ ܚ̈ܒܝܒܝ̣. ܐܝܬܘܗܝ ܗܘܐ ܒܪܗܘܡܐ ܡܕܝܢܬܐ. ܘܚ̇ܕܐ ܘܪܐ̇ܘܙ ܗܘܐ̣
-                ܥܡ ܐܚ̈ܐ ܒܡܪܝܐ. ܏ܘܫ.</incipit>
-              <note>Date of the martyrdom: <quote xml:lang="syr">ܐܨܛܠܒ ܕܝܢ ܗ̣ܘ ܩܕܝܫܐ ܦܛܪܘܣ ܬܠܡܝܕܗ ܘܫܠܝܚܗ ܫܪܝܪܐ ܕܡܫܝܚܐ ܒܪܗܘܡܐ
-                ܪܒܬܐ. ܘܒܗ̇ ܐܫܬܟܠܠ ܘܐܫܬܡܠܝ̣. ܒܚܡܫܐ ܒܗ̇ܘ ܝܪܚܐ ܕܡ̈ܨܪܝܐ ܐܒܝܒ. ܒܗ̇ ܒܠܩܢܝ ܩܕܡܝܬܐ. ܒܚܘܫܒܢܐ
-                ܕܝܢ ܕܝܪ̈ܚܐ ܕܪ̈ܗܘܡܝܐ ܩܕܡ ܬܠ̈ܬܐ ܐܢ ܩܠܢܕܘܢܝܘܢ ܝܘܠܝܘܢ. ܡܬܟܝܢ ܬܘܒ ܒܝܪܚܐ ܕ܏ܣ̈ܘܪ ܒܥܣܪܝܢ
-                ܘܬܫܥܐ ܒܚܙܝܪܢ ܒܡܠܟܘܬܗ ܕܢܐܪܘܢ ܚܢܦܐ. ܏ܘܫ.<locus from="17a"/>
-              </quote></note>
-            </msItem>
-            <msItem xml:id="a2" n="2">
-              <locus from="17a"/>
-              <title xml:lang="en">The martyrdom of <persName ref="https://syriaca.org/person/1983">S. Paul</persName>
-              </title>
-              <rubric xml:lang="syr">ܣܗܕܘܬܐ ܕܫܠܝܚܗ ܘܓܒܝܐ ܕܡܫܝܚܐ ܦܘܠܘܣ</rubric>
-              <incipit xml:lang="syr">ܚ̈ܒܝܒܝ̣ ܥܡܪܝܢ ܗܘܘ ܕܝܢ ܒܗ̇ ܒܪܗܘܡܐ ܠܘܩܐ ܕܡܢ ܒܝܘܕܝܐ. ܘܛܝܛܘܣ ܕܡܢ
-                ܘܛܠܡܕܝܐ. ܏ܘܫ.</incipit>
-              <note>The date is given thus: <quote xml:lang="syr">ܐܬܦܣܩ ܕܝܢ ܪܝܫܗ ܕܩܕܝܫܐ ܦܘܠܘܣ ܫܠܝܚܐ ܛܘܒܢܐ ܡܛܠ ܫܡܗ ܕܡܪܢ ܝܫܘܥ ܡܫܝܚܐ
-                ܐܠܗܢ ܫܪܝܪܐ ܒܪܗܘܡܐ ܪܒܬܐ. ܡܢ ܩܕܡ ܬܠܬܐ ܒܩܐܠܢܪܘܢ ܝܘܠܝܘܢ̣. ܒܕܪ̈ܗܘܡܝܐ. ܡܬܟܝܢ ܕܝܢ ܒܝܪܚܐ
-                ܕܓ̈ܒܛܝܐ ܒܚܡܫܐ ܒܐܒܝܒ. ܒܥܣܪܝܢ ܘܬܫܥܐ ܕܝܢ ܒܚܙܝܪܢ ܒܝܪܚܐ ܕܣ̈ܘܪܝܝܐ ܒܗ ܒܝܘܡܐ ܘܒܝܪܚܐ ܗ̇ܘ
-                ܕܐܫܬܡܠܝ ܒܗ ܗ̣ܘ ܩܕܝܫܐ ܦܛܪܘܣ ܪܝܫܐ ܕܫ̈ܠܝܚܐ ܡܢ ܒܬܪ ܡܦܩܬܗ ܡܢ ܥܠܡܐ ܒܬܠܬ ܫ̈ܢܝܢ: ܏ܘܫ.<locus from="21b"/>
-              </quote></note>
-            </msItem>
-            <msItem xml:id="a3" n="3">
-              <locus from="21b"/>
-              <title xml:lang="en">The martyrdom of <persName ref="https://syriaca.org/person/1855">S. Luke</persName>
-              </title>
-              <rubric xml:lang="syr">ܣܗܕܘܬܐ ܕܩܕܝܫܐ ܠܘܩܐ ܐܘܢܓܠܝܣܛܐ</rubric>
-              <incipit xml:lang="syr">ܚ̈ܒܝܒܝ̇ ܒܗ̇ܘ ܕܝܢ ܙܒܢܐ ܟܕ ܐܬܟ݁ܢܫܘ ܫ̈ܠܝܚܐ ܩ̈ܕܝܫܐ̣ ܘܦܠܓܘ ܟܠܗܘܢ
-                ܐܬܪ̈ܘܬܐ ܥܠܝܗܘܢ. ܘܟܕ ܫܕܘܗܝ ܠܦ̇ܣܐ ܣܠ̣ܩܬ ܠܦܛܪܘܣ ܕܢܐܙܠ ܠܪܗܘܡܐ ܪܒܬܐ. ܐܡܝܢܝܢ ܗܘܘ ܠܗ ܬܪܝܢ
-                ܡ̈ܥܕܪܢܐ ܡܢ ܬܠ̈ܡܝܕܐ ܒܡܕܝܢܬܐ. ܛܝܛܘܣ ܘܠܘܩܐ. ܏ܘܫ.</incipit>
-              <note>The date is as follows: <quote xml:lang="syr">ܐܫܬܡܠܝܬ ܕܝܢ ܣܗܕܘܬܗ ܕܩܕܝܫܐ ܠܘܩܐ ܐܘܢܓܠܝܣܛܐ ܘܫܠܝܚܐ ܕܡܫܝܚܐ ܝܫܘܥ ܡܪܢ. ܩܕܡ ܩܠܢܕܘܢ ܕܩܕܒܪܝܘܣ <foreign xml:lang="en">(sic)</foreign> ܐܪܒܥܣܪ ܒܝܪܚܐ ܕܪ̈ܗܘܡܝܐ. ܒܝܪܚܐ ܕܝܢ ܕܡ̈ܨܪܝܐ ܒܥܣܪܝܢ ܘܬܪܝܢ ܒܒܐܘܒܝ. ܡܬܟܝܢ ܬܘܒ ܒܝܪܚܐ ܕܣ̈ܘܪܝܝܐ ܒܬܫܬܥܣܪ ܒܬܫܪܝܢ ܩܕܝܡ. ܒܡܠܟܘܬܗ ܕܢܐܪܘܢ. ܏ܘܫ.<locus from="24b"/>
-              </quote>.</note>
+            <msItem xml:id="a1" n="1" defective="true">
+              <locus from="28a"/>
+              <locus from="31a"/>
+              <title xml:lang="en">Unspecified contents</title>
+              <note>Scarcely a word can be completely deciphered.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -131,9 +99,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p> Vellum, about 9 3/8 in. by 6 1/8, consisting of 13 leaves (Add. 12,172,
-                        foll. 12—24), all more or less stained and soiled. Each page is divided into
-                        two columns, of from 27 to 34 lines.</p>
+                      <p>Vellum, about 9 3/8 in. by 6 1/8. These leaves are palimpsest and now part of <bibl>Add. 12,172, foll. 25-54<ptr target="http://syriaca.org/manuscript/64"/></bibl>.</p>
                     </item>
                   </list>
                 </condition>
@@ -143,30 +109,19 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="2">
-              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr">
-                <desc>This manuscript is written in a good,
-                        regular hand of about the <origDate notBefore="0900" notAfter="1000">xth cent.</origDate></desc>
-              </handNote>
-              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
-                <desc>See additions.</desc>
+              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr-Syre">
+                <desc>The older writing is an Estrangela of the
+                <origDate notBefore="0600" notAfter="0700">viith cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions>
+              <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="12a"/>
-                  <p>On fol. 12 a there is a note stating that the manuscript belonged to the
-                      <placeName ref="https://syriaca.org/place/360">convent of S. Mary Deipara</placeName>
-                  </p>
+                  <locus/>
+                  <p/>
                 </item>
-                <item xml:id="addition2" n="2">
-                  <locus from="12a"/>
-                  <p>On the same page a more modern hand has written the Armenian alphabet with a
-                    Syriac transcription (<quote xml:lang="syr">ܐܝܦ</quote>, <quote xml:lang="syr">ܝܻܢ�<!--JA: Syriac transcription of Armenian "ben" missing character--></quote>, <quote xml:lang="syr">ܟܚܻܝܡ</quote>, 
-                    <quote xml:lang="syr">ܬܰܐ</quote>, <quote xml:lang="syr">ܝܻܬܫ</quote>, <quote xml:lang="syr">ܙܰܐ</quote>, 
-                    <quote xml:lang="syr">��<!--JA: Wright's Syriac transcription of Armenian "ē" is side by side; need appropriate characters--></quote>, <quote xml:lang="syr">ܝܬ<!--JA: The vowel for Wright's Syriac transcription of Armenian "ët'" could not be encoded correctly. --></quote>, <quote xml:lang="syr">ܬܱܘ<!--JA: The vowel for Wright's Syriac transcription of Armenian "t'ò" could not be encoded correctly.--></quote>, etc.).<note type="incomplete" resp="http://syriaca.org" xml:lang="en">The original description of this manuscript by William Wright includes characters, symbols, or illustrations which cannot be represented. Please consult the attached image.</note></p>
-                </item>
-              </list>
+                </list>
             </additions>
             <bindingDesc>
               <p>Content pending</p>
@@ -178,7 +133,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0900" notAfter="1000">Xth
+              <origDate notBefore="0600" notAfter="0700">VIIth
                 Century</origDate>
               <origPlace/>
             </origin>
@@ -203,8 +158,8 @@
                 <pubPlace>London</pubPlace>
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
-                <citedRange unit="entry">DCCCCLIII</citedRange>
-                <citedRange unit="pp">3:1116-1117</citedRange>
+                <citedRange unit="entry">DCCCCLIV</citedRange>
+                <citedRange unit="pp">3:1118</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -369,10 +324,9 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-14">Edits to msContents, handDesc, and additions.</change>
+    <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-15">Initial TEI encoding.</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-03">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
-      <change type="planned" subtype="missing">Add in missing Syriac transcription of Armenian alphabet.</change>
+      <change type="planned" subtype="consultation">Wright's description is so incomplete that the physical manuscript needs to be consulted and redescribed.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

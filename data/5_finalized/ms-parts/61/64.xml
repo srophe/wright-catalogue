@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 12172, foll. 25—54</title>
+        <title level="a" xml:lang="en">BL Add MS 12172, foll. 25—54, upper text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/64</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 12172, foll. 25-54</idno>
+              <idno type="BL-Shelfmark">Add MS 12172, foll. 25-54, upper text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -88,7 +89,7 @@
               </title>
               <rubric xml:lang="syr">ܬܫܥܝܬܐ ܕܥܠ ܩܕܝܫܬܐ ܐܘܦܪܘܣܘܢܝ. ܗ̇ܝ ܕܡܢ ܐܠܟܣܢܕܪܝܐ ܕܐܬܥܢ̣ܘܝܬ݀
                 ܡܛܫܝܐܝܬ ܒܥܘܡܪܐ ܕܓܒܪ̈ܐ.</rubric>
-              <note>See the <bibl>Acta Sanctt., Febr., t. ii., pp. 537</bibl>, </note>
+              <note>See the <bibl>Acta Sanctt., Febr., t. ii., pp. 537, seqq</bibl>.</note>
             </msItem>
             <msItem xml:id="a2" n="2">
               <locus from="32b"/>
@@ -96,14 +97,14 @@
               <rubric xml:lang="syr">ܬܫܥܝܬܐ ܕܥܠ ܒܬܘܠܬܐ ܐܚܪܬܐ ܡܝܬܪܬܐ ܐܠܟܣܢܕܪܝܬܐ</rubric>
               <finalRubric xml:lang="syr">ܛܘܒܢܝܬܐ ܒܬܘܠܬܐ ܦܝܠܝܦܘ<locus/>
               </finalRubric>
-              <note>See <bibl>Add. 14,649, fol. 103 b.</bibl>
+              <note>See <bibl>Add. 14,649, fol. 103 b</bibl>.
               </note>
-              <note>In the subscription she is named Philippa</note>
+              <note>In the subscription she is named <persName>Philippa</persName></note>
             </msItem>
             <msItem xml:id="a3" n="3">
               <locus from="35b"/>
-              <title xml:lang="en">The history of Maria (who entered a convent of monks under
-                the name of <persName>Marinus</persName>)</title>
+              <title xml:lang="en">The history of <persName>Maria</persName>, who entered a convent of monks under
+                the name of <persName>Marinus</persName>, <quote xml:lang="syr">ܡܐܪܝܢܐ</quote></title>
               <rubric xml:lang="syr">ܬܫܥܝܬܐ ܕܥܠ ܩܕܝܫܬܐ ܘܢܨܝܚܬܐ ܡܐܪܝܐ</rubric>
               <note>See<bibl> Rosweyde, Vitae Patrum, lib. i., p. 393.</bibl>
               </note>
@@ -111,9 +112,9 @@
             <msItem xml:id="a4" n="4">
               <locus from="38a"/>
               <title xml:lang="en">The history of <persName ref="https://syriaca.org/person/1268">Hilaria</persName>, the daughter
-                of the emperor Zeno</title>
+                of the emperor <persName>Zeno</persName></title>
               <rubric xml:lang="syr">ܬܫܥܝܬܐ ܕܥܠ ܩܕܝܫܬܐ ܐܠܐܪܝܐ ܒܪܬܗ ܕܙܝܢܘܢ ܡ̇ܠܟܐ</rubric>
-              <finalRubric xml:lang="syr">ܕܫܢ̣ܝܬ݀ ܡܢ ܒܝܬ ܐܒܗ̈ܝܗ̇. ܡܛܫܝܐܝܬ݀ ܘܐܬܥܢ̣ܘܝܬ݀ ܒܡ̇ܕܒܪܐ ܗ̇ܘ
+              <finalRubric xml:lang="syr"><note xml:lang="en">In the subscription is added:</note> ܕܫܢ̣ܝܬ݀ ܡܢ ܒܝܬ ܐܒܗ̈ܝܗ̇. ܡܛܫܝܐܝܬ݀ ܘܐܬܥܢ̣ܘܝܬ݀ ܒܡ̇ܕܒܪܐ ܗ̇ܘ
                   ܕܡܨܪܝܢ.<locus/>
               </finalRubric>
             </msItem>
@@ -124,7 +125,7 @@
               </title>
               <rubric xml:lang="syr">ܬܫܥܝܬܐ ܕܥܠ ܩܕܝܫܐ ܐܢܕܪܘܢܝܩܘܣ ܘܐܬܢܣܝܐ ܐܢܬܬܐ ܕܝܠܗ. ܘܥܠ ܫܘܠܡܐ
                 ܛܘܒܬܢܐ ܕܗ̣ܘܐ ܠܗܘܢ ܡܢ ܥܠܡܐ ܗܢܐ.</rubric>
-              <note>See the<bibl> Acta Sanctt., Octob., t. iv., p. 998.</bibl>
+              <note>See the<bibl> Acta Sanctt., Octob., t. iv., p. 998</bibl>.
               </note>
             </msItem>
           </msContents>
@@ -141,8 +142,7 @@
                     <item>
                       <p>Vellum, about 9 3/8 in. by 6 1/8, consisting of 30 leaves (Add. 12,172,
                         foll. 25—54), some of which are much stained and soiled. Each page is
-                        divided into two columns, of from 27 to 31 lines. The character is a good,
-                        regular cursive of about the xth cent</p>
+                        divided into two columns, of from 27 to 31 lines. <bibl>Add. 12,172, foll. 28 and 31<ptr target="http://syriaca.org/manuscript/1492"/></bibl> are Syriac palimpsest.</p>
                     </item>
                   </list>
                 </condition>
@@ -151,22 +151,25 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="2">
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr">
+                <desc>The character is a good,
+                        regular cursive of about the <origDate notBefore="0900" notAfter="1000">xth cent.</origDate></desc>
+              </handNote>
+              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
             <additions>
-              <p>Foll. 28 and 31 are Syriac palimpsest. The older writing is an Estrangela of the
-                viith cent., but scarcely a word can be completely deciphered.</p>
+              <p/>
               <list>
                 <item xml:id="addition1" n="1">
                   <locus from="53b"/>
                   <p>On fol. 53 b there is a note, some portions of which have been altered at a
-                    later period, stating that "this book of <persName>Abba Isaiah</persName>" was
-                    purchased by the<persName> deacon David bar Aaron of Melitene</persName>,
-                    Consequently the manuscript must have been long bound with nos. DLXXX. and
-                    DCCCCLIII.</p>
+                    later period, stating that "<quote xml:lang="en">this book of <persName>Abba Isaiah</persName></quote>" was
+                    purchased by the deacon <persName>David bar Aaron of Melitene</persName>,
+                    Consequently the manuscript must have been long bound with nos. <bibl>DLXXX<ptr target="http://syriaca.org/manuscript/62"/></bibl>. and
+                    <bibl>DCCCCLIII<ptr target="http://syriaca.org/manuscript/63"/></bibl>.</p>
                   <p>
                     <quote xml:lang="syr">ܙܒܢ ܟܬܒܐ ܗܢܐ ܕܐܒܐ ܐܫܥܝܐ ܕܘܝܕ ܡܫܡܫܢܐ ܒܪ ܐܗܪܘܢ ܡܠܝܛܢܝܐ ܡܢ ܥܡܠܐ ܕܐܝ̈ܕܘܗܝ. [ܘܫܟܢܗ
                       ܠܗܢܐ ܠܕܝܪܐ ܏ܩܕ ܕܒܝܬ ܝܠܕܬ ܐܠܗܐ ܕܣܘܪ̈ܝܝܐ ܕܡܕܒܪܐ ܕܐܣܩܛܝ]. ܐܠܐ ܟܠ ܕܫܐܠ ܠܗ ܕܢܩܪܐ
@@ -174,8 +177,9 @@
                   </p>
                 </item>
                 <item xml:id="addition2" n="2">
-                  <p>On the margin of the same page two persons, called John and David, have
-                    recorded their names</p>
+                  <locus from="53b"/>
+                  <p>On the margin of the same page two persons, called <persName>John</persName> and <persName>David</persName>, have
+                    recorded their names:</p>
                   <p>
                     <quote xml:lang="syr">ܝܘܚܢܢ ܒܪ ܦܘܠܓ (?) ܘܕܘܝܕ ܚܛܝܐ ܘܕܘܝܐ ܘܐܟܣܢܝܐ ܘܣܢܩܠܐ</quote>
                   </p>
@@ -383,10 +387,9 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-15">Edits to msContents, condition, and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-03">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
-      <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
-        encoding.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
