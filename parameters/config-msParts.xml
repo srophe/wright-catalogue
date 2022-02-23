@@ -4,14 +4,14 @@
     <fileOrConsole>file</fileOrConsole>
     <outputFileDirectory>/data/5_finalized/</outputFileDirectory><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
     <manuscriptLevelMetadata>
-        <pathToMsPartsFolder>/data/5_finalized/ms-parts/853/</pathToMsPartsFolder><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
-        <recordTitle>BL Add MS 17197</recordTitle>
-        <uriValue>853</uriValue>
+        <pathToMsPartsFolder>/data/5_finalized/ms-parts/874/</pathToMsPartsFolder><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
+        <recordTitle>BL Add MS 17213</recordTitle>
+        <uriValue>874</uriValue>
         <country>United Kingdom</country>
         <settlement>London</settlement>
         <repository>British Library</repository>
         <collection>Oriental Manuscripts</collection>
-        <shelfMark>Add MS 17197</shelfMark>
+        <shelfMark>Add MS 17213</shelfMark>
         <revisionDesc>
             <scriptEditor>
                 <editorId>srophe-util</editorId>
@@ -31,9 +31,26 @@
         <fileName>#Part3</fileName>
        The resulting record will have the 4 parts, each renumbered as needed according to the above sequence order.
         -->
-    <compositeMsFile>853.xml</compositeMsFile>
+    <compositeMsFile>874.xml</compositeMsFile>
     <msPartFiles><!-- these should be xml file names containing the data to be converted to msParts. These files should be stored in the folder declared above in the pathToMsPartsFolder text node. They should be ordered according to the sequence they should appear in the msParts sequence (i.e., the first ms part should be the first fileName element in the below sequence, even if it is not the numerically smallest URI value.-->
-        <fileName>854.xml</fileName>
+        <fileName>#Part1</fileName>
         <fileName>#Part2</fileName>
+        <fileName>#Part3</fileName>
+        <fileName>878.xml</fileName>
+        <fileName>879.xml</fileName>
+        <fileName>880.xml</fileName>
+        <fileName>881.xml</fileName>
+        <fileName>882.xml</fileName>
+        <fileName>883.xml</fileName>
+        <fileName>884.xml</fileName>
+        <fileName>885.xml</fileName>
+        <fileName>886.xml</fileName>
+        <fileName>#Part13</fileName>
+        <fileName>888.xml</fileName>
+        <fileName>#Part15</fileName>
+        <fileName>890.xml</fileName>
+        <fileName>#Part17</fileName>
+        <fileName>892.xml</fileName>
+        <fileName>893.xml</fileName>
     </msPartFiles>
 </config>
