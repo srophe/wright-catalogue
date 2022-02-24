@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,24 +83,23 @@
             <summary/>
             <textLang mainLang="syr-Syre"/>
             <msItem xml:id="a1" n="1">
+              <locus from="1a" to="18"/>
               <author ref="https://syriaca.org/person/780">Theodore of Mopsuestia</author>
-              <title xml:lang="en">Fragments of the treatise of Theodore of Mopsuestia on the
-                Incarnation of our Lord, divided into 15 books</title>
-              <rubric xml:lang="grc">Περὶ ἐνανθρωπήσεως τοῦ ὑιοῦ τοῦ θεοῦ λόγοι ιέ</rubric>
-              <rubric xml:lang="syr-Syre">ܡܛܠ ܦܓܪܢܘܬܗ ܕܒܪܐ ܕܐܠܗܐ.</rubric>
+              <title xml:lang="en">Fragments of the treatise of <persName ref="https://syriaca.org/person/780">Theodore of Mopsuestia</persName> on the
+                Incarnation of our Lord, divided into 15 books<note>The Greek title seems to have been <title xml:lang="grc" type="supplied">Περὶ ἐνανθρωπήσεως τοῦ ὑιοῦ τοῦ Θεοῦ λόγοι ιεʹ</title>; that of the Syriac translation was, perhaps, <title xml:lang="syr" type="supplied">ܡܛܠ ܦܓܪܢܘܬܗ ܕܒܪܐ ܕܐܠܗܐ</title>.</note></title>
               <note>See <bibl>O. F. Fritzsche, de Theodori Mopsuesteni vita et scriptis commentatio
-                  (Halae, 1836), p. 88</bibl>; <bibl>Migne, Patrol. Gr., t. lxvi., col. 55</bibl> ;
+                  (Halae, 1836), p. 88</bibl>; <bibl>Migne, Patrol. Gr., t. lxvi., col. 55</bibl>;
                   <bibl>Assemani, Bibl. Or., t. iii., pars 1., p. 33</bibl>; <bibl>Cave, Hist.
                   Liter., t. i., p. 387</bibl>.</note>
               <note>Whether the leaves, as now arranged, are in correct sequence, is very uncertain.
-                The 43d section, ܡܓ, begins on fol. 4 b; and the 6th discourse ends on fol. 6 b,
-                with the subscription $ܫܠܡ ܡܐܡܪܐ ܕܐܫܬܐ. The 50th section, ܢܢ, commences on fol. 7 b.
-                On fol. 10 b we find the conclusion of the 8th discourse and the commencement of the
-                9th, comprising sections ܣܓ, ܣܕ, and ܣܗ, which have been subsequently altered into
-                ܣܕ, ܣܗ, and ܣܘ. The 10th discourse ends, and the 11th begins, on fol. 11 b. On fol.
-                12 b there is also the running title ܡܐܡܪܐ ܕܚܕܥܣܪ. The 78th and 79th sections appear
-                on fol. 17 b.</note>
-              <note>These fragments have been edited, with a Latin translation, by Dr. Sachau, in
+                The 43d section, <foreign xml:lang="syr">ܡܓ</foreign>, begins on fol. <locus from="4b">4 b</locus>; and the 6th discourse ends on fol. <locus from="6b">6 b</locus>,
+                with the subscription <finalRubric xml:lang="syr">ܫܠܡ ܡܐܡܪܐ ܕܐܫܬܐ<locus from="6b"/></finalRubric>. The 50th section, <foreign xml:lang="syr">ܢܢ</foreign>, commences on fol. <locus from="7b">7 b</locus>.
+                On fol. <locus from="10b">10 b</locus> we find the conclusion of the 8th discourse and the commencement of the
+                9th, comprising sections <foreign xml:lang="syr">ܣܓ</foreign>, <foreign xml:lang="syr">ܣܕ</foreign>, and <foreign xml:lang="syr">ܣܗ</foreign>, which have been subsequently altered into
+                <foreign xml:lang="syr">ܣܕ</foreign>, <foreign xml:lang="syr">ܣܗ</foreign>, and <foreign xml:lang="syr">ܣܘ</foreign>. The 10th discourse ends, and the 11th begins, on fol. <locus from="11b">11 b</locus>. On fol.
+                <locus from="12b">12 b</locus> there is also the running title <rubric xml:lang="syr"><fw type="header">ܡܐܡܪܐ ܕܚܕܥܣܪ</fw><locus from="12b"/></rubric>. The 78th and 79th sections appear
+                on fol. <locus from="17b">17 b</locus>.</note>
+              <note>These fragments have been edited, with a Latin translation, by Dr. <persName>Sachau</persName>, in
                   <bibl>"Theodori Mopsuesteni Fragmenta Syriaca," Leipzig, 1869</bibl>
               </note>
             </msItem>
