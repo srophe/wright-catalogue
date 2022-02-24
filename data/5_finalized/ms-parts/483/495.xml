@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17216, foll. 52, 53.</title>
+        <title level="a" xml:lang="en">BL Add MS 14668, fol. 46</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#zzhang">Ziyan Zhang</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#zzhang">Ziyan Zhang</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,8 +83,10 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <quote xml:lang="syr">ܕܡܫܓܢܐ ܠܗ ܠܗܢ ܟܬܒܐ <locus/>
-              </quote>
+              <locus from="46a"/>
+              <title xml:lang="en" type="supplied">Selections from <ref target="http://syriaca.org/work/8693">the book called the Climax (Ladder, or Book of Steps)</ref>, two discourses of <persName ref="https://syriaca.org/person/619">Marcus the monk</persName>, two discourses of <persName ref="https://syriaca.org/person/22">Xystus</persName>, and extracts from <persName>John the monk</persName></title>
+              <finalRubric xml:lang="syr">ܫܠ̣ܡ ܠܡܟܬܒ ܒܟܬܒܐ ܗܢܐ. ܡܕܡ ܕܓܒ̇ܝܢܢ ܡܢ ܟܬܒܐ ܕܡ̈ܣܩܬܐ. ܘܬܪ̈ܝܢ ܡܐܡܪ̈ܐ ܕܡܪܩܘܣ ܝܚܝܕܝܐ. ܘܬܪ̈ܝܢ ܡܐܡܪ̈ܐ ܕܟܣܘܣܛܘܣ. ܘܡܢ ܝܘܚܢܢ ܝܚܝܕܝܐ.<locus from="46a"/></finalRubric>
+              <colophon>See additions.</colophon>
             </msItem>
           </msContents>
           <physDesc>
@@ -97,9 +100,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Two vellum leaves, l0 ¾ in. by 6 7/8, apparently fly-leaves of the same
-                        manuscript. The one is blank, with the exception of the words $[ܟـ]ـܠ ܕܡܫܓܢܐ
-                        ܠܗ ܠܗܢ ܟܬܒܐ . The other contains on the recto a note</p>
+                      <p>A vellum leaf, mutilated at the top. It is dated A. Gr. <origDate datingMethod="Seleucid" when-custom="1199">1199</origDate>, A.D. <origDate calendar="Gregorian" when="0888">888</origDate>, and was the last leaf of a manuscript. The writing is in double columns of about 37 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -108,19 +109,31 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>written in a Nestorian hand of about the ixth cent., but now much effaced. </desc>
+            <handDesc hands="2">
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr">
+                <desc>The writing is small and regular.</desc>
+              </handNote>
+              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
+            <decoDesc>
+              <decoNote xml:id="decoNote1" type="illustration">
+                <desc>Beneath the later note on the <locus from="46b">verso</locus>, there is drawn a Cross.</desc>
+              </decoNote>
+            </decoDesc>
             <additions>
               <list>
                 <item xml:id="addition1" n="1">
-                  <p>It records the presentation of the manuscript to a certain convent by the
-                    priest Maximus, ܡܟܣܡܐ ܩܫܝܫܐ .</p>
+                  <locus from="46a"/>
+                  <p>The colophon states that the manuscript was written by one <persName>Joseph of <placeName ref="https://syriaca.org/place/216">Ḥarran</placeName></persName>, in <placeName ref="http://syriaca.org/place/360">the convent of S. Mary Deipara</placeName>.</p>
                   <p>
-                    <quote xml:lang="syr">ܡܟܣܡܐ ܩܫܝܫܐ </quote>
+                    <quote xml:lang="syr">ܐܫܬ݀ܠܡ ܟܬܒܐ ܗܢܐ ܕܟܘ̈ܢܫܐ ܫܢܬ ܐܠܦ ܏ܘܩܨܛ ܒܕܝܘ̈ܢܝܐ ܒܡܕܒܪܐ ܕܐܣܩܝܛܝ ܒܕܝܪܐ ܕܒܝܬ ܝܠܕܐ ܐܠܗܐ ܕܣܘܪ̈ܝܝܐ. ܟܬܒܗ ܕܝܢ ܠܢܦܫܗ ܘܠܝܘܬܪܢܐ ܕܐܝܠܝܢ ܕܦܓܥܝܢ ܝܘܣܦ ܐܚܐ ܡܢ ܚܪܢ ܡܕܝܢܬܐ. ܕܡܪܝܐ ܢܥܒܕ ܪ̈ܚܡ̣ܐ ܥܠܘܗܝ ܏ܘܫ.</quote>
                   </p>
+                </item>
+                <item xml:id="addition2" n="2">
+                  <locus from="46b"/>
+                  <p>The later note on the verso is mutilated at the beginning, and much effaced throughout.</p>                  
                 </item>
               </list>
             </additions>
@@ -134,9 +147,9 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0800" notAfter="0900">about the ixth
-                cent.</origDate>
-              <origPlace/>
+              <origDate datingMethod="Seleucid" when-custom="1199">A. Gr. 1199</origDate>
+              <origDate calendar="Gregorian" when="0888">A. D. 888</origDate>
+              <origPlace ref="http://syriaca.org/place/360">the convent of S. Mary Deipara</origPlace>
             </origin>
             <provenance/>
             <acquisition/>
@@ -325,10 +338,9 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-24">Edits to entire file; previously encoded as URI: 928</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-02-14">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#zzhang">Initial TEI encoding.</change>
-      <change type="planned" subtype="missing">Missing various unspecified things.Needs to be double
-        checked, a different form of the letter nun is missing</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
