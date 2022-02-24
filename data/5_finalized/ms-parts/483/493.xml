@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -86,9 +87,9 @@
               <title xml:lang="en">Part of two letters</title>
               <msItem xml:id="b1" n="2">
                 <locus from="44"/>
-                <author ref="https://syriaca.org/person/51">Severus of Antioch</author>
+                <author ref="https://syriaca.org/person/51" role="claimed" resp="http://syriaca.org/documentation/editors.xml#wwright">Severus of Antioch</author>
                 <rubric xml:lang="syr">ܬܘܒ . . . ܕܩܕܝܫܐ ܡܪܝ . . . ܦܛܪܝܪܟܐ.</rubric>
-                <note>The letter is 'probably of Severus' from the rubric</note>
+                <note>The second letter is probably of Severus based on the rubric</note>
               </msItem>
             </msItem>
           </msContents>
@@ -103,8 +104,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>A vellum leaf, 10 1/2 in. in length, much mutilated. The writing is good
-                        and regular, in two columns of from 29 to 31 lines, of the ixth cent.</p>
+                      <p>A vellum leaf, 10 1/2 in. in length, much mutilated. The writing is in two columns of from 29 to 31 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -115,7 +115,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>The writing is good and regular, of the <origDate notBefore="0800" notAfter="0900">ixth cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -320,6 +320,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-24">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-03">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
     </revisionDesc>
