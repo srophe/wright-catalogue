@@ -116,10 +116,8 @@
                   <list>
                     <item>
                       <p>Eighteen vellum leaves, about 10 3/4 in. by 8 3/8, nearly all more or less
-                        stained, torn, and mutilated. The quires are signed with letters (fol. 6 b,
-                        ܛ). Each page is divided into two columns, of from 34 to 37 lines. The
-                        writing is a small, elegant, Edessene Estrangělā, of the vth or vith
-                        cent.</p>
+                        stained, torn, and mutilated. The quires are signed with letters (fol. <locus from="6b">6 b</locus>,
+                        <foreign xml:lang="syr">ܛ</foreign>). Each page is divided into two columns, of from 34 to 37 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -128,36 +126,35 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="3">
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr-Syre">
+                <desc>The writing is a small, elegant, Edessene Estrangělā, of the <origDate notBefore="0400" notAfter="0600">vth or vith cent.</origDate></desc>
+              </handNote>
+              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
             <additions>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="8b"/>
-                  <p>Fol. 8 has been used in binding a volume of the discourses of Jacob of Batnae,
-                    as appears from the titles written on the verso</p>
-                  <p>
-                    <quote xml:lang="syr">ܕܦܪܚ ܢܟ̈ܣܘܗܝ܀ ܕܥܠ ܥܣܪ̈ ܒܬܘܠܘܬܐܝܢܬܐ܀ ܕܥܠ ܪ̈ܘܝܐ܀ ܕܥܠ ܣܝܘܡܐ ܕܢܡܘܣܐ܀(sic)܀ ܕܥܠ
-                      ܡܫܬܘܬܐ܀ ܕܥܠ ܡܚܬܗ(sic) ܕܡܪܢ܀ ܕܥܠ ܩܛܢܐ ܡܐܡܪ̈ܐ ܕܥܠ ܗܘܫܥ܀ ܘܥܠ ܛܘܦܢܐ܀ ܥܠ ܐܒܘܢ
-                      ܕܒܫܡܝܐ܀ ܘܥܠ ܗ̇ܘ ܒܪܐ.</quote>
-                  </p>
-                </item>
-                <item xml:id="addition2" n="2">
                   <locus from="11b"/>
                   <p>On fol. 11 b there is written, in a still more modern hand, the name of one
-                    <persName ref="https://syriaca.org/person/575">John of Damascus</persName>, </p>
+                    <persName>John of Damascus</persName>,</p>
                   <p>
-                    <quote xml:lang="syr">ܝܘܚܢܢ ܕܕܰܪܡܣܩܳܝܐ(sic) ܒܨܝܪܐ ܘܚܛܝܐ ܏ܚܪ ܢ̇ܬ݁݀ܠܢ(sic) ܠܗ ܘܝܐ
-                      ܡܛܠ ܐܠܗܐ ܨܠܘ ܥܠܘܗܝ</quote>
+                    <quote xml:lang="syr">ܝܘܚܢܢ ܕܕܰܪܡܣܩܳܝܐ <foreign xml:lang="en">(sic)</foreign> ܒܨܝܪܐ ܘܚܛܝܐ ܏ܚܪ ܢ̇ܬ݁݀ܠܢ <foreign xml:lang="en">(sic)</foreign> ܠܗ ܘܝܐ ܡܛܠ ܐܠܗܐ ܨܠܘ ܥܠܘܗܝ</quote>
                   </p>
                 </item>
               </list>
             </additions>
             <bindingDesc>
-              <p>Content pending</p>
+              <binding xml:id="binding1" contemporary="false">
+                <p>Fol. <locus from="8a" to="8b">8</locus> has been used in binding a volume of the discourses of <persName ref="https://syriaca.org/person/42">Jacob of Batnae</persName>,
+                    as appears from the titles written on the verso:
+                </p>
+                <p>
+                    <quote xml:lang="syr">ܡܐܡܪ̈ܐ ܕܥܠ ܗܘܫܥ܀ ܘܥܠ ܛܘܦܢܐ܀ ܥܠ ܐܒܘܢ ܕܒܫܡܝܐ܀ ܘܥܠ ܗ̇ܘ ܒܪܐ ܕܦܪܚ ܢܟ̈ܣܘܗܝ܀ ܕܥܠ ܥܣܪ̈ ܒܬܘܠܘܬܐ <foreign xml:lang="en">(sic)</foreign> ܀ ܕܥܠ ܡܫܬܘܬܐ܀ ܕܥܠ ܡܚܬܗ<foreign xml:lang="en">(sic)</foreign> ܕܡܪܢ܀ ܕܥܠ ܩܛܢܐ ܕܡܕܝܢܬܐ܀ ܕܥܠ ܪ̈ܘܝܐ܀ ܕܥܠ ܣܝܘܡܐ ܕܢܡܘܣܐ܀<locus from="8b"/></quote>
+                </p>
+              </binding>
             </bindingDesc>
             <sealDesc>
               <p>Content pending</p>
@@ -357,6 +354,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-25">Edits to msContents, handDesc, and additions; added bindingDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-03">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
     </revisionDesc>
