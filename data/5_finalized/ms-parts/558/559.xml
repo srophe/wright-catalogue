@@ -16,6 +16,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</name>
@@ -26,7 +27,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -79,41 +80,39 @@
               <idno type="Wright-BL-Roman">CCLXVI</idno>
             </altIdentifier>
           </msIdentifier>
-                    <msContents>
+          <msContents>
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="" from="1a"/>
-              <title ref="" xml:lang="en">A small collection of Anaphoras;
-                                viz.</title>
-              <note/>
+              <locus from="1a"/>
+              <title ref="" xml:lang="en">A small collection of Anaphoras</title>
               <msItem xml:id="b1" n="2">
-                <locus to="" from="1a"/>
-                <title ref="" xml:lang="en">Of S. <addName>James</addName>
+                <locus from="1a"/>
+                <title xml:lang="en">Of S. <persName ref="https://syriaca.org/person/1798">James</persName>
                 </title>
                 <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܕܩܕܝܫܐ ܡܪܝ ܝܥܩܘܒ ܐܚܘܗܝ ܕܡܪܢ </rubric>
               </msItem>
               <msItem xml:id="b2" n="3">
-                <locus to="" from="17a"/>
-                <title ref="" xml:lang="en">Of S. <addName>John the
-                                        Evangelist</addName>
+                <locus from="17a"/>
+                <title xml:lang="en">Of S. <persName ref="https://syriaca.org/person/1826">John the
+                                        Evangelist</persName>
                 </title>
                 <rubric xml:lang="syr">ܐܢܢܦܪܐ ܕ܏ܩܕ ܡܪܝ ܝܘܚܢܢ ܐܘܢܓܠܝܣܛܐ </rubric>
               </msItem>
               <msItem xml:id="b3" n="4">
-                <locus to="" from="27b"/>
-                <title ref="" xml:lang="en">Of <addName>John
-                                    Chrysostom</addName>
+                <locus from="27b"/>
+                <title xml:lang="en">Of <persName ref="https://syriaca.org/person/573">John
+                                    Chrysostom</persName>
                 </title>
                 <rubric xml:lang="syr">ܐܢܐܦܘܪܐ ܕܩܕܝܫܐ ܡܪܝ ܐܝܘܢܢܝܘܣ ܦܘܡܐ
                                     ܕܕܗܒܐ</rubric>
               </msItem>
               <msItem xml:id="b4" n="5" defective="true">
-                <locus to="" from="43b"/>
-                <title ref="" xml:lang="en">Of S. <addName>Mark</addName>
+                <locus from="43b"/>
+                <title xml:lang="en">Of S. <persName ref="https://syriaca.org/person/1871">Mark</persName>
                 </title>
                 <rubric xml:lang="syr">ܐܢܢܐܦܘܪܐ ܕܡܪܩܘܣ ܡܣܒܪܢܐ</rubric>
-                <note>Very imperfect</note>
+                <note>Very imperfect.</note>
               </msItem>
             </msItem>
           </msContents>
@@ -141,21 +140,18 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="" script="">
+              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
                                 <desc>This manuscript is written in a rather inelegant hand of the
-                                    xiiith cent.</desc>
+                                    <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate></desc>
                             </handNote>
             </handDesc>
                         <additions>
               <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                                    <locus from="" to=""/>
+                                    <locus/>
                                     <p/>
-                                    <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                                </item>
+                  </item>
               </list>
             </additions>
                         <bindingDesc>
@@ -168,9 +164,9 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate notBefore="1200" notAfter="1300" from="" to="" when="">xiiith
+                            <origDate notBefore="1200" notAfter="1300">xiiith
                                 cent.</origDate>
-                            <origPlace ref="" xml:lang=""/>
+                            <origPlace/>
                         </origin>
                         <provenance/>
                         <acquisition/>
@@ -359,6 +355,7 @@
       </textClass>
     </profileDesc>
         <revisionDesc status="draft">
+          <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-28">Edits to msContents and handDesc</change>
             <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-16-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-04-08" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
         </revisionDesc>
