@@ -522,7 +522,7 @@ as item()+
   let $nAttr := if(name($msDesc) = "msPart") then attribute {"n"} {$partNumber}
   
   (: build the updated msDesc element from the msParts and return along with the index :)
-    let $newMsDesc := element {node-name($msDesc)} {$descId, $nAttr, $msDesc/@*[not(name() = "xml:id") or not(name() = "n")],
+    let $newMsDesc := element {node-name($msDesc)} {$descId, $nAttr, $msDesc/@*[not(name() = "xml:id") and not(name() = "n")],
                                                      $msDesc/tei:msIdentifier,
                                                      $msParts
                                                      }
@@ -573,7 +573,7 @@ as item()+
   let $nAttr := if(name($msDesc) = "msPart") then attribute {"n"} {$partNumber}
   
   
-  let $newMsDesc := element {node-name($msDesc)} {$descId, $nAttr, $msDesc/@*[not(name() = "xml:id") or not(name() = "n")],
+  let $newMsDesc := element {node-name($msDesc)} {$descId, $nAttr, $msDesc/@*[not(name() = "xml:id") and not(name() = "n")],
                                                      $msDesc/tei:msIdentifier,
                                                      $newMsContents,
                                                      $newPhysDesc,
