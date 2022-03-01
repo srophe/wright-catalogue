@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17218, fol. 55</title>
+        <title level="a" xml:lang="en">BL Add MS 17217, foll. 37, 38</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -14,11 +14,10 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
-        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</editor>
-        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</name>
         </respStmt>
         <respStmt>
             <resp>Based on the work of</resp>
@@ -26,7 +25,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -50,42 +49,122 @@
     </editionStmt>
       <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/967/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/933/tei</idno>
         <availability>
             <p/>
             <licence target="http://creativecommons.org/licenses/by/3.0/">
                 <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
             </licence>
         </availability>
-        <date calendar="Gregorian">2021-12-09-05:00</date>
+        <date calendar="Gregorian">2022-02-24-06:00</date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-967">
+        <msDesc xml:id="manuscript-933">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/967</idno>
+            <idno type="URI">http://syriaca.org/manuscript/933</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17218, fol. 55</idno>
+              <idno type="BL-Shelfmark">Add MS 17217, foll. 37, 38</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Arabic">517</idno>
+              <idno type="Wright-BL-Arabic">996</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Roman">DXVII</idno>
+              <idno type="Wright-BL-Roman">DCCCCXCVI</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <summary/>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1" defective="true">
-              <locus from="55a"/>
-              <title xml:lang="en">A small portion of a Funeral Service</title>
-              <note>It closely resembles in appearance the <bibl>two preceding numbers<ptr target="http://syriaca.org/manuscript/192 http://syriaca.org/manuscript/760"/></bibl>.</note>
+            <msItem xml:id="a1" n="1">
+              <author ref="113">Jacob of Edessa</author>
+              <title xml:lang="en">Portions of the ܬܘܪܨ ܡܡܠܠܐ, or Syriac Grammar, of Jacob of
+                Edessa, in which he explained and applied his new system of vowel-pointing to the
+                Syriac language.</title>
+              <rubric xml:lang="syr">ܬܘܪܨ ܡܡܠܠܐ</rubric>
+              <note>On Jacob Edessa, as grammarian, see, in particular <bibl>"Jacques d' #Edesse et les
+                Voyelles Syriennes," by M. #L'Abbe Martin, in the Journal Asiatique for Mai-Juin
+                1869, p. 447</bibl>; <bibl>"Jacobi Ep Edesseni Epistola ad Gregorium Epum Sarugensem" etc., ed.
+                Martin, 1869</bibl>; and <bibl>"A Letter by Mar Jacob, bishop of Edessa, on Syriac Orthography,"
+                  etc., edited by Dr. Phillips, 1869.</bibl>
+              </note>
+              <note>The oldest system of vowel-punctuation used by the Syrians was that by means of
+                small points or dots above and below the consonants (ܐܲ,ܐܵ, etc.), which has been
+                retained by the Nestorians. Subsequently, about the time of Jacob of Edessa, the
+                Greek vowels were introduced in the same positions (ܐܰ or ܐܱ, ܐܳ or ܐܴ,
+                etc.)—whether by himself or by others, is not perfectly clear, — and were gradually
+                extensively adopted by the Jacobites. The earliest examples of their use in the
+                Nitrian manu-scripts are in <bibl>Add. 17,134, fol. 83</bibl> (dating from about A.D. 675, and
+                perhaps autograph of Jacob, see <bibl>above, no. CCCCXXI</bibl>.), and <bibl>Add. 14,429</bibl> (dated A.D.
+                719, see <bibl>above, no. LX</bibl>.). Jacob planned, however, a farther reformation, viz. the
+                introduction of a scries of vowel-signs which could be written, like the Greek
+                vowels, on a level with and between the consonants; and it was partly with the view
+                of recommending this system to his countrymen that he composed the ܬܘܪܨ ܡܡܠܠܐ ܢܗܪܝܐ
+                or "Emendation of the Mesopotamian Language," to which Bar Hebraeus alludes in the
+                ܟܬܒܐ ܕܨܡ̈ܚܐ, cited by M. Martin in his article <bibl>"Jacques d'Edesse et les Voyelles
+                  Syriennes," pp. 455, seqq.</bibl>@[See also <bibl>Assemani, Bibl. Or., t. i., p. 477</bibl>.]@ The
+                passage is as follows in <bibl>Add. 7201, fol. 195</bibl> ܏ܨܡܚ̣ܐ ܕܠܐ ܥܛܷܠ ܡܘܼܠܵܝ ܚܲܣ̣ܝܪܘܬ ܐܬܘ̈ܬܐ
+                ܣܘܪ̈ܝܝܬܐ. ܒܨܘܼܪ̈ܬܐ ܕܡ̣ܢ ܕܝܠ̣ܗ ܐܫܠ̣ܡ ܚܲܣܝܐ ܚܲܘܝ̣. ܠܩ̈ܠܢܝܬܐ ܡ̇ܢ ܫܒܥ. ܘ܏ܠܦܐ ܝܲܘܢܝܬܐ
+                ܚܕܐ. ܘܠܐܬܘ̈ܬܐ ܡܪ̈ܟܟܬܐ ܒܢܘܼ̈ܩܙܐ ܕܬܚܘܬ ܘܠܩܫ̈ܝܬܐ ܡ̣ܬܬܣ̈ܝ̣ܡܢ ܦܲܪܫ. ܘܠܲܦܬܚܐ ܡ̇ܢ ܨܵܪ݂
+                ܛܘܼܦܣܐ </note>
+              <note>According to Bar Hebraeus, therefore, Jacob's vowel-system was:— $ He should
+                have added that $ takes the place of $ @[Pronounced in Jacob's time, and even
+                earlier, by the Western Syrians as #o. This is evident from the selection of the
+                Greek % to represent the sound, and from such a spelling as $ for $ <bibl>Add. 17,202</bibl>
+                (see, for example, <bibl>above, p. 1048, 2nd column, line 21</bibl>)]@ as in $ These vowel-signs
+                seem to be akin to the $ or "Additions to the Mesopotamian Alphabet," given in <bibl>Add.
+                  14,620, fol. 13b</bibl> (see <bibl>Land in the Zeitschrift der Deutschen #Morgenlandischen
+                    Gesellschaft, Bd. xxii., p. 550</bibl>, and <bibl>Martin, "Jacques d'Edesse et les Voyelles
+                      Syriennes," pp. 459, 160</bibl>); viz.— $ </note>
+              <note>The following fragments of the work of Jacob — with one exception, we believe,
+                the only portions of it extant in Europe,—do not exhibit $ as in $ but furnish us
+                with three figures for u, viz. $ as in $; and $, as in $ (fol. 37 a) $$$$$$$ $ܐܘ
+                ܩܪܘܝܐ ܪܚ̇ܡ ܥܡ̣ܠܐ̣. ܕܒܡܐܡܪܐ ܗ̇ܘ ܩܕܡܝܐ ܐܡ̇ܪܬ݂. ܕܡܢܗܝܢ ܕܐ̈ܬܘܬܐ̣ ܣܩ̈ܘܒܠܝܢ ܠܚ̈ܕܕܐ̣. ܘܠܐ
+                ܡܩ̈ܒܠܢ ܐܘ ܕܢܣܬܬܣ̈ܝ̣ܡܢ (sic) ܩܕܡ ܚ̈ܕܕܐ̇. ܐܘ ܕܢ̈ܬܬܐܝܬܝܢ ܒܬܪ ܚ̈ܕܕܐ. ܗ̇ܢܘ ܕܝܢ ܥܒ̣̈ܝܬܐ
+                ܠܡ̈ܨܥܝܬܐ ܘܠܢܩ̈ܕܬܐ̣. ܘܡ̈ܨܥܝܬܐ ܠܥܒ̈ܝ̣ܬܐ ܘܠܢܩ̈ܕܬܐ̣. ܘܢܩ̈ܕܬܐ ܒܗ̇ ܒܕܡ̣ܘܬܐ ܠܥܒ̈ܝ̣ܬܐ
+                ܘܠܡ̈ܨܥܝܬܐ. ܘܐܢ ܗ̣ܘ ܕܬܣܬܩ̇ܒܠ ܐܬܘܬܐ ܥܒ̣ܝܬܐ ܩܕܡ ܡܨܥܝܬܐ ܐܘ ܩܕܡ ܢܩܕܬܐ̣. ܡܫܬܚܠܦܐ ܐܦ ܗ̣ܝ̣
+                ܘܗ̇ܘܝܐ ܐܘ ܡܨܥܝܬܐ ܐܘ ܢܩܕܬܐ: ܘܡܛܠ ܗܕܐ ܐܦ ܒܫ̈ܡܗܐ ܗܠܝܢ ܕܩ̇ܕܡܘ ܐܬܟܬܒܘ ܗܫܐ: ܗܢܘ ܕܝܢ
+                ܪܝܘܓܬܢܐ ܥܝܘܩܬܢܐ. ܪܓܘܙܬܢܐ̣. ܐܝܟ ܕܬܒ̇ܥ ܗܘܐ ܗ̣ܘ ܡܦܩܗ̇ ܕܒܬܪ ܩܠܐ ܟ̇ܬܒܬ̣ ܟܕ ܚ̇ܠܦܬ ܐ̈ܢܝܢ
+                ܠܐ̈ܬܘܬܐ̇ ܠܟܚܕܐ ܠܒܪܬ ܓܢܣܗ̇: ܠܦܘܬ ܐܬܘܬܐ ܗ̇ܝ ܕܡܬܬܐܝܬܝܐ ܗܘܬ ܒܬܪ ܚܕܐ ܚܕܐ ܡܢܗܝܢ. ܒܪܝܘܓܬܢܐ
+                ܓܝܪ ܘܒܥܝܘܩܬܢܐ: ܡܛܠ ܕܠܐ ܡܩ̇ܒܠܐ ܏ܬ ܕܬܬܝܬܐ ܒܬܪ ܏ܓ ܕܐܝܬܝܗ̇ ܥܒ̣ܝܬܐ: ܐܘ ܒܬܪ ܏ܩ ܕܐܝܬܝܗ̇
+                ܢܩ̣ܕܬܐ: ܟܕ ܐܝܬܝܗ̇ ܗ̣ܝ ܡܨܥܝܬܐ̣. ܠܡܨܥܝܬܐ ܕܐܟܘܬܗ̇ ܏ܟـ ܫܚܠ̣ܦܬ ܠܬܪ̈ܬܝܗܝܢ. ܒܪܓܘܙܬܢܐ ܕܝܢ
+                ܕܐܝܬܘܗܝ ܡܢ ܫܡܐ ܕܪܘܓܙܐ: ܘܟܝܢܐܝܬ ܐܝܬ ܗܘܐ ܠܗ ܒܗ ܏ܙ݂. ܟܕܠܐ ܩܒܠ̣ܬ ܠܥܒܝ̣ܘܬܗ̣̇. ܠܘܬ ܏ܣـ
+                ܕܐܝܬܝܗ̇ ܐܦ ܗ̣ܝ ܡܨܥܝܬܐ̣. ܫܚܠ̣ܦܬ ܠܗܕܐ. ܒܗ̇ ܒܕܡـ̣ܘܬܐ ܠܗܠܝܢ̣. ܐܦ ܒܕܘ̈ܟܝܬܐ ܣ̈ܓܝܐܬܐ ܡܫܟܚ
+                ܐܢܬ ܕܓ̇ܕܫ ܗ̣ܘ ܗܢܐ ܚܘܠܦܐ ܕܐ̈ܬܘܬܐ̣. ܐܟܡܐ ܕܒܡ̈ܠܐ ܝܬܝܪܐܝܬ܇ ܐܝܟܐ ܕܐܦ ܕܝܠܢܐܝܬ ܡܛܠܬܗ ܡܠܬܐ
+                ܥ̇ܒܕ ܐܢܐ. ܏ܫ̣ܠܡ. ܏ܩܢܘܢܐ ܏ܕܐܪܒܥܝܢ ܏ܘܫܒܥܐ̣ ܏ܕܫܡ̈ܗܐ ܏ܕܟܪ̈ܢܝܐ ܏ܦܫ̣̈ܝܛܐ. ܡܬܪܓܫܢܐ.
+                ܡܬܚܒ̇ܠܢܐ .. ܗܠܝܢ ܗܟܝܠ ܡܢ ܡ̈ܠܐ ܚܫ̈ܢ̣ܝܬܐ ܕܙܒܢܐ ܕܩܐܡ ܡܬܩ̇ܝܡܝܢ. ܘܗܕܐ ܕܝܠܝܬܐ ܐܝܬ ܠܗܘܢ
+                ܠܟܠܗܘܢ̣. ܕܢܫ̇ܪܘܢ ܡܢ ܏ܡ ܐܬܘܬܐ ܕܠܐ ܩܠܐ̣. ܐܝܟ ܡܐ ܕܐܦ ܠܗܝܢ ܠܡ̈ܠܐ ܚ̈ܫܢܝܬܐ ܗܠܝܠܢ ܕܡ̈ܥܬܕܢ
+                ܠܗܘܢ. ܐܠܐ ܗܕܐ ܡܬܝܕܥܐ ܚܬܝܬܐܝܬ݂. ܡܐ ܕܗ̣̈ܢܝܢ ܡ̈ܠܐ ܡ̈ܬܒܚܢܢ܀ ܣܓܝܐܢܐܝܬ݂. ܕܝܢ ܗ̣ܘ ܗܟܘܬ
+                ܡܬܐܡܪܝܢ܆ ܒܚܘܠ̇ܦܐ ܒܠܚܘܕ ܕܗ̇ܝ ܏ܐ ܕܒܫܘܠܡܗܘܢ܀ ܡܬܪܓܫܢܐ. (fol. 37 b) ܡܬܪ̈ܓܫܢܐ. ܡܬܚܒܠܢܐ.
+                ܡܬܚ̈ܒܠܢܐ. ܏ܫܠ̣ܡܘ ܏ܩ̈ܢܘܢܐ ܏ܕܫܡ̈ܗܐ ܏ܦܫ̣̈ܝܛܐ ܏ܕܟܪ̈ܢܝܐ ܏ܩ̈ܕܡܝܐ ܏ܐܦ ܏ܕܬܪ̈ܝܢܐ̣ ܏ܣܛܪ ܏ܡܢ
+                ܏ܥ̣̈ܠܬܢܝܐ܀ ܏ܡܛܠ ܏ܫܡ̈ܗܐ ܏ܥ̣̈ܠܬܢܝܐ܀ ܫ̈ܡܗܐ ܥ̈ܠ̣ܬܢܝܐ ܟܕ ܐܝܬ ܠܗܘܢ ܒܗܘܢ ܠܟܠܗ̇ ܒܪܬ ܩܠܐ
+                ܕܗ̇ܢܘܢ ܩܕܡ̈ܝܐ ܕܐܝܬܝܗܘܢ ܥ̣ܠܬܗܘܢ̣. ܡܩܒܠܝܢ ܬܘܣܦܬܐ ܗ̇ܝ ܡܩܒ݁ܠܢܝܬܐ ܕܝܠܗܘܢ. ܘܗܟܢܐ ܗ̇ܘܝܢ
+                ܬܪ̈ܝܢܐ ܡ̈ܬܬܣܝܡܢܐ̇. ܘܡܬܩܛܪܓܝܢ ܥܠ ܗ̇ܢܘܢ ܩܕܡ̈ܝܐ. ܟܕ ܠܘ ܥܠ ܩܕܡܝܐ ܗ̇ܘ ܕܗܘ̣ܐ ܠܗ ܥܠ̣ܬܐ ܘܡܢܗ
+                ܡܬܐܡܪ̈. ܡܬܬܣܝܡ ܚܕ ܚܕ ܡܢܗܘܢ ܐܘ ܡܬܩܛܪܓ܆ ܐܠܐ ܐܚܪܢܐ̣ ܥܠ ܩܕܡܝܐ ܐܚܪܢܐ. ܘܗ̇ܘ ܕܡܢ ܗܢܐ ܥܠ
+                ܐܚܪܢܐ̣. ܘܗ̇ܘ ܕܡܢ ܐܚܪܢܐ ܥܠ ܗܢܐ̇. ܠܦܘܬ ܥ̣̈ܠܠܬܐ ܕܬܒ̈ܥܢ ܒܛܘܟܣܗ̇ ܕܡܠܝܠܘܬܐ. ܐܠܐ ܡܢ ܩܕܡ
+                ܕܢܣ̣ܝܡ ܐܢܘܢ ܠܗܘܢ ܠܫܡ̈ܗܐ ܗܳܢܘܢ ܥ̈ܠ̣ܬܢܝܐ ܘܠܩܢܘܢܗܘܢ̣. ܠܗܝܢ ܠܬܘ̈ܣܦܬܐ ܗܠܝܢ ܕܡܝ̈ܩܢܢ ܠܗܘܢ
+                ܢܐܡܪ ܙܕܩ̇. ܕܟܡܐ̣ ܘܕܐܝܠܝܢ ܐܝܬܝܗܝܢ. ܘܟܕ ܗܠܝܢ ܢܬܝ̈ܕܥܢ̣. ܗܟܢܐ ܢܣ̣ܝܡ ܠܫܡ̈ܗܐ ܡܩ̈ܒܠܢܝܗܝܢ.
+                ܬܠܬ ܡ̇ܢ ܗܟܝܠ ܝܕܝ̈ܥܢ ܠܢ ܬܘܣ̈ܦܬܐ ܗܠܝܢ ܕܡܝܩ̈ܢܢ ܠܗܘܢ̣ ܠܫܡ̈ܗܐ ܗ̇ܢܘܢ ܥ̈ܠ̣ܬܢܝܐ ܒܡܡܠܠܐ ܗܢܐ
+                ܢܗܪܝܐ̣. ܐܝܟܢܐ ܕܐܦ ܒܡܐܡܪܐ ܗ̇ܘ ܩܕܡܝܐ ܣ̇ܡܬ. ܐܝܬܝܗܝܢ ܕܝܢ ܏ܢܐ ܏ܘܝܐ. ܘܗ̇ܝ ܕܡܢ ܬܪ̈ܬܝܗܝܢ
+                ܗܠܝܢ ܡܪܟܒܐ ܗܢܘ ܕܝܢ ܏ܢܝܐ. ܕܐܝܟ ܐ̇ܝܟܢ. ܡܢ ܫܡܝܐ ܫ̇ܡܝܢܐ̣. ܘܡܢ ܐܪܥܐ ܐܪܥܢܝܐ. ܘܡܢ ܐܠܗܐ
+                ܐܠܗܝܐ̣. ܘܡܢ ܐܢܫܐ ܐܢܫܝܐ. ܘܡܢ ܪܘܚܐ ܪܘܚܢܐ̣. ܘܬܘܒ ܪܘܚܢܝܐ ܒܝܕ ܬܪ̈ܬܝܗܝܢ ܬܘ̈ܣܦܬܐ̣. ܘܡܢ
+                ܓܘܫܡܐ ܓܘܫܡܢܐ̣. ܘܬܘܒ ܓܘܫܡܢܝܐ. ܘܦܓܪܢܐ ܘܦܓܪܢܝܐ. ܘܡܠܐܟܝܐ ܘܐܐܪܝܐ̣. ܘܢܘܪܢܐ ܘܢܘܪܢܝܐ ܘܡܝܢܝܐ
+                ܘܡܕܪܢܝܐ̣. ܘܐܦ ܐܪܥܢܝܐ ܥܡ ܐܪܥܢܐ. ܗ̣ܘ ܗܟܘܬ ܐܦ ܟܠܗܘܢ ܗ̇ܢܘܢ ܐܚܪ̈ܢܐ ܕܡܢ ܫܡ̈ܗܐ ܐܚܪ̈ܢܐ
+                ܕܨ̈ܒܘܬܐ ܗܠܝܢ ܩܕܡ̈ܝܬܐ ܐܝܬ ܠܗܘܢ ܟܘ̈ܢܝܐ. ܠܗܠܝܢ ܩ̇ܪܝܢܢ ܫܡ̈ܗܐ ܥ̈ܠ̣ܬܢܝܐ̣. ܘܬܪ̈ܝܢܐ̣
+                ܘܡܬܬܣ̈ܝܡܢܐ ܥ̈ܠ̣ܬܢܝܐ ܡ̇ܢ܇ ܥܠ ܕܡܢ ܐܚܪ̈ܢܐ ܐܝܬ ܠܗܘܢ ܩ̇ܪܝܬܐ̇. ܕܗ̣ܢܘܢ ܗ̣ܘܘ ܠܗܘܢ ܥܠ̣ܬܐ.
+                ܬܪ̈ܝܢܐ ܕܝܢ̣. ܥܠ ܕܒܛܟܣܐ ܬܪܝܢܐ ܡ̇ܬܬܐܝܬܝܢ ܒܡܡܠܠܐ. ܡ̈ܬܬܣܝܡܢܐ ܕܝܢ̣. ܡܛܠ ܕܥܠ ܗܠܝܢ ܩܕܡ̈ܝܐ
+                ܡܬܬܣܝܡܝܢ ܘܡܬܩܛܪܓܝܢ. ܗܠܝܢ̣ ܘܕܐܝܟ ܗܠܝܢ ܐܝܬܝܗܘܢ ܫܡ̈ܗܐ ܥ̈ܠܬܢܝܐ̇. ܗܠܝܢ ܕܡܢ ܐܚܪ̈ܢܐ ܐܝܬ
+                ܠܗܘܢ ܥܠ̣ܬܐ ܕܟܘܢܝܗܘܢ̇. ܗ̇ܢܘܢ ܕܐܦ ܗ̣ܢܘܢ ܒܕܡ̣ܘܬܐ ܕܟܠܗܘܢ ܫ̈ܡܗܐ ܕܡܡܠܠܐ ܗܢܐ ܢܗܪܝܐ̣. ܟܕ
+                ܢܛ̇ܪܝܢ ܠܗ ܠܩܢܘܢܐ ܗ̇ܘ ܕܝܠܗ ܕܠܫܢܐ̣. ܒܚܘܠ̇ܦܐ . . . ܠܗܠܝܢ ܪ̈ܫܝܡܐ ܢ̇ܩܦ̣. ܐܦܢ ܕܟܪܢܝܐ (fol.
+                38 a) ܐܝܬܘܗܝ .. ܣܘܓܐܗܘܢ ܗܟܝܠ ܕܫܡ̈ܗܐ ܗܠܝܢ ܕܒܩܢܘܢܐ ܗܢܐ̣. ܡ̈ܠܬܢܝܐ ܡܫܬܟܚܝܢ܀ ܒܗ̇ ܒܕܡ̣ܘܬܐ̣
+                ܐܦ ܗ̇ܢܘܢ ܕܠܝܬ ܒܗܘܢ ܏ܬ̣. ܐܝܟ ܩܢܘܢܐ ܗ̇ܘ ܓܘܢܝܐ ܡܬܐܡܪܝܢ ܣܓܝܐܢܐܝܬ Margin ܣܒܟܐ ܟܪܐܥܐ
+                ܟܪܐܥܐ. ܝ܏ܚ. ܰ. ܏ܦܪܟܐ. ܏ܦܪܙܐ. ܏ܟܠܒܐ. ܗܠܝܢ ܐܝܟ ܩܢܘܢܐ ܗ̇ܘ ܓܘܢܝܐ̣. ܒܚܘܠ̇ܦܐ ܒܠܚܘܕ ܕ܏ܐ ܗ̇ܝ
+                ܕܒܫܘܠܡܗܘܢ ܏ܠ </note>
             </msItem>
           </msContents>
           <physDesc>
@@ -99,7 +178,11 @@
                 <condition>
                   <list>
                     <item>
-                      <p>A vellum leaf, much mutilated, written in double columns.</p>
+                      <p>Two vellum leaves, about 8 5/8 in. by 6 1/2, written in double columns of
+                        from 34 to 36 lines, in a neat, regular band of the ixth or xth cent. (Add.
+                        17,217, foll. 37, 38). As they had been washed and prepared as palimpsest,
+                        the original writing was almost illegible, until revived by the careful
+                        application of chemical reagents. </p>
                     </item>
                   </list>
                 </condition>
@@ -109,18 +192,11 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>It is written in a regular hand of the <origDate notBefore="1100" notAfter="1200">xii cent.</origDate></desc>
+              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr-Syre">
+                <desc>a neat, regular band of the ixth or xth cent.</desc>
               </handNote>
             </handDesc>
-            <additions>
-              <list>
-                <item xml:id="addition1" n="1">
-                  <locus/>
-                  <p/>
-                </item>
-              </list>
-            </additions>
+            <additions/>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -131,8 +207,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1100" notAfter="1200">xii
-                cent.</origDate>
+              <origDate notBefore="800" notAfter="1000"/>
               <origPlace/>
             </origin>
             <provenance/>
@@ -156,8 +231,8 @@
                 <pubPlace>London</pubPlace>
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
-                <citedRange unit="entry">DXVII</citedRange>
-                <citedRange unit="pp">1:395</citedRange>
+                <citedRange unit="entry">DCCCCXCVI</citedRange>
+                <citedRange unit="pp">3:1168-1172</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -315,16 +390,17 @@
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
             <item>
-              <ref target="#funerals"/>
+              <ref target="#sci-grammar&quot;"/>
             </item>
           </list>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-08">Edits to msContents and handDesc</change>
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-09">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI encoding.</change>
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-02-24">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jrushing">Initial TEI encoding.</change>
+      <change type="planned" subtype="missing">Missing various unspecified things.</change>
+      <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

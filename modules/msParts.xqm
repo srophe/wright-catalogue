@@ -2,7 +2,7 @@ xquery version "3.0";
 
 (:
 : Module Name: Syriaca.org Manuscript Parts Merging
-: Module Version: 1.1
+: Module Version: 1.2
 : Copyright: GNU General Public License v3.0
 : Proprietary XQuery Extensions Used: None
 : XQuery Specification: 08 April 2014
@@ -13,7 +13,7 @@ xquery version "3.0";
 
 (:~ 
 : @author William L. Potter
-: @version 1.1
+: @version 1.2
  :)
  
 module namespace msParts="http://srophe.org/srophe/msParts";
@@ -43,27 +43,19 @@ declare variable $msParts:composite-file-template :=
   else();
   
 declare variable $msParts:manuscript-part-source-document-sequence :=
-  for $file in $msParts:config-msParts/config/msPartFiles/fileName
-    return if(starts-with($file/text(), "#")) then 
-      let $partId := substring-after($file/text(), "#")
-      return $msParts:composite-file-template//tei:msDesc/tei:msPart[@xml:id = $partId]
-    else
-      let $fullFilePath := $msParts:path-to-msParts-folder || $file/text()
-      return doc($fullFilePath);
+  for $part in $msParts:config-msParts/config/msPartFiles//part (: look at all descendant parts :)
+    let $fullFilePath := $msParts:path-to-msParts-folder || $part/fileName/text()
+    let $record := doc($fullFilePath)
+    return if($part/oldPartId/text()) then (: if there is a part ID designation, only return that part. Otherwise return the whole file :)
+      $record//tei:msPart[@xml:id = $part/oldPartId/text()]
+    else $record;
      
 declare variable $msParts:taxonomy-classification-map :=
-
-    for $file at $i in $msParts:config-msParts/config/msPartFiles/fileName
-    let $classId := 
-      if(starts-with($file/text(), "#")) then 
-      (: find the textClass item that matches the part designation in the template file :)
-      let $classItem := $msParts:composite-file-template//tei:textClass/tei:keywords/tei:list/tei:item[tei:ref/@target = $file/text()]
-      return string($classItem/tei:ref[@target != $file/text()]/@target)
-      else string($msParts:manuscript-part-source-document-sequence[$i]//tei:textClass/tei:keywords/tei:list/tei:item/tei:ref/@target)
+    for $part in $msParts:parts-outline-map/descendant-or-self::part
     return
       <map>
-        <part>{"Part" || $i}</part>
-        <value>{string-join($classId, " ")}</value>
+        <part>{"#" || $part/newPartId/text()}</part>
+        <value>{$part/taxonomyString/text()}</value>
       </map>;
      
 declare variable $msParts:record-title :=
@@ -88,7 +80,48 @@ declare variable $msParts:output-file-name :=
   
 declare variable $msParts:index-of-pending-id-updates-directory :=
   $config:path-to-repo || $config:index-of-pending-id-updates-directory;
+
+(:
+Create the outline map for use in nesting the parts correctly
+:)
+
+declare variable $msParts:parts-outline-map :=
+  msParts:create-parts-outline-map($msParts:config-msParts//msPartFiles/part, "");
+  
+  
+declare function msParts:create-parts-outline-map($configMap as node()+, $idPrefix as xs:string)
+as node()*
+  {
+    for $part at $i in $configMap
+    let $record := doc($msParts:path-to-msParts-folder || $part/fileName/text())
+    let $desc := if($part/oldPartId/text()) then $record//tei:msPart[@xml:id = $part/oldPartId/text()] else $record//tei:msDesc
+    let $uri := $desc/tei:msIdentifier/tei:idno/text()
     
+    let $wrightTaxonomyNode := $record//tei:profileDesc/tei:textClass/tei:keywords[@scheme="#Wright-BL-Taxonomy"]
+    
+    (: If the $desc is part of a record with multiple msParts, get the ref/@target corresponding to that part; otherwise get the ref/@target :)
+    let $taxonomyCatRef := 
+      if($part/oldPartId/text()) then $wrightTaxonomyNode//tei:item[tei:ref/@target = "#"||$part/oldPartId/text()]/tei:ref[@target != "#"||$part/oldPartId/text()]/@target
+      else $wrightTaxonomyNode//tei:item/tei:ref/@target
+    let $taxonomyCatRef := string($taxonomyCatRef)
+    
+    let $newPartId := if($idPrefix = "") then "Part"||$i else $idPrefix||"_"||$i
+    
+    let $subParts := if($part/part) then msParts:create-parts-outline-map($part/part, $newPartId)
+    return
+    <part>
+      {
+        $part/fileName,
+        $part/oldPartId
+      }
+      <uri>{$uri}</uri>
+      <taxonomyString>{$taxonomyCatRef}</taxonomyString>
+      <newPartId>{$newPartId}</newPartId>
+      {
+        $subParts
+      }
+    </part>
+  };
 (: -------------------------------------------------------- :)
 (: Create document node of full record from component parts :)
 (: -------------------------------------------------------- :)
@@ -113,7 +146,10 @@ declare function msParts:create-composite-document($msPartsDocumentSequence as n
   let $temp := msParts:update-msDesc($msPartsDocumentSequence)
   let $msDesc := $temp[1]
   let $index := $temp[2]
-  let $textClass := msParts:create-merged-textClass($msPartsDocumentSequence)
+  
+  (: make the top-level part of the index a record element :)
+  let $index := <record>{$index/@*, $index/*}</record>
+  let $textClass := msParts:create-merged-textClass()
   let $revisionDesc := msParts:create-merged-revisionDesc($msPartsDocumentSequence)
   
   (: build out document from components :)
@@ -194,11 +230,14 @@ declare function msParts:update-msDesc($msPartDocumentSequence as node()+) as it
   let $msDescId := "manuscript-"||$msParts:config-msParts/config/manuscriptLevelMetadata/uriValue/text()
   let $msIdentifier := msParts:create-main-msIdentifier()
   
-  (: the function create-msPart-sequence returns both a sequence of msPart elements contained within a container and an index of updates to xml id values.:)
-  let $temp := msParts:create-msPart-sequence($msPartDocumentSequence)
-  let $msPartSeq := $temp[1]/*
-  let $index := $temp[2]
-  return (element {QName("http://www.tei-c.org/ns/1.0", "msDesc")} {attribute {"xml:id"} {$msDescId}, $msIdentifier, $msPartSeq}, $index)
+  (: this function properly nests the msParts components based on the $msParts:parts-outline-map node :)
+  let $msPartSeq := msParts:compose-msParts-outline($msPartDocumentSequence, $msParts:parts-outline-map)
+  
+  (: nest the msParts within a containing msDesc element using manuscript-level msIdentifier information :)
+  let $msDesc := element {QName("http://www.tei-c.org/ns/1.0", "msDesc")} {attribute {"xml:id"} {$msDescId}, $msIdentifier, $msPartSeq} 
+  
+  (: return the msDesc after running it through the id update process. This function also returns the update index :)
+  return mss:update-msDesc-xml-id-values($msDesc, true (), "")
 };
 
 declare function msParts:create-main-msIdentifier() {
@@ -213,6 +252,36 @@ declare function msParts:create-main-msIdentifier() {
   return element {QName("http://www.tei-c.org/ns/1.0", "msIdentifier")} {$country, $settlement, $repository, $collection, $uriIdno, $altIdentifier}
 };
 
+(:~ 
+: Creates a sequence of msPart elements, nested as required from a linear sequence of msPart elements.
+: Nesting occurs based on the outline specified in config-msParts.xml
+: this outline in turn is used to create the $msPartsOutlineMap which
+: has the form:
+: <container>
+:  <part>
+:   <fileName>From config-msParts.xml</fileName>
+:   <oldPartId>From config-msParts.xml; optional</oldPartId>
+:   <uri>of the msPart, used to match with the document sequence</uri>
+:   <taxonomyString>Gotten from the document and used to create the taxonomy item</taxonomyString>
+:   <newPartId>Based on location in outline</newPartId>
+:  </part>
+: </container>
+: Parts can be nested in any way that is required.
+:)
+declare function msParts:compose-msParts-outline($msPartDocumentSequence as node()+, $msPartsOutlineMap as node()+) 
+as node()+
+{
+  for $part in $msPartsOutlineMap
+  let $desc := 
+    for $doc in $msPartDocumentSequence
+    where $doc/descendant-or-self::*[name() = "msPart" or name() = "msDesc"]/tei:msIdentifier/tei:idno/text() = $part/uri/text() (: where the URI of the document matches that in the outline map :)
+    return if(name($doc) = "msPart") then $doc else $doc//tei:msDesc
+  let $subParts := if($part/part) then msParts:compose-msParts-outline($msPartDocumentSequence, $part/part)
+  return element {QName("http://www.tei-c.org/ns/1.0", "msPart")} {$desc/*, $subParts}
+};
+
+(:~ 
+: @deprecated as of 1.2 and replaced with msParts:compose-msParts-outline and mss:update-msDesc-xml-id-values :)
 declare function msParts:create-msPart-sequence($msPartDocumentSequence as node()+) as node()+ {
   (: the function msParts:create-msPart returns both an msPart element and a <part/> element containing an index of id updates. These get separated out below :)
   let $msPartsAndIndex := 
@@ -231,6 +300,8 @@ declare function msParts:create-msPart-sequence($msPartDocumentSequence as node(
   return (<container>{$msParts}</container>, $index)
 };
 
+(:~ 
+: @deprecated as of 1.2 replaced with mss:update-msDesc-xml-id-values :)
 declare function msParts:create-msPart($singleMsDesc as node(), $partNumber as xs:string) as item()+ {
   
   (: update the xml:ids of the descendants using the part designation as prefix. :) 
@@ -337,7 +408,7 @@ declare function msParts:add-part-designation-to-recordHist($recordHist as node(
 (: Updating taxonomy in textClass :)
 (: ------------------------------ :)
 
-declare function msParts:create-merged-textClass($msPartsDocumentSequence as node()+) as node() {
+declare function msParts:create-merged-textClass() as node() {
   let $valueSeq := $msParts:taxonomy-classification-map//value
   let $partSeq := $msParts:taxonomy-classification-map//part
   let $keywords := mss:create-keywords-node("Wright-BL-Taxonomy", $valueSeq, $partSeq)
@@ -350,14 +421,14 @@ declare function msParts:create-merged-textClass($msPartsDocumentSequence as nod
 
 declare function msParts:create-merged-revisionDesc($msPartsDocumentSequence as node()+) as node() {
   let $docUriSeq := for $doc in $msPartsDocumentSequence
-    return if($doc//tei:msDesc) then $doc//tei:msDesc/tei:msIdentifier/tei:idno/text() else $doc//tei:msIdentifier/tei:idno/text()
+    return if($doc//tei:msDesc) then $doc//tei:msDesc/tei:msIdentifier/tei:idno/text() else $doc/tei:msIdentifier/tei:idno/text()
   let $mergedChangeLog := "Merged the following URIs as msPart elements: "||fn:string-join($docUriSeq, "; ")
   let $mergedChangeNode := element {QName("http://www.tei-c.org/ns/1.0", "change")} {attribute {"who"} {$config:editors-document-uri||"#"||$config:change-log-script-id}, attribute {"when"} {fn:current-date()}, $mergedChangeLog}
   let $fullChangeListByUri := for $doc in ($msParts:composite-file-template, $msPartsDocumentSequence)
     let $docUri := $doc//tei:msDesc/tei:msIdentifier/tei:idno/text()
     let $changeLogPrefix := "["||$docUri||"]: "
     for $change in $doc//tei:revisionDesc/tei:change
-      let $newChangeLog := $changeLogPrefix||$change/text()
+      let $newChangeLog := ($changeLogPrefix, $change/node())
       return element {QName("http://www.tei-c.org/ns/1.0", "change")} {$change/@*, $newChangeLog}
       
   let $plannedChangeListOrderedByUri := for $change in $fullChangeListByUri

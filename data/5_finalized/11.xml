@@ -1,0 +1,967 @@
+<?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="a" xml:lang="en">BL Add MS 12139</title>
+        <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
+        <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+        <funder>The National Endowment for the Humanities</funder>
+        <funder>The Andrew W. Mellon Foundation</funder>
+        <principal>David A. Michelson</principal>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</editor>
+        <respStmt>
+          <resp>Created by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</name>
+        </respStmt>
+        <respStmt>
+            <resp>Based on the work of</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
+        </respStmt>
+        <respStmt>
+            <resp>Edited by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+        </respStmt>
+        <respStmt>
+            <resp>Syriac text entered by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
+        </respStmt>
+        <respStmt>
+            <resp>Greek and coptic text entry and proofreading by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
+        </respStmt>
+        <respStmt>
+            <resp>Project management by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
+        </respStmt>
+        <respStmt>
+            <resp>English text entry and proofreading by</resp>
+            <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0"/>
+    </editionStmt>
+      <publicationStmt>
+        <authority>Syriaca.org: The Syriac Reference Portal</authority>
+        <idno type="URI">http://syriaca.org/manuscript/11/tei</idno>
+        <availability>
+            <p/>
+            <licence target="http://creativecommons.org/licenses/by/3.0/">
+                <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
+            </licence>
+        </availability>
+        <date calendar="Gregorian">2022-02-23-06:00</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="manuscript-11">
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <repository>British Library</repository>
+            <collection>Oriental Manuscripts</collection>
+            <idno type="URI">http://syriaca.org/manuscript/11</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">Add MS 12139</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Arabic">224</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Roman">CCXXIV</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary/>
+            <textLang mainLang="syr"/>
+            <msItem xml:id="a1" n="1">
+              <locus from="1b"/>
+              <author>Athanasius of Antioch</author>
+              <author>Athanasius V</author>
+              <title xml:lang="en">A Jacobite Lectionary from the <ref target="https://syriaca.org/work/69">Old</ref>and <ref target="https://syriaca.org/work/70">New</ref>Testaments,
+                part first, collected and arranged by Athanasius, patriarch of Antioch.</title>
+              <rubric xml:lang="syr">ܥܠ ܚ̇ܝܠ̣ܐ ܘܣܘܿܝܥܐ ܕܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ: ܡ̇ܫܪܝܢܢ ܕܢܟܬ݂ܘܒ ܦ̇ܪܫ (sic)
+                ܩܪ̈ܝܢܐ ܕܥܬܝܩܬܐ ܘܕܚ̇ܕܬܐ </rubric>
+              <note>
+                <persName/>Athanasius V., patriarch from A. Gr. 1298 to 1314. See <bibl>Le Quien, Oriens Christ.,
+                t. ii., col. 1379</bibl>, and <bibl>Assemani, Bibl. Orient., t. ii., p. 351, no. 32.</bibl>
+              </note>
+              <note>The lessons are taken from the <ref target="https://syriaca.org/work/9504">Peshitta</ref>, with the exception of a few at the
+                beginning, which are from the LXX. and the Harklensian versions.</note>
+              <msItem xml:id="b1" n="2">
+                <locus from="1b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">for the Annunciation of Zacharias</title>
+                <rubric xml:lang="syr">ܕܣܘܿܒܪܐ ܕܙܟܐܪܝܐ </rubric>
+                <note>Levit. xxvi. 42—46 (Sept.); Jerem. xxxi. 23—34 (Sept. xxxviii. 23—36); <ref target="http://syriaca.org/work/10535">Hebr.
+                  viii. 3—ix. 10 (Harkl.)</ref>.</note>
+              </msItem>
+              <msItem xml:id="b2" n="3">
+                <locus from="4b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the Annunciation of the Mother of
+                  God</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܣܘܿܒܪܗ̇ ܕܝ̇ܠܕܬ݁ ܐܠܗܐ </rubric>
+                <note>Num. xxiii. 18—xxiv. 7 (Sept.); Ezek. xxxiv. 22—31 (Sept.); <ref target="http://syriaca.org/work/10521                   ">Rom. xv. 1 —13 (Harkl.)</ref>
+                  .</note>
+              </msItem>
+              <msItem xml:id="b3" n="4">
+                <locus from="6b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the Nativity of our Lord</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܝܠ̣ܕܗ ܕܡܪܢ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/2">Exod. ii. 1—10</ref>; <ref target="http://syriaca.org/work/5">Deut. xviii. 9—19</ref>; <ref target="http://syriaca.org/work/6">Joshua, xxiv. 14—25</ref>; <ref target="http://syriaca.org/work/9">1 Sam. i. 19—ii. 10</ref>;
+                  <ref target="http://syriaca.org/work/47">Wisdom, vii. 7—15</ref>; <ref target="http://syriaca.org/work/32">Micah, [ܡܢ ܟܬܒܐ ܕܬܪ̈ܥܣܪ ܢܒܝ̈ܐ, and so with all the twelve minor
+                    Prophets.] v. 1—8 (2—9)</ref>; <ref target="http://syriaca.org/work/53">Dan. ii. 31 —35</ref>; <ref target="http://syriaca.org/work/23">Isaiah, viii. 16—ix. 7</ref>; <ref target="http://syriaca.org/work/80">Galat. iv, 1—
+                      12</ref>.</note>
+              </msItem>
+              <msItem xml:id="b4" n="5">
+                <locus from="11b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the Commemoration of the Mother of
+                  God</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܒܕܘܟܪܢܐ ܕܝ̇ܠܕܬ݁ ܐܠܗܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/2">Exod. xvi. 28—35</ref>; <ref target="http://syriaca.org/work/67                   ">2 Epist. of Baruch, [ܢܒܝܘܬܐ ܕܐܪܡܝܐ and so always.] iii 21—iv. 1</ref>.
+                  ; <ref target="http://syriaca.org/work/23">Isaiah, vii. 21— viii. 15</ref>; <ref target="http://syriaca.org/work/90">Hebr. viii. 10—ix. 10</ref>.</note>
+              </msItem>
+              <msItem xml:id="b5" n="6">
+                <locus from="14a"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the Commemoration of the Infants</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܒܕܘܟܪܢܐ ܕܝܠ̣ܘܕ̈ܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/2">Exod. i. 15—22</ref>; <ref target="http://syriaca.org/work/32">Micah, vii. 1—20</ref>; <ref target="http://syriaca.org/work/90">Hebr. xi. 11—23</ref>.</note>
+              </msItem>
+              <msItem xml:id="b6" n="7">
+                <locus from="15b"/>
+                <title xml:lang="en">lessons for the night (eve) of the Epiphany</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܒܠܠܝܐ ܕܒܝܬ ܕܢܚ̣ܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/1">Gen. xxiv. 10—28</ref>; <ref target="http://syriaca.org/work/12">2 Kings, ii. 19—25</ref>; <ref target="http://syriaca.org/work/23">Isaiah, xi. 11—xii. 6</ref>; <ref target="http://syriaca.org/work/90">Hebr. x.
+                  15—25.</ref>
+                </note>
+              </msItem>
+              <msItem xml:id="b7" n="8">
+                <locus from="17b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the morning of the Epiphany</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܨ̇ܦܪܐ ܕܕܢܚ̣ܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/3">Levit. viii. 1—13</ref>; <ref target="http://syriaca.org/work/5">Deut. xxxiii. 1—16</ref>; <ref target="http://syriaca.org/work/6">Joshua, iii. 7—iv. 3</ref>; <ref target="http://syriaca.org/work/9">1 Sam. vii. 8—15</ref>;
+                  <ref target="http://syriaca.org/work/20">Prov. viii. 22—35</ref>; <ref target="http://syriaca.org/work/37">Zech. v. 5—vi. 15</ref>; <ref target="http://syriaca.org/work/54">Song of the three Children, 35—51 (Dan. iii.
+                    57—73)</ref>; <ref target="http://syriaca.org/work/88">Titus, ii. 11—iii. 7</ref>.</note>
+              </msItem>
+              <msItem xml:id="b8" n="9">
+                <locus from="22a"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for S. John the Baptist, and #Mar Sergius, and
+                  Mār George</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܡܪܝ ܝܘܚܢܢ ܡܥܡܕܢܐ ܘܕܡܪܝ ܣܪܓܝܣ. ܘܕܡܪܝ ܓܘܪܓܝܣ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/1">Gen. xli. 38—52</ref>; <ref target="http://syriaca.org/work/47">Wisdom, xviii. 20—xix. 1</ref>; <ref target="http://syriaca.org/work/23">Isaiah, xl. 3— 8</ref>; <ref target="http://syriaca.org/work/77">Rom. x.
+                  4—18</ref>.</note>
+              </msItem>
+              <msItem xml:id="b9" n="10">
+                <locus from="24a"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the (first) Sunday after Epiphany</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܒܬܪ ܕܢܚ̣ܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/2">Exod. xxxii. 30—xxxiii. 6</ref>; <ref target="http://syriaca.org/work/67">2 Epist. of Baruch, iv. 36—v. 9</ref>; <ref target="http://syriaca.org/work/23">Isaiah, xiii. 17—
+                  xiv. 2</ref>; <ref target="http://syriaca.org/work/90">Hebr. vi. 1—8</ref>.</note>
+              </msItem>
+              <msItem xml:id="b10" n="11">
+                <locus from="26a"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the second Sunday after Epiphany</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܬܪ̈ܝܢ ܕܒܬܪ ܕܢܚ̣ܐ</rubric>
+                <note>. <ref target="http://syriaca.org/work/2">Exod. xxxiv. 32—xxxv. 19</ref>; <ref target="http://syriaca.org/work/9719">Jerem. 1. 4—16</ref>; <ref target="http://syriaca.org/work/77">Rom. [In the MS. wrongly Hebr.] J:
+                  vii. 22—viii. 11</ref>.</note>
+              </msItem>
+              <msItem xml:id="b11" n="12">
+                <locus from="28a"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the third Sunday after Epiphany</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܬܠܬܐ ܕܒܬܪ ܕܢܚ̣ܐ </rubric>
+                <note>
+                  <ref target=" http://syriaca.org/work/1">Gen. xliii. 24—xliv. 2</ref>; <ref target="http://syriaca.org/work/47">Wisdom, vi. 1—9 (8)</ref>; <ref target="http://syriaca.org/work/23">Isaiah, xvii. 1—14</ref>; <ref target="http://syriaca.org/work/77">Rom. viii.
+                  12—27</ref>.</note>
+              </msItem>
+              <msItem xml:id="b12" n="13">
+                <locus from="30a"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the fourth Sunday after Epiphany</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܐܪ̈ܒܥܐ ܕܒܬܪ ܕܢܚ̣ܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/2">Exod. xxxv. 30— xxxvi. 5</ref>; <ref target="http://syriaca.org/work/9719">Jerem. li. 1—12</ref>; <ref target="http://syriaca.org/work/77">Rom. ix. 14— 26</ref>.</note>
+              </msItem>
+              <msItem xml:id="b13" n="14">
+                <locus from="31b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the fifth Sunday after Epiphany</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܡܫܐ ܕܒܬܪ ܕܢܚ̣ܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/1">Gen. xliv. 18—xiv. 1</ref>; <ref target="http://syriaca.org/work/47">Wisdom, vi. 24 (22)—vii. 6</ref>; <ref target="http://syriaca.org/work/23">Isaiah, xxi. 1—10</ref>; <ref target="http://syriaca.org/work/77">Rom. xiv.
+                  19—xv. 7</ref>.</note>
+              </msItem>
+              <msItem xml:id="b14" n="15">
+                <locus from="33b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the sixth Sunday after Epiphany</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܫܬܐ ܕܒܬܪ ܕܢܚ̣ܐ </rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/2">Exod. xxxvi. 23—38</ref>; <ref target="http://syriaca.org/work/9719">Jerem. li. 15—29</ref>; <ref target="http://syriaca.org/work/77">Rom. vii. 4—13</ref>.</note>
+              </msItem>
+              <msItem xml:id="b15" n="16">
+                <locus from="35b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the seventh Sunday after Epiphany</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܫܒܥܐ ܕܒܬܪ ܕܢܚ̣ܐ </rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/1">Gen. xlvii. 5—13</ref>; <ref target="http://syriaca.org/work/47">Wisdom, viii. 17—ix. 12</ref>; <ref target="http://syriaca.org/work/23">Isaiah, xxix. 15— 24</ref>; <ref target="http://syriaca.org/work/80">Galat. iv.
+                  28—v. 10</ref>.</note>
+              </msItem>
+              <msItem xml:id="b16" n="17">
+                <locus from="37b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the first Sunday in Lent</title>
+                <rubric xml:lang="syr">ܕܚܕܒܫܒܐ ܕܡ̇ܰܥ̈ܳܠܰܝ ܨܘܡܐ </rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/3">Levit. xxiii. 23—32</ref>; Joel, ii. 12— 20; <ref target="http://syriaca.org/work/53">Dan. i. 3—21</ref>; <ref target="http://syriaca.org/work/77">Rom. xii. 1—21</ref>.</note>
+              </msItem>
+              <msItem xml:id="b17" n="18">
+                <locus from="40b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the first Monday in Lent</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܬܪܝܢ ܒܫܒܐ ܩܕܡܝܐ ܕܨܘܡܐ </rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/1">Gen. ii. 15—24</ref>; <ref target="http://syriaca.org/work/3">Levit. iv. 1—12</ref>; <ref target="http://syriaca.org/work/5">Deut. iv. 1—14</ref>: <ref target="http://syriaca.org/work/6">Joshua, xxi. 43—xxii. 6</ref>; <ref target="http://syriaca.org/work/9">1
+                  Sam. vii. 2—8</ref>; <ref target="http://syriaca.org/work/47">Wisdom, i. 1—7</ref>; <ref target="https://syriaca.org/work/26">Ezek. iii. 10—21</ref>; <ref target="http://syriaca.org/work/81">Ephes. iv. 21—24</ref>.</note>
+              </msItem>
+              <msItem xml:id="b18" n="19">
+                <locus from="44a"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the second Sunday in Lent</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܬܪܝܢ ܕܨܘܡܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/1">Gen. xxxii. 24—32</ref>; <ref target="http://syriaca.org/work/20">Prov. iii. 1—18</ref>; <ref target="http://syriaca.org/work/51">Jerem. xxxvi. 21—31</ref>; <ref target="http://syriaca.org/work/79">2 Corinth, vi.
+                  1—16</ref>.</note>
+              </msItem>
+              <msItem xml:id="b19" n="20">
+                <locus from="46b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the third Sunday in Lent</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܬܠܬܐ ܕܨܘܡܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/1">Gen. xviii. 20—33</ref>; <ref target="http://syriaca.org/work/20">Prov. xv. 33— xvi. 15</ref>; <ref target="http://syriaca.org/work/51">Jerem. xi. 1—10</ref>; <ref target="http://syriaca.org/work/81">Ephes. vi. 10— 20,
+                  iv. 25—v. 2</ref>.</note>
+              </msItem>
+              <msItem xml:id="b20" n="21">
+                <locus from="49a"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the fourth Sunday in Lent</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܐܪ̈ܒܥܐ ܕܨܘܡܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/1">Gen. xix. 1—14 [x 2]</ref>; <ref target="http://syriaca.org/work/20">Prov. iii. 27—iv. 9</ref>; <ref target="http://syriaca.org/work/26">Ezek. xviii. 5—20</ref>; <ref target="http://syriaca.org/work/77">Rom. xiii. 8—
+                  xiv. 4</ref>.</note>
+              </msItem>
+              <msItem xml:id="b21" n="22">
+                <locus from="51b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the fifth Sunday in Lent</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܚܡܫܐ ܕܨܘܡܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/1">Gen. xv. 1—21</ref>; <ref target="http://syriaca.org/work/20">Prov. viii. 10—21</ref>; <ref target="http://syriaca.org/work/26">Ezek. xviii. 23—32</ref>; <ref target="http://syriaca.org/work/80">Galat. v. 16—21</ref>.</note>
+              </msItem>
+              <msItem xml:id="b22" n="23">
+                <locus from="53b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the sixth Sunday in Lent</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܏ܘ ܕܨܘܡܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/1">Gen. xxxi. 55—xxxii. 21</ref>; <ref target="http://syriaca.org/work/20">Prov. x. 27—xi. 9</ref>; <ref target="http://syriaca.org/work/51">Jerem. xi. 19—xii. 4</ref>; <ref target="http://syriaca.org/work/81">Ephes. i.
+                  3—14</ref>.</note>
+              </msItem>
+              <msItem xml:id="b23" n="24">
+                <locus from="55b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the Annunciation of the Mother of
+                  God</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܣܘܿܒܪܐ ܕܝ̇ܠܕܬ݁ ܐܠܗܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/1">Gen. xviii. 1—19</ref>; <ref target="http://syriaca.org/work/9">1 Sam. i. 9—19</ref>; <ref target="http://syriaca.org/work/80">Galat. iii. 15—22</ref>.</note>
+              </msItem>
+              <msItem xml:id="b24" n="25">
+                <locus from="57b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for Palm Sunday</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܐܘ̈ܫܥܢܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/1">Gen. xlix. 1— 28</ref>; <ref target="http://syriaca.org/work/3">Levit. xxiii. 34—44</ref>; <ref target="http://syriaca.org/work/5">Deut. viii. 6—20</ref>; <ref target="http://syriaca.org/work/6">Joshua, i. 1—9</ref> ; <ref target="http://syriaca.org/work/10                   ">2 Sam. vi. 1—12</ref>; <ref target="http://syriaca.org/work/20">Prov. i. 20—33</ref>; <ref target="http://syriaca.org/work/37">Zech. ix. 9—10</ref>; <ref target="http://syriaca.org/work/53">Dan. viii. 1—10</ref>; <ref target="http://syriaca.org/work/23">Isaiah, xl. 9—27</ref>;
+                  <ref target="http://syriaca.org/work/77">Rom. xi. 13—24</ref>.</note>
+              </msItem>
+              <msItem xml:id="b25" n="26">
+                <locus from="63a"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the Thursday of the Mystery (Thursday in
+                  Passion-week)</title>
+                <note>
+                  <ref target="http://syriaca.org/work/2">Exod. xii. 1—14</ref>; <ref target="http://syriaca.org/work/37">Zech. xi. 4—14</ref>; <ref target="http://syriaca.org/work/26">Ezek. xxi. 8—17</ref>; <ref target="http://syriaca.org/work/78">1 Corinth, xi. 17—26</ref>.</note>
+              </msItem>
+              <msItem xml:id="b26" n="27">
+                <locus from="65a"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the Consecration of the Chrism
+                  (μύρον)</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܩ̇ܘܕܫ ܡܘܪܘܢ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/1">Gen. xxviii. 18—22</ref>; <ref target="http://syriaca.org/work/3">Levit. viii. 1— 13</ref>; <ref target="http://syriaca.org/work/12">2 Kings, ix. 1—10</ref>; <ref target="http://syriaca.org/work/26">Ezek. xliii. 18—
+                  27</ref>; <ref target="http://syriaca.org/work/79">2 Corinth, ii. 14—iii. 6</ref>.</note>
+              </msItem>
+              <msItem xml:id="b27" n="28">
+                <locus from="67b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the Friday of the Crucifixion</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܥܪܘܒܬܐ ܕܙܩܝܦܘܬܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/1">Gen. xxxvii. 12—34</ref>; <ref target="http://syriaca.org/work/3">Levit. xxiv. 11—23</ref>; <ref target="http://syriaca.org/work/18">Job, xl. 1—xii. 3</ref>; <ref target="http://syriaca.org/work/9">1 Sam. xxvi. 1—16</ref>;
+                  <ref target="http://syriaca.org/work/47">Wisdom, ii. 12—25 (24)</ref>; <ref target="http://syriaca.org/work/51">Jerem. xxxvii. 12—21</ref>; <ref target="http://syriaca.org/work/26">Ezek. xxi. 24—xxii. 4</ref>; <ref target="http://syriaca.org/work/77">Rom. v.
+                  1—11</ref>.</note>
+              </msItem>
+              <msItem xml:id="b28" n="29">
+                <locus from="72b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the Saturday of Annunciation</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܫܒܬܐ ܕܣܒܪܬܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/1">Gen. xl. 1—15</ref>; <ref target="http://syriaca.org/work/4">Num. xxviii. 16—25</ref>; <ref target="http://syriaca.org/work/18">Job, xxvii. 1—23</ref>; <ref target="http://syriaca.org/work/9714">Jonah, i. 15—ii. 11</ref>;
+                  <ref target="http://syriaca.org/work/83">Coloss. i. 3—14</ref>.</note>
+              </msItem>
+              <msItem xml:id="b29" n="30">
+                <locus from="75a"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the Sunday of the Resurrection</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܩܝܡ̣ܬܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/1">Gen. viii. 1—19</ref>; <ref target="http://syriaca.org/work/3">Levit. xxiii. 1—8</ref>; <ref target="http://syriaca.org/work/5">Deut. xvi. 1—8</ref>; <ref target="http://syriaca.org/work/6">Joshua, v. 10—vi. 4</ref>; <ref target="http://syriaca.org/work/9">1
+                  Sam. xvii. 37—54</ref>; <ref target="http://syriaca.org/work/20">Prov. ix. 1—12</ref>; <ref target="http://syriaca.org/work/35">Zeph. iii. 14—20</ref>; <ref target="http://syriaca.org/work/53">Dan. vi. 19—28</ref>; <ref target="http://syriaca.org/work/78">1 Corinth, xv.
+                  1—19</ref>.</note>
+              </msItem>
+              <msItem xml:id="b30" n="31">
+                <locus from="81a"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for New (Low) Sunday</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܚ̣ܕܬܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/1">Gen.i. 1—ii. 3</ref>; <ref target="http://syriaca.org/work/3">Levit. i. 1—13</ref> ; <ref target="http://syriaca.org/work/5">Deut. i. 1—14</ref>; <ref target="http://syriaca.org/work/7">Judges, i. 1—7</ref>; <ref target="http://syriaca.org/work/20">Prov. ii.
+                  1—15</ref>; <ref target="http://syriaca.org/work/51">Jerem. i. 1—10</ref>; <ref target="http://syriaca.org/work/90">Hebr. vi. 11—17</ref>.</note>
+              </msItem>
+              <msItem xml:id="b31" n="32">
+                <locus from="85b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the third Sunday after the
+                  Resurrection</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܬܠܬܐ ܕܒܬܪ ܩܝܡ̣ܬܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/2">Exod. ii. 11— 22</ref>; <ref target="http://syriaca.org/work/26">Ezek. iii. 22—iv. 3</ref>; <ref target="http://syriaca.org/work/78">1 Corinth, ii. 6—iii. 3</ref>.</note>
+              </msItem>
+              <msItem xml:id="b32" n="33">
+                <locus from="87b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the fourth Sunday after the
+                  Resurrection</title>
+                <rubric xml:lang="syr">ܕܚܕܒܫܒܐ ܕܐܪ̈ܒܥܐ ܕܒܬܪ ܩܝܡ̣ܬܐ </rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/2">Exod. iii. 13— 22</ref>; <ref target="http://syriaca.org/work/26">Ezek. v. 5—15</ref>; <ref target="http://syriaca.org/work/77">Rom. x. 17—xi. 12</ref>.</note>
+              </msItem>
+              <msItem xml:id="b33" n="34">
+                <locus from="89b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the fifth Sunday after the
+                  Resurrection</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܚܡܫܐ ܕܒܬܪ ܩܝܡ̣ܬܐ </rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/2">Exod. v. 1— 9</ref>; <ref target="http://syriaca.org/work/26">Ezek. vi. 1—9</ref>; <ref target="http://syriaca.org/work/77">Rom. xiii. 12—xiv. 13</ref>.</note>
+              </msItem>
+              <msItem xml:id="b34" n="35">
+                <locus from="91b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the sixth Sunday after the
+                  Resurrection</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܫܬܐ ܕܒܬܪ ܩܝܡ̣ܬܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/2">Exod. v. 10— vi. 1</ref>; <ref target="http://syriaca.org/work/26">Ezek. viii. 14—ix. 10</ref>; <ref target="http://syriaca.org/work/77">Rom. vi. 12— 23</ref>.</note>
+              </msItem>
+              <msItem xml:id="b35" n="36">
+                <locus from="94a"/>
+                <author>Athanasius of Antioch</author>
+                <title xml:lang="en">lessons for the Ascension of our Lord</title>
+                <rubric xml:lang="syr">ܪ̈ܝܢܐ ܕܣܘܠܩܗ ܕܡܪܢ </rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/1">Gen. xli. 14—37</ref>; <ref target="http://syriaca.org/work/4">Num. ix. 15—23</ref>; <ref target="http://syriaca.org/work/12">2 Kings, ii. 1—14</ref>; <ref target="http://syriaca.org/work/23">Isaiah, vi. 1—13</ref>; <ref target="http://syriaca.org/work/86">1 Tim.
+                  iii. 14—iv. 8</ref>.</note>
+              </msItem>
+              <msItem xml:id="b36" n="37">
+                <locus from="97b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the seventh Sunday after the
+                  Ascension</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܫܒܥܐ ܕܒܬܪ ܣܘܠܩܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/47">Wisdom, xii. 2— 18</ref>; <ref target="http://syriaca.org/work/23">Isaiah, li. 9—16</ref>; <ref target="http://syriaca.org/work/81">Ephes. iv. 1—16</ref>.</note>
+              </msItem>
+              <msItem xml:id="b37" n="38">
+                <locus from="99b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the Sunday of Pentecost</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܦܢܛܝܩܘܣܛܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/2">Exod. iii. 1—12</ref>; <ref target="http://syriaca.org/work/4">Num. xi. 16—29</ref>; <ref target="http://syriaca.org/work/18">Job, xxxii. 6—xxxiii. 13</ref>; <ref target="http://syriaca.org/work/47">Wisdom, vii. 15—28</ref>;
+                  <ref target="http://syriaca.org/work/29">Joel, ii. 28—32</ref>; <ref target="http://syriaca.org/work/26">Ezek. ix. 11—x. 22</ref>; <ref target="http://syriaca.org/work/78">1 Corinth, xii. 1—18</ref>.</note>
+              </msItem>
+              <msItem xml:id="b38" n="39">
+                <locus from="105b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the (first) Sunday after Pentecost</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܒܬܪ ܦܢܛܝܩܘܣܛܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/2">Exod. xvi. 9—26</ref>; <ref target="http://syriaca.org/work/18">Job, vi. 1—30</ref>; <ref target="http://syriaca.org/work/78">1 Corinth, vi. 1—11</ref>,</note>
+              </msItem>
+              <msItem xml:id="b39" n="40">
+                <locus from="108a"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the second Sunday after Pentecost</title>
+                <rubric xml:lang="syr">ܐ ܕܚܕܒܫܒܐ ܕܬܪܝܢ ܕܒܬܪ ܦܢܛܝܩܘܣܛܐ </rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/2">Exod. xviii. 1—12</ref>; <ref target="http://syriaca.org/work/18">Job, vii. 1—21</ref>; <ref target="http://syriaca.org/work/83">Coloss. iii. 1—17</ref>
+                </note>
+              </msItem>
+              <msItem xml:id="b40" n="41">
+                <locus from="110a"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the third Sunday after Pentecost</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܬܠܬܐ ܕܒܬܪ ܦܢܛܝܩܘܣܛܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/2">Exod. xviii. 13—27</ref>; <ref target="http://syriaca.org/work/18">Job, viii. 1—22</ref>; <ref target="http://syriaca.org/work/84">1 Thessal. i. 2— 10</ref>.</note>
+              </msItem>
+              <msItem xml:id="b41" n="42">
+                <locus from="112b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the fourth Sunday after Pentecost</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܐܪ̈ܒܥܐ ܕܒܬܪ (sic) ܦܢܩܣܛܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/2">Exod. xx. 1— 20</ref>; <ref target="http://syriaca.org/work/18">Job, ix. 1—28</ref>; <ref target="http://syriaca.org/work/78">1 Corinth, vii. 1—15</ref>.</note>
+              </msItem>
+              <msItem xml:id="b42" n="43">
+                <locus from="115a"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the fifth Sunday after Pentecost</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܚܡܫܐ ܕܒܬܪ ܦܢܛܝܩܘܣܛܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/2">Exod. xx. 21 —xxi. 6</ref>; <ref target="http://syriaca.org/work/18">Job, ix. 29—x. 22</ref>; <ref target="http://syriaca.org/work/85">2 Thessal. i. 3—12</ref>
+                </note>
+              </msItem>
+              <msItem xml:id="b43" n="44">
+                <locus from="117a"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the sixth Sunday after Pentecost</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܫܬܐ ܕܒܬܪ ܦܢܛܝܩܘܣܛܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/2">Exod. xxi. 26—xxii. 4</ref>; <ref target="http://syriaca.org/work/18">Job, xi. 1—20</ref>; <ref target="http://syriaca.org/work/86">1 Tim. iv. 11— v. 8</ref>.</note>
+              </msItem>
+              <msItem xml:id="b44" n="45">
+                <locus from="119a"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the seventh Sunday after Pentecost</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܫܒܥܐ ܕܒܬܪ ܦܢܛܝܩܘܣܛܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/2">Exod. xxii. 5 —20</ref>; <ref target="http://syriaca.org/work/18">Job, xii. 1—xiii. 1</ref>; <ref target="http://syriaca.org/work/85">2 Thessal. ii. 15 —iii. 9</ref>.</note>
+              </msItem>
+              <msItem xml:id="b45" n="46">
+                <locus from="121b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the Commemoration of the holy
+                  Martyrs</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܒܕܘܟܪܢܐ ܕܣ̈ܗܕܐ ܩ̈ܕܝܫܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/85">Gen. iv. 1—16</ref>; <ref target="http://syriaca.org/work/7">Judges, xi. 29—40</ref>; <ref target="http://syriaca.org/work/30">Amos, vii. 10—17</ref>; <ref target="http://syriaca.org/work/23">Isaiah, xliii. 1—21</ref>; <ref target="http://syriaca.org/work/90">Hebr.
+                  xi. 32—xii. 2</ref>
+                </note>
+              </msItem>
+              <msItem xml:id="b46" n="47">
+                <locus from="124b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the Commemoration of the Righteous and of
+                  the Fathers</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܒܕܘܟܪܢܐ ܕܟ̈ܐܢܐ ܘܕܐܒ̈ܗܬܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/4">Num. xx. 23—xxi. 3</ref>; <ref target="http://syriaca.org/work/20">Prov. x. 7—25</ref>; <ref target="http://syriaca.org/work/23">Isaiah, lxv. 13—25</ref>; <ref target="http://syriaca.org/work/90">Hebr. xi. 1—10</ref>
+                </note>
+              </msItem>
+              <msItem xml:id="b47" n="48">
+                <locus from="126a"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the Commemoration of the Prophets and of the
+                  Dead</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܒܕܘܟܪܢܐ ܕܢ̈ܒܝܐ ܘܕܥܢܝ̈ܕܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/5">Deut. xxxii. 48—xxxiii. 5</ref>; <ref target="http://syriaca.org/work/28">Hosea, xiii. 9—xiv. 3</ref>; <ref target="http://syriaca.org/work/79">2 Corinth, v. 1—10</ref>
+                </note>
+              </msItem>
+              <msItem xml:id="b48" n="49">
+                <locus from="127a"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons the Reception of a Bishop</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܩ̇ܘܒܠܐ ܕܐܦܝܣܩܘܦܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/1">Gen. viii. 20—ix. 11</ref>; <ref target="http://syriaca.org/work/9">1 Sam. xi. 14—xii. 15</ref>; <ref target="http://syriaca.org/work/23">Isaiah, xlii. 1—9</ref>; <ref target="http://syriaca.org/work/78">1 Corinth.
+                  xii. 28—xiii. 12</ref>.</note>
+              </msItem>
+              <msItem xml:id="b49" n="50">
+                <locus from="129b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for a Scarcity of Rain</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܥܠ ܒܨܝ̣ܪܘܬ ܡܛܪܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/4">Num. xiv. 10—23</ref>; <ref target="http://syriaca.org/work/51">Jerem. xiv. 1—10</ref>; <ref target="http://syriaca.org/work/30">Amos, v. 6—14</ref>; <ref target="http://syriaca.org/work/78">1 Corinth, x. 1—13</ref>.</note>
+              </msItem>
+              <msItem xml:id="b50" n="51">
+                <locus from="131a"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for a time of Wrath (θεομηνία)</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܙܒܢܐ ܕܪܘܓܙܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/1">Gen. xlvii. 13—26</ref>; <ref target="http://syriaca.org/work/4">Num. xvi. 21—35</ref>; <ref target="http://syriaca.org/work/51">Jerem. viii. 18—ix. 9</ref>; <ref target="http://syriaca.org/work/90">Hebr. xii.
+                  3—13</ref>.</note>
+              </msItem>
+              <msItem xml:id="b51" n="52">
+                <locus from="133a"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the Dedication of the Cross</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚ̇ܘܕܬܐ ܕܨܠܝܒܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/1">Gen. xlviii. 8—20</ref>; <ref target="http://syriaca.org/work/9">1 Sam. xiv. 24—36</ref>; <ref target="http://syriaca.org/work/23">Isaiah, xlv. 18—xlvi. 4</ref>; <ref target="http://syriaca.org/work/78">1 Corinth. i.
+                  18— 31</ref>.</note>
+              </msItem>
+              <msItem xml:id="b52" n="53">
+                <locus from="135b"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the Sunday before the Nativity</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܩܕܡ ܒܝܬ ܝܠ̣ܕܐ </rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/4">Num. xvi. 41—50</ref>; <ref target="http://syriaca.org/work/51">Jerem. xxx.7—22</ref>; <ref target="http://syriaca.org/work/90">Hebr. viii. 3—10</ref>.</note>
+              </msItem>
+              <msItem xml:id="b53" n="54">
+                <locus from="137a"/>
+                <author>Athanasius of Antioch</author>
+                <author>Athanasius V</author>
+                <title xml:lang="en">lessons for the Sunday after the Nativity</title>
+                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܚܕܒܫܒܐ ܕܒܬܪ ܒܝܬ ܝܠ̣ܕܐ</rubric>
+                <note>
+                  <ref target="http://syriaca.org/work/1">Gen. xxv. 27—34</ref>; <ref target="http://syriaca.org/work/4">Num. xxiii. 16—26</ref>; <ref target="http://syriaca.org/work/23">Isaiah, xxii. 20—25</ref>; <ref target="http://syriaca.org/work/90">Hebr. i. 1— ii.
+                  1.</ref>
+                </note>
+              </msItem>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="leaf">
+              <supportDesc material="perg">
+                <extent>
+                  <measure unit="content_pending" quantity="-1"/>
+                </extent>
+                <foliation/>
+                <collation/>
+                <condition>
+                  <list>
+                    <item>
+                      <p>Vellum, 11 in. by 8 3/8, consisting of 139 leaves. The quires, signed with
+                        letters, are 13 in number. There are from 22 to 32 lines in each page. </p>
+                    </item>
+                  </list>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <p>Content pending</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
+                <desc>The writing is a stiff, formal Estrangela, with occasional vowel points (e.g.
+                  fol. 12 b, ܓܶܠܴܝ̇ܽܘܢܐܳ fol. 111 a, ܡܰܦ̣ܩܶܕ fol. 131 a, ܡܢ ܩܲܪܷܐ ܠܰܩܲܪܷܐ) </desc>
+              </handNote>
+            </handDesc>
+            <additions>
+              <list>
+                <item xml:id="addition1" n="1">
+                  <p>At the end are the following rubric and epigraph, stating that this volume was
+                    compiled by <persName>Athanasius, patriarch of Antioch</persName>, and written by his disciple
+                    <persName>Romanus</persName> in the year 1311, A.D. 1000.</p>
+                  <p>
+                    <quote xml:lang="syr">ܫܠ̣ܡ ܠܡ̣ܟܬܒ ܦܠܓܘܬܐ ܗܕܐ ܕܦܘܪܫ ܩܪ̈ܝܢܐ ܕܟܪܘܟܝܐ ܕܟܠܗ̇ ܫܢܬܐ. ܡܢ ܟܬ̈ܒܐ ܕܕܝܐܬܝܩܐ
+                      ܥܬܝܩܬܐ ܘܚ̇ܕܬܐ: ܫܢܬ ܐ̇ܠܦܐ ܘܬܠܬܡܐܐ ܘܚܕܥܣܪ̈ܐ: ܒܪܝܟ ܡܚ̇ܝܠܢܗ̇ ܕܫܦܠ̣ܘܬܝ. ܥܒ̣ܕ ܘܟ̇ܢܫ
+                      ܐܘܟܝܬ ܦ̇ܪܫ ܠܩܪ̈ܝܢܐ ܗܠܝܢ ܡܪܝ ܐ݊ܬܢܐܣܝܘܣ ܦܐ݊ܛܪܝܐܪܟܝܣ ܕܐܢܛܝܘܟܝܐ ܕܟܘܪܣܝܐ ܫܠܝܚܐ
+                      (sic) ܟܬ̣ܒ ܕܝܢ ܪܘܡܐܢܘܣ ܒ̣ܨܝܪܐ ܬܠܡܝܕܐ ܘܥܒ̣ܕܐ ܕܝܠܗ. ܟܠ ܕܩ̇ܪܐ̣ ܢܨ̇ܠܐ.</quote>
+                  </p>
+                </item>
+                <item xml:id="addition2" n="2">
+                  <p>On the margins of the manuscript Greek words have been occasionally written by
+                    the scribe; e.g. foll. 3 b, ⲤΤΑΜΝΟⲤ (Hebr. ix. 3, Harkl.), 75 a, ΕΠΑΦΡΑ (Coloss.
+                    i. 7), 104 a, 109 b. The word ܐܣܛܪܢܝܐ (1 Tim. v. 6), from στρῆνος, στρηνιάω, is
+                    explained on the margin of fol. 119 a by ܦܘܿܢܩܐ ܘܙܢܝܘܬܐ.</p>
+                </item>
+                <item xml:id="addition3" n="3">
+                  <p>On fol. 57 a, there are two rudely drawn figures, representing the Annunciation
+                    of the Virgin; and on fol. 114 b, a head. There are also coloured ornaments in
+                    various patterns at the end of several lessons; e.g. foll. 4 a, 6 b, 13 b, 15 b,
+                    57 b.</p>
+                </item>
+                <item xml:id="addition4" n="4">
+                  <locus from="139a"/>
+                  <p>On fol. 139 a, there is the following note in Estrangela characters: "This
+                    Lectionary belongs to the holy church of the glorious and holy Mār Bar-saumā;
+                    may his blessing be upon the sinner who wrote (this) according to his ability,
+                    <persName>Constantine</persName>,” etc. </p>
+                  <p>
+                    <quote xml:lang="syr">’ܐܝܬܘܗܝ ܟܬܒܐ ܗܢܐ ܕܦ̇ܪܫ ܩܪ̈ܝܢܐ ܕܥܕܬܐ ܩܕܝܫܬܐ ܕܢܨ̇ܝܚ ܫ̈ܘܦܪܐ
+                      ܏ܩܕ ܡܪܝ ܒܪܨܘܡܐ ܨܠܘܬܗ ܥܠ ܚ̇ܛܝܐ ܕܟܬ̣ܒ ܐܝܟ ܚ̇ܝܠܗ ܩܘܣܛܢܛܝܢ ܒܨܝܪܐ ܒܡ̈ܫܡܢܐ (sic)
+                      ܘܚܛܝܐ ܡܢ ܟܠ ܐܢܫ: ܐܠܗܐ ܢ̇ܚܣܐ ܠܟܠ ܕܡ̇ܚܣܐ ܠܗ ܐܡܝܢ. </quote>
+                  </p>
+                </item>
+                <item xml:id="addition5" n="5">
+                  <locus from="139a"/>
+                  <p>Beside it there is written in small cursive characters: "Whosoever reads, let
+                    him pray for the sinner <persName>Yeshūa</persName>’, full of faults and sores, who read in it; who,
+                    in the year 1533 (A.D. 1222) was persecuted in the holy church of Mār Bar-saumā
+                    in <placeName>Antioch</placeName>. And there was with me a man, who feared God more than all of us,
+                    <persName>Rabban Jacob</persName>, of the convent of Mār Bar-saumā, and he strengthened and comforted
+                    me;" etc.</p>
+                  <p>
+                    <quote xml:lang="syr">ܕܩ̇ܪܐ ܢܨ̇ܠܐ ܥܠ ܝܫܘܥ ܚܛܝܐ ܘܡ̣ܠܐ ܡܘܡ̈ܐ ܘܚܒܪ̈ܬܐ ܗ̇ܘ ܕܩܪܐ ܒܗ.
+                      ܕܫܢܬ ܐܘܢ̇܏ܠܓ ܪܕܝܦ ܗܘܐ ܒܥܕܬܐ ܩܕܝܫܬܐ ܕܡܪܝ ܒܪܨܘܡܐ. ܒܐܢܛܝ. ܘܐܬܛܝܒ ܠܝ ܐܢܫ ܕܕܚܠ ܡܢ
+                      ܟܠ ܐܠܗܐ. ܪܒܢ ܝܥܩܘܒ ܡܢ ܥܘܡܪܐ ܕܡܪܝ ܒܪܨܘܡܐ ܘܠܒܒ̣ܢܝ ܘܥܙܝܢܝ: ܐܠܗܐ ܢܚܣܐ ܠܗ
+                      ܐܡܝܢ.</quote>
+                  </p>
+                </item>
+                <item xml:id="addition6" n="6">
+                  <locus from="139a"/>
+                  <p>Across the foot of the page is a still later note, written by a deacon of
+                    Melitene, named <persName>Agrippas (ܐܓܪܝܦܘܣ )</persName>, who visited the church of Bar-saumā in
+                    company with a periodeutes, whose name has been erased.</p>
+                  <p>
+                    <quote xml:lang="syr">ܐܝܬܘܿܗܝ ܟܬܒ̇ܐ ܗܢܐ ܕܦܘܪܫ ܩܪ̈ܝܢܐ ܕܥܕܬܐ ܕܥܕܬܐ ܩܕܝܫܬܐ ܕܢܨܝܚܐ
+                      ܘܠܒܝܫ ܠܐܠܗܐ. ܡܪܝ. ܒܪܨܘܡܐ. ܡ̇ܪܐ. ܕܝ̇ܠܢ. ܨܠܘܬܗ. ܬܥܕܪ ܘܬܣܝ̇ܥ. ܠܕܘܝܐ ܘܚ̇ܛܝܐ.
+                      ܘܡܣܟ݂ܢܐ. ܐܓܪܝܦܘܣ: ܒܨܝܪܐ ܏ܒܡܫܡ ܕܡܢ ܡܝܠܝܛܝ̇ܢܝ ܡܕܝܢܬܐ ܡܫܒܚܬܐ ܘܐܬܛܝ̇ܒ ܗܪܟܐ. ܥܡ
+                      ܣܥܘܪܐ. . . ܡܢ ܥܘܡܪܐ ܕܡܪܝ ܒܪܨܘܡܐ ܐܠܗܐ ܢܚܣܐ ܠܟ̇ܠ ܕܡܚ̇ܣܐ ܠܗ. ܘܠܥܢܝ̈ܕܘܗܝ ܡܗ̈ܝܡܢܐ
+                      ܘܟܠܚܕ ܐܝܟ ܨܠܘܬܗ̇ ܢܩܒܠ ܒܐܥܦܐ ܥ̇ܦܝܦܐ.</quote>
+                  </p>
+                </item>
+                <item xml:id="addition7" n="7">
+                  <locus from="139a"/>
+                  <p>In an older hand than that of either of these notes are the words, now
+                    partially erased:</p>
+                  <p>
+                    <quote xml:lang="syr">ܦܘܪܫ ܩܪ̈ܝܢܐ ܕܗܝܟܠܐ ܩܕܝܫܐ ܕܡܪܝ ܒܪܨܘܡܐ ܢܨܝܚܐ.</quote>
+                  </p>
+                </item>
+                <item xml:id="addition8" n="8">
+                  <locus from="1a"/>
+                  <p>On fol.1 a, there is written in rude Arabic characters, with scarcely any
+                    diacritical points: "The sinner <persName>Serkis (Sergius)</persName>, who hopes for the mercy of
+                    God, looked into this holy book. May God forgive him who reads,” etc.</p>
+                  <p>
+                    <quote xml:lang="ar">نضر هذا الكتاب العزيز الخاطي سركس الراجي رحمة الله غفر الله
+                      لمن قرا وترحم عليه و علي جميع اولاد المعمودية</quote>
+                  </p>
+                </item>
+                <item xml:id="addition9" n="9">
+                  <locus from="1a"/>
+                  <p>Beneath this is the following epistolary form, a part of which is repeated with
+                    one or two slight variations. The writing is much faded and very indistinct.</p>
+                  <p>
+                    <quote xml:lang="syr">ܒܫܡܐ ܕܐܠܗܐ ܚ̇ܝ̣ܐ ܘܚ̇ܢ̣ܢܐ ܠܪܚܡ ܐܠܗܐ. ܘܡܨܒܬ ܒܟ̈ܠܗܝܢ ܛܒ̈ܬܐ.
+                      ܪܝܫܢܐ ܡܫܒܚܐ. ܐܚܐ ܕܝܠܢ. ܦܠܢ ܢܛܝܪ ܒܐܠܗܐ ܐܡܝܢ. ܐܚܝ̈ܟ ܒܡܪܝܐ. ܘܡܨ̈ܠܝܢܐ ܐܡܝ̈ܢܐ
+                      ܕܚܠܦܝܟ. ܪܝܫܕܝܪܐ ܘܕܝܪ̈ܝܐ ܐܟܚܕܐ ܕܒܥܘܡܪܐ ܟܗܢܝܐ ܕܢ̇ܨܝܚܐ ܘܓ݁ܒܝܐ ܕܐܠܗܐ. ܡܪܝ ܒܪܨܘܡܐ.
+                      ܏ܫܩ @[In the portion repeated, ܏ܫܠܩܕ ; for ܫܠܡܐ ܩܕܝܫܐ..]@ ܡܩܪܒܝܢܢ. ܒܐܝ̈ܕܝܐ
+                      ܕܐܚܐ ܕܝܠܢ. ܪܒܢ ܦܠܢ ܕܝܪܝܐ ܡܝܩܪܐ. ܘܣܥܘܪܐ ܪܚܡ ܐܠܗܐ. ܩܒܠ ܏ܒܗܝܡ ܐܝܟ ܥܝ̈ܕܝܟ ܫܦܝܪ̈ܐ.
+                      ܘܥ̇ܕܪ ܐܝܟ ܚ̇ܝ̣ܠܐ ܟܡܐ ܕܡܨܝܐ. ܘܥܘܗܕܢܟ ܒܪܝܟܐ ܘܛܒܐ. ܘܥܢܝ̈ܕܝܟ ܡܢ̈ܚܐ. ܐܡܝܢܐܝܬ. ܐܚ̈ܝܢ
+                      ܣܥܘܪ̈ܐ. ܐܘܕܝܘ ܡܢܟ ܣܓ̈ܝܐܬܐ. ܡܫܝܚܐ ܐܠܗܐ. ܘܗ̣ܘ ܩܕܝܫܐ ܢܦܪܥܟ ܦܘܪ̈ܥܢܐ ܐܘܢܓ̈ܠܝܐ. ܘܠܐ
+                      ܥܒܘܪ̈ܐ. ܘܢܒܪܟ ܦܘܠܚܢܐ ܘܩܢܝܘܬܐ ܕܝܠܟ. ܘܢܢـ . . . . ܡܢܚ̈ܐ. ܒܝܕ ܨܠܘܬܗ̇ ܕܝ̇ܠܕܬ݀ ܐܠܗܐ
+                      ܡܪܝܡܢ ܘܕܝܠܗ ܕܩܕܝܫܐ. ܐܡܝܢ. </quote>
+                  </p>
+                </item>
+              </list>
+            </additions>
+            <bindingDesc>
+              <p>Content pending</p>
+            </bindingDesc>
+            <sealDesc>
+              <p>Content pending</p>
+            </sealDesc>
+            <accMat/>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1000"/>
+              <origDate datingMethod="Seleucid" when="1311"/>
+              <origPlace/>
+            </origin>
+            <provenance/>
+            <acquisition/>
+          </history>
+          <additional>
+            <adminInfo>
+                    <recordHist>
+                        <source>Manuscript description based on <bibl>
+                            <ref target="#Wright">Wright's
+                            Catalogue</ref>
+                        </bibl>, abbreviated by the Syriaca.org editors.</source>
+                    </recordHist>
+                    <note/>
+                </adminInfo>
+            <listBibl>
+              <bibl xml:id="Wright">
+                <author>William Wright</author>
+                <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired
+                        since the Year 1838</title>
+                <pubPlace>London</pubPlace>
+                <date>1870</date>
+                <ptr target="http://syriaca.org/bibl/8"/>
+                <citedRange unit="entry">CCXXIV</citedRange>
+                <citedRange unit="pp">1:154-159</citedRange>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <interpretation>
+                <p>Description is based on Wright's Catalogue without consultation of physical
+                    manuscripts. Foliation is approximate. Wright often does not indicate ending folia so
+                    those have been assumed based on beginning folia.</p>
+                <p>Scribal notes which could not be more clearly classified based on Wright's descriptions
+                    have been identified as &lt;addition&gt;s whether they occur in the margins or the body
+                    of the manuscript.</p>
+                <p>In general, we have classified as an &lt;msItem&gt; as much of the manuscript contents
+                    as possible, including tables of contents and indices.</p>
+            </interpretation>
+        </editorialDecl>
+        <classDecl>
+            <taxonomy xml:id="Wright-BL-Taxonomy">
+                <bibl>
+                    <ref target="#Wright"/>
+                    <ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy.html"/>
+                </bibl>
+                <category xml:id="biblical-manuscripts">
+                    <category xml:id="bible-ot">
+                        <catDesc>Old Testament</catDesc>
+                    </category>
+                    <category xml:id="bible-nt">
+                        <catDesc>New Testament</catDesc>
+                    </category>
+                    <category xml:id="bible-apocrypha">
+                        <catDesc>Apocrypha</catDesc>
+                    </category>
+                    <category xml:id="bible-punctuation">
+                        <catDesc>Punctuation</catDesc>
+                    </category>
+                </category>
+                <category xml:id="service-books">
+                    <category xml:id="psalter">
+                        <catDesc>Psalters</catDesc>
+                    </category>
+                    <category xml:id="lectionaries">
+                        <catDesc>Lectionaries</catDesc>
+                    </category>
+                    <category xml:id="missals">
+                        <catDesc>Missals</catDesc>
+                    </category>
+                    <category xml:id="sacerdotals">
+                        <catDesc>Sacerdotals</catDesc>
+                    </category>
+                    <category xml:id="choral">
+                        <catDesc>Choral Books</catDesc>
+                    </category>
+                    <category xml:id="hymns">
+                        <catDesc>Hymns</catDesc>
+                    </category>
+                    <category xml:id="prayers">
+                        <catDesc>Prayers</catDesc>
+                    </category>
+                    <category xml:id="funerals">
+                        <catDesc>Funeral Services</catDesc>
+                    </category>
+                </category>
+                <category xml:id="theology">
+                    <category xml:id="theo-single">
+                        <catDesc>Individual Authors</catDesc>
+                    </category>
+                    <category xml:id="theo-collected">
+                        <catDesc>Collected Authors</catDesc>
+                    </category>
+                    <category xml:id="theo-catenae">
+                        <catDesc>Catenae Patrum and Demonstrations against Heresies</catDesc>
+                    </category>
+                    <category xml:id="theo-anonymous">
+                        <catDesc>Anonymous Works</catDesc>
+                    </category>
+                    <category xml:id="theo-council">
+                        <catDesc>Councils of the Church and Ecclesioastical Canons</catDesc>
+                    </category>
+                </category>
+                <category xml:id="wright-history">
+                    <category xml:id="history">
+                        <catDesc>History</catDesc>
+                    </category>
+                </category>
+                <category xml:id="lives">
+                    <category xml:id="lives-collect">
+                        <catDesc>Collected Lives</catDesc>
+                    </category>
+                    <category xml:id="lives-single">
+                        <catDesc>Single Lives</catDesc>
+                    </category>
+                </category>
+                <category xml:id="scientific-lit">
+                    <category xml:id="sci-logic">
+                        <catDesc>Logic and Rhetoric</catDesc>
+                    </category>
+                    <category xml:id="sci-grammar">
+                        <catDesc>Grammar and Lexicography</catDesc>
+                    </category>
+                    <category xml:id="sci-ethics">
+                        <catDesc>Ethics</catDesc>
+                    </category>
+                    <category xml:id="sci-medicine">
+                        <catDesc>Medicine</catDesc>
+                    </category>
+                    <category xml:id="sci-agriculture">
+                        <catDesc>Agriculture</catDesc>
+                    </category>
+                    <category xml:id="sci-chemistry">
+                        <catDesc>Chemistry</catDesc>
+                    </category>
+                    <category xml:id="sci-natural-history">
+                        <catDesc>Natural History</catDesc>
+                    </category>
+                </category>
+                <category xml:id="wright-fly-leaves">
+                    <category xml:id="fly-leaves">
+                        <catDesc>Fly Leaves</catDesc>
+                    </category>
+                </category>
+                <category xml:id="appendices">
+                    <category xml:id="appendix-a">
+                        <catDesc>Appendix A</catDesc>
+                    </category>
+                    <category xml:id="appendix-b">
+                        <catDesc>Appendix B</catDesc>
+                    </category>
+                </category>
+            </taxonomy>
+        </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+            <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            <language ident="syr-Syre">Syriac in Estrangela</language>
+            <language ident="syr-Syrj">Vocalized West Syriac</language>
+            <language ident="syr-Syrn">Vocalized East Syriac</language>
+            <language ident="syr-x-syrm">Melkite Syriac</language>
+            <language ident="syr-x-syrp">Palestinian Syriac</language>
+            <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
+            <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
+            <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="cop">Coptic</language>
+        </langUsage>
+      <textClass>
+        <keywords scheme="#Wright-BL-Taxonomy">
+          <list>
+            <item>
+              <ref target="#lectionaries"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-02-23">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jrushing">Initial TEI encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <formula>Content pending</formula>
+  </facsimile>
+  <text>
+    <body>
+      <bibl>Content pending</bibl>
+    </body>
+  </text>
+</TEI>

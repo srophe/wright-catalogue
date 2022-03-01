@@ -1,0 +1,939 @@
+<?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="a" xml:lang="en">BL Add MS 14729, foll. 1-115</title>
+        <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
+        <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+        <funder>The National Endowment for the Humanities</funder>
+        <funder>The Andrew W. Mellon Foundation</funder>
+        <principal>David A. Michelson</principal>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</editor>
+        <respStmt>
+          <resp>Created by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</name>
+        </respStmt>
+        <respStmt>
+            <resp>Based on the work of</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
+        </respStmt>
+        <respStmt>
+            <resp>Edited by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+        </respStmt>
+        <respStmt>
+            <resp>Syriac text entered by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
+        </respStmt>
+        <respStmt>
+            <resp>Greek and coptic text entry and proofreading by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
+        </respStmt>
+        <respStmt>
+            <resp>Project management by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
+        </respStmt>
+        <respStmt>
+            <resp>English text entry and proofreading by</resp>
+            <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0"/>
+    </editionStmt>
+      <publicationStmt>
+        <authority>Syriaca.org: The Syriac Reference Portal</authority>
+        <idno type="URI">http://syriaca.org/manuscript/630/tei</idno>
+        <availability>
+            <p/>
+            <licence target="http://creativecommons.org/licenses/by/3.0/">
+                <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
+            </licence>
+        </availability>
+        <date calendar="Gregorian">2022-02-23-06:00</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="manuscript-630">
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <repository>British Library</repository>
+            <collection>Oriental Manuscripts</collection>
+            <idno type="URI">http://syriaca.org/manuscript/630</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">Add MS 14729, foll. 1-115</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Arabic">832</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Roman">DCCCXXXII</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary/>
+            <textLang mainLang="syr"/>
+            <msItem xml:id="a1" n="1">
+              <author ref="826">John Saba</author>
+              <title xml:lang="en">Selections from the writings of John Saba</title>
+              <note>the first four pages are almost completely torn away.</note>
+              <msItem xml:id="b1" n="2">
+                <locus from="4a"/>
+                <author ref="826">John Saba</author>
+                <title xml:lang="en">Imperfect discourse</title>
+              </msItem>
+              <msItem xml:id="b2" n="3">
+                <locus from="8a"/>
+                <author ref="826">John Saba</author>
+                <title xml:lang="en">On subjection</title>
+                <rubric xml:lang="syr">ܕܫܘܥܒܕܐ</rubric>
+                <note>mutilated at the beginning</note>
+              </msItem>
+              <msItem xml:id="b3" n="4">
+                <locus from="13a"/>
+                <author ref="826">John Saba</author>
+                <title xml:lang="en">A letter</title>
+                <rubric xml:lang="syr">ܐܓܪܬܐ</rubric>
+                <note>mutilated at the beginning</note>
+                <note>It is evidently identical with ep. 40 in <bibl>Assemani, Bibl. Or., t. i., p.
+                  443.</bibl>
+                </note>
+              </msItem>
+              <msItem xml:id="b4" n="5">
+                <locus from="14a"/>
+                <author ref="826">John Saba</author>
+                <title xml:lang="en">A letter</title>
+                <incipit xml:lang="syr">ܐܢܐ ܐܚܝ. ܟܠܝܘܡ ܥ̇ܒܕ ܐܢܐ ܫܘܪܝܐ ܕܦܘܠܚܢ ܚ̈ܝܐ. ܟܐܡܬ
+                  ܒܐܫܟܪܐ</incipit>
+                <note>
+                  <bibl>See Assemani, p. 443, ep. 41.</bibl>
+                </note>
+              </msItem>
+              <msItem xml:id="b5" n="6">
+                <locus from="14b"/>
+                <author ref="826">John Saba</author>
+                <title xml:lang="en">A letter</title>
+                <incipit xml:lang="syr">ܠܝܬ ܒܣܝܼܡ</incipit>
+                <note>mutilated at the beginning</note>
+                <note>
+                  <bibl>See Assemani, p. 444, ep. 42.</bibl>
+                </note>
+              </msItem>
+              <msItem xml:id="b6" n="7">
+                <locus from="15a"/>
+                <author ref="826">John Saba</author>
+                <title xml:lang="en">A letter</title>
+                <note>mutilated at the beginning</note>
+                <note>
+                  <bibl>See Assemani, p. 444, ep. 43.</bibl>
+                </note>
+              </msItem>
+              <msItem xml:id="b7" n="8">
+                <locus from="18a"/>
+                <author ref="826">John Saba</author>
+                <title xml:lang="en">On the remembrance and contemplation of God</title>
+                <rubric xml:lang="syr">ܥܠ ܥܘܗܕܢܐ ܘܪܢܝܐ ܕܐܠܗܐ</rubric>
+                <incipit xml:lang="syr"> ܥܠ ܪܢܝܐ ܕܐܠܗܐ ܕܫܐܠ̣ܬ ܐܚܝ ܠܡܟܬܒ ܠܟ. ܠܐ ܝ̇ܕܥ ܐܢܐ ܙܢܐ ܕܒܥܬܟ.
+                  ܏ܘܫ</incipit>
+                <note>See <bibl>Assemani, p. 441, no. 29.</bibl>
+                </note>
+              </msItem>
+              <msItem xml:id="b8" n="9">
+                <author ref="826">John Saba</author>
+                <title xml:lang="en">The letters of John Sābā</title>
+                <rubric xml:lang="syr">ܐܓܪ̈ܬܐ ܕܐܫܬܕܪܘ ܡܢܗ ܠܐܢܫ ܐܢܫ</rubric>
+                <msItem xml:id="c1" n="10">
+                  <locus from="22a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">"to a great Father"</title>
+                  <rubric xml:lang="syr"> ܏ܩܕܡ ܠܘܬ ܣܒܐ ܪܒܐ </rubric>
+                  <incipit xml:lang="syr"> ܠܕܒܢܘܗܪܐ ܐܠܗܝܐ ܕܒܢܦܫܗ ܐܫ̣ܝܕ ܟܣ̈ܝܬܐ ܒ̇ܚܪ</incipit>
+                  <note>See <bibl>Assemani, p. 441, ep. 1.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c2" n="11">
+                  <locus from="23b"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">“to another Father,"</title>
+                  <rubric xml:lang="syr">ܐܓܪܬܐ ܏ܕܒ ܕܠܘܬ ܣܒܐ ܐܚܪܢܐ</rubric>
+                  <incipit xml:lang="syr"> . . . ܠܡܬܕܡܪܘ ܒܫܘܦܪܗ ܕܚܘܒܟ. ܡܟܣܐ ܡܨܥܪ̈ܢܐ ܕܠܐ ܢ̣ܕܬ ܠܗ ܡܢ
+                    ܗ̇ܘ ܕܥܠ ܥܠܡܐ ܢܕܝܕܐ ܐܬ݂ܢܕܕ. ܏ܘܫ</incipit>
+                  <note>See <bibl>Assem., p. 441, ep. 2.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c3" n="12">
+                  <locus from="24b"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">"to a brother, who was once his friend,"</title>
+                  <rubric xml:lang="syr"> ܏ܕܓ ܠܘܬ ܐܚܐ ܕܒܙܒܢ ܡܚܒܢܗ ܗܘܐ ܘܒܬܪܟܢ ܐܫܬܡܥ ܠܒܝܫܐ ܘܗܦܟ ܘܡܨܚܐ
+                    ܗܘܐ ܠܗ</rubric>
+                  <incipit xml:lang="syr">ܛ̇ܒ ܚ̇ܕܐ ܐܢܐ ܒܓܘ̈ܢܝܐ. ܘܠܨܥܪ̈ܐ ܝܘܬܪܢܐ ܚܫܒ ܐܢܐ</incipit>
+                  <note>See<bibl>Assem., p. 441, ep. 3.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c4" n="13">
+                  <locus from="24b"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Fourth letter</title>
+                  <incipit xml:lang="syr"> ܫܘܡܗܟ ܐܚܝ ܥ̇ܠ̣ܝ ܗܘ ܡܢ . . . ـܡܟ. ܐܦ ܕܘܒܪܟ ܢܗܘ̣ܐ ܡܣܒܗ
+                    ܠܕܗ̇ܢܘܢ . . . ܐܬܟܢ̣ܝܬ܇ ܏ܘܫ</incipit>
+                  <note>See <bibl>Assem., p. 441, ep. 4.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c5" n="14">
+                  <locus from="27a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Fifth letter</title>
+                  <incipit xml:lang="syr">ܠܕܫ̇ܡܥ ܘܡܫܬܡܥ ܫܠܡܗ ܕܡܩܕܫܢܐ ܢܗܘ̣ܐ ܥ܏ܠܘ ܐܘ ܒܪܢܫܐ ܕܐܠܗܐ. ܫܡܥ
+                    ܠܡ̈ܠܝ ܪܚ̇ܡܟ. ܘ܏ܫ.</incipit>
+                  <note>See <bibl>Assem., p. 441, ep. 5.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c6" n="15">
+                  <locus from="28a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Sixth letter</title>
+                  <incipit xml:lang="syr">ܗܒ̣ ܦܘܩܕܢܐ ܠܐܚ̈ܐ ܐܘ ܐܒܐ ܕܠܐ ܢܐܡ̈ܘܢ ܒܫܡ ܐܠـ[ـܗܐ ܣـ]ـܟܠܐܝܬ
+                    ܒܟܠ ܡܡܠܐ. ܏ܘܫ</incipit>
+                  <note>See <bibl>Assem., p. 441, ep. 6.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c7" n="16">
+                  <locus from="29a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Seventh letter</title>
+                  <rubric xml:lang="syr"> ܕܫܒܥ ܙܘܗܪ̈ܐ</rubric>
+                  <incipit xml:lang="syr"> ܐܙܕܗ̣ܪ ܐܚܝ. ܡܢ ܡܘ̈ܒܕܝ ܢܦܫܬܗ̈ܘܢ ܘܢ̈ܦܫܬܐ ܕܐܚ̈ܝܗܘܢ.. </incipit>
+                  <note>See <bibl>Assem., p. 442, ep. 7.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c8" n="17">
+                  <locus from="29b"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Eighth letter</title>
+                  <incipit xml:lang="syr">ܠܝܬ ܠܢ ܕܦܪ̈[ܨܘܦܐ ܕܚ̈ܕ]ܕܐ ܢܚܙܐ ܒܠܥܕ ܡܨܥܝܘܬܗ ܕܢܘܗܪܐ
+                      ܒܪܝܐ.</incipit>
+                  <note>See <bibl>Assem., p. 442, ep. 8.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c9" n="18">
+                  <locus from="29b"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Ninth letter</title>
+                  <incipit xml:lang="syr"> . . . ܥܠ ܐܝܟܢܝܘܬܟܘܢ. ܘܫܒܚܬ ܠܡܪܢ ܥܠ ܚܘ[ܠܡܢـ]ܟܘܢ.
+                    ܏ܘܫ.</incipit>
+                  <note>Imperfect.</note>
+                  <note>See <bibl>Assem., p. 442, ep. 9.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c10" n="19">
+                  <locus from="30a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Eleventh letter</title>
+                  <note>imperfect at the beginning</note>
+                  <note>see <bibl>Assem., p. 442, ep. 11</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c11" n="20">
+                  <locus from="32a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Twelfth letter</title>
+                  <incipit xml:lang="syr"> ܫܡܥܝܢܝ ܐܚܝ ܘܐܡ̇ܪ ܠܟ ܫܪܪܐ ܕܝ̇ܠܦܬ ܡܢ ܐܠܗܝ. ܏ܘܫ</incipit>
+                  <note>See <bibl>Assem., p. 442, ep. 12.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c12" n="21">
+                  <locus from="32b"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Thirteenth letter</title>
+                  <incipit xml:lang="syr">ܠܕܐܡܝܢ ܥ̇ܡܕ ܥܡܕܐ ܪܐܙܢܝܐ ܕܡܢ ܟܠ. ܏ܘܫ</incipit>
+                  <note>See <bibl>Assem., p. 442, ep. 13.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c13" n="22">
+                  <locus from="36a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Fifteenth letter</title>
+                  <incipit xml:lang="syr">ܫܡ̣ܥ ܐܚܝ ܡܕܡ ܕܐܡ̣ܪ ܩܕܡܝ ܐܢܫ ܫܪܝܪܐ. ܕܟܕ ܒܐܘܪܚܐ ܕܪ̈ܚ̣ܡܐ ܪܕ̇ܐ
+                    ܗܘܝܬ ܪܚܝ̣ܡܐ ܦܓܥ ܒܝ ܘܐܥܛܦܢܝ. ܏ܘܫ</incipit>
+                  <note>See <bibl>Assem., p. 442, ep. 15.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c14" n="23">
+                  <locus from="36b"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Sixteenth letter</title>
+                  <incipit xml:lang="syr">ܐܡ̣ܪ ܗܦܘ ܕܥܠܘܗܝ ܒܥܘܬܟܘܢ. ܫ̣ܡܥ ܡܪܝܐ ܚܫܟܘܢ ܕܚܠܦܝ. ܘܛ̣ܪܕ ܡܢܝ
+                    ܠܓܝܘܢ ܛܐܡܬܐ. ܏ܘܫ. </incipit>
+                  <note>See <bibl>Assem., p. 442, ep. 16.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c15" n="24">
+                  <locus from="37b"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Seventeenth letter</title>
+                  <incipit xml:lang="syr">ܩܕܡ ܓܝܪ ܕܐܬܒܩܝܬ ܚܐܪܘܬܢ ܒܡܣܝܒܪܢܘܬܐ. ܢܝܚܐ ܠܢܦܫܢ ܒ̈ܥܝܢܢ.
+                    ܏ܘܫ.</incipit>
+                  <note>See <bibl>Assem., p. 442, ep. 17.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c16" n="25">
+                  <locus from="39a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Eighteenth letter</title>
+                  <incipit xml:lang="syr"> ܨܝ̇ܕܐ ܕܨ̇ܐܕ ܨܝ̣ܕܐ. ܒܠܩܛܐ ܒ̇ܕܪ ܥܠ ܦܚܗ. ܘܗܟܢ ܡܫܟܚ ܨ̇ܐܕ ܠܗ.
+                    ܏ܘܫ.</incipit>
+                  <note>See <bibl>Assem., p. 442, ep. 18.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c17" n="26">
+                  <locus from="41a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Nineteenth letter</title>
+                  <incipit xml:lang="syr"> ܠܐ ܬܚܫ ܡܛܠܬܝ ܢܘܗܪܐ ܕܥ̈ܝܢܝ</incipit>
+                  <note>See <bibl>Assem., p. 442, ep. 19.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c18" n="27">
+                  <locus from="41b"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Twentieth letter</title>
+                  <incipit xml:lang="syr"> ܡܢ ܒܬܪ ܡܬܝܬܝ ܕܡܢ ܠܘܬܟ. ܐܙܝܥ̣ ܥܠܝ ܐܪܟܘܢܐ ܣܝ̈ܥ̣ܬܗ ܟܠܗܝܢ
+                    ܕܥܘ̣ܠܐ. ܏ܘܫ.</incipit>
+                  <note>See <bibl>Assem., p. 442, ep. 20.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c19" n="28">
+                  <locus from="41b"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Twenty-first letter</title>
+                  <incipit xml:lang="syr">ܐܩܝܡ ܐܚܝ ܗܘܢܟ ܒܠܐ ܙܘܥܙܥ. ܘܬܗ̣ܪ ܒܚܘܒܗ ܕܐܠܗܐ ܕܠܘܬܢ.
+                    ܏ܘܫ.</incipit>
+                  <note>See <bibl>Assem., p. 442, ep. 21.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c20" n="29">
+                  <locus from="42a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Twenty-second letter</title>
+                  <incipit xml:lang="syr"> ܕܫ̇ܐܠ̣ܬܢܝ ܐܚܝ. ܐܝܟܢܐ ܐܝ܏ܬܘ ܐܠܗܐ ܟܠ ܟܠܗ ܒܟܠܕܘܟ. ܟܕ ܒܕܘܟ ܠܐ
+                    ܡܣܬܝܟ. ܏ܘܫ.. </incipit>
+                  <note>See <bibl>Assem., p. 442, ep. 22.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c21" n="30">
+                  <locus from="43b"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Twenty-third letter</title>
+                  <incipit xml:lang="syr">ܕܫ̣ܐܠܬ ܡܢܝ ܕܐܘܕܥܟ ܗܠܝܢ ܕܝܠܟ. ܒܗܕܐ ܛܒ̇ ܚ̇ܕܐ ܐܢܐ. ܏ܘܫ.. </incipit>
+                  <note>See <bibl>Assem., p. 443, ep. 23.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c22" n="31">
+                  <locus from="44a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Twenty-fourth letter</title>
+                  <incipit xml:lang="syr">ܐܢܐ ܕܝܢ ܠܐܒܐ ܒܡܫܝܚܗ ܝ̇ܕܥ ܐܢܐ</incipit>
+                  <note>See <bibl>Assem., p. 443, ep. 24.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c23" n="32">
+                  <locus from="44a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Twenty-fifth letter</title>
+                  <incipit xml:lang="syr">ܡܢܐ ܐܝܬ ܠܝ ܕܐܟܬܘܒ ܠܟ. ܐܘ ܚܒܝܒ ܠܝ ܡܢ ܟܠ. ܏ܘܫ.</incipit>
+                  <note>See <bibl>Assem., p. 443, ep. 25.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c24" n="33">
+                  <locus from="44b"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Letter</title>
+                  <incipit xml:lang="syr">ܨܠܡܐ ܕܐܠܗܐ ܐܘ ܒܪܢܫܐ ܐܝܬܝܟ. ܨ̇ܒܐ ܐܢܬ ܕܢܣܒ ܨܠܡܐ ܕܘܡܝܐ
+                    ܕܬ݀ܦܢܟܐ </incipit>
+                </msItem>
+                <msItem xml:id="c25" n="34">
+                  <locus from="44b"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Letter 26</title>
+                  <note>See <bibl>Assem., p. 443, ep. 26.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c26" n="35">
+                  <locus from="45a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Letter 30</title>
+                  <incipit xml:lang="syr">ܥܠ ܪܚܡܬܐ ܕܐܠܗܐ ܡܢ ܕܨ̇ܒܐ ܕܢܐܡ̣ܪ. ܠܐ ܝـ[ܕܥـ]ـܬܗ ܡܟܪܙ ܥܕܠܐ
+                    ܐܪܓܫ ܒܠܐ ܡܬܡܨܝܢܘܬܐ ܕܠܓ̇ܡܪ. ܏ܘܫ.. </incipit>
+                  <note>See <bibl>Assem., p. 443, ep. 30.</bibl>
+                  </note>
+                  <note>Letter 30 is imperfect at the beginning</note>
+                </msItem>
+                <msItem xml:id="c27" n="36">
+                  <locus from="45b"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Letter 31</title>
+                  <incipit xml:lang="syr">$ ܕܟܬܒ̣ܬ ܠܝ ܐܚܝ ܕܠܡܐ ܢܓܕܫ ܠܟ ܚܙܘܩܝܐ ܘܐܫܟܚ ܐܘܠܨܢܐ. ܐܢܗܘܼ
+                    ܕܬܗܘܐ ܗܕܐ ܠܐ ܬܚ̣ܫ. ܏ܘܫ.</incipit>
+                  <note>See <bibl>Assem., p. 443, ep. 31.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c28" n="37">
+                  <locus from="46a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Letter 32</title>
+                  <incipit xml:lang="syr">ܠܕܚ̇ܕܬ ܗܘܼ ܠܗ ܕܡ̣ܘܬܐ ܕܐܪܝܝܗ ܕܒܘܪܣܝܐ. ܏ܘܫ</incipit>
+                  <note>See <bibl>Assem., p. 443, ep. 32.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c29" n="38">
+                  <locus from="47b"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Letter 33</title>
+                  <incipit xml:lang="syr"> ܠܕܚ̇ܕܬ ܗܘܼ ܠܗ ܕܡ̣ܘܬܐ ܕܐܪܝܝܗ ܕܒܘܪܣܝܐ. ܏ܘܫ.</incipit>
+                  <note>See <bibl>Assem,, p. 443, ep. 33.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c30" n="39">
+                  <locus from="48a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Letter 34</title>
+                  <incipit xml:lang="syr"> ܝ̇ܕܥ ܐܢܐ ܠܟ ܐܘ ܓܒܪܐ ܓܢܒܪ ܒܡܪܝܐ. ܕܠܣܝܡܬܟ ܡܛܫܐ ܐܢܬ. </incipit>
+                  <note>See <bibl>Assem., p. 443, ep. 34.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c31" n="40">
+                  <locus from="49a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Letter 35</title>
+                  <incipit xml:lang="syr">ܐܝܠܝܢ ܕܬܒܥ̣ܢܝ ܚܘܒܟ ܐܚܝ. ܕܛܥ̈ܝܢܝ ܫܘ̈ܡܬܗ ܕܝܫܘܥ. ܒܗ̈ܕܡܘܗܝ
+                    ܙܩ̈ܝܦܐ ܐܝ̇ܬܝܗܘܢ. ܏ܘܫ</incipit>
+                  <note>See <bibl>Assem., p. 443, no. 35.</bibl>
+                  </note>
+                  <note>It concludes with two prayers.</note>
+                </msItem>
+                <msItem xml:id="c32" n="41">
+                  <locus from="52a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Letter 36</title>
+                  <incipit xml:lang="syr"> ܐܝܠܝܢ ܕܐܬܢ̇ܦܚܘ ܒܗܘܢܗܘܢ ܪܘܚ ܚ̈ܝܐ ܡܢ ܡܠܬܐ ܝܚܝܕܝܐ.</incipit>
+                  <note>See <bibl>Assem., p. 443, ep. 36.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c33" n="42">
+                  <locus from="55b"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Letter 37</title>
+                  <incipit xml:lang="syr">ܐܢܕܝܢ ܬܐܡ̣ܪ ܐܚܝ. ܕܥܠ ܡܢܐ ܠܐ ܬ݀ܢܐ ܐܢ̣ܐ ܡܢ ܗܠܝܢ ܪ̈ܐܙܐ ܓ̈ܢܝܙܐ
+                    ܩܕܡܝܟ ܠܒܘܝܐܝܟ ܟܕ ܬܐܬ݂ܐ ܠܘܬܝ ܏ܘܫ.</incipit>
+                  <note>See <bibl>Assem., p. 443, ep. 37.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c34" n="43">
+                  <locus from="56a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">"to a brother whom his parents' creditors were
+                    pressing” </title>
+                  <rubric xml:lang="syr"> ܕܬܠܬ̈ܝܢ ܘܬܫ̈ܥ. ܠܘܬ ܐܚܐ ܕܐ̈ܠܨܝܢ ܗܘܘ ܠܗ ܡܪ̈ܝ ܚ̇ܘܼܒܐ ܕܐܒ̈ܗܘܗܝ
+                    ܦܓܪ̈ܢܝܐ., </rubric>
+                  <incipit xml:lang="syr"> ܠܟܠ ܕܒܥ̇ܐ ܠܟ ܚܘܒܬܐ ܗܕܐ ܐܡ̣ܪ ܠܗ. ܐܢ ܐܒܐ ܥܠܡܝܐ ܐܝܬ ܠܝ ܐܦ
+                    ܝܪܬܘܬܗ ܩܢ̣ܐ ܐܢܐ</incipit>
+                  <note>See <bibl>Assem., p. 443, ep. 38.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c35" n="44">
+                  <author ref="826 ">John Saba</author>
+                  <title xml:lang="en">on repentance</title>
+                  <rubric xml:lang="syr"> ܕܐܪ̈ܒܥܝܢ ܕܥܠ ܬܝ̇ܒܘܬܐ ܕܣܒܐ ܏ܩܕ</rubric>
+                  <incipit xml:lang="syr">ܐܢܕܝܢ ܬܐܡ̣ܪ ܐܚܝ. ܕܐܝܟܢܐ ܬܝܒܘܬܐ ܡܫܟܚܐ ܡܚܕܬܐ ܠܒܪܢܫܐ ܕܐܬܐܡ̣ܣܝ
+                    ܘܐܬܚܲܒܠ ܒܚܛܝ̣ܬܐ. ܏ܘܫ.</incipit>
+                </msItem>
+                <msItem xml:id="c36" n="45">
+                  <locus from="61b"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Letter 39</title>
+                  <incipit xml:lang="syr"> ܣܥ̣ܘ ܛܝܒܘܬܐ ܘܨܠܘ ܥܠܝ. ܘܥܡ ܒ̈ܣܝܡܐ ܣܩ̣ܘ ܠܪܝܫ
+                    ܛܘܼܪܐ</incipit>
+                  <note>See <bibl>Assem., p. 443, ep. 39.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c37" n="46">
+                  <locus from="62a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">on the effects of grace in those that labour</title>
+                  <rubric xml:lang="syr"> ܕܐܪ̈ܒܥܝܢ ܘܬܪ̈ܬܝܢ. ܥܠ ܡܥܒ̈ܕܢܘܬܐ ܕܛܝܒܘܬܐ. ܕܗ̈ܘܝܢ ܠܘܬ
+                    ܦ̈ܠܘܚܐ</rubric>
+                  <incipit xml:lang="syr"> ܪܐܙܐ ܕܟܣ̣ܐ ܗܘܐ ܒܐܓܪܬܟ ܩ̇ܪܝܬ. ܐܘ ܦܠܘܚܐ ܟܫ̇ܝܪܐ. ܘܐܬܡ̇ܠ̣ܝܬܝ
+                    ܢܦܫܝ ܚܕܘܬܐ ܘܪܘ̇ܙܐ ܕܠܐ ܡܬܡܠܠ</incipit>
+                  <note>See <bibl>Assem., p. 444, epp. 44—47.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c38" n="47">
+                  <locus from="64b"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">to a friend, on the same subject, viz. of the degrees
+                    (of holiness) produced by Divine Grace</title>
+                  <rubric xml:lang="syr"> ܕܐܪ̈ܒܥܝܢ ܘܬܠܬ̈ ܠܘܬ ܐܢܫ ܐܚܪܝܢ ܡܢ ܡ̈ܚܒܢܘܗܝ. ܥܠܝܗܝܢ ܟܕ ܥܠܝܗܝܢ
+                    ܕܡ̈ܫܘܚܬܐ ܕܡܢ ܛܝܒܘܬܐ</rubric>
+                  <incipit xml:lang="syr"> ܒܪܝܟ ܗܘ ܐܠܗܐ ܐܒܘܗܝ ܕܡܪܢ ܝܫܘܥ ܡܫܝܚܐ. ܕܓ̇ܠ̣ܐ ܪܐܙܐ ܕܚܘܒܗ
+                    ܒܢ̈ܦܫܬܢ.</incipit>
+                  <note>See <bibl>Assem., p. 444, ep. 48.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c39" n="48">
+                  <locus from="69b"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">on the degrees (of holiness)</title>
+                  <rubric xml:lang="syr"> ܐܓܪܬܐ ܕܣܒܐ ܕܡ̈ܘܫܚܬܐ ܏ܓ</rubric>
+                  <incipit xml:lang="syr"> ܬܠܬܐ ܐܝܬܝܗܘܢ ܐܬܪ̈ܘܬܐ ܕܗܘܢܐ ܕܒܗܘܢ ܣܠ̇ܩ ܘܢ̇ܚܬ. ܗ̇ܢܘ ܕܝܢ
+                    ܒܩܕܡܝܐ ܡܬܝܠܕ. ܘܒܕܬܪ̈ܝܢ ܡܬܪܒܐ. ܒܗ̇ܘ ܕܝܢ ܕܬܠܬܐ ܡ̇ܫܬܡܠܐ. ܘܬܪ̈ܝܢ ܕܟܝܢܐ ܐܝܬܝܗܘܢ.
+                    ܬܠܝܬܝܐ ܕܝܢ ܠܥܠ ܡܢ ܟܝܢܐ ܐܝܬܘܗܝ. ܏ܘܫ.</incipit>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b9" n="49">
+                <author ref="826 ">John Saba</author>
+                <title xml:lang="en">Heads of knowledge</title>
+                <rubric xml:lang="syr"> ܬܘܒ ܪ̈ܝܫܐ ܕܝ̈ܕܥܬܐ ܕܝܠܗ ܕ܏ܩܕ܏ ܡܪܝܘܚܢܢ ܣܒܐ.</rubric>
+                <msItem xml:id="c40" n="50">
+                  <locus from="70a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Part A</title>
+                  <rubric xml:lang="syr">ܡܐܡܪܐ ܩܕܡܝܐ</rubric>
+                  <incipit xml:lang="syr"> ܟܕ ܫܬܐܣܬܐ ܕܡܠܬܢ ܠܡܪܢ ܝܫܘܥ ܡܫܝܚܐ ܣܝ̇ܡܝܢܢ. ܠܚܝܠܗ ܠܐ ܡܙܕܟܝܢܐ
+                    ܡܬܟ̇ܫܦܝܢܢ ܕܗ̣ܘ ܒܚܢܢܗ ܢܥ̣ܒܕ ܫܘܪܝܐ ܘܫܘܠܡܐ ܠܡܐܡܪܢ ܐܝܟ ܕܫ̇ܦܪ ܠܨܒܝܢܐ
+                    ܕܪ̈ܚ܏ܡܘ.</incipit>
+                  <note>See <bibl>Assem., p. 441, no. 30, serm. i.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c41" n="51">
+                  <locus from="72a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Part B</title>
+                  <rubric xml:lang="syr">ܕܝܠܗ </rubric>
+                  <incipit xml:lang="syr"> ܢܘܪܐ ܡܬܝܕܥܢܝܬܐ ܕܐܡܝܢܐܝܬ ܡܬܢܒܪܫܐ ܒܢܦܫܐ ܐܬ݀ܐ ܗܝ ܕܫܲܪܝ ܡܬܦܬܚ
+                    ܬܪܥܐ ܕܪ̈ܚܡܐ ܩܕܡܝܗ̇.</incipit>
+                </msItem>
+                <msItem xml:id="c42" n="52">
+                  <locus from="76a"/>
+                  <author ref="826">Part C</author>
+                  <rubric xml:lang="syr">ܕܝܠܗ</rubric>
+                  <incipit xml:lang="syr"> ܠܒܗ ܕܝܚܝܕܝܐ ܓܢܬ ܥܕܝܢ ܐܝܬ܏ܘ</incipit>
+                </msItem>
+                <msItem xml:id="c43" n="53">
+                  <locus from="79a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Part D</title>
+                  <rubric xml:lang="syr">ܕܝܠܗ</rubric>
+                  <incipit xml:lang="syr"> ܙܩܝܦܐ ܡܬܪܓܫܢܐ ܐܝ܏ܬܘ ܡܕܥܐ ܕܙܩܝ̣ܦ ܠܘܩܒܠ ܚ̈ܘܫܒܐ ܕܠܒ̣ܪ ܡܢ
+                    ܟܝܢܐ..</incipit>
+                </msItem>
+                <msItem xml:id="c44" n="54">
+                  <locus from="79b"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">of the intellect</title>
+                  <rubric xml:lang="syr">ܕܗܘܢܐ</rubric>
+                  <incipit xml:lang="syr"> ܗܟܢܐ ܡ̇ܩܒܠ ܗܘܢܐ ܣܝܒܪܬܐ ܪܘܚܢܝܬܐ ܡܢ ܬܐܘܪܝܐ ܕܬܠܝܬܝܘܬܐ ܏ܩܕ.
+                    ܐܝܟ ܕܡ̈ܩܒܠܝܢ ܚ̈ܝܠܘܗܝ ܕܦܓܪܐ ܬܘܪܣܝܐ ܓܫܝܡܐ ܡܢ ܐܣܛܘܡܟܐ.</incipit>
+                </msItem>
+                <msItem xml:id="c45" n="55">
+                  <locus from="80b"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Part F</title>
+                  <rubric xml:lang="syr">ܪ̈ܝܫܐ ܕܝܕܥܬܐ ܕܝܠܗ</rubric>
+                  <incipit xml:lang="syr">ܐܢܗ̣ܘ ܕܡܠܟܘܬܗ ܕܐܠܗܐ ܠܓܘ ܡܢܢ ܐܝܬܝܗ̇. ܏ܘܫ</incipit>
+                  <note>See <bibl>Assem., p. 441, no. 32, serm. 2.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c46" n="56">
+                  <locus from="86b"/>
+                  <author ref="826 ">John Saba</author>
+                  <title xml:lang="en">Part G</title>
+                  <rubric xml:lang="syr">ܕܝܠܗ</rubric>
+                  <incipit xml:lang="syr"> ܢܘܗܪܐ ܕܠܐ ܙܒܢܐ ܠܨܡܚܐ ܙܒܢܝܐ ܚܕ ܥܒܕܗ ܥܡܗ. ܠܟܠܗܝܢ ܕܡܪܘܬܗ.
+                    ܘܒܗ̇ܘ ܕܠܐ ܙܒܢܐ ܚܕ ܒܠܚܘܕ</incipit>
+                  <note>See <bibl>Assem., p. 441, no. 30, serm. 3.</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c47" n="57">
+                  <locus from="87a"/>
+                  <author ref="826">John Saba</author>
+                  <title xml:lang="en">Part H</title>
+                  <rubric xml:lang="syr">ܬܘܒ ܕܝܠܗ</rubric>
+                  <incipit xml:lang="syr"> ܚܘܒܐ ܐܠܗܝܐ. ܡܐ ܕܒܝܕ ܥ̣̈ܡܠܐ ܢܓܝܪ̈ܐ ܘܨ̈ܠܘܬܐ ܘܕܡ̈ܥܐ ܘܡܝܬܘܬܐ
+                    ܕܡܢ ܟܠ ܡܬܛܒܥ ܒܠܒܐ ܕܟܝܐ. ܠܐ ܦܪܝܫ ܡܢ ܝܘܩܢܗ ܕܡ̇ܠܟܐ ܕܡܬܛܒ̣ܥ ܒܕܝܢܪܐ.</incipit>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b10" n="58">
+                <locus from="88a"/>
+                <author>the brother of John Sābā</author>
+                <title xml:lang="en">Apology, composed by the brother of John Sābā, and
+                  prefixed to his collected works</title>
+                <rubric xml:lang="syr">ܡܦܩ ܒܪܘܚܐ ܕܥܒܝܕ ܠܐܚܐ ܕܝܠܗ ܕܩܕܝܫܐ ܐܚܐ ܦܓܪܢܝܐ ܡܛܠ ܗܢܐ ܟܬܒܐ
+                  ܕܡܘܕܥ ܕܐܝܟܢܐ ܗܘܐ</rubric>
+                <incipit xml:lang="syr"> ܡܦܝ̣ܣ ܐܢܐ ܠܟܠ ܕܦܓ̇ܥ ܒܫܪ̈ܒܐ ܗܠܝܢ. ܒܚܘܒܗ ܕܐܠܗܐ ܕܠܐ ܢܗܘܐ ܥ̇ܕܠ
+                  ܠܟܬܘܒܐ. ܕܓܠܝܐܝܬ ܡܡ̇ܠܠ ܪ̈ܐܙܝ ܪܘܚܐ ܒܦܪܪܝܣܝܐ. ܡܛܠ ܕܠܘܬܝ ܕܝܠܝ ܕܐܝ̇ܬܝ ܐܚܘܗܝ ܕܝܠܗ ܕܩܕܝܫܐ
+                  ܝܘܚܢܢ ܟܬ݂ܒ ܫܪ̈ܒܐ ܗܠܝܢ ܝܘܡ ܡܢ ܝܘܡ.</incipit>
+              </msItem>
+              <msItem xml:id="b11" n="59">
+                <locus from="88b"/>
+                <author ref="826">John Sābā</author>
+                <title xml:lang="en">A letter of John Sābā to his brother</title>
+                <rubric xml:lang="syr"> ܬܘܒ̣ ܐܓܪܬܐ ܕܝܠܗ ܕܟܬܘ̇ܒܐ. ܕܠܘܬ ܐܚܘܗܝ ܕܒܥܘܡܪܐ ܕܕܝܪܐ</rubric>
+                <incipit xml:lang="syr"> ܝ̇ܕܥ ܐܢܬ ܐܚܝ ܕܠܟ ܒܠܚܘܕܝܟ ܟܬܒ̇ܬ ܣܘܪ̈ܛܐ ܗܠܝܢ ܫܝ̣̈ܛܐ ܘܒܨܝ̣ܪ̈ܐ.
+                  ܒܙܒܢ ܙܒܢ ܡܢ ܩܕܡ ܫ̈ܢܝܐ ܣܓ̈ܝܬܐ ܘܥܕܡܐ ܠܝܘܡܢܐ ܠܡܒܝܐܝܘܬܟ ܡܢ ܚܫܐ ܕܥܠ ܡܫܘܚܕܘܬܐ ܕܝܠܝ.
+                  ܏ܘܫ.</incipit>
+                <note>See <bibl>Assem., p. 435</bibl>
+                </note>
+              </msItem>
+              <msItem xml:id="b12" n="60">
+                <locus from="89a"/>
+                <author ref="826">John Saba</author>
+                <title xml:lang="en">Another apology</title>
+                <rubric xml:lang="syr"> ܬܘܒ ܡ̇ܦܩ ܒܪܘܚܐ ܐܚܪܢܐ. ܡܛܠ ܙܘܗܪ̈ܐ ܕܟܠܢܫ</rubric>
+                <incipit xml:lang="syr">ܡܦ̣ܝܣ ܐܢܐ ܠܟܠ ܕܦܓ̇ܥ ܒܫܪ̈ܒܐ ܗܠܝܢ ܒܚܘܒܗ ܕܐܠܗܐ ܕܠܐ ܢܗܘ̣ܐ ܥ̇ܕܠ
+                  ܠܟܬܘܒܐ. ܒܗ̇ܝ ܕܒܦܪܕܝܣܝܐ ܘܒܚܘܝܚܘܬܐ ܐܡܝܪ̈ܝܢ ܠܗ ܥܠ ܩܢܘܡܗ ܘܥܠ ܚܒܪ̈ܘܗܝ. ܏ܘܫ.</incipit>
+              </msItem>
+            </msItem>
+            <msItem xml:id="a2" n="61">
+              <author>Isaac of Scete</author>
+              <title xml:lang="en">Prayers of Isaac of Scete</title>
+              <msItem xml:id="b13" n="62">
+                <locus from="90b"/>
+                <author>Isaac of Scete</author>
+                <title xml:lang="en">A prayer of Isaac of Scete</title>
+                <rubric xml:lang="syr">ܬܘܒ ܨܠܘܬܐ ܏ܕܩܕ ܡܪܝ ܐܝܣܚܩ ܕܐܣܩܛܝ̣ ܕܒܐܝܠܝܢ ܙܘ̈ܥܐ ܡܬܬܥܝܪ ܗܘܢܐ
+                  (var. $ܪܥܝܢܐ) $ܠܡܚܪ ܒܐܠܗܐ ܒܥܕܢܐ ܕܨܠܘܬܐ. </rubric>
+                <incipit xml:lang="syr">ܐܡܬܝ ܕܡ̇ܨܠܐ ܐܢܬ. ܗܠܝܢ ܐܩ̣ܦ ܠܨܠܘܬܟ ܐܟܚܕ ܕܝܢ ܘܒܟܠܙܒܢ. ܐܠܗܐ
+                  ܐܫܘܢ ܕܐܪܓܫ ܒܗ̇ܘ ܣܒܪܐ ܕܢܛܝܪ ܠܙ̈ܕܝܩܐ ܒܡܬܝܬܟ. ܏ܘܫ..</incipit>
+              </msItem>
+              <msItem xml:id="b14" n="63">
+                <locus from="93a"/>
+                <author>Isaac of Scete</author>
+                <title xml:lang="en">Another prayer of the same</title>
+                <rubric xml:lang="syr"> ܬܘܒ ܕܝܠܗ ܨܠܘܬܐ ܐܚܪܬܐ. ܥܠܘܗܝ ܥܠ ܢܝ̣ܫܐ ܗܢܐ ܕܐܡ̣ܝܪ</rubric>
+                <incipit xml:lang="syr"> ܡܫܝܚܐ ܕܐܙܠܓ ܢܘܗܪܗ ܒ̈ܠܒܘܬܐ ܕܩ̈ܕܝܫܐ. ܐܢܬ ܦܬ̣ܚ ܩܕܡܝ ܬܪܥܐ
+                  ܕܬܝܒܘܬܐ ܡܫܡ̣ܠܝܬܐ ܏ܘܫ.</incipit>
+              </msItem>
+            </msItem>
+            <msItem xml:id="a3" n="64">
+              <author ref="550">Isaac of Nineveh</author>
+              <title xml:lang="en">Extracts from the writings of Isaac of Nineveh</title>
+              <rubric xml:lang="syr"> ܬܘܒ ܕܡܪܝ ܐܝܣܚܩ ܕܢܝܢܘܐ</rubric>
+              <msItem xml:id="b15" n="65">
+                <locus from="102a"/>
+                <author ref="550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part A</title>
+                <incipit xml:lang="syr"> ܡܢ ܥ̈ܡܠܐ ܕܥܨܝܢܐ. ܡܬܬܚܕ ܪܬܚܐ ܫܓܝܪܐ ܘܕܠܐ ܡܘܫܚܐ ܗ̇ܘ ܕܡܬܢܒܪܫ
+                  ܒܠܒܐ ܡܢ ܚ̈ܘܫܒܐ ܚ̈ܡܝܡܐ ܕܒ̈ܠܩܝܢ ܒܪܥܝܢܐ.</incipit>
+              </msItem>
+              <msItem xml:id="b16" n="66">
+                <author ref="550">Isaac of Nineveh</author>
+                <title xml:lang="en">on vigils</title>
+                <rubric xml:lang="syr">ܕܥܠ ܫܗܪܐ</rubric>
+                <incipit xml:lang="syr">ܠܐ ܬܣܒܪ ܠܟ ܐܘ ܒܪܢܫܐ. ܕܐܝܬ ܒܟܠܗܘܢ ܥ̈ܡܠܐ ܕܝ̈ܚܝܕܝܐ. ܕܘܒܪܐ
+                  ܕܡ̇ܝܬܪ ܡܢ ܫܗܪܐ. ܏ܘܫ. </incipit>
+              </msItem>
+            </msItem>
+            <msItem xml:id="a4" n="67">
+              <locus from="106b"/>
+              <author>a solitary</author>
+              <title xml:lang="en">Letter from a solitary to a friend, who inquired of him
+                which was the way leading unto God</title>
+              <rubric xml:lang="syr">ܬܘܒ ܐܓܪܬܐ ܕܐܫ̇ܬܕܪܬ ܡܢ ܐܢܫ ܡܢ ܝ̈ܚܝܕܝܐ. ܠܘ (sic) ܝܚܝܕܝܐ ܚܒܪܗ
+                ܕܬܒ̣ܥ ܡܢܗ. ܕܐܝܕܐ ܐܘܪܚܐ ܕܡ̇ܩܪܒܐ ܘܡܫܘܫܛܐ ܠܘܬ ܐܠܗܐ.</rubric>
+              <note>See <bibl>Add. 12,167, no. xv.</bibl>
+              </note>
+            </msItem>
+            <msItem xml:id="a5" n="68">
+              <locus from="113b"/>
+              <title xml:lang="en">A short extract</title>
+              <incipit xml:lang="syr"> ܐܢ ܨ̇ܒܐ ܐܢܬ ܕܠܐ ܢܥ̣ܒܪܘܢ ܒܟ ܚ̈ܘܫܒܐ ܒ̈ܝܫ̣ܐ ܫܝ̣ܛܘܬܐ ܕܢܦܫܐ ܩܢ̣ܝ܇
+                ܐܦ ܗ̇ܕܐ ܠܘ ܒܡܢܬܐ. ܐܠܐ ܒܟܠ ܐܬܪ ܘܒܟܠ ܕܘܟ ܘܒܟܠܙܒܢ ܘܒܟܠ ܥ̇ܒܕ.</incipit>
+            </msItem>
+            <msItem xml:id="a6" n="69">
+              <locus from="113b"/>
+              <title xml:lang="en">Stanzas of the Passion</title>
+              <rubric xml:lang="syr"> ܒ̈ܬܐ ܕܚܫܐ</rubric>
+              <incipit xml:lang="syr">ܐܚ̈ܝ ܢ̇ܘܕܐ ܠܒܪܐ ܒܘܟܪܐ. ܕܐܝ܏ܬܘ ܡܢ ܡܬܘܡ ܥܡ ܝܠ̇ܘܕܗ. ܘܡ̇ܟܟ ܢܦܫܗ.
+                ܘܩ̇ܒܠ ܚܫܐ. ܘܒܙܚܐ ܪܒܐ ܡܛܠܬܢ. ܢܠܒܫ ܟܠܢ ܚܫܐ ܒܚܫܗ.</incipit>
+            </msItem>
+            <msItem xml:id="a7" n="70">
+              <locus from="114b"/>
+              <author ref="1345">Jacob of Batnae</author>
+              <title xml:lang="en">A prayer of Jacob of Batnae</title>
+              <rubric xml:lang="syr"> ܒܗ̇ܘ ܥܕܢܐ ܕܐܬ݂ܬ݀ ܡܪܝܡ ܨܝܕ ܓܓܘܠܬܐ. ܚܫ̣ܟ ܗܘܐ ܫܡܫܐ ܘܗܘ̣ܬ݀ ܐܪܥܐ
+                ܒܙܘܥܐ ܪܒܐ.</rubric>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="leaf">
+              <supportDesc material="chart">
+                <extent>
+                  <measure unit="content_pending" quantity="-1"/>
+                </extent>
+                <foliation/>
+                <collation/>
+                <condition>
+                  <list>
+                    <item>
+                      <p>Paper, about 6 1/2 in. by 4 3/4, consisting of 115 leaves, the first 30 of
+                        which are much torn. The quires, signed with letters, were originally 20 in
+                        number, but of these the first eight are now entirely lost. Leaves are also
+                        wanting after foll. 29 and 44. There are from 18 to 25 lines in each page.
+                      </p>
+                    </item>
+                  </list>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <p>Content pending</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr-Syre">
+                <desc>This manuscript is written in a small, current hand, and dated A. Gr. 1183-4,
+                  A.D. 1172-3.</desc>
+              </handNote>
+            </handDesc>
+            <additions>
+              <list>
+                <item xml:id="addition1" n="1">
+                  <locus from="115a"/>
+                  <p>On fol. 115 a there is a note, stating that the manuscript was written, A. Gr.
+                    1483 or 1484 (A.D. 1172 or 1173), in the Egyptian desert, in the convent called
+                    $ ܕܝܪܐ ܕܩ̈ܠܝܡܐ, situated on the stream (wādī) called, $ ܒܗܪܝ. The scribe does
+                    not mention his name.</p>
+                  <p>
+                    <quote xml:lang="syr">ܐܫܬܡܠ̣ܝ ܟܬܒܐ ܗܢܐ ܕ܏ܩܕ ܝܘܚܢܢ ܝܚܝܕܝܐ ܕܡ̇ܫܬܡܗ ܣܒܐ. ܒܫܢܬ ܏ܐܘܬ ܘܬܡܢܝܢ ܘܬܠܬ (marg.
+                    $ܐܠܦ ܘ܏ܬܡܐܐ ܘܬܡܢܝܢ ܘܐܪ̈ܒܥ) $ ܕܝ̈ܘܢܝܐ ܒܐܝܪܚ ܬܫܪܝ ܏ܩܕ ܒܝܘܡ ܚܡܫܐ ܥܐܕܐ ܕܣܪܓܝܘܣ
+                    ܘܒ̇ܟܘܣ. ܒܐܝܕ̈ܝ ܐܢܫ ܡܚ̣ܝܠܐ ܘܚܛܝܐ ܘܣܢܝܩ ܥܠ ܪ̈ܚܡܐ ܕܐܠܗܐ ܘܨ̈ܠܘܬܐ ܕܟܠ ܩܪܘܝܐ ܡܗܝܪܐ.
+                    ܐܠܐ ܬܒ̇ܥ ܐܢܐ ܡܢ ܟܠ ܕܦܓ̇ܥ ܒܟܬܒܐ ܗܢܐ ܏ܘܫ. ܐܬܟܬܒ̣ ܕܝܢ ܗܢܐ ܟܬܒܐ ܒܡܕܒܪܐ ܕܡܨܪܝܢ ܠܓܘ
+                    ܡܢ ܕܝܪܐ ܕܡܫܬܡܗܐ ܕܩ̈ܠܝܡܐ. ܒܪܓܘܠܐ ܕܡܬܟܢܐ ܒܗܪܝ. ܐܚܝ ܫܒܘܩ ܠܝ ܡܛܠ ܕܠܝܬܝ ܟܬܘܒܐ. ܐܠܐ
+                    ܡܢ ܐܠܝܨܘܬܐ ܟܬܒܬܗ ܠܗܢܐ ܟܬܒܐ ܐܝܟ ܕܠܝܘܬܪܢܐ ܕܝܠܝ ܕܘܝܐ. ܘܕܟܠܡ̇ܢ ܕܩ̇ܪܐ ܘܡܬܗܓܐ ܒܗ.
+                    ܏ܘܫ.. </quote>
+                  </p>
+                </item>
+              </list>
+            </additions>
+            <bindingDesc>
+              <p>Content pending</p>
+            </bindingDesc>
+            <sealDesc>
+              <p>Content pending</p>
+            </sealDesc>
+            <accMat/>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate notBefore="1172" notAfter="1173"/>
+              <origDate datingMethod="Seleucid" notBefore-custom="1183" notAfter-custom="1184"/>
+              <origPlace/>
+            </origin>
+            <provenance/>
+            <acquisition/>
+          </history>
+          <additional>
+            <adminInfo>
+                    <recordHist>
+                        <source>Manuscript description based on <bibl>
+                            <ref target="#Wright">Wright's
+                            Catalogue</ref>
+                        </bibl>, abbreviated by the Syriaca.org editors.</source>
+                    </recordHist>
+                    <note/>
+                </adminInfo>
+            <listBibl>
+              <bibl xml:id="Wright">
+                <author>William Wright</author>
+                <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired
+                        since the Year 1838</title>
+                <pubPlace>London</pubPlace>
+                <date>1870</date>
+                <ptr target="http://syriaca.org/bibl/8"/>
+                <citedRange unit="entry">DCCCXXXII</citedRange>
+                <citedRange unit="pp">2:860-865</citedRange>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <interpretation>
+                <p>Description is based on Wright's Catalogue without consultation of physical
+                    manuscripts. Foliation is approximate. Wright often does not indicate ending folia so
+                    those have been assumed based on beginning folia.</p>
+                <p>Scribal notes which could not be more clearly classified based on Wright's descriptions
+                    have been identified as &lt;addition&gt;s whether they occur in the margins or the body
+                    of the manuscript.</p>
+                <p>In general, we have classified as an &lt;msItem&gt; as much of the manuscript contents
+                    as possible, including tables of contents and indices.</p>
+            </interpretation>
+        </editorialDecl>
+        <classDecl>
+            <taxonomy xml:id="Wright-BL-Taxonomy">
+                <bibl>
+                    <ref target="#Wright"/>
+                    <ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy.html"/>
+                </bibl>
+                <category xml:id="biblical-manuscripts">
+                    <category xml:id="bible-ot">
+                        <catDesc>Old Testament</catDesc>
+                    </category>
+                    <category xml:id="bible-nt">
+                        <catDesc>New Testament</catDesc>
+                    </category>
+                    <category xml:id="bible-apocrypha">
+                        <catDesc>Apocrypha</catDesc>
+                    </category>
+                    <category xml:id="bible-punctuation">
+                        <catDesc>Punctuation</catDesc>
+                    </category>
+                </category>
+                <category xml:id="service-books">
+                    <category xml:id="psalter">
+                        <catDesc>Psalters</catDesc>
+                    </category>
+                    <category xml:id="lectionaries">
+                        <catDesc>Lectionaries</catDesc>
+                    </category>
+                    <category xml:id="missals">
+                        <catDesc>Missals</catDesc>
+                    </category>
+                    <category xml:id="sacerdotals">
+                        <catDesc>Sacerdotals</catDesc>
+                    </category>
+                    <category xml:id="choral">
+                        <catDesc>Choral Books</catDesc>
+                    </category>
+                    <category xml:id="hymns">
+                        <catDesc>Hymns</catDesc>
+                    </category>
+                    <category xml:id="prayers">
+                        <catDesc>Prayers</catDesc>
+                    </category>
+                    <category xml:id="funerals">
+                        <catDesc>Funeral Services</catDesc>
+                    </category>
+                </category>
+                <category xml:id="theology">
+                    <category xml:id="theo-single">
+                        <catDesc>Individual Authors</catDesc>
+                    </category>
+                    <category xml:id="theo-collected">
+                        <catDesc>Collected Authors</catDesc>
+                    </category>
+                    <category xml:id="theo-catenae">
+                        <catDesc>Catenae Patrum and Demonstrations against Heresies</catDesc>
+                    </category>
+                    <category xml:id="theo-anonymous">
+                        <catDesc>Anonymous Works</catDesc>
+                    </category>
+                    <category xml:id="theo-council">
+                        <catDesc>Councils of the Church and Ecclesioastical Canons</catDesc>
+                    </category>
+                </category>
+                <category xml:id="wright-history">
+                    <category xml:id="history">
+                        <catDesc>History</catDesc>
+                    </category>
+                </category>
+                <category xml:id="lives">
+                    <category xml:id="lives-collect">
+                        <catDesc>Collected Lives</catDesc>
+                    </category>
+                    <category xml:id="lives-single">
+                        <catDesc>Single Lives</catDesc>
+                    </category>
+                </category>
+                <category xml:id="scientific-lit">
+                    <category xml:id="sci-logic">
+                        <catDesc>Logic and Rhetoric</catDesc>
+                    </category>
+                    <category xml:id="sci-grammar">
+                        <catDesc>Grammar and Lexicography</catDesc>
+                    </category>
+                    <category xml:id="sci-ethics">
+                        <catDesc>Ethics</catDesc>
+                    </category>
+                    <category xml:id="sci-medicine">
+                        <catDesc>Medicine</catDesc>
+                    </category>
+                    <category xml:id="sci-agriculture">
+                        <catDesc>Agriculture</catDesc>
+                    </category>
+                    <category xml:id="sci-chemistry">
+                        <catDesc>Chemistry</catDesc>
+                    </category>
+                    <category xml:id="sci-natural-history">
+                        <catDesc>Natural History</catDesc>
+                    </category>
+                </category>
+                <category xml:id="wright-fly-leaves">
+                    <category xml:id="fly-leaves">
+                        <catDesc>Fly Leaves</catDesc>
+                    </category>
+                </category>
+                <category xml:id="appendices">
+                    <category xml:id="appendix-a">
+                        <catDesc>Appendix A</catDesc>
+                    </category>
+                    <category xml:id="appendix-b">
+                        <catDesc>Appendix B</catDesc>
+                    </category>
+                </category>
+            </taxonomy>
+        </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+            <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            <language ident="syr-Syre">Syriac in Estrangela</language>
+            <language ident="syr-Syrj">Vocalized West Syriac</language>
+            <language ident="syr-Syrn">Vocalized East Syriac</language>
+            <language ident="syr-x-syrm">Melkite Syriac</language>
+            <language ident="syr-x-syrp">Palestinian Syriac</language>
+            <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
+            <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
+            <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="cop">Coptic</language>
+        </langUsage>
+      <textClass>
+        <keywords scheme="#Wright-BL-Taxonomy">
+          <list>
+            <item>
+              <ref target="#theo-collected"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-02-23">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jrushing">Initial TEI encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <formula>Content pending</formula>
+  </facsimile>
+  <text>
+    <body>
+      <bibl>Content pending</bibl>
+    </body>
+  </text>
+</TEI>
