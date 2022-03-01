@@ -146,6 +146,9 @@ declare function msParts:create-composite-document($msPartsDocumentSequence as n
   let $temp := msParts:update-msDesc($msPartsDocumentSequence)
   let $msDesc := $temp[1]
   let $index := $temp[2]
+  
+  (: make the top-level part of the index a record element :)
+  let $index := <record>{$index/@*, $index/*}</record>
   let $textClass := msParts:create-merged-textClass()
   let $revisionDesc := msParts:create-merged-revisionDesc($msPartsDocumentSequence)
   
