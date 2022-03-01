@@ -4,14 +4,14 @@
     <fileOrConsole>file</fileOrConsole>
     <outputFileDirectory>/data/5_finalized/</outputFileDirectory><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
     <manuscriptLevelMetadata>
-        <pathToMsPartsFolder>/data/5_finalized/ms-parts/693/</pathToMsPartsFolder><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
-        <recordTitle>BL Add MS 14738</recordTitle>
-        <uriValue>693</uriValue>
+        <pathToMsPartsFolder>/data/5_finalized/ms-parts/composite-record-created/61/</pathToMsPartsFolder><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
+        <recordTitle>BL Add MS 12172</recordTitle>
+        <uriValue>61</uriValue>
         <country>United Kingdom</country>
         <settlement>London</settlement>
         <repository>British Library</repository>
         <collection>Oriental Manuscripts</collection>
-        <shelfMark>Add MS 14738</shelfMark>
+        <shelfMark>Add MS 12172</shelfMark>
         <revisionDesc>
             <scriptEditor>
                 <editorId>srophe-util</editorId>
@@ -33,97 +33,45 @@
         <fileName>#Part3</fileName>
        The resulting record will have the 4 parts, each renumbered as needed according to the above sequence order.
         -->
-    <compositeMsFile>693.xml</compositeMsFile>
+    <compositeMsFile>61.xml</compositeMsFile>
     <msPartFiles><!-- these should be xml file names containing the data to be converted to msParts. These files should be stored in the folder declared above in the pathToMsPartsFolder text node. They should be ordered according to the sequence they should appear in the msParts sequence (i.e., the first ms part should be the first fileName element in the below sequence, even if it is not the numerically smallest URI value.-->
         <part>
-            <fileName>693.xml</fileName><!-- Requiring both the fileName and oldPartId allows for full flexibility of ordering and reordering -->
+            <fileName>61.xml</fileName><!-- Requiring both the fileName and oldPartId allows for full flexibility of ordering and reordering -->
             <oldPartId>Part1</oldPartId>
         </part>
         <part>
-            <fileName>695.xml</fileName>
+            <fileName>63.xml</fileName>
         </part>
         <part>
-            <fileName>693.xml</fileName>
-            <oldPartId>Part3</oldPartId>
+            <fileName>64.xml</fileName>
         </part>
         <part>
-            <fileName>693.xml</fileName>
+            <fileName>1492.xml</fileName>
+        </part>
+        <part>
+            <fileName>61.xml</fileName>
             <oldPartId>Part4</oldPartId>
         </part>
         <part>
-            <fileName>698.xml</fileName>
-        </part>
-        <part>
-            <fileName>1496.xml</fileName>
+            <fileName>66.xml</fileName>
             <part>
-                <fileName>1490.xml</fileName>
+                <fileName>1493.xml</fileName>
             </part>
             <part>
-                <fileName>699.xml</fileName>
-            </part>
-            <part>
-                <fileName>1491.xml</fileName>
+                <fileName>1494.xml</fileName>
             </part>
         </part>
         <part>
-            <fileName>700.xml</fileName>
+            <fileName>61.xml</fileName>
+            <oldPartId>Part6</oldPartId>
         </part>
         <part>
-            <fileName>701.xml</fileName>
+            <fileName>61.xml</fileName>
+            <oldPartId>Part7</oldPartId>
         </part>
         <part>
-            <fileName>702.xml</fileName>
-        </part>
-        <part>
-            <fileName>703.xml</fileName>
-        </part>
-        <part>
-            <fileName>704.xml</fileName>
-        </part>
-        <part>
-            <fileName>705.xml</fileName>
-        </part>
-        <part>
-            <fileName>706.xml</fileName>
-        </part>
-        <part>
-            <fileName>707.xml</fileName>
-        </part>
-        <part>
-            <fileName>708.xml</fileName>
-        </part>
-        <part>
-            <fileName>709.xml</fileName>
-        </part>
-        <part>
-            <fileName>710.xml</fileName>
-        </part>
-        <part>
-            <fileName>711.xml</fileName>
-        </part>
-        <part>
-            <fileName>712.xml</fileName>
-        </part>
-        <part>
-            <fileName>713.xml</fileName>
-        </part>
-        <part>
-            <fileName>714.xml</fileName>
-        </part>
-        <part>
-            <fileName>715.xml</fileName>
-        </part>
-        <part>
-            <fileName>716.xml</fileName>
-        </part>
-        <part>
-            <fileName>717.xml</fileName>
-        </part>
-        <part>
-            <fileName>718.xml</fileName>
-        </part>
-        <part>
-            <fileName>719.xml</fileName>
+            <fileName>61.xml</fileName>
+            <oldPartId>Part8</oldPartId>
         </part>
     </msPartFiles>
 </config>
