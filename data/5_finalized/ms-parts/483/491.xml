@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -83,17 +84,11 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
               <locus from="37"/>
-              <author>Daniel of Salach</author>
+              <author ref="https://syriaca.org/person/59">Daniel of Salach</author>
               <title xml:lang="en">Fragments of the second volume of the Commentary of
-                  <persName>Daniel of Salach</persName> on the Psalms</title>
-              <msItem xml:id="b1" n="2">
-                <author>Daniel of Salach</author>
-                <title xml:lang="en">Part of the homilies on Pss. li., lviii., and
-                  lxii</title>
-                <rubric xml:lang="syr">ܟܬܒ]ـܐ ܕܬܪܝܢ ܕܦܘܫܩܐ ܕܡܙܡܘܪ̈ܐ ܕܥܒܕ ܪܚܡ ܐܠܗܐ [ܩܫܝܫ]ـܐ ܕܢܝܐܝܠ
-                  ܡܠܦܢܐ. ܠܘܬ ܚܣܝܐ ܘܩܕܝܫܐ ܡܪܝ [ܝܘܚܢـ]ـܢ ܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܩܕܝܫܬܐ [ܕܛܘ]ܒܬܢܐ ܡܪܝ ܐܘܣܒ
-                  [ܕܟܦ]ܪܐ ܕܒܪܬܐ ܕܒܟܘܪܐ ܕܐܘܦܡܝܐ.</rubric>
-              </msItem>
+                  <persName ref="https://syriaca.org/person/59">Daniel of Salach</persName> on <ref target="https://syriaca.org/work/9672">the Psalms</ref>, viz. part of the homilies on <ref target="https://syriaca.org/work/9672">Pss. li.</ref>, <ref target="https://syriaca.org/work/9672">lviii.</ref>, and
+                  <ref target="https://syriaca.org/work/9672">lxii</ref></title>
+              <rubric xml:lang="syr">[ܟܬܒ]ـܐ ܕܬܪܝܢ ܕܦܘܫܩܐ ܕܡܙܡܘܪ̈ܐ ܕܥܒܕ ܪܚܡ ܐܠܗܐ [ܩܫܝܫ]ـܐ ܕܢܝܐܝܠ ܡܠܦܢܐ. ܠܘܬ ܚܣܝܐ ܘܩܕܝܫܐ ܡܪܝ [ܝܘܚܢـ]ـܢ ܪܝܫ ܕܝܪܐ ܕܕܝܪܐ ܩܕܝܫܬܐ [ܕܛܘ]ܒܬܢܐ ܡܪܝ ܐܘܣܒ [ܕܟܦ]ܪܐ ܕܒܪܬܐ ܕܒܟܘܪܐ ܕܐܘܦܡܝܐ.</rubric>
             </msItem>
           </msContents>
           <physDesc>
@@ -109,7 +104,7 @@
                     <item>
                       <p>Three vellum leaves, about 10 in. by 6 5/8, the first of which is much
                         stained and torn. Each page is divided into two columns of from 38 to 41
-                        lines. The writing is neat and regular, of the ixth or xth cent.</p>
+                        lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -120,15 +115,19 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>The writing is neat and regular, of the <origDate notBefore="0800" notAfter="1000">ixth or xth cent.</origDate></desc>
               </handNote>
             </handDesc>
+            <decoDesc>
+              <decoNote xml:id="decoNote1" type="illustration">
+                <desc>On <locus from="37a">the recto of the first leaf</locus> there is a coloured figure of the holy Cross, with the words <quote xml:lang="syr">ܒܟ ܢܕܩܪ ܠܒܥܠܕܒ̈ܒܝ</quote>.</desc>
+              </decoNote>
+            </decoDesc>
             <additions>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="37"/>
-                  <p>On the recto of the first leaf there is a coloured figure of the holy Cross,
-                    with the words </p>
+                  <locus/>
+                  <p/>
                 </item>
               </list>
             </additions>
@@ -142,7 +141,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate from="0800" to="1000">IXth or Xth
+              <origDate notBefore="0800" notAfter="1000">IXth or Xth
                 Century</origDate>
               <origPlace/>
             </origin>
@@ -333,9 +332,9 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-23">Edits to msContents and handDesc; added decoDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-06">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
-      <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

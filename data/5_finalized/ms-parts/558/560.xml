@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14694, foll. 44—106</title>
+        <title level="a" xml:lang="en">BL Add MS 14694, foll. 44-105</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#zzhang">Ziyan Zhang</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#zzhang">Ziyan Zhang</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/560</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14694, foll. 44-106</idno>
+              <idno type="BL-Shelfmark">Add MS 14694, foll. 44-105</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -82,43 +83,41 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus>foll. 44-95a and 95b-105</locus>
+              <locus from="44a"/>
               <title xml:lang="en">A collection of Anaphoras</title>
-              <note>Fol. 106 has been taken from some other manuscript, and used as a flyleaf. It
-                contains part of a prayer.</note>
               <msItem xml:id="b1" n="2">
                 <locus from="44a"/>
-                <author ref="http://syriaca.org/person/1682">Dioscorus</author>
+                <title xml:lang="en" type="supplied">Of <persName ref="https://syriaca.org/person/2432">Dioscorus</persName></title>
                 <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܕܩܕܝܫܐ ܡܪܝ ܕܝܘܣܩܪܘܣ</rubric>
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus from="64a"/>
-                <author ref="http://syriaca.org/person/93">Mārūthā of Tagrit</author>
+                <title xml:lang="en" type="supplied">Of <persName ref="http://syriaca.org/person/93">Mārūthā of Tagrit</persName></title>
                 <rubric xml:lang="syr">ܐܢܦܘܪܐ ܏ܕܩܕ ܡܪܝ ܡܪܘܬܐ</rubric>
-                <note>See Renaudot, Liturg. Orient., t. ii., p. 261, and Assemani, Bibl. Or., t. i.,
-                  p. 179.</note>
+                <note>See <bibl>Renaudot, Liturg. Orient., t. ii., p. 261</bibl>, and <bibl>Assemani, Bibl. Or., t. i.,
+                  p. 179</bibl>.</note>
               </msItem>
               <msItem xml:id="b3" n="4">
                 <locus from="78b"/>
-                <author ref="http://syriaca.org/person/2163">Julius, bishop of Rome</author>
+                <title xml:lang="en" type="supplied">Of <persName ref="http://syriaca.org/person/2163">Julius, bishop of Rome</persName></title>
                 <rubric xml:lang="syr"> ܐܢܢܦܘܪܐ ܏ܕܩܕ ܝܘܠܝܘܣ ܕܪܘܡ̣ܝ</rubric>
               </msItem>
               <msItem xml:id="b4" n="5">
                 <locus from="87a"/>
-                <author ref="http://syriaca.org/person/44">Philoxenus of Mabug</author>
+                <title xml:lang="en" type="supplied">Of <persName ref="http://syriaca.org/person/44">Philoxenus of Mabug</persName></title>
                 <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܕܩܕܝܫܐ ܦܝܠܠܟܣܝܢܘܣ ܕܡ̇ܒܘܓ </rubric>
                 <incipit xml:lang="syr">ܐܠܗܐ ܚ̈ܝܐ ܕܟܠ ܘܢܘܗ̣ܪܐ</incipit>
               </msItem>
               <msItem xml:id="b5" n="6">
                 <locus from="95b"/>
-                <author ref="http://syriaca.org/person/145">Cyriacus of Antioch</author>
-                <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܕ]܏ ܏ܩܕ ܡܪܝ ܩܘܪܝܩܘܣ ܦܛ܏ܪܝܪ [ܕܐܢܛܝܘܟܝܐ]</rubric>
+                <title xml:lang="en" type="supplied">Of <persName ref="http://syriaca.org/person/145">Cyriacus of Antioch</persName></title>
+                <rubric xml:lang="syr">]ܐܢܢܦܘܪܐ ܕ]܏ ܏ܩܕ ܡܪܝ ܩܘܪܝܩܘܣ ܦܛ܏ܪܝܪ [ܕܐܢܛܝܘܟܝܐ]</rubric>
               </msItem>
-              <msItem xml:id="b6" n="7">
+              <msItem xml:id="b6" n="7" defective="true">
                 <locus from="103a"/>
-                <author ref="http://syriaca.org/person/22">Xystus, bishop of Rome</author>
+                <title xml:lang="en" type="supplied">Of <persName ref="http://syriaca.org/person/22">Xystus, bishop of Rome</persName></title>
                 <rubric xml:lang="syr">ܐܢܢܦܪܐ ܕ܏ܩܕ ܟܣܘܣܛܘܣ ܕܪܘܡܝ</rubric>
-                <note>Left unfinished by the scribe</note>
+                <note>Left unfinished by the scribe.</note>
               </msItem>
             </msItem>
           </msContents>
@@ -133,9 +132,10 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Paper, about 8 1/8 in. by 5 1/2, consisting of 63 leaves (Add. 14,694,
-                        foll. 44—106), some of which are slightly torn, especially foll. 88—95 and
-                        106. The quires, signed with letters, are six in number. There are from 12
+                      <p>Paper, about 8 1/8 in. by 5 1/2, consisting of 63 leaves (<bibl>Add. 14,694,
+                          foll. 44—106<ptr target="http://syriaca.org/manuscript/560 http://syriaca.org/manuscript/1495"/></bibl>), some of which are slightly torn, especially foll. 88—95 and
+                        106. <bibl>Fol. <locus from="106">106</locus><ptr target="http://syriaca.org/manuscript/1495"/></bibl> has been taken from some other manuscript, and used as a flyleaf. 
+                        The quires, signed with letters, are six in number. There are from 12
                         to 22 lines in each page.</p>
                     </item>
                   </list>
@@ -145,17 +145,15 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>This manuscript is written, apparently, by two hands of the xiiith cent. (the
-                  two sections are: foll. 44—95 a and 95 b—105).</desc>
+            <handDesc hands="2">
+              <handNote xml:id="handNote1" medium="unknown" scope="minor" script="syr">
+                <desc>This manuscript is written, apparently, by two hands of the <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate> (foll. <locus from="44a" to="95a">44—95 a</locus> and <locus from="95b" to="105">95 b—105</locus>).</desc>
               </handNote>
             </handDesc>
             <additions>
               <list>
                 <item xml:id="addition1" n="1">
-                  <p>Fol. 106 has been taken from some other manuscript, and used as a flyleaf. It
-                    contains part of a prayer.</p>
+                  <p/>
                 </item>
               </list>
             </additions>
@@ -169,7 +167,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1200" notAfter="1300">of the xiiith
+              <origDate notBefore="1200" notAfter="1300">xiiith
                 cent.</origDate>
               <origPlace/>
             </origin>
@@ -360,10 +358,9 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-28">Edits to msContents, condition, and handDesc; created new URI for fly-leaf.</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-02-14">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#zzhang">Initial TEI encoding.</change>
-      <change type="planned" subtype="reconstruction">One or more msParts need to be encoded into an
-        historical reconstruction of a no longer extant manuscript.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

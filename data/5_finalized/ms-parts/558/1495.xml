@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14668, fol. 45</title>
+        <title level="a" xml:lang="en">BL Add MS 14694, fol. 106</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -14,11 +14,10 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
-        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Based on the work of</resp>
@@ -26,7 +25,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarwnine">Justin Arnwine</name>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -50,50 +49,46 @@
     </editionStmt>
       <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/494/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1495/tei</idno>
         <availability>
             <p/>
             <licence target="http://creativecommons.org/licenses/by/3.0/">
                 <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
             </licence>
         </availability>
-        <date calendar="Gregorian">2022-01-03-05:00</date>
+        <date calendar="Gregorian">2022-02-14-06:00</date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-494">
+        <msDesc xml:id="manuscript-1495">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/494</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1495</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14668, fol. 45</idno>
+              <idno type="BL-Shelfmark">Add MS 14694, fol. 106</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Arabic">600</idno>
+              <idno type="Wright-BL-Arabic">267</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Roman">DC</idno>
+              <idno type="Wright-BL-Roman">CCLXVII</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus from="45a"/>
-              <author ref="https://syriaca.org/person/573">John Chrysostom</author>
-              <title xml:lang="en">the conclusion of a discourse of <persName ref="https://syriaca.org/person/573">John Chrysostom</persName> on the
-                second coming of our Lord and on the Antichrist</title>
-              <rubric xml:lang="syr">ܡܐܡܪܐ ܕܡܪܝ ܝܘܚܢܢ: ܐܦܝܣܩܘܦܐ ܕܩܘܣܛܢܛܝܢܦܘܠܝܣ: ܕܥܠ ܡܬܝܬܗ ܕܡܫܝܚܐ ܗ̇ܝ
-                ܕܬܪ̈ܬܝܐ: ܘܥܠ ܐܢܛܝܟܪܝܣܛܘܣ ـܲـ . </rubric>
+              <locus from="106a"/>
+              <title xml:lang="en">Part of a prayer</title>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -102,8 +97,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>A vellum leaf, 9 7/8 in. by 7, slightly torn. The writing is in double columns of 29 lines. It is
-                        the last leaf of a volume</p>
+                      <p>Paper leaf, about 8 1/8 in. by 5 1/2. It has been taken from some other manuscript, and used as a flyleaf for <bibl>Add. 14,694, foll. 44-105<ptr target="http://syriaca.org/manuscript/560"/></bibl>.</p>
                     </item>
                   </list>
                 </condition>
@@ -112,23 +106,15 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="2">
-              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr">
-                <desc>The writing is good and
-                        regular, of the <origDate notBefore="0700" notAfter="0900">viiith or ixth cent.</origDate></desc>
-              </handNote>
-              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
-                <desc>See additions.</desc>
+            <handDesc hands="1">
+              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
+                <desc/>
               </handNote>
             </handDesc>
             <additions>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="45b"/>
-                  <p>On the verso there is a note, in the usual form, relating to the donation of
-                      the abbat <persName ref="https://syriaca.org/person/647">Moses of Nisibis</persName> to the library of
-                    the <placeName ref="http://syriaca.org/place/360">convent of S. Mary Deipara</placeName>, A. Gr. <date datingMethod="Seleucid" when-custom="1243">1243</date>, A.D.
-                    <date calendar="Gregorian" when="0932">932</date>.</p>
+                  <p/>
                 </item>
               </list>
             </additions>
@@ -142,8 +128,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0700" notAfter="0900">VIIIth or IXth
-                Century</origDate>
+              <origDate/>
               <origPlace/>
             </origin>
             <provenance/>
@@ -167,8 +152,8 @@
                 <pubPlace>London</pubPlace>
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
-                <citedRange unit="entry">DC</citedRange>
-                <citedRange unit="pp">2:480-481</citedRange>
+                <citedRange unit="entry">CCLXVII</citedRange>
+                <citedRange unit="pp">1:210</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -326,16 +311,16 @@
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
             <item>
-              <ref target="#theo-single"/>
+              <ref target="#missals"/>
             </item>
           </list>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-24">Edits to msContents, handDesc, and additions</change>
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-03">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-28">Created and encoded new file for fly-leaf.</change>
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-02-14">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+      <change who="http://syriaca.org/documentation/editors.xml#zzhang">Initial TEI encoding.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

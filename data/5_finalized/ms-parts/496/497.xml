@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,24 +83,23 @@
             <summary/>
             <textLang mainLang="syr-Syre"/>
             <msItem xml:id="a1" n="1">
+              <locus from="1a" to="18"/>
               <author ref="https://syriaca.org/person/780">Theodore of Mopsuestia</author>
-              <title xml:lang="en">Fragments of the treatise of Theodore of Mopsuestia on the
-                Incarnation of our Lord, divided into 15 books</title>
-              <rubric xml:lang="grc">Περὶ ἐνανθρωπήσεως τοῦ ὑιοῦ τοῦ θεοῦ λόγοι ιέ</rubric>
-              <rubric xml:lang="syr-Syre">ܡܛܠ ܦܓܪܢܘܬܗ ܕܒܪܐ ܕܐܠܗܐ.</rubric>
+              <title xml:lang="en">Fragments of the treatise of <persName ref="https://syriaca.org/person/780">Theodore of Mopsuestia</persName> on the
+                Incarnation of our Lord, divided into 15 books<note>The Greek title seems to have been <title xml:lang="grc" type="supplied">Περὶ ἐνανθρωπήσεως τοῦ ὑιοῦ τοῦ Θεοῦ λόγοι ιεʹ</title>; that of the Syriac translation was, perhaps, <title xml:lang="syr" type="supplied">ܡܛܠ ܦܓܪܢܘܬܗ ܕܒܪܐ ܕܐܠܗܐ</title>.</note></title>
               <note>See <bibl>O. F. Fritzsche, de Theodori Mopsuesteni vita et scriptis commentatio
-                  (Halae, 1836), p. 88</bibl>; <bibl>Migne, Patrol. Gr., t. lxvi., col. 55</bibl> ;
+                  (Halae, 1836), p. 88</bibl>; <bibl>Migne, Patrol. Gr., t. lxvi., col. 55</bibl>;
                   <bibl>Assemani, Bibl. Or., t. iii., pars 1., p. 33</bibl>; <bibl>Cave, Hist.
                   Liter., t. i., p. 387</bibl>.</note>
               <note>Whether the leaves, as now arranged, are in correct sequence, is very uncertain.
-                The 43d section, ܡܓ, begins on fol. 4 b; and the 6th discourse ends on fol. 6 b,
-                with the subscription $ܫܠܡ ܡܐܡܪܐ ܕܐܫܬܐ. The 50th section, ܢܢ, commences on fol. 7 b.
-                On fol. 10 b we find the conclusion of the 8th discourse and the commencement of the
-                9th, comprising sections ܣܓ, ܣܕ, and ܣܗ, which have been subsequently altered into
-                ܣܕ, ܣܗ, and ܣܘ. The 10th discourse ends, and the 11th begins, on fol. 11 b. On fol.
-                12 b there is also the running title ܡܐܡܪܐ ܕܚܕܥܣܪ. The 78th and 79th sections appear
-                on fol. 17 b.</note>
-              <note>These fragments have been edited, with a Latin translation, by Dr. Sachau, in
+                The 43d section, <foreign xml:lang="syr">ܡܓ</foreign>, begins on fol. <locus from="4b">4 b</locus>; and the 6th discourse ends on fol. <locus from="6b">6 b</locus>,
+                with the subscription <finalRubric xml:lang="syr">ܫܠܡ ܡܐܡܪܐ ܕܐܫܬܐ<locus from="6b"/></finalRubric>. The 50th section, <foreign xml:lang="syr">ܢܢ</foreign>, commences on fol. <locus from="7b">7 b</locus>.
+                On fol. <locus from="10b">10 b</locus> we find the conclusion of the 8th discourse and the commencement of the
+                9th, comprising sections <foreign xml:lang="syr">ܣܓ</foreign>, <foreign xml:lang="syr">ܣܕ</foreign>, and <foreign xml:lang="syr">ܣܗ</foreign>, which have been subsequently altered into
+                <foreign xml:lang="syr">ܣܕ</foreign>, <foreign xml:lang="syr">ܣܗ</foreign>, and <foreign xml:lang="syr">ܣܘ</foreign>. The 10th discourse ends, and the 11th begins, on fol. <locus from="11b">11 b</locus>. On fol.
+                <locus from="12b">12 b</locus> there is also the running title <rubric xml:lang="syr"><fw type="header">ܡܐܡܪܐ ܕܚܕܥܣܪ</fw><locus from="12b"/></rubric>. The 78th and 79th sections appear
+                on fol. <locus from="17b">17 b</locus>.</note>
+              <note>These fragments have been edited, with a Latin translation, by Dr. <persName>Sachau</persName>, in
                   <bibl>"Theodori Mopsuesteni Fragmenta Syriaca," Leipzig, 1869</bibl>
               </note>
             </msItem>
@@ -116,10 +116,12 @@
                   <list>
                     <item>
                       <p>Eighteen vellum leaves, about 10 3/4 in. by 8 3/8, nearly all more or less
-                        stained, torn, and mutilated. The quires are signed with letters (fol. 6 b,
-                        ܛ). Each page is divided into two columns, of from 34 to 37 lines. The
-                        writing is a small, elegant, Edessene Estrangělā, of the vth or vith
-                        cent.</p>
+                        stained, torn, and mutilated. The quires are signed with letters (fol. <locus from="6b">6 b</locus>,
+                        <foreign xml:lang="syr">ܛ</foreign>). Each page is divided into two columns, of from 34 to 37 lines. 
+                        Fol. <locus from="8a" to="8b">8</locus> has been used in binding a volume of the discourses of <persName ref="https://syriaca.org/person/42">Jacob of Batnae</persName>,
+                    as appears from the titles written on the verso:</p>
+                    <p><quote xml:lang="syr">ܡܐܡܪ̈ܐ ܕܥܠ ܗܘܫܥ܀ ܘܥܠ ܛܘܦܢܐ܀ ܥܠ ܐܒܘܢ ܕܒܫܡܝܐ܀ ܘܥܠ ܗ̇ܘ ܒܪܐ ܕܦܪܚ ܢܟ̈ܣܘܗܝ܀ ܕܥܠ ܥܣܪ̈ ܒܬܘܠܘܬܐ <foreign xml:lang="en">(sic)</foreign> ܀ ܕܥܠ ܡܫܬܘܬܐ܀ ܕܥܠ ܡܚܬܗ<foreign xml:lang="en">(sic)</foreign> ܕܡܪܢ܀ ܕܥܠ ܩܛܢܐ ܕܡܕܝܢܬܐ܀ ܕܥܠ ܪ̈ܘܝܐ܀ ܕܥܠ ܣܝܘܡܐ ܕܢܡܘܣܐ܀<locus from="8b"/></quote>
+                        </p>
                     </item>
                   </list>
                 </condition>
@@ -128,30 +130,22 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="3">
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr-Syre">
+                <desc>The writing is a small, elegant, Edessene Estrangělā, of the <origDate notBefore="0400" notAfter="0600">vth or vith cent.</origDate></desc>
+              </handNote>
+              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
             <additions>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="8b"/>
-                  <p>Fol. 8 has been used in binding a volume of the discourses of Jacob of Batnae,
-                    as appears from the titles written on the verso</p>
-                  <p>
-                    <quote xml:lang="syr">ܕܦܪܚ ܢܟ̈ܣܘܗܝ܀ ܕܥܠ ܥܣܪ̈ ܒܬܘܠܘܬܐܝܢܬܐ܀ ܕܥܠ ܪ̈ܘܝܐ܀ ܕܥܠ ܣܝܘܡܐ ܕܢܡܘܣܐ܀(sic)܀ ܕܥܠ
-                      ܡܫܬܘܬܐ܀ ܕܥܠ ܡܚܬܗ(sic) ܕܡܪܢ܀ ܕܥܠ ܩܛܢܐ ܡܐܡܪ̈ܐ ܕܥܠ ܗܘܫܥ܀ ܘܥܠ ܛܘܦܢܐ܀ ܥܠ ܐܒܘܢ
-                      ܕܒܫܡܝܐ܀ ܘܥܠ ܗ̇ܘ ܒܪܐ.</quote>
-                  </p>
-                </item>
-                <item xml:id="addition2" n="2">
                   <locus from="11b"/>
                   <p>On fol. 11 b there is written, in a still more modern hand, the name of one
-                    <persName ref="https://syriaca.org/person/575">John of Damascus</persName>, </p>
+                    <persName>John of Damascus</persName>,</p>
                   <p>
-                    <quote xml:lang="syr">ܝܘܚܢܢ ܕܕܰܪܡܣܩܳܝܐ(sic) ܒܨܝܪܐ ܘܚܛܝܐ ܏ܚܪ ܢ̇ܬ݁݀ܠܢ(sic) ܠܗ ܘܝܐ
-                      ܡܛܠ ܐܠܗܐ ܨܠܘ ܥܠܘܗܝ</quote>
+                    <quote xml:lang="syr">ܝܘܚܢܢ ܕܕܰܪܡܣܩܳܝܐ <foreign xml:lang="en">(sic)</foreign> ܒܨܝܪܐ ܘܚܛܝܐ ܏ܚܪ ܢ̇ܬ݁݀ܠܢ <foreign xml:lang="en">(sic)</foreign> ܠܗ ܘܝܐ ܡܛܠ ܐܠܗܐ ܨܠܘ ܥܠܘܗܝ</quote>
                   </p>
                 </item>
               </list>
@@ -357,8 +351,11 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-25">Edits to msContents, condition, handDesc, and additions</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-03">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
+      <change type="planned" subtype="consultation">Wright describes fol. 8 as having been part of the binding of another manuscript; need to consult manuscript to understand binding</change>
+      <change type="planned" subtype="reconstruction">Wright describes msItem a1 as potentially "rearranged"; need to consult manuscript for possible reconstruction</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

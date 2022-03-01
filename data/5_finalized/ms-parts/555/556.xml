@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 146931141</title>
+        <title level="a" xml:lang="en">BL Add MS 14693, foll. 1-141</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#eyonan">Eliana Yonan</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#eyonan">Eliana Yonan</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/556</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 146931141</idno>
+              <idno type="BL-Shelfmark">Add MS 14693, foll. 1-141</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -80,113 +81,117 @@
           </msIdentifier>
           <msContents>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1" defective="false">
+            <msItem xml:id="a1" n="1">
               <locus from="1a"/>
-              <title>A collection of Anaphoras, preceded by introductory
-                services, fol. 1 a, comprising prayers, sedras and lessons.</title>
-              <msItem xml:id="b1" n="2">
+              <title xml:lang="en" type="supplied">Introductory
+                services, comprising prayers, sedras and lessons</title>
+            </msItem>
+            <msItem xml:id="a2" n="2">
+              <locus from="8a"/>
+              <title>A collection of Anaphoras</title>
+              <msItem xml:id="b1" n="3">
                 <locus from="8a"/>
-                <title xml:lang="en">Of <persName>S. James</persName>
+                <title xml:lang="en">Of <persName ref="https://syriaca.org/person/1798">S. James</persName>
                 </title>
                 <rubric xml:lang="syr">ܝܥܩܘܒ ܐܚܘܗܝ ܕܡܪܢ </rubric>
               </msItem>
-              <msItem xml:id="b2" n="3" defective="true">
+              <msItem xml:id="b2" n="4" defective="true">
                 <locus from="28a"/>
-                <title xml:lang="en">Of <persName>S. John</persName>
+                <title xml:lang="en">Of <persName ref="https://syriaca.org/person/1826">S. John</persName>
                 </title>
                 <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܕܩܕܝܫܐ ܡܪܝ ܝܘܚܢܢ ܫܠܝܚܐ</rubric>
               </msItem>
-              <msItem xml:id="b3" n="4">
+              <msItem xml:id="b3" n="5">
                 <locus from="39b"/>
-                <title xml:lang="en">Of <persName>Eustathius of Antioch</persName>
+                <title xml:lang="en">Of <persName ref="https://syriaca.org/person/1725">Eustathius of Antioch</persName>
                 </title>
                 <rubric xml:lang="syr">ܐܢܢܲܦܘܪܐ ܕܩܕܝܫܐ ܐܘܣܛܐܬܘܣ ܪܝܫ ܐܦܝܣ̈ܩܘܐ ܕܐܢܛܝܘܟܝܐ </rubric>
               </msItem>
-              <msItem xml:id="b4" n="5">
+              <msItem xml:id="b4" n="6">
                 <locus from="54a"/>
-                <title xml:lang="en">Of <persName>Xystus</persName>, bishop of
-                    <placeName>Rome</placeName>
+                <title xml:lang="en">Of <persName ref="https://syriaca.org/person/22">Xystus</persName>, bishop of
+                    <placeName ref="http://syriaca.org/place/641">Rome</placeName>
                 </title>
-                <rubric xml:lang="syr">ܐܢܢܲܦܘܪܐ ܕ܏ܩܕ ܟܝܣܛܘܣ (sic) ܦ݁ܰܐܦܱܐ ܕܪܘܡܝ ܪܒܬܐ </rubric>
+                <rubric xml:lang="syr">ܐܢܢܲܦܘܪܐ ܕ܏ܩܕ ܟܝܣܛܘܣ <foreign xml:lang="en">(sic)</foreign> ܦ݁ܰܐܦܱܐ ܕܪܘܡܝ ܪܒܬܐ</rubric>
               </msItem>
-              <msItem xml:id="b5" n="6">
+              <msItem xml:id="b5" n="7">
                 <locus from="62a"/>
-                <title xml:lang="en">Of <persName>Philoxenus</persName> of
-                    <placeName>Mabug</placeName>
+                <title xml:lang="en">Of <persName ref="https://syriaca.org/person/44">Philoxenus</persName> of
+                    <placeName ref="http://syriaca.org/place/2344">Mabug</placeName>
                 </title>
                 <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܕܩܕܝܫܐ ܡܪܝ ܦܝܠܠ܏ܟܣ ܐܦܝܣܩܘܦܐ ܕܡܒܘܓ</rubric>
                 <incipit xml:lang="syr">ܐܠܗܐ ܚ̈ܝܐ ܕܟܠ ܘܢܘܗܪܐ</incipit>
               </msItem>
-              <msItem xml:id="b6" n="7" defective="true">
+              <msItem xml:id="b6" n="8" defective="true">
                 <locus from="74b"/>
-                <title xml:lang="en">Of the twelve Apostles</title>
+                <title xml:lang="en">Of <ref target="https://syriaca.org/person/1607">the twelve Apostles</ref></title>
                 <rubric xml:lang="syr">ܐܰܢܰܐܦܘܪܐ ܕܬܪܥܣܪ ܫ̈ܠܝܚܐ ܩܕ̈ܝܫܐ</rubric>
-                <note>See <bibl>Renaudot, Liturg. Orient., t. ii., p. 170.</bibl>
+                <note>See <bibl>Renaudot, Liturg. Orient., t. ii., p. 170</bibl>.
                 </note>
               </msItem>
-              <msItem xml:id="b7" n="8" defective="true">
+              <msItem xml:id="b7" n="9" defective="true">
                 <locus from="81b"/>
                 <title xml:lang="en">Of <persName>Matthew the Shepherd</persName>
                 </title>
                 <rubric xml:lang="syr">ܐܢܐܦܘܪܐ ܕܡܬܝ ܪܳܥܝܳܐ</rubric>
                 <note>See <bibl>Renaudot, t. ii., p. 347</bibl>.</note>
               </msItem>
-              <msItem xml:id="b8" n="9">
-                
+              <msItem xml:id="b8" n="10">
+                <locus from="88a"/>
                 <title xml:lang="en">Two forms for concluding the celebration of the holy
                   Eucharist</title>
-                <msItem xml:id="c1" n="10">
+                <msItem xml:id="c1" n="11">
                   <locus from="88a"/>
-                  <title xml:lang="en">The one in the metre of <persName>Jacob of
+                  <title xml:lang="en">The one in the metre of <persName ref="https://syriaca.org/person/42">Jacob of
                       Batnae</persName>
                   </title>
                   <rubric xml:lang="syr">ܚܘܬܡܐ ܒܡܫܘܚܬܐ ܣܪܘܓܝܬܐ</rubric>
                 </msItem>
-                <msItem xml:id="c2" n="11">
+                <msItem xml:id="c2" n="12">
                   <locus from="90a"/>
                   <title xml:lang="en">The other in that of
-                    <persName>Ephraim</persName>
+                    <persName ref="https://syriaca.org/person/13">Ephraim</persName>
                   </title>
                   <rubric xml:lang="syr">ܚܘܬܡܐ ܕܡܪܝ ܐܦܪܝܡ </rubric>
                 </msItem>
               </msItem>
-              <msItem xml:id="b9" n="12" defective="true">
+              <msItem xml:id="b9" n="13" defective="true">
                 <locus from="94a"/>
-                <title xml:lang="en">The Anaphora of <persName>John bar Susanna</persName>
+                <title xml:lang="en">The Anaphora of <persName ref="https://syriaca.org/person/193">John bar Susanna</persName>
                 </title>
                 <rubric xml:lang="syr">ܐܢܢܲܦܘܪܐ ܕܩܕܝܫܐ ܡܪܝ ܝܘܚܢܢ ܒܪ ܫܘܫܢ ܢܒܥܐ ܕܚܘܒܐ </rubric>
                 <incipit xml:lang="syr">ܘܡܥܝ̣ܢܐ ܕܛܒܘܬܐ ܡܪܝܐ </incipit>
-                <note>see <bibl>Assemani, Bibl. Orient., t. ii., p. 143</bibl>
+                <note>See <bibl>Assemani, Bibl. Orient., t. ii., p. 143</bibl>.
                 </note>
               </msItem>
-              <msItem xml:id="b10" n="13">
+              <msItem xml:id="b10" n="14">
                 <locus from="104a"/>
-                <title xml:lang="en">Of <persName>Gregory Bar-Hebraeus</persName>
+                <title xml:lang="en">Of <persName ref="https://syriaca.org/person/239">Gregory Bar-Hebraeus</persName>
                 </title>
                 <rubric xml:lang="syr">ܐܢܢܲܦܘܪܐ ܕ܏ܩܕ ܓܪܝܓܘܪܝܘܣ ܡܦܪܝܢܐ ܕܡܕܢܚܐ ܕܗ̣ܘ ܒܪ ܐܗܪܘܢ ܐܳܣܝܳܐ </rubric>
                 <note>See <bibl>Renaudot, t. ii., p. 456</bibl>.</note>
               </msItem>
-              <msItem xml:id="b11" n="14">
+              <msItem xml:id="b11" n="15">
                 <locus from="117a"/>
-                <title xml:lang="en">A small collection of prooemia and sedras. </title>
+                <title xml:lang="en">A small collection of prooemia and sedras.</title>
               </msItem>
-              <msItem xml:id="b12" n="15" defective="true">
+              <msItem xml:id="b12" n="16" defective="true">
                 <locus from="120a"/>
-                <title xml:lang="en">The Anaphora of <persName>Ignatius of
+                <title xml:lang="en">The Anaphora of <persName ref="https://syriaca.org/person/544">Ignatius of
                   Antioch</persName>
                 </title>
                 <rubric xml:lang="syr">ܐܢܢܦܘܪܐ ܕ܏ܩܕ ܡܪܝ ܐܝܓܢܐܛܝܘܣ ܢܘܪܢܐ ܬܠܡܝܕܗ ܕܝܘܚܢܢ ܫܠܝܚܐ ܘܪܝܫ
                   ܐܦܝܣ̈ܩܘܦܐ ܕܐܢܛܝ̈ܘܟܝܐ </rubric>
               </msItem>
-              <msItem xml:id="b13" n="16">
+              <msItem xml:id="b13" n="17">
                 <locus from="138a"/>
-                <title xml:lang="en">A fragment of an Anaphora. </title>
+                <title xml:lang="en">A fragment of an Anaphora.</title>
               </msItem>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -199,8 +204,7 @@
                         stained and torn, especially fol. 1, 6, 137, and 141. The quires have no
                         signatures. Leaves are wanting at the beginning and end, as well as after
                         foll. 6, 7, 37, 77, 83, 103, 120, 126, 136, and 137. There are from 9 to 13
-                        lines in each page. This manuscript is written in an inelegant hand of the
-                        xiiith or xivth cent.</p>
+                        lines in each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -209,9 +213,13 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="" script="">
-                <desc/>
+            <handDesc hands="2">
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
+                <desc>This manuscript is written in an inelegant hand of the
+                        <origDate notBefore="1200" notAfter="1400">xiiith or xivth cent.</origDate></desc>
+              </handNote>
+              <handNote medium="unknown" xml:id="handNote2" scope="minor" script="ar">
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
             <additions>
@@ -220,10 +228,13 @@
                 <item xml:id="addition1" n="1">
                   <locus from="93a"/>
                   <p>On fol. 93 a there is an Arabic note, stating that this manuscript belonged to
-                    the convent of Abbā Samuel, called al-Ḳalamūn (near al-Faiyūm), having been left
-                    to it as a wakf or legacy by one John, the son of Mār Eugene. %</p>
+                    <placeName>the convent of Abbā Samuel</placeName>, called <placeName>al-Ḳalamūn</placeName> (near <placeName>al-Faiyūm</placeName>), having been left
+                    to it as a wakf or legacy by one <persName>John</persName>, the son of <persName>Mār Eugene</persName>.</p>
                   <p>
-                    <quote xml:lang="syr"/>
+                    <quote xml:lang="ar">بسم الرب رَخانا وعلية اتكالنا وهَذا الكتاب المبارك وقفًا موبدًا وحبسًا مخادًا علي دير القديس انبا صمويل المعرُوف بالقلمون اوقفه علي نفس صاحبه واسلافه وما لاحد سلطان من قبل الرب سبحانه ان يخرجه من المكان المعروف بوجه من الوجوه والذي يفعل ذَالك ايكون <foreign xml:lang="en">(sic)</foreign> حظه مع ابليس وخنوده الحضر تم الحضر الحضر<foreign xml:lang="syr">܀</foreign> وكتب هذه الوقفيه الخاطى الخاهل النجس
+بخطاياه يوحنا بسم رَاهب وقس وليس بالفعل ابن
+المرحوم ماري اوكين السرياني الخ ،
+</quote>
                   </p>
                 </item>
               </list>
@@ -238,7 +249,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate from="1200" to="1400">xiiith to xivth </origDate>
+              <origDate notBefore="1200" notAfter="1400">xiiith to xivth cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -428,11 +439,10 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-01">Edits to additions; added Arabic note</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change when="" who="http://syriaca.org/documentation/editors.xml#eyonan">Initial TEI encoding.</change>
-      <change type="planned" subtype="checkSyriac"/>
-      <change type="planned" subtype="arabic">Add missing Arabic text.</change>
+      <change who="http://syriaca.org/documentation/editors.xml#eyonan">Initial TEI encoding.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

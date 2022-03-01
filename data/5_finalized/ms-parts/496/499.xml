@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#zzhang">Ziyan Zhang</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#zzhang">Ziyan Zhang</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,11 +83,11 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <title xml:lang="en">Fragments of an Anaphora, or perhaps of two Anaphoras </title>
-              <rubric xml:lang="syr">ܨܠܘܬܐ ܕܡܢ ܒܬܪ ܕܢܣܒ݁ܝܢ ܩܘܪܒܢܐ.</rubric>
-              <note>See a note by Dr. Bickell in the “Literarischer Handweiser,” no. 88 (15 March,
-                1870), col. 56.</note>
-              <note>On the verso of the one leaf there is the rubric</note>
+              <locus from="20a"/>
+              <title xml:lang="en">Fragments of an Anaphora, or perhaps of two Anaphoras<note>See a note by Dr. <persName>Bickell</persName> in the <bibl>“Literarischer Handweiser,” no. 88 (15 March,
+                1870), col. 56</bibl>.</note></title>
+              <rubric xml:lang="syr">ܨܠܘܬܐ ܕܡܢ ܒܬܪ ܕܢܣܒ݁ܝܢ ܩܘܪܒܢܐ</rubric>              
+              <note>On the verso of the one leaf there is the above rubric.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -112,7 +113,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>in a fine Edessene hand of the vith cent.</desc>
+                <desc>They are written in a fine Edessene hand of the <origDate notBefore="0500" notAfter="0600">vith cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -126,7 +127,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0500" notAfter="0600">of the vith
+              <origDate notBefore="0500" notAfter="0600">vith
                 cent.</origDate>
               <origPlace/>
             </origin>
@@ -317,6 +318,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-02-28">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-02-14">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#zzhang">Initial TEI encoding.</change>
     </revisionDesc>
