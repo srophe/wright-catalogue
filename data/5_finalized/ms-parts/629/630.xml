@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,238 +83,248 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <author ref="826">John Saba</author>
-              <title xml:lang="en">Selections from the writings of John Saba</title>
-              <note>the first four pages are almost completely torn away.</note>
+              <locus from="4a"/>
+              <author ref="https://syriaca.org/person/826">John Saba</author>
+              <title xml:lang="en">Selections from the writings of <persName ref="https://syriaca.org/person/826">John Saba</persName></title>
+              <note>The first four pages are almost completely torn away.</note>
               <msItem xml:id="b1" n="2">
                 <locus from="4a"/>
-                <author ref="826">John Saba</author>
+                <author ref="https://syriaca.org/person/826">John Saba</author>
                 <title xml:lang="en">Imperfect discourse</title>
               </msItem>
-              <msItem xml:id="b2" n="3">
+              <msItem xml:id="b2" n="3" defective="true">
                 <locus from="8a"/>
-                <author ref="826">John Saba</author>
+                <author ref="https://syriaca.org/person/826">John Saba</author>
                 <title xml:lang="en">On subjection</title>
                 <rubric xml:lang="syr">ܕܫܘܥܒܕܐ</rubric>
-                <note>mutilated at the beginning</note>
+                <note>Mutilated at the beginning.</note>
               </msItem>
-              <msItem xml:id="b3" n="4">
+              <msItem xml:id="b3" n="4" defective="true">
                 <locus from="13a"/>
-                <author ref="826">John Saba</author>
+                <author ref="https://syriaca.org/person/826">John Saba</author>
                 <title xml:lang="en">A letter</title>
                 <rubric xml:lang="syr">ܐܓܪܬܐ</rubric>
-                <note>mutilated at the beginning</note>
+                <note>Mutilated at the beginning.</note>
                 <note>It is evidently identical with ep. 40 in <bibl>Assemani, Bibl. Or., t. i., p.
-                  443.</bibl>
+                  443</bibl>.
                 </note>
               </msItem>
               <msItem xml:id="b4" n="5">
                 <locus from="14a"/>
-                <author ref="826">John Saba</author>
+                <author ref="https://syriaca.org/person/826">John Saba</author>
                 <title xml:lang="en">A letter</title>
                 <incipit xml:lang="syr">ܐܢܐ ܐܚܝ. ܟܠܝܘܡ ܥ̇ܒܕ ܐܢܐ ܫܘܪܝܐ ܕܦܘܠܚܢ ܚ̈ܝܐ. ܟܐܡܬ
                   ܒܐܫܟܪܐ</incipit>
                 <note>
-                  <bibl>See Assemani, p. 443, ep. 41.</bibl>
+                  See <bibl>Assemani, p. 443, ep. 41</bibl>.
                 </note>
               </msItem>
-              <msItem xml:id="b5" n="6">
+              <msItem xml:id="b5" n="6" defective="true">
                 <locus from="14b"/>
-                <author ref="826">John Saba</author>
+                <author ref="https://syriaca.org/person/826">John Saba</author>
                 <title xml:lang="en">A letter</title>
                 <incipit xml:lang="syr">ܠܝܬ ܒܣܝܼܡ</incipit>
-                <note>mutilated at the beginning</note>
+                <note>Mutilated at the beginning.</note>
                 <note>
-                  <bibl>See Assemani, p. 444, ep. 42.</bibl>
+                  See <bibl>Assemani, p. 444, ep. 42</bibl>.
                 </note>
               </msItem>
-              <msItem xml:id="b6" n="7">
+              <msItem xml:id="b6" n="7" defective="true">
                 <locus from="15a"/>
-                <author ref="826">John Saba</author>
+                <author ref="https://syriaca.org/person/826">John Saba</author>
                 <title xml:lang="en">A letter</title>
-                <note>mutilated at the beginning</note>
+                <note>Mutilated at the beginning.</note>
                 <note>
-                  <bibl>See Assemani, p. 444, ep. 43.</bibl>
+                  See <bibl>Assemani, p. 444, ep. 43</bibl>.
                 </note>
               </msItem>
               <msItem xml:id="b7" n="8">
                 <locus from="18a"/>
-                <author ref="826">John Saba</author>
+                <author ref="https://syriaca.org/person/826">John Saba</author>
                 <title xml:lang="en">On the remembrance and contemplation of God</title>
                 <rubric xml:lang="syr">ܥܠ ܥܘܗܕܢܐ ܘܪܢܝܐ ܕܐܠܗܐ</rubric>
-                <incipit xml:lang="syr"> ܥܠ ܪܢܝܐ ܕܐܠܗܐ ܕܫܐܠ̣ܬ ܐܚܝ ܠܡܟܬܒ ܠܟ. ܠܐ ܝ̇ܕܥ ܐܢܐ ܙܢܐ ܕܒܥܬܟ.
+                <incipit xml:lang="syr">ܥܠ ܪܢܝܐ ܕܐܠܗܐ ܕܫܐܠ̣ܬ ܐܚܝ ܠܡܟܬܒ ܠܟ. ܠܐ ܝ̇ܕܥ ܐܢܐ ܙܢܐ ܕܒܥܬܟ.
                   ܏ܘܫ</incipit>
-                <note>See <bibl>Assemani, p. 441, no. 29.</bibl>
+                <note>See <bibl>Assemani, p. 441, no. 29</bibl>.
                 </note>
               </msItem>
               <msItem xml:id="b8" n="9">
-                <author ref="826">John Saba</author>
-                <title xml:lang="en">The letters of John Sābā</title>
+                <locus from="22a"/>
+                <author ref="https://syriaca.org/person/826">John Saba</author>
+                <title xml:lang="en">The letters of <persName ref="https://syriaca.org/person/826">John Sābā</persName></title>
                 <rubric xml:lang="syr">ܐܓܪ̈ܬܐ ܕܐܫܬܕܪܘ ܡܢܗ ܠܐܢܫ ܐܢܫ</rubric>
+                <note>The tenth letter is wanting.</note>
                 <msItem xml:id="c1" n="10">
                   <locus from="22a"/>
-                  <author ref="826">John Saba</author>
-                  <title xml:lang="en">"to a great Father"</title>
-                  <rubric xml:lang="syr"> ܏ܩܕܡ ܠܘܬ ܣܒܐ ܪܒܐ </rubric>
-                  <incipit xml:lang="syr"> ܠܕܒܢܘܗܪܐ ܐܠܗܝܐ ܕܒܢܦܫܗ ܐܫ̣ܝܕ ܟܣ̈ܝܬܐ ܒ̇ܚܪ</incipit>
-                  <note>See <bibl>Assemani, p. 441, ep. 1.</bibl>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
+                  <title xml:lang="en">"To a great Father"</title>
+                  <rubric xml:lang="syr">܏ܩܕܡ ܠܘܬ ܣܒܐ ܪܒܐ</rubric>
+                  <incipit xml:lang="syr">ܠܕܒܢܘܗܪܐ ܐܠܗܝܐ ܕܒܢܦܫܗ ܐܫ̣ܝܕ ܟܣ̈ܝܬܐ ܒ̇ܚܪ</incipit>
+                  <note>See <bibl>Assemani, p. 441, ep. 1</bibl>.
                   </note>
                 </msItem>
                 <msItem xml:id="c2" n="11">
                   <locus from="23b"/>
-                  <author ref="826">John Saba</author>
-                  <title xml:lang="en">“to another Father,"</title>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
+                  <title xml:lang="en">“To another Father"</title>
                   <rubric xml:lang="syr">ܐܓܪܬܐ ܏ܕܒ ܕܠܘܬ ܣܒܐ ܐܚܪܢܐ</rubric>
-                  <incipit xml:lang="syr"> . . . ܠܡܬܕܡܪܘ ܒܫܘܦܪܗ ܕܚܘܒܟ. ܡܟܣܐ ܡܨܥܪ̈ܢܐ ܕܠܐ ܢ̣ܕܬ ܠܗ ܡܢ
+                  <incipit xml:lang="syr">. . . ܠܡܬܕܡܪܘ ܒܫܘܦܪܗ ܕܚܘܒܟ. ܡܟܣܐ ܡܨܥܪ̈ܢܐ ܕܠܐ ܢ̣ܕܬ ܠܗ ܡܢ
                     ܗ̇ܘ ܕܥܠ ܥܠܡܐ ܢܕܝܕܐ ܐܬ݂ܢܕܕ. ܏ܘܫ</incipit>
-                  <note>See <bibl>Assem., p. 441, ep. 2.</bibl>
+                  <note>See <bibl>Assem., p. 441, ep. 2</bibl>.
                   </note>
                 </msItem>
                 <msItem xml:id="c3" n="12">
                   <locus from="24b"/>
-                  <author ref="826">John Saba</author>
-                  <title xml:lang="en">"to a brother, who was once his friend,"</title>
-                  <rubric xml:lang="syr"> ܏ܕܓ ܠܘܬ ܐܚܐ ܕܒܙܒܢ ܡܚܒܢܗ ܗܘܐ ܘܒܬܪܟܢ ܐܫܬܡܥ ܠܒܝܫܐ ܘܗܦܟ ܘܡܨܚܐ
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
+                  <title xml:lang="en">"To a brother, who was once his friend"</title>
+                  <rubric xml:lang="syr">܏ܕܓ ܠܘܬ ܐܚܐ ܕܒܙܒܢ ܡܚܒܢܗ ܗܘܐ ܘܒܬܪܟܢ ܐܫܬܡܥ ܠܒܝܫܐ ܘܗܦܟ ܘܡܨܚܐ
                     ܗܘܐ ܠܗ</rubric>
                   <incipit xml:lang="syr">ܛ̇ܒ ܚ̇ܕܐ ܐܢܐ ܒܓܘ̈ܢܝܐ. ܘܠܨܥܪ̈ܐ ܝܘܬܪܢܐ ܚܫܒ ܐܢܐ</incipit>
-                  <note>See<bibl>Assem., p. 441, ep. 3.</bibl>
+                  <note>See <bibl>Assem., p. 441, ep. 3</bibl>.
                   </note>
                 </msItem>
                 <msItem xml:id="c4" n="13">
                   <locus from="24b"/>
-                  <author ref="826">John Saba</author>
-                  <title xml:lang="en">Fourth letter</title>
-                  <incipit xml:lang="syr"> ܫܘܡܗܟ ܐܚܝ ܥ̇ܠ̣ܝ ܗܘ ܡܢ . . . ـܡܟ. ܐܦ ܕܘܒܪܟ ܢܗܘ̣ܐ ܡܣܒܗ
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
+                  <title xml:lang="en">Part <foreign xml:lang="grc">δ</foreign></title>
+                  <incipit xml:lang="syr">ܫܘܡܗܟ ܐܚܝ ܥ̇ܠ̣ܝ ܗܘ ܡܢ . . . ـܡܟ. ܐܦ ܕܘܒܪܟ ܢܗܘ̣ܐ ܡܣܒܗ
                     ܠܕܗ̇ܢܘܢ . . . ܐܬܟܢ̣ܝܬ܇ ܏ܘܫ</incipit>
-                  <note>See <bibl>Assem., p. 441, ep. 4.</bibl>
+                  <note>See <bibl>Assem., p. 441, ep. 4</bibl>.
                   </note>
                 </msItem>
                 <msItem xml:id="c5" n="14">
                   <locus from="27a"/>
-                  <author ref="826">John Saba</author>
-                  <title xml:lang="en">Fifth letter</title>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
+                  <title xml:lang="en">Part <foreign xml:lang="grc">ε</foreign></title>
                   <incipit xml:lang="syr">ܠܕܫ̇ܡܥ ܘܡܫܬܡܥ ܫܠܡܗ ܕܡܩܕܫܢܐ ܢܗܘ̣ܐ ܥ܏ܠܘ ܐܘ ܒܪܢܫܐ ܕܐܠܗܐ. ܫܡܥ
-                    ܠܡ̈ܠܝ ܪܚ̇ܡܟ. ܘ܏ܫ.</incipit>
-                  <note>See <bibl>Assem., p. 441, ep. 5.</bibl>
+                    ܠܡ̈ܠܝ ܪܚ̇ܡܟ. ܘ܏ܫ.<note type="incomplete" resp="http://syriaca.org" xml:lang="en">The original description of this manuscript by William Wright includes characters, symbols, or illustrations which cannot be represented. Please consult the attached image.</note></incipit><!--JA: The word ܐܘ is missing a diacritic-->
+                  <note>See <bibl>Assem., p. 441, ep. 5</bibl>.
                   </note>
                 </msItem>
                 <msItem xml:id="c6" n="15">
                   <locus from="28a"/>
-                  <author ref="826">John Saba</author>
-                  <title xml:lang="en">Sixth letter</title>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
+                  <title xml:lang="en">Part <foreign xml:lang="grc">ζ</foreign></title>
                   <incipit xml:lang="syr">ܗܒ̣ ܦܘܩܕܢܐ ܠܐܚ̈ܐ ܐܘ ܐܒܐ ܕܠܐ ܢܐܡ̈ܘܢ ܒܫܡ ܐܠـ[ـܗܐ ܣـ]ـܟܠܐܝܬ
-                    ܒܟܠ ܡܡܠܐ. ܏ܘܫ</incipit>
-                  <note>See <bibl>Assem., p. 441, ep. 6.</bibl>
+                    ܒܟܠ ܡܡܠܐ. ܏ܘܫ<note type="incomplete" resp="http://syriaca.org" xml:lang="en">The original description of this manuscript by William Wright includes characters, symbols, or illustrations which cannot be represented. Please consult the attached image.</note></incipit><!--JA: The word ܐܘ is missing a diacritic-->
+                  <note>See <bibl>Assem., p. 441, ep. 6</bibl>.
                   </note>
                 </msItem>
                 <msItem xml:id="c7" n="16">
                   <locus from="29a"/>
-                  <author ref="826">John Saba</author>
-                  <title xml:lang="en">Seventh letter</title>
-                  <rubric xml:lang="syr"> ܕܫܒܥ ܙܘܗܪ̈ܐ</rubric>
-                  <incipit xml:lang="syr"> ܐܙܕܗ̣ܪ ܐܚܝ. ܡܢ ܡܘ̈ܒܕܝ ܢܦܫܬܗ̈ܘܢ ܘܢ̈ܦܫܬܐ ܕܐܚ̈ܝܗܘܢ.. </incipit>
-                  <note>See <bibl>Assem., p. 442, ep. 7.</bibl>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
+                  <title xml:lang="en">Part <foreign xml:lang="grc">η</foreign></title>
+                  <rubric xml:lang="syr">ܕܫܒܥ ܙܘܗܪ̈ܐ</rubric>
+                  <incipit xml:lang="syr">ܐܙܕܗ̣ܪ ܐܚܝ. ܡܢ ܡܘ̈ܒܕܝ ܢܦܫܬܗ̈ܘܢ ܘܢ̈ܦܫܬܐ ܕܐܚ̈ܝܗܘܢ</incipit>
+                  <note>See <bibl>Assem., p. 442, ep. 7</bibl>.
                   </note>
                 </msItem>
                 <msItem xml:id="c8" n="17">
                   <locus from="29b"/>
-                  <author ref="826">John Saba</author>
-                  <title xml:lang="en">Eighth letter</title>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
+                  <title xml:lang="en">Part <foreign xml:lang="grc">θ</foreign></title>
                   <incipit xml:lang="syr">ܠܝܬ ܠܢ ܕܦܪ̈[ܨܘܦܐ ܕܚ̈ܕ]ܕܐ ܢܚܙܐ ܒܠܥܕ ܡܨܥܝܘܬܗ ܕܢܘܗܪܐ
                       ܒܪܝܐ.</incipit>
-                  <note>See <bibl>Assem., p. 442, ep. 8.</bibl>
+                  <note>See <bibl>Assem., p. 442, ep. 8</bibl>.
                   </note>
                 </msItem>
-                <msItem xml:id="c9" n="18">
+                <msItem xml:id="c9" n="18" defective="true">
                   <locus from="29b"/>
-                  <author ref="826">John Saba</author>
-                  <title xml:lang="en">Ninth letter</title>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
+                  <title xml:lang="en">Part <foreign xml:lang="grc">ι</foreign></title>
                   <incipit xml:lang="syr"> . . . ܥܠ ܐܝܟܢܝܘܬܟܘܢ. ܘܫܒܚܬ ܠܡܪܢ ܥܠ ܚܘ[ܠܡܢـ]ܟܘܢ.
                     ܏ܘܫ.</incipit>
-                  <note>Imperfect.</note>
-                  <note>See <bibl>Assem., p. 442, ep. 9.</bibl>
+                  <note>See <bibl>Assem., p. 442, ep. 9</bibl>.
                   </note>
                 </msItem>
-                <msItem xml:id="c10" n="19">
+                <msItem xml:id="c10" n="19" defective="true">
                   <locus from="30a"/>
-                  <author ref="826">John Saba</author>
-                  <title xml:lang="en">Eleventh letter</title>
-                  <note>imperfect at the beginning</note>
-                  <note>see <bibl>Assem., p. 442, ep. 11</bibl>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
+                  <title xml:lang="en">The eleventh letter</title>
+                  <note>Imperfect at the beginning.</note>
+                  <note>See <bibl>Assem., p. 442, ep. 11</bibl>.
                   </note>
                 </msItem>
                 <msItem xml:id="c11" n="20">
                   <locus from="32a"/>
-                  <author ref="826">John Saba</author>
-                  <title xml:lang="en">Twelfth letter</title>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
+                  <title xml:lang="en">Part <foreign xml:lang="grc">λ</foreign></title>
                   <incipit xml:lang="syr"> ܫܡܥܝܢܝ ܐܚܝ ܘܐܡ̇ܪ ܠܟ ܫܪܪܐ ܕܝ̇ܠܦܬ ܡܢ ܐܠܗܝ. ܏ܘܫ</incipit>
-                  <note>See <bibl>Assem., p. 442, ep. 12.</bibl>
+                  <note>See <bibl>Assem., p. 442, ep. 12</bibl>.
                   </note>
                 </msItem>
                 <msItem xml:id="c12" n="21">
                   <locus from="32b"/>
-                  <author ref="826">John Saba</author>
-                  <title xml:lang="en">Thirteenth letter</title>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
+                  <title xml:lang="en">Part <foreign xml:lang="grc">μ</foreign></title>
                   <incipit xml:lang="syr">ܠܕܐܡܝܢ ܥ̇ܡܕ ܥܡܕܐ ܪܐܙܢܝܐ ܕܡܢ ܟܠ. ܏ܘܫ</incipit>
-                  <note>See <bibl>Assem., p. 442, ep. 13.</bibl>
+                  <note>See <bibl>Assem., p. 442, ep. 13</bibl>.
                   </note>
                 </msItem>
                 <msItem xml:id="c13" n="22">
-                  <locus from="36a"/>
-                  <author ref="826">John Saba</author>
-                  <title xml:lang="en">Fifteenth letter</title>
-                  <incipit xml:lang="syr">ܫܡ̣ܥ ܐܚܝ ܡܕܡ ܕܐܡ̣ܪ ܩܕܡܝ ܐܢܫ ܫܪܝܪܐ. ܕܟܕ ܒܐܘܪܚܐ ܕܪ̈ܚ̣ܡܐ ܪܕ̇ܐ
-                    ܗܘܝܬ ܪܚܝ̣ܡܐ ܦܓܥ ܒܝ ܘܐܥܛܦܢܝ. ܏ܘܫ</incipit>
-                  <note>See <bibl>Assem., p. 442, ep. 15.</bibl>
+                  <locus from="33a"/>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
+                  <title xml:lang="en">Part <foreign xml:lang="grc">ν</foreign></title>
+                  <incipit xml:lang="syr">ܫ̇ܐܠ ܐܢܐ ܫܠܡܐ ܕܢܟܦ̣ܘܬܟ. ܒܚܘܒܗ ܕܥ̇ܠܝܐ. ܏ܘܫ.</incipit>
+                  <note>See <bibl>Assem., p. 442, ep. 14</bibl>.
                   </note>
                 </msItem>
                 <msItem xml:id="c14" n="23">
-                  <locus from="36b"/>
-                  <author ref="826">John Saba</author>
-                  <title xml:lang="en">Sixteenth letter</title>
-                  <incipit xml:lang="syr">ܐܡ̣ܪ ܗܦܘ ܕܥܠܘܗܝ ܒܥܘܬܟܘܢ. ܫ̣ܡܥ ܡܪܝܐ ܚܫܟܘܢ ܕܚܠܦܝ. ܘܛ̣ܪܕ ܡܢܝ
-                    ܠܓܝܘܢ ܛܐܡܬܐ. ܏ܘܫ. </incipit>
-                  <note>See <bibl>Assem., p. 442, ep. 16.</bibl>
+                  <locus from="36a"/>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
+                  <title xml:lang="en">Part <foreign xml:lang="grc">ξ</foreign></title>
+                  <incipit xml:lang="syr">ܫܡ̣ܥ ܐܚܝ ܡܕܡ ܕܐܡ̣ܪ ܩܕܡܝ ܐܢܫ ܫܪܝܪܐ. ܕܟܕ ܒܐܘܪܚܐ ܕܪ̈ܚ̣ܡܐ ܪܕ̇ܐ
+                    ܗܘܝܬ ܪܚܝ̣ܡܐ ܦܓܥ ܒܝ ܘܐܥܛܦܢܝ. ܏ܘܫ</incipit>
+                  <note>See <bibl>Assem., p. 442, ep. 15</bibl>.
                   </note>
                 </msItem>
                 <msItem xml:id="c15" n="24">
-                  <locus from="37b"/>
-                  <author ref="826">John Saba</author>
-                  <title xml:lang="en">Seventeenth letter</title>
-                  <incipit xml:lang="syr">ܩܕܡ ܓܝܪ ܕܐܬܒܩܝܬ ܚܐܪܘܬܢ ܒܡܣܝܒܪܢܘܬܐ. ܢܝܚܐ ܠܢܦܫܢ ܒ̈ܥܝܢܢ.
-                    ܏ܘܫ.</incipit>
-                  <note>See <bibl>Assem., p. 442, ep. 17.</bibl>
+                  <locus from="36b"/>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
+                  <title xml:lang="en">Part <foreign xml:lang="grc">ο</foreign></title>
+                  <incipit xml:lang="syr">ܐܡ̣ܪ ܗܦܘ ܕܥܠܘܗܝ ܒܥܘܬܟܘܢ. ܫ̣ܡܥ ܡܪܝܐ ܚܫܟܘܢ ܕܚܠܦܝ. ܘܛ̣ܪܕ ܡܢܝ
+                    ܠܓܝܘܢ ܛܐܡܬܐ. ܏ܘܫ. </incipit>
+                  <note>See <bibl>Assem., p. 442, ep. 16</bibl>.
                   </note>
                 </msItem>
                 <msItem xml:id="c16" n="25">
-                  <locus from="39a"/>
-                  <author ref="826">John Saba</author>
-                  <title xml:lang="en">Eighteenth letter</title>
-                  <incipit xml:lang="syr"> ܨܝ̇ܕܐ ܕܨ̇ܐܕ ܨܝ̣ܕܐ. ܒܠܩܛܐ ܒ̇ܕܪ ܥܠ ܦܚܗ. ܘܗܟܢ ܡܫܟܚ ܨ̇ܐܕ ܠܗ.
+                  <locus from="37b"/>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
+                  <title xml:lang="en">Part <foreign xml:lang="grc">π</foreign></title>
+                  <incipit xml:lang="syr">ܩܕܡ ܓܝܪ ܕܐܬܒܩܝܬ ܚܐܪܘܬܢ ܒܡܣܝܒܪܢܘܬܐ. ܢܝܚܐ ܠܢܦܫܢ ܒ̈ܥܝܢܢ.
                     ܏ܘܫ.</incipit>
-                  <note>See <bibl>Assem., p. 442, ep. 18.</bibl>
+                  <note>See <bibl>Assem., p. 442, ep. 17</bibl>.
                   </note>
                 </msItem>
                 <msItem xml:id="c17" n="26">
-                  <locus from="41a"/>
-                  <author ref="826">John Saba</author>
-                  <title xml:lang="en">Nineteenth letter</title>
-                  <incipit xml:lang="syr"> ܠܐ ܬܚܫ ܡܛܠܬܝ ܢܘܗܪܐ ܕܥ̈ܝܢܝ</incipit>
-                  <note>See <bibl>Assem., p. 442, ep. 19.</bibl>
+                  <locus from="39a"/>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
+                  <title xml:lang="en">Part <foreign xml:lang="grc">ρ</foreign></title>
+                  <incipit xml:lang="syr">ܨܝ̇ܕܐ ܕܨ̇ܐܕ ܨܝ̣ܕܐ. ܒܠܩܛܐ ܒ̇ܕܪ ܥܠ ܦܚܗ. ܘܗܟܢ ܡܫܟܚ ܨ̇ܐܕ ܠܗ.
+                    ܏ܘܫ.</incipit>
+                  <note>See <bibl>Assem., p. 442, ep. 18</bibl>.
                   </note>
                 </msItem>
                 <msItem xml:id="c18" n="27">
-                  <locus from="41b"/>
-                  <author ref="826">John Saba</author>
-                  <title xml:lang="en">Twentieth letter</title>
-                  <incipit xml:lang="syr"> ܡܢ ܒܬܪ ܡܬܝܬܝ ܕܡܢ ܠܘܬܟ. ܐܙܝܥ̣ ܥܠܝ ܐܪܟܘܢܐ ܣܝ̈ܥ̣ܬܗ ܟܠܗܝܢ
-                    ܕܥܘ̣ܠܐ. ܏ܘܫ.</incipit>
-                  <note>See <bibl>Assem., p. 442, ep. 20.</bibl>
+                  <locus from="41a"/>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
+                  <title xml:lang="en">Part <foreign xml:lang="grc">ς</foreign></title>
+                  <incipit xml:lang="syr">ܠܐ ܬܚܫ ܡܛܠܬܝ ܢܘܗܪܐ ܕܥ̈ܝܢܝ</incipit>
+                  <note>See <bibl>Assem., p. 442, ep. 19</bibl>.
                   </note>
                 </msItem>
                 <msItem xml:id="c19" n="28">
                   <locus from="41b"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
+                  <title xml:lang="en">Part <foreign xml:lang="grc">τ</foreign></title>
+                  <incipit xml:lang="syr">ܡܢ ܒܬܪ ܡܬܝܬܝ ܕܡܢ ܠܘܬܟ. ܐܙܝܥ̣ ܥܠܝ ܐܪܟܘܢܐ ܣܝ̈ܥ̣ܬܗ ܟܠܗܝܢ
+                    ܕܥܘ̣ܠܐ. ܏ܘܫ.<note type="incomplete" resp="http://syriaca.org" xml:lang="en">The original description of this manuscript by William Wright includes characters, symbols, or illustrations which cannot be represented. Please consult the attached image.</note></incipit><!--JA: The word ܕܥܘ̣ܠܐ is missing a diacritic-->
+                  <note>See <bibl>Assem., p. 442, ep. 20</bibl>.
+                  </note>
+                </msItem>
+                <msItem xml:id="c19" n="28">
+                  <locus from="41b"/>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">Twenty-first letter</title>
                   <incipit xml:lang="syr">ܐܩܝܡ ܐܚܝ ܗܘܢܟ ܒܠܐ ܙܘܥܙܥ. ܘܬܗ̣ܪ ܒܚܘܒܗ ܕܐܠܗܐ ܕܠܘܬܢ.
                     ܏ܘܫ.</incipit>
@@ -322,7 +333,7 @@
                 </msItem>
                 <msItem xml:id="c20" n="29">
                   <locus from="42a"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">Twenty-second letter</title>
                   <incipit xml:lang="syr"> ܕܫ̇ܐܠ̣ܬܢܝ ܐܚܝ. ܐܝܟܢܐ ܐܝ܏ܬܘ ܐܠܗܐ ܟܠ ܟܠܗ ܒܟܠܕܘܟ. ܟܕ ܒܕܘܟ ܠܐ
                     ܡܣܬܝܟ. ܏ܘܫ.. </incipit>
@@ -331,7 +342,7 @@
                 </msItem>
                 <msItem xml:id="c21" n="30">
                   <locus from="43b"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">Twenty-third letter</title>
                   <incipit xml:lang="syr">ܕܫ̣ܐܠܬ ܡܢܝ ܕܐܘܕܥܟ ܗܠܝܢ ܕܝܠܟ. ܒܗܕܐ ܛܒ̇ ܚ̇ܕܐ ܐܢܐ. ܏ܘܫ.. </incipit>
                   <note>See <bibl>Assem., p. 443, ep. 23.</bibl>
@@ -339,7 +350,7 @@
                 </msItem>
                 <msItem xml:id="c22" n="31">
                   <locus from="44a"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">Twenty-fourth letter</title>
                   <incipit xml:lang="syr">ܐܢܐ ܕܝܢ ܠܐܒܐ ܒܡܫܝܚܗ ܝ̇ܕܥ ܐܢܐ</incipit>
                   <note>See <bibl>Assem., p. 443, ep. 24.</bibl>
@@ -347,7 +358,7 @@
                 </msItem>
                 <msItem xml:id="c23" n="32">
                   <locus from="44a"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">Twenty-fifth letter</title>
                   <incipit xml:lang="syr">ܡܢܐ ܐܝܬ ܠܝ ܕܐܟܬܘܒ ܠܟ. ܐܘ ܚܒܝܒ ܠܝ ܡܢ ܟܠ. ܏ܘܫ.</incipit>
                   <note>See <bibl>Assem., p. 443, ep. 25.</bibl>
@@ -355,21 +366,21 @@
                 </msItem>
                 <msItem xml:id="c24" n="33">
                   <locus from="44b"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">Letter</title>
                   <incipit xml:lang="syr">ܨܠܡܐ ܕܐܠܗܐ ܐܘ ܒܪܢܫܐ ܐܝܬܝܟ. ܨ̇ܒܐ ܐܢܬ ܕܢܣܒ ܨܠܡܐ ܕܘܡܝܐ
                     ܕܬ݀ܦܢܟܐ </incipit>
                 </msItem>
                 <msItem xml:id="c25" n="34">
                   <locus from="44b"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">Letter 26</title>
                   <note>See <bibl>Assem., p. 443, ep. 26.</bibl>
                   </note>
                 </msItem>
                 <msItem xml:id="c26" n="35">
                   <locus from="45a"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">Letter 30</title>
                   <incipit xml:lang="syr">ܥܠ ܪܚܡܬܐ ܕܐܠܗܐ ܡܢ ܕܨ̇ܒܐ ܕܢܐܡ̣ܪ. ܠܐ ܝـ[ܕܥـ]ـܬܗ ܡܟܪܙ ܥܕܠܐ
                     ܐܪܓܫ ܒܠܐ ܡܬܡܨܝܢܘܬܐ ܕܠܓ̇ܡܪ. ܏ܘܫ.. </incipit>
@@ -379,7 +390,7 @@
                 </msItem>
                 <msItem xml:id="c27" n="36">
                   <locus from="45b"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">Letter 31</title>
                   <incipit xml:lang="syr">$ ܕܟܬܒ̣ܬ ܠܝ ܐܚܝ ܕܠܡܐ ܢܓܕܫ ܠܟ ܚܙܘܩܝܐ ܘܐܫܟܚ ܐܘܠܨܢܐ. ܐܢܗܘܼ
                     ܕܬܗܘܐ ܗܕܐ ܠܐ ܬܚ̣ܫ. ܏ܘܫ.</incipit>
@@ -388,7 +399,7 @@
                 </msItem>
                 <msItem xml:id="c28" n="37">
                   <locus from="46a"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">Letter 32</title>
                   <incipit xml:lang="syr">ܠܕܚ̇ܕܬ ܗܘܼ ܠܗ ܕܡ̣ܘܬܐ ܕܐܪܝܝܗ ܕܒܘܪܣܝܐ. ܏ܘܫ</incipit>
                   <note>See <bibl>Assem., p. 443, ep. 32.</bibl>
@@ -396,7 +407,7 @@
                 </msItem>
                 <msItem xml:id="c29" n="38">
                   <locus from="47b"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">Letter 33</title>
                   <incipit xml:lang="syr"> ܠܕܚ̇ܕܬ ܗܘܼ ܠܗ ܕܡ̣ܘܬܐ ܕܐܪܝܝܗ ܕܒܘܪܣܝܐ. ܏ܘܫ.</incipit>
                   <note>See <bibl>Assem,, p. 443, ep. 33.</bibl>
@@ -404,7 +415,7 @@
                 </msItem>
                 <msItem xml:id="c30" n="39">
                   <locus from="48a"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">Letter 34</title>
                   <incipit xml:lang="syr"> ܝ̇ܕܥ ܐܢܐ ܠܟ ܐܘ ܓܒܪܐ ܓܢܒܪ ܒܡܪܝܐ. ܕܠܣܝܡܬܟ ܡܛܫܐ ܐܢܬ. </incipit>
                   <note>See <bibl>Assem., p. 443, ep. 34.</bibl>
@@ -412,7 +423,7 @@
                 </msItem>
                 <msItem xml:id="c31" n="40">
                   <locus from="49a"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">Letter 35</title>
                   <incipit xml:lang="syr">ܐܝܠܝܢ ܕܬܒܥ̣ܢܝ ܚܘܒܟ ܐܚܝ. ܕܛܥ̈ܝܢܝ ܫܘ̈ܡܬܗ ܕܝܫܘܥ. ܒܗ̈ܕܡܘܗܝ
                     ܙܩ̈ܝܦܐ ܐܝ̇ܬܝܗܘܢ. ܏ܘܫ</incipit>
@@ -422,7 +433,7 @@
                 </msItem>
                 <msItem xml:id="c32" n="41">
                   <locus from="52a"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">Letter 36</title>
                   <incipit xml:lang="syr"> ܐܝܠܝܢ ܕܐܬܢ̇ܦܚܘ ܒܗܘܢܗܘܢ ܪܘܚ ܚ̈ܝܐ ܡܢ ܡܠܬܐ ܝܚܝܕܝܐ.</incipit>
                   <note>See <bibl>Assem., p. 443, ep. 36.</bibl>
@@ -430,7 +441,7 @@
                 </msItem>
                 <msItem xml:id="c33" n="42">
                   <locus from="55b"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">Letter 37</title>
                   <incipit xml:lang="syr">ܐܢܕܝܢ ܬܐܡ̣ܪ ܐܚܝ. ܕܥܠ ܡܢܐ ܠܐ ܬ݀ܢܐ ܐܢ̣ܐ ܡܢ ܗܠܝܢ ܪ̈ܐܙܐ ܓ̈ܢܝܙܐ
                     ܩܕܡܝܟ ܠܒܘܝܐܝܟ ܟܕ ܬܐܬ݂ܐ ܠܘܬܝ ܏ܘܫ.</incipit>
@@ -439,7 +450,7 @@
                 </msItem>
                 <msItem xml:id="c34" n="43">
                   <locus from="56a"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">"to a brother whom his parents' creditors were
                     pressing” </title>
                   <rubric xml:lang="syr"> ܕܬܠܬ̈ܝܢ ܘܬܫ̈ܥ. ܠܘܬ ܐܚܐ ܕܐ̈ܠܨܝܢ ܗܘܘ ܠܗ ܡܪ̈ܝ ܚ̇ܘܼܒܐ ܕܐܒ̈ܗܘܗܝ
@@ -458,7 +469,7 @@
                 </msItem>
                 <msItem xml:id="c36" n="45">
                   <locus from="61b"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">Letter 39</title>
                   <incipit xml:lang="syr"> ܣܥ̣ܘ ܛܝܒܘܬܐ ܘܨܠܘ ܥܠܝ. ܘܥܡ ܒ̈ܣܝܡܐ ܣܩ̣ܘ ܠܪܝܫ
                     ܛܘܼܪܐ</incipit>
@@ -467,7 +478,7 @@
                 </msItem>
                 <msItem xml:id="c37" n="46">
                   <locus from="62a"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">on the effects of grace in those that labour</title>
                   <rubric xml:lang="syr"> ܕܐܪ̈ܒܥܝܢ ܘܬܪ̈ܬܝܢ. ܥܠ ܡܥܒ̈ܕܢܘܬܐ ܕܛܝܒܘܬܐ. ܕܗ̈ܘܝܢ ܠܘܬ
                     ܦ̈ܠܘܚܐ</rubric>
@@ -478,7 +489,7 @@
                 </msItem>
                 <msItem xml:id="c38" n="47">
                   <locus from="64b"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">to a friend, on the same subject, viz. of the degrees
                     (of holiness) produced by Divine Grace</title>
                   <rubric xml:lang="syr"> ܕܐܪ̈ܒܥܝܢ ܘܬܠܬ̈ ܠܘܬ ܐܢܫ ܐܚܪܝܢ ܡܢ ܡ̈ܚܒܢܘܗܝ. ܥܠܝܗܝܢ ܟܕ ܥܠܝܗܝܢ
@@ -490,7 +501,7 @@
                 </msItem>
                 <msItem xml:id="c39" n="48">
                   <locus from="69b"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">on the degrees (of holiness)</title>
                   <rubric xml:lang="syr"> ܐܓܪܬܐ ܕܣܒܐ ܕܡ̈ܘܫܚܬܐ ܏ܓ</rubric>
                   <incipit xml:lang="syr"> ܬܠܬܐ ܐܝܬܝܗܘܢ ܐܬܪ̈ܘܬܐ ܕܗܘܢܐ ܕܒܗܘܢ ܣܠ̇ܩ ܘܢ̇ܚܬ. ܗ̇ܢܘ ܕܝܢ
@@ -504,7 +515,7 @@
                 <rubric xml:lang="syr"> ܬܘܒ ܪ̈ܝܫܐ ܕܝ̈ܕܥܬܐ ܕܝܠܗ ܕ܏ܩܕ܏ ܡܪܝܘܚܢܢ ܣܒܐ.</rubric>
                 <msItem xml:id="c40" n="50">
                   <locus from="70a"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">Part A</title>
                   <rubric xml:lang="syr">ܡܐܡܪܐ ܩܕܡܝܐ</rubric>
                   <incipit xml:lang="syr"> ܟܕ ܫܬܐܣܬܐ ܕܡܠܬܢ ܠܡܪܢ ܝܫܘܥ ܡܫܝܚܐ ܣܝ̇ܡܝܢܢ. ܠܚܝܠܗ ܠܐ ܡܙܕܟܝܢܐ
@@ -515,7 +526,7 @@
                 </msItem>
                 <msItem xml:id="c41" n="51">
                   <locus from="72a"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">Part B</title>
                   <rubric xml:lang="syr">ܕܝܠܗ </rubric>
                   <incipit xml:lang="syr"> ܢܘܪܐ ܡܬܝܕܥܢܝܬܐ ܕܐܡܝܢܐܝܬ ܡܬܢܒܪܫܐ ܒܢܦܫܐ ܐܬ݀ܐ ܗܝ ܕܫܲܪܝ ܡܬܦܬܚ
@@ -529,7 +540,7 @@
                 </msItem>
                 <msItem xml:id="c43" n="53">
                   <locus from="79a"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">Part D</title>
                   <rubric xml:lang="syr">ܕܝܠܗ</rubric>
                   <incipit xml:lang="syr"> ܙܩܝܦܐ ܡܬܪܓܫܢܐ ܐܝ܏ܬܘ ܡܕܥܐ ܕܙܩܝ̣ܦ ܠܘܩܒܠ ܚ̈ܘܫܒܐ ܕܠܒ̣ܪ ܡܢ
@@ -537,7 +548,7 @@
                 </msItem>
                 <msItem xml:id="c44" n="54">
                   <locus from="79b"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">of the intellect</title>
                   <rubric xml:lang="syr">ܕܗܘܢܐ</rubric>
                   <incipit xml:lang="syr"> ܗܟܢܐ ܡ̇ܩܒܠ ܗܘܢܐ ܣܝܒܪܬܐ ܪܘܚܢܝܬܐ ܡܢ ܬܐܘܪܝܐ ܕܬܠܝܬܝܘܬܐ ܏ܩܕ.
@@ -545,7 +556,7 @@
                 </msItem>
                 <msItem xml:id="c45" n="55">
                   <locus from="80b"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">Part F</title>
                   <rubric xml:lang="syr">ܪ̈ܝܫܐ ܕܝܕܥܬܐ ܕܝܠܗ</rubric>
                   <incipit xml:lang="syr">ܐܢܗ̣ܘ ܕܡܠܟܘܬܗ ܕܐܠܗܐ ܠܓܘ ܡܢܢ ܐܝܬܝܗ̇. ܏ܘܫ</incipit>
@@ -564,7 +575,7 @@
                 </msItem>
                 <msItem xml:id="c47" n="57">
                   <locus from="87a"/>
-                  <author ref="826">John Saba</author>
+                  <author ref="https://syriaca.org/person/826">John Saba</author>
                   <title xml:lang="en">Part H</title>
                   <rubric xml:lang="syr">ܬܘܒ ܕܝܠܗ</rubric>
                   <incipit xml:lang="syr"> ܚܘܒܐ ܐܠܗܝܐ. ܡܐ ܕܒܝܕ ܥ̣̈ܡܠܐ ܢܓܝܪ̈ܐ ܘܨ̈ܠܘܬܐ ܘܕܡ̈ܥܐ ܘܡܝܬܘܬܐ
@@ -595,7 +606,7 @@
               </msItem>
               <msItem xml:id="b12" n="60">
                 <locus from="89a"/>
-                <author ref="826">John Saba</author>
+                <author ref="https://syriaca.org/person/826">John Saba</author>
                 <title xml:lang="en">Another apology</title>
                 <rubric xml:lang="syr"> ܬܘܒ ܡ̇ܦܩ ܒܪܘܚܐ ܐܚܪܢܐ. ܡܛܠ ܙܘܗܪ̈ܐ ܕܟܠܢܫ</rubric>
                 <incipit xml:lang="syr">ܡܦ̣ܝܣ ܐܢܐ ܠܟܠ ܕܦܓ̇ܥ ܒܫܪ̈ܒܐ ܗܠܝܢ ܒܚܘܒܗ ܕܐܠܗܐ ܕܠܐ ܢܗܘ̣ܐ ܥ̇ܕܠ
