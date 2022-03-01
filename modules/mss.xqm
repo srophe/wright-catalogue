@@ -509,7 +509,7 @@ as item()+
       let $partIdPrefix := if($idPrefix = "") then "p" || $i else $idPrefix || "_" || $i
       return mss:update-msDesc-xml-id-values($msPart, boolean($msPart/tei:msPart), $partIdPrefix)
   (: split out the msPart elements and the index element for the updates :)
-    let $index := $msPartsAndIndex/self::*:update
+    let $index := $msPartsAndIndex/self::*:part
     let $msParts := $msPartsAndIndex/self::tei:msPart
     
   (: if the node is an msPart, give it an xml:id of the form "Partx_y", depending on its level in the nest. Otherwise use the msDesc ID :)
@@ -525,7 +525,9 @@ as item()+
     let $newMsDesc := element {node-name($msDesc)} {$descId, $nAttr, $msDesc/@*[not(name() = "xml:id") and not(name() = "n")],
                                                      $msDesc/tei:msIdentifier,
                                                      $msParts
-                                                     }
+                                                   }
+  (: add the nested part indices to the index for this level :)
+    let $index := <part uri="{$msDesc/tei:msIdentifier/tei:idno/text()}">{$index}</part>
     return ($newMsDesc, $index)
     
     (: if the node does not have nested msParts (i.e., it is an msPart itself or it is a simple msDesc), process it as normal :)
@@ -580,6 +582,8 @@ as item()+
                                                      $msDesc/tei:history,
                                                      $newAdditional
                                                      }
+   (: nest the update index for this part into a part-level index :)
+    let $index := <part uri="{$msDesc/tei:msIdentifier/tei:idno/text()}">{$index}</part>  
   return ($newMsDesc, $index)
 };
 
