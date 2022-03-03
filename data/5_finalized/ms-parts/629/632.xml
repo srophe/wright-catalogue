@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14729 foll. 124-192</title>
+        <title level="a" xml:lang="en">BL Add MS 14729, foll. 124-192</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/632</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14729 foll. 124-192</idno>
+              <idno type="BL-Shelfmark">Add MS 14729, foll. 124-192</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,81 +82,92 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
+              <locus from="124b"/>
               <author ref="https://syriaca.org/person/548">Isaiah of Scete</author>
-              <title xml:lang="en">Selections from the writings of Isaiah of Scete</title>
-              <rubric xml:lang="syr">ܥܠ ܣܒܪܐ ܠܐ [ܡـ]ܒܗܬܢܐ ܕܥ[ܘܕܪܢܐ] ܕܡܢ [ܐܠܗܐ] ܡܫܪܝܢܢ ܕܢܟܬܘܒ ܡـ . .
-                . ܢܐ ܕܡܠܦܢܘܬܐ ܐܘܟܝܬ ܡܪܬܝܢܘܬܐ ܕܐܒܐ ܐܫܥܝܐ.</rubric>
+              <title xml:lang="en">Selections from the writings of <persName ref="https://syriaca.org/person/548">Isaiah of Scete</persName></title>
+              <rubric xml:lang="syr">ܥܠ ܣܒܪܐ ܠܐ [ܡـ]ܒܗܬܢܐ ܕܥ[ܘܕܪܢܐ] ܕܡܢ [ܐܠܗܐ] ܡܫܪܝܢܢ ܕܢܟܬܘܒ
+            ܡـ...ܢܐ ܕܡܠܦܢܘܬܐ ܐܘܟܝܬ ܡܪܬܝܢܘܬܐ ܕܐܒܐ ܐܫܥܝܐ.</rubric>
               <msItem xml:id="b1" n="2">
                 <locus from="124b"/>
+                <title xml:lang="en" type="supplied">Part a</title>
                 <rubric xml:lang="syr">ܡܐܡܪܐ ܩܕܡܝܐ. ܠܘܬ ܐܝܠܝܢ ܕܡܬܩ̣ܪܒܝܢ ܠܡܫܩ̣ܠ ܐܣܟܝܡܐ ܩܕܝܫܐ ܘܩܠܝܠܐ
                   ܕܕܝܪܝܘܬܐ.</rubric>
-                <note>See<bibl> Add. 14,575, no. 1.</bibl>
+                <note>See<bibl> Add. 14,575<ptr target="http://syriaca.org/manuscript/311"/>, no. <citedRange unit="">1</citedRange></bibl>.<!--Element <citedRange> requires unit attribute for Wright's numbering-->
                 </note>
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus from="127b"/>
+                <title xml:lang="en" type="supplied">Part b</title>
                 <rubric xml:lang="syr">ܕܐܝܟܢܐ [ܘ̇ܠܐ ܠܗܘܢ ܠܐܚ̈ܐ ܕܢܗܘܘܢ] [ܥܡ ܚ̈ܕܕܐ].</rubric>
-                <note>See <bibl>Add. 14,575, no. 3</bibl>.</note>
+                <note>See <bibl>Add. 14,575<ptr target="http://syriaca.org/manuscript/311"/>, no. <citedRange unit="">3</citedRange></bibl>.<!--Element <citedRange> requires unit attribute for Wright's numbering-->
               </msItem>
               <msItem xml:id="b3" n="4">
                 <locus from="130a"/>
+                <title xml:lang="en" type="supplied">Part c</title>
                 <rubric xml:lang="syr">ܡܢܐ ܐܝܬܝܗ̇ ܡܟܝܟܘ[ܬܐ]</rubric>
-                <note>See <bibl>Add. 14,575, no. 4.</bibl>
+                <note>See <bibl>Add. 14,575<ptr target="http://syriaca.org/manuscript/311"/>, no. <citedRange unit="">4</citedRange></bibl>.<!--Element <citedRange> requires unit attribute for Wright's numbering-->
                 </note>
               </msItem>
               <msItem xml:id="b4" n="5" defective="true">
                 <locus from="130b"/>
+                <title xml:lang="en" type="supplied">Part d</title>
                 <rubric xml:lang="syr">ܦܘ̈ܩܕܢܐ ܠܗ̇ܢܘܢ [ܕܡܬܪܚܩܝܢ ܡܢ] [ܥܠܡـ]ـܐ</rubric>
-                <note>See <bibl>Add. 14,575, no. 5.</bibl> Imperfect.</note>
+                <note>See <bibl>Add. 14,575<ptr target="http://syriaca.org/manuscript/311"/>, no. <citedRange unit="">5</citedRange></bibl>.<!--Element <citedRange> requires unit attribute for Wright's numbering-->
               </msItem>
             </msItem>
             <msItem xml:id="a2" n="6" defective="true">
-              <locus from="131a"/>
+              <locus from="131a" to="157a"/>
               <author ref="https://syriaca.org/person/44">Philoxenus of Mabug</author>
-              <title xml:lang="en">The letter of Philoxenus of Mabūg to a disciple, on the
+              <title xml:lang="en">The letter of <persName ref="https://syriaca.org/person/44">Philoxenus of Mabūg</persName> to a disciple, on the
                 forsaking of the world and the monastic life.</title>
-              <finalRubric xml:lang="syr">ܠܡ̣ܬ ܐܓܪܬܐ ܕܩܕܝܫܐ ܡܪܝ ܦܠܠܝܟܣܝܢܘܣ..<locus from="157a"/>
+              <finalRubric xml:lang="syr">ܫܠܡ̣ܬ ܐܓܪܬܐ ܕܩܕܝܫܐ ܡܪܝ ܦܠܠܝܟܣܝܢܘܣ.<locus from="157a"/>
               </finalRubric>
-              <note>See <bibl>Add. 14,728, fol. 76 b</bibl>
+              <note>See <bibl>Add. 14,728<ptr target="http://syriaca.org/manuscript/625"/>, fol. <citedRange unit="locus">76 b</citedRange></bibl>.
               </note>
-              <note>Imperfect at the beginning</note>
+              <note>Imperfect at the beginning.</note>
             </msItem>
             <msItem xml:id="a3" n="7">
-              <author>Gregory the Monk</author>
-              <title xml:lang="en">Extracts from the writings of Gregory the monk </title>
+              <locus from="157a"/>
+              <author ref="http://syriaca.org/person/21">Gregory the Monk</author>
+              <title xml:lang="en">Extracts from the writings of <persName ref="http://syriaca.org/person/21">Gregory</persName> the monk </title>
               <rubric xml:lang="syr">ܕܩܕܝܫܐ ܓܪܝܓܪܝܘܣ ܝܚܝܕܝܐ</rubric>
-              <note>see <bibl>Assemani, Bibl. Or., t. i., p. 170</bibl>
+              <note>See <bibl>Assemani, Bibl. Or., t. i., p. 170</bibl>.
               </note>
               <msItem xml:id="b5" n="8">
                 <locus from="157a"/>
+                <author ref="http://syriaca.org/person/21">Gregory the Monk</author>
                 <title xml:lang="en">On the exercise of the virtues, and on the calling of
                   the soul by God.</title>
                 <rubric xml:lang="syr">ܥܠ ܦܘܠܚܢܐ ܕܡܝܬܪ̈ܬܐ ܘܥܠ ܩ̇ܪܝܬܐ ܕܢ̈ܦܫܬܐ ܕܗ̇ܘܝܐ ܡܢ ܐܠܗܐ</rubric>
                 <note>See <bibl>Assem., p. 173, no. 9, first and third questions</bibl>, and
-                    <bibl>Add. 12,163, fol. 290 b</bibl>
+                    <bibl>Add. 12,163<ptr target="http://syriaca.org/manuscript/1225">, fol. <citedRange unit="locus">290 b</citedRange></bibl>.
                 </note>
               </msItem>
               <msItem xml:id="b6" n="9">
                 <locus from="158b"/>
+                <author ref="http://syriaca.org/person/21">Gregory the Monk</author>
                 <title xml:lang="en">On the renunciation of the world.</title>
                 <rubric xml:lang="syr">ܥܠ ܪܚܘܼܩܝܐ ܕܡܢ ܥܠܡܐ</rubric>
                 <note>See <bibl>Assem., p. 173, no. 9, second question</bibl>, and <bibl>Add.
-                    12,163, fol. 291 b</bibl>.</note>
+                    12,163<ptr target="http://syriaca.org/manuscript/1225">, fol. <citedRange unit="locus">291 b</citedRange></bibl>.</note>
               </msItem>
               <msItem xml:id="b7" n="10">
                 <locus from="163a"/>
+                <author ref="http://syriaca.org/person/21">Gregory the Monk</author>
                 <title xml:lang="en">On the demon of melancholy</title>
                 <rubric xml:lang="syr">ܥܠ ܕܝܘܐ ܕܥܩܬܐ</rubric>
               </msItem>
               <msItem xml:id="b8" n="11">
                 <locus from="164b"/>
+                <author ref="http://syriaca.org/person/21">Gregory the Monk</author>
                 <title xml:lang="en">To the brethren in the cell</title>
                 <rubric xml:lang="syr">ܠܘܬ ܐܚ̈ܐ ܕܒܩܠܝܬܐ</rubric>
-                <note>See <bibl>Assem., p. 173, no. 8.</bibl>
+                <note>See <bibl>Assem., p. 173, no. 8</bibl>.
                 </note>
               </msItem>
               <msItem xml:id="b9" n="12">
                 <locus from="167b"/>
+                <author ref="http://syriaca.org/person/21">Gregory the Monk</author>
                 <title xml:lang="en">On the demon of wandering (in thought)</title>
                 <rubric xml:lang="syr">ܥܠ ܕܝܘܐ ܕܦܗܝܐ</rubric>
                 <incipit xml:lang="syr">ܐܕܪܟܢܢ ܠܐܘܡܢܘܬܗ ܒܝܫ̣ܬܐ ܕܕܝܘܐ ܗܢܐ ܕܦ̣ܗܝܐ̣. ܗܢܐ ܕܝܢ ܕܝܘܐ ܒܗܠܝܢ
@@ -163,18 +175,21 @@
               </msItem>
               <msItem xml:id="b10" n="13">
                 <locus from="169a"/>
+                <author ref="http://syriaca.org/person/21">Gregory the Monk</author>
                 <title xml:lang="en">On the true contemplation or vision of God</title>
                 <rubric xml:lang="syr">ܥܠ ܬܐܘܪܝܐ ܫܪܝܪܬܐ ܕܐܝܬܝܗ̇ ܚ̣ܙܬܐ ܐܠܗܝܬܐ</rubric>
-                <note>See Assem., p. 173, no. 7, and Add. 12,163, fol. 262 a.</note>
+                <note>See <bibl>Assem., p. 173, no. 7</bibl>, and <bibl>Add. 12,163<ptr target="http://syriaca.org/manuscript/1225">, fol. <citedRange unit="locus">262 a</citedRange></bibl>.</note>
               </msItem>
               <msItem xml:id="b11" n="14">
                 <locus from="170b"/>
+                <author ref="http://syriaca.org/person/21">Gregory the Monk</author>
                 <title xml:lang="en">Questions of the brethren</title>
                 <rubric xml:lang="syr">ܐܚ̈ܐ ܏ܐܡܪܝܢ. ܐܝܠܝܢ ܐܢܘܢ ܬܪ̈ܝܢ ܨ̈ܒܝܢܘܗܝ ܕܒܣܪܐ. ܘܐܝܠܝܢ ܐܢܘܢ
                   ܕܢܦܫܐ.</rubric>
               </msItem>
               <msItem xml:id="b12" n="15">
                 <locus from="171a"/>
+                <author ref="http://syriaca.org/person/21">Gregory the Monk</author>
                 <title xml:lang="en">A history</title>
                 <rubric xml:lang="syr">ܬܫܥܝܬܐ</rubric>
                 <incipit xml:lang="syr">ܝܕܥ̇ ܐܢ̣ܐ ܕܝܢ ܚܕ ܡܢ ܐܚ̈ܐ ܕܣ̇ܓܝ ܢܣ̈ܝܘܢܐ ܣܒ̣ܝܠܝܢ ܗܘܘ ܠܗ ܡܢ ܗܢܐ
@@ -182,70 +197,83 @@
               </msItem>
               <msItem xml:id="b13" n="16">
                 <locus from="171a"/>
+                <author ref="http://syriaca.org/person/21">Gregory the Monk</author>
                 <title xml:lang="en">An Extract</title>
                 <rubric xml:lang="syr">ܢܘܟܪܝܐ ܗܝ ܠܕܝܪܝܐ ܡܠܬܐ ܕܢܐܡܪ. ܕܩ̇ܪܝܬܗ ܠܡܪܝܐ ܘܠܐ ܥܢܢܝ܇ ܘܒ̇ܥܝܬ
                   ܡܢܗ ܘܠܐ ܝܗܒ̣.</rubric>
               </msItem>
               <msItem xml:id="b14" n="17">
                 <locus from="172a"/>
+                <author ref="http://syriaca.org/person/21">Gregory the Monk</author>
                 <title xml:lang="en">Questions of the brethren</title>
                 <incipit xml:lang="syr"> ܏ܫ̈ܘܼܐܠܐ ܏ܕܐܚ̈ܐ. ܡܢܐ ܐܝܬܝܗ̇ ܦܢܛܣܝܐ ܘܡܢܘ ܫܡܗ̇</incipit>
               </msItem>
               <msItem xml:id="b15" n="18">
                 <locus from="174a"/>
-                <title xml:lang="en">how we should know God</title>
+                <author ref="http://syriaca.org/person/21">Gregory the Monk</author>
+                <title xml:lang="en">How we should know God</title>
                 <rubric xml:lang="syr">ܥܠ ܕܐܝܟܢܐ ܙܕ̇ܩ ܕܢܕܥ ܠܐܠܗܐ</rubric>
                 <incipit xml:lang="syr">ܝܕܥܬܐ ܐܠܗܝܬܐ ܘܫܪܝܪܬܐ ܗܕܐ ܐܝܬܝܗ̇. ܗ̇ܝ ܕܢܥ̇ܩ̣̇ܒ ܘܢܕܥ̣ ܒܗ̇
                   ܚܬܝܬܐܝܬ ܠܐܠܗܐ.</incipit>
               </msItem>
               <msItem xml:id="b16" n="19">
                 <locus from="174b"/>
+                <author ref="http://syriaca.org/person/21">Gregory the Monk</author>
+                <title xml:lang="en" type="supplied">Part l</title>
                 <rubric xml:lang="syr">ܩܛܣܛܣܝܣ ܕܠܘܬ ܐܚ̈ܐ</rubric>
-                <note>See <bibl>Add. 12,163, fol. 240 b</bibl>
+                <note>See <bibl>Add. 12,163<ptr target="http://syriaca.org/manuscript/1225">, fol. <citedRange unit="locus">240 b</citedRange></bibl>.
                 </note>
               </msItem>
               <msItem xml:id="b17" n="20">
                 <locus from="174b"/>
-                <rubric xml:lang="syr">ܥܠ ܫܐܕܐ ܕܩܘܛܥܐ</rubric>
-                <finalRubric xml:lang="syr">ܫ̣ܠܡ ܗ̇ܘ ܡܕܡ ܕܡ̇ܟܢܫ ܠܢ. ܡܢ ܟܬܒܐ ܕܓܪܝܓܪܝܘܣ ܝܚܝܕܝܐ. ܕܥܠ
-                  ܦܘܠܚܢܐ ܕܡܝܬܪ̈ܬܐ܀.
-                </finalRubric>
-                <note>See Add. 12,163, fol. 241 a</note>
+                <author ref="http://syriaca.org/person/21">Gregory the Monk</author>
+                <title xml:lang="en" type="supplied">Part m</title>
+                <rubric xml:lang="syr">ܥܠ ܫܐܕܐ ܕܩܘܛܥܐ</rubric>                
+                <note>See <bibl>Add. 12,163<ptr target="http://syriaca.org/manuscript/1225">, fol. <citedRange unit="locus">241 a</citedRange></bibl>.</note>
               </msItem>
+              <finalRubric xml:lang="syr">ܫ̣ܠܡ ܗ̇ܘ ܡܕܡ ܕܡ̇ܟܢܫ ܠܢ. ܡܢ ܟܬܒܐ ܕܓܪܝܓܪܝܘܣ ܝܚܝܕܝܐ. ܕܥܠ
+                  ܦܘܠܚܢܐ ܕܡܝܬܪ̈ܬܐ܀.
+                <locus from="182b"/></finalRubric>
             </msItem>
             <msItem xml:id="a4" n="21">
+              <locus from="182b"/>
               <author>John the Monk</author>
               <title xml:lang="en">Extracts from the writings of John the monk</title>
-              <rubric xml:lang="syr">ܬܘܒ ܕܡܪܝ ܝܘܚܢܢ ܢ̇ܩܪ</rubric>
+              <rubric xml:lang="syr">ܬܘܒ ܕܡܪܝ ܝܘܚܢܢ ܢ̇ܩܪ<foreign xml:lang="en">(?)</foreign></rubric>
               <msItem xml:id="b18" n="22">
                 <locus from="182b"/>
-                <title xml:lang="en">orders to brethren who are strangers</title>
+                <author>John the Monk</author>
+                <title xml:lang="en">Orders to brethren who are strangers</title>
                 <rubric xml:lang="syr">ܦܘܩ̈ܕܢܐ ܕܠܘܬ ܐܚ̈ܐ ܐܟ̈ܣܢܝܐ</rubric>
                 <incipit xml:lang="syr">ܒܫܘܪܝܐ ܗܟܝܠ ܕܬܫܡܫܬܟ. ܣܝ̣ܡ ܬܠܬܐ ܒܘܪ̈ܟܐ. ܘܐܡ̣ܪ ܩܕܝܫ ܩܕܝܫ ܬܠܬ
                   ܙܒ̈ܢܝܢ.</incipit>
               </msItem>
               <msItem xml:id="b19" n="23" defective="true">
                 <locus from="182b"/>
+                <author>John the Monk</author>
                 <title xml:lang="en">Another Extract</title>
                 <rubric xml:lang="syr">ܕܝܠܗ ܫܪܒܐ ܐܚܪܢܐ</rubric>
-                <note>Mutliated at the beginning</note>
+                <note>Mutilated at the beginning.</note>
               </msItem>
               <msItem xml:id="b20" n="24">
                 <locus from="183b"/>
+                <author>John the Monk</author>
                 <title xml:lang="en">On dwelling in the cell</title>
                 <rubric xml:lang="syr">ܥܠ ܡ̇ܘܬܒܐ ܕܒܩܠܝܬܐ</rubric>
                 <incipit xml:lang="syr">ܟܠ ܐܡܬܝ ܕܝ̇ܬܒ ܐܢܬ ܒܩܠܝܬܟ. ܗܘ̣ܝ ܚܦܝ̣ܛܐ ܒܟܠܗܝܢ ܗܠܝܢ ܕܡܬܒ̈ܥܝܢ.
                   ܏ܘܫ.</incipit>
               </msItem>
-              <msItem xml:id="b21" n="25">
+              <msItem xml:id="b21" n="25" defective="true">
                 <locus from="183b"/>
-                <title xml:lang="en">how our life and conversation should be</title>
+                <author>John the Monk</author>
+                <title xml:lang="en">How our life and conversation should be</title>
                 <rubric xml:lang="syr">ܥܠ ܕܘܒܪܢ ܕܐܝܟܢ ܢܗܘ̣ܐ</rubric>
                 <note>Mutilated at the beginning</note>
               </msItem>
               <msItem xml:id="b22" n="26">
                 <locus from="184a"/>
-                <title xml:lang="en">on poverty</title>
+                <author>John the Monk</author>
+                <title xml:lang="en">On poverty</title>
                 <rubric xml:lang="syr">ܕܥܠ ܡ̇ܣܪܩܘܬܐ</rubric>
                 <incipit xml:lang="syr">ܡܣܪܩܘܬܐ ܗܕܐ ܐܝܬܝܗ̇ ܗ̇ܝ ܕܢܬ̣ܒ ܐܢܫ ܒܩܠܝܬܗ ܘܠܐ ܢ̣ܐܙܦ
                   ܕܡܕܡ..</incipit>
@@ -254,63 +282,66 @@
             <msItem xml:id="a5" n="27">
               <locus from="185a"/>
               <author ref="https://syriaca.org/person/33">Isaac of Antioch</author>
-              <title xml:lang="en">Extract from a metrical discourse of Isaac of
-                Antioch</title>
+              <title xml:lang="en">Extract from a metrical discourse of <persName ref="https://syriaca.org/person/33">
+                Isaac of Antioch</persName></title>
               <rubric xml:lang="syr">ܬܘܒ ܡܢ ܡܐܡܪܐ ܕܡܪܝ ܐܝܣܚܩ</rubric>
               <incipit xml:lang="syr">ܣܝ̣ܡ ܗܘ ܠܡ̈ܠܟܐ ܢܡܘܣܐ. ܠܚ̈ܝܠܘܬܗܘܢ ܘܡ̇ܬܚܡ.</incipit>
             </msItem>
             <msItem xml:id="a6" n="28">
+              <locus from="187a"/>
               <author ref="https://syriaca.org/person/13">Ephraim</author>
-              <title xml:lang="en">Extracts from metrical discourses of Ephraim</title>
+              <title xml:lang="en">Extracts from metrical discourses of <persName ref="https://syriaca.org/person/13">>Ephraim</persName></title>
               <msItem xml:id="b23" n="29">
                 <locus from="187a"/>
-                <incipit xml:lang="syr">ܒܢܘܗܪܐ ܡܬ̇ܥܬܕ. ܕܢܥ̇ܕܐ ܟܠܝܠܐ ܡܢ ܚܒܪܗ</incipit>
+                <title xml:lang="en" type="supplied">Part a</title>
+                <incipit xml:lang="syr">....ܒܢܘܗܪܐ ܡܬ̇ܥܬܕ. ܕܢܥ̇ܕܐ ܟܠܝܠܐ ܡܢ ܚܒܪܗ</incipit>
               </msItem>
               <msItem xml:id="b24" n="30">
                 <locus from="187b"/>
+                <title xml:lang="en" type="supplied">Part b</title>
                 <incipit xml:lang="syr">ܐܝܬ ܕܡ܏ܚ̣ܝ ܒܐܣܘܛܘܬܐ̣. ܘܠܐ ܨ̇ܒܐ ܒܓܝܪܘܬܐ. ܐܝܬ ܕܡܚܝܗܝ
                   ܒܚܬܝܪܘܬܐ̣. ܘܠܐ ܨܒ̇ܐ ܒܓܲܢܒܘܬܐ.</incipit>
               </msItem>
               <msItem xml:id="b25" n="31" defective="true">
                 <locus from="187b"/>
+                <title xml:lang="en" type="supplied">Part c</title>
                 <incipit xml:lang="syr">[ܐܝܟܢـ]ـܐ ܟܝܬ ܕܐܠܗܐ. ܒܟܠ ܥ̈ܠ̣ܠܢ ܗܘܼ ܡܲܚܐ ܠܢ. ܗܟܢܐ ܐܦ ܣܛܢܐ.
                   [ܒܟܠ ܥ̈ܠ̣ܠܢ] ܗ̣ܘ ܩ̇ܛܠ ܠܢ</incipit>
-                <note>Imperfect</note>
               </msItem>
             </msItem>
             <msItem xml:id="a7" n="32">
               <locus from="188a"/>
               <author ref="https://syriaca.org/person/550">Isaac of Nineveh</author>
-              <title xml:lang="en">Extracts, apparently from the writings of Isaac of Nineveh </title>
-              <note>On the margins, the following is written: ܐܝܣܚܩ</note>
-              <msItem xml:id="b26" n="33">
+              <title xml:lang="en">Extracts, apparently from the writings of <persName ref="https://syriaca.org/person/550">Isaac of Nineveh</persName> (fol. <locus from="188a">188 a</locus>, margin, <quote xml:lang="syr">....ܝ ܐܝܣܚܩ.....</quote>)</title>
+              <msItem xml:id="b26" n="33" defective="true">
                 <locus from="188a"/>
+                <author ref="https://syriaca.org/person/550">Isaac of Nineveh</author>
                 <title xml:lang="en">Short sentences, numbered from 1 to 12</title>
+                <note>Imperfect at the beginning.</note>
               </msItem>
               <msItem xml:id="b27" n="34">
                 <locus from="189a"/>
-                <title xml:lang="en">On Tranquility</title>
+                <author ref="https://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">On tranquility</title>
                 <rubric xml:lang="syr">ܥܠ ܢܝܫܐ ܕܫܠܝܐ ܕܡܛܠ ܐܝܢܐ ܦܘܠܚܢܐ ܗܘ̇ܝܢܢ ܒܠܚܘܕܝܘܬܐ</rubric>
               </msItem>
               <msItem xml:id="b28" n="35">
                 <locus from="190b"/>
-                <incipit xml:lang="syr">$ ܪܝܫܐ ܬܘܒ ܐܚܪܢܐ. ܪܢܝܐ ܡܝܬܪܐ ܗ̇ܘ ܕܒܗ ܒܐܠܗܐ ܝܚܝܕܐܝܬ ܗ̇ܘܐ.
+                <author ref="https://syriaca.org/person/550">Isaac of Nineveh</author>
+                <incipit xml:lang="syr">ܪܝܫܐ ܬܘܒ ܐܚܪܢܐ. ܪܢܝܐ ܡܝܬܪܐ ܗ̇ܘ ܕܒܗ ܒܐܠܗܐ ܝܚܝܕܐܝܬ ܗ̇ܘܐ.
                   ܏ܘܫ.</incipit>
               </msItem>
             </msItem>
             <msItem xml:id="a8" n="36">
               <locus from="192a"/>
-              <title xml:lang="en">Lesson for Palm Sunday</title>
+              <title xml:lang="en">Lesson for Palm Sunday, <ref target="https://syriaca.org/work/9646">S. Matthew, ch. xxi. 1—16</ref></title>
               <rubric xml:lang="syr">ܩܪܝ ܕܐܘ̈ܫܥܢܐ ܡܢ ܡܬܝ</rubric>
-              <note>This is in a different hand from the rest of the manuscript</note>
-              <msItem xml:id="b29" n="37">
-                <title xml:lang="en">S. Matthew, ch. xxi. 1—16.</title>
-              </msItem>
+              <note>This is in a different hand from the rest of the manuscript.</note>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -322,9 +353,8 @@
                       <p>Paper, about 6 1/2 in. by 4 3/4, consisting of 69 leaves (Add. 14,729,
                         foll. 124—192), some of which are much torn, especially foll. 124—130 and
                         179—192. The quires, signed with letters, were originally 13 in number, but
-                        ܘ ـــ ܒ are now lost, $ ܐ, ܙ, and $ܝܓ are imperfect. Consequently, there are
-                        lacunae after foll. 130 and 187. Each page has from 16 to 24 lines. This
-                        manuscript is written in a current hand of the xiith or xiiitu cent.</p>
+                        <foreign xml:lang="syr">ܒ</foreign>-<foreign xml:lang="syr">ܘ</foreign> are now lost, <foreign xml:lang="syr">ܐ</foreign>, <foreign xml:lang="syr">ܙ</foreign>, and <foreign xml:lang="syr">ܝܓ</foreign> are imperfect. Consequently, there are
+                        lacunae after foll. 130 and 187. Each page has from 16 to 24 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -333,10 +363,13 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="2">
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
+                <desc>This manuscript is written in a current hand of the <origDate notBefore="1100" notAfter="1300">xiith or xiiith cent.</origDate></desc>
               </handNote>
+              <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
+                <desc>Fol. <locus from="192a" to="192b">192</locus> is in a different hand from the rest of the manuscript.</desc>
+              </handNote> 
             </handDesc>
             <additions>
               <p/>
@@ -360,7 +393,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate from="1100" to="1300">XIIth or XIIIth
+              <origDate notBefore="1100" notAfter="1300">XIIth or XIIIth
                 Century</origDate>
               <origPlace/>
             </origin>
@@ -551,10 +584,10 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-03">Edits to msContents, condition, and handDesc.</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
-      <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
+      <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>      
     </revisionDesc>
   </teiHeader>
   <facsimile>

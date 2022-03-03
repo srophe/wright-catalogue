@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14729116123</title>
+        <title level="a" xml:lang="en">BL Add MS 14729, foll. 116-123</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/631</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14729116123</idno>
+              <idno type="BL-Shelfmark">Add MS 14729, foll. 116-123</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,8 +82,8 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="116b">fol. 116 b</locus>
-              <title>A letter of <persName>Jacob of Batnae</persName> to <persName>Jacob</persName>, abbat of <placeName>the convent of Naphshāthā</placeName>.</title>
+              <locus from="116b"/>
+              <title>A letter of <persName ref="https://syriaca.org/person/42">Jacob of Batnae</persName> to <persName>Jacob</persName>, abbat of <placeName>the convent of Naphshāthā</placeName>.</title>
               <rubric xml:lang="syr">ܥܠ ܚ̇ܝ̣ܠܐ ܕܐܠܗܐ ܡܪܐ ܟܠ ܡ̇ܫܪܝܢܢ ܠܡܟܬܒ ܟܬܒܐ ܕܟ̈ܘܢܫܐ ܕܐܒ̈ܗܬܐ ܏ܩܕ
                   ܐܓܪܬܐ ܕܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ ܨܝܕ ܡܪܝ ܝܥܩܘܒ ܕܢ̈ܦܫܬܐ</rubric>
               <note>See <bibl>Assemani, Bibl., Or., t. i., p. 303, no. 5</bibl>, and <bibl>Add. 17,163<ptr target="http://syriaca.org/manuscript/809"/>,<citedRange unit="locus">fol. 35 a</citedRange>
@@ -90,20 +91,11 @@
               <note>Imperfect at the end.</note>
             </msItem>
             <msItem xml:id="a2" n="2">
-              <locus from="123b">fol. 123b</locus>
+              <locus from="123b"/>
               <title>Part of a letter addressed by one <persName>Zākhē</persName>, or <persName>Nicolaus</persName>, to the abbat <persName>Severus</persName>, rabban
                 <persName>Gabriel</persName>, rabban <persName>John</persName>, and the rest of the fraternity of a certain convent.</title>
-              <incipit xml:lang="syr">ܒܫܡܐ ܕܚܝ̣ܠܐ ܘܡܫ̇ܒܚܐ ܕܐܠܗܐ ܚܝܼ̇ܐ ܕܨ̇ܒܐ ܒܚ̈ܝܐ ܕܟܠ. ܬܠܡܝܕܗܘܢ ܙ̇ܟܐ ܒ̣ܨܝܪܐ
-                  ܫ̇ܠܡܐ ܕܡܠܸܐ ܟܠ ܫ̇ܠܡ̈ܝܢ: ܘܫܝܢܐ ܕܡ̇ܠ̣ܐ ܟܠ ܫܝ̈ܢܝܢ: ܘܚܘܼܒܐ ܕܡ̇ܠ̣ܐ ܟܠ ܚܘ̈ܒ̣ܝܢ: ܗ̇ܘ ܕܝܗ̣ܒ ܡܪܢ
-                  ܠܬܠܡܝ̈ܕܘܗܝ ܒܥܠܝܬܐ̣. ܢܗ̣ܘܐ ܥܡܟܘܢ ܘܒܝܢܬܟܘܢ.                
-                ܐܘ
-ܐܒ̈ܗܬܐ ܩܕ̈ܝܫܐ ܘܕܝܪ̈ܝܐ ܢ̈ܨܝܚܐ. ܩܕܡܐܝܬ ܡ̇ܢ ܐܒܘܢ ܚܣܝܐ ܡܪܝ
-                  ܣܐܘܪܐ ܘܐܒܘܢ ܪܝܫܕܝܪܐ ܘܪܒܢ ܓܒܪܐܝܠ ܣܒܐ ܘܪܒܢ ܝܘܚܢܢ ܣܒܐ̣. ܥܡ ܫܪܟܐ ܕܣ̈ܒܐ ܘܥ̈ܠܝܡܐ ܩ̈܏
-                 ܫ ܘܡ̈܏ܫܡܫ
-             ܘܕܝܪ̈ܝܐ ܒܪ̈ܝܟܐ ܘܐܚ̈ܐ ܟܢܝܫܐܝܬ. ܒܝܕ ܥ̣ܒܕܐ ܕܝܠܟܘܢ ܘܒ̣ܨܝܪܐ
-                  ܕܬܠܡ̈ܝܕܝܟܘܢ ܐܘܟܝܬ ܒܪܐ ܕܝܠܟܘܢ ܟܕܠܐ ܫ̇ܘܐ ܙ̇ܟܐ ܡܚܝ̣ܠܐ ܘܬܚ̇ܘܒܐ ܕܟܠܗܘܢ ܒܢ̈ܝܢܫܐ
-                  ܏ܘܫ.</incipit>
-              <note>This leaf is in a different band from the rest, and seems to have belonged to another
+              <incipit xml:lang="syr">ܒܫܡܐ ܕܚܝ̣ܠܐ ܘܡܫ̇ܒܚܐ ܕܐܠܗܐ ܚܝܼ̇ܐ ܕܨ̇ܒܐ ܒܚ̈ܝܐ ܕܟܠ. ܬܠܡܝܕܗܘܢ ܙ̇ܟܐ ܒ̣ܨܝܪܐ ܫ̇ܠܡܐ ܕܡܠܸܐ ܟܠ ܫ̇ܠܡ̈ܝܢ: ܘܫܝܢܐ ܕܡ̇ܠ̣ܐ ܟܠ ܫܝ̈ܢܝܢ: ܘܚܘܼܒܐ ܕܡ̇ܠ̣ܐ ܟܠ ܚܘ̈ܒ̣ܝܢ: ܗ̇ܘ ܕܝܗ̣ܒ ܡܪܢ ܠܬܠܡܝ̈ܕܘܗܝ ܒܥܠܝܬܐ̣. ܢܗ̣ܘܐ ܥܡܟܘܢ ܘܒܝܢܬܟܘܢ. ܐܘ  ܐܒ̈ܗܬܐ ܩܕ̈ܝܫܐ ܘܕܝܪ̈ܝܐ ܢ̈ܨܝܚܐ. ܩܕܡܐܝܬ ܡ̇ܢ ܐܒܘܢ ܚܣܝܐ ܡܪܝ ܣܐܘܪܐ ܘܐܒܘܢ ܪܝܫܕܝܪܐ ܘܪܒܢ ܓܒܪܐܝܠ ܣܒܐ ܘܪܒܢ ܝܘܚܢܢ ܣܒܐ̣. ܥܡ ܫܪܟܐ ܕܣ̈ܒܐ ܘܥ̈ܠܝܡܐ ܩ̈܏ܫ ܘܡ̈܏ܫܡܫ ܘܕܝܪ̈ܝܐ ܒܪ̈ܝܟܐ ܘܐܚ̈ܐ ܟܢܝܫܐܝܬ. ܒܝܕ ܥ̣ܒܕܐ ܕܝܠܟܘܢ ܘܒ̣ܨܝܪܐ ܕܬܠܡ̈ܝܕܝܟܘܢ ܐܘܟܝܬ ܒܪܐ ܕܝܠܟܘܢ ܟܕܠܐ ܫ̇ܘܐ ܙ̇ܟܐ ܡܚܝ̣ܠܐ ܘܬܚ̇ܘܒܐ ܕܟܠܗܘܢ ܒܢ̈ܝܢܫܐ ܏ܘܫ.<note type="incomplete" resp="http://syriaca.org" xml:lang="en">The original description of this manuscript by William Wright includes characters, symbols, or illustrations which cannot be represented. Please consult the attached image.</note></incipit><!--JA: The word ܐܘ is missing a diacritic-->
+              <note>This leaf is in a different hand from the rest, and seems to have belonged to another
                   manuscript.</note>
             </msItem>
           </msContents>
@@ -125,12 +117,15 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" scope="sole" script="syr" medium="unknown">
+            <handDesc hands="2">
+              <handNote xml:id="handNote1" scope="major" script="syr" medium="unknown">
                 <desc>This manuscript is written in a current hand of the
                   <date calendar="Gregorian" notBefore="1100" notAfter="1200">xiith</date> or <date calendar="Gregorian" notBefore="1200" notAfter="1300">xiiith cent.</date>
                 </desc>
               </handNote>
+              <handNote xml:id="handNote2" scope="minor" script="syr" medium="unknown">
+                <desc>Fol. <locus from="123a" to="123b">123</locus> is in a different hand from the rest, and seems to have belonged to another manuscript.</desc>
+                </handNote>
             </handDesc>
             <bindingDesc>
               <p>Content pending</p>
@@ -331,13 +326,11 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-03">Edits to msContents</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-07-11" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
         encoding.</change>
-      <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
-      <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs to
-        be checked for accuracy</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
