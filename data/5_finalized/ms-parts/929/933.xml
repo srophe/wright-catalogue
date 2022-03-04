@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,26 +83,25 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <author ref="113">Jacob of Edessa</author>
-              <title xml:lang="en">Portions of the ܬܘܪܨ ܡܡܠܠܐ, or Syriac Grammar, of Jacob of
-                Edessa, in which he explained and applied his new system of vowel-pointing to the
-                Syriac language.</title>
-              <rubric xml:lang="syr">ܬܘܪܨ ܡܡܠܠܐ</rubric>
-              <note>On Jacob Edessa, as grammarian, see, in particular <bibl>"Jacques d' #Edesse et les
-                Voyelles Syriennes," by M. #L'Abbe Martin, in the Journal Asiatique for Mai-Juin
-                1869, p. 447</bibl>; <bibl>"Jacobi Ep Edesseni Epistola ad Gregorium Epum Sarugensem" etc., ed.
+              <author ref="https://syriaca.org/person/113">Jacob of Edessa</author>
+              <title xml:lang="en">Portions of the <foreign xml:lang="syr">ܬܘܪܨ ܡܡܠܠܐ</foreign>, or Syriac Grammar, of <persName ref="https://syriaca.org/person/113">Jacob of
+                Edessa<persName>,<note>On <persName ref="https://syriaca.org/person/113">Jacob of Edessa</persName>, as grammarian, see, in particular <bibl>"Jacques d'Édesse et les
+                Voyelles Syriennes," by M. l'Abbé Martin, in the Journal Asiatique for Mai-Juin
+                1869, p. 447</bibl>; <bibl>"Jacobi Epi Edesseni Epistola ad Gregorium Epum Sarugensem" etc., ed.
                 Martin, 1869</bibl>; and <bibl>"A Letter by Mar Jacob, bishop of Edessa, on Syriac Orthography,"
-                  etc., edited by Dr. Phillips, 1869.</bibl>
-              </note>
-              <note>The oldest system of vowel-punctuation used by the Syrians was that by means of
-                small points or dots above and below the consonants (ܐܲ,ܐܵ, etc.), which has been
-                retained by the Nestorians. Subsequently, about the time of Jacob of Edessa, the
-                Greek vowels were introduced in the same positions (ܐܰ or ܐܱ, ܐܳ or ܐܴ,
+                  etc., edited by Dr. Phillips, 1869</bibl>.</note> in which he explained and applied his new system of vowel-pointing to the
+                Syriac language.</title>
+              <rubric xml:lang="syr">ܬܘܪܨ ܡܡܠܠܐ</rubric>              
+              <note><p>The oldest system of vowel-punctuation used by the Syrians was that by means of
+                small points or dots above and below the consonants (<foreign xml:lang="syr">ܐܲ</foreign>,<foreign xml:lang="syr">ܐܵ</foreign>, etc.), which has been
+                retained by the Nestorians. Subsequently, about the time of <persName ref="https://syriaca.org/person/113">Jacob of Edessa</persName>, the
+                Greek vowels were introduced in the same positions (<foreign xml:lang="syr">ܐܰ</foreign> or <foreign xml:lang="syr">ܐܱ</foreign>, <foreign xml:lang="syr">ܐܳ</foreign> or <foreign xml:lang="syr">ܐܴ</foreign>,
                 etc.)—whether by himself or by others, is not perfectly clear, — and were gradually
                 extensively adopted by the Jacobites. The earliest examples of their use in the
-                Nitrian manu-scripts are in <bibl>Add. 17,134, fol. 83</bibl> (dating from about A.D. 675, and
-                perhaps autograph of Jacob, see <bibl>above, no. CCCCXXI</bibl>.), and <bibl>Add. 14,429</bibl> (dated A.D.
-                719, see <bibl>above, no. LX</bibl>.). Jacob planned, however, a farther reformation, viz. the
+                Nitrian manuscripts are in <bibl>Add. 17,134<ptr target="http://syriaca.org/manuscript/763"/>, fol. <citedRange unit="locus">83</citedRange></bibl> (dating from about A.D. <date calendar="Gregorian" when="0675">675</date>, and
+                perhaps autograph of <persName ref="https://syriaca.org/person/113">Jacob</persName>, see above, <bibl>no. CCCCXXI<ptr target="http://syriaca.org/manuscript/763"/></bibl>.), and <bibl>Add. 14,429<ptr target="http://syriaca.org/manuscript/85"/></bibl> (dated A.D.
+                <date calendar="Gregorian" when="0719">719</date>, see above, <bibl>no. LX<ptr target="http://syriaca.org/manuscript/85"/></bibl>.).</p>
+                <p>Jacob planned, however, a farther reformation, viz. the
                 introduction of a scries of vowel-signs which could be written, like the Greek
                 vowels, on a level with and between the consonants; and it was partly with the view
                 of recommending this system to his countrymen that he composed the ܬܘܪܨ ܡܡܠܠܐ ܢܗܪܝܐ
