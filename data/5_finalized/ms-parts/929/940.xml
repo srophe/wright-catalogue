@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17217, fol. 45.</title>
+        <title level="a" xml:lang="en">BL Add MS 17217, fol. 45</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,12 +83,12 @@
             <summary/>
             <textLang mainLang="syr-Syre"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="1a"/>
-              <title xml:lang="en">the conclusion of the history of a saint</title>
+              <locus from="45a"/>
+              <title xml:lang="en">The conclusion of the history of a saint</title>
             </msItem>
             <msItem xml:id="a2" n="2" defective="true">
-              <locus from="1b"/>
-              <title xml:lang="en">an anecdote of a sick woman, who was cured by a holy
+              <locus from="45b"/>
+              <title xml:lang="en">An anecdote of a sick woman, who was cured by a holy
                 man</title>
             </msItem>
           </msContents>
@@ -102,10 +103,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>A vellum leaf, 7 5/8 in. by 4 3/4, slightly mutilated. The writing is a
-                        neat, regular #Estrangela of the viith or viiith cent. It contains, on the
-                        one side, the conclusion of the history of a saint; and on the other, an
-                        anecdote of a sick woman, who was cured by a holy man.</p>
+                      <p>A vellum leaf, 7 5/8 in. by 4 3/4, slightly mutilated.</p>
                     </item>
                   </list>
                 </condition>
@@ -116,7 +114,8 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>The writing is a
+                        neat, regular Estrangela of the <origDate notBefore="0600" notAfter="0800">viith or viiith cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -130,7 +129,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0600" notAfter="0799">of the viith or
+              <origDate notBefore="0600" notAfter="0800">viith or
                 viiith cent.</origDate>
               <origPlace/>
             </origin>
@@ -321,11 +320,10 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-10">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-09">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI
         encoding.</change>
-      <change type="planned" subtype="question">Question in Word Doc to be Addressed: needs </change>
-      <change type="planned" subtype="table">Table to be revised.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
