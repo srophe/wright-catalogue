@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17217, fol. 60.</title>
+        <title level="a" xml:lang="en">BL Add MS 17217, fol. 60</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,7 +83,7 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <title xml:lang="en">Part of a colophon (the anathema)</title>
+              <title xml:lang="en">Part of a colophon (the anathema)</title>              
             </msItem>
           </msContents>
           <physDesc>
@@ -96,9 +97,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>A vellum leaf about 9 ¾ in. by 6 ½ , much stained and torn, containing part
-                        of a colophon (the anathema), written in small cursive characters of the
-                        vith cent.</p>
+                      <p>A vellum leaf about 9 ¾ in. by 6 ½ , much stained and torn.</p>
                     </item>
                   </list>
                 </condition>
@@ -107,19 +106,23 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="2">
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr">
+                <desc>The colophon is written in small cursive characters of the
+                        <origDate notBefore="0500" notAfter="0600">vith cent.</origDate></desc>
+              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
+                <desc>See additions.</desc>
+              </handNote>
               </handNote>
             </handDesc>
             <additions>
               <list>
                 <item xml:id="addition1" n="1">
-                  <p>beneath which is a later note, stating that the book, to which it belonged, was
+                  <p>Beneath the colophon is a later note, stating that the book, to which the leaf belonged, was
                     presented to the <placeName ref="http://syriaca.org/place/360">convent of S.
-                      Mary Deipara</placeName> by the sons of <persName>Duma Shatir, the Tagritan,
-                      of Callinicus</persName>, and requesting a prayer for one
-                      <persName>Zacchæus</persName>, who was buried there</p>
+                      Mary Deipara</placeName> by the sons of <persName>Duma Shatir</persName>, the Tagritan,
+                      of <placeName>Callinicus</placeName>, and requesting a prayer for one
+                      <persName>Zacchæus</persName>, who was buried there.</p>
                   <p>
                     <quote xml:lang="syr">ܝܗܒ ܟܬܒܐ ܗܢܐ ܠܕܝܪܐ ܩܕܝܫܬܐ ܕܒܡܕ[ܒܪܐ] ܕܐܣܩܛܐ ܕܒܡܨܪܝܢ ܒܢ̈ܝ ܕܘܡܐ ܫܛـ[ـܝܪ]
                       ܬܐܓܪܝܬܢܝܐ ܩܐܠܢܩܝܐ̣ ܠܦܘܪܩـ[ـܢܐ ܕܢܦܫܗܘܢ] ܘܠܕܘܟܪܢܐ ܕܥܢܝ̈ܕܝܗܘܢ ܘܠܥܘܗܕܢܐ . . .
@@ -139,7 +142,7 @@
           <history>
             <origin>
               <origDate notBefore="0500" notAfter="0600">vith cent.</origDate>
-              <origPlace ref="http://syriaca.org/place/360">S. Mary Deipara</origPlace>
+              <origPlace/>
             </origin>
             <provenance/>
             <acquisition/>
@@ -328,6 +331,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-10">Edits to msContents, handDesc, and additions.</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-07">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#cchen">Initial TEI encoding.</change>
     </revisionDesc>
