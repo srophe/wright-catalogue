@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jrushing">Jaret Rushing</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -82,89 +83,159 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <author ref="113">Jacob of Edessa</author>
-              <title xml:lang="en">Portions of the ܬܘܪܨ ܡܡܠܠܐ, or Syriac Grammar, of Jacob of
-                Edessa, in which he explained and applied his new system of vowel-pointing to the
-                Syriac language.</title>
-              <rubric xml:lang="syr">ܬܘܪܨ ܡܡܠܠܐ</rubric>
-              <note>On Jacob Edessa, as grammarian, see, in particular <bibl>"Jacques d' #Edesse et les
-                Voyelles Syriennes," by M. #L'Abbe Martin, in the Journal Asiatique for Mai-Juin
-                1869, p. 447</bibl>; <bibl>"Jacobi Ep Edesseni Epistola ad Gregorium Epum Sarugensem" etc., ed.
+              <author ref="https://syriaca.org/person/113">Jacob of Edessa</author>
+              <title xml:lang="en">Portions of the <foreign xml:lang="syr">ܬܘܪܨ ܡܡܠܠܐ</foreign>, or Syriac Grammar, of <persName ref="https://syriaca.org/person/113">Jacob of
+                Edessa</persName>,<note type="footnote">On <persName ref="https://syriaca.org/person/113">Jacob of Edessa</persName>, as grammarian, see, in particular <bibl>"Jacques d'Édesse et les
+                Voyelles Syriennes," by M. l'Abbé Martin, in the Journal Asiatique for Mai-Juin
+                1869, p. 447</bibl>; <bibl>"Jacobi Epi Edesseni Epistola ad Gregorium Epum Sarugensem" etc., ed.
                 Martin, 1869</bibl>; and <bibl>"A Letter by Mar Jacob, bishop of Edessa, on Syriac Orthography,"
-                  etc., edited by Dr. Phillips, 1869.</bibl>
-              </note>
-              <note>The oldest system of vowel-punctuation used by the Syrians was that by means of
-                small points or dots above and below the consonants (ܐܲ,ܐܵ, etc.), which has been
-                retained by the Nestorians. Subsequently, about the time of Jacob of Edessa, the
-                Greek vowels were introduced in the same positions (ܐܰ or ܐܱ, ܐܳ or ܐܴ,
+                  etc., edited by Dr. Phillips, 1869</bibl>.</note> in which he explained and applied his new system of vowel-pointing to the
+                Syriac language.</title>
+              <rubric xml:lang="syr">ܬܘܪܨ ܡܡܠܠܐ</rubric>              
+              <note><p>The oldest system of vowel-punctuation used by the Syrians was that by means of
+                small points or dots above and below the consonants (<foreign xml:lang="syr">ܐܲ</foreign>,<foreign xml:lang="syr">ܐܵ</foreign>, etc.), which has been
+                retained by the Nestorians. Subsequently, about the time of <persName ref="https://syriaca.org/person/113">Jacob of Edessa</persName>, the
+                Greek vowels were introduced in the same positions (<foreign xml:lang="syr">ܐܰ</foreign> or <foreign xml:lang="syr">ܐܱ</foreign>, <foreign xml:lang="syr">ܐܳ</foreign> or <foreign xml:lang="syr">ܐܴ</foreign>,
                 etc.)—whether by himself or by others, is not perfectly clear, — and were gradually
                 extensively adopted by the Jacobites. The earliest examples of their use in the
-                Nitrian manu-scripts are in <bibl>Add. 17,134, fol. 83</bibl> (dating from about A.D. 675, and
-                perhaps autograph of Jacob, see <bibl>above, no. CCCCXXI</bibl>.), and <bibl>Add. 14,429</bibl> (dated A.D.
-                719, see <bibl>above, no. LX</bibl>.). Jacob planned, however, a farther reformation, viz. the
-                introduction of a scries of vowel-signs which could be written, like the Greek
+                Nitrian manuscripts are in <bibl>Add. 17,134<ptr target="http://syriaca.org/manuscript/763"/>, fol. <citedRange unit="locus">83</citedRange></bibl> (dating from about A.D. <date calendar="Gregorian" when="0675">675</date>, and
+                perhaps autograph of <persName ref="https://syriaca.org/person/113">Jacob</persName>, see above, <bibl>no. CCCCXXI<ptr target="http://syriaca.org/manuscript/763"/></bibl>.), and <bibl>Add. 14,429<ptr target="http://syriaca.org/manuscript/85"/></bibl> (dated A.D.
+                <date calendar="Gregorian" when="0719">719</date>, see above, <bibl>no. LX<ptr target="http://syriaca.org/manuscript/85"/></bibl>.).</p>
+                <p><persName ref="https://syriaca.org/person/113">Jacob</persName> planned, however, a farther reformation, viz. the
+                introduction of a series of vowel-signs which could be written, like the Greek
                 vowels, on a level with and between the consonants; and it was partly with the view
-                of recommending this system to his countrymen that he composed the ܬܘܪܨ ܡܡܠܠܐ ܢܗܪܝܐ
-                or "Emendation of the Mesopotamian Language," to which Bar Hebraeus alludes in the
-                ܟܬܒܐ ܕܨܡ̈ܚܐ, cited by M. Martin in his article <bibl>"Jacques d'Edesse et les Voyelles
-                  Syriennes," pp. 455, seqq.</bibl>@[See also <bibl>Assemani, Bibl. Or., t. i., p. 477</bibl>.]@ The
-                passage is as follows in <bibl>Add. 7201, fol. 195</bibl> ܏ܨܡܚ̣ܐ ܕܠܐ ܥܛܷܠ ܡܘܼܠܵܝ ܚܲܣ̣ܝܪܘܬ ܐܬܘ̈ܬܐ
-                ܣܘܪ̈ܝܝܬܐ. ܒܨܘܼܪ̈ܬܐ ܕܡ̣ܢ ܕܝܠ̣ܗ ܐܫܠ̣ܡ ܚܲܣܝܐ ܚܲܘܝ̣. ܠܩ̈ܠܢܝܬܐ ܡ̇ܢ ܫܒܥ. ܘ܏ܠܦܐ ܝܲܘܢܝܬܐ
-                ܚܕܐ. ܘܠܐܬܘ̈ܬܐ ܡܪ̈ܟܟܬܐ ܒܢܘܼ̈ܩܙܐ ܕܬܚܘܬ ܘܠܩܫ̈ܝܬܐ ܡ̣ܬܬܣ̈ܝ̣ܡܢ ܦܲܪܫ. ܘܠܲܦܬܚܐ ܡ̇ܢ ܨܵܪ݂
-                ܛܘܼܦܣܐ </note>
-              <note>According to Bar Hebraeus, therefore, Jacob's vowel-system was:— $ He should
-                have added that $ takes the place of $ @[Pronounced in Jacob's time, and even
-                earlier, by the Western Syrians as #o. This is evident from the selection of the
-                Greek % to represent the sound, and from such a spelling as $ for $ <bibl>Add. 17,202</bibl>
-                (see, for example, <bibl>above, p. 1048, 2nd column, line 21</bibl>)]@ as in $ These vowel-signs
-                seem to be akin to the $ or "Additions to the Mesopotamian Alphabet," given in <bibl>Add.
-                  14,620, fol. 13b</bibl> (see <bibl>Land in the Zeitschrift der Deutschen #Morgenlandischen
+                of recommending this system to his countrymen that he composed the <title xml:lang="syr" type="supplied">ܬܘܪܨ ܡܡܠܠܐ ܢܗܪܝܐ</title>
+                or "<title xml:lang="en" type="supplied">Emendation of the Mesopotamian Language</title>," to which <persName ref="https://syriaca.org/person/239">Bar Hebraeus</persName> alludes in the
+                <title xml:lang="syr" type="supplied">ܟܬܒܐ ܕܨܡ̈ܚܐ</title>, cited by <persName>M. Martin</persName> in his article <bibl>"Jacques d'Edesse et les Voyelles
+                  Syriennes," pp. 455, seqq.</bibl><note type="footnote">See also <bibl>Assemani, Bibl. Or., t. i., p. 477</bibl>.</note> The
+                passage is as follows in <bibl>Add. 7201<ptr target=""/>, fol. <citedRange unit="locus">195</citedRange></bibl>:</p> <!--JA: URI needed for manuscript; cited manuscript is a reference to Rosen and Forshall catalogue of manuscripts in British Library, 1838, "A larger Grammar by Bar Hebraeus": See Wright, III.1222, "Index-Table of Manuscripts"-->
+                <p>
+                <quote xml:lang="syr">܏ܨܡܚ̣ܐ ܕܠܐ ܥܛܷܠ ܡܘܼܠܵܝ ܚܲܣ̣ܝܪܘܬ ܐܬܘ̈ܬܐ
+                  ܣܘܪ̈ܝܝܬܐ. ܒܨܘܼܪ̈ܬܐ ܕܡ̣ܢ ܕܝܠ̣ܗ ܐܫܠ̣ܡ ܚܲܣܝܐ ܚܲܘܝ̣. ܠܩ̈ܠܢܝܬܐ ܡ̇ܢ ܫܒܥ. ܘ܏ܠܦܐ ܝܲܘܢܝܬܐ
+                  ܚܕܐ. ܘܠܐܬܘ̈ܬܐ ܡܪ̈ܟܟܬܐ ܒܢܘܼ̈ܩܙܐ ܕܬܚܘܬ ܘܠܩܫ̈ܝܬܐ ܡ̣ܬܬܣ̈ܝ̣ܡܢ ܦܲܪܫ. ܘܠܲܦܬܚܐ ܡ̇ܢ ܨܵܪ݂
+                  ܛܘܼܦܣܐ</quote>
+                </p>
+              <p>According to <persName ref="https://syriaca.org/person/239">Bar Hebraeus</persName>, therefore, <persName ref="https://syriaca.org/person/113">Jacob</persName>'s vowel-system was:—</p>
+              <p>￼<note type="incomplete" resp="http://syriaca.org" xml:lang="en">The original description of this manuscript by William Wright includes characters, symbols, or illustrations which cannot be represented. Please consult the attached image.</note></p><!--JA: Wright includes a table of Syriac vowels here and the corresponding vowel name/symbol for Jacob of Edessa-->
+              <p>He should have added that <foreign xml:lang="syr">ܐ</foreign> takes the place of <foreign xml:lang="syr">ܙܩܦܐ</foreign>, ā<note type="footnote">Pronounced in <persName ref="https://syriaca.org/person/113">Jacob</persName>'s time, and even
+                earlier, by the Western Syrians as о̄. This is evident from the selection of the
+                Greek o mikron (<foreign xml:lang="syr">�</foreign>) to represent the sound, and from such a spelling as <foreign xml:lang="syr">ܬܡܘܢܝܐ</foreign> for <foreign xml:lang="syr">ܬܡܢܝܐ</foreign> in <bibl>Add. 17,202<ptr target="http://syriaca.org/manuscript/864"/></bibl>
+                (see, for example, above, <bibl>p. 1048, 2nd column, line 21</bibl>).<note type="incomplete" resp="http://syriaca.org" xml:lang="en">The original description of this manuscript by William Wright includes characters, symbols, or illustrations which cannot be represented. Please consult the attached image.</note></note> as in <foreign xml:lang="syr">ܐ�ܪܗܐܝ</foreign> (<foreign xml:lang="syr">ܐܘ̇ܪܗܳܝ</foreign>), <foreign xml:lang="syr">ܓ�ܒܝܐܬܐ</foreign> (<foreign xml:lang="syr">ܓܰܒ̈ܝܳܬܳܐ</foreign>).<note type="incomplete" resp="http://syriaca.org" xml:lang="en">The original description of this manuscript by William Wright includes characters, symbols, or illustrations which cannot be represented. Please consult the attached image.</note></p>
+              <p>These vowel-signs seem to be akin to the <title xml:lang="syr" type="supplied">ܡܬܬܘܣ̈ܦܢܝܬܐ ܕܥܠ ܐܠܦ ܒܝܬ ܢܗܪܝܬܐ</title> or "<title xml:lang="en" type="supplied">Additions to the Mesopotamian Alphabet</title>," given in <bibl>Add.
+                  14,620<ptr target="http://syriaca.org/manuscript/360"/>, fol. <citedRange unit="locus">13b</citedRange></bibl> (see <persName>Land</persName> in the <bibl>Zeitschrift der Deutschen Morgenländischen
                     Gesellschaft, Bd. xxii., p. 550</bibl>, and <bibl>Martin, "Jacques d'Edesse et les Voyelles
-                      Syriennes," pp. 459, 160</bibl>); viz.— $ </note>
-              <note>The following fragments of the work of Jacob — with one exception, we believe,
-                the only portions of it extant in Europe,—do not exhibit $ as in $ but furnish us
-                with three figures for u, viz. $ as in $; and $, as in $ (fol. 37 a) $$$$$$$ $ܐܘ
-                ܩܪܘܝܐ ܪܚ̇ܡ ܥܡ̣ܠܐ̣. ܕܒܡܐܡܪܐ ܗ̇ܘ ܩܕܡܝܐ ܐܡ̇ܪܬ݂. ܕܡܢܗܝܢ ܕܐ̈ܬܘܬܐ̣ ܣܩ̈ܘܒܠܝܢ ܠܚ̈ܕܕܐ̣. ܘܠܐ
-                ܡܩ̈ܒܠܢ ܐܘ ܕܢܣܬܬܣ̈ܝ̣ܡܢ (sic) ܩܕܡ ܚ̈ܕܕܐ̇. ܐܘ ܕܢ̈ܬܬܐܝܬܝܢ ܒܬܪ ܚ̈ܕܕܐ. ܗ̇ܢܘ ܕܝܢ ܥܒ̣̈ܝܬܐ
-                ܠܡ̈ܨܥܝܬܐ ܘܠܢܩ̈ܕܬܐ̣. ܘܡ̈ܨܥܝܬܐ ܠܥܒ̈ܝ̣ܬܐ ܘܠܢܩ̈ܕܬܐ̣. ܘܢܩ̈ܕܬܐ ܒܗ̇ ܒܕܡ̣ܘܬܐ ܠܥܒ̈ܝ̣ܬܐ
-                ܘܠܡ̈ܨܥܝܬܐ. ܘܐܢ ܗ̣ܘ ܕܬܣܬܩ̇ܒܠ ܐܬܘܬܐ ܥܒ̣ܝܬܐ ܩܕܡ ܡܨܥܝܬܐ ܐܘ ܩܕܡ ܢܩܕܬܐ̣. ܡܫܬܚܠܦܐ ܐܦ ܗ̣ܝ̣
-                ܘܗ̇ܘܝܐ ܐܘ ܡܨܥܝܬܐ ܐܘ ܢܩܕܬܐ: ܘܡܛܠ ܗܕܐ ܐܦ ܒܫ̈ܡܗܐ ܗܠܝܢ ܕܩ̇ܕܡܘ ܐܬܟܬܒܘ ܗܫܐ: ܗܢܘ ܕܝܢ
-                ܪܝܘܓܬܢܐ ܥܝܘܩܬܢܐ. ܪܓܘܙܬܢܐ̣. ܐܝܟ ܕܬܒ̇ܥ ܗܘܐ ܗ̣ܘ ܡܦܩܗ̇ ܕܒܬܪ ܩܠܐ ܟ̇ܬܒܬ̣ ܟܕ ܚ̇ܠܦܬ ܐ̈ܢܝܢ
-                ܠܐ̈ܬܘܬܐ̇ ܠܟܚܕܐ ܠܒܪܬ ܓܢܣܗ̇: ܠܦܘܬ ܐܬܘܬܐ ܗ̇ܝ ܕܡܬܬܐܝܬܝܐ ܗܘܬ ܒܬܪ ܚܕܐ ܚܕܐ ܡܢܗܝܢ. ܒܪܝܘܓܬܢܐ
-                ܓܝܪ ܘܒܥܝܘܩܬܢܐ: ܡܛܠ ܕܠܐ ܡܩ̇ܒܠܐ ܏ܬ ܕܬܬܝܬܐ ܒܬܪ ܏ܓ ܕܐܝܬܝܗ̇ ܥܒ̣ܝܬܐ: ܐܘ ܒܬܪ ܏ܩ ܕܐܝܬܝܗ̇
-                ܢܩ̣ܕܬܐ: ܟܕ ܐܝܬܝܗ̇ ܗ̣ܝ ܡܨܥܝܬܐ̣. ܠܡܨܥܝܬܐ ܕܐܟܘܬܗ̇ ܏ܟـ ܫܚܠ̣ܦܬ ܠܬܪ̈ܬܝܗܝܢ. ܒܪܓܘܙܬܢܐ ܕܝܢ
-                ܕܐܝܬܘܗܝ ܡܢ ܫܡܐ ܕܪܘܓܙܐ: ܘܟܝܢܐܝܬ ܐܝܬ ܗܘܐ ܠܗ ܒܗ ܏ܙ݂. ܟܕܠܐ ܩܒܠ̣ܬ ܠܥܒܝ̣ܘܬܗ̣̇. ܠܘܬ ܏ܣـ
-                ܕܐܝܬܝܗ̇ ܐܦ ܗ̣ܝ ܡܨܥܝܬܐ̣. ܫܚܠ̣ܦܬ ܠܗܕܐ. ܒܗ̇ ܒܕܡـ̣ܘܬܐ ܠܗܠܝܢ̣. ܐܦ ܒܕܘ̈ܟܝܬܐ ܣ̈ܓܝܐܬܐ ܡܫܟܚ
-                ܐܢܬ ܕܓ̇ܕܫ ܗ̣ܘ ܗܢܐ ܚܘܠܦܐ ܕܐ̈ܬܘܬܐ̣. ܐܟܡܐ ܕܒܡ̈ܠܐ ܝܬܝܪܐܝܬ܇ ܐܝܟܐ ܕܐܦ ܕܝܠܢܐܝܬ ܡܛܠܬܗ ܡܠܬܐ
-                ܥ̇ܒܕ ܐܢܐ. ܏ܫ̣ܠܡ. ܏ܩܢܘܢܐ ܏ܕܐܪܒܥܝܢ ܏ܘܫܒܥܐ̣ ܏ܕܫܡ̈ܗܐ ܏ܕܟܪ̈ܢܝܐ ܏ܦܫ̣̈ܝܛܐ. ܡܬܪܓܫܢܐ.
-                ܡܬܚܒ̇ܠܢܐ .. ܗܠܝܢ ܗܟܝܠ ܡܢ ܡ̈ܠܐ ܚܫ̈ܢ̣ܝܬܐ ܕܙܒܢܐ ܕܩܐܡ ܡܬܩ̇ܝܡܝܢ. ܘܗܕܐ ܕܝܠܝܬܐ ܐܝܬ ܠܗܘܢ
-                ܠܟܠܗܘܢ̣. ܕܢܫ̇ܪܘܢ ܡܢ ܏ܡ ܐܬܘܬܐ ܕܠܐ ܩܠܐ̣. ܐܝܟ ܡܐ ܕܐܦ ܠܗܝܢ ܠܡ̈ܠܐ ܚ̈ܫܢܝܬܐ ܗܠܝܠܢ ܕܡ̈ܥܬܕܢ
-                ܠܗܘܢ. ܐܠܐ ܗܕܐ ܡܬܝܕܥܐ ܚܬܝܬܐܝܬ݂. ܡܐ ܕܗ̣̈ܢܝܢ ܡ̈ܠܐ ܡ̈ܬܒܚܢܢ܀ ܣܓܝܐܢܐܝܬ݂. ܕܝܢ ܗ̣ܘ ܗܟܘܬ
-                ܡܬܐܡܪܝܢ܆ ܒܚܘܠ̇ܦܐ ܒܠܚܘܕ ܕܗ̇ܝ ܏ܐ ܕܒܫܘܠܡܗܘܢ܀ ܡܬܪܓܫܢܐ. (fol. 37 b) ܡܬܪ̈ܓܫܢܐ. ܡܬܚܒܠܢܐ.
-                ܡܬܚ̈ܒܠܢܐ. ܏ܫܠ̣ܡܘ ܏ܩ̈ܢܘܢܐ ܏ܕܫܡ̈ܗܐ ܏ܦܫ̣̈ܝܛܐ ܏ܕܟܪ̈ܢܝܐ ܏ܩ̈ܕܡܝܐ ܏ܐܦ ܏ܕܬܪ̈ܝܢܐ̣ ܏ܣܛܪ ܏ܡܢ
-                ܏ܥ̣̈ܠܬܢܝܐ܀ ܏ܡܛܠ ܏ܫܡ̈ܗܐ ܏ܥ̣̈ܠܬܢܝܐ܀ ܫ̈ܡܗܐ ܥ̈ܠ̣ܬܢܝܐ ܟܕ ܐܝܬ ܠܗܘܢ ܒܗܘܢ ܠܟܠܗ̇ ܒܪܬ ܩܠܐ
-                ܕܗ̇ܢܘܢ ܩܕܡ̈ܝܐ ܕܐܝܬܝܗܘܢ ܥ̣ܠܬܗܘܢ̣. ܡܩܒܠܝܢ ܬܘܣܦܬܐ ܗ̇ܝ ܡܩܒ݁ܠܢܝܬܐ ܕܝܠܗܘܢ. ܘܗܟܢܐ ܗ̇ܘܝܢ
-                ܬܪ̈ܝܢܐ ܡ̈ܬܬܣܝܡܢܐ̇. ܘܡܬܩܛܪܓܝܢ ܥܠ ܗ̇ܢܘܢ ܩܕܡ̈ܝܐ. ܟܕ ܠܘ ܥܠ ܩܕܡܝܐ ܗ̇ܘ ܕܗܘ̣ܐ ܠܗ ܥܠ̣ܬܐ ܘܡܢܗ
-                ܡܬܐܡܪ̈. ܡܬܬܣܝܡ ܚܕ ܚܕ ܡܢܗܘܢ ܐܘ ܡܬܩܛܪܓ܆ ܐܠܐ ܐܚܪܢܐ̣ ܥܠ ܩܕܡܝܐ ܐܚܪܢܐ. ܘܗ̇ܘ ܕܡܢ ܗܢܐ ܥܠ
-                ܐܚܪܢܐ̣. ܘܗ̇ܘ ܕܡܢ ܐܚܪܢܐ ܥܠ ܗܢܐ̇. ܠܦܘܬ ܥ̣̈ܠܠܬܐ ܕܬܒ̈ܥܢ ܒܛܘܟܣܗ̇ ܕܡܠܝܠܘܬܐ. ܐܠܐ ܡܢ ܩܕܡ
-                ܕܢܣ̣ܝܡ ܐܢܘܢ ܠܗܘܢ ܠܫܡ̈ܗܐ ܗܳܢܘܢ ܥ̈ܠ̣ܬܢܝܐ ܘܠܩܢܘܢܗܘܢ̣. ܠܗܝܢ ܠܬܘ̈ܣܦܬܐ ܗܠܝܢ ܕܡܝ̈ܩܢܢ ܠܗܘܢ
-                ܢܐܡܪ ܙܕܩ̇. ܕܟܡܐ̣ ܘܕܐܝܠܝܢ ܐܝܬܝܗܝܢ. ܘܟܕ ܗܠܝܢ ܢܬܝ̈ܕܥܢ̣. ܗܟܢܐ ܢܣ̣ܝܡ ܠܫܡ̈ܗܐ ܡܩ̈ܒܠܢܝܗܝܢ.
-                ܬܠܬ ܡ̇ܢ ܗܟܝܠ ܝܕܝ̈ܥܢ ܠܢ ܬܘܣ̈ܦܬܐ ܗܠܝܢ ܕܡܝܩ̈ܢܢ ܠܗܘܢ̣ ܠܫܡ̈ܗܐ ܗ̇ܢܘܢ ܥ̈ܠ̣ܬܢܝܐ ܒܡܡܠܠܐ ܗܢܐ
-                ܢܗܪܝܐ̣. ܐܝܟܢܐ ܕܐܦ ܒܡܐܡܪܐ ܗ̇ܘ ܩܕܡܝܐ ܣ̇ܡܬ. ܐܝܬܝܗܝܢ ܕܝܢ ܏ܢܐ ܏ܘܝܐ. ܘܗ̇ܝ ܕܡܢ ܬܪ̈ܬܝܗܝܢ
-                ܗܠܝܢ ܡܪܟܒܐ ܗܢܘ ܕܝܢ ܏ܢܝܐ. ܕܐܝܟ ܐ̇ܝܟܢ. ܡܢ ܫܡܝܐ ܫ̇ܡܝܢܐ̣. ܘܡܢ ܐܪܥܐ ܐܪܥܢܝܐ. ܘܡܢ ܐܠܗܐ
-                ܐܠܗܝܐ̣. ܘܡܢ ܐܢܫܐ ܐܢܫܝܐ. ܘܡܢ ܪܘܚܐ ܪܘܚܢܐ̣. ܘܬܘܒ ܪܘܚܢܝܐ ܒܝܕ ܬܪ̈ܬܝܗܝܢ ܬܘ̈ܣܦܬܐ̣. ܘܡܢ
-                ܓܘܫܡܐ ܓܘܫܡܢܐ̣. ܘܬܘܒ ܓܘܫܡܢܝܐ. ܘܦܓܪܢܐ ܘܦܓܪܢܝܐ. ܘܡܠܐܟܝܐ ܘܐܐܪܝܐ̣. ܘܢܘܪܢܐ ܘܢܘܪܢܝܐ ܘܡܝܢܝܐ
-                ܘܡܕܪܢܝܐ̣. ܘܐܦ ܐܪܥܢܝܐ ܥܡ ܐܪܥܢܐ. ܗ̣ܘ ܗܟܘܬ ܐܦ ܟܠܗܘܢ ܗ̇ܢܘܢ ܐܚܪ̈ܢܐ ܕܡܢ ܫܡ̈ܗܐ ܐܚܪ̈ܢܐ
-                ܕܨ̈ܒܘܬܐ ܗܠܝܢ ܩܕܡ̈ܝܬܐ ܐܝܬ ܠܗܘܢ ܟܘ̈ܢܝܐ. ܠܗܠܝܢ ܩ̇ܪܝܢܢ ܫܡ̈ܗܐ ܥ̈ܠ̣ܬܢܝܐ̣. ܘܬܪ̈ܝܢܐ̣
-                ܘܡܬܬܣ̈ܝܡܢܐ ܥ̈ܠ̣ܬܢܝܐ ܡ̇ܢ܇ ܥܠ ܕܡܢ ܐܚܪ̈ܢܐ ܐܝܬ ܠܗܘܢ ܩ̇ܪܝܬܐ̇. ܕܗ̣ܢܘܢ ܗ̣ܘܘ ܠܗܘܢ ܥܠ̣ܬܐ.
-                ܬܪ̈ܝܢܐ ܕܝܢ̣. ܥܠ ܕܒܛܟܣܐ ܬܪܝܢܐ ܡ̇ܬܬܐܝܬܝܢ ܒܡܡܠܠܐ. ܡ̈ܬܬܣܝܡܢܐ ܕܝܢ̣. ܡܛܠ ܕܥܠ ܗܠܝܢ ܩܕܡ̈ܝܐ
-                ܡܬܬܣܝܡܝܢ ܘܡܬܩܛܪܓܝܢ. ܗܠܝܢ̣ ܘܕܐܝܟ ܗܠܝܢ ܐܝܬܝܗܘܢ ܫܡ̈ܗܐ ܥ̈ܠܬܢܝܐ̇. ܗܠܝܢ ܕܡܢ ܐܚܪ̈ܢܐ ܐܝܬ
-                ܠܗܘܢ ܥܠ̣ܬܐ ܕܟܘܢܝܗܘܢ̇. ܗ̇ܢܘܢ ܕܐܦ ܗ̣ܢܘܢ ܒܕܡ̣ܘܬܐ ܕܟܠܗܘܢ ܫ̈ܡܗܐ ܕܡܡܠܠܐ ܗܢܐ ܢܗܪܝܐ̣. ܟܕ
-                ܢܛ̇ܪܝܢ ܠܗ ܠܩܢܘܢܐ ܗ̇ܘ ܕܝܠܗ ܕܠܫܢܐ̣. ܒܚܘܠ̇ܦܐ . . . ܠܗܠܝܢ ܪ̈ܫܝܡܐ ܢ̇ܩܦ̣. ܐܦܢ ܕܟܪܢܝܐ (fol.
-                38 a) ܐܝܬܘܗܝ .. ܣܘܓܐܗܘܢ ܗܟܝܠ ܕܫܡ̈ܗܐ ܗܠܝܢ ܕܒܩܢܘܢܐ ܗܢܐ̣. ܡ̈ܠܬܢܝܐ ܡܫܬܟܚܝܢ܀ ܒܗ̇ ܒܕܡ̣ܘܬܐ̣
-                ܐܦ ܗ̇ܢܘܢ ܕܠܝܬ ܒܗܘܢ ܏ܬ̣. ܐܝܟ ܩܢܘܢܐ ܗ̇ܘ ܓܘܢܝܐ ܡܬܐܡܪܝܢ ܣܓܝܐܢܐܝܬ Margin ܣܒܟܐ ܟܪܐܥܐ
-                ܟܪܐܥܐ. ܝ܏ܚ. ܰ. ܏ܦܪܟܐ. ܏ܦܪܙܐ. ܏ܟܠܒܐ. ܗܠܝܢ ܐܝܟ ܩܢܘܢܐ ܗ̇ܘ ܓܘܢܝܐ̣. ܒܚܘܠ̇ܦܐ ܒܠܚܘܕ ܕ܏ܐ ܗ̇ܝ
-                ܕܒܫܘܠܡܗܘܢ ܏ܠ </note>
+                      Syriennes," pp. 459, 160</bibl>); viz.—</p>
+              <p>￼<note type="incomplete" resp="http://syriaca.org" xml:lang="en">The original description of this manuscript by William Wright includes characters, symbols, or illustrations which cannot be represented. Please consult the attached image.</note></p><!--JA: A table with vowel signs similar to that of Jacob of Edessa-->
+              <p>The following fragments of the work of <persName ref="https://syriaca.org/person/113">Jacob</persName> — with one exception, we believe,
+                the only portions of it extant in <placeName>Europe</placeName>,—do not exhibit <foreign xml:lang="syr">ܚܒܨܐ ܟܪܝܐ</foreign>, ĭ,<foreign xml:lang="syr">�</foreign>, as in <foreign xml:lang="syr">ܬ�ܚ��</foreign> (<foreign xml:lang="syr">ܬܚܝܷܝܢ</foreign>), but furnish us
+                with three figures for u, viz. <foreign xml:lang="syr">�</foreign> as in <foreign xml:lang="syr">ܣܦ�ܓܐ</foreign> (<foreign xml:lang="syr">ܣܦܽܘܓܳܐ</foreign>), <foreign xml:lang="syr">ܛܪ�ܓܐ</foreign> (<foreign xml:lang="syr">ܛܪܽܘܓܳܐ</foreign>); <foreign xml:lang="syr">�</foreign>, as in <foreign xml:lang="syr">ܨܒ�ܬܐ</foreign> (<foreign xml:lang="syr">ܨܒܽܘܬܳܐ</foreign>), <foreign xml:lang="syr">ܕܡ�ܬܐ</foreign> (<foreign xml:lang="syr">ܕܡܽܘܬܳܐ</foreign>); and <foreign xml:lang="syr">�</foreign>, as in <foreign xml:lang="syr">ܒܪ�ܬܐ</foreign> (<foreign xml:lang="syr">ܒܪܘܽܬܳܐ</foreign>), <foreign xml:lang="syr">ܨܠ�ܬܐ</foreign> (<foreign xml:lang="syr">ܨܠܘܽܬܳܐ</foreign>).<note type="incomplete" resp="http://syriaca.org" xml:lang="en">The original description of this manuscript by William Wright includes characters, symbols, or illustrations which cannot be represented. Please consult the attached image.</note></p><!--JA: Wright includes Jacob of Edessa's voweling in many of the words listed here--> 
+              <p>
+                  <quote xml:lang="syr"><note type="incomplete" resp="http://syriaca.org" xml:lang="en">The original description of this manuscript by William Wright includes characters, symbols, or illustrations which cannot be represented. Please consult the attached image.</note><!--JA: This quote contains usages of Jacob of Edessa's voweling-->
+                      <p>
+                <locus from="37a"/>ܡܕܡ. ܐܚܪ̈ܢܐ ܕܝܢ. ܕܥܠ̣ܬܢܝܐ ܐܝܬܝܗܘܢ ܣܝܿܡܝܢ. ܐܦ ܓܝܪ ܝܿܗܒܝܢ ܡܣ̣ܒܪܢܘܬܐ ܗܕܐ. ܒܪܡ ܐܝܟܢ ܕܗ̣ܘ ܐܢ ܐܝܬܝܗܘܢ ܠܩܢܘܢܐ ܕܓܘܐ ܢܛܿܪܝܢ܀܀
+                ܕ�ܚ�ܠܬܐܢܐ. ܕ�ܚ�ܠܬܐܢ�.
+                ܚ�ܝ�ܣܬܐܢܐ. ܚ�ܝ�ܣܬܐܢ�. 
+                ܫ�ܓ�ܫܬܐܢ�. ܫ�ܦ�ܪܬܐܢ�.
+                ܪ�ܝ�ܓܬܐܢ�. ܠ�ܚܟ�ܫܬܐܢ�.
+                ܪ�ܓ�ܫܬܐܢ�. ܪ�ܓ�ܣܬܐܢ�.
+                ܥ�ܝ�ܩܬܐܢ�. ܢ�ܚܫ�ܪܬܐܢܐ.
+                ܢ�ܚܫ�ܪܬܐܢ�. ܥܗܝܕ ܐܢܬ ܗܟܝܠ ܐܘ  ܩܪܘܝܐ ܪܚ̇ܡ ܥܡ̣ܠܐ̣. ܕܒܡܐܡܪܐ ܗ̇ܘ ܩܕܡܝܐ ܐܡ̇ܪܬ݂. ܕܡܢܗܝܢ ܕܐ̈ܬܘܬܐ̣ ܣܩ̈ܘܒܠܝܢ ܠܚ̈ܕܕܐ̣. ܘܠܐ ܡܩ̈ܒܠܢ ܐܘ <sic>ܕܢܣܬܬܣ̈ܝ̣ܡܢ</sic> ܩܕܡ ܚ̈ܕܕܐ̇. ܐܘ ܕܢ̈ܬܬܐܝܬܝܢ ܒܬܪ ܚ̈ܕܕܐ. ܗ̇ܢܘ ܕܝܢ ܥܒ̣̈ܝܬܐ ܠܡ̈ܨܥܝܬܐ ܘܠܢܩ̈ܕܬܐ̣. ܘܡ̈ܨܥܝܬܐ ܠܥܒ̈ܝ̣ܬܐ ܘܠܢܩ̈ܕܬܐ̣. ܘܢܩ̈ܕܬܐ ܒܗ̇ ܒܕܡ̣ܘܬܐ ܠܥܒ̈ܝ̣ܬܐ ܘܠܡ̈ܨܥܝܬܐ. ܘܐܢ ܗ̣ܘ ܕܬܣܬܩ̇ܒܠ ܐܬܘܬܐ ܥܒ̣ܝܬܐ ܩܕܡ ܡܨܥܝܬܐ ܐܘ ܩܕܡ ܢܩܕܬܐ̣. ܡܫܬܚܠܦܐ ܐܦ ܗ̣ܝ̣ ܘܗ̇ܘܝܐ ܐܘ ܡܨܥܝܬܐ ܐܘ ܢܩܕܬܐ: ܘܡܛܠ ܗܕܐ ܐܦ ܒܫ̈ܡܗܐ ܗܠܝܢ ܕܩ̇ܕܡܘ ܐܬܟܬܒܘ ܗܫܐ: ܗܢܘ ܕܝܢ ܪܝܘܓܬܢܐ ܥܝܘܩܬܢܐ. ܪܓܘܙܬܢܐ̣. ܐܝܟ ܕܬܒ̇ܥ ܗܘܐ ܗ̣ܘ ܡܦܩܗ̇ ܕܒܬܪ ܩܠܐ ܟ̇ܬܒܬ̣ ܟܕ ܚ̇ܠܦܬ ܐ̈ܢܝܢ ܠܐ̈ܬܘܬܐ̇ ܠܟܚܕܐ ܠܒܪܬ ܓܢܣܗ̇: ܠܦܘܬ ܐܬܘܬܐ ܗ̇ܝ ܕܡܬܬܐܝܬܝܐ ܗܘܬ ܒܬܪ ܚܕܐ ܚܕܐ ܡܢܗܝܢ. ܒܪܝܘܓܬܢܐ ܓܝܪ ܘܒܥܝܘܩܬܢܐ: ܡܛܠ ܕܠܐ ܡܩ̇ܒܠܐ ܏ܬ ܕܬܬܝܬܐ ܒܬܪ ܏ܓ ܕܐܝܬܝܗ̇ ܥܒ̣ܝܬܐ: ܐܘ ܒܬܪ ܏ܩ ܕܐܝܬܝܗ̇ ܢܩ̣ܕܬܐ: ܟܕ ܐܝܬܝܗ̇ ܗ̣ܝ ܡܨܥܝܬܐ̣. ܠܡܨܥܝܬܐ ܕܐܟܘܬܗ̇ ܏ܟـ ܫܚܠ̣ܦܬ ܠܬܪ̈ܬܝܗܝܢ. ܒܪܓܘܙܬܢܐ ܕܝܢ ܕܐܝܬܘܗܝ ܡܢ ܫܡܐ ܕܪܘܓܙܐ: ܘܟܝܢܐܝܬ ܐܝܬ ܗܘܐ ܠܗ ܒܗ ܏ܙ݂. ܟܕܠܐ ܩܒܠ̣ܬ ܠܥܒܝ̣ܘܬܗ̣̇. ܠܘܬ ܏ܣـ ܕܐܝܬܝܗ̇ ܐܦ ܗ̣ܝ ܡܨܥܝܬܐ̣. ܫܚܠ̣ܦܬ ܠܗܕܐ. ܒܗ̇ ܒܕܡـ̣ܘܬܐ ܠܗܠܝܢ̣. ܐܦ ܒܕܘ̈ܟܝܬܐ ܣ̈ܓܝܐܬܐ ܡܫܟܚ ܐܢܬ ܕܓ̇ܕܫ ܗ̣ܘ ܗܢܐ ܚܘܠܦܐ ܕܐ̈ܬܘܬܐ̣. ܐܟܡܐ ܕܒܡ̈ܠܐ ܝܬܝܪܐܝܬ܇ ܐܝܟܐ ܕܐܦ ܕܝܠܢܐܝܬ ܡܛܠܬܗ ܡܠܬܐ ܥ̇ܒܕ ܐܢܐ. ܏ܫ̣ܠܡ.</p>
+                <p>ܩܢܘܢܐ ܏ܕܐܪܒܥܝܢ ܏ܘܫܒܥܐ̣ ܏ܕܫܡ̈ܗܐ ܏ܕܟܪ̈ܢܝܐ ܏ܦܫ̣̈ܝܛܐ. ܡܬܪܓܫܢܐ. ܡܬܚܒ̇ܠܢܐ .. ܗܠܝܢ ܗܟܝܠ ܡܢ ܡ̈ܠܐ ܚܫ̈ܢ̣ܝܬܐ ܕܙܒܢܐ ܕܩܐܡ ܡܬܩ̇ܝܡܝܢ. ܘܗܕܐ ܕܝܠܝܬܐ ܐܝܬ ܠܗܘܢ ܠܟܠܗܘܢ̣. ܕܢܫ̇ܪܘܢ ܡܢ ܏ܡ ܐܬܘܬܐ ܕܠܐ ܩܠܐ̣. ܐܝܟ ܡܐ ܕܐܦ ܠܗܝܢ ܠܡ̈ܠܐ ܚ̈ܫܢܝܬܐ ܗܠܝܠܢ ܕܡ̈ܥܬܕܢ ܠܗܘܢ. ܐܠܐ ܗܕܐ ܡܬܝܕܥܐ ܚܬܝܬܐܝܬ݂. ܡܐ ܕܗ̣̈ܢܝܢ ܡ̈ܠܐ ܡ̈ܬܒܚܢܢ܀ ܣܓܝܐܢܐܝܬ݂. ܕܝܢ ܗ̣ܘ ܗܟܘܬ ܡܬܐܡܪܝܢ܆ ܒܚܘܠ̇ܦܐ ܒܠܚܘܕ ܕܗ̇ܝ ܏ܐ ܕܒܫܘܠܡܗܘܢ܀
+                <locus from="37b"/>ܡܬܪܓܫܢܐ. ܡ�ܬܪ�ܓܫܐܢܐ. ܡܬܪ̈ܓܫܢܐ. ܡ�ܬܪ�ܓܫܐܢ� ܡܬܚܒܠܢܐ. ܡ�ܬܚ�ܒܠܐܢܐ. ܡܬܚ̈ܒܠܢܐ. ܡ�ܬܚ�ܒܠܐܢ� ܏ܫܠ̣ܡܘ ܏ܩ̈ܢܘܢܐ ܏ܕܫܡ̈ܗܐ ܏ܦܫ̣̈ܝܛܐ ܏ܕܟܪ̈ܢܝܐ ܏ܩ̈ܕܡܝܐ ܏ܐܦ ܏ܕܬܪ̈ܝܢܐ̣ ܏ܣܛܪ ܏ܡܢ ܏ܥ̣̈ܠܬܢܝܐ܀</p>
+                <p>܏ܡܛܠ  ܏ܫܡ̈ܗܐ ܏ܥ̣̈ܠܬܢܝܐ܀ ܫ̈ܡܗܐ ܥ̈ܠ̣ܬܢܝܐ ܟܕ ܐܝܬ ܠܗܘܢ ܒܗܘܢ ܠܟܠܗ̇ ܒܪܬ ܩܠܐ ܕܗ̇ܢܘܢ ܩܕܡ̈ܝܐ ܕܐܝܬܝܗܘܢ ܥ̣ܠܬܗܘܢ̣. ܡܩܒܠܝܢ ܬܘܣܦܬܐ ܗ̇ܝ ܡܩܒ݁ܠܢܝܬܐ ܕܝܠܗܘܢ. ܘܗܟܢܐ ܗ̇ܘܝܢ ܬܪ̈ܝܢܐ ܡ̈ܬܬܣܝܡܢܐ̇. ܘܡܬܩܛܪܓܝܢ ܥܠ ܗ̇ܢܘܢ ܩܕܡ̈ܝܐ. ܟܕ ܠܘ ܥܠ ܩܕܡܝܐ ܗ̇ܘ ܕܗܘ̣ܐ ܠܗ ܥܠ̣ܬܐ ܘܡܢܗ ܡܬܐܡܪ̈. ܡܬܬܣܝܡ ܚܕ ܚܕ ܡܢܗܘܢ ܐܘ ܡܬܩܛܪܓ܆ ܐܠܐ ܐܚܪܢܐ̣ ܥܠ ܩܕܡܝܐ ܐܚܪܢܐ. ܘܗ̇ܘ ܕܡܢ ܗܢܐ ܥܠ ܐܚܪܢܐ̣. ܘܗ̇ܘ ܕܡܢ ܐܚܪܢܐ ܥܠ ܗܢܐ̇. ܠܦܘܬ ܥ̣̈ܠܠܬܐ ܕܬܒ̈ܥܢ ܒܛܘܟܣܗ̇ ܕܡܠܝܠܘܬܐ. ܐܠܐ ܡܢ ܩܕܡ ܕܢܣ̣ܝܡ ܐܢܘܢ ܠܗܘܢ ܠܫܡ̈ܗܐ ܗܳܢܘܢ ܥ̈ܠ̣ܬܢܝܐ ܘܠܩܢܘܢܗܘܢ̣. ܠܗܝܢ ܠܬܘ̈ܣܦܬܐ ܗܠܝܢ ܕܡܝ̈ܩܢܢ ܠܗܘܢ ܢܐܡܪ ܙܕܩ̇. ܕܟܡܐ̣ ܘܕܐܝܠܝܢ ܐܝܬܝܗܝܢ. ܘܟܕ ܗܠܝܢ ܢܬܝ̈ܕܥܢ̣. ܗܟܢܐ ܢܣ̣ܝܡ ܠܫܡ̈ܗܐ ܡܩ̈ܒܠܢܝܗܝܢ. ܬܠܬ ܡ̇ܢ ܗܟܝܠ ܝܕܝ̈ܥܢ ܠܢ ܬܘܣ̈ܦܬܐ ܗܠܝܢ ܕܡܝܩ̈ܢܢ ܠܗܘܢ̣ ܠܫܡ̈ܗܐ ܗ̇ܢܘܢ ܥ̈ܠ̣ܬܢܝܐ ܒܡܡܠܠܐ ܗܢܐ ܢܗܪܝܐ̣. ܐܝܟܢܐ ܕܐܦ ܒܡܐܡܪܐ ܗ̇ܘ ܩܕܡܝܐ ܣ̇ܡܬ. ܐܝܬܝܗܝܢ ܕܝܢ ܏ܢܐ ܏ܘܝܐ. ܘܗ̇ܝ ܕܡܢ ܬܪ̈ܬܝܗܝܢ ܗܠܝܢ ܡܪܟܒܐ ܗܢܘ ܕܝܢ ܏ܢܝܐ. ܕܐܝܟ ܐ̇ܝܟܢ. ܡܢ ܫܡܝܐ ܫ̇ܡܝܢܐ̣. ܘܡܢ ܐܪܥܐ ܐܪܥܢܝܐ. ܘܡܢ ܐܠܗܐ ܐܠܗܝܐ̣. ܘܡܢ ܐܢܫܐ ܐܢܫܝܐ. ܘܡܢ ܪܘܚܐ ܪܘܚܢܐ̣. ܘܬܘܒ ܪܘܚܢܝܐ ܒܝܕ ܬܪ̈ܬܝܗܝܢ ܬܘ̈ܣܦܬܐ̣. ܘܡܢ ܓܘܫܡܐ ܓܘܫܡܢܐ̣. ܘܬܘܒ ܓܘܫܡܢܝܐ. ܘܦܓܪܢܐ ܘܦܓܪܢܝܐ. ܘܡܠܐܟܝܐ ܘܐܐܪܝܐ̣. ܘܢܘܪܢܐ ܘܢܘܪܢܝܐ ܘܡܝܢܝܐ ܘܡܕܪܢܝܐ̣. ܘܐܦ ܐܪܥܢܝܐ ܥܡ ܐܪܥܢܐ. ܗ̣ܘ ܗܟܘܬ ܐܦ ܟܠܗܘܢ ܗ̇ܢܘܢ ܐܚܪ̈ܢܐ ܕܡܢ ܫܡ̈ܗܐ ܐܚܪ̈ܢܐ ܕܨ̈ܒܘܬܐ ܗܠܝܢ ܩܕܡ̈ܝܬܐ ܐܝܬ ܠܗܘܢ ܟܘ̈ܢܝܐ. ܠܗܠܝܢ ܩ̇ܪܝܢܢ ܫܡ̈ܗܐ ܥ̈ܠ̣ܬܢܝܐ̣. ܘܬܪ̈ܝܢܐ̣ ܘܡܬܬܣ̈ܝܡܢܐ ܥ̈ܠ̣ܬܢܝܐ ܡ̇ܢ܇ ܥܠ ܕܡܢ ܐܚܪ̈ܢܐ ܐܝܬ ܠܗܘܢ ܩ̇ܪܝܬܐ̇. ܕܗ̣ܢܘܢ ܗ̣ܘܘ ܠܗܘܢ ܥܠ̣ܬܐ. ܬܪ̈ܝܢܐ ܕܝܢ̣. ܥܠ ܕܒܛܟܣܐ ܬܪܝܢܐ ܡ̇ܬܬܐܝܬܝܢ ܒܡܡܠܠܐ. ܡ̈ܬܬܣܝܡܢܐ ܕܝܢ̣. ܡܛܠ ܕܥܠ ܗܠܝܢ ܩܕܡ̈ܝܐ ܡܬܬܣܝܡܝܢ ܘܡܬܩܛܪܓܝܢ. ܗܠܝܢ̣ ܘܕܐܝܟ ܗܠܝܢ ܐܝܬܝܗܘܢ ܫܡ̈ܗܐ ܥ̈ܠܬܢܝܐ̇. ܗܠܝܢ ܕܡܢ ܐܚܪ̈ܢܐ ܐܝܬ ܠܗܘܢ ܥܠ̣ܬܐ ܕܟܘܢܝܗܘܢ̇. ܗ̇ܢܘܢ ܕܐܦ ܗ̣ܢܘܢ ܒܕܡ̣ܘܬܐ ܕܟܠܗܘܢ ܫ̈ܡܗܐ ܕܡܡܠܠܐ ܗܢܐ ܢܗܪܝܐ̣. ܟܕ ܢܛ̇ܪܝܢ ܠܗ ܠܩܢܘܢܐ ܗ̇ܘ ܕܝܠܗ ܕܠܫܢܐ̣. ܒܚܘܠ̇ܦܐ .............................</p>
+                <p><locus from="38a"/>ܠܗܠܝܢ ܪ̈ܫܝܡܐ ܢ̇ܩܦ̣. ܐܦܢ ܕܟܪܢܝܐ ܐܝܬܘܗܝ .. ܣܘܓܐܗܘܢ ܗܟܝܠ ܕܫܡ̈ܗܐ ܗܠܝܢ ܕܒܩܢܘܢܐ ܗܢܐ̣. ܡ̈ܠܬܢܝܐ ܡܫܬܟܚܝܢ܀ ܒܗ̇ ܒܕܡ̣ܘܬܐ̣ ܐܦ ܗ̇ܢܘܢ ܕܠܝܬ ܒܗܘܢ ܏ܬ̣. ܐܝܟ ܩܢܘܢܐ ܗ̇ܘ ܓܘܢܝܐ ܡܬܐܡܪܝܢ ܣܓܝܐܢܐܝܬ<note xml:lang="en">Margin, <foreign xml:lang="syr">ܣܒܟܐ</foreign>.</note>
+              ܟܪܐܥܐ. ܟܪܐܥ�. ܏ܝܚ. �. ܏ܦܪܟܐ܏. ܏ܦܪܙܐ. ܏ܟܠܟܐ. ܗܠܝܢ ܐܝܟ ܩܢܘܢܐ ܗ̇ܘ ܓܘܢܝܐ̣. ܒܚܘܠ̇ܦܐ ܒܠܚܘܕ ܕ܏ܐ ܗ̇ܝ ܕܒܫܘܠܡܗܘܢ ܏ܠ�. ܗ̇ܝ ܕܥܝܿܕܐܿ. ܡܬܐܡܪܝܢ ܣܓܝܐܢܐܝܬ. ܕܐܝܟ ܐܿܝܟܢ.
+              ܦܪ�ܟܐ. ܦܪ�ܟ�. ܦܪ�ܙܐ. ܦܪ�ܙ�. ܟܠ�ܟܐ. ܟܠ�ܟ�. ܪܫܝܡܐ ܕܝܢ ܢܿܗܘܐ ܒܩܢܘܢܐ ܗܢܐ ܚܕ�ܬܬܐ: ܐܦܢ ܡܢ ܩܢܘܢܐ ܐܚܪܢܐ ܐܝܬܘܗܝ̣. ܬܦ�ܝܐ. ܬܦ�ܘܐܬܐ. ܀ .
+              ܏ܝܛ. �. ܏ܡܓܢܐ. ܏ܦܪܕܐ. ܏ܫܒ̣ܬܐ. ܏ܟ̣ܣܬܐ. ܐܦ ܗܠܝܢ ܐܦܢ ܐܝܬ ܒܗܘܢ ܏ܬ̣. ܐܦܢ ܠܝܬ ܒܗܘܢ. ܐܝܟ ܩܢܘܢܐ ܗ̇ܘ ܓܘܿܢܝܐ ܡܬܐܡܪܝܢ ܣܓܝܐܢܐܝܬ. ܕܐܝܟ
+              ܐܝܟܢ . ܡܓ�ܢܐ. ܡܓ�ܢ�. ܦܪ�ܕܐ.
+              ܦܪ�ܕ�. ܤܥ�ܕܐ. ܤܥ�ܕ�. ܓܪ�ܕܐ.
+ .ܓܪ�ܕ�. ܫܒ�ܬܐ. ܫܒ�ܬ�. ܟܤ�ܬܐ.
+ܟܣ�ܬ�. ܪ̈ܫܝܡܐ ܕܝܢ. ܓܒ�ܬܐ ܡܛܠ ܕܡܢ
+ ܓܒ�ܢܬܐ ܦܣܝܩܐ . ܘܡܢ ܨܝܕ ܥܒܪ̈ܝܐ ܫܩܝܠ
+ ܫܡܐ. ܘܡܛܠ ܗܕܐ ܓ�ܒܢܐ ܐܡ̇ܪܝܢܢ
+ ܤܓܝܐܢܐܝܬ. ܠܒ�ܬܐ ܡܢ ܠܒ�ܢܬܐ
+ ܠ�ܒܢ�. <sic>ܓ�ܦܬܐ</sic> ܡܢ ܓܦ�ܢܬܐ
+ܓ�ܦܢ�܀ ܏ܟ.�.܏ܓܒܝܼܬܐ. ܏ܕܟܝܼܬܐ. ܫܡ̈ܗܐ
+ܕܩܢܘܢܐ ܗܢܐ ܕܒܝܕ � ܐܬܘܬܐ ܩܠܢܝܬܐܼ.
+ܡܢ ܫܡ̈ܗܐ ܕܟܪ̈ܢܝܐ ܚ̈ܕܢܝܐ ܗܿܢܘܢ ܕܒܝܕ �
+ܕܡܢ ܫܩ̣ܠܐ ܦܫܝܛܐ ܘܫܩ̣ܠܐ ܡܪܟܒܐ ܘܕܐܝܬ
+ ܒܗܘܢ ܏ܝ ܡܬܛܦܤܝܢ ܟܕ ܡܬܬܘܣܦ ܠܗܘܢ
+ ܒܫܘܠܡܗܘܢ ܏ܬܐ܇ ܫܩ̣ܠܐ ܐܚܪܢܐ ܘܗܿܘܝܢ
+ ܬܠܝ̈ܬܝܝ ܫ̈ܩ̣ܠܐܿ. ܟܕ ܡܬܐܡܪܝܢ ܤܓܝܐܢܐܝܬ.
+ܕܐܝܟ ܐܝܟܢ ܓܒ�ܬܐ . ܓ�ܒܢܐ
+ܓ�ܒܝܐܬܐ . ܕܟ�ܬܐ .ܕ�ܟܝܐ. ܕ�ܟܝܐܬܐ
+ܫܦ�ܬܐ. ܫ�ܦܝܐ. ܫ�ܦܝܐܬܐ. ܠܦܘܬ
+ܩܢܘܢܐ ܗܢܐ ܐܡܪܝܢ ܐ̈ܢܫܝܢ ܐܦ ܩܪ�ܬܐ
+ܩ�ܪܝܐܬܐܼ. ܘܠܐ ܥܕܝܠܝܢ. ܗܿܢܘܢ ܕܝܢ
+ ܕܐܡ̇ܪܝܢ ܩܘܪ̈ܝܣ̣. ܠܦܘܬ ܝܘܩܢܐ ܕܫ̈ܡܗܐ
+ ܝܘ̈ܢܝܐ ܐܡ̇ܪܝܢ . ܘܠܘ ܠܚܿܡܐܝܬ . ܐܢܕܝܢ ܐܦ
+ ܢܫܬܟܚܘܢ ܒܩܢܘܢܐ ܗܢܐ : ܫܡ̈ܗܐ
+ ܢܩܒ̈ܬܢܝܐ ܕܠܝܬ ܒܗܘܢ ܏ܬ̣. ܐܦ ܗܠܝܼܢ ܐܝܟ
+ ܩܢܘܢܐ ܗܿܘ ܕܓܘܐ ܢܬܐܡܪܘܢ ܤܓܝܐܢܐܝܬ.
+ ܦܥ�ܪܐ. ܦܥ�ܪ�. ܤܥ�ܪܐ. ܤܥ�ܪ�܀
+ ܒܥ�ܪܐ ܕܝܢ ܠܘ ܨܝܕ ܟܠܢܫ ܡܬܐܡܪܐ
+ ܒܝܘܩܢܐ ܤܓܝܐܢܐܝܐ . ܡܛܠ ܟܝܬ ܕܫܘܘܕܥܐ܂
+ ܤܓܝܐܢܐܝܐ ܩܢܼܝܐܼ. ܐܦ ܟܕ ܡܬܐܡܪܐ
+ ܚܝܕܢܐܝܬ܀ ܪܫܝܡܐ ܕܝܢ ܐܝܬ ܠܟܼ. ܦܢ�ܬܐ.
+ܦ�ܢܝܐܬܐ. ܒܪ�ܬܐ. ܒ�ܪܝܐܬܐ. ܙܕܩܿ
+ܗܘܐ ܕܝܢ ܐܝܟ ܩܢܘܢܐ ܕܢܬܐܡܪ̣. ܒܪ�ܬܐ.
+ܒ�ܪܝܐܬܐ̣. ܐܝܟܢܐ ܕܢܗܘ̣ܐ ܦܪܝܫ ܡܢ ܫܡܐ
+ܗ̇ܘ ܕܒ�ܪܝ�ܬܐ ܕܡܫܿܘܕܥ ܫܘܩܐܿ.
+ܕܡܬܐܡܪ ܐܦ ܗ̣ܘ
+<locus from="38b"/>ܣܓܝܐܢܐܝܬ
+ܒ�ܪܝܐܬܐ܀ ܏ܟܐ. �. ܏ܐܚܪܬܐ. ܒܗܢܐ
+ܩܢܘܢܐ ܕܡܢ ܫܩܠܐ ܥܦܝܦܐ ܘܫܝܼܩܠܐ ܦܫܝܛܐܼ.
+ܠܐ ܐܫܬܟܚܘ ܫܡ̈ܗܐ ܒܡܡܠܠܐ ܗܢܐ. ܐܦ
+ܗܢܐ ܕܝܢ ܚܕ ܕܐܫܬܟܚܼ . ܦܣܝܩܐ ܐܝܬܘܗܝ.
+ ܘܒܩܢܘܢܐ ܗܿܘ ܕܡܢ ܬܪܝܢ ܫ̈ܩܠܐ ܡܪ̈ܟܒܐ
+ܙܕܩܿ ܕܢܬܬܣܝܡ. ܕܐܝܟ ܐܿܝܟܢ . ܚܪ�ܢܬܐ.
+ܚܪ�ܢܝܐܬܐ. ܩܢܘܢܐ ܡܿܢ ܗܟܝܠ̣. ܗܟܢܐ
+ܬܒܿܥ ܗܘܐ ܕܢܬܬܤܢܡ. ܡܢ ܥܝܿܕܐ ܕܝܢ
+ܕܡܡܠܠܐ ܢܗܪܝܐܼ. ܠܐ ܗܘܐ ܒܝܕ �
+ܐܬܘܬܐ ܩܠܢܝܬܐ ܡܬܐܡܪ ܤܓܝܐܢܐܝܬܼ.
+ܐܠܐ̣ ܒܝܕ �. ܚܪ�ܬܐ ܓܝܪ ܐܡܪܝܢ ܐܘܪ̈ܗܝܐ
+ ܚܕܐܢܐܝܬܼ. ܚܪ�ܢܝܐܬܐ ܕܝܢ ܤܓܝܐܢܐܝܬ.
+ܟܬܘ̈ܒܐ ܕܝܢ ܥܬܝ̈ܩܐ ܡܛܠ ܦܘܿܪܫܐ ܕܠܘܬ
+ܫܡܐ ܗ̇ܘ ܕܚܪܬܐ̣ ܐܦ ܏ܐ <sic>ܐܘܣܦ</sic> ܠܗܿ
+ܒܫܘܪܝܗ ܟܕ ܡܬܟܬܒܐ ܡܿܢ܂ . ܠܐ ܕܝܢ ܢܦܩ̇ܐ
+ܒܩܠܐ ܘܡܫܬܡܥܐ܀ ܏ܟܒ. �. ܏ܤܦܘܓܐ.
+܏ܤܪܘܓܐ. ܏ܚܠܘܓܐ. ܏ܛܪܘܓܐ. ܗܠܝܢ ܒܠܚܘܕ
+ܐܫܟܚܘ ܒܩܢܘܢܐ ܗܢܐ ܘܟܠܗܘܢ ܡܣܬܼܒܪܝܢ
+ܕܢܘܟܪ̈ܝܐ ܐܝܬܝܗܘܢ ܕܠܫܢܐ ܢܗܪܝܐܼ. ܐܦܢ
+ܫܿܠܡܝܢ ܠܩܢܘܢܐ ܗ̇ܘ ܓܘܿܢܝܐ. ܗ̇ܘ ܡܿܢ ܓܝܪ
+ܕܣܪܘܓܐ ܘܗ̇ܘ ܕܚܠܘܓܐ̣ ܝܘ̈ܢܝܐ ܐܝܬܝܗܘܢ.
+ܗ̇ܘ ܕܝܢ ܕܛܪܘܓܐ̣ ܥܒܪܝܐ. ܘܗ̇ܘ ܕܚܠܘܓܐܼ
+ܫܡܐ ܕܕܘܟܬܐ ܐܝܬ ܘܠܐ ܡܬܐܡܪ
+ܤܓܝܐܢܐܝܬ܀ ܤܦ�ܓܐ. ܤܦ�ܓ�.
+ܣܪ�ܓܐ ܤܪ�ܓ�. ܛܪ�ܓܐ. ܛܪ�ܓ�܀
+ܡܬܐܡܪܝܢ ܕܝܢ ܗܠܝܢ ܒܥܝܕܐ ܠܘܬ ܐܢܫ̈ܝܢ.
+ܐܦ ܕܟܪܢܐܝܬ܀ ܏ܟܓ. �. ܏ܨܒܘܬܐ .
+܏ܕܡܼܘܬܐ. ܏ܥܒܘܪܐ. ܗܠܝܢ ܫܡ̈ܗܐ ܕܩܢܘܢܐ
+ܗܢܐ̣. ܐܢ ܡ̇ܢ ܐܝܬ ܒܗܘܢ ܏ܬ̣. ܟܕ ܗܿܘܝܢ
+ܬܠܝ̈ܬܝܝ ܫ̈ܩܠܐ ܒܝܕ � ܐܬܘܬܐ ܩܠܢܝܬܐܼ.
+ܘܒܝܕ ܏ܒ ܏ܐ܇ ܢܦܿܩܝܢ ܤܓܝܐܢܐܝܬ. ܕܐܝܟ
+ܐܿܝܟܢ. ܨܒ�ܬܐ. ܨ�ܒܘܐܬܐ. ܕܡ�ܬܐ
+ܕ�ܡܘܐܬܐ܀ ܐܢܕܝܢ ܠܝܬ ܒܗܘܢ ܏ܬ̣.
+ܒܩܢܘܢܐ ܗ̇ܘ ܓܘܿܢܝܐ ܡܬܐܡܪܝܢ ܤܓܝܐܢܐܝܬ.
+ܥܒ�ܪܐ. ܥܒܒ܆�ܪ�܀ ܗܼܘ ܗܟܘܬܼ. ܐܦ
+ܐܚܪ̈ܢܐ ܐܢܗܼܘ ܕܢܫܬܟܚܘܢ ܀ ܪ̈ܫܝܡܐ ܕܝܢ
+ܣܢ�ܬܐ. ܒܪ�ܬܐ. ܕܠܐ ܐܝܬ ܠܗܘܢ
+ܕܢܬܐܡܪܘܢ ܤܓܝܐܢܐܝܬ. ܏ܟܓ. �.<note type="footnote" xml:lang="en">Marg. <foreign xml:lang="syr">ܗܪܟܐ ܡܢܝܢܐ ܕܚܕ ܩܢܘܢܐ ܦܫ ܡܢ ܣܕܪܐ</foreign>.</note> ܏ܒܪܘܬܐ.
+܏ܨܠܘܬܐ. ܏ܚܪܘܬܐ. ܐܦ ܗܠܝܢ ܟܕ ܗ̇ܘܝܢ
+ܬܠܝ̈ܬܝܝ ܫ̈ܩ̣ܠܐܼ. ܒܝܕ. ܒ܏ܘ̣. ܘܒܝܕ ܬܪܬܝܢ ܏ܐ
+ܡܬܐܡܪܝܢ <sic>ܣܓܝܢܐܝܬ</sic>. ܕܐܝܟ ܐܿܝܟܢ.
+ܒܪ�ܬܐ. <sic>ܒܐܪ�ܘܐܬܐ.</sic> ܨܠ�ܬܐ.
+ܨܠ�ܘܐܬܐ . ܚܪ�ܬܐ. . ܚܪ�ܘܐܬܐ . ܪ̈ܫܝܡܐ
+ܕܝܢ ܐܝܬ ܠܟܼ. ܡܚܘܬܐ . ܫܝܘܬܐ . ܫܥܘܬܐ.
+ܕܝܘܬܐ . ܟܒܘܬܐ. ܡܢ ܗܠܝܢ ܡܚܘܬܐ ܡ̇ܢ.
+ܟܕ ܥܒܿܕ ܠܗ ܦܫܝܛܐ ܠܫ̣ܩܠܐ ܗ̇ܘ ܩܕܡܝܐܿ.
+ܢܦܿܩ ܤܓܝܐܢܐܝܬ. ܒܝܕ ܚܕܐ � ܐܬܘܬܐ
+ܩܠܢܝܬܐܿ. ܘܬܪܬܝܢ ܏ܐ. ܕܐܝܟ ܐܝܟܢ. .......
+.............................
+                </p>
+                </quote>
+              </p>
+              </note>
             </msItem>
           </msContents>
           <physDesc>
@@ -179,10 +250,10 @@
                   <list>
                     <item>
                       <p>Two vellum leaves, about 8 5/8 in. by 6 1/2, written in double columns of
-                        from 34 to 36 lines, in a neat, regular band of the ixth or xth cent. (Add.
+                        from 34 to 36 lines (Add.
                         17,217, foll. 37, 38). As they had been washed and prepared as palimpsest,
                         the original writing was almost illegible, until revived by the careful
-                        application of chemical reagents. </p>
+                        application of chemical reagents.</p>
                     </item>
                   </list>
                 </condition>
@@ -192,8 +263,8 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr-Syre">
-                <desc>a neat, regular band of the ixth or xth cent.</desc>
+              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
+                <desc>These leaves are written in a neat, regular hand of the <origDate notBefore="0800" notAfter="1000">ixth or xth cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -207,7 +278,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="800" notAfter="1000"/>
+              <origDate notBefore="0800" notAfter="1000"/>
               <origPlace/>
             </origin>
             <provenance/>
@@ -397,10 +468,12 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-09">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-02-24">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#jrushing">Initial TEI encoding.</change>
-      <change type="planned" subtype="missing">Missing various unspecified things.</change>
-      <change type="planned" subtype="syriac">Add in missing Syriac characters.</change>
+      <change type="planned" subtype="syriac">Add in missing Syriac characters for Jacob of Edessa's voweling, as well as others mentioned in Wright's description.</change>
+      <change type="consultation" subtype="palimpsest">Wright gives no indication whether this msItem is the upper or lower text of the folios; consultation of the manuscript required.</change>
+      <change type="missing" subtype="URI">Mansucript Add. 7201 of the British Library missing URI.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

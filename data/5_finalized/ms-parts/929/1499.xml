@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17217, fol. 45</title>
+        <title level="a" xml:lang="en">BL Add MS 17217, fol. 61, lower text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -14,11 +14,11 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
-        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</name>
         </respStmt>
         <respStmt>
             <resp>Based on the work of</resp>
@@ -50,50 +50,46 @@
     </editionStmt>
       <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/940/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1499/tei</idno>
         <availability>
             <p/>
             <licence target="http://creativecommons.org/licenses/by/3.0/">
                 <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
             </licence>
         </availability>
-        <date calendar="Gregorian">2021-12-09-05:00</date>
+        <date calendar="Gregorian">2021-12-07-05:00</date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-940">
+        <msDesc xml:id="manuscript-1499">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/940</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1499</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17217, fol. 45</idno>
+              <idno type="BL-Shelfmark">Add MS 17217, fol. 61, lower text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Arabic">947</idno>
+              <idno type="Wright-BL-Arabic">1023</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Roman">DCCCCXLVII</idno>
+              <idno type="Wright-BL-Roman">MXXIII</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <summary/>
-            <textLang mainLang="syr-Syre"/>
-            <msItem xml:id="a1" n="1" defective="true">
-              <locus from="45a"/>
-              <title xml:lang="en">The conclusion of the history of a saint</title>
-            </msItem>
-            <msItem xml:id="a2" n="2" defective="true">
-              <locus from="45b"/>
-              <title xml:lang="en">An anecdote of a sick woman, who was cured by a holy
-                man</title>
+            <textLang mainLang="syr"/>
+            <msItem xml:id="a1" n="1">
+              <title xml:lang="en">Unspecified contents</title>              
+              <note>The older writing has been purposely erased, to make room for a note<ptr target="http://syriaca.org/manuscript/953"/>, dated A. Gr. <date datingMethod="Seleucid" notBefore="1300" notAfter="1399">13..</date>, A.D. <date calendar="Gregorian" notBefore="1000" notAfter="1099">10..</date>, when <persName>Gabriel</persName> was abbat of
+                the convent of <placeName ref="http://syriaca.org/place/360">S. Mary Deipara</placeName>.</note>
             </msItem>
           </msContents>
           <physDesc>
-            <objectDesc form="leaf">
+            <objectDesc form="codex">
               <supportDesc material="perg">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
@@ -103,7 +99,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>A vellum leaf, 7 5/8 in. by 4 3/4, slightly mutilated.</p>
+                      <p>Part of a vellum leaf from a manuscript of the <origDate notBefore="0700" notAfter="0800">viiith cent.</origDate></p>
                     </item>
                   </list>
                 </condition>
@@ -114,11 +110,17 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>The writing is a
-                        neat, regular Estrangela of the <origDate notBefore="0600" notAfter="0800">viith or viiith cent.</origDate></desc>
+                <desc/>
               </handNote>
             </handDesc>
-            <additions/>
+            <additions>
+              <list>
+                <item>
+                  <locus/>
+                  <p/>
+                </item>
+              </list>
+            </additions>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -129,8 +131,8 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0600" notAfter="0800">viith or
-                viiith cent.</origDate>
+              <origDate notBefore="0700" notAfter="0800">viiith
+                cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -154,8 +156,8 @@
                 <pubPlace>London</pubPlace>
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
-                <citedRange unit="entry">DCCCCXLVII</citedRange>
-                <citedRange unit="pp">3:1101</citedRange>
+                <citedRange unit="entry">MXXIII</citedRange>
+                <citedRange unit="pp">3:1197</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -313,17 +315,17 @@
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
             <item>
-              <ref target="#lives-collect"/>
+              <ref target="#fly-leaves"/>
             </item>
           </list>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-10">Edits to msContents and handDesc</change>
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-09">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI
-        encoding.</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-11">Edits to msContents, handDesc, and additions; created URI for palimpsest.</change>
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-07">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+      <change who="http://syriaca.org/documentation/editors.xml#cchen">Initial TEI encoding.</change>
+      <change type="planned" subtype="consultation">Wright does not provide a description of the lower text; further consultation needed.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

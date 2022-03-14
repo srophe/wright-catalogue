@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14729, foll. 193—198</title>
+        <title level="a" xml:lang="en">BL Add MS 14729, foll. 116-122</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -14,11 +14,11 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
-        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
         </respStmt>
         <respStmt>
           <resp>Based on the work of</resp>
@@ -38,7 +38,7 @@
         </respStmt>
         <respStmt>
           <resp>Project management by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
           <resp>English text entry and proofreading by</resp>
@@ -50,7 +50,7 @@
       </editionStmt>
       <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/633/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1497/tei</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -60,90 +60,47 @@
         <date calendar="Gregorian"/>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-633">
+        <msDesc xml:id="manuscript-1497">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/633</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1497</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14729, foll. 193—198</idno>
+              <idno type="BL-Shelfmark">Add MS 14729, foll. 116-122</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Arabic">509</idno>
+              <idno type="Wright-BL-Arabic">838</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Roman">DIX</idno>
+              <idno type="Wright-BL-Roman">DCCCXXXVIII</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1">
-              <locus from="193a"/>
-              <title xml:lang="en">An extract from the "<ref>Lives of the Egyptian Fathers</ref>," </title>
-              <rubric xml:lang="syr">ܫܐܠ ܐܚܐ ܠܐܒ̇ܐ ܡܛܘܐܝܣ̣ ܘܐܡ̣ܪ ܠܗ. ܕܐܡ̣ܪ ܠܝ ܦܬܓܡܐ ܕܐܚܐ ܒܗ.
-                ܏ܘܫ.</rubric>
-            </msItem>
-            <msItem xml:id="a2" n="2">
-              <locus from="193b"/>
-              <title xml:lang="en">Prayers, lessons, etc., for several occasions.</title>
-              <msItem xml:id="b1" n="3">
-                <locus from="193b"/>
-                <title xml:lang="en">Prayers used at the reception of a monk, according to
-                  the Egyptian use</title>
-                <rubric xml:lang="syr">ܬܘܒ ܒܝܕ ܐܠܗܐ ܟ̈ܬܒܝܢܢ ܨ̈ܠܘܬܐ ܕܥܠ ܐܣܟܝܡܐ ܏ܩܕ ܕܓܠܕܐ ܐܘܟܝܬ ܐܣ̇ܪ
-                  ܟܬܦ̈ܬܐ ܕܩܕܝܫܐ ܐܒܐ ܐܢܛܘܢܝܘܣ. ܕܐܬܦܲܫܩ ܡܢ ܠܫܢܐ ܐܝܓܘܦܛܝܐ ܠܣܘܪܝܝܐ . </rubric>
-                <finalRubric xml:lang="syr">ܫܠܡ ܒܥܘܕܪܢ ܡܪܢ ܛܟܣܐ ܕܐܣܟܝ̣ܡܐ ܕܕܝܪ̈ܝܐ ܐܝ̈ܓܘܦܛܝܐ.<locus from="196a"/>
-                </finalRubric>
-                <note>They are translated from the Coptic, and ascribed to <persName ref="https://syriaca.org/person/1594">Antony</persName></note>
-              </msItem>
-              <msItem xml:id="b2" n="4">
-                <locus from="196a"/>
-                <title xml:lang="en">Lessons for the Nativity</title>
-                <rubric xml:lang="syr">ܩܪ̈ܝܢܐ ܕܝܠ̣ܕܐ</rubric>
-                <msItem xml:id="c1" n="5">
-                  <title xml:lang="en" ref="https://syriaca.org/work/9646">S. Matthew, ch. ii. 1—12</title>
-                </msItem>
-                <msItem xml:id="c2" n="6">
-                  <title xml:lang="en" ref="https://syriaca.org/work/9648">S. Luke, ch. ii. 6—20.</title>
-                </msItem>
-              </msItem>
-              <msItem xml:id="b3" n="7">
-                <locus from="197b"/>
-                <title xml:lang="en">A lesson for Palm Sunday, <ref target="https://syriaca.org/work/9648">S. Luke, ch. xix. 28-40</ref></title>
-                <rubric xml:lang="syr">ܕܐܘ̈ܫܥܢܐ</rubric>
-              </msItem>
-              <msItem xml:id="b4" n="8">
-                <locus from="198a"/>
-                <title xml:lang="en">Hymns for Palm Sunday</title>
-                <rubric xml:lang="syr">ܩ̈ܠܐ ܕܐܘ̈ܫܥܢܐ</rubric>
-              </msItem>
-              <msItem xml:id="b5" n="9">
-                <locus from="198b"/>
-                <author ref="https://syriaca.org/person/42">Jacob of Batnae</author>
-                <author ref="https://syriaca.org/person/13">Ephraim</author>
-                <title xml:lang="en">Prayers of <persName ref="https://syriaca.org/person/42">Jacob of Batnae</persName> and <persName ref="https://syriaca.org/person/13">Ephraim</persName> for Palm
-                  Sunday</title>
-              </msItem>
-            </msItem>
+            <msItem xml:id="a1" n="1" defective="true">
+              <locus from="116b"/>
+              <title>A letter of <persName ref="https://syriaca.org/person/42">Jacob of Batnae</persName> to <persName>Jacob</persName>, abbat of <placeName>the convent of Naphshāthā</placeName>.</title>
+              <rubric xml:lang="syr">ܥܠ ܚ̇ܝ̣ܠܐ ܕܐܠܗܐ ܡܪܐ ܟܠ ܡ̇ܫܪܝܢܢ ܠܡܟܬܒ ܟܬܒܐ ܕܟ̈ܘܢܫܐ ܕܐܒ̈ܗܬܐ ܏ܩܕ
+                  ܐܓܪܬܐ ܕܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ ܨܝܕ ܡܪܝ ܝܥܩܘܒ ܕܢ̈ܦܫܬܐ</rubric>
+              <note>See <bibl>Assemani, Bibl., Or., t. i., p. 303, no. 5</bibl>, and <bibl>Add. 17,163<ptr target="http://syriaca.org/manuscript/809"/>,<citedRange unit="locus">fol. 35 a</citedRange>
+                </bibl>.</note>
+              <note>Imperfect at the end.</note>
+            </msItem>            
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="chart">
-                <extent>
-                  <measure unit="content_pending" quantity="-1"/>
-                </extent>
                 <foliation/>
                 <collation/>
                 <condition>
                   <list>
                     <item>
-                      <p>Six paper leaves, about 6 ½ in. by 4 1/2, the first and last of which are
-                        slightly torn (Add. 14,729, foll. 193—198). There are from 19 to 23 lines in
-                        each page.</p>
+                      <p>Paper, about 6 1/2 in. by 4 7/8, consisting of 8 leaves (Add. 14,729, foll.
+                        116—123), with from 25 to 28 lines in each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -152,23 +109,13 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                <desc>The writing is of the <origDate notBefore="1200" notAfter="1300">xiiith cent.</origDate></desc>
-              </handNote>
+            <handDesc hands="2">
+              <handNote xml:id="handNote1" scope="major" script="syr" medium="unknown">
+                <desc>This manuscript is written in a current hand of the
+                  <date calendar="Gregorian" notBefore="1100" notAfter="1200">xiith</date> or <date calendar="Gregorian" notBefore="1200" notAfter="1300">xiiith cent.</date>
+                </desc>
+              </handNote>              
             </handDesc>
-            <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                  <locus/>
-                  <p/>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                </item>
-              </list>
-            </additions>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -179,9 +126,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="1200" notAfter="1300">XIIIth
-                Century</origDate>
-              <origPlace/>
+              <origDate notBefore="1100" notAfter="1300">xiith or xiiith cent.</origDate>
             </origin>
             <provenance/>
             <acquisition/>
@@ -204,8 +149,8 @@
                 <pubPlace>London</pubPlace>
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
-                <citedRange unit="entry">DIX</citedRange>
-                <citedRange unit="pp">1:389-390</citedRange>
+                <citedRange unit="entry">DCCCXXXVIII</citedRange>
+                <citedRange unit="pp">2:873-874</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -363,17 +308,19 @@
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
             <item>
-              <ref target="#prayers"/>
+              <ref target="#theo-collected"/>
             </item>
           </list>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-03">Edits to msContents and handDesc.</change>
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: deleted empty elements and attributes</change>
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-10">Edits to msContents for separate URI</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-03">Edits to msContents</change>
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: deleted empty elements and attributes</change>
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-06-04-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+      <change when="2020-07-11" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
+        encoding.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>

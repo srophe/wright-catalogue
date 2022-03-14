@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14729 foll. 199-234</title>
+        <title level="a" xml:lang="en">BL Add MS 14729, foll. 199-234</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/634</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14729 foll. 199-234</idno>
+              <idno type="BL-Shelfmark">Add MS 14729, foll. 199-234</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -83,7 +84,7 @@
             <msItem xml:id="a1" n="1">
               <locus from="199b"/>
               <author ref="https://syriaca.org/person/826">John Saba</author>
-              <title xml:lang="en">Selections from the writings of <persName>John
+              <title xml:lang="en">Selections from the writings of <persName ref="https://syriaca.org/person/826">John
                   Saba</persName>
               </title>
               <rubric xml:lang="syr">ܥܠ ܚ̇ܝ̣ܠܐ ܘܣܘܝܥܐ ܕܐܒܐ ܘܕܒܪܐ ܘܕܪܘܚܐ ܩ܏ܕ. ܕܠܗ ܏ܫܘ ܡܢ ܦܘܡ ܟܠܢ܀
@@ -94,36 +95,43 @@
                 ܕܘܒܪ̈ܐ ܘܥܠ ܥ̈ܡܠܐ ܘܡܝܬܪ̈ܬܐ ܘܨ̈ܠܘܬܐ.</rubric>
               <msItem xml:id="b1" n="2">
                 <locus from="199b"/>
+                <author ref="https://syriaca.org/person/826">John Saba</author>
                 <title xml:lang="en">A prayer</title>
                 <incipit xml:lang="syr">ܡܪܢ ܝܫܘܥ ܡܫܝܚܐ. ܕܒܚ̇ܝ̣ܠܟ ܩܝ̈ܡܝܢ ܟ̈ܝܢܐ ܡܠܝ̣̈ܠܐ ܘܟܠ ܛܟ̈ܣܝܗܘܢ
                   ܒܐܝܬ܏ܘܬ ܠܐ ܡܫܬܪܝܢܝܬܐ. ܕܡܢܟ ܐܬܬ̣ܩܢܬ݀. ܘ܏ܫ </incipit>
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus from="200a"/>
+                <author ref="https://syriaca.org/person/826">John Saba</author>
+                <title xml:lang="en" type="supplied">Part 2</title>
                 <rubric xml:lang="syr">ܡܐܡܪܐ ܏ܩܕ ܥܠܗ̇ܝ ܕܟܕ ܣܓܝ ܐܚ̈ܐ ܚ̈ܒܝܒܘܗܝ ܐܦܝܣܘܗܝ ܕܪ̈ܐܙܐ ܗܠܝܢ.
-                  ܒܟܬܒܐ ܗܢܐ ܕܣܝ̣ܡܝܢ ܢ̣ܟܬܘܒ. ܠܐ ܐܬܪܡܝ̣ ܗ̣ܘ ܕܢܥܒܕ ܥܕܡܐ ܕܪܘܚܐ ܥܨܬܗ ܘܠܘܬ ܗܕܐ (sic)
-                  ܐܝܬܝܗ̇ </rubric>
-                <note>Only this heading is given</note>
+                  ܒܟܬܒܐ ܗܢܐ ܕܣܝ̣ܡܝܢ ܢ̣ܟܬܘܒ. ܠܐ ܐܬܪܡܝ̣ ܗ̣ܘ ܕܢܥܒܕ ܥܕܡܐ ܕܪܘܚܐ ܥܨܬܗ ܘܠܘܬ ܗܕܐ
+                  ܐܝܬܝܗ̇ <foreign xml:lang="en">(sic)</foreign></rubric>
+                <note>Only this heading is given.</note>
               </msItem>
               <msItem xml:id="b3" n="4">
                 <locus from="200a"/>
+                <author ref="https://syriaca.org/person/826">John Saba</author>
                 <title xml:lang="en">On the training of novices</title>
                 <rubric xml:lang="syr">ܥܠ ܛܘܟܣܐ ܕܐܚ̈ܐ ܫܪ̈ܘܝܐ</rubric>
-                <note>See <bibl>Add. 14,728, fol. 239 a.</bibl>
+                <note>See <bibl>Add. 14,728<ptr target="http://syriaca.org/manuscript/628"/>, fol. <citedRange unit="locus">239 a</citedRange>.</bibl>
                 </note>
               </msItem>
               <msItem xml:id="b4" n="5">
                 <locus from="203a"/>
+                <author ref="https://syriaca.org/person/826">John Saba</author>
                 <title xml:lang="en">On the visitings vouchsafed by the Spirit for the
                   refreshment of ascetics who are entering on their course, etc.</title>
                 <rubric xml:lang="syr">ܥܠ ܣܥܘܪ̈ܘܬܐ ܕܡܢ ܪܘܚܐ ܕܢ̈ܚܝܢ ܠܒܘܣܡܐ ܕܟܫܝܪ̈ܐ ܕܡ̇ܫܪܝܢ ܘܥܠ ܩܪ̈ܒܐ
-                  ܕܥܡܗܘܢ ܘܕܐܝܟܢܐ ܙ̇ܟܝܢ </rubric>
+                  ܕܥܡܗܘܢ ܘܕܐܝܟܢܐ ܙ̇ܟܝܢ</rubric>
                 <incipit xml:lang="syr">ܢܘܗܪܐ ܕܡܢ ܢܘܗܪܐ </incipit>
-                <note>See <bibl>Assemani, Bibl. Or., t. i., p. 436, no. 2</bibl>
+                <note>See <bibl>Assemani, Bibl. Or., t. i., p. 436, no. 2</bibl>.
                 </note>
+                <note>It is preceded by a prayer, beginning: <quote xml:lang="syr">ܢܘܗܪܐ ܕܡܢ ܢܘܗܪܐ</quote>.</note>
               </msItem>
               <msItem xml:id="b5" n="6">
                 <locus from="204a"/>
+                <author ref="https://syriaca.org/person/826">John Saba</author>
                 <title xml:lang="en">Admonitions, and on repentance</title>
                 <rubric xml:lang="syr">ܙܘܗܪ̈ܐ ܘܡܡܠܐ ܕܥܠ ܬܝܒܘܬܐ</rubric>
                 <note>See <bibl>Assemani, p. 440, no. 21</bibl>.</note>
@@ -134,62 +142,68 @@
                   dissolute and abandoned, etc.</title>
                 <rubric xml:lang="syr">ܙܘܗܪ̈ܐ ܥܠ ܢܛܘܪܬܐ ܘܥܠ ܦ̇ܣܝ̣ܩܘܬܐ ܕܡܢ ܪ̈ܦܝܐ ܘܬܥ̈ܝ̣ܫܐ ܕܡܢܗܘܢ
                   ܡ̇ܡܠܟ̣ܐ ܥܠ ܐܢܫ ܡܐܝ̣ܢܘܬܐ ܘܡܬܡ̣ܠܐ ܡܢ ܚ̇ܫܐ ܛܡ̈ܐܐ. ܘܥܠܗ̇ܝ ܕܢܙܕܗܪ ܡܢ ܛ̈ܠܝܐ ܕܠܐ ܢܗܘ̣ܐ
-                  ܛܡ̣ܐܐ ܗܘܢܗ ܒܢܓܝܪܘܬ ܪܘܚܐ ܕܥܡܗܘܢ </rubric>
-                <note>See <bibl>Assemani, p. 436, no. 1.</bibl>
+                  ܛܡ̣ܐܐ ܗܘܢܗ ܒܢܓܝܪܘܬ ܪܘܚܐ ܕܥܡܗܘܢ</rubric>
+                <note>See <bibl>Assemani, p. 436, no. 1</bibl>.
                 </note>
               </msItem>
               <msItem xml:id="b7" n="8">
                 <locus from="213a"/>
+                <author ref="https://syriaca.org/person/826">John Saba</author>
                 <title xml:lang="en">On the demon of fornication</title>
                 <rubric xml:lang="syr">ܥܠ ܕܝܘܐ ܕܙܢܝܘܬܐ ܘܥܠ ܡ̇ܐܫ ܗ̈ܕܡܐ ܣ̈ܡܝܐ ܘܚ̈ܫܘܟܐ .. ܘܥܠ ܫܘ̈ܚܠܦܐ
-                  ܕܢ̈ܣܝܘܢܐ ܘܦܘ̈ܪܣܐ ܕܠܘܩܒܠܗܘܢ </rubric>
-                <incipit xml:lang="syr">ܨܡܚܐ ܫܒܝܚܐ ܕܕܢܚ̣ ܠܢ ܡܢ ܥܘܒܗ ܕܐܒܐ ܓܢܝܙܐ.</incipit>
-                <note>See <bibl>Add. 14,728, fol. 242 b.</bibl>
+                  ܕܢ̈ܣܝܘܢܐ ܘܦܘ̈ܪܣܐ ܕܠܘܩܒܠܗܘܢ</rubric>
+                <note>See <bibl>Add. 14,728<ptr target="http://syriaca.org/manuscript/628"/>, fol. <citedRange unit="locus">242 b</citedRange></bibl>.
                 </note>
+                <note>It is preceded by a prayer, beginning: <quote xml:lang="syr">ܨܡܚܐ ܫܒܝܚܐ ܕܕܢܚ̣ ܠܢ ܡܢ ܥܘܒܗ ܕܐܒܐ ܓܢܝܙܐ.</quote></note> 
               </msItem>
               <msItem xml:id="b8" n="9">
                 <locus from="218b"/>
+                <author ref="https://syriaca.org/person/826">John Saba</author>
                 <title xml:lang="en">On the demon of blasphemy</title>
                 <rubric xml:lang="syr">ܥܠ ܫܐܕܐ ܡ̇ܓܕܦܢܐ ܘܕܐܝܟܢ ܐܝܬܝ̈ܗܘܢ ܓܘ̈ܕܦܘܗܝ. ܘܕܠܐ ܚ̇ܣܕ ܐܢܫ ܡܢܗܘܢ
-                  ܐܢ ܠܦ̇ܣܩ ܣܒܪܐ ܠܐ ܢܐܬ݂ܐ ܘܡܬܒܠܥ ܠܗ ܒܥܘܬܐ ܝܬܝܪܬܐ. ܘܕܐܝܟܢ ܡܣܬܚ̣ܦ ܒܦܘܢܝ ܦܬܓܡܐ . </rubric>
-                <incipit xml:lang="syr">ܥܒܘܕܐ ܕܟܠ ܘܣܘܬܬܐ ܕܟܠ ܥܠܡ</incipit>
-                <note>See Add. 14,728, fol. 243 b</note>
+                  ܐܢ ܠܦ̇ܣܩ ܣܒܪܐ ܠܐ ܢܐܬ݂ܐ ܘܡܬܒܠܥ ܠܗ ܒܥܘܬܐ ܝܬܝܪܬܐ. ܘܕܐܝܟܢ ܡܣܬܚ̣ܦ ܒܦܘܢܝ ܦܬܓܡܐ</rubric>                
+                <note>See Add. 14,728<ptr target="http://syriaca.org/manuscript/628"/>, fol. <citedRange unit="locus">243 b</citedRange></note>
               </msItem>
+              <note>It is preceded by a prayer, beginning: <quote xml:lang="syr">ܥܒܘܕܐ ܕܟܠ ܘܣܘܬܬܐ ܕܟܠ ܥܠܡ</quote>.</note>
               <msItem xml:id="b9" n="10">
                 <locus from="221a"/>
+                <author ref="https://syriaca.org/person/826">John Saba</author>
                 <title xml:lang="en">On anger and other evil passions</title>
-                <rubric xml:lang="syr">ܥܠ ܪܘܓܙܐ. ܘܥܠ ܦܗ̣ܝܐ. ܘܥܠ ܥܩܬܐ. ܘܥܠ ܪܡܘܬܐ</rubric>
-                <incipit xml:lang="syr">ܛܒܐ ܕܡܢ ܡܬܘܡ ܠܐ ܪܓܙ</incipit>
-                <note>See <bibl>Add. 14,728, fol. 244 a</bibl>
+                <rubric xml:lang="syr">ܥܠ ܪܘܓܙܐ. ܘܥܠ ܦܗ̣ܝܐ. ܘܥܠ ܥܩܬܐ. ܘܥܠ ܪܡܘܬܐ</rubric>                
+                <note>See <bibl>Add. 14,728<ptr target="http://syriaca.org/manuscript/628"/>, fol. 244 a</bibl>
                 </note>
+                <note>It is preceded by a prayer, beginning: <quote xml:lang="syr">ܛܒܐ ܕܡܢ ܡܬܘܡ ܠܐ ܪܓܙ</quote></note>
               </msItem>
               <msItem xml:id="b10" n="11">
                 <locus from="222b"/>
+                <author ref="https://syriaca.org/person/826">John Saba</author>
                 <title xml:lang="en">On the custody of the senses</title>
-                <rubric xml:lang="syr">ܥܠ ܢܛܘܪܬܐ ܕܪ̈ܓܫܐ ܕܠܒܪ ܥܡ ܕܠܓܘ ܘܒܡܢܐ ܬܘܒ ܡܬܢ̇ܛܪܝܢ </rubric>
-                <note>See <bibl>Assem., p. 437, no. 10</bibl>
+                <rubric xml:lang="syr">ܥܠ ܢܛܘܪܬܐ ܕܪ̈ܓܫܐ ܕܠܒܪ ܥܡ ܕܠܓܘ ܘܒܡܢܐ ܬܘܒ ܡܬܢ̇ܛܪܝܢ</rubric>
+                <note>See <bibl>Assem., p. 437, no. 10</bibl>.
                 </note>
               </msItem>
               <msItem xml:id="b11" n="12" defective="true">
                 <locus from="226a"/>
+                <author ref="https://syriaca.org/person/826">John Saba</author>
                 <title xml:lang="en">On the (divine) visitings that are vouchsafed unto
                   solitaries</title>
-                <rubric xml:lang="syr">ܥܠ ܣܥܘܪ̈ܘܬܐ ܕܠܘܬ ܝ̈ܚܝܕܝܐ ܡܫܬܟ̈ܢܢ </rubric>
-                <incipit xml:lang="syr">ܡܫܝܚܐ ܠܒܘܫܗ ܕܐܒܐ.</incipit>
-                <note>See <bibl>Add. 14,728, fol. 245 a</bibl>
+                <rubric xml:lang="syr">ܥܠ ܣܥܘܪ̈ܘܬܐ ܕܠܘܬ ܝ̈ܚܝܕܝܐ ܡܫܬܟ̈ܢܢ </rubric>                
+                <note>See <bibl>Add. 14,728<ptr target="http://syriaca.org/manuscript/628"/>, fol. <citedRange unit="locus">245 a</citedRange></bibl>
                 </note>
+                <note>It is preceded by a prayer, beginning: <quote xml:lang="syr">ܡܫܝܚܐ ܠܒܘܫܗ ܕܐܒܐ.</quote></note>
               </msItem>
               <msItem xml:id="b12" n="13" defective="true">
                 <locus from="232b"/>
+                <author ref="https://syriaca.org/person/826">John Saba</author>
                 <title xml:lang="en">Story of a brother</title>
                 <rubric xml:lang="syr">ܡܬ݀ܢܐ ܐܢܐ̣ ܩܕܡܝܟ ܡܕܡ ܕܐܫܬܥ̣ܝ ܠܝ ܐܚܐ ܚܕ ܥܠ ܩܢܘܡܗ </rubric>
-                <note>Imperfect at the end</note>
+                <note>Imperfect at the end.</note>
               </msItem>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
+              <supportDesc material="chart">
                 <extent>
                   <measure unit="content_pending" quantity="-1"/>
                 </extent>
@@ -202,8 +216,7 @@
                         foll. 199—234), some of which, towards the end, are much torn. The quires,
                         signed with letters, are four in number, the last being imperfect. Leaves
                         are wanting after fol. 229, and at the end. There are from 20 to 25 lines in
-                        each page. This manuscript is written in a current hand of the xiith or
-                        xiiith cent.</p>
+                        each page.</p>
                     </item>
                   </list>
                 </condition>
@@ -214,7 +227,8 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                <desc/>
+                <desc>This manuscript is written in a current hand of the <origDate notBefore="1100" notAfter="1300">xiith or
+                        xiiith cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions>
@@ -239,7 +253,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate from="1200" to="1300">XIIIth
+              <origDate from="1100" to="1300">XIIth or XIIIth
                 Century</origDate>
               <origPlace/>
             </origin>
@@ -430,6 +444,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-04">Edits to msContents, handDesc, and origDate.</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-08-17-04:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>

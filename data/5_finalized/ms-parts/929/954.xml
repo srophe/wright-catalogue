@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17217, foll. 62.</title>
+        <title level="a" xml:lang="en">BL Add MS 17217, fol. 62</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/954</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17217, foll. 62</idno>
+              <idno type="BL-Shelfmark">Add MS 17217, fol. 62</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -82,10 +83,9 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
+              <locus from="62"/>
               <title xml:lang="en">Part of the last leaf of a vellum manuscript, probably of
-                the <ref target="http://syriaca.org/work/9643">Pauline Epistles</ref>, containing the commencement of a note, which states
-                that it belonged to the convent of S. Mary Deipara.</title>
-              <rubric xml:lang="syr">ܐܝܬܘܗܝ ܫܠـ[ـܝܚܐ] ܗܢܐ ܠܕܝܪ[ܐ] ܕܝܠܕܬ ܐ[ܠܗܐ] ܕܒـ[ܡܕܒܪܐ] . . . </rubric>
+                the <ref target="http://syriaca.org/work/9643">Pauline Epistles</ref></title>
             </msItem>
           </msContents>
           <physDesc>
@@ -99,7 +99,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p/>
+                      <p>The last leaf of a vellum manuscript.</p>
                     </item>
                   </list>
                 </condition>
@@ -108,12 +108,23 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
+            <handDesc hands="2">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
-            <additions/>
+            <additions>
+              <list>
+                <item n="1" xml:id="addition1">
+                  <locus from="62"/>
+                  <p>This leaf contains the commencement of a note, which states
+                that it belonged to <placeName ref="https://syriaca.org/place/360">the convent of S. Mary Deipara</placeName>.</p>
+                  <p>
+                    <quote xml:lang="syr">ܐܝܬܘܗܝ ܫܠـ[ـܝܚܐ] ܗܢܐ ܠܕܝܪ[ܐ] ܕܝܠܕܬ ܐ[ܠܗܐ] ܕܒـ[ܡܕܒܪܐ] . . . </quote>
+                  </p>
+                </item>
+              </list>
+            </additions>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -125,8 +136,7 @@
           <history>
             <origin>
               <origDate/>
-              <origPlace ref="http://syriaca.org/place/360" xml:lang="en">S. Mary
-                Deipara</origPlace>
+              <origPlace/>
             </origin>
             <provenance/>
             <acquisition/>
@@ -150,7 +160,7 @@
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
                 <citedRange unit="entry">MXXXIV</citedRange>
-                <citedRange unit="pp">3:12</citedRange>
+                <citedRange unit="pp">3:1200</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -315,6 +325,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-14">Edits to msContents, handDesc, and additions</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-07">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#cchen">Initial TEI encoding.</change>
     </revisionDesc>
