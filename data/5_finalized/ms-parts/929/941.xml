@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#aahn">Alexys Ahn</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#aahn">Alexys Ahn</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -83,28 +84,34 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
               <locus from="46a"/>
+              <author ref="http://syriaca.org/person/483">Evagrius</author> 
               <title xml:lang="en">Extracts from the works of
                 <persName ref="http://syriaca.org/person/483">Evagrius</persName>
               </title>
               <msItem xml:id="b1" n="2">
                 <locus from="46a"/>
+                <author ref="http://syriaca.org/person/483">Evagrius</author> 
                 <title xml:lang="en">The conclusion of a tract.</title>
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus from="46a"/>
+                <author ref="http://syriaca.org/person/483">Evagrius</author> 
                 <title xml:lang="en">A short excerpt</title>
-                <rubric xml:lang="syr">ܐܢ ܦܘܠܘܣ ܩܕܝܫܐ ܟܒ̇ܫ ܗܘܐ ܦܓܪܗ ܘܡܫܥܒܕ: ܠܐ ܬܗ̇ܡܐ ܐܢܬ ܡܢ ܕܘܒܪ̈ܝܟ
-                  ܒܚܝܝ̈ܟ. ܏ܘܫ.</rubric>
+                <incipit xml:lang="syr">ܐܢ ܦܘܠܘܣ ܩܕܝܫܐ ܟܒ̇ܫ ܗܘܐ ܦܓܪܗ ܘܡܫܥܒܕ: ܠܐ ܬܗ̇ܡܐ ܐܢܬ ܡܢ ܕܘܒܪ̈ܝܟ
+                  ܒܚܝܝ̈ܟ. ܏ܘܫ.</incipit>
               </msItem>
               <msItem xml:id="b3" n="4">
                 <locus from="46"/>
-                <title xml:lang="en">The tract entitled ܥܠ ܟܐ̈ܢܐ ܘܓܡܝܪ̈ܐ </title>
-                <note>see Add. 14,578, no. 11</note>
+                <author ref="http://syriaca.org/person/483">Evagrius</author> 
+                <title xml:lang="en">A tract</title>
+                <rubric xml:lang="syr">ܥܠ ܟܐ̈ܢܐ ܘܓܡܝܪ̈ܐ</rubric>
+                <note>See <bibl>Add. 14,578<ptr target="http://syriaca.org/manuscript/314"/>, no. <citedRange unit="">11</citedRange></bibl></note> <!--JA: Attribute unit for <citedRange> requires vocabulary for Wright's numbering-->
               </msItem>
               <msItem xml:id="b4" n="5">
                 <locus from="47a"/>
+                <author ref="http://syriaca.org/person/483">Evagrius</author> 
                 <title xml:lang="en">Another tract</title>
-                <rubric xml:lang="syr">ܬܝܒܘܬܐ ܘܡܟܝܟܘܬܐ ܡܩܝܡܝܢ ܢܦܫܐ. ܏ܘܫ</rubric>
+                <incipit xml:lang="syr">ܬܝܒܘܬܐ ܘܡܟܝܟܘܬܐ ܡܩܝܡܝܢ ܢܦܫܐ. ܏ܘܫ</incipit>
               </msItem>
             </msItem>
           </msContents>
@@ -131,7 +138,7 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>The writing is of the ixth and xth centuries</desc>
+                <desc>The writing is of the <origDate notBefore="0800" notAfter="1000">ixth and xth centuries</origDate>.</desc>
               </handNote>
             </handDesc>
             <additions/>
@@ -145,7 +152,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0800" notAfter="1000">of the ixth and xth
+              <origDate notBefore="0800" notAfter="1000">ixth and xth
                 centuries</origDate>
               <origPlace/>
             </origin>
@@ -336,6 +343,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-10">Edits to msContents and handDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-18">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#aahn">Initial TEI encoding.</change>
     </revisionDesc>

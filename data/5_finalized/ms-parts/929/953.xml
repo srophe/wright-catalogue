@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17217, fol. 61.</title>
+        <title level="a" xml:lang="en">BL Add MS 17217, fol. 61, upper text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/953</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17217, fol. 61</idno>
+              <idno type="BL-Shelfmark">Add MS 17217, fol. 61, upper text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -82,15 +83,14 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <title xml:lang="en">Part of a vellum leaf from a manuscript of the viiith
-                cent.</title>
-              <rubric xml:lang="syr">ܐܬܚܕܬ݀ ܟܬܒܐ ܗܢܐ ܒܫܢܬ ܐܠܦ ܘܬܠ . . . ܕܝܘ̈ܢܝܐ. ܒܝܪܚ ܚܙܝܪܢ. ܒܝܘ̈ܡܝ
+              <locus from="61"/>
+              <title xml:lang="en">A now mutilated note</title>
+              <quote xml:lang="syr">ܐܬܚܕܬ݀ ܟܬܒܐ ܗܢܐ ܒܫܢܬ ܐܠܦ ܘܬܠ . . . ܕܝܘ̈ܢܝܐ. ܒܝܪܚ ܚܙܝܪܢ. ܒܝܘ̈ܡܝ
                 ܡܪܝ ܓܒܪܐܝـ[ܠ] . . . ܢܟܦܐ ܘܪܚ̇ܡ ܐܠܗܐ. ܒܗ̇ ܒܕܝـ[ـܪܐ ܩܕܝܫܬܐ] ܕܒܡܕܒܪܐ ܕܐܣܩܝܛܝ.
                 ܘܒܝܨܝـ[ܦܘܬܐ] . . . ܐܚܐ ܡܚܣܝ ܒܐܠܗܐ. ܐܬܚ . . . ܕܢܚ̣ܐ ܕܒܫܡܐ ܠܡ ܕܝܪܝܐ. ܕܡܢ ܒܲܐܟܣܲܐܪܘܡܐ
-                ܡܕܝܢܬܐ. ܏ܘܫ.</rubric>
-              <note>The older writing has been purposely erased, to make room for a now mutilated
-                note, dated A. Gr. 13.., A.D. 10.., when <persName>Gabriel</persName> was abbat of
-                the convent of <placeName ref="http://syriaca.org/place/360">S. Mary Deipara</placeName>. </note>
+                ܡܕܝܢܬܐ. ܏ܘܫ.</quote>
+              <note>The older writing has been purposely erased, to make room for this note, dated A. Gr. <date datingMethod="Seleucid" notBefore="1300" notAfter="1399">13..</date>, A.D. <date calendar="Gregorian" notBefore="1000" notAfter="1099">10..</date>, when <persName>Gabriel</persName> was abbat of
+                the convent of <placeName ref="http://syriaca.org/place/360">S. Mary Deipara</placeName>.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -104,7 +104,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p/>
+                      <p>Part of a vellum leaf from a <bibl>manuscript<ptr target="http://syriaca.org/manuscript/1499"/> of the <date notBefore="0700" notAfter="0800">viiith cent.</date></bibl></p>
                     </item>
                   </list>
                 </condition>
@@ -113,9 +113,12 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="2">
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr">
+                <desc>The mutilated note is dated A. Gr. <date datingMethod="Seleucid" notBefore="1300" notAfter="1399">13..</date>, A.D. <date calendar="Gregorian" notBefore="1000" notAfter="1099">10..</date></desc>
+              </handNote>
+              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
             <additions>
@@ -136,10 +139,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0700" notAfter="0800">viiith
-                cent.</origDate>
-              <origDate when="0010">A.D. 10</origDate>
-              <origDate datingMethod="Seleucid" when-custom="0013">A. Gr. 13</origDate>
+              <origDate/>              
               <origPlace/>
             </origin>
             <provenance/>
@@ -329,10 +329,9 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-11">Edits to msContents, handDesc, and additions; created URI for palimpsest.</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-07">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change who="http://syriaca.org/documentation/editors.xml#cchen">Initial TEI encoding.</change>
-      <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
-        encoding.</change>
+      <change who="http://syriaca.org/documentation/editors.xml#cchen">Initial TEI encoding.</change>      
     </revisionDesc>
   </teiHeader>
   <facsimile>

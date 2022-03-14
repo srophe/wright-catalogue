@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#aahn">Alexys Ahn</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#aahn">Alexys Ahn</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -83,11 +84,9 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
               <locus from="63"/>
-              <title xml:lang="en">The last two or three lines indicate that it was a volume
-                of ascetic works, and belonged to the convent of <persname xmlns="">Mār Abraham the
-                  recluse,</persname> .</title>
-              <rubric xml:lang="syr">ܐܙܕܒܢ ܟܬܒܐ ܗܢܐ . . . ܕܝܚ̈ܝܕܝܐ ܠܥܘܡܪܐ ܩܕܝܫܐ ܕܕܝܪܐ ܕܡܪܝ ܐܒܪܗܡ
-                ܚܒܝܫܐ . . . ܒܫܢܬ ܬܫܥܡܐܐ . . . ܕܝܘ̈ܢܝܐ ܒܐܝܪܚ ܬܫܪܝܢ ܚܪܝ . . . </rubric>
+              <title xml:lang="en">A small portion of a text belogning to a volume
+                of ascetic works</title>
+              <colophon>See additions.</colophon> 
             </msItem>
           </msContents>
           <physDesc>
@@ -101,9 +100,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>The last leaf of a vellum manuscript, much soiled and torn,' containing a
-                        small portion of the text, and the colophon, of which unfortunately but very
-                        little is legible. </p>
+                      <p>The last leaf of a vellum manuscript, much soiled and torn.</p>
                     </item>
                   </list>
                 </condition>
@@ -112,20 +109,26 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="2">
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr">
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
             <additions>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="1b"/>
-                  <p>On the verso we read, in a later hand, the words ܢܘܣܝܐ ܕܚܨܪܐ ܕܥܒܐ, " trial of
-                    the reed-pen."</p>
+                  <locus from="1a"/>
+                  <p>Of the colophon, unfortunately but very little is legible. The last two or three lines of the colophon indicate that it was a volume of ascetic works, and belonged to <placeName>the convent of <persName ref="http://syriaca.org/person/1555">Mār Abraham the
+                  recluse</persName></placeName>, A. Gr. <origDate datingMethod="Seleucid" notBefore-custom="0900" notAfter-custom="0999">9..</origDate>, A.D. <origDate calendar="Gregorian" notBefore="0600" notAfter="0699">6..</origDate>.</p>
                   <p>
-                    <quote xml:lang="syr">ܢܘܣܝܐ ܕܚܨܪܐ ܕܥܒܐ,</quote>
+                  <quote xml:lang="syr">ܐܙܕܒܢ ܟܬܒܐ ܗܢܐ . . . ܕܝܚ̈ܝܕܝܐ ܠܥܘܡܪܐ ܩܕܝܫܐ ܕܕܝܪܐ ܕܡܪܝ ܐܒܪܗܡ
+                ܚܒܝܫܐ . . . ܒܫܢܬ ܬܫܥܡܐܐ . . . ܕܝܘ̈ܢܝܐ ܒܐܝܪܚ ܬܫܪܝܢ ܚܪܝ . . . </quote>
                   </p>
+                </item>
+                <item xml:id="addition2" n="2">
+                  <locus from="1b"/>
+                  <p>On the verso we read, in a later hand, the words <quote xml:lang="syr">ܢܘܣܝܐ ܕܚܨܪܐ ܕܥܒܐ <supplied reason="translation" xml:lang="en" resp="http://syriaca.org/documentation/editors.xml#wwright">"trial of
+                    the reed-pen"</supplied></quote>.</p>                  
                 </item>
               </list>
             </additions>
@@ -139,9 +142,9 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0500" notAfter="0600">A.D. 6 </origDate>
-              <origDate datingMethod="Seleucid" notBefore-custom="0800" notAfter-custom="0900">A. Gr. 9</origDate>
-              <origPlace/>
+              <origDate calendar="Gregorian" notBefore="0600" notAfter="0699">A.D. 6..</origDate>
+              <origDate datingMethod="Seleucid" notBefore-custom="0900" notAfter-custom="0999">A. Gr. 9..</origDate>
+              <origPlace>The convent of Mar Abraham the recluse</origPlace>
             </origin>
             <provenance/>
             <acquisition/>
@@ -330,6 +333,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-14">Edits to msContents, handDesc, additions, and origDate/origPlace</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-18">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#aahn">Initial TEI encoding.</change>
     </revisionDesc>

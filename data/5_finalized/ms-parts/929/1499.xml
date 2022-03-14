@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14669, fol. 19</title>
+        <title level="a" xml:lang="en">BL Add MS 17217, fol. 61, lower text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -14,11 +14,11 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
-        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</name>
         </respStmt>
         <respStmt>
             <resp>Based on the work of</resp>
@@ -50,47 +50,42 @@
     </editionStmt>
       <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/498/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1499/tei</idno>
         <availability>
             <p/>
             <licence target="http://creativecommons.org/licenses/by/3.0/">
                 <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
             </licence>
         </availability>
-        <date calendar="Gregorian">2022-01-03-05:00</date>
+        <date calendar="Gregorian">2021-12-07-05:00</date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-498">
+        <msDesc xml:id="manuscript-1499">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/498</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1499</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14669, fol. 19</idno>
+              <idno type="BL-Shelfmark">Add MS 17217, fol. 61, lower text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Arabic">601</idno>
+              <idno type="Wright-BL-Arabic">1023</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Roman">DCI</idno>
+              <idno type="Wright-BL-Roman">MXXIII</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus from="19a"/>
-              <title xml:lang="en" type="supplied">A small portion of the conclusion of a discourse</title>
-            </msItem>
-            <msItem xml:id="a2" n="2">
-              <locus from="19a"/>
-              <author ref="https://syriaca.org/person/573">John Chrysostom</author>
-              <title xml:lang="en" type="supplied">The commencement of the first discourse of <persName ref="https://syriaca.org/person/573">John Chrysostom</persName> to <persName>Theodore</persName></title>
-              <rubric xml:lang="syr">ܡܐܡܪܐ ܕܡܪܝ ܝܘܗܢܝܣ ܐܦܝܣܩܘܦܐ ܕܩܘܣܛܝܛܝܢܦܘܠܝܣ. ܕܥܠ ܬܝܒܘܬܐ.</rubric>
+              <title xml:lang="en">Unspecified contents</title>              
+              <note>The older writing has been purposely erased, to make room for a note<ptr target="http://syriaca.org/manuscript/953"/>, dated A. Gr. <date datingMethod="Seleucid" notBefore="1300" notAfter="1399">13..</date>, A.D. <date calendar="Gregorian" notBefore="1000" notAfter="1099">10..</date>, when <persName>Gabriel</persName> was abbat of
+                the convent of <placeName ref="http://syriaca.org/place/360">S. Mary Deipara</placeName>.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -104,7 +99,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>A vellum leaf, much mutilated, in double columns.</p>
+                      <p>Part of a vellum leaf from a manuscript of the <origDate notBefore="0700" notAfter="0800">viiith cent.</origDate></p>
                     </item>
                   </list>
                 </condition>
@@ -115,10 +110,17 @@
             </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>The writing is neat and regular, in a hand of the <origDate calendar="Gregorian" notBefore="0900" notAfter="1000">xth cent.</origDate></desc>
+                <desc/>
               </handNote>
             </handDesc>
-            <additions/>
+            <additions>
+              <list>
+                <item>
+                  <locus/>
+                  <p/>
+                </item>
+              </list>
+            </additions>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -129,7 +131,8 @@
           </physDesc>
           <history>
             <origin>
-              <origDate calendar="Gregorian" notBefore="0900" notAfter="1000">Xth Century</origDate>
+              <origDate notBefore="0700" notAfter="0800">viiith
+                cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -153,8 +156,8 @@
                 <pubPlace>London</pubPlace>
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
-                <citedRange unit="entry">DCI</citedRange>
-                <citedRange unit="pp">2:481</citedRange>
+                <citedRange unit="entry">MXXIII</citedRange>
+                <citedRange unit="pp">3:1197</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -312,16 +315,17 @@
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
             <item>
-              <ref target="#theo-single"/>
+              <ref target="#fly-leaves"/>
             </item>
           </list>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-01-20">Initially encoded as Add. MS 14555 (URI:1227); Edits to msContents, handDesc, and origDate</change>
-      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-03">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-11">Edits to msContents, handDesc, and additions; created URI for palimpsest.</change>
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-12-07">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+      <change who="http://syriaca.org/documentation/editors.xml#cchen">Initial TEI encoding.</change>
+      <change type="planned" subtype="consultation">Wright does not provide a description of the lower text; further consultation needed.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
