@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14442 foll. 2-16</title>
+        <title level="a" xml:lang="en">BL Add MS 14442 foll. 1—16</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,7 +15,6 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</editor>
-        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</name>
@@ -26,7 +25,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -68,7 +67,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/107</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14442 foll. 2-16</idno>
+              <idno type="BL-Shelfmark">Add MS 14442 foll. 1-16</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -82,24 +81,7 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="2a"/>
               <title xml:lang="en">The book of Genesis, translated from the Septuagint
-                        by <persName ref="http://syriaca.org/person/82">Paul, bishop of <placeName ref="http://syriaca.org/place/200">Tellā or
-                           Constantina</placeName>
-                </persName>.</title>
-              <msItem xml:id="b1" n="2" defective="true">
-                <locus from="2a"/>
-                <title xml:lang="en">Summary of contents</title>
-                <rubric xml:lang="syr">ܩ̈ܦܠܐܐ ܕܒܪܝܬܐ</rubric>
-                <note>A summary of the contents is prefixed.<note type="footnote">See Chrysostom,
-                                 Synopsis Scripturae Sacrae ; Opera, ed. 1834-8, t. vi. p. 373;
-                                 Migne, Patrol. Gr., t. lvi., col. 317, and Ceriani in the work
-                                 cited above, t. ii. fasc. i. p. xiii.</note></note>
-                <note>Several portions of these capitula are missing.</note>
-              </msItem>
-              <msItem xml:id="b2" n="3" defective="true">
-                <locus from="9a"/>
-                <title xml:lang="en">The book of Genesis, translated from the Septuagint
                         by <persName ref="http://syriaca.org/person/82">Paul, bishop of <placeName ref="http://syriaca.org/place/200">Tellā or
                            Constantina</placeName>
                 </persName>.</title>
@@ -155,7 +137,11 @@
               <list>
                 <item xml:id="addition1" n="1">
                            <locus/>
-                           <p>A summary of the contents, <foreign xml:lang="syr"></foreign>, is prefixed, fol. 2a [ <bibl></bibl>.]</p>
+                           <p>A summary of the contents, <foreign xml:lang="syr">ܩ̈ܦܠܐܐ
+                                 ܕܒܪܝܬܐ</foreign>, is prefixed, fol. 2a [ <bibl>See Chrysostom,
+                                 Synopsis Scripturae Sacrae ; Opera, ed. 1834-8, t. vi. p. 373;
+                                 Migne, Patrol. Gr., t. lvi., col. 317, and Ceriani in the work
+                                 cited above, t. ii. fasc. i. p. xiii</bibl>.]</p>
                            <p>
                     <quote xml:lang="syr"/>
                   </p>
