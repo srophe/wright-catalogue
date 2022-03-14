@@ -500,53 +500,31 @@ as item()+ (: returns a sequence of a document-node() representing the updated r
 declare function mss:update-msDesc-xml-id-values($msDesc as node(), $hasMsParts as xs:boolean, $idPrefix as xs:string?)
 as item()+
 {
-  let $index := ()
-  return 
-  (: if the msDesc is made up of one or more msParts, process those as if they were msDesc nodes :)
-    if ($hasMsParts) then 
-    let $msPartsAndIndex := 
+  let $index := () 
+  (: if the msDesc has one or more msParts, process those as if they were msDesc nodes :)
+  let $msPartsAndIndex := 
+    if ($hasMsParts) then
       for $msPart at $i in $msDesc/tei:msPart
       let $partIdPrefix := if($idPrefix = "") then "p" || $i else $idPrefix || "_" || $i
       return mss:update-msDesc-xml-id-values($msPart, boolean($msPart/tei:msPart), $partIdPrefix)
   (: split out the msPart elements and the index element for the updates :)
-    let $index := $msPartsAndIndex/self::*:part
-    let $msParts := $msPartsAndIndex/self::tei:msPart
+  let $index := $msPartsAndIndex/self::*:part
+  let $msParts := $msPartsAndIndex/self::tei:msPart
     
-  (: if the node is an msPart, give it an xml:id of the form "Partx_y", depending on its level in the nest. Otherwise use the msDesc ID :)
-  let $partId := "Part"||substring-after($idPrefix, "p")
-  let $descId := if(name($msDesc) = "msPart") then attribute {"xml:id"} {$partId} else $msDesc/@xml:id
+  (: update the msItems in msContents :)
+  let $msContentsData := if($msDesc/tei:msContents/tei:msItem) then mss:update-msContents-xml-id-values($msDesc/tei:msContents, $idPrefix) else()
+  let $newMsContents := $msContentsData[1]
+  let $index := ($index, $msContentsData[position()>1]) (: index is continuously collated from each update function :)
   
-  (: if the node is an msPart, give an @n value of the form "x.y", depending on its position in the sequence and in the outline. If it is an msDesc, do not give it an @n value :)
-  let $partNumber := substring-after($idPrefix, "p")
-  let $partNumber := replace($partNumber, "_", ".")
-  let $nAttr := if(name($msDesc) = "msPart") then attribute {"n"} {$partNumber}
-  
-  (: build the updated msDesc element from the msParts and return along with the index :)
-    let $newMsDesc := element {node-name($msDesc)} {$descId, $nAttr, $msDesc/@*[not(name() = "xml:id") and not(name() = "n")],
-                                                     $msDesc/tei:msIdentifier,
-                                                     $msParts
-                                                   }
-  (: add the nested part indices to the index for this level :)
-    let $index := <part uri="{$msDesc/tei:msIdentifier/tei:idno/text()}">{$index}</part>
-    return ($newMsDesc, $index)
+  (: update the handNotes in handDesc :)
+  let $handDescData := if($msDesc/tei:physDesc/tei:handDesc[handNote]) then mss:update-handDesc-xml-id-values($msDesc/tei:physDesc/tei:handDesc, $idPrefix) else ()
+  let $newHandDesc := if($msDesc/tei:physDesc/tei:handDesc) then $handDescData[1] else $msDesc/tei:physDesc/tei:handDesc
+  let $index := ($index, $handDescData[position()>1])
     
-    (: if the node does not have nested msParts (i.e., it is an msPart itself or it is a simple msDesc), process it as normal :)
-    else
-    
-    (: update the msItems in msContents :)
-    let $msContentsData := mss:update-msContents-xml-id-values($msDesc/tei:msContents, $idPrefix)
-    let $newMsContents := $msContentsData[1]
-    let $index := ($index, $msContentsData[position()>1]) (: index is continuously collated from each update function :)
-  
-    (: update the handNotes in handDesc :)
-    let $handDescData := mss:update-handDesc-xml-id-values($msDesc/tei:physDesc/tei:handDesc, $idPrefix)
-    let $newHandDesc := $handDescData[1]
-    let $index := ($index, $handDescData[position()>1])
-    
-    (: update the decoNotes in decoDesc :)
-    let $decoDescData := if($msDesc/tei:physDesc/tei:decoDesc[decoNote]) then mss:update-decoDesc-xml-id-values($msDesc/tei:physDesc/tei:decoDesc, $idPrefix) else ()
-    let $newDecoDesc := if($msDesc/tei:physDesc/tei:decoDesc) then $decoDescData[1] else $msDesc/tei:physDesc/tei:decoDesc
-    let $index := ($index, $decoDescData[position()>1])
+  (: update the decoNotes in decoDesc :)
+  let $decoDescData := if($msDesc/tei:physDesc/tei:decoDesc[decoNote]) then mss:update-decoDesc-xml-id-values($msDesc/tei:physDesc/tei:decoDesc, $idPrefix) else ()
+  let $newDecoDesc := if($msDesc/tei:physDesc/tei:decoDesc) then $decoDescData[1] else $msDesc/tei:physDesc/tei:decoDesc
+  let $index := ($index, $decoDescData[position()>1])
   
   (: update the items in additions :)
   let $additionsData := if($msDesc/tei:physDesc/tei:additions/tei:list/tei:item) then mss:update-additions-xml-id-values($msDesc/tei:physDesc/tei:additions, $idPrefix) else()
@@ -555,7 +533,8 @@ as item()+
   
   (: build the new msDesc from updated components :)
   let $oldPhysDesc := $msDesc/tei:physDesc
-  let $newPhysDesc := element {node-name($oldPhysDesc)} {$oldPhysDesc/@*,
+  let $oldPhysAttr := if($oldPhysDesc/@*) then $oldPhysDesc/@* else ()
+  let $newPhysDesc := if($msDesc/tei:physDesc) then element {node-name($oldPhysDesc)} {$oldPhysAttr,
                                                          $oldPhysDesc/tei:objectDesc,
                                                          $newHandDesc,
                                                          $newDecoDesc,
@@ -564,7 +543,7 @@ as item()+
                                                          $oldPhysDesc/tei:bindingDesc,
                                                          $oldPhysDesc/tei:sealDesc,
                                                          $oldPhysDesc/tei:accMat}
-  let $newAdditional := msParts:add-part-designation-to-additional($msDesc/tei:additional, substring-after($idPrefix, "p"))                                                       
+  let $newAdditional := if($msDesc/tei:additional) then msParts:add-part-designation-to-additional($msDesc/tei:additional, substring-after($idPrefix, "p"))                                                       
   (: if the node is an msPart, give it an xml:id of the form "Partx_y", depending on its level in the nest. Otherwise use the msDesc ID :)
   let $partId := "Part"||substring-after($idPrefix, "p")
   let $descId := if(name($msDesc) = "msPart") then attribute {"xml:id"} {$partId} else $msDesc/@xml:id
@@ -580,7 +559,8 @@ as item()+
                                                      $newMsContents,
                                                      $newPhysDesc,
                                                      $msDesc/tei:history,
-                                                     $newAdditional
+                                                     $newAdditional,
+                                                     $msParts
                                                      }
    (: nest the update index for this part into a part-level index :)
     let $index := <part uri="{$msDesc/tei:msIdentifier/tei:idno/text()}">{$index}</part>  
