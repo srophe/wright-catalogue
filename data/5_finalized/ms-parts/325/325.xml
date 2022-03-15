@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14589</title>
+        <title level="a" xml:lang="en">BL Add MS 14589, upper text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/325</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14589</idno>
+              <idno type="BL-Shelfmark">Add MS 14589, upper text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -82,15 +83,16 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
+              <locus from="1a"/>
               <author ref="http://syriaca.org/person/573">John Chrysostom</author>
               <title xml:lang="en">Discourses of John Chrysostom</title>
               <msItem xml:id="b1" n="2" defective="true">
                 <locus from="1a"/>
                 <author ref="http://syriaca.org/person/573">John Chrysostom</author>
-                <title xml:lang="en">On the Presentation of our <persName>Lord in the
-                    Temple</persName> and on <persName>S. Simeon the Aged</persName>
+                <title xml:lang="en">On the Presentation of our Lord in the
+                    Temple and on <persName>S. Simeon the Aged</persName>
                 </title>
-                <note>imperfect at the beginning</note>
+                <note>Imperfect at the beginning.</note>
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus from="6b"/>
