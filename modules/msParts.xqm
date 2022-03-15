@@ -401,7 +401,7 @@ declare function msParts:add-part-designation-to-recordHist($recordHist as node(
   let $newSourceRef := functx:update-attributes($sourceRef,  QName("", "target"), "#"||$biblId)
   let $newSourceBibl := element {fn:node-name($sourceBibl)} {$newSourceRef}
   let $newSource := element {fn:node-name($recordHist/tei:source)} {$sourceTextBeforeBibl, $newSourceBibl, $sourceTextAfterBibl}
-  return element {fn:node-name($recordHist)} {$newSource}
+  return element {fn:node-name($recordHist)} {$newSource, $recordHist/*[not(name() = "source")]}
 };
 
 (: ------------------------------ :)
