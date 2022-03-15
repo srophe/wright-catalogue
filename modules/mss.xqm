@@ -517,13 +517,13 @@ as item()+
   let $index := ($index, $msContentsData[position()>1]) (: index is continuously collated from each update function :)
   
   (: update the handNotes in handDesc :)
-  let $handDescData := if($msDesc/tei:physDesc/tei:handDesc[handNote]) then mss:update-handDesc-xml-id-values($msDesc/tei:physDesc/tei:handDesc, $idPrefix) else ()
-  let $newHandDesc := if($msDesc/tei:physDesc/tei:handDesc) then $handDescData[1] else $msDesc/tei:physDesc/tei:handDesc
+  let $handDescData := if($msDesc/tei:physDesc/tei:handDesc[tei:handNote]) then mss:update-handDesc-xml-id-values($msDesc/tei:physDesc/tei:handDesc, $idPrefix) else ()
+  let $newHandDesc := if($msDesc/tei:physDesc/tei:handDesc[tei:handNote]) then $handDescData[1] else $msDesc/tei:physDesc/tei:handDesc
   let $index := ($index, $handDescData[position()>1])
     
   (: update the decoNotes in decoDesc :)
-  let $decoDescData := if($msDesc/tei:physDesc/tei:decoDesc[decoNote]) then mss:update-decoDesc-xml-id-values($msDesc/tei:physDesc/tei:decoDesc, $idPrefix) else ()
-  let $newDecoDesc := if($msDesc/tei:physDesc/tei:decoDesc) then $decoDescData[1] else $msDesc/tei:physDesc/tei:decoDesc
+  let $decoDescData := if($msDesc/tei:physDesc/tei:decoDesc[tei:decoNote]) then mss:update-decoDesc-xml-id-values($msDesc/tei:physDesc/tei:decoDesc, $idPrefix) else ()
+  let $newDecoDesc := if($msDesc/tei:physDesc/tei:decoDesc[tei:decoNote]) then $decoDescData[1] else $msDesc/tei:physDesc/tei:decoDesc
   let $index := ($index, $decoDescData[position()>1])
   
   (: update the items in additions :)
