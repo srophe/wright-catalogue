@@ -1,0 +1,1501 @@
+<?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="a" xml:lang="en">BL Add MS 14533</title>
+        <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
+        <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+        <funder>The National Endowment for the Humanities</funder>
+        <funder>The Andrew W. Mellon Foundation</funder>
+        <principal>David A. Michelson</principal>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</editor>
+        <respStmt>
+          <resp>Created by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</name>
+        </respStmt>
+        <respStmt>
+            <resp>Based on the work of</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
+        </respStmt>
+        <respStmt>
+            <resp>Edited by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+        </respStmt>
+        <respStmt>
+            <resp>Syriac text entered by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
+        </respStmt>
+        <respStmt>
+            <resp>Greek and coptic text entry and proofreading by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
+        </respStmt>
+        <respStmt>
+            <resp>Project management by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
+        </respStmt>
+        <respStmt>
+            <resp>English text entry and proofreading by</resp>
+            <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0"/>
+    </editionStmt>
+      <publicationStmt>
+        <authority>Syriaca.org: The Syriac Reference Portal</authority>
+        <idno type="URI">http://syriaca.org/manuscript/260/tei</idno>
+        <availability>
+            <p/>
+            <licence target="http://creativecommons.org/licenses/by/3.0/">
+                <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
+            </licence>
+        </availability>
+        <date calendar="Gregorian">2022-03-16-05:00</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="manuscript-260">
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <repository>British Library</repository>
+            <collection>Oriental Manuscripts</collection>
+            <idno type="URI">http://syriaca.org/manuscript/260</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">Add MS 14533</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Arabic">859</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Roman">DCCCLIX</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary/>
+            <textLang mainLang="syr"/>
+            <msItem xml:id="a1" n="1">
+              <title xml:lang="en">A large Collection of Demonstrations from the Fathers
+                against various Heresies</title>
+              <note>in part identical with the contents of <bibl>Add. 12,155 and Add.
+                14,532</bibl>
+              </note>
+              <msItem xml:id="b1" n="2" defective="true">
+                <locus from="1a"/>
+                <title xml:lang="en">A treatise against several heresies, more especially those
+                of <persName ref="http://syriaca.org/person/655">Nestorius</persName>, <persName>Leo</persName>, <persName>Diodorus
+                  Theodore of Mopsuestia</persName>, and <persName ref="http://syriaca.org/person/781">Theodoret</persName>
+                </title>
+                <note>imperfect at the beginning and in several other places</note>
+                <note>The following writers are cited: <p>
+                    <persName>Alexander of Mabūg</persName>:
+                    <title xml:lang="en">letter to <persName ref="http://syriaca.org/person/1557">Acacius of
+                      Aleppo</persName>
+                    </title>, <locus>fol. 14 a</locus>; <title xml:lang="en">letter to
+                      <persName ref="http://syriaca.org/person/1812">John of
+                    Antioch</persName>
+                    </title>, <locus>fol. 15 b</locus>.</p>
+                <p>
+                    <persName>Andrew of Samosata</persName>: <title xml:lang="en">letter to <persName>Rabūlas of
+                      Edessa</persName>
+                    </title>. <locus>Fol. 13 b</locus>.</p>
+                <p>
+                    <persName>Athanasius</persName>: <quote xml:lang="syr">ܟܬܒܐ ܕܐܪܒܥܐ ܕܠܘܩܒܠ
+                    ܐܪ̈ܝܢܘ</quote>. <locus>Fol. 11 a</locus>.</p>
+                <p>The Council of <placeName ref="http://syriaca.org/place/622">Chalcedon</placeName>. <locus>Foll. 13 a</locus>, <locus>14 a</locus>,
+                    <locus>15 b</locus>, <locus>16 a</locus>, <locus>18 b</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/430">Cyril</persName>: <title xml:lang="en">comment. on the Gospel of S. John</title>, <locus>fol. 4
+                        b</locus>; <title xml:lang="en">on <ref target="http://syriaca.org/work/9607">the Epistle to the
+                      Hebrews</ref>
+                    </title>, <locus>fol. 8 b</locus>; <quote xml:lang="syr">ܕܚܕ ܗܘ
+                      ܡܫܝܚܐ</quote>, <locus>foll. 4 a</locus> and <locus>b</locus>, <locus>6
+                      b</locus>, <locus>12 b</locus>, <locus>15 a</locus>; <quote xml:lang="syr">ܡܢ
+                      ܡܐܡܪܐ ܕܠܘܩܒܠ ܒܐ̈ܠܝ ܟܝ̈ܢܐ</quote>, <locus>fol. 4 b</locus>; <title xml:lang="en">against <persName ref="http://syriaca.org/person/655">Nestorius</persName>
+                    </title>, <locus>foll. 9 a</locus>, <locus>12
+                    b</locus>, <locus>14 b</locus>, <locus>16 b</locus>, <locus>17 a</locus> and
+                      <locus>b</locus>, <locus>19 a</locus>; <title xml:lang="en">against
+                        <persName>Andrew</persName>
+                    </title>, <locus>fol. 15 a</locus>; <title xml:lang="en">against <persName>Diodorus</persName>
+                    </title>, <locus>fol. 7
+                      a</locus>; <title xml:lang="en">against <persName>Theodore</persName>
+                    </title>,
+                      <locus>foll, 7 b</locus>, <locus>12 b</locus>; <title xml:lang="en">against
+                        <persName ref="http://syriaca.org/person/781">Theodoret</persName>
+                    </title>,
+                      <locus>foll. 1 a</locus>, <locus>2 b</locus>, <locus>5 b</locus>, <locus>17
+                      b</locus>; <title xml:lang="en">letters to
+                      <persName>Succensus</persName>
+                    </title>, <locus>foll. 15 a</locus>, <locus>16
+                      b</locus>; <title xml:lang="en">letter to <persName>Acacius of
+                        Melitene</persName>
+                    </title>, <locus>foll. 13 a</locus>, <locus>17 a</locus>
+                    and <locus>b</locus>; <title xml:lang="en">to
+                      <persName>Eulogius</persName>
+                    </title>, <locus>fol. 19 a</locus>; <title xml:lang="en">third letter to <persName ref="http://syriaca.org/person/655">Nestorius</persName>
+                    </title>, <locus>fol. 5 b</locus>.</p>
+                <p>
+                    <persName>Diodorus</persName>. <locus>Foll. 5 a</locus>, <locus>11 a</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/2444">Dorotheus of
+                    Marcianopolis</persName>. <locus>Fol. 12 a</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/511">Gregory Nazianzen</persName>:
+                    <quote xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܬܠܬܐ ܡܫܝܢܢܐ</quote>, <locus>fol. 11 b</locus>;
+                    <quote xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܬܪ̈ܝܢ ܕܥܠ ܒܪܐ</quote>, <locus>fol. 17
+                  b</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/513">Gregory Thaumaturgus</persName>:
+                    <quote xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܥܠ ܡܬܒܣܪܢܘܬܐ</quote>
+                  <locus>Fol. 11 b</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/2163">Julius of Rome</persName>: <quote xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܡܛܠ ܚܕܝܘܬܐ ܕܒܡܫܝܚܐ: ܗܢܘ ܕܝܢ ܕܦܓܪܐ ܨܝܕ ܐܠܗܘܬܗ
+                    ܕܡܠܬܐ</quote>.. <locus>Fol. 14 b</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/2299">Leo of Rome</persName>.
+                    <locus>Foll. 1 b</locus>, <locus>3 a</locus> and <locus>b</locus>, <locus>6
+                    b</locus>, <locus>7 a</locus>, <locus>8 a</locus>, <locus>11 a</locus>,
+                    <locus>12 a</locus> and <locus>b</locus>, <locus>18 a</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/655">Nestorius</persName>: fol. 7;
+                    <quote xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܪܫܝܡ ܥܠܘܗܝ ܐܬܕܡ̣ܝܬ ܡܠܟܘܬܐ ܕܫܡܝܐ: ܠܓܒܪܐ ܡ̇ܠܟܐ
+                    ܕܥܒ̣ܕ ܡܫܬܘܬܐ ܠܒܪܗ ܘܕܫܪܟܐ</quote>, <locus>foll. 3 a</locus>, <locus>19 a</locus>;
+                    <quote xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܡܛܠ ܒܝܬ ܝܠܕܐ</quote>, <locus>fol. 3 a</locus>;
+                    <quote xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܪܫܝܡ ܥܠܘܗܝ: ܝܠ̣ܕܐ ܘܐܬܝܠܕ ܠܢ: ܒ̣ܪܐ ܘܐܬܝ̣ܗܒ
+                    ܠܢ</quote>, <locus>foll. 3 b</locus>, <locus>12 a</locus>; <quote xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܠܘܩܒܠ ܡܚ̈ܫܝ ܐܠܗܘܬܐ</quote>, <locus>foll. 4 a</locus>, <locus>12
+                    a</locus>; <quote xml:lang="syr">ܡܢ ܬܘܪܓܡܐ ܕܪܫܝܡ ܥܠܘܗܝ ܫܘܪܝܐ ܕܕܘܓܡܐ</quote>,
+                    <locus>fol. 12 a</locus>; <quote xml:lang="syr">ܡܢ ܬܘܪܓܡܐ ܕܥܠ ܗ̇ܝ ܕܐܢܐ ܡܢ ܨܒܘܬ
+                    ܢܦܫܝ̣ ܠܐ ܡܠܠܬ ܘܕܫܪܟܐ</quote>., <locus>fol. 12 a</locus>; <quote xml:lang="syr">ܡܢ ܗܘܦܡ̈ܢܡܛܐ ܕܒܕܝܢ ܠܗ ܒܐܦܣܘܣ</quote>, <locus>fol. 14 b</locus>; <quote xml:lang="syr">ܡܢ ܡܐܡܪܐ ܗ̇ܘ ܕܪܫܝܡ ܥܠܘܗܝ ܡܛܠ ܗܝܡܢܘܬܐ ܐܘ ܣܝ̇ܡܐ ܕܗܝܡܢܘܬܐ</quote>,
+                    <locus>fol. 14 b</locus>; <quote xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܝܠܘܓܘܣ ܕܠܘܩܒܠ
+                    ܩܝܘܪ̈ܠܝܢܘ</quote>, <locus>foll. 14 b</locus>, <locus>19 a</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/780">Theodore of Mopsuestia</persName>.
+                    <locus>Fol. 12 b</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/781">Theodoret</persName>: <locus>foll.
+                    1 a</locus> and <locus>b</locus>, <locus>7 b</locus>; <title xml:lang="en">comment. on the Psalms</title>, <locus>foll. 1 b</locus>, <locus>2 a</locus>;
+                    <quote xml:lang="syr">ܡܢ ܥܘܿܕܠܐ ܕܒܚܪܡܐ ܕܬܠܬܐ ܕܩܘܪܝܠܘܣ</quote>, <locus>fol. 7
+                    a</locus>; <quote xml:lang="syr">ܡܢ ܡܐܡܪܐ ܗ̇ܘ ܕܡܛܠ ܡܬܒܪܢܫܢܘܬܗ ܕܡܪܝܐ</quote>,
+                    <locus>fol. 18 b</locus>; <quote xml:lang="syr">ܡܢ ܐܓܪܬܐ ܕܨܝܕ ܬܐܘܣܒ ܐܦܣܩܘܦܐ
+                    ܕܟܝܘܣ.</quote>, <locus>fol. 14 a</locus>.</p>
+                </note>
+              </msItem>
+              <msItem xml:id="b2" n="3">
+                <locus from="19b"/>
+                <title xml:lang="en">A Collection of demonstrations regarding the Union of the
+                two Natures in <persName ref="http://syriaca.org/person/2245">Christ</persName>, and other topics</title>
+                <note>From chap. ܐ to chap. ܦܗ (fol. 37 a), these demonstrations are almost identical
+                with those contained in Add. 14,532, foll. 1 b— 21 b (chapp. ܐ to ܦܕ),
+                and, therefore, only the additional citations furnished by this manuscript are noted
+                here</note>
+                <note>
+                  <p>
+                    <persName>Athanasius</persName>: <quote xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܥܠ ܗܝܡܢܘܬܐ</quote>, <locus>fol. 25 b</locus>;
+                <quote xml:lang="syr">ܡܢ ܣܝܡ̇ܐ ܕܡܛܠ ܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ̣. ܘܡܛܠ ܡܬܒܪܢܫܢܘܬܗ ܕܡܠܬܐ. ܘܠܘܩܒܠ
+                    ܐܦܘܠܘܢܝܪ̈ܣܛܐ.</quote>, <locus>foll. 25 b</locus>, <locus>26 b</locus>; letter to
+                    <persName ref="https://syriaca.org/person/2549">Adelphius</persName> (ܐܕܠܦ),
+                <locus>fol. 26 b</locus>.</p>
+                  <p>
+                    <persName ref="http://syriaca.org/person/573">Chrysostom</persName>: <title xml:lang="en">comment on the
+                  Epistle to the Philippians</title>, <locus>fol. 26 a</locus>; <title xml:lang="en">to the
+                    Hebrews</title>, <locus>fol. 26 a</locus>.</p>
+                <p>The Council of <placeName ref="http://syriaca.org/place/10">Antioch</placeName>.
+                    <locus>Foll. 25 b</locus>, <locus>26 a</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/430">Cyril</persName>: <quote xml:lang="syr">ܡܢ ܡܦ̣ܩ
+                    ܒܪܘܚܐ ܕܚܪ̈ܡܐ ܕܨܝܕ ܥܘ̈ܕܠܘܗܝ ܕܬܐܕܘܪܝܛܐ</quote>, <locus>fol. 25 b</locus>;
+                  <quote xml:lang="syr">ܡܢ ܣܟܘܠܝܘܢ ܏ ܕ܏ܝܓ</quote>, <locus>fol. 26 a</locus>; <quote xml:lang="syr">ܡܢ ܦܘܫܩܐ
+                    ܕܚܪܡܐ ܕܬܠܬܐ</quote>, <locus>fol. 32 b</locus>; <quote xml:lang="syr">ܡܢ ܦܪܘܣܦܘܢܛܝܩܘܢ ܕܠܘܬ
+                      ܬܐܕܘܣܝܣ ܡ̇ܠܟܐ.</quote>, <locus>fol. 32 b</locus>; <quote xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܠܘܬ
+                        ܕܝܕܘܪܘܣ</quote>, <locus>fol. 32 b</locus>.</p>
+                  <p>
+                    <persName ref="http://syriaca.org/person/452">Dionysius the Areopagite</persName>: <quote xml:lang="syr">ܡܢ
+                    ܡܐܡܪܐ ܕܡܛܠ ܟܘ̈ܢܝܐ ܐ̈ܠܗܝܐ.</quote>. <locus>Fol. 25 b</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/511">Gregory Nazianzen</persName>:
+                  <title xml:lang="en">first epistle to <persName>Cledonius</persName>
+                    </title>. <locus>Fol. 26
+                    a</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/2299">Leo of Rome</persName>.
+                    <locus>Fol. 36 a</locus> and <locus>b</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/51">Severus</persName>: <title xml:lang="en">against
+                  <persName ref="http://syriaca.org/person/2688">Joannes Grammaticus</persName>
+                    </title>, <locus>foll. 23 b</locus>,
+                    <locus>24 a</locus> and <locus>b</locus>, <locus>25 a</locus>, <locus>33
+                    a</locus> and <locus>b</locus>, <locus>34 a</locus> and <locus>b</locus>;
+                  <title xml:lang="en">apology for the <persName>Philalethes</persName>
+                    </title>, <locus>fol. 33
+                    a</locus>; <quote xml:lang="syr">ܡܢ ܫ̇ܪܝܐ ܕܡܦ̣ܩ ܒܪܘܚܐ ܢܟܝܠܐ ܕܝܘܠܝܢܐ ܕܠܘܩܒܠ ܡ̈ܢܝܢܝܐ</quote>,
+                  <locus>fol. 33 a</locus>; <quote xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܬܪ̈ܝܢ ܕܠܘܬ ܢܦܠܐܘܣ</quote>,
+                  <locus>fol. 34 a</locus>; <quote xml:lang="syr">ܡܢ ܫ̇ܪܝܐ ܕܫܘܐܠܐ ܕܬܪ̈ܝܢ ܕܦܘܩܐ ܢܣܛܘܪܝܢܐ</quote>,
+                  <locus>fol. 24 a</locus>; <title xml:lang="en">letters to <persName>Maro the
+                    Lector</persName>
+                    </title>, <quote xml:lang="syr">ܡܪܘܢ ܩ̇ܪܘܝܐ.</quote>, <locus>foll. 25
+                      a</locus>, <locus>26 a</locus>; <title xml:lang="en">letter to <persName ref="https://syriaca.org/person/2567">Eleusinius</persName>
+                    </title>,
+                  <locus>fol. 25 a</locus>; <title xml:lang="en">to the people of
+                    <placeName>Emesa</placeName>
+                    </title>, <quote xml:lang="syr">ܕܠܘܬ ܚ̈ܡ̣ܨܝܐ</quote>, <locus>fol.
+                  32 b</locus>; <title xml:lang="en">to <persName ref="https://syriaca.org/person/2770">Thomas his syncellus</persName>
+                    </title>, <locus>fol. 33 a</locus>; <title xml:lang="en">to
+                        <persName>Isaac Scholasticus</persName>
+                    </title>, <locus>fol. 36 a</locus>;
+                    <quote xml:lang="syr">ܡܢ ܐܓܪܬܐ ܕܠܘܬ ܕܝܪ̈ܝܐ ܕܒܛܘܦܐ.</quote>, <locus>fol. 34 a</locus>.</p>
+                </note>
+                <msItem xml:id="c1" n="4">
+                  <locus from="19b"/>
+                  <title xml:lang="en">The commencing section</title>
+                  <rubric xml:lang="syr">ܬܘܒ̣ ܟܘܢܫܐ ܐܚܪܢܐ. ܕܡܢܐ ܗܘ ܫܘܚܠܦܐ ܕܒܫܘܘܕܥܐ ܟܝܢܝܐ ܕܗܠܝܢ ܕܡܢܗܝܢ
+                  ܡܫܝܚܐ܀</rubric>
+                </msItem>
+                <msItem xml:id="c2" n="5">
+                  <locus to="39b" from="37a"/>
+                  <title xml:lang="en">chap. ܦܘ to chap. ܨܓ</title>
+                  <note>From chap. ܦܘ (fol. 37 a) to chap. ܨܓ (fol. 39 b), we find the same
+                demonstrations as in <bibl>Add. 14,532, foll. 133 b</bibl> (chap. ܪܨܛ)—140 b (chap.
+                ܫܙ)</note>
+                </msItem>
+                <msItem xml:id="c3" n="6">
+                  <locus to="48a" from="39b"/>
+                  <title xml:lang="en">chap. ܨܓ to chap. ܩܝܛ</title>
+                  <note>From chap. ܨܓ (fol. 39 b) to chap. ܩܝܛ (fol. 48 a), the contents are identical
+                with those of <bibl>Add. 12,155, foll. 54 a</bibl> (chap. ܪܝܚ)—61 a (chap.
+                ܪܡܕ).</note>
+                </msItem>
+                <msItem xml:id="c4" n="7">
+                  <author ref="http://syriaca.org/person/44">Philoxenus of Mabūg</author>
+                  <title xml:lang="en">Chap. ܩܟ</title>
+                  <title>extracts from two letters of <persName>Philoxenus of
+                  Mabūg</persName>
+                  </title>
+                  <msItem xml:id="d1" n="8">
+                    <locus from="48b"/>
+                    <author ref="http://syriaca.org/person/44">Philoxenus of Mabūg</author>
+                    <title xml:lang="en">The first extract</title>
+                    <rubric xml:lang="syr">ܡܢ ܐܓܪܬܐ ܕܟܬ̣ܒ ܡܛܠ ܦܘܪ̈ܢܣܐ ܥܕܬܢ̈ܝܐ̇. ܠܫܡܥܘܢ ܪܝܫܕܝܪܐ ܕܬܠܥܕܐ̇.
+                  ܡܢ ܦܝܠܝܦܘܦܘܠܝܣ ܕܬܪܩܐ ܐܟܣܘܪܝܐ (sic) ܕܬܪ̈ܬܝܢ</rubric>
+                  </msItem>
+                  <msItem xml:id="d2" n="9">
+                    <locus from="50a"/>
+                    <author ref="http://syriaca.org/person/44">Philoxenus of Mabūg</author>
+                    <title xml:lang="en">The second extract</title>
+                    <rubric xml:lang="syr">ܡܢ ܐܓܪܬܐ ܐܚܪܬܐ ܕܥܒܝܕܐ ܠܗ ܥܠܘܗܝ ܟܕ ܥܠܘܗܝ ܕܫܪܒܐ ܕܡܕܒܪܢܘܬܐ̇.
+                  ܡܢܗ̇ ܕܝܠܗ̇ ܕܐܟܣܘܪܝܐ ܗ̇ܝ ܕܒܬܪܩܐ̇. ܠܘܬ ܟܠܗܘܢ ܕܝܪ̈ܝܐ ܐܪ̈ܬܕܘܟܣܘ ܕܐܝܬ ܒܡܕܢܚܐ.</rubric>
+                  </msItem>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b3" n="10" defective="true">
+                <locus from="52a"/>
+                <title xml:lang="en">A collection of Demonstrations against the
+                Julianists</title>
+                <note>It is imperfect, as a whole quire is wanting after fol. 72</note>
+                <note>The contents arc identical with <bibl>Add. 12,155, foll. 62 b—80 b</bibl>, and
+                  <bibl>Add. 14,532, foll. 36 a—79 a</bibl>
+                </note>
+              </msItem>
+              <msItem xml:id="b4" n="11">
+                <locus from="73a"/>
+                <title xml:lang="en">Various theological chapters</title>
+                <note>See <bibl>Add. 14,532, foll. 94 b (chap. ܪܠܙ)—133 b (chap. ܪܨܚ)</bibl>
+                </note>
+                <note>The contents of the leaf that is missing in <bibl>Add. 14,532, after fol.
+                  118</bibl>, are quotations from: <p>
+                    <persName ref="http://syriaca.org/person/376">Basil</persName>: <quote xml:lang="syr">ܡܢ ܐܓܪܬܐ ܗ̇ܝ ܕܠܘܬ ܐܚܘܗܝ ܕܡܛܠ ܐܘܣܝܐ ܘܩܢܘܡܐ</quote> and
+                    <quote xml:lang="syr">ܡܢ ܐܓܪܬܐ ܕܠܘܬ ܦܠܘ̈ܛܐܘܡܢܘ ܕܢܐܘܩܣܪܝܐ</quote>. <locus>Fol. 83 a</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/430">Cyril</persName>: <title xml:lang="en">the
+                    Thesaurus</title>. <locus>Fol. 83 b</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/511">Gregory Nazianzen</persName>:
+                  <quote xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܥܠ ܢܘ̈ܗܪܐ</quote>. <locus>Fol. 83 a</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/512">Gregory Nyssen</persName>:
+                  <quote xml:lang="syr">ܡܢ ܡܐܡܪܐ ܩܕܡܝܐ ܕܠܘܩܒܠ ܐܘܢܡܝܘܣ</quote>, and <quote xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܠܘܩܒܠ ܣܝ̣ܡܐ
+                    ܓܘ̇ܢܐ</quote>. <locus>Fol. 83 a</locus>.</p>
+                </note>
+                <note>The rest of the volume, foll. 89 b—189 b, consists of a variety of miscellaneous
+                chapters, mostly shorter than the preceding</note>
+                <msItem xml:id="c5" n="12">
+                  <locus from="73a"/>
+                  <title xml:lang="en">The commencing section</title>
+                  <rubric xml:lang="syr">ܬܚ̈ܘܝܬܐ ܕܐܒ̈ܗܬܐ ܩܕܝ̈ܫܐ ܕܡ̇ܠܦܝ̣ܢ. ܕܐܘܣܝܐ ܘܟܝܢܐ ܕܬܠܝܬܝܘܬܐ
+                  ܩܕܝܫܬܐ ܐܘ ܟܝܬ ܐܠܗܘܬܐ̣. ܬ̈ܠܬܐ ܩ̈ܢܘܡܐ ܕܐܒܐ ܘܕܒܪܐ ܘܕܪܘܚܐ ܩܕܝܫܐ ܐܝܬܝܗ̣̇. ܘܠܘ ܡܕܡ ܐܚܪܢܐ
+                  ܐܘܣܝܐ ܐܘ ܟܝܬ ܐܠܗܘܬܐ̇ ܘܡܕܡ ܐܚܪܢܐ ܩܢܘ̈ܡܐ</rubric>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b5" n="13">
+                <locus from="89b"/>
+                <title xml:lang="en">Questions of the Tritheists, with replies</title>
+                <rubric xml:lang="syr">ܫܪܝܐ ܕܫܘܐ̈ܠܐ ܐܝܠܝܢ ܕܥܫܘܩܐܝܬ ܐܬܟܬܒܘ ܡܢ ܐܢܫ ܡܢ ܐܝܠܝܢ ܕܢܦܠܘ
+                ܒܗܪܣܝܣ: ܗ̇ܝ ܕܠܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ ܘܫܘܝܬ ܟܝܢܐ̇. ܕܣܓܝܐܘܬ ܐܘ̈ܣܝܣ ܘܟܝ̈ܢܐ ܡܘܕܝܢ ܕܐܝܬܝܗ̇ ܝܠܕܐ
+                ܕܣܓܝܐܘܬ ܐܠܗܘ̈ܬܐ ܕܚܢ̈ܦܐ</rubric>
+                <finalRubric xml:lang="syr">ܫܠܡܘ ܫܘܐ̈ܠܐ ܕܛܪ̈ܝܬܝܛܐ̣ ܘܫܪܝܗܘܢ<locus from="98b"/>
+                </finalRubric>
+                <note>The authorities cited in this tract are: <p>
+                    <persName>Athanasius</persName>:
+                <quote xml:lang="syr">ܥܠ ܕܢܚܐ ܦܪܘܩܝܐ</quote>, <locus>fol. 91 a</locus>; <quote xml:lang="syr">ܒܡܐܡܪܐ ܕܥܠ
+                    ܬܠܝܬܝܘܬܐ</quote>, <locus>fol. 92 a</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/376">Basil</persName>: <quote xml:lang="syr">ܒܐܓܪܬܐ
+                  ܕܠܘܬ ܐܡܦܝܠܘܟܝܘܣ</quote>, <locus>fol. 89 b</locus>; <quote xml:lang="syr">ܒܐܓܪܬܐ ܕܠܘܬ ܒܪܬ
+                    ܩܝܡܐ</quote>, <locus>fol. 91 b</locus>; <quote xml:lang="syr">ܒܐܓܪܬܐ ܕܠܘܬ ܓܪܝܓܘܪܝܘܣ
+                    ܐܚܘܗܝ</quote>, <locus>fol. 97 a</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/573">Chrysostom</persName>:
+                    <title xml:lang="en">comment. on the Gospel of S. John</title>, <locus>fol. 90 a</locus>;
+                  <title xml:lang="en">on the Epistle to the Philippians</title>, <locus>fol. 91 b</locus>;
+                  <quote xml:lang="syr">ܒܗܠܝܢ ܕܠܘܬ ܗܪܩܠܛܝܣ</quote>. <locus>Fol. 92 a</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/430">Cyril</persName>:
+                  <title xml:lang="en">Thesaurus</title>. <locus>Fol. 92 b</locus>.</p>
+                <p>
+                    <persName>Epiphanius</persName>:<title xml:lang="en">
+                    Ancoratus</title>. <locus>Fol. 89 b</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/511">Gregory Nazianzen</persName>:
+                  <quote xml:lang="syr">ܒܡܐܡܪܐ ܕܥܠ ܐܬܢܣܝܘܣ</quote>. <locus>Fol. 90 b</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/2688">Joannes Grammaticus</persName>:
+                  <quote xml:lang="syr">ܓܪܡܛܝܩܘܣ ܒܟܬܒܗ: ܐܒܘܟ ܓܪܡܛܝܩܘܣ, ܡܠܦܢܟܘܢ ܕܚܠܦ ܗܪܣܝܣ ܕܝܠܟܘܢ: ܒܡܐܡܪܐ
+                    ܩܕܡܝܐ</quote>. <locus>Foll. 90 a</locus>, <locus>91 b</locus>, <locus>92
+                    b</locus>, <locus>96 b</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/44">Philoxenus</persName>: <quote xml:lang="syr">ܒܡܐܡܪܐ
+                    ܕܬܪ̈ܝܢ ܕܡܪܬܝܢܘܬܐ</quote>.. <locus>Fol. 92 a</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/51">Severus</persName>: <title xml:lang="en">against
+                      <persName ref="http://syriaca.org/person/2688">Joannes
+                    Grammaticus</persName>
+                    </title>, <locus>foll. 89 b</locus>, <locus>90 a</locus>
+                  and <locus>b</locus>, <locus>91 a</locus>; <quote xml:lang="syr">ܒܡܐܡܪܐ ܕܬܪ̈ܝܢ ܕܠܘܬ
+                    ܢܦܠܝܘܣ</quote>, <locus>fol. 90 b</locus>; <quote xml:lang="syr">ܒܐܓܪܬܐ ܕܬܪ̈ܬܝܢ ܕܠܘܬ ܢܟܦܐ ܣܪܓܝܣ
+                    ܓܪܡܛܝܩܣ</quote>, <locus>fol. 91 a</locus>.</p>
+                </note>
+              </msItem>
+              <msItem xml:id="b6" n="14">
+                <locus from="98b"/>
+                <title xml:lang="en">On the citations made by the Tritheists from the
+                Fathers</title>
+                <rubric xml:lang="syr">ܥܠ ܗ̇ܝ ܕܡܟܢܫܝܢ ܛܪ̈ܝܬܝܛܐ ܬܚ̈ܘܝܬܐ ܡܢ ܐܒܗ̈ܬܐ ܩ̈ܕܝܫܐ̇. ܕܗܐ ܠܡ ܗ̣ܢܘܢ
+                ܐܡܪܝܢ ܐܘ̈ܣܝܣ ܘܟܝ̈ܢܐ.</rubric>
+                <note>Here is cited <p>
+                    <persName ref="http://syriaca.org/person/51">Severus</persName>, <quote xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܬܪ̈ܝܢ ܕܠܘܬ
+                    ܢܦܠܐܝܣ</quote>, <locus>fol. 100 a</locus>.</p>
+                </note>
+              </msItem>
+              <msItem xml:id="b7" n="15">
+                <locus from="100b"/>
+                <title xml:lang="en">Questions against the Tritheists</title>
+                <rubric xml:lang="syr">ܫܘܐ̈ܠܐ̣ ܕܠܘܩܒܠ ܛܪ̈ܝܬܝܛܐ</rubric>
+              </msItem>
+              <msItem xml:id="b8" n="16">
+                <locus from="101a"/>
+                <author>Thomas, of the convent of Mār Bassus</author>
+                <title xml:lang="en">Questions proposed to <persName ref="http://syriaca.org/person/2688">Joannes
+                  Grammaticus</persName> by <persName>Thomas, of the convent of Mār
+                    Bassus</persName>, when he was at <placeName ref="http://syriaca.org/place/572">Alexandria</placeName>
+                </title>
+                <rubric xml:lang="syr">ܫܘܐ̈ܠܐ ܕܗܘ̣ܘ ܡܢ ܬܐܘܡܐ ܕܥܡ̣ܪ ܒܝܬ ܡܪܝ ܒܣ܆ ܟܕ ܗ̣ܘ ܒܐܠܟܣܢܕܪܝܐ̣ ܠܘܬ
+                ܝܘܚܢܢ ܓܪܡܛܝܩܣ.</rubric>
+              </msItem>
+              <msItem xml:id="b9" n="17">
+                <locus from="102a"/>
+                <title xml:lang="en">A section entitled ܢܘܗܪܐ ܕܕܝ̈ܠܝܬܐ</title>
+                <note>See <bibl>Add. 12,155, fol. 129 a</bibl>
+                </note>
+              </msItem>
+              <msItem xml:id="b10" n="18">
+                <locus from="102b"/>
+                <title xml:lang="en">Against the Diphysites</title>
+                <rubric xml:lang="syr">ܡܟܣܢܘܬܐ ܕܬܪ̈ܝܝ ܟܝ̈ܢܝܐ̣. ܡܢ ܫܪܒܐ ܕܥܠ ܟܘܠܝܬܐ ܘܡܢ̈ܘܬܐ</rubric>
+              </msItem>
+              <msItem xml:id="b11" n="19">
+                <locus from="103a"/>
+                <title xml:lang="en">Extracts made by a heretic from the writings of
+                <persName ref="http://syriaca.org/person/51">Severus</persName> against <persName>Julian</persName>, with questions
+                founded on them, and the replies of <persName ref="http://syriaca.org/person/51">Severus</persName>
+                </title>
+                <rubric xml:lang="syr">ܦܬ̈ܓܡܐ ܐܝܠܝܢ ܕܢܬ̣ܫ ܐܢܫ ܗܪܛܝܩܐ̇. ܡܢ ܐܝܠܝܢ ܕܡܟ̈ܬܒܢ ܠܩܕܝܫܐ ܣܐܘܪܐ
+                ܠܘܬ ܝܘܠܝܢܐ̣. ܘܩ̇ܕܡ ܣܡ ܐܢܘܢ̣ ܘܒܬܪܟܢ ܣܡ ܬܒ̈ܥܬܐ ܬܠܬ݂ ܟܕ ܠܐ ܐܘܕܥ ܫܡܗ. ܐ̈ܬܝ ܕܝܢ ܠܐܝ̈ܕܘܗܝ
+                ܕܝܠܗ ܕܚܣܝܐ ܣܐܘܪܐ̣ ܘܥܒ̣ܕ ܠܗܝܢ ܫܪܝܐ. ܣܡܢܢ ܕܝܢ ܗܢ̣ܘܢ ܦܬܓܡ̈ܐ ܕܢܬ̣ܫ ܗ̇ܘ ܕܠܩܘܒܠܐ̣. ܘܬܒ̈ܥܬܐ
+                ܕܟܠܗܘܢ̣ ܘܫܪ̈ܝܗܝܢ. ܘܠܡܦܩ ܒܪܘܚܐ ܕܥܒ̣ܕ ܠܗܠܝܢ ܕܝܠܗ</rubric>
+                <note>Here are cited: <p>
+                    <persName>Athanasius</persName>: <quote xml:lang="syr">ܒܡܐܡܪܐ ܕܡܛܠ ܕܢܚܗ
+                    ܦܓܪܢܝܐ ܕܡܫܝܚܐ</quote>. <locus>Fol. 104 b</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/376">Basil</persName>: <quote xml:lang="syr">ܒܐܓܪܬܐ ܗ̇ܝ
+                  ܕܠܘܬ ܐܡܦܝܠܘܟܝܣ ܕܡܛܠ ܪܘܚܐ ܩܕܝܫܐ</quote>, and <quote xml:lang="syr">ܒܡܐܡܪܐ ܕܬܪ̈ܝܢ ܕܠܘܩܒܠ
+                    ܐܘܢܡܝܘܣ</quote>. <locus>Fol. 105 a</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/573">John Chrysostom</persName>:
+                    <title xml:lang="en">on 1st Corinthians</title>. <locus>Fol. 103 b</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/430">Cyril</persName>: <title xml:lang="en">on lst
+                  Corinthians</title>, <locus>fol. 103 b</locus>; <quote xml:lang="syr">ܒܛܘܡܣܐ ܕܬܠܬܐ ܕܠܘܩܒܠ
+                    ܓܘ̈ܕܦܘܗܝ ܕܢܣܛܘܪܝܣ</quote>, <locus>fol. 104 a</locus>; <title xml:lang="en">against
+                      <persName>Andrew of Samosata</persName>
+                    </title>, <locus>fol. 104 b</locus>;
+                  <quote xml:lang="syr">ܒܡܟܬܒܢܘܬܐ ܕܠܘܬ ܐܪܡܝܐ</quote>., <locus>fol. 105 a</locus>; <title xml:lang="en">first
+                    letter to <persName>Succensus</persName>
+                    </title>, <locus>fol. 105 b</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/512">Gregory Nyssen</persName>:
+                  <title xml:lang="en">against <persName>Eunomius</persName>
+                    </title>. <locus>Fol. 104
+                  a</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/2507">Theophilus of
+                  Alexandria</persName>: <quote xml:lang="syr">ܒܐܓܪܬܐ ܕܫܬ ܥܐܕܢܝܬܐ</quote>. <locus>Fol. 104
+                    a</locus>.</p>
+                </note>
+              </msItem>
+              <msItem xml:id="b12" n="20">
+                <locus from="105b"/>
+                <author ref="http://syriaca.org/person/51">Severus</author>
+                <title xml:lang="en">Prosphonesis, or Allocution, of
+                  <persName>Severus</persName> to the orthodox abbats and monks of the East</title>
+                <rubric xml:lang="syr">ܦܪܘܣܦܘܢܣܝܣ ܕܗܘ̣ܬ ܠܘܬ ܕܚ̈ܠܝ ܠܐܠܗܐ ܪ̈ܝܫܝ ܕܝܪ̈ܬܐ ܘܫܪܟܐ ܕܕܝܪ̈ܝܐ
+                ܐܪ̈ܬܕܘܟܣܘ ܕܦܘܪܢܣܐ ܡܕܢܚܝܐ̣. ܡܢ ܣܐܘܪܐ ܦܛܪܝܪܟܐ ܘܪܫܐ ܕܐ̈ܦܣܩܦܐ ܕܐܢܛܝܘܟܝܐ. ܩܕܡ ܪ̈ܫܢܐ ܘܥܡܐ̣
+                ܘܕܝܪ̈ܝܐ. </rubric>
+                <note>It is signed by <persName ref="http://syriaca.org/person/51">Severus</persName>, <persName ref="http://syriaca.org/person/44">Philoxenus of
+                Mabūg</persName>, <persName>Nicias of Laodicca</persName>, <persName ref="https://syriaca.org/person/2699">Marinus of
+                  Berytus</persName>, <persName>Peter of Aleppo</persName>, <persName>Simeon of
+                    Kinnesrīn</persName>, <persName>Sergius of Cyrus</persName>, <persName ref="https://syriaca.org/person/2574">Philoxenus
+                  of Dulichium (ܕܠܘܟܝܢ)</persName>, <persName>Eusebius of Gabula</persName>,
+                  <persName>Eustathius of Perrhe (ܦܐܪܝܢ)</persName>, <persName>Julian of Salamia
+                    (ܣܠܡܝܐ)</persName>, <persName ref="http://syriaca.org/person/748">Silvanus (ܣܠܘܢܐ) of Urima (ܐܘܪܡ)</persName>,
+                <persName ref="https://syriaca.org/person/2407">Marion of Shūra (ܫܘܪܐ)</persName>, and <persName>John of ܐܓܪܘܦܘܣ.
+                  (Europus?)</persName>
+                </note>
+              </msItem>
+              <msItem xml:id="b13" n="21">
+                <title xml:lang="en">Questions addressed to the followers of <persName ref="http://syriaca.org/person/831">Joannes
+                  Barbūr</persName> and <persName>Probus</persName>
+              </title>
+                <note>see <bibl>Assemani, Bibl. Or., t. ii., pp. 72, seqq.</bibl>
+                </note>
+                <msItem xml:id="c6" n="22">
+                  <locus from="106a"/>
+                  <title xml:lang="en">The first question</title>
+                  <rubric xml:lang="syr">ܬܒ̈ܥܬܐ ܕܬܒ̇ܥ ܐܢܫ̣ ܠܕܒܝܬ ܒܪܒܘܪ ܘܦܪܘܒܐ</rubric>
+                </msItem>
+                <msItem xml:id="c7" n="23">
+                  <locus from="106b"/>
+                  <title xml:lang="en">The second question</title>
+                  <rubric xml:lang="syr">ܠܘܩܒܠܗܘܢ ܗܦܟܬܐ</rubric>
+                </msItem>
+                <msItem xml:id="c8" n="24">
+                  <locus from="106b"/>
+                  <title xml:lang="en">The third question</title>
+                  <rubric xml:lang="syr">ܫ̈ܘܐܠܐ ܠܘܩܒܠܗܘܢ</rubric>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b14" n="25">
+                <locus from="106b"/>
+                <author>Anastasius the patriarch</author>
+                <author>the partisans of Probus</author>
+                <title xml:lang="en">Question addressed by <persName>Anastasius</persName> the
+                patriarch to <persName>the partisans of Probus</persName>, and their reply</title>
+                <rubric xml:lang="syr">ܫܘܐܠܐ ܕܫܐ̇ܠ ܐܢܣܛܘܣ ܦܛܪܝܪܟܐ ܒܟܬܒܐ̣. ܠܕܝܪ̈ܝܐ ܗܠܝܢ ܕܥܒܕܘ ܡܠܬܐ ܥܡ
+                ܦܪܘܒܐ ܒܐܢܛܝܘܟܝܐ.</rubric>
+              </msItem>
+              <msItem xml:id="b15" n="26">
+                <author>the monks of Antioch</author>
+                <title xml:lang="en">Tracts written by the monks of
+                <placeName ref="http://syriaca.org/place/10">Antioch</placeName> against Probus and his followers</title>
+                <note>See <bibl>Add. 12,155, foll. 136 a, 142 b</bibl>
+                </note>
+                <msItem xml:id="c9" n="27">
+                  <locus from="107a"/>
+                  <author>the monks of Antioch</author>
+                  <title xml:lang="en">The seventh tract</title>
+                </msItem>
+                <msItem xml:id="c10" n="28" defective="true">
+                  <locus from="115a"/>
+                  <author>the monks of Antioch</author>
+                  <title xml:lang="en">the eighth tract</title>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b16" n="29">
+                <title xml:lang="en">Arguments of various heretics, with replies</title>
+                <msItem xml:id="c11" n="30" defective="true">
+                  <locus from="123b"/>
+                  <title xml:lang="en">The first section</title>
+                  <rubric xml:lang="syr">ܪ̈ܫܐ ܕܗ̈ܦܟܬܐ̣. ܠܘܩܕܡ ܐܝܟ ܕܡܢ ܬܪ̈ܝܝ ܟܝ̈ܢܝܐ</rubric>
+                </msItem>
+                <msItem xml:id="c12" n="31">
+                  <locus from="130b"/>
+                  <title xml:lang="en">The second section</title>
+                  <rubric xml:lang="syr">ܗܦܟܬܐ̣ ܡܢ ܐܝܠܝܢ ܕܐܡܪܝܢ ܐܝܟ ܕܒܬܪܝܢ: ܟܝ̈ܢܐ. ܗܟܢܐ ܐܦ ܒܩܢܘ̈ܡܐ̇.
+                  ܘܠܐ ܒܚܕ ܟܝܢܐ ܐܝܟ ܕܒܩܢܘܡܐ ܙܕ݁ܩ ܕܢܬܝܕܥ ܡܫܝܚܐ̇. ܗ̇ܘ ܕܡܢ ܬܪ̈ܝܢ ܚܕ ܗܘ ܘܠܘ
+                  ܬܪ̈ܝܢ</rubric>
+                </msItem>
+                <msItem xml:id="c13" n="32">
+                  <locus from="131b"/>
+                  <title xml:lang="en">The third section</title>
+                  <rubric xml:lang="syr">ܠܘܬ ܗ̇ܢܘܢ ܕܐܡܪܝܢ ܕܒܟܠ ܐܝܬܝܗ̇ ܡܥܒܕܢܘܬܐ ܐܠܗܝܬܐ̇. ܐܘܣܝܐ ܕܝܢ ܠܐ
+                  ܐܝܬܝܗ̇ ܒܟܠ ܡܕܡ̣. ܟܕ ܛܒ ܐܡܪܝܢ ܒܡܫܝܚܐ̇. ܪܘܟܒܐ ܕܐܠܗܘܬܐ ܘܕܐܢܫܘܬܐ.</rubric>
+                </msItem>
+                <msItem xml:id="c14" n="33">
+                  <locus from="132b"/>
+                  <title xml:lang="en">The fourth section</title>
+                  <rubric xml:lang="syr">ܠܘܬ ܗ̇ܢܘܢ ܕܐܡܪܝܢ ܪܘܟܒܐ ܕܢܦܫܐ ܡܠܝܠܬܐ ܘܕܦܓܪܐ̇. ܘܕܫܘܪܝܐ ܕܩܘܝܡܗܘܢ
+                  ܐܟܚܕܐ ܗܘ̇. ܘܐܡܪܝܢ ܕܡܬܥܡܕ ܡܕܡ ܡܢ ܢܦܫܐ̇. ܐܘ ܓ̇ܕܫ ܠܗ̇ ܒܪܘܟܒܗ̇ ܒܠܥܕܘܗܝ ܕܡܪܟܒܐ</rubric>
+                </msItem>
+                <msItem xml:id="c15" n="34">
+                  <locus from="133a"/>
+                  <title xml:lang="en">The fifth section</title>
+                  <rubric xml:lang="syr">ܫ̈ܘܐܠܐ ܕܠܘܩܒܠ ܬܪ̈ܝܝ ܟܝ̈ܢܝܐ</rubric>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b17" n="35">
+                <locus from="135b"/>
+                <title xml:lang="en">Against the Armenians, <persName>Sergius</persName> and
+                  <persName>John his brother</persName>
+                </title>
+                <rubric xml:lang="syr">ܪ̈ܝܫܐ ܕܡܥܬܕܝܢ ܠܘܩܒܠ ܬܪܥܝܬܐ ܕܐܪ̈ܡܢܝܐ ܣܪܓܝܣ ܘܝܘܚܢܢ
+                ܐܚܘܗܝ.</rubric>
+              </msItem>
+              <msItem xml:id="b18" n="36">
+                <locus from="136b"/>
+                <author ref="http://syriaca.org/person/376">Basil</author>
+                <author ref="http://syriaca.org/person/511">Gregory Nazianzen</author>
+                <title xml:lang="en">Extracts from <persName>Basil</persName> and from
+                  <persName>Gregory Nazianzen</persName>
+                </title>
+                <rubric xml:lang="syr">ܕܡ̇ܢܘ ܡܢܝܢܐ</rubric>
+                <msItem xml:id="c16" n="37">
+                  <author ref="http://syriaca.org/person/376">Basil</author>
+                  <title xml:lang="en">Extracts from <persName>Basil</persName>
+                  </title>
+                  <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܠܘܬ ܐܢܦܝܠܝܟܝܘܣ ܕܡܛܠ ܪܘܚܐ ܩܕܝܫܐ</rubric>
+                </msItem>
+                <msItem xml:id="c17" n="38">
+                  <author ref="http://syriaca.org/person/511">Gregory Nazianzen</author>
+                  <title xml:lang="en">Extracts from <persName>Gregory
+                  Nazianzen</persName>
+                  </title>
+                  <rubric xml:lang="syr">ܡܢ ܗ̇ܘ ܕܥܠ ܪܘܚܐ ܩܕܝܫܐ</rubric>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b19" n="39" defective="true">
+                <locus from="137a"/>
+                <title xml:lang="en">Short extract</title>
+                <note>imperfect at the beginning</note>
+              </msItem>
+              <msItem xml:id="b20" n="40">
+                <locus from="137a"/>
+                <title xml:lang="en">Explanation of the term "heresy" </title>
+                <rubric xml:lang="syr">ܕܡܢܐ ܗܝ ܗܪܣܝܣ</rubric>
+                <msItem xml:id="c18" n="41">
+                  <locus from="137a"/>
+                  <author>Clemens Stromateus of Alexandria</author>
+                  <title xml:lang="en">Extracts from <persName>Clemens Stromateus of
+                    Alexandria</persName>
+                  </title>
+                  <rubric xml:lang="syr">ܕܩܠܡܝܣ ܣܛܪܘܡܛܘܣ̣. ܫܘܠܡ ܡܐܡܪܐ ܕܬܡܢܝܐ</rubric>
+                </msItem>
+                <msItem xml:id="c19" n="42">
+                  <locus from="137a"/>
+                  <author ref="http://syriaca.org/person/51">Severus</author>
+                  <title xml:lang="en">Extracts from Severus</title>
+                  <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܥܒܝܕ ܠܗ ܠܘܩܒܠ ܗܠܝܢ ܕܡܪܚܐܝܬ ܡܫܚܝܢ̇. ܠܗܠܝܢ ܕܗܦܟܝܢ ܡܢ
+                  ܗܪܣܝܣ ܕܢܣܛܘܪ̈ܝܢܘ</rubric>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b21" n="43">
+                <locus from="137a"/>
+                <author ref="http://syriaca.org/person/51">Severus</author>
+                <title xml:lang="en">How to reckon the three days and three nights during which
+                <persName ref="http://syriaca.org/person/2245">the Messiah</persName> was in the grave</title>
+                <title>Extract from a letter of <persName>Severus</persName> to
+                <placeName ref="http://syriaca.org/place/53">Caesaria</placeName>
+                </title>
+              </msItem>
+              <msItem xml:id="b22" n="44" defective="false">
+                <title xml:lang="en">Against the heathens</title>
+                <rubric xml:lang="syr">ܡܡܠܠܐ ܕܛܒ ܚܫܚ̇ ܠܘܩܒܠ ܚ̈ܢܦܐ̣. ܥܡ ܫܘܐ̈ܠܐ ܕܐܬܪܟܒܘ ܡܢܗ.</rubric>
+                <msItem xml:id="c20" n="45">
+                  <locus from="138a"/>
+                  <author ref="http://syriaca.org/person/573">Chrysostom</author>
+                  <title xml:lang="en">Extract from <persName>Chrysostom</persName>, hom. xii.
+                  on <ref target="http://syriaca.org/work/9598">the Epistle to the Ephesians</ref>
+                  </title>
+                </msItem>
+                <msItem xml:id="c21" n="46">
+                  <locus from="138b"/>
+                  <title xml:lang="en">Questions against the heathens</title>
+                  <rubric xml:lang="syr">ܫܘܐ̈ܠܐ ܠܘܩܒܠ ܚ̈ܢܦܐ</rubric>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b23" n="47">
+                <author ref="http://syriaca.org/person/51">Severus</author>
+                <title xml:lang="en">Of the Incarnation</title>
+                <title>Extract from a letter of <persName>Severus</persName> to
+                <persName>Arabus of Callinicus</persName>
+                </title>
+                <rubric xml:lang="syr">ܣܘܟܠܐ ܕܡܬܒܣܪܢܘܬܐ̣. ܘܡܠܬܐ ܠܘܬ ܗ̇ܘ ܕܡܥܩܒ ܥܠ ܡܠܬܐ ܐܠܗܐ̇. ܕܐܝܟܢ ܟܠܗ
+                ܐܝܬܘܗܝ ܗܘܐ ܒܒܣܪܐ ܘܟܠܗ ܒܟܘܠ.</rubric>
+                <rubric xml:lang="syr">ܠܘܬ ܐܪܒ ܩܠܝܢܩܝܐ</rubric>
+              </msItem>
+              <msItem xml:id="b24" n="48">
+                <locus from="140a"/>
+                <title xml:lang="en">Questions against <persName ref="http://syriaca.org/person/831">Joannes
+                Barbūr</persName>
+                </title>
+                <rubric xml:lang="syr">ܫܘܐ̈ܠܐ ܕܐܪ̈ܬܕܘܟܣܘܼ ܠܘܩܒܠ ܬܪܥܝܬܐ ܕܒܪܒܘܪ.</rubric>
+              </msItem>
+              <msItem xml:id="b25" n="49">
+                <locus from="140a"/>
+                <title xml:lang="en">Objections to the views of <persName>Sergius the
+                Armenian</persName>, consisting of extracts from the Apology of <persName ref="http://syriaca.org/person/1330">Julian,
+                  patriarch of Antioch</persName>
+                </title>
+                <rubric xml:lang="syr">ܗܦܟ̈ܬܐ ܠܘܩܒܠ ܬܪܥܝܬܐ ܪܫܝܥܬܐ ܕܣܪܓܝܣ ܐܪܡܢܝܐ̣. ܡܢ ܡܦܩ ܒܪܘܚܐ ܕܥܒ̣ܕ
+                ܦܛܪܝܪܟܐ ܡܪܝ ܝܘܠܝܢܐ ܠܩܘܒܠܗ</rubric>
+                <note>see <persName>Assemani, Bibl. Or., t. ii., p. 333</persName>
+                </note>
+              </msItem>
+              <msItem xml:id="b26" n="50">
+                <locus from="140b"/>
+                <title xml:lang="en">Against the Agnoetae</title>
+                <rubric xml:lang="syr">ܠܘܩܒܠ ܐܓܢܘܐ̈ܝܛܐ̣. ܘܚܪܡܐ ܕܡܢ ܣܘܢܗܕܘܣ ܕܬܪ̈ܝܝ ܟܝ̈ܢܝܐ</rubric>
+                <note>See <bibl>Add. 12,155, fol. 104 a, and Add. 14,532, fol. 207 b</bibl>.</note>
+              </msItem>
+              <msItem xml:id="b27" n="51">
+                <locus from="146a"/>
+                <title xml:lang="en">Questions against the Diphysites</title>
+                <rubric xml:lang="syr">ܫܘܐ̈ܠܐ ܠܘܩܒܠ ܬܪ̈ܝܝ ܟܝ̈ܢܝܐ</rubric>
+              </msItem>
+              <msItem xml:id="b28" n="52">
+                <locus from="147b"/>
+                <title xml:lang="en">Against the heresy of <persName ref="http://syriaca.org/person/1196">Damian of
+                Alexandria</persName>, being extracts from the treatise of <persName ref="http://syriaca.org/person/1414">Peter of
+                  Antioch</persName>
+                </title>
+                <rubric xml:lang="syr">ܫܘܐ̈ܠܐ ܘܗܦܟ̈ܬܐ̣ ܘܫܪܟܐ: ܕܠܘܩܒܠ ܗܪܣܝܣ ܪܫܝܥܬܐ ܕܕܡܝܢܐ̣. ܕܫܩܝܠܝ̣ܢ ܡܢ
+                ܡܟܬܒܢܘܬܐ ܕܠܩܘܒܠܗ̇. ܕܩܕܝܫܐ ܦܛܪܘܣ ܦܛܪܝܪܟܐ ܕܐܢܛܝܘܟܝܐ.</rubric>
+                <note>In these extracts there are cited: <p>
+                    <persName ref="http://syriaca.org/person/376">Basil</persName>, <locus>foll.
+                153 b</locus>, <locus>160 b</locus>
+                  </p>; <p>
+                    <persName ref="http://syriaca.org/person/430">Cyril</persName>,
+                    <locus>foll. 157 a</locus> and <locus>b</locus>, <locus>159 b</locus>
+                  </p>;
+                <p>
+                    <persName ref="http://syriaca.org/person/512">Gregory Nyssen</persName>, <locus>fol. 157 b</locus>
+                  </p>; <p>and <persName ref="http://syriaca.org/person/51">Severus</persName>, <title xml:lang="en">letter to <persName ref="https://syriaca.org/person/2513">Constantine of
+                      Seleucia</persName> in <placeName ref="http://syriaca.org/place/2799">Isauria</placeName>
+                    </title>, <locus>fol. 159 b</locus>, and <title xml:lang="en">treatise against <persName ref="http://syriaca.org/person/2688">Joannes Grammaticus</persName>
+                    </title>, <locus>fol. 160 b</locus>.</p>
+                </note>
+              </msItem>
+              <msItem xml:id="b29" n="53">
+                <author ref="http://syriaca.org/person/511">Gregory Nazianzen</author>
+                <title xml:lang="en">extracts from <persName>Gregory
+                Nazianzen</persName>
+                </title>
+                <rubric xml:lang="syr">ܟܪ̈ܣܝܣ ܡܛܠ ܬܐܘܠܘܓܝܐ</rubric>
+                <msItem xml:id="c22" n="54">
+                  <locus from="161a"/>
+                  <author ref="http://syriaca.org/person/511">Gregory Nazianzen</author>
+                  <title xml:lang="en">the first extract</title>
+                  <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܥܠ ܗܪܘܢ ܦܝܠܣܘܦܐ</rubric>
+                </msItem>
+                <msItem xml:id="c23" n="55">
+                  <locus from="161b"/>
+                  <author ref="http://syriaca.org/person/511">Gregory Nazianzen</author>
+                  <title xml:lang="en">the second extract</title>
+                  <rubric xml:lang="syr">ܡܢ ܗ̇ܘ ܕܥܠ ܒܝܬ ܕܢܚܐ</rubric>
+                </msItem>
+                <msItem xml:id="c24" n="56">
+                  <locus from="162a"/>
+                  <author ref="http://syriaca.org/person/511">Gregory Nazianzen</author>
+                  <title xml:lang="en">the third extract</title>
+                  <rubric xml:lang="syr">ܡܢ ܗ̇ܘ ܕܬܪ̈ܝܢ ܡܫܝܢܢܐ</rubric>
+                </msItem>
+                <msItem xml:id="c25" n="57">
+                  <locus from="162b"/>
+                  <author ref="http://syriaca.org/person/511">Gregory Nazianzen</author>
+                  <title xml:lang="en">the fourth extract</title>
+                  <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܩܕܡܝܐ ܡܫܝܢܢܐ</rubric>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b30" n="58">
+                <locus from="163a"/>
+                <author ref="http://syriaca.org/person/511">Gregory Nazianzen</author>
+                <title xml:lang="en">extracts from the discourse of <persName>Gregory
+                  Nazianzen</persName> on Baptism</title>
+                <rubric xml:lang="syr">ܢܘܗܪܐ ܕܟܘ̈ܢܝܐ ܕܡܥܡܘܕܝܬܐ ܩܕܝܫܬܐ̣. ܘܡܠܦܢܘܬܐ ܠܘܬ ܗ̇ܘ
+                ܕܥܡ̇ܕ</rubric>
+              </msItem>
+              <msItem xml:id="b31" n="59">
+                <locus from="163b"/>
+                <author ref="http://syriaca.org/person/564">Isidore of Pelusium</author>
+                <title xml:lang="en">Extract from a letter of <persName>Isidore of
+                  Pelusium</persName>
+                </title>
+                <rubric xml:lang="syr">ܦܘܫܩܐ̣ ܕܗ̇ܝ ܕܐܡܝܪܐ ܕܥܠ ܦܪܘܩܢ ܕܢܕܘܢ ܡ̈ܝܬܐ ܘܚ̈ܝܐ</rubric>
+                <rubric xml:lang="syr">ܕܩܕܝܫܐ ܐܝܣܝܕܘܪܐ ܝܚܝܕܝܐ̣. ܐܓܪܬܐ ܕܠܘܬ ܣܐܘܪܝܢܐ</rubric>
+              </msItem>
+              <msItem xml:id="b32" n="60">
+                <locus from="163b"/>
+                <author ref="http://syriaca.org/person/564">Isidore of Pelusium</author>
+                <author ref="http://syriaca.org/person/511">Gregory Nazianzen</author>
+                <title xml:lang="en">Extracts from two letters of <persName>Isidore of
+                  Pelusium</persName>, and from the discourse of <persName>Gregory
+                  Nazianzen</persName>
+                </title>
+                <rubric xml:lang="syr">ܡܛܠ ܕܘܒܪܐ ܬܩܢܐ̣ ܘܡܠܬܐ ܕܡܠܝܠܘܬܐ</rubric>
+                <rubric xml:lang="syr">ܥܠ ܩܒܘܪܬܐ ܕܒܣܝܠܝܘܣ</rubric>
+              </msItem>
+              <msItem xml:id="b33" n="61">
+                <locus from="164a"/>
+                <author ref="http://syriaca.org/person/564">Isidore of Pelusium</author>
+                <author ref="http://syriaca.org/person/511">Gregory Nazianzen</author>
+                <title xml:lang="en">Extracts from the same writers</title>
+                <rubric xml:lang="syr">ܕܠܐ ܢܫܘܛ ܡܪܕܘܬܐ̣ ܘܡܛܠ ܡܠܬܐ ܕܫܘܝܐ ܠܩܘܠܣܐ</rubric>
+              </msItem>
+              <msItem xml:id="b34" n="62">
+                <locus from="164a"/>
+                <author ref="http://syriaca.org/person/564">Isidore</author>
+                <title xml:lang="en">Extract from a letter of <persName>Isidore</persName> to
+                  <persName>Zenobius</persName>
+                </title>
+                <rubric xml:lang="syr">ܡܛܠ ܪܓܬܐ ܕܙܢܝܘܬܐ</rubric>
+                <rubric xml:lang="syr">ܕܝܠܗ ܕܐܝܣܝܕܘܪܐ̣. ܐܓܪܬܐ̣ ܕܠܘܬ ܙܘܢܘܒܝܘܣ.</rubric>
+              </msItem>
+              <msItem xml:id="b35" n="63">
+                <locus from="164a"/>
+                <author ref="http://syriaca.org/person/51">Severus</author>
+                <title xml:lang="en">That the adoption of the monastic life absolves from
+                previous sins</title>
+                <title>Extract from a letter of <persName ref="http://syriaca.org/person/51">Severus</persName> to
+                <persName>the deacon and monk Philip</persName>, in which he cites the life of
+                <persName ref="http://syriaca.org/person/1594">Antony</persName> by <persName ref="http://syriaca.org/person/354">Athanasius</persName>
+                </title>
+                <rubric xml:lang="syr">ܥܠ ܗ̇ܝ ܕܐܣܟܡܐ ܕܕܝܪܝܘܬܐ̣. ܡܢ ܗܠܝܢ ܕܩ̇ܕܡ ܐܬܚ̈ܛܝ ܡܚܪܪ݂
+                ܘܫܪܟܐ.</rubric>
+              </msItem>
+              <msItem xml:id="b36" n="64">
+                <locus from="164b"/>
+                <author ref="http://syriaca.org/person/376">Basil</author>
+                <title xml:lang="en">a tract of <persName>Basil</persName>, containing 18
+                rules</title>
+                <rubric xml:lang="syr">ܡܡܠܠܐ ܥܠ ܣܝܡܐ ܕܦܘܩ̈ܕܢܐ</rubric>
+                <incipit xml:lang="syr">ܟܕ ܣܓܝܐܬܐ ܐܚ̈ܝ ܐܝܬܝܗܝܢ ܐܝܠܝܢ ܕܒ̈ܟܬܒܐ ܩ̈ܕܝܫܐ ܡܬܝܕܥܢ ܠܢ: ܕܙܕܩ
+                ܠܗܝܢ ܕܢܐ̈ܬܝܢ ܠܫܘܡܠܝܐ ܕܣܥܘܪܘܬܐ: ܡܢ ܐܝܠܝܢ ܕܚܦܝܛܝܢ ܠܡܫܦܪ ܠܐܠܗܐ̣. ܏ܘܫ. </incipit>
+              </msItem>
+              <msItem xml:id="b37" n="65">
+                <locus from="166a"/>
+                <author ref="http://syriaca.org/person/376">Basil</author>
+                <title xml:lang="en">the first eleven ἐπιτίμια, or "poenae in monachos
+                delinquentes," of <persName>Basil</persName>
+                </title>
+                <rubric xml:lang="syr">ܬܚܘ̈ܡܐ ܕܥܠ ܣܟ̈ܠܘܬܐ ܡܫܚ̈ܠܦܬܐ</rubric>
+                <note>
+                  <bibl>Opera, t. ii., p. 754</bibl>
+                </note>
+              </msItem>
+              <msItem xml:id="b38" n="66">
+                <locus from="166b"/>
+                <author ref="http://syriaca.org/person/573">John Chrysostom</author>
+                <title xml:lang="en">Extracts from <persName>Chrysostom</persName> "ad
+                Theodorum lapsum," </title>
+                <rubric xml:lang="syr">ܕܙܘܿܘܓܐ ܕܕܝܪܝܐ̣ ܓܘܪܐ ܗܘ</rubric>
+                <rubric xml:lang="syr">ܕܩܕܝܫܐ ܝܘܚܢ̣ܢ. ܡܢ ܐܓܪܬܐ ܕܠܘܬ ܬܐܕܘܪܘܣ ܕܢܦ̣ܠ ܡܢ ܩܝܡܗ</rubric>
+              </msItem>
+              <msItem xml:id="b39" n="67">
+                <locus from="166b"/>
+                <author ref="http://syriaca.org/person/512">Gregory Nyssen</author>
+                <author ref="http://syriaca.org/person/51">Severus</author>
+                <title xml:lang="en">Extracts from <persName>Gregory Nyssen</persName> and
+                  <persName>Severus</persName>
+                </title>
+                <rubric xml:lang="syr">ܡܠܬܐ ܟܝܢܝܬܐ̣ ܕܥܠ ܡܪܟܒܐ̣ ܘܫܪܟܐ</rubric>
+                <msItem xml:id="c26" n="68">
+                  <author ref="http://syriaca.org/person/512">Gregory Nyssen</author>
+                  <title xml:lang="en">Extracts from <persName>Gregory
+                  Nyssen</persName>
+                  </title>
+                  <rubric xml:lang="syr">ܡܢ ܡܐܡܪܗ ܕܥܠ ܢܦܫܐ</rubric>
+                </msItem>
+                <msItem xml:id="c27" n="69">
+                  <author ref="http://syriaca.org/person/51">Severus</author>
+                  <title xml:lang="en">Extracts from <persName>Severus</persName>
+                  </title>
+                  <rubric xml:lang="syr">ܡܢ ܢܡܘܣܐ ܫܠܝܚܝܐ.</rubric>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b40" n="70" defective="true">
+                <locus from="167a"/>
+                <title xml:lang="en">Against the followers of <persName>Paul of
+                  Beth-Ukkāmē</persName>
+                </title>
+                <rubric xml:lang="syr">ܟܘܢܫܐ̣ ܠܘܩܒܠ ܗܠܝܢ ܕܒܝܬ ܦܘܠܐ܀ ܫܪܝܐ ܡ̇ܢ ܕܡ̈ܠܝܗܘܢ ܕܗ̇ܢܘܢ ܕܒܝܬ
+                ܦܘܠܐ: ܘܩܛܪܓܐ ܕܝܠܢ ܕܠܘܩܒܠܗܘܢ̣. ܡܢܗ ܘܠܗ ܣܝܡ ܒܟܬܒܐ ܐܚܪܢܐ. ܫܘܪܪܐ ܕܝܢ ܕܫܪܝܐ ܕܡ̈ܠܝܗܘܢ
+                ܘܩܘܛܪܓܐ ܕܠܘܩܒܠܗܘܢ̣. ܡܢ ܟܘܢܫܐ ܗܢܐ ܕܩܢ̈ܘܢܐ ܘܕܬܚ̈ܘܝܬܐ ܕܡܢ ܠܬܚܬ ܣܝܡ̣ ܡܫܡܠܝܐܝܬ ܡܬܚܙܐ.
+                ܕܐ̇ܝܕܐ ܕܝܢ ܬܚܘܝܬܐ ܘܩܢܘܢܐ: ܠܘܬ ܟܠ ܫܪܝܐ ܘܠܘܬ ܟܠ ܩܘܛܪܓܐ ܠܚܡܐ̣. ܫܘܘܕܥܐ ܣܡܢ̣ܢ. ܡܢ ܐ̈ܬܘܬܐ
+                ܕܐܠܦ ܒܝܬ ܣܘܪܝܝܐ̣ ܘܝܘܢܝܐ. ܐܝܟܢܐ ܕܕܠܐ ܥܘܟܪܐ ܢܫܟܚ ܬܚܘܝܬܐ ܐܘ ܩܢܘܢܐ̇. ܕܠܚܡܐ ܠܫܪܝܐ ܐܘ
+                ܠܩܘܛܪܓܐ.</rubric>
+                <note>Imperfect, nine leaves being lost</note>
+                <note>Here are cited— <p>
+                    <persName ref="http://syriaca.org/person/376">Basil</persName>: <quote xml:lang="syr">ܡܢ ܫܘܐ̈ܠܐ
+                    ܕܐ̈ܚܐ (ܒ and ܠܒ)</quote>. <locus>Fol. 167 a</locus>.</p>
+                <p>The Canons of the Apostles, of the first Council of Antioch, and of Nicaea.
+                    <locus>Fol. 167 b.</locus>
+                  </p>
+                <p>
+                    <persName ref="http://syriaca.org/person/51">Severus</persName>: <title xml:lang="en">letter to <persName ref="https://syriaca.org/person/2681">John of
+                      Bostra</persName>
+                    </title>, <quote xml:lang="syr">ܝܘܚܢܢ ܒܘܨܪܐ</quote>,
+                  <locus>fol. 167 a</locus>; <title xml:lang="en">to <persName ref="https://syriaca.org/person/2443">Constantine of
+                      Laodicea</persName>
+                    </title>, <locus>fol. 167 b</locus>; <title xml:lang="en">to <persName>Dionysius of Tarsus</persName>
+                    </title>, <quote xml:lang="syr">ܡܢ
+                    ܟܬܒܐ ܕܫܒܥܐ ܕܐܓܪ̈ܬܐ ܕܥܠ ܟܘܪܣܝܐ</quote>, <locus>fol. 167 b</locus>.</p>
+                <p>
+                    <persName>Theodosius of Alexandria</persName>: <quote xml:lang="syr">ܡܢ ܦܪܘܣܦܘܢܣܝܣ</quote>.
+                    <locus>Fol. 167 a</locus>.</p>
+                </note>
+                <note>Of one quotation from <persName ref="http://syriaca.org/person/51">Severus</persName>, fol. 167 a,
+                the heading is no longer legible.</note>
+              </msItem>
+              <msItem xml:id="b41" n="71" defective="true">
+                <locus from="168a"/>
+                <title xml:lang="en">A similar tract (or, it may be, part of the same)</title>
+                <note>imperfect at the beginning</note>
+                <note>Here are cited: <p>
+                    <persName>Athanasius</persName>: <title xml:lang="en">on a
+                passage of <ref target="http://syriaca.org/work/9648">S. Luke</ref>
+                    </title>, <quote xml:lang="syr">ܕܐܬ[ܢܣܝܘܣ̣ ܡܢ]
+                    ܡܐܡܪܐ ܕܥܠ . . . ܐܘܢܓܠܝܘܢ ܕܠܘ[ܩܐ]</quote>. <locus>Fol. 168 a</locus>. </p>
+                <p>
+                    <persName ref="http://syriaca.org/person/573">Chrysostom</persName>: <quote xml:lang="syr">ܡܢ ܦܘܫܩܐ ܕܡܬܠܐ
+                    ܕܟܟܪ̈ܐ</quote>. <locus>Fol. 168 a</locus>.</p>
+                <p>
+                    <persName>Eusebius</persName>: <title xml:lang="en">the Ecclesiastical History</title>, <quote xml:lang="syr">ܕܐܘܣܝܒܝܘܣ̣ ܡܢ ܐܩܠܝܣܝܣܛܝܩܐ ܕܝܠܗ. ܡܢ ܡܐܡܪܐ ܕܬܪ̈ܝ̣ܢ ܡܢ ܩܦܠܐܘܢ
+                    ܕܐܪ̈ܒܥܝܢ.</quote>. <locus>Fol. 170 a</locus>. </p>
+                <p>
+                    <persName ref="http://syriaca.org/person/72">Paul of Beth-Ukkāmē</persName>: <quote xml:lang="syr"> ܕܦܘܠܐ ܕܒܝܬ
+                    ܐ̈ܘܟܡܐ̣. ܡܢ ܕܝܕܝܣܩܘܠܝܩܘܢ ܕܐܬܝܗܒ ܠܝܘܚܢܢ ܦܛܪܝܪܟܐ ܕܩܘܣܛܢܛܝܢܦܘܠܝܣ܇ ܠܘܩܒܠ ܬܠܝܬܝ ܐܠܗ̈ܐ
+                    and ܡܢ ܡܦܩ ܒܪܘܚܐ ܩܕܡܝܐ.</quote>
+                  <locus>Fol. 169 a</locus>.</p>
+                <p>
+                    <persName>Peter of Alexandria</persName>: <quote xml:lang="syr"> ܡܢ ܐܓܪܬܐ ܕܠܘܬ
+                    ܩܠܝܪܘܣ ܕܥܕܬܐ ܩܕܝܫܬܐ ܕܐܢܛܝܘܟܝܐ.</quote>
+                  <locus>Fol. 169 a</locus> and <locus>b</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/44">Philoxenus of Mabūg</persName>: <quote xml:lang="syr"> ܡܢ ܐܓܪܬܐ ܕܣܝܡܐ
+                    ܒܪܝܫܐ ܕܣܘܢܗܕܝܩܘܢ ܕܐܦܣܣ</quote> ,<locus>fol. 168 a</locus>; <quote xml:lang="syr">ܡܢ ܐܓܪܬܐ ܕܡܛܠ ܦܘܪ̈ܢܣܐ ܥܕ̈ܬܢܝܐ. ܐܫܬܕܪܬ ܕܝܢ ܡܢܗ̣. ܠܘܬ ܕܝܪ̈ܝܐ ܐܘܪ̈ܬܕܘܟܣܘ ܕܒܡܕܢܚܐ̣
+                    ܟܕ ܗ̣ܘ ܒܐܟܣܘܪܝܐ</quote>, <locus>fol. 169 b</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/51">Severus</persName>: <title xml:lang="en">hom. epithron. cxl</title>. <locus>Fol. 169
+                    a</locus> .</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/781">Theodoret</persName>: <title xml:lang="en">the Ecclesiastical History</title>, <quote xml:lang="syr">ܡܢ ܐܩܠܣܝܣـ[ܛܝܩܐ ܕܬܐܕܘܪܝܛܐ] ܕܩܘܪܘܣ̣. ܦـ . . . ܕܦܘܢܝܐ ܕܗܠܝܢ
+                    ܐܦܣܩ̈ܘܦܐ.</quote>. <locus>Fol. 168 a</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/784">Theodosius of Alexandria</persName>: <quote xml:lang="syr">ܡܢ ܐܓܪܬܐ
+                    ܕܐܫܬܕܪܬ ܠܘܬ ܦܘܠܐ ܕܒܝܬ ܐܘܟܡ̈ܐ, and ܡܢ ܐܝܠܝܢ ܕܠܘܬ ܩܫ̈ܝܫܐ ܘܡܫ̈ܡܫܢܐ ܘܫܪܟܐ ܕܩܠܝܪܘܣ܇
+                    ܘܪ̈ܫܝ ܕܝܪ̈ܬܐ ܕܥܘܡܪ̈ܐ ܩ̈ܕܝܫܐ ܕܪܚܡܬ ܠܡܫܝܚܐ ܐܠܟܣܢܕܪܝܐ</quote>.. <locus>Fol. 169
+                    b</locus>.</p>
+                <p>Defense of the bishops before <persName ref="http://syriaca.org/person/2284">Justinian</persName>: <quote xml:lang="syr">ܡܢ ܐܝܠܝܢ ܕܡܠܠܘ ܐܦܣ̈ܘܦܐ (sic) ܐܪ̈ܬܕܘܟܣܘ ܩܕܡ ܡ̇ܠܟܐ ܝܘܣܛܝܢܐ̇. ܟܕ
+                    ܐܬܩܪܝܘ ܡܢܗ ܕܢܦܩܘܢ ܪܘܚܐ ܥܠ ܐ̈ܦܝ ܗܝܡܢܘܬܐ ܫܪܝܪܬܐ̇. ܘܢܐܡܪܘܢ ܦܘܪܣܐ ܕܒܗ ܡܫܟܚ̈ܢ ܥܕ̈ܬܐ
+                    ܕܢܬܚ̈ܝܕܢ܀ ܐܝܬܝܗܘܢ ܕܝܢ ܐܦܣ̈ܩܘܦܐ̣. ܣܪܓܝܣ ܕܩܘܪܘܣ. ܦܛܪܐ ܕܪܝܫܥܝܢܐ. ܬܐܘܡܐ ܕܓܪܡܢܝܩܝܐ.
+                    ܬܐܘܡܐ ܕܕܪܐ. ܝܘܚܢܢ ܕܬܠܐ.</quote>. <locus>Fol. 168 a</locus>. <quote xml:lang="syr">ܐܓܪܬܐ ܕܫܕܪ ܡܐܐ ܘܚܡܫܝ̣ܢ ܠܣܘܢܗܕܘܣ ܕܒܪܗܘܡܐ. ܘܐܘܕܥܘ ܒܗ̣. ܕܒܐܢܛܝܘܟܝܐ
+                    ܥܒܕܘ ܐܦܣܩܦܐ̣ ܠܦܠܘܝܢܘܣ. ܘܒܐܘܪܫܠܡ̣ ܠܩܘܪܝܠܘܣ. ܘܩܒܠܘ ܝܡܝܢܐ ܕܐܦܣܩܘܦܘܬܐ ܢܡܘܣܐܝܬ݂ ܘܠܦܘܬ
+                    ܩ̈ܢܘܢܐ</quote>. <locus>Fol. 168 b</locus>. <quote xml:lang="syr">ܡܢ ܐܓܪܬܐ ܕܫܕܪܘ
+                    ܚܣ̈ܝܐ ܐܦܣܩ̈ܘܦܐ. ܝܥܩܘܒ ܘܬܐܕܘܪܐ̇. ܘܝܘܚܢܢ ܘܝܘܚܢܢ̇. ܘܣܪܓܝܣ ܘܝܘܚܢܢ̇. ܘܐܣܛܦܢܐ ܘܦܛܠܡܝܣ
+                    ܘܐܠܝܫܥ ܘܠܘܢܓܝܢܐ. (ܘ)ܦܘܠ[ܐ] ܒܨܝܪܐ̣ ܠܘܬ ܡܗܝ̈ܡܢܐ . . . . </quote>
+                  <locus>Fol. 169 b</locus>. Compare <bibl>Add. 14,602, foll. 75,
+                seqq.</bibl>
+                  </p>
+                </note>
+              </msItem>
+              <msItem xml:id="b42" n="72">
+                <locus from="170a"/>
+                <title xml:lang="en">A section</title>
+                <rubric xml:lang="syr">ܥܠ ܗ̇ܝ ܕܥܕܠܝܢ ܐܢܫܝܢ ܠܣܝܡܐ ܕܥܒܕܘ ܡܕܢܚ̈ܝܐ܇ ܘܐܡܪܝܢ ܕܡܛܠ ܡܢܐ ܟܕ
+                ܬܪ̈ܝܢ ܟܝ̈ܢܐ ܫܡܗܘ ܗ̇ܢܘܢ܇ ܩܒܠ ܘܫܒܚ ܗ̇ܘ ܕܒܐܠܟܣܢܕܪܝܐ̇. ܘܐܝܠܝܢ ܕܗܠܝܢ ܕܢܣܛܘܪܝܘܣ ܡܬ̇ܪܥܝܢ
+                ܐܡܪܝ̣ܢ. ܕܐܦ ܗ̣ܘ̣ ܗܟܢܐ ܐܬ̇ܪܥܝ. ܘܕܟܕ ܒܬܐܘܪܝܐ ܡܦܪܫܝܢ ܡܕܢܚ̈ܝܐ ܐܡܪܘ ܬܪ̈ܝܢ ܟܝܢ̈ܐ̣. ܘܕܠܐ
+                ܡܬܥܕܠܐ ܡܢ ܬܪ̈ܝܨܝ ܫܘܒܚܐ ܣܟ̇. ܗ̇ܝ ܕܢܫܬܡܗܘܢ ܬܪ̈ܝܢ ܟܝ̈ܢܐ.</rubric>
+                <note>Here are cited:
+                <p>
+                    <persName ref="http://syriaca.org/person/430">Cyril</persName>: <title xml:lang="en">letter to
+                      <persName>Acacius</persName>
+                    </title>, <locus>foll. 170 b</locus>, <locus>171
+                        a</locus>; <title xml:lang="en">to <persName>Eulogius</persName>
+                    </title>, <locus>foll. 170
+                          b</locus>, <locus>171 b</locus>; <title xml:lang="en">to <persName>John of
+                            Antioch</persName>
+                    </title>, <locus>fol. 171 a</locus>; <title xml:lang="en">to
+                      <persName>Valerian of Iconium</persName>
+                    </title>, <locus>fol. 171
+                  a</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/655">Nestorius</persName>: <quote xml:lang="syr">ܡܢ ܐܝܠܝܢ ܕܟܬ̣ܒ ܠܘܬ
+                    ܬܐܕܘܪܝܛܐ ܡܢ ܐܟܣܘܪܝܐ</quote>. <locus>Fol. 171
+                      a</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/51">Severus</persName>: <title xml:lang="en">against <persName ref="http://syriaca.org/person/2688">Joannes
+                      Grammaticus</persName>
+                    </title>, <locus>foll. 170 a</locus> and
+                  <locus>b</locus>, <locus>171 b</locus>; <quote xml:lang="syr">ܡܢ ܐܓܪܬܐ ܕܠܘܬ ܩܣܝܢܐ ܘܩܘܣܛܢܛܝܢܐ
+                    ܘܐܢܛܘܢܝܢܐ̇. ܘܕܫܪܟܐ ܐܦܣܩ̈ܘܦܐ ܕܬܚܝܬ ܟܘܪܣܝܐ ܫܠܝܚܝܐ ܕܐܢܛܝܘܟܝܐ. ܗܫܐ ܕܝܢ ܡܕܝܪܝ̣ܢ
+                    ܒܐܠܟܣܢܕܪܝܐ.</quote>, <locus>fol. 171 b</locus>
+                  </p>. </note>
+              </msItem>
+              <msItem xml:id="b43" n="73" defective="true">
+                <locus from="172a"/>
+                <title xml:lang="en">Charges made by the followers of <persName>Paul of
+                  Beth-Ukkāmē</persName>, with replies to them</title>
+                <rubric xml:lang="syr">ܥܕܠܝܐ ܕܒܝܬ ܦܘܠܐ ܘܫܪܝܗܘܢ̣ ܘܩ̈ܦܠܐܐ ܕܠܘܩܒܠܗܘܢ.</rubric>
+                <incipit xml:lang="syr">ܕܟܠ ܡܠܬܐ ܡ̇ܢ ܕܬܪ̈ܬܝܢ ܐܝܬܝܗ̇: ܚܕܐ ܡ̇ܢ ܕܗ̇ܝ ܕܝܠܗ̇ ܣܝܡܐ: ܐܚܪܬܐ
+                ܕܝܢ ܕܗ̇ܝ ܕܠܩܘܒܠܐ ܗܦܟܐ̣. ܡܢ ܓܪܝܓܘܪܝܘܣ ܝܠܦܢܢ. ܚܢܢ ܗܟܝܠ ܩܕܡܐܝܬ݂. ܠܡ̈ܠܐ ܕܠܩܘܒܠܢ ܡܢ ܗܠܝܢ
+                ܕܒܝܬ ܦܘܠܐ ܡܬ݂ܥ̈ܬܕܢ̣ ܡܚܝ̈ܠܬܐ̇ ܢܚܘܐ ܝܨܦܝܢ̣ܢ. ܘܗܝܕܝܢ ܠܡ̈ܠܐ ܕܝܠܢ ܕܠܘܩܒܠܗܘܢ ܢܥܬܕ ܐܬ̇ܝܢ
+                ܚܢܢ.</incipit>
+                <note>Imperfect at the end</note>
+                <note>The authorities cited are: <p>The Canons of the Apostles, <locus>fol. 174
+                    a</locus> and <locus>b</locus>; of Nicaea, <locus>foll. 173 b</locus>,
+                    <locus>175 a</locus>; of Ancyra, <locus>fol. 175 a</locus>; of Antioch,
+                    <locus>foll. 173 b</locus>, <locus>175 a</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/573">Chrysostom</persName>: <title xml:lang="en">on <ref target="http://syriaca.org/work/9598">the Epistle to the
+                      Ephesians</ref>
+                    </title>. <locus>Fol. 176 b</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/423">Clement of Rome</persName>: <title xml:lang="en">
+                    epistle to the Corinthians
+                  </title>. <locus>Fol. 176 b</locus>.</p>
+                <p>
+                    <persName>Dionysius of Alexandria</persName>: <title xml:lang="en">letter to <persName>Novatius
+                      (ܢܐܘܛܝܣ)</persName>
+                    </title>. <locus>Fol. 176 b</locus>.</p>
+                <p>
+                    <persName>Longinus (ܠܘܢܓܝܢܐ)</persName>: <quote xml:lang="syr">ܒܐܓܪܬܐ ܕܥܒ̣ܕ ܨܝܕ ܡܪܝ
+                    ܝܥܩܘܒ</quote>. <locus>Fol. 174 a</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/688">Proclus of Constantinople</persName>: <title xml:lang="en">letter to <persName>John
+                      of Antioch</persName>
+                    </title>. <locus>Fol. 176 b</locus>.</p>
+                <p>
+                    <persName ref="http://syriaca.org/person/51">Severus</persName>: <title xml:lang="en">letter to <persName ref="https://syriaca.org/person/2658">Hippocrates (ܐܘܦܘܩܪܛܝܣ)
+                      Scholasticus</persName>
+                    </title>, <locus>foll. 172 b</locus>, <locus>175
+                        b</locus>; <title xml:lang="en">to <persName>Dionysius of Tarsus</persName>
+                    </title>,
+                    <locus>foll. 174 a</locus>, <locus>175 a</locus>, <locus>176 a</locus>;
+                  <title xml:lang="en">to <persName ref="https://syriaca.org/person/2769">Theophanes</persName>
+                    </title>, <locus>fol. 175 b</locus>;
+                  <title xml:lang="en">to <persName>the chamberlain Amantius</persName>
+                    </title>, <quote xml:lang="syr">ܐܡܢܛܝܘܣ
+                    ܩܒܘܩܠܪܐ</quote>, <locus>fol. 176 a</locus>.</p>
+                <p>
+                    <persName>Theodore of Philae (ܬܐܕܘܪܐ ܕܦܝܠܘܢ)</persName>: <quote xml:lang="syr">ܐܓܪ̈ܬܐ ܕܝܠܗ ܕܠܘܬ
+                    ܐܠܟܣܢܕܪ̈ܝܐ. ܕܣܝ̈ܡـ̣ܢ ܒܟܬܒܐ ܕܠܘܩܒܠܗܘܢ</quote>.. <locus>Fol. 174
+                a</locus>.</p>
+                </note>
+              </msItem>
+              <msItem xml:id="b44" n="74">
+                <locus from="177a"/>
+                <title xml:lang="en">A single leaf from a tract on the question of the
+                rebaptism of heretics, when they return to the orthodox faith</title>
+                <note>Here is cited
+                <p>
+                    <title>a letter of <persName>Cyprian</persName> to
+                <persName ref="https://syriaca.org/person/2742">Quintus</persName>
+                    </title>, <quote xml:lang="syr">ܩܘܐܝܢܛܘܣ</quote>
+                  </p>
+                </note>
+              </msItem>
+              <msItem xml:id="b45" n="75" defective="true">
+                <locus from="178a"/>
+                <title xml:lang="en">An extract</title>
+                <note>imperfect at the beginning</note>
+              </msItem>
+              <msItem xml:id="b46" n="76">
+                <title xml:lang="en">Extracts regarding <persName>Dioscorus</persName> and
+                <persName ref="https://syriaca.org/person/482">Eutyches</persName>
+                </title>
+                <msItem xml:id="c28" n="77">
+                  <locus from="178a"/>
+                  <author>Justinian</author>
+                  <title xml:lang="en">Extracts from the edict of
+                  <persName ref="https://syriaca.org/person/2284">Justinian</persName> "adversus tria capitula"</title>
+                  <rubric xml:lang="syr">ܥܠ ܐܝܠܝܢ ܕܡܩܛܪܓܝܢ ܠܩܕܝܫܐ ܕܝܘܣܩܪܘܣ ܥܠ ܕܩܒܠ ܠܐܘܛܝܟܐ̇. ܕܒܗ ܟܕ ܒܗ
+                  ܒܩܘܛܪܓܗܘܢ ܢܦܠܘ̇. ܠܐܘܢ ܘܣܘܢܗܕܘܣ ܕܟܠܩܝܕܘܢܐ</rubric>
+                  <note>(<bibl>Labbe, Sacrosancta Concilia, t. vi., coll. 393 E and 397
+                  A</bibl>)</note>
+                </msItem>
+                <msItem xml:id="c29" n="78">
+                  <locus from="178a"/>
+                  <author ref="http://syriaca.org/person/51">Severus</author>
+                  <title xml:lang="en">Extracts from letters of
+                  <persName>Severus</persName>
+                  </title>
+                  <rubric xml:lang="syr">ܡܛܠ ܩܘܒܠܗ ܕܐܘܛܝܟܐ̣ ܘܫܪܟܐ</rubric>
+                  <msItem xml:id="d3" n="79">
+                    <author ref="http://syriaca.org/person/51">Severus</author>
+                    <title xml:lang="en">to <persName>the priest and abbat
+                    Leo</persName>
+                    </title>
+                  </msItem>
+                  <msItem xml:id="d4" n="80">
+                    <author ref="http://syriaca.org/person/51">Severus</author>
+                    <title xml:lang="en">to <persName>the physician Sergius</persName>
+                    </title>
+                    <rubric xml:lang="syr">ܠܚܟܝܡܐ ܘܕܒܟܠܡܕܡ ܪܚܡ ܐܠܗܐ ܣܪܓܝܣ ܐܣܝܐ ܣܘܦܣܛܐ</rubric>
+                  </msItem>
+                  <msItem xml:id="d5" n="81" defective="true">
+                    <author ref="http://syriaca.org/person/51">Severus</author>
+                    <title xml:lang="en">to the orthodox brethren in
+                    <placeName ref="http://syriaca.org/place/195">Tyre</placeName>
+                    </title>
+                    <rubric xml:lang="syr">ܠܘܬ ܐ̈ܚܐ ܐܘܪ̈ܬܕܘܟܣܘ ܕܒܛܘܪܘܣ ܡܕܝܢܬܐ ܕܐܝܬܝܗ̇ ܨܘܪ.</rubric>
+                  </msItem>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b47" n="82" defective="true">
+                <locus from="179a"/>
+                <title xml:lang="en">An extract</title>
+                <note>imperfect at the beginning</note>
+              </msItem>
+              <msItem xml:id="b48" n="83">
+                <locus from="179a"/>
+                <title xml:lang="en">Of the reason and the soul</title>
+                <rubric xml:lang="syr">ܡܛܠ ܗ̇ܘܢܐ ܘܢܦܫܐ</rubric>
+                <msItem xml:id="c30" n="84">
+                  <author>Didymus of Alexandria</author>
+                  <title xml:lang="en">Extract from <persName>Didymus of
+                  Alexandria</persName>
+                  </title>
+                  <rubric xml:lang="syr">ܡܢ ܟܬܒܗ ܕܥܠ ܢܦܫܐ ܒܩܦܠܐܘܢ ܕܫܒܥܐ ܗ̇ܘ ܕܪܫܝܡ ܥܠܘܗܝ ܕܠܐ ܚܐܫܐ ܢܦܫܐ
+                  ܥܡ ܦܓܪܐ̇. ܘܕܒܫܘܪܝܐ ܡܫܡܠܝܬܐ ܗܝ ܗܝ̣ ܢܦܫܐ</rubric>
+                </msItem>
+                <msItem xml:id="c31" n="85">
+                  <author>Epiphanius</author>
+                  <title xml:lang="en">Extract from <persName>Epiphanius</persName>, the
+                  Ancoratus</title>
+                  <rubric xml:lang="syr">ܐܢܩܘܪܛܘܣ</rubric>
+                </msItem>
+                <msItem xml:id="c32" n="86">
+                  <author ref="http://syriaca.org/person/51">Severus</author>
+                  <title xml:lang="en">Extract from <persName>Severus</persName>, hom.
+                  epithron. xxi.</title>
+                </msItem>
+                <msItem xml:id="c33" n="87">
+                  <author ref="http://syriaca.org/person/794">Titus of Bostra</author>
+                  <title xml:lang="en">Extract from <persName>Titus of
+                  Bostra</persName>
+                  </title>
+                  <rubric xml:lang="syr">ܕܛܛܘܣ ܐܦܣܩܘܦܐ ܕܒܘܨܪ̣. ܡܢ ܡܐܡܪܗ ܩܕܡܝܐ ܕܠܘܩܒܠ ܡܢܝ̈ܢܝܐ.</rubric>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b49" n="88">
+                <locus from="179a"/>
+                <author ref="http://syriaca.org/person/430">Cyril of Alexandria</author>
+                <title xml:lang="en">Of the Properties of Bodies</title>
+                <title>Extract from <persName>Cyril of Alexandria</persName>
+                </title>
+                <rubric xml:lang="syr">ܕܝ̈ܠܝܬܐ ܕܓ̈ܘܫܡܐ</rubric>
+                <rubric xml:lang="syr">ܡܢ ܦܪܓܡܛܝܐ ܕܫܪܝ ܒܥܬܐ ܕܝܘ̈ܠܦܢܐ ܗ̇ܝ ܕܐܝܬܘܗܝ ܫܘܪܝܗ̣̇. ܕܐܢ ܐܠܗܐ ܕܥܠ
+                ܟܠ܇ ܐܝ̈ܕܝܐ ܘܪ̈ܓܠܐ ܘܥܝ̈ܢܐ ܘܐ̈ܕܢܐ̇. ܘܓ̈ܦܐ ܡܫܬܡܗ ܡܢ ܟܬܒܐ ܕܐܝܬ ܠܗ.</rubric>
+              </msItem>
+              <msItem xml:id="b50" n="89">
+                <locus from="179a"/>
+                <author ref="http://syriaca.org/person/512">Gregory Nyssen</author>
+                <title xml:lang="en">Against the Tritheists</title>
+                <title>Extract from <persName>Gregory Nyssen</persName>
+                </title>
+                <rubric xml:lang="syr">ܠܘܩܒܠ ܛܪ̈ܝܬܝܛܐ̣ ܐܝܟ ܕܒܙܥܘܪ̈ܝܬܐ</rubric>
+                <rubric xml:lang="syr">ܡܢ ܬܘܪܓܡܐ ܗ̇ܘ ܕܐܡ̣ܪ ܥܠ ܟܪܘܛܘܢܝܐ ܕܝܠܗ</rubric>
+              </msItem>
+              <msItem xml:id="b51" n="90">
+                <locus from="179b"/>
+                <author ref="http://syriaca.org/person/513">Gregory Thaumaturgus</author>
+                <title xml:lang="en">Short extracts from <persName>Gregory
+                  Thaumaturgus</persName>
+                </title>
+                <rubric xml:lang="syr">ܡ̈ܠܐ ܕܡܫ̈ܬܩܠܢ ܒ̈ܢܝܫܐ ܡܫܚ̈ܠܦܐ̣. ܕܓܪܝܓܘܪܝܘܣ ܥܒ̇ܕ ܬܕܡܪ̈ܬܐ</rubric>
+                <msItem xml:id="c34" n="91">
+                  <author ref="http://syriaca.org/person/513">Gregory Thaumaturgus</author>
+                  <title xml:lang="en">the first extract</title>
+                  <rubric xml:lang="syr">ܡܢ ܣܝܡܐ ܕܗܝܡܢܘܬܐ ܗ̇ܝ ܕܒܝܕ ܓܠܝܢܐ ܩܒܠ</rubric>
+                </msItem>
+                <msItem xml:id="c35" n="92" defective="true">
+                  <author ref="http://syriaca.org/person/513">Gregory Thaumaturgus</author>
+                  <title xml:lang="en">the second extract</title>
+                  <rubric xml:lang="syr">ܡܢ ܗܝܡܢܘܬܐ ܕܒܡ̈ܢܘܬܐ</rubric>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b52" n="93" defective="true">
+                <locus from="180a"/>
+                <title xml:lang="en">A dialogue on the points of controversy between the
+                Monophysites and other sects</title>
+                <note>imperfect at the beginning</note>
+              </msItem>
+              <msItem xml:id="b53" n="94">
+                <locus from="183b"/>
+                <author ref="http://syriaca.org/person/376">Basil</author>
+                <author ref="http://syriaca.org/person/512">Gregory Nyssen</author>
+                <title xml:lang="en">On looking to the East during prayer</title>
+                <title>Extracts from <persName>Basil</persName> and
+                  <persName>Gregory Nyssen</persName>
+                </title>
+                <rubric xml:lang="syr">ܥܠ ܚܘܪܢ ܕܠܡܕܢܚܐ ܕܒܥܕܢ ܨܠܘܬܐ</rubric>
+                <msItem xml:id="c36" n="95">
+                  <author ref="http://syriaca.org/person/376">Basil</author>
+                  <title xml:lang="en">extract from <persName>Basil</persName>
+                  </title>
+                  <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܠܘܬ ܐܡܦܝܠܘܟܝܘܣ̣ ܘܡܛܠ ܪܘܚܐ ܩܕܝܫܐ.</rubric>
+                </msItem>
+                <msItem xml:id="c37" n="96">
+                  <author ref="http://syriaca.org/person/512">Gregory Nyssen</author>
+                  <title xml:lang="en">extract from <persName>Gregory Nyssen</persName>
+                  </title>
+                  <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܚܡܫܐ ܕܥܠ ܨܠܘܬܐ ܕܐܒܘܢ ܕܒܫܡܝܐ.</rubric>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b54" n="97">
+                <locus from="184a"/>
+                <author ref="http://syriaca.org/person/44">Philoxenus</author>
+                <author ref="http://syriaca.org/person/51">Severus</author>
+                <title xml:lang="en">Regarding the Council of Chalcedon</title>
+                <title>Extracts from Philoxenus and Severus</title>
+                <rubric xml:lang="syr">ܕܥܬܝܕܐ ܕܬܒܛܠ ܣܘܢܗܕܘܣ ܕܟܠܩܝܕܘܢܐ̣ ܘܡܛܠ ܡ̈ܠܟܐ</rubric>
+                <msItem xml:id="c38" n="98">
+                  <author ref="http://syriaca.org/person/44">Philoxenus</author>
+                  <title xml:lang="en">extract from <persName>Philoxenus</persName>
+                  </title>
+                  <rubric xml:lang="syr">ܡܢ ܐܓܪܬܐ ܕܠܘܬ ܕܝܪ̈ܝܐ ܡܕܢܚ̈ܝܐ</rubric>
+                </msItem>
+                <msItem xml:id="c39" n="99">
+                  <author ref="http://syriaca.org/person/51">Severus</author>
+                  <title xml:lang="en">extract from <persName>Severus</persName>
+                  </title>
+                  <rubric xml:lang="syr">ܡܢ ܗܘܦܡܢܣܛܝܩܘܢ ܕܥܣܪ̈ܝܢ ܘܚܕ ܕܠܘܬ ܩܣܪܝܐ ܗܘܦܛܝܣܐ.</rubric>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b55" n="100">
+                <locus from="184b"/>
+                <author>Epiphanius</author>
+                <title xml:lang="en">extracts from the treatise of
+                  <persName>Epiphanius</persName> "de Mensuris" (ed. 1622, tom. ii., pp.
+                158—176)</title>
+                <rubric xml:lang="syr">ܕܐܝܠܝܢ ܬܐܘܪ̈ܝܘܣ ܘܫܘܘ̈ܕܥ̇ܐ ܐܝܬ ܒܢܒܝܘܬܐ̣. ܘܡܛܠ ܡܢܝܢܐ ܘܛܟܣܐ ܕܟܬܒ̈ܐ
+                ܕܕܝܬܩܐ ܥܬܝܩܬܐ̣. ܘܥܠ ܗܠܝܢ ܫܒܥܝܢ ܘܬܪ̈ܝܢ ܕܦܫܩܘ ܐܢܘܢ.</rubric>
+              </msItem>
+              <msItem xml:id="b56" n="101">
+                <locus from="186a"/>
+                <author>Damasus, bishop of Rome</author>
+                <title xml:lang="en">The Synodicon of <persName>Damasus, bishop of
+                  Rome</persName>, against various heresies</title>
+                <rubric xml:lang="syr">ܣܘܢܗܕܝܩܘܢ ܕܩܕܝܫܐ ܕܘܡܣܘܣ ܪܫܐ ܕܐܦܣܩ̈ܘܦܐ ܕܪܗܘܡܐ̣. ܠܘܩܒܠ ܟܠ ܗܪ̈ܣܝܣ
+                ܡܫܚ̈ܠܦܬܐ̣. ܠܘܬ ܦܠܘܝܢܐ ܐܦܣܩܦܐ ܕܗܘ̣ܐ ܒܬܣܠܘܢܝܩܐ.</rubric>
+                <note>See <bibl>Add. 14,529, fol. 1 b</bibl>.</note>
+              </msItem>
+              <msItem xml:id="b57" n="102">
+                <locus from="186b"/>
+                <title xml:lang="en">Creed of the first council of Antioch</title>
+                <rubric xml:lang="syr">ܣܝ̣ܡܐ ܕܗܝܡܢܘܬܐ ܕܣܘܢܗܕܣ ܕܐܬܟ̣ܢܫܬ ܒܐܢܛܝܘܟܝܐ̇. ܒܝ̈ܘܡܝ ܓܠܝܢܘܣ
+                ܡ̇ܠܟܐ. ܕܐܝܬܝܗܘܢ ܗܘܘ ܪ̈ܫܢܗ̣. (sic) ܕܝܢܘܣܝܘܣ ܕܪܗܘܡܐ̣ ܘܕܝܢܘܣܝܘܣ ܕܐܠܟܣܢܕܪܝܐ. ܐܝܬ ܗܘܐ ܒܗ̇
+                ܕܝ̣ܢ ܘܓܪܝܓܘܪܝܘܣ ܥܒ̇ܕ ܬܕܡܪ̈ܬܐ</rubric>
+              </msItem>
+              <msItem xml:id="b58" n="103">
+                <locus from="187a"/>
+                <author ref="http://syriaca.org/person/512">Gregory Nyssen</author>
+                <title xml:lang="en">Against the heathens</title>
+                <title>an extract from <persName>Gregory Nyssen</persName>
+                </title>
+                <rubric xml:lang="syr">ܠܘܩܒܠ ܚܢ̈ܦܐ</rubric>
+                <rubric xml:lang="syr">ܩܦܠܐܘܢ ܕܬܫܥܐ̣. ܡܢ ܡܐܡܪܐ ܕܥܠ ܢܦܫܐ.</rubric>
+              </msItem>
+              <msItem xml:id="b59" n="104" defective="true">
+                <author>Athanasius</author>
+                <title xml:lang="en">Against those who hold that the universe was created of
+                its own will or from a pre-existing ὔλη</title>
+                <title>Extract from Athanasius</title>
+                <rubric xml:lang="syr">ܫܪܝ ܝܘܠܦܢܐ ܕܐܝܠܝܢ ܕܐܡܪܝܢ ܕܡܢ ܨܒܘܬ ܢܦܫܗ̇. ܐܘ ܡܢ ܗܘܠܐ ܕܩܕܝܡܐ ܗܘܬ
+                ܐܬܥܒܕ ܥܠܡܐ.</rubric>
+                <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܕܥܠ ܡܬܒܪܢܫܢܘܬܗ ܕܡܠܬܐ ܘܕܢܚܗ ܕܠܘܬܢ ܕܒܝܕ ܦܓܪܐ</rubric>
+                <note>(<bibl>Opera, ed. 1698, t. i., pars 1, pp. 48 C —49 E</bibl>)</note>
+              </msItem>
+              <msItem xml:id="b60" n="105" defective="true">
+                <locus from="188a"/>
+                <title xml:lang="en">Against the Julianists</title>
+                <rubric xml:lang="syr">ܫ̈ܘܐܠܐ ܕܠܘܩܒܠ ܝܘ̈ܠܝܢܣܛܐ</rubric>
+              </msItem>
+              <msItem xml:id="b61" n="106" defective="true">
+                <locus from="189a"/>
+                <title xml:lang="en">Sentences, numbered from ܥܚ to ܨܚ</title>
+              </msItem>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="perg">
+                <extent>
+                  <measure unit="content_pending" quantity="-1"/>
+                </extent>
+                <foliation/>
+                <collation/>
+                <condition>
+                  <list>
+                    <item>
+                      <p>Vellum, about 10 1/8 in. by 6 7/8, consisting of 189 leaves, some of which
+                        are much stained and torn, especially foll. 1, 11, 12, 119, 131, 134, 167
+                        and 168. The quires, signed with letters, were originally at least 29 in
+                        number (fol. 188 a, ܟܛ), but several of them are now either very imperfect
+                        or altogether lost. Leaves are missing both at the beginning and end, as
+                        well as after foll. 8, 9, 10, 72, 115, 128, 136, 167, 176, 177, 178, 179,
+                        187, and 188. Each page is divided into two columns, of from 38 to 58 lines.</p>
+                    </item>
+                  </list>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <p>Content pending</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
+                <desc>This manuscript is written in a small, in many places rather cursive, hand
+                  of the <date>viiith or ixth cent.</date>
+                </desc>
+              </handNote>
+            </handDesc>
+            <additions/>
+            <bindingDesc>
+              <p>Content pending</p>
+            </bindingDesc>
+            <sealDesc>
+              <p>Content pending</p>
+            </sealDesc>
+            <accMat/>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate notBefore="0700" notAfter="0900">of the viiith or ixth
+                cent.</origDate>
+              <origPlace/>
+            </origin>
+            <provenance/>
+            <acquisition/>
+          </history>
+          <additional>
+            <adminInfo>
+                    <recordHist>
+                        <source>Manuscript description based on <bibl>
+                            <ref target="#Wright">Wright's
+                            Catalogue</ref>
+                        </bibl>, abbreviated by the Syriaca.org editors.</source>
+                    </recordHist>
+                    <note/>
+                </adminInfo>
+            <listBibl>
+              <bibl xml:id="Wright">
+                <author>William Wright</author>
+                <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired
+                        since the Year 1838</title>
+                <pubPlace>London</pubPlace>
+                <date>1870</date>
+                <ptr target="http://syriaca.org/bibl/8"/>
+                <citedRange unit="entry">DCCCLIX</citedRange>
+                <citedRange unit="pp">2:967-976</citedRange>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <interpretation>
+                <p>Description is based on Wright's Catalogue without consultation of physical
+                    manuscripts. Foliation is approximate. Wright often does not indicate ending folia so
+                    those have been assumed based on beginning folia.</p>
+                <p>Scribal notes which could not be more clearly classified based on Wright's descriptions
+                    have been identified as &lt;addition&gt;s whether they occur in the margins or the body
+                    of the manuscript.</p>
+                <p>In general, we have classified as an &lt;msItem&gt; as much of the manuscript contents
+                    as possible, including tables of contents and indices.</p>
+            </interpretation>
+        </editorialDecl>
+        <classDecl>
+            <taxonomy xml:id="Wright-BL-Taxonomy">
+                <bibl>
+                    <ref target="#Wright"/>
+                    <ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy.html"/>
+                </bibl>
+                <category xml:id="biblical-manuscripts">
+                    <category xml:id="bible-ot">
+                        <catDesc>Old Testament</catDesc>
+                    </category>
+                    <category xml:id="bible-nt">
+                        <catDesc>New Testament</catDesc>
+                    </category>
+                    <category xml:id="bible-apocrypha">
+                        <catDesc>Apocrypha</catDesc>
+                    </category>
+                    <category xml:id="bible-punctuation">
+                        <catDesc>Punctuation</catDesc>
+                    </category>
+                </category>
+                <category xml:id="service-books">
+                    <category xml:id="psalter">
+                        <catDesc>Psalters</catDesc>
+                    </category>
+                    <category xml:id="lectionaries">
+                        <catDesc>Lectionaries</catDesc>
+                    </category>
+                    <category xml:id="missals">
+                        <catDesc>Missals</catDesc>
+                    </category>
+                    <category xml:id="sacerdotals">
+                        <catDesc>Sacerdotals</catDesc>
+                    </category>
+                    <category xml:id="choral">
+                        <catDesc>Choral Books</catDesc>
+                    </category>
+                    <category xml:id="hymns">
+                        <catDesc>Hymns</catDesc>
+                    </category>
+                    <category xml:id="prayers">
+                        <catDesc>Prayers</catDesc>
+                    </category>
+                    <category xml:id="funerals">
+                        <catDesc>Funeral Services</catDesc>
+                    </category>
+                </category>
+                <category xml:id="theology">
+                    <category xml:id="theo-single">
+                        <catDesc>Individual Authors</catDesc>
+                    </category>
+                    <category xml:id="theo-collected">
+                        <catDesc>Collected Authors</catDesc>
+                    </category>
+                    <category xml:id="theo-catenae">
+                        <catDesc>Catenae Patrum and Demonstrations against Heresies</catDesc>
+                    </category>
+                    <category xml:id="theo-anonymous">
+                        <catDesc>Anonymous Works</catDesc>
+                    </category>
+                    <category xml:id="theo-council">
+                        <catDesc>Councils of the Church and Ecclesioastical Canons</catDesc>
+                    </category>
+                </category>
+                <category xml:id="wright-history">
+                    <category xml:id="history">
+                        <catDesc>History</catDesc>
+                    </category>
+                </category>
+                <category xml:id="lives">
+                    <category xml:id="lives-collect">
+                        <catDesc>Collected Lives</catDesc>
+                    </category>
+                    <category xml:id="lives-single">
+                        <catDesc>Single Lives</catDesc>
+                    </category>
+                </category>
+                <category xml:id="scientific-lit">
+                    <category xml:id="sci-logic">
+                        <catDesc>Logic and Rhetoric</catDesc>
+                    </category>
+                    <category xml:id="sci-grammar">
+                        <catDesc>Grammar and Lexicography</catDesc>
+                    </category>
+                    <category xml:id="sci-ethics">
+                        <catDesc>Ethics</catDesc>
+                    </category>
+                    <category xml:id="sci-medicine">
+                        <catDesc>Medicine</catDesc>
+                    </category>
+                    <category xml:id="sci-agriculture">
+                        <catDesc>Agriculture</catDesc>
+                    </category>
+                    <category xml:id="sci-chemistry">
+                        <catDesc>Chemistry</catDesc>
+                    </category>
+                    <category xml:id="sci-natural-history">
+                        <catDesc>Natural History</catDesc>
+                    </category>
+                </category>
+                <category xml:id="wright-fly-leaves">
+                    <category xml:id="fly-leaves">
+                        <catDesc>Fly Leaves</catDesc>
+                    </category>
+                </category>
+                <category xml:id="appendices">
+                    <category xml:id="appendix-a">
+                        <catDesc>Appendix A</catDesc>
+                    </category>
+                    <category xml:id="appendix-b">
+                        <catDesc>Appendix B</catDesc>
+                    </category>
+                </category>
+            </taxonomy>
+        </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+            <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            <language ident="syr-Syre">Syriac in Estrangela</language>
+            <language ident="syr-Syrj">Vocalized West Syriac</language>
+            <language ident="syr-Syrn">Vocalized East Syriac</language>
+            <language ident="syr-x-syrm">Melkite Syriac</language>
+            <language ident="syr-x-syrp">Palestinian Syriac</language>
+            <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
+            <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
+            <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="cop">Coptic</language>
+        </langUsage>
+      <textClass>
+        <keywords scheme="#Wright-BL-Taxonomy">
+          <list>
+            <item>
+              <ref target="#theo-catenae"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-03-16">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI encoding.</change>
+      <change type="planned" subtype="checkSyriac">Check Syriac on MSItem Philoxenus of Mabug
+        extracts</change>
+      <change type="planned" subtype="question">Prosphonesis missing diacritical marks</change>
+      <change type="planned" subtype="question">I am unsure if the Syriac segments in the chain
+        portion of "Against the followers of Paul of Beth-Ukkāmē" are actually quotes or if they are
+        rubrics--I have tagged them as quotes for now per Will's instructions, but Wright is using
+        commas and not colons--also an issue in section "Charges made by the followers of
+        Paul of Beth-Ukkāmē</change>
+      <change type="planned" subtype="question">I am unsure if the Syriac in "Creed of the first
+        council of Antioch" is a quote or the rubric</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <formula>Content pending</formula>
+  </facsimile>
+  <text>
+    <body>
+      <bibl>Content pending</bibl>
+    </body>
+  </text>
+</TEI>
