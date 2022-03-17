@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14589</title>
+        <title level="a" xml:lang="en">BL Add MS 14,589, foll. 35, et passim, lower text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#cchen">Claire Chen</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -49,7 +50,7 @@
     </editionStmt>
       <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/325/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1504/tei</idno>
         <availability>
             <p/>
             <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -59,15 +60,15 @@
         <date calendar="Gregorian">2022-01-21-06:00</date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-325">
+        <msDesc xml:id="manuscript-1504">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/325</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1504</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14589</idno>
+              <idno type="BL-Shelfmark">Add MS 14,589, foll. 35, et passim, lower text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -82,127 +83,13 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <author ref="http://syriaca.org/person/573">John Chrysostom</author>
-              <title xml:lang="en">Discourses of John Chrysostom</title>
-              <msItem xml:id="b1" n="2" defective="true">
-                <locus from="1a"/>
-                <author ref="http://syriaca.org/person/573">John Chrysostom</author>
-                <title xml:lang="en">On the Presentation of our <persName>Lord in the
-                    Temple</persName> and on <persName>S. Simeon the Aged</persName>
-                </title>
-                <note>imperfect at the beginning</note>
-              </msItem>
-              <msItem xml:id="b2" n="3">
-                <locus from="6b"/>
-                <title xml:lang="en">On the ten Virgins</title>
-                <rubric xml:lang="syr">ܬܘܒ ܕܝܠܗ ܕܡܪܝ ܝܘܢܝܣ. ܕܥܠ ܥ̈ܣܪ ܒ̈ܬܘܠܬܐ</rubric>
-                <note>See <bibl>Opera, t. viii., p. 666</bibl>.</note>
-              </msItem>
-            </msItem>
-            <msItem xml:id="a2" n="4">
-              <locus from="13b"/>
-              <author>Jacob of Batnae</author>
-              <title xml:lang="en">Metrical discourse of Jacob of Batnae on the Dead</title>
-              <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥ̈ܢܝܕܐ</rubric>
-              <note>See <bibl>Assemani, Bibl. Or., t. i., p. 313, no. 44, serm. iii</bibl>.</note>
-            </msItem>
-            <msItem xml:id="a3" n="5">
-              <locus from="16a"/>
-              <title xml:lang="en">An extract from the "<ref>Illustrations of the Paradise of
-                  Palladius</ref>," in the form of a dialogue</title>
-              <incipit xml:lang="syr">܏ܬܘܒ ܏ܡܢ ܏ܦܘܫܩܐ ܏ܕܦܪܕܝܣܐ܀: ܏ܩܝܙ: ܏ܐܚ̈ܐ ܏ܐܡ̇ܪܝܢ܀ ܩܠܝܠ ܡ̈ܠܐ
-                ܐܡܝܪܢ ܠܐܒܐ ܦܦܢܘܛ ܥܠ ܪܓܝ̈ܓܬܐ. ܘܣ̇ܓܝ ܥܲܡܘܛ ܠܢ ܣܘܟܠܗܝܢ ܡܛܠ ܙܢ̣ܐ ܠܐ ܪܕܝܐ
-                ܕܪܘܟܒܗܝܢ</incipit>
-              <note>See <bibl>Add. 17,263 and 17,264</bibl>.</note>
-            </msItem>
-            <msItem xml:id="a4" n="6">
-              <author>Jacob of Batnae</author>
-              <title xml:lang="en">Metrical discourses of Jacob of Batnae</title>
-              <msItem xml:id="b3" n="7">
-                <locus from="17b"/>
-                <author>Jacob of Batnae</author>
-                <title xml:lang="en">On Love</title>
-                <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܚܘܒܐ</rubric>
-                <note>See <bibl>Assemani, Bibl. Or., t. i., p. 316, no. 84</bibl>.</note>
-              </msItem>
-              <msItem xml:id="b4" n="8">
-                <locus from="27b"/>
-                <author>Jacob of Batnae</author>
-                <title xml:lang="en">
-                  <ref target="http://syriaca.org/work/8836">On the rich man and <persName>Lazarus</persName>
-                  </ref>
-                </title>
-                <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܥܬܝܪܐ ܘܠܥܙܪ</rubric>
-                <note>See <bibl>Assemani, p. 316, no. 89</bibl>.</note>
-              </msItem>
-              <msItem xml:id="b5" n="9">
-                <locus from="52b"/>
-                <author>Jacob of Batnae</author>
-                <title xml:lang="en">On the Dead</title>
-                <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܥܢ̈ܝܕܐ</rubric>
-                <note>See <bibl>Assemani, p. 313, no. 44, serm. v</bibl>.</note>
-              </msItem>
-              <msItem xml:id="b6" n="10">
-                <locus from="63a"/>
-                <author>Jacob of Batnae</author>
-                <title xml:lang="en">On Lent</title>
-                <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܨܘܡܐ</rubric>
-                <note>See <bibl>Assemani, p. 315, no. 69, serm. iii</bibl>.</note>
-              </msItem>
-              <msItem xml:id="b7" n="11" defective="true">
-                <locus from="71a"/>
-                <author>Jacob of Batnae</author>
-                <title xml:lang="en">On Lent</title>
-                <rubric xml:lang="syr">ܬܘܒ ܕܨܘܡܐ</rubric>
-                <note>See <bibl>Assemani, p. 315, no. 69, serm. ii</bibl>.</note>
-              </msItem>
-            </msItem>
-            <msItem xml:id="a5" n="12">
-              <locus to="71" from="66"/>
-              <title xml:lang="en">Fragments of a Lectionary from <ref target="http://syriaca.org/work/9645">the Gospels</ref>,
-                apparently of the ixth cent.</title>
-              <rubric xml:lang="syr">
-                <locus from="69a "/>ܩܪܝܢܐ ܕܦܠܓܗ ܕܝܘܡܐ ܕܥܪ܏ܘܒ. ܐܘܢܓܠܝܘܢ
-                ܏ܩܕ. ܕܝܘܚܢܢ</rubric>
-              <rubric xml:lang="syr">
-                <locus from="71a "/>ܠܘܩܐ</rubric>
-            </msItem>
-            <msItem xml:id="a6" n="13">
-              <title xml:lang="en">Fragments of a similar volume, of somewhat later
-                date</title>
-              <note>Perhaps belonging to the same manuscript as <bibl>Add. 14,451, fol. 88</bibl>,
-                and <bibl>Add. 14,452, fol. 58</bibl>.</note>
-              <note>On fol. 3b we find <ref target="http://syriaca.org/work/9646">S. Matthew, ch.
-                  xx. 32</ref>; on fol. 5b, <ref target="http://syriaca.org/work/9641">S. John, ch.
-                  xv. 1</ref>; on fol. 6a, <ref target="http://syriaca.org/work/9641">S. John, ch.
-                  xv. 5</ref>; on fol. 8b, <ref target="http://syriaca.org/work/9646">S. Matthew,
-                  ch. iii, 15</ref>; on fol. 15a, <ref target="http://syriaca.org/work/9648">S.
-                    Luke, ch. xxiii. 19</ref>; on fol. 15b, <ref target="http://syriaca.org/work/9648">S. Luke, ch. xxiii. 29</ref>; on
-                foll. 30b and 31a, <ref target="http://syriaca.org/work/9646">S. Matthew, ch.
-                  xxviii. 12</ref>; etc.</note>
-            </msItem>
-            <msItem xml:id="a7" n="14">
-              <title xml:lang="en">A few leaves from a manuscript of the viith or viiith
-                cent., of which the contents cannot he stated with certainty</title>
-              <msItem xml:id="b8" n="15">
-                <locus from="35b"/>
-                <title xml:lang="en">The commencement of a letter</title>
-                <quote xml:lang="syr"> ܕܛܪܣܘܣ ܘܕܡܦܗܣܘܣܛܐ ܘܟܠܗ ܐܬܪܐ ܕܩ̈ܝܠܝܩܝܐ. ܡܦܝܣ ܐܢܐ ܠܟܠ ܡ̇ܢ ܕܦ̇ܓܥ
-                  ܒܗܢܐ . . . . <locus from="35b"/>
+              <locus from="35b"/>
+              <title xml:lang="en">The commencement of a letter</title>
+              <quote xml:lang="syr">ܕܛܪܣܘܣ ܘܕܡܦܗܣܘܣܛܐ ܘܟܠܗ ܐܬܪܐ ܕܩ̈ܝܠܝܩܝܐ. ܡܦܝܣ ܐܢܐ ܠܟܠ ܡ̇ܢ ܕܦ̇ܓܥ
+                  ܒܗܢܐ . . . . <supplied reason="translation" xml:lang="en" resp="http://syriaca.org/documentation/editors.xml#wwright">".... of Tarsus and Mopsuestia, and the whole country of the
+                  Cilicians. I beseech every one who falls in with this……"</supplied><locus from="35b"/>
                 </quote>
-                <quote xml:lang="en">".... of Tarsus and Mopsuestia, and the whole country of the
-                  Cilicians. I beseech every one who falls in with this……”<locus from="35b"/>
-                </quote>
-              </msItem>
-            </msItem>
-            <msItem xml:id="a8" n="16">
-              <locus from="2"/>
-              <locus from="9"/>
-              <title xml:lang="en">Two leaves, foll. 2 and 9, from a manuscript of the
-                  <persName>Octôêchos of Severus</persName>, of about the ixth cent.</title>
-              <quote xml:lang="syr">ܪܣܗ, ܪܗܘ, ܪܣܙ<locus from="2b"/>
-              </quote>
-            </msItem>
+            </msItem>            
           </msContents>
           <physDesc>
             <objectDesc form="codex">
@@ -215,11 +102,8 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Vellum, about 5 7/8 in. by 4 ½, consisting of 74 leaves. The quires, signed
-                        with letters, were probably nine in number, of which the first and last are
-                        wanting. Each page has from 19 to 25 lines. This volume, which is palimpsest
-                        throughout (see below), is written in a current hand of the xith or xiith
-                        cent., with a few Greek vowels (see, for instance, foll. 11 b and 14 b). </p>
+                      <p>Vellum, about 5 7/8 in. by 4 ½, consisting of a few leaves from a manuscript of the <origDate notBefore="0600" notAfter="0800">viith or viiith
+                cent.</origDate>, of which the contents cannot be stated with certainty.</p>
                     </item>
                   </list>
                 </condition>
@@ -243,10 +127,7 @@
             <accMat/>
           </physDesc>
           <history>
-            <origin>
-              <origDate notBefore="1000" notAfter="1200">xith or xiith
-                cent.</origDate>
-              <origDate notBefore="0800" notAfter="0900">ixth cent.</origDate>
+            <origin>              
               <origDate notBefore="0600" notAfter="0800">viith or viiith
                 cent.</origDate>
               <origPlace/>
@@ -438,15 +319,9 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-17">Created new palimpsest URI; edits to msContents, condition, handDesc, and origDate</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-21">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change who="http://syriaca.org/documentation/editors.xml#cchen">Initial TEI encoding.</change>
-      <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
-        encoding. (Because of this there are different dates depending on the MS item)</change>
-      <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs to
-        be checked for accuracy because the last MS item has Syriac fractions and only the
-        numberator is included in this draft (MISSING DENOMINATORS)</change>
-      <change type="planned" subtype="reconstruction">One or more msParts need to be encoded into an
-        historical reconstruction of a no longer extant manuscript.</change>
+      <change who="http://syriaca.org/documentation/editors.xml#cchen">Initial TEI encoding.</change>      
     </revisionDesc>
   </teiHeader>
   <facsimile>
