@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14,589, foll. 35, et passim, lower text</title>
+        <title level="a" xml:lang="en">BL Add MS 14,589, foll. 3, et passim, lower text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -68,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/1504</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14,589, foll. 35, et passim, lower text</idno>
+              <idno type="BL-Shelfmark">Add MS 14,589, foll. 3, et passim, lower text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -83,12 +83,19 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus from="35b"/>
-              <title xml:lang="en">The commencement of a letter</title>
-              <quote xml:lang="syr">ܕܛܪܣܘܣ ܘܕܡܦܗܣܘܣܛܐ ܘܟܠܗ ܐܬܪܐ ܕܩ̈ܝܠܝܩܝܐ. ܡܦܝܣ ܐܢܐ ܠܟܠ ܡ̇ܢ ܕܦ̇ܓܥ
-                  ܒܗܢܐ . . . . <supplied reason="translation" xml:lang="en" resp="http://syriaca.org/documentation/editors.xml#wwright">".... of Tarsus and Mopsuestia, and the whole country of the
-                  Cilicians. I beseech every one who falls in with this……"</supplied><locus from="35b"/>
-                </quote>
+              <locus from="3b"/>              
+              <title xml:lang="en">Fragments of a Lectionary from <ref target="http://syriaca.org/work/9645">the Gospels</ref></title>
+              <note>These fragments are of a somewhat later date than <bibl>Add. 14,589, foll. 66-71, lower text<ptr target="http://syriaca.org/manuscript/1503"/></bibl>, 
+              perhaps belonging to the same manuscript as <bibl>Add. 14,451<ptr target=""/>, fol. <citedRange unit="locus">88</citedRange></bibl>,
+                and <bibl>Add. 14,452<ptr target=""/>, fol. <citedRange unit="locus">58</citedRange></bibl>. 
+                For example, on fol. <locus from="3b">3b</locus> we find <ref target="http://syriaca.org/work/9646">S. Matthew, ch.
+                  xx. 32</ref>; on fol. <locus from="5b">5b</locus>, <ref target="http://syriaca.org/work/9641">S. John, ch.
+                  xv. 1</ref>; on fol. <locus from="6a">6a</locus>, <ref target="http://syriaca.org/work/9641">S. John, ch.
+                  xv. 5</ref>; on fol. <locus from="8b">8b</locus>, <ref target="http://syriaca.org/work/9646">S. Matthew,
+                  ch. iii, 15</ref>; on fol. <locus from="15a">15a</locus>, <ref target="http://syriaca.org/work/9648">S.
+                    Luke, ch. xxiii. 19</ref>; on fol. <locus from="15b">15b</locus>, <ref target="http://syriaca.org/work/9648">S. Luke, ch. xxiii. 29</ref>; on
+                foll. <locus from="30b" to="31a">30b and 31a</locus>, <ref target="http://syriaca.org/work/9646">S. Matthew, ch.
+                  xxviii. 12</ref>; etc.</note><!--JA: The referenced manuscripts in this note require URIs as palimpsest folia within their current manuscripts. The "same manuscript" to which they all possibly belong does not have a shelf-mark in Wright and may require a hypothetical reconstruction and URI-->
             </msItem>            
           </msContents>
           <physDesc>
@@ -102,8 +109,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Vellum, about 5 7/8 in. by 4 ½, consisting of a few leaves from a manuscript of the <origDate notBefore="0600" notAfter="0800">viith or viiith
-                cent.</origDate>, of which the contents cannot be stated with certainty.</p>
+                      <p>Vellum, about 5 7/8 in. by 4 ½.</p>
                     </item>
                   </list>
                 </condition>
@@ -127,9 +133,8 @@
             <accMat/>
           </physDesc>
           <history>
-            <origin>              
-              <origDate notBefore="0600" notAfter="0800">viith or viiith
-                cent.</origDate>
+            <origin>
+              <origDate notBefore="0850" notAfter="1000"/>
               <origPlace/>
             </origin>
             <provenance/>
@@ -319,9 +324,11 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-17">Created new palimpsest URI; edits to msContents, condition, handDesc, and origDate</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-22">Edited URIs</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-16">Created new palimpsest URI; edits to msContents, condition, handDesc, and origDate</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-21">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change who="http://syriaca.org/documentation/editors.xml#cchen">Initial TEI encoding.</change>      
+      <change who="http://syriaca.org/documentation/editors.xml#cchen">Initial TEI encoding.</change>
+      <change type="planned" subtype="reconstruction">URIs needed for manuscripts referenced. Folia of this manuscript and the referenced manuscripts may have been part of a hypothetical manuscript that does not contain a shelf-mark in Wright.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
