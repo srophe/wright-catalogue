@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14623</title>
+        <title level="a" xml:lang="en">BL Add MS 14,623, upper text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#zzhang">Ziyan Zhang</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#zzhang">Ziyan Zhang</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -49,7 +50,7 @@
     </editionStmt>
       <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/363/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1512/tei</idno>
         <availability>
             <p/>
             <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -59,15 +60,15 @@
         <date calendar="Gregorian">2022-02-07-06:00</date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-363">
+        <msDesc xml:id="manuscript-1512">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/363</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1512</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14623</idno>
+              <idno type="BL-Shelfmark">Add MS 14,623, upper text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -82,138 +83,159 @@
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
+              <locus from="1a"/>
               <author>John the monk</author>
               <title xml:lang="en">Selections from the writings of <persName>John the
                   monk</persName>
               </title>
               <msItem xml:id="b1" n="2">
                 <locus from="1a"/>
+                <author>John the monk</author>
                 <title xml:lang="en">On the Publican and the Pharisee</title>
-                <rubric xml:lang="syr"> ܡܐܡܪܐ ܕܥܠ ܡܟܣܐ ܘܦܪܝܫܐ܇ ܕܒܗ ܡܚܘܐ ܬܝܒܘܬܐ ܐܝܟܢܐ ܬܗܘܐ܇ ܕܒܡܟܝܟܘܬܐ
-                  ܢܩܪܘܒ ܠܘܬ ܐܠܗܐ܇ ܪܚܡ ܡܟܝܟܐ. </rubric>
-                <note>See Adde. 12,170, fol. 153a</note>
+                <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܡܟܣܐ ܘܦܪܝܫܐ܇ ܕܒܗ ܡܚܘܐ ܬܝܒܘܬܐ ܐܝܟܢܐ ܬܗܘܐ܇ ܕܒܡܟܝܟܘܬܐ
+                  ܢܩܪܘܒ ܠܘܬ ܐܠܗܐ܇ ܪܚܡ ܡܟܝܟܐ.</rubric>
+                <note>See <bibl>Add. 12,170<ptr target="http://syriaca.org/manuscript/56"/>, fol. <citedRange unit="locus">153a</citedRange></bibl>.</note>
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus from="2a"/>
+                <author>John the monk</author>
                 <title xml:lang="en">On the Incomprehensibility of God</title>
                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܠܐ ܡܬܕܪܟܢܘܬܗ ܕܐܠܗܐ.</rubric>
-                <note>See Add. 12,170, fol. 190a</note>
+                <note>See <bibl>Add. 12,170<ptr target="http://syriaca.org/manuscript/56"/>, fol. <citedRange unit="locus">190a</citedRange></bibl>.</note>
               </msItem>
               <msItem xml:id="b3" n="4">
                 <locus from="4a"/>
+                <author>John the monk</author>
                 <title xml:lang="en">First discourse on Lent</title>
                 <rubric xml:lang="syr">ܡܐܡܪܐ ܩܕܡܝܐ ܥܠ ܨܘܡܐ</rubric>
-                <note>See Add. 12,170, fol. 155a</note>
+                <note>See <bibl>Add. 12,170<ptr target="http://syriaca.org/manuscript/56"/>, fol. <citedRange unit="locus">155a</citedRange></bibl>.</note>
               </msItem>
               <msItem xml:id="b4" n="5">
                 <locus from="5a"/>
+                <author>John the monk</author>
                 <title xml:lang="en">Second discourse on Lent</title>
                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܬܪ̈ܝܢ ܕܥܠ ܨܘܡܐ ܩܕܝܫܐ</rubric>
-                <note>See Add. 12,170, fol. 157 b</note>
+                <note>See <bibl>Add. 12,170<ptr target="http://syriaca.org/manuscript/56"/>, fol. <citedRange unit="locus">157 b</citedRange></bibl>.</note>
               </msItem>
               <msItem xml:id="b5" n="6">
                 <locus from="6b"/>
+                <author>John the monk</author>
                 <title xml:lang="en">On the Thursday in Passion (Holy) Week</title>
                 <rubric xml:lang="syr">ܡܐܡܪܐ ܕܥܠ ܚܡܫܐ ܕܪܙܐ</rubric>
-                <note>See Add. 12,170, fol. 160 b</note>
+                <note>See <bibl>Add. 12,170<ptr target="http://syriaca.org/manuscript/56"/>, fol. <citedRange unit="locus">160 b</citedRange></bibl>.</note>
               </msItem>
               <msItem xml:id="b6" n="7">
                 <locus from="8a"/>
+                <author>John the monk</author>
                 <title xml:lang="en">On the Crucifixion</title>
                 <rubric xml:lang="syr">ܕܥܠ ܨܠܝܒܘܬܐ</rubric>
-                <note>See Add. 12,170, fol. 162 b</note>
+                <note>See <bibl>Add. 12,170<ptr target="http://syriaca.org/manuscript/56"/>, fol. <citedRange unit="locus">162 b</citedRange></bibl>.</note>
               </msItem>
               <msItem xml:id="b7" n="8">
                 <locus from="9b"/>
+                <author>John the monk</author>
                 <title xml:lang="en">On our using diligence to live well</title>
                 <rubric xml:lang="syr">ܕܥܠ ܚܦܝܛܘܬܐ ܕܒܫܦܝܪ̈ܬܐ ܢܗܘܐ ܚ̈ܝܝܢ.</rubric>
-                <note>See Add. 12,170, fol. 186 a</note>
+                <note>See <bibl>Add. 12,170<ptr target="http://syriaca.org/manuscript/56"/>, fol. <citedRange unit="locus">186 a</citedRange></bibl>.</note>
               </msItem>
               <msItem xml:id="b8" n="9">
                 <locus from="10a"/>
+                <author>John the monk</author>
                 <title xml:lang="en">On the same subject</title>
                 <rubric xml:lang="syr">ܥܠܘܗܝ ܕܫܪܒܐ ܕܚܦܝܛܘܬܐ</rubric>
-                <note>See Add. 12,170, fol. 187 b</note>
+                <note>See <bibl>Add. 12,170<ptr target="http://syriaca.org/manuscript/56"/>, fol. <citedRange unit="locus">187 b</citedRange></bibl>.</note>
               </msItem>
             </msItem>
             <msItem xml:id="a2" n="10">
+              <locus from="10b"/>
               <author ref="http://syriaca.org/person/483">Evagrius</author>
               <title xml:lang="en">Selections from the works of
                 <persName ref="http://syriaca.org/person/483">Evagrius</persName>
               </title>
               <msItem xml:id="b9" n="11">
                 <locus from="10b"/>
+                <author ref="http://syriaca.org/person/483">Evagrius</author>
                 <rubric xml:lang="syr">ܥܠ ܕܘܒܪ̈ܐ ܕܡܝܬܪܘܬܐ</rubric>
-                <note>See Add. 14,578, no. 14</note>
+                <note>See <bibl>Add. 14,578<ptr target="http://syriaca.org/manuscript/314"/>, no. <citedRange unit="">14</citedRange></bibl>.</note><!--JA: Attribute unit in element citedRange required; must match Wright's numbering-->
               </msItem>
               <msItem xml:id="b10" n="12">
                 <locus from="11b"/>
+                <author ref="http://syriaca.org/person/483">Evagrius</author>
                 <title xml:lang="en">Dialogue between teacher and pupil, without
                   title</title>
-                <note>See Add. 14,578, no. 24</note>
+                <note>See <bibl>Add. 14,578<ptr target="http://syriaca.org/manuscript/314"/>, no. <citedRange unit="">24</citedRange></bibl>.</note><!--JA: Attribute unit in element citedRange required; must match Wright's numbering-->
               </msItem>
               <msItem xml:id="b11" n="13">
                 <locus from="11b"/>
+                <author ref="http://syriaca.org/person/483">Evagrius</author>
                 <title xml:lang="en">On prayer, without title</title>
-                <note>See Add. 14,578, no. 38 b</note>
+                <note>See <bibl>Add. 14,578<ptr target="http://syriaca.org/manuscript/314"/>, no. <citedRange unit="">38 b</citedRange></bibl>.</note><!--JA: Attribute unit in element citedRange required; must match Wright's numbering-->
               </msItem>
               <msItem xml:id="b12" n="14">
                 <locus from="11b"/>
+                <author ref="http://syriaca.org/person/483">Evagrius</author>
                 <title xml:lang="en">On silence, without title</title>
-                <note>See Add. 14,578, no. 37</note>
+                <note>See <bibl>Add. 14,578<ptr target="http://syriaca.org/manuscript/314"/>, no. <citedRange unit="">37</citedRange></bibl>.</note><!--JA: Attribute unit in element citedRange required; must match Wright's numbering-->
               </msItem>
               <msItem xml:id="b13" n="15">
                 <locus from="12a"/>
+                <author ref="http://syriaca.org/person/483">Evagrius</author>
                 <title xml:lang="en">Admonition, without title</title>
-                <note>See Add. 14,578, no. 34</note>
+                <note>See <bibl>Add. 14,578<ptr target="http://syriaca.org/manuscript/314"/>, no. <citedRange unit="">34</citedRange></bibl>.</note><!--JA: Attribute unit in element citedRange required; must match Wright's numbering-->
               </msItem>
               <msItem xml:id="b14" n="16">
                 <locus from="12a"/>
+                <author ref="http://syriaca.org/person/483">Evagrius</author>
                 <title xml:lang="en">Letter</title>
-                <incipit xml:lang="syr"> ܐܝܕܥܬܟ ܕܙܒ̈ܢܝܢ ܣ̈ܓܝܐܢ̣. ܕܗܪܓ ܗ̇ܘܝܬ ܒܫܪ̈ܒܝ ܟܣܐ ܪܘܚܢܐ.
-                  ܏ܘܫ</incipit>
+                <incipit xml:lang="syr">ܐܝܕܥܬܟ ܕܙܒ̈ܢܝܢ ܣ̈ܓܝܐܢ̣. ܕܗܪܓ ܗ̇ܘܝܬ ܒܫܪ̈ܒܝ ܟܣܐ ܪܘܚܢܐ.
+                  ܏ܘܫ.</incipit>
               </msItem>
               <msItem xml:id="b15" n="17">
                 <locus from="12a"/>
+                <author ref="http://syriaca.org/person/483">Evagrius</author>
                 <title xml:lang="en">Letter</title>
                 <incipit xml:lang="syr">ܐܝܟܢܐ ܕܐܡܪܐ ܡܠܬܐ: ܕܗ̇ܘ ܕܡܬܢܟܬ ܡܢ ܐܟܕܢܐ܇ ܠܘ ܣܓܝ ܚܫܐ ܡܣܝܒܪ: ܐܢ
-                  ܢܫܬܥܐ ܠܐܚܪ̈ܢܐ ܕܢܟܝܬ ܡܢ ܐܟܕܢܐ̣. ܏ܘܫ. </incipit>
+                  ܢܫܬܥܐ ܠܐܚܪ̈ܢܐ ܕܢܟܝܬ ܡܢ ܐܟܕܢܐ̣. ܏ܘܫ.</incipit>
               </msItem>
             </msItem>
             <msItem xml:id="a3" n="18">
-              <author>Jacob of Batnae</author>
-              <title xml:lang="en">Letters of <persName>Jacob of Batnae</persName>
+              <locus from="12b"/>
+              <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
+              <title xml:lang="en">Letters of <persName ref="http://syriaca.org/person/42">Jacob of Batnae</persName>
               </title>
               <msItem xml:id="b16" n="19">
                 <locus from="12b"/>
+                <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
                 <title xml:lang="en">To <persName>Paul the solitary</persName>
                 </title>
                 <rubric xml:lang="syr">ܐܝܓܪܬܐ ܠܦܘܠܐ ܝܚܝܕܝܐ</rubric>
-                <incipit xml:lang="syr"> ܠܚܣܝܐ ܘܪܚܡ̇ܐ ܕܐܠܗܐ̣ ܡܪܝ ܦܘܠܐ ܝܚܝܕܝܐ. ܝܥܩܘܒ ܒܨܝܪܐ̣. ܒܝܫܘܥ
+                <incipit xml:lang="syr">ܠܚܣܝܐ ܘܪܚܡ̇ܐ ܕܐܠܗܐ̣ ܡܪܝ ܦܘܠܐ ܝܚܝܕܝܐ. ܝܥܩܘܒ ܒܨܝܪܐ̣. ܒܝܫܘܥ
                   ܢܘܗܪܐ ܘܚ̈ܝܐ ܘܠܐ ܡܬܚܒܠܢܘܬܐ. ܘܦܪܘܩܐ ܕܟܠ̣ ܫܠܡ܀ ܛܝܒܘܬܐ ܩܕܡܝܬܐ ܘܠܐ ܡܬܡܠܠܢܝܬܐ ܕܥܒ̣ܕ ܐܠܗܐ
                   ܒܓܢܣܢ ܐܝܬܝܗ̣̇ ܗ̇ܝ ܕܒ̣ܪܐ ܠܢ ܒܨܠܡܗ. ܘܕܬܪܬܝܢ ܬܘܒ ܐܝܬܝܗ̇ ܬܢܝܐ ܕܐܝܕܗ̣ ܗ̇ܝ ܕܦܪܩ ܠܢ
-                  ܒܝܚܝܕܝܗ. ܏ܘܫ. .</incipit>
+                  ܒܝܚܝܕܝܗ. ܏ܘܫ.</incipit>
               </msItem>
               <msItem xml:id="b17" n="20">
                 <locus from="13a"/>
+                <author ref="http://syriaca.org/person/42">Jacob of Batnae</author>
                 <title xml:lang="en">To his friend <persName>Simeon</persName>
                 </title>
                 <rubric xml:lang="syr">ܠܘܬ ܫܡܥܘܢ ܡܚܒܢܗ</rubric>
-                <incipit xml:lang="syr"> ܠܡܝܬܪܐ ܘܪܒܐ ܘܪܚܡܐ ܕܐܠܗܐ̣. ܡܪܝ ܫܡܥܘܢ̣ ܡܢ ܝܥܩܘܒ ܡܚܒܢܟ ܒܡܪܢ
+                <incipit xml:lang="syr">ܠܡܝܬܪܐ ܘܪܒܐ ܘܪܚܡܐ ܕܐܠܗܐ̣. ܡܪܝ ܫܡܥܘܢ̣ ܡܢ ܝܥܩܘܒ ܡܚܒܢܟ ܒܡܪܢ
                   ܫܠ̣ܡ .. ܘܡܛܠ ܫܘܦܪܐ ܕܕܘܒܪ̈ܝܟ ܡܝܬܪ̈ܐ̣ ܥܠܬ ܫܘܒܚܐ ܥܒܝܕ ܐܢܬ ܠܣ̈ܓܝܐܐ. ܘܩܪܝܒܐ ܗ̣ܝ ܠܟ ܒܪܬ
-                  ܩܠܐ ܕܐܡ̇ܪܐ: ܕܛܘܒܘܗܝ ܠܥܒ̣ܕܐ ܕܢܫܬܒܚ ܫܡܐ ܕܡܪܗ ܡܛܠܬܗ. ܏ܘܫ..</incipit>
+                  ܩܠܐ ܕܐܡ̇ܪܐ: ܕܛܘܒܘܗܝ ܠܥܒ̣ܕܐ ܕܢܫܬܒܚ ܫܡܐ ܕܡܪܗ ܡܛܠܬܗ. ܏ܘܫ.</incipit>
               </msItem>
             </msItem>
-            <msItem xml:id="a4" n="21">
+            <msItem xml:id="a4" n="21" defective="true">
               <locus from="13b"/>
               <author ref="http://syriaca.org/person/13">Ephraim</author>
               <title xml:lang="en">Letter of <persName ref="http://syriaca.org/person/13">Ephraim</persName> to the monks who
                 dwelt in the mountains</title>
-              <rubric xml:lang="syr"> ܐܝܓܪܬܐ ܕܡܪܝ ܐܦܪܝܡ ܠܘܬ ܛܘܪ̈ܝܐ. </rubric>
-              <note>It is imperfect at the end, a portion of fol. 17 a having been left blank. </note>
-              <note>See Overbeck, S. Ephraemi Syri etc. Opera Selecta, pp. xiv. and 113.</note>
+              <rubric xml:lang="syr">ܐܝܓܪܬܐ ܕܡܪܝ ܐܦܪܝܡ ܠܘܬ ܛܘܪ̈ܝܐ.</rubric>
+              <note>It is imperfect at the end, a portion of fol. <locus from="17a">17 a</locus> having been left blank. </note>
+              <note>See <bibl>Overbeck, S. Ephraemi Syri etc. Opera Selecta, pp. xiv. and 113.</bibl></note>
             </msItem>
             <msItem xml:id="a5" n="22">
+              <locus from="17b"/>
               <author ref="http://syriaca.org/person/573">John Chrysostom</author>
               <title xml:lang="en">Extracts from the writings of <persName ref="http://syriaca.org/person/573">John
                   Chrysostom</persName>
@@ -221,35 +243,35 @@
               <rubric xml:lang="syr">ܬܚ̈ܘܝܬܐ ܡ̈ܓܒܝܬܐ ܕܡܪܝ ܝܘܗܢܝܣ ܡܠܦܢܐ</rubric>
               <msItem xml:id="b18" n="23">
                 <locus from="17b"/>
-                <title xml:lang="en">Without title</title>
-                <incipit xml:lang="syr"> ܐܓܘܢܐ ܗܘܓܝܪ ܪܒܐ ܗܢܐ ܕܠܗ ܥܠܝܠܝܢ ܚܢܢ. ܘܬܟܬܘܫܐ ܕܒܗ̣ ܕܠܘܬ
-                  ܚܝ̈ܠܘܬܐ ܕܠܐ ܡܬܚܙܝܢ ܐܝܬܘܗܝ. ܏ܘܫ..</incipit>
+                <title xml:lang="en">Part a, without title</title>
+                <incipit xml:lang="syr">ܐܓܘܢܐ ܗܘܓܝܪ ܪܒܐ ܗܢܐ ܕܠܗ ܥܠܝܠܝܢ ܚܢܢ. ܘܬܟܬܘܫܐ ܕܒܗ̣ ܕܠܘܬ
+                  ܚܝ̈ܠܘܬܐ ܕܠܐ ܡܬܚܙܝܢ ܐܝܬܘܗܝ. ܏ܘܫ.</incipit>
               </msItem>
               <msItem xml:id="b19" n="24">
                 <locus from="17b"/>
-                <title xml:lang="en">Without title</title>
-                <incipit xml:lang="syr"> ܠܐ ܗܟܝܠ ܢܛܥܐ ܒܢܦܫ̣ܢ ܘܠܐ ܡܢ ܟܠܦܪܘܣ ܚ̈ܝܐ ܕܢܝܚܐ ܢܓܒ̣ܐ ܠܢ.
-                  ܠܐܝܢܐ ܠܡ ܓܝܪ ܕܪܚ̇ܡ ܠܗ ܡܪܝܐ̣ ܪܕܐ ܠܗ..</incipit>
+                <title xml:lang="en">Part b, without title</title>
+                <incipit xml:lang="syr">ܠܐ ܗܟܝܠ ܢܛܥܐ ܒܢܦܫ̣ܢ ܘܠܐ ܡܢ ܟܠܦܪܘܣ ܚ̈ܝܐ ܕܢܝܚܐ ܢܓܒ̣ܐ ܠܢ.
+                  ܠܐܝܢܐ ܠܡ ܓܝܪ ܕܪܚ̇ܡ ܠܗ ܡܪܝܐ̣ ܪܕܐ ܠܗ.</incipit>
               </msItem>
               <msItem xml:id="b20" n="25">
                 <locus from="18b"/>
-                <title xml:lang="en">Without title</title>
-                <incipit xml:lang="syr"> ܠܢ ܗܟܝܠ̣. ܕܠܐ ܡܛܠ ܩܝܡܬܐ ܒܠܚܘܕ ܢܘܕܐ ܠܐܠܗܐ̣. ܐܠܐ ܐܦ ܡܛܠܬܗ
-                  ܕܣܒܪܐ ܕܩܝܡܬܐ..</incipit>
+                <title xml:lang="en">Part c, without title</title>
+                <incipit xml:lang="syr">ܠܢ ܗܟܝܠ̣. ܕܠܐ ܡܛܠ ܩܝܡܬܐ ܒܠܚܘܕ ܢܘܕܐ ܠܐܠܗܐ̣. ܐܠܐ ܐܦ ܡܛܠܬܗ
+                  ܕܣܒܪܐ ܕܩܝܡܬܐ.</incipit>
               </msItem>
               <msItem xml:id="b21" n="26">
                 <locus from="19a"/>
-                <title xml:lang="en">From the discourse against the Jews, (sic) </title>
-                <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܗ̇ܘ ܕܠܘܩܒܠ ܝܘ̈ܗܕܝܐ</rubric>
-                <incipit xml:lang="syr"> ܠܐ ܕܝܢ ܢܣ̣ܒܪܝܗ̇ ܠܡܠܬܢ ܐܝܟ ܗ̇ܘ ܕܠܐ ܝܕܥܐ ܠܡܦܪܫ ܙܒܢܐ ܡܢ ܙܒܢܐ̇.
+                <title xml:lang="en">From the discourse against the Jews</title>
+                <rubric xml:lang="syr">ܡܢ ܡܐܡܪܐ ܗ̇ܘ ܕܠܘܩܒܠ <sic>ܝܘ̈ܗܕܝܐ</sic></rubric>
+                <incipit xml:lang="syr">ܠܐ ܕܝܢ ܢܣ̣ܒܪܝܗ̇ ܠܡܠܬܢ ܐܝܟ ܗ̇ܘ ܕܠܐ ܝܕܥܐ ܠܡܦܪܫ ܙܒܢܐ ܡܢ ܙܒܢܐ̇.
                   ܕܟܕ ܝܘܡܐ ܕܕܘܟܪܢܐ ܕܣ̈ܗܕܐ ܟ̇ܢܫ ܠܢ̇. ܚܢܢ ܫܒܩܢ ܬܫܥܝܬܐ ܕܢܨ̈ܚܢܝܗܘܢ̇. ܘܥܡ ܝܘ̈ܗܕܝܐ ܕܢܬܟܬܫ
-                  ܡܬܚܦܛܝܢܢ..</incipit>
+                  ܡܬܚܦܛܝܢܢ.</incipit>
               </msItem>
               <msItem xml:id="b22" n="27">
-                <locus from="19a"/>
-                <title xml:lang="en">Without title</title>
+                <locus from="19b"/>
+                <title xml:lang="en">Part e, without title</title>
                 <incipit xml:lang="syr">ܐܚ̈ܝ̣ ܙܕܩ ܠܢ ܕܩܕܡ ܗܠܝܢ ܟܠܗܝܢ ܐܚܪ̈ܢܝܬܐ̣. ܠܝܘܡܐ ܗ̇ܘ ܢܥ̣ܗܕܝܘܗܝ.
-                  ܏ܘܫ. .</incipit>
+                  ܏ܘܫ.</incipit>
               </msItem>
               <msItem xml:id="b23" n="28">
                 <locus from="19b"/>
