@@ -607,11 +607,11 @@
                   <locus from="88b"/>
                   <p>In another note on the same page we are told that this volume was presented,
                     with nine others, to <placeName ref="https://syriaca.org/place/360">the convent of S. Mary Deipara</placeName> by <persName>Isaac</persName>, <persName>Daniel</persName> and
-                    <persName>Solomon</persName>, monks of <placeName>the Syrian convent of Mār Jonah</placeName> in the district of <placeName>Marīs</placeName> or
-                    Mareia, when Cosmas II. [See Renaudot, Hist. Patr. Jacob. Alesandr., p. 295 ; Le
-                    Quien, Or. Christ., t. ii., col. 469.] was patriarch of Alex¬andria and John
-                    III. [ See Assemani, Bibl. Or., t. ii., p. 348; Le Quien, Or. Christ., t. ii.,
-                    col. 1374.] of Antioch (con-sequently between A.D. 851 and 859). </p>
+                    <persName>Solomon</persName>, monks of <placeName>the Syrian convent of Mār Jonah</placeName> in the district of <placeName>Marīs</placeName> (<placeName xml:lang="ar">مَرِّيسَة</placeName>) or
+                    <placeName>Mareia</placeName>, when <persName>Cosmas II.</persName><note type="footnote">See <bibl>Renaudot, Hist. Patr. Jacob. Alesandr., p. 295</bibl>; <bibl>Le
+                    Quien, Or. Christ., t. ii., col. 469</bibl>.</note> was patriarch of <placeName ref="https://syriaca.org/place/2620">Alexandria</placeName> and <persName ref="http://syriaca.org/person/167">John
+                    III.</persName><note type="footnote">See <bibl>Assemani, Bibl. Or., t. ii., p. 348</bibl>; <bibl>Le Quien, Or. Christ., t. ii.,
+                    col. 1374</bibl>.</note> of <placeName ref="https://syriaca.org/place/2610">Antioch</placeName> (consequently <date calendar="Gregorian" notBefore="0851" notAfter="0859">between A.D. 851 and 859</date>). </p>
                   <p>
                     <quote xml:lang="syr"> ܟܠ ܕܩܪܐ ܢܨܠܐ ܥܠ ܐܝܣܚܩ ܘܕܢܝܐܝܠ ܘܫܠܡܘܢ ܕܝܪ̈ܝܐ ܢܟ̈ܦܐ ܕܡܪܝ
                       ܝܘܢܢ ܕܣܘܪ̈ܝܝܐ ܕܒܡܪܝܣ ܕܫܟܢܘ ܟܬܒܐ ܗܢܐ ܥܡ ܬܫܥܐ ܐܚܪ̈ܢܐ ܠܕܝܪܐ ܕܝܠܕܬ ܐܠܗܐ ܕܣܘܪ̈ܝܝܐ
@@ -621,7 +621,11 @@
                   </p>
                 </item>
                 <item xml:id="addition3" n="3">
-                  <p>Between the above notes there are written in a good Arabic hand the words </p>
+                  <p>Between the above notes there are written in a good Arabic hand the words
+                  <quote xml:lang="ar">�</quote>, i.e. <quote xml:lang="ar">خَوَاصُّ النَّفْس الخَطَر والذِّهْن والفِكْرة والفَهْم والعَقْل،</quote>
+                  <note type="incomplete" resp="http://syriaca.org" xml:lang="en">The original description of this manuscript by William Wright includes characters, symbols, or illustrations
+                  which cannot be represented. Please consult the attached image.</note>
+                  </p><!--JA: Wright includes Arabic script without consonantal diacritics where indicated in previous <quote>-->
                 </item>
               </list>
             </additions>
@@ -826,16 +830,9 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-24">Edits to msContents, condition, handDesc, and additions; created new URI for palimpsest</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-02-07">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change who="http://syriaca.org/documentation/editors.xml#zzhang">Initial TEI encoding.</change>
-      <change type="planned" subtype="question">Question in Word Doc to be Addressed: Many person
-        names cannot be identified, did CommandE persName but didn't attach link</change>
-      <change type="planned" subtype="question">Question in Word Doc to be Addressed: Check "wrongly
-        ascribed to Evagrius"</change>
-      <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
-        encoding. Last paragraph "As mentioned above..."</change>
-      <change type="planned" subtype="arabic">Add missing Arabic text. See the 3rd additions
-        "Between the above notes..."</change>
+      <change who="http://syriaca.org/documentation/editors.xml#zzhang">Initial TEI encoding.</change>      
     </revisionDesc>
   </teiHeader>
   <facsimile>
