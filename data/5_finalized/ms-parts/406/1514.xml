@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14642</title>
+        <title level="a" xml:lang="en">BL Add. MS 14,642, upper text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -49,7 +50,7 @@
       </editionStmt>
       <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/406/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1514/tei</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -59,15 +60,15 @@
         <date calendar="Gregorian"/>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-406">
+        <msDesc xml:id="manuscript-1514">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/406</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1514</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14642</idno>
+              <idno type="BL-Shelfmark">Add MS 14,642, upper text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,24 +82,25 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              <locus to="41" from="1"/>
-              <author ref="http://syriaca.org/person/480">Eusebius</author>
-              <author>Andronicus</author>
-              <author>Others</author>
-              <title xml:lang="en">Part of a Chronicle, chiefly ecclesiastical, compiled from
-                the similar works of <persName>Eusebius</persName>, <locus from="1b">fol. 1
+              <locus from="1b" to="41"/>
+              <title xml:lang="en">Part of a Chronicle, chiefly ecclesiastical</title>
+                <msItem xml:id="b1" n="2" defective="true">
+                  <locus from="1b" to="36a"/>
+                  <title xml:lang="en">Part of a Chronicle, chiefly ecclesiastical, compiled from
+                     the similar works of <persName ref="https://syriaca.org/person/480">Eusebius</persName>, <locus from="1b">fol. 1
                   b</locus>, <persName>Andronicus</persName>, <locus from="1b">foll. 1 b</locus>,
                   <locus from="15a">15 a</locus>, and others, and continued to <date datingMethod="Seleucid" when-custom="1108">A. Gr.
                   1108</date>, <date calendar="Gregorian" when="0797">A.D. 797</date>, <locus from="36a">fol. 36 a</locus>.</title>
-              <note>The later additions, <locus from="36b" to="39a">foll. 36 b—39 a</locus>, bring
-                the history down to <date datingMethod="Seleucid" when-custom="1122">A.Gr. 1122</date>, <date calendar="Gregorian" when="0811">A.D. 811</date>
-              </note>
+                </msItem>
+                <msItem xml:id="b2" n="3" defective="true">  
+                  <locus from="36b" to="39a"/>
+                  <title xml:lang="en">Later additions that bring
+                   the history down to <date datingMethod="Seleucid" when-custom="1122">A.Gr. 1122</date>, <date calendar="Gregorian" when="0811">A.D. 811</date></title>
+                </msItem>
               <note>
-                <locus from="40">Foll. 40</locus> and <locus from="41">41</locus> are small
+                <locus from="40" to="41">Foll. 40 and 41</locus> are small
                 fragments, belonging to the older part of the volume, but of which it seems
                 impossible to determine the proper place.</note>
-              <note>This volume is palimpsest throughout, being made up, to all appearance, of
-                portions of five Greek manuscripts.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -115,11 +117,10 @@
                       <p>Vellum, about 9 1/8 in. by 6, consisting of 41 leaves, many of which are
                         much stained and torn, especially foll. 1—8, 12, 22, 24, 25, 31, 32, and
                         34—41. The quires, signed with letters, seem to have been 5 in number, but
-                        only <foreign>ܓ</foreign> perfect, leaves being wanting at the beginning,
+                        only <foreign xml:lang="syr">ܓ</foreign> is perfect, leaves being wanting at the beginning,
                         and after foll. 7, 13, 23, and 31. There are from 30 to 34 lines in each
-                        page. This volume is written in a good, regular hand of the earlier part of
-                          the<date> xth cent</date>., with the exception of foll. 36 b—39 a, which
-                        are in a smaller and more cursive character of about the same date. </p>
+                        page. This volume is palimpsest throughout, being made up, to all appearance, of
+                        portions of five Greek manuscripts.</p>
                     </item>
                   </list>
                 </condition>
@@ -128,23 +129,14 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="2">
+              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr">
+                <desc>This volume is written in a good, regular hand of <origDate notBefore="0900" notAfter="0950">the earlier part of
+                          the xth cent.</origDate>, with the exception of foll. 36 b—39 a, which
+                        are in a smaller and more cursive character of about the same date.</desc>
               </handNote>
             </handDesc>
-            <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                  <locus/>
-                  <p/>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                </item>
-              </list>
-            </additions>
+            <additions/>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -155,7 +147,8 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0900" notAfter="1000">xth cent.</origDate>
+              <origDate notBefore="0900" notAfter="0950">The earlier part of
+                          the xth cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -345,12 +338,11 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change when="2022-03-25" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edits to msContents, condition, handDesc, and origDate; created new palimpsest URIs</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-06-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-06-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-05-24" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
-        encoding.</change>
-      <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
-        encoding.</change>
+        encoding.</change>      
     </revisionDesc>
   </teiHeader>
   <facsimile>
