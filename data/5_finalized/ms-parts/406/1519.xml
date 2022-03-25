@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14642</title>
+        <title level="a" xml:lang="en">BL Add. MS 14,642, fol. 21, lower text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#lruth">Lindsay Ruth</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -49,7 +50,7 @@
       </editionStmt>
       <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/406e/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1519/tei</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -59,15 +60,15 @@
         <date calendar="Gregorian"/>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-406e">
+        <msDesc xml:id="manuscript-1519">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/406e</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1519</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14642</idno>
+              <idno type="BL-Shelfmark">Add. MS 14,642, fol. 21, lower text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -79,11 +80,10 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <textLang mainLang="syr"/>
+            <textLang mainLang="grc"/>
             <msItem xml:id="a1" n="1">
               <locus from="21"/>
-              <title xml:lang="en">From one written in a smaller character, of the same
-                date</title>
+              <title xml:lang="en">Unspecified contents</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -97,7 +97,7 @@
                 <condition>
                   <list>
                     <item>
-                      <p>Fol. 21, from one written in a smaller character, of the same date</p>
+                      <p>Vellum, about 9 1/8 in. by 6. This folio is of the same date as <bibl>Add. MS 14,642, fol. 11, lower text<ptr target="http://syriaca.org/manuscript/1518"/></bibl>.</p>
                     </item>
                   </list>
                 </condition>
@@ -107,22 +107,11 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr">
-                <desc/>
+              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="grc">
+                <desc>This folio is written in a smaller character than <bibl>Add. MS 14,642, fol. 11, lower text<ptr target="http://syriaca.org/manuscript/1518"/></bibl>.</desc>
               </handNote>
             </handDesc>
-            <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                  <locus/>
-                  <p/>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                </item>
-              </list>
-            </additions>
+            <additions/>
             <bindingDesc>
               <p>Content pending</p>
             </bindingDesc>
@@ -133,7 +122,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0800" notAfter="0900">ixth cent.</origDate>
+              <origDate calendar="Gregorian" notBefore="0800" notAfter="0900">ixth cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -157,8 +146,8 @@
                 <pubPlace>London</pubPlace>
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
-                <citedRange unit="entry"/>
-                <citedRange unit="pp"/>
+                <citedRange unit="entry">DCCCCXVI</citedRange>
+                <citedRange unit="pp">3:1041-1042</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -323,12 +312,12 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change when="2022-03-25" who="http://syriaca.org/documentation/editors.xml#jarnwine">Created new palimpsest URI; edits to msContents, condition, handDesc, and origDate</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-06-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-06-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-05-24" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
         encoding.</change>
-      <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
-        encoding.</change>
+      <change type="planned" subtype="consultation">Wright's description is so incomplete that the physical manuscript needs to be consulted and redescribed.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
