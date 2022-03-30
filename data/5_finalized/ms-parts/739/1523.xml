@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17110</title>
+        <title level="a" xml:lang="en">BL Add. MS 17,110, foll. 2-46, 48-60, 62-77</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -49,7 +50,7 @@
     </editionStmt>
       <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/739/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1523/tei</idno>
         <availability>
             <p/>
             <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -59,15 +60,15 @@
         <date calendar="Gregorian">2021-09-17-04:00</date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-739">
+        <msDesc xml:id="manuscript-1523">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/739</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1523</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17110</idno>
+              <idno type="BL-Shelfmark">Add. MS 17,110, foll. 2-46, 48-60, 62-77</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -82,205 +83,163 @@
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
               <locus from="2b"/>
-              <title xml:lang="en">The Psalms, according to the Peshitta
+              <title xml:lang="en" ref="https://syriaca.org/work/19">The Psalms, according to the Peshitta
                                 version</title>
-              <rubric xml:lang="syr">ܟܬܒܐ: ܕܬܫܒ̈ܚܬܐ: ; ܕܕܘܝܕ: ܕܡܦܪ̈ܫܐ</rubric>
+              <rubric xml:lang="syr">ܟܬܒܐ: ܕܬܫܒ̈ܚܬܐ: ; ܕܕܘܝܕ: ܕܡܦܪ̈ܫܐ<note type="footnote" xml:lang="en">The word <foreign xml:lang="syr">ܕܡܦܪ̈ܫܐ</foreign> seems here really to mean “of the interpreters”
+                                or “translators.” See <bibl>Add. 14,436<ptr target="http://syriaca.org/manuscript/94"/>, fol. <citedRange unit="locus">1b</citedRange> and <citedRange unit="locus">77 b</citedRange></bibl>, as
+                                well as <bibl>Add. 17,109<ptr target="http://syriaca.org/manuscript/738"/></bibl>. The strange thing is, that such
+                                titles should be prefixed to the ordinary Peshitta version, and that
+                                too in a manuscript dated <origDate calendar="Gregorian" when="0600">A.D. 600</origDate>. See the similar heading in
+                                    the Bodleian manuscript, <bibl>Hunt. 109<ptr target=""/></bibl>, <bibl>Dr. Payne Smith’s Catalogue,
+                                    no. 7, col. 41</bibl>.</note></rubric><!--JA: Manuscript URI needed for Bodleian manuscript-->
               <rubric xml:lang="syr">
                 <locus from="20b"/>
                 <fw type="header">ܕܘܝܕ ܕܡܦܪ̈ܫܐ</fw>
               </rubric>
-              <note>The word ܕܡܦܪ̈ܫܐ seems here really to mean “of the interpreters”
-                                or “translators.” See <bibl>Add. 14,436, fol. 1b and 77 b</bibl>, as
-                                well as <bibl>Add. 17,109</bibl>. The strange thing is, that such
-                                titles should be prefixed to the ordinary Peshitta version, and that
-                                too in a manuscript dated A.D. 600. See <bibl>the similar heading in
-                                    the Bodleian manuscript, Hunt. 109, Dr. Payne Smith’s Catalogue,
-                                    no. 7, col.41</bibl>.</note>
               <finalRubric xml:lang="syr">ܫܠܡ ܠܡܟܬܒ ܬܫܒ̈ܚܬܐ ܕܕܘܝܕ ܕܗܘܝܢ ܒܡܢܝܢܐ ܡܐܐ
                                 ܘܚܡܫܝܢ<locus from="72b"/>
-              </finalRubric>
+              </finalRubric>              
+              <note>The headings prefixed to the Psalms differ from those given in <bibl>Lee's edition</bibl>, as well as from those
+                                    contained in <bibl>Add. 14,436<ptr target="http://syriaca.org/manuscript/94"/></bibl> and <bibl>17,109<ptr target="http://syriaca.org/manuscript/738"/></bibl>. For example, see the items below.</note>
               <msItem xml:id="b1" n="2">
-                
-                <title xml:lang="en">The headings prefixed to the Psalms
-                                    differ from these given in Lee's edition, as well as from these
-                                    contained in Add. 14,436 and 17,109. For example:</title>
-                <msItem xml:id="c1" n="3">
-                  
-                  <title xml:lang="en">Ps. i.</title>
-                  <rubric xml:lang="syr">ܩܕܡܝܬܐ: ܬܫܥܝܬܐ ܕܡܪܬܝܢܘܬܐ: ܕܥܠ : ܙܢܝ̈ܐ :
-                                        ܫܦܝܪ̈ܐ : ܦܬ̈ܓ: ܝܕ. </rubric>
-                </msItem>
-                <msItem xml:id="c2" n="4">
-                  
-                  
+                <title xml:lang="en">Ps. i.</title>
+                <rubric xml:lang="syr">ܩܕܡܝܬܐ: ܬܫܥܝܬܐ ܕܡܪܬܝܢܘܬܐ: ܕܥܠ : ܙܢܝ̈ܐ :
+                                        ܫܦܝܪ̈ܐ : ܦܬ̈ܓ: ܝܕ.</rubric>
+              </msItem>
+              <msItem xml:id="b2" n="3">             
                   <title xml:lang="en">Ps. ii.</title>
-                  <rubric xml:lang="syr">ܕܬܪ̈ܬܝܢ : ܡܬܢܒܐ ܥܠ ܐܝܠܝܢ ܕܐܣܬܥܪ
-                                        ܒܚܫܗ</rubric>
-                  <rubric xml:lang="syr">ܕܡܪܢ ܡܢ ܝܗܘ̈ܕܝܐ. ܘܡܥܗܕ ܠܢ ܐܦ ܥܠ ܐܢܫܘܬܗ
-                                        ܦܬ̈ܓ ܟܚ.</rubric>
-                </msItem>
-                <msItem xml:id="c3" n="5">
-                  
-                  <title xml:lang="en">Ps. iii. </title>
+                  <rubric xml:lang="syr">ܕܬܪ̈ܬܝܢ : ܡܬܢܒܐ ܥܠ ܐܝܠܝܢ ܕܐܣܬܥܪ ܒܚܫܗ  
+ܕܡܪܢ ܡܢ ܝܗܘ̈ܕܝܐ. ܘܡܥܗܕ ܠܢ ܐܦ ܥܠ ܐܢܫܘܬܗ ܦܬ̈ܓ ܟܚ.</rubric>
+              </msItem>
+              <msItem xml:id="b3" n="4">                  
+                  <title xml:lang="en">Ps. iii.</title>
                   <rubric xml:lang="syr">ܕܬܠܬ ܐܡܝܪ ܠܕܘܝܕ ܟܕ ܐܬܪܕܦ ܡܢ ܐܒܫܠܘܡ ܦܬ̈ܓ
                                         ܝܙ .ܘ.</rubric>
                 </msItem>
-                <msItem xml:id="c4" n="6">
-                  
+                <msItem xml:id="b4" n="5">                  
                   <title xml:lang="en">Ps. iv.</title>
                   <rubric xml:lang="syr">ܕܐܪ̈ܒܥ ܡܟܣܢܘܬܐ ܕܠܘܩܒܠ ܐܝܠܝܢ ܕܡܡܪܚܝܢ
-                                        ܘܐܡܪܝܢ ܕܠܝܬ ܡܕܒܪܢܘܬܐ ܒܗܠܝܢ ܕܡܬܚܙܝܢ ܦܬ̈ܓ ܟ܀ </rubric>
+                                        ܘܐܡܪܝܢ ܕܠܝܬ ܡܕܒܪܢܘܬܐ ܒܗܠܝܢ ܕܡܬܚܙܝܢ ܦܬ̈ܓ ܟ܀</rubric>
                 </msItem>
-                <msItem xml:id="c5" n="7">
-                  
+                <msItem xml:id="b5" n="6">                  
                   <title xml:lang="en">Ps. v.</title>
-                  <rubric xml:lang="syr">ܕܚܡܫ ܡ̣ܬܢܒܐ ܥܠ ܡܬܬܘܝܢܘܬܐ</rubric>
-                  <rubric xml:lang="syr">ܕܥܡܐ ܐܝܣܪܠܝܐ ܕܒܒܠ ܦܬ̈ܓ ܟܚ.</rubric>
+                  <rubric xml:lang="syr">ܕܚܡܫ ܡ̣ܬܢܒܐ ܥܠ ܡܬܬܘܝܢܘܬܐ
+ܕܥܡܐ ܐܝܣܪܠܝܐ ܕܒܒܠ ܦܬ̈ܓ ܟܚ.</rubric>
                 </msItem>
-                <msItem xml:id="c6" n="8">
-                  
+                <msItem xml:id="b6" n="7">                  
                   <title xml:lang="en">Ps. vi.</title>
                   <rubric xml:lang="syr">ܕܫܬ ܬܟܫܦܬܗ ܕܕܘܝܕ ܟܕ ܐܝܬܘܗܝ ܗܘ̣ܐ ܒܥܩܬܐ ܥܠ
                                         ܐ̈ܦܝ ܚܛܝܬܗ ܦܬ̈ܓ ܟܟ.</rubric>
                 </msItem>
-                <msItem xml:id="c7" n="9">
-                  
+                <msItem xml:id="b7" n="8">                  
                   <title xml:lang="en">Ps. vii.</title>
-                  <rubric xml:lang="syr">ܕܫܒܥ ܐܡܝܪ ܠܕܘܝܕ ܟܕ ܫܡܥ ܥܠ</rubric>
-                  <rubric xml:lang="syr">ܚܢܘܩܝܗ ܕܐܚܝܬܘܦܠ ܦܬ̈ܓ ܠܗ .ܘ.</rubric>
+                  <rubric xml:lang="syr">ܕܫܒܥ ܐܡܝܪ ܠܕܘܝܕ ܟܕ ܫܡܥ ܥܠ
+ܚܢܘܩܝܗ ܕܐܚܝܬܘܦܠ ܦܬ̈ܓ ܠܗ .ܘ.</rubric>
                 </msItem>
-                <msItem xml:id="c8" n="10">
-                  
-                  <title xml:lang="en">Ps. viii. </title>
-                  <rubric xml:lang="syr">ܕܬܡܢܐ ܡܬܢܒܐ ܥܠ ܡܫܝܚܐ</rubric>
-                  <rubric xml:lang="syr">ܡܪܢ ܘܡܘܕܥ ܠܢ ܐܦ ܥܠ ܦܘܪܫܢܐ ܕܟܝ̈ܢܐ ܦܬ̈ܓ
-                                        ܝܚ.</rubric>
+                <msItem xml:id="b8" n="9">                  
+                  <title xml:lang="en">Ps. viii.</title>
+                  <rubric xml:lang="syr">ܕܬܡܢܐ ܡܬܢܒܐ ܥܠ ܡܫܝܚܐ
+ܡܪܢ ܘܡܘܕܥ ܠܢ ܐܦ ܥܠ ܦܘܪܫܢܐ ܕܟܝ̈ܢܐ ܦܬ̈ܓ ܝܚ.</rubric>
                 </msItem>
-                <msItem xml:id="c9" n="11">
-                  
+                <msItem xml:id="b9" n="10">                  
                   <title xml:lang="en">Ps. ix.</title>
-                  <rubric xml:lang="syr">ܕܬܫܥ ܬܘܕܝܕܬ ܕܕܘܝܕ ܕܥܠ ܐ̈ܦܝ</rubric>
-                  <rubric xml:lang="syr">ܙܟܘܬܗ ܕܥܡܐ ܘܚܘܝܒܐ ܕܥܡ̈ܡܐ ܕܒܚܕܪ̈ܝܗܘܢ ܦܬ̈ܓ
-                                        ܡܒ.</rubric>
+                  <rubric xml:lang="syr">ܕܬܫܥ ܬܘܕܝܕܬ ܕܕܘܝܕ ܕܥܠ ܐ̈ܦܝ 
+ܙܟܘܬܗ ܕܥܡܐ ܘܚܘܝܒܐ ܕܥܡ̈ܡܐ ܕܒܚܕܪ̈ܝܗܘܢ ܦܬ̈ܓ ܡܒ.</rubric>
                 </msItem>
-                <msItem xml:id="c10" n="12">
-                  
+                <msItem xml:id="b10" n="11">                  
                   <title xml:lang="en">Ps. x.</title>
-                  <rubric xml:lang="syr">ܕܥܣܪ ܡܬܢܒܐ ܥܠ ܥܬܝܪ̈ܐ ܕܒܥܡܐ</rubric>
-                  <rubric xml:lang="syr">ܕܡܥܘܠܝܢ ܗܘܘ ܒܡ̈ܣܟܢܐ ܕܒܝܢܬܗܘܢ ܦܬ̈
-                                        ܝܚ</rubric>
-                </msItem>
-              </msItem>
-              <msItem xml:id="b2" n="13">
-                
-                <title xml:lang="en">The following Psalms are considered to
-                                    refer to the Maccabees</title>
-                <note>See <bibl>Add. 12,138</bibl>.</note>
-                <msItem xml:id="c11" n="14">
-                  
+                  <rubric xml:lang="syr">ܕܥܣܪ ܡܬܢܒܐ ܥܠ ܥܬܝܪ̈ܐ ܕܒܥܡܐ
+ܕܡܥܘܠܝܢ ܗܘܘ ܒܡ̈ܣܟܢܐ ܕܒܝܢܬܗܘܢ ܦܬ̈ ܝܚ.</rubric>
+                </msItem>              
+              <note>The following Psalms are considered to refer to the Maccabees (see <bibl>Add. 12,138<ptr target="http://syriaca.org/manuscript/10"/></bibl>).</note>
+              <msItem xml:id="b11" n="12">            
                   <title xml:lang="en">Ps. xlvii.</title>
                   <rubric xml:lang="syr">ܕܐܪܒܥܝܢ ܘܫܒܥ ܡܒܕܩ ܥܠ ܙܟܘܬܗ ܘܢܨܚܢܐ ܕܒܝܬ
                                         ܡܩ̈ܒܝ ܕܒܩܪܒܐ. ܦܬ̈ . ܝܕ. </rubric>
                 </msItem>
-                <msItem xml:id="c12" n="15">
-                  
+                <msItem xml:id="b12" n="13">                  
                   <title xml:lang="en">Ps. lvi.</title>
-                  <rubric xml:lang="syr">ܕܚܡܫܝܢ ܘܫܬ ܬܟܫܦܬܐ ܕܡܩ̈ܒܝܐ</rubric>
-                  <rubric xml:lang="syr">ܕܫܐܠܝܢ ܡܢ ܐܠܗܐ ܕܢܓܗܘܢ ܡܢ ܒܝ̈ܫܬܐ ܕܚܕܝܪ̈ܢ
-                                        ܠܗܘܢ. ܦܬ̈ . ܟܗ.</rubric>
+                  <rubric xml:lang="syr">ܕܚܡܫܝܢ ܘܫܬ ܬܟܫܦܬܐ ܕܡܩ̈ܒܝܐ 
+ܕܫܐܠܝܢ ܡܢ ܐܠܗܐ ܕܢܓܗܘܢ ܡܢ ܒܝ̈ܫܬܐ ܕܚܕܝܪ̈ܢ ܠܗܘܢ. ܦܬ̈ . ܟܗ.</rubric>
                 </msItem>
-                <msItem xml:id="c13" n="16">
-                  
+                <msItem xml:id="b13" n="14">                  
                   <title xml:lang="en">Ps. lvii.</title>
                   <rubric xml:lang="syr">ܕܚܡܫܝܢ ܘܫܒܥ ܬܘܕܝܬܐ ܕܒܝܬ ܡܩ̈ܒܝ ܘܒܥܘܬܐ
                                         ܕܡܫܡܠܝܐܝܬ ܢܬܦܨܘܢ ܡܢ ܒܥܠܕܒ̈ܒܝܗܘܢ. ܦܬ̈ . ܟܗ.</rubric>
                 </msItem>
-                <msItem xml:id="c14" n="17">
-                  
+                <msItem xml:id="b14" n="15">                  
                   <title xml:lang="en">Ps. lviii.</title>
                   <rubric xml:lang="syr">ܕܚܡܫܝܢ ܘܬܡܢܐ ܡܒܕܩ ܥܠ ܢܟܠܐ ܘܒܘܕܩܐ ܕܥܡ̈ܡܐ
                                         ܕܐܨܛܢܥܘ ܠܘܩܒܠ ܡܩ̈ܒܝܐ. ܦܬ̈. ܟܕ.</rubric>
                 </msItem>
-                <msItem xml:id="c15" n="18">
-                  
+                <msItem xml:id="b15" n="16">                  
                   <title xml:lang="en">Ps. lix.</title>
                   <rubric xml:lang="syr">ܕܚܡܫܝܢ ܘܬܫܥ ܐܡܝܪ ܡܢ ܦܪܨܘܦ ܡܩ̈ܒܝܐ ܐܝܟ ܡܢ
                                         ܕܫܐܠܝܢ ܦܘܪܩܢܐ. ܦ̈ܬ. ܠܚ.</rubric>
                 </msItem>
-                <msItem xml:id="c16" n="19">
-                  
+                <msItem xml:id="b16" n="17">                  
                   <title xml:lang="en">Ps. lx.</title>
-                  <rubric xml:lang="syr">ܕܫܬܝܢ ܡܬܢܒ݁ܐ ܥܠ ܕܒܝܬ ܡܩ̈ܒܝ</rubric>
-                  <rubric xml:lang="syr">ܐܝܟ ܡ̇ܢ ܕܡܗܝܡܢܐܝܬ ܫܐܠܝܢ ܪ̈ܚܡܐ. ܦ̈ܬ .
-                                        ܟܐ</rubric>
+                  <rubric xml:lang="syr">ܕܫܬܝܢ ܡܬܢܒ݁ܐ ܥܠ ܕܒܝܬ ܡܩ̈ܒܝ 
+ܐܝܟ ܡ̇ܢ ܕܡܗܝܡܢܐܝܬ ܫܐܠܝܢ ܪ̈ܚܡܐ. ܦ̈ܬ . ܟܐ</rubric>
                 </msItem>
-                <msItem xml:id="c17" n="20">
-                  
+                <msItem xml:id="b17" n="18">                  
                   <title xml:lang="en">Ps. lxii.</title>
                   <rubric xml:lang="syr">ܕܫܬܝܢ ܘܬܪ̈ܬܝܢ ܐܡܝܪ ܡܢ ܦܪܨܘܦ ܡܩܒܝ̈ܐ ܟܕ
                                         ܐܬܐܠܨܘ ܡܢ ܐܢܛܝܟܘܣ ܕܢܕܒܚܘܢ ܠܦܬܟܪ̈ܐ. ܦ̈ܬ . ܟܘ.</rubric>
                 </msItem>
-                <msItem xml:id="c18" n="21">
-                  
+                <msItem xml:id="b18" n="19">                  
                   <title xml:lang="en">Ps. lxix.</title>
                   <rubric xml:lang="syr">ܕܫܬܝܢ ܘܬܫܥ ܡܫܬܥܐ ܡܢ ܦܪܨܘܦ ܡܩ̈ܒܝܐ ܥܠ ܪܒܘܬܐ
                                         ܕܐܘ̈ܠܨܢܝܗܘܢ ܕܒܩܪܒܐ ܘܥܠ ܢܟܠܐ ܕܡܢ ܩܪ̈ܝܒܝܗܘܢ ܘܕܡܬܝܐܒܝܢ ܠܬܒܥܬܐ
                                         ܕܡܢܗܘܢ. ܦ̈ܬ . ܥ̈ܓ.</rubric>
                 </msItem>
-                <msItem xml:id="c19" n="22">
-                  
+                <msItem xml:id="b19" n="20">                  
                   <title xml:lang="en">Ps. lxxiv.</title>
                   <rubric xml:lang="syr">ܕܫܒܥܝܢ ܘܐܪ̈ܒܥ ܡܒܕܩ ܥܠ ܪܒܘܬܗ ܐܘ̈ܠܨܢܝܗܘܢ
                                         ܕܡܩܒܝ̈ܐ ܘܐܝܟ ܡ̇ܢ ܕܬܢܝܢ ܒܝ̈ܫܬܐ ܕܚܕܝܪ̈ܢ ܠܗܘܢ ܘܫܐܠܝܢ ܡܢ ܐܠܗܐ
                                         ܓܗܝܬܐ ܕܡܢܗܘܢ . ܦ̈ܬ . ܡ̈ܙ.</rubric>
                 </msItem>
-                <msItem xml:id="c20" n="23">
-                  
+                <msItem xml:id="b20" n="21">                  
                   <title xml:lang="en">Ps. lxxix.</title>
                   <rubric xml:lang="syr">ܕܫܒܥܝܢ ܘܬܫܥ. ܐܡܝܪ ܡܢ ܦܪܨܘܦ ܡܩ̈ܒܝܐ ܟܕ
                                         ܡܟܪܙܝܢ ܘܡ̇ܬܢܝܢ ܕܐܝܠܝܢ ܒܝܫܬܐ ܐܣܒܠܘ ܐܢܘܢ ܐܢܛܝܟܘܣ ܘܕܡܛܪܝܘܣ
                                         ܠܒܢ̈ܝ ܥܡܗܘܢ ܘܫܐܠܝܢ ܡܢ ܐܠܗܐ ܥܘܕܪ̈ܢܐ. ܦ̈ܬ . ܟ̈ܛ.</rubric>
                 </msItem>
-                <msItem xml:id="c21" n="24">
-                  
+                <msItem xml:id="b21" n="22">                  
                   <title xml:lang="en">Ps. lxxx.</title>
                   <rubric xml:lang="syr">ܕܬܡܢܐܝܢ ܡܬܢܒܐ ܥܠ ܡܩ̈ܒܝܐ</rubric>
                   <rubric xml:lang="syr">ܐܝܟ ܡܢ ܕܡܬܟܫܦܝܢ ܠܐܠܗܐ ܘܫܐܠܝܢ ܪ̈ܚܡܐ. ܦܬ̈ .
                                         ܡ</rubric>
                 </msItem>
-                <msItem xml:id="c22" n="25">
-                  
+                <msItem xml:id="b22" n="23">                  
                   <title xml:lang="en">Ps. lxxxiii.</title>
                   <rubric xml:lang="syr">ܕܬܡܢܐܝܢ ܘܬܠܬ ܐܡܝܪ ܡܢ ܦܪܨܘܦ ܡܩ̈ܒܝܐ ܡܢ ܒܬܪ
                                         ܕܐܓܗܝܘ ܡܢ ܐܢܛܝܟܘܣ ܘܐܬ݁ܟܢܫܘ ܥܠܝܗܘܢ ܒܚܣܡܐ ܥܡ̈ܡܐ ܕܒܚܕܪ̈ܝܗܘܢ
                                         ܕܢܓܡܪܘܢ ܐܢܘܢ. ܦ̈ܬ . ܠܕ̈.</rubric>
                 </msItem>
-                <msItem xml:id="c23" n="26">
-                  
+                <msItem xml:id="b23" n="24">                  
                   <title xml:lang="en">Ps. cviii.</title>
                   <rubric xml:lang="syr">ܕܡܐܐ ܘܬܡܢܐ ܬܘܕܝܬܐ ܕܡܩܒ̈ܝܐ ܕܥܠ ܐ̈ܦܝ
                                         ܙܟܘܬܗܘܢ. ܦ̈ܬ . ܟܘ.</rubric>
                 </msItem>
-                <msItem xml:id="c24" n="27">
-                  
+                <msItem xml:id="b24" n="25">                  
                   <title xml:lang="en">Ps. cix.</title>
                   <rubric xml:lang="syr">ܕܡܐܐ ܘܬܫܥ ܟܕ ܡܬܢܝܢ ܡܩ̈ܒܝܐ ܕܟܡܐ ܒܝܫ̈ܬܐ
                                         ܣܒ̣ܠܘ ܡܢ ܢܘܟܪ̈ܝܐ ܘܟܡܐ ܡܢ ܒܢ̈ܝ ܥܡܗܘܢ ܡܬܟܫܦܝܢ ܠܐܠܗܐ ܕܢܝܬܐ ܡܣܡ
                                         ܒܪܫܐ ܥܠ ܐܝܠܝܢ ܕܐܣܒܠܘ ܐܢܘܢ. ܦ̈ܬ . ܢܘ.</rubric>
                 </msItem>
-                <msItem xml:id="c25" n="28">
-                  
+                <msItem xml:id="b25" n="26">                  
                   <title xml:lang="en">Ps. cxliii.</title>
                   <rubric xml:lang="syr">ܕܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܬܠܬ ܬܘܕܝܬܐ ܕܡܩܒ̈ܝܐ ܕܥܠ
                                         ܐ̈ܦܝ ܙܟܘܬܗܘܢ ܕܚܣܢܘ ܠܒܥܠܕܒܒ̈ܝܗܘܢ ܘܫܐܠܝܢ ܡܢ ܐܠܗܐ ܦܘܪܩܢܐ
-                                        ܡܫܡܠܝܐ. ܘ..</rubric>
-                </msItem>
-              </msItem>
+                                        ܡܫܡܠܝܐ. ܘ.</rubric>
+                </msItem>              
+              <note>See additions.</note>
             </msItem>
-            <msItem xml:id="a2" n="29" defective="true">
+            <msItem xml:id="a2" n="27" defective="true">
               <locus from="72b"/>
               <title xml:lang="en">An imperfect treatise on the titles or
-                                occasions of the composition of the Psalms</title>
+                                occasions of the composition of <ref target="http://syriaca.org/work/9672">the Psalms</ref></title>
               <rubric xml:lang="syr">ܥ̈ܠܬܐ ܕܡܙ̈ܡܘܪܐ</rubric>
               <incipit xml:lang="syr">ܡܢ ܥ̈ܠܬܐ ܣܓܝܐ̈ܬܐ ܘܡܫ̈ܓܢܝܬܐ ܚ̇ܙܐ ܐܢܐ ܕܡܬܬܙܝܥܝܢ
                                 ܐܝܠܝܢ ܕܠܡܟܬܒܘ ܡܕܡ ܡܬܚܦܛܝܢ. ܡܢܗܘܢ ܓܝܪ ܡܟܣܢܘܬܐ ܕܟ̈ܬܝܒܬܐ ܕܛܘܥܝܝ ܕܢܫܒܩܘܢ
