@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add. MS 17,127, upper text</title>
+        <title level="a" xml:lang="en">BL Add. MS 17,127, lower text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -50,7 +50,7 @@
     </editionStmt>
       <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/1530/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1531/tei</idno>
         <availability>
             <p/>
             <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -60,15 +60,15 @@
         <date calendar="Gregorian">2021-09-29-04:00</date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-1530">
+        <msDesc xml:id="manuscript-1531">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/1530</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1531</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add. MS 17,127, upper text</idno>
+              <idno type="BL-Shelfmark">Add. MS 17,127, lower text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -80,57 +80,31 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1" defective="true">
+            <textLang mainLang="syr-Syre"/>
+            <msItem xml:id="a1" n="1" defective="true">           
               <locus from="1"/>
-              <title xml:lang="en">A Commentary on <ref target="https://syriaca.org/work/9615">the Revelation of
-                                <persName>S. John</persName></ref>, divided into 72 chapters</title>
-              <note>Chapter 1 is wanting, and chapters 2, 52, and 53, are imperfect.</note>
-              <note><p>The text of each chapter is quoted in full, and agrees closely
-                  with that of <bibl>Leo's edition</bibl>. The commentary, notwithstanding the
-                  coincidence in the number of chapters, has but little in common
-                  with that of <persName>Andrew</persName> and <persName>Arethas</persName>, as edited, for example, in the
-                  Parisian edition of <bibl>Ecumenius (1630—31, t. ii., pp. 610,
-                  seqq.)</bibl>, or in <bibl>Cramer's Catena in Epistolas
-                  Catholicas etc., Oxon. 1810, pp. 177, seqq</bibl>. Chapter 3
-                  may serve as a specimen.</p>
-                  <p>
-                    <quote xml:lang="syr"><locus from="3a"/>
-                    ܏ܩܦܠܝܘܢ ܏ܕܬܠܬܐ. ܗܐ ܐܬ̇ܐ ܥܡ ܥܢ̈ܢܐ. ܘܢܚܙܝܢܝܗܝ ܟܠ ܥ̈ܝܢܐ. ܘܐܦ ܐܢܫ̈ܝܢ ܗ̇ܢܘܢ ܕܕܩܪܘܗܝ.
-                     ܘܢܪܩܕܢ ܥܠܘܗܝ ܟܠܗܝܢ ܫܪ̈ܒܬܐ ܕܐܪܥܐ ܐܝܢ ܐܡܝܢ. ܐܢܐ ܐܝܬܝ ܐܠܦ ܐܦ ܬܘ ܐܡ̇ܪ ܡܪܝܐ ܐܠܗܐ.
-                      ܗ̇ܘ ܕܐܝܬܘܗܝ ܘܗ̇ܘ ܕܐܝܬܘܗܝ ܗܘܐ ܘܗ̇ܘ ܕܐܬ݂ܐ. ܗ̇ܘ ܐܚܝܕ ܟܠ. ܐܢܐ ܝܘܚܢܢ ܗ̇ܘ ܐܚܘܟܘܢ.
-                       ܘܫܘܬܦܐ ܕܝܠܟܘܢ ܒܐܘܠܨܢܐ. ܘܒܡ̇ܠܟܘܬܐ ܘܒܡܣܝܒܪܢܘܬܐ ܕܒܝܫܘܥ ܡܫܝܚܐ.
-                        ܗܘܝܬ ܒܓܙܪܬܐ ܕܡܬܩ̣ܪܝܐ ܦܛܡܘܢ. ܡܛܠ ܡܠܬܐ ܕܐܠܗܐ.
-                         ܘܡܛܠ ܣܗܕܘܬܐ ܕܝܫܘܥ ܡܫܝܚܐ. ܗܘܝܬ ܒܪܘܚܐ 
-                         <choice><orig>ܒܝܘܡܐ ܡܐܪܢܝܐ.</orig><reg xml:lang="en">(marg. <foreign xml:lang="syr">ܕܚܕܒܫܒܐ</foreign>)</reg></choice>
-ܘܫܡ̣ܥܬ ܡܢ ܒܣܬ̇ܪܐ ܕܝܠܝ. ܩܠܐ ܪܒܐ ܐܝܟ ܫܝܦܘܪܐ ܕܐܡܪ.
- ܗ̇ܘ ܡܐ ܕܚܙܝܬ ܟܬܘܼܒ ܒܟܬܒܐ. ܘܫ̇ܕܪ ܠܗܠܝܢ ܫܒܥ ܥ̈ܕܬܐ܀ ܠܐܦܣܘܣ܀ ܘܠܣܡܪܘܢܐ܀
-  ܘܠܦܪܓܡܘܣ܀ ܘܠܬܐܘܛܝܪܐ܀ ܘܠܣܪܕܝܣ܀ ܘܠܦܝܠܕܠܦܝܐ܀ ܘܠܠܐܘܕܝܩܝܐ܀
-   ܏ܐܡ̣ܪ ܏ܝܘܚܢܢ. ܏ܒܠܓܝܢܗ . ܏ܗܐ ܏ܐ̇ܬܐ. ܏ܥܡ ܏ܥܢ̈ܢܐ. ܏ܘܢܚܙܝܢܝܗܝ.
-    ܏ܟܠ ܏ܥܝ̈ܢܐ. ܏ܘܐܦ <sic>܏ܢܐܫ̈ܝܢ</sic> ܏ܗ̇ܢܘܢ ܏ܕܕܩܪܘܗܝ. ܕܐܦ ܕܢܝܐܝܠ ܢܒܝܐ ܠܗܕܐ ܩܕܡ ܐܘܕܥ ܘܐܡ̣ܪ ܗܟܢܐ.
-                    <locus from="3b"/>
-                    <sic>ܕܚ̇ܙܘܝܬ</sic>
-                    ܥܠ ܥܢ̈ܢܝ ܫܡܝܐ. ܐܝܟ ܒܪ ܐܢ̈ܫܝܢ ܕܐܬ݂ܐ. ܏ܘܬܘܒ. ܏ܡܪܢ ܏ܒܐܘܢܓܠܝܘܢ ܏ܐܡ̣ܪ ܏ܥܠ ܏ܢܦܫܗ.
-                     ܗܝܕܝܢ ܢܚ̣ܙܘܢܝܗܝ ܠܒܪܗ ܕܐܢܫܐ ܕܐܬ̇ܐ ܒܥܢ̈ܢܐ ܥܡ ܚܝܠܐ ܣܓܝܐܐ ܘܫܘܒܚܐ ܪܒܐ.
-                      ܏ܘܬܘܒ. ܏ܝܘܚܢܢ ܏ܒܠܓܝܢܗ ܏ܐܡ̣ܪ ܏ܗܟܢܐ: ܏ܐܡ̣ܪ ܏ܡܪܝܐ ܏ܐܠܗܐ: ܏ܗ̇ܘ ܏ܕܐܝܬܘܗܝ: ܏ܘܗ̇ܘ ܏ܕܐܝܬܘܗܝ ܏ܗܘܐ: ܏ܘܗ̇ܘ ܏ܕܐܬ݂ܐ.
-                       ܗܕܐ ܐܘܕܥ ܡܢ ܪܘܚܐ ܩܕܝܫܐ ܘܡܢ ܝܫܘܥ ܡܫܝܚܐ ܗ̇ܘ ܕܐܝܬܘܗܝ ܗܘܐ ܡܢ ܒܪܝܫܝܬ.
-                        ܘܐܬ݂ܐ ܘܗ̣ܘܐ ܣܗܕܐ ܒܙܩܝܦܐ ܘܪܝܫܐ ܘܒܘܟܪܐ ܕܡ̈ܝܬܐ.
-                         ܏ܘܬܘܒ ܏ܝܘܚܢܢ ܏ܒܠܓܝܢܗ ܏ܐܡ̣ܪ ܏ܗܟܢܐ. ܏ܗ̇ܘ ܏ܡܐ ܏ܕܚ̇ܙܝܬ: ܏ܟܬܘܼܒ ܏ܘܫܕܪ ܏ܠܗܠܝܢ ܏ܫܒܥ ܏ܥ̈ܕܬܐ.
-                          ܫܒܥ ܥ̈ܕܬܐ ܩ̇ܪܐ ܠܚܕܐ ܥܕܬܐ ܩܕܝܫܬܐ ܡܟܝܪܬܗ ܕܡܫܝܚܐ.
-                           ܫܒܥ ܡ̇ܢ ܐܝܟ ܛܘܦܣܐ ܘܡܢܝܢܐ ܕܫܒܥ ܪ̈ܘܚܐ. ܡܛܠ ܡܫܡܠܝܘܬܐ ܕܡܢܝܢܐ.
-                    </quote>
-                  </p>
-                  </note>
-              <finalRubric xml:lang="syr">
-              ܫܠܡ ܠܡܟܬܒ ܩܦܠܐܘܢ ܫܒ̈ܥܝܢ ܘܬܪ̈ܝܢ ܕܓܠܝܢܐ ܕܝܘܚܢܢ
-               <sic>ܐܘܢܓܠܝܣܐ:</sic>
-                ܕܡܦ݁ܫ̣ܩ ܘܟܬܝ̣ܒ ܘܡܟ݁ܢ̣ܫ ܒܡܢܗ̇ܪܢܘܬܐ ܘܒܚ̇ܝ̣ܠܐ ܘܒܡܥܕܪܢܘܬܐ ܕܡܫܝܚܐ ܒܪܗ ܕܐܠܗܐ:
-                 ܡܢ ܟ̈ܬܒܐ ܐܠܗ̈ܝܐ ܘܪ̈ܘܚܢܝܐ ܕܥܬ݀ܝܩܬܐ ܘܕܚ̣ܕܬܐ ܕܢܒ̈ܝܐ ܘܫ̈ܠܝܚܐ ܩ̈ܕܝܫܐ:
-                  ܕܨ̈ܠܘܬܗܘܢ ܢܥ̣ܕܪܘܢ ܠܢ ܘܠܟܠܗܘܢ ܝ̈ܠܕܐ ܕܥܕܬܐ ܘܝ̈ܠܕܐ ܪ̈ܚܝܡܐ ܕܡܥܡܘܕܝܬܐ:
-                   ܨܠܘܬܝ ܥܠ ܡ̇ܢ 
-                   <sic>ܕܣܛܪ</sic>܀ 
-              <locus from="92a"/></finalRubric>
-            </msItem>            
+              <author ref="https://syriaca.org/person/496">Galen</author>
+              <author>Gesius</author>
+              <title xml:lang="en">Remaining portion of the works of <persName ref="https://syriaca.org/person/496">Galen</persName>
+                                    and Gesius</title>
+                <rubric xml:lang="syr"><fw type="header">ܕܓܐܠܝܢܘܣ</fw>
+                                </rubric>
+                <rubric xml:lang="syr"><fw type="header">ܕܓܗܣܝܘܣ</fw>
+                                </rubric>            
+              <note>We have already met with these works in <bibl>Add. 14,490<ptr target="http://syriaca.org/manuscript/1412"/></bibl>.</note>
+              <note><p>The traces of the running titles and are still visible, for
+                    example, on foll. <locus from="23b">23 b</locus>, <locus from="26b">26 b</locus>, <locus from="32b">32 b</locus>, <locus from="61b">61 b</locus>, <locus from="64b">64 b</locus>, <locus from="86b">86 b</locus>, and <locus from="88b">88 b</locus>.
+                    Those on foll. <locus from="21b">21 b</locus> and <locus from="62b">62 b</locus> are different. The latter consists
+                    of a single word, ending with the letters <foreign xml:lang="syr">ܬܐ</foreign>; the former seems
+                    to be,</p>
+                    <p>
+                      <quote xml:lang="syr">
+                     <p>ܕܓܗܣܝܘܣ</p>
+                      <p>܀ ܬܘܒ ܐ . . . ܐ ܫܬܝܬܝܬܐ ܀</p> 
+                     <locus from="21b"/></quote>
+                     </p>
+                     </note>
+            </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
@@ -143,15 +117,8 @@
                                 <condition>
                                     <list>
                                         <item>
-                                            <p>Vellum, about 9 5/8 in. by 7, consisting of 92
-                                                leaves, a few of which are much stained and torn,
-                                                especially foll. 1, 2, 10, 82, and 84. The quires,
-                                                signed with letters, are 9 in number. A leaf is
-                                                wanting after fol. 82, and nearly the whole of fol.
-                                                1 has been torn away. There are from 26 to 33 lines
-                                                in each page. This volume is palimpsest
-                                                throughout (see <bibl>Add. 17,127, lower text<ptr target="http://syriaca.org/manuscript/1531"/></bibl>).
-                                                 </p>
+                                            <p>Vellum, about 9 5/8 in. by 7. This volume is palimpsest
+                                                (see <bibl>Add. 17,127, upper text<ptr target="http://syriaca.org/manuscript/1530"/></bibl>).</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -160,47 +127,13 @@
                                 <p>Content pending</p>
                             </layoutDesc>
                         </objectDesc>
-            <handDesc hands="2">
-              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr-Syre">
-                <desc>This volume is written in a rather inelegant
-                                                Estrangělā, and dated <origDate datingMethod="Seleucid" when-custom="1399">A. Gr. 1399</origDate>,
-                                                  <origDate calendar="Gregorian" when="1088">A.D. 1088</origDate>.</desc>
-              </handNote>
-              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="ar">
-                <desc>See additions.</desc>
+            <handDesc hands="1">
+              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
+                <desc>The more ancient text is written in a neat,
+                 regular hand, of the <origDate calendar="Gregorian" notBefore="0700" notAfter="0900">viiith or ixth cent.</origDate></desc>
               </handNote>
             </handDesc>
-            <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">                  
-                  <locus from="92b"/>
-                  <p>On fol. 92 b there is a note, from which we learn that the
-                                        manuscript was written and bound, in the year
-                                            <origDate datingMethod="Seleucid" when-custom="1399">1399</origDate>, <origDate calendar="Gregorian" when="1088">A.D. 1088</origDate>, by the same
-                                            <persName>Samuel bar Cyriacus</persName>, who wrote
-                                            <bibl>Add. 14,490<ptr target="http://syriaca.org/manuscript/1411"/></bibl>.</p>
-                  <p>
-                                        <quote xml:lang="syr">ܫܩܠ ܣܟܐ ܘܐܫܬܡܠܝ ܟܬܒܐ ܗܢܐ ܕܚ̈ܝܐ
-                                            ܘܕܡ̇ܠܟܘܬܐ ܕܫܡܝܐ. ܫܢܬ. ܐܠܦ ܏ܘܫܨܘܛ. ܕܝܘ̈ܢܝܐ. ܒܝܘܡ ܚܡܫܐ
-                                            ܒܫܒܐ ܒܬܪ̈ܥܣܪ ܒܐܕܪ ܝܪܚܐ ܡܒܪܟܐ. ܐܬܟܬܒ ܘܐܬܕܒܩ. ܒܐܝ̣̈ܕܝ
-                                            ܫܡܘܐܝܠ ܒܨܝܪܐ. ܘܒܫܡܐ ܠܡ ܩܫܝܫܐ ܘܐܣܛܘܢܪܐ ܒܓܙܪܬܐ. ܕܩܠܝܡܐ
-                                            ܕܐܠܟܣܢܕܪܝܐ ܘܕܡܨܪܝܢ. ܘܡܬܝܕܥ ܒܪ ܩܘܪܝܩܘܣ. ܒܪ ܐܒܪܗܡ. ܒܪ
-                                            ܐܠܝܫܥ. ܡ̈ܢܚܐ. ܟܬܒܗ ܕܝܢ ܐܝܟ ܕܠܗܘܓܝܐ ܘܝܘܬܪܢܐ ܘܦܘܪܩܢܐ
-                                            ܕܢܦܫܗ. ܘܕܟܠ ܡ̇ܢ ܕܦܓܥ ܒܗ ܘܩܪܐ ܘܡܬܒ̇ܣܡ ܡܢܗ ܒܗܝܡܢܘܬܐ ܫܪܝܪܬܐ
-                                            ܘܠܐ ܦܠܝܓܬܐ. ܩܢܝܗܝ ܡܢ ܥܡܠܐ ܕܐܝ̣̈ܕܘܗܝ. ܘܡܢ ܕܘܥܬܐ ܕܐ̈ܦܘܗܝ.
-                                            ܏ܘܫ.</quote>
-                                    </p>
-                </item>
-                <item xml:id="addition2" n="2">
-                  <locus from="25a"/>
-                  <p>On fol. 25 a there is the brief Arabic note, <quote xml:lang="ar">
-                  وقفًا على دير السريان
-                  <supplied reason="translation" xml:lang="en" resp="http://syriaca.org/documentation/editors.xml#wwright">"a legacy to the
-                                        convent of the Syrians"</supplied></quote>.</p>                  
-                </item>
-              </list>
-            </additions>
+            <additions/>
             <bindingDesc>
                             <p>Content pending</p>
                         </bindingDesc>
@@ -211,8 +144,7 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate datingMethod="Seleucid" when-custom="1399">A. Gr. 1399</origDate>
-                            <origDate calendar="Gregorian" when="1088">A.D. 1088</origDate>
+                            <origDate calendar="Gregorian" notBefore="0700" notAfter="0900">viiith or ixth cent.</origDate>
                             <origPlace/>
                         </origin>
                         <provenance/>
@@ -402,7 +334,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-04-01">Created new URI for upper text; edits to msContents, condition, handDesc, additions, and origDate</change>      
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-04-01">Created new URI for lower text; edits to msContents, condition, handDesc, additions, and origDate</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-29-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-29">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2021-09-11" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>      
