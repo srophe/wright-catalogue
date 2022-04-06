@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add. MS 17,110, fol. 61, upper text</title>
+        <title level="a" xml:lang="en">BL Add. MS 17,110, foll. 72-76, lower text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -50,7 +50,7 @@
     </editionStmt>
       <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/1528/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1525/tei</idno>
         <availability>
             <p/>
             <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -60,15 +60,15 @@
         <date calendar="Gregorian">2021-09-17-04:00</date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-1528">
+        <msDesc xml:id="manuscript-1525">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/1528</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1525</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add. MS 17,110, fol. 61, upper text</idno>
+              <idno type="BL-Shelfmark">Add. MS 17,110, foll. 72-76, lower text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,10 +81,19 @@
           </msIdentifier>
           <msContents>
             <textLang mainLang="syr"/>
-            <msItem xml:id="a1" n="1">
-              <locus from="61"/>
-              <title xml:lang="en">The Psalms, according to the Peshitta version</title>
-            </msItem>
+            <msItem xml:id="a1" n="1" defective="true">
+              <locus from="72b"/>
+              <title xml:lang="en">An imperfect treatise on the titles or
+                                occasions of the composition of <ref target="http://syriaca.org/work/9672">the Psalms</ref></title>
+              <rubric xml:lang="syr">ܥ̈ܠܬܐ ܕܡܙ̈ܡܘܪܐ</rubric>
+              <incipit xml:lang="syr">ܡܢ ܥ̈ܠܬܐ ܣܓܝܐ̈ܬܐ ܘܡܫ̈ܓܢܝܬܐ ܚ̇ܙܐ ܐܢܐ ܕܡܬܬܙܝܥܝܢ
+                                ܐܝܠܝܢ ܕܠܡܟܬܒܘ ܡܕܡ ܡܬܚܦܛܝܢ. ܡܢܗܘܢ ܓܝܪ ܡܟܣܢܘܬܐ ܕܟ̈ܬܝܒܬܐ ܕܛܘܥܝܝ ܕܢܫܒܩܘܢ
+                                ܠܕܡܢ ܒܬܪܟܢ ܐܬܚܦܛܘ. ܕܐܝܠܝܢ ܕܦܓܥܝܢ ܒܡܐܡܪ̈ܝܗܘܢ ܬܚܪܪܘܢ ܘܝܘܬܪܢܐ. . . . .
+                                . . . . . </incipit>              
+              <note>The greater part of this treatise has been carefully erased, in
+                                order to make room for <ref target="http://syriaca.org/work/10507">the Canticles</ref>, which now occupy <bibl>foll. 73a
+                                —76a<ptr target="http://syriaca.org/manuscript/1524"/></bibl>.</note> 
+            </msItem>            
           </msContents>
           <physDesc>
             <objectDesc form="codex">
@@ -97,11 +106,7 @@
                                 <condition>
                                     <list>
                                         <item>
-                                            <p>Vellum leaf from a small manuscript. 
-                                            This leaf is palimpsest (see 
-                                            <bibl>Add. 17,110, fol. 61, lower text<ptr target="http://syriaca.org/manuscript/1529"/></bibl>).
-                                            It appears to have been a fly-leaf, and to
-                                            have had no writing upon it.</p>
+                                            <p>Vellum, about 9 in. by 5 1/2.</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -110,10 +115,12 @@
                                 <p>Content pending</p>
                             </layoutDesc>
                         </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc>The later text of this leaf seems to be of the <origDate calendar="Gregorian" notBefore="0800" notAfter="1000">ixth or xth cent.</origDate></desc>
-              </handNote>
+            <handDesc hands="3">
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr">
+                <desc>These leaves are written in a small, elegant character, not later
+                                                than the year <origDate datingMethod="Seleucid" when-custom="0911">911</origDate>, <origDate calendar="Gregorian" when="0600">A.D. 600</origDate>, with the exception of
+                                                foll. 73—76.</desc>
+              </handNote>              
             </handDesc>
             <additions/>
             <bindingDesc>
@@ -126,8 +133,10 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate calendar="Gregorian" notBefore="0800" notAfter="1000">ixth or xth cent.</origDate>
-                            <origPlace/>
+                            <origDate calendar="Gregorian" when="0600">A.D.
+                                600</origDate>
+                            <origDate datingMethod="Seleucid" when-custom="0911">911</origDate>
+                            <origPlace>The convent of Ramshā</origPlace>
                         </origin>
                         <provenance/>
                         <acquisition/>
@@ -316,10 +325,12 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-04-01">Created new URI for upper text; edits to msContents, handDesc, additions, and origDate</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-04-06">Created new URI for these folia; edits to general structure</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-31">Created new URI for these folia; edits to msContents, handDesc, additions, and origDate</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>      
+      <change who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
+      <change type="planned" subtype="missing">Missing URI for Bodleian manuscript</change>      
     </revisionDesc>
   </teiHeader>
   <facsimile>
