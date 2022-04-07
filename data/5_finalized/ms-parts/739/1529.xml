@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add. MS 17,110, fol. 47, lower text</title>
+        <title level="a" xml:lang="en">BL Add. MS 17,110, fol. 77</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -50,7 +50,7 @@
     </editionStmt>
       <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/1526/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1529/tei</idno>
         <availability>
             <p/>
             <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -60,15 +60,15 @@
         <date calendar="Gregorian">2021-09-17-04:00</date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="manuscript-1526">
+        <msDesc xml:id="manuscript-1529">
           <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/1526</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1529</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add. MS 17,110, fol. 47, lower text</idno>
+              <idno type="BL-Shelfmark">Add. MS 17,110, fol. 77</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -82,13 +82,8 @@
           <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus from="47"/>
-              <title xml:lang="en">A collection of prayers and hymns</title>
-              <rubric xml:lang="syr"><locus from="47b"/>ܨܠܝܒܐ</rubric>
-              <note>The older writing has been so
-                                        carefully erased that hardly a single word is legible. The
-                                        word <foreign xml:lang="syr">ܨܠܝܒܐ</foreign> can, however, be read in the rubric in the
-                                        left-hand column of the verso.</note>              
+              <locus from="77"/>
+              <title xml:lang="en">Unspecified contents</title>             
             </msItem>
           </msContents>
           <physDesc>
@@ -102,7 +97,8 @@
                                 <condition>
                                     <list>
                                         <item>
-                                            <p>Vellum leaf from a small manuscript, which probably contained a collection of prayers and hymns. This folio is palimpsest (see <bibl>Add. 17,110, fol. 47, upper text<ptr target="http://syriaca.org/manuscript/1525"/></bibl>), but the older writing has been so carefully erased that hardly a single word is legible.</p>
+                                            <p>Vellum leaf, about 9 in. by 5 1/2, much stained and slightly
+                                                torn.</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -317,10 +313,11 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
-      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-03-31">Created new URI for lower text; edits to msContents, handDesc, additions, and origDate</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-04-07">Created new URI for this folio; edits to general structure</change>      
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>      
+      <change type="planned" subtype="consultation">Wright's description is so incomplete that the physical manuscript needs to be consulted and redescribed.</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
