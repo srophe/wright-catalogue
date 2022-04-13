@@ -115,21 +115,10 @@
                                 <condition>
                                     <list>
                                         <item>
-                                            <p>Vellum, about 9 5/8 in. by 6 1/2, consisting of 87
-                                                leaves, some of which are slightly torn and soiled,
-                                                especially foll. 1—15, 54 and 55. The quires, signed
-                                                with letters and arithmetical figures (fol. 71 b,ܝܒ
-                                                %), must have been at least 15 in number; but
-                                                several of them are lost, and others are imperfect,
-                                                leaves being wanting at the beginning and end, as
-                                                well as after foll. 2, 10, 11, 15, 21, 30, 47, 54,
-                                                61, 71, and 79. Each page is divided into two
-                                                columns, of from 20 to 35 lines. The older portions
-                                                of this volume, foll. 1—15 and 47—87, are written in
-                                                a fine, regular Estrangela of the vith or viith
-                                                cent.; the remainder, foll. 16—46, which is
-                                                palimpsest (see below), is in an inelegant
-                                                Estrangela of the ixth cent. </p>
+                                            <p>Vellum, about 9 5/8 in. by 6 1/2, written in two columns.
+                                            These leaves are palimpsest (see <bibl>Add. 17,164, foll. 16-46, 
+                                            upper text<ptr target="http://syriaca.org/manuscript/1553"/></bibl>).
+                                            </p>
                                         </item>
                                     </list>
                                 </condition>
@@ -140,23 +129,10 @@
                         </objectDesc>
             <handDesc hands="1">
               <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+                <desc>These leaves are written in a fine Estrangela of the <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate></desc>
               </handNote>
             </handDesc>
-            <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                  <locus from="48a"/>
-                  <p>On the margin of fol. 48 a, one <persName>Barsauma</persName>
-                                        has recorded his name.</p>
-                  <p>
-                    <quote xml:lang="syr">ܨ̇ܠܐ ܐܚܘܢ ܥܠ ܗ̇ܘ ܕܝܗܒܗ ܠܟܬܒܐ ܘܥܠ ܡܚܠܘܬ
-                                            (sic) ܕܝܠܝ ܒܪܨܘܡܐ ܘܥܠ ܐܒܗ̈ܝ.</quote>
-                  </p>
-                </item>
-              </list>
-            </additions>
+            <additions/>
             <bindingDesc>
                             <p>Content pending</p>
                         </bindingDesc>
@@ -167,8 +143,7 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate notBefore="0500" notAfter="0700"/>
-                            <origDate notBefore="0800" notAfter="0900"/>
+                            <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate>
                             <origPlace/>
                         </origin>
                         <provenance/>
@@ -358,16 +333,10 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-04-13">Created new URI for lower text; edits to msContents, condition, handDesc, and origDate</change>      
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change when="2021-08-06" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
-      <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
-                encoding.</change>
-      <change type="planned" subtype="arabic">Add missing Arabic text (in Condition
-                Description).</change>
-      <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document
-                needs to be checked for accuracy (1b, 1c, 1e, 1g, 2a, 3, addition foll. 48a, 3
-                running title)</change>
+      <change when="2021-08-06" who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>      
     </revisionDesc>
   </teiHeader>
   <facsimile>
