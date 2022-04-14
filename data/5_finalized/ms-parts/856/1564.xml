@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17198</title>
+        <title level="a" xml:lang="en">BL Add. MS 17,198, foll. 7-22 and 33-88</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#jpagan">Jessica Pagan</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
           <resp>Syriac text entered by</resp>
@@ -49,7 +50,7 @@
       </editionStmt>
          <publicationStmt>
         <authority>Syriaca.org: The Syriac Reference Portal</authority>
-        <idno type="URI">http://syriaca.org/manuscript/856/tei</idno>
+        <idno type="URI">http://syriaca.org/manuscript/1564/tei</idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
@@ -59,15 +60,15 @@
         <date calendar="Gregorian"/>
       </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="manuscript-856">
+            <msDesc xml:id="manuscript-1564">
                <msIdentifier>
             <country>United Kingdom</country>
             <settlement>London</settlement>
             <repository>British Library</repository>
             <collection>Oriental Manuscripts</collection>
-            <idno type="URI">http://syriaca.org/manuscript/856</idno>
+            <idno type="URI">http://syriaca.org/manuscript/1564</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17198</idno>
+              <idno type="BL-Shelfmark">Add. MS 17,198, foll. 7-22 and 33-88</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,18 +82,23 @@
                <msContents>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
+              <locus from="7" to="22"/>
+              <locus from="33" to="88"/>
               <title xml:lang="en">The metrical discourse of <persName ref="http://syriaca.org/person/42">Jacob of Batnae</persName> on the
                         Crucifixion of <persName ref="http://syriaca.org/person/2245">our
                            Lord</persName>.</title>
-              <note>Of the subdivisions, there are marked on the margin the following
-                        two.</note>
+              <note>Of the subdivisions, there are marked on the margin the following:</note>
               <msItem xml:id="b1" n="2">
+                <locus from="13a"/>
+                <title xml:lang="en">Part a</title>
                 <rubric xml:lang="syr">ܩܘܡܐ ܕܠܠܝܐ
                            ܕܚܡܫܐ</rubric>
                 <incipit xml:lang="syr">
                   <locus from="13a"/>ܠܒܟܘܗܝ ܠܒܪܐ</incipit>
               </msItem>
               <msItem xml:id="b2" n="3">
+                <locus from="71b"/>
+                <title xml:lang="en">Part b</title>
                 <rubric xml:lang="syr">ܩܘܡܐ ܕܠܠܝܐ
                            ܕܫܒܬܐ</rubric>
                 <incipit xml:lang="syr">
@@ -111,11 +117,12 @@
                         <condition>
                            <list>
                               <item>
-                                 <p>Vellum, consisting of 88 leaves, some of which are slightly
+                                 <p>Vellum leaves of a manuscript consisting of 88 leaves, some of which are slightly
                                     stained and torn. The quires, signed with letters, were
                                     originally at least 16 in number (<quote xml:lang="syr">ܝܗ</quote>, <locus from="71">fol. 71</locus>). Leaves are
-                                    wanting both at the beginning and end, as well as after <locus from="6">foll. 6</locus>, <locus from="14">14</locus>, <locus from="32">32</locus>, <locus from="40">40</locus>, and <locus from="80">80</locus>. The number of lines in each page varies
-                                    from 20 to 24.</p>
+                                    wanting at the end, as well as after <locus from="14">foll. 14</locus>, <locus from="40">40</locus>, and <locus from="80">80</locus>. The number of lines in each page varies
+                                    from 20 to 24. Foll. 1-6 and 23-32 are later palimpsest additions (see <bibl>Add. 17,198, foll. 1-6 and 23-32, upper text<ptr target="http://syriaca.org/manuscript/1562"/></bibl> and 
+                                    <bibl>Add. 17,198, foll. 1-6 and 23-32, lower text<ptr target="http://syriaca.org/manuscript/1563"/></bibl>).</p>
                               </item>
                            </list>
                         </condition>
@@ -124,42 +131,12 @@
                         <p>Content pending</p>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc hands="2">
-              <handNote medium="unknown" xml:id="handNote1" scope="major" script="syr-Syre">
-                        <desc>This manuscript is written in a fine Estrangělā of the <origDate notBefore="0600" notAfter="0700">viith cent.</origDate>; </desc>
-                     </handNote>
-              <handNote medium="unknown" xml:id="handNote2" scope="minor" script="syr">
-                        <desc>There is the exception of <locus from="1" to="6">foll. 1—6</locus> and <locus from="23" to="32">23—32</locus> , which are later
-                           palimpsest additions of the <origDate notBefore="0800" notAfter="1000">ixth or xth century</origDate>.</desc>
-                     </handNote>
+                  <handDesc hands="1">
+              <handNote medium="unknown" xml:id="handNote1" scope="sole" script="syr-Syre">
+                        <desc>This manuscript is written in a fine Estrangělā of the <origDate notBefore="0600" notAfter="0700">viith cent.</origDate></desc>
+                     </handNote>              
             </handDesc>
-                  <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                           <locus/>
-                           <p>The palimpsest portions of this volume originally formed part of a
-                              manuscript written in three columns, in a small, elegant Estrangělā of
-                              the <date notBefore="0500" notAfter="0600">vith cent</date>. The older
-                              text is now most distinctly legible on <locus from="27">foll.
-                                 27</locus> and <locus from="28">28</locus>. Judging by the running
-                              title <quote xml:lang="syr-Syre">ܣܘܢܗܕܝܣ ܕܒܐܦܣܘܣ</quote>, which is
-                              still visible on <locus from="30a">foll. 30 a</locus> and <locus from="25b">25 b</locus>, at the foot of the page, this manuscript
-                              contained, among other things, the Acts of one of the Councils of
-                                 <placeName ref="http://syriaca.org/place/623">Ephesus</placeName>.
-                              It also comprised the <title>Anakephalaeosis of
-                                    <persName>Epiphanius</persName>
-                    </title>; at least there is
-                              written on <locus from="24b">foll. 24 b</locus> and <locus from="29a">29 a</locus>, in slanting Greek uncials of later date, the same
-                              list of heretical sects that we find appended to that work in
-                                 <bibl>Add. 12,156, fol. 137 a.</bibl>
-                  </p>
-                           <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                        </item>
-              </list>
-            </additions>
+                  <additions/>
                   <bindingDesc>
                      <p>Content pending</p>
                   </bindingDesc>
@@ -170,7 +147,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate/>
+                     <origDate notBefore="0600" notAfter="0700">viith cent.</origDate>
                      <origPlace/>
                   </origin>
                   <provenance/>
@@ -360,14 +337,11 @@
       </textClass>
     </profileDesc>
       <revisionDesc status="draft">
+         <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-04-14">Created new msPart URI; edits to msContents, condition, handDesc, and origDate</change>            
          <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-07-09-05:00">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change when="2020-08-06" who="http://syriaca.org/documentation/editors.xml#jpagan">Initial
             TEI encoding.</change>
-         <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document needs
-            to be checked for accuracy</change>
-        <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
-          encoding.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
