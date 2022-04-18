@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -80,7 +81,7 @@
           </msIdentifier>
           <msContents>
             <summary/>
-            <textLang mainLang="syr-Syre"/>
+            <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
               <locus from="48b"/>
               <author ref="https://syriaca.org/person/31">Cosmas</author>
@@ -89,7 +90,7 @@
               <rubric xml:lang="syr">ܢܨܚܢܗ ܕܡܪܝ ܫܡܥܘܢ ܪܫܐ ܕܐ̈ܒܝܠܐ</rubric>
               <note>The text is substantially the same as that published by Assemani in the
                   <bibl>Acta SS. Martyrum, t. ii., p. 268</bibl>, but the verbal differences are
-                very considerable. See<bibl> Add. 12,174, no. 2.</bibl>
+                very considerable. See <bibl>Add. 12,174<ptr target="http://syriaca.org/manuscript/70"/>, no. <citedRange unit="">2</citedRange></bibl>.<!--JA: Attribute unit in element citedRange requires Wright's numbering-->
               </note>
             </msItem>
             <msItem xml:id="a2" n="2">
@@ -99,8 +100,8 @@
               </title>
               <rubric xml:lang="syr">ܦܘ̈ܩܕܢܐ ܘܙܘܗܪ̈ܐ ܕܡܪܝ ܫܡܥܘܢ ܛܘܒܢܐ</rubric>
               <incipit xml:lang="syr">ܐ̈ܚܝ ܘܒ̈ܢܝ ܘܚ̈ܒܝܒܝ. ܟܬܝܒ ܒܟ̈ܬܒܐ ܩܕܝ̈ܫܐ. ܕܐܪܝܐ ܢܗܡ ܡܢ ܠܐ ܢܕܚܠ
-                ܡܪ̈ܡܪ̈ܘܬܐ ܐܢ [ܡܪ̈ܐ ܡܪ̈ܘܬܐ] ܪܓܙ. ܐܝܕܐ ܗܝ ܒܪܝܬܐ ܕܪ̈ܘܚܢܐ ܐܘ ܕܦܓܪ̈ܢܐ ܕܬܣܝܒܪ. ܘܗܫܐ ܒ̈ܢܝ.
-                ܐܢܐ ܫܡܥܘܢ ܒܨܝܪܐ ܡܠܟ ܐܢܐ ܠܟܘܢ ܕܬܩܪܒܘܢ ܬܝܒܘܬܐ ܠܘܬ ܐܠܗܐ ܡܪܚܡܢܐ. ܏ܘܫ. </incipit>
+                <choice><orig>ܡܪ̈ܡܪ̈ܘܬܐ</orig><corr>ܡܪ̈ܐ ܡܪ̈ܘܬܐ</corr></choice> ܐܢ ܪܓܙ. ܐܝܕܐ ܗܝ ܒܪܝܬܐ ܕܪ̈ܘܚܢܐ ܐܘ ܕܦܓܪ̈ܢܐ ܕܬܣܝܒܪ. ܘܗܫܐ ܒ̈ܢܝ.
+                ܐܢܐ ܫܡܥܘܢ ܒܨܝܪܐ ܡܠܟ ܐܢܐ ܠܟܘܢ ܕܬܩܪܒܘܢ ܬܝܒܘܬܐ ܠܘܬ ܐܠܗܐ ܡܪܚܡܢܐ. ܏ܘܫ.</incipit>
             </msItem>
           </msContents>
           <physDesc>
@@ -117,10 +118,9 @@
                       <p>Vellum, about 10 1/2 in. by 8 3/8, consisting of 86 leaves (Add. 14,484,
                         foll. 48—133), a few of which are slightly, stained and torn. The quires, 11
                         in number, seem to have been originally signed with arithmetical figures
-                        (see foll. 72 a, 94 a, and 102 a), but are now numbered with letters from ܝܕ
-                        (fol. 49 a) to ܟܗ (fol. 127 a). Each page is divided into two columns, of
-                        from 22 to 28 lines. This manuscript is written in a fine Estrangela of the
-                        vith cent</p>
+                        (see foll. 72 a, 94 a, and 102 a), but are now numbered with letters from <foreign xml:lang="syr">ܝܕ</foreign>
+                        (fol. 49 a) to <foreign xml:lang="syr">ܟܗ</foreign> (fol. 127 a). Each page is divided into two columns, of
+                        from 22 to 28 lines.</p>
                     </item>
                   </list>
                 </condition>
@@ -130,15 +130,16 @@
               </layoutDesc>
             </objectDesc>
             <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr-Syre">
+                <desc>This manuscript is written in a fine Estrangela of the
+                        <origDate notBefore="0500" notAfter="0600">vith cent.</origDate></desc>
               </handNote>
             </handDesc>
             <additions>
               <list>
                 <item xml:id="addition1" n="1">
                   <locus from="133b"/>
-                  <p>After the doxology, fol. 133 b, we read in a smaller character the words :</p>
+                  <p>After the doxology, fol. 133 b, we read in a smaller character the words:</p>
                   <p>
                     <quote xml:lang="syr">ܕܟܝܪ̈ܝܢ ܐ̈ܚܐ ܟܠܗܘܢ ܕܒܡܫܝܚܐ: ܕܐܝܬ ܒܟܘܠ ܐܬܪ. ܘܨܠܘܬܗܘܢ ܬܗܘܐ ܥܠ ܚܛܝܐ ܘܒܨܝܪܐ ܠܥܠܡ
                       ܥܠܡܝܢ ܐܡܝܢ..</quote>
@@ -156,8 +157,8 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0500" notAfter="0600">VIth
-                Century</origDate>
+              <origDate notBefore="0500" notAfter="0600">vith
+                cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -347,6 +348,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-04-18">Edits to msContents, condition, handDesc, and origDate</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-03">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
     </revisionDesc>
