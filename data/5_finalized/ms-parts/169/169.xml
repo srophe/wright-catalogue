@@ -189,7 +189,7 @@
             <msIdentifier>
               <idno type="URI">http://syriaca.org/manuscript/171</idno>
               <altIdentifier>
-                <idno type="BL-Shelfmark">Add MS 14484 foll. 9-11</idno>
+                <idno type="BL-Shelfmark">Add MS 14484, foll. 9-11, upper text</idno>
               </altIdentifier>
               <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -202,56 +202,43 @@
             </msIdentifier>
             <msContents>
               <summary/>
-              <textLang mainLang="syr">Syriac</textLang>
+              <textLang mainLang="syr"/>
               <msItem n="1" xml:id="p2a1" defective="true">
                 <locus from="9" to="11">Foll. 9-11</locus>
                 <title type="supplied">Part of an apocryph, entitled "the history of the holy Mother of God, the Virgin."</title>
-                <rubric xml:lang="syr">ܬܫܥܝܬܐ ܕܩܕܝܫܬܐ ܝܠܕܬ ܐܠܗܐ ܒܬܘܠܬܐ<locus from="9" to="9"/>
+                <rubric xml:lang="syr">ܬܫܥܝܬܐ ܕܩܕܝܫܬܐ ܝܠܕܬ ܐܠܗܐ ܒܬܘܠܬܐ<locus from="9"/>
                 </rubric>
-                <note>The text has been published in<bibl>Wright's "Contributions to the Apocryphal Literature of the N. T."</bibl>
+                <note>The text has been published in <bibl>Wright's "Contributions to the Apocryphal Literature of the N. T."</bibl>
                 </note>
               </msItem>
             </msContents>
             <physDesc>
               <objectDesc form="codex">
                 <supportDesc material="perg">
-                  <support>
-                    <material>Vellum</material>
-                  </support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity="3">3 ff.</measure>
-                    <dimensions type="leaf" unit="in">
-                      <height>
-                        <measure type="height" quantity="9.75" unit="in">9 3/4</measure>
-                      </height>
-                      <width>
-                        <measure type="width" quantity="7" unit="in">7</measure>
-                      </width>
-                    </dimensions>
+                    <measure unit="content_pending" quantity="-1"/>
                   </extent>
                   <foliation/>
                   <collation/>
                   <condition>
                     <list>
                       <item>
-                        <p>Palimpsest leaves.<ptr target="http://syriaca.org/manuscript/1181 #Part3"/>
+                        <p>Vellum, about 9 3/4 in. by 7, consisting of three palimpsest leaves 
+                        (see <bibl>Add. 14,484, foll. 9—11, lower text<ptr target="http://syriaca.org/manuscript/1181"/></bibl>).
+                        There are 32 or 33 lines on each page, except on fol. 11 a, 
+                        which has been left unfinished.
                         </p>
-                      </item>
-                      <item>
-                        <p>Fol<locus from="11a" to="11a">11a</locus>has been left unfinished.</p>
-                      </item>
+                      </item>                      
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <layout columns="1" writtenLines="32 33">
-                    <p>There are 32 or 33 lines on each page, except on fol. 11 a</p>
-                  </layout>
+                  <p>Content pending</p>
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
                 <handNote xml:id="p2handNote1" scope="sole" script="syr" medium="unknown">
-                  <desc>The writing is good and regular, of the<origDate notBefore="0900" notAfter="1100">10th or 11th century</origDate>.</desc>
+                  <desc>The writing is good and regular, of the <origDate notBefore="0900" notAfter="1100">xth or xith century</origDate>.</desc>
                 </handNote>
               </handDesc>
               <decoDesc/>
@@ -263,7 +250,7 @@
             <history>
               <summary/>
               <origin>
-                <origDate notBefore="0900" notAfter="1100">10th or 11th century</origDate>
+                <origDate notBefore="0900" notAfter="1100">xth or xith century</origDate>
               </origin>
               <provenance/>
               <acquisition/>
@@ -296,7 +283,7 @@
             <msIdentifier>
               <idno type="URI">http://syriaca.org/manuscript/1181</idno>
               <altIdentifier>
-                <idno type="BL-Shelfmark">Add MS 14484 foll. 9-11</idno>
+                <idno type="BL-Shelfmark">Add MS 14484, foll. 9-11, lower text</idno>
               </altIdentifier>
               <altIdentifier>
                 <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -309,50 +296,43 @@
             </msIdentifier>
             <msContents>
               <summary/>
-              <textLang mainLang="syr">Syriac</textLang>
+              <textLang mainLang="syr"/>
               <msItem n="1" xml:id="p3a1" defective="true">
-                <locus from="11b" to="11b">Fol. 11b</locus>
-                <title type="supplied">A diagram for finding the commencement of Lent, etc., with an explanation of its use, also much effaced.</title>
+                <locus from="9" to="11"/>
+                <title xml:lang="en">Unspecified contents</title>
+                <note>The more ancient text is too thoroughly washed out to be legible, at least on foll. 9,10, and 11 a.</note>
+                <msItem xml:id="p3b1" n="2" defective="true">
+                  <locus from="11b"/>                
+                  <title type="supplied">A diagram for finding the commencement of Lent, etc., with an explanation of its use</title>
+                  <note>Also much effaced.</note>
+                </msItem>
               </msItem>
             </msContents>
             <physDesc>
               <objectDesc form="codex">
                 <supportDesc material="perg">
-                  <support>
-                    <material>Vellum</material>
-                  </support>
                   <extent>
-                    <measure type="composition" unit="leaf" quantity="3">3 ff.</measure>
-                    <dimensions type="leaf" unit="in">
-                      <height>
-                        <measure type="height" quantity="9.75" unit="in">9 3/4</measure>
-                      </height>
-                      <width>
-                        <measure type="width" quantity="7" unit="in">7</measure>
-                      </width>
-                    </dimensions>
+                    <measure unit="content_pending" quantity="-1"/>
                   </extent>
                   <foliation/>
                   <collation/>
                   <condition>
                     <list>
                       <item>
-                        <p>Palimpsest leaves.<ptr target="http://syriaca.org/manuscript/171 #Part2"/>
+                        <p>Vellum, about 9 3/4 in. by 7, consisting of three palimpsest leaves 
+                        (see <bibl>Add. 14,484, foll. 9—11, upper text<ptr target="http://syriaca.org/manuscript/171"/></bibl>).                       
                         </p>
-                      </item>
-                      <item>
-                        <p>The text is too thoroughly washed out to be legible, at least on<locus from="9" to="11a">foll. 9,10, and 11 a</locus>.</p>
-                      </item>
+                      </item>                      
                     </list>
                   </condition>
                 </supportDesc>
                 <layoutDesc>
-                  <p/>
+                  <p>Content pending</p>
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
                 <handNote xml:id="p3handNote1" scope="sole" script="syr" medium="unknown">
-                  <desc>The more ancient text seems to be of the<origDate notBefore="0800" notAfter="0900">9th century</origDate>.</desc>
+                  <desc>The more ancient text seems to be of the<origDate notBefore="0800" notAfter="0900">ixth century</origDate>.</desc>
                 </handNote>
               </handDesc>
               <decoDesc/>
@@ -364,7 +344,7 @@
             <history>
               <summary/>
               <origin>
-                <origDate notBefore="0800" notAfter="0900">9th century</origDate>
+                <origDate notBefore="0800" notAfter="0900">ixth century</origDate>
               </origin>
               <provenance/>
               <acquisition/>
@@ -1018,10 +998,12 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change when="2022-04-18" who="http://syriaca.org/documentation/editors.xml#jarnwine">Updates to Part2 (171) and Part3 (1181) for palimpsest leaves.</change>
       <change when="2013-10-25" who="http://syriaca.org/documentation/editors.xml#thannah">Created: file</change>
       <change when="2014-02-21" who="http://syriaca.org/documentation/editors.xml#thannah">Initial edit: reassigned external references, converted colophon to finalRubric</change>
       <change when="2014-04-07" who="http://syriaca.org/documentation/editors.xml#jarnwine">Took out blank refs in colophon tags.</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
+      <change type="planned" subtype="consultation">Wright's description of Part3 is so incomplete that the physical manuscript needs to be consulted and redescribed.</change>
       <change when="2016-07-06" who="http://syriaca.org/documentation/editors.xml#pgmiller">Changed: Files moved to srophe-app-data/data/manuscripts/tei repository.</change>
     </revisionDesc>
   </teiHeader>
