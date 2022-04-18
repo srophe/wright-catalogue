@@ -1,5 +1,5 @@
-<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/master/srophe-app/documentation/enrich-syriaca.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-stylesheet type="text/css" href="SRPEnrichCSS.css"?>
+<?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
     <fileDesc>
@@ -93,89 +93,76 @@
               <textLang mainLang="syr">Syriac</textLang>
               <msItem n="1" xml:id="p1a1" defective="true">
                 <locus from="1" to="34a">Foll. 1-34a</locus>
-                <title ref="http://syriaca.org/work/18" type="supplied">The book of Job, according to the Peshitta version.</title>
+                <title ref="http://syriaca.org/work/18" type="supplied">The book of Job, according to the Peshitta version</title>
                 <finalRubric xml:lang="syr">ܫܠܡ ܟܬܒܐ ܕܐܝܘܒ ܙܕܝܩܐ<locus from="34a" to="34a"/>
                 </finalRubric>
-                <note>The missing portions of the text are: ch. i. 1 —ii. 11, iii. 9 —v. 16, vi. 26— ix. 22, and xx. 1—xxxiii. 20.</note>
+                <note>The missing portions of the text are: <ref target="https://syriaca.org/work/9535">ch. i. 1 —ii. 11</ref>, <ref target="https://syriaca.org/work/9535">iii. 9 —v. 16</ref>, <ref target="https://syriaca.org/work/9535">vi. 26— ix. 22</ref>, and <ref target="https://syriaca.org/work/9535">xx. 1—xxxiii. 20</ref>.
+                The lessons are rubricated in the text.</note>
               </msItem>
             </msContents>
             <physDesc>
-              <objectDesc form="codex">
-                <supportDesc material="perg">
-                  <support>
-                    <material>Vellum</material>
-                  </support>
-                  <extent>
-                    <measure type="composition" unit="leaf" quantity="34">34 ff.</measure>
-                    <dimensions type="leaf" unit="in">
-                      <height>
-                        <measure type="height" quantity="8.5" unit="in">8 1/2</measure>
-                      </height>
-                      <width>
-                        <measure type="width" quantity="5.25" unit="in">5 1/4</measure>
-                      </width>
-                    </dimensions>
-                  </extent>
-                  <collation>
-                    <p>It does not now appear how the quires were signed, if at all.</p>
-                  </collation>
-                  <condition>
-                    <list>
-                      <item>
-                        <p>34 leaves, some of which are much stained and torn, especially fol.<locus>2</locus>,<locus>3</locus>,<locus>5—8</locus>,<locus>18</locus>,<locus>19</locus>,<locus>23</locus>,<locus>28</locus>,<locus>29</locus>and<locus>34</locus>.</p>
-                      </item>
-                      <item>
-                        <p>Leaves are wanting at the beginning, as well as after fol.<locus>1</locus>,<locus>3</locus>and<locus>18</locus>.</p>
-                      </item>
-                    </list>
-                  </condition>
-                </supportDesc>
-                <layoutDesc>
-                  <layout columns="1" writtenLines="20 22">
-                    <p>Each page has from 20 to 22 lines.</p>
-                  </layout>
-                </layoutDesc>
-              </objectDesc>
-              <handDesc hands="4">
-                <handNote xml:id="p1handNote1" scope="major" script="syr-Syre" medium="unknown">
-                  <desc>The writing is a good, regular Estrangela of the<origDate from="0500" to="0600">vith cent.</origDate>
-                  </desc>
-                </handNote>
-                <handNote xml:id="p1handNote2" scope="minor" script="syr" medium="unknown">
-                  <desc>See<ref target="#p1addition2">additions</ref>.</desc>
-                </handNote>
-                <handNote xml:id="p1handNote3" scope="major" script="syr" medium="unknown">
-                  <locus from="30a" to="30a"/>
-                  <desc>See<ref target="#p1addition3">additions</ref>.</desc>
-                </handNote>
-                <handNote xml:id="p1handNote4" scope="major" script="syr" medium="unknown">
-                  <locus from="34b" to="34b"/>
-                  <desc>See<ref target="#p1addition1">additions</ref>.</desc>
-                </handNote>
-              </handDesc>
-              <additions>
-                <list>
-                  <item n="1" xml:id="p1addition1">
-                    <locus from="34b" to="34b"/>
-                    <ref target="#p1handNote4"/>
-                    <p>On fol. 34 b, after the doxology, there stands a note in a later hand, now so erased as to be in great part illegible. It begins:</p>
-                    <p>
-                      <quote xml:lang="syr">ܟܠܡܢ ܕܠܚܐ ܥܘܗܕܢܐ ܕܗܢ ܟܬܒܐ ܕܐܝܬܘܗܝ ܠܕܝܪܐ ܩ܏ܕܝ . . . . .</quote>
-                    </p>
-                  </item>
-                  <item n="2" xml:id="p1addition2">
-                    <ref target="#p1handNote2"/>
-                    <p>Vowels added by a later hand.</p>
-                  </item>
-                  <!-- Add vowels-->
-                  <item n="3" xml:id="p1addition3">
-                    <ref target="#p1handNote3"/>
-                    <locus from="30a" to="30a"/>
-                    <p>The lessons are rubricated in the text; one has been noted by a later hand on the margin of fol. 30a.</p>
-                  </item>
-                </list>
-              </additions>
-            </physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <extent>
+                           <measure unit="content_pending" quantity="-1"/>
+                        </extent>
+                        <foliation/>
+                        <collation/>
+                        <condition>
+                           <list>
+                              <item>
+                                 <p>Vellum, about 8 1/2 in. by 5 1/4, consisting of 34 leaves, some
+                                    of which are much stained and torn, especially <locus from="2">fol. 2</locus>, <locus from="3">3</locus>, <locus from="5" to="8">5—8</locus>, <locus from="18">18</locus>, <locus from="19">19</locus>, <locus from="23">23</locus>, <locus from="28">28</locus>, <locus from="29">29</locus> and <locus from="34">34</locus>. It does not now appear how the quires
+                                    were signed, if at all. Leaves are wanting at the beginning, as
+                                    well as after fol. 1, 3 and 18. Each page has from 20 to 22
+                                    lines. Vowels have been added by a later hand (� � � � �).<note type="incomplete" resp="http://syriaca.org" xml:lang="en">The original description of this manuscript by William Wright includes characters, symbols, or illustrations which cannot be represented. Please consult the attached image.</note><!--Missing standalone characters for West Syrian vowels--></p>
+                              </item>
+                           </list>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>Content pending</p>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="3">
+              <handNote medium="unknown" xml:id="p1handNote1" scope="major" script="syr-Syre">
+                        <desc>The writing is a good, regular Estrangela of the <origDate notBefore="0500" notAfter="0600">vith cent</origDate>.</desc>
+                     </handNote>
+              <handNote medium="unknown" xml:id="p1handNote2" scope="minor" script="syr">
+                        <desc>Vowels have been added by a later hand.</desc>
+                     </handNote>
+              <handNote medium="unknown" xml:id="p1handNote3" scope="minor" script="syr">
+                        <desc>See additions.</desc>
+                     </handNote>
+            </handDesc>
+                  <additions>
+              <p/>
+              <list>
+                <item xml:id="p1addition1" n="1">
+                           <locus from="30a"/>
+                           <p>One of the lessons has been noted by a later
+                              hand on the margin of fol. 30 a.</p>                           
+                        </item>
+                <item xml:id="p1addition2" n="2">
+                           <locus from="34b"/>
+                           <p>On fol. 34 b, after the doxology, there
+                              stands a note in a later hand, now so erased as to be in great part
+                              illegible.</p>
+                           <p>
+                              <quote xml:lang="syr">ܟܠܡܢ ܕܠܚܐ ܥܘܗܕܢܐ ܕܗܢ ܟܬܒܐ ܕܐܝܬܘܗܝ ܠܕܝܪܐ ܩ܏ܕܝ . .
+                                 . . .</quote>
+                           </p>
+                        </item>
+              </list>
+            </additions>
+                  <bindingDesc>
+                     <p>Content pending</p>
+                  </bindingDesc>
+                  <sealDesc>
+                     <p>Content pending</p>
+                  </sealDesc>
+                  <accMat/>
+               </physDesc>
             <history>
               <origin>
                 <origDate from="0500" to="0600">vith cent.</origDate>
@@ -760,11 +747,15 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-04-18">Edits to duplicated files for URI 110.</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jpagan">Continued TEI
+            encoding.</change>
       <change when="2013-07-12" who="http://syriaca.org/documentation/editors.xml#dgreeson">Created: file</change>
       <change when="2013-09-04" who="http://syriaca.org/documentation/editors.xml#thannah">Initial edit: rearranged some of the additions to separate Coptic and Syriac, made loci human-readable</change>
       <change when="2014-04-07" who="http://syriaca.org/documentation/editors.xml#jarnwine">Cleanup of additions and removal of colophon tag.</change>
       <change type="planned" subtype="arabic">Add missing Arabic text.</change>
       <change type="planned" subtype="missing">Add in missing Coptic characters</change>
+      <change type="planned" subtype="missing">Add in missing West Syrian vowel characters in Part1</change>
       <change type="planned" subtype="arithmetical">Enter arithmetical figures.</change>
       <change when="2016-07-06" who="http://syriaca.org/documentation/editors.xml#pgmiller">Changed: Files moved to srophe-app-data/data/manuscripts/tei repository.</change>
     </revisionDesc>
