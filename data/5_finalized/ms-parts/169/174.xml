@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Roman Brasoveanu</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -80,7 +81,7 @@
           </msIdentifier>
           <msContents>
             <summary/>
-            <textLang mainLang="syr-Syre"/>
+            <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
               <locus from="134"/>
               <author ref="https://syriaca.org/person/31">Cosmas</author>
@@ -104,8 +105,9 @@
                         foll. 134 — 152), most of which are much stained and torn. The quires seem
                         originally to have been signed with arithmetical figures (see fol. 139 a).
                         Leaves are wanting at the beginning, as well as after foll. 146, 150, and
-                        151. Each page is divided into two columns, of from 25 to 28 lines. The
-                        writing is a fine, regular Estrangela of the vith cent</p>
+                        151. Each page is divided into two columns, of from 25 to 28 lines. 
+                        Fol. 152 was perhaps originally the last leaf of the preceding number, 
+                        <bibl>Add. 14,484, foll. 48—133<ptr target="http://syriaca.org/manuscript/173"/></bibl>.</p>
                     </item>
                   </list>
                 </condition>
@@ -114,49 +116,102 @@
                 <p>Content pending</p>
               </layoutDesc>
             </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="4">
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr-Syre">
+                <desc>The writing is a fine, regular Estrangela of the <origDate notBefore="0500" notAfter="0600">vith cent.</origDate></desc>
+              </handNote>
+              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="mixed">
+                <desc>See additions.</desc>
               </handNote>
             </handDesc>
             <additions>
-              <p>The Syriac and Arabic writing on the verso of this leaf is so much effaced that
-                only a very few words are legible.</p>
+              <p/>
               <list>
                 <item xml:id="addition1" n="1">
-                  <locus from="152"/>
-                  <p>Fol. 152 was perhaps originally the last leaf of the preceding number. It
-                    contains a note, some portions of which have been intentionally effaced,
-                    informing us that this copy of the Acts of Simeon Stylites was presented to the
-                    church of that saint at by the deacon Simeon of the said church.</p>
+                  <locus from="152a"/>
+                  <p>Fol. 152 contains a note, some portions of which have been intentionally effaced,
+                    informing us that this copy of the Acts of <persName ref="http://syriaca.org/person/744">Simeon Stylites</persName> was presented to the
+                    church of that saint at ----- by the deacon <persName>Simeon</persName> of the said church.</p>
                   <p>
-                    <quote xml:lang="syr-Syre">ܐܝܬܘܗܝ] ܟܬܒܐ ܗܢܐ ܕܢܨܚܢܗ ܕܛܘܒܢܐ ܡܪܝ ܫܡܥܘܢ ܕܐܣܛܘܢܗ̣. ܠܗܝܟܠܐ ܩܕܝܫܐ ܕܝܠܗ
+                    <quote xml:lang="syr">ܐܝܬܘܗܝ] ܟܬܒܐ ܗܢܐ ܕܢܨܚܢܗ ܕܛܘܒܢܐ ܡܪܝ ܫܡܥܘܢ ܕܐܣܛܘܢܗ̣. ܠܗܝܟܠܐ ܩܕܝܫܐ ܕܝܠܗ
                       ܕܛܘܒܢܐ ܡܪܝ ܫܡܥܘܢ̇. ܕܐܝܬ ܒܝܬ ܬܠܬ (؟) . . . ܐ. ܕܙܒܢܗ ܠܗ ܡܢ ܕܐܠܗܐ ܘܡܢ ܕܝܠܗ̣. ܫܡܫܐ
-                      ܡܪܝ ܫܡܥܘܢ . . . ܕܝܠܗ ܕܗܝܟܠܐ ܩܕܝܫܐ. ܏ܘܫ.</quote>
-                  </p>
+                      ܡܪܝ <choice><orig>ܫⲉܥܘܢ</orig><corr resp="http://syriaca.org/documentation/editors.xml#raydin">ܫܡܥܘܢ</corr></choice> . . . ܕܝܠܗ ܕܗܝܟܠܐ ܩܕܝܫܐ. ܏ܘܫ.</quote>
+                  <note type="incomplete" resp="http://syriaca.org" xml:lang="en">The original description of this manuscript by William Wright includes characters, symbols, or illustrations which cannot be represented. Please consult the attached image.</note><!--JA: The Coptic vowel eie (ⲉ) is mirrored in Wright's catalogue and could not be represented in the XML at this time.--></p>
                 </item>
                 <item xml:id="addition2" n="2">
-                  <locus from="152"/>
+                  <locus from="152a"/>
                   <p>On the same page are several entries, in Arabic, of deaths, dating, as it would
-                    appear, from about the year 221 of the Hijra, A.D. 835—6. They are all in the
-                    same handwriting. </p>
+                    appear, from about the year <date datingMethod="Hijri-qamari" when-custom="0221">221 of the Hijra</date>, <date calendar="Gregorian" notBefore="0835" notAfter="0836">A.D. 835—6</date>. They are all in the
+                    same handwriting.</p>
+                  <p>
+                    <quote xml:lang="ar">
+                      <p>
+                        ٮسم الاٮ و......................<lb/>
+                        ٮٮىح حسىٮ ٮں ىحىا رحمه ا..ه...<lb/>
+                        ارٮعه وعسرىں حلاں مں ٮس........<lb/>
+                        سٮه <foreign xml:lang="cop">���</foreign> ڡى حساٮ....<lb/>
+                        ىوم الاحد رحمه الله وحارا.....<lb/>
+                      </p>
+                      <p>
+                        ٮٮىح حٮوٮه رحمها الله ىوم<lb/>
+                        الٮلاتا ڡى حمسه اعس ح...<lb/>
+                        مں سٮاط سٮه احد وعسرىں وماٮىں<lb/>
+                      </p>
+                      <p>
+                        ٮركه مں الله لىحىى ٮں حس....<lb/>
+                        الكرماٮى<lb/>
+                        واٮرهىم ٮں حسىٮ<lb/>
+                      </p>
+                    <note type="incomplete" resp="http://syriaca.org" xml:lang="en">The original description of this manuscript by William Wright includes characters, symbols, or illustrations which cannot be represented. Please consult the attached image.</note>
+                    </quote><!--JA: Characters for Coptic arithmetical figures needed-->
+                  </p>
+                  <p>These may be read and translated as follows:--
+                  </p>
+                  <p>
+                    <quote xml:lang="ar">
+                      <p>
+                        بسم الاب و[الابن وروح القدس]<lb/>
+                        تنيَّح حُسَيْب (؟) بن يحيا رحمه الله [في]<lb/>
+                        اربعة وعشرين <choice><orig>خلان</orig><corr resp="http://syriaca.org/documentation/editors.xml#wwright">(خلون)</corr></choice> من تشرين....<lb/>
+                        سنة <foreign xml:lang="cop">���</foreign> في حساب [العرب]<lb/>
+                        يوم الاحد رحمه الله وجازا[ه]<lb/>
+                      </p>
+                      <p>
+                        تنَّيحت حَبُّوبة (؟) رحمها الله يوم<lb/>
+                        الثلاثا في خمسة اعش خ[لون]<lb/>
+                        من شباط سنة احد وعشرين وماتين<lb/>                        
+                      </p>
+                      <p>
+                        بركة من الله ليحيي بن حس[يب]<lb/>
+                        الكرماني<lb/>
+                        وابرهيم بن حسيب<lb/>                        
+                      </p>
+                    <note type="incomplete" resp="http://syriaca.org" xml:lang="en">The original description of this manuscript by William Wright includes characters, symbols, or illustrations which cannot be represented. Please consult the attached image.</note>
+                    </quote><!--JA: Characters for Coptic arithmetical figures needed-->
+                  </p>
+                   <p>"In the name of the Father, and of the Son, and of the Holy Spirit.
+                      <persName>Hosaib (?) ibn Yahya</persName>, God have mercy on him, went to rest
+                    (<foreign xml:lang="syr">ܐܬܢܝܚ</foreign>) when 24 nights were passed of the ... Teshrin, in the year <date datingMethod="Hijri-qamari" when-custom="0214">214</date><note type="footnote">Coptic figures: �=200, �=10, �=4.<note type="incomplete" resp="http://syriaca.org" xml:lang="en">The original description of this manuscript by William Wright includes characters, symbols, or illustrations which cannot be represented. Please consult the attached image.</note></note>
+                    according to the reckoning of the Arabs (<date calendar="Gregorian" notBefore="0829" notAfter="0830">A.D. 829—30</date>), on Sunday. God have
+                    mercy on him and reward him. <persName>Habbuba</persName> (?) went to rest, God
+                    have mercy on her, on Tuesday, when 15 nights were passed of Shubat, in the year
+                    <date datingMethod="Hijri-qamari" when-custom="0221">221</date> (<date calendar="Gregorian" notBefore="0835" notAfter="0836">A.D. 835—6</date>). A blessing from God be upon <persName>Yahya ibn Hosaib al -
+                      Kirmani</persName> (?) and <persName>Ibrahim ibn Hosaib</persName>."</p>
                 </item>
                 <item xml:id="addition3" n="3">
-                  <locus from="152"/>
-                  <p>" In the name of the Father, and of the Son, and of the Holy Spirit.
-                      <persName>Hosaib (?) ibn Yahya</persName>, God have mercy on him, went to rest
-                    (ܐܬܢܝܚ) when 24 nights were passed of the ... Teshrin, in the year 214.
-                    according to the reckoning of the Arabs (A.D. 829 —30), on Sunday. God have
-                    mercy on him and reward him.<persName> Habbuba</persName> (?) went to rest, God
-                    have mercy on her, on Tuesday, when 15 nights were passed of Shubat, in the year
-                    221 (A.D. 835—6). A blessing from God be upon <persName>Yahya ibn Hosaib al -
-                      Kirmani</persName> (?) and <persName>Ibrahim ibn Hosaib</persName>." </p>
+                  <locus from="152a"/>
+                  <p>Below, there is another entry, in the same handwriting, but much torn and
+                    effaced:</p>
+                  <p>
+                    <quote xml:lang="ar">.....ىوم الحمىس عدم حورحس................</quote>
+                  </p>
+                  <p>i.e., <foreign xml:lang="ar">يوم الخميس عُدِمَ جورجس</foreign>, "George died on Thursday."</p>
                 </item>
                 <item xml:id="addition4" n="4">
-                  <locus from="152"/>
-                  <p>Below, there is another entry, in the same handwriting, but much torn and
-                    effaced: "George died on Thursday." </p>
-                </item>
+                  <locus from="152b"/>
+                  <p>The Syriac and Arabic writing on the verso of this leaf is so much effaced that
+                   only a very few words are legible.</p>
+                </item>                
               </list>
             </additions>
             <bindingDesc>
@@ -169,8 +224,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0500" notAfter="0600">VIth
-                Century</origDate>
+              <origDate notBefore="0500" notAfter="0600">vith cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -360,12 +414,9 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-04-19">Edits to msContents, condition, handDesc, additions, and origDate</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-03">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
-      <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
-        encoding. See addition</change>
-      <change type="planned" subtype="arabic">Add missing Arabic text.</change>
-      <change type="planned" subtype="coptic">Add in missing Coptic characters. [Numbers]</change>
+      <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>      
     </revisionDesc>
   </teiHeader>
   <facsimile>
