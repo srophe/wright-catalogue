@@ -177,40 +177,41 @@
                         يوم الاحد رحمه الله وجازا[ه]<lb/>
                       </p>
                       <p>
-                        <lb/>
-                        <lb/>
-                        <lb/>                        
+                        تنَّيحت حَبُّوبة (؟) رحمها الله يوم<lb/>
+                        الثلاثا في خمسة اعش خ[لون]<lb/>
+                        من شباط سنة احد وعشرين وماتين<lb/>                        
                       </p>
                       <p>
-                        <lb/>
-                        <lb/>
-                        <lb/>                        
+                        بركة من الله ليحيي بن حس[يب]<lb/>
+                        الكرماني<lb/>
+                        وابرهيم بن حسيب<lb/>                        
                       </p>
                     <note type="incomplete" resp="http://syriaca.org" xml:lang="en">The original description of this manuscript by William Wright includes characters, symbols, or illustrations which cannot be represented. Please consult the attached image.</note>
                     </quote><!--JA: Characters for Coptic arithmetical figures needed-->
                   </p>
+                   <p>"In the name of the Father, and of the Son, and of the Holy Spirit.
+                      <persName>Hosaib (?) ibn Yahya</persName>, God have mercy on him, went to rest
+                    (<foreign xml:lang="syr">ܐܬܢܝܚ</foreign>) when 24 nights were passed of the ... Teshrin, in the year <date datingMethod="Hijri-qamari" when-custom="0214">214</date><note type="footnote">Coptic figures: �=200, �=10, �=4.<note type="incomplete" resp="http://syriaca.org" xml:lang="en">The original description of this manuscript by William Wright includes characters, symbols, or illustrations which cannot be represented. Please consult the attached image.</note></note>
+                    according to the reckoning of the Arabs (<date calendar="Gregorian" notBefore="0829" notAfter="0830">A.D. 829—30</date>), on Sunday. God have
+                    mercy on him and reward him. <persName>Habbuba</persName> (?) went to rest, God
+                    have mercy on her, on Tuesday, when 15 nights were passed of Shubat, in the year
+                    <date datingMethod="Hijri-qamari" when-custom="0221">221</date> (<date calendar="Gregorian" notBefore="0835" notAfter="0836">A.D. 835—6</date>). A blessing from God be upon <persName>Yahya ibn Hosaib al -
+                      Kirmani</persName> (?) and <persName>Ibrahim ibn Hosaib</persName>."</p>
                 </item>
                 <item xml:id="addition3" n="3">
                   <locus from="152a"/>
-                  <p>" In the name of the Father, and of the Son, and of the Holy Spirit.
-                      <persName>Hosaib (?) ibn Yahya</persName>, God have mercy on him, went to rest
-                    (ܐܬܢܝܚ) when 24 nights were passed of the ... Teshrin, in the year 214.
-                    according to the reckoning of the Arabs (A.D. 829 —30), on Sunday. God have
-                    mercy on him and reward him.<persName> Habbuba</persName> (?) went to rest, God
-                    have mercy on her, on Tuesday, when 15 nights were passed of Shubat, in the year
-                    221 (A.D. 835—6). A blessing from God be upon <persName>Yahya ibn Hosaib al -
-                      Kirmani</persName> (?) and <persName>Ibrahim ibn Hosaib</persName>." </p>
+                  <p>Below, there is another entry, in the same handwriting, but much torn and
+                    effaced:</p>
+                  <p>
+                    <quote xml:lang="ar">.....ىوم الحمىس عدم حورحس................</quote>
+                  </p>
+                  <p>i.e., <foreign xml:lang="ar">يوم الخميس عُدِمَ جورجس</foreign>, "George died on Thursday."</p>
                 </item>
                 <item xml:id="addition4" n="4">
-                  <locus from="152a"/>
-                  <p>Below, there is another entry, in the same handwriting, but much torn and
-                    effaced: "George died on Thursday." </p>
-                </item>
-                <item xml:id="addition5" n="5">
                   <locus from="152b"/>
                   <p>The Syriac and Arabic writing on the verso of this leaf is so much effaced that
-                only a very few words are legible.</p>
-                </item>
+                   only a very few words are legible.</p>
+                </item>                
               </list>
             </additions>
             <bindingDesc>
@@ -223,8 +224,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0500" notAfter="0600">VIth
-                Century</origDate>
+              <origDate notBefore="0500" notAfter="0600">vith cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -414,12 +414,9 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-04-19">Edits to msContents, condition, handDesc, additions, and origDate</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-01-03">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>
-      <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
-        encoding. See addition</change>
-      <change type="planned" subtype="arabic">Add missing Arabic text.</change>
-      <change type="planned" subtype="coptic">Add in missing Coptic characters. [Numbers]</change>
+      <change who="http://syriaca.org/documentation/editors.xml#rbrasoveanu">Initial TEI encoding.</change>      
     </revisionDesc>
   </teiHeader>
   <facsimile>
