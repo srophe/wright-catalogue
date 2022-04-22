@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/wlpotter/syriaca-wright-catalog/master/schemas/enrich-syriaca.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/wright-mss.css"?>
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title>Content pending</title>
+      </titleStmt>
+      <editionStmt>
+        <p>Content pending</p>
+      </editionStmt>
+      <publicationStmt>
+        <p>Content pending</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <idno type="URI">http://syriaca.org/manuscript/1464</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">Add. 17,211 lower text, fol. 1-48</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Arabic">687 B</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Roman">DCLXXXVII. B</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary/>
+            <textLang mainLang="grc">Greek</textLang>
+            <msItem>
+              <locus from="1a">Fol.1a</locus>
+              <title xml:lang="en">The <foreign xml:lang="grc">κεφάλαια</foreign></title>
+              <rubric xml:lang="grc">κεφάλαια</rubric>
+            </msItem>
+            <msItem>
+              <locus from="4a">Fol.4a</locus>
+              <title xml:lang="en">Large portions of the Gospel of S. Luke</title>
+              <note>The Ammonian sections are marked on the margins, but without the addition of the <ref>Eusebian canons</ref>.</note>
+              <note>These fragments have been edited, with a minute description of the
+                manuscript and a facsimile of a portion of fol. 4 b, by
+                  <bibl>Tischendorf in his Monumenta Sacra Inedita, Nova Collectio,
+                    vol. ii., Leipzig, 1857</bibl>. For some account of the leaves which have been
+                added to the volume since that time (foll. 2, 11, and 14), see <bibl>the Journal
+                  of Sacred Literature, 4th Series, vol. iv. (1864), p. 466</bibl>.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="perg">
+                <support>
+                  <material>Vellum</material>
+                </support>
+                <condition>
+                  <list>
+                    <item>
+                      <p>Foll. 1—48. Forty-eight leaves, some of which are much stained and soiled, and not a few more or less torn, especially foll. 2, 11, and 14. Each page is divided into two columns of 25 lines.</p>
+                    </item>
+                  </list>
+                </condition>
+              </supportDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote scope="sole" script="grc" medium="unknown">
+                <desc> This manuscript is written in large uncials, frequently becoming smaller at the end of a line. It seems to be of the <date calendar="Gregorian" notBefore="0500" notAfter="0600">vith cent.</date></desc>
+              </handNote>
+            </handDesc>
+            <additions/>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="Gregorian" notBefore="0500" notAfter="0600">vith cent.</origDate>
+            </origin>
+            <provenance/>
+            <acquisition/>
+          </history>
+        <additional/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Content pending</p>
+    </encodingDesc>
+    <profileDesc/>
+    <revisionDesc status="draft">
+      <change when="2022-04-22" who="http://syriaca.org/documentation/editors.xml#wpotter">CHANGED: Split parts of 872 into separate files for post-processing and re-nesting.</change>
+      <change when="2021-07-24" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
+        encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <formula>Content pending</formula>
+  </facsimile>
+  <text>
+    <body>
+      <bibl>Content pending</bibl>
+    </body>
+  </text>
+</TEI>
