@@ -4,14 +4,14 @@
     <fileOrConsole>file</fileOrConsole>
     <outputFileDirectory>/data/5_finalized/</outputFileDirectory><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
     <manuscriptLevelMetadata>
-        <pathToMsPartsFolder>/data/5_finalized/ms-parts/242/</pathToMsPartsFolder><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
-        <recordTitle>BL Add MS 14525</recordTitle>
-        <uriValue>242</uriValue>
+        <pathToMsPartsFolder>/data/5_finalized/ms-parts/872/</pathToMsPartsFolder><!-- use a relative path, starting with "/" and employing forward slashes ("/"), from the repository location declared in the config.xqm module -->
+        <recordTitle>BL Add MS 17210 + BL Add MS 17211</recordTitle>
+        <uriValue>872</uriValue>
         <country>United Kingdom</country>
         <settlement>London</settlement>
         <repository>British Library</repository>
         <collection>Oriental Manuscripts</collection>
-        <shelfMark>Add MS 14525</shelfMark>
+        <shelfMark>Add MS 17210 + Add MS 17211</shelfMark>
         <revisionDesc>
             <scriptEditor>
                 <editorId>srophe-util</editorId>
@@ -36,26 +36,19 @@
     <compositeMsFile></compositeMsFile>
     <msPartFiles><!-- these should be xml file names containing the data to be converted to msParts. These files should be stored in the folder declared above in the pathToMsPartsFolder text node. They should be ordered according to the sequence they should appear in the msParts sequence (i.e., the first ms part should be the first fileName element in the below sequence, even if it is not the numerically smallest URI value.-->
         <part>
-            <fileName>243.xml</fileName><!-- Requiring both the fileName and oldPartId allows for full flexibility of ordering and reordering -->
-            
+            <fileName>1466.xml</fileName><!-- Requiring both the fileName and oldPartId allows for full flexibility of ordering and reordering -->
         </part>   
         <part>
-            <fileName>244.xml</fileName>
-            
+            <fileName>1463.xml</fileName>
         </part>
         <part>
-            <fileName>245.xml</fileName>
-            
-        </part>
-        <part>
-            <fileName>246.xml</fileName>
-            
-        </part>
-        <part>
-            <fileName>247.xml</fileName>
-        </part>
-        <part>
-            <fileName>248.xml</fileName>
+            <fileName>1576.xml</fileName>
+            <part>
+                <fileName>1464.xml</fileName>
+                <part>
+                    <fileName>1465.xml</fileName>
+                </part>
+            </part>
         </part>
     </msPartFiles>
 </config>
