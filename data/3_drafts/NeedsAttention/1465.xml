@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="https://raw.githubusercontent.com/wlpotter/syriaca-wright-catalog/master/schemas/enrich-syriaca.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/wright-mss.css"?>
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title>Content pending</title>
+      </titleStmt>
+      <editionStmt>
+        <p>Content pending</p>
+      </editionStmt>
+      <publicationStmt>
+        <p>Content pending</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <idno type="URI">http://syriaca.org/manuscript/1465</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">Add. 17,211 foll. 49-53, lower text</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Arabic">687 B</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Roman">DCLXXXVII. B</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary/>
+            <textLang mainLang="grc">Greek</textLang>
+            <msItem defective="true">
+              <locus from="17211_49" to="17211_53">Foll. 49-53</locus>
+              <author>Euclid</author>
+              <title xml:lang="en">Portions of the Elements of Euclid, comprising propositions from Books x. and xiii</title>
+              <msItem>
+                <locus from="17211_49">Fol. 49</locus>
+                <title xml:lang="en">Book x., propp. 32 and 33</title>
+              </msItem>
+              <msItem>
+                <locus from="17211_51">Fol. 51</locus>
+                <title xml:lang="en">Book x., ropp. 80 and 81</title>
+                <rubric xml:lang="grc">πα</rubric>
+                <note>These are, in <bibl>Gregory's edition, Oxon. 1703, propp. 81 and 82</bibl>.</note>
+              </msItem>
+              <msItem>
+                <locus from="17211_52">Fol. 52</locus>
+                <title xml:lang="en">Book x., propp. 112 and 113</title>
+                <rubric xml:lang="grc">ρυγ</rubric>
+                <note>In <bibl>Gregory, propp. 113 and 114</bibl>.</note>
+              </msItem>
+              <msItem>
+                <locus from="17211_53">Fol. 53</locus>
+                <title xml:lang="en">Book xiii., prop. 19</title>
+                <rubric xml:lang="grc">ιθ</rubric>
+                <note>In <bibl>Gregory, prop. 14</bibl>.</note>
+              </msItem>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="perg">
+                <support>
+                  <material>Vellum</material>
+                </support>
+                <condition>
+                  <list>
+                    <item>
+                      <p>Fol. 49—53. Five leaves, about 11 1/4 in. by 8 5/8, all of which are more
+                        or less stained and soiled. The lower half of fol. 50 has been torn away,
+                        its place being supplied by part of one of the blank fly-leaves. Each page
+                        is divided into two columns, and in each full column there are 31 lines.</p>
+                    </item>
+                  </list>
+                </condition>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote script="grc" scope="sole">
+                <desc>These leaves are written in regular, but small-sized, slanting uncials, of <date calendar="Gregorian" notBefore="0675" notAfter="0725">the end of the viith or beginning of the viiith cent.</date></desc>
+              </handNote>
+            </handDesc>
+            <additions/>
+            <accMat/>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="Gregorian" notBefore="0675" notAfter="0725">the end of the viith or beginning of the viiith cent.</origDate>
+            </origin>
+            <provenance/>
+            <acquisition/>
+          </history>
+          <additional/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Content pending</p>
+    </encodingDesc>
+    <profileDesc/>
+    <revisionDesc status="draft">
+      <change when="2022-04-22" who="http://syriaca.org/documentation/editors.xml#wpotter">CHANGED: Split parts of 872 into separate files for post-processing and re-nesting.</change>
+      <change when="2021-07-24" who="http://syriaca.org/documentation/editors.xml#lruth">Initial TEI
+        encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <formula>Content pending</formula>
+  </facsimile>
+  <text>
+    <body>
+      <bibl>Content pending</bibl>
+    </body>
+  </text>
+</TEI>
