@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 17211, fol. 1-48</title>
+        <title level="a" xml:lang="en">BL Add MS 17211, fol. 1-48, lower text</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -67,28 +67,28 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/1464</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 17211, foll. 1-48</idno>
+              <idno type="BL-Shelfmark">Add MS 17211, foll. 1-48, lower text</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Arabic">687</idno>
+              <idno type="Wright-BL-Arabic">687 B</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
-              <idno type="Wright-BL-Roman">DCLXXXVII</idno>
+              <idno type="Wright-BL-Roman">DCLXXXVII. B</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
             <summary/>
             <textLang mainLang="grc">Greek</textLang>
             <msItem xml:id="a1" n="1">
-              <locus from="17211_1a">Fol.1a</locus>
+              <locus from="17211_1a">Fol. 1 a</locus>
               <title xml:lang="en">The <foreign xml:lang="grc">κεφάλαια</foreign>
               </title>
               <rubric xml:lang="grc">κεφάλαια</rubric>
             </msItem>
             <msItem xml:id="a2" n="2">
-              <locus from="17211_4a">Fol.4a</locus>
+              <locus from="17211_4a">Fol. 4 a</locus>
               <title xml:lang="en">Large portions of the Gospel of S. Luke</title>
               <note>The Ammonian sections are marked on the margins, but without the addition of the <ref>Eusebian canons</ref>.</note>
               <note>These fragments have been edited, with a minute description of the
@@ -147,8 +147,8 @@
                 <pubPlace>London</pubPlace>
                 <date>1870</date>
                 <ptr target="http://syriaca.org/bibl/8"/>
-                <citedRange unit="entry">DCLXXXVII</citedRange>
-                <citedRange unit="pp">2 :548-549</citedRange>
+                <citedRange unit="entry">DCLXXXVII. B</citedRange>
+                <citedRange unit="pp">2: 548</citedRange>
               </bibl>
             </listBibl>
           </additional>
@@ -305,9 +305,7 @@
       <textClass>
         <keywords scheme="#Wright-BL-Taxonomy">
           <list>
-            <item>
-              <ref target="#theo-single"/>
-            </item>
+            <item/>
           </list>
         </keywords>
       </textClass>
