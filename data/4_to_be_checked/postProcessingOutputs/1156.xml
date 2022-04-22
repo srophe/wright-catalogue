@@ -1,0 +1,1474 @@
+<?oxygen RNGSchema="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/srophe/wright-catalogue/master/parameters/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="a" xml:lang="en">BL Add MS 1017</title>
+        <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
+        <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+        <funder>The National Endowment for the Humanities</funder>
+        <funder>The Andrew W. Mellon Foundation</funder>
+        <principal>David A. Michelson</principal>
+        <editor role="general-editor" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</editor>
+        <respStmt>
+          <resp>Created by</resp>
+          <name type="person" ref="http://syriaca.org/documentation/editors.xml#jdalfonso">Joseph DAlfonso</name>
+        </respStmt>
+        <respStmt>
+            <resp>Based on the work of</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wwright">William Wright</name>
+        </respStmt>
+        <respStmt>
+            <resp>Edited by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+        </respStmt>
+        <respStmt>
+            <resp>Syriac text entered by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</name>
+        </respStmt>
+        <respStmt>
+            <resp>Greek and coptic text entry and proofreading by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#rstitt">Ryan Stitt</name>
+        </respStmt>
+        <respStmt>
+            <resp>Project management by</resp>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
+        </respStmt>
+        <respStmt>
+            <resp>English text entry and proofreading by</resp>
+            <name type="org" ref="http://syriaca.org/documentation/editors.xml#uasyriacaresearchgroup">Syriac Research Group, University of Alabama</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0"/>
+    </editionStmt>
+      <publicationStmt>
+        <authority>Syriaca.org: The Syriac Reference Portal</authority>
+        <idno type="URI">http://syriaca.org/manuscript/1156/tei</idno>
+        <availability>
+            <p/>
+            <licence target="http://creativecommons.org/licenses/by/3.0/">
+                <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
+            </licence>
+        </availability>
+        <date calendar="Gregorian">2022-04-22-05:00</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="manuscript-1156">
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <repository>British Library</repository>
+            <collection>Oriental Manuscripts</collection>
+            <idno type="URI">http://syriaca.org/manuscript/1156</idno>
+            <altIdentifier>
+              <idno type="BL-Shelfmark">Add MS 1017</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Arabic">850</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
+              <idno type="Wright-BL-Roman">DCCCL</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary/>
+            <textLang mainLang="syr"/>
+            <msItem xml:id="a1" n="1" defective="false">
+              <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+              <title xml:lang="en">Works of <persName>Gregory bar Hebraeus</persName>
+              </title>
+              <msItem xml:id="b1" n="2">
+                <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                <title xml:lang="en">The "Book of Rays", a compendium of Theology</title>
+                <title xml:lang="syr">ܟܬܒܐ ܕܙ̈ܠܓܐ</title>
+                <rubric xml:lang="syr">ܥܠ ܣܲܒܪܐ ܕܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ ܡܫܲܪܝܢܢ ܠܡ̣ܟܬܒ ܟܬܒܐ ܕܙ̈ܠܓܐ ܘܫܘܪܪܐ
+                  ܕܫ̈ܬܐܣܐ ܥܕܬܢ̈ܝܬܐ܀ ܡ̣ܢ ܣܝ̈ܡܐ ܕܐܒܘܢ ܏ܩܕ ܡܪܝ ܓ̣ܪܝܓ̣ܘܿܪܝܘܣ ܡܲܦܪܝܢܐ ܕܡܕܢܚܐ.</rubric>
+                <finalRubric xml:lang="syr">
+                  <note xml:lang="en">The subscription states that the
+                    manuscript was written by <persName>Bar-saumā</persName>, the son of
+                      <persName>David, a monk of the convent of Kartamīn</persName>, A. Gr. 1675,
+                    A.D. 1364.</note> ܠܬܫܒܘܚܬܐ ܘܐܠܝܩ̣ܪܐ ܕܬܠܝܬܝܘܬܐ ܏ܩܕ. ܘܩܘܝ̇ܡܐ ܘܫܘܪܪܐ ܕܗܝܡܢܘܬܐ
+                  ܫܪܝܪܬܐ ܕܐܪܬܘܕܘܟܣܘܼ ܝܥܩܘ̈ܒܝܐ ܪ̈ܕܝܝ ܒܥܩ̣̈ܒܬܐ ܫ̈ܠܝܚܝ̣ܬܐ. ܡܲܟܪ̈ܙܝ ܐܒܐ ܘܒܪܐ ܘܪܘܚܐ
+                  ܕܩܘܕܫܐ ܚ̣ܕ ܐܠܗܐ ܒܬܠܬܐ ܩܢ̈ܘܡܐ ܕܠܐ ܦܘܠܓܐ. ܫܩ̣ܠ ܕܝܢ ܣܵܟܐ ܟܬܒܐ ܗܢܐ ܡܠܸܐ ܚ̈ܝܐ ܕܡܬܟܲܢܐ .
+                  . . ـܬ݀ . . . ܐ . . . ܟܬܒܐ ܕܙ̈ܠܓܐ ܘܫܘܪܪܐ ܕܫܬܐܣ̈ܐ ܥ̈ܕܬܢܝܬܐ. ܡ̣ܢ ܣ̈ܝܡܐ ܕܡܡܲܠܠ
+                  ܐ̈ܠܗܝܬܐ ܩܕܝܫܐ ܡܪܝ ܓܪܝܓܘܪܝܘܣ ܡܲܦܪܝܢܐ ܕܟܠܗ̇ ܡܲܕܢܚܐ. ܥܣܪܐ ܝܘ̈ܡܬܐ ܒܐܒ ܝܪܚܐ. ܫ̣ܢܬ݀ ܐܠܦ
+                  ܘܫܬܡܐܐ ܏ܘܥܗ ܕܝܘ̈ܢܝܐ̣ ܒܐܝ̈ܕܝ̣ ܐܢܫ ܚܲܛܝܐ. ܡܠܸܐ ܡܘ̈ܡܐ ܘܚܒܪ̈ܬܐ. ܣܥܝ̣ܛܐ ܢܕܝܕܐ ܢܲܫܝܫ
+                  ܕܘܒܪ̈ܐ. ܗܕܝܘܛܐ ܐܦ ܬܪܡܘܛܐ. ܕܘܝ̇ܐ ܘܒܘܪܐ. ܘܫܟܝ̣ܪ ܥ̇ܒ̈ܕܐ. ܕܒܫܸܡ ܕܝܪܝܐ. ܕܒܥ̣ܘܡܪܐ ܩܕܝܫܐ
+                  ܕܡܪܝ ܫܡܘܝܐܝܠ ܘܡܪܝ ܫܡܥܘܢ. ܘܪܡ ܒܓܒ̈ܝܐ ܢܲܨܝܚܐ ܡܪܝ ܓܒܪܝܐܝܠ. ܕܡܬܟܲܢܐ ܥܘܡܪܐ ܕܩܪܬܡܝܢ. ܘܠܐ
+                  ܙ̇ܕܩ̣ ܗܘܐ ܕܢܬܕܟ̣ܪ ܫܡܗ ܡ̣ܢ ܢܕܝܕܘܬ ܣܘܥܪ̈ܢܘܗܝ. ܐܠܐ ܡܛܠ ܨܠܘܬ݀ ܟܠ ܦ̇ܓܘܥܐ ܒܪܝܟ̣ܐ ܕܒܟܬܒܐ
+                  ܗܢܐ ܕܥܠ ܐܝ̣ܕ̈ܝܐ. ܫܡܗ ܡܬܝ̣ܕܥ ܡ̣ܢ ܪܘܟܒܐ ܕܐܬܘ̈ܬܗ. ܩܕܡܝܬ݀ ܬܪܝܢܝܬܐ ܘܒܬܪܗ̇ ܗ̇ܝ ܥܣܪܝܢܝܬܐ.
+                  ܘܕܬܡܢܬܥܣܪܝܬܐ ܘܫܬܝܬܝܬܐ. ܘܬܠܬܥܣܪܝܬܐ ܘܣܟܐ ܕܟܠܗܝܢ ܩܕܡܝܬܐ. ܬܪܝܢܝܬܐ ܕܝܢ ܘܫ̣ܩܠܬ݀ ܣܟܐ
+                  ܥܣܪܝܢܝܬܐ. ܪܒܝܥܝܬܐ ܠܫܬܝܬܝܬܐ. ܡܚܲܣܕܐ ܕܝܢ ܠܥܣܝܪܝܬܐ. ܘܫܩ̣ܠܬ݀ ܣܟܐ ܪܒܝܥܝܬܐ. ܕܚܲܘܝܬ݀ ܫܡܗ
+                  ܘܫܡܐ ܕܐܒܘܗܝ ܒܗܢܐ ܚܘܫܒܢܐ ܛܪܩܐ. ܘܬܒ̇ܥ ܨܠܘܬܐ ܡ̣ܢ ܟܠ ܡ̇ܢ ܕܦ̇ܓܥ ܒܝܘ̈ܕܐ ܗ̇ܠܝܢ ܒ̈ܠܝܠ̣ܐ.
+                    ܏ܘܫ.<locus from="91b"/>
+                </finalRubric>
+                <note>See <bibl>Assemani, Bibl. Or., t. ii., p. 297.</bibl>
+                </note>
+                <msItem xml:id="c1" n="3" defective="true">
+                  <locus from="2a"/>
+                  <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                  <title xml:lang="en">An index of chapters</title>
+                  <note>Prefixed</note>
+                </msItem>
+                <msItem xml:id="c2" n="4">
+                  <locus from="3a"/>
+                  <title xml:lang="en">a short prooemium</title>
+                  <rubric xml:lang="syr">ܦܪܘܡܝܘܢ</rubric>
+                  <incipit xml:lang="syr">ܐܠܗ ܐ̈ܠܗܝܢ ܘܡܪܸܐ ܡܪ̈ܘܢ</incipit>
+                  <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                </msItem>
+                <msItem xml:id="c3" n="5">
+                  <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                  <title xml:lang="en">Ten discourses</title>
+                  <rubric xml:lang="syr">ܡܐܡܪ̈ܐ</rubric>
+                  <msItem xml:id="d1" n="6">
+                    <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                    <title xml:lang="en">First discourse</title>
+                    <title>of the Creation</title>
+                    <rubric xml:lang="syr">ܡܛܠ ܒܪ̈ܝܬܐ ܫܬ݀ (sic) ܝܘ̈ܡܐ. (marg. ܫܬܝ̣ܬ݀)</rubric>
+                    <msItem xml:id="e1" n="7">
+                      <locus from="3a"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">an introduction</title>
+                      <rubric xml:lang="syr"> ܥܘܬܵܕܐ ܡܛܠ ܗܢܝܵܢܗ̇ ܕܦܪܓܡܛܝܐ ܗܕܐ</rubric>
+                      <note>prefixed</note>
+                    </msItem>
+                    <msItem xml:id="e2" n="8">
+                      <locus from="4b"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Chap. 1</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܒܪ̈ܝܬܐ ܕܝܘܡܐ ܩܕܡܝܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e3" n="9">
+                      <locus from="11a"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 2</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܒܪ̈ܝܬ݂ܐ ܕܝܘܡܐ ܕܬܪܝܢ</rubric>
+                    </msItem>
+                    <msItem xml:id="e4" n="10">
+                      <locus from="11b"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 3</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܒܪ̈ܝܬܐ ܕܝܘܡܐ ܕܬܠܬܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e5" n="11">
+                      <locus from="13b"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 4</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܒܪ̈ܝܬ݂ܐ ܕܝܘܡܐ ܕܐܪܒܥܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e6" n="12">
+                      <locus from="16b"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 5</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܒܪ̈ܝܬܐ ܕܝܘܡܐ ܕܚܡܫܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e7" n="13">
+                      <locus from="18b"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 6</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܒܪ̈ܝܬܐ ܕܝܘܡܐ ܕܫܬܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e8" n="14">
+                      <locus from="20a"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 7</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܒܘܚܢܐ ܕܓ̣ܰܘܢܵܐܝܵܝ ܠܗܢܐ ܟܠ</rubric>
+                    </msItem>
+                  </msItem>
+                  <msItem xml:id="d2" n="15">
+                    <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                    <title xml:lang="en">Second discourse</title>
+                    <title>of Theology</title>
+                    <rubric xml:lang="syr">ܡܛܠ ܡܡ̇ܠܠܘܬ ܐܠܗܘܬܐ</rubric>
+                    <msItem xml:id="e9" n="16">
+                      <locus from="24a"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Chap. 1</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܠܚܘܕܝܘܬ ܟܝܢܗ̇ ܕܐܠܗܘܬܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e10" n="17">
+                      <locus from="29a"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 2</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܒܘ̈ܚܢܐ ܕܬܠܝܬܝܘܬ ܩܢ̈ܘܡܐ ܕܟܝܢܐ ܐܠܗܝܐ</rubric>
+                    </msItem>
+                  </msItem>
+                  <msItem xml:id="d3" n="18">
+                    <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                    <title xml:lang="en">Third discourse</title>
+                    <title>of the Incarnation of God the Word</title>
+                    <rubric xml:lang="syr">ܡܛܠ ܡܬܒܲܪܢܫܢܘܬܐ ܕܐܠܗܐ ܡܠܬܐ</rubric>
+                    <msItem xml:id="e11" n="19">
+                      <locus from="31b"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Chap. 1</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܫܘܪܪܗ̇ ܕܡܬܒܪܢܫܢܘܬܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e12" n="20">
+                      <locus from="36a"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 2</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܒܘ̈ܚܢܝܗ̇ ܕܚܕܝܘܬܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e13" n="21">
+                      <locus from="39a"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 3</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܠܐ ܡܡܲܙܓܘܬܐ ܕܟܝ̈ܢܐ</rubric>
+                    </msItem>
+                  </msItem>
+                  <msItem xml:id="d4" n="22">
+                    <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                    <title xml:lang="en">Fourth discourse</title>
+                    <title>of the Angels</title>
+                    <rubric xml:lang="syr">ܡܛܠ ܡ̈ܠܐܟܐ</rubric>
+                    <msItem xml:id="e14" n="23">
+                      <locus from="41a"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Chap. 1</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܗ̇ܝ ܕܐܢ ܐܝܬܝܗܘܢ ܡܢܐ ܐܝܬܝܗܘܢ</rubric>
+                    </msItem>
+                    <msItem xml:id="e15" n="24">
+                      <locus from="42b"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 2</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܦܚ̈ܡܝܗܘܢ ܕܠܘܬ ܚ̈ܕܕܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e16" n="25">
+                      <locus from="43b"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 3</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܦܚܡܗܘܢ ܕܠܘܬ ܓܘ̈ܫܡܐ</rubric>
+                    </msItem>
+                  </msItem>
+                  <msItem xml:id="d5" n="26">
+                    <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                    <title xml:lang="en">Fifth discourse</title>
+                    <title>of the evil Spirits</title>
+                    <rubric xml:lang="syr">ܡܛܠ ܪ̈ܘܚܐ ܒܝ̈ܫ̣ܬܐ</rubric>
+                    <msItem xml:id="e17" n="27">
+                      <locus from="45a"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Chap. 1</title>
+                      <rubric xml:lang="syr">ܡܛܠܗ̇ܝ ܕܐܢ ܐܝܬܝܗܘܢ ܘܡܢܐ ܐܝܬܝܗܘܢ</rubric>
+                    </msItem>
+                    <msItem xml:id="e18" n="28">
+                      <locus from="46b"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 2</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܡܥܒ̈ܕܢܘܬܗܘܢ</rubric>
+                    </msItem>
+                  </msItem>
+                  <msItem xml:id="d6" n="29">
+                    <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                    <title xml:lang="en">Sixth discourse</title>
+                    <title>of the Soul</title>
+                    <rubric xml:lang="syr">ܡܛܠ ܢܦܫܐ</rubric>
+                    <msItem xml:id="e19" n="30">
+                      <locus from="47b"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Chap. 1</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܢܦܫܐ ܠܐ ܡܠܝܠܬܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e20" n="31">
+                      <locus from="48b"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 2</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܟܝܢܗ̇ ܕܢܦܫܐ ܡܠܝܠܬ̣ܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e21" n="32">
+                      <locus from="50a"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 3</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܒܪܝܬ݂ܗ̇ ܕܢܦܫܐ ܡܠܝܠܬܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e22" n="33">
+                      <locus from="51b"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 4</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܚ̈ܝܠܐ ܘܡ̈ܥܒܕܢܘܬܐ ܕܢܦܫܐ ܡܠܝ̣ܠܬܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e23" n="34">
+                      <locus from="54b"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 5</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܩܛܐܣܛܐܣܝܣ ܢܦܫܢܝܬܐ ܡܢ ܒܬܪ ܦܘܪܫܢܐ ܕܡ̣ܢ ܦܓܪܐ</rubric>
+                    </msItem>
+                  </msItem>
+                  <msItem xml:id="d7" n="35">
+                    <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                    <title xml:lang="en">Seventh discourse</title>
+                    <title>of the Priesthood</title>
+                    <rubric xml:lang="syr">ܡܛܠ ܟܗܢܘܬܐ</rubric>
+                    <msItem xml:id="e24" n="36">
+                      <locus from="56a"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Chap. 1</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܡܵܢܝܘܬܗ̇ ܘܦܘ̈ܠܓܝܗ̇</rubric>
+                    </msItem>
+                    <msItem xml:id="e25" n="37">
+                      <locus from="57a"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 2</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܫܘ̈ܡܠܝܐ ܪܫܟܗ̈ܢܝܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e26" n="38">
+                      <locus from="59a"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 3</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܫܘ̈ܡܠܝܐ ܟܗ̈ܢܝܐ </rubric>
+                    </msItem>
+                  </msItem>
+                  <msItem xml:id="d8" n="39">
+                    <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                    <title xml:lang="en">Eighth discourse</title>
+                    <title>of Freewill and Destiny</title>
+                    <rubric xml:lang="syr">ܡܛܠ ܫܲܠܝܛܘܬ ܒܝܵܬܐ ܘܩܸܨܐ</rubric>
+                    <msItem xml:id="e27" n="40">
+                      <locus from="62b"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Chap. 1</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܚܐܪܘܬܐ ܘܚܸܪܩܐ ܘܚܸܠܩܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e28" n="41">
+                      <locus from="67a"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 2</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܛܒܬܐ ܘܒܝܫ̣ܬܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e29" n="42">
+                      <locus from="69a"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 3</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܗܝܡܢܘܬܐ ܘܥ̇ܒ̈ܕܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e30" n="43">
+                      <locus from="71b"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 4</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܟܘܪ̈ܗܢܐ ܢܦܫܢ̈ܝܐ ܘܐܣܝܘܬܗܘܢ</rubric>
+                    </msItem>
+                    <msItem xml:id="e31" n="44">
+                      <locus from="74a"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 5</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܙܢܝ̈ ܦܘܪܥܢܐ ܒܐܝܢܝܘܬܐ ܘܒܟܡܝܘܬܐ</rubric>
+                    </msItem>
+                  </msItem>
+                  <msItem xml:id="d9" n="45">
+                    <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                    <title>Ninth Discourse</title>
+                    <title>of the Consummation of both Worlds, the small and the
+                      great, and of the Commencement of the New World</title>
+                    <rubric xml:lang="syr">ܡܛܠ ܫܘܠܡܐ ܕܬܪܝܗܘܢ ܥ̈ܠܡܐ ܙܥܘܪܐ ܘܪܒܐ ܘܫܘܪܝܐ ܕܥܠܡܐ
+                      ܚ̣ܕܬܐ</rubric>
+                    <msItem xml:id="e32" n="46">
+                      <locus from="76b"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Chap. 1</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܩܸܨܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e33" n="47">
+                      <locus from="78b"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 2</title>
+                      <rubric xml:lang="syr">ܡܠ ܫܘܠܡܗ ܕܥܠܡܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e34" n="48">
+                      <locus from="80b"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 3</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܚܲܝܬ݀ ܡ̈ܝܬܐ</rubric>
+                    </msItem>
+                  </msItem>
+                  <msItem xml:id="d10" n="49">
+                    <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                    <title xml:lang="en">Tenth discourse</title>
+                    <title>of Paradise</title>
+                    <rubric xml:lang="syr">ܡܛܠ ܦܪܕܝܣܐ</rubric>
+                    <msItem xml:id="e35" n="50">
+                      <locus from="83a"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Chap. 1</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܡܵܢܝܘܬܗ ܘܒܘ̈ܚܢܐ ܕܒ̈ܝܬܝܝܢ ܠܗ ܐܝܟ ܪܥܝܢܐ
+                        ܓܘܢܝܐ.</rubric>
+                    </msItem>
+                    <msItem xml:id="e36" n="51">
+                      <locus from="87b"/>
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">chap. 2</title>
+                      <rubric xml:lang="syr">ܡܛܠ ܬܐܘܪܝܐ ܕܦܪܕܝܣܐ. ܒܙܢܐ ܕܛܘܦܣܐ ܘܦܠܐܬܐ. ܐܝܟ ܪܥ̣ܝܢܐ
+                        ܕܝܠܢܝܐ</rubric>
+                    </msItem>
+                  </msItem>
+                </msItem>
+                <msItem xml:id="c4" n="52">
+                  <locus from="91a"/>
+                  <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                  <title xml:lang="en">Conclusion</title>
+                  <rubric xml:lang="syr">ܚܾܘܬܵܡܵܐ ܘܙܘܗܵܪܐ</rubric>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b2" n="53">
+                <locus from="93a"/>
+                <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                <title xml:lang="en">The "Book of the Speech of Wisdom," a compendium of
+                  Dialectics, Physics, and Theology</title>
+                <title xml:lang="syr">ܟܬܒܐ ܕܣܘܳܕ ܣܘܦܝܐ</title>
+                <rubric xml:lang="syr">ܟܕ ܠܐܝܠ ܠܐܝ̇ܠ ܩ̇ܪܐ ܐܢ̣ܐ ܠܥܘܕܪܢܐ ܕܢܫܝܫܘܬܝ ܕܐܟ̇ܬܘܒ ܟܬܒܐ ܕܣܘܳܕ
+                  ܣܘܦܝܐ ܡܢ ܣܝ̈ܡܐ ܕܐܒܘܢ ܡܪܝ ܓܪܝܓܘܪܝܘܣ ܡܲܦܪܝܢܐ ܕܡܕܢܚܐ ܠܗ̇ܢܘܢ ܕܠܡܫܬܘܕܥܘ ܝܲܐܝܒܝܢ ܠܪ̈ܥܝܢܐ
+                  ܚܟ̈ܡܬܢܝܐ ܘܬܪ̈ܥܝܬܐ ܦܐܪ̈ܦܛܝܩܝܬܐ.</rubric>
+                <note>See <bibl>Renan, “de Philosophia Peripatetica apud Syros,” p. 65</bibl>
+                </note>
+                <note>See <bibl>Assemani, Bibl. Or., t. ii., p. 269, note 1</bibl>
+                </note>
+                <note>Here too there are various readings and glosses in Syriac and Arabic</note>
+                <msItem xml:id="c5" n="54">
+                  <locus from="93a"/>
+                  <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                  <title xml:lang="en">a short prooemium</title>
+                  <rubric xml:lang="syr">ܦܪܘܡܝܘܢ</rubric>
+                  <incipit xml:lang="syr">ܡܪܡܪܡܐ ܐܢܬ ܒܐܝܬܘܬܟ ܐܠܗܢ</incipit>
+                </msItem>
+                <msItem xml:id="c6" n="55">
+                  <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                  <title xml:lang="en">Four chapters</title>
+                  <msItem xml:id="d11" n="56">
+                    <locus from="93a"/>
+                    <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                    <title xml:lang="en">Chap. 1</title>
+                    <rubric xml:lang="syr">ܩܦܠܐܘܢ ܩܕܡܝܐ ܡܠܬܐ ܕܥܠ ܦܪܓܡܛܝܐ ܡܠܝܠܬܐ</rubric>
+                  </msItem>
+                  <msItem xml:id="d12" n="57">
+                    <locus from="97b"/>
+                    <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                    <title xml:lang="en">Chap. 2</title>
+                    <rubric xml:lang="syr">ܩܦܠܐܘܢ ܕܬܪܝܢ ܕܝܘܠܦܢܐ ܟܝܢܝܐ ܕܣܡܝ̣ܟ ܠܣܘܝ̇ܟܐ ܕܩ̈ܝܡܐ ܘܠܡܲܢܝܘܬ
+                      ܓܘ̈ܫܡܐ ܫܡ̈ܝܢܐ ܘܐܣܛܘ̈ܟܣܢܝܐ ܘܙܢ̈ܝܐ ܕܢ̈ܦܫܬܐ.</rubric>
+                  </msItem>
+                  <msItem xml:id="d13" n="58">
+                    <locus from="101b"/>
+                    <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                    <title xml:lang="en">Chap. 3</title>
+                    <rubric xml:lang="syr">ܩܦܠܐܘܢ ܕܬܠܬܐ ܡܠܬܐ ܕܥܠ ܫܘܪܪ ܫܟܝ̣ܚܘܬܗ ܕܐܠܨܵܝ ܐܝܬܘܬܐ ܘܟܘ̈ܢܝܐ
+                      ܫܘܡ̈ܠܝܢܝܐ ܕܒ̈ܝܬܝܝܢ ܠܗ</rubric>
+                  </msItem>
+                  <msItem xml:id="d14" n="59">
+                    <locus from="104b"/>
+                    <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                    <title xml:lang="en">Chap. 4</title>
+                    <rubric xml:lang="syr">ܩܦܠܐܘܢ ܕܐܪܒܥܐ ܡܠܬܐ ܕܥܠ ܡܛܟܣܘܬܐ ܘܚܸܠܩܐ ܘܩܘܝܵܡ ܢ̈ܦܫܬܐ
+                      ܘܒ̇ܘܣܡܐ ܘܫܘܢܩܐ ܘܗܢܝܐܘܬܐ ܕܪܘܚ ܘܐܬܘ̈ܬܐ . ܘ . . . ـܘܬܐ ܘܢܘܚܡܐ</rubric>
+                  </msItem>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b3" n="60">
+                <locus from="109b"/>
+                <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                <title xml:lang="en">The "Book of the Pupils of the Eyes," a compendium of
+                  the art of Logic or Dialectics</title>
+                <title xml:lang="syr">ܟܬܒܐ ܕܒ̈ܒܬܐ</title>
+                <rubric xml:lang="syr">ܒܝܕ ܐܠܗܐ ܫܪܝܪܐ ܡܫܲܪܝ̣ܢܢ ܕܢܟ̣ܬܘܒ ܟܬܒܐ ܕܒ̈ܒܬܐ ܡܛܠ ܗܠܝܢ ܕܦܪܓܡܛܝܐ
+                  ܡܠܝܠܬܐ: ܡܢ ܣܝ̈ܡܐ ܕܩܕܝܫܐ ܐܒܘܢ ܡܪܝ ܓܪܝܓܘܪܝܘܣ ܡܲܦܪܝܢܐ ܡܢܵܚܐ.</rubric>
+                <note>See <bibl>Assemani, Bibl. Or., t. ii., p. 269</bibl>
+                </note>
+                <note>This treatise has very few marginal glosses and various readings</note>
+                <msItem xml:id="c7" n="61">
+                  <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                  <title xml:lang="en">An introduction</title>
+                  <rubric xml:lang="syr">ܥܘܬܕܐ ܡܛܠ ܗܢܝܢܗ̇ ܕܠܘܓܹܝܩܹܝ</rubric>
+                </msItem>
+                <msItem xml:id="c8" n="62">
+                  <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                  <title xml:lang="en">Seven chapters</title>
+                  <msItem xml:id="d15" n="63">
+                    <locus from="109b"/>
+                    <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                    <title xml:lang="en">on the Isagoge (of Porphyry)</title>
+                    <rubric xml:lang="syr">ܦܣܘܩܐ ܩܕܡܝܐ ܡܛܠ ܒܘܚ̈ܢܐ ܗ̇ܢܘܢ ܕܒܟܬܒܐ ܕܐܝܣܘܓܘܓܝ</rubric>
+                    <msItem xml:id="e37" n="64">
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Sect. 1</title>
+                    </msItem>
+                    <msItem xml:id="e38" n="65">
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Sect. 2</title>
+                      <rubric xml:lang="syr">ܟܘ̈ܠܢܝܬܐ ܪܝܫܐ (sic) ܬܠܝܬܝܐ ܡܛܠ ܬܚܘܡܐ</rubric>
+                    </msItem>
+                  </msItem>
+                  <msItem xml:id="d16" n="66">
+                    <locus from="110b"/>
+                    <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                    <title xml:lang="en">on the Categories</title>
+                    <rubric xml:lang="syr">ܦܣܘܩܐ ܬܪܝܢܐ ܡܛܠ ܒܘ̈ܚܢܐ ܗ̇ܢܘܢ ܕܒܟܬܒܐ ܕܩܛܝܓܘܪ̈ܝܣ</rubric>
+                    <msItem xml:id="e39" n="67">
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Sect. 1</title>
+                      <rubric xml:lang="syr">ܢܝܫܐ ܩܕܡܝܐ ܡܛܠ ܟܠܚܕܐ ܚܕܐ ܡܢܗܝܢ ܕܥܣܪ̈</rubric>
+                    </msItem>
+                    <msItem xml:id="e40" n="68">
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Sect. 2</title>
+                      <rubric xml:lang="syr">ܢܝܫܐ ܬܪܝܢܐ ܡܛܠ ܗܠܝܢ ܕܠܗܠܝܢ ܩܛܝܓܘܪ̈ܝܐܣ ܢܩ̈ܦܢ.</rubric>
+                    </msItem>
+                  </msItem>
+                  <msItem xml:id="d17" n="69">
+                    <locus from="112a"/>
+                    <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                    <title xml:lang="en">on the Περὶ ἐρμηνείας</title>
+                    <rubric xml:lang="syr">ܦܣܘܩܐ ܬܠܝܬܝܐ ܡܛܠ ܒܘ̈ܚܢܐ ܕܒܟܬܒܐ ܕܦܪܝܪܡܢܝܣ</rubric>
+                    <msItem xml:id="e41" n="70">
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Sect. 1</title>
+                      <rubric xml:lang="syr">ܢܝ̣ܫܐ ܩܕܡܝܐ ܡܛܠ ܦܪ̈ܘܛܣܝܣ</rubric>
+                    </msItem>
+                    <msItem xml:id="e42" n="71">
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Sect. 2</title>
+                      <rubric xml:lang="syr">ܢܝܫ̣ܐ ܬܪܝܢܐ ܡܛܠ ܗܘܠܐܣ ܕܦܪ̈ܘܛܣܝܣ ܘܙ̈ܢܝܗܝܢ</rubric>
+                    </msItem>
+                    <msItem xml:id="e43" n="72">
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Sect. 3</title>
+                      <rubric xml:lang="syr">ܢܝܫ̣ܐ ܬܠܝܬܝܐ ܡܛܠ ܐܢܛܝܦܣܝܣ</rubric>
+                    </msItem>
+                    <msItem xml:id="e44" n="73">
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Sect. 4</title>
+                      <rubric xml:lang="syr">ܢܝܫܐ ܪܒܝܥܝܐ ܡܛܠ ܗܦܘܟܝܐ ܕܦܪ̈ܘܛܣܝܣ</rubric>
+                    </msItem>
+                  </msItem>
+                  <msItem xml:id="d18" n="74">
+                    <locus from="114b"/>
+                    <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                    <title xml:lang="en">on the former Analytics</title>
+                    <rubric xml:lang="syr">ܦܣܘܩܐ ܪܒܝܥܝܐ ܡܛܠ ܒܘ̈ܚܢܐ ܕܒܟܬܒܐ ܕܐܢܘܠܘܛܝܩܝ </rubric>
+                    <msItem xml:id="e45" n="75">
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Sect. 1</title>
+                      <rubric xml:lang="syr">ܢܝܫ̣ܐ ܩܕܡܝܐ ܡܛܠ ܣܘܠܝܓܘܣܡܘܣ ܘܡܢ̈ܘܬܗ</rubric>
+                    </msItem>
+                    <msItem xml:id="e46" n="76">
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Sect. 2</title>
+                      <rubric xml:lang="syr">ܢܝܫܐ ܬܪܝܢܐ ܡܛܠ ܙܢܝ̈ܐ ܕܒܐܣܟܡܐ ܩܕܡܝܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e47" n="77">
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Sect. 3</title>
+                      <rubric xml:lang="syr">ܢܝܫܐ ܬܠܝܬܝܐ ܡܛܠ ܙܢ̈ܝܐ ܕܒܐܣܟܡܐ ܬܪܝܢܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e48" n="78">
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Sect. 4</title>
+                      <rubric xml:lang="syr">ܢܝܫܐ ܪܒܝܥܝܐ ܡܛܠ ܙܢ̈ܝܐ ܕܒܐܣܟܡܐ ܬܠܝܬܝܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e49" n="79">
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Sect. 5</title>
+                      <rubric xml:lang="syr">ܢܝܫܐ ܚܡܝܫܝܐ ܡܛܠ ܚܘ̈ܠܛܝܐ ܙܢܢ̈ܝܐ ܕܒܗܠܝܢ ܐܣܟ̈ܡܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e50" n="80">
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Sect. 6</title>
+                      <rubric xml:lang="syr">ܢܝܫܐ ܫܬܝܬܝܐ ܡܛܠ ܣܘܠܘܓܝܣܡܘܣ ܬܸܢܝܵܝܵܐ.</rubric>
+                    </msItem>
+                  </msItem>
+                  <msItem xml:id="d19" n="81">
+                    <locus from="118a"/>
+                    <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                    <title xml:lang="en">on the Topics</title>
+                    <rubric xml:lang="syr">ܦܣܘܩܐ ܚܡܝܫܝܐ ܡܛܠ ܒܘ̈ܚܢܐ ܕܒܟܬܒܐ ܕܛܘܦܝܩܝ</rubric>
+                    <msItem xml:id="e51" n="82">
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Sect. 1</title>
+                      <rubric xml:lang="syr">ܢܝܫܐ ܩܕܡܝܐ ܡܛܠ ܗܘ̈ܠܐܣ ܕܣܘܠܘܓܝܣܡܘ ܐܦܘܕܝܩ̈ܛܝܩܝܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e52" n="83">
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Sect. 2</title>
+                      <rubric xml:lang="syr">ܢܝܫܐ ܬܪܝܢܐ ܡܛܠ ܗܘ̈ܠܐܣ ܕܣܘܠܘܓܝܣܡܘ ܕܝ̈ܠܝܩܛܝܩܝܐ
+                        ܘܫܪܟܐ.</rubric>
+                    </msItem>
+                  </msItem>
+                  <msItem xml:id="d20" n="84">
+                    <locus from="119a"/>
+                    <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                    <title xml:lang="en">on the latter Analytics</title>
+                    <rubric xml:lang="syr">ܦܣܘܩܐ ܫܬܝܬܝܐ ܡܛܠ ܒܘ̈ܚܢܐ ܕܒܟܬܒܐ ܕܐܦܘܕܝܩܛܝܩܝ</rubric>
+                    <msItem xml:id="e53" n="85">
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Sect. 1</title>
+                      <rubric xml:lang="syr">ܢܝܫܐ ܩܕܡܝܐ ܡܛܠ ܙܢ̈ܝܗ̇ ܕܐܦܘܕܝܟܣܝܣ</rubric>
+                    </msItem>
+                    <msItem xml:id="e54" n="86">
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Sect. 2</title>
+                      <rubric xml:lang="syr">ܢܝܫܐ ܬܪܝܢܐ ܒ̈ܥܬܐ ܝܘ̈ܠܦܢܝܬܐ</rubric>
+                    </msItem>
+                    <msItem xml:id="e55" n="87">
+                      <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                      <title xml:lang="en">Sect. 3</title>
+                      <rubric xml:lang="syr">ܢܝܫܐ ܬܠܝܬܝܐ ܡܛܠ ܡ̈ܢܘܬܐ ܕܝܘ̈ܠܦܢܐ ܐܦܘܕܝ̈ܩܛܝܩܝܐ.</rubric>
+                    </msItem>
+                  </msItem>
+                  <msItem xml:id="d21" n="88">
+                    <locus from="120a"/>
+                    <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                    <title xml:lang="en">on the Περὶ σοφιστικῶν ἐλέγχων</title>
+                    <rubric xml:lang="syr">ܦܣܘܩܐ ܫܒܝܥܝܐ ܡܛܠ ܡ̈ܛܥܝܢܘܬܐ ܣܘ̈ܦܝܣܛܝܩܝܬܐ</rubric>
+                  </msItem>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b4" n="89">
+                <locus from="120b"/>
+                <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                <author>Hierotheus</author>
+                <author ref="http://syriaca.org/person/169">Theodosius, patriarch of Antioch</author>
+                <title xml:lang="en">The "Book of <persName>Hierotheus</persName>," extracts
+                  from the work of <persName>Hierotheus</persName>, selected and arranged by
+                  <persName>Bar Hebraeus</persName>, and accompanied by a commentary chiefly
+                  derived from that of <persName>Theodosius, patriarch of
+                    <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                  </persName>
+                </title>
+                <title xml:lang="syr">ܟܬܒܐ ܕܐܷܝܪܰܬܷܐܳܘܣ</title>
+                <title xml:lang="syr">ܕܥܠ ܪ̈ܐܙܐ ܓܢ̈ܝܙܐ ܕܒܝܬ ܐܠܗܐ</title>
+                <rubric xml:lang="syr">ܬܘܒ ܒܝܕ ܐܠܗܐ ܡܪܐ ܟܠ ܡܫ̇ܪܝ̣ܢܢ ܠܡܟ̣ܬܒ ܟܬܒܐ ܕܐܷܝܪܰܬܷܐܳܘܣ ܚܲܟܝܡܐ
+                  ܡܲܫܡܗܐ ܘܦܝܠܠܘܣܦܐ ܕܡܝ̣ܪܐ.</rubric>
+                <note>See <bibl>the work of <persName>Hierotheus</persName>, with the commentary of
+                  <persName ref="http://syriaca.org/person/169">Theodosius</persName>, in Add. 7189</bibl>, the very copy which was
+                  procured from the West for the use of <persName ref="http://syriaca.org/person/239">Bar Hebraeus</persName>. It is
+                  described in detail in <bibl>Rosen and Forshall's Catalogue, p. 74</bibl>
+                </note>
+                <note>See <bibl>Assemani, Bibl. Or., t. ii., p. 272</bibl>
+                </note>
+                <note>There are very few marginal notes and various readings</note>
+                <msItem xml:id="c9" n="90">
+                  <locus from="120b"/>
+                  <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                  <author>Hierotheus</author>
+                  <author ref="http://syriaca.org/person/169">Theodosius, patriarch of
+                    Antioch</author>
+                  <title xml:lang="en">The preface and index of chapters </title>
+                  <quote xml:lang="syr">ܩܕܡܝܬ݀ ܥܠ̣ܬ݀ ܟܢܝܫ̣ܘܬܗ ܕܟܬܒܐ ܗܢܐ܀ ܡܢ ܣ̈ܝܡܐ ܕܝܠܗ ܕܐܒܘܢ ܡܪܝ
+                    ܓܪܝܓܘܪܝܘܣ ܡܲܦܪܝܢܐ ܕܡܕܢܚܐ܀ ܕܥ̣ ܕܝܢ ܐܘ ܐܚܘܢ ܪܘܚܢܐ. ܕܟܕ ܙܒܢܐ ܣܓܝܐܐ. ܗ̇ܪܓܬ ܘܐܬܒ̇ܩܝܬ
+                    ܒܟܬܒܐ ܕܚܟܝܡܐ ܘܝܕܘܥܬܢܐ ܡܫܲܡܗܐ ܐܷܪܰܬܷܐܳܘܣ. ܚܙܝ̇ܬܗ ܟܬܒܐ ܪܒܐ ܘܕܡܝ̣ܪܐ. ܒܪܡ ܚ̇ܙܐ ܐܢܐ̣.
+                    ܠܡܐܡܪ̈ܘܗܝ ܘܠܩܸܐܦ̈ܠܐܘܗܝ ܚ̈ܠܝ̣ܛܐ ܘܐܪ̈ܝܟ̣ܐ ܘܒ̈ܠܝܠ̣ܐ. ܘܗܟܘܬ ܠܡܕܡ ܡܢ ܦܬܓ̈ܡܘܗܝ. ܘܗܕܐ
+                    ܠܘ ܡܢܗ ܡܢ ܡ̇ܟܬܒܢܐ ܥܗܝ̣ܪܐ. ܐܠܐ ܡܢ ܡܝܲܒܠܢܐ. ܒܥܠ̣ܬ݀ ܝܘܒܠܗ ܕܡܢ ܝܘܢܝܐ ܠܣܘܪܝܝܐ. ܗܘ̣ܐ
+                    ܠܢ ܚܘܫܒܐ ܡܕܡ ܕܢܛ̇ܟ̣ܣ ܐܢܘܢ. ܘܢܣܝ̣ܡ ܠܟܠ ܚܕ ܚܕ ܒܕܘܟܬܐ ܕܥ̇ܗܢܐ ܠܗ ܘܐܝܟܐ ܕܚ̇ܫܚ ܠܗ ܐܝܟ
+                    ܪܥܝܢܢ. ܘܐܝܟ ܡܐ ܕܣ̇ܒܪܝܢܢ. ܘܟܕ ܥܒ̣ܕܝܢ ܗܕܐ. ܠܐ ܒ̇ܠܒܠܢܢ ܠܡ̈ܠܘܗܝ ܕܝܕܘܥܬܢܐ. ܘܐܦܠܐ
+                    ܠܡ̈ܠܘܗܝ ܕܡܦܫܩܢܐ. ܟܐܡܬ݀ ܠܐ ܫܲܚܠܦܢܢ ܐܘ̇ ܐܘ̇ܣܦܢܢ ܡܢܢ ܡܕܡ. ܐܠܐ ܐܢ ܒܢ̈ܬ݀ ܩ̈ܠܐ ܒܨܝܪ̈ܐ.
+                    ܐܝܟ ܟܕ ܘܕܝܢ ܘܐܦ. ܘܡܕܡ ܕܕܡ̇ܐ ܠܗܠܝܢ ܒܠܚܘܕ. ܒܪܡ ܐܘ̇ܓܝܢܢ ܡܢܗܘܢ ܠܡܕܡ ܕܐܝ܏ܬܘ ܒܨܝܪ
+                    ܝܘܬܪܢܐ. ܘܐܝܟ ܩܸܦܠܐܐ ܘܦܣܘ̈ܩܐ ܡܕܡ ܡܗ̈ܦܟܢܐ. ܘܐܝܟ ܝܘܠܦܢܐ ܕܐܣܛܪܘܠܓܝܐ ܘܡܕܡ ܕܕܡ̇ܐ ܠܗܟܢ.
+                    ܘܐܦܢ ܗܘ̣ܐ ܒܗ ܦܬܓ̈ܡܐ ܡܕܡ ܡܗܦ̈ܟܢܐ ܒܕܘܟ̈ܝܬܐ ܡܫܚ̈ܠܦܬܐ ܕܥܵܗ̈ܢܢ ܠܗܝܢ. ܒܪܡ ܣ̇ܡ̣ܢܢ ܬܘܒ
+                    ܠܦܣܘ̈ܩܐ ܕܟܬܒܐ ܗܢܐ. ܥܠ ܡܕܒܪܢܘܬܗ ܕܡܪܢ. ܟܕ ܫܲܪܝܢܢ ܠܡ ܡܢ ܥܡܕܗ ܘܩܪܒܗ ܕܥܡ ܐܘܣ̈ܝܐܣ
+                    ܕܫ̈ܐܕܐ. ܘܥܕܡܐ ܠܙܩܝܦܐ ܘܩܒܘܪܬܐ ܘܩܝ̇ܡܬܐ ܘܣܘܠܩܐ. ܘܗܟܢܐ ܒܐܝ̣ܕܐ ܒܐܝ̣ܕܐ ܥܕܡܐ ܠܐܘܣܝܐ
+                    ܕܓܘܐ. ܘܟܢ ܕܥܠ ܬܓ̈ܡܐ ܡܠܐܟ̈ܝܐ. ܐܟܡܐ ܕܡܚܲܘܝܢ ܠܟ ܦܣܘ̈ܩܐ ܕܟܬܒܐ. ܘܐܦܢ ܣ̇ܡܢܢ ܬܘܒ ܩܕܡܐܝܬ
+                    ܦܣܘ̈ܩܐ ܕܬܝܒܘܬܐ ܘܐܝܠܢܐ ܕܒܝܢܬ̣ܐ ܘܫܪܟܐ. ܡܛܠ ܗܘܢܐ ܐܢܫܝܐ ܟܠܫܥ ܣܢܝ̣ܩ ܥܠ ܬܝܒܘܬܐ ܘܥܩܘܪܝܐ
+                    ܕܒܝܫ̣ܘܬܐ. ܘܟܲܢܝܢܢ ܠܗ ܟܬܒܐ ܡܠܲܩܛܐ ܕܡܢ ܟܬܒܐ ܕܐܝܪܬܐܘܣ ܡܫܡܗܐ. ܡܬܦ̣ܠܓ ܕܝܢ ܠܥܣܪܝܢ
+                    ܘܬܪܝܢ ܦܣ̈ܘܩܐ. ܐܝܟ ܡܢܝ̇ܢܐ ܕܐܬܘ̈ܬܐ ܐ܏ܠܦ ܏ܒܝܬ. ܦܬܓ̈ܡܘܗܝ ܬܘܒ ܠܬܠܬܡܐܐ ܘܫܬܝܢ ܘܫܬܐ. ܐܝܟ
+                    ܡܢܝ̇ܢܐ ܕܝܘܡ̈ܬܐ ܕܫܲܢܬܐ ܟܒܝܫܬܐ. ܘܡܢ ܐܠܗܐ ܫ̇ܐܠ ܐܢ̣ܐ ܕܢܣܲܝܥܢܝ ܘܠܫܘܠܡܐ ܢܡܲܢܥܢܝ. ܏ܬܘܒ
+                    ܟܬܒܝܢܢ ܣܕܪܐ ܕܡܢܝܢܐ ܕܦܣ̈ܘܩܐ ܕܟܬܒܐ ܗܢܐ ܡܠܩܛܐ ܕܐܝܪܬܐܘܣ. ܏ܕܐܠܦ ܦܣܘܩܐ ܩܕܡܝܐ ܥܠ ܬܝܒܘܬܐ
+                    ܘܕܠܐ ܨ̇ܒܐ ܡܪܝܐ ܒܐܒܕܢܗܘܢ ܕܚ̈ܛܝܐ. ܏ܕܒܝܬ ܏ܦ ܏ܒ ܥܠ ܐܘܣܝܐ ܕܠܐ ܡܲܕܥܐ ܘܐܝܠܝܐ ܕܒܝܫ̣ܬܐ.
+                    ܏ܕܓܡܠ ܏ܦ ܏ܓ ܥܠ ܥܡܵܕܐ ܘܡܲܣܩܬܐ ܕܡܢ ܥܡܕܐ. ܏ܕܕܠܕ ܏ܦ ܏ܕ ܥܠ ܐܘܣ̈ܝܐܣ ܬܠ̈ܬ̇݀ ܕܫܐ̈ܕܐ ܘܥܠ
+                    ܬܟܬܘܫܗܘܢ ܘܩܪܒܗܘܢ. ܏ܦ ܏ܗ ܏ܕܗܐ ܥܠ ܩܪܒܐ ܕܥܡ ܦܓܪܐ ܘܟܘܒ̇ܫ ܪ̈ܓܫܐ ܘܚܝ̈ܠܐ ܦܓܪ̈ܢܝܐ. ܏ܦ ܏ܘ
+                    ܏ܕܘܐܘ ܥܠ ܙܘܥܐ ܟܝ̇ܢܝܐ ܘܕܠܒܪ ܡܢ ܟܝ̇ܢܐ. ܘܕܠܬܚܬ ܡܢ ܟܝ̇ܢܐ. ܏ܦ ܏ܫܒܝܥܝܐ ܏ܕܙܝ ܥܠ ܙܘܥܐ
+                    ܕܒܬܪ ܟܝ̇ܢܐ ܘܕܠܥܠ ܡܢ ܟܝ̇ܢܐ ܘܡܕܡ ܕܕܡ̇ܐ ܠܗ̇ܟܢ. ܏ܦ ܬ܏ܡܝܢܝܐ ܏ܕܚ ܥܠ ܝܐܝܒܘܬ ܗܘܢܐ ܕܟܝܐ
+                    ܕܐܣܝ̣ܪ ܥܡ ܦܓܪܐ ܘܕܘܪܓܗ. ܏ܦ ܬܫܝܥܝܐ ܕ܏ܛܝܬ ܥܠ ܚܘܒܐ ܘܥܠ ܪܚܡ̤ܬܐ. ܏ܦ ܥ܏ܣܝܪܝܐ ܏ܕܝܘܕ ܥܠ
+                    ܬܫܒܘܚܬܐ ܘܣܓܕܬܐ ܘܠܐ ܣܓܕܬܐ. ܏ܦ ܕܚ܏ܕܥܣܪ ܏ܟܘܦ ܥܠ ܡ̣ܛ݀ܫܝܘܬ ܐܪ̈ܙܐ ܘܫܦܝܪ̈ܬܐ ܘܥܠ
+                    ܡܲܦܘܠܬܐ. ܏ܦ ܕ܏ܬܪܥܣܪ ܏ܕܠܡܕ ܥܠ ܡܲܚܬܬܗ ܕܬܪܬܝܢ ܕܗܘܢܐ. ܘܥܠ ܣܝܦܐ ܘܥܠ ܫܘܠܛܢܐ. ܏ܦܣܘܩܐ
+                    ܏ܕܬܠܬܥܣܪ ܏ܕܡܝܻܡ ܕܥܠ ܙܩܝܦܐ ܘܫܘܡܠܝ ܙܩܝܦܐ. ܘܥܠ ܠܐ ܫܲܘܝܘܬ ܚܫܐ ܏ܦ ܏ܕܐܪܒܬܥܣܪ ܏ܕܢܘܢ ܕܥܠ
+                    ܡ̇ܘܬܐ ܘܩܒܪܐ ܘܩܒܘܪܬܐ. ܏ܦ ܏ܕܚܡܫܬܥܣܪ ܏ܕܣ ܕܥܠ ܩܝ̇ܡܬܐ ܕܝܢ ܘܚܲܝܬ݀ ܡ̈ܝܬܐ ܘܥܠ ܢܘܚܡܐ. ܏ܦ
+                    ܏ܕܝܘ ܏ܕܥ ܕܥܠ ܐܪܟܘܢܐ ܕܐܬ̇ܐ ܒܫܘܠܡ ܐܓܘܢܐ ܘܪܝܫ̣ܐ ܕܣܩܘܒܠܝܘܬܐ. ܘܡܬܕܡܝܢܘܬܗ ܒܐܝܠܢܐ
+                    ܕܚ̈ܝܐ. ܏ܦ ܏ܕܝܙ ܏ܕܦ ܕܥܠ ܣܘܠܩܗ ܕܡܪܢ ܘܕܗܘܢܐ ܐܢܫܝܐ. ܘܥܠ ܬܘܪܥܬܐ ܕܪܩܝܥܐ ܘܢ̇ܛܪ̈ܝ ܡܛܪܬܐ.
+                    ܏ܦ ܏ܕܝܚ ܏ܕܨ ܕܥܠ ܣܘܠܩܗ ܕܗܘܢܐ ܐܢܫܝܐ ܠܐܬܪܐ ܬܢܝ̇ܢܐ. ܕܦܘܪܫܢܐ. ܘܠܩܕܘܫܩ̈ܘܕܫܝܢ ܓܘܝܐ. ܏ܦ
+                    ܏ܕܝܛ ܏ܕܩ ܕܥܠ ܐܘܣܝܐ ܕܓܘܐ ܘܡܘܢܵܥܐ ܕܗܘܢܐ ܐܠܗܝܐ ܠܚܙܬܗ. ܕܗܝ̣ ܐܝܬܝܗ̇ ܢܝܫ ܣܘܟܝܗ.
+                    ܘܕܡܝܘܬܐ ܘܚܕܝܘܬܐ. ܘܚܒܝܟܘܬܐ. ܏ܦܣܘܩܐ ܏ܕܥܣܪܝܢ ܏ܕܪܝܻܫ ܕܥܠ ܐܘܣܝܐ ܕܓܘܐ. ܘܥܠܗ̇ܝ ܕܡܢܗ
+                    ܢܦܩ̣ ܟܠ. ܘܠܗ ܦ̇ܢܐ ܟܠ. ܘܥܠ ܫܠ̣ܝܐ ܘܢܘܚܐ. ܘܕܡܢܐ ܢܗܘ̣ܐ ܡܢ ܟܝ̇ܢܐ ܕܟܠܡܕܡ. ܏ܦܣܘܩܐ ܏ܕܟܐ
+                    ܏ܕܫܝܻܢ ܡܛܠ ܥܠ̣ܬ݀ ܬܫܒܘܚܬܗܘܢ ܕܡ̈ܠܐܟܐ ܘܠܐ ܫܲܘܝܘܬ ܝܕܥ̣ܬܗܘܢ ܘܦܘܪ̈ܫܢܝܗܘܢ ܕܡܢ ܚ̈ܕܕܐ.
+                    ܘܥܠ ܐܪ̈ܙܐ ܟ̈ܣܝܐ ܕܡܬܓܠ̣ܝܢ ܠܗܘ̈ܢܐ ܕܟ̈ܝܐ ܘܐ̈ܠܗܝܐ. ܏ܦܣܘܩܐ ܏ܕܟܒ ܏ܕܬܘ ܕܥܠ ܬܓ̈ܡܐ ܬܠܬܐ
+                    ܕܐܘܣܝ̈ܐܣ ܗܘ̈ܢܐ ܡܠܐܟ̈ܝܐ. ܘܥܠ ܗܘܵܝܗܘܢ ܘܩܘܕܫ̈ܝܗܘܢ ܘܡܢ̈ܝܢܝܗܘܢ ܘܛܟ̈ܣܝܗܘܢ. <locus from="120b"/>
+                  </quote>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b5" n="91" defective="false">
+                <locus from="92a"/>
+                <author ref="http://syriaca.org/person/239">Gregory bar Hebraeus</author>
+                <title xml:lang="en">A list of the titles of his works, identical with that
+                given by <bibl>Assemani, Bibl. Or., t. ii., p. 268 seqq</bibl>
+                </title>
+                <incipit xml:lang="syr">ܬܘܒ ܟ̇ܬܒܝܢܢ ܫܡ̈ܗܐ ܕܟܬܒ̈ܐ ܕܐܟܬ݂ܒ ܘܐܥ̣ܒܪ ܡ̣ܢ ܠܥ̣ܙܐ ܠܠܥ̣ܙܐ ܡܪܝ
+                ܓܪܝܓܘܪܝܘܣ ܦܝܠܠܘܣܘܦܐ ܕܗ̣ܘ ܐܒܘ ܐܠܦܪܓ ܒܪ ܐܗܪܘܢ ܐܣܝܐ ܡܝܠ̣ܝܛܢܝܐ. ܡܲܦܪܝܢܐ ܕܟܠܗ̇ ܡܕܢܚܐ
+                ܨܠܘܬܗ ܥܡܢ ܐܡܝܢ. ܩܕܡܝܬ ܏ܐ ܟܬܒܐ ܕܬܐܓ̣ܪܬ݀ ܬܐܓܪ̈ܬܐ ܟܝܢ̈ܝܬܐ ܘܐܠܗ̈ܝܬܐ. ܏ܒ ܟܬܒܐ ܕܒܒ̈ܬܐ.
+                ܐܝܣܘܓܓܝ. ܘܩܛܝܓܘܪ̈ܝܐܣ ܘܦܪܝܪܡܢܝܣ ܘܣܘܦܝܣܛܝܣܝ. ܏ܘܫ.</incipit>
+                <note>Compare <bibl>Dr. Payne Smith’s Catalogue of the Syriac MSS, in the Bodleian
+                  Library, col. 516</bibl>
+                </note>
+                <note>At the end of the list, fol. 92 b, follows the passage ܟܕ ܢܩ̣ܪܐ ܐܢܫ ܘܢܣܬܲܟܠ ܏ܘܫ.
+                  (<bibl>Assemani, p. 273</bibl>), with the date of <persName ref="http://syriaca.org/person/239">Bar Hebraeus</persName>' death (A.D. 1286),
+                etc.</note>
+              </msItem>
+              <msItem xml:id="b6" n="92">
+                <locus from="109a"/>
+                <author>Mar Isaac (of Nineveh)</author>
+                <title xml:lang="en">An extract from <persName>Mar Isaac (of
+                <placeName ref="http://syriaca.org/place/144">Nineveh</placeName>)</persName>
+                </title>
+                <rubric xml:lang="syr">ܕܡܪܝ ܐܝܣܚܩ ܥܠ ܦܘܪܫܢܐ ܟܝ̇ܢܝܐ ܕܚܘܫܒܐ ܟܝ̇ܢܝܐ. ܥܠ ܟܝ̈ܠܐ ܘܡܢ̈ܘܬܐ
+                ܘܦܘܪ̈ܫܢܐ ܕܒܨܠܸܡ ܐܕܡ܀ ܩܕܡܝܐ ܒܗܘܢ ܬܪܥܝܬܐ܀ ܬܪܝܢܝܬܐ ܡܚܫܒܬܐ܀ ܒܘܝܢܐ ܐܦ ܣܘܟܠܐ܀ ܥܡ ܡܲܕܥܐ ܐܦ
+                ܪܥܝܢܐ܀ ܬܪܥܝܬܐ ܥܒ̇ܕܗ̇ ܗ̇ܢܘ. ܕܡܬܪܥܝ̣ܐ ܕܡܢܐ ܢܗ̣ܘܐ܀ ܕܡܲܚܫܒܬܐ ܥܒ̇ܕܗ̇ ܗ̇ܢܘ. ܕܐܢ ܙ̇ܕܩ
+                ܕܢܗܘ̣ܐ ܐܘ̇ ܠܐ܀ ܒܘܝ̇ܢܐ ܥܒ̇ܕܗ ܗ̇ܢܘ. ܕܡܕܡ ܕܗܘ̣ܐ ܠܐ ܢܣ̣ܬܪܚ܀ ܣܘܟ̣ܠܐ ܗܕܐ ܢ̇ܛܪ. ܕܕܠܐ ܡܘܡܐ
+                ܢܫܬܲܟܠܠ. ܨܒܝ̇ܢܐ ܥܒ̇ܕܗ ܗ̇ܢܘ. ܕܐܢ ܫܠ̣ܡܬ݀ ܕܢܗܘ̣ܐ ܡܕܡ܀ ܏ܘܫ.</rubric>
+              </msItem>
+              <msItem xml:id="b7" n="93">
+                <locus from="109a"/>
+                <title xml:lang="en">The following metrical enigma</title>
+                <rubric xml:lang="syr">ܦܠܐܬܐ ܥܣܪܐ ܒܥܣܪܐ ܐܬܝܗ̣ܒ ܠܢ ܡܪܢܐܝܬ. ܬܠܬܡܐܐ ܒܬܠܬ݀ ܐܬܬܪܓܡ̣ ܠܢ
+                ܦܪܘܫܐܝܬ. ܫܬ ܠܕܣ̈ܟܐ ܗ̣ܘ ܠܗ ܚܲܝܕ ܠܐ ܦܠܝܓܐ̣ܝܬ. ܠܫܒܥܝܢ ܫܲܠܡ ܣܛܪ ܡܢ ܬܪܬܝܢ
+                ܐܘܪܝܬܐܝܬ</rubric>
+                <note>The solution is ܝܫܘܥ</note>
+              </msItem>
+              <msItem xml:id="b8" n="94">
+                <title xml:lang="en">A Chronicle of events from the Creation to the end of the
+                xiiith cent., consisting of two parts</title>
+                <note>There are some marginal notes, chiefly of later date, in Syriac and
+                Arabic.</note>
+                <msItem xml:id="c10" n="95">
+                  <locus from="159a"/>
+                  <title xml:lang="en">The first half of the treatise of Aphraates</title>
+                  <title>"Demonstration regarding the Cluster of Grapes"
+                  (<ref target="http://syriaca.org/work/9640">Isaiah</ref>, ch. lxv. 8)</title>
+                  <title xml:lang="syr">ܬܚܘܝܬܐ ܕܛܘܛܝܬܐ</title>
+                  <rubric xml:lang="syr">ܒܝܲܕ ܐܠܗܐ ܟ̇ܬܒܝܺܢܲܢ ܬܲܚܘܝܬܳܐ ܕܛܘܛܝܬܐ. ܕܚܲܟܝܡܳܐ ܐܦܪܗܛ ܏ܗ ܝܥܩܘܒ
+                  ܚܣܝܐ ܕܡ̇ܳܪܝ ܡܰܬܝ ܨܠܘܬܗ ܥܲܡܢ.</rubric>
+                  <explicit xml:lang="syr">ܘܢܒܝܐ ܐܡ̣ܪ. ܕܐܥ̇ܡܪ ܒܗܘܢ ܘܐܗ̇ܠܟ ܒܗܘܢ<locus from="170a"/>
+                  </explicit>
+                  <note>See <bibl>above, nos. DXXVIII., 2, and DXXX., 11</bibl>
+                  </note>
+                  <note>See <bibl>Wright's edition of the Homilies of Aphraates, vol. i., p.
+                    ܬܡܘ</bibl>
+                  </note>
+                  <note>A marginal note, of later date, confounds <persName>Aphraates</persName> or
+                    <persName>Jacob</persName> with <persName ref="http://syriaca.org/person/3541">Jacob of <placeName ref="http://syriaca.org/place/193">Tagrit</placeName>
+                    </persName>, the author of the Dialogues (see <bibl>Add.
+                    21,454</bibl>, and <bibl>Assemani, Bibl. Or., t. ii., pp. 237,
+                  455</bibl>)</note>
+                  <note>see <bibl>Wright’s edition, p. ܬܦܕ, line 8</bibl>
+                  </note>
+                </msItem>
+                <msItem xml:id="c11" n="96">
+                  <locus from="170a"/>
+                  <title xml:lang="en">A supplement to the above treatise</title>
+                  <msItem xml:id="d22" n="97">
+                    <locus from="170a"/>
+                    <title xml:lang="en">the reign of <persName>Astyages the
+                    Mede</persName>
+                    </title>
+                    <rubric xml:lang="syr">ܘܒܫܢ̣ܬ݀ ܐܪܒܥ ܕܨܕܩܝܐ. ܐܡܠ̣ܟ ܡܕܵܝܵܐ ܐܣܛܝܓܘܣ ܫ̈ܢܝܐ ܠ܏ܚ:
+                    ܘܒܫ̣ܢܬ݀ ܏ܝܛ ܕܡܠܟܘܬܗ ܕܢܒܘܟܕܢܨܪ ܕܗ̣ܝ ܗܝ ܕܚܕܥܣܪܐ ܕܨܕܩܝܐ. ܣܠ̣ܩ ܕܐܪܒܥ ܙܒ̈ܢܝܢ ܢܒܘܟܕܢܨܪ
+                    ܥܠ ܝܗܘܕ. ܘܢܵܒܘܙܪܢ ܪܒ ܚ̇ܝ̣ܠܗ ܐܘܩ̣ܕ ܠܗܝܟܠܐ ܘܠܡܕܝܢܬܐ. ܏ܘܫ.</rubric>
+                  </msItem>
+                  <msItem xml:id="d23" n="98">
+                    <locus from="170a"/>
+                    <title xml:lang="en">the reigns of <persName>Nebucadnezzar</persName> and
+                    his successors</title>
+                  </msItem>
+                  <msItem xml:id="d24" n="99">
+                    <locus from="170b"/>
+                    <title xml:lang="en">
+                      <persName>Darius the Mede</persName>
+                    </title>
+                  </msItem>
+                  <msItem xml:id="d25" n="100">
+                    <locus from="170b"/>
+                    <title xml:lang="en">
+                      <persName>Cyrus the Persian</persName> and his
+                    successors</title>
+                  </msItem>
+                  <msItem xml:id="d26" n="101">
+                    <locus from="172a"/>
+                    <title xml:lang="en">
+                      <persName>Alexander the Great</persName>
+                    </title>
+                  </msItem>
+                  <msItem xml:id="d27" n="102">
+                    <locus from="172a"/>
+                    <title xml:lang="en">
+                      <persName>Ptolemy</persName>, the son of
+                      <persName>Lagus</persName>, and his successors</title>
+                  </msItem>
+                  <msItem xml:id="d28" n="103">
+                    <locus from="174a"/>
+                    <title xml:lang="en">
+                      <persName>Julius Caesar</persName> and the Roman
+                    emperors</title>
+                  </msItem>
+                  <msItem xml:id="d29" n="104">
+                    <locus from="177a"/>
+                    <title xml:lang="en">
+                      <persName>Constantine the Great</persName> and the
+                    Byzantine emperors</title>
+                  </msItem>
+                  <msItem xml:id="d30" n="105">
+                    <locus from="180a"/>
+                    <title xml:lang="en">
+                      <persName>Mohammed</persName> and the caliphs</title>
+                  </msItem>
+                  <msItem xml:id="d31" n="106">
+                    <locus from="183b"/>
+                    <title xml:lang="en">
+                      <persName>Jengiz Khān</persName> (ܫܝܢܓܙ ܟܐܢ) and the
+                    Moguls (ܡܘܓ̈ܠܝܐ)</title>
+                  </msItem>
+                  <msItem xml:id="d32" n="107">
+                    <locus from="184a"/>
+                    <title xml:lang="en">Ghāzān Khān (A.D. 1294—1303)</title>
+                    <rubric xml:lang="syr">ܒܬܪ ܟܝܓܬܘ. ܩܐܙܐܢ ܡܠܸܟ ܡ̈ܠܟܐ. ܗܢܐ ܐܚܪܝܐ ܕܡ̈ܠܟܐ
+                    ܡܘܓ̈ܠܝܐ.</rubric>
+                  </msItem>
+                </msItem>
+              </msItem>
+              <msItem xml:id="b9" n="108">
+                <locus from="184b"/>
+                <title xml:lang="en">A list of the Jewish high priests, from
+                <persName ref="http://syriaca.org/person/1534">Aaron</persName> to <persName>Alexander</persName>, the son of
+                  <persName>John Hyrcanus</persName>
+                </title>
+                <rubric xml:lang="syr">ܒܝܕ ܐܠܗܐ ܡܫ̇ܪ̣ܝܢܢ ܥܠ ܪ̈ܝܫܝܟܗ̈ܢܐ ܕܡܥܪܒܐ (sic) ܩܕܡ ܐܗܪܘܢ ܕܝܫ
+                ܟ̈ܗܢܐ ܩܕܡܝܐ. ܫܡܫ ܕܝܢ ܪܝܫܘܬ ܟܗܢܘܬܐ ܫ̈ܢܝܐ ܏ܠܚ ܘܡܝ̣ܬ. ܏ܘܫ.</rubric>
+              </msItem>
+              <msItem xml:id="b10" n="109">
+                <author>John bar Andreas, bishop of Tūr-'Abdīn</author>
+                <title xml:lang="en">Two metrical homilies of <persName>John bar Andreas,
+                bishop of <placeName ref="http://syriaca.org/place/221">Tūr-'Abdīn</placeName>
+                  </persName>
+                </title>
+                <note>see <bibl>Assemani, Bibl. Or., t. ii., p. 362</bibl>
+                </note>
+                <msItem xml:id="c12" n="110">
+                  <locus from="185a"/>
+                  <author>John bar Andreas, bishop of Tūr-'Abdīn</author>
+                  <title xml:lang="en">Composed in dodecasyllabic metre, and addressed to his
+                  friend <persName>Michael</persName>, residing in <placeName ref="http://syriaca.org/place/698">Palestine</placeName>,
+                  in the year 1466, A.D. 1155</title>
+                  <rubric xml:lang="syr">ܡܐܡܪܐ ܐܘܟܝܬ ܐܓܪܬܐ ܕܥܒ̣ܝܕܐ ܠܡܪܝ ܝܘܚܢܢ ܒܪ ܐܢܕܪܐܘܣ ܚܲܣܝܐ ܕܛܘܪ
+                  ܥܒ̣ܕܝܢ ܠܘܬ ܡܝܟܐܝܠ ܪܚܡ̇ܗ</rubric>
+                  <incipit xml:lang="syr">ܠܡܫ̣ܬܩ ܙܒܢܐ ܘܙܒܢܐ ܐܚܪܢܐ ܠܡܡܲܠܠܘ. ܦܩ̣ܕ ܚܲܟܝܡܐ ܘܕܒܗܕܐ ܟܐܝܢ
+                  ܡܬܚܲܘܐ ܠܝ. ܐܠܐ ܪܡ̣ܙܐ ܝܗܒ̣ܠܢ ܒܠܚܘܕ ܘܥܒ̣ܪ ܐܙܠ. ܥܠ ܨܒ̈ܘܬܐ ܘܫܪ̈ܒܐ ܐܚܪ̈ܢܐ ܠܡܫܲܘܕܥܘ.
+                  ܏ܘܫ.</incipit>
+                  <quote xml:lang="syr">
+                    <note xml:lang="en">margin, </note>ܒܢܝ̣ܫܐ ܕܡܪܝ ܝܥܩܘܒ<locus/>
+                  </quote>
+                  <quote xml:lang="syr">
+                    <note xml:lang="en">The first and last letters of each line,
+                    if read in sequence, yield the following sentences. Fol. 185 a, last and first
+                    letters: </note>ܝܘܚܢܢ ܕܥ̇ܡܪ ܒܣܘ̈ܦܝܗ̇ ܕܣܘܪܝܐ ܠܐܚܘܢ ܡܝܟܐܝܠ ܕܒܦܠܐܣܛܝܢܝ.<locus from="185a"/>
+                  </quote>
+                  <quote xml:lang="syr">
+                    <note xml:lang="en">The last letters of foll. 185 b, seqq., give:
+                  </note>ܛܠܸܐ ܗܘܝܬ ܘܗܐ ܣ̤ܒܬ: ܘܠܐ ܐ̇ܟܫܪܬ ܒܡܕܡ: ܒܣܒܪܐ ܗܘ ܚܝܬ (sic) ܥܕ ܗܫ ܕܐܪܕܟ ܪܓܬ̇
+                  ܢܦܫܝ. ܘܗܫܐ ܕܗܐ ܫ̇ܪܝ̣ܬ. ܗܲܪܛ ܬ̣ܐ ܗ̣ܘܝ ܫܲܘܬܦܝ. ܘܐܢ ܟܝܬ ܬܦܘܫ. ܐܝܟ ܕܐܢ ܬܘܟܪ̣. ܕܐܢܬ ܕܠܐ
+                  ܫܘܚܠܦ ܚܫ̣ܝܒ ܐܢܬ ܠܝ̣. ܡܟܝܠ ܒܡ̈ܝܬܐ ܕܡܢܥܠܡ. ܐܢܕܝܢ ܬܥ̣̇ܝܪ ܝܵܬܟ ܘܬܢܘܕ ܡܢ ܫܢܬܟ. ܐܢܬ ܩܘܼܡ
+                  ܬܵܐ ܢܟܲܐܝܪ ܚ̈ܕܕܐ ܕܚܲܠܦܢܢ ܡܕܡ ܒܠܐ ܡܕܡ: ܘܗܘ̣ܝܢ ܠܐ ܡܕܡ: ܩܘܼܡ ܦ̤ܨ ܫ̣ܕܝ ܡܢܟ ܣܝܢܐ ܕܟܠ
+                  ܡܕܡ. ܘܗܘ̣ܝ ܠܝ ܥܠ̣ܬܐ ܕܐ̇ܦܨ ܘܐܦ ܐܢ ܐ̇ܥܕܠ. ܐܢ ܕܝ̣ܩ ܡ̇ܘܬܐ ܘܢܨܦܚ. ܢܬܘ̣ܗ ܠܢ ܘܬܐܪܬܢ ܬܡܠܐ
+                  ܠܢ. ܕܘܟܬ ܓܝܗܢܐ. ܘܐܢ ܬܨܒܐ ܕܬܪܗ̣ܛ ܠܐܘܪܥܗ ܕܡ̇ܢ ܕܕܩܪܟ. ܦ̣ܪܚ ܬܵܐ ܚ̣ܙܝ ܟܘܫܢ. ܘܐܨܕ
+                  ܒܕܘܒܪܢ. ܘܐܢܗ̣ܘ ܕܢܫܦܪ ܠܟ. ܛܝܒܘ ܠܡܪܐ ܟܠ. ܘܐܠܐ ܚܢܢ ܥܡܟ ܠܐܝܟܐ ܕܨ̇ܒܐ ܐܢܬ. ܒܠܚܘܕ ܕܠܐ
+                  ܝܘܬܪܢ. ܠܐ ܬܦ̣ܘܫ ܣܝܒܘܬܢ. ܐܟܡܐ ܕܛܠܝܘܬܢ. ܢܦ̣ܩܬ݀ ܕܠܐ ܦܐܪ̈ܝܢ ܒܠܚܘܕ ܝܘ̈ܡܬܢ ܟܠܗܘܢ ܠܐ
+                  ܢܓܒܘܒ. ܒܝܫܐ ܘܢܒܗܬ ܠܢ ܒܡܡܠܐ ܕܒܬܪܥܐ. ܡܫܝܚܐ ܘܡ̈ܠܐܟܘܗܝ ܘܟܠܗܗܘܢ ܩܕܝ̈ܫܘܗܝ̇. ܥܡܢ ܡܦܝܣܝܢ
+                  ܠܟ. ܦܝܣܢ ܠܐ ܬܣܠܐ. ܘܠܐ ܬܘܒ ܬܣܲܟܐ ܡܢܝ ܦܝܣܐ ܚܪܻܢܐ ܣܟ. ܕܠܗ̇ܘ ܕܪܒ ܡܢ ܟܠ ܘܠܡܝܬܪܐ ܕܒܟܠ
+                  ܥܡܢ ܠܬܪܥܘܬܟ ܫܩ̣ܠܢܢ. ܡܦܝܣܢܐ ܐܢ ܬܫ̣ܡܥ ܬܲܟܫܪ ܘܬܦܠܛ ܕܠܐ ܡܲܪܫܘ. ܘܐܢ ܬܲܕܸܫ ܗܢ̣ܘܢ ܩ̇ܝܡܝܢ
+                  ܠܩܘܛܪܓܟ. ܐܢܕܝܢ ܣܪܝܩܐܝܬ ܬܫ̣ܪܝܘܗܝ ܠܦܝܣܢ. ܘܠܓܡܪ ܦܣܝܩܐܝܬ ܥܒ̣ܕܬܝܗܝ ܠܟܘܫܦܢ. ܢܗܘܐ ܫܪܸܐ
+                  ܡ̇ܕܝܢ ܩܝܡܐ ܕܒܝܢܬܢ. ܘܠܫܡܟ ܕܘܟܪܢܐ ܒܦܘܡܢ ܠܐ ܗ̇ܘܐ. ܘܐܦܠܐ ܐܢܬ ܠܫܡܢ ܬܲܥܒܪ ܒܣ̈ܦܘܬܟ. ܠܚܘܒܐ
+                  ܘܐܘܝܘܬܐ ܕܢܘܓܪܐ ܕܫ̈ܢܝܐ ܒܪܚ̣ܡܬ݀ ܡܡܘܢܐ ܚܲܠܦܬ ܡܛܝܒܐܝܬ. ܘܐܢ ܠܢ ܣܢ̣ܝܬ ܒܚܘܒܗ. ܘܐܣܠܝܬ
+                  ܥܢܝܢܢ. ܠܡܪܟ ܠܐ ܬܣ̣ܢܐ. ܕܢܦܫܟ ܒܐܝ̈ܕܘܗܝ ܗܝ. ܘܕܬܦ̣ܠܛ ܡܢܗ. ܠܐ ܐܝܬ ܠܟ ܐܬܪܐ. ܐܢ ܗ̣ܘ ܕܕܝܠܗ
+                  ܐܢܬ: ܥܢܝ̣ܗܝ ܕܗܐ ܩ̇ܪܐ: ܘܐܢ ܗ̣ܘ ܕܠܐ ܬܥ̣ܢܐ: ܬܩ̣ܪܐ ܘܠܐ ܢܥ̣ܢܐ. ܙܒܢܐ ܗܘ ܕܐ̇ܣܝܟ ܡܐܡܪ̈ܝ
+                  ܒܪܟܡܪܝ. ܡܪܝܐ ܢܫܲܟܢܟ ܠܝ. ܕܵܫܢܵܐ ܕܠܐ ܡܬܦ̣ܪܥ. ܘܐܠܐ ܢܫܲܟܢܢܝ ܠܟ. ܡܲܘܗܒܬ݀ ܕܠܐ ܚܫܚܘ:
+                  ܒܩܪܝܒܘܬ ܙܲܒܢܐ ܩܕܡ ܕܢܕܝܩ ܡ̇ܘܬܐ.<locus from="185b"/>
+                  </quote>
+                  <quote xml:lang="syr">
+                    <note xml:lang="en">The first letters of foll. 185 b, seqq., give:
+                  </note>ܦܘܝ ܒܕܩܢܟ ܦܬܝܐ. ܚܘܼܒܐ ܦ̇ܩܕ ܩܲܒܠ. ܣܝܒܪ ܕܠܐ ܪܘܥܡ: ܕܠܐ ܬܦ̣ܘܫ ܕܠܐ ܟܘܘܢ. ܠܚ̈ܝܐ
+                  ܕܒܫ̈ܩܝܦܐ: ܒܗܝܠܐ ܘܒܣܝܡܐ ܒܪܘܥܐ ܕܡܚܘܙܐ ܘܠܙܬ ܡܕܝܢܬܐ. ܫܲܚܠܦܬ ܣܟܠܐܝܬ: ܘܚܠܦܬ ܦܛܥܐܝܬ: ܘܡܛܠ
+                  ܗܠܝܢ ܟܝܬ. ܘ̇ܝ ܘܦܘܝ ܥܦܝܦܐܝܬ. ܠܐ ܟܝ ܒܗܬ ܐܢܬ. ܕܒܙܒܢ ܣܝܒܘܬܟ. ܝ̇ܬܒܬ ܪܥ̇ܐ ܐܢܬ ܚ̈ܙܘܐ ܕܠܐ
+                  ܝܘܬܪܢ. ܙܒܢܐ ܗܘ ܠܟ ܕܬܒ̣ܟܐ. ܘܝ̇ܬܒܬ ܙܗܐ ܘܓ̇ܚܟ. ܙܒܢܐ ܗܘ ܕܢܬ̣ܐܒܠ. ܘܚܢܢ ܦܨܝ̣ܚܝܢܢ. ܩܝܡܟ
+                  ܗ̇ܘ ܕܐܩܝ̣ܡܬ. ܠܝ ܒܘܣ (sic) ܕܠܐ ܬܐܪܚ. ܩܝܡܟ ܠܩܘܒܠܟ ܗܘ. ܕܠܐ ܚ̇ܢܐ ܠܢܝ̣ܫ ܟܐܢܘ. ܗ̈ܢܝܢ
+                  ܡܘ̈ܡܬܟ ܕܡ̈ܝܢ ܠܗܢ ܕܦܠܢ. ܕܝܡ̣ܐ ܘܠܐ ܕܓܠ̣. ܘܛ̇ܒ ܗܘܐ ܕܕܓܠ ܗܘܐ. ܡܲܢܘ ܡܦܝ̣ܣ ܠܝ ܟܝ. ܕܡܛܠ
+                  ܝܘܬܪ̈ܢܐ ܕܢܦܫܟ ܣܡ̣ܬ ܥܘܡܪܟ. ܒܥܟܘ ܕܦܘܢܝܩܝ. ܐܠܐ ܡܕܡܐ ܐܢ̣ܐ ܕܫܕܠܟ ܦܓܪܢܐ ܗܘ. ܘܐܚ̣ܒܬ
+                  ܕܬܩ̣ܢܐ ܠܟ ܐܝܠܝܢ ܕܠܐ ܡܟܬܪ̈ܢ. ܡ̈ܠܟܐ ܢܦܝܣܘܢܟ ܕܥܠ̣ܒܘܟ ܒܩܢ̈ܝܢܐ. ܘܩܲܨܐ ܕܒ̣ܪ ܐܢܘܢ. ܥܲܪܛܠ
+                  ܡܢ ܟܠܗܘܢ. ܗܪܟܐ ܫܒ̣ܩܘ ܢܟ̈ܣܐ. ܘܥܘܠܐ ܛ̇ܥ̣ܢܘ ܘܐܙܠ̣ܘ. ܡܐ ܕܕܗܒܐ ܙܒܠܐ ܗܘ. ܘܕܫܘܗܝ ܩ̈ܕܝܫܐ.
+                  ܠܡܘܢ ܟܝ ܡܬܐܟܦ. ܕܗ̣ܢ̈ܝܢ ܠܐ ܐܝܬ ܒܗ. ܘܥܠ̣ܒܘ ܩ̈ܕܝܫܐ ܟܕ ܛ̇ܒ ܨܪܝܟܝܢ ܗܘܘ. ܘܐܪܟܢܘ ܠܥܬܝܪ̈ܐ
+                  ܩܘܕܡܬ ܪ̈ܓܠܝܗܘܢ. ܠܐ ܩܢ̣ܝܢ ܗܘܘ ܡܕܡ. ܘܐܚ̣ܕܘ ܟܠܡܕܡ. ܘܡ̈ܠܟܐ ܘܕ݁ܝ̈ܢܐ ܣܓܕܘ ܗܘܘ ܠܪ̈ܓܠܝܗܘܢ.
+                  ܘܥܦܪܐ ܩܕܡܝܗܘܢ ܠܚ̤ܟܘ ܗܘܘ ܒܡܘܟܟܐ. ܦܝ̣ܣܐ ܥܒܝ̣ܕ ܐܢ̣ܐ ܓܝܪ . ܠܐ ܬ̣ܣܓܐ ܠܡܣ̣ܪܒ. ܕܒܦܠܐܣܛܝܢܝ
+                  ܟܘܫܟ ܠܐ ܗܘܐ ܕܪܘܚ. ܡܢ ܣܕܘܡ ܟܗܝܢ̣ܬܐ. ܠܙܥܘܪܬܐ ܨܵܥܪ. ܕܝ̇ܬܒܐ ܒܪܝܫ ܛܘܪ̈ܐ. ܥ̣ܪܩ ܠܘܛ
+                  ܘܐܬ݂ܦܠܛ. ܐܢ ܬ̣ܕܝܢ ܗܦܟܐܝܬ ܡܛܠ ܕܠܐ ܬܦ̣ܠܛ: ܐܫ̣ܩܠܬ ܡܢ ܨܵܥܪ. ܘܗܐ ܫ̤ܟܢܟ ܒܣܕܘܡ. ܐܢ ܥܡ ܠܘܛ
+                  ܐܝܬܝܟ: ܠܛܘܪܐ ܥܪܘܼܩ ܥܡܗ. ܘܐܢ ܬܦܘܼܫ ܒܦܩܥܬܐ: ܐܒ̣ܕܬ ܥܡ ܛܢ̈ܦܐ: ܣܲܪܗܒ ܦܘܼܩ ܥܕܠܐ ܡܣܲܪܗܒܝܢ
+                  ܕܒܘܪ̈ܝܟ. ܘܠܦܝܣܟ ܕܢ̣ܫܡܥܘܢ ܠܐ ܡܬܕܢܹܝܢ ܠܓܡܪ: ܬ̣ܐ ܢܬܬܘ̣ܐ ܥܕ ܐܝܬ ܐܬܪܐ ܠܒܘܝܐܝܐ. ܒܪܟܡܪܝ.
+                  ܚ̣ܙܝ ܒܪܐܙ. ܐܬܗܓܐ ܘܐܙܕܗܪ ܡܢ ܒܝ̈ܫܐ ܪ̈ܐܙܝ ܠܝ ܘܠܒ̈ܢܝ ܒܝܬܝ. ܘܫ̇ܘܝܢ ܕܢܬܡܐܪܙܘܢ: ܘܐܢ ܐܝܬ
+                  ܦܪ̈ܘܫܐ: ܗ̣ܒ ܕܢܒ̣ܨܘܢ ܡ̈ܠܝ<locus from="185b"/>
+                  </quote>
+                  <quote xml:lang="syr">
+                    <note xml:lang="en">At the end, fol. 202 a, there is the following epigraph,
+                    which informs us that <persName>John bar Andreas</persName> was born at ܦܪܙܡܐܢ
+                    (%, in the district of <placeName ref="http://syriaca.org/place/18">Aleppo</placeName>); that he was learned in both Syriac and Armenian; became
+                    bishop successively of <placeName ref="http://syriaca.org/place/122">Mabūg</placeName>, <placeName>Carsena</placeName>, and <placeName ref="http://syriaca.org/place/221">Tūr-'Abdin</placeName>; and composed the
+                    above treatise in the year 1466, A.D. 1155. </note>ܫܠܸܡ ܡܐܡܪܐ ܗܢܐ ܕܐܡ̣ܪܗ ܡܪܝ
+                  (sic) ܐܢܕܪܐܣ ܕܡܢ ܦܪܙܡܐܢ ܡܕܝܢܬܐ. ܗܢܐ ܡܪܝ [ܒܪ [altered into ܐܢܕܪܐܣ ܥܬܝܪ ܗܘܐ
+                  ܒܝܘ̈ܠܦܢܐ. ܘܪܕܝܐ ܒܣ̣ܦܪܐ ܕܝܠܢ ܘܕܐܪ̈ܡܢܝܐ. ܩܕܡܝܬ݀ ܠܡܒܘܓ ܗܘ̣ܐ ܐܦܣܝܩܘܦܐ. ܘܟܢ ܠܟܪܫܢܐ.
+                  ܘܒܬܪܟܢ ܠܛܘܪܥܒܕܝܢ. ܘܒܫܢܬ݀ ܐ܏ܬܣܘ ܕܝܘ̈ܢܝܐ ܐܬܥܒ̣ܕ ܡܐܡܪܐ ܗܢܐ. <locus from="202a"/>
+                  </quote>
+                  <note>This is the poem of which <bibl>Assemani says (loc. cit.): "Celebre est ejus
+                    carmen nomine Michaelis monachi compositum, quo Athanasium patriarcham carpit,
+                    quod sacros ordines pecunia venderet."</bibl>
+                </note>
+                </msItem>
+                <msItem xml:id="c13" n="111">
+                  <locus from="202a"/>
+                  <author>John bar Andreas, bishop of Tūr-'Abdīn</author>
+                  <title xml:lang="en">Composed in pentasyllabic metre, and addressed to the
+                  same person</title>
+                  <rubric xml:lang="syr">ܬܘܒ ܕܝܠܗ ܠܘܬܗ ܕܪܚܡ̇ܐ ܕܝܠܗ ܒܢܝ̣ܺܫܐ ܕܡܳܪܝ ܒܲܠܰܝ.</rubric>
+                  <incipit xml:lang="syr">ܗ̇ܐ ܐܝܟ ܫܸܐܠܬܟ݂ ܘܠܘ ܐܝܟ ܣܘܟܵܝܟ܀ ܦܲܰܢܝ̣ܬ ܘܰܐܫ̇ܠܬܟ݂ ܡܐܡܪܘܢܐ
+                  ܙܥܘܪܐ܀ ܕܳܐܦܸܢ ܫܺܝ̣ܛ ܒܰܙܢܐ̣. ܠܐ ܒܨܝܺܪ ܒܕܰܐܝܟ ܚܲܝܠܐ܀ ܟܠܝ̣ܠܗ ܠܟܘܐܪܟ݂. ܥܩܒܗ ܠܓܘܪܳܓܟ܀
+                  ܡܨܥܬ݂ܗ ܠܙܘܗܪܟ݂. ܕܠܐ ܬܣܢ̣ܐ ܡܡܬܘܡ܀ ܕܒܣܲܬܐ ܓܡܝܡ̣ܬܐ̣. ܣܓܘܼܠܐ ܬܗ̣ܐ ܠܓܡܪ܀ ܕܠܐ ܦ̇ܪܥܝܢ
+                  ܒܚܲܣܝܘܼ. ܥܢܩ̈ܝܗ̇ ܘܫܒܘ̈ܩܝܗ̇܀ ܘܠܐ ܪܘ̇ܙܝܢ ܒܙܲܗܝܘܼ. ܦܐܪ̈ܝܗ̇ ܬܚܝ̣ܬ݀ ܛܪ̈ܦܝܗ̇܀ ܘܠܐ ܡܚܲܠܝܢ
+                  ܚܸܟܐ̣. ܐ̣ܕܫ̈ܝܗ̇ ܠܐܟܘ̈ܠܝܗ̇܀ ܚܲܡܪܗ̇ ܠܐ ܡܚܲܕܐ ܠܠܒܐ ܕܫ̈ܬܘܝܘܗܝ܀ ܏ܫ.</incipit>
+                  <note>If, however, the note on fol. 184 a (see below) may be trusted, the title of
+                  this piece is ܟܪܡܐ ܦܠܝܚܐ, "the cultivated vine," and its author
+                  <persName>Dioscorus</persName>, bishop of <placeName ref="http://syriaca.org/place/2304">Gāzartā</placeName> or
+                  <placeName>al-Jazīra</placeName>, the same who wrote the life of <persName ref="http://syriaca.org/person/239">Bar
+                    Hebraeus</persName> in the year 1598, A.D. 1287 (<bibl>see Dr. Payne Smith's
+                    Catalogue of the Syriac MSS. in the Bodleian Library, col. 515</bibl>)</note>
+                </msItem>
+              </msItem>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="chart">
+                <extent>
+                  <measure unit="content_pending" quantity="-1"/>
+                </extent>
+                <foliation/>
+                <collation/>
+                <condition>
+                  <list>
+                    <item>
+                      <p>Paper, about 8 3/8 in. by 6 1/8, consisting of 208 leaves, a few of which,
+                        at the beginning and end, are slightly mutilated. The quires, signed with
+                        letters, are now 19 in number, but the numeration commences with ܚ, which
+                        shows that the first seven have been lost. There are from 25 to 36 lines in
+                        each page. The writing, which is small, neat, and regular, is mostly in
+                        double columns, with occasional Greek and Syriac vowels. This volume is
+                        dated A. Gr., 1675, A.D. 1364</p>
+                    </item>
+                  </list>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <p>Content pending</p>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="1">
+              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
+                <desc/>
+              </handNote>
+            </handDesc>
+            <additions>
+              <list>
+                <item xml:id="addition1" n="1">
+                  <p>On the margins there are notes of different dates, in Syriac, Karshūnī, and
+                    Arabic, chiefly consisting of glosses and various readings, with a few short
+                    extracts from:</p>
+                  <p>
+                    <quote xml:lang="syr">
+                      <persName ref="http://syriaca.org/person/212">Dionysius bar Salībī</persName>,  ܕܝܘܢܘܣܝܘܣ ܪܒܐ ܒܪ ܨܠܝܒܝ, foll. 55
+                      a, 60 a, 72 b, 73 a; <persName>Macarius</persName>, ܓܠܝܢܐ ܕ܏ܩܕ ܡܩ܏܏ܪܝ ܥܲܠ
+                    ܢܦ̈ܫܬܐ ܟܕ ܝ̣ܠܸܦ ܡܢ ܡ̈ܠܐܟܐ, fol. 55 b; <persName ref="http://syriaca.org/person/376">Basil</persName>, fol. 59 b;
+                    <persName ref="http://syriaca.org/person/113">Jacob of <placeName ref="http://syriaca.org/place/78">Edessa</placeName>
+                      </persName>, foll. 59 b, 60
+                    a; <persName ref="http://syriaca.org/person/273">David the Phoenician</persName>, ܕܘܝܕ ܦܘܢܝ̣ܩܵܝܐ, fol. 60 b;
+                    <persName>Ignatius</persName>, ܐܝܓܢ܏ܛ ܢܘܪܵܢܐ, fol. 61 a; <persName ref="http://syriaca.org/person/511">Gregory
+                        (Nazianzen)</persName>, fol. 61 a; <persName>John bar Andreas</persName>,
+                      ܝܘܚܢܢ ܒܪ ܐܢܕܪܐܘܣ, fol. 68 a.</quote>
+                  </p>
+                </item>
+                <item xml:id="addition2" n="2">
+                  <locus from="91b"/>
+                  <p>On the margin of fol. 91 b, it is stated that the manuscript was collated and
+                    corrected by <persName>Babban Salībā of <placeName ref="http://syriaca.org/place/217">Hah</placeName>
+                    </persName> and his son
+                    <persName>Yeshūa'</persName>
+                  </p>
+                  <p>
+                    <quote xml:lang="syr">ܐܬܬܲܨܚ ܗܢܐ ܟܬܒܐ ܙܠܓܢܐ ܥܠ ܟܻܪܬ݀ ܐܝ̣ܕ̈ܝܐ ]ܟܳܪܬ ܐܝܕ̈ܝܐ ܚܲܬܝܬ [note, ܕܪܒܢ ܨ̇ܠܝܒܐ
+                    [ܚܲܐܚܵܝܐ] ܘܒܪܗ ܝܫܘܥ ܕܟܝ̣ܪܘܢ (؟) ܚܬܝܬܐܝܬ ܟܡܐ ܕܡܲܨܝܐ ܐܝܟ ܚܲܝܠܢ ܬܚܘܒܐ ܒܒܥܘܼ ܨ̇ܠܘ
+                    ܥܠܝ. </quote>
+                  </p>
+                </item>
+                <item xml:id="addition3" n="3">
+                  <locus from="2b"/>
+                  <p>A note on fol. 2 b, written by one <persName>'Azīz</persName> ܦܦܚܐ, at the age
+                    of 75, speaks of the scribe <persName>Bar-saumā</persName> as famous in his
+                    profession, and gives some account of his tragical end. Unfortunately it is
+                    partially effaced and mutilated</p>
+                  <p>
+                    <quote xml:lang="syr">ܕܵܩ ܒܟܬܒܐ ܗܢܐ ܥܙܝܙ ܦܦܝܵܝܵܐ ܟܕ ܐܝ܏ܬܘ ܒܪ ܫܒܥܝܢ ܏ܘܗ ܫ̈ܢܝܐ
+                      ܒܡܚܝܠܘܬ ܢܘܗܪܐ ܘܡܪܫܠܘܬ ܐܝܕ̈ܝܐ ܡܛܠ ܕܐܨܚ̇ܬ ܫܡܗ ܕܟܬܘܒܐ. ܪܒܢ ܒܪܨܘܡܐ ܡܕܒܪܝܐ. ܕܐܝܬܘܗܝ
+                      ܒܓܢܣܗ ܦܵܦܝܵܝܐ. ܟܬ̣ܒ ܟ̈ܬܒܐ ܣ̈ܓܝܐܐ ܒܐܬܪܢ ܛܘܪܥܒܕܝܢܝܐ ܥܕܡܐ ܕܐܬܝܢ ܗܘܘ ܡ̈ܠܦܢܐ ܡܢ
+                      ܐܬܪ̈ܘܬܐ ܪ̈ܚܝܩܐ ܠܡܨܳܕܘ ܘܠـ . . . ܒܟܬܒ̈ܘܗܝ ܘܒܐܬܘ̈ܬܐ ܕܝܠܗ ܬܡܝ̈ܗܬܐ . . . ܕܐܬܚܢܩ
+                      ܒܬܘܢܢܐ ܗ̣ܘ ܘܚܣܝܐ ܕܥܘܡـ[ـܪܐ] ܘܐܪ̈ܒܥܝܢ ܕܝܪ̈ܝܐ ܒܡܢܝܢܐ ܘܥܡܗܘܢ ܡـ . . . ܣܓܝܐܐ ܡܢ
+                      ܐܬܪܐ ܗܢܐ ܒܡܠܬܐ ܕܒܪ ܣܝܻܩܝܠܻ . . (؟) ܡܢ ܕܝܪܐ ܕܡܪܝ ܫܡܘܐܝܠ ܘܡܪܝ ܫܥܡـ[ܘܢ ܘ]ܪܡ
+                      ܒܓܒ̈ܝܐ ܡܪܝ ܓܒܪܐܝܠ ܕܡـ . . . ܚܢܩ ܐܢܘܢ ܬܡܢ . . . </quote>
+                  </p>
+                </item>
+                <item xml:id="addition4" n="4">
+                  <locus from="50a"/>
+                  <p>In the year 1712, A.D. 1401, a monk of Beth-Severīnā, by name <persName>Isaiah
+                    bar Denha</persName>, used the book. See <bibl>Assemani, Bibl. Or., t.
+                      ii., p. 384</bibl>
+                  </p>
+                  <p>
+                    <quote xml:lang="syr">ܦܓܥ̣ ܒܟܬܒܐ [ܗܢܐ] ܐܫܥܝܐ ܠܐ ܚ̇ܫܚܐ ܘ . . . ܡܢ ܟܠ ܕܒܫܸܡ
+                      ܩـ[ـܫܝܫܐ] ܒܪ ܕܢܚܐ ܡܫܡܫـ[ـܢܐ] ܡܢ ܒܝܬ ܣܒܝܪܝـ[ـܢܐ] ܩܐܣܛܪܐ. ܘܬܒ̇[ܥ] ܨܠܘܬܐ ܡܢ ܟܠ
+                      ܦܓ̇ܘ[ܥܐ] ܒܫܢܬ ܐ܏ܥܝܒ ܕܝ̈ܘܢܝܐ. ܘܠܐܬܘܣ ܕܘܟܣܐ ܐܡܝܢ</quote>
+                  </p>
+                </item>
+                <item xml:id="addition5" n="5">
+                  <locus from="184a"/>
+                  <p>In the same year it was purchased by the monk <persName>Behnām bar
+                    Yūhannān</persName>, of <placeName ref="http://syriaca.org/place/260">Bartellā</placeName>, from <persName>John,
+                      bishop of the convent of Kartamīn</persName>, for 150 zūzē of Hisn Kīfā</p>
+                  <p>
+                    <quote xml:lang="syr">ܙܒ̣ܢ ܠܟܬܒܐ ܗܢܐ ܡܠܸܐ ܝܘܬܪ̈ܢܐ ܢܦ̈ܫܢܝܐ ܕܐܝܬܘܗܝ ܩܕܡܝܐ ܕܙ̈ܠܓܐ
+                      ܘܫܘܪܪ ܫ̈ܬܐܣܐ ܥ̈ܕܬܢܝܬܐ ܘܒܬܪܗ ܣܘܳܕ ܣܘܦܝܐ ܘܒܒ̈ܬܐ ܘܐܝܪܐܬܸܐܵܘܣ ܘܐܝܬ ܒܗ ܬܐܚܘܝܬܐ
+                      ܕܛܘܛܝܬܐ ܘܡܐܡܪܐ ܕܥܒܝ̣ܕ ܠܡܪܝ ܝܘܚܢܢ ܒܪ ܐܢܕܪܐܝܘܣ ܘܟܪܡܐ ܦܠܝܚܐ ܕܥܒܝܕ ܠܕܝܘܣܩܘܪܘܣ
+                      ܕܓܙܪܬܐ ܒܡ̈ܐܐ ܘܚܡܫܝܢ ܙܘ̈ܙܐ ܚ̈ܣܢܝܐ ܡܢ ܡܪܝ ܝܘܚܢܢ ܐܦܝܣܩܘܦܐ ܕܥܘܡܪܐ ܕܩܪܬܡܝܢ ܒܫܢܬ
+                      ܏ܐܥܝܒ ܕܝܘ̈ܢܝܐ ܨܲܠܘ ܥܠ ܟܬܘܒܐ ܘܥܠ ܩܪܘܝܐ ܘܥܠ ܩܲܢܝܐ ܘܠܐܠܗܐ ܏ܫܘܒ ܐܡܝܢ. ܙܒܢܗ ܒܗܢܡ
+                      ܕܘܝܐ ܕܒܫܸܡ ܕܝܪܝܐ ܟܕ ܪܚܝܩ ܡܢ ܥ̇ܒ̈ܕܐ ܕܕܝܪܝܘܬܐ ܒܪ ܝܘܚܢܢ ܒܪ ܩܫܝܫܐ ܝܥܩܘܒ ܒܪ ܩܫܝܫܐ
+                      ܫܡܥܘܢ ܒܪ ܩܫܝܫܐ ܒܟܘܣ ܒܪ ܩܫܝܫܐ ܕܢܝܐܝܠ ܒܪ ܩܫܝܫܐ ܚܘܫܒ ܡܢ ܒܪܛܠܴܝ ܩܐܣܛܪܐ ܡܫܲܡܗܬܐ
+                      ܕܒܐܬܪܐ ܕܢܝܢܘܐ ܡܢ ܓܢܣܐ ܚܣܝܡܐ ܕܒܝܬ ܚܒܘܟܢܝ (܇) ܨܲܠܘ ܥܠܝ. </quote>
+                  </p>
+                </item>
+                <item xml:id="addition6" n="6">
+                  <locus from="184a"/>
+                  <p>A note on the same page, in a different band, mentions the promotion of the
+                    said <persName>Behnām</persName> to the dignity of Maphrian, in 1715, A.D. 1404,
+                    by the name of <persName>Basil</persName>; and to that of patriarch, in 1723,
+                    A.D. 1412, by the name of <persName>Ignatius</persName>. Compare <bibl>Assemani,
+                      Bibl. Or, t. ii., pp. 384, 465.</bibl>
+                  </p>
+                  <p>
+                    <quote xml:lang="syr">ܕܐܬܬܣܪܚ ܡܦܪܝܢܐ ܒܫܢܬ ܐ܏ܥܝܗ ܘܐܬܩܪܝ ܒܣܝܠܠܝܘܣ ܏ܛ ܫ̈ܢܝܢ ܘܐܬܬܣܪܚ
+                      ܬܘܒ ܦܛܪܝܪܟܐ ܘܐܬܩܪܝ ܐܝܓܢܐܛܝܘܣ ܫܢܬ ܐ܏ܥܟܓ ܕܝܘ̈ܢܝܐ.</quote>
+                  </p>
+                </item>
+                <item xml:id="addition7" n="7">
+                  <locus from="91b"/>
+                  <p>The same <persName>Behnām</persName> has written his name on the margin of fol.
+                    91 b</p>
+                  <p>
+                    <quote xml:lang="syr">ܕܵܩ ܒܟܬܒܐ ܗܢܐ ܡܠܸܐ ܚ̈ܝܐ ܒܗܢܡ ܕܘܝܐ ܘܚܛܝܐ ܘܡܠܸܐ ܡܘ̈ܡܐ
+                      ܘܣܢ̈ܝܬܐ ܕܒܫܡ ܕܝܪܝܐ. ܫܢܬ ܐ܏ܥܝܒ ܕܝܘ̈ܢܝܐ.</quote>
+                  </p>
+                </item>
+                <item xml:id="addition8" n="8">
+                  <locus from="204a"/>
+                  <p>On fol. 204 a and b, there are ornamental circles, with interlaced, patterns,
+                    painted of different colours; and on the verso <persName>Behnām</persName> has
+                    again recorded the purchase of the book and the price given for it, 156 (sic)
+                    zūzē of Hisn Kīfā</p>
+                  <p>
+                    <quote xml:lang="syr">. . . ܗܠܝܢ ܩܛܪ̈ܐ ܒܗܢܡ ܚܲܛܝܐ [ܕ]ܒܫܸܡ ܕܝܪܝܐ ܟܕ ܠܐ ܫ̇ܘܐ ܒܪ
+                      ܝܘܚܢܢ [ܒܪ] ܩܫܝܫܐ ܝܥܩܘܒ ܒܪܛܠܝܐ . . ܐ ܙܒܢܬ ܠܗܢܐ ܟܬܒܐ ܒܫܢܬ ܏ܐܥܝܒ ܕܝܘ̈ܢܝܐ ܡܢ ܥܘܡܪܐ
+                      ܕܩܪܬܡܝܢ ܡܢ ܡܪܝ ܝܘܚܢܢ . . . ܪܒܢ ܡܲܠܟܐ ܥܝܘܪܙܢܝ (؟) . . . ܡܐܐ ܘܚܡܫܝܢ ܘܐܫܬܐ ܙܘ̈ܙܐ
+                      ܚܣ̈ܢܝܐ ܨܲܠܘ ܥܠܝ ܒܒܥܘ ܡܢܟܘܢ ܏ܘܫ.</quote>
+                  </p>
+                </item>
+                <item xml:id="addition9" n="9">
+                  <locus from="204a"/>
+                  <p>The same leaf contains some chronological calculations, and questions of
+                    <persName>Mār Jacob</persName> and <persName>Mār Severus the
+                      patriarch</persName>, now mutilated.</p>
+                </item>
+                <item xml:id="addition10" n="10">
+                  <locus from="2b"/>
+                  <p>On fol. 2 b it is stated that one <persName>Rabban Solomon</persName> purchased
+                    the volume from <persName>Ignatius (Behnām) patriarch of Māridīn</persName>
+                  </p>
+                  <p>
+                    <quote xml:lang="syr">ܐܬܝܲܒܠ ܟܬܒܐ ܗܢܐ ܐܝܟ ܕܡܬܝܲܒܠܝܢ ܫܢ̈ܝܐ ܘܕܪ̈ܐ ܘܚ̣ܙܝܗܝ ܟܗܢܐ
+                      ܢܟܦܐ ܘܕܝܪܝܐ ܦܟܘܡܝܐ [ܦܟܘܡܣܝܐ [altered into ܚܠܸܐ ܟܘܼܢܵܝܐ ܪܒܢ ܫܠܝܡܘܢ ܘܫܦ̣ܪ ܠܗ
+                      ܘܐܬܒܲܩܝ ܒܡ̈ܠܐ ܚܝ̈ܬܐ ܕܒܗ ܘܙܒܢܗ ܡܢ ܡܐ ܕܙܢ̣ܬ݀ ܛܝܒܘܬܐ ܐܠܗܝܬܐ ܒܝܬ ܐܝ̣ܕ̈ܘܗܝ ܡܢ ܡܪܝ
+                      ܐܝܓܢܐܛܝܘܣ ܦܛܪܝܪܟܐ ܕܡܵܪܕܸܐ ܐܝܟܢܐ ܕܢܗܘ̣ܐ ܠܝܘܬܪܢܐ ܘܠܕܘܟܪܢܐ ܛܒ̇ܐ ܕܢܦܫܗ. ܏ܘܫ.
+                    </quote>
+                  </p>
+                </item>
+                <item xml:id="addition11" n="11">
+                  <locus from="2b"/>
+                  <p>There is added in Arabic:</p>
+                </item>
+                <item xml:id="addition12" n="12">
+                  <locus from="10b"/>
+                  <p>On fol. 10 b another <persName>Ignatius</persName>, of much later date, has
+                    made an entry, stating that the manuscript belonged to two brothers, whose names
+                    have been erased</p>
+                  <p>
+                    <quote xml:lang="syr">ܒܫܸܡ ܚܲܝܵܐ ܡܥ̈ܝܢܚܝܐ ܐܝܓܢܐܛܝܘܣ ܬܲܚܘܒܐ ܟܕ ܐܝܟ ܕܝ̈ܢܐ ܠܐ
+                      ܡܬܕܪ̈ܟܢܐ ܘܬܡ̈ܝܗܝ ܒܟ̇ܠ ܕܒܛܝ̣ܠܘܬܐ ܠܐ ܪܦ̣ܝܬܵܐ ܕܝ̣ܠܗ ܕܒܵܪܝܢ ܗ̇ܘ ܛܵܒܐ܇ ܘܡܫܟ̣ܚܵܢܢ
+                      ܣܓܝܕ ܨܘܝ̣ܵܒܐ. ܗ̇ܘ ܣܓܝܕܵܐ ܘܠܐ ܡܬܦܲܚܡܢܐ ܦܪܢܵܣܐ ܕܟ̇ܠ ܏ܘܫ. ܗܘ ܕܒܛܘ̈ܝܟܘܗܝ ܚ̈ܠܝ̣ܡܐ܇
+                      ܘܒܨ̈ܘܝܒܘܗܝ ܪ̈ܚܝ̣ܡܐ܇ ܐܬܝܲܒܠ ܟܬܵܒܐ ܗܵܢܐ ܡܠܸܐ ܚ̈ܝܐ ܠܓ̇ܙܐ ܕܟ̈ܬܒܐ ܕܬܪ̈ܝܢ ܐܚ̈ܐ
+                      ܕ̈ܡܵܢܝܐ . . . </quote>
+                  </p>
+                </item>
+                <item xml:id="addition13" n="13">
+                  <locus from="208"/>
+                  <p>Fol. 208 contains on the recto a few chronological notes in Arabic, and on the
+                    verso a note recording the purchase of the volume by <persName>Isaac bar
+                      Antonius</persName>, for 10 zūzē, in the year 1978, A.D. 1667, when
+                    <persName>Ignatius Shukrallāh</persName> was patriarch</p>
+                  <p>
+                    <quote xml:lang="syr">ܙܒ̣ܢ ܠܟܬܒܐ ܗܢܐ ܡܠܸܐ ܝܘܬܪ̈ܢܐ ܢܦܫܢ̈ܝܐ ܕܐܝܬܘܗܝ ܩܕܡܝܐ ܙ̈ܠܓܐ
+                      ܘܫܘܼܪܪ ܫܬܐܣ̈ܐ ܥܕܬܢ̈ܝܐ ܘܒܬܪܗ ܣܘܕ ܣܘܦܝܐ ܘܒܒ̈ܬܐ ܘܐܝܪܐܬܐܘܣ ܘܐܝ̣ܬ ܒܗ ܬܚܘܝܬܐ ܕܛܘܛܝܬܐ
+                      ܘܩܠܝܠ ܡܢ ܡܟܬܒܢܘܬ ܙܒ̈ܢܐ ܘܟܪܡܐ ܦܠܝ̣ܚܐ ܩܫܝܫܐ ܐܝܣܚܩ ܒܪ ܩܫܝܫܐ ܐܢܛܘܢܝܘܣ ܒܪ ܩܫܝܫܐ
+                      ܦܘܠܘܣ ܒܥܣܪܐ ܙܘ̈ܙܐ ܒܝ̈ܘܡܝ ܦ̇ܛܪܝܪܟܘ ܕܝܠܢ ܐܒܘܢ ܡܪܝ ܐܝܓܢܐܛܝܘܣ ܕܗ̣ܘ ܫܟܪ ܐܠܠܗ ܒܫܢܬ
+                      ܐܨܥܚ ܕܝܘ̈ܢܝܐ. </quote>
+                  </p>
+                </item>
+                <item xml:id="addition14" n="14">
+                  <locus from="3a"/>
+                  <p>On the margin of fol. 3 a there is the catalogue of a small library, now
+                    mutilated</p>
+                </item>
+                <item xml:id="addition15" n="15">
+                  <locus from="203b"/>
+                  <p>On fol. 203 b we find an Arabic version of "the Hours of the Night and Day,"
+                    from the Testament of Adam, %, written by a modern hand</p>
+                </item>
+                <item xml:id="addition16" n="16">
+                  <locus from="205a"/>
+                  <p>Notice of <persName ref="http://syriaca.org/person/376">Basil of <placeName ref="http://syriaca.org/place/53">Caesarea</placeName>
+                    </persName> and his
+                    brothers, <persName ref="http://syriaca.org/person/512">Gregory of <placeName ref="http://syriaca.org/place/2697">Nyssa</placeName>
+                    </persName> and
+                    <persName>Peter</persName>; imperfect</p>
+                </item>
+                <item xml:id="addition17" n="17">
+                  <locus from="205a"/>
+                  <p>Notice of <persName ref="http://syriaca.org/person/173">Moses bar Kīphā</persName>, with a list of his works</p>
+                </item>
+                <item xml:id="addition18" n="18">
+                  <locus from="205b"/>
+                  <p>Notice of <persName ref="http://syriaca.org/person/212">Dionysius bar Salībī</persName>, with a list of his
+                    works</p>
+                </item>
+                <item xml:id="addition19" n="19">
+                  <locus from="205b"/>
+                  <p>Account of the martyr <persName>Mār Sābā</persName>
+                  </p>
+                  <p>
+                    <quote xml:lang="syr">ܢܨܚܢܗ ܕܣܵܗܕܐ ܡܵܪܝ ܣܵܒܐ</quote>
+                  </p>
+                </item>
+                <item xml:id="addition20" n="20">
+                  <locus from="206a"/>
+                  <p>Notice of <persName ref="http://syriaca.org/person/2449">John I., patriarch of
+                    <placeName ref="http://syriaca.org/place/10">Antioch</placeName>
+                    </persName>
+                  </p>
+                  <p>
+                    <quote xml:lang="syr">ܝܘܚܢܢ ܕܣܕܪ̈ܘܗܝ</quote>
+                  </p>
+                </item>
+                <item xml:id="addition21" n="21">
+                  <p>
+                    <persName ref="http://syriaca.org/person/89">Severus of <placeName ref="http://syriaca.org/place/178">Samosata</placeName>
+                    </persName> died A. Gr.
+                    936, A.D. 625</p>
+                  <p>
+                    <quote xml:lang="syr">ܡܵܪܝ ܣܐܘܪܐ ܕܫܡܝܫܛ ܘܐܝ܏ܬܘ ܐܚܘܗܝ ܕܓܲܡܵܠܐ ܪܝܫܕܵܝܪܐ ܕܒܝܬ
+                      ܐܦܬܘܢܝܐ ܥܢܕ ܫܢܲܬ ܬܬܩܠܘ ܨܠܘܬܗ ܥܡܢ.</quote>
+                  </p>
+                </item>
+                <item xml:id="addition22" n="22">
+                  <locus from="206a"/>
+                  <p>Notice of <persName>Mār Simeon of Zaitē</persName>, ܡܪܝ ܫܡܥܘܢ ܕܙ̈ܝܬܐ, called by
+                    the Arabs <persName>Abū Korrah</persName>, ܐܒܘ ܩܪܗ, who was at
+                    <placeName ref="http://syriaca.org/place/41">Bagdād</placeName> in the year 1135, A.D. 824.</p>
+                </item>
+                <item xml:id="addition23" n="23">
+                  <locus from="206a"/>
+                  <p>Historical notes</p>
+                </item>
+                <item xml:id="addition24" n="24">
+                  <locus from="207a"/>
+                  <p>The following note, written A. Gr. 1890, A.D. 1579</p>
+                  <p>
+                    <quote xml:lang="syr">ܒܫܢܲܬ ܐ܏ܦܨ ܝܲܘܢ ܘܐ܏ܢܥܛ ܦܵܪܘܩܵܝܬܐ ܒܝܘܡ ܩܸܛܠܐ ܕܝ̈ܠܘܕܐ ܏ܟܘ
+                      ܒܟܢܘܢ ܩܕܝ̣ܡ ܐܙܝ̣ܥ ܣܵܛܢܐ ܠܸܒܵܐ ܕܐܵܢܫ̈ܐ ܥ̈ܢܬܐ ܒܝ̈ܫܐ ܡܲܫ̈ܠܡܢܐ ܘܟܒ̣ܫܘ ܠܥܕܬܐ ܕܝ̇ܠܕܬ
+                      ܐܠܗܐ ܕܒܵܐܡܝ̣ܕ ܘܩܸܠܵܝܬܐ ܦܛܪܝܪܟܝܬܐ ܘܒܲܙܘ ܟ̇ܠܗܝܢ ܨܒ̈ܘܬܐ ܕܐܫ̈ܬܟܚܝ ܒܗܝܢ ܘܬܲܒܪܘ
+                      ܘܲܚܪܒܘ ܘܒܵܬܪ ܗ̈ܠܝܢ ܫܲܘܙܒܘܗ̇ ܡ܏ܗܝ̈ܡ ܒܟܡܵܝܘܬܐ ܕܐ̈ܠܦܐ ܕܪ̈ܝܟܘܢܐ. ܗܘ̈ܝ ܗܵܠܝܢ ܒܝܘ̈ܡܝ
+                      ܦܛ܏ܪܝܪ ܕܘܝܕ ܘܫܠܡܬ݀ ܡܠ̣ܬܗ ܕܢܒܝ̣ܵܐ ܕܐܡ̇ܪ ܡܸܪܕܐ ܕܪܵܢܝ ܘܠܡܲܘܬܐ ܠܐ ܐܲܫܠܡܢܝ</quote>
+                  </p>
+                </item>
+                <item xml:id="addition25" n="25">
+                  <locus from="207b"/>
+                  <p>Canons of <persName ref="http://syriaca.org/person/212">Bar Salībī</persName>; only the first three remain</p>
+                </item>
+                <item xml:id="addition26" n="26">
+                  <locus from="1b"/>
+                  <p>On fol. 1 b there are historical notes in Syriac and Arabic, in the same
+                    handwriting as the above; and the following statement regarding the languages
+                    spoken by the Apostles</p>
+                  <p>
+                    <quote xml:lang="syr">ܫܡܥܘܢ ܥܒܪܵܐܝܬ݂ ܡܲܠܠ. ܐܢܕܪܐܘܣ ܦܠܫܬܐܝܬ. ܝܥܩܘܒ ܪܘܡܐܝܬ. ܝܘܚܢܢ
+                      ܝܘܢܐܝ̣ܬ. ܦܝܠܠܝܦܘܣ ܐܝܓܘܦܛܐܝ̣ܬ. ܒܪ ܬܘܠܡܲܝ ܦܪܬܘܐܝܬ. ܡܬܝ ܐܠܢܐܝ̣ܬ [ܐܠܘܡܐܝ̣ܬ altered
+                      into]. ܬܘܡܐ ܗܢܕܘܐܝܬ. ܏ܝܥܘ ܒܪ ܚܠܦܝ ܣܘܪܝܝܐܝܬ. ܏ܫܡܥ ܛܢܢܐ ܡܵܕܐܝ̣ܬ. ܝܗܘܕܐ ܒܪ ܝܥܩܘܒ
+                      ܦܵܪܣܐܝ̣ܬ.</quote>
+                  </p>
+                </item>
+              </list>
+            </additions>
+            <bindingDesc>
+              <p>Content pending</p>
+            </bindingDesc>
+            <sealDesc>
+              <p>Content pending</p>
+            </sealDesc>
+            <accMat/>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1364">A.D. 1364</origDate>
+              <origDate datingMethod="Seleucid" when="1675">A. Gr., 1675</origDate>
+              <origPlace/>
+            </origin>
+            <provenance/>
+            <acquisition/>
+          </history>
+          <additional>
+            <adminInfo>
+                    <recordHist>
+                        <source>Manuscript description based on <bibl>
+                            <ref target="#Wright">Wright's
+                            Catalogue</ref>
+                        </bibl>, abbreviated by the Syriaca.org editors.</source>
+                    </recordHist>
+                    <note/>
+                </adminInfo>
+            <listBibl>
+              <bibl xml:id="Wright">
+                <author>William Wright</author>
+                <title xml:lang="en">Catalogue of Syriac Manuscripts in the British Museum Acquired
+                        since the Year 1838</title>
+                <pubPlace>London</pubPlace>
+                <date>1870</date>
+                <ptr target="http://syriaca.org/bibl/8"/>
+                <citedRange unit="entry">DCCCL</citedRange>
+                <citedRange unit="pp">2:890-901</citedRange>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <interpretation>
+                <p>Description is based on Wright's Catalogue without consultation of physical
+                    manuscripts. Foliation is approximate. Wright often does not indicate ending folia so
+                    those have been assumed based on beginning folia.</p>
+                <p>Scribal notes which could not be more clearly classified based on Wright's descriptions
+                    have been identified as &lt;addition&gt;s whether they occur in the margins or the body
+                    of the manuscript.</p>
+                <p>In general, we have classified as an &lt;msItem&gt; as much of the manuscript contents
+                    as possible, including tables of contents and indices.</p>
+            </interpretation>
+        </editorialDecl>
+        <classDecl>
+            <taxonomy xml:id="Wright-BL-Taxonomy">
+                <bibl>
+                    <ref target="#Wright"/>
+                    <ptr target="http://syriaca.org/documentation/Wright-BL-Taxonomy.html"/>
+                </bibl>
+                <category xml:id="biblical-manuscripts">
+                    <category xml:id="bible-ot">
+                        <catDesc>Old Testament</catDesc>
+                    </category>
+                    <category xml:id="bible-nt">
+                        <catDesc>New Testament</catDesc>
+                    </category>
+                    <category xml:id="bible-apocrypha">
+                        <catDesc>Apocrypha</catDesc>
+                    </category>
+                    <category xml:id="bible-punctuation">
+                        <catDesc>Punctuation</catDesc>
+                    </category>
+                </category>
+                <category xml:id="service-books">
+                    <category xml:id="psalter">
+                        <catDesc>Psalters</catDesc>
+                    </category>
+                    <category xml:id="lectionaries">
+                        <catDesc>Lectionaries</catDesc>
+                    </category>
+                    <category xml:id="missals">
+                        <catDesc>Missals</catDesc>
+                    </category>
+                    <category xml:id="sacerdotals">
+                        <catDesc>Sacerdotals</catDesc>
+                    </category>
+                    <category xml:id="choral">
+                        <catDesc>Choral Books</catDesc>
+                    </category>
+                    <category xml:id="hymns">
+                        <catDesc>Hymns</catDesc>
+                    </category>
+                    <category xml:id="prayers">
+                        <catDesc>Prayers</catDesc>
+                    </category>
+                    <category xml:id="funerals">
+                        <catDesc>Funeral Services</catDesc>
+                    </category>
+                </category>
+                <category xml:id="theology">
+                    <category xml:id="theo-single">
+                        <catDesc>Individual Authors</catDesc>
+                    </category>
+                    <category xml:id="theo-collected">
+                        <catDesc>Collected Authors</catDesc>
+                    </category>
+                    <category xml:id="theo-catenae">
+                        <catDesc>Catenae Patrum and Demonstrations against Heresies</catDesc>
+                    </category>
+                    <category xml:id="theo-anonymous">
+                        <catDesc>Anonymous Works</catDesc>
+                    </category>
+                    <category xml:id="theo-council">
+                        <catDesc>Councils of the Church and Ecclesioastical Canons</catDesc>
+                    </category>
+                </category>
+                <category xml:id="wright-history">
+                    <category xml:id="history">
+                        <catDesc>History</catDesc>
+                    </category>
+                </category>
+                <category xml:id="lives">
+                    <category xml:id="lives-collect">
+                        <catDesc>Collected Lives</catDesc>
+                    </category>
+                    <category xml:id="lives-single">
+                        <catDesc>Single Lives</catDesc>
+                    </category>
+                </category>
+                <category xml:id="scientific-lit">
+                    <category xml:id="sci-logic">
+                        <catDesc>Logic and Rhetoric</catDesc>
+                    </category>
+                    <category xml:id="sci-grammar">
+                        <catDesc>Grammar and Lexicography</catDesc>
+                    </category>
+                    <category xml:id="sci-ethics">
+                        <catDesc>Ethics</catDesc>
+                    </category>
+                    <category xml:id="sci-medicine">
+                        <catDesc>Medicine</catDesc>
+                    </category>
+                    <category xml:id="sci-agriculture">
+                        <catDesc>Agriculture</catDesc>
+                    </category>
+                    <category xml:id="sci-chemistry">
+                        <catDesc>Chemistry</catDesc>
+                    </category>
+                    <category xml:id="sci-natural-history">
+                        <catDesc>Natural History</catDesc>
+                    </category>
+                </category>
+                <category xml:id="wright-fly-leaves">
+                    <category xml:id="fly-leaves">
+                        <catDesc>Fly Leaves</catDesc>
+                    </category>
+                </category>
+                <category xml:id="appendices">
+                    <category xml:id="appendix-a">
+                        <catDesc>Appendix A</catDesc>
+                    </category>
+                    <category xml:id="appendix-b">
+                        <catDesc>Appendix B</catDesc>
+                    </category>
+                </category>
+            </taxonomy>
+        </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+            <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            <language ident="syr-Syre">Syriac in Estrangela</language>
+            <language ident="syr-Syrj">Vocalized West Syriac</language>
+            <language ident="syr-Syrn">Vocalized East Syriac</language>
+            <language ident="syr-x-syrm">Melkite Syriac</language>
+            <language ident="syr-x-syrp">Palestinian Syriac</language>
+            <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
+            <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
+            <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="cop">Coptic</language>
+        </langUsage>
+      <textClass>
+        <keywords scheme="#Wright-BL-Taxonomy">
+          <list>
+            <item>
+              <ref target="#theo-collected"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2022-04-22">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
+      <change who="http://syriaca.org/documentation/editors.xml#jdalfonso">Initial TEI encoding.</change>
+      <change type="planned" subtype="checkSyriac">Please add Syriac for the book of the pupils of
+        the eyes, chapter on the isagoge, section 1 (there is something wrong with the Syriac in the
+        Word doc)</change>
+      <change type="planned" subtype="checkSyriac">A different shape of Syriac vowel is missing in
+        the quote from the preface/index of the book of Hierotheus</change>
+      <change type="planned" subtype="checkSyriac">Please check whether the Syriac in "a supplement
+        to the above treatise" is placed under the correct items--Wright is not clear in what the
+        Syriac is referring to</change>
+      <change type="planned" subtype="checkSyriac">Please change Syriac in section "A list of the
+        Jewish high priests"--another instance where the Word document is in error, what I've put
+        down is not correct</change>
+      <change type="planned" subtype="arabic">Add missing Arabic text--see percentage sign in note
+        under first metrical homily of John bar Andreas--also check Syriac here</change>
+      <change type="planned" subtype="checkSyriac">Check Syriac on additional item beginning on
+        204a</change>
+      <change type="planned" subtype="arabic">Add missing Arabic text on additional item beginning
+        on 2a</change>
+      <change type="planned" subtype="arabic">Add missing Arabic text on additional item beginning
+        on 203b</change>
+      <change type="planned" subtype="checkSyriac">Check Syriac in final additional item</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <formula>Content pending</formula>
+  </facsimile>
+  <text>
+    <body>
+      <bibl>Content pending</bibl>
+    </body>
+  </text>
+</TEI>
