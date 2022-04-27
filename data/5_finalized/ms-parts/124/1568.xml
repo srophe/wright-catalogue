@@ -80,7 +80,7 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <textLang mainLang="syr-Syre"/>
+            <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
               <locus from="1b"/>
               <title xml:lang="en"><ref target="https://syriaca.org/work/9645">The four Gospels</ref>, in an ancient recension,
@@ -442,14 +442,8 @@
       <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-04-27">Edits to msContents, condition, handDesc, additions, and origDate</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
-      <change who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
-      <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
-                encoding. (The last leaf is a palimpsest, and folio 88 may be as well (I found it a
-                little difficult to tell)).</change>
-      <change type="planned" subtype="missing">Missing various unspecified things. Please see
-                the condition description.</change>
-      <change type="planned" subtype="checkSyriac">The Syriac copied from the Word Document
-                needs to be checked for accuracy</change>
+      <change who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>      
+      <change type="planned" subtype="missing">Missing punctuation markings in handNote1</change>      
     </revisionDesc>
   </teiHeader>
   <facsimile>
