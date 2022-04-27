@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14451</title>
+        <title level="a" xml:lang="en">BL Add. MS 14,451*</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/123</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14451, foll. 23-83 (new 1-61)</idno>
+              <idno type="BL-Shelfmark">Add. MS 14,451*</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -79,34 +80,34 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <textLang mainLang="syr-Syre"/>
+            <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1" defective="true">
-              
-              <title xml:lang="en">The first three Gospels according to the
+              <locus from="1a"/>
+              <title xml:lang="en" ref="https://syriaca.org/work/201">The first three Gospels according to the
                                 Peshitta version</title>
               <msItem xml:id="b1" n="2" defective="true">
                 <locus from="1a"/>
-                <title xml:lang="en">
+                <title xml:lang="en" ref="https://syriaca.org/work/72">
                   <persName>S. Matthew</persName>,
-                                    commencing with ch. xxiii. v. 28</title>
-                <note>A considerable part of the missing portion, viz. ch. ix.
-                                    7—xxiii. 28, has been long bound up with Add. 14,452. See
-                                        <bibl>no. LXXIV</bibl>.</note>
+                                    commencing with ch. xxiii. v. 28<note type="footnote">A considerable part of the missing portion, viz. ch. ix.
+                                    7—xxiii. 28, has been long bound up with <bibl>Add. 14,452<ptr target="http://syriaca.org/manuscript/125"/></bibl>. See
+                                        <bibl>no. LXXIV<ptr target="http://syriaca.org/manuscript/125"/></bibl>, <bibl>Add. 14,452, foll. 1-22<ptr target="http://syriaca.org/manuscript/1158"/></bibl>.</note></title>                
               </msItem>
               <msItem xml:id="b2" n="3">
                 <locus from="10b"/>
-                <title xml:lang="en">
+                <title xml:lang="en" ref="https://syriaca.org/work/73">
                   <persName>S. Mark</persName>
                 </title>
               </msItem>
               <msItem xml:id="b3" n="4" defective="true">
                 <locus from="34b"/>
-                <title xml:lang="en">
+                <title xml:lang="en" ref="https://syriaca.org/work/74">
                   <persName>S. Luke</persName>
                 </title>
-                <note>The missing portions are : ch. ii. 37—iii. 12, ix. 44—x. 8,
+                <note>The missing portions are: ch. ii. 37—iii. 12, ix. 44—x. 8,
                                     xi. 13— 37, and xviii. 20 to the end.</note>
               </msItem>
+                <note>The Ammonian sections and Eusebian canons are marked in the text with red ink, and there is a harmony at the foot of each page (except foll. <locus from="9" to="18">9—18</locus>).</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -123,19 +124,13 @@
                                             <p>Vellum, about 12 in. by 9 1/2, consisting of 61
                                                 leaves, some of which are slightly stained and torn,
                                                 especially foll. 37 and 61. The quires are signed
-                                                with letters (ܚ, fol. 38 a; ܛ, fol. 48 a), but their
+                                                with letters (<foreign xml:lang="syr">ܚ</foreign>, fol. 38 a; <foreign xml:lang="syr">ܛ</foreign>, fol. 48 a), but their
                                                 number is uncertain, owing to the defective state of
                                                 the volume. Leaves are wanting at the beginning and
                                                 end, as well as after foll. 37, 49, and 51. Each
                                                 page is divided into two columns, of from 27 to 33
-                                                lines. This volume is written in a fine, regular
-                                                Estrangela of the viiith cent., with the exception
-                                                of foll. 9—18, which maybe of the xth cent. Numerous
-                                                Syriac vowels and diacritical marks have been added
-                                                by a still later hand. [A considerable part of the
-                                                missing portion, viz. ch. ix. 7—xxiii. 28, has been
-                                                long bound up with Add. 14,452. See <bibl>no.
-                                                  LXXIV</bibl>.]</p>
+                                                lines. See
+                                        <bibl>no. LXXIV<ptr target="http://syriaca.org/manuscript/125"/></bibl>, with which a portion of this manuscript has been bound, viz. <bibl>Add. 14,452, foll. 1-22<ptr target="http://syriaca.org/manuscript/1158"/></bibl>.</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -144,26 +139,26 @@
                                 <p>Content pending</p>
                             </layoutDesc>
                         </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="3">
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr-Syre">
+                <desc>This volume is written in a fine, regular
+                      Estrangela of the <origDate notBefore="0700" notAfter="0800">viiith cent.</origDate></desc>
               </handNote>
+              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
+                <desc><locus from="9" to="18">Foll. 9—18</locus> may be of the <date notBefore="0900" notAfter="1000">xth cent.</date></desc>
+              </handNote>
+              <handNote xml:id="handNote3" medium="unknown" scope="minor" script="syr">
+                <desc>Numerous Syriac vowels and diacritical marks have been added
+                               by a still later hand.</desc>
+              </handNote>
+              
             </handDesc>
-            <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                  <locus/>
-                  <p>The Ammonian sections and Eusebian canons are marked in the
-                                        text with red ink, and there is a harmony at the foot of
-                                        each page (except foll. 9—18). Lessons are rubricated in the
-                                        text throughout the volume.</p>
-                  <p>
-                    <quote xml:lang="syr"/>
-                  </p>
-                </item>
-              </list>
-            </additions>
+            <decoDesc>
+              <decoNote xml:id="decoNote1" type="rubrication">
+                <desc>Lessons are rubricated in the text throughout the volume.</desc>
+              </decoNote>
+            </decoDesc>
+            <additions/>
             <bindingDesc>
                             <p>Content pending</p>
                         </bindingDesc>
@@ -174,8 +169,7 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate notBefore="0700" notAfter="0800"/>
-                            <origDate notBefore="0900" notAfter="1000"/>
+                            <origDate notBefore="0700" notAfter="0800">viiith cent.</origDate>
                             <origPlace/>
                         </origin>
                         <provenance/>
@@ -365,6 +359,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#jarnwine" when="2022-04-27">Edits to msContents, condition, handDesc, and origDate; added decoDesc</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI encoding.</change>
