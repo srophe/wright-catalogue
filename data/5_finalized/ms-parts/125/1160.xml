@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14452</title>
+        <title level="a" xml:lang="en">BL Add. MS 14,452, foll. 23-57, 59-152</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -15,6 +15,7 @@
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#raydin">Robert Aydin</editor>
         <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</editor>
+        <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref="http://syriaca.org/documentation/editors.xml#ecgeitner">Emma Claire Geitner</name>
@@ -25,7 +26,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#jarnwine">Justin Arnwine</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -67,7 +68,7 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/1160</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14452, foll. 23-152</idno>
+              <idno type="BL-Shelfmark">Add. MS 14,452, foll. 23-57, 59-152</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -81,39 +82,25 @@
           <msContents>
             <textLang mainLang="syr-Syre"/>
             <msItem xml:id="a1" n="1" defective="true">
-              
-              <title xml:lang="en">The four Gospels, according to the Peshitta
-                                version</title>
-              <note>The Ammonian sections and Eusebian canons are marked with red ink
-                                in the text of both parts of this volume, and there is a harmony at
-                                the foot of each page. The larger sections have been noted on the
-                                margins in black by a modern hand; and in the second part, foll.
-                                23—152, there is also a marginal division into sections by an old
-                                Greek hand. The large red Syriac letters on the margins of the
-                                second part (e.g. fol. 29 a, ܟܘ; fol. 30b, ܠ; fol. 31b, ܟܙ; fol.
-                                34b, ܨܚ, fol. 37 a, ܣܘ; fol. 48 a. ܚ; fol. 48b, ܝ; fol. 59 a, ܦܒ;
-                                etc.) are probably references to an index of lessons, ܦܘܪܫ ܩܪ̈ܝܢܐ
-                                once prefixed to the book, but now lost.</note>
-              <note>The lessons are rubricated in the text in the usual way, with a
-                                solitary exception on the margin of fol. 18b.</note>
+              <locus from="23a"/>
+              <title xml:lang="en" ref="https://syriaca.org/work/71">The four Gospels, according to the Peshitta
+                                version</title>              
               <msItem xml:id="b1" n="2" defective="true">
-                <locus from="1a"/>
-                <title xml:lang="en">
-                  <persName>S. Matthew</persName>,
-                                    beginning with ch. ix. 7</title>
+                <locus from="23a"/>
+                <title xml:lang="en" ref="https://syriaca.org/work/72">
+                  <persName>S. Matthew</persName></title>
                 <note>The only other portion missing is ch. xxvii. 31—xxviii.
                                     5.</note>
               </msItem>
               <msItem xml:id="b2" n="3" defective="true">
                 <locus from="34a"/>
-                <title xml:lang="en">
-                  <persName>S. Mark</persName>, beginning
-                                    with ch. vi. 2</title>
-                <note>There is also wanting ch. xiv. 17—36.</note>
+                <title xml:lang="en" ref="https://syriaca.org/work/73">
+                  <persName>S. Mark</persName></title>
+                <note>It begins with ch. vi. 2. There is also wanting ch. xiv. 17—36.</note>
               </msItem>
               <msItem xml:id="b3" n="4">
                 <locus from="29a"/>
-                <title xml:lang="en">
+                <title xml:lang="en" ref="https://syriaca.org/work/74">
                   <persName>S. Luke</persName>
                 </title>
                 <note>The missing portions are: ch. viii. 35—xi.51, and xxi.
@@ -121,10 +108,17 @@
               </msItem>
               <msItem xml:id="b4" n="5">
                 <locus from="107a"/>
-                <title xml:lang="en">S. John</title>
+                <title xml:lang="en" ref="https://syriaca.org/work/75">S. John</title>
                 <note>The missing portions are: ch. xviii. 39—xix. 13, and xxi. 17
                                     to the end.</note>
               </msItem>
+              <note>The Ammonian sections and Eusebian canons are marked with red ink
+                    in the text this volume, and there is a harmony at
+                    the foot of each page. The large red Syriac letters on the margins
+                    (e.g. fol. <locus from="29a">29 a</locus>, <foreign xml:lang="syr">ܟܘ</foreign>; fol. <locus from="30b">30b</locus>, <foreign xml:lang="syr">ܠ</foreign>; fol. <locus from="31b">31b</locus>, <foreign xml:lang="syr">ܟܙ</foreign>; fol. <locus from="34b">34b</locus>, <foreign xml:lang="syr">ܨܚ</foreign>, fol. <locus from="37a">37 a</locus>,
+                    <foreign xml:lang="syr">ܣܘ</foreign>; fol. <locus from="48a">48 a</locus>, <foreign xml:lang="syr">ܚ</foreign>; fol. <locus from="48b">48b</locus>, <foreign xml:lang="syr">ܝ</foreign>; fol. <locus from="59a">59 a</locus>, <foreign xml:lang="syr">ܦܒ</foreign>; etc.) are probably 
+                    references to an index of lessons, <foreign xml:lang="syr">ܦܘܪܫ ܩܪ̈ܝܢܐ</foreign>
+                    once prefixed to the book, but now lost.</note>              
             </msItem>
           </msContents>
           <physDesc>
@@ -138,25 +132,15 @@
                                 <condition>
                                     <list>
                                         <item>
-                                            <p>Vellum, about 12 3/8 in. by 10, consisting of 152
-                                                leaves, of which foll. 1, 9, 151 and 152 are much
+                                            <p>Vellum leaves, about 12 3/8 in. by 10, 
+                                                of which foll. 151 and 152 are much
                                                 mutilated. The quires, originally 21 in number, are
-                                                signed with letters (see fol. 23a, ܗ; fol. 44a, ܛ;
-                                                fol. 69a, ܝܒ; etc.). The more recent numeration is
-                                                incorrect. Leaves are wanting at the beginning and
-                                                end, as well as after foll. 32, 33, 53, 78, 98 and
+                                                signed with letters (see fol. 23a, <foreign xml:lang="syr">ܗ</foreign>; fol. 44a, <foreign xml:lang="syr">ܛ</foreign>;
+                                                fol. 69a, <foreign xml:lang="syr">ܝܒ</foreign>; etc.). The more recent numeration is
+                                                incorrect. Leaves are wanting at the end, as well as after foll. 32, 33, 53, 78, 98 and
                                                 147. Each page is divided into two columns,
-                                                containing in foll. 1—22 from 28 to 32 lines, and in
-                                                the rest of the volume from 21 to 26 lines. The
-                                                writing is a fine, regular Estrangela, of the vith
-                                                or viith cent., except foll. 1—22, which are of the
-                                                viiith cent., [These leaves belong to Add. 14,451*,
-                                                but have been long bound up with this manuscript.]
-                                                and fol. 58, which is a modern addition and
-                                                palimpsest. Later hands have added Syriac vowels and
-                                                diacritical points, abundantly in the first 22
-                                                leaves, more sparingly in the rest of the volume.
-                                            </p>
+                                                containing from 21 to 26 lines. <bibl>Foll. 1-22<ptr target="http://syriaca.org/manuscript/1158"/></bibl> belong to <bibl>Add. 14,451*<ptr target="http://syriaca.org/manuscript/123"/></bibl>, but have
+                                                long been bound up with this manuscript. <bibl>Fol. 58 <ptr target="http://syriaca.org/manuscript/1572"/></bibl> is a modern addition and palimpsest (see <bibl>Add. 14,452, fol. 58, lower text<ptr target="http://syriaca.org/manuscript/1573"/></bibl>).</p>
                                         </item>
                                     </list>
                                 </condition>
@@ -165,27 +149,30 @@
                                 <p>Content pending</p>
                             </layoutDesc>
                         </objectDesc>
-            <handDesc hands="1">
-              <handNote xml:id="handNote1" medium="unknown" scope="sole" script="syr">
-                <desc/>
+            <handDesc hands="4">
+              <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr-Syre">
+                <desc>The writing is a fine, regular Estrangela, of the 
+                <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate></desc>
               </handNote>
+              <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr">
+                <desc>Later hands have added Syriac vowels and
+                      diacritical points sparingly in this part of the volume.</desc>
+              </handNote>
+              <handNote xml:id="handNote3" medium="unknown" scope="minor" script="syr">
+                <desc>The larger sections have been noted on the
+                    margins in black by a modern hand.</desc>
+              </handNote>
+              <handNote xml:id="handNote4" medium="unknown" scope="minor" script="grc">
+                <desc>There is also a marginal division into sections by an old
+                                Greek hand.</desc>
+              </handNote>       
             </handDesc>
-            <additions>
-              <p/>
-              <list>
-                <item xml:id="addition1" n="1">
-                  <locus from="58"/>
-                  <p>Fol. 58 is palimpsest and contains <persName>S.
-                                            Matthew</persName>, ch. xiii. 54—58, and <persName>S.
-                                            Mark</persName>, ch. vi. 1—6. It is a leaf from the same
-                                        lectionary to which belonged <bibl>Add. 14,451, fol.
-                                            88</bibl>.</p>
-                  <p>
-                                        <quote xml:lang="syr"/>
-                                    </p>
-                </item>
-              </list>
-            </additions>
+            <decoDesc>
+              <decoNote xml:id="decoNote1" type="rubrication">
+                <desc>The lessons are rubricated in the text in the usual way.</desc>
+              </decoNote>
+            </decoDesc>
+            <additions/>
             <bindingDesc>
                             <p>Content pending</p>
                         </bindingDesc>
@@ -196,8 +183,7 @@
           </physDesc>
           <history>
                         <origin>
-                            <origDate notBefore="0500" notAfter="0700"/>
-                            <origDate notBefore="0700" notAfter="0800"/>
+                            <origDate notBefore="0500" notAfter="0700">vith or viith cent.</origDate>
                             <origPlace/>
                         </origin>
                         <provenance/>
@@ -387,13 +373,11 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change when="2022-04-28" who="http://syriaca.org/documentation/editors.xml#jarnwine">Edits to msContents, condition, handDesc, and additions; added decoDesc</change>      
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17-04:00">CHANGED: deleted empty elements and attributes</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2021-09-17">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#ecgeitner">Initial TEI
-                encoding.</change>
-      <change type="planned" subtype="palimpsest"/>
-      <change type="planned" subtype="palimpsest">This MS is a palimpsest that needs special
-                encoding.</change>
+                encoding.</change>      
     </revisionDesc>
   </teiHeader>
   <facsimile>
