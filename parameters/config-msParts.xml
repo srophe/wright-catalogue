@@ -19,22 +19,16 @@
             </scriptEditor>
         </revisionDesc>
     </manuscriptLevelMetadata>
-    <!-- 
-        DEPRECATED, now using part, fileName, and oldPartId elements to specify the order, and nested outline, of msPart elements.
-        This element should be left empty **unless** merging msParts into an existing record that already has msPart elements.
-        The existing msPart elements should be included in the <msPartFiles> list below as <fileName> elements whose text node is the
-        xml:id of the corresponding msPart element, preceded by a "#", e.g. "#Part3".
-        The order of msParts and ms part files should reflect the desired **final** order of the record.
-        So, if parts 1, 2 and 4 are included (but labelled, "Part1", "Part2", and "Part"3), but part 3 is in a separate file called "135.xml" and must
-        inserted into the sequence, the following is how the elements should look:
-        <fileName>#Part1</fileName>
-        <fileName>#Part2</fileName>
-        <fileName>135.xml</fileName>
-        <fileName>#Part3</fileName>
-       The resulting record will have the 4 parts, each renumbered as needed according to the above sequence order.
-        -->
+    <!--  When nesting into an existing composite file, this file can be declared using the compositeMsFile field. This field should contain a string of the file name, e.g. "20.xml". The file should be stored in the directory declared in //pathToMsPartsFolder above. -->
     <compositeMsFile></compositeMsFile>
-    <msPartFiles><!-- these should be xml file names containing the data to be converted to msParts. These files should be stored in the folder declared above in the pathToMsPartsFolder text node. They should be ordered according to the sequence they should appear in the msParts sequence (i.e., the first ms part should be the first fileName element in the below sequence, even if it is not the numerically smallest URI value.-->
+    <!-- 
+    The msPartFiles element contains a series of part elements. Each part element can contain nested part elements, allowing for full flexibility of the msPart outline.
+    Each part element must have a fileName element whose text node is a file name in the directory declared in //pathToMsPartsFolder.
+    Each part element may contain an oldPartId whose text node is the @xml:id attribute value of an msPart element contained within the file specified in the fileName field.
+    If an oldPartId is included, only data specific to that msPart element will be included in the new composite file. Otherwise, the full TEI XML file specified in the fileName field will be processed as an ms part.
+    The outline of part elements must reflect the desired, final outline of the composite msDesc.
+    -->
+    <msPartFiles>
         <part>
             <fileName>1158.xml</fileName><!-- Requiring both the fileName and oldPartId allows for full flexibility of ordering and reordering -->
         </part>   
