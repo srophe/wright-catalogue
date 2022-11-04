@@ -87,7 +87,7 @@ declare function mss:enumerate-element-sequence($elementSequence as node()+, $el
   for $el at $n in $elementSequence
     let $elementId := if($elementIdPrefix != "") then attribute {"xml:id"} {$elementIdPrefix||$n} else ()
     let $attrN := if($includeAttributeN) then attribute {"n"} {$n} else ()
-    return element {node-name($el)} {$elementId, $attrN, $el/@*, $el/*}
+    return element {node-name($el)} {$elementId, $attrN, $el/@*, $el/node()}
 }; (:NOTE: For msItems, add an off-set value to this which defaults to 0 but can be used when doing dfs traversal of msContents :)
 
 declare function mss:remove-empty-attributes-in-node-sequence-recursive($node-seq as element()*)
