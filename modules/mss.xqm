@@ -53,7 +53,7 @@ declare function mss:clean-shelf-mark($shelf-mark as xs:string) as xs:string* {
   let $shelfMarkNumber := string-join(functx:get-matches($shelfMarkNumber, "\d+"), "")
   
   let $shelfMarkSuffix := if (contains(lower-case($shelf-mark), "fo")) then "fo"||substring-after(lower-case($shelf-mark), "fo") else ""
-  let $shelfMarkSuffix := if ($shelfMarkSuffix != "") then ", "||$shelfMarkSuffix
+  let $shelfMarkSuffix := if ($shelfMarkSuffix != "") then ", "||$shelfMarkSuffix else ""
   return $shelfMarkPreamble||" "||$shelfMarkNumber||$shelfMarkSuffix
 };
 
@@ -85,8 +85,8 @@ declare function mss:create-resp-stmt($respNameUri as xs:string*, $respMessage a
 declare function mss:enumerate-element-sequence($elementSequence as node()+, $elementIdPrefix as xs:string, $includeAttributeN as xs:boolean) {
   (: adds a numeral attribute value according to sequence position in $elementSequence. If $elementIdPrefix is non-empty, adds an xml:id with the prefix appended to the sequence value. If $includeAttributeN is true, adds an @n attribute with the numerical sequence position. If neither of the above conditions are true, simply returns the element.:)
   for $el at $n in $elementSequence
-    let $elementId := if($elementIdPrefix != "") then attribute {"xml:id"} {$elementIdPrefix||$n}
-    let $attrN := if($includeAttributeN) then attribute {"n"} {$n}
+    let $elementId := if($elementIdPrefix != "") then attribute {"xml:id"} {$elementIdPrefix||$n} else ()
+    let $attrN := if($includeAttributeN) then attribute {"n"} {$n} else ()
     return element {node-name($el)} {$elementId, $attrN, $el/@*, $el/*}
 }; (:NOTE: For msItems, add an off-set value to this which defaults to 0 but can be used when doing dfs traversal of msContents :)
 
@@ -96,7 +96,7 @@ as element()*
   for $node in $node-seq
   let $nonEmptyAttrs :=
     for $attr in $node/@*
-    return if(string($attr) != "") then $attr
+    return if(string($attr) != "") then $attr else ()
     return element {node-name($node)} {$nonEmptyAttrs, 
     for $child in $node/node()
     return if ($child instance of element())
@@ -115,6 +115,7 @@ as element()*
       if(local-name($el) = "msItem") then mss:remove-empty-children-in-node-sequence-msItem-recursive($el) (: recurse on msItem elements :)
       else if(normalize-space($text) != "") then $el (: non-msItem elements with descendant text should be kept :)
       else if(local-name($el) = "locus" and ($el/@from or $el/@to)) then $el (: locus elements are kept only if they have a @from or @to attribute :)
+      else ()
   return element {node-name($node)} {$node/@*, $nonEmptyChildren}
 };
 
@@ -329,7 +330,7 @@ declare function mss:add-msItem-id-and-enumeration-values($msItemSeq as node(), 
 declare function mss:update-physDesc($physDesc as node()+) as node()+ {
   let $objectDesc := $physDesc/tei:objectDesc
   let $handDesc := mss:update-handDesc($physDesc/tei:handDesc)
-  let $decoDesc := if($physDesc/tei:decoDesc) then mss:update-decoDesc($physDesc/tei:decoDesc)
+  let $decoDesc := if($physDesc/tei:decoDesc) then mss:update-decoDesc($physDesc/tei:decoDesc) else ()
   let $additions := if($physDesc/tei:additions/tei:list/tei:item) then mss:update-additions($physDesc/tei:additions) else element {QName("http://www.tei-c.org/ns/1.0", "additions")} {}
   let $bindingDesc := $physDesc/tei:bindingDesc (: as-is :)
   let $sealDesc := $physDesc/tei:sealDesc (: as-is :)
@@ -507,6 +508,7 @@ as item()+
       for $msPart at $i in $msDesc/tei:msPart
       let $partIdPrefix := if($idPrefix = "") then "p" || $i else $idPrefix || "_" || $i
       return mss:update-msDesc-xml-id-values($msPart, boolean($msPart/tei:msPart), $partIdPrefix)
+    else ()
   (: split out the msPart elements and the index element for the updates :)
   let $index := $msPartsAndIndex/self::*:part
   let $msParts := $msPartsAndIndex/self::tei:msPart
@@ -543,7 +545,8 @@ as item()+
                                                          $oldPhysDesc/tei:bindingDesc,
                                                          $oldPhysDesc/tei:sealDesc,
                                                          $oldPhysDesc/tei:accMat}
-  let $newAdditional := if($msDesc/tei:additional) then msParts:add-part-designation-to-additional($msDesc/tei:additional, substring-after($idPrefix, "p"))                                                       
+                      else ()
+  let $newAdditional := if($msDesc/tei:additional) then msParts:add-part-designation-to-additional($msDesc/tei:additional, substring-after($idPrefix, "p"))  else()                                                      
   (: if the node is an msPart, give it an xml:id of the form "Partx_y", depending on its level in the nest. Otherwise use the msDesc ID :)
   let $partId := "Part"||substring-after($idPrefix, "p")
   let $descId := if(name($msDesc) = "msPart") then attribute {"xml:id"} {$partId} else $msDesc/@xml:id
@@ -551,7 +554,7 @@ as item()+
   (: if the node is an msPart, give an @n value of the form "x.y", depending on its position in the sequence and in the outline. If it is an msDesc, do not give it an @n value :)
   let $partNumber := substring-after($idPrefix, "p")
   let $partNumber := replace($partNumber, "_", ".")
-  let $nAttr := if(name($msDesc) = "msPart") then attribute {"n"} {$partNumber}
+  let $nAttr := if(name($msDesc) = "msPart") then attribute {"n"} {$partNumber} else()
   
   
   let $newMsDesc := element {node-name($msDesc)} {$descId, $nAttr, $msDesc/@*[not(name() = "xml:id") and not(name() = "n")],
@@ -697,6 +700,7 @@ as node()* {
                {$node/@*, attribute {"deprecatedId"} {$deprecatedIdValue},
                $node/*[not(name() = $elementName)],
                mss:add-deprecatedId-attributes-deep($node/*[name() = $elementName], $elementName)}
+         else ()
 };
 
 declare function mss:create-index-of-xml-id-updates($nodes as node()*, $currentIndex as node()*, $elementName as xs:string)
@@ -711,6 +715,7 @@ as node()*
                           <oldId>{string($node/@deprecatedId)}</oldId>
                           <newId>{string($node/@xml:id)}</newId>
                         </update>
+                        else ()
     (: append the ID updates of child nodes to the current update list (since $updateList is passed as the $currentIndex, the updates from the descendants get returned appended to the parent node as the '$newIndex') :)
     return mss:create-index-of-xml-id-updates($node/*[name() = $elementName], $updateList, $elementName)
  return ($currentIndex, $newIndex)

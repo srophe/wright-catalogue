@@ -17,12 +17,14 @@ import module namespace config="http://srophe.org/srophe/config" at "config.xqm"
 declare variable $decoder:wright-decoder :=
   let $path-to-decoder := $config:path-to-repo||"/resources/wright-decoder-simple.csv"
   let $options := map {"header": true(), "separator": "tab"}
-  return csv:doc($path-to-decoder, $options);
+  let $f := file:read-text($path-to-decoder)
+  return csv:parse($f, $options);
   
 declare variable $decoder:wright-taxonomy-table :=
   let $path-to-taxonomy-table := $config:path-to-repo||"/resources/wright-taxonomy-table.csv"
   let $options := map {"header": true(), "separator": "tab"}
-  return csv:doc($path-to-taxonomy-table, $options);
+  let $f := file:read-text($path-to-taxonomy-table)
+  return csv:parse($f, $options);
   
 (: taxonomy table lookup functions :)
 

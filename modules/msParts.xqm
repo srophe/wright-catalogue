@@ -107,7 +107,7 @@ as node()*
     
     let $newPartId := if($idPrefix = "") then "Part"||$i else $idPrefix||"_"||$i
     
-    let $subParts := if($part/part) then msParts:create-parts-outline-map($part/part, $newPartId)
+    let $subParts := if($part/part) then msParts:create-parts-outline-map($part/part, $newPartId) else()
     return
     <part>
       {
@@ -180,11 +180,11 @@ declare function msParts:merge-editor-list($documentSequence as node()+) as node
 declare function msParts:merge-respStmt-list($documentSequence as node()+) as node()+ {
   let $fullRespStmtList := $documentSequence//tei:respStmt
   let $creatorRespStmts := for $respStmt in $fullRespStmtList
-    return if($respStmt/tei:resp/text() = "Created by") then element {node-name($respStmt)} {$respStmt/*}
+    return if($respStmt/tei:resp/text() = "Created by") then element {node-name($respStmt)} {$respStmt/*} else ()
   let $editorRespStmts := for $respStmt in $fullRespStmtList
-    return if($respStmt/tei:resp/text() = "Edited by") then element {node-name($respStmt)} {$respStmt/*}
+    return if($respStmt/tei:resp/text() = "Edited by") then element {node-name($respStmt)} {$respStmt/*} else ()
   let $projectManagerRespStmts := for $respStmt in $fullRespStmtList
-    return if($respStmt/tei:resp/text() = "Project management by") then element {node-name($respStmt)} {$respStmt/*}
+    return if($respStmt/tei:resp/text() = "Project management by") then element {node-name($respStmt)} {$respStmt/*} else ()
   
   let $updatedRespList := for $respStmt in $documentSequence[1]//tei:titleStmt/tei:respStmt
     let $respDesc := $respStmt/tei:resp/text()
@@ -276,7 +276,7 @@ as node()+
     for $doc in $msPartDocumentSequence
     where $doc/descendant-or-self::*[name() = "msPart" or name() = "msDesc"]/tei:msIdentifier/tei:idno/text() = $part/uri/text() (: where the URI of the document matches that in the outline map :)
     return if(name($doc) = "msPart") then $doc else $doc//tei:msDesc
-  let $subParts := if($part/part) then msParts:compose-msParts-outline($msPartDocumentSequence, $part/part)
+  let $subParts := if($part/part) then msParts:compose-msParts-outline($msPartDocumentSequence, $part/part) else()
   return element {QName("http://www.tei-c.org/ns/1.0", "msPart")} {$desc/*, $subParts}
 };
 
@@ -365,7 +365,7 @@ declare function msParts:add-part-designation-to-physDesc($physDesc as node(), $
     let $objectDesc := $physDesc/tei:objectDesc
     let $handDesc := $physDesc/tei:handDesc
     let $handDesc := element {fn:node-name($handDesc)} {$handDesc/@*, msParts:add-part-designation-to-element-sequence($handDesc/tei:handNote, $partNumber, "p")}
-    let $decoDesc := if($physDesc/tei:decoDesc) then element {fn:node-name($physDesc/tei:decoDesc)} {$physDesc/tei:decoDesc/@*, msParts:add-part-designation-to-element-sequence($physDesc/tei:decoDesc/tei:decoNote, $partNumber, "p")}
+    let $decoDesc := if($physDesc/tei:decoDesc) then element {fn:node-name($physDesc/tei:decoDesc)} {$physDesc/tei:decoDesc/@*, msParts:add-part-designation-to-element-sequence($physDesc/tei:decoDesc/tei:decoNote, $partNumber, "p")} else()
     let $additions := if($physDesc/tei:additions/tei:list/tei:item) then msParts:add-part-designation-to-additions-items($physDesc/tei:additions, $partNumber)
       else element {QName("http://www.tei-c.org/ns/1.0", "additions")} {}
     let $bindingDesc := $physDesc/tei:bindingDesc (: as-is :)
@@ -432,7 +432,7 @@ declare function msParts:create-merged-revisionDesc($msPartsDocumentSequence as 
       return element {QName("http://www.tei-c.org/ns/1.0", "change")} {$change/@*, $newChangeLog}
       
   let $plannedChangeListOrderedByUri := for $change in $fullChangeListByUri
-    return if($change[@type="planned"]) then $change
+    return if($change[@type="planned"]) then $change else ()
     
   let $completedChangeListOrderedByDate := for $change in $fullChangeListByUri
     where $change[not(@type = "planned")]
