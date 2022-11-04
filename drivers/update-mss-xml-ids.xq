@@ -23,36 +23,32 @@ import module namespace msParts="http://srophe.org/srophe/msParts" at "../module
 import module namespace mss="http://srophe.org/srophe/mss" at "../modules/mss.xqm";
 import module namespace functx="http://www.functx.com";
 
-
 declare default element namespace "http://www.tei-c.org/ns/1.0";
 
+declare variable $local:input-collection :=
+  collection("/home/arren/Documents/GitHub/britishLibrary-data/data/tei/");
 
 
-let $inputDoc := doc("C:\Users\anoni\Documents\GitHub\srophe\wright-catalogue\data\5_finalized\58.xml")
-let $hasMsPart := if($inputDoc//msPart) then true () else false ()
-return mss:update-document-xml-id-values($inputDoc)
-(: return mss:update-handDesc-xml-id-values($inputDoc//msDesc/physDesc/handDesc) :)
-(: return functx:remove-attributes-deep($inputDoc//msContents/msItem, "xml:id") :)
-  
-  (:
-  an option
-  
-  1. go through and call the function for each input record
-  2. the function returns a two-item sequence: ($newRecord as document(), $updateIndex as item())
-  3. create a (sub-)collection of just the new records (either filtering the sequence by item type or using position() and if it's even or odd) (the former is more reliable but might be tricky to implement)
-  4. create a (sub-)collection of just the update index items (using the opp as #3)
-  5. create the full update index from the collection of xml stubs
-  6. for record in updated collection, overwrite the input record. (the input doc URI should be the same as $inputCollectionUri || $docId (numerical portion of the URI) || ".xml")
-    - for each returns the functions put($updateDoc, $outputDocPath (as created above)) and file:write($pathToIndexStorage, $updateIndex). Note that the update-index will always be the same file and, somewhat inefficiently, will overwrite itself. I can't think of a way around this as file:append in a for loop would just append to the empty file due to the pending update list issue.
-      - now, one issue to worry about would be overwriting existing index updates. I think the solution is to add the date (and time to ensure no overlap) to the index file name. Then, on the other side of things you can have the propagate-updates script collate any file with "update-index_yyy-mm-dd_hh-mm-ss", or something similar, into a single input index for processing.
-      
-To-do
-
-1. make the function that runs the updates on each file (this is likely an addition to the mss.xqm module. it should handle the various item types; the msParts; etc. and should return an updated ms record and an entry (even if empty) for any updates to push through data)
-2. write the loop for creating the sequence of updated records and snippets of the index
-3. write the method of separating out the updated records from index snippets
-4. write the method of collating the index (here filter empty entries?)
-  - also decide on how to name the index
-5. write the method of looping through and storing the updated record and the index
-6. once this is all working, write the script that propagates updates
-  :)
+for $doc in $local:input-collection
+(: let $hasMsPart := if($inputDoc//msPart) then true () else false () :)
+return try {
+  put(mss:update-document-xml-id-values($doc)[1], document-uri($doc))
+ (: mss:update-document-xml-id-values($doc)[position() > 1] :) 
+}
+catch* {
+      let $error := 
+    <error>
+      <traceback>
+        <code>{$err:code}</code>
+        <description>{$err:description}</description>
+        <value>{$err:value}</value>
+        <module>{$err:module}</module>
+        <location>{$err:line-number||":"||$err:column-number}</location>
+        <additional>{$err:additional}</additional>
+      </traceback>
+      <msUri>{$doc//msDesc/msIdentifier/idno[@type="URI"]/text()}</msUri>
+      <numberOfParts>{count($doc//msPart)}</numberOfParts>
+    </error>
+    return update:output($error)
+}
+ 
