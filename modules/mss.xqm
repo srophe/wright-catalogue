@@ -687,6 +687,7 @@ as item()+ {
   (: build the new handDesc element from the updated msItem sequence :)
   let $newAdditionsList := element {node-name($additions/tei:list)} {$updatedAdditionItems}
   let $newAdditions := element {node-name($additions)} {$additions/@*, 
+                                                        $additions/tei:note,
                                                         $additions/tei:p,
                                                         $newAdditionsList}
   
