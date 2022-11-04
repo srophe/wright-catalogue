@@ -560,6 +560,7 @@ as item()+
   
   let $newMsDesc := element {node-name($msDesc)} {$descId, $nAttr, $msDesc/@*[not(name() = "xml:id") and not(name() = "n")],
                                                      $msDesc/tei:msIdentifier,
+                                                     $msDesc/tei:head,
                                                      $newMsContents,
                                                      $newPhysDesc,
                                                      $msDesc/tei:history,
