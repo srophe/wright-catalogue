@@ -537,6 +537,7 @@ as item()+
   let $oldPhysDesc := $msDesc/tei:physDesc
   let $oldPhysAttr := if($oldPhysDesc/@*) then $oldPhysDesc/@* else ()
   let $newPhysDesc := if($msDesc/tei:physDesc) then element {node-name($oldPhysDesc)} {$oldPhysAttr,
+                                                         $oldPhysDesc/tei:p,
                                                          $oldPhysDesc/tei:objectDesc,
                                                          $newHandDesc,
                                                          $newDecoDesc,
