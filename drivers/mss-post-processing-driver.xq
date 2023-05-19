@@ -55,8 +55,8 @@ for $doc in $inputCollection
       <additional>{$err:additional}</additional>
       </errorData>
     </error>
-  }
+  } else ()
   
-  return if ($docId != "" and not($recordExists = "true")) then  fn:put($updatedRecord, $outputFileUri)
+  return if ($docId != "" and not($recordExists = "true")) then fn:put($updatedRecord, $outputFileUri) else ()
 
 
