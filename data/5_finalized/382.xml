@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="a" xml:lang="en">BL Add MS 14632</title>
+        <title level="a" xml:lang="en">London, BL, Add. 14632</title>
         <title xml:lang="en" level="m">A Digital Catalogue of Syriac Manuscripts in the British Library</title>
         <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
         <funder>The National Endowment for the Humanities</funder>
@@ -25,7 +25,7 @@
         </respStmt>
         <respStmt>
             <resp>Edited by</resp>
-            <name type="person" ref="http://syriaca.org/documentation/editors.xml#"/>
+            <name type="person" ref="http://syriaca.org/documentation/editors.xml#wpotter">William L. Potter</name>
         </respStmt>
         <respStmt>
             <resp>Syriac text entered by</resp>
@@ -67,7 +67,10 @@
             <collection>Oriental Manuscripts</collection>
             <idno type="URI">http://syriaca.org/manuscript/382</idno>
             <altIdentifier>
-              <idno type="BL-Shelfmark">Add MS 14632</idno>
+              <idno type="BL-Shelfmark">Add. 14,632</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno type="BL-Shelfmark-simplified">BL Add MS 14632</idno>
             </altIdentifier>
             <altIdentifier>
               <collection>William Wright, Catalogue of the Syriac Manuscripts in the British Museum Acquired since the Year 1838</collection>
@@ -78,306 +81,405 @@
               <idno type="Wright-BL-Roman">DCXCV</idno>
             </altIdentifier>
           </msIdentifier>
+          <head>
+            <note type="contents-note">This manuscript contains: Isaac of Nineveh. The first half of the works of Isaac of Nineveh. In total, including sub-sections, this manuscript contains 75 items.</note>
+            <listRelation type="Wright-BL-Taxonomy">
+              <relation name="dcterms:type" ref="http://purl.org/dc/terms/type" active="http://syriaca.org/manuscript/382" passive="#theo-single">
+                <desc>Individual Authors</desc>
+              </relation>
+            </listRelation>
+          </head>
           <msContents>
             <summary/>
             <textLang mainLang="syr"/>
             <msItem xml:id="a1" n="1">
-              <locus from="2b"/>
-              <author ref="http://syriaca.org/person/550">Isaac of Nineveh.</author>
-              <title xml:lang="en">The first half of the works of <persName ref="http://syriaca.org/person/550">Isaac of Nineveh</persName> </title>
+              <locus from="2b" to="149b"/>
+              <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+              <title xml:lang="en">The first half of the works of Isaac of Nineveh</title>
               <rubric xml:lang="syr">ܥܠ ܚ̇ܝܠܐ ܕܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ: ܟ̇ܬܒܝܢܢ ܦ̇ܠܓܘܬܐ ܩܕܡܝܬܐ ܕܡܪܝ ܐܝ݊ܣܚܩ
                 ܝܚܝܕܝܐ ܘܐܦ܏ܝܣ ܕܢܝܢܘܐ: ܕܪܘܚܢܐܝܬ ܡܠܠ ܘܣ̣ܡ ܠܢ ܚ̈ܝܐ̣ ܥܠ ܡ̈ܓܠܐ: ܨܠܘܬܗ ܕܡܠܦܢܗ (ܬܥܕܪ ܠܢ
                 ܐܡܝܢ</rubric>
+              <finalRubric xml:lang="syr"><locus from="149b"/>ܫܠܡܸܬ ܦܠܓܘܬܐ ܩܕܡܝܬܐ ܕܡܪܝ ܐܝܣܚܩ܀ ܫܒܩܘ ܠܝ܀ ܏ܘܫ</finalRubric>
               <msItem xml:id="b1" n="2">
-                <locus from="28a"/>
-                <rubric xml:lang="syr">ܡܐܡܪ̈ܐ ܫܬܐ ܕܥܠ ܕܘܒܪ̈ܐ ܕܡܝܬܪܘܬܐ̇ ܕܥܒܝܕܝܢ ܒܪ̈ܫܐ ܙܥܘܪ̈ܐ ܠܡܪܝ
-                  ܐܝܣܚܵܩ</rubric>
-                <note>See Add. 14,633, no. 1, a—f.</note>
+                <locus from="2b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Six discourses on the ascetic life and character</title>
+                <rubric xml:lang="syr"><locus from="28a"/>ܡܐܡܪ̈ܐ ܫܬܐ ܕܥܠ ܕܘܒܪ̈ܐ ܕܡܝܬܪܘܬܐ̇ ܕܥܒܝܕܝܢ ܒܪ̈ܫܐ ܙܥܘܪ̈ܐ ܠܡܪܝ
+                  ܐܝܣܚܵܩ</rubric><!-- WLP: it's possible this is a finalRubric, given the foliation, though Wright does not call it a subscription?-->
+                <note>See <bibl>Add. 14,633<ptr target="http://syriaca.org/manuscript/383"/>, no. 1, a—f</bibl>.</note>
                 <msItem xml:id="c1" n="3">
                   <locus from="2b"/>
+                  <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                  <title xml:lang="en">Part a</title>
                 </msItem>
                 <msItem xml:id="c2" n="4">
                   <locus from="4b"/>
+                  <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                  <title xml:lang="en">Part b</title>
                 </msItem>
                 <msItem xml:id="c3" n="5">
                   <locus from="7b"/>
-                  <title xml:lang="en">This includes <persName>Assemani's</persName> sermm. 3, 5, 6 and 7 (Bibl.
-                    Or., t. i., p. 449); but serm. 4 is omitted.</title>
+                  <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                  <title xml:lang="en">Part c</title>
+                  <note>This includes Assemani's sermm. 3, 5, 6 and 7 (<bibl>Bibl.
+                    Or., t. i., p. 449</bibl>); but serm. 4 is omitted.</note>
                 </msItem>
                 <msItem xml:id="c4" n="6">
                   <locus from="11a"/>
+                  <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                  <title xml:lang="en">Part d</title>
                 </msItem>
                 <msItem xml:id="c5" n="7">
                   <locus from="16a"/>
+                  <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                  <title xml:lang="en">Part e</title>
                 </msItem>
                 <msItem xml:id="c6" n="8">
                   <locus from="22a"/>
+                  <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                  <title xml:lang="en">Part f</title>
                 </msItem>
               </msItem>
               <msItem xml:id="b2" n="9">
                 <locus from="28a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 2</title>
                 <rubric xml:lang="syr">ܬܘܒ ܕܝܠܗ ܟܕ ܕܝܠܗ ܕܥܠ ܢܝ̈ܫܐ ܐܚܪ̈ܢܐ܀ ܟܠ ܬܪܥܐ ܡܢܗ ܘܠܗ ܒܦܣ̈ܘܩܐ
                   ܟܪ̈ܝܐ ܥܠ ܙܢܐ ܕܬܘܟܠܢܐ ܕܥܠ ܐܠܗܐ̣. ܏ܘܫ</rubric>
-                <note>For this and the following numbers, as far as no. 14, see Add. 14,633, no.
-                  2—14.</note>
+                <note>For this and the following numbers, as far as <ref target="#b14">no. 14</ref>, see <bibl>Add. 14,633<ptr target="http://syriaca.org/manuscript/383"/>, no. 2—14</bibl>.</note>
               </msItem>
               <msItem xml:id="b3" n="10">
                 <locus from="30a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 3</title>
               </msItem>
               <msItem xml:id="b4" n="11">
                 <locus from="31b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 4</title>
               </msItem>
               <msItem xml:id="b5" n="12">
                 <locus from="32b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 5</title>
               </msItem>
               <msItem xml:id="b6" n="13">
                 <locus from="34a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 6</title>
               </msItem>
               <msItem xml:id="b7" n="14">
                 <locus from="34b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 7</title>
               </msItem>
               <msItem xml:id="b8" n="15">
                 <locus from="35a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 8</title>
               </msItem>
               <msItem xml:id="b9" n="16">
                 <locus from="35b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 9</title>
               </msItem>
               <msItem xml:id="b10" n="17">
                 <locus from="36b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 10</title>
               </msItem>
               <msItem xml:id="b11" n="18">
                 <locus from="37a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 11</title>
               </msItem>
               <msItem xml:id="b12" n="19">
                 <locus from="38b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 12</title>
               </msItem>
               <msItem xml:id="b13" n="20">
                 <locus from="40a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 13</title>
               </msItem>
-              <msItem xml:id="b14" n="21">
+              <msItem xml:id="b14" n="21" defective="true">
                 <locus from="45a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 14</title>
                 <note>Imperfect at the end.</note>
               </msItem>
-              <msItem xml:id="b15" n="22">
+              <msItem xml:id="b15" n="22" defective="true">
                 <locus from="46a"/>
-                <note>See Add. 14,633, no. 24.</note>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 15</title>
+                <note>See <bibl>Add. 14,633<ptr target="http://syriaca.org/manuscript/383"/>, no. 24</bibl>.</note>
                 <note>Imperfect at the beginning.</note>
               </msItem>
               <msItem xml:id="b16" n="23">
                 <locus from="47a"/>
-                <note>See Add. 14,633, no. 25.</note>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 16</title>
+                <note>See <bibl>Add. 14,633<ptr target="http://syriaca.org/manuscript/383"/>, no. 25</bibl>.</note>
               </msItem>
-              <msItem xml:id="b17" n="24">
+              <msItem xml:id="b17" n="24" defective="true">
                 <locus from="47b"/>
-                <note>See Add. 14,633, no. 26.</note>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 17</title>
+                <note>See <bibl>Add. 14,633<ptr target="http://syriaca.org/manuscript/383"/>, no. 26</bibl>.</note>
                 <note>Imperfect at the end.</note>
               </msItem>
-              <msItem xml:id="b18" n="25">
+              <msItem xml:id="b18" n="25" defective="true">
                 <locus from="48a"/>
-                <note>See Add. 14,633, no. 31. </note>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 18</title>
+                <note>See <bibl>Add. 14,633<ptr target="http://syriaca.org/manuscript/383"/>, no. 31</bibl>.</note>
                 <note>Very imperfect.</note>
               </msItem>
-              <msItem xml:id="b19" n="26">
+              <msItem xml:id="b19" n="26" defective="true">
                 <locus from="48b"/>
-                <note>See Add. 14,633, no. 32. </note>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 19</title>
+                <note>See <bibl>Add. 14,633<ptr target="http://syriaca.org/manuscript/383"/>, no. 32</bibl>.</note>
                 <note>Imperfect at the beginning and elsewhere.</note>
               </msItem>
               <msItem xml:id="b20" n="27">
                 <locus from="54a"/>
-                <note>For this and the following numbers, as far as no. 42, see Add. 14,633, no.
-                  33—55.</note>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 20</title>
+                <note>For this and the following numbers, as far as <ref target="#b42">no. 42</ref>, see <bibl>Add. 14,633<ptr target="http://syriaca.org/manuscript/383"/>, no.
+                  33—55</bibl>.</note>
               </msItem>
               <msItem xml:id="b21" n="28">
                 <locus from="55a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 21</title>
               </msItem>
-              <msItem xml:id="b22" n="29">
+              <msItem xml:id="b22" n="29" defective="true">
                 <locus from="58a"/>
-                <note>Imperfect.</note>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 22</title>
               </msItem>
               <msItem xml:id="b23" n="30">
                 <locus from="60b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 23</title>
               </msItem>
               <msItem xml:id="b24" n="31">
                 <locus from="62b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 24</title>
               </msItem>
               <msItem xml:id="b25" n="32">
                 <locus from="63b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 25</title>
               </msItem>
               <msItem xml:id="b26" n="33">
                 <locus from="64b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 26</title>
               </msItem>
               <msItem xml:id="b27" n="34">
                 <locus from="66a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 27</title>
               </msItem>
               <msItem xml:id="b28" n="35">
                 <locus from="68a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 28</title>
               </msItem>
               <msItem xml:id="b29" n="36">
                 <locus from="68b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 29</title>
               </msItem>
               <msItem xml:id="b30" n="37">
                 <locus from="69b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 30</title>
               </msItem>
               <msItem xml:id="b31" n="38">
                 <locus from="71a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 31</title>
               </msItem>
               <msItem xml:id="b32" n="39">
                 <locus from="73b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 32</title>
               </msItem>
               <msItem xml:id="b33" n="40">
                 <locus from="75a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 33</title>
               </msItem>
               <msItem xml:id="b34" n="41">
                 <locus from="76a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 34</title>
               </msItem>
               <msItem xml:id="b35" n="42">
                 <locus from="76b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 35</title>
               </msItem>
-              <msItem xml:id="b36" n="43">
+              <msItem xml:id="b36" n="43" defective="true">
                 <locus from="77b"/>
-                <note>Imperfect.</note>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 36</title>
               </msItem>
               <msItem xml:id="b37" n="44">
                 <locus from="81b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 37</title>
               </msItem>
               <msItem xml:id="b38" n="45">
                 <locus from="87a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 38</title>
               </msItem>
               <msItem xml:id="b39" n="46">
                 <locus from="87b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 39</title>
               </msItem>
               <msItem xml:id="b40" n="47">
                 <locus from="91b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 40</title>
               </msItem>
               <msItem xml:id="b41" n="48">
                 <locus from="92a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 41</title>
               </msItem>
               <msItem xml:id="b42" n="49">
                 <locus from="93a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Part 42</title>
               </msItem>
               <msItem xml:id="b43" n="50">
                 <locus from="94a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
                 <title xml:lang="en">Of Patience</title>
-                <rubric xml:lang="syr">ܕܥܠ ܡܣܝܒܪܢܘܬܐ ܕܡܛܠ ܚܘܒܐ ܕܐܠܗܐ̣ ܕܟܡܐ ܫܟܝܚ ܠܗ̇ ܥܘܕܪܢܐ ܕܡܢ
-                  ܐܠܗܐ</rubric>
-                <note>See Assemani, Bibl. Or., t. i., p. 458, lib. iii., serm. 38.</note>
+                <rubric xml:lang="syr">ܕܥܠ ܡܣܝܒܪܢܘܬܐ ܕܡܛܠ ܚܘܒܐ ܕܐܠܗܐ̣ ܕܟܡܐ ܫܟܝܚ ܠܗ̇ ܥܘܕܪܢܐ ܕܡܢ ܐܠܗܐ</rubric>
+                <note>See <bibl>Assemani, Bibl. Or., t. i., p. 458, lib. iii., serm. 38</bibl>.</note>
               </msItem>
               <msItem xml:id="b44" n="51">
                 <locus from="96a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
                 <title xml:lang="en">Of those who live nigh unto God, and pass all their days
-                  in the life of knowledge: </title>
-                <rubric xml:lang="syr">ܥܠ ܗ̇ܢܘܢ ܕܒܩܪܝܒܘܬܗ ܕܐܠܗܐ ܚ̇ܐܝܢ ܘܒܚ̈ܝܐ ܕܝܕܥܬܐ ܟܠܗܘܢ ܝܘ̈ܡܬܗܘܢ
-                  ܡܫܡܠܝܢ</rubric>
-                <note>See Assemani, p. 459, lib. iv., serm. 13.</note>
+                  in the life of knowledge</title>
+                <rubric xml:lang="syr">ܥܠ ܗ̇ܢܘܢ ܕܒܩܪܝܒܘܬܗ ܕܐܠܗܐ ܚ̇ܐܝܢ ܘܒܚ̈ܝܐ ܕܝܕܥܬܐ ܟܠܗܘܢ ܝܘ̈ܡܬܗܘܢ ܡܫܡܠܝܢ</rubric>
+                <note>See <bibl>Assemani, p. 459, lib. iv., serm. 13</bibl>.</note>
               </msItem>
               <msItem xml:id="b45" n="52">
                 <locus from="98b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
                 <title xml:lang="en">Profitable discourse</title>
                 <rubric xml:lang="syr">ܡܐܡܪܐ ܡܘܬܪܢܐ</rubric>
-                <note>See Assemani, p. 459, lib. iv., serm. 14.</note>
+                <note>See <bibl>Assemani, p. 459, lib. iv., serm. 14</bibl>.</note>
               </msItem>
               <msItem xml:id="b46" n="53">
                 <locus from="100a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
                 <title xml:lang="en">That it is improper for us, without necessity, to desire
                   or look for any manifest sign through us or to us</title>
                 <rubric xml:lang="syr">ܥܠ ܗ̇ܝ ܕܠܐ ܙܕܩ ܕܠܐ ܐܢܢܩܐ ܠܡܪܓ ܐܘ ܠܡܒ̣ܥܐ ܕܐܬܸܐ ܡܕܡ ܓܠܝܬܐ ܒܐܝܕܢ
                   ܐܘ ܠܘܬܢ ܬܫܬܡܫ ܓܠܝܐܝܬ</rubric>
-                <note>See Assemani, p. 450, lib. ii., serm. 10.</note>
+                <note>See <bibl>Assemani, p. 450, lib. ii., serm. 10</bibl>.</note>
               </msItem>
               <msItem xml:id="b47" n="54">
                 <locus from="102b"/>
-                <title xml:lang="en">Why God permits those that love Him to be
-                  tempted</title>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Why God permits those that love Him to be tempted</title>
                 <rubric xml:lang="syr">ܕܡܛܠ ܐܝܠܝܢ ܥ̈ܠܠܬܐ ܫ̇ܒ̣ܩ ܐܠܗܐ ܢܣܝ̈ܘܢܐ ܥܠ ܪ̈ܚ̇ܡܘܗܝ</rubric>
-                <note>See Assemani, p. 450, lib. ii., serm. 9.</note>
+                <note>See <bibl>Assemani, p. 450, lib. ii., serm. 9</bibl>.</note>
               </msItem>
               <msItem xml:id="b48" n="55">
                 <locus from="103b"/>
-                <title xml:lang="en">That from the thoughts which stir within him, a man may
-                  recognize to what grade (of holiness) he has attained</title>
-                <rubric xml:lang="syr">ܥܠ ܗ̇ܝ ܕܡܢ ܚܘܫ̈ܒܐ ܕܡܬܬܙܝܥܝܢ ܒܗ ܡܫܬܘܕܥ ܐܢܫ ܕܒܐܝܕܐ ܡܫܘܚܬܐ
-                  ܩܐ̇ܡ</rubric>
-                <note>See Assemani, p. 460, lib. iv., serm. 15.</note>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">That from the thoughts which stir within him, a man may recognize to what grade (of holiness) he has attained</title>
+                <rubric xml:lang="syr">ܥܠ ܗ̇ܝ ܕܡܢ ܚܘܫ̈ܒܐ ܕܡܬܬܙܝܥܝܢ ܒܗ ܡܫܬܘܕܥ ܐܢܫ ܕܒܐܝܕܐ ܡܫܘܚܬܐ ܩܐ̇ܡ</rubric>
+                <note>See <bibl>Assemani, p. 460, lib. iv., serm. 15</bibl>.</note>
               </msItem>
               <msItem xml:id="b49" n="56">
                 <locus from="106"/>
-                <title xml:lang="en">Why men, who are endowed with in¬telligent souls,
-                  contemplate spiritual things according to the density of their bodies? etc</title>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Why men, who are endowed with intelligent souls, contemplate spiritual things according to the density of their bodies? etc.</title>
                 <rubric xml:lang="syr">ܕܡܛܠ ܡܢܐ ܒܢ̈ܝܢܫܐ ܕܢܦܫܢܝܢ ܒܝܕܥܬܐ ܡܬܒܩܝܢ ܒܨ̈ܒܘܬܐ ܪ̈ܘܚܢܝܬܐ ܐܝܟ
                   ܥܒܝܘܬܐ ܕܓܘܫ̈ܡܐ: ܘܕܐܝܟܢ ܡܨܝܐ ܕܢܬܥ̇ܠܐ ܪܥܝܢܐ ܡܢ ܗܕܐ̣. ܘܕܡ̇ܢܐ ܗ̣ܝ ܥܠ̣ܬܐ ܕܠܐ ܡܬܚܪܪܝܢ
                   ܚܢܢ ܡܢܗ̇. ܘܕܐܡܬܝ̣ ܘܒܡ̇ܢܐ ܡܫܟܚܐ ܕܢܟܬܪ ܪܥܝܢܐ ܕܠܐ ܕܡ̈ܘܬܐ ܒܥܕܢܐ ܕܒܥܘܬܐ</rubric>
-                <msItem xml:id="c7" n="57">
-                  <note>See Assemani, p. 449, lib. ii., serm. 8.</note>
-                </msItem>
+                <note>See <bibl>Assemani, p. 449, lib. ii., serm. 8</bibl>.</note>
               </msItem>
               <msItem xml:id="b50" n="58">
                 <locus from="107a"/>
-                <title xml:lang="en">Of the various changes that happen to the mind, and are
-                  tested by prayer</title>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Of the various changes that happen to the mind, and are tested by prayer</title>
                 <rubric xml:lang="syr">ܥܠ ܫܘܚ̈ܠܦܐ ܣ̈ܓܝܐܐ ܕܢܩܝܦܝܢ ܠܪܥܝܢܐ̇ ܘܒܨܠܘܬܐ ܡܬܒܚܪܝܢ</rubric>
-                <note>See Assemani, p. 452, lib. ii., serm. 29, and also p. 450, serm. 12.</note>
+                <note>See <bibl>Assemani, p. 452, lib. ii., serm. 29, and also p. 450, serm. 12</bibl>.</note>
               </msItem>
               <msItem xml:id="b51" n="59">
                 <locus from="107b"/>
-                <title xml:lang="en">Of circumspection and the kinds of actions by which a
-                  man may gain a becoming grade (of holiness)</title>
-                <rubric xml:lang="syr">ܙܘܗܪܐ ܫܦܝܪܐ ܕܡܠܦ ܥܠ ܙܗܝܪܘܬܐ ܘܛܟܣ̈ܝ ܙܢܐ ܕܕܘܒܪܐ̣ ܕܒܗܘܢ ܡܩܸܢܐ
-                  ܐܢܫ ܛܟܣܐ ܦܐܝܐ ܠܩܢܘܡܗ</rubric>
-                <incipit xml:lang="syr">ܬܝܒܘܬܐ̣ ܐܡܐ ܗ̣ܝ ܕܚ̈ܝܐ. ܦ̇ܬܚܐ ܠܢ ܕܝܢ ܬܪܥܗ̣̇ ܒܝܕ ܥܪܘܩܝܐ ܕܡܢ
-                  ܟܠ</incipit>
-                <note>See Assemani, p. 458, lib. iii., serm. 42.</note>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Of circumspection and the kinds of actions by which a man may gain a becoming grade (of holiness)</title>
+                <rubric xml:lang="syr">ܙܘܗܪܐ ܫܦܝܪܐ ܕܡܠܦ ܥܠ ܙܗܝܪܘܬܐ ܘܛܟܣ̈ܝ ܙܢܐ ܕܕܘܒܪܐ̣ ܕܒܗܘܢ ܡܩܸܢܐ ܐܢܫ ܛܟܣܐ ܦܐܝܐ ܠܩܢܘܡܗ</rubric>
+                <incipit xml:lang="syr">ܬܝܒܘܬܐ̣ ܐܡܐ ܗ̣ܝ ܕܚ̈ܝܐ. ܦ̇ܬܚܐ ܠܢ ܕܝܢ ܬܪܥܗ̣̇ ܒܝܕ ܥܪܘܩܝܐ ܕܡܢ ܟܠ</incipit>
+                <note>See <bibl>Assemani, p. 458, lib. iii., serm. 42</bibl>.</note>
               </msItem>
               <msItem xml:id="b52" n="60">
                 <locus from="114b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
                 <title xml:lang="en">Letter to a friend</title>
                 <rubric xml:lang="syr">ܐܓܪܬܐ ܕܫܕܪ ܠܚܒܝܒܗ̣ ܘܡܘܕܥ ܒܗ̇ ܡܕܡ ܥܠ ܐܪ̈ܙܐ ܕܫܠܝܐ̇. ܘܕܐܝܟܢ
                   ܣܓ̈ܝܐܐ ܡܗܡܸܝܢ ܡܛܠ ܕܠܐ ܡܦܣܝܢ ܒܦܘܠܚܢܐ ܗܢܐ ܬܡܝܗܐ. ܕܣܘܓܐܗܘܢ ܐܝܟ ܕܒܥܝܕܐ ܐܚܝܕܝܢ ܡܘܬܒܐ
-                  ܕܩܠܝܬܐ ܡܛܠ ܝܘܒܠܐ ܕܪܕ̇ܐ ܒܝܬ ܕܝܪ̈ܝܐ̣. ܥܡ ܟܘܢܫܐ ܕܦܣ̈ܝܩܬܐ ܕܚ̇ܫܚ ܠܥܢܝܢܐ
-                  ܕܒܫܠܝܐ.</rubric>
-                <note>See Assemani, p. 452, lib. ii., serm. 34.</note>
+                  ܕܩܠܝܬܐ ܡܛܠ ܝܘܒܠܐ ܕܪܕ̇ܐ ܒܝܬ ܕܝܪ̈ܝܐ̣. ܥܡ ܟܘܢܫܐ ܕܦܣ̈ܝܩܬܐ ܕܚ̇ܫܚ ܠܥܢܝܢܐ ܕܒܫܠܝܐ</rubric>
+                <note>See <bibl>Assemani, p. 452, lib. ii., serm. 34</bibl>.</note>
               </msItem>
               <msItem xml:id="b53" n="61">
                 <locus from="116b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
                 <title xml:lang="en">Definitions of intelligibles, and what is the use of
                   each of them</title>
-                <rubric xml:lang="syr">ܢܘܗܪ̈ܐ ܕܒܬܚ̈ܘܝܬܐ: ܥܠ ܦܘܪ̈ܫܢܐ ܕܡ̈ܬܝܕܥܢܝܬܐ̇ ܕܐ̇ܝܕܐ ܚܫܚܬܐ ܐܝܬܝܗ̇
-                  ܠܗ̇: ܠܟܠ ܚܕܐ ܡܢ ܗܢܝܢ</rubric>
-                <note>See Assemani, p. 452, lib. ii., serm. 35.</note>
+                <rubric xml:lang="syr">ܢܘܗܪ̈ܐ ܕܒܬܚ̈ܘܝܬܐ: ܥܠ ܦܘܪ̈ܫܢܐ ܕܡ̈ܬܝܕܥܢܝܬܐ̇ ܕܐ̇ܝܕܐ ܚܫܚܬܐ ܐܝܬܝܗ̇ ܠܗ̇: ܠܟܠ ܚܕܐ ܡܢ ܗܢܝܢ</rubric>
+                <note>See <bibl>Assemani, p. 452, lib. ii., serm. 35</bibl>.</note>
               </msItem>
               <msItem xml:id="b54" n="62">
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
                 <title xml:lang="en">Brief chapters</title>
                 <rubric xml:lang="syr">ܪ̈ܫܐ ܡ̈ܣܝܟܐ</rubric>
                 <incipit xml:lang="syr">
-                  <locus from="117a"/>ܝܕܥܝܢ ܐܢܬܘܢ ܐܚ̈ܝ ܕܥܝܢܐ ܡܬܪܓܫܢܝܬܐ
-                  ܝܚܝܕܐܝܬ ܒܝܕ ܚܝܠܐ ܗ̇ܘ ܚܙܘܝܐ̇ ܗ̇ܘ ܕܐܝܟ ܕܒܣܝܠܘܢܐ ܡܕܡ ܡܢ ܡܘܚܐ ܡܫܬܡܪ ܠܘܬܗ: ܒܠܥܕ ܕܢܫܬܘܬܦ
-                  ܥܡ ܢܘܗܪܐ ܐܚܪܢܐ̣. ܠܐ ܡܫܟܚܐ ܕܬܩܒ̇ܠ ܦܘܪ̈ܫܢܐ ܕܨܒ̈ܘܬܐ. ܏ܘܫ.</incipit>
+                  <locus from="117a"/>ܝܕܥܝܢ ܐܢܬܘܢ ܐܚ̈ܝ ܕܥܝܢܐ ܡܬܪܓܫܢܝܬܐ ܝܚܝܕܐܝܬ ܒܝܕ ܚܝܠܐ ܗ̇ܘ ܚܙܘܝܐ̇ ܗ̇ܘ ܕܐܝܟ ܕܒܣܝܠܘܢܐ ܡܕܡ ܡܢ ܡܘܚܐ ܡܫܬܡܪ ܠܘܬܗ: ܒܠܥܕ ܕܢܫܬܘܬܦ ܥܡ ܢܘܗܪܐ ܐܚܪܢܐ̣. ܠܐ ܡܫܟܚܐ ܕܬܩܒ̇ܠ ܦܘܪ̈ܫܢܐ ܕܨܒ̈ܘܬܐ. ܏ܘܫ</incipit>
               </msItem>
               <msItem xml:id="b55" n="63">
                 <locus from="118b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
                 <title xml:lang="en">How the discreet should sit in silence</title>
                 <rubric xml:lang="syr">ܕܐܝܟܢ ܙܕܩ ܠܦܪ̈ܘܫܐ ܠܡܬܒ ܒܫܠܝܐ</rubric>
-                <note>See Assemani, p. 452, lib. ii., serm. 36.</note>
+                <note>See <bibl>Assemani, p. 452, lib. ii., serm. 36</bibl>.</note>
               </msItem>
               <msItem xml:id="b56" n="64">
                 <locus from="120a"/>
-                <title xml:lang="en">That the state of our (spiritual) life may be understood
-                  from the changes of our mind, etc.</title>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">That the state of our (spiritual) life may be understood from the changes of our mind, etc.</title>
                 <rubric xml:lang="syr">ܥܠ ܗ̇ܝ ܕܡܫܘܚܬܐ ܕܕܘܒܪܢ ܡܢ ܫܘ̈ܚܠܦܐ ܕܪܥܝܢܢ ܢܣܬܟܠ: ܘܥܠ ܣܓܝܐܘܬ
                   ܦܘܪ̈ܫܢܐ ܒܠܚܘܕ ܕܥܡ̈ܠܝܢ ܠܐ ܢܣܬܡܸܟ ܫܒܪܐܝܬ̇ ܐܠܐ ܡܫܘܚܬܐ ܕܢܦܫܢ ܢܕܥ ܐܝܟ ܚܟܝ̈ܡܐ̣ ܡܢ ܚܘܕܬܐ
                   ܕܒܟܣܝܐ ܡܬܪܓܸܫ ܒܗ̇ ܝܘܡ ܡܢ ܝܘܡ. ܘܥܠ ܛܟܣܐ ܩܛܝܢܐ ܕܝܕܘܥܬܢܘܬܐ</rubric>
-                <note>See Assemani, p. 453, lib. ii., serm. 37.</note>
+                <note>See <bibl>Assemani, p. 453, lib. ii., serm. 37</bibl>.</note>
               </msItem>
               <msItem xml:id="b57" n="65">
+                <locus from="121b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
                 <title xml:lang="en">Of the effects wrought by grace</title>
-                <rubric xml:lang="syr">ܥܠܝܗܝܢ ܕܝܠܗܝܢ ܕܡܥܒ̈ܕܢܘܬܐ ܕܡܢ ܛܝܒܘܬܐ. </rubric>
-                <incipit xml:lang="syr">
-                  <locus from="121b"/>ܗܘܝ̤ܬ ܣܐ̇ܡ ܐܬ̤ܐ ܒܢܦܫܟ ܐܡܝܢܐܝܬ
-                  ܘܡܬܒ̇ܩܐ.</incipit>
+                <rubric xml:lang="syr">ܥܠܝܗܝܢ ܕܝܠܗܝܢ ܕܡܥܒ̈ܕܢܘܬܐ ܕܡܢ ܛܝܒܘܬܐ</rubric>
+                <incipit xml:lang="syr">ܗܘܝ̤ܬ ܣܐ̇ܡ ܐܬ̤ܐ ܒܢܦܫܟ ܐܡܝܢܐܝܬ ܘܡܬܒ̇ܩܐ</incipit>
               </msItem>
               <msItem xml:id="b58" n="66">
                 <locus from="123b"/>
-                <title xml:lang="en">Of the knowledge of the truth, and of temptations;
-                  etc.</title>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Of the knowledge of the truth, and of temptations; etc.</title>
                 <rubric xml:lang="syr">ܥܠ ܝܥܕܬܐ ܕܫܪܪܐ ܘܥܠ ܢܣܝ̈ܘܢܐ ܘܥܠ ܗ̇ܝ ܕܙ̇ܕܩ ܠܡܕܥ ܚܬܝܬܐܝܬ. ܕܠܘ
                   ܒܠܚܘܕ ܐܢ̈ܫܐ ܡܚܝ̈ܠܐ ܘܒܨܝܪ̈ܐ ܘܠܐ ܡܕܪ̈ܫܐ̣. ܐܠܐ ܐܦ ܐܝܠܝܢ ܕܐܫܬܘܝܘ ܠܠܐ ܚܫܘܫܘܬܐ ܙܒܢܢܝܬܐ
                   ܘܡܛܘ ܠܓܡܝܪܘܬܐ ܕܬܪܥܝܬܐ: ܘܩܪܒ̤ܘ ܠܘܥܕܐ ܕܕܟܝܘܬܐ ܡܢܬܢܝܬܐ ܗ̇ܝ ܕܥܡ ܡܝܘܬܘܬܐ ܟܕܝܢܐ: ܘܡܛܝܘ
@@ -385,96 +487,96 @@
                   ܠܗܘܢ ܬܟܬܘܫܐ̣ ܘܡܬܫܬܚܩܝܢ ܡܢ ܚ̈ܫܐ̣ ܡܛܠ ܦܓܪܐ. ܘܗ̇ܘܝܐ ܠܘܬܗܘܢ ܒܐܡܝܢܘ ܐܦ ܡܫܬܒܩܢܘܬܐ
                   ܕܒܪ̈ܚ̣ܡܐ̣ ܡܛܠ ܩ̣ܢܛܐ ܕܪܡܘܬܐ ܒܚܕܚܕܢܝ̈ܬܐ. ܘܟܡܐ ܙܒ̈ܢܝܢ ܡܬܥܒܪܝܢ ܘܒܬܝܒܘܬܐ ܡܐܣܝܢ ܢܦܫܗܘܢ̣
                   ܘܛܝܒܘܬܐ ܡܩܒܠܐ ܠܗܘܢ</rubric>
-                <note>See Assemani, p. 453, lib. ii., serm. 38.</note>
+                <note>See <bibl>Assemani, p. 453, lib. ii., serm. 38</bibl>.</note>
               </msItem>
               <msItem xml:id="b59" n="67">
                 <locus from="125b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
                 <title xml:lang="en">Of Repentance</title>
                 <rubric xml:lang="syr">ܪܥܝܢܐ ܟܢܝܫܐ ܕܝܠܗ ܕܦܣܘܩܐ̣ ܥܡ ܣܘܟܠܐ ܕܐܝܠܝܢ ܕܐܬܐܡܪ</rubric>
-                <incipit xml:lang="syr">ܪܥܝܢܐ ܕܝܢ ܟܢܝܫܐ ܕܝܠܗ ܕܦܣܘܩܐ ܗܢܐ ܐܝܬܘܗܝ̣. ܕܢܘܕܥܢ ܕܒܟܠܥܕܢ
-                  ܒܗܠܝܢ ܥܣܪ̈ܝܢ ܘܐܪܒܥ ܫ̈ܥܝܢ ܕܠܠܝܐ ܘܕܐܝܡܡܐ̣ ܥܠ ܬܝܒܘܬܐ ܣܢܝܩܝܢ ܚܢܢ</incipit>
-                <note>See Assemani, p. 453, lib. ii., serm. 39.</note>
+                <incipit xml:lang="syr">ܪܥܝܢܐ ܕܝܢ ܟܢܝܫܐ ܕܝܠܗ ܕܦܣܘܩܐ ܗܢܐ ܐܝܬܘܗܝ̣. ܕܢܘܕܥܢ ܕܒܟܠܥܕܢ ܒܗܠܝܢ ܥܣܪ̈ܝܢ ܘܐܪܒܥ ܫ̈ܥܝܢ ܕܠܠܝܐ ܘܕܐܝܡܡܐ̣ ܥܠ ܬܝܒܘܬܐ ܣܢܝܩܝܢ ܚܢܢ</incipit>
+                <note>See <bibl>Assemani, p. 453, lib. ii., serm. 39</bibl>.</note>
               </msItem>
               <msItem xml:id="b60" n="68">
                 <locus from="127a"/>
-                <title xml:lang="en">Questions regarding the definition of the virtues, and
-                  the end of the whole ascetic life; etc.</title>
-                <rubric xml:lang="syr">ܫܘܐ̈ܠܐ ܕܥܠ ܦܘܪܫ ܡܝܬܪ̈ܬܐ ܘܥܠ ܣܟܐ ܕܟܠܗ ܪܗܛܐ: ܘܥܠ ܪܒܘܬܗ ܕܚܘܒܐ
-                  ܕܒܢܝ̈ܢܫܐ ܘܥܠ ܢܝܫܐ ܪܘܚܢܝܐ̣ ܕܗܘ̣ܝܘ ܓ̇ܡܪ ܠܟܠܗܘܢ ܩܕܝ̈ܫܐ̇ ܘܩ̇ܒܥ ܒܗܘܢ ܕܘܡܝܐ ܐܠܗܝܐ̇ ܒܚܘܒܗ
-                  ܗ̇ܘ ܥܬܝܪܐ̇ ܕܐܫܦܥ ܥܠ ܓܢܣܐ ܕܒܢ̈ܝܢܫܐ.</rubric>
-                <note>See Assemani, p. 452, lib. ii., serm. 30.</note>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Questions regarding the definition of the virtues, and the end of the whole ascetic life; etc.</title>
+                <rubric xml:lang="syr">ܫܘܐ̈ܠܐ ܕܥܠ ܦܘܪܫ ܡܝܬܪ̈ܬܐ ܘܥܠ ܣܟܐ ܕܟܠܗ ܪܗܛܐ: ܘܥܠ ܪܒܘܬܗ ܕܚܘܒܐ ܕܒܢܝ̈ܢܫܐ ܘܥܠ ܢܝܫܐ ܪܘܚܢܝܐ̣ ܕܗܘ̣ܝܘ ܓ̇ܡܪ ܠܟܠܗܘܢ ܩܕܝ̈ܫܐ̇ ܘܩ̇ܒܥ ܒܗܘܢ ܕܘܡܝܐ ܐܠܗܝܐ̇ ܒܚܘܒܗ ܗ̇ܘ ܥܬܝܪܐ̇ ܕܐܫܦܥ ܥܠ ܓܢܣܐ ܕܒܢ̈ܝܢܫܐ</rubric>
+                <note>See <bibl>Assemani, p. 452, lib. ii., serm. 30</bibl>.</note>
               </msItem>
               <msItem xml:id="b61" n="69">
-                <title xml:lang="en">Of the secret grades, and of their powers and
-                  operations</title>
+                <locus from="131a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">Of the secret grades, and of their powers and operations</title>
                 <rubric xml:lang="syr">ܥܠ ܡܘܫܚ̈ܬܐ ܟ̈ܣܝܬܐ ܘܚ̈ܝܠܐ ܘܡܥܒ̈ܕܢܘܬܐ ܕܒܗܝܢ.</rubric>
-                <incipit xml:lang="syr">
-                  <locus from="131a"/>ܗܠܝܢ ܐܚܝ̣ ܢܬܚ̈ܬܬܢ ܠܟ. ܕܣܥܘܪܘܬܐ
+                <incipit xml:lang="syr">ܗܠܝܢ ܐܚܝ̣ ܢܬܚ̈ܬܬܢ ܠܟ. ܕܣܥܘܪܘܬܐ
                   ܕܬܕܡܪ̈ܬܐ: ܘܡܩܕܡܘܬ ܒܘ̈ܕܩܐ ܕܥܬܝܕ̈ܬܐ: ܘܪܘܚܬܐ ܕܒܢܣ̈ܝܘܢܐ: ܘܢܘܚܐ ܕܡܢ ܩܪ̈ܒܐ: ܘܙܟܘܬܐ ܕܥܠ
                   ܚܕܚܕ ܡܢ ܚܫ̈ܐ: ܘܫܟܚܬܐ ܕܚܕܐ ܚܕܐ ܡܢ ܡܝܬܪ̈ܬܐ: ܘܒܘܝܐܐ ܕܡܠܸܐ ܙܒܢ ܕܡܢ ܛܝܒܘܬܐ: ܘܕܟܝܘܬܐ
                   ܕܨܠܘܬܐ ܘܪܬܚܐ ܕܪܘܚ: ܘܚܕܘܬܐ ܪܘܚܢܝܬܐ: ܘܟܠ ܫܐ̈ܠܬܐ ܐܚܪ̈ܢܝܬܐ ܕܒܟܠ ܙܢܐ ܕܢܥ̣ܒܕ ܒܪܢܫܐ ܠܐܘܬܐ
                   ܥܠ ܐ̈ܦܝܗ̇ ܕܟܠ ܚܕܐ ܡܢ ܗܠܝܢ̇ ܒܢܝܫܐ ܫܦܝܪܐ ܘܚܢܓܬܐ ܕܠܒܐ̣. ܡܬܪܟܸܢ ܐܠܗܐ ܠܨܒܝܢܗ ܕܗ̇ܘ ܡ̇ܢ
-                  ܕܗ̣ܘ. ܏ܘܫ.</incipit>
+                  ܕܗ̣ܘ. ܏ܘܫ</incipit>
               </msItem>
               <msItem xml:id="b62" n="70">
+                <locus from="131b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
                 <title xml:lang="en">Short sentences</title>
                 <rubric xml:lang="syr">ܪ̈ܫܐ ܕܦܣ̈ܝܩܬܐ</rubric>
-                <incipit xml:lang="syr">
-                  <locus from="131b"/>ܛܘܒܢܐ ܦܘܠܘܣ ܠܩܕ̈ܝܫܐ̣ ܐ̇ܡܪ. ܫܘܠܚܘܗܝ
-                  ܠܒܪܢܫܐ ܥܬܝܩܐ̣. ܏ܘܫ.</incipit>
+                <incipit xml:lang="syr">ܛܘܒܢܐ ܦܘܠܘܣ ܠܩܕ̈ܝܫܐ̣ ܐ̇ܡܪ. ܫܘܠܚܘܗܝ ܠܒܪܢܫܐ ܥܬܝܩܐ̣. ܏ܘܫ</incipit>
               </msItem>
               <msItem xml:id="b63" n="71">
+                <locus from="132b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
                 <title xml:lang="en">Another section</title>
-                <rubric xml:lang="syr">ܚ̈ܝܐ ܡܠܸܐ </rubric>
-                <incipit xml:lang="syr">
-                  <locus from="132b"/>ܐܘ ܒܪܢܫܐ ܚܠܫܐ ܨܒ̇ܐ ܐܢܬ ܠܡܫܟܚܘ
-                  ܚ̈ܝܐ̣. ܗܝܡܢܘܬܐ ܘܡܟܝܟܘܬܐ ܠܒܘܟ ܠܟ. ܏ܘܫ.</incipit>
-                <note>See Assemani, p. 452, lib. ii., serm. 31.</note>
+                <rubric xml:lang="syr">ܪܫܐ ܗܢܐ݂ ܚ̈ܝܐ ܡܠ̤ܐ</rubric>
+                <incipit xml:lang="syr">ܐܘ ܒܪܢܫܐ ܚܠܫܐ ܨܒ̇ܐ ܐܢܬ ܠܡܫܟܚܘ ܚ̈ܝܐ̣. ܗܝܡܢܘܬܐ ܘܡܟܝܟܘܬܐ ܠܒܘܟ ܠܟ. ܏ܘܫ</incipit>
+                <note>See <bibl>Assemani, p. 452, lib. ii., serm. 31</bibl>.</note>
               </msItem>
               <msItem xml:id="b64" n="72">
                 <locus from="136a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
                 <title xml:lang="en">On the advantage of fleeing from the world </title>
-                <rubric xml:lang="syr">ܥܠ ܝܘܬܪܢܐ ܕܡܢ ܥܪܘܩܝܐ ܕܡܢ ܥܠܡܐ̇. ܕܒܒܘܚܢܐ ܕܚܟܡܬܐ ܐܬܦܪܣܘܗܝ
-                  ܐܒܗ̈ܬܐ ܠܦܘܪܣܐ ܗܢܐ</rubric>
-                <note>See Assemani, p. 452, lib. ii., serm. 32.</note>
+                <rubric xml:lang="syr">ܥܠ ܝܘܬܪܢܐ ܕܡܢ ܥܪܘܩܝܐ ܕܡܢ ܥܠܡܐ̇. ܕܒܒܘܚܢܐ ܕܚܟܡܬܐ ܐܬܦܪܣܘܗܝ ܐܒܗ̈ܬܐ ܠܦܘܪܣܐ ܗܢܐ</rubric>
+                <note>See <bibl>Assemani, p. 452, lib. ii., serm. 32</bibl>.</note>
               </msItem>
               <msItem xml:id="b65" n="73">
                 <locus from="136b"/>
-                <title xml:lang="en">How the inward emotions change with the change of the
-                  outward life</title>
-                <rubric xml:lang="syr">ܥܠ ܗ̇ܝ ܕܐܝܟܢ ܩ̇ܢܝܢ ܫܘܚܠܦܐ ܙܘ̈ܥܐ ܟ̈ܣܝܐ ܥܡܗ ܕܫܘܚܠܦܐ ܕܕܘܒܪܐ
-                  ܕܠܒܪ</rubric>
-                <note>See Assemani, p. 452, lib. ii., serm. 33.</note>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
+                <title xml:lang="en">How the inward emotions change with the change of the outward life</title>
+                <rubric xml:lang="syr">ܥܠ ܗ̇ܝ ܕܐܝܟܢ ܩ̇ܢܝܢ ܫܘܚܠܦܐ ܙܘ̈ܥܐ ܟ̈ܣܝܐ ܥܡܗ ܕܫܘܚܠܦܐ ܕܕܘܒܪܐ ܕܠܒܪ</rubric>
+                <note>See <bibl>Assemani, p. 452, lib. ii., serm. 33</bibl>.</note>
               </msItem>
               <msItem xml:id="b66" n="74">
                 <locus from="139a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
                 <title xml:lang="en">Of nightly vigils</title>
                 <rubric xml:lang="syr">ܥܠ ܫܗܪܐ ܕܠܝܠܘ̈ܬܐ ܘܥܠ ܦܘܪ̈ܫܢܐ ܣܓ̈ܝܐܐ ܕܙܢܝ̈ ܥ̈ܡܠܐ ܕܒܗ. ܘܕܠܐ
                   ܙܕ݁ܩ ܕܢܝܫܐ ܕܥܡ̈ܠܝܢ ܠܡܘܠܝܐ ܕܟܡܝܘܬܐ ܢܗܘܐ̣. ܐܠܐ ܚܐܪܐܝܬ݂ ܘܒܦܘܪܫܢܐ ܐܝܟ ܒ̈ܢܝܐ ܕܐܠܗܐ
                   ܕܦ̇ܠܚܝܢ ܥܡ ܐܒܘܗܘܢ ܒܣܘܘܚܐ ܕܚܘܒܐ. ܘܕܟܡܐ ܝܩܝܪ ܥܡܠܐ ܕܫܗܪܐ ܝܬܝܪ ܡܢ ܟܠܗܘܢ ܕܘܒܪ̈ܐ:
                   ܘܕܐܝܠܝܢ ܬܒ̇ܥ ܠܗܢܘܢ ܕܓ̇ܒܝܢ ܠܥܡܠܐ ܗܢܐ̣. ܘܕܐܝܟܢ ܢܪܕܘܢ ܒܗ̣ ܘܥܠ ܫܘ̈ܟܢܐ ܕܠܗܘܢ ܡܫܬܸܘܝܢ ܡܢ
                   ܐܠܗܐ̇. ܘܥܠ ܐܓܘ̈ܢܐ ܕܗ̇ܘܝܢ ܠܘܩܒܠܗܘܢ ܡܢ ܐܪܟܘܢܗ ܕܥܠܡܐ</rubric>
-                <note>See Assemani, p. 460, lib. iv., serm. 16.</note>
+                <note>See <bibl>Assemani, p. 460, lib. iv., serm. 16</bibl>.</note>
               </msItem>
               <msItem xml:id="b67" n="75">
                 <locus from="145a"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
                 <title xml:lang="en">Reply to a question of a brother</title>
                 <rubric xml:lang="syr">ܦܝܣܐ ܕܫܘܐܠܐ ܕܠܘܬ ܐܚܐ ܕܬܒܥܗ ܕܠܡܢܐ ܟܕ ܡܪܢ ܠܕܘܡܝܐ ܕܠܘܬ ܗ̇ܝ ܪܒܘܬܐ
                   ܕܐܒܐ ܕܒܫܡܝܐ ܠܡܪܚܡܢܘܬܐ ܬ݁ܚ̣ܡ. ܝܚ̈ܝܕܝܐ ܕܝܢ ܠܫܠܝܐ ܡܝܩܪܝܢ ܝܬܝܪ ܡܢܗ̇. ܘܡܦܣ ܒܪܘܚܐ ܕܥܠ
                   ܗܕܐ̣. ܘܕܠܐ ܙܕ݁ܩ ܠܡܗܡܝܘ ܒܐܠܝܨ̈ܐ ܘܒܡܪ̈ܥܐ ܐܡܬܝ ܕܩܪܝܒܝܢ</rubric>
-                <note>See Assemani, p. 458, lib. iii., serm. 41.</note>
+                <note>See <bibl>Assemani, p. 458, lib. iii., serm. 41</bibl>.</note>
               </msItem>
               <msItem xml:id="b68" n="76">
                 <locus from="147b"/>
+                <author ref="http://syriaca.org/person/550">Isaac of Nineveh</author>
                 <title xml:lang="en">Of humility</title>
                 <rubric xml:lang="syr">ܥܠ ܕܟܡܐ ܐܝܩܪܐ ܩ̇ܢܝܐ ܡܟܝܟܘܬܐ. ܘܟܡܐ ܪܡ ܕܪܓܗ̇.</rubric>
-                <finalRubric xml:lang="syr">ܫܠܡܸܬ ܦܠܓܘܬܐ ܩܕܡܝܬܐ ܕܡܪܝ ܐܝܣܚܩ܀ ܫܒܩܘ ܠܝ܀ ܏ܘܫ.<locus from="149b"/>
-                </finalRubric>
-                <note>See Assemani, p. 453, lib. ii., serm. 43.</note>
+                <note>See <bibl>Assemani, p. 453, lib. ii., serm. 43</bibl>.</note>
               </msItem>
             </msItem>
           </msContents>
           <physDesc>
+            <p>Vellum, about 9 1/8 in. by 5 7/8, consisting of 149 leaves, several of which are much stained and torn, especially foll. 45—49, 52, 53, 60, 61, 68,
+              70, 99, and 149. The quires, signed with letters, were originally 18 in number, of which the first two are lost, and <foreign xml:lang="syr">ܘ, ܙ, and ܚ</foreign> are very imperfect.</p>
             <objectDesc form="codex">
               <supportDesc material="perg">
                 <extent>
@@ -486,7 +588,7 @@
                   <list>
                     <item>
                       <p>Vellum, about 9 1/8 in. by 5 7/8, consisting of 149 leaves, several of which are much stained and torn, especially foll. 45—49, 52, 53, 60, 61, 68,
-                        70, 99, and 149. The quires, signed with letters, were originally 18 in number, of which the first two are lost, and $ܘ , $ܙ and $ܚ are very imperfect.</p>
+                        70, 99, and 149. The quires, signed with letters, were originally 18 in number, of which the first two are lost, and $ܘ , $ܙ and $ܚ are very imperfect. Leaves are wanting after foll. 45, 47, 48, 50, 51, 519, and 78. The number of lines in each page varies from 26 to 33. The place of the two lost quires has been supplied by 17 paper leaves (foll. 1-17).</p>
                     </item>
                   </list>
                 </condition>
@@ -497,12 +599,10 @@
             </objectDesc>
             <handDesc hands="2">
               <handNote xml:id="handNote1" medium="unknown" scope="major" script="syr-Syrn">
-                <desc>Nestorian hand, with occasional Syriac vowels, and seems to be of the xth
-                  cent. </desc>
+                <desc>This folume is written in a good, Nestorian hand, with occasional Syriac vowels, and seems to be of the <date>xth cent.</date></desc>
               </handNote>
               <handNote xml:id="handNote2" medium="unknown" scope="minor" script="syr-Syrj">
-                <desc>written in an ordinary, current hand, with Greek vowels, of about the xiiith
-                  cent.</desc>
+                <desc>Foll. 1-17 are written in an ordinary, current hand, with Greek vowels, of about the <date>xiiith cent.</date></desc>
               </handNote>
             </handDesc>
             <additions>
@@ -510,21 +610,21 @@
                 <item xml:id="addition1" n="1">
                   <locus from="1b"/>
                   <p>On fol. 1 b there is a note, rather carelessly written, stating that the
-                    manuscript belonged to the convent of S. Mary Deipara, and that the first two
-                    (paper) quires had been copied by one Rabban Matthew, of Tur-#Abdin, during the
-                    time that Rabban Joseph was abbat, from another manuscript, which was then in
-                    the convent of S. Mary Deipara, but which had been since conveyed by the abbat
-                    Constantine,—the first of the name, not the second,—to the convent of S. Antony,
+                    manuscript belonged to <placeName ref="http://syriaca.org/place/360">the convent of S. Mary Deipara</placeName>, and that the first two
+                    (paper) quires had been copied by one <persName>Rabban Matthew, of <placeName ref="http://syriaca.org/place/221">Tur-ʾAbdīn</placeName></persName>, during the
+                    time that <persName>Rabban Joseph</persName> was abbat, from another manuscript, which was then in
+                    <placeName ref="http://syriaca.org/place/360">the convent of S. Mary Deipara</placeName>, but which had been since conveyed by <persName>the abbat
+                      Constantine</persName>,—the first of the name, not the second,—to <placeName ref="http://syriaca.org/place/668">the convent of S. Antony</placeName>,
                     with a silver cross. He died there, and neither the book nor the cross had been
                     restored to their rightful owners. It is also stated that, at the time when this
-                    note was written, there were many Syriac manuscripts in the convent of S. Paul,
-                    which is near that of S. Antony. This convent once belonged to the Syrians, but
+                    note was written, there were many Syriac manuscripts in <placeName>the convent of S. Paul,
+                      which is near that of S. Antony</placeName>. This convent once belonged to the Syrians, but
                     had subsequently been seized by the Copts.</p>
                   <p>
                     <quote xml:lang="syr">ܐܝܬܘܗܝ ܟܬܒܐ ܠܕܝܪܐ ܕܣܘܪ̈ܝܝܐ. ܟܠ ܕܩ̇ܪܐ ܢܨ̇ܠܐ ܥܠ ܟܠ ܕܐܫܬܘܬܦ.
                       ܘܠܐ ܫ̇ܠܝܛ ܠܐܢܫ ܕܢܦܩܝܗܝ ܡܢܗ̇ ܕܕܝܪܐ ܕܐܡܝܪܐ. ܟܠ ܕܝܢ ܕܣ̇ܥܐ ܢܬܬܕܝܢ ܟܐܢܐܝܬ ܐܡܝܢ.
-                      ܘܗܠܝܢ ܬܪ̈ܝܢ ܟܘܪ̈ܣܐ ܕܘܪܩ ܕܟܬܝ̣ܒܝܢ ܒܫܘܪܝܗ ܟܬ݂ܒ ܐܢ̈ܝܢ ܪܒܢ ܡܬܝ ܕܡܢ ܛܘܪ ܐܒܕܝܢ (sic)
-                      ܕܥܡ̣ܪ ܒܕܝܪܐ ܗܕܐ ܒܙܒܢܗ ܕܪܒܢ ܝܘܣܦ ܡܥܓܪܐ (sic) ܘ܏܏ܩܕ. ܘܟܬܒ ܐܢ̈ܝܢ ܡܢ ܢܘܣܟܐ ܕܟܬܒܐ
+                      ܘܗܠܝܢ ܬܪ̈ܝܢ ܟܘܪ̈ܣܐ ܕܘܪܩ ܕܟܬܝ̣ܒܝܢ ܒܫܘܪܝܗ ܟܬ݂ܒ ܐܢ̈ܝܢ ܪܒܢ ܡܬܝ ܕܡܢ ܛܘܪ ܐܒܕܝܢ <foreign xml:lang="en">(sic)</foreign>
+                      ܕܥܡ̣ܪ ܒܕܝܪܐ ܗܕܐ ܒܙܒܢܗ ܕܪܒܢ ܝܘܣܦ ܡܥܓܪܐ <foreign xml:lang="en">(sic)</foreign> ܘ܏܏ܩܕ. ܘܟܬܒ ܐܢ̈ܝܢ ܡܢ ܢܘܣܟܐ ܕܟܬܒܐ
                       ܐܚܪܢܐ ܐܚܘܗܝ ܕܗܢܐ ܟܬܒܐ ܕܐܝܬ ܗܘܐ ܒܗ̇ܘ ܙܒ̣݁ܢܐ ܒܕܝܪܐ ܗܕܐ. ܒܙܒܢ ܩܘܣܛܢܛܝܢ ܪܝܫܕܝܪܐ
                       ܩܕܡܝܐ ܠܘ ܐܚܪܝܐ ܡܛܠ ܕܬܪ̈ܝܢ ܪ̈ܝܫܕܝܪ̈ܐ ܗܘܘ ܒܫܡܐ ܕܩܘܣܛܢܛܝܢ ܗ̇ܘ̣ ܘܗܢܐ ܟܕ ܣܒ̣ܥ ܡܢ
                       ܪܝܫܢܘܬܐ ܐܘܟܝܬ ܡܢ ܩܝ̈ܢܕܘܢܣܐ ܘܥܝ̈ܛܐ ܕܕܝܪ̈ܝܐ ܕܪܥܝܢ ܪ̈ܘܚܐ ܫ̇ܢܝ ܐܘܟܝܬ ܥ̣ܪܩ ܠܕܝܪܐ
@@ -537,49 +637,44 @@
                       ܕܨܝܕ ܕܝܪܐ ܕܡܪܝ ܐܢܛܘܢ ܕܝܠܢ ܗܘܬ ܠܣܘܪ̈ܝܝܐ ܐܝܟ ܗ[ܕܐ] ܘܐܝܬ [ܬܡܢ] ܟ̈ܬܒܐ ܣܓܝ̈ܐܐ
                       ܣܘܪ̈ܝܝܐ ܥܕܡܐ ܠܝܘܡܢ. ܐܠܐ ܥܠ ܕܥܬܝـ[ـܕ] ܙܒ݁ܢ̣ܐ ܘܐܬܓܪܕܝܘ ܣܘܪ̈ܝܝܐ ܡܢ ܬܡܢ. ܚܛܦܘܗ̇
                       ܐܝܓܦ̈ܛܝܐ. ܐܠܐ ܘ . . . ܠܝܬ ܡ̇ܢ ܕܢܒ̇ܚܢ ܥܡܗܘܢ ܘܢܦܪܩܝܗ̇ ܡܢ ܐܝ̈ܕܝܗܘܢ ܘܣܟܐ ܨ̇ܠܘ ܥܠܝܢ
-                      ܒܒܥܘ. </quote>
+                      ܒܒܥܘ.</quote>
                   </p>
                 </item>
                 <item xml:id="addition2" n="2">
                   <locus from="2a"/>
-                  <p>we find, among other short sentences, the following</p>
+                  <p>On fol. 2 a we find, among other short sentences, the following:</p>
                   <p>
-                    <quote xml:lang="syr">ܒܪܝܟ ܠܐܠܗܐ ܡܪܝ ܝܘܚܢܢ ܐܦܝܣܩܦܐ ܕܠܟܘܣܝܬܐ ܫܩܠ ܡܢ ܡ̇ܢ ܕܡܒܙܚ
-                      ܒܗ̇.</quote>
+                    <quote xml:lang="syr">ܒܪܝܟ ܠܐܠܗܐ ܡܪܝ ܝܘܚܢܢ ܐܦܝܣܩܦܐ ܕܠܟܘܣܝܬܐ ܫܩܠ ܡܢ ܡ̇ܢ ܕܡܒܙܚ ܒܗ̇</quote>
                   </p>
                 </item>
                 <item xml:id="addition3" n="3">
-                  <p>On this page there is also the following recipe for the manufacture of ink,
+                  <locus from="2a"/>
+                  <p>On fol. 2 a there is also the following recipe for the manufacture of ink,
                     such as "the Egyptian fathers, who lived in this desert of Scete, used for
-                    writing." </p>
+                    writing."</p>
                   <p>
                     <quote xml:lang="syr">ܐܢ ܨ̇ܒܐ ܐܢܬ ܚܒܪܐ ܕܪܩ. ܣܒ̣ ܩ̈ܠܦܐ ܕܥܩܪܐ ܕܩܝܣܐ ܕܫܟܝ̣ܚ ܒܡܕܒܪܐ
                       ܗܢܐ ܕܫܡܗ ܐܪܛܐ: ܘܕܘܩܗ ܟܕ ܗ̣ܘ ܪܓܝܐ. ܘܒ̇ܫܠܝܗ ܥܠ ܢܘܪܐ ܛ̇ܐܒܐܝܬ ܒܚ̇ܡܪܐ ܐܘܟܡܐ ܘܒܚ̇ܠܐ
                       ܕܚܡܪܐ. ܘܟܢ ܢܩ̇ܝ ܘܣܝ̣ܡ ܥܠܘܗܝ ܫܚܪܬܐ ܩܠܝܠ ܘܨܡܓܐ ܥܪܒܝܐ. ܕܡܢܗܝܢ ܟܬܒܝܢ ܐܒܗ̈ܬܐ ܡܨܪ̈ܝܐ
                       ܕܥܡܪܝܢ ܒܡܕܒܪܐ ܗܢܐ ܕܐܣ̈ܩܛܝ. ܘܨ̇ܠܐ ܥܠܝ ܐܚܝ.</quote>
                   </p>
+                  <p>"If you wish to make ink for parchment, take parings of the root of a tree
+                    which grows in this desert, called arṭā (<foreign xml:lang="ar">أَ‎رْطا</foreign>), and pound them whilst fresh, and boil
+                    them well on the fire in black (red) wine and vinegar made from wine. Then
+                    strain, and add a little vitriol and gum arabic (<foreign xml:lang="ar">صَمْغ عَرَبي</foreign>)."</p>
                 </item>
                 <item xml:id="addition4" n="4">
-                  <p>"If you wish to make ink for parchment, take parings of the root of a tree
-                    which grows in this desert, called arta, and pound them whilst fresh, and boil
-                    them well on the fire in black (red) wine and vinegar made from wine. Then
-                    strain, and add a little vitriol and gum arabic.”</p>
-                </item>
-                <item xml:id="addition5" n="5">
                   <locus from="17b"/>
                   <p>On fol. 17 b there is another recipe for the same purpose, but written by a
-                    different hand. </p>
+                    different hand.</p>
                   <p>
                     <quote xml:lang="syr">ܐܢ ܨ̇ܒܐ ܐܢܬ ܕܬܥ̣ܒܕ ܕܝܘܬܐ ܕܪܩ ܐܘܟܝܬ ܚܒܪܐ. ܕܘܩ ܥܦ̈ܨܐ ܐܝܟ
                       ܚ̈ܡܨܐ ܘܣܝ̣ܡ ܥܠܝܗܝܢ ܚܲܠܐ ܘܚܲܡܪܐ ܬܩܝܦܐ ܟܡܐ ܕܡܨܝܐ ܘܒܬܪ ܏ܓ ܝܘܡ̈ܬܐ ܢܩ̇ܝ ܐܢܝ̈ܢ ܘܣܝ̣ܡ
                       ܒܡܐܢܐ ܘܐܪܡܐ ܥܠܝܗܝܢ ܩܠܝܠ ܙܐܓ ܘܟܢ ܟܬܘܒ.</quote>
                   </p>
-                </item>
-                <item xml:id="addition6" n="6">
-                  <p>“If you wish to make ink for parchment, pound galls of the size of peas, and
+                  <p>"If you wish to make ink for parchment, pound galls of the size of peas, and
                     pour over them vinegar and strong wine, as much as you can. After three days
-                    strain and put into a vessel, and throw in a little vitriol and then use for
-                    writing."</p>
+                    strain and put into a vessel, and throw in a little vitriol (<foreign xml:lang="ar">زاگ</foreign>)<!-- WLP: Wright here uses the Persian letter gâf (گ), but the Arabic for 'vitriol' is  زاج--> and then use for writing."</p>
                 </item>
               </list>
             </additions>
@@ -593,8 +688,7 @@
           </physDesc>
           <history>
             <origin>
-              <origDate notBefore="0900" notAfter="1000">of the xth
-                cent</origDate>
+              <origDate notBefore="0900" notAfter="1000">xth cent.</origDate>
               <origPlace/>
             </origin>
             <provenance/>
@@ -620,6 +714,7 @@
                 <ptr target="http://syriaca.org/bibl/8"/>
                 <citedRange unit="entry">DCXCV</citedRange>
                 <citedRange unit="pp">2:576-581</citedRange>
+                <ref type="internet-archive-pdf" target="https://archive.org/details/catalogueofsyria02brituoft/page/576"/>
               </bibl>
             </listBibl>
           </additional>
@@ -784,6 +879,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc status="draft">
+      <change who="http://syriaca.org/documentation/editors.xml#wpotter" when="2023-05-19">CHANGED: Edited manuscript record</change>
       <change who="http://syriaca.org/documentation/editors.xml#srophe-util" when="2023-05-19">CHANGED: Added project metadata; metadata from Wright Decoder; msItem, handDesc, and additions enumeration; Wright Taxonomy designation</change>
       <change who="http://syriaca.org/documentation/editors.xml#aahn">Initial TEI encoding.</change>
     </revisionDesc>
